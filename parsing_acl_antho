@@ -9,37 +9,38 @@ def process_antho_xml_file(url, filename):
 
     if response.status_code == requests.codes.ok:
         tree = ElementTree.fromstring(response.content)
-        
-        for subtree in tree[0]:
-            if (subtree.tag == "paper"):
 
-                titleDict = {}
-                abstractDict = {}
+        for subtree in tree.findall(".//paper"):
+
+            titleDict = {}
+            abstractDict = {}
+
+            # iterate through the subtree of the paper tag to extract different language titles and abstracts
+            for child in subtree:
+
+                text = child.text
+                # text = ' '.join(child.itertext()) # as to not ignore text after href
+
+                # look for whether title or abstract
+                title = re.search("title_", child.tag)
+                abstract = re.search("abstract_", child.tag)
                 
-                # iterate through the subtree of the paper tag to extract different language titles and abstracts
-                for child in subtree:
+                # save to respective dictionary
+                if child.tag == "title":
+                    titleDict["en"] = text
 
-                    text = ' '.join(child.itertext()) # english is weird due to subtags
-
-                    # look for whether title or abstract
-                    title = re.search("title_", child.tag)
-                    abstract = re.search("abstract_", child.tag)
+                elif child.tag == "abstract":
                     
-                    # save to respective dictionary
-                    if child.tag == "title":
-                        titleDict["en"] = text
+                    abstractDict["en"] = text
 
-                    elif child.tag == "abstract":
-                        abstractDict["en"] = text
+                elif title:
+                    titleDict[child.tag[title.span()[1]:]] = text
 
-                    elif title:
-                        titleDict[child.tag[title.span()[1]:]] = text
+                elif abstract:
+                    abstractDict[child.tag[abstract.span()[1]:]] = text
 
-                    elif abstract:
-                        abstractDict[child.tag[abstract.span()[1]:]] = text
-                    
-                # add dictionaries to file
-                f.write(str(titleDict) + "\n" + str(abstractDict) + "\n")
+            # add dictionaries to file
+            f.write(str(titleDict) + "\n" + str(abstractDict) + "\n")
     else:
         print('Content was not found.')
 
@@ -64,8 +65,3 @@ for file in res["tree"]:
         # add dictionaries as lines in txt file
         process_antho_xml_file(url, "data/" + path[xmlFiles.span()[1]:-4] + ".txt")
         print("file processed: ", path[xmlFiles.span()[1]:-4])
-
-
-# convert the lines in file to big list
-# langDictLst = list(map(eval, open("data/langDicts.txt").readlines()))
-# print(type(langDictLst[0]))
