@@ -17,9 +17,12 @@ def process_antho_xml_file(url, filename):
 
             # iterate through the subtree of the paper tag to extract different language titles and abstracts
             for child in subtree:
-
-                text = child.text
-                # text = ' '.join(child.itertext()) # as to not ignore text after href
+                
+                # ignore text from 'fixed-case' subelems but still get text from other subelems such as 'a' for hyperlinks
+                for elem in child.findall("fixed-case"):
+                    child.remove(elem)
+                
+                text = "".join(child.itertext())
 
                 # look for whether title or abstract
                 title = re.search("title_", child.tag)
@@ -29,8 +32,8 @@ def process_antho_xml_file(url, filename):
                 if child.tag == "title":
                     titleDict["en"] = text
 
+
                 elif child.tag == "abstract":
-                    
                     abstractDict["en"] = text
 
                 elif title:
@@ -38,7 +41,7 @@ def process_antho_xml_file(url, filename):
 
                 elif abstract:
                     abstractDict[child.tag[abstract.span()[1]:]] = text
-
+                
             # add dictionaries to file
             f.write(str(titleDict) + "\n" + str(abstractDict) + "\n")
     else:
