@@ -4,7 +4,7 @@ def get_model_config(model):
     if 'gpt' in model:
         api_key = None
         # org_id = random.sample([0, 1], 1)
-        org_id = 4
+        org_id = 1
         model_path = None
     elif model == 'llama3_8b':
         api_key = "EMPTY"
