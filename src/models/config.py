@@ -9,7 +9,7 @@ def get_model_config(model):
     elif model == 'llama3_8b':
         api_key = "EMPTY"
         org_id = "http://127.0.0.1:3636/v1"
-        model_path = "/data/user_data/jiaruil5/.cache/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/c4a54320a52ed5f88b7a2f84496903ea4ff07b45/"
+        model_path = "/home/iouzzani/.cache/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/c4a54320a52ed5f88b7a2f84496903ea4ff07b45/"
     elif model == 'llama2_7b':
         api_key = "EMPTY"
         org_id = "http://127.0.0.1:2525/v1"

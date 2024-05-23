@@ -10,7 +10,7 @@ model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 # model_name = "chavinlo/alpaca-native"
 
-cache_dir = "/data/user_data/jiaruil5/.cache"
+cache_dir = "/home/iouzzani/.cache"
 
 tokenizer = transformers.AutoTokenizer.from_pretrained(
     model_name,
