@@ -3,10 +3,11 @@ from nltk.tokenize import sent_tokenize
 import torch
 import json
 import os
-from google.cloud import translate_v2 as translate
+# from google.cloud import translate_v2 as translate
+# from googletrans import Translator
 import nltk
 nltk.download('punkt')
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path_to_your_service_account.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path_to_your_service_account.json"
 
 
 class Translator:
@@ -16,9 +17,9 @@ class Translator:
             self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
             self.processor = AutoProcessor.from_pretrained(model_name, use_fast=False)
             self.model = SeamlessM4TModel.from_pretrained(model_name).to(self.device)
-            self.translate_client = translate.Client()
-            self.tag_lang_map_m4t = {"Chinese": "cmn", "English": "eng", "French": "fra", "German": "deu", "Italian": "ita", "Japanese": "jpn", "Korean": "kor", "Portuguese": "por", "Russian": "rus", "Spanish": "spa"}
-            self.tag_lang_map_google = {"Chinese": "zh", "English": "en", "French": "fr", "German": "de", "Italian": "it", "Japanese": "ja", "Korean": "ko", "Portuguese": "pt", "Russian": "ru", "Spanish": "es"}
+            # self.translate_client = Translator()
+            self.tag_lang_map_m4t = {"Chinese": "cmn", "English": "eng", "French": "fra", "German": "deu", "Italian": "ita", "Japanese": "jpn", "Korean": "kor", "Portuguese": "por", "Russian": "rus", "Spanish": "spa", "Arabic":"arb"}
+            self.tag_lang_map_google = {"Chinese": "zh", "English": "en", "French": "fr", "German": "de", "Italian": "it", "Japanese": "ja", "Korean": "ko", "Portuguese": "pt", "Russian": "ru", "Spanish": "es", "Arabic":"ar"}
             
     def translate_term_m4t(self, src_dict, full_src_lang, full_tag_lang):
         src_lang = self.tag_lang_map_m4t.get(full_src_lang)

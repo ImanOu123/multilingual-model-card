@@ -1,0 +1,62 @@
+{
+    "Chinese": {
+        "Mix Transformer": "混合变压器",
+        "ImageNet-1K": "图像网-1K",
+        "effective receptive field": "有效的受体场",
+        "position encoding": "位置编码",
+        "FLOPs": "飞<unk>",
+        "latency": "延迟时间",
+        "bias analysis": "偏见分析",
+        "fairness considerations": "公平考虑",
+        "robustness results": "强度结果",
+        "mean Intersection over Union (mIoU)": "欧盟的平均交叉点 (mIoU)"
+    },
+    "Russian": {
+        "Mix Transformer": "Смеситель трансформатора",
+        "ImageNet-1K": "ImageNet-1K (англ. ImageNet-1K)",
+        "effective receptive field": "эффективное восприимчивое поле",
+        "position encoding": "кодирование положения",
+        "FLOPs": "ФЛОПы",
+        "latency": "латентность",
+        "bias analysis": "анализ предвзятости",
+        "fairness considerations": "соображения справедливости",
+        "robustness results": "результаты надежности",
+        "mean Intersection over Union (mIoU)": "среднее пересечение над Союзом (mIoU)"
+    },
+    "Japanese": {
+        "Mix Transformer": "ミックス・トランスフォーマー",
+        "ImageNet-1K": "イメージネット-1K",
+        "effective receptive field": "有効な受容場",
+        "position encoding": "位置エンコーディング",
+        "FLOPs": "フロップ",
+        "latency": "レイテンシー",
+        "bias analysis": "偏見分析",
+        "fairness considerations": "公平性の考慮",
+        "robustness results": "強度の結果",
+        "mean Intersection over Union (mIoU)": "ユニオン上の平均交差点 (mIoU)"
+    },
+    "French": {
+        "Mix Transformer": "Transformateur de mélange",
+        "ImageNet-1K": "ImageNet-1K est disponible sur le site Internet",
+        "effective receptive field": "champ réceptif effectif",
+        "position encoding": "codage de position",
+        "FLOPs": "Les FLOP",
+        "latency": "latence",
+        "bias analysis": "analyse du biais",
+        "fairness considerations": "considérations d'équité",
+        "robustness results": "résultats de robustesse",
+        "mean Intersection over Union (mIoU)": "intersection moyenne au-dessus de l'Union (mIoU)"
+    },
+    "Arabic": {
+        "Mix Transformer": "محول الخليط",
+        "ImageNet-1K": "ImageNet-1K",
+        "effective receptive field": "الحقل الاستقبال الفعال",
+        "position encoding": "ترميز الموقف",
+        "FLOPs": "FLOPs",
+        "latency": "التأخير",
+        "bias analysis": "تحليل التحيز",
+        "fairness considerations": "اعتبارات الإنصاف",
+        "robustness results": "نتائج القوة",
+        "mean Intersection over Union (mIoU)": "متوسط التقاطع فوق الاتحاد (mIoU)"
+    }
+}
