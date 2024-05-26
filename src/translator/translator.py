@@ -43,6 +43,7 @@ class SeamlessTranslator(Translator):
             skip_special_tokens=True
         )
         return translated_text
+
             
 class GoogleTranslator(Translator):
     def prepare_model(self):
@@ -55,3 +56,38 @@ class GoogleTranslator(Translator):
             dest=self.args.lang_dict[tgt_lang],
             src=self.args.lang_dict[src_lang]
         )
+        return translated_text
+
+class LLMTranslator(Translator):
+    def prepare_model(self):
+        import sys
+        from llm_prompts import get_prompt
+        self.get_prompt = get_prompt
+        
+        sys.path.append("../")
+        from models.config import get_model_config
+        from models.llm import call
+        self.config = get_model_config(self.args.model_name)
+        def llm_config_func(llm):
+            llm.temperature = 0
+            llm.max_tokens = 4096
+            return llm
+        self.llm_config_func = llm_config_func
+        self.call = call
+    
+    def translate(self, text, src_lang, tgt_lang, prompt_version: str):
+        
+        prompt = self.get_prompt(
+            text,
+            self.args.lang_dict[src_lang],
+            self.args.lang_dict[tgt_lang],
+            prompt_version
+        )
+        
+        res = self.call(
+            prompt,
+            self.llm_config_func,
+            has_system_prompt = True,
+            model_version = self.args.model_name
+        )
+        return res
