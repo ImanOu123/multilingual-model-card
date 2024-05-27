@@ -44,6 +44,38 @@ class SeamlessTranslator(Translator):
         )
         return translated_text
 
+class MaskedSeamlessTranslator(SeamlessTranslator):
+    """
+    Masked decoding Seamless Translator implementation
+    """      
+    def translate(self, text, src_lang, tgt_lang, tgt_list):
+        from transformers import PhrasalConstraint
+        constraints = [
+            PhrasalConstraint(
+                self.processor(
+                    item,
+                    src_lang=self.args.lang_dict[tgt_lang]
+                ).input_ids
+            ) for item in tgt_list
+        ]
+        text_inputs = self.processor(
+            text = text,
+            src_lang = self.args.lang_dict[src_lang],
+            return_tensors="pt"
+        )
+        output_tokens = self.model.generate(
+            **text_inputs.to(self.device),
+            tgt_lang=self.args.lang_dict['Chinese'],
+            generate_speech=False,
+            constraints=constraints,
+            num_beams=10,
+            # num_return_sequences=1,
+        )
+        translated_text = self.processor.decode(
+            output_tokens[0].tolist()[0],
+            skip_special_tokens=True
+        )
+        return translated_text
             
 class GoogleTranslator(Translator):
     def prepare_model(self):
