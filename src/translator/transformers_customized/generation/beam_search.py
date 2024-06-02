@@ -556,7 +556,8 @@ class ConstrainedBeamSearchScorer(BeamScorer):
                 - **next_beam_indices** (`torch.FloatTensor` of shape `(batch_size * num_beams)`) -- Beam indices
                 indicating to which beam the next tokens shall be added.
         """
-
+        print("input ids:", input_ids)
+        print("next tokens:", next_tokens)
         # add up to the length which the next_scores is calculated on (including decoder prompt)
         cur_len = input_ids.shape[-1] + 1
         batch_size = len(self._beam_hyps)
@@ -582,6 +583,7 @@ class ConstrainedBeamSearchScorer(BeamScorer):
             eos_token_id = [eos_token_id]
 
         for batch_idx, beam_hyp in enumerate(self._beam_hyps):
+            print(f"Batch {batch_idx}:")
             if self._done[batch_idx]:
                 if self.num_beams < len(beam_hyp):
                     raise ValueError(f"Batch can only be done if at least {self.num_beams} beams have been generated")
@@ -598,6 +600,9 @@ class ConstrainedBeamSearchScorer(BeamScorer):
             for beam_token_rank, (next_token, next_score, next_index) in enumerate(
                 zip(next_tokens[batch_idx], next_scores[batch_idx], next_indices[batch_idx])
             ):
+                print(f"Beam hyp:", beam_hyp)
+                print(f"Next tokens: ", beam_token_rank, next_token, next_score, next_index)
+                print("comparison:", beam_idx, self.group_size)
                 batch_beam_idx = batch_idx * self.group_size + next_index
                 # add to generated hypotheses if end of sentence
                 if (eos_token_id is not None) and (next_token.item() in eos_token_id):
@@ -607,6 +612,7 @@ class ConstrainedBeamSearchScorer(BeamScorer):
                         continue
 
                     completes_constraint = self.check_completes_constraints(input_ids[batch_beam_idx].cpu().tolist())
+                    beam_index = None
                     if completes_constraint:
                         if beam_indices is not None:
                             beam_index = beam_indices[batch_beam_idx]
@@ -614,19 +620,26 @@ class ConstrainedBeamSearchScorer(BeamScorer):
                         else:
                             beam_index = None
 
-                        beam_hyp.add(
-                            input_ids[batch_beam_idx].clone(),
-                            next_score.item(),
-                            beam_indices=beam_index,
-                            generated_len=cur_len - decoder_prompt_len,
-                        )
+                        # beam_hyp.add(
+                        #     input_ids[batch_beam_idx].clone(),
+                        #     next_score.item(),
+                        #     beam_indices=beam_index,
+                        #     generated_len=cur_len - decoder_prompt_len,
+                        # )
+                    
+                    beam_hyp.add(
+                        input_ids[batch_beam_idx].clone(),
+                        next_score.item(),
+                        beam_indices=beam_index,
+                        generated_len=cur_len - decoder_prompt_len,
+                    )
                 else:
                     # add next predicted token since it is not eos_token
                     next_beam_scores[batch_idx, beam_idx] = next_score
                     next_beam_tokens[batch_idx, beam_idx] = next_token
                     next_beam_indices[batch_idx, beam_idx] = batch_beam_idx
                     beam_idx += 1
-
+                
                 # once the beam for next step is full, don't add more tokens to it.
                 if beam_idx == self.group_size:
                     break
@@ -836,11 +849,11 @@ class ConstrainedBeamSearchScorer(BeamScorer):
                 final_tokens = input_ids[batch_beam_idx]
 
                 completes_constraint = self.check_completes_constraints(final_tokens.cpu().tolist())
-                if completes_constraint:
-                    beam_index = beam_indices[batch_beam_idx] if beam_indices is not None else None
-                    generated_len = final_tokens.shape[-1] - decoder_prompt_len
-                    beam_hyp.add(final_tokens, final_score, beam_indices=beam_index, generated_len=generated_len)
-                    ids_collect.append(beam_id)
+                # if completes_constraint:
+                beam_index = beam_indices[batch_beam_idx] if beam_indices is not None else None
+                generated_len = final_tokens.shape[-1] - decoder_prompt_len
+                beam_hyp.add(final_tokens, final_score, beam_indices=beam_index, generated_len=generated_len)
+                ids_collect.append(beam_id)
 
             # due to overly complex constraints or other factors, sometimes we can't gaurantee a successful
             # generation. In these cases we simply return the highest scoring outputs.
