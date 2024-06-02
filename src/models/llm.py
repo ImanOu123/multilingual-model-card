@@ -4,6 +4,7 @@ from tqdm import tqdm
 import os
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.output_parsers import CommaSeparatedListOutputParser
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -69,7 +70,7 @@ def get_llm(model, api_key=None, api_org=None, model_path=None):
         )
         return llm
 
-def call(prompt_lst, llm_config_func, has_system_prompt=True, model_version='gpt-4-1106-preview', api_key=None, org_id=0, model_path=None, verbose=False):
+def call(prompt_lst, llm_config_func, has_system_prompt=True, model_version='gpt-4-1106-preview', api_key=None, org_id=0, model_path=None, verbose=False, listOutput=False):
     llm = get_llm(model=model_version, api_key=api_key, api_org=org_id, model_path=model_path)
     llm = llm_config_func(llm)
     prompts = []
@@ -81,11 +82,29 @@ def call(prompt_lst, llm_config_func, has_system_prompt=True, model_version='gpt
             prompts.append(HumanMessage(content=prompt))
         else:
             prompts.append(AIMessage(content=prompt))
-    chat_template = ChatPromptTemplate.from_messages(prompts)
+            
+    if listOutput:
+        output_parser = CommaSeparatedListOutputParser()
+        format_instructions = output_parser.get_format_instructions()
+        
+        chat_template = ChatPromptTemplate(messages=prompts, partial_variables={"format_instructions": format_instructions})
+        
+        chain = (chat_template | llm | output_parser)
+    else:
+        chat_template = ChatPromptTemplate.from_messages(prompts)
+        chain = (chat_template | llm)
+        
     if verbose:
         [print(ii.content) for ii in chat_template.messages]
-    chain = (chat_template | llm)
+    
     response = chain.invoke({})
+    
+        
+    if listOutput:
+        if verbose:
+            print(response)
+        return response
+    
     if verbose:
         print(response.content.strip())
     return response.content.strip()
