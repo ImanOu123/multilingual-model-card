@@ -36,7 +36,8 @@ from transformers.models.auto import (
 )
 from transformers.utils import ExplicitEnum, ModelOutput, is_accelerate_available, logging
 from transformers.generation.beam_constraints import DisjunctiveConstraint, PhrasalConstraint
-from transformers.generation.beam_search import BeamScorer, BeamSearchScorer, ConstrainedBeamSearchScorer
+from transformers.generation.beam_search import BeamScorer, BeamSearchScorer
+from .beam_search import ConstrainedBeamSearchScorer
 from transformers.generation.candidate_generator import (
     AssistedCandidateGenerator,
     CandidateGenerator,
