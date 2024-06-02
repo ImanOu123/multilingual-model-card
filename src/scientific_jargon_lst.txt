@@ -1,0 +1,289 @@
+biases
+pre-trained
+Network size
+model outputs
+probability
+ALBERT models
+post-processing
+length
+sensitive use cases
+feed-forward/filter size
+training
+vocabulary size
+SOP loss
+tokens
+GitHub
+author
+self-supervised loss
+scientific text
+downstream
+Reading Comprehension
+Attention heads
+ALBERT project
+analyzing personal data
+Masked inputs
+SQuAD v1
+model
+filter size
+fine-tune
+memory consumption
+input length
+model memorizing
+BOOKCORPUS
+state-of-the-art performance
+ALBERT model
+parameter-reduction techniques
+nuances
+diminishing returns
+sentence order prediction (SOP)
+target task
+Wikipedia
+larger structure
+CLS
+gender
+General Language Understanding Evaluation (GLUE) benchmark
+Models
+Probability
+pretrained
+ALBERT-xxlarge
+reading comprehension
+RACE benchmarks
+self-supervised learning
+input data
+discourse-level coherence
+pre-trained model
+multi-sentence encoding tasks
+embedding matrix
+arXiv
+memory constraints
+Sentence Order Prediction
+cloud provider
+Finetuned
+Hidden size
+tokenized
+dimensional embedding space
+repo
+performance decline
+block attention
+training data
+parameter-efficiency techniques
+vocabulary embedding size
+sentence classification
+efficiency
+model size
+fine-grained
+computational expense
+hardware
+hidden space
+language representation model
+multi-sentence encoding
+postprocessing
+Transformer
+self-supervised
+inter-sentence coherence
+dropout
+architecture
+feed-forward
+preprocessing
+model distillation
+ALBERT configurations
+corpora
+hidden sizes
+learned representations
+General Language Understanding Evaluation
+Training steps
+multi-sentence inputs
+transformer encoder
+question answering
+memory limitations
+inter-sentence coherence modeling
+albert-large-v2
+SentencePiece
+Diminishing returns
+models
+pre-training tasks
+training details
+downstream performance
+attention heads
+deployment
+parameter sharing
+pretraining
+GELU
+Dropout
+discourse-level coherence properties
+network parameters
+training speed
+parameter efficiency
+benchmarks
+pipeline
+sociotechnical limitations
+next sentence prediction
+parameters
+ALBERT
+repository
+pretrained models
+legal
+pretraining data
+MLM
+GLUE
+natural language understanding
+comparisons
+Radu Soricut
+computationally expensive
+hidden size
+GLUE benchmark
+pre-existing model
+corpus
+n-gram masking
+encoder
+rewriting
+learning rate
+downstream tasks
+TPUs
+factorized embedding parameterization
+Factorizes
+private information
+evaluating
+evaluation
+NLP benchmarks
+More Information Needed
+embedding parameters
+self-supervised training
+interpretability
+Masked Language Model (MLM)
+Input sequences
+randomly generated
+Wikipedia corpora
+SOP
+foreseeable harms
+informing decisions
+embedding dimension
+Tokenized
+labeled data
+XLNet
+Sentence-order prediction
+pooled output
+steps
+model's performance
+LAMB optimizer
+Next Sentence Prediction (NSP)
+interpretable
+N-gram
+benchmark
+development sets
+ALBERT architecture
+embedding
+sparse attention
+input sequences
+performance increases
+task-specific
+Cross-layer parameter sharing
+Accuracy
+hidden states
+performance
+SEP
+performance gains
+Piyush Sharma
+fine-tuned
+Google Research
+Sebastian Goodman
+ SQuAD 
+SOP task
+Cloud
+RACE dataset
+layers
+batch normalization
+SQuAD
+next sentence prediction (NSP)
+language understanding component
+Computational efficiency
+distillation
+3-gram
+age
+RACE
+medical
+inference latency
+losses
+task-specific output layer
+preprocess
+n-gram
+computational cost
+false negatives
+Feed-forward
+variant
+State-of-the-art performance
+Stanford Question Answering Dataset
+Examinations
+GLUE score
+masking probability distribution
+text classification
+highly specialized domains
+ALBERT-large-v2 model
+explainability
+Training Data
+model architecture
+BERT
+resizing
+Reference
+ALBERT-large
+English Wikipedia
+datasets
+coherence
+analysis
+one-hot vectors
+Computational cost
+misc
+inference
+common sense understanding
+uncompressed text
+sociotechnical impacts
+Early stopping
+Σ (sigma)
+human-level reasoning abilities
+performance metrics
+Zhenzhong Lan
+language representations
+pre-trained language understanding capabilities
+API
+sentence ordering pretraining loss
+negative impacts
+fairness
+distilled
+ALBERT-large configurations
+Sentence Order Prediction (SOP)
+raw text
+training time
+development set scores
+pre-training
+mask
+sentence ordering prediction (SOP)
+hyperparameters
+Mingda Chen
+natural language processing
+metrics
+TPU
+Cloud TPU V3
+encoder layers
+nonlinearities
+bias
+Fatorized embedding parameterization
+ALBERT-large-v2
+computational efficiency
+structure
+state-of-the-art results
+Kevin Gimpel
+number of layers
+representations
+BERT-large
+Stanford Question Answering Dataset (SQuAD)
+performance returns
+cross-layer parameter sharing
+pre-training task
+SQuAD 2
+architecture choices
+fine-tuning
+MLM targets
+model configuration
+albert-large-v2 model
+race
+subpopulations
