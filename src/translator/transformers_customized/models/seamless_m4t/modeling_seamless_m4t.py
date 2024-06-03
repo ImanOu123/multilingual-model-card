@@ -4021,7 +4021,6 @@ class SeamlessM4TModel(SeamlessM4TPreTrainedModel):
         )
         use_cache = use_cache if use_cache is not None else self.config.use_cache
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
-
         if labels is not None:
             if use_cache:
                 logger.warning("The `use_cache` argument is changed to `False` since `labels` is provided.")
@@ -4193,7 +4192,7 @@ class SeamlessM4TModel(SeamlessM4TPreTrainedModel):
             input_ids=input_ids,
             input_features=None,
             **kwargs
-        ), text_decoder_input_ids
+        )
         
     
     @torch.no_grad()
