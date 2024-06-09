@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "bert-large-cased-whole-word-masking is a pre-trained BERT model that uses whole word masking, where all of the tokens corresponding to a word are masked at once during pre-training. It is a large model with 24 layers, 1024 hidden units, 16 attention heads, and 340M parameters, and is cased, meaning it is case-sensitive."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Model Card for bert-large-cased-whole-word-masking\n\nModel Details:\n- Architecture: 24-layer Transformer encoder, bidirectional self-attention\n- Pre-training Objective: Masked Language Model (MLM), predicting masked tokens based on bidirectional context\n- Masking Approach: Whole Word Masking (WWM), masking out 15% of the words at random\n- Casing: Cased, retaining the original case of the input text\n- Pre-training Data: Wikipedia + BookCorpus\n- Number of Parameters: [More Information Needed]\n\nTraining Procedure:\n- Unsupervised pre-training on a large corpus for 1M update steps\n- Fine-tuning on downstream NLP tasks with an additional output layer\n\n[More Information Needed] on specific training hyperparameters and hardware.\n\nImportant Disclaimers:\n- BERT is a general-purpose language understanding model and its outputs should be carefully analyzed for specific use cases.\n- The model may reflect biases present in the pre-training data.\n- Fine-tuning is required for optimal performance on downstream tasks.\n\nFor more details, please refer to the original BERT paper: https://arxiv.org/abs/1810.04805\n\nContact Person: [Your Name]\nFor any questions or updates regarding this model card, please contact [Your Email Address]."
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no explicit information about the people or organizations that funded the BERT-Large, Cased (Whole Word Masking) model. The references mention the model and link to pre-trained model files, but do not specify the funding sources.\n\n[More Information Needed]"
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "Based on the references provided, the key contributors to BERT who made the model available are:\n\nJacob Devlin (jacobdevlin@google.com)\nMing-Wei Chang (mingweichang@google.com)  \nKenton Lee (kentonl@google.com)\nKristina Toutanova\n\nThe references mention these individuals as points of contact for personal communication related to BERT. However, there is no explicit information on who specifically made the bert-large-cased-whole-word-masking variant available as a GitHub repo. \n\n[More Information Needed] on the specific individuals or team that published this particular pre-trained BERT model on GitHub or Hugging Face. The references focus more on the core BERT contributors and the research behind the model architecture in general."
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "bert-large-cased-whole-word-masking is a deep bidirectional pre-trained language model that uses masked language modeling (MLM) with whole word masking as the training objective, which is an unsupervised learning method for the text modality."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "The BERT-Large, Cased (Whole Word Masking) model uses English text from Wikipedia and BooksCorpus, preserving the true case and accent markers in the text."
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "The BERT-Large, Cased (Whole Word Masking) model is released under the Apache 2.0 license, as stated in the references:\n\n\"All code *and* models are released under the Apache 2.0 license. See the `LICENSE` file for more information.\"\n\nThe link to the Apache 2.0 license file is not provided in the given references, so [More Information Needed] for the direct link to the license file."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "The bert-large-cased-whole-word-masking model is not fine-tuned from another model. It is a pre-trained model that uses the Whole Word Masking (WWM) training approach.\n\nAccording to the references:\n\n\"*   **[`BERT-Large, Cased (Whole Word Masking)`](https://storage.googleapis.com/bert_models/2019_05_30/wwm_cased_L-24_H-1024_A-16.zip)**:\n    24-layer, 1024-hidden, 16-heads, 340M parameters\"\n\nThis indicates that bert-large-cased-whole-word-masking is a standalone pre-trained model and not fine-tuned from another base model. The model architecture consists of 24 layers, 1024 hidden units, 16 attention heads, and has 340M parameters in total."
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe references provided do not contain a link to a demo of the BERT-Large, Cased (Whole Word Masking) model. The references only provide download links for the pre-trained model weights and some general information about BERT, but no specific demo link for this particular model variant.\n\nTo provide a demo link in the model card, more information would be needed, such as whether a live demo of this specific model has been set up somewhere that could be linked to."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, the BERT model bert-large-cased-whole-word-masking can be used without fine-tuning using the feature-based approach, as mentioned in points 2 and 3:\n\nThe contextual embeddings from one or more layers of the pre-trained BERT model can be extracted without fine-tuning any parameters. These embeddings can then be used as input to a randomly initialized two-layer BiLSTM before the classification layer.\n\nSpecifically, the best performing method concatenates the token representations from the top four hidden layers of the pre-trained Transformer. This approach performs only 0.3 F1 behind fine-tuning the entire model on the CoNLL-2003 Named Entity Recognition task.\n\n[More Information Needed] for the specific code snippet to extract the embeddings and use them in a BiLSTM classifier.\n\nIn summary, bert-large-cased-whole-word-masking can be used without fine-tuning by extracting its contextual embeddings and using them as features in a separate classifier. This approach is competitive with fine-tuning the entire model.\n\nFor more details on how to use the model in a pipeline or with post-processing, [More Information Needed]."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The bert-large-cased-whole-word-masking model can be fine-tuned for a variety of downstream NLP tasks, such as:\n\n- Text classification or sequence tagging, by feeding the token representations into an output layer\n- Sentence pair tasks like paraphrasing, entailment, and question answering, by encoding the sentence pairs with self-attention \n- Extracting fixed contextual embeddings for each input token to mitigate out-of-memory issues\n\nTo fine-tune the model, you can plug in the task-specific inputs and outputs and train all parameters end-to-end. The process is straightforward using the example code provided, such as `run_classifier.py` for sentence classification tasks.\n\nFor example, to fine-tune on the MRPC paraphrasing dataset, you can run:\n\n[More Information Needed]\n\nThis will load the pre-trained BERT model and fine-tune it for the specific task.\n\nThe fine-tuned model can then be integrated into larger applications for tasks like text classification, entailment, question answering, sentiment analysis, etc.. Using a pre-trained model like BERT reduces the need for task-specific architectures and engineering.\n\nThe model and code are available on GitHub at https://github.com/google-research/bert.\n\nPlease let me know if you need any other information to complete the model card. I'm happy to help clarify or expand on any part of the model's usage and capabilities."
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some potential ways the BERT-large-cased-whole-word-masking model could be misused and what users should not do:\n\nThe model should not be used for tasks or purposes that promote discrimination, bias, hate speech, or other unethical applications. Since BERT is trained on a large corpus like Wikipedia, it may pick up and amplify certain societal biases present in the training data.\n\nUsers should not assume the model's outputs are always factual, unbiased, or authoritative. More information is needed on the specific pre-training data used, but in general large language models can generate convincing text that is incorrect or reflects problematic biases.\n\nThe model should not be used as a sole decision making tool for high-stakes applications like healthcare, finance, criminal justice, etc. without extensive testing, human oversight, and alignment with domain-specific guidelines. Relying on it in sensitive domains could lead to harm.\n\nUsers should clearly disclose they are using the whole-word masking variant of BERT-large in any papers or applications, to avoid confusion with the original model. Lack of transparency around which specific model is used could be seen as misleading.\n\n[More Information Needed] on other potential misuse cases specific to the whole-word masking pre-training approach used in this variant.\n\nIn general, users have an ethical obligation to carefully evaluate the impacts and limitations of using this powerful model, be transparent about its usage, and proactively mitigate risks of misuse that could cause societal harm or amplify discrimination against marginalized groups. More specific usage guidelines would require additional context on the intended use case."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some potential issues and limitations with the BERT-Large Cased model using Whole Word Masking:\n\nForeseeable harms and misunderstandings:\n- The model was trained on a large text corpus like Wikipedia, which may contain biases. This could lead to the model exhibiting biased behavior if applied to certain downstream tasks without proper debiasing techniques.\n- [More Information Needed] on specific foreseeable harms or misunderstandings, as the references do not go into detail on this aspect.\n\nTechnical limitations: \n- The model is very large with 340M parameters, 24 layers, 1024 hidden units, and 16 attention heads. This makes it computationally expensive to run and may be challenging to deploy in resource-constrained environments.\n- [More Information Needed] on specific performance limitations, as the references do not include evaluation metrics on downstream tasks.\n\nSociotechnical limitations:\n- Deploying such a large pre-trained model may exacerbate inequalities by benefiting those with more computing resources. Smaller organizations or under-resourced languages may not be able to take full advantage.\n- There is a risk of over-reliance or blind trust in the model's outputs, especially by non-expert users. Limitations and potential biases need to be clearly communicated.\n- [More Information Needed] on the specific training data used and any sensitive data issues, as the references do not cover this.\n\nTo summarize, the key limitations based on the given references are the potential for biased outputs, high computational requirements, and sociotechnical factors around responsible deployment and clear communication of the model's abilities and limitations to end users. More specific information would be needed to do a fuller analysis of foreseeable harms and misunderstandings."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the BERT-large-cased-whole-word-masking model, here are some recommendations regarding foreseeable issues:\n\n1. When using this model in a paper, clearly state that it is the Whole Word Masking variant of BERT-Large, as the training data and process are identical to the original model except for the whole word masking flag. This ensures transparency and reproducibility.\n\n2. Be aware that BERT is a bidirectional model, which is an improvement over previous unidirectional or shallowly bidirectional models. However, [More Information Needed] on any specific issues that may arise from this bidirectional nature.\n\n3. Note that using BERT involves two stages: pre-training and fine-tuning. [More Information Needed] on potential issues that could occur during these stages.\n\n4. If using a custom vocabulary:\n```\n[More Information Needed]\n```\n\n5. If your task has a large domain-specific corpus available, [More Information Needed] on the benefits and potential issues of running additional pre-training steps starting from the BERT checkpoint.\n\nOverall, more information is needed to provide comprehensive recommendations on foreseeable issues specific to the BERT-large-cased-whole-word-masking model. The references provide some general context about BERT but lack details on potential problems and their mitigation strategies."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The training data for the BERT-Large Cased model with Whole Word Masking consists of the BooksCorpus (800M words) and English Wikipedia (2,500M words), where only the text passages are extracted from Wikipedia while ignoring lists, tables, and headers. [More Information Needed] on any additional data pre-processing or filtering steps."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "Here are the details on tokenization and preprocessing for the BERT-large-cased-whole-word-masking model, based on the provided references:\n\nTokenization:\n- The tokenizer performs text normalization by converting all whitespace characters to spaces. Since this is the cased model, it does not lowercase the input or strip accent markers.\n- For sentence-level tasks, the tokenizer is instantiated as tokenizer = tokenization.FullTokenizer. Raw text is tokenized with tokens = tokenizer.tokenize(raw_text). \n- The tokenized sequence is truncated to the maximum sequence length (up to 512, but shorter if possible for memory/speed reasons).\n- [CLS] and [SEP] tokens are added in the appropriate places.\n\nPreprocessing:\n- The pre-training corpus consists of the BooksCorpus (800M words) and English Wikipedia (2,500M words). For Wikipedia, only text passages are extracted while lists, tables and headers are ignored.\n- A document-level corpus is used rather than a shuffled sentence-level corpus in order to extract long contiguous sequences.\n- [More Information Needed] on any resizing or rewriting of the input data.\n\nInput Representation: \n- The input representation can unambiguously represent both a single sentence and a pair of sentences (e.g. Question, Answer) in one token sequence.\n- [More Information Needed] on further details of the input representation.\n\nMasked Language Model Pre-training:\n- Pre-training largely follows existing literature on language model pre-training. \n- The \"masked language model\" (MLM) pre-training objective is used, inspired by the Cloze task. MLM randomly masks some tokens from the input, and the objective is to predict the original vocabulary ID of the masked word based only on its context.\n\nLet me know if you need any clarification or have additional questions!"
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Here are the training hyperparameters for the BERT-large-cased-whole-word-masking model, based on the provided references:\n\nModel Architecture:\n- 24-layer Transformer\n\nPre-training:\n- Corpus: Wikipedia (2,500M words) + BooksCorpus (800M words)\n- Sequence Length: 512 tokens\n- Masking: WordPiece tokenization with 15% uniform masking rate\n- Batch Size: 256 sequences (128,000 tokens/batch)\n- Training Steps: 1,000,000 steps (~40 epochs)\n- Optimizer: Adam\n  - Learning Rate: 1e-4\n  - \u03b21 = 0.9, \u03b22 = 0.999\n  - L2 weight decay: 0.01\n  - Learning rate warmup: First 10,000 steps\n  - Learning rate decay: Linear\n- Dropout: 0.1 on all layers\n- Activation: GELU\n\nFine-tuning:\n- Batch Size: 16, 32\n- Learning Rate: 2e-5\n- Epochs: 3\n- Dropout: 0.1\n\n[More Information Needed] for the following:\n- Specific learning rate schedule for fine-tuning\n- Fine-tuning hyperparameters for tasks other than mentioned in Reference 10"
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Here are the details I can provide about the BERT-Large, Cased (Whole Word Masking) model based on the given references:\n\nModel Specifications:\n- 24-layer, 1024-hidden, 16-heads, 340M parameters\n\nTraining Details:\n- Pre-trained on a large corpus (Wikipedia + BookCorpus) \n- Trained for a long time (1M update steps)\n- [More Information Needed] on specific throughput, start/end times, and checkpoint sizes during pre-training\n\nFine-tuning:\n- Fine-tuned for 2 epochs with a learning rate of 5e-5 and a batch size of 48 on downstream tasks\n- [More Information Needed] on specific fine-tuning throughput, times, and checkpoint sizes for each downstream task\n\nThe references do not contain the specific technical details requested about throughput, timings, and checkpoint sizes. More information would be needed from the model training logs and results to include those details in the model card description."
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the BERT-Large, Cased (Whole Word Masking) model evaluates on the following benchmarks and datasets:\n\n1. GLUE (General Language Understanding Evaluation) benchmark, which includes various natural language understanding tasks like MNLI (MultiNLI), SST-2, and others.\n\n2. SQuAD v1.1 (Stanford Question Answering Dataset) for question answering.\n\n3. SQuAD v2.0, an extension of SQuAD v1.1 that includes unanswerable questions.\n\nThe references suggest that BERT-Large outperforms BERT-Base and achieves state-of-the-art results on these benchmarks and datasets. However, the exact performance metrics for the Whole Word Masking variant are [More Information Needed]."
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some key characteristics that may influence the behavior of the BERT-large-cased-whole-word-masking model:\n\nDomain and Context:\n- The model was pre-trained on the BooksCorpus (800M words) and English Wikipedia (2,500M words). Performance may vary when applied to domains or contexts that differ significantly from these sources. [More Information Needed] on specific domain/context performance.\n\n- The model uses a document-level corpus for pre-training to extract long contiguous sequences. Behavior may be impacted when applied to shorter, non-contiguous text.\n\nPopulation Subgroups:\n[More Information Needed]\nThe references do not provide information to assess performance disparities across population subgroups. Disaggregated evaluation would be needed to uncover any such differences.\n\nOther Influential Factors:\n- The model uses whole word masking during pre-training (`--do_whole_word_mask=True`). This may impact performance compared to models using subword/wordpiece masking.\n\n- BERT uses bidirectional self-attention, allowing it to incorporate context from both directions. This is a key architectural difference from unidirectional or shallowly bidirectional models that may affect behavior.\n\nTo fully characterize model behavior, additional disaggregated evaluation across relevant factors would be beneficial, as many details are not covered in the provided references. The model card would be strengthened by including such evaluation results."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the provided references about the BERT model, the key evaluation metrics mentioned are:\n\n1. GLUE benchmark scores - BERT LARGE obtained a GLUE score of 80.5, which was a 7.0% absolute improvement over the previous state-of-the-art. GLUE includes various natural language understanding tasks.\n\n2. Accuracy on specific GLUE tasks like MNLI (MultiNLI) - BERT achieved 86.7% accuracy, a 4.6% absolute improvement. \n\n3. F1 scores on SQuAD v1.1 and v2.0 question answering tasks - BERT LARGE achieved 93.2 F1 on SQuAD v1.1 (1.5 point absolute improvement) and pushed the SQuAD v2.0 Test F1 score higher (exact number not provided in the references).\n\nThe references do not provide detailed information about tradeoffs between different error types for BERT. More specific information would be needed to comment on how different errors are prioritized or balanced.\n\nIn summary, GLUE benchmark scores, accuracy on GLUE tasks, and F1 scores on SQuAD are the main evaluation metrics discussed for assessing BERT's performance, but more details would be required to analyze tradeoffs between different error types."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the evaluation results for the BERT-Large, Cased (Whole Word Masking) model:\n\nModel Size and Architecture:\n- 24-layer, 1024-hidden, 16-heads, 340M parameters\n- BERT LARGE significantly outperforms BERT BASE across all tasks, especially those with very little training data.\n\nPerformance on SQuAD:\n- Outperforms the top leaderboard system by +1.5 F1 in ensembling and +1.3 F1 as a single system on SQuAD v1.1.\n- Extends well to SQuAD v2.0 by treating questions without an answer as having an answer span with start and end at the [CLS] token.\n\nPerformance on GLUE Benchmark:\n- BERT LARGE outperforms all systems on all tasks by a substantial margin, obtaining a 7.0% average accuracy improvement over the prior state of the art.\n- Obtains a score of 80.5 on the official GLUE leaderboard.\n\n[More Information Needed] on specific evaluation metrics and results for Whole Word Masking on the BERT-Large, Cased model."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the BERT-large-cased-whole-word-masking model:\n\n- BERT LARGE significantly outperforms BERT BASE across all tasks, especially those with very little training data.\n\n- On the GLUE benchmark, BERT LARGE obtains a score of 80.5, outperforming the previous state-of-the-art models by a substantial margin. BERT LARGE achieves a 7.0% average accuracy improvement over the prior state of the art.\n\n- On the SQuAD question answering task, the best performing BERT system outperforms the top leaderboard system by +1.5 F1 in ensembling and +1.3 F1 as a single system. The single BERT model outperforms the top ensemble system in terms of F1 score.\n\n- Increasing the model size leads to continual improvements on large-scale tasks. BERT LARGE, with 340M parameters, demonstrates convincingly that scaling to extreme model sizes also leads to large improvements on very small scale tasks, provided that the model has been sufficiently pre-trained.\n\n[More Information Needed] on specific fine-tuning hyperparameters and additional evaluation metrics."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Here is my attempt at an experimental section on explainability/interpretability for the BERT-large-cased-whole-word-masking model:\n\nBERT (Bidirectional Encoder Representations from Transformers) is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. This allows the pre-trained BERT model to be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of NLP tasks.\n\nIn terms of explainability and interpretability, BERT's bidirectional architecture allows it to build rich contextual word representations that can help shed light on how the model derives meaning from text. By masking tokens during pre-training, BERT learns to predict words based on their surrounding context from both directions. This could potentially be leveraged to explain the most informative or influential context for a given prediction.\n\n[More Information Needed] on specific techniques that could be applied to the BERT-large-cased-whole-word-masking model to improve explainability, such as:\n- Visualizing attention weights to see which tokens the model attends to \n- Analyzing the learned word embeddings \n- Probing the model's representations at different layers\n- Perturbing inputs and examining the model's sensitivity to input changes\n\nOverall, BERT's deeply bidirectional architecture presents opportunities to better interpret and explain the model's behavior and predictions compared to shallower or unidirectional models. However, more research is needed to develop and apply explainability techniques specifically to this pre-trained model."
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the hardware used to train the bert-large-cased-whole-word-masking model. More details would be needed from the model training logs or system specifications to determine the exact hardware type, such as GPU models or TPU versions, that were utilized during the pre-training process."
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "Based on the provided references, the model bert-large-cased-whole-word-masking is likely trained using the BERT (Bidirectional Encoder Representations from Transformers) method. BERT is a pre-training approach for language representations that learns from unlabeled text data.\n\nThe references mention that BERT can be fine-tuned using tools like Colab and TensorFlow, and it outperforms previous methods by being an unsupervised and deeply bidirectional system for pre-training NLP.\n\nHowever, the specific software or framework used for training the bert-large-cased-whole-word-masking model is not explicitly stated in the given references. More information would be needed to determine the exact software type used for training this particular model.\n\n[More Information Needed]"
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "According to the references provided, the training of BERT LARGE was performed on 16 Cloud TPUs (64 TPU chips total), and each pretraining took 4 days to complete. \n\nHowever, there is no specific information on the training time for the BERT-Large, Cased (Whole Word Masking) variant. The references only mention that pre-trained models with Whole Word Masking have identical structure and vocab to the original BERT-Large models, and the data and training were otherwise identical.\n\nTherefore, for the specific training time of the bert-large-cased-whole-word-masking model, [More Information Needed]."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no explicit mention of the cloud provider used for training the BERT-Large, Cased (Whole Word Masking) model. The references only provide information about the model architecture, training data, and pre-trained model download links hosted on Google Cloud Storage. To definitively answer the question about the specific cloud provider used for training, [More Information Needed]."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nBased on the provided references, there is no specific information about the amount of carbon emitted during the training of the bert-large-cased-whole-word-masking model. The references discuss various aspects of BERT, such as the whole word masking strategy, vocabulary size considerations, pre-training and fine-tuning stages, and generating BERT activations. However, they do not provide any details about the carbon footprint or environmental impact of training this specific model.\n\nTo accurately report the carbon emissions, more information would be needed, such as the hardware used for training, the duration of the training process, the energy consumption of the training infrastructure, and the carbon intensity of the electricity grid used. Without these details, it is not possible to provide a reliable estimate of the carbon emissions associated with training the bert-large-cased-whole-word-masking model."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\n- 24-layer, 1024-hidden, 16-heads, 340M parameters\n- Based on the original Transformer encoder architecture described in Vaswani et al. (2017)\n- Uses bidirectional self-attention, allowing each token to attend to both left and right context\n\nTraining Objective:\n- Masked Language Model (MLM): Some percentage of input tokens are randomly masked, and the objective is to predict the original vocabulary id of the masked word based only on its bidirectional context\n- During training, 15% of all tokens are masked in each sequence\n\n[More Information Needed] on the specific details of the Whole Word Masking (WWM) technique used in this model variant compared to the original BERT."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the information I can provide about the compute infrastructure used for the BERT-large-cased-whole-word-masking model:\n\nThe BERT-large model was trained on a large corpus consisting of Wikipedia and BookCorpus data for 1M update steps. \n\nWhole Word Masking was enabled during data generation by passing the flag `--do_whole_word_mask=True` to `create_pretraining_data.py`.\n\n[More Information Needed] on the specific hardware (GPU/TPU types and counts) and distributed training setup used.\n\nThe model was fine-tuned for 2 epochs with a learning rate of 5e-5 and a batch size of 48. [More Information Needed] on the hardware used for fine-tuning."
+  }
+]

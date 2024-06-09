@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "The facebook/dino-vits16 model is a self-supervised Vision Transformer (ViT) trained using the DINO (self-distillation with no labels) method. It achieves strong performance on various computer vision tasks, such as image classification and segmentation, without requiring labeled data during pretraining."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Model Architecture:\n- Backbone: Vision Transformer (ViT-S/16)\n- Projection head: 3-layer MLP with hidden dimension 2048, followed by l2 normalization, and a weight normalized fully connected layer with K dimensions\n- Number of parameters: 21M\n- The model is BN-free\n\nTraining Procedure:\n- Pretrained on ImageNet dataset without labels\n- Optimizer: AdamW \n- Batch size: 1024, distributed over 16 GPUs\n- Learning rate: Linearly ramped up to 0.0005 * batchsize/256 during first 10 epochs, then decayed with cosine schedule\n- Weight decay: Cosine schedule from 0.04 to 0.4\n- Temperature \u03c4 s: 0.1, \u03c4 t: Linear warm-up from 0.04 to 0.07 during first 30 epochs\n- Data augmentations: BYOL augmentations (color jittering, Gaussian blur, solarization) and multi-crop with bicubic interpolation\n- Trained using two 8-GPU servers for 3 days\n\nImportant Parameters:\n- Patch size: 16x16 works best for DINO\n- Momentum encoder and cross-entropy loss are important for good performance\n- No predictor in student network\n\nDisclaimers:\n[More Information Needed]"
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no explicit mention of the people or organizations that fund the DINO project with the ViT-S/16 model. The references discuss technical details about applying DINO to the Vision Transformer (ViT) architecture, but do not specify funding sources.\n\n[More Information Needed]\n\nTo properly answer this question for the model card, more information would need to be provided about the funding and support for this specific DINO ViT-S/16 model development project."
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, the main contributors to the DINO self-supervised learning method and the ViT (Vision Transformer) model are:\n\nMathilde Caron, Hugo Touvron, Ishan Misra, Herv\u00e9 Jegou, Julien Mairal, Piotr Bojanowski, and Armand Joulin from Facebook AI Research.\n\nThe specific model facebook/dino-vits16 is likely a ViT-Small model pretrained with DINO by the authors at Facebook AI Research. However, more specific information would be needed to confirm the exact contributors who made this particular model variant available online as a GitHub repo."
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "The facebook/dino-vits16 model is a self-supervised Vision Transformer (ViT) model trained using the DINO (self-DIstillation with NO labels) method, which can be interpreted as a form of knowledge distillation without using labeled data, and it operates on the image modality."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "The facebook/dino-vits16 model processes visual features from images and does not use or process natural human language. [More Information Needed]"
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain any information about the specific license being used for the facebook/dino-vits16 model. More details would be needed from the model creators or documentation to determine the license under which this model is being released."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no direct mention of the model facebook/dino-vits16 being fine-tuned from another model. The references discuss training Vision Transformer (ViT) models from scratch using the DINO self-supervised learning framework, but do not specify a particular base model that facebook/dino-vits16 is fine-tuned from.\n\n[More Information Needed]"
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nBased on the provided references, there is no information about a demo link for the model facebook/dino-vits16. The references discuss the DINO framework, its similarities to knowledge distillation, and the synergy between DINO and Vision Transformers (ViTs). However, they do not mention a specific demo for the dino-vits16 model. More information would be needed from the model developers or documentation to determine if a demo link is available."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "The model facebook/dino-vits16 can be used without fine-tuning, post-processing, or plugging into a pipeline in the following ways:\n\n1. The model can be loaded directly using PyTorch hub:\n\n```python\nimport torch\nvits16 = torch.hub.load('facebookresearch/dino:main', 'dino_vits16')\n```\n\n2. The model outputs a 1536d descriptor for an input image. This descriptor can be used directly for tasks like copy detection, image retrieval, and k-NN classification, without any further training or fine-tuning.\n\n3. For copy detection, the descriptors can be compared using cosine similarity to recognize distorted images.\n\n4. For image retrieval tasks like the revisited Oxford and Paris datasets, the descriptors can be used with a simple k-NN classifier to achieve competitive performance.\n\n5. [More Information Needed] on how to use the model for weakly supervised image segmentation without fine-tuning.\n\nOverall, the model provides general-purpose image descriptors that can be used directly for various downstream tasks without the need for task-specific fine-tuning or complex post-processing steps."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The facebook/dino-vits16 model, which is a Vision Transformer (ViT) architecture pretrained with the self-supervised learning method DINO, can be fine-tuned on various downstream tasks to achieve strong performance. As mentioned in the references, the self-supervised pretraining with DINO transfers better to downstream tasks compared to supervised pretraining, especially for ViT architectures.\n\nTo use the pretrained facebook/dino-vits16 model for a specific task, you can follow these steps:\n1. Load the pretrained model weights.\n2. Replace the final classification layer with a new layer suitable for your specific task.\n3. Fine-tune the model on your downstream task using task-specific labeled data.\n\nThe references suggest that the facebook/dino-vits16 model can be fine-tuned for tasks such as image classification on datasets like ImageNet, Places205, PASCAL VOC, and Oxford-102 flowers. Fine-tuning the model on these tasks has been shown to achieve strong performance.\n\n[More Information Needed] regarding the specific code snippet for fine-tuning the model, as no direct code block is provided in the given references.\n\nWhen plugged into a larger ecosystem or app, the facebook/dino-vits16 model can serve as a feature extractor for various computer vision tasks. The self-supervised pretraining with DINO allows the model to learn meaningful visual representations that can be leveraged in downstream applications.\n\nOverall, the facebook/dino-vits16 model offers a powerful and efficient solution for various computer vision tasks, thanks to its self-supervised pretraining with DINO and the Vision Transformer architecture. The model can be fine-tuned for specific tasks or used as a feature extractor in larger ecosystems or apps to achieve strong performance while reducing computational requirements compared to convolutional networks of comparable sizes."
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references about the DINO self-supervised learning method and ViT (Vision Transformer) models, here are some potential ways the facebook/dino-vits16 model could be misused and what users ought not do:\n\nThe model should not be used for surveillance, facial recognition, or tracking individuals without consent, as the visual features it learns could enable identifying and following people in concerning ways. More analysis is needed on privacy risks.\n\nUsers should not assume the model's outputs are fully accurate for sensitive applications like medical diagnosis or autonomous vehicle control, as it was trained in a self-supervised way on web images, not specialized datasets. Thorough testing is required before high-stakes deployment.\n\nThe model may reflect biases or offensive content present in its web training data. Users should be cautious applying it to diverse populations and contexts without checking for fairness. [More Information Needed] on the specific data used.\n\nIn general, the model is a powerful visual representation learner but not a full solution for complex real-world vision tasks. Users should validate it is fit-for-purpose and augment it responsibly, not misuse it as an off-the-shelf system without careful adaptation and human oversight. Transparency on limitations is key.\n\n[More Information Needed] on further technical ways the model architecture and training process could be exploited or misused. Ongoing monitoring and testing by the developers is advised to proactively surface and mitigate risks as the model is adopted."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the DINO ViT model, here are some potential issues and limitations:\n\nTechnical limitations:\n- Performance is highly dependent on patch size. Smaller patches improve performance but reduce throughput significantly (e.g. 5x5 patches have 44 im/s throughput vs 180 im/s for 8x8 patches). Careful tuning is needed to balance accuracy and efficiency.\n- The model does not work well without a momentum encoder. More advanced techniques like Sinkhorn-Knopp are needed to prevent collapse without momentum.\n- [More Information Needed] on how well the model generalizes to other datasets and tasks beyond ImageNet classification.\n\nPotential misuse and harms:\n- [More Information Needed] The references do not discuss what types of images the model was trained on. If the training data contains biases or underrepresentation, the model may exhibit biased or unfair behavior.\n- [More Information Needed] No analysis is provided on whether the model encodes personal information from training data that could be extracted.\n- As a general visual feature extractor, the model could potentially be used for unintended purposes like surveillance. Careful usage restrictions may be needed.\n\nSociotechnical considerations:\n- Releasing a powerful visual representation model could accelerate progress in computer vision, but may advantage organizations with more computing resources.\n- [More Information Needed] The environmental impact of training large vision models is not discussed.\n- The model is a step toward developing \"BERT-like models for vision\" which could have broad societal impact, but more analysis is needed to understand potential consequences.\n\nIn summary, key limitations seem to be technical trade-offs, while more information is needed to fully assess fairness, privacy, and broader sociotechnical implications. I would recommend conducting more analysis before a full release, focusing on training data composition, potential for misuse, and environmental and societal impact."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the DINO self-supervised learning framework applied to Vision Transformers (ViT), here are some recommendations regarding foreseeable issues with the facebook/dino-vits16 model:\n\n1. Patch size sensitivity: The performance of the model is highly dependent on the patch size used during training. Smaller patch sizes lead to better performance but reduced throughput. Careful consideration should be given to the trade-off between accuracy and efficiency when deploying the model.\n\n2. Collapse avoidance: The model relies on centering and target sharpening techniques to avoid collapse during training. Monitoring and tuning these components may be necessary to ensure stable training and prevent uniform or dominated output.\n\n3. Lack of batch normalization: Unlike standard convolutional networks, the ViT architecture used in DINO does not include batch normalization layers. This design choice should be taken into account when integrating the model into existing pipelines or comparing it with other models.\n\n4. [More Information Needed] on the specific pretraining dataset and any potential biases or limitations it may introduce.\n\n5. [More Information Needed] on the computational resources and environmental impact of training and deploying the model at scale.\n\n6. Potential misuse: The strong performance of the model in tasks like copy detection and image retrieval raises concerns about potential misuse, such as unauthorized tracking or surveillance. Clear guidelines and safeguards should be put in place to prevent unethical applications.\n\n7. Interpretability and transparency: [More Information Needed] on the interpretability of the learned features and the decision-making process of the model. Efforts should be made to provide explanations and visualizations to build trust and accountability."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The model facebook/dino-vits16 is pretrained on the ImageNet dataset without labels. [More Information Needed] for details about data pre-processing or additional filtering."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "Here are the details about preprocessing for the data of the model facebook/dino-vits16, based on the provided references:\n\nTokenization/Patch Extraction:\nThe ViT architecture takes as input a grid of non-overlapping contiguous image patches of resolution 16x16.\n\nResizing:\nWe follow the data augmentations of BYOL (color jittering, Gaussian blur and solarization) and multi-crop with a bicubic interpolation to adapt the position embeddings to the scales.\n\nOther Preprocessing:\n[More Information Needed]\n\nCode:\n[More Information Needed]"
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Here are the detailed training hyperparameters for the model facebook/dino-vits16 based on the provided references:\n\nModel architecture:\n- Vision Transformer (ViT) small variant with patch size 16x16\n\nTraining dataset:\n- ImageNet dataset without labels\n\nOptimizer:\n- AdamW optimizer\n- Batch size: 1024, distributed over 16 GPUs\n- Learning rate schedule:\n  - Linearly ramped up during first 10 epochs to base value of lr = 0.0005 * batchsize/256\n  - Then decayed with cosine schedule\n- Weight decay schedule: \n  - Follows cosine schedule from 0.04 to 0.4\n\nTraining duration:\n- 100 epochs\n- Training time is 1.75 days on 8 GPUs\n\nMomentum encoder:\n- EMA (exponential moving average) of the student encoder\n- Momentum parameter m = 0.996\n\nTemperatures:\n- Student temperature \u03c4_s = 0.1\n- Teacher temperature \u03c4_t linearly warmed up from 0.04 to 0.07 during first 30 epochs\n\nData augmentation:\n- BYOL augmentations (color jittering, Gaussian blur, solarization) \n- Multi-crop with bicubic interpolation to adapt position embeddings to scales\n\n[More Information Needed] on exact crop scales used for multi-crop augmentation."
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the details about the model facebook/dino-vits16:\n\nTraining throughput and time:\n- Training DINO with ViT-S/16 on ImageNet without labels using two 8-GPU servers takes 3 days to achieve 76.1% top-1 accuracy.\n- Using multi-crop improves the accuracy/running-time tradeoff. For example, using 2\u00d7224\u00b2+10\u00d796\u00b2 crops reaches 74.6% accuracy in 24 hours, compared to 72.5% after 46 hours without multi-crop (2\u00d7224\u00b2).\n\nGPU memory requirements:\n- Training ViT-S/16 with 2\u00d7224\u00b2 crops uses 9.3G GPU memory.\n- Training ViT-S/16 with 2\u00d7224\u00b2+10\u00d796\u00b2 crops uses 15.4G GPU memory.\n\nCheckpoint sizes:\n[More Information Needed]\n\nStart or end time: \n[More Information Needed]\n\nImplementation details:\n- Pretrained on ImageNet dataset without labels\n- Used adamw optimizer with batch size 1024, distributed over 16 GPUs for ViT-S/16\n- Learning rate linearly ramped up to 0.0005 * batchsize/256 over first 10 epochs, then decayed with cosine schedule\n- Weight decay follows cosine schedule from 0.04 to 0.4\n- Temperature \u03c4_s=0.1, \u03c4_t warmed up from 0.04 to 0.07 over first 30 epochs\n- Augmentations: color jittering, Gaussian blur, solarization, multi-crop"
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the DINO model with ViT-S/16 architecture (facebook/dino-vits16) evaluates on the following benchmarks and datasets:\n\n1. Standard self-supervised benchmark on ImageNet for feature validation\n2. ImageNet linear classification benchmark, achieving 80.1% top-1 accuracy with a ViT-Base with small patches\n3. Image retrieval performance comparison on ImageNet and Google Landmarks datasets\n\nThe references do not provide specific details on the exact benchmarks or metrics used for evaluating the image retrieval performance. [More Information Needed]"
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references about the DINO self-supervised learning framework applied to Vision Transformers (ViT), here are some foreseeable characteristics that may influence the behavior of the facebook/dino-vits16 model:\n\nDomain and Context:\n- The model was pretrained on ImageNet, so it is expected to perform well on natural images similar to that dataset. Performance on other visual domains like medical imaging, satellite imagery, etc. is unclear. [More Information Needed]\n\n- The model uses self-supervised pretraining, which has been shown to transfer better than supervised pretraining for ViT architectures on downstream tasks. So it may generalize well to new visual tasks.\n\n- Evaluation focused on tasks like copy detection, nearest neighbor search, and transfer learning. But real-world robustness in diverse contexts needs further study. [More Information Needed]\n\nPopulation Subgroups:\n- No information is provided about performance disparities across demographic subgroups (age, gender, skin tone, etc). Disaggregated evaluation is needed to uncover potential biases or unfairness. [More Information Needed]\n\n- Geographic diversity of pretraining data is not discussed. The model may underperform for cultural contexts and visual concepts underrepresented in the training set. [More Information Needed]\n\nOther Factors:\n- Increasing ViT model size, pretraining duration, and number of self-attention heads tends to improve accuracy, but at the cost of computational efficiency. Practical tradeoffs should be considered.\n\n- The momentum teacher was important for preventing collapse in the self-supervised framework. Careful hyperparameter tuning is likely needed for optimal performance.\n\nIn summary, while the provided studies demonstrate promising results for the DINO framework on academic benchmarks, more information is needed to fully characterize the model's real-world behavior across diverse domains and populations. Disaggregated evaluation focused on robustness and fairness should be a priority."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the references provided, the following metrics will be used to evaluate the DINO ViT-S/16 model:\n\n1. Top-1 accuracy on ImageNet using a linear classifier trained on frozen features (linear evaluation protocol). This measures the quality of the learned features without finetuning.\n\n2. Top-1 accuracy on ImageNet by finetuning the pretrained weights on the downstream task. This measures the performance when adapting the model to the specific task.\n\n3. Accuracy using a k-Nearest Neighbor (k-NN) classifier with the learned features. Specifically, a 20-NN classifier is used as it consistently performs the best. This evaluation protocol does not require learning additional parameters.\n\n4. Image retrieval performance using the pretrained features on datasets like ImageNet and Google Landmarks v2.\n\n[More Information Needed] on the specific tradeoffs between different errors that will be considered during evaluation."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Evaluation results of the model facebook/dino-vits16 based on the Factors and Metrics:\n\nFactors:\n- Architecture: ViT-small (ViT-S), which follows the design of DeiT-S and is similar to ResNet-50 in terms of number of parameters (21M vs 23M)\n- Pre-training framework: DINO (self-supervised learning)\n\nMetrics:\n- ImageNet k-NN accuracy: [More Information Needed]\n- ImageNet linear probing accuracy: [More Information Needed] \n- Image retrieval performance on ImageNet: [More Information Needed]\n- Image retrieval performance on Google Landmarks: [More Information Needed]\n- Object discovery: [More Information Needed]\n- Transfer learning: [More Information Needed]\n\nCode:\n[More Information Needed]\n\nNote: The provided references do not contain specific evaluation results for the facebook/dino-vits16 model. More information would be needed from the model developers to fill in the metric values and provide any relevant code."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the facebook/dino-vits16 model:\n\n- The model achieves 73.3% accuracy on k-NN evaluation and 76.0% accuracy on linear evaluation on ImageNet.\n\n- The model's performance is compared with other self-supervised methods using the same ViT-small architecture.\n\n- The model's features are evaluated for image retrieval on the revisited Oxford and Paris datasets. DINO features outperform supervised features, especially when pretrained on a landmark dataset.\n\n- The model's self-attention maps are probed, showing that different heads attend to different semantic regions of an image, even when occluded or small.\n\n- [More Information Needed] on the model's performance on dense recognition tasks like segmentation. The references mention that variants with small patches (\"/8\") perform much better, but no specific results are provided for the dino-vits16 model.\n\nIn summary, the dino-vits16 model demonstrates strong performance on ImageNet classification, image retrieval, and produces interpretable self-attention maps, showcasing the effectiveness of the DINO self-supervised learning framework."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the experimental section on explainability/interpretability for the model facebook/dino-vits16:\n\nThe self-attention visualizations from the last layer of DINO ViT-S/8 (a model similar to facebook/dino-vits16) provide insights into what the model focuses on for several reference points in images randomly selected from the COCO validation set, which were not used during training. These visualizations offer a glimpse into the internal representations learned by the self-supervised Vision Transformer model.\n\n[More Information Needed] on specific code examples related to generating these visualizations for the facebook/dino-vits16 model.\n\nExploring the interpretability of features learned by large Vision Transformer models pre-trained with DINO on random, uncurated images could potentially push the limits of visual features and improve our understanding of how these models capture and represent visual information.\n\n[More Information Needed] on additional explainability techniques, such as attribution methods or concept activation vectors, that could be applied to the facebook/dino-vits16 model to further investigate its learned representations and decision-making process."
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "The model facebook/dino-vits16 is trained on two 8-GPU servers over 3 days, as mentioned in Reference 1:\n\n\"Overall, training DINO with Vision Transformers achieves 76.1 top-1 accuracy using two 8-GPU servers for 3 days.\"\n\nReference 2 also confirms the hardware setup:\n\n\"In Tab. 8, we detail the time and GPU memory requirements when running ViT-S/16 DINO models on two 8-GPU machines.\""
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "The model facebook/dino-vits16 is trained using PyTorch, as evidenced by this excerpt from the references:\n\n\"Please install [PyTorch](https://pytorch.org/) and download the [ImageNet](https://imagenet.stanford.edu/) dataset. This codebase has been developed with python version 3.6, PyTorch version 1.7.1, CUDA 11.0 and torchvision 0.8.2.\""
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "Based on the provided references, the training time for the facebook/dino-vits16 model is as follows:\n\nTraining the DINO model with ViT-S/16 on the ImageNet dataset without labels takes 2.6 days using 16 GPUs.\n\nSome additional details:\n- Using multi-crop improves the accuracy / running-time tradeoff for DINO runs. For example, DINO with 2\u00d7224^2 +10\u00d796^2 crop setting reaches 74.6% accuracy in 24 hours, compared to 72.5% after 46 hours of training without multi-crop (2\u00d7224^2).\n- The resulting pretrained model reaches 73.3% on k-NN evaluation and 76.0% on linear evaluation.\n\n[More Information Needed] on the exact hyperparameters and hardware setup used for the specific facebook/dino-vits16 model."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not specify the cloud provider used for training the facebook/dino-vits16 model. The references mention using Slurm and submitit for distributed training across multiple nodes and GPUs, but do not indicate a specific cloud provider."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the amount of carbon emitted during the training of the facebook/dino-vits16 model. To accurately report the carbon emissions, details such as the hardware used for training, total training time, energy consumption, and the carbon intensity of the electricity grid would be required."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\nThe model uses a Vision Transformer (ViT) backbone with the following configuration:\n- ViT-Small (ViT-S) architecture\n- 16x16 input patch size (\"/16\")\n- 6 Transformer blocks\n- 384 channel dimension\n- 6 attention heads\n- 197 input tokens for 224x224 resolution\n- 21.7M total parameters (excluding projection head)\n\nThe projection head consists of:\n- 3-layer MLP with hidden dimension 2048\n- 2 normalization layers\n- Weight normalized fully connected output layer with K dimensions\n\nThe model does not use any batch normalization layers, making it entirely BN-free.\n\nTraining Objective:\nDINO (self-DIstillation with NO labels) is a self-supervised learning approach that can be interpreted as a form of knowledge distillation with no labels. The training involves a student network and a teacher network, both sharing the same ViT architecture but with different parameters.\n\nThe training objective is to minimize the cross-entropy loss between the output of the student network and the sharpened and centered output of the teacher network. This encourages the student to predict the output of the teacher network without using any labeled data.\n\n[More Information Needed] on the specific loss function and optimization details."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "Based on the provided references, the compute infrastructure used for training the facebook/dino-vits16 model is as follows:\n\n- The model was trained on 2 nodes with 8 GPUs each, for a total of 16 GPUs.\n- Slurm and submitit were used for distributed training.\n- The exact command used for training on 2 nodes with 16 GPUs total is:\n```\npython run_with_submitit.py --nodes 2 --ngpus 8 --arch vit_small --data_path /path/to/imagenet/train --output_dir /path/to/saving_dir\n```\n- The model was trained with a batch size of 1024, distributed over 16 GPUs when using ViT-S/16.\n- [More Information Needed] on the exact GPU model used.\n- [More Information Needed] on the CPU and memory specifications of the nodes.\n- The model achieves 76.1% top-1 accuracy using two 8-GPU servers for 3 days."
+  }
+]
