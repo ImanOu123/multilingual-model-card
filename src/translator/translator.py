@@ -90,7 +90,7 @@ class GoogleTranslator(Translator):
             dest=self.args.lang_dict[tgt_lang],
             src=self.args.lang_dict[src_lang]
         )
-        return translated_text
+        return translated_text.text
 
 class LLMTranslator(Translator):
     def prepare_model(self):

@@ -21,11 +21,11 @@ def get_json_list(f):
 #     cleaned_text = re.sub(pattern, '', text)
 #     return cleaned_text
 
-# in_dir = 'claude3_raw_json/'
-# out_dir = 'claude3_json/'
+# in_dir = 'original/claude3_raw_json/'
+# out_dir = 'original/claude3_json/'
 
-in_dir = 'gpt4_raw_json/'
-out_dir = 'gpt4_json/'
+in_dir = 'original/gpt4_raw_json/'
+out_dir = 'original/gpt4_json/'
 
 for file in os.listdir(in_dir):
     filepath = in_dir + file
