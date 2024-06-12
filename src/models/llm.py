@@ -40,9 +40,9 @@ def get_llm(model, api_key=None, api_org=None, model_path=None):
         api_key = os.environ.get('openai_api_key', None)
         if isinstance(api_org, list):
             api_org = random.choice(api_org)
-        print(api_org)
+        # print(api_org)
         api_org = os.environ.get(f"openai_api_org_{api_org}", None)
-        print(api_org)
+        # print(api_org)
         import openai
         openai.api_key = api_key
         openai.organization = api_org
