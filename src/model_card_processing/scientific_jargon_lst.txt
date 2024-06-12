@@ -1,0 +1,264 @@
+larger ecosystems
+deployment
+masked input
+class-generic features
+ fine-tuning
+ConvNeXt block
+references
+pretrained
+base model
+computer vision
+training approach
+learning objective
+imagenet-1k
+FCMAE (Fully Convolutional Masked Auto-Encoder)
+evaluation process
+detection
+ConvNeXt V2
+preprocessing
+ConvNeXt-Base
+fine-tuning
+downstream tasks
+resúmen
+supervised baselines
+transferable
+disparities
+cosine distance
+unfair behavior
+self-supervised learning
+convnextv2_large
+Channel dimension
+repository
+model sizes
+responsible AI practices
+transformer-based
+Mask R-CNN
+natural images
+val2017 set
+benchmark
+masked autoencoder
+Simulating sparse encoding
+predicted class probabilities
+dataset
+deepfakes
+ConvNeXt V2 architecture
+Global Response Normalization (GRN) layer
+ConvNet-based models
+evaluation
+disparate impacts
+facial images
+efficiency metrics
+self-supervised
+image types
+failure modes
+facebook/convnextv2-large-22k-224 model
+features
+pre-training
+user groups
+resumé
+blocks
+performance aspects
+demo link
+dimension-expansion MLP layers
+normalization
+block configuration
+MLP layer
+input_size
+ConvNeXt V1
+ImageNet-1K classification
+convnext
+MinkowskiEngine
+PyTorch framework
+LayerScale
+convnextv2-large-22k-224 variant
+feature
+biased
+channels
+Data path
+V2-L
+biases
+transferability
+Pre-training
+Large model size variant
+input image
+performance metrics
+data_path
+tradeoffs
+ImageNet-1K
+scalability characteristics
+SimMIM
+layer indexes
+ImageNet-1K dataset
+LayerScale component
+Sparse convolution
+evaluation metrics
+classification
+Semantic segmentation
+large variant
+societal impact
+ConvNeXt V2 Large
+unintended consequences
+model development
+strong scaling
+nproc_per_node
+out-of-the-box
+top-1 accuracy
+FC-MAE
+fully convolutional masked autoencoder (FCMAE)
+benchmarks
+Swin transformer
+masked dense convolution
+specific failure modes
+PyTorch
+predict
+Meta AI
+epochs
+hybrid models
+TPU
+self-supervised pre-training
+large-scale image classification model
+model
+GRN
+library
+model definitions
+missing parts
+main_finetune
+population subgroups
+path
+convolutional neural network
+compute-intensive
+ViT
+Object detection
+surveillance applications
+models
+interpretability
+hyperparameters
+Fully Convolutional Masked Autoencoder (FCMAE)
+performance gains
+CC-BY-NC
+Tokenization
+parameter
+optimizer
+metrics
+feature collapse
+publicly available data
+ImageNet-22K dataset
+checkpoint
+datasets
+batch size
+model size
+GRN (Global Response Normalization) layer
+ConvNeXt
+demographics
+data augmentation
+small models
+Gated Residual Network (GRN)
+JAX
+computational efficiency
+performance
+contrastive self-supervised learning
+sparse convolution
+FC-MAE (Fully Convolutional Masked Autoencoder)
+FCMAE
+learning rate
+ImageNet-1k
+classification tasks
+training
+COCO dataset
+Training Hyperparameters
+resoluton
+parameters
+activation tensors
+pretraining
+ema
+torch
+compute infrastructure
+probabilities
+categories
+post-processing
+convolution-based architecture
+error tradeoffs
+pre-trained model
+scaling behavior
+FC-MAE framework
+pre-trained weights
+Training Data
+training time
+fine-tuned
+state-of-the-art
+Facebook/convnextv2-large-22k-224 model
+semantic segmentation
+efficiency
+timm
+sociotechnical
+V1
+stage
+ConvNeXt blocks
+fairness
+inter-channel feature competition
+box
+training recipe
+convnextv2-large-22k-224
+Masked Autoencoders
+FCMAE pre-training framework
+ImageNet-22K
+pipeline
+UperNet
+fine-tuning approaches
+image models
+visual recognition tasks
+top-1
+huge model regime
+memory efficiency
+feature maps
+remaining context
+Finetuned
+Intermediate fine-tuning
+MoCoV3
+quantitatively
+FCMAE framework
+convnextv2
+pre-trained
+object detection
+resolution
+benchmarking
+decay values
+transfer learning
+COCO
+accuracy
+human language
+application pipeline
+facebook/convnextv2-large-22k-224
+final fine-tuning
+class selectivity index
+convnextv2-large-22k-224 model
+layer-wise learning rate
+supervised model
+qualitative analysis
+GPU
+activations
+segmentation
+ConvNets
+masked input visuals
+performance characteristics
+ConvNeXt V2-L
+Fine-tuning
+architecture
+lightweight
+capacity
+ConvNeXt V2-L model
+ADE20K
+ImageNet
+22k
+Transferability
+FLOPs
+Image classification
+convnextv2_base
+Sparse encoding
+scalability
+ConvNeXt architecture
+carbon emitted
+variants
+state-of-the-art performance
+ConvNeXt V2 model family
+pods
