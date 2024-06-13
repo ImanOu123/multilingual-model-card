@@ -1,0 +1,249 @@
+{
+  "abductive reasoning": {
+    "ar": "قياس احتمالي",
+    "fr": "Abduction (logique)",
+    "ja": "アブダクション",
+    "ru": "Абдукция (логика)",
+    "zh": "溯因推理"
+  },
+  "abstract data type": {
+    "ar": "نوع بيانات مجرد",
+    "fr": "Type abstrait",
+    "ja": "抽象データ型",
+    "ru": "Абстрактный тип данных",
+    "zh": "抽象資料型別"
+  },
+  "abstraction": {
+    "ar": "تجريد (حاسوب)",
+    "fr": "Abstraction (informatique)",
+    "ja": "抽象化 (計算機科学)",
+    "ru": "Абстракция (информатика)",
+    "zh": "抽象化 (計算機科學)"
+  },
+  "accelerating change": {
+    "ar": "تغير متسارع",
+    "fr": "Progrès accéléré",
+    "ja": "収穫加速の法則",
+    "zh": "加速变革"
+  },
+  "action language": {
+    "ar": "لغة فعلية",
+    "ru": "Язык действий",
+    "zh": "行动语言"
+  },
+  "action model learning": {
+    "ar": "تعلم نموذج التأثير"
+  },
+  "action selection": {
+    "ar": "اختيار الفعل"
+  },
+  "activation function": {
+    "ar": "تابع التفعيل",
+    "fr": "Fonction d'activation",
+    "ja": "活性化関数",
+    "ru": "Функция активации",
+    "zh": "激活函数"
+  },
+  "adaptive algorithm": {
+    "ar": "خوارزمية متكيفة",
+    "fr": "Algorithme adaptatif"
+  },
+  "adaptive neuro fuzzy inference system (ANFIS)": {
+    "ru": "ANFIS"
+  },
+  "admissible heuristic": {
+    "ar": "إرشادية مقبولة"
+  },
+  "affective computing": {
+    "ar": "حوسبة عاطفية",
+    "fr": "Informatique affective",
+    "zh": "情感计算"
+  },
+  "agent architecture": {
+    "ar": "بنية الوكيل",
+    "ja": "エージェントアーキテクチャ"
+  },
+  "AI accelerator": {
+    "ar": "مسرع الذكاء الاصطناعي",
+    "fr": "Puce d'accélération de réseaux de neurones",
+    "ja": "AIアクセラレータ",
+    "ru": "Нейронный процессор",
+    "zh": "人工智能加速器"
+  },
+  "AI-complete": {
+    "ar": "ذكاء اصطناعي مثالي",
+    "fr": "IA-complet",
+    "ja": "AI完全",
+    "ru": "AI-полная задача"
+  },
+  "algorithm": {
+    "ar": "خوارزمية",
+    "fr": "Algorithme",
+    "ja": "アルゴリズム",
+    "ru": "Алгоритм",
+    "zh": "算法"
+  },
+  "algorithmic efficiency": {
+    "ar": "كفاءة خوارزمية",
+    "ru": "Эффективность алгоритма",
+    "zh": "算法效率"
+  },
+  "algorithmic probability": {
+    "ar": "احتمال خوارزمي",
+    "fr": "Probabilité algorithmique",
+    "ja": "アルゴリズム的確率"
+  },
+  "AlphaGo": {
+    "ar": "ألفا غو",
+    "fr": "AlphaGo",
+    "ja": "AlphaGo",
+    "ru": "AlphaGo",
+    "zh": "AlphaGo"
+  },
+  "ambient intelligence (AmI)": {
+    "ar": "ذكاء محيطي",
+    "fr": "Intelligence ambiante",
+    "ru": "Окружающий интеллект",
+    "zh": "环境智能"
+  },
+  "analysis of algorithms": {
+    "ar": "تحليل الخوارزميات",
+    "fr": "Analyse de la complexité des algorithmes",
+    "ja": "アルゴリズム解析",
+    "zh": "算法分析"
+  },
+  "analytics": {
+    "ar": "تحليلات",
+    "fr": "Analytique (recherche)",
+    "ja": "解析",
+    "ru": "Аналитика"
+  },
+  "answer set programming (ASP)": {
+    "ar": "برمجة مجموعة الإجابات",
+    "fr": "Answer set programming",
+    "ru": "Программирование наборов ответов",
+    "zh": "回答集编程"
+  },
+  "anytime algorithm": {
+    "ar": "خوارزمية في أي وقت",
+    "fr": "Algorithme anytime"
+  },
+  "application programming interface (API)": {
+    "ar": "واجهة برمجة التطبيقات",
+    "fr": "Interface de programmation",
+    "ja": "アプリケーションプログラミングインタフェース",
+    "ru": "API",
+    "zh": "应用程序接口"
+  },
+  "approximate string matching": {
+    "ar": "مطابقة تقريبية للسلاسل",
+    "fr": "Recherche approximative",
+    "ru": "Приближенное соответствие строк",
+    "zh": "字符串近似匹配"
+  },
+  "approximation error": {
+    "ar": "خطأ مطلق",
+    "fr": "Erreur d'approximation",
+    "ja": "近似による誤差",
+    "zh": "逼近误差"
+  },
+  "argumentation framework": {
+    "ar": "إطار حجج",
+    "fr": "Système d'argumentation"
+  },
+  "artificial general intelligence (AGI)": {
+    "ar": "ذكاء عام اصطناعي",
+    "fr": "Intelligence artificielle générale",
+    "ja": "汎用人工知能",
+    "ru": "Сильный искусственный интеллект",
+    "zh": "通用人工智慧"
+  },
+  "artificial immune system (AIS)": {
+    "fr": "Système immunitaire artificiel",
+    "ja": "人工免疫システム",
+    "ru": "Искусственная иммунная система"
+  },
+  "artificial intelligence (AI)": {
+    "ar": "ذكاء اصطناعي",
+    "fr": "Intelligence artificielle",
+    "ja": "人工知能",
+    "ru": "Искусственный интеллект",
+    "zh": "人工智能"
+  },
+  "Artificial Intelligence Markup Language": {
+    "ar": "إيه أي إم إل",
+    "ja": "Artificial Intelligence Markup Language",
+    "ru": "AIML"
+  },
+  "artificial neural network (ANN)": {
+    "ar": "شبكة عصبونية اصطناعية",
+    "fr": "Réseau de neurones artificiels",
+    "ja": "ニューラルネットワーク",
+    "ru": "Нейронная сеть",
+    "zh": "人工神经网络"
+  },
+  "Association for the Advancement of Artificial Intelligence (AAAI)": {
+    "ar": "جمعية النهوض بالذكاء الاصطناعي",
+    "fr": "Association for the Advancement of Artificial Intelligence",
+    "ja": "アメリカ人工知能学会",
+    "zh": "人工智能促进协会"
+  },
+  "asymptotic computational complexity": {},
+  "attention mechanism": {
+    "ar": "انتباه (تعلم الآلة)",
+    "ja": "アテンション (機械学習)",
+    "zh": "注意力机制"
+  },
+  "attributional calculus": {},
+  "augmented reality (AR)": {
+    "ar": "واقع معزز",
+    "fr": "Réalité augmentée",
+    "ja": "拡張現実",
+    "ru": "Дополненная реальность",
+    "zh": "擴增實境"
+  },
+  "automata theory": {
+    "ar": "نظرية التشغيل الذاتي",
+    "fr": "Théorie des automates",
+    "ja": "オートマトン",
+    "ru": "Теория автоматов",
+    "zh": "自動機理論"
+  },
+  "automated machine learning (AutoML)": {
+    "ar": "تعلم الآلة الآلي",
+    "ru": "Автоматическое машинное обучение",
+    "zh": "自动机器学习"
+  },
+  "automated planning and scheduling": {
+    "ar": "التخطيط الآلي والجدولة",
+    "fr": "Planification (intelligence artificielle)",
+    "ja": "自動計画",
+    "ru": "Автоматическое планирование и диспетчеризация"
+  },
+  "automated reasoning": {
+    "ar": "استدلال آلي",
+    "fr": "Raisonnement automatisé",
+    "ja": "自動推論",
+    "zh": "自动推理"
+  },
+  "autonomic computing (AC)": {
+    "ar": "حوسبة مستقلة ذاتيا",
+    "fr": "Autonomic computing",
+    "ja": "オートノミックコンピューティング",
+    "ru": "Автономная компьютерная система",
+    "zh": "自主運算"
+  },
+  "autonomous car": {
+    "ar": "مركبة ذاتية القيادة",
+    "fr": "Véhicule autonome",
+    "ja": "自動運転車",
+    "ru": "Беспилотный автомобиль",
+    "zh": "自動駕駛汽車"
+  },
+  "autonomous robot": {
+    "ar": "روبوتات مستقلة",
+    "fr": "Robot autonome",
+    "ru": "Автономный робот",
+    "zh": "自主机器人"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "abstract method": {
+    "ar": "طريقة (برمجة حاسوب)",
+    "fr": "Méthode (informatique)",
+    "ja": "メソッド (計算機科学)",
+    "ru": "Метод (программирование)",
+    "zh": "方法 (電腦科學)"
+  },
+  "abstraction": {
+    "ar": "تجريد (حاسوب)",
+    "fr": "Abstraction (informatique)",
+    "ja": "抽象化 (計算機科学)",
+    "ru": "Абстракция (информатика)",
+    "zh": "抽象化 (計算機科學)"
+  },
+  "agent architecture": {
+    "ar": "بنية الوكيل",
+    "ja": "エージェントアーキテクチャ"
+  },
+  "agent-based model (ABM)": {
+    "ja": "エージェント・ベース・モデル",
+    "ru": "Агентное моделирование",
+    "zh": "个体为本模型"
+  },
+  "aggregate function": {
+    "ar": "دالة إضمامة",
+    "fr": "Fonction d'agrégation"
+  },
+  "agile software development": {
+    "ar": "أجايل (مبادئ تطوير برمجيات)",
+    "fr": "Méthode agile",
+    "ja": "アジャイルソフトウェア開発",
+    "ru": "Гибкая методология разработки",
+    "zh": "敏捷软件开发"
+  },
+  "algorithm": {
+    "ar": "خوارزمية",
+    "fr": "Algorithme",
+    "ja": "アルゴリズム",
+    "ru": "Алгоритм",
+    "zh": "算法"
+  },
+  "algorithm design": {
+    "ar": "خوارزمية",
+    "fr": "Algorithme",
+    "ja": "アルゴリズム",
+    "ru": "Алгоритм",
+    "zh": "算法"
+  },
+  "algorithmic efficiency": {
+    "ar": "كفاءة خوارزمية",
+    "ru": "Эффективность алгоритма",
+    "zh": "算法效率"
+  },
+  "American Standard Code for Information Interchange (ASCII)": {
+    "ar": "أسكي",
+    "fr": "American Standard Code for Information Interchange",
+    "ja": "ASCII",
+    "ru": "ASCII",
+    "zh": "ASCII"
+  },
+  "application programming interface (API)": {
+    "ar": "واجهة برمجة التطبيقات",
+    "fr": "Interface de programmation",
+    "ja": "アプリケーションプログラミングインタフェース",
+    "ru": "API",
+    "zh": "应用程序接口"
+  },
+  "application software": {
+    "ar": "برمجيات تطبيقية",
+    "fr": "Application (informatique)",
+    "ja": "アプリケーションソフトウェア",
+    "ru": "Прикладное программное обеспечение",
+    "zh": "应用程序"
+  },
+  "array data structure": {
+    "ar": "مصفوفة (حوسبة)",
+    "fr": "Tableau (structure de données)",
+    "ja": "配列",
+    "ru": "Массив (тип данных)",
+    "zh": "数组"
+  },
+  "artifact": {
+    "zh": "制品"
+  },
+  "artificial intelligence (AI)": {
+    "ar": "ذكاء اصطناعي",
+    "fr": "Intelligence artificielle",
+    "ja": "人工知能",
+    "ru": "Искусственный интеллект",
+    "zh": "人工智能"
+  },
+  "ASCII": {
+    "ar": "أسكي",
+    "fr": "American Standard Code for Information Interchange",
+    "ja": "ASCII",
+    "ru": "ASCII",
+    "zh": "ASCII"
+  },
+  "assertion": {
+    "ja": "表明 (プログラミング)",
+    "ru": "Утверждение (программирование)",
+    "zh": "斷言 (程式)"
+  },
+  "associative array": {
+    "ar": "مصفوفة ارتباطية",
+    "fr": "Tableau associatif",
+    "ja": "連想配列",
+    "ru": "Ассоциативный массив",
+    "zh": "关联数组"
+  },
+  "automata theory": {
+    "ar": "نظرية التشغيل الذاتي",
+    "fr": "Théorie des automates",
+    "ja": "オートマトン",
+    "ru": "Теория автоматов",
+    "zh": "自動機理論"
+  },
+  "automated reasoning": {
+    "ar": "استدلال آلي",
+    "fr": "Raisonnement automatisé",
+    "ja": "自動推論",
+    "zh": "自动推理"
+  }
+}
