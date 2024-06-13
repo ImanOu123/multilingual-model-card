@@ -16,11 +16,11 @@ def extract_glossary_links(html_content):
     # Extract the glossary terms and their links
     glossary_entries = []
 
-    for lst in glossary_lsts[:1]:
+    for lst in glossary_lsts:
         
         glossary_terms = lst.find_all('dt')
 
-        for term in glossary_terms[1:]:
+        for term in glossary_terms:
             if term.find("a") and term.find("a").has_attr('href'):
                 term_text = term.get_text(separator=' ', strip=True)
                 term_link = term.find("a")['href']

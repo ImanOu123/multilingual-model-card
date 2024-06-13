@@ -1,4 +1,11 @@
 {
+  "abstract data type (ADT)": {
+    "ar": "نوع بيانات مجرد",
+    "fr": "Type abstrait",
+    "ja": "抽象データ型",
+    "ru": "Абстрактный тип данных",
+    "zh": "抽象資料型別"
+  },
   "abstract method": {
     "ar": "طريقة (برمجة حاسوب)",
     "fr": "Méthode (informatique)",
@@ -121,5 +128,1675 @@
     "fr": "Raisonnement automatisé",
     "ja": "自動推論",
     "zh": "自动推理"
+  },
+  "bandwidth": {
+    "ar": "عرض نطاق (حاسوب)",
+    "zh": "带宽 (计算机)"
+  },
+  "Bayesian programming": {
+    "ru": "Байесовское программирование"
+  },
+  "benchmark": {
+    "ar": "مقياس الأداء (الحوسبة)",
+    "fr": "Test de performance",
+    "ja": "ベンチマーク",
+    "ru": "Тест производительности"
+  },
+  "best, worst and average case": {
+    "ar": "حالة سلوك خوارزمية"
+  },
+  "big data": {
+    "ar": "بيانات ضخمة",
+    "fr": "Big data",
+    "ja": "ビッグデータ",
+    "ru": "Большие данные",
+    "zh": "大數據"
+  },
+  "big O notation": {
+    "ar": "تمثيل O الكبرى",
+    "fr": "Comparaison asymptotique",
+    "ja": "ランダウの記号",
+    "ru": "«O» большое и «o» малое",
+    "zh": "大O符号"
+  },
+  "binary number": {
+    "ar": "نظام عد ثنائي",
+    "fr": "Système binaire",
+    "ja": "二進法",
+    "ru": "Двоичная система счисления",
+    "zh": "二进制"
+  },
+  "binary search algorithm": {
+    "ar": "خوارزمية البحث الثنائي",
+    "fr": "Recherche dichotomique",
+    "ja": "二分探索",
+    "ru": "Двоичный поиск",
+    "zh": "二分搜尋演算法"
+  },
+  "binary tree": {
+    "ar": "شجرة ثنائية",
+    "fr": "Arbre binaire",
+    "ja": "二分木",
+    "ru": "Двоичное дерево",
+    "zh": "二叉树"
+  },
+  "bioinformatics": {
+    "ar": "معلوماتية حيوية",
+    "fr": "Bio-informatique",
+    "ja": "バイオインフォマティクス",
+    "ru": "Биоинформатика",
+    "zh": "生物信息学"
+  },
+  "bit": {
+    "ar": "بت",
+    "fr": "Bit",
+    "ja": "ビット",
+    "ru": "Бит",
+    "zh": "位元"
+  },
+  "bit rate ( R )": {
+    "ar": "معدل البتات",
+    "fr": "Débit binaire",
+    "ja": "ビットレート",
+    "ru": "Битрейт",
+    "zh": "比特率"
+  },
+  "blacklist": {
+    "ar": "قائمة سوداء (حوسبة)",
+    "ru": "Чёрный список (информатика)"
+  },
+  "BMP file format": {
+    "ar": "بي إم بي (صيغة ملفات)",
+    "fr": "Windows bitmap",
+    "ja": "Windows bitmap",
+    "ru": "BMP",
+    "zh": "BMP"
+  },
+  "Boolean data type": {
+    "ar": "نوع البيانات المنطقية",
+    "fr": "Booléen",
+    "ja": "ブーリアン型",
+    "ru": "Логический тип",
+    "zh": "布林 (資料類型)"
+  },
+  "Boolean expression": {
+    "fr": "Expression booléenne (programmation informatique)",
+    "ru": "Логическое выражение",
+    "zh": "布尔表达式"
+  },
+  "Boolean algebra": {
+    "ar": "جبر بول",
+    "fr": "Algèbre de Boole (logique)",
+    "ru": "Алгебра логики",
+    "zh": "逻辑代数"
+  },
+  "byte": {
+    "ar": "بايت",
+    "fr": "Byte",
+    "ja": "バイト (情報)",
+    "ru": "Байт",
+    "zh": "字节"
+  },
+  "booting": {
+    "ar": "إقلاع (حاسوب)",
+    "fr": "Démarrage d'un ordinateur",
+    "ja": "ブート",
+    "ru": "Загрузка операционной системы",
+    "zh": "啟動程式"
+  },
+  "callback": {
+    "fr": "Fonction de rappel",
+    "ja": "コールバック (情報工学)",
+    "ru": "Callback (программирование)",
+    "zh": "回调函数"
+  },
+  "central processing unit (CPU)": {
+    "ar": "وحدة معالجة مركزية",
+    "fr": "CPU",
+    "ja": "CPU",
+    "ru": "Центральный процессор",
+    "zh": "中央处理器"
+  },
+  "character": {
+    "ar": "محرف (حوسبة)",
+    "fr": "Caractère (informatique)",
+    "ja": "キャラクタ (コンピュータ)",
+    "ru": "Символьный тип",
+    "zh": "字符 (计算机科学)"
+  },
+  "cipher": {
+    "ar": "معم",
+    "fr": "Chiffre (cryptologie)",
+    "ru": "Шифр",
+    "zh": "密碼"
+  },
+  "class": {
+    "ar": "صنف (حوسبة)",
+    "fr": "Classe (informatique)",
+    "ja": "クラス (コンピュータ)",
+    "ru": "Класс (программирование)",
+    "zh": "类 (计算机科学)"
+  },
+  "class-based programming": {
+    "ja": "クラスベース",
+    "zh": "基于类编程"
+  },
+  "client": {
+    "ar": "عميل (حوسبة)",
+    "fr": "Client (informatique)",
+    "ja": "クライアント (コンピュータ)",
+    "ru": "Клиент (информатика)",
+    "zh": "客户端"
+  },
+  "cleanroom software engineering": {
+    "ja": "ソフトウェアクリーンルーム",
+    "ru": "Cleanroom Software Engineering"
+  },
+  "closure": {
+    "fr": "Fermeture (informatique)",
+    "ja": "クロージャ",
+    "ru": "Замыкание (программирование)",
+    "zh": "闭包 (计算机科学)"
+  },
+  "cloud computing": {
+    "ar": "حوسبة سحابية",
+    "fr": "Cloud computing",
+    "ja": "クラウドコンピューティング",
+    "ru": "Облачные вычисления",
+    "zh": "雲端運算"
+  },
+  "code library": {
+    "ar": "مكتبة برمجية",
+    "fr": "Bibliothèque logicielle",
+    "ja": "ライブラリ",
+    "ru": "Библиотека (программирование)",
+    "zh": "函式庫"
+  },
+  "coding": {
+    "ar": "برمجة",
+    "fr": "Programmation informatique",
+    "ja": "プログラミング",
+    "ru": "Программирование",
+    "zh": "程序设计"
+  },
+  "coding theory": {
+    "ar": "نظرية الترميز",
+    "fr": "Théorie des codes",
+    "ja": "符号理論",
+    "ru": "Теория кодирования",
+    "zh": "编码理论"
+  },
+  "cognitive science": {
+    "ar": "علوم استعرافية",
+    "fr": "Sciences cognitives",
+    "ja": "認知科学",
+    "ru": "Когнитивистика",
+    "zh": "认知科学"
+  },
+  "collection": {
+    "fr": "Collection (type de données)",
+    "ru": "Коллекция (программирование)",
+    "zh": "集合 (计算机科学)"
+  },
+  "comma-separated values (CSV)": {
+    "ar": "قيم مفصولة بفواصل",
+    "fr": "Comma-separated values",
+    "ja": "Comma-Separated Values",
+    "ru": "CSV",
+    "zh": "逗号分隔值"
+  },
+  "compiler": {
+    "ar": "مصرف (حوسبة)",
+    "fr": "Compilateur",
+    "ja": "コンパイラ",
+    "ru": "Компилятор",
+    "zh": "編譯器"
+  },
+  "computability theory": {
+    "ar": "نظرية الحسوبية",
+    "fr": "Théorie de la calculabilité",
+    "ja": "計算可能性理論",
+    "ru": "Теория вычислимости",
+    "zh": "可计算性理论"
+  },
+  "computation": {
+    "ar": "حوسبة (عام)"
+  },
+  "computational biology": {
+    "ar": "علم الأحياء المحوسب",
+    "fr": "Biologie computationnelle",
+    "ja": "計算生物学",
+    "ru": "Вычислительная биология",
+    "zh": "计算生物学"
+  },
+  "computational chemistry": {
+    "ar": "كيمياء محوسبة",
+    "fr": "Chimie numérique",
+    "ja": "計算化学",
+    "ru": "Вычислительная химия",
+    "zh": "计算化学"
+  },
+  "computational complexity theory": {
+    "ar": "نظرية التعقيد الحسابي",
+    "fr": "Théorie de la complexité (informatique théorique)",
+    "ja": "計算複雑性理論",
+    "ru": "Теория сложности вычислений",
+    "zh": "計算複雜性理論"
+  },
+  "computational model": {
+    "zh": "运算模型"
+  },
+  "computational neuroscience": {
+    "ar": "علم الأعصاب الحوسبي",
+    "fr": "Neurosciences computationnelles",
+    "ja": "計算論的神経科学",
+    "ru": "Вычислительная нейробиология",
+    "zh": "計算神經科學"
+  },
+  "computational physics": {
+    "ar": "فيزياء محوسبة",
+    "fr": "Physique numérique",
+    "ja": "計算物理学",
+    "ru": "Вычислительная физика",
+    "zh": "计算物理学"
+  },
+  "computational science": {
+    "ar": "حوسبة علمية",
+    "fr": "Sciences numériques",
+    "ja": "計算科学",
+    "zh": "运算科学"
+  },
+  "computational steering": {},
+  "computer": {
+    "ar": "حاسوب",
+    "fr": "Ordinateur",
+    "ja": "コンピュータ",
+    "ru": "Компьютер",
+    "zh": "电子计算机"
+  },
+  "computer architecture": {
+    "ar": "معمارية الحاسوب",
+    "fr": "Architecture matérielle",
+    "ja": "コンピュータ・アーキテクチャ",
+    "ru": "Архитектура компьютера",
+    "zh": "计算机系统结构"
+  },
+  "computer data storage": {
+    "ar": "تخزين بيانات الحاسوب",
+    "fr": "Mémoire (informatique)",
+    "ja": "記憶装置",
+    "zh": "電腦數據存貯器"
+  },
+  "computer ethics": {
+    "ar": "أخلاقيات الحاسوب",
+    "fr": "Éthique de l'informatique",
+    "ru": "Компьютерная этика",
+    "zh": "计算机伦理"
+  },
+  "computer graphics": {
+    "ar": "رسوميات حاسوبية",
+    "fr": "Infographie",
+    "ja": "コンピュータグラフィックス",
+    "ru": "Компьютерная графика",
+    "zh": "计算机图形"
+  },
+  "computer network": {
+    "ar": "شبكة حاسوب",
+    "fr": "Réseau informatique",
+    "ja": "コンピュータネットワーク",
+    "ru": "Вычислительная сеть",
+    "zh": "计算机网络"
+  },
+  "computer program": {
+    "ar": "برنامج (حاسوب)",
+    "fr": "Programme informatique",
+    "ja": "プログラム (コンピュータ)",
+    "ru": "Компьютерная программа",
+    "zh": "计算机程序"
+  },
+  "computer programming": {
+    "ar": "برمجة",
+    "fr": "Programmation informatique",
+    "ja": "プログラミング",
+    "ru": "Программирование",
+    "zh": "程序设计"
+  },
+  "computer science": {
+    "ar": "علم الحاسوب",
+    "fr": "Informatique",
+    "ja": "計算機科学",
+    "ru": "Информатика",
+    "zh": "计算机科学"
+  },
+  "computer scientist": {
+    "ar": "عالم حاسوب",
+    "fr": "Informaticien",
+    "ru": "Информатик",
+    "zh": "電腦科學家"
+  },
+  "computer security": {
+    "ar": "أمن الحاسوب",
+    "fr": "Sécurité des systèmes d'information",
+    "ja": "コンピュータセキュリティ",
+    "ru": "Компьютерная безопасность",
+    "zh": "计算机安全"
+  },
+  "computer vision": {
+    "ar": "رؤية حاسوبية",
+    "fr": "Vision par ordinateur",
+    "ja": "コンピュータビジョン",
+    "ru": "Компьютерное зрение",
+    "zh": "计算机视觉"
+  },
+  "computing": {
+    "ar": "حوسبة",
+    "fr": "Technologie informatique",
+    "ja": "コンピューティング",
+    "ru": "Вычислительная техника",
+    "zh": "计算 (计算机科学)"
+  },
+  "concatenation": {
+    "fr": "Concaténation",
+    "ja": "文字列結合",
+    "ru": "Конкатенация",
+    "zh": "串接"
+  },
+  "Concurrency": {
+    "ar": "تزامن (حوسبة)",
+    "ja": "並行性",
+    "ru": "Параллелизм (информатика)",
+    "zh": "并发性"
+  },
+  "conditional": {
+    "ar": "تعبير شرطي (برمجة)",
+    "fr": "Instruction conditionnelle (programmation)",
+    "ja": "If文",
+    "ru": "Ветвление (программирование)",
+    "zh": "條件 (編程)"
+  },
+  "container": {
+    "ar": "حاوية (بيانات)",
+    "fr": "Conteneur (informatique)",
+    "ja": "コンテナ (データ型)",
+    "ru": "Контейнер (программирование)",
+    "zh": "容器 (数据类型)"
+  },
+  "continuation-passing style (CPS)": {
+    "ja": "継続渡しスタイル",
+    "ru": "Программирование в стиле передачи продолжений"
+  },
+  "control flow": {
+    "ar": "انسياب التحكم",
+    "fr": "Structure de contrôle",
+    "ja": "制御構造",
+    "ru": "Порядок выполнения",
+    "zh": "控制流程"
+  },
+  "Creative Commons (CC)": {
+    "ar": "المشاع الإبداعي",
+    "fr": "Creative Commons",
+    "ja": "クリエイティブ・コモンズ",
+    "ru": "Creative Commons",
+    "zh": "知识共享"
+  },
+  "cryptography": {
+    "ar": "تعمية (تخصص)",
+    "fr": "Cryptographie",
+    "ja": "暗号理論",
+    "ru": "Криптография",
+    "zh": "密码学"
+  },
+  "CSV": {
+    "ar": "قيم مفصولة بفواصل",
+    "fr": "Comma-separated values",
+    "ja": "Comma-Separated Values",
+    "ru": "CSV",
+    "zh": "逗号分隔值"
+  },
+  "cyberbullying": {
+    "ar": "تنمر على الإنترنت",
+    "fr": "Cyberharcèlement",
+    "ja": "ネットいじめ",
+    "ru": "Интернет-травля",
+    "zh": "網路霸凌"
+  },
+  "cyberspace": {
+    "ar": "فضاء إلكتروني",
+    "fr": "Cyberespace",
+    "ja": "サイバースペース",
+    "ru": "Киберпространство",
+    "zh": "信息空间"
+  },
+  "daemon": {
+    "ar": "برنامج خفي",
+    "fr": "Daemon (informatique)",
+    "ja": "デーモン (ソフトウェア)",
+    "ru": "Демон (программа)",
+    "zh": "守护进程"
+  },
+  "Data": {
+    "ar": "بيانات (حوسبة)",
+    "fr": "Donnée (informatique)",
+    "ja": "データ (コンピュータ)",
+    "ru": "Данные (вычислительная техника)",
+    "zh": "数据 (计算机)"
+  },
+  "data center": {
+    "ar": "مركز بيانات",
+    "fr": "Centre de données",
+    "ja": "データセンター",
+    "ru": "Дата-центр",
+    "zh": "数据中心"
+  },
+  "database": {
+    "ar": "قاعدة بيانات",
+    "fr": "Base de données",
+    "ja": "データベース",
+    "ru": "База данных",
+    "zh": "数据库"
+  },
+  "data mining": {
+    "ar": "تنقيب في البيانات",
+    "fr": "Exploration de données",
+    "ja": "データマイニング",
+    "ru": "Data mining",
+    "zh": "数据挖掘"
+  },
+  "data science": {
+    "ar": "علم البيانات",
+    "fr": "Science des données",
+    "ja": "データサイエンス",
+    "ru": "Наука о данных",
+    "zh": "数据科学"
+  },
+  "data structure": {
+    "ar": "هياكل بيانات",
+    "fr": "Structure de données",
+    "ja": "データ構造",
+    "ru": "Структура данных",
+    "zh": "数据结构"
+  },
+  "data type": {
+    "ar": "نوع بيانات",
+    "fr": "Type (informatique)",
+    "ja": "データ型",
+    "ru": "Тип данных",
+    "zh": "資料類型"
+  },
+  "debugging": {
+    "ar": "تصحيح برمجي",
+    "ja": "デバッグ",
+    "ru": "Отладка программы",
+    "zh": "调试"
+  },
+  "declaration": {
+    "fr": "Déclaration (informatique)",
+    "ru": "Объявление (информатика)",
+    "zh": "聲明 (編程)"
+  },
+  "digital data": {
+    "ar": "بيانات رقمية",
+    "fr": "Numérique",
+    "ja": "デジタル",
+    "ru": "Цифровой формат",
+    "zh": "數碼資料"
+  },
+  "digital signal processing ( DSP )": {
+    "ar": "معالجة رقمية للإشارة",
+    "fr": "Traitement numérique du signal",
+    "ja": "デジタル信号処理",
+    "ru": "Цифровая обработка сигналов",
+    "zh": "数字信号处理"
+  },
+  "discrete event simulation ( DES )": {
+    "fr": "Simulation à événements discrets",
+    "ru": "Дискретно-событийное моделирование",
+    "zh": "离散事件仿真"
+  },
+  "disk storage": {
+    "ar": "التخزين على القرص",
+    "zh": "碟盤存儲"
+  },
+  "distributed computing": {
+    "ar": "حوسبة موزعة",
+    "fr": "Calcul distribué",
+    "ja": "分散コンピューティング",
+    "ru": "Распределённые вычисления",
+    "zh": "分布式计算"
+  },
+  "divide and conquer algorithm": {
+    "ar": "خوارزمية فرق تسد",
+    "fr": "Diviser pour régner (informatique)",
+    "ja": "分割統治法",
+    "ru": "Разделяй и властвуй (информатика)",
+    "zh": "分治法"
+  },
+  "DNS": {
+    "ar": "نظام أسماء النطاقات",
+    "fr": "Domain Name System",
+    "ja": "Domain Name System",
+    "ru": "DNS",
+    "zh": "域名系统"
+  },
+  "documentation": {
+    "ar": "توثيق البرمجيات",
+    "fr": "Documentation logicielle",
+    "ja": "ソフトウェアドキュメンテーション",
+    "ru": "Документация на программное обеспечение",
+    "zh": "软件文档"
+  },
+  "domain": {
+    "ja": "ドメイン (ソフトウェア工学)",
+    "zh": "領域 (軟體工程)"
+  },
+  "Domain Name System (DNS)": {
+    "ar": "نظام أسماء النطاقات",
+    "fr": "Domain Name System",
+    "ja": "Domain Name System",
+    "ru": "DNS",
+    "zh": "域名系统"
+  },
+  "double-precision floating-point format": {
+    "ar": "تنسيق النقطة العائمة مزدوج الدقة",
+    "ja": "倍精度浮動小数点数",
+    "ru": "Число двойной точности",
+    "zh": "雙精度浮點數"
+  },
+  "download": {
+    "ar": "تحميل (شبكات)",
+    "ja": "ダウンロード",
+    "ru": "Скачивание данных",
+    "zh": "下載"
+  },
+  "edge device": {
+    "zh": "边缘设备"
+  },
+  "encryption": {
+    "ar": "تعمية (إجرائية)",
+    "fr": "Chiffrement",
+    "ja": "暗号",
+    "ru": "Шифрование",
+    "zh": "加密"
+  },
+  "event": {
+    "ar": "حدث (حوسبة)",
+    "ja": "イベント (プログラミング)",
+    "ru": "Событие (объектно-ориентированное программирование)"
+  },
+  "event-driven programming": {
+    "fr": "Programmation événementielle",
+    "ja": "イベント駆動型プログラミング",
+    "ru": "Событийно-ориентированное программирование",
+    "zh": "事件驅動程式設計"
+  },
+  "evolutionary computing": {
+    "ar": "حوسبة تطورية",
+    "ja": "進化的計算",
+    "ru": "Эволюционное моделирование",
+    "zh": "进化计算"
+  },
+  "executable": {
+    "ar": "تنفيذي",
+    "fr": "Fichier exécutable",
+    "ja": "実行ファイル",
+    "ru": "Исполняемый файл",
+    "zh": "執行檔"
+  },
+  "execution": {
+    "fr": "Exécution (informatique)",
+    "ja": "実行 (コンピュータ)"
+  },
+  "exception handling": {
+    "ar": "تدبير الحالات الاستثنائية",
+    "fr": "Système de gestion d'exceptions",
+    "ja": "例外処理",
+    "ru": "Обработка исключений",
+    "zh": "异常处理"
+  },
+  "Existence detection": {},
+  "expression": {
+    "fr": "Expression (informatique)",
+    "ja": "式 (プログラミング)",
+    "ru": "Выражение (информатика)"
+  },
+  "fault-tolerant computer system": {
+    "ar": "تسامح مع الأخطاء",
+    "fr": "Tolérance aux pannes",
+    "ja": "フォールトトレラントシステム",
+    "ru": "Отказоустойчивость",
+    "zh": "故障容許度"
+  },
+  "feasibility study": {
+    "ar": "دراسة جدوى",
+    "fr": "Étude de faisabilité",
+    "ja": "フィジビリティスタディ",
+    "zh": "可行性研究"
+  },
+  "field": {
+    "ar": "حقل (علم الحاسوب)",
+    "fr": "Champ (base de données)",
+    "ja": "フィールド (計算機科学)",
+    "ru": "Поле класса",
+    "zh": "字段"
+  },
+  "filename extension": {
+    "ar": "ملحق اسم الملف",
+    "fr": "Extension de nom de fichier",
+    "ja": "拡張子",
+    "ru": "Расширение имени файла",
+    "zh": "文件扩展名"
+  },
+  "filter (software)": {
+    "fr": "Filtre (informatique)",
+    "ja": "フィルタ (ソフトウェア)"
+  },
+  "floating point arithmetic": {
+    "ar": "حسابات الفاصلة المتحركة",
+    "fr": "Virgule flottante",
+    "ja": "浮動小数点数",
+    "ru": "Число с плавающей запятой",
+    "zh": "浮点数运算"
+  },
+  "game theory": {
+    "ar": "نظرية الألعاب",
+    "fr": "Théorie des jeux",
+    "ja": "ゲーム理論",
+    "ru": "Теория игр",
+    "zh": "博弈论"
+  },
+  "garbage in, garbage out (GIGO)": {
+    "fr": "GIGO",
+    "ja": "Garbage in, garbage out",
+    "ru": "GIGO",
+    "zh": "垃圾进，垃圾出"
+  },
+  "Graphics Interchange Format": {
+    "ar": "نسق الرسومات المتبادلة",
+    "fr": "Graphics Interchange Format",
+    "ja": "Graphics Interchange Format",
+    "ru": "GIF",
+    "zh": "GIF"
+  },
+  "gigabyte": {
+    "ar": "جيجابايت",
+    "fr": "Gigabyte",
+    "ja": "ギガバイト",
+    "ru": "Гигабайт",
+    "zh": "吉字节"
+  },
+  "global variable": {
+    "fr": "Variable globale",
+    "ja": "グローバル変数",
+    "ru": "Глобальная переменная",
+    "zh": "全局变量"
+  },
+  "graph theory": {
+    "ar": "نظرية البيان",
+    "fr": "Théorie des graphes",
+    "ja": "グラフ理論",
+    "ru": "Теория графов",
+    "zh": "图论"
+  },
+  "handle": {
+    "ru": "Дескриптор (программирование)",
+    "zh": "句柄"
+  },
+  "hard problem": {
+    "ar": "نظرية التعقيد الحسابي",
+    "fr": "Théorie de la complexité (informatique théorique)",
+    "ja": "計算複雑性理論",
+    "ru": "Теория сложности вычислений",
+    "zh": "計算複雜性理論"
+  },
+  "hash function": {
+    "ar": "دالة تلبيد",
+    "fr": "Fonction de hachage",
+    "ja": "ハッシュ関数",
+    "ru": "Хеш-функция",
+    "zh": "散列函數"
+  },
+  "hash table": {
+    "ar": "جدول تجزئة",
+    "fr": "Table de hachage",
+    "ja": "ハッシュテーブル",
+    "ru": "Хеш-таблица",
+    "zh": "哈希表"
+  },
+  "heap": {
+    "ar": "كومة (هياكل بيانات)",
+    "fr": "Tas (informatique)",
+    "ja": "ヒープ",
+    "ru": "Куча (структура данных)",
+    "zh": "堆積"
+  },
+  "heapsort": {
+    "ar": "تصنيف الكومة",
+    "fr": "Tri par tas",
+    "ja": "ヒープソート",
+    "ru": "Пирамидальная сортировка",
+    "zh": "堆排序"
+  },
+  "human-computer interaction (HCI)": {
+    "ar": "تفاعل الإنسان مع الحاسوب",
+    "fr": "Interactions humain-machine",
+    "ja": "ヒューマンコンピュータインタラクション",
+    "ru": "Человеко-компьютерное взаимодействие",
+    "zh": "人机交互"
+  },
+  "identifier": {
+    "fr": "Identifiant",
+    "ja": "識別子",
+    "ru": "Идентификатор",
+    "zh": "標識符"
+  },
+  "IDE": {
+    "ar": "بيئة تطوير متكاملة",
+    "fr": "Environnement de développement",
+    "ja": "統合開発環境",
+    "ru": "Интегрированная среда разработки",
+    "zh": "集成开发环境"
+  },
+  "image processing": {
+    "ar": "معالجة الصور الرقمية",
+    "ja": "デジタル画像処理",
+    "ru": "Цифровая обработка изображений",
+    "zh": "數位影像處理"
+  },
+  "imperative programming": {
+    "ar": "برمجة أمرية",
+    "fr": "Programmation impérative",
+    "ja": "命令型プログラミング",
+    "ru": "Императивное программирование",
+    "zh": "指令式編程"
+  },
+  "incremental build model": {},
+  "information space analysis": {},
+  "information visualization": {
+    "ar": "تصوير بيانات",
+    "fr": "Visualisation de données",
+    "ja": "データ可視化",
+    "ru": "Визуализация данных",
+    "zh": "数据可视化"
+  },
+  "inheritance": {
+    "ar": "وراثة (حوسبة)",
+    "fr": "Héritage (informatique)",
+    "ja": "継承 (プログラミング)",
+    "ru": "Наследование (программирование)",
+    "zh": "继承 (计算机科学)"
+  },
+  "input/output (I/O)": {
+    "ar": "وحدات الإدخال والإخراج",
+    "fr": "Entrée-sortie",
+    "ja": "入出力",
+    "ru": "Ввод-вывод",
+    "zh": "I/O"
+  },
+  "insertion sort": {
+    "ar": "ترتيب بالإدراج",
+    "fr": "Tri par insertion",
+    "ja": "挿入ソート",
+    "ru": "Сортировка вставками",
+    "zh": "插入排序"
+  },
+  "instruction cycle": {
+    "ar": "دورة تعليمات",
+    "zh": "指令周期"
+  },
+  "integer": {
+    "ar": "عدد صحيح (علوم حاسوب)",
+    "fr": "Entier (informatique)",
+    "ja": "整数型",
+    "ru": "Целое (тип данных)",
+    "zh": "整数 (计算机科学)"
+  },
+  "integrated development environment (IDE)": {
+    "ar": "بيئة تطوير متكاملة",
+    "fr": "Environnement de développement",
+    "ja": "統合開発環境",
+    "ru": "Интегрированная среда разработки",
+    "zh": "集成开发环境"
+  },
+  "integration testing": {
+    "ar": "اختبار التكامل",
+    "fr": "Test d'intégration",
+    "ja": "統合テスト",
+    "ru": "Интеграционное тестирование",
+    "zh": "集成测试"
+  },
+  "intellectual property (IP)": {
+    "ar": "ملكية فكرية",
+    "fr": "Propriété intellectuelle",
+    "ja": "知的財産権",
+    "ru": "Интеллектуальная собственность",
+    "zh": "知识产权"
+  },
+  "intelligent agent": {
+    "ar": "وكيل ذكي",
+    "fr": "Agent intelligent",
+    "ja": "知的エージェント",
+    "ru": "Интеллектуальный агент",
+    "zh": "智能代理"
+  },
+  "interface": {
+    "ar": "واجهة (حوسبة)",
+    "fr": "Interface (informatique)",
+    "ja": "インタフェース (情報技術)",
+    "ru": "Интерфейс",
+    "zh": "介面 (資訊科技)"
+  },
+  "internal documentation": {
+    "ar": "توثيق البرمجيات",
+    "fr": "Documentation logicielle",
+    "ja": "ソフトウェアドキュメンテーション",
+    "ru": "Документация на программное обеспечение",
+    "zh": "软件文档"
+  },
+  "internet": {
+    "ar": "إنترنت",
+    "fr": "Internet",
+    "ja": "インターネット",
+    "ru": "Интернет",
+    "zh": "互联网"
+  },
+  "internet bot": {
+    "ar": "بوت إنترنت",
+    "fr": "Bot informatique",
+    "ja": "インターネットボット",
+    "ru": "Бот (программа)",
+    "zh": "网络机器人"
+  },
+  "interpreter": {
+    "ar": "مفسر (برمجة)",
+    "fr": "Interprète (informatique)",
+    "ja": "インタプリタ",
+    "ru": "Интерпретатор",
+    "zh": "直譯器"
+  },
+  "invariant": {
+    "ar": "لامتغير (رياضيات)",
+    "fr": "Invariant",
+    "ja": "不変量",
+    "ru": "Инвариант (математика)"
+  },
+  "iteration": {
+    "ar": "تكرار (رياضيات)",
+    "fr": "Itération",
+    "ru": "Итерация (программирование)",
+    "zh": "迭代"
+  },
+  "Java": {
+    "ar": "جافا (لغة برمجة)",
+    "fr": "Java (langage)",
+    "ja": "Java",
+    "ru": "Java",
+    "zh": "Java"
+  },
+  "kernel": {
+    "ar": "نواة (نظم تشغيل)",
+    "fr": "Noyau de système d'exploitation",
+    "ja": "カーネル",
+    "ru": "Ядро операционной системы",
+    "zh": "内核"
+  },
+  "library (computing)": {
+    "ar": "مكتبة برمجية",
+    "fr": "Bibliothèque logicielle",
+    "ja": "ライブラリ",
+    "ru": "Библиотека (программирование)",
+    "zh": "函式庫"
+  },
+  "linear search": {
+    "ar": "بحث خطي",
+    "fr": "Recherche séquentielle",
+    "ja": "線形探索",
+    "ru": "Линейный поиск",
+    "zh": "线性搜索"
+  },
+  "linked list": {
+    "ar": "قائمة متصلة",
+    "fr": "Liste chaînée",
+    "ja": "連結リスト",
+    "ru": "Связный список",
+    "zh": "链表"
+  },
+  "linker": {
+    "ar": "رابط (حوسبة)",
+    "ja": "リンケージエディタ",
+    "ru": "Компоновщик",
+    "zh": "链接器"
+  },
+  "list": {
+    "ar": "قائمة (نوع بيانات مجرد)",
+    "fr": "Liste (informatique)",
+    "ja": "リスト (抽象データ型)",
+    "ru": "Список (информатика)",
+    "zh": "串列 (抽象資料型別)"
+  },
+  "loader": {
+    "ar": "محمل (حوسبة)",
+    "fr": "Chargeur (informatique)",
+    "ja": "ローダ",
+    "ru": "Загрузчик программ",
+    "zh": "載入器"
+  },
+  "logic error": {
+    "ar": "خطأ منطقي",
+    "ru": "Логическая ошибка (программирование)",
+    "zh": "逻辑错误 (程序设计)"
+  },
+  "logic programming": {
+    "ar": "برمجة منطقية",
+    "fr": "Programmation logique",
+    "ja": "論理プログラミング",
+    "ru": "Логическое программирование",
+    "zh": "邏輯編程"
+  },
+  "machine learning (ML)": {
+    "ar": "تعلم الآلة",
+    "fr": "Apprentissage automatique",
+    "ja": "機械学習",
+    "ru": "Машинное обучение",
+    "zh": "机器学习"
+  },
+  "machine vision (MV)": {
+    "ar": "رؤية آلية",
+    "fr": "Vision industrielle",
+    "ja": "マシンビジョン",
+    "ru": "Машинное зрение",
+    "zh": "机器视觉"
+  },
+  "mathematical logic": {
+    "ar": "منطق رياضي",
+    "fr": "Logique mathématique",
+    "ja": "数理論理学",
+    "ru": "Математическая логика",
+    "zh": "数理逻辑"
+  },
+  "matrix": {
+    "ar": "مصفوفة (رياضيات)",
+    "fr": "Matrice (mathématiques)",
+    "ja": "行列",
+    "ru": "Матрица (математика)",
+    "zh": "矩阵"
+  },
+  "memory": {
+    "ar": "تخزين بيانات الحاسوب",
+    "fr": "Mémoire (informatique)",
+    "ja": "記憶装置",
+    "zh": "電腦數據存貯器"
+  },
+  "merge sort": {
+    "ar": "تصنيف دمجي",
+    "fr": "Tri fusion",
+    "ja": "マージソート",
+    "ru": "Сортировка слиянием",
+    "zh": "归并排序"
+  },
+  "method": {
+    "ar": "طريقة (برمجة حاسوب)",
+    "fr": "Méthode (informatique)",
+    "ja": "メソッド (計算機科学)",
+    "ru": "Метод (программирование)",
+    "zh": "方法 (電腦科學)"
+  },
+  "methodology": {
+    "ar": "عملية تطوير البرمجيات",
+    "fr": "Processus de développement logiciel",
+    "ja": "ソフトウェア開発工程",
+    "ru": "Процесс разработки программного обеспечения",
+    "zh": "软件开发过程"
+  },
+  "modem": {
+    "ar": "مودم",
+    "fr": "Modem",
+    "ja": "モデム",
+    "ru": "Модем",
+    "zh": "调制解调器"
+  },
+  "natural language processing (NLP)": {
+    "ar": "معالجة اللغة الطبيعية",
+    "fr": "Traitement automatique des langues",
+    "ja": "自然言語処理",
+    "ru": "Обработка естественного языка",
+    "zh": "自然语言处理"
+  },
+  "node": {
+    "ar": "عقدة (حاسوب)",
+    "ru": "Узел (информатика)"
+  },
+  "number theory": {
+    "ar": "نظرية الأعداد",
+    "fr": "Théorie des nombres",
+    "ja": "数論",
+    "ru": "Теория чисел",
+    "zh": "数论"
+  },
+  "numerical analysis": {
+    "ar": "تحليل عددي",
+    "fr": "Analyse numérique",
+    "ja": "数値解析",
+    "ru": "Численные методы",
+    "zh": "数值分析"
+  },
+  "numerical method": {},
+  "object": {
+    "ar": "كائن (حوسبة)",
+    "fr": "Objet (informatique)",
+    "ja": "オブジェクト (プログラミング)",
+    "ru": "Объект (программирование)",
+    "zh": "对象 (计算机科学)"
+  },
+  "object code": {
+    "fr": "Code objet",
+    "ja": "オブジェクトファイル",
+    "ru": "Объектный модуль",
+    "zh": "目标代码"
+  },
+  "object-oriented analysis and design (OOAD)": {
+    "fr": "Méthode d'analyse et de conception d'applications orientées objet",
+    "ja": "オブジェクト指向分析設計",
+    "ru": "Объектно-ориентированное проектирование",
+    "zh": "面向对象的系统分析"
+  },
+  "object-oriented programming (OOP)": {
+    "ar": "برمجة كائنية التوجه",
+    "fr": "Programmation orientée objet",
+    "ja": "オブジェクト指向プログラミング",
+    "ru": "Объектно-ориентированное программирование",
+    "zh": "面向对象程序设计"
+  },
+  "open-source software (OSS)": {
+    "ar": "برمجيات مفتوحة المصدر",
+    "fr": "Logiciel open source",
+    "ja": "オープンソースソフトウェア",
+    "ru": "Открытое программное обеспечение",
+    "zh": "开源软件"
+  },
+  "operating system (OS)": {
+    "ar": "نظام تشغيل",
+    "fr": "Système d'exploitation",
+    "ja": "オペレーティングシステム",
+    "ru": "Операционная система",
+    "zh": "操作系统"
+  },
+  "optical fiber": {
+    "ar": "ليف بصري",
+    "fr": "Fibre optique",
+    "ja": "光ファイバー",
+    "ru": "Оптическое волокно",
+    "zh": "光導纖維"
+  },
+  "pair programming": {
+    "ar": "برمجة زوجية",
+    "fr": "Programmation en binôme",
+    "ja": "ペアプログラミング",
+    "ru": "Парное программирование",
+    "zh": "结对编程"
+  },
+  "parallel computing": {
+    "ar": "حوسبة متوازية",
+    "fr": "Parallélisme (informatique)",
+    "ja": "並列計算",
+    "ru": "Параллельные вычислительные системы",
+    "zh": "并行计算"
+  },
+  "parameter": {
+    "ar": "وسيط (برمجة)",
+    "fr": "Paramètre (programmation informatique)",
+    "ja": "引数",
+    "ru": "Параметр (программирование)",
+    "zh": "參數 (程式設計)"
+  },
+  "peripheral": {
+    "ar": "طرفية (حاسوب)",
+    "fr": "Périphérique informatique",
+    "ja": "周辺機器",
+    "ru": "Периферийное устройство",
+    "zh": "外部设备"
+  },
+  "pointer": {
+    "ar": "مؤشر (برمجة)",
+    "fr": "Pointeur (programmation)",
+    "ja": "ポインタ (プログラミング)",
+    "ru": "Указатель (тип данных)",
+    "zh": "指標 (電腦科學)"
+  },
+  "postcondition": {
+    "zh": "后置条件"
+  },
+  "precondition": {
+    "fr": "Précondition",
+    "zh": "先决条件"
+  },
+  "primary storage": {
+    "ar": "تخزين بيانات الحاسوب",
+    "fr": "Mémoire (informatique)",
+    "ja": "記憶装置",
+    "zh": "電腦數據存貯器"
+  },
+  "primitive data type": {
+    "ar": "أنواع البيانات الأولية",
+    "ja": "プリミティブ型",
+    "ru": "Примитивный тип",
+    "zh": "原始型別"
+  },
+  "priority queue": {
+    "ar": "رتل ذو أولوية",
+    "fr": "File de priorité",
+    "ja": "優先度付きキュー",
+    "ru": "Очередь с приоритетом (программирование)",
+    "zh": "優先佇列"
+  },
+  "procedural programming": {
+    "ar": "برمجة إجرائية",
+    "fr": "Programmation procédurale",
+    "ja": "手続き型プログラミング",
+    "ru": "Процедурное программирование",
+    "zh": "过程式编程"
+  },
+  "procedure": {
+    "ar": "برمجة إجرائية",
+    "fr": "Programmation procédurale",
+    "ja": "手続き型プログラミング",
+    "ru": "Процедурное программирование",
+    "zh": "过程式编程"
+  },
+  "program lifecycle phase": {
+    "ja": "プログラムライフサイクルフェーズ"
+  },
+  "programming language": {
+    "ar": "لغة برمجة",
+    "fr": "Langage de programmation",
+    "ja": "プログラミング言語",
+    "ru": "Язык программирования",
+    "zh": "编程语言"
+  },
+  "programming language implementation": {
+    "ar": "تنفيذ لغات البرمجة"
+  },
+  "programming language theory": {
+    "ar": "نظرية لغات البرمجة",
+    "fr": "Théorie des langages de programmation",
+    "ru": "Теория языков программирования",
+    "zh": "程式語言理論"
+  },
+  "Prolog": {
+    "ar": "برولوغ",
+    "fr": "Prolog",
+    "ja": "Prolog",
+    "ru": "Пролог (язык программирования)",
+    "zh": "Prolog"
+  },
+  "Python": {
+    "ar": "بايثون (لغة برمجة)",
+    "fr": "Python (langage)",
+    "ja": "Python",
+    "ru": "Python",
+    "zh": "Python"
+  },
+  "quantum computing": {
+    "ar": "حوسبة كمومية",
+    "fr": "Informatique quantique",
+    "ja": "量子コンピューティング",
+    "zh": "量子计算"
+  },
+  "queue": {
+    "ar": "رتل (حوسبة)",
+    "fr": "File (structure de données)",
+    "ja": "キュー (コンピュータ)",
+    "ru": "Очередь (программирование)",
+    "zh": "队列"
+  },
+  "quicksort": {
+    "ar": "ترتيب سريع",
+    "fr": "Tri rapide",
+    "ja": "クイックソート",
+    "ru": "Быстрая сортировка",
+    "zh": "快速排序"
+  },
+  "R programming language": {
+    "ar": "آر (لغة برمجة)",
+    "fr": "R (langage)",
+    "ja": "R言語",
+    "ru": "R (язык программирования)",
+    "zh": "R语言"
+  },
+  "radix": {
+    "ar": "أساس (رياضيات)",
+    "fr": "Base (arithmétique)",
+    "ru": "Числовой разряд",
+    "zh": "底数 (进制)"
+  },
+  "record": {
+    "fr": "Enregistrement (structure de données)",
+    "ja": "レコード (計算機科学)",
+    "ru": "Запись (тип данных)",
+    "zh": "记录"
+  },
+  "recursion": {
+    "ar": "عودية",
+    "fr": "Récursivité",
+    "ja": "再帰",
+    "ru": "Рекурсия",
+    "zh": "递归"
+  },
+  "reference": {
+    "fr": "Référence (programmation)",
+    "ja": "参照 (計算機科学)",
+    "ru": "Ссылка (программирование)",
+    "zh": "參照"
+  },
+  "reference counting": {
+    "ja": "参照カウント",
+    "ru": "Подсчёт ссылок",
+    "zh": "引用计数"
+  },
+  "relational database": {
+    "ar": "قاعدة بيانات علائقية",
+    "fr": "Base de données relationnelle",
+    "ja": "関係データベース",
+    "ru": "Реляционная база данных",
+    "zh": "关系数据库"
+  },
+  "reliability engineering": {
+    "ar": "هندسة الوثوقية",
+    "fr": "Ingénierie de fiabilité",
+    "ja": "信頼性工学"
+  },
+  "regression testing": {
+    "fr": "Test de régression",
+    "ja": "回帰テスト",
+    "ru": "Регрессионное тестирование",
+    "zh": "回归测试"
+  },
+  "requirements analysis": {
+    "ar": "تحليل المتطلبات",
+    "fr": "Analyse des exigences",
+    "ja": "要求分析",
+    "ru": "Анализ требований",
+    "zh": "需求分析"
+  },
+  "robotics": {
+    "ar": "روبوتية",
+    "fr": "Robotique",
+    "ja": "ロボット工学",
+    "ru": "Робототехника",
+    "zh": "机器人学"
+  },
+  "round-off error": {
+    "fr": "Erreur d'arrondi",
+    "zh": "捨入誤差"
+  },
+  "router": {
+    "ar": "موجه (شبكات)",
+    "fr": "Routeur",
+    "ja": "ルーター",
+    "ru": "Маршрутизатор",
+    "zh": "路由器"
+  },
+  "routing table": {
+    "ar": "جدول توجيه",
+    "fr": "Table de routage",
+    "ja": "ルーティングテーブル",
+    "ru": "Таблица маршрутизации",
+    "zh": "路由表"
+  },
+  "run time": {
+    "fr": "Exécution (informatique)",
+    "ja": "実行 (コンピュータ)"
+  },
+  "run time error": {
+    "fr": "Exécution (informatique)",
+    "ja": "実行 (コンピュータ)"
+  },
+  "search algorithm": {
+    "ar": "خوارزمية بحث",
+    "fr": "Algorithme de recherche",
+    "ja": "探索",
+    "zh": "搜索算法"
+  },
+  "secondary storage": {
+    "ar": "تخزين بيانات الحاسوب",
+    "fr": "Mémoire (informatique)",
+    "ja": "記憶装置",
+    "zh": "電腦數據存貯器"
+  },
+  "selection sort": {
+    "ar": "ترتيب انتقائي",
+    "fr": "Tri par sélection",
+    "ja": "選択ソート",
+    "ru": "Сортировка выбором",
+    "zh": "选择排序"
+  },
+  "semantics": {
+    "ar": "علم الدلالة الشكلي",
+    "fr": "Sémantique des langages de programmation",
+    "ja": "プログラム意味論",
+    "ru": "Семантика (программирование)",
+    "zh": "形式语义学"
+  },
+  "sequence": {
+    "ar": "متتالية",
+    "fr": "Suite (mathématiques)",
+    "ja": "列 (数学)",
+    "ru": "Последовательность",
+    "zh": "序列"
+  },
+  "serializability": {
+    "fr": "Théorie de l'ordonnancement",
+    "ja": "スケジュール (コンピュータ科学)",
+    "ru": "Расписание (СУБД)",
+    "zh": "排程"
+  },
+  "serialization": {
+    "fr": "Sérialisation",
+    "ja": "シリアライズ",
+    "ru": "Сериализация",
+    "zh": "序列化"
+  },
+  "service level agreement": {
+    "ar": "اتفاق مستوى الخدمة",
+    "fr": "Service-level agreement",
+    "ja": "サービス水準合意",
+    "ru": "Соглашение об уровне услуг",
+    "zh": "服务级别协议"
+  },
+  "set": {
+    "ar": "مجموعة (نوع بيانات مجرد)",
+    "fr": "Ensemble (informatique)",
+    "ja": "セット (抽象データ型)",
+    "ru": "Множество (тип данных)"
+  },
+  "software": {
+    "ar": "برمجية",
+    "fr": "Logiciel",
+    "ja": "ソフトウェア",
+    "ru": "Программное обеспечение",
+    "zh": "软件"
+  },
+  "software agent": {
+    "ar": "وكيل برمجي",
+    "fr": "Agent logiciel",
+    "ja": "ソフトウェアエージェント",
+    "ru": "Программный агент"
+  },
+  "software construction": {
+    "ar": "بناء البرمجيات",
+    "ru": "Конструирование программного обеспечения"
+  },
+  "software deployment": {
+    "ar": "نشر البرمجيات",
+    "ja": "ソフトウェアデプロイメント",
+    "ru": "Развёртывание программного обеспечения",
+    "zh": "软件部署"
+  },
+  "software design": {
+    "ar": "تصميم البرمجيات",
+    "fr": "Conception de logiciel",
+    "ja": "ソフトウェア設計",
+    "ru": "Проектирование программного обеспечения",
+    "zh": "软件设计"
+  },
+  "software development": {
+    "ar": "تطوير برمجيات",
+    "fr": "Développement de logiciel",
+    "ja": "ソフトウェア開発",
+    "ru": "Разработка программного обеспечения",
+    "zh": "软件开发"
+  },
+  "software development process": {
+    "ar": "عملية تطوير البرمجيات",
+    "fr": "Processus de développement logiciel",
+    "ja": "ソフトウェア開発工程",
+    "ru": "Процесс разработки программного обеспечения",
+    "zh": "软件开发过程"
+  },
+  "software engineering": {
+    "ar": "هندسة البرمجيات",
+    "fr": "Génie logiciel",
+    "ja": "ソフトウェア工学",
+    "ru": "Программная инженерия",
+    "zh": "软件工程"
+  },
+  "software maintenance": {
+    "ar": "صيانة البرمجيات",
+    "fr": "Maintenance du logiciel",
+    "ja": "ソフトウェア保守",
+    "ru": "Сопровождение программного обеспечения",
+    "zh": "軟體維護"
+  },
+  "software prototyping": {
+    "ar": "صناعة النماذج الأولية للبرمجيات",
+    "fr": "Prototypage logiciel",
+    "ja": "ソフトウェアプロトタイピング",
+    "ru": "Прототипирование программного обеспечения"
+  },
+  "software requirements specification": {
+    "ar": "محددات المتطلبات البرمجية",
+    "ru": "Спецификация требований программного обеспечения",
+    "zh": "软件需求说明"
+  },
+  "software testing": {
+    "ar": "فحص البرمجيات",
+    "fr": "Test (informatique)",
+    "ja": "ソフトウェアテスト",
+    "ru": "Тестирование программного обеспечения",
+    "zh": "软件测试"
+  },
+  "sorting algorithm": {
+    "ar": "خوارزمية ترتيب",
+    "fr": "Algorithme de tri",
+    "ja": "ソート",
+    "ru": "Алгоритм сортировки",
+    "zh": "排序算法"
+  },
+  "source code": {
+    "ar": "نص برمجي مصدري",
+    "fr": "Code source",
+    "ja": "ソースコード",
+    "ru": "Исходный код",
+    "zh": "源代码"
+  },
+  "spiral model": {
+    "ar": "النموذج اللولبي",
+    "fr": "Modèle en spirale",
+    "ja": "スパイラルモデル",
+    "ru": "Спиральная модель",
+    "zh": "螺旋模型"
+  },
+  "stack": {
+    "ar": "مكدس (بنية بيانات)",
+    "fr": "Pile (informatique)",
+    "ja": "スタック",
+    "ru": "Стек",
+    "zh": "堆栈"
+  },
+  "state": {
+    "ar": "حالة (حاسوب)",
+    "fr": "État (informatique)",
+    "ru": "Состояние (информатика)"
+  },
+  "statement": {
+    "ar": "عبارة (علم الحاسوب)",
+    "ja": "文 (プログラミング)",
+    "ru": "Оператор (программирование)",
+    "zh": "陳述式"
+  },
+  "storage": {
+    "ar": "تخزين بيانات الحاسوب",
+    "fr": "Mémoire (informatique)",
+    "ja": "記憶装置",
+    "zh": "電腦數據存貯器"
+  },
+  "stream": {
+    "ar": "جريان (حوسبة)",
+    "fr": "Flux (informatique)",
+    "ja": "ストリーム (プログラミング)",
+    "ru": "Поток данных",
+    "zh": "字串流"
+  },
+  "string": {
+    "ar": "سلسلة (علم الحاسوب)",
+    "fr": "Chaîne de caractères",
+    "ja": "文字列",
+    "ru": "Строковый тип",
+    "zh": "字符串"
+  },
+  "structured storage": {
+    "ar": "قاعدة البيانات غير العلائقية",
+    "fr": "NoSQL",
+    "ja": "NoSQL",
+    "ru": "NoSQL",
+    "zh": "NoSQL"
+  },
+  "subroutine": {
+    "ar": "دالة (برمجة)",
+    "fr": "Sous-programme",
+    "ja": "サブルーチン",
+    "ru": "Подпрограмма",
+    "zh": "子程序"
+  },
+  "symbolic computation": {
+    "ru": "Компьютерная алгебра",
+    "zh": "計算機代數"
+  },
+  "syntax": {
+    "ar": "نحو (حوسبة)",
+    "ru": "Синтаксис (программирование)"
+  },
+  "syntax error": {
+    "ar": "خطأ نحوي (حوسبة)",
+    "ru": "Синтаксическая ошибка (программирование)",
+    "zh": "语法错误"
+  },
+  "system console": {
+    "ar": "وحدة تحكم النظام",
+    "fr": "Console système",
+    "ja": "コンソール",
+    "ru": "Консоль",
+    "zh": "系統控制臺"
+  },
+  "technical documentation": {
+    "ru": "Техническая документация",
+    "zh": "技術文檔"
+  },
+  "third-generation programming language": {
+    "ar": "الجيل الثالث من لغات البرمجة",
+    "zh": "第三代编程语言"
+  },
+  "top-down and bottom-up design": {
+    "ar": "تصميم صعودي ونزولي",
+    "fr": "Approches ascendante et descendante",
+    "ja": "トップダウン設計とボトムアップ設計",
+    "zh": "自上而下和自下而上設計"
+  },
+  "tree": {
+    "ar": "شجرة (هياكل بيانات)",
+    "fr": "Arbre enraciné",
+    "ja": "木構造 (データ構造)",
+    "ru": "Дерево (структура данных)",
+    "zh": "树 (数据结构)"
+  },
+  "type theory": {
+    "ar": "نظرية النمط",
+    "fr": "Théorie des types",
+    "ja": "型理論",
+    "ru": "Теория типов",
+    "zh": "类型论"
+  },
+  "upload": {
+    "ar": "رفع (شبكات)",
+    "ja": "アップロード",
+    "zh": "上傳"
+  },
+  "Uniform Resource Locator (URL)": {
+    "ar": "محدد موقع الموارد الموحد",
+    "fr": "Uniform Resource Locator",
+    "ja": "Uniform Resource Locator",
+    "ru": "URL",
+    "zh": "统一资源定位符"
+  },
+  "user": {
+    "ar": "مستخدم (حوسبة)",
+    "fr": "Utilisateur (informatique)",
+    "ja": "ユーザー (コンピュータ)",
+    "ru": "Пользователь (информатика)",
+    "zh": "用户 (计算机)"
+  },
+  "user agent": {
+    "ar": "وكيل المستخدم",
+    "fr": "User agent",
+    "ja": "ユーザーエージェント",
+    "ru": "User agent",
+    "zh": "用户代理"
+  },
+  "user interface (UI)": {
+    "ar": "واجهة المستخدم",
+    "fr": "Interface utilisateur",
+    "ja": "ユーザインタフェース",
+    "ru": "Интерфейс пользователя",
+    "zh": "用户界面"
+  },
+  "user interface design": {
+    "ar": "تصميم واجهة المستخدم",
+    "ja": "ユーザインタフェース設計",
+    "zh": "用户界面设计"
+  },
+  "variable": {
+    "ar": "متغير (علم الحاسوب)",
+    "fr": "Variable (informatique)",
+    "ja": "変数 (プログラミング)",
+    "ru": "Переменная (программирование)",
+    "zh": "变量 (程序设计)"
+  },
+  "virtual machine (VM)": {
+    "ar": "آلة افتراضية",
+    "fr": "Machine virtuelle",
+    "ja": "仮想機械",
+    "ru": "Виртуальная машина",
+    "zh": "虛擬機器"
+  },
+  "V-Model": {
+    "ar": "نموذج V",
+    "fr": "Cycle en V",
+    "ja": "Vモデル",
+    "ru": "V-Model",
+    "zh": "V模型 (軟體開發)"
+  },
+  "waterfall model": {
+    "ar": "نموذج الشلال",
+    "fr": "Modèle en cascade",
+    "ja": "ウォーターフォール・モデル",
+    "ru": "Каскадная модель",
+    "zh": "瀑布模型"
+  },
+  "Waveform Audio File Format": {
+    "ar": "واف",
+    "fr": "Waveform Audio File Format",
+    "ja": "WAV",
+    "ru": "WAV",
+    "zh": "WAV"
+  },
+  "web crawler": {
+    "ar": "زاحف ويب",
+    "fr": "Robot d'indexation",
+    "ja": "クローラ",
+    "ru": "Поисковый робот",
+    "zh": "網路爬蟲"
+  },
+  "Wi-Fi": {
+    "ar": "واي فاي",
+    "fr": "Wi-Fi",
+    "ja": "Wi-Fi",
+    "ru": "Wi-Fi",
+    "zh": "Wi-Fi"
+  },
+  "XHTML": {
+    "ar": "لغة ترميز النص الفائق القابلة للتوسع",
+    "fr": "Extensible Hypertext Markup Language",
+    "ja": "Extensible HyperText Markup Language",
+    "ru": "XHTML",
+    "zh": "XHTML"
   }
 }

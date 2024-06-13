@@ -1,4 +1,7 @@
 {
+  "abductive logic programming (ALP)": {
+    "ar": "برمجة منطقية استخلاصية"
+  },
   "abductive reasoning": {
     "ar": "قياس احتمالي",
     "fr": "Abduction (logique)",
@@ -245,5 +248,1526 @@
     "fr": "Robot autonome",
     "ru": "Автономный робот",
     "zh": "自主机器人"
+  },
+  "backpropagation": {
+    "ar": "انتشار خلفي",
+    "fr": "Rétropropagation du gradient",
+    "ja": "バックプロパゲーション",
+    "ru": "Метод обратного распространения ошибки",
+    "zh": "反向传播算法"
+  },
+  "backpropagation through time (BPTT)": {
+    "fr": "Rétropropagation à travers le temps"
+  },
+  "backward chaining": {
+    "fr": "Chaînage arrière",
+    "ja": "後向き連鎖"
+  },
+  "bag-of-words model": {
+    "ar": "نموذج حقيبة الكلمات",
+    "fr": "Sac de mots",
+    "ru": "Мешок слов",
+    "zh": "词袋模型"
+  },
+  "bag-of-words model in computer vision": {
+    "ar": "نموذج حقيبة الكلمات في الرؤية الحاسوبية"
+  },
+  "batch normalization": {
+    "ar": "استنظام الدفعة"
+  },
+  "Bayesian programming": {
+    "ru": "Байесовское программирование"
+  },
+  "bees algorithm": {
+    "ru": "Алгоритм пчелиной колонии"
+  },
+  "behavior informatics (BI)": {
+    "ar": "معلوماتية السلوك"
+  },
+  "behavior tree (BT)": {},
+  "belief–desire–intention software model (BDI)": {
+    "ar": "نموذج برمجي للاعتقاد والرغبة والقصد",
+    "ru": "Модель убеждений, желаний и намерений"
+  },
+  "bias–variance tradeoff": {
+    "ar": "موازنة التحيز والتباين",
+    "fr": "Dilemme biais-variance",
+    "ja": "偏りと分散",
+    "ru": "Дилемма смещения-дисперсии"
+  },
+  "big data": {
+    "ar": "بيانات ضخمة",
+    "fr": "Big data",
+    "ja": "ビッグデータ",
+    "ru": "Большие данные",
+    "zh": "大數據"
+  },
+  "Big O notation": {
+    "ar": "تمثيل O الكبرى",
+    "fr": "Comparaison asymptotique",
+    "ja": "ランダウの記号",
+    "ru": "«O» большое и «o» малое",
+    "zh": "大O符号"
+  },
+  "binary tree": {
+    "ar": "شجرة ثنائية",
+    "fr": "Arbre binaire",
+    "ja": "二分木",
+    "ru": "Двоичное дерево",
+    "zh": "二叉树"
+  },
+  "blackboard system": {
+    "zh": "黑板 (计算机)"
+  },
+  "Boltzmann machine": {
+    "ja": "ボルツマンマシン",
+    "ru": "Машина Больцмана",
+    "zh": "玻尔兹曼机"
+  },
+  "Boolean satisfiability problem": {
+    "ar": "مسألة قابلية الإرضاء المنطقية",
+    "fr": "Problème SAT",
+    "ja": "充足可能性問題",
+    "ru": "Задача выполнимости булевых формул",
+    "zh": "布尔可满足性问题"
+  },
+  "brain technology": {},
+  "branching factor": {
+    "ar": "عامل التفرع",
+    "ru": "Коэффициент ветвления (информатика)",
+    "zh": "分支因子"
+  },
+  "brute-force search": {
+    "ar": "بحث شامل",
+    "fr": "Recherche exhaustive",
+    "ja": "力まかせ探索",
+    "ru": "Полный перебор",
+    "zh": "暴力搜索"
+  },
+  "capsule neural network (CapsNet)": {
+    "ar": "شبكة عصبية كبسولية",
+    "fr": "Réseau neuronal à capsules",
+    "ru": "Капсульная нейронная сеть"
+  },
+  "case-based reasoning (CBR)": {
+    "ar": "المنطق المعتمد على الحالة",
+    "fr": "Raisonnement à partir de cas",
+    "ja": "事例ベース推論",
+    "ru": "Рассуждения на основе прецедентов",
+    "zh": "基于案例的推理"
+  },
+  "chatbot": {
+    "ar": "بوت دردشة",
+    "fr": "Chatbot",
+    "ja": "チャットボット",
+    "ru": "Виртуальный собеседник",
+    "zh": "聊天機器人"
+  },
+  "cloud robotics": {
+    "zh": "云机器人"
+  },
+  "cluster analysis": {
+    "ar": "تحليل عنقودي",
+    "fr": "Partitionnement de données",
+    "ja": "データ・クラスタリング",
+    "ru": "Кластерный анализ",
+    "zh": "聚类分析"
+  },
+  "Cobweb": {},
+  "cognitive architecture": {
+    "fr": "Architecture cognitive",
+    "ja": "認知アーキテクチャ",
+    "ru": "Когнитивная архитектура",
+    "zh": "認知架構"
+  },
+  "cognitive computing": {
+    "ar": "حوسبة معرفية",
+    "ja": "コグニティブコンピューティング",
+    "zh": "認知計算"
+  },
+  "cognitive science": {
+    "ar": "علوم استعرافية",
+    "fr": "Sciences cognitives",
+    "ja": "認知科学",
+    "ru": "Когнитивистика",
+    "zh": "认知科学"
+  },
+  "combinatorial optimization": {
+    "ar": "استمثال توافقي",
+    "fr": "Optimisation combinatoire",
+    "ja": "組合せ最適化",
+    "ru": "Комбинаторная оптимизация",
+    "zh": "组合优化"
+  },
+  "committee machine": {},
+  "commonsense knowledge": {
+    "zh": "常识知识库"
+  },
+  "commonsense reasoning": {
+    "ar": "تفكير بديهي",
+    "ru": "Повседневное мышление"
+  },
+  "computational chemistry": {
+    "ar": "كيمياء محوسبة",
+    "fr": "Chimie numérique",
+    "ja": "計算化学",
+    "ru": "Вычислительная химия",
+    "zh": "计算化学"
+  },
+  "computational complexity theory": {
+    "ar": "نظرية التعقيد الحسابي",
+    "fr": "Théorie de la complexité (informatique théorique)",
+    "ja": "計算複雑性理論",
+    "ru": "Теория сложности вычислений",
+    "zh": "計算複雜性理論"
+  },
+  "computational creativity": {
+    "ar": "إبداع حسابي"
+  },
+  "computational cybernetics": {},
+  "computational humor": {
+    "ar": "فكاهة حوسبية"
+  },
+  "computational intelligence (CI)": {
+    "ar": "ذكاء حوسبي",
+    "fr": "Intelligence computationnelle",
+    "ja": "計算知能",
+    "ru": "Вычислительный интеллект"
+  },
+  "computational learning theory": {
+    "ar": "نظرية التعلم الحوسبي",
+    "ru": "Теория вычислительного обучения"
+  },
+  "computational linguistics": {
+    "ar": "لسانيات حاسوبية",
+    "fr": "Linguistique informatique",
+    "ja": "計算言語学",
+    "ru": "Компьютерная лингвистика",
+    "zh": "计算语言学"
+  },
+  "computational mathematics": {
+    "ar": "رياضيات محوسبة",
+    "fr": "Mathématiques computationnelles",
+    "ru": "Вычислительная математика",
+    "zh": "运算数学"
+  },
+  "computational neuroscience": {
+    "ar": "علم الأعصاب الحوسبي",
+    "fr": "Neurosciences computationnelles",
+    "ja": "計算論的神経科学",
+    "ru": "Вычислительная нейробиология",
+    "zh": "計算神經科學"
+  },
+  "computational number theory": {
+    "ar": "نظرية الأعداد الحاسوبية",
+    "fr": "Théorie algorithmique des nombres",
+    "ja": "計算数論",
+    "zh": "计算数论"
+  },
+  "computational problem": {
+    "fr": "Problème algorithmique"
+  },
+  "computational statistics": {
+    "ar": "إحصاء حسابي",
+    "zh": "计算统计学"
+  },
+  "computer-automated design (CAutoD)": {
+    "zh": "计算机自动设计"
+  },
+  "computer audition (CA)": {
+    "ar": "استماع الآلة"
+  },
+  "computer science": {
+    "ar": "علم الحاسوب",
+    "fr": "Informatique",
+    "ja": "計算機科学",
+    "ru": "Информатика",
+    "zh": "计算机科学"
+  },
+  "computer vision": {
+    "ar": "رؤية حاسوبية",
+    "fr": "Vision par ordinateur",
+    "ja": "コンピュータビジョン",
+    "ru": "Компьютерное зрение",
+    "zh": "计算机视觉"
+  },
+  "concept drift": {
+    "ar": "انجراف المفهوم",
+    "fr": "Dérive conceptuelle"
+  },
+  "connectionism": {
+    "ar": "اتصالية",
+    "fr": "Connexionnisme",
+    "ja": "コネクショニズム",
+    "ru": "Коннекционизм",
+    "zh": "联结主义"
+  },
+  "consistent heuristic": {},
+  "constrained conditional model (CCM)": {},
+  "constraint logic programming": {
+    "ja": "制約論理プログラミング"
+  },
+  "constraint programming": {
+    "fr": "Programmation par contraintes",
+    "ja": "制約プログラミング",
+    "ru": "Программирование в ограничениях",
+    "zh": "约束编程"
+  },
+  "constructed language": {
+    "ar": "لغة مصطنعة",
+    "fr": "Langue construite",
+    "ja": "人工言語",
+    "ru": "Искусственный язык",
+    "zh": "人工語言"
+  },
+  "control theory": {
+    "ar": "نظرية التحكم",
+    "fr": "Théorie du contrôle",
+    "ja": "制御理論",
+    "ru": "Теория управления",
+    "zh": "控制理论"
+  },
+  "convolutional neural network": {
+    "ar": "شبكة عصبونية التفافية",
+    "fr": "Réseau neuronal convolutif",
+    "ja": "畳み込みニューラルネットワーク",
+    "ru": "Свёрточная нейронная сеть",
+    "zh": "卷积神经网络"
+  },
+  "crossover": {
+    "zh": "交叉 (遗传算法)"
+  },
+  "Darkforest": {
+    "zh": "Darkforest"
+  },
+  "Dartmouth workshop": {
+    "fr": "Conférence de Dartmouth",
+    "ja": "ダートマス会議",
+    "ru": "Дартмутский семинар",
+    "zh": "达特矛斯会议"
+  },
+  "data augmentation": {
+    "ar": "زيادة البيانات",
+    "fr": "Augmentation de donnée"
+  },
+  "data fusion": {
+    "ar": "دمج البيانات",
+    "fr": "Fusion de données",
+    "ru": "Слияние данных"
+  },
+  "data integration": {
+    "ar": "تكامل البيانات",
+    "fr": "Consolidation informatique",
+    "ru": "Интеграция данных",
+    "zh": "数据集成"
+  },
+  "data mining": {
+    "ar": "تنقيب في البيانات",
+    "fr": "Exploration de données",
+    "ja": "データマイニング",
+    "ru": "Data mining",
+    "zh": "数据挖掘"
+  },
+  "data science": {
+    "ar": "علم البيانات",
+    "fr": "Science des données",
+    "ja": "データサイエンス",
+    "ru": "Наука о данных",
+    "zh": "数据科学"
+  },
+  "data set": {
+    "ar": "مجموعة بيانات",
+    "fr": "Jeu de données",
+    "ja": "データセット",
+    "ru": "Набор данных",
+    "zh": "数据集"
+  },
+  "data warehouse (DW or DWH)": {
+    "ar": "مستودع البيانات",
+    "fr": "Entrepôt de données",
+    "ja": "データウェアハウス",
+    "ru": "Хранилище данных",
+    "zh": "資料倉儲"
+  },
+  "Datalog": {
+    "fr": "Datalog",
+    "ru": "Datalog",
+    "zh": "Datalog"
+  },
+  "decision boundary": {
+    "ar": "حد قرار",
+    "ja": "決定境界",
+    "zh": "决策边界"
+  },
+  "decision support system (DSS)": {
+    "ar": "نظام دعم قرار",
+    "ja": "意思決定支援システム",
+    "ru": "Система поддержки принятия решений",
+    "zh": "决策支持系统"
+  },
+  "decision theory": {
+    "ar": "نظرية القرار",
+    "fr": "Théorie de la décision",
+    "ja": "決定理論",
+    "ru": "Теория принятия решений",
+    "zh": "决策论"
+  },
+  "decision tree learning": {
+    "ar": "تعلم شجرة القرار",
+    "fr": "Arbre de décision (apprentissage)",
+    "ru": "Обучение дерева решений",
+    "zh": "决策树学习"
+  },
+  "declarative programming": {
+    "ar": "برمجة تصريحية",
+    "fr": "Programmation déclarative",
+    "ja": "宣言型プログラミング",
+    "ru": "Декларативное программирование",
+    "zh": "宣告式編程"
+  },
+  "deductive classifier": {
+    "ar": "مصنف استنباطي"
+  },
+  "Deep Blue": {
+    "ar": "ديب بلو",
+    "fr": "Deep Blue",
+    "ja": "ディープ・ブルー (コンピュータ)",
+    "ru": "Deep Blue",
+    "zh": "深藍 (超級電腦)"
+  },
+  "deep learning": {
+    "ar": "تعلم متعمق",
+    "fr": "Apprentissage profond",
+    "ja": "ディープラーニング",
+    "ru": "Глубокое обучение",
+    "zh": "深度学习"
+  },
+  "DeepMind Technologies": {
+    "ar": "ديب مايند",
+    "fr": "Google DeepMind",
+    "ja": "DeepMind",
+    "ru": "Google DeepMind",
+    "zh": "Google DeepMind"
+  },
+  "default logic": {
+    "zh": "缺省逻辑"
+  },
+  "description logic (DL)": {
+    "fr": "Logique de description",
+    "ru": "Дескрипционная логика",
+    "zh": "描述逻辑"
+  },
+  "developmental robotics (DevRob)": {
+    "ar": "علم روبوتات نمائي"
+  },
+  "diagnosis": {
+    "fr": "Diagnostic (intelligence artificielle)"
+  },
+  "dialogue system": {
+    "ar": "نظام حوار"
+  },
+  "diffusion model": {
+    "ja": "拡散モデル",
+    "zh": "扩散模型"
+  },
+  "dimensionality reduction": {
+    "ar": "تقليص الأبعاد",
+    "fr": "Réduction de la dimensionnalité",
+    "ja": "次元削減",
+    "ru": "Снижение размерности",
+    "zh": "降维"
+  },
+  "discrete system": {
+    "fr": "Système discret",
+    "ru": "Дискретные системы"
+  },
+  "distributed artificial intelligence (DAI)": {
+    "fr": "Intelligence artificielle distribuée"
+  },
+  "dynamic epistemic logic (DEL)": {},
+  "eager learning": {
+    "ar": "تعلم شغوف"
+  },
+  "Ebert test": {},
+  "echo state network (ESN)": {
+    "ar": "شبكة حالة الصدى"
+  },
+  "embodied agent": {
+    "ar": "وكيل مجسد"
+  },
+  "embodied cognitive science": {
+    "ar": "علوم إدراكية مجسدة",
+    "ja": "身体化された認知科学",
+    "ru": "Воплощённая когнитивная наука"
+  },
+  "error-driven learning": {},
+  "ensemble averaging": {},
+  "ethics of artificial intelligence": {
+    "ar": "أخلاقيات الذكاء الاصطناعي",
+    "fr": "Éthique de l'intelligence artificielle",
+    "ja": "人工知能の倫理",
+    "ru": "Этика искусственного интеллекта"
+  },
+  "evolutionary algorithm (EA)": {
+    "ar": "خوارزمية تطورية",
+    "fr": "Algorithme évolutionniste",
+    "ja": "進化的アルゴリズム",
+    "ru": "Эволюционные алгоритмы",
+    "zh": "进化算法"
+  },
+  "evolutionary computation": {
+    "ar": "حوسبة تطورية",
+    "ja": "進化的計算",
+    "ru": "Эволюционное моделирование",
+    "zh": "进化计算"
+  },
+  "evolving classification function (ECF)": {},
+  "existential risk": {
+    "ar": "الخطر الوجودي من الذكاء الاصطناعي العام",
+    "fr": "Risque de catastrophe planétaire lié à l'intelligence artificielle générale",
+    "ja": "汎用人工知能による人類滅亡のリスク",
+    "zh": "通用人工智能的生存风险"
+  },
+  "expert system": {
+    "ar": "نظام خبير",
+    "fr": "Système expert",
+    "ja": "エキスパートシステム",
+    "ru": "Экспертная система",
+    "zh": "专家系统"
+  },
+  "fast-and-frugal trees": {},
+  "feature extraction": {
+    "ar": "هندسة الخصائص",
+    "fr": "Ingénierie des caractéristiques",
+    "ru": "Конструирование признаков",
+    "zh": "特征工程"
+  },
+  "feature learning": {
+    "ar": "تعلم الخصائص",
+    "fr": "Apprentissage de représentations",
+    "ru": "Обучение признакам",
+    "zh": "表征学习"
+  },
+  "feature selection": {
+    "ar": "اختيار المميزات",
+    "fr": "Sélection de caractéristique",
+    "ja": "特徴選択",
+    "ru": "Отбор признаков",
+    "zh": "特征选择"
+  },
+  "federated learning": {
+    "ar": "تعلم متحد",
+    "fr": "Apprentissage fédéré",
+    "zh": "聯邦學習"
+  },
+  "first-order logic": {
+    "ar": "منطق الرتبة الأولى",
+    "fr": "Calcul des prédicats",
+    "ja": "一階述語論理",
+    "ru": "Логика первого порядка",
+    "zh": "一阶逻辑"
+  },
+  "fluent": {},
+  "formal language": {
+    "ar": "لغة متصرفة",
+    "fr": "Langage formel",
+    "ja": "形式言語",
+    "ru": "Формальный язык",
+    "zh": "形式语言"
+  },
+  "forward chaining": {
+    "ar": "تسلسل أمامي",
+    "fr": "Chaînage avant",
+    "ja": "前向き連鎖"
+  },
+  "frame": {
+    "ar": "إطار (ذكاء اصطناعي)",
+    "fr": "Cadre (intelligence artificielle)",
+    "ru": "Фрейм (инженерия знаний)",
+    "zh": "框架 (人工智能)"
+  },
+  "frame language": {
+    "ar": "إطار (ذكاء اصطناعي)",
+    "fr": "Cadre (intelligence artificielle)",
+    "ru": "Фрейм (инженерия знаний)",
+    "zh": "框架 (人工智能)"
+  },
+  "frame problem": {
+    "ar": "مشكلة الإطار",
+    "fr": "Problème du cadre",
+    "ja": "フレーム問題"
+  },
+  "friendly artificial intelligence": {
+    "ar": "الذكاء الاصطناعي الصديق",
+    "fr": "Intelligence artificielle amicale",
+    "ja": "友好的な人工知能",
+    "ru": "Дружественный искусственный интеллект"
+  },
+  "futures studies": {
+    "ar": "علم المستقبل",
+    "fr": "Futurologie",
+    "ja": "未来学",
+    "ru": "Футурология",
+    "zh": "未来学"
+  },
+  "fuzzy control system": {
+    "ar": "تحكم بالمنطق الضبابي",
+    "fr": "Système intelligent flou",
+    "ja": "ファジィ制御",
+    "ru": "Нечёткий регулятор",
+    "zh": "模糊控制"
+  },
+  "fuzzy logic": {
+    "ar": "منطق ضبابي",
+    "fr": "Logique floue",
+    "ja": "ファジィ論理",
+    "ru": "Нечёткая логика",
+    "zh": "模糊逻辑"
+  },
+  "fuzzy rule": {},
+  "fuzzy set": {
+    "ar": "مجموعة ضبابية",
+    "fr": "Ensemble flou",
+    "ja": "ファジィ集合",
+    "ru": "Нечёткое множество",
+    "zh": "模糊集"
+  },
+  "game theory": {
+    "ar": "نظرية الألعاب",
+    "fr": "Théorie des jeux",
+    "ja": "ゲーム理論",
+    "ru": "Теория игр",
+    "zh": "博弈论"
+  },
+  "general game playing (GGP)": {
+    "ar": "لعب لعبة عامة",
+    "ru": "Универсальная игровая программа"
+  },
+  "generative adversarial network (GAN)": {
+    "ar": "شبكة خصومية توليدية",
+    "fr": "Réseaux antagonistes génératifs",
+    "ja": "敵対的生成ネットワーク",
+    "ru": "Генеративно-состязательная сеть",
+    "zh": "生成对抗网络"
+  },
+  "generative artificial intelligence": {
+    "ar": "ذكاء اصطناعي مولد",
+    "fr": "Intelligence artificielle générative",
+    "ja": "生成的人工知能",
+    "ru": "Генеративный искусственный интеллект",
+    "zh": "生成式人工智慧"
+  },
+  "genetic algorithm (GA)": {
+    "ar": "خوارزميات وراثية",
+    "fr": "Algorithme génétique",
+    "ja": "遺伝的アルゴリズム",
+    "ru": "Генетический алгоритм",
+    "zh": "遗传算法"
+  },
+  "genetic operator": {
+    "ar": "مؤثر جيني",
+    "zh": "遺傳運算元"
+  },
+  "generative pretrained transformer (GPT)": {
+    "ar": "محول مولد مسبق التدريب",
+    "fr": "Transformeur génératif pré-entraîné",
+    "ja": "GPT (言語モデル)",
+    "ru": "Generative pre-trained transformer",
+    "zh": "基于转换器的生成式预训练模型"
+  },
+  "glowworm swarm optimization": {},
+  "graph (abstract data type)": {
+    "ar": "رسم بياني (نوع بيانات مجرد)",
+    "fr": "Graphe (type abstrait)",
+    "ja": "グラフ (データ構造)",
+    "ru": "Граф (тип данных)",
+    "zh": "图 (数据结构)"
+  },
+  "graph (discrete mathematics)": {
+    "ar": "بيان (رياضيات منفصلة)",
+    "fr": "Graphe (mathématiques discrètes)",
+    "ja": "グラフ (離散数学)",
+    "ru": "Граф (математика)",
+    "zh": "图 (数学)"
+  },
+  "graph database (GDB)": {
+    "fr": "Base de données orientée graphe",
+    "ru": "Графовая база данных",
+    "zh": "图数据库"
+  },
+  "graph theory": {
+    "ar": "نظرية البيان",
+    "fr": "Théorie des graphes",
+    "ja": "グラフ理論",
+    "ru": "Теория графов",
+    "zh": "图论"
+  },
+  "graph traversal": {
+    "fr": "Parcours de graphe",
+    "zh": "图的遍历"
+  },
+  "halting problem": {
+    "ar": "مسألة توقف",
+    "fr": "Problème de l'arrêt",
+    "ja": "停止性問題",
+    "ru": "Проблема остановки",
+    "zh": "停机问题"
+  },
+  "heuristic": {
+    "ar": "تجريبية (خوارزميات)",
+    "fr": "Heuristique (mathématiques)",
+    "ru": "Эвристический алгоритм",
+    "zh": "启发式算法"
+  },
+  "hyper-heuristic": {
+    "ru": "Гиперэвристика"
+  },
+  "IEEE Computational Intelligence Society": {
+    "ar": "معهد مهندسي الكهرباء والإلكترونيات",
+    "fr": "Institute of Electrical and Electronics Engineers",
+    "ja": "IEEE",
+    "ru": "Институт инженеров электротехники и электроники",
+    "zh": "电气电子工程师学会"
+  },
+  "incremental learning": {
+    "ar": "تعلم تدريجي"
+  },
+  "inference engine": {
+    "ar": "محرك الاستدلال",
+    "fr": "Moteur d'inférence",
+    "ja": "推論エンジン",
+    "ru": "Машина вывода",
+    "zh": "推理机"
+  },
+  "information integration (II)": {
+    "ar": "تكامل البيانات",
+    "zh": "信息融合"
+  },
+  "Information Processing Language (IPL)": {
+    "ar": "لغة معالجة المعلومات",
+    "fr": "Information Processing Language",
+    "ja": "Information Processing Language",
+    "zh": "資訊處理語言"
+  },
+  "intelligence amplification (IA)": {
+    "ar": "تضخيم الذكاء",
+    "ja": "知能増幅",
+    "ru": "Усиление интеллекта",
+    "zh": "智力放大"
+  },
+  "intelligence explosion": {
+    "ar": "تفرد تقني",
+    "fr": "Singularité technologique",
+    "ja": "技術的特異点",
+    "ru": "Технологическая сингулярность",
+    "zh": "技术奇点"
+  },
+  "intelligent agent (IA)": {
+    "ar": "وكيل ذكي",
+    "fr": "Agent intelligent",
+    "ja": "知的エージェント",
+    "ru": "Интеллектуальный агент",
+    "zh": "智能代理"
+  },
+  "intelligent control": {
+    "ar": "تحكم ذكي",
+    "ru": "Интеллектуальное управление",
+    "zh": "智能控制"
+  },
+  "intelligent personal assistant": {
+    "fr": "Assistant personnel intelligent",
+    "ja": "バーチャルアシスタント",
+    "ru": "Виртуальный ассистент",
+    "zh": "虛擬助理"
+  },
+  "interpretation": {
+    "ar": "ترجمة تفسيرية (علم المنطق)",
+    "fr": "Interprétation (logique)",
+    "zh": "解釋 (邏輯)"
+  },
+  "intrinsic motivation": {},
+  "issue tree": {},
+  "junction tree algorithm": {
+    "fr": "Algorithme de l'arbre de jonction",
+    "ru": "Алгоритм для дерева сочленений"
+  },
+  "kernel method": {
+    "fr": "Astuce du noyau",
+    "ja": "カーネル法",
+    "ru": "Ядерный метод",
+    "zh": "核方法"
+  },
+  "KL-ONE": {
+    "ar": "نظام كاي إل-ون"
+  },
+  "knowledge acquisition": {},
+  "knowledge-based system (KBS)": {
+    "ar": "نظام قائم على قاعدة معرفة"
+  },
+  "knowledge engineering (KE)": {
+    "ar": "هندسة المعرفة",
+    "fr": "Ingénierie des connaissances",
+    "ja": "知識工学",
+    "ru": "Инженерия знаний"
+  },
+  "knowledge extraction": {
+    "ar": "استخراج المعرفة",
+    "fr": "Extraction de connaissances",
+    "ru": "Извлечение знаний"
+  },
+  "knowledge Interchange Format (KIF)": {
+    "zh": "知识交换格式"
+  },
+  "knowledge representation and reasoning (KR² or KR&R)": {
+    "ar": "تمثيل المعرفة",
+    "ja": "知識表現",
+    "ru": "Представление знаний",
+    "zh": "知识表示"
+  },
+  "language model": {
+    "ar": "نموذج اللغة",
+    "fr": "Modèle de langage",
+    "ja": "言語モデル",
+    "ru": "Языковая модель",
+    "zh": "語言模型"
+  },
+  "large language model (LLM)": {
+    "ar": "نموذج اللغة الكبير",
+    "fr": "Grand modèle de langage",
+    "ja": "大規模言語モデル",
+    "ru": "Большая языковая модель",
+    "zh": "大型语言模型"
+  },
+  "lazy learning": {
+    "ar": "تعلم كسول",
+    "ja": "怠惰学習"
+  },
+  "Lisp (programming language) (LISP)": {
+    "ar": "ليسب",
+    "fr": "Lisp",
+    "ja": "LISP",
+    "ru": "Лисп",
+    "zh": "LISP"
+  },
+  "logic programming": {
+    "ar": "برمجة منطقية",
+    "fr": "Programmation logique",
+    "ja": "論理プログラミング",
+    "ru": "Логическое программирование",
+    "zh": "邏輯編程"
+  },
+  "long short-term memory (LSTM)": {
+    "ar": "الذاكرة القصيرة المدى المطولة",
+    "ja": "長・短期記憶",
+    "ru": "Долгая краткосрочная память",
+    "zh": "長短期記憶"
+  },
+  "machine vision (MV)": {
+    "ar": "رؤية آلية",
+    "fr": "Vision industrielle",
+    "ja": "マシンビジョン",
+    "ru": "Машинное зрение",
+    "zh": "机器视觉"
+  },
+  "Markov chain": {
+    "ar": "سلسلة ماركوف",
+    "fr": "Chaîne de Markov",
+    "ja": "マルコフ連鎖",
+    "ru": "Цепь Маркова",
+    "zh": "马尔可夫链"
+  },
+  "Markov decision process (MDP)": {
+    "ar": "قرارات عملية ماركوف",
+    "fr": "Processus de décision markovien",
+    "ja": "マルコフ決定過程",
+    "ru": "Марковский процесс принятия решений",
+    "zh": "馬可夫決策過程"
+  },
+  "mathematical optimization": {
+    "ar": "استمثال (رياضيات)",
+    "fr": "Optimisation (mathématiques)",
+    "ja": "数理最適化",
+    "ru": "Оптимизация (математика)",
+    "zh": "最优化"
+  },
+  "machine learning (ML)": {
+    "ar": "تعلم الآلة",
+    "fr": "Apprentissage automatique",
+    "ja": "機械学習",
+    "ru": "Машинное обучение",
+    "zh": "机器学习"
+  },
+  "machine listening": {
+    "ar": "استماع الآلة"
+  },
+  "machine perception": {
+    "ar": "آلة الإدراك",
+    "fr": "Perception artificielle"
+  },
+  "mechanism design": {
+    "ar": "نظرية تصميم الآليات",
+    "fr": "Théorie des mécanismes d'incitation",
+    "ja": "メカニズムデザイン",
+    "ru": "Дизайн механизмов",
+    "zh": "机制设计"
+  },
+  "mechatronics": {
+    "ar": "هندسة ميكاترونيكس",
+    "fr": "Mécatronique",
+    "ja": "メカトロニクス",
+    "ru": "Мехатроника",
+    "zh": "机械电子学"
+  },
+  "metabolic network reconstruction and simulation": {
+    "ar": "نمذجة الشبكة الأيضية"
+  },
+  "metaheuristic": {
+    "ar": "الأدلة العليا",
+    "fr": "Métaheuristique",
+    "ja": "メタヒューリスティクス",
+    "ru": "Метаалгоритм",
+    "zh": "元启发算法"
+  },
+  "model checking": {
+    "fr": "Vérification de modèles",
+    "ja": "モデル検査",
+    "ru": "Проверка моделей"
+  },
+  "modus ponens": {
+    "ar": "قياس استثنائي",
+    "fr": "Modus ponens",
+    "ja": "モーダスポネンス",
+    "ru": "Modus ponens",
+    "zh": "肯定前件"
+  },
+  "modus tollens": {
+    "fr": "Modus tollens",
+    "ja": "モーダストレンス",
+    "ru": "Modus tollens",
+    "zh": "否定後件"
+  },
+  "Monte Carlo tree search": {
+    "fr": "Recherche arborescente Monte-Carlo",
+    "ja": "モンテカルロ木探索",
+    "zh": "蒙特卡洛树搜索"
+  },
+  "multi-agent system (MAS)": {
+    "ar": "نظام متعدد الوكلاء",
+    "fr": "Système multi-agents",
+    "ja": "マルチエージェントシステム",
+    "ru": "Многоагентная система",
+    "zh": "多智能体系统"
+  },
+  "multi-swarm optimization": {
+    "ar": "استمثال متعدد الأسراب"
+  },
+  "mutation": {
+    "zh": "突變 (遺傳演算法)"
+  },
+  "Mycin": {
+    "ja": "Mycin",
+    "ru": "MYCIN"
+  },
+  "naive Bayes classifier": {
+    "ar": "المصنف بايز ساذج",
+    "fr": "Classification naïve bayésienne",
+    "ja": "単純ベイズ分類器",
+    "ru": "Наивный байесовский классификатор",
+    "zh": "朴素贝叶斯分类器"
+  },
+  "naive semantics": {
+    "ar": "دلالات بسيطة"
+  },
+  "name binding": {
+    "ja": "束縛 (情報工学)",
+    "zh": "名字绑定"
+  },
+  "named-entity recognition (NER)": {
+    "ar": "التعرف على الكيانات المسماة",
+    "fr": "Reconnaissance d'entités nommées",
+    "ja": "固有表現抽出",
+    "zh": "命名实体识别"
+  },
+  "named graph": {},
+  "natural language generation (NLG)": {
+    "ar": "توليد اللغات الطبيعية",
+    "fr": "Génération automatique de textes",
+    "ja": "自然言語生成",
+    "ru": "Генератор текста",
+    "zh": "自然语言生成"
+  },
+  "natural language processing (NLP)": {
+    "ar": "معالجة اللغة الطبيعية",
+    "fr": "Traitement automatique des langues",
+    "ja": "自然言語処理",
+    "ru": "Обработка естественного языка",
+    "zh": "自然语言处理"
+  },
+  "natural language programming": {
+    "ar": "برمجة باللغات الطبيعية"
+  },
+  "network motif": {},
+  "neural machine translation (NMT)": {
+    "ar": "ترجمة آلية عصبية",
+    "fr": "Traduction automatique neuronale",
+    "ja": "ニューラル機械翻訳",
+    "ru": "Нейронный машинный перевод",
+    "zh": "神经机器翻译"
+  },
+  "neural network": {
+    "ar": "الشبكة العصبية",
+    "zh": "生物神经网络"
+  },
+  "neural Turing machine (NTM)": {
+    "zh": "神经图灵机"
+  },
+  "neuro-fuzzy": {
+    "ar": "نظام عصبي ضبابي",
+    "ru": "Нейро-нечёткие системы"
+  },
+  "neurocybernetics": {
+    "ru": "Биологическая кибернетика"
+  },
+  "neuromorphic engineering": {
+    "ar": "هندسة التشكيل العصبي",
+    "fr": "Informatique neuromorphique",
+    "ja": "ニューロモルフィック・エンジニアリング"
+  },
+  "node": {
+    "ar": "عقدة (حاسوب)",
+    "ru": "Узел (информатика)"
+  },
+  "nondeterministic algorithm": {},
+  "nouvelle AI": {},
+  "NP": {
+    "ar": "كثير حدود غير قطعي",
+    "fr": "NP (complexité)",
+    "ja": "NP",
+    "ru": "Класс NP",
+    "zh": "NP (複雜度)"
+  },
+  "NP-completeness": {
+    "ar": "مسألة كثيرة حدود غير قطعية كاملة",
+    "fr": "Problème NP-complet",
+    "ja": "NP完全問題",
+    "ru": "NP-полная задача",
+    "zh": "NP完全"
+  },
+  "NP-hardness": {
+    "ar": "مسائل NP صعبة",
+    "fr": "NP-difficile",
+    "ja": "NP困難",
+    "ru": "NP-трудность",
+    "zh": "NP困难"
+  },
+  "Occam's razor": {
+    "ar": "نصل أوكام",
+    "fr": "Rasoir d'Ockham",
+    "ja": "オッカムの剃刀",
+    "ru": "Бритва Оккама",
+    "zh": "奥卡姆剃刀"
+  },
+  "offline learning": {},
+  "online machine learning": {
+    "ar": "تعلم الآلة المستمر",
+    "fr": "Algorithme d'apprentissage incrémental",
+    "ru": "Онлайновое машинное обучение",
+    "zh": "線上機器學習"
+  },
+  "ontology learning": {},
+  "OpenAI": {
+    "ar": "أوبن أيه آي",
+    "fr": "OpenAI",
+    "ja": "OpenAI",
+    "ru": "OpenAI",
+    "zh": "OpenAI"
+  },
+  "OpenCog": {
+    "fr": "OpenCog",
+    "ru": "OpenCog",
+    "zh": "OpenCog"
+  },
+  "Open Mind Common Sense": {
+    "ar": "أوبن مايند كومون سينس",
+    "ja": "Open Mind Common Sense"
+  },
+  "open-source software (OSS)": {
+    "ar": "برمجيات مفتوحة المصدر",
+    "fr": "Logiciel open source",
+    "ja": "オープンソースソフトウェア",
+    "ru": "Открытое программное обеспечение",
+    "zh": "开源软件"
+  },
+  "Parameter#Artificial_Intelligence": {
+    "ar": "وسيط (رياضيات)",
+    "ja": "媒介変数",
+    "ru": "Параметр",
+    "zh": "參數 (數學)"
+  },
+  "partial order reduction": {
+    "fr": "Réduction par ordre partiel"
+  },
+  "partially observable Markov decision process (POMDP)": {
+    "fr": "Processus de décision markovien partiellement observable",
+    "ja": "部分観測マルコフ決定過程",
+    "zh": "部分可觀察馬可夫決策過程"
+  },
+  "particle swarm optimization (PSO)": {
+    "ar": "استمثال عناصر السرب",
+    "fr": "Optimisation par essaims particulaires",
+    "ja": "粒子群最適化",
+    "ru": "Метод роя частиц",
+    "zh": "粒子群优化"
+  },
+  "pathfinding": {
+    "ar": "خوارزميات تحديد المسار",
+    "fr": "Recherche de chemin",
+    "ru": "Поиск пути",
+    "zh": "寻路"
+  },
+  "pattern recognition": {
+    "ar": "تمييز الأنماط",
+    "fr": "Reconnaissance de formes",
+    "ja": "パターン認識",
+    "ru": "Теория распознавания образов",
+    "zh": "模式识别"
+  },
+  "predicate logic": {
+    "ar": "منطق الرتبة الأولى",
+    "fr": "Calcul des prédicats",
+    "ja": "一階述語論理",
+    "ru": "Логика первого порядка",
+    "zh": "一阶逻辑"
+  },
+  "predictive analytics": {
+    "ar": "تحليلات تنبؤية",
+    "fr": "Analyse prédictive",
+    "ja": "予測分析",
+    "ru": "Предсказательная аналитика",
+    "zh": "预测分析"
+  },
+  "principal component analysis (PCA)": {
+    "ar": "تحليل العنصر الرئيسي",
+    "fr": "Analyse en composantes principales",
+    "ja": "主成分分析",
+    "ru": "Метод главных компонент",
+    "zh": "主成分分析"
+  },
+  "principle of rationality": {},
+  "probabilistic programming (PP)": {
+    "fr": "Langage de programmation probabiliste",
+    "zh": "概率编程"
+  },
+  "production system": {
+    "ja": "プロダクションシステム",
+    "ru": "Продукционная модель представления знаний"
+  },
+  "programming language": {
+    "ar": "لغة برمجة",
+    "fr": "Langage de programmation",
+    "ja": "プログラミング言語",
+    "ru": "Язык программирования",
+    "zh": "编程语言"
+  },
+  "Prolog": {
+    "ar": "برولوغ",
+    "fr": "Prolog",
+    "ja": "Prolog",
+    "ru": "Пролог (язык программирования)",
+    "zh": "Prolog"
+  },
+  "propositional calculus": {
+    "ar": "حساب القضايا",
+    "fr": "Calcul des propositions",
+    "ja": "命題論理",
+    "ru": "Логика высказываний",
+    "zh": "命题逻辑"
+  },
+  "Python": {
+    "ar": "بايثون (لغة برمجة)",
+    "fr": "Python (langage)",
+    "ja": "Python",
+    "ru": "Python",
+    "zh": "Python"
+  },
+  "qualification problem": {},
+  "quantifier": {
+    "ar": "مكمم",
+    "fr": "Quantification (logique)",
+    "ru": "Квантор",
+    "zh": "量化 (数理逻辑)"
+  },
+  "quantum computing": {
+    "ar": "حوسبة كمومية",
+    "fr": "Informatique quantique",
+    "ja": "量子コンピューティング",
+    "zh": "量子计算"
+  },
+  "query language": {
+    "ar": "لغة استعلام",
+    "fr": "Langage de requête",
+    "ja": "問い合わせ言語",
+    "ru": "Язык запросов",
+    "zh": "查詢語言"
+  },
+  "R programming language": {
+    "ar": "آر (لغة برمجة)",
+    "fr": "R (langage)",
+    "ja": "R言語",
+    "ru": "R (язык программирования)",
+    "zh": "R语言"
+  },
+  "radial basis function network": {
+    "ru": "Сеть радиально-базисных функций",
+    "zh": "径向基函数网络"
+  },
+  "random forest": {
+    "ar": "غابة عشوائية",
+    "fr": "Forêt d'arbres décisionnels",
+    "ja": "ランダムフォレスト",
+    "ru": "Метод случайного леса",
+    "zh": "随机森林"
+  },
+  "reasoning system": {},
+  "recurrent neural network (RNN)": {
+    "ar": "الشبكات العصبية المتكررة",
+    "fr": "Réseau de neurones récurrents",
+    "ja": "回帰型ニューラルネットワーク",
+    "ru": "Рекуррентная нейронная сеть",
+    "zh": "循环神经网络"
+  },
+  "region connection calculus": {},
+  "reinforcement learning (RL)": {
+    "ar": "تعلم بالتعزيز",
+    "fr": "Apprentissage par renforcement",
+    "ja": "強化学習",
+    "ru": "Обучение с подкреплением",
+    "zh": "强化学习"
+  },
+  "reinforcement learning from human feedback (RLHF)": {
+    "fr": "Apprentissage par renforcement à partir de rétroaction humaine",
+    "ja": "人間のフィードバックによる強化学習",
+    "ru": "Обучение с подкреплением на основе отзывов людей",
+    "zh": "基于人类反馈的强化学习"
+  },
+  "reservoir computing": {
+    "fr": "Calcul par réservoir"
+  },
+  "Resource Description Framework (RDF)": {
+    "ar": "إطار توصيف الموارد",
+    "fr": "Resource Description Framework",
+    "ja": "Resource Description Framework",
+    "ru": "Resource Description Framework",
+    "zh": "資源描述框架"
+  },
+  "restricted Boltzmann machine (RBM)": {
+    "fr": "Machine de Boltzmann restreinte",
+    "ru": "Ограниченная машина Больцмана",
+    "zh": "受限玻尔兹曼机"
+  },
+  "Rete algorithm": {
+    "fr": "Algorithme de Rete",
+    "ja": "Reteアルゴリズム",
+    "ru": "Алгоритм Rete"
+  },
+  "robotics": {
+    "ar": "روبوتية",
+    "fr": "Robotique",
+    "ja": "ロボット工学",
+    "ru": "Робототехника",
+    "zh": "机器人学"
+  },
+  "rule-based system": {
+    "fr": "Moteur de règles",
+    "ru": "Сервер исполнения бизнес-правил",
+    "zh": "基於規則的系統"
+  },
+  "satisfiability": {
+    "ar": "قابلية الإرضاء",
+    "fr": "Satisfaisabilité"
+  },
+  "search algorithm": {
+    "ar": "خوارزمية بحث",
+    "fr": "Algorithme de recherche",
+    "ja": "探索",
+    "zh": "搜索算法"
+  },
+  "selection": {},
+  "self-management": {
+    "ar": "إدارة ذاتية (معلوماتية)"
+  },
+  "semantic network": {
+    "ar": "شبكة دلالية",
+    "fr": "Réseau sémantique",
+    "ja": "意味ネットワーク",
+    "ru": "Семантическая сеть",
+    "zh": "语义网络"
+  },
+  "semantic reasoner": {
+    "ru": "Семантический механизм рассуждений"
+  },
+  "semantic query": {
+    "fr": "Requête sémantique"
+  },
+  "semantics": {
+    "ar": "علم الدلالة الشكلي",
+    "fr": "Sémantique des langages de programmation",
+    "ja": "プログラム意味論",
+    "ru": "Семантика (программирование)",
+    "zh": "形式语义学"
+  },
+  "sensor fusion": {
+    "zh": "感測器整合"
+  },
+  "separation logic": {
+    "fr": "Logique de séparation",
+    "ru": "Логика разделения"
+  },
+  "similarity learning": {
+    "fr": "Apprentissage de métriques"
+  },
+  "simulated annealing (SA)": {
+    "ar": "تخمير محاكى",
+    "fr": "Recuit simulé",
+    "ja": "焼きなまし法",
+    "ru": "Алгоритм имитации отжига",
+    "zh": "模拟退火"
+  },
+  "situated approach": {},
+  "situation calculus": {
+    "fr": "Calcul des situations"
+  },
+  "Selective Linear Definite clause resolution": {
+    "fr": "SLD-résolution"
+  },
+  "software": {
+    "ar": "برمجية",
+    "fr": "Logiciel",
+    "ja": "ソフトウェア",
+    "ru": "Программное обеспечение",
+    "zh": "软件"
+  },
+  "software engineering": {
+    "ar": "هندسة البرمجيات",
+    "fr": "Génie logiciel",
+    "ja": "ソフトウェア工学",
+    "ru": "Программная инженерия",
+    "zh": "软件工程"
+  },
+  "spatial-temporal reasoning": {},
+  "SPARQL": {
+    "ar": "سباركل",
+    "fr": "SPARQL",
+    "ja": "SPARQL",
+    "ru": "SPARQL",
+    "zh": "SPARQL"
+  },
+  "speech recognition": {
+    "ar": "تعرف الكلام",
+    "fr": "Reconnaissance automatique de la parole",
+    "ja": "音声認識",
+    "ru": "Распознавание речи",
+    "zh": "语音识别"
+  },
+  "spiking neural network (SNN)": {
+    "fr": "Réseau de neurones à impulsions",
+    "ru": "Импульсная нейронная сеть"
+  },
+  "state": {
+    "ar": "حالة (حاسوب)",
+    "fr": "État (informatique)",
+    "ru": "Состояние (информатика)"
+  },
+  "statistical classification": {
+    "ar": "تصنيف إحصائي",
+    "fr": "Classement automatique",
+    "ja": "分類 (統計学)",
+    "ru": "Задача классификации",
+    "zh": "统计分类"
+  },
+  "statistical relational learning (SRL)": {
+    "ja": "Statistical relational learning"
+  },
+  "stochastic optimization (SO)": {
+    "ru": "Стохастическая оптимизация"
+  },
+  "stochastic semantic analysis": {},
+  "Stanford Research Institute Problem Solver (STRIPS)": {
+    "fr": "STRIPS",
+    "ja": "STRIPS",
+    "ru": "STRIPS"
+  },
+  "subject-matter expert": {
+    "ar": "خبير موضوعي",
+    "ja": "内容領域専門家"
+  },
+  "superintelligence": {
+    "ar": "ذكاء فائق",
+    "fr": "Superintelligence",
+    "ja": "超知能",
+    "zh": "超智能"
+  },
+  "supervised learning": {
+    "ar": "تعلم مراقب",
+    "fr": "Apprentissage supervisé",
+    "ja": "教師あり学習",
+    "ru": "Обучение с учителем",
+    "zh": "监督学习"
+  },
+  "support-vector machines": {
+    "ar": "شعاع الدعم الآلي",
+    "fr": "Machine à vecteurs de support",
+    "ja": "サポートベクターマシン",
+    "ru": "Метод опорных векторов",
+    "zh": "支持向量机"
+  },
+  "swarm intelligence (SI)": {
+    "ar": "ذكاء السرب",
+    "fr": "Intelligence distribuée",
+    "ja": "群知能",
+    "ru": "Роевой интеллект",
+    "zh": "群体智能"
+  },
+  "symbolic artificial intelligence": {
+    "ar": "ذكاء اصطناعي رمزي",
+    "fr": "Intelligence artificielle symbolique",
+    "ru": "Символический искусственный интеллект",
+    "zh": "符號人工智能"
+  },
+  "synthetic intelligence (SI)": {
+    "fr": "Intelligence synthétique",
+    "zh": "合成智能"
+  },
+  "systems neuroscience": {
+    "ar": "أنظمة العلوم العصبية",
+    "fr": "Neurosciences des systèmes",
+    "ja": "システム神経科学",
+    "ru": "Системная психофизиология",
+    "zh": "系统神经科学"
+  },
+  "technological singularity": {
+    "ar": "تفرد تقني",
+    "fr": "Singularité technologique",
+    "ja": "技術的特異点",
+    "ru": "Технологическая сингулярность",
+    "zh": "技术奇点"
+  },
+  "temporal difference learning": {
+    "ar": "تعلم الفرق الزمني",
+    "fr": "Temporal difference learning",
+    "ja": "時間差分学習",
+    "zh": "时序差分学习"
+  },
+  "tensor network theory": {},
+  "TensorFlow": {
+    "ar": "تنسرفلو",
+    "fr": "TensorFlow",
+    "ja": "TensorFlow",
+    "ru": "TensorFlow",
+    "zh": "TensorFlow"
+  },
+  "theoretical computer science (TCS)": {
+    "ar": "علم الحاسوب النظري",
+    "fr": "Informatique théorique",
+    "ja": "理論計算機科学",
+    "ru": "Теоретическая информатика",
+    "zh": "理論計算機科學"
+  },
+  "theory of computation": {
+    "ar": "نظرية الحوسبة",
+    "ja": "計算理論",
+    "ru": "Теория алгоритмов",
+    "zh": "计算理论"
+  },
+  "Thompson sampling": {
+    "fr": "Échantillonnage de Thompson"
+  },
+  "time complexity": {
+    "ar": "تعقيد الوقت",
+    "fr": "Complexité en temps",
+    "ru": "Временная сложность алгоритма",
+    "zh": "时间复杂度"
+  },
+  "transformer": {
+    "ar": "محول (تعلم الآلة)",
+    "fr": "Transformeur",
+    "ja": "Transformer (機械学習モデル)",
+    "ru": "Трансформер (модель машинного обучения)",
+    "zh": "Transformer模型"
+  },
+  "transhumanism": {
+    "ar": "تجاوز الإنسانية",
+    "fr": "Transhumanisme",
+    "ja": "トランスヒューマニズム",
+    "ru": "Трансгуманизм",
+    "zh": "超人类主义"
+  },
+  "transition system": {
+    "ar": "نظام حالة الانتقال",
+    "fr": "Système de transition d'états",
+    "ja": "状態遷移系",
+    "zh": "变迁系统"
+  },
+  "tree traversal": {
+    "ar": "مسح هيكلة الشجرة",
+    "fr": "Parcours d'arbre",
+    "ja": "木構造 (データ構造)",
+    "ru": "Обход дерева",
+    "zh": "树的遍历"
+  },
+  "true quantified Boolean formula": {
+    "fr": "Formule booléenne quantifiée",
+    "ja": "TQBF問題"
+  },
+  "Turing machine": {
+    "ar": "آلة تورنغ",
+    "fr": "Machine de Turing",
+    "ja": "チューリングマシン",
+    "ru": "Машина Тьюринга",
+    "zh": "图灵机"
+  },
+  "Turing test": {
+    "ar": "اختبار تورنغ",
+    "fr": "Test de Turing",
+    "ja": "チューリング・テスト",
+    "ru": "Тест Тьюринга",
+    "zh": "图灵测试"
+  },
+  "type system": {
+    "ar": "نظام الأنواع",
+    "ja": "型システム",
+    "ru": "Система типов",
+    "zh": "類型系統"
+  },
+  "unsupervised learning": {
+    "ar": "تعلم غير مراقب",
+    "fr": "Apprentissage non supervisé",
+    "ja": "教師なし学習",
+    "ru": "Обучение без учителя",
+    "zh": "無監督學習"
+  },
+  "vision processing unit (VPU)": {
+    "ja": "ビジョン・プロセッシング・ユニット",
+    "ru": "Процессор машинного зрения",
+    "zh": "视觉处理单元"
+  },
+  "Watson": {
+    "ar": "واتسون (حاسوب)",
+    "fr": "Watson (intelligence artificielle)",
+    "ja": "ワトソン (コンピュータ)",
+    "ru": "IBM Watson",
+    "zh": "沃森 (人工智能程序)"
+  },
+  "weak AI": {
+    "ar": "ذكاء اصطناعي ضعيف",
+    "fr": "Intelligence artificielle faible",
+    "zh": "弱人工智慧"
+  },
+  "World Wide Web Consortium (W3C)": {
+    "ar": "رابطة الشبكة العالمية",
+    "fr": "World Wide Web Consortium",
+    "ja": "World Wide Web Consortium",
+    "ru": "Консорциум Всемирной паутины",
+    "zh": "万维网联盟"
   }
 }
