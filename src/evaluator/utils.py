@@ -19,6 +19,23 @@ class GeneralEvaluator():
     def evaluate(self):
         self.metric.compute(predictions=self.args.predictions, references=self.args.references)
 
+class FloresEvaluator():
+    
+    def __init__(self, args):
+        self.args = args
+
+    def get_dataset(self):
+        from datasets import load_dataset
+        self.data = load_dataset("facebook/flores", self.args.language_pair) # The language pair format should be "acm_Arab"
+        
+    def get_sentence_pair(self):
+        self.sentence_pairs = []
+        # part is either 'dev' or 'devtest'
+        for i in range(len(self.data[self.args.part])):
+            self.sentence_pairs.append((self.data[self.args.part][i][self.args.language_pair.split('_')[0]], self.data[self.args.part][i][self.args.language_pair.split('_')[1]]))
+        return self.sentence_pairs
+        
+
 class ScientificTermDiscoveryEvaluator():
     """
     args: an instance of Scientific Term Discovery Evluator
