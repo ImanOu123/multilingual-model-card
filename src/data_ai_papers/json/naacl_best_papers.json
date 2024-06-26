@@ -1,0 +1,289 @@
+[
+  {
+    "title": "Catching the Drift: Probabilistic Content Models, with Applications to Generation and Summarization",
+    "venue": "NAACL",
+    "year": 2004,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N04-1015.pdf"
+  },
+  {
+    "title": "Prototype-Driven Learning for Sequence Models",
+    "venue": "NAACL",
+    "year": 2006,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N06-1041.pdf"
+  },
+  {
+    "title": "Combining Outputs from Multiple Machine Translation Systems",
+    "venue": "NAACL",
+    "year": 2007,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N07-1029.pdf"
+  },
+  {
+    "title": "Unsupervised Morphological Segmentation with Log-Linear Models",
+    "venue": "NAACL",
+    "year": 2009,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N09-1024.pdf"
+  },
+  {
+    "title": "“cba to check the spelling”: Investigating Parser Performance on Discussion Forum Posts",
+    "venue": "NAACL",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N10-1060.pdf"
+  },
+  {
+    "title": "Coreference Resolution in a Modular, Entity-Centered Model",
+    "venue": "NAACL",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N10-1061.pdf"
+  },
+  {
+    "title": "Cross-lingual Word Clusters for Direct Transfer of Linguistic Structure",
+    "venue": "NAACL",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N12-1052.pdf"
+  },
+  {
+    "title": "Vine Pruning for Efficient Multi-Pass Dependency Parsing",
+    "venue": "NAACL",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N12-1054.pdf"
+  },
+  {
+    "title": "Trait-Based Hypothesis Selection For Machine Translation",
+    "venue": "NAACL",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N12-1059.pdf"
+  },
+  {
+    "title": "The Life and Death of Discourse Entities: Identifying Singleton Mentions",
+    "venue": "NAACL",
+    "year": 2013,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N13-1071.pdf"
+  },
+  {
+    "title": "Automatic Generation of English Respellings",
+    "venue": "NAACL",
+    "year": 2013,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N13-1072.pdf"
+  },
+  {
+    "title": "Retrofitting Word Vectors to Semantic Lexicons",
+    "venue": "NAACL",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N15-1184.pdf"
+  },
+  {
+    "title": "“You’re Mr. Lebowski, I’m the Dude”: Inducing Address Term Formality in Signed Social Networks",
+    "venue": "NAACL",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N15-1185.pdf"
+  },
+  {
+    "title": "Unsupervised Morphology Induction Using Word Embeddings",
+    "venue": "NAACL",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N15-1186.pdf"
+  },
+  {
+    "title": "Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships",
+    "venue": "NAACL",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N16-1180.pdf"
+  },
+  {
+    "title": "Learning to Compose Neural Networks for Question Answering",
+    "venue": "NAACL",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N16-1181.pdf"
+  },
+  {
+    "title": "Deep Contextualized Word Representations",
+    "venue": "NAACL",
+    "year": 2018,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/N18-1202.pdf"
+  },
+  {
+    "title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Explainable NLP Paper",
+    "link": "https://aclanthology.org/N19-1000.pdf"
+  },
+  {
+    "title": "CNM: An Interpretable Complex-valued Network for Matching",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Explainable NLP Paper",
+    "link": "https://aclanthology.org/N19-1420.pdf"
+  },
+  {
+    "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Resource Paper",
+    "link": "https://aclanthology.org/N19-1421.pdf"
+  },
+  {
+    "title": "Probing the Need for Visual Context in Multimodal Machine Translation",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Short Paper",
+    "link": "https://aclanthology.org/N19-1422.pdf"
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Long Paper",
+    "link": "https://aclanthology.org/N19-1423.pdf"
+  },
+  {
+    "title": "What’s in a Name? Reducing Bias in Bios without Access to Protected Attributes",
+    "venue": "NAACL",
+    "year": 2019,
+    "award": "Best Thematic Paper",
+    "link": "https://aclanthology.org/N19-1424.pdf"
+  },
+  {
+    "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Outstanding Long Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.0.pdf"
+  },
+  {
+    "title": "Unifying Cross-Lingual Semantic Role Labeling with Heterogeneous Linguistic Resources",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Outstanding Long Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.31.pdf"
+  },
+  {
+    "title": "Preregistering NLP research",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Best Thematic Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.51.pdf"
+  },
+  {
+    "title": "Video-aided Unsupervised Grammar Induction",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Best Long Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.119.pdf"
+  },
+  {
+    "title": "It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Outstanding Long Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.185.pdf"
+  },
+  {
+    "title": "How many data points is a prompt worth?",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Outstanding Short Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.208.pdf"
+  },
+  {
+    "title": "Learning How to Ask: Querying LMs with Mixtures of Soft Prompts",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Best Short Paper",
+    "link": "https://aclanthology.org/2021.naacl-main.410.pdf"
+  },
+  {
+    "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Demonstrations",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Best Demo Paper",
+    "link": "https://aclanthology.org/2021.naacl-demos.0.pdf"
+  },
+  {
+    "title": "COVID-19 Literature Knowledge Graph Construction and Drug Repurposing Report Generation",
+    "venue": "NAACL",
+    "year": 2021,
+    "award": "Best Demo Paper",
+    "link": "https://aclanthology.org/2021.naacl-demos.8.pdf"
+  },
+  {
+    "title": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Honorable mention for contributions to resources",
+    "link": "https://aclanthology.org/2022.naacl-main.0.pdf"
+  },
+  {
+    "title": "NewsEdits: A News Article Revision Dataset and a Novel Document-Level Reasoning Challenge",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Honorable mention for contributions to resources",
+    "link": "https://aclanthology.org/2022.naacl-main.10.pdf"
+  },
+  {
+    "title": "User-Driven Research of Medical Note Generation Software",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Best paper on human-centered NLP special theme",
+    "link": "https://aclanthology.org/2022.naacl-main.29.pdf"
+  },
+  {
+    "title": "Automatic Correction of Human Translations",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Best new task (tied) and new resource paper",
+    "link": "https://aclanthology.org/2022.naacl-main.36.pdf"
+  },
+  {
+    "title": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Best new method paper",
+    "link": "https://aclanthology.org/2022.naacl-main.57.pdf"
+  },
+  {
+    "title": "FRUIT: Faithfully Reflecting Updated Information in Text",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Best new task paper (tied)",
+    "link": "https://aclanthology.org/2022.naacl-main.269.pdf"
+  },
+  {
+    "title": "FNet: Mixing Tokens with Fourier Transforms",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Best efficient NLP paper",
+    "link": "https://aclanthology.org/2022.naacl-main.319.pdf"
+  },
+  {
+    "title": "A Balanced Data Approach for Evaluating Cross-Lingual Transfer: Mapping the Linguistic Blood Bank",
+    "venue": "NAACL",
+    "year": 2022,
+    "award": "Honorable mention for contribution to methods",
+    "link": "https://aclanthology.org/2022.naacl-main.361.pdf"
+  },
+  {
+    "title": "Teaching Language Models to Self-Improve through Interactive Demonstrations",
+    "venue": "NAACL",
+    "year": 2024,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2024.naacl-long.287.pdf"
+  }
+]
