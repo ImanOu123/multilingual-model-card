@@ -1,12 +1,5 @@
 [
   {
-    "title": "Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics",
-    "venue": "EACL",
-    "year": 2012,
-    "award": "ACL 2022 10-Year Test of Time",
-    "link": "https://aclanthology.org/E12-1000.pdf"
-  },
-  {
     "title": "Spectral Learning for Non-Deterministic Dependency Parsing",
     "venue": "EACL",
     "year": 2012,
@@ -19,13 +12,6 @@
     "year": 2012,
     "award": "ACL 2022 10-Year Test of Time",
     "link": "https://aclanthology.org/E12-1076.pdf"
-  },
-  {
-    "title": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
-    "venue": "EACL",
-    "year": 2021,
-    "award": "Best Short Paper",
-    "link": "https://aclanthology.org/2021.eacl-main.0.pdf"
   },
   {
     "title": "Question and Answer Test-Train Overlap in Open-Domain Question Answering Datasets",
@@ -96,13 +82,6 @@
     "year": 2021,
     "award": "Honorable Mention for Best Long Paper",
     "link": "https://aclanthology.org/2021.eacl-main.288.pdf"
-  },
-  {
-    "title": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
-    "venue": "EACL",
-    "year": 2023,
-    "award": "EACL Outstanding Paper",
-    "link": "https://aclanthology.org/2023.eacl-main.0.pdf"
   },
   {
     "title": "PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation",
@@ -189,25 +168,11 @@
     "link": "https://aclanthology.org/2023.eacl-main.257.pdf"
   },
   {
-    "title": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
-    "venue": "EACL",
-    "year": 2023,
-    "award": "EACL Best System Demonstration",
-    "link": "https://aclanthology.org/2023.eacl-demo.0.pdf"
-  },
-  {
     "title": "Small-Text: Active Learning for Text Classification in Python",
     "venue": "EACL",
     "year": 2023,
     "award": "EACL Best System Demonstration",
     "link": "https://aclanthology.org/2023.eacl-demo.11.pdf"
-  },
-  {
-    "title": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "venue": "EACL",
-    "year": 2024,
-    "award": "Best Non-publicized Paper Award",
-    "link": "https://aclanthology.org/2024.eacl-long.0.pdf"
   },
   {
     "title": "Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs",
@@ -278,13 +243,6 @@
     "year": 2024,
     "award": "Outstanding Paper Award",
     "link": "https://aclanthology.org/2024.eacl-long.179.pdf"
-  },
-  {
-    "title": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
-    "venue": "EACL",
-    "year": 2024,
-    "award": "Best Demo Award",
-    "link": "https://aclanthology.org/2024.eacl-demo.0.pdf"
   },
   {
     "title": "Multi-party Multimodal Conversations Between Patients, Their Companions, and a Social Robot in a Hospital Memory Clinic",

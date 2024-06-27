@@ -93,6 +93,8 @@ if __name__ == "__main__":
     
     # EMNLP CONFERENCE
     
+    # best_paper_dict includes only papers with best paper awards and other_paper_dict includes papers that won other types of awards
+    
     # sources: https://2023.emnlp.org/program/best_papers/, https://aisb.org.uk/conference-reports-empirical-methods-in-natural-language-processing-emnlp-2022/, https://2021.emnlp.org/blog/2021-10-29-best-paper-awards, https://2020.emnlp.org/blog/2020-11-19-best-papers, https://aclweb.org/aclwiki/Best_paper_awards
     # best_paper_dict = {"2023" : ["Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning", "Faster Minimum Bayes Risk Decoding with Confidence-based Pruning", "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition", "PaperMage: A Unified Toolkit for Processing, Representing, and Manipulating Visually-Rich Scientific Documents", "Personalized Dense Retrieval on Global Index for Voice-enabled Conversational Systems"],
     #                   "2022" : ["Abstract Visual Reasoning with Tangram Shapes", "Topic-Regularized Authorship Representation Learning"],
@@ -142,25 +144,7 @@ if __name__ == "__main__":
     
     # NAACL CONFERENCE
     
-    # naacl_antho_urls = {"2024" : ["https://aclanthology.org/volumes/2024.naacl-long/", "https://aclanthology.org/volumes/2024.naacl-short/", "https://aclanthology.org/volumes/2024.naacl-demo/"], 
-    #                     "2022" : ["https://aclanthology.org/volumes/2022.naacl-main/", "https://aclanthology.org/volumes/2022.naacl-demo/"], 
-    #                     "2021" : ["https://aclanthology.org/volumes/2021.naacl-main/", "https://aclanthology.org/volumes/2021.naacl-demos/"], 
-    #                     "2019" : ["https://aclanthology.org/volumes/N19-1/", "https://aclanthology.org/volumes/N19-4/"],
-    #                     "2018" : ["https://aclanthology.org/volumes/N18-1/", "https://aclanthology.org/volumes/N18-2/", "https://aclanthology.org/volumes/N18-5/"],
-    #                     "2016" : ["https://aclanthology.org/volumes/N16-1/", "https://aclanthology.org/volumes/N16-3/"],
-    #                     "2015" : ["https://aclanthology.org/volumes/N15-1/", "https://aclanthology.org/volumes/N15-3/"],
-    #                     "2013" : ["https://aclanthology.org/volumes/N13-1/"], 
-    #                     "2012" : ["https://aclanthology.org/volumes/N12-1/"],
-    #                     "2010": ["https://aclanthology.org/volumes/N10-1/"], 
-    #                     "2009" : ["https://aclanthology.org/volumes/N09-1/", "https://aclanthology.org/volumes/N09-2/"],
-    #                     "2007" : ["https://aclanthology.org/volumes/N07-1/", "https://aclanthology.org/volumes/N07-2/"],
-    #                     "2006" : ["https://aclanthology.org/volumes/N06-1/", "https://aclanthology.org/volumes/N06-2/"], 
-    #                     "2004" : ["https://aclanthology.org/volumes/N04-1/", "https://aclanthology.org/volumes/N04-4/"],
-    #                     "2003" : ["https://aclanthology.org/volumes/N03-1/", "https://aclanthology.org/volumes/N03-2/"], 
-    #                     "2001" : ["https://aclanthology.org/volumes/N01-1/"], 
-    #                     "2000" : ["https://aclanthology.org/volumes/A00-1/"]}
-    
-    # # sources: https://www.cs.columbia.edu/2024/six-papers-from-the-nlp-speech-group-accepted-to-naacl-2024/, https://aclweb.org/aclwiki/Best_paper_awards
+    # sources: https://www.cs.columbia.edu/2024/six-papers-from-the-nlp-speech-group-accepted-to-naacl-2024/, https://aclweb.org/aclwiki/Best_paper_awards
     
     # best_paper_dict = {"2004" : ["Catching the Drift: Probabilistic Content Models, with Applications to Generation and Summarization"],
     #                    "2006" :	["Context-Free Grammar Induction Based on Structural Zeros", "Prototype-Driven Learning for Sequence Models"],
@@ -178,8 +162,10 @@ if __name__ == "__main__":
      
     # # extract content from NAACL conference pages
     # awarded_papers = [] 
-    # for yr in range(2000, 2025):
-        
+    # years = [2024, 2022, 2021, 2019, 2018, 2016, 2015, 2013, 2012, 2010, 2009, 2007, 2006, 2004, 2003, 2001, 2000]
+    # years.reverse()
+    
+    # for yr in years:    
     #     # extract papers to manually add to list
     #     best_paper_lst = []
     #     if str(yr) in best_paper_dict:
@@ -189,10 +175,8 @@ if __name__ == "__main__":
     #     if str(yr) in other_paper_dict:
     #         other_paper_lst = list(map(lambda x: (re.sub(r'[^0-9a-zA-Z /]+', "", x[0].lower()), x[1]), other_paper_dict[str(yr)]))
 
-    #     if str(yr) in naacl_antho_urls:
-    #         for url in naacl_antho_urls[str(yr)]:
-    #             content = fetch_conference_paper_page(url)
-    #             awarded_papers += extract_awarded_papers(content, "NAACL", yr, best_paper_lst, other_paper_lst)
+    #     content = fetch_conference_paper_page('https://aclanthology.org/events/naacl-' + str(yr) + '/')
+    #     awarded_papers += extract_awarded_papers(content, "NAACL", yr, best_paper_lst, other_paper_lst)
         
     # json.dump(awarded_papers, open("json/naacl_best_papers.json", 'w'), indent=2, ensure_ascii=False)
     
@@ -200,23 +184,86 @@ if __name__ == "__main__":
     
     # EACL CONFERENCE
     
-    # eacl_antho_urls = {"2024" : ["https://aclanthology.org/volumes/2024.eacl-long/", "https://aclanthology.org/volumes/2024.eacl-short/", "https://aclanthology.org/volumes/2024.eacl-demo/"], 
-    #                     "2023" : ["https://aclanthology.org/volumes/2023.eacl-main/", "https://aclanthology.org/volumes/2023.eacl-demo/"], 
-    #                     "2021" : ["https://aclanthology.org/volumes/2021.eacl-main/", "https://aclanthology.org/volumes/2021.eacl-demos/"], 
-    #                     "2017" : ["https://aclanthology.org/volumes/E17-1/", "https://aclanthology.org/volumes/E17-2/", "https://aclanthology.org/volumes/E17-3/"],
-    #                     "2014" : ["https://aclanthology.org/volumes/E14-1/", "https://aclanthology.org/volumes/E14-2/"],
-    #                     "2012" : ["https://aclanthology.org/volumes/E12-1/", "https://aclanthology.org/volumes/E12-2/"],
-    #                     "2009" : ["https://aclanthology.org/volumes/E09-1/", "https://aclanthology.org/volumes/E09-2/"],
-    #                     "2006" : ["https://aclanthology.org/volumes/E06-1/", "https://aclanthology.org/volumes/E06-2/"], 
-    #                     "2003" : ["https://aclanthology.org/volumes/E03-1/", "https://aclanthology.org/volumes/E03-2/"]}
-    
-    # # sources: https://aclweb.org/mirror/eacl2012/
+    # sources: https://aclweb.org/mirror/eacl2012/
     # best_paper_dict = {"2012" : ["Spectral Learning for Non-Deterministic Dependency Parsing"]}
     # other_paper_dict = {}
      
     # # extract content from NAACL conference pages
     # awarded_papers = [] 
-    # for yr in range(2000, 2025):
+    # years = [2003, 2006, 2009, 2012, 2014, 2017, 2021, 2023, 2024]
+    # for yr in years:    
+    #     # extract papers to manually add to list
+    #     best_paper_lst = []
+    #     if str(yr) in best_paper_dict:
+    #         best_paper_lst = list(map(lambda x: re.sub(r'[^0-9a-zA-Z /]+', "", x.lower()), best_paper_dict[str(yr)]))
+        
+    #     other_paper_lst = []
+    #     if str(yr) in other_paper_dict:
+    #         other_paper_lst = list(map(lambda x: (re.sub(r'[^0-9a-zA-Z /]+', "", x[0].lower()), x[1]), other_paper_dict[str(yr)]))
+
+    #     content = fetch_conference_paper_page('https://aclanthology.org/events/eacl-' + str(yr) + '/')
+    #     awarded_papers += extract_awarded_papers(content, "EACL", yr, best_paper_lst, other_paper_lst)
+        
+    # json.dump(awarded_papers, open("json/eacl_best_papers.json", 'w'), indent=2, ensure_ascii=False)
+    
+    # ------------------------------------------------------------------------------------------------------
+    
+    # LREC CONFERENCE
+    
+    # sources: 
+    # best_paper_dict = {"2022" : ["Meta AI at Arabic Hate Speech 2022: MultiTask Learning with Self-Correction for Hate Speech Classification"]}
+    # other_paper_dict = {"2024" : [("When Your Cousin Has the Right Connections: Unsupervised Bilingual Lexicon Induction for Related Data-Imbalanced Languages", "Best Student Paper Award")]}
+     
+    # # extract content from NAACL conference pages
+    # awarded_papers = [] 
+    # for yr in range(2000, 2025, 2):    
+    #     # extract papers to manually add to list
+    #     best_paper_lst = []
+    #     if str(yr) in best_paper_dict:
+    #         best_paper_lst = list(map(lambda x: re.sub(r'[^0-9a-zA-Z /]+', "", x.lower()), best_paper_dict[str(yr)]))
+        
+    #     other_paper_lst = []
+    #     if str(yr) in other_paper_dict:
+    #         other_paper_lst = list(map(lambda x: (re.sub(r'[^0-9a-zA-Z /]+', "", x[0].lower()), x[1]), other_paper_dict[str(yr)]))
+
+    #     content = fetch_conference_paper_page('https://aclanthology.org/events/lrec-' + str(yr) + '/')
+    #     awarded_papers += extract_awarded_papers(content, "LREC", yr, best_paper_lst, other_paper_lst)
+        
+    # json.dump(awarded_papers, open("json/lrec_best_papers.json", 'w'), indent=2, ensure_ascii=False)
+    
+    # ------------------------------------------------------------------------------------------------------
+    
+    # COLING CONFERENCE
+    
+    # sources: https://cse.osu.edu/news/2022/11/2022-coling-outstanding-paper-award, https://coling2018.org/index.html%3Fp=1558.html, http://sag.art.uniroma2.it/coling-2014-best-paper-award/, https://www.illc.uva.nl/NewsandEvents/News/Projects-and-Awards/newsitem/5890/Honourable-Mention-for-ILLC-Paper-at-COLING-2014, 
+    # https://amsterdamnlp.github.io/blog/bestpaper/, https://coling2020.org/2020/11/29/outstanding-papers.html, https://nlp.stanford.edu/coling10/full-program.html#bestpaper, https://nlp.stanford.edu/~manning/papers/
+    
+    # best_paper_dict = {"2020" : ["Leveraging User Paraphrasing Behavior In Dialog Systems To Automatically Collect Annotations For Long-Tail Utterances", "Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation", "On the Practical Ability of Recurrent Neural Networks to Recognize Hierarchical Languages"],
+    #                    "2016" : ["Predicting Human Similarity Judgments with Distributional Models: The Value of Word Associations", "Extending the Use of Adaptor Grammars for Unsupervised Morphological Segmentation of Unseen Languages"],
+    #                    "2014" : ["A context-based model for Sentiment Analysis in Twitter"], 
+    #                    "2012" : ["Accurate Unbounded Dependency Recovery using Generalized Categorial Grammars"],
+    #                    "2008" : ["Modeling semantic containment and exclusion in natural language inference"]}
+    # other_paper_dict = {"2022" : [("ArcaneQA: Dynamic Program Induction and Contextualized Encoding for Knowledge Base Question Answering", "Outstanding Paper Award")], 
+    #                     "2020" : [("GPolS: A Contextual Graph-Based Language Model for Analyzing Parliamentary Debates and Political Cohesion", "Honorable Mention"),
+    #                               ("A Neural Model for Aggregating Coreference Annotation in Crowdsourcing", "Honorable Mention"), 
+    #                               ("Dual Supervision Framework for Relation Extraction with Distant Supervision and Human Annotation", "Honorable Mention")],
+    #                     "2018" : [("SGM: Sequence Generation Model for Multi-label Classification", "Best Error Analysis and Best Evaluation"), 
+    #                               ("Distinguishing affixoid formations from compounds", "Best Linguistic Analysis"), 
+    #                               ("Authorless Topic Models: Biasing Models Away from Known Structure", "Best NLP Engineering Experiment"),
+    #                               ("Arguments and Adjuncts in Universal Dependencies", "Best Position Paper"),
+    #                               ("Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering", "Best Reproduction Paper"),
+    #                               ("AnlamVer: Semantic Model Evaluation Dataset for Turkish - Word Similarity and Relatedness", "Best Resource Paper"), 
+    #                               ("A Survey on Open Information Extraction", "Best Survey Paper"),
+    #                               ("Design Challenges and Misconceptions in Neural Sequence Labeling", "Most reproducible")],
+    #                     "2014" : [("Empirical Analysis of Aggregation Methods for Collective Annotation", "Honorable Mention")],
+    #                     "2010" : [("Controlling Listening-oriented Dialogue using Partially Observable Markov Decision Processes", "Best Paper Finalist"),
+    #                               ("Nonparametric Word Segmentation for Machine Translation", "Best Paper Finalist"),
+    #                               ("Recognition of Affect, Judgment, and Appreciation in Text", "Best Paper Finalist"), 
+    #                               ("Measuring the Non-compositionality of Multiword Expressions", "Best Paper Finalist")]}
+    # awarded_papers = [] 
+     
+    # # extract content from ACL conference pages
+    # for yr in range(2000, 2025, 2):
         
     #     # extract papers to manually add to list
     #     best_paper_lst = []
@@ -227,38 +274,40 @@ if __name__ == "__main__":
     #     if str(yr) in other_paper_dict:
     #         other_paper_lst = list(map(lambda x: (re.sub(r'[^0-9a-zA-Z /]+', "", x[0].lower()), x[1]), other_paper_dict[str(yr)]))
 
-    #     if str(yr) in eacl_antho_urls:
-    #         for url in eacl_antho_urls[str(yr)]:
-    #             content = fetch_conference_paper_page(url)
-    #             awarded_papers += extract_awarded_papers(content, "EACL", yr, best_paper_lst, other_paper_lst)
-        
-    # json.dump(awarded_papers, open("json/eacl_best_papers.json", 'w'), indent=2, ensure_ascii=False)
+    #     content = fetch_conference_paper_page('https://aclanthology.org/events/coling-' + str(yr) + '/')
+    #     awarded_papers += extract_awarded_papers(content, "COLING", yr, best_paper_lst, other_paper_lst)
+    
+    # json.dump(awarded_papers, open("json/coling_best_papers.json", 'w'), indent=2, ensure_ascii=False)
     
     # ------------------------------------------------------------------------------------------------------
-    
-    # LREC CONFERENCE
-    
-    lrec_antho_urls = {"2024" : ["https://aclanthology.org/volumes/2024.lrec-main/"], 
-                        "2022" : ["https://aclanthology.org/volumes/2022.lrec-1/"], 
-                        "2020" : ["https://aclanthology.org/volumes/2020.lrec-1/"], 
-                        "2018" : ["https://aclanthology.org/volumes/L18-1/"],
-                        "2016" : ["https://aclanthology.org/volumes/L16-1/"],
-                        "2014" : ["https://aclanthology.org/volumes/L14-1/"],
-                        "2012" : ["https://aclanthology.org/volumes/L12-1/"],
-                        "2010" : ["https://aclanthology.org/volumes/L10-1/"],
-                        "2008" : ["https://aclanthology.org/volumes/L08-1/"],
-                        "2006" : ["https://aclanthology.org/volumes/L06-1/"], 
-                        "2004" : ["https://aclanthology.org/volumes/L04-1/"],
-                        "2002" : ["https://aclanthology.org/volumes/L02-1/"],
-                        "2000" : ["https://aclanthology.org/volumes/L00-1/"]}
-    
-    # sources: 
-    best_paper_dict = {}
-    other_paper_dict = {"2024" : ("When Your Cousin Has the Right Connections: Unsupervised Bilingual Lexicon Induction for Related Data-Imbalanced Languages", "Best Student Paper Award")}
      
-    # extract content from NAACL conference pages
+    # CoNLL CONFERENCE
+    
+    # sources: www.conll.org, https://x.com/conll_conf, https://www.facebook.com/conll2019, https://aclanthology.org/W13-3500.pdf, https://www.cl.cam.ac.uk/teaching/1617/R222/materials.html, https://cs.illinois.edu/news/best-paper-award-work-natural-language-processing
+    best_paper_dict = {"2023" : ["ChiSCor: A Corpus of Freely-Told Fantasy Stories by Dutch Children for Computational Linguistics and Cognitive Science"],
+                       "2021" : ["Generalising to German Plural Noun Classes, from the Perspective of a Recurrent Neural Network"],
+                       "2020" : ["Acquiring language from speech by learning to remember and predict"], 
+                       "2019" : ["How Does Grammatical Gender Affect Noun Representations in Gender-Marking Languages?", "Say Anything: Automatic Semantic Infelicity Detection in L2 English Indefinite Pronouns"],
+                       "2018" : ["Uncovering Divergent Linguistic Information in Word Embeddings with Lessons for Intrinsic and Extrinsic Evaluation", "Sequence Classification with Human Attention"], 
+                       "2017" : ["Encoding of phonology in a recurrent neural model of grounded speech"], 
+                       "2016" : ["A Data-driven Investigation of Corrective Feedback on Subject Omission Errors in First Language Acquisition"], 
+                       "2014" : ["Linguistic Regularities in Sparse and Explicit Word Representations"], 
+                       "2013" : ["Acquisition of Desires before Beliefs: A Computional Investigation"],
+                       "2010" : ["Efficient, correct, unsupervised learning for context-sensitive languages"],
+                       "2009" : ["Sample Selection for Statistical Parsers: Cognitively Driven Algorithms and Evaluation Measures"],
+                       "2008" : ["TAG, Dynamic Programming, and the Perceptron for Efficient, Feature-Rich Parsing"],
+                       "2006" : ["Applying Alternating Structure Optimization to Word Sense Disambiguation"]}
+    other_paper_dict = {"2023" : [("Revising with a Backward Glance: Regressions and Skips during Reading as Cognitive Signals for Revision Policies in Incremental Processing", "Honorable Mention"),
+                                  ("The Validity of Evaluation Results: Assessing Concurrence Across Compositionality Benchmarks", "Honorable Mention"),
+                                  (("Mind the instructions: a holistic evaluation of consistency and interactions in prompt-based learning", "Honorable Mention"))],
+                        "2022" : [("An Alignment-based Approach to Text Segmentation Similarity Scoring", "Distinguished Paper"), 
+                                  ("How Hate Speech Varies by Target Identity: A Computational Analysis", "Distinguished Paper"),
+                                  ("Syntactic Surprisal From Neural Models Predicts, But Underestimates, Human Processing Difficulty From Syntactic Ambiguities", "Distinguished Paper")],
+                        "2011" : [("Adapting Text Instead of the Model: An Open Domain Approach", "Best Student Paper")]}
     awarded_papers = [] 
-    for yr in range(2000, 2025):
+     
+    # extract content from ACL conference pages
+    for yr in range(2000, 2024):
         
         # extract papers to manually add to list
         best_paper_lst = []
@@ -269,9 +318,8 @@ if __name__ == "__main__":
         if str(yr) in other_paper_dict:
             other_paper_lst = list(map(lambda x: (re.sub(r'[^0-9a-zA-Z /]+', "", x[0].lower()), x[1]), other_paper_dict[str(yr)]))
 
-        if str(yr) in lrec_antho_urls:
-            for url in lrec_antho_urls[str(yr)]:
-                content = fetch_conference_paper_page(url)
-                awarded_papers += extract_awarded_papers(content, "LREC", yr, best_paper_lst, other_paper_lst)
-        
-    json.dump(awarded_papers, open("json/lrec_best_papers.json", 'w'), indent=2, ensure_ascii=False)
+        content = fetch_conference_paper_page('https://aclanthology.org/events/conll-' + str(yr) + '/')
+        awarded_papers += extract_awarded_papers(content, "CONLL", yr, best_paper_lst, other_paper_lst)
+    
+    json.dump(awarded_papers, open("json/conll_best_papers.json", 'w'), indent=2, ensure_ascii=False)
+    

@@ -119,13 +119,6 @@
     "link": "https://aclanthology.org/N18-1202.pdf"
   },
   {
-    "title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
-    "venue": "NAACL",
-    "year": 2019,
-    "award": "Best Explainable NLP Paper",
-    "link": "https://aclanthology.org/N19-1000.pdf"
-  },
-  {
     "title": "CNM: An Interpretable Complex-valued Network for Matching",
     "venue": "NAACL",
     "year": 2019,
@@ -159,13 +152,6 @@
     "year": 2019,
     "award": "Best Thematic Paper",
     "link": "https://aclanthology.org/N19-1424.pdf"
-  },
-  {
-    "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    "venue": "NAACL",
-    "year": 2021,
-    "award": "Outstanding Long Paper",
-    "link": "https://aclanthology.org/2021.naacl-main.0.pdf"
   },
   {
     "title": "Unifying Cross-Lingual Semantic Role Labeling with Heterogeneous Linguistic Resources",
@@ -210,13 +196,6 @@
     "link": "https://aclanthology.org/2021.naacl-main.410.pdf"
   },
   {
-    "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Demonstrations",
-    "venue": "NAACL",
-    "year": 2021,
-    "award": "Best Demo Paper",
-    "link": "https://aclanthology.org/2021.naacl-demos.0.pdf"
-  },
-  {
     "title": "COVID-19 Literature Knowledge Graph Construction and Drug Repurposing Report Generation",
     "venue": "NAACL",
     "year": 2021,
@@ -224,11 +203,11 @@
     "link": "https://aclanthology.org/2021.naacl-demos.8.pdf"
   },
   {
-    "title": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "title": "Query2Prod2Vec: Grounded Word Embeddings for eCommerce",
     "venue": "NAACL",
-    "year": 2022,
-    "award": "Honorable mention for contributions to resources",
-    "link": "https://aclanthology.org/2022.naacl-main.0.pdf"
+    "year": 2021,
+    "award": "Best Industry Paper",
+    "link": "https://aclanthology.org/2021.naacl-industry.20.pdf"
   },
   {
     "title": "NewsEdits: A News Article Revision Dataset and a Novel Document-Level Reasoning Challenge",
