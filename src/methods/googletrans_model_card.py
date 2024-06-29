@@ -1,6 +1,7 @@
 import os
 import json
 from tqdm import tqdm
+from utils import split_paragraph
 import sys
 sys.path.append("../")
 
@@ -29,11 +30,16 @@ for file in tqdm(os.listdir(in_dir)):
         print(f"Reach item {idx}..")
         new_item = item.copy()
         for tgt_lang in tqdm(tgt_langs):
-            new_item[f"answer_{tgt_lang}"] = translator.translate(
-                item['answer'],
-                src_lang='English',
-                tgt_lang=tgt_lang
-            )
+            chunks = split_paragraph(item['answer'])
+            answer_chunks = []
+            for chunk in chunks:
+                answer_chunk = translator.translate(
+                    chunk,
+                    src_lang='English',
+                    tgt_lang=tgt_lang
+                )
+                answer_chunks.append(answer_chunk)
+        new_item[f"answer_{tgt_lang}"] = " ".join(answer_chunks)
         new_json_list.append(new_item)
     out_filepath = out_dir + file
     json.dump(
@@ -42,4 +48,3 @@ for file in tqdm(os.listdir(in_dir)):
         ensure_ascii=False,
         indent=2
     )
-    
