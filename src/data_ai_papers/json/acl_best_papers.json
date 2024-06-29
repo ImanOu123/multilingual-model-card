@@ -1,0 +1,954 @@
+[
+  {
+    "title": "Immediate-Head Parsing for Language Models",
+    "venue": "ACL",
+    "year": 2001,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P01-1017.pdf"
+  },
+  {
+    "title": "Fast Decoding and Optimal Decoding for Machine Translation",
+    "venue": "ACL",
+    "year": 2001,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P01-1030.pdf"
+  },
+  {
+    "title": "Discriminative Training and Maximum Entropy Models for Statistical Machine Translation",
+    "venue": "ACL",
+    "year": 2002,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P02-1038.pdf"
+  },
+  {
+    "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+    "venue": "ACL",
+    "year": 2002,
+    "award": "NAACL 2018 Test-of-Time",
+    "link": "https://aclanthology.org/P02-1040.pdf"
+  },
+  {
+    "title": "Accurate Unlexicalized Parsing",
+    "venue": "ACL",
+    "year": 2003,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P03-1054.pdf"
+  },
+  {
+    "title": "Towards a Model of Face-to-Face Grounding",
+    "venue": "ACL",
+    "year": 2003,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P03-1070.pdf"
+  },
+  {
+    "title": "Finding Predominant Word Senses in Untagged Text",
+    "venue": "ACL",
+    "year": 2004,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P04-1036.pdf"
+  },
+  {
+    "title": "A Hierarchical Phrase-Based Model for Statistical Machine Translation",
+    "venue": "ACL",
+    "year": 2005,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P05-1033.pdf"
+  },
+  {
+    "title": "Semantic Taxonomy Induction from Heterogenous Evidence",
+    "venue": "ACL",
+    "year": 2006,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P06-1101.pdf"
+  },
+  {
+    "title": "Learning Synchronous Grammars for Semantic Parsing with Lambda Calculus",
+    "venue": "ACL",
+    "year": 2007,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P07-1121.pdf"
+  },
+  {
+    "title": "A New String-to-Dependency Machine Translation Algorithm with a Target Dependency Language Model",
+    "venue": "ACL",
+    "year": 2008,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P08-1066.pdf"
+  },
+  {
+    "title": "Forest Reranking: Discriminative Parsing with Non-Local Features",
+    "venue": "ACL",
+    "year": 2008,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P08-1067.pdf"
+  },
+  {
+    "title": "Reinforcement Learning for Mapping Instructions to Actions",
+    "venue": "ACL",
+    "year": 2009,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P09-1010.pdf"
+  },
+  {
+    "title": "Concise Integer Linear Programming Formulations for Dependency Parsing",
+    "venue": "ACL",
+    "year": 2009,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P09-1039.pdf"
+  },
+  {
+    "title": "K-Best A* Parsing",
+    "venue": "ACL",
+    "year": 2009,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P09-1108.pdf"
+  },
+  {
+    "title": "Extracting Social Networks from Literary Fiction",
+    "venue": "ACL",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P10-1015.pdf"
+  },
+  {
+    "title": "Word Representations: A Simple and General Method for Semi-Supervised Learning",
+    "venue": "ACL",
+    "year": 2010,
+    "award": "ACL 2020 Test of Time Award (10 year)",
+    "link": "https://aclanthology.org/P10-1040.pdf"
+  },
+  {
+    "title": "Beyond NomBank: A Study of Implicit Arguments for Nominal Predicates",
+    "venue": "ACL",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P10-1160.pdf"
+  },
+  {
+    "title": "SVD and Clustering for Unsupervised POS Tagging",
+    "venue": "ACL",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P10-2040.pdf"
+  },
+  {
+    "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+    "venue": "ACL",
+    "year": 2011,
+    "award": "ACL 2021 Test of Time Award (10 year)",
+    "link": "https://aclanthology.org/P11-1032.pdf"
+  },
+  {
+    "title": "Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections",
+    "venue": "ACL",
+    "year": 2011,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P11-1061.pdf"
+  },
+  {
+    "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
+    "venue": "ACL",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P12-1046.pdf"
+  },
+  {
+    "title": "String Re-writing Kernel",
+    "venue": "ACL",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P12-1047.pdf"
+  },
+  {
+    "title": "Grounded Language Learning from Video Described with Sentences",
+    "venue": "ACL",
+    "year": 2013,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P13-1006.pdf"
+  },
+  {
+    "title": "Universal Dependency Annotation for Multilingual Parsing",
+    "venue": "ACL",
+    "year": 2013,
+    "award": "ACL 10-Year Test of Time Paper Award",
+    "link": "https://aclanthology.org/P13-2017.pdf"
+  },
+  {
+    "title": "A corpus-based evaluation method for Distributional Semantic Models",
+    "venue": "ACL",
+    "year": 2013,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P13-3024.pdf"
+  },
+  {
+    "title": "Fast and Robust Neural Network Joint Models for Statistical Machine Translation",
+    "venue": "ACL",
+    "year": 2014,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P14-1129.pdf"
+  },
+  {
+    "title": "Low-Rank Tensors for Scoring Dependency Structures",
+    "venue": "ACL",
+    "year": 2014,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P14-1130.pdf"
+  },
+  {
+    "title": "Improving sparse word similarity models with asymmetric similarity measures",
+    "venue": "ACL",
+    "year": 2014,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P14-2049.pdf"
+  },
+  {
+    "title": "Learning Dynamic Feature Selection for Fast Sequential Prediction",
+    "venue": "ACL",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P15-1015.pdf"
+  },
+  {
+    "title": "Improving Evaluation of Machine Translation Quality Estimation",
+    "venue": "ACL",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P15-1174.pdf"
+  },
+  {
+    "title": "Finding Non-Arbitrary Form-Meaning Systematicity Using String-Metric Learning for Kernel Regression",
+    "venue": "ACL",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P16-1225.pdf"
+  },
+  {
+    "title": "Probabilistic Typology: Deep Generative Models of Vowel Inventories",
+    "venue": "ACL",
+    "year": 2017,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P17-1109.pdf"
+  },
+  {
+    "title": "Finding syntax in human encephalography with beam search",
+    "venue": "ACL",
+    "year": 2018,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P18-1254.pdf"
+  },
+  {
+    "title": "Learning to Ask Good Questions: Ranking Clarification Questions using Neural Expected Value of Perfect Information",
+    "venue": "ACL",
+    "year": 2018,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P18-1255.pdf"
+  },
+  {
+    "title": "Let’s do it “again”: A First Computational Approach to Detecting Adverbial Presupposition Triggers",
+    "venue": "ACL",
+    "year": 2018,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/P18-1256.pdf"
+  },
+  {
+    "title": "Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/P19-1078.pdf"
+  },
+  {
+    "title": "Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/P19-1096.pdf"
+  },
+  {
+    "title": "A Simple Theoretical Model of Importance for Summarization",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/P19-1101.pdf"
+  },
+  {
+    "title": "We Need to Talk about Standard Splits",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/P19-1267.pdf"
+  },
+  {
+    "title": "Zero-Shot Entity Linking by Reading Entity Descriptions",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/P19-1335.pdf"
+  },
+  {
+    "title": "Do You Know That Florence Is Packed with Visitors? Evaluating State-of-the-art Models of Speaker Commitment",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Best Short Paper",
+    "link": "https://aclanthology.org/P19-1412.pdf"
+  },
+  {
+    "title": "Bridging the Gap between Training and Inference for Neural Machine Translation",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Best Long Paper",
+    "link": "https://aclanthology.org/P19-1426.pdf"
+  },
+  {
+    "title": "OpenKiwi: An Open Source Framework for Quality Estimation",
+    "venue": "ACL",
+    "year": 2019,
+    "award": "Best Demo Paper",
+    "link": "https://aclanthology.org/P19-3020.pdf"
+  },
+  {
+    "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Best Overall Paper",
+    "link": "https://aclanthology.org/2020.acl-main.442.pdf"
+  },
+  {
+    "title": "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Honorable Mention for Best Overall Paper",
+    "link": "https://aclanthology.org/2020.acl-main.448.pdf"
+  },
+  {
+    "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Best Theme Paper",
+    "link": "https://aclanthology.org/2020.acl-main.463.pdf"
+  },
+  {
+    "title": "How Can We Accelerate Progress Towards Human-like Linguistic Generalization?",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Honorable Mention for Best Theme Paper",
+    "link": "https://aclanthology.org/2020.acl-main.465.pdf"
+  },
+  {
+    "title": "Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Honorable Mention for Best Overall Paper",
+    "link": "https://aclanthology.org/2020.acl-main.740.pdf"
+  },
+  {
+    "title": "GAIA: A Fine-grained Multimedia Knowledge Extraction System",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Best Demonstration Paper",
+    "link": "https://aclanthology.org/2020.acl-demos.11.pdf"
+  },
+  {
+    "title": "Prta: A System to Support the Analysis of Propaganda Techniques in the News",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Honorable Mention for Best Demonstration Paper",
+    "link": "https://aclanthology.org/2020.acl-demos.32.pdf"
+  },
+  {
+    "title": "Torch-Struct: Deep Structured Prediction Library",
+    "venue": "ACL",
+    "year": 2020,
+    "award": "Honorable Mention for Best Demonstration Paper",
+    "link": "https://aclanthology.org/2020.acl-demos.38.pdf"
+  },
+  {
+    "title": "Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.564.pdf"
+  },
+  {
+    "title": "All That’s ‘Human’ Is Not Gold: Evaluating Human Evaluation of Generated Text",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.565.pdf"
+  },
+  {
+    "title": "Scientific Credibility of Machine Translation Research: A Meta-Evaluation of 769 Papers",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.566.pdf"
+  },
+  {
+    "title": "Neural Machine Translation with Monolingual Translation Memory",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.567.pdf"
+  },
+  {
+    "title": "Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.568.pdf"
+  },
+  {
+    "title": "UnNatural Language Inference",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.acl-long.569.pdf"
+  },
+  {
+    "title": "Including Signed Languages in Natural Language Processing",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Best Theme Paper",
+    "link": "https://aclanthology.org/2021.acl-long.570.pdf"
+  },
+  {
+    "title": "Vocabulary Learning via Optimal Transport for Neural Machine Translation",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2021.acl-long.571.pdf"
+  },
+  {
+    "title": "ESRA: Explainable Scientific Research Assistant",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Best Demonstration Runner-up",
+    "link": "https://aclanthology.org/2021.acl-demo.14.pdf"
+  },
+  {
+    "title": "ExplainaBoard: An Explainable Leaderboard for NLP",
+    "venue": "ACL",
+    "year": 2021,
+    "award": "Best Demonstration Paper",
+    "link": "https://aclanthology.org/2021.acl-demo.34.pdf"
+  },
+  {
+    "title": "Online Semantic Parsing for Latency Reduction in Task-Oriented Dialogue",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.110.pdf"
+  },
+  {
+    "title": "Learned Incremental Representations for Parsing",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2022.acl-long.220.pdf"
+  },
+  {
+    "title": "Inducing Positive Perspectives with Text Reframing",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.257.pdf"
+  },
+  {
+    "title": "DiBiMT: A Novel Benchmark for Measuring Word Sense Disambiguation Biases in Machine Translation",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Best Resource Paper",
+    "link": "https://aclanthology.org/2022.acl-long.298.pdf"
+  },
+  {
+    "title": "Compression of Generative Pre-trained Language Models via Quantization",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.331.pdf"
+  },
+  {
+    "title": "KinyaBERT: a Morphology-aware Kinyarwanda Language Model",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Best Linguistic Insight Paper",
+    "link": "https://aclanthology.org/2022.acl-long.367.pdf"
+  },
+  {
+    "title": "Evaluating Factuality in Text Simplification",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.506.pdf"
+  },
+  {
+    "title": "Requirements and Motivations of Low-Resource Speech Synthesis for Language Revitalization",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Best Special Theme Paper",
+    "link": "https://aclanthology.org/2022.acl-long.507.pdf"
+  },
+  {
+    "title": "Learning to Generalize to More: Continuous Semantic Augmentation for Neural Machine Translation",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.546.pdf"
+  },
+  {
+    "title": "Ditch the Gold Standard: Re-evaluating Conversational Question Answering",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.555.pdf"
+  },
+  {
+    "title": "Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.556.pdf"
+  },
+  {
+    "title": "Active Evaluation: Efficient NLG Evaluation with Few Pairwise Comparisons",
+    "venue": "ACL",
+    "year": 2022,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2022.acl-long.600.pdf"
+  },
+  {
+    "title": "World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.31.pdf"
+  },
+  {
+    "title": "When Does Translation Require Context? A Data-driven, Multilingual Exploration",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Resource Award",
+    "link": "https://aclanthology.org/2023.acl-long.36.pdf"
+  },
+  {
+    "title": "LexSym: Compositionality as Lexical Symmetry",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Semantics: Lexical)",
+    "link": "https://aclanthology.org/2023.acl-long.38.pdf"
+  },
+  {
+    "title": "Do Androids Laugh at Electric Sheep? Humor “Understanding” Benchmarks from The New Yorker Caption Contest",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.41.pdf"
+  },
+  {
+    "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Multilingualism and Cross-Lingual NLP)",
+    "link": "https://aclanthology.org/2023.acl-long.61.pdf"
+  },
+  {
+    "title": "Improving Pretraining Techniques for Code-Switched NLP",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.66.pdf"
+  },
+  {
+    "title": "Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Social Impact Award",
+    "link": "https://aclanthology.org/2023.acl-long.84.pdf"
+  },
+  {
+    "title": "Small Data, Big Impact: Leveraging Minimal Data for Effective Machine Translation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Linguistic Diversity)",
+    "link": "https://aclanthology.org/2023.acl-long.154.pdf"
+  },
+  {
+    "title": "Faithful Low-Resource Data-to-Text Generation through Cycle Training",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.160.pdf"
+  },
+  {
+    "title": "Do PLMs Know and Understand Ontological Knowledge?",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.173.pdf"
+  },
+  {
+    "title": "Exploring How Generative Adversarial Networks Learn Phonological Representations",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Linguistic Theories, Cognitive Modeling, and Psycholinguistics)",
+    "link": "https://aclanthology.org/2023.acl-long.175.pdf"
+  },
+  {
+    "title": "Entity Tracking in Language Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Interpretability and Analysis of Models for NLP)",
+    "link": "https://aclanthology.org/2023.acl-long.213.pdf"
+  },
+  {
+    "title": "Distilling Script Knowledge from Large Language Models for Constrained Language Planning",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.236.pdf"
+  },
+  {
+    "title": "CAME: Confidence-guided Adaptive Memory Efficient Optimization",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.243.pdf"
+  },
+  {
+    "title": "Don’t Generate, Discriminate: A Proposal for Grounding Language Models to Real-World Environments",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.270.pdf"
+  },
+  {
+    "title": "SCOTT: Self-Consistent Chain-of-Thought Distillation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.304.pdf"
+  },
+  {
+    "title": "What the DAAM: Interpreting Stable Diffusion Using Cross Attention",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.310.pdf"
+  },
+  {
+    "title": "Language model acceptability judgements are not always robust to context",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.333.pdf"
+  },
+  {
+    "title": "Multilingual LLMs are Better Cross-lingual In-context Learners with Alignment",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.346.pdf"
+  },
+  {
+    "title": "PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.362.pdf"
+  },
+  {
+    "title": "VisText: A Benchmark for Semantically Rich Chart Captioning",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.401.pdf"
+  },
+  {
+    "title": "Towards Zero-Shot Multilingual Transfer for Code-Switched Responses",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.417.pdf"
+  },
+  {
+    "title": "Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (NLP Applications)",
+    "link": "https://aclanthology.org/2023.acl-long.423.pdf"
+  },
+  {
+    "title": "ParaAMR: A Large-Scale Syntactically Diverse Paraphrase Dataset by AMR Back-Translation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Semantics: Sentence-level Semantics, Textual Inference, and Other Areas)",
+    "link": "https://aclanthology.org/2023.acl-long.447.pdf"
+  },
+  {
+    "title": "Do CoNLL-2003 Named Entity Taggers Still Work Well in 2023?",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Reproduction Award",
+    "link": "https://aclanthology.org/2023.acl-long.459.pdf"
+  },
+  {
+    "title": "NLPositionality: Characterizing Design Biases of Datasets and Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.505.pdf"
+  },
+  {
+    "title": "Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.555.pdf"
+  },
+  {
+    "title": "DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Question Answering)",
+    "link": "https://aclanthology.org/2023.acl-long.559.pdf"
+  },
+  {
+    "title": "MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.641.pdf"
+  },
+  {
+    "title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.656.pdf"
+  },
+  {
+    "title": "Question-Answering in a Low-resourced Language: Benchmark Dataset and Models for Tigrinya",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.661.pdf"
+  },
+  {
+    "title": "Transfer and Active Learning for Dissonance Detection: Addressing the Rare-Class Challenge",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.665.pdf"
+  },
+  {
+    "title": "Generalizing Backpropagation for Gradient-Based Interpretability",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.669.pdf"
+  },
+  {
+    "title": "Resolving Indirect Referring Expressions for Entity Selection",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Discourse and Pragmatics)",
+    "link": "https://aclanthology.org/2023.acl-long.688.pdf"
+  },
+  {
+    "title": "WikiBio: a Semantic Resource for the Intersectional Analysis of Biographical Events",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.691.pdf"
+  },
+  {
+    "title": "Hybrid Transducer and Attention based Encoder-Decoder Modeling for Speech-to-Text Tasks",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.695.pdf"
+  },
+  {
+    "title": "What’s the Meaning of Superhuman Performance in Today’s NLU?",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.697.pdf"
+  },
+  {
+    "title": "Neural Machine Translation Methods for Translating Text to Sign Language Glosses",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.700.pdf"
+  },
+  {
+    "title": "Extrinsic Evaluation of Machine Translation Metrics",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.730.pdf"
+  },
+  {
+    "title": "Dense-ATOMIC: Towards Densely-connected ATOMIC with High Knowledge Coverage and Massive Multi-hop Paths",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.742.pdf"
+  },
+  {
+    "title": "Dissecting Transformer Length Extrapolation via the Lens of Receptive Field Analysis",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.756.pdf"
+  },
+  {
+    "title": "Minding Language Models’ (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.780.pdf"
+  },
+  {
+    "title": "QUEST: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.784.pdf"
+  },
+  {
+    "title": "Weaker Than You Think: A Critical Look at Weakly Supervised Learning",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Theme Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.796.pdf"
+  },
+  {
+    "title": "Compositional Generalization without Trees using Multiset Tagging and Latent Permutations",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.810.pdf"
+  },
+  {
+    "title": "Tell2Design: A Dataset for Language-Guided Floor Plan Generation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Resources and Evaluation)",
+    "link": "https://aclanthology.org/2023.acl-long.820.pdf"
+  },
+  {
+    "title": "StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Sentiment Analysis, Stylistic Analysis, and Argument Mining)",
+    "link": "https://aclanthology.org/2023.acl-long.827.pdf"
+  },
+  {
+    "title": "Hearing Lips in Noise: Universal Viseme-Phoneme Mapping and Transfer for Robust Audio-Visual Speech Recognition",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Area Chair Award (Speech and Multimodality)",
+    "link": "https://aclanthology.org/2023.acl-long.848.pdf"
+  },
+  {
+    "title": "Knowledge Transfer in Incremental Learning for Multilingual Neural Machine Translation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.852.pdf"
+  },
+  {
+    "title": "Causes and Cures for Interference in Multilingual Translation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-long.883.pdf"
+  },
+  {
+    "title": "Scaling in Cognitive Modelling: a Multilingual Approach to Human Reading Times",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.14.pdf"
+  },
+  {
+    "title": "Considerations for meaningful sign language machine translation based on glosses",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.60.pdf"
+  },
+  {
+    "title": "The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.118.pdf"
+  },
+  {
+    "title": "Hexatagging: Projective Dependency Parsing as Tagging",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.124.pdf"
+  },
+  {
+    "title": "The Mechanical Bard: An Interpretable Machine Learning Approach to Shakespearean Sonnet Generation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.140.pdf"
+  },
+  {
+    "title": "Linear Classifier: An Often-Forgotten Baseline for Text Classification",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-short.160.pdf"
+  },
+  {
+    "title": "disco: a toolkit for Distributional Control of Generative Models",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Demo Track: Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-demo.14.pdf"
+  },
+  {
+    "title": "VisKoP: Visual Knowledge oriented Programming for Interactive Knowledge Base Question Answering",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Demo Track: Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-demo.17.pdf"
+  },
+  {
+    "title": "CB2: Collaborative Natural Language Interaction Research Platform",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "Demo Track: Outstanding Paper Award",
+    "link": "https://aclanthology.org/2023.acl-demo.39.pdf"
+  },
+  {
+    "title": "Is a Knowledge-based Response Engaging?: An Analysis on Knowledge-Grounded Dialogue with Information Source Annotation",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "SRW Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-srw.34.pdf"
+  },
+  {
+    "title": "LECO: Improving Early Exiting via Learned Exits and Comparison-based Exiting Mechanism",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "SRW Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-srw.43.pdf"
+  },
+  {
+    "title": "How-to Guides for Specific Audiences: A Corpus and Initial Findings",
+    "venue": "ACL",
+    "year": 2023,
+    "award": "SRW Best Paper Award",
+    "link": "https://aclanthology.org/2023.acl-srw.46.pdf"
+  }
+]
