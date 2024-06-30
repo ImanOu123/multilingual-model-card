@@ -1,0 +1,611 @@
+[
+    {
+        "title": "Visual Programming: Compositional visual reasoning without training",
+        "venue": "CVPR",
+        "year": "2023",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Planning-oriented Autonomous Driving",
+        "venue": "CVPR",
+        "year": "2023",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Learning to Solve Hard Minimal Problems",
+        "venue": "CVPR",
+        "year": "2022",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild",
+        "venue": "CVPR",
+        "year": "2020",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction",
+        "venue": "CVPR",
+        "year": "2019",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Taskonomy: Disentangling Task Transfer Learning",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Densely Connected Convolutional Networks",
+        "venue": "CVPR",
+        "year": "2017",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Learning from Simulated and Unsupervised Images through Adversarial Training",
+        "venue": "CVPR",
+        "year": "2017",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Deep Residual Learning for Image Recognition",
+        "venue": "CVPR",
+        "year": "2016",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+        "venue": "CVPR",
+        "year": "2015",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "What Camera Motion Reveals About Shape with Unknown BRDF",
+        "venue": "CVPR",
+        "year": "2014",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Fast, Accurate Detection of 100,000 Object Classes on a Single Machine",
+        "venue": "CVPR",
+        "year": "2013",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Simple Prior-free Method for Non-Rigid Structure-from-Motion Factorization",
+        "venue": "CVPR",
+        "year": "2012",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Real-time Human Pose Recognition in Parts from Single Depth Images",
+        "venue": "CVPR",
+        "year": "2011",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Efficient Computation of Robust Low-Rank Matrix Approximations in the Presence of Missing Data using the L1 Norm",
+        "venue": "CVPR",
+        "year": "2010",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Single Image Haze Removal Using Dark Channel Prior",
+        "venue": "CVPR",
+        "year": "2009",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Beyond Sliding Windows: Object Localization by Efficient Subwindow Search",
+        "venue": "CVPR",
+        "year": "2008",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Global Stereo Reconstruction under Second Order Smoothness Priors",
+        "venue": "CVPR",
+        "year": "2008",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Dynamic 3D Scene Analysis from a Moving Vehicle",
+        "venue": "CVPR",
+        "year": "2007",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Putting Objects in Perspective",
+        "venue": "CVPR",
+        "year": "2006",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Real-Time Non-Rigid Surface Detection",
+        "venue": "CVPR",
+        "year": "2005",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Programmable Imaging using a Digital Micromirror Array",
+        "venue": "CVPR",
+        "year": "2004",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Object Class Recognition by Unsupervised Scale-Invariant Learning",
+        "venue": "CVPR",
+        "year": "2003",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Morphable 3D models from video",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Real-Time Tracking of Non-Rigid Objects using Mean Shift",
+        "venue": "CVPR",
+        "year": "2000",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "3D Registration With Maximal Cliques",
+        "venue": "CVPR",
+        "year": "2023",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation",
+        "venue": "CVPR",
+        "year": "2022",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Task Programming: Learning Data Efficient Behavior Representations",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "BSP-Net: Generating Compact Meshes via Binary Space Partitioning",
+        "venue": "CVPR",
+        "year": "2020",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation",
+        "venue": "CVPR",
+        "year": "2019",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Computational Imaging on the Electric Grid",
+        "venue": "CVPR",
+        "year": "2017",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Structural-RNN: Deep Learning on Spatio-Temporal Graphs",
+        "venue": "CVPR",
+        "year": "2016",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Category-Specific Object Reconstruction from a Single Image",
+        "venue": "CVPR",
+        "year": "2015",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Partial Optimality by Pruning for MAP-inference with General Graphical Models",
+        "venue": "CVPR",
+        "year": "2014",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Discriminative Non-blind Deblurring",
+        "venue": "CVPR",
+        "year": "2013",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Max-Margin Early Event Detectors",
+        "venue": "CVPR",
+        "year": "2012",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Recognition Using Visual Phrases",
+        "venue": "CVPR",
+        "year": "2011",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Separating Reflective and Fluorescent Components of An Image",
+        "venue": "CVPR",
+        "year": "2011",
+        "award": "Best Student Paper Award (Honorable Mention)",
+        "link": null
+    },
+    {
+        "title": "Visual Event Recognition in Videos by Learning from Web Data",
+        "venue": "CVPR",
+        "year": "2010",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Modeling Mutual Context of Object and Human Pose in Human-Object Interaction Activities",
+        "venue": "CVPR",
+        "year": "2010",
+        "award": "Best Student Paper Award (Honorable Mention)",
+        "link": null
+    },
+    {
+        "title": "Nonparametric Scene Parsing: Label Transfer via Dense Scene Alignment",
+        "venue": "CVPR",
+        "year": "2009",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Tensor-Based Algorithm for High-Order Graph Matching",
+        "venue": "CVPR",
+        "year": "2009",
+        "award": "Best Student Paper Award (Honorable Mention)",
+        "link": null
+    },
+    {
+        "title": "Fast Image Search for Learned Metrics",
+        "venue": "CVPR",
+        "year": "2008",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Tracking in Low Frame Rate Video: A Cascade Particle Filter with Discriminative Observers of Different Life Spans",
+        "venue": "CVPR",
+        "year": "2007",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Fast Image Search for Learned Metrics",
+        "venue": "CVPR",
+        "year": "2006",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Vector-Valued Image Regularization with PDE’s: A Common Framework for Different Applications",
+        "venue": "CVPR",
+        "year": "2003",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Tracking and modeling non-rigid objects with rank constraints",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Dense image matching with global and local statistical criteria: a variational approach",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Student Paper Award (Outstanding Student Paper)",
+        "link": null
+    },
+    {
+        "title": "JPDAF based HMM for real-time contour tracking",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Student Paper Award (Outstanding Student Paper)",
+        "link": null
+    },
+    {
+        "title": "Model-based curve evolution techniques for image segmentation",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Student Paper Award (Outstanding Student Paper)",
+        "link": null
+    },
+    {
+        "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+        "venue": "CVPR",
+        "year": "2023",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "DynIBaR: Neural Dynamic Image-Based Rendering",
+        "venue": "CVPR",
+        "year": "2023",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Dual-Shutter Optical Vibration Sensing",
+        "venue": "CVPR",
+        "year": "2022",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields",
+        "venue": "CVPR",
+        "year": "2022",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Exploring Simple Siamese Representation Learning",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Binary TTC: A Temporal Geofence for Autonomous Navigation",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Real-Time High-Resolution Background Matting",
+        "venue": "CVPR",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "DeepCap: Monocular Human Performance Capture Using Weak Supervision",
+        "venue": "CVPR",
+        "year": "2020",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+        "venue": "CVPR",
+        "year": "2019",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Learning the Depths of Moving People by Watching Frozen People",
+        "venue": "CVPR",
+        "year": "2019",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Deep Learning of Graph Matching”",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "SPLATNet: Sparse Lattice Networks for Point Cloud Processing",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM”",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Efficient Optimization for Rank-Based Loss Functions",
+        "venue": "CVPR",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Annotating Object Instances with a Polygon-RNN",
+        "venue": "CVPR",
+        "year": "2017",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "YOLO9000: Better, Faster, Stronger",
+        "venue": "CVPR",
+        "year": "2017",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Sublabel-Accurate Relaxation of Nonconvex Energies",
+        "venue": "CVPR",
+        "year": "2016",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Efficient Globally Optimal Consensus Maximisation with Tree Search",
+        "venue": "CVPR",
+        "year": "2015",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Fully Convolutional Networks for Semantic Segmentation",
+        "venue": "CVPR",
+        "year": "2015",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Picture: A Probabilistic Programming Language for Scene Perception",
+        "venue": "CVPR",
+        "year": "2015",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "3D Shape and Indirect Appearance by Structured Light Transport",
+        "venue": "CVPR",
+        "year": "2014",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Lost! Leveraging the Crowd for Probabilistic Visual Self-Localization",
+        "venue": "CVPR",
+        "year": "2013",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Discrete-Continuous Optimization for Large-scale Structure from Motion",
+        "venue": "CVPR",
+        "year": "2011",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Understanding and evaluating blind deconvolution algorithms",
+        "venue": "CVPR",
+        "year": "2009",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Spectral Matting",
+        "venue": "CVPR",
+        "year": "2007",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Human Detection via Classification on Riemannian Manifolds",
+        "venue": "CVPR",
+        "year": "2007",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Incremental learning of object detectors using a visual shape alphabet",
+        "venue": "CVPR",
+        "year": "2006",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "A Non-Local Algorithm for Image Denoising",
+        "venue": "CVPR",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Bi-Layer Segmentation of Binocular Stereo Video",
+        "venue": "CVPR",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Video Epitomes",
+        "venue": "CVPR",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Constraint on Five Points in Two Images",
+        "venue": "CVPR",
+        "year": "2003",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Robust on-line appearance models for visual tracking",
+        "venue": "CVPR",
+        "year": "2001",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "In search of illumination invariants",
+        "venue": "CVPR",
+        "year": "2000",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    }
+]

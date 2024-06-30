@@ -1,35 +1,35 @@
 [
     {
         "title": "Levin Tree Search with Context Models",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2023",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "SAT-Based PAC Learning of Description Logic Concepts",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2023",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Safe Reinforcement Learning via Probabilistic Logic Shields",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2023",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Plurality Veto: A Simple Voting Rule Achieving Optimal Metric Distortion",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2022",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "QCDCL with Cube Learning or Pure Literal Elimination – What is best?",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2022",
         "award": "Distinguished Paper Award",
         "link": null
@@ -42,266 +42,266 @@
     },
     {
         "title": "Keep Your Distance: Land Division With Separation",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2021",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "On the Relation Between Approximation Fixpoint Theory and Justification Theory",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2021",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Learning Generalized Unsolvability Heuristics for Classical Planning",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2021",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Actively Learning Concepts and Conjunctive Queries under ELdr-Ontologies",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2021",
         "award": "Honorable Mention",
         "link": null
     },
     {
         "title": "Synthesizing Aspect-Driven Recommendation Explanations from Reviews",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2020",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "A Multi-Objective Approach to Mitigate Negative Side Effects",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2020",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Boosting for Comparison-Based Learning",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2019",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Portioning using Ordinal Preferences: Fairness and Efficiency",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2019",
         "award": "Honorable Mention",
         "link": null
     },
     {
         "title": "Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2019",
         "award": "Honorable Mention",
         "link": null
     },
     {
         "title": "SentiGAN: Generating Sentimental Texts via Mixture Adversarial Networks",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Reasoning about Consensus when Opinions Diffuse through Majority Dynamics",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "R-SVM+: Robust Learning with Privileged Information",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "From Conjunctive Queries to Instance Queries in Ontology-Mediated Querying",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "What game are we playing? End-to-end learning in normal and extensive form games",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Commonsense Knowledge Aware Conversation Generation with Graph Attention",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "A Degeneracy Framework for Graph Similarity",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2018",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Foundations of Declarative Data Analysis Using Limit Datalog Programs",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2017",
         "award": "",
         "link": null
     },
     {
         "title": "Hierarchical Finite State Controllers for Generalized Planning",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2016",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2016",
         "award": "Distinguished Student Paper Award",
         "link": null
     },
     {
         "title": "Recursive Decomposition for Nonconvex Optimization",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2015",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Bayesian Active Learning for Posterior Estimation",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2015",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Reasonable Highly Expressive Query Languages",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2015",
         "award": "Honorable Mention",
         "link": null
     },
     {
         "title": "Flexibility and Decoupling in the Simple Temporal Problem",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2013",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Bayesian Optimization in High Dimensions via Random Embeddings",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2013",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Nested Rollout Policy Adaptation for Monte Carlo Tree Search",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2011",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Unweighted Coalitional Manipulation Under the Borda Rule is NP-Hard",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2011",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "On the Decidability of Connectedness Constraints in 2D and 3D Euclidean Spaces",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2011",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Learning Conditional Preference Networks with Queries",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2009",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Consequence-Driven Reasoning for Horn SHIQ Ontologies",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2009",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Automated Heart Wall Motion Abnormality Detection From Ultrasound Images using Bayesian Networks",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2007",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Performance Analysis of Online Anticipatory Algorithms for Large Multistage Stochastic Integer Programs",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2007",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Building Structure into Local Search for SAT",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2007",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Learning Coordination Classifiers",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2005",
         "award": "Distinguished Paper Award",
         "link": "https://www.ijcai.org/Proceedings/05/Papers/1585.pdf"
     },
     {
         "title": "Solving Checkers",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2005",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "A Probabilistic Model of Redundancy in Information Extraction",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2005",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Thin Junction Tree Filters for Simultaneous Localization and Mapping",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2003",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Approximating Game-Theoretic Optimal Strategies for Full-scale Poker",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2003",
         "award": "Distinguished Paper Award",
         "link": null
     },
     {
         "title": "Complexity Results for Structure-Based Causality",
-        "venue": "IJCAI Artificial Intelligence",
+        "venue": "IJCAI",
         "year": "2001",
         "award": "Distinguished Paper Award",
         "link": null
