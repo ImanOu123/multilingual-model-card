@@ -1,0 +1,982 @@
+[
+  {
+    "title": "Misspecification in Inverse Reinforcement Learning",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "DropMessage: Unifying Random Dropping for Graph Neural Networks",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Two Heads are Better than One: Image-Point Cloud Network for Depth-Based 3D Hand Pose Estimation",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Neural Architecture Search for Wide Spectrum Adversarial Robustness",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "CowClip: Reducing CTR Prediction Model Training Time from 12 hours to 10 minutes on 1 GPU",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "DICNet: Deep Instance-Level Contrastive Network for Double Incomplete Multi-View Multi-Label Classification",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Exploring Tuning Characteristics of Ventral Stream\u2019s Neurons for Few-Shot Image Classification",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "MaskBooster: End-to-End Self-Training for Sparsely Supervised Instance Segmentation",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "SimFair: A Unified Framework for Fairness-Aware Multi-Label Classification",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "XRand: Differentially Private Defense against Explanation-Guided Attacks",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Clustering What Matters: Optimal Approximation for Clustering with Outliers",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Robust Average-Reward Markov Decision Processes",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Efficient Answer Enumeration in Description Logics with Functional Roles",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI-23 Distinguished Paper Award",
+    "link": null
+  },
+  {
+    "title": "Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "AAAI Outstanding Student Papers",
+    "link": null
+  },
+  {
+    "title": "TA-DA: Topic-Aware Domain Adaptation for Scientific Keyphrase Identification and Classification",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "Student Abstract Program Awards",
+    "link": null
+  },
+  {
+    "title": "On the Relation between Distributionally RobusAnti-Drifting Feature Selection via Deep Reinforcement Learning",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "Student Abstract Program Awards",
+    "link": null
+  },
+  {
+    "title": "Can Graph Neural Networks Learn to Solve the MaxSAT Problem?",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "Student Abstract Program Awards",
+    "link": null
+  },
+  {
+    "title": "A Demonstration of Compositional, HierSudoku Assistant \u2013 An AI-powered app to help solve pen-and-paper Sudokus",
+    "venue": "AAAI",
+    "year": "2023",
+    "award": "2022 Best Demonstration Award",
+    "link": null
+  },
+  {
+    "title": "Online Certification of Preference-based Fairness for Personalized Recommender Systems",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI-22 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Bayesian Persuasion in Sequential Decision-Making",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI-22 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Operator-Potential Heuristics for Symbolic Search",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI-22 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Certified Symmetry and Dominance Breaking for Combinatorial Optimisation",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Online Elicitation of Necessarily Optimal Matchings",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Sampling-Based Robust Control of Autonomous Systems with Non-Gaussian Noise",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Subset approximation of Pareto Regions with Bi-objective A*",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "The SoftCumulative Constraint with Quadratic Penalty",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "InfoLM: A New Metric to Evaluate Summarization & Data2Text Generation",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Outstanding Student Papers",
+    "link": null
+  },
+  {
+    "title": "Compilation of Aggregates in ASP Systems",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Outstanding Student Papers",
+    "link": null
+  },
+  {
+    "title": "Entropy estimation via normalizing flow",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "AAAI Outstanding Student Papers",
+    "link": null
+  },
+  {
+    "title": "Annotation Cost-Sensitive Deep Active Learning with Limited Data",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "Student Abstract Program Awards",
+    "link": null
+  },
+  {
+    "title": "On the Relation between Distributionally Robust Optimization and Data Curation",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "Student Abstract Program Awards",
+    "link": null
+  },
+  {
+    "title": "A Demonstration of Compositional, Hierarchical Interactive Task Learning",
+    "venue": "AAAI",
+    "year": "2022",
+    "award": "2022 Best Demonstration Award",
+    "link": null
+  },
+  {
+    "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Exploration-Exploitation in Multi-Agent Learning: Catastrophe Theory Meets Game Theory",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning from eXtreme Bandit Feedback",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Self-Attention Attribution: Interpreting Information Interactions Inside Transformer",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Mitigating Political Bias in Language Models through Reinforced Calibration",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award: Special Track on AI for Social Impact",
+    "link": null
+  },
+  {
+    "title": "Dual-Mandate Patrols: Multi-Armed Bandits for Green Security",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Outstanding Paper Award: Special Track on AI for Social Impact",
+    "link": null
+  },
+  {
+    "title": "IQ \u2013 Incremental Learning for Solving QSAT",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Ethically Compliant Sequential Decision Making",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "On the Tractability of SHAP Explanations",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Expected Eligibility Traces",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Polynomial-Time Algorithms for Counting and Sampling Markov Equivalent DAGs",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "Self-Supervised Multi-View Stereo via Effective Co-Segmentation and Data-Augmentation",
+    "venue": "AAAI",
+    "year": "2021",
+    "award": "AAAI-21 Distinguished Papers",
+    "link": null
+  },
+  {
+    "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "A Unifying View on Individual Bounds and Heuristic Inaccuracies in Bidirectional Search",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Fair Division of Mixed Divisible and Indivisible Goods",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Lifelong Learning with a Changing Action Set",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "A Distributed Multi-Sensor Machine Learning Approach to Earthquake Early Warning",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Paper Award: Special Track on AI for Social Impact",
+    "link": null
+  },
+  {
+    "title": "The Unreasonable Effectiveness of Inverse Reinforcement Learning in Advancing Cancer Research",
+    "venue": "AAAI",
+    "year": "2020",
+    "award": "AAAI-20 Outstanding Paper Award: Special Track on AI for Social Impact",
+    "link": null
+  },
+  {
+    "title": "How to Combine Tree-Search Methods in Reinforcement Learning",
+    "venue": "AAAI",
+    "year": "2019",
+    "award": "AAAI-19 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Solving Imperfect-Information Games with Discounted Counterfactual Regret Minimization",
+    "venue": "AAAI",
+    "year": "2019",
+    "award": "AAAI-19 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Zero Shot Learning for Code Education: Rubric Sampling with Deep Learning Inference",
+    "venue": "AAAI",
+    "year": "2019",
+    "award": "AAAI-19 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning to Teach in Cooperative Multiagent Reinforcement Learning",
+    "venue": "AAAI",
+    "year": "2019",
+    "award": "AAAI-19 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Memory-Augmented Monte Carlo Tree Search",
+    "venue": "AAAI",
+    "year": "2018",
+    "award": "AAAI-18 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Generalized Adjustment under Confounding and Selection Biases",
+    "venue": "AAAI",
+    "year": "2018",
+    "award": "AAAI-18 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Counterfactual Multi-Agent Policy Gradients",
+    "venue": "AAAI",
+    "year": "2018",
+    "award": "AAAI-18 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Adapting a Kidney Exchange Algorithm to Align with Human Values",
+    "venue": "AAAI",
+    "year": "2018",
+    "award": "AAAI-18 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Label-Free Supervision of Neural Networks with Physics and Domain Knowledge",
+    "venue": "AAAI",
+    "year": "2017",
+    "award": "AAAI-17 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "The Option-Critic Architecture",
+    "venue": "AAAI",
+    "year": "2017",
+    "award": "AAAI-17 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Bidirectional Search That Is Guaranteed to Meet in the Middle",
+    "venue": "AAAI",
+    "year": "2016",
+    "award": "AAAI-16 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Toward a Taxonomy and Computational Models of Abnormalities in Images",
+    "venue": "AAAI",
+    "year": "2016",
+    "award": "AAAI-16 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "From Non-Negative to General Operator Cost Partitioning",
+    "venue": "AAAI",
+    "year": "2015",
+    "award": "AAAI-15 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Predicting the Demographics of Twitter Users from Website Traffic Data",
+    "venue": "AAAI",
+    "year": "2015",
+    "award": "AAAI-15 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Surpassing Human-Level Face Verification Performance on LFW with GaussianFace",
+    "venue": "AAAI",
+    "year": "2015",
+    "award": "AAAI-15 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Sparse Bayesian Multiview Learning for Simultaneous Association Discovery and Diagnosis of Alzheimer\u2019s Disease",
+    "venue": "AAAI",
+    "year": "2015",
+    "award": "AAAI-15 Outstanding Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Recovering from Selection Bias in Causal and Statistical Inference",
+    "venue": "AAAI",
+    "year": "2014",
+    "award": "AAAI-14 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Placement of Loading Stations for Electric Vehicles: No Detours Necessary!",
+    "venue": "AAAI",
+    "year": "2014",
+    "award": "AAAI-14 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Manifold Learning for Jointly Modeling Topic and Visualization",
+    "venue": "AAAI",
+    "year": "2014",
+    "award": "AAAI-14 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Tractability through Exchangeability: A New Perspective on Efficient Probabilistic Inference",
+    "venue": "AAAI",
+    "year": "2014",
+    "award": "AAAI-14 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Generalized Label Reduction for Merge-and-Shrink Heuristics",
+    "venue": "AAAI",
+    "year": "2014",
+    "award": "AAAI-14 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "SMILe: Shuffled Multiple-Instance Learning",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "HC-Search: Learning Heuristics and Cost Functions for Structured Prediction",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "On the Value of Using Group Discounts under Price Competition",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "PAC Optimal Exploration in Continuous Space Markov Decision Processes",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Sensitivity of Diffusion Dynamics to Network Uncertainty",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Effective Bilingual Constraints for Semi-supervised Learning of Named Entity Recognizers",
+    "venue": "AAAI",
+    "year": "2013",
+    "award": "AAAI-13 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Learning SVM Classifiers with Indefinite Kernels",
+    "venue": "AAAI",
+    "year": "2012",
+    "award": "AAAI-12 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Document Summarization Based on Data Reconstruction",
+    "venue": "AAAI",
+    "year": "2012",
+    "award": "AAAI-12 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Knapsack Based Optimal Policies for Budget-Limited Multi-Armed Bandits",
+    "venue": "AAAI",
+    "year": "2012",
+    "award": "AAAI-12 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Predicting Disease Transmission from Geo-Tagged Micro-Blog Data",
+    "venue": "AAAI",
+    "year": "2012",
+    "award": "AAAI-12 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Complexity of and Algorithms for Borda Manipulation",
+    "venue": "AAAI",
+    "year": "2011",
+    "award": "AAAI-11 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Computational Sustainability and Artificial Intelligence Track: Dynamic Resource Allocation in Conservation Planning",
+    "venue": "AAAI",
+    "year": "2011",
+    "award": "AAAI-11 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Novel Transition Based Encoding Scheme for Planning as Satisfiability",
+    "venue": "AAAI",
+    "year": "2010",
+    "award": "AAAI-10 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "How Incomplete Is Your Semantic Web Reasoner? Systematic Analysis of the Completeness of Query Answering Systems",
+    "venue": "AAAI",
+    "year": "2010",
+    "award": "AAAI-10 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Optimal False-Name-Proof Voting Rules with Costly Voting",
+    "venue": "AAAI",
+    "year": "2008",
+    "award": "AAAI-08 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "How Good is Almost Perfect?",
+    "venue": "AAAI",
+    "year": "2008",
+    "award": "AAAI-08 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "On the Progression of Situation Calculus Basic Action Theories: Resolving a 10-year-old Conjecture",
+    "venue": "AAAI",
+    "year": "2008",
+    "award": "AAAI-08 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "PLOW: A Collaborative Task Learning Agent",
+    "venue": "AAAI",
+    "year": "2007",
+    "award": "AAAI-07 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Thresholded Rewards: Acting Optimally in Timed, Zero-Sum Games",
+    "venue": "AAAI",
+    "year": "2007",
+    "award": "AAAI-07 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Model Counting: A New Strategy for Obtaining Good Bounds",
+    "venue": "AAAI",
+    "year": "2006",
+    "award": "AAAI-06 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Towards an Axiom System for Default Logic",
+    "venue": "AAAI",
+    "year": "2006",
+    "award": "AAAI-06 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "The Max K- Armed Bandit: A New Model of Exploration Applied to Search Heuristic Selection",
+    "venue": "AAAI",
+    "year": "2005",
+    "award": "AAAI-05 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning and Inferring Transportation Routines",
+    "venue": "AAAI",
+    "year": "2004",
+    "award": "AAAI-04 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Interactive Information Extraction with Constrained Conditional Random Fields",
+    "venue": "AAAI",
+    "year": "2004",
+    "award": "AAAI-04 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Loop Formulas for Circumscription",
+    "venue": "AAAI",
+    "year": "2004",
+    "award": "AAAI-04 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "On Computing All Abductive Explanations",
+    "venue": "AAAI",
+    "year": "2002",
+    "award": "AAAI-02 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "The Game of Hex: An Automatic Theorem-Proving Approach to Game Programming",
+    "venue": "AAAI",
+    "year": "2000",
+    "award": "AAAI-2000 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Automatic Invention of Integer Sequences",
+    "venue": "AAAI",
+    "year": "2000",
+    "award": "AAAI-2000 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Statistics-Based Summarization \u2014 Step One: Sentence Compression",
+    "venue": "AAAI",
+    "year": "2000",
+    "award": "AAAI-2000 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Local Search Characteristics of Incomplete SAT Procedures",
+    "venue": "AAAI",
+    "year": "2000",
+    "award": "AAAI-2000 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "PROVERB: The Probabilistic Cruciverbalist",
+    "venue": "AAAI",
+    "year": "1999",
+    "award": "AAAI-99 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning Evaluation Functions for Global Optimization and Boolean Satisfiability",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "The Interactive Museum Tour-Guide Robot",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Acceleration Methods for Numeric CSPs",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Statistical Parsing with a Context-Free Grammar and Word Statistics",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Building Concept Representations from Reusable Components",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Fast Context Switching in Real-Time Propositional Reasoning",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Practical Algorithm for Finding Optimal Triangulations",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Novel Application of Theory Refinement to Student Modeling",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Verification of Knowledge Bases Based on Containment Checking",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Prototype Reading Coach that Listens",
+    "venue": "AAAI",
+    "year": "1994",
+    "award": "AAAI-94 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Equations for Part-of-Speech Tagging",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "AAAI-93 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "Planning With Deadlines in Stochastic Domains",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Reasoning With Characteristic Models",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "The Paradoxical Success of Fuzzy Logic",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Hard and Easy Distribution of SAT Problems",
+    "venue": "AAAI",
+    "year": "1992",
+    "award": "AAAI-92 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "On the Minimality and Decomposability of Constraint Networks",
+    "venue": "AAAI",
+    "year": "1992",
+    "award": "Honorable Mention",
+    "link": null
+  },
+  {
+    "title": "Improving Rule-Based Systems through Case-Based Reasoning",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "AAAI-91 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning with Many Irrelevant Features",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "A Cognitively Plausible Approach to Understanding Complex Syntax",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Complexity Results for Blocks-World Planning",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Qualitative Results Concerning the Utility of Explanation-Based Learning",
+    "venue": "AAAI",
+    "year": "1988",
+    "award": "1988 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Approach to Qualitative Algebraic Reasoning",
+    "venue": "AAAI",
+    "year": "1988",
+    "award": "1988 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Incremental Causal Reasoning",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "An Approach to Default Reasoning Based on a First-Order Conditional Logic",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "PROMPT: An Innovative Design Tool",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Curing Anomalous Extensions",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Non-Deterministic Lisp with Dependency-directed Backtracking",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Defining Operationality for Explanation-based Learning",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Word-Order Variation in Natural Language Generation",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Energy Constraints on Deformable Models: Recovering Shape and Non-Rigid Motion",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Default Reasoning, Nonmonotonic Logics, and the Frame Problem",
+    "venue": "AAAI",
+    "year": "1986",
+    "award": "1986 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Generating Tests by Exploiting Designed Behavior",
+    "venue": "AAAI",
+    "year": "1986",
+    "award": "1986 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "The Tractability of Subsumption in Frame-Based Description Languages",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Choices without Backtracking",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "A Logic of Implicit and Explicit Belief",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Shading into Texture",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  }
+]
