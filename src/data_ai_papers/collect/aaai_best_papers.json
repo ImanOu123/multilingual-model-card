@@ -712,5 +712,271 @@
     "year": "2000",
     "award": "AAAI-2000 Outstanding Paper Awards",
     "link": null
+  },
+  {
+    "title": "PROVERB: The Probabilistic Cruciverbalist",
+    "venue": "AAAI",
+    "year": "1999",
+    "award": "AAAI-99 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning Evaluation Functions for Global Optimization and Boolean Satisfiability",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "The Interactive Museum Tour-Guide Robot",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Acceleration Methods for Numeric CSPs",
+    "venue": "AAAI",
+    "year": "1998",
+    "award": "AAAI-98 Outstanding Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Statistical Parsing with a Context-Free Grammar and Word Statistics",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Building Concept Representations from Reusable Components",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Fast Context Switching in Real-Time Propositional Reasoning",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Practical Algorithm for Finding Optimal Triangulations",
+    "venue": "AAAI",
+    "year": "1997",
+    "award": "AAAI-97 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Novel Application of Theory Refinement to Student Modeling",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Verification of Knowledge Bases Based on Containment Checking",
+    "venue": "AAAI",
+    "year": "1996",
+    "award": "AAAI-96 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "A Prototype Reading Coach that Listens",
+    "venue": "AAAI",
+    "year": "1994",
+    "award": "AAAI-94 Outstanding Paper Award",
+    "link": null
+  },
+  {
+    "title": "Equations for Part-of-Speech Tagging",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "AAAI-93 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "Planning With Deadlines in Stochastic Domains",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Reasoning With Characteristic Models",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "The Paradoxical Success of Fuzzy Logic",
+    "venue": "AAAI",
+    "year": "1993",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Hard and Easy Distribution of SAT Problems",
+    "venue": "AAAI",
+    "year": "1992",
+    "award": "AAAI-92 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "On the Minimality and Decomposability of Constraint Networks",
+    "venue": "AAAI",
+    "year": "1992",
+    "award": "Honorable Mention",
+    "link": null
+  },
+  {
+    "title": "Improving Rule-Based Systems through Case-Based Reasoning",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "AAAI-91 Best Written Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning with Many Irrelevant Features",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "A Cognitively Plausible Approach to Understanding Complex Syntax",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Complexity Results for Blocks-World Planning",
+    "venue": "AAAI",
+    "year": "1991",
+    "award": "Honorable Mentions",
+    "link": null
+  },
+  {
+    "title": "Qualitative Results Concerning the Utility of Explanation-Based Learning",
+    "venue": "AAAI",
+    "year": "1988",
+    "award": "1988 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Approach to Qualitative Algebraic Reasoning",
+    "venue": "AAAI",
+    "year": "1988",
+    "award": "1988 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Incremental Causal Reasoning",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "An Approach to Default Reasoning Based on a First-Order Conditional Logic",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "PROMPT: An Innovative Design Tool",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Curing Anomalous Extensions",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Non-Deterministic Lisp with Dependency-directed Backtracking",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Defining Operationality for Explanation-based Learning",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Word-Order Variation in Natural Language Generation",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Energy Constraints on Deformable Models: Recovering Shape and Non-Rigid Motion",
+    "venue": "AAAI",
+    "year": "1987",
+    "award": "1987 Best Paper Awards",
+    "link": null
+  },
+  {
+    "title": "Default Reasoning, Nonmonotonic Logics, and the Frame Problem",
+    "venue": "AAAI",
+    "year": "1986",
+    "award": "1986 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Generating Tests by Exploiting Designed Behavior",
+    "venue": "AAAI",
+    "year": "1986",
+    "award": "1986 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "The Tractability of Subsumption in Frame-Based Description Languages",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Choices without Backtracking",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "A Logic of Implicit and Explicit Belief",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
+  },
+  {
+    "title": "Shading into Texture",
+    "venue": "AAAI",
+    "year": "1984",
+    "award": "1984 Publisher\u2019s Prize",
+    "link": null
   }
 ]

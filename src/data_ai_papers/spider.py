@@ -4,6 +4,7 @@ import requests
 import json
 import time
 from pathlib import Path
+import random
 import os
 
 class Spider():
@@ -51,7 +52,9 @@ class ArxivSpider(Spider):
             try:
                 paper = next(arxiv.Search(id_list=[arxiv_id]).results())
                 paper.download_pdf(dirpath=dir_path, filename=str(Path(dir_path) / f"{file_hash}.pdf"))
-                break
+                return {
+                    "file_hash": file_hash
+                }
             except Exception as e:
                 print(e)
             curr_tries += 1
@@ -98,3 +101,38 @@ class PdfSpider(Spider):
                 "dir_path": dir_path,
                 "file_hash": file_hash,
             })
+
+class GoogleSpider(Spider):
+    """
+    https://github.com/Nv7-GitHub/googlesearch
+    """
+    def __init__(self, error_file, max_tries=2):
+        super().__init__(error_file)
+        self.max_tries = max_tries
+        from googlesearch import search
+        self.search = search
+    
+    def get_pdf_link(self, title, num_results=5):
+        curr_tries = 0
+        while curr_tries < self.max_tries:
+            try:
+                urls = []
+                for url in self.search(title, num_results=num_results):
+                    urls.append(url)
+                return urls
+            except Exception as e:
+                print(e)
+            curr_tries += 1
+            time.sleep(random.randint(3, 10))
+        if curr_tries == self.max_tries:
+            self.log_error({
+                "type": "google_spider",
+                "query": title
+            })
+            return []
+    
+    def process_results(self, urls):
+        for url in urls:
+            if "arxiv.org" in url or url.endswith(".pdf"):
+                return url
+        return None
