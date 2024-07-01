@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model is an Audio Spectrogram Transformer (AST) model fine-tuned on the Speech Commands V2 dataset, achieving state-of-the-art accuracy of 98.1%. AST is a convolution-free, purely attention-based model that can be applied to various audio classification tasks with variable-length inputs."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Here are the basic details about the MIT/ast-finetuned-speech-commands-v2 model:\n\nModel Architecture:\n- Audio Spectrogram Transformer (AST), a convolution-free, purely attention-based model \n- The 2D audio spectrogram is split into a sequence of 16x16 patches with overlap, linearly projected to 1-D patch embeddings\n- Each patch embedding is added with a learnable positional embedding \n- An additional classification token is prepended to the sequence\n- The output embedding is input to a Transformer, and the output of the classification token is used for classification with a linear layer\n\nTraining Procedures: \n- Trained on the Speech Commands V2 dataset\n- [More Information Needed] on specific training procedures used\n\nParameters:\n- Model size is base384\n- audioset_pretrain=True, using AudioSet and ImageNet pretrained weights\n- fstride=tstride=10\n\nImportant Disclaimers:\n[More Information Needed]\n\nPlease refer to the paper \"AST: Audio Spectrogram Transformer\" (https://arxiv.org/abs/2104.01778) for more details. The model achieves 98.1% accuracy on the Speech Commands V2 benchmark.\n\nLet me know if you need any other information to complete the model card. I'm happy to help track down additional details."
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no explicit information about the funding sources for the MIT/ast-finetuned-speech-commands-v2 model. The references mainly discuss the technical details and performance of the Audio Spectrogram Transformer (AST) model, but do not mention the specific organizations or people that funded the project.\n\n[More Information Needed]"
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "According to the references provided, the contributors who made the model MIT/ast-finetuned-speech-commands-v2 available online are:\n\nYuan Gong, Yu-An Chung, and James Glass\n\nThe work is partly supported by Signify."
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model is a purely attention-based audio classification model that was pretrained on AudioSet and finetuned on the Speech Commands V2 dataset, achieving 98.1% accuracy on the evaluation set."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model processes audio data from the Speech Commands V2 dataset, which contains spoken English words and background noise."
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain any information about the license being used for the model MIT/ast-finetuned-speech-commands-v2. More details would be needed from the model developers to determine the specific license that applies to this model."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "The model MIT/ast-finetuned-speech-commands-v2 is likely fine-tuned from the AudioSet pretrained AST model mentioned in Reference 7:\n\n[Full AudioSet, 10 tstride, 10 fstride, with Weight Averaging (0.459 mAP)](https://www.dropbox.com/s/ca0b1v2nlxzyeb4/audioset_10_10_0.4593.pth?dl=1)\n\nReference 6 also mentions that setting `audioset_pretrain=True` when creating the AST model will automatically download the AudioSet pretrained model for fine-tuning on a new task like Speech Commands.\n\nHowever, to confirm this is the exact base model used, [More Information Needed] from the model authors or documentation."
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe references provided do not contain a direct link to a demo for the specific model \"MIT/ast-finetuned-speech-commands-v2\". While the references mention a demo for an audio large language model called LTU, and a Google Colab script for AST inference, there is no information about a demo specifically for the \"MIT/ast-finetuned-speech-commands-v2\" model."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model can be used for inference without fine-tuning, post-processing, or plugging into a pipeline. Here are the key points:\n\n1. The model is pretrained on AudioSet and fine-tuned on the Speech Commands V2 dataset, achieving 98.12% accuracy on the evaluation set.\n\n2. It supports variable length input, so you can directly use it for your audio classification task, as long as your audio data is prepared in 16kHz.\n\n3. To use the pretrained model, you need to normalize the input audio to roughly 0 mean and 0.5 std. You can use the AudioSet normalization: \n```\ninput_spec = (input_spec + 4.26) / (4.57 * 2)\n```\n\n4. We provide a one-click, self-contained Google Colab script for AST inference and attention visualization. You can test the model with your own audio by clicking the \"Open in Colab\" badge:\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YuanGongND/ast/blob/master/colab/AST_Inference_Demo.ipynb)\n\n5. [More Information Needed] on the specific code snippet for using the model without fine-tuning, post-processing or plugging into a pipeline.\n\nIn summary, the MIT/ast-finetuned-speech-commands-v2 model can be easily used for audio classification inference with the proper input normalization. The provided Colab demo makes it straightforward to test the model on your own audio data."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model can be used for speech command recognition tasks when fine-tuned. It achieves state-of-the-art accuracy of 98.1% on the Speech Commands V2 dataset.\n\nTo use the fine-tuned model in your own training pipeline, you can take the `ast/src/models/ast_models.py` file, set `audioset_pretrain=True`, and integrate it with your pipeline. Make sure to normalize the audio input to roughly 0 mean and 0.5 std, similar to what the pretrained model expects. You can use the AudioSet normalization: \n\n```python\ninput_spec = (input_spec + 4.26) / (4.57 * 2)\n```\n\nNote that AST requires a smaller learning rate (10x smaller than CNN models) and converges faster, so tune the learning rate and scheduler appropriately for your task.\n\nThe model supports variable length inputs, so it can be applied to different speech tasks without architecture changes. In an application, you would feed 16kHz audio (that the model was trained on) and get the predicted speech command as output.\n\n[More Information Needed] for providing a complete code snippet, as the references don't include one. Overall, the AST model provides a powerful, purely attention-based solution for speech command recognition that can be dropped into many pipelines and applications."
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some potential ways the MIT/ast-finetuned-speech-commands-v2 model could be misused and what users should not do:\n\nThe model should not be used for tasks beyond simple speech command classification, as it was specifically trained on the Speech Commands V2 dataset for that purpose. Applying it to significantly different audio classification tasks may lead to unreliable or biased results.\n\nUsers should not assume the model will perform optimally on speech data of lengths differing from what it was trained on (around 1 second clips). Feeding much longer or shorter audio could degrade accuracy.\n\nThe model should not be deployed in high-stakes real-world scenarios like voice-controlled medical devices or emergency response systems without thorough testing and validation, as errors could have severe consequences. \n\nUsers ought not extrapolate the model's strong benchmark performance to claim human-level accuracy in understanding speech commands, as the model's robustness to accents, noise, and adversarial attacks is [More Information Needed].\n\nTo mitigate potential misuse, the model card should clearly state the intended use case of simple speech command recognition, emphasize that predictions are probabilistic and can be erroneous, and caution against application in sensitive domains without extensive testing on representative real-world data.\n\n[More Information Needed] on details of the model architecture, training data, and evaluation of fairness and robustness that would allow deeper analysis of misuse potential and recommendations for mitigation."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the MIT/ast-finetuned-speech-commands-v2 model, here are some potential issues and limitations:\n\nForeseeable harms and misunderstandings:\n- The model is trained on the Speech Commands dataset, so it may not generalize well to speech in other domains or with different accents/languages. Applying it outside its intended use case could lead to poor performance or misclassifications.\n- [More Information Needed] on potential biases in the training data that could lead to unfair or discriminatory model outputs.\n\nTechnical limitations: \n- The model expects 16kHz audio input that is roughly normalized to 0 mean and 0.5 std (ref 4). Using audio that deviates significantly from this could degrade performance.\n- A fixed AST architecture is used which may not be optimal for all speech classification tasks (ref 10).\n- [More Information Needed] on compute requirements and latency which could limit real-time applications.\n\nSociotechnical limitations:\n- As a speech classifier, the model has no contextual understanding. Outputs should be carefully interpreted based on the specific application. \n- [More Information Needed] on how the model handles sensitive content and potential privacy concerns with classifying human speech.\n\nTo summarize, key limitations appear to be the narrow training domain, fixed input requirements, and lack of contextual awareness. More information is needed to fully characterize potential biases, resource requirements, and sociotechnical implications. Responsible usage requires understanding these constraints and carefully validating the model's fitness for a given real-world application."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the AST model and its finetuning on the Speech Commands V2 dataset, here are some recommendations regarding foreseeable issues:\n\n1. Input normalization: The pretrained AST model expects the input audio to be roughly normalized to 0 mean and 0.5 std. When using the model, ensure the input data is properly normalized to avoid performance degradation.\n\n2. Audio sampling rate: The pretrained model and training pipeline use 16kHz audio. Prepare your data in 16kHz to be compatible with the pretrained model.\n\n3. Model architecture: While the AST model can handle variable-length inputs, the architecture used for Speech Commands classification (AST-S) may not be optimal for other tasks or audio lengths. Consider tuning the architecture if applying the model to significantly different tasks or audio lengths.\n\n4. Generalization to non-speech audio: The model was finetuned on Speech Commands V2, which consists of speech data. Performance on non-speech audio tasks may vary, and additional finetuning or data augmentation techniques might be necessary. [More Information Needed]\n\n5. Fairness and bias: [More Information Needed] Analyze the model's performance across different demographics, accents, and languages to ensure fairness and mitigate potential biases.\n\n6. Privacy concerns: [More Information Needed] Consider the privacy implications of deploying a speech recognition model, such as the potential for misuse or unintended identification of individuals.\n\n7. Robustness to noise and distortions: [More Information Needed] Evaluate the model's performance under various noise conditions and audio distortions to understand its limitations and potential failure modes."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The MIT/ast-finetuned-speech-commands-v2 model was trained on the Speech Commands V2 dataset, which contains spoken words for speech command classification. The dataset was automatically downloaded and the model was trained, validated and evaluated using the recipe in `ast/egs/speechcommands/run_sc.sh`."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "For the MIT/ast-finetuned-speech-commands-v2 model, the preprocessing steps include:\n\nData augmentation techniques such as:\n- mixup with mixup ratio=0.5\n- spectrogram masking with max time mask length of 192 frames and max frequency mask length of 48 bins\n\n[More Information Needed] on specific details about tokenization and resizing/rewriting of the input data for this model.\n\nThe model was trained on the Speechcommands V2 dataset. The provided recipe script `ast/egs/speechcommands/run_sc.sh` automatically downloads the dataset and runs the training, validation and evaluation."
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the training hyperparameters for the model MIT/ast-finetuned-speech-commands-v2:\n\n- Pretrained model: AudioSet pretrained AST model (0.459 mAP)\n- Input time dimension: 100 frames\n- Time stride: 10\n- Frequency stride: 10\n- No weight averaging used\n- Achieved 98.12% accuracy on the Speech Commands V2-35 evaluation set\n\n[More Information Needed] for the following hyperparameters:\n- Number of training epochs\n- Learning rate schedule\n- Batch size\n- Optimizer\n- Loss function\n- Data augmentation techniques used, if any\n\nThe model expects 16kHz audio input since the pretrained model was trained on 16kHz audio."
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Here are the details about the MIT/ast-finetuned-speech-commands-v2 model based on the provided references:\n\nModel Performance:\n- The model achieves 98.12% accuracy on the Speech Commands V2-35 evaluation set.\n\nModel Checkpoint:\n- The model checkpoint can be downloaded from this link: https://www.dropbox.com/s/q0tbqpwv44pquwy/speechcommands_10_10_0.9812.pth?dl=1\n- [More Information Needed] on the exact checkpoint size.\n\nTraining Details:\n- The model uses a 10 time step stride and 10 frequency stride.\n- Weight averaging was not used during training.\n- The model architecture is a purely attention-based AST model without convolutions.\n- The AST model was initialized with AudioSet pretrained weights for better performance.\n- [More Information Needed] on the exact training start and end times, as well as throughput metrics.\n\nIn summary, the MIT/ast-finetuned-speech-commands-v2 model achieves state-of-the-art 98.12% accuracy on the Speech Commands V2-35 dataset using a purely attention-based architecture. The model checkpoint is publicly available, but more details are needed on the checkpoint size, training times, and throughput."
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the MIT/ast-finetuned-speech-commands-v2 model evaluates on the Speech Commands V2 dataset. Specifically, reference 10 states:\n\n\"The Speechcommands recipe is in `ast/egs/speechcommands/run_sc.sh`, the script will automatically download the Speechcommands V2 dataset, train an AST model on the training set, validate it on the validation set, and evaluate it on the test set.\"\n\nThe model achieves 98.12% accuracy on the Speech Commands V2 evaluation set, as mentioned in reference 11:\n\n\"We attached our log file in `ast/egs/speechcommends/test-speechcommands-f10-t10-p-b128-lr2.5e-4-0.5-false`, the model achieves `98.12%` accuracy.\""
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some key characteristics that may influence the behavior of the MIT/ast-finetuned-speech-commands-v2 model:\n\nDomain and Context:\n- The model was trained and evaluated on the Speech Commands V2 dataset, which contains spoken word commands. Performance on other types of audio data like music, environmental sounds, or conversational speech is unknown and would require further evaluation.\n\nPopulation Subgroups:\n- [More Information Needed] The references do not provide details on performance across different speaker demographics (e.g. age, gender, accent). Ideally, the model should be evaluated on a diverse range of speakers to uncover any performance disparities.\n\nModel Characteristics:\n- AST is a purely attention-based model that can handle variable length audio inputs without architecture changes.\n- It achieves state-of-the-art accuracy of 98.1% on the Speech Commands V2 dataset.\n- The same architecture is used across different tasks and audio lengths, indicating potential as a generic audio classifier.\n\nTo comprehensively characterize model behavior, additional information and disaggregated evaluation would be needed on aspects like:\n- Performance on more diverse audio domains beyond speech commands\n- Breakdown of results across speaker demographics \n- Failure modes and error analysis on misclassified examples\n- Robustness to factors like background noise, recording quality, etc."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the references provided, the key evaluation metric used for the Speech Commands V2 dataset is accuracy on the test set. Specifically, reference 9 mentions a model achieving 98.12% accuracy on the evaluation set of Speech Commands V2.\n\nThe references do not provide details on analyzing tradeoffs between different types of errors for the Speech Commands models. To fully answer the question about error tradeoffs, [More Information Needed] on metrics like precision, recall, or a confusion matrix that would allow analyzing the types of errors made.\n\nIn summary, accuracy appears to be the primary metric, but more details would be needed to analyze tradeoffs between different errors for the MIT/ast-finetuned-speech-commands-v2 model."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Here are the evaluation results for the MIT/ast-finetuned-speech-commands-v2 model based on the provided references:\n\nModel Performance:\n- The AST-S model achieves 98.11\u00b10.05% accuracy on the Speech Commands V2 test set, outperforming the previous state-of-the-art model (Ref 3)\n- A specific model checkpoint achieves 98.12% accuracy on the Speech Commands V2 evaluation set (Ref 6, 7)\n\nTraining Configuration:\n- Batch size: 128 (Ref 3)\n- Optimizer: Adam with initial learning rate of 2.5e-4, decreased by a factor of 0.85 every epoch after the 5th epoch (Ref 3)\n- Number of training epochs: Up to 20, with best model selected using the validation set (Ref 3)\n- Data augmentation: Frequency and time masking, random noise, and mixup augmentation (Ref 4)\n- Patch split: 10x10 (10 stride in time, 10 stride in frequency) (Ref 6)\n\n[More Information Needed] for other specific training hyperparameters or configurations.\n\nThe model is a convolution-free, purely attention-based model (AST) that supports variable length input (Ref 8). It achieves state-of-the-art performance on the Speech Commands V2 dataset."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the model MIT/ast-finetuned-speech-commands-v2:\n\nThe AST-S model, which is an Audio Spectrogram Transformer model pretrained on ImageNet and then finetuned on the Speech Commands V2 dataset, achieves an accuracy of 98.11\u00b10.05% on the test set. This outperforms the previous state-of-the-art CNN model in [9] which achieved 97.7% accuracy.\n\nThe model was trained with frequency and time masking, random noise, and mixup augmentation, a batch size of 128, and the Adam optimizer with an initial learning rate of 2.5e-4 decreased by a factor of 0.85 every epoch after the 5th epoch, for up to 20 epochs total. The best model was selected using the validation set.\n\n[More Information Needed] on the exact training hyperparameters and data augmentation used for the MIT/ast-finetuned-speech-commands-v2 model specifically. The references provide some training details but it's unclear if they apply to this exact model.\n\nIn summary, the AST model architecture, when finetuned on the Speech Commands V2 dataset, achieves state-of-the-art accuracy of 98.11% on the test set, demonstrating the effectiveness of this convolution-free attention-based approach for speech command recognition."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Here is my attempt at answering the question about the MIT/ast-finetuned-speech-commands-v2 model, based on the provided references:\n\nThis model is a finetuned version of the Audio Spectrogram Transformer (AST) architecture, trained on the Speech Commands V2 dataset. The AST model is a purely attention-based model for audio classification that supports variable length input. \n\nSome key points about the interpretability and explainability of this model:\n\n- The AST architecture is simpler and has fewer parameters compared to CNN-attention hybrid models, which may make it easier to interpret and explain the model's behavior. However, [More Information Needed] on specific techniques used to analyze the interpretability of this finetuned model.\n\n- AST models can be applied to various audio classification tasks without changing the architecture, just by varying the input length. The MIT/ast-finetuned-speech-commands-v2 model takes 1 second audio clips as input, tuned for the Speech Commands task. [More Information Needed] on how the input length and task impact interpretability.\n\n- [More Information Needed] on any visualization or explanation methods (e.g. attention weight analysis, input perturbation studies, etc.) applied to better understand and explain the decisions made by this specific finetuned AST model.\n\nIn summary, the simple, flexible AST architecture used in this model may have advantages for interpretability compared to other audio models, but more specific studies and techniques are needed to provide a fuller picture of the explainability of the MIT/ast-finetuned-speech-commands-v2 model. The developers aim to expand this section as more interpretability work is done."
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "The model MIT/ast-finetuned-speech-commands-v2 was trained on 4 GTX TITAN GPUs with 12GB memory, according to the information provided in Reference 6:\n\n\"The recipe was tested on 4 GTX TITAN GPUs with 12GB memory.\""
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "Based on the provided references, the model MIT/ast-finetuned-speech-commands-v2 is trained on the Speech Commands V2 dataset. Specifically, reference 4 states:\n\n\"We evaluate AST on various audio classification benchmarks, where it achieves new state-of-the-art results of 0.485 mAP on AudioSet, 95.6% accuracy on ESC-50, and 98.1% accuracy on Speech Commands V2.\"\n\nThe references do not provide information about the specific software used for training the model. Therefore, for the software type, the answer is [More Information Needed]."
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "Based on the provided references, the amount of time used to train the model MIT/ast-finetuned-speech-commands-v2 is not explicitly mentioned. The references discuss training details such as number of epochs, learning rate schedule, and batch size, but do not specify the total training time.\n\n[More Information Needed] on the exact amount of time used to train the MIT/ast-finetuned-speech-commands-v2 model."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not mention the specific cloud provider used for training the MIT/ast-finetuned-speech-commands-v2 model. The references only state that the Speechcommands recipe was tested on 4 GTX TITAN GPUs with 12GB memory, but do not specify if this was done on a cloud platform or local hardware."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nBased on the provided references, there is no information about the amount of carbon emitted during the training of the model MIT/ast-finetuned-speech-commands-v2. The references discuss model accuracy, datasets, hyperparameters, and training settings, but do not mention anything related to carbon emissions or environmental impact of the model training process.\n\nTo provide the carbon emissions for this specific model, more details would be needed such as the compute infrastructure used, total training time, energy consumption, and carbon intensity of the electricity grid. Without this information, it is not possible to accurately estimate the carbon footprint of training the MIT/ast-finetuned-speech-commands-v2 model."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\nThe Audio Spectrogram Transformer (AST) is a convolution-free, purely attention-based model for audio classification. It splits the 2D audio spectrogram into a sequence of 16x16 patches with overlap, linearly projects them to a sequence of 1-D patch embeddings, and adds learnable positional embeddings. An additional classification token is prepended to the sequence. The output embedding is input to a Transformer, and the output of the classification token is used for classification with a linear layer.\n\nCode:\n```\nast_mdl = ASTModel(label_dim=label_dim, input_tdim=input_tdim, imagenet_pretrain=True)\ntest_output = ast_mdl(test_input)\n```\n\nObjective:\nAST-finetuned-speech-commands-v2 is finetuned on the Speech Commands V2 dataset for speech command classification. AST achieves state-of-the-art accuracy of 98.1% on this task.\n\n[More Information Needed] on specific training details and hyperparameters used for finetuning on Speech Commands V2."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "The compute infrastructure used for training the MIT/ast-finetuned-speech-commands-v2 model was:\n\n4 GTX TITAN GPUs with 12GB memory each\n\n[More Information Needed] on other compute infrastructure details such as CPU, RAM, storage, etc. The provided references do not contain this information."
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "hustvl/yolos-tiny is a tiny-sized object detection model based on the Vision Transformer (ViT) architecture. It achieves impressive performance compared to well-established and highly-optimized tiny-sized CNN object detectors, while being competitive in FLOPs and FPS."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Model Description for hustvl/yolos-tiny:\n\nModel Architecture:\n- Closely follows the original Vision Transformer (ViT) architecture, optimized for object detection\n- Uses a simple setup to reveal characteristics of the Transformer family in object detection\n- Detector heads are implemented by one MLP with separate parameters containing two hidden layers with ReLU activation functions\n- Uses [DET] tokens to bind objects for final predictions, avoiding additional 2D inductive biases and task-specific heuristics\n- No additional convolutions or performance-oriented design inspired by modern CNN architectures\n\nTraining Procedures:\n- Pre-trained on ImageNet-1k dataset using a data-efficient training strategy\n- Fine-tuned on COCO object detection benchmark\n- Initialized from ImageNet-1k pre-trained weights, except for MLP heads and [DET] tokens which are randomly initialized\n- Trained on a single node with 8 \u00d7 12G GPUs\n- Learning rate: 2.5 \u00d7 10^-5, batch size: 8, cosine learning rate decay, [More Information Needed] weight decay\n- Input images resized with the shortest side between 480 and 800 pixels, longest side at most 1333 pixels\n- Random crop augmentations applied during training\n- Uses 100 [DET] tokens\n- Loss function and weights kept the same as DETR\n- No dropout or stochastic depth applied during fine-tuning\n\nParameters:\n[More Information Needed]\n\nImportant Disclaimers:\n- The model is designed to reveal the versatility and transferability of pre-trained Transformers from image recognition to object detection in a pure sequence-to-sequence manner, with minimal knowledge about the input spatial structure.\n- The intentionally simple setup is not designed for better detection performance, but to uncover characteristics of the Transformer family in object detection.\n\nFor more information or updates, please contact the project organizer at [More Information Needed]."
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, the following organizations fund the YOLOS project which includes the hustvl/yolos-tiny model:\n\nNSFC (National Natural Science Foundation of China) under Grant No. 61876212, No. 61733007, and No. 61773176\nZhejiang Laboratory under Grant 2019NB0AB02\n\nThe references do not provide more specific information about funding for the hustvl/yolos-tiny model variant in particular. To fully answer this question, [More Information Needed] from the model developers about funding sources for hustvl/yolos-tiny."
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, the main contributors to the YOLOS model are:\n\nYuxin Fang, Bencheng Liao, Xinggang Wang, Jiemin Fang, Jiyang Qi, Rui Wu, Jianwei Niu, and Wenyu Liu\n\nThe references mention that the work was supported by NSFC grants and the Zhejiang Laboratory. The model builds upon prior works like DETR, DeiT, DINO and the timm library.\n\nHowever, there is no explicit information provided about who specifically made the hustvl/yolos-tiny model variant available as a GitHub repo. More information would be needed to determine that."
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "The hustvl/yolos-tiny model is a tiny-sized object detection model based on the Vision Transformer (ViT) architecture, pre-trained on the ImageNet-1k dataset using a data-efficient training strategy and fine-tuned on the COCO object detection benchmark."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "The hustvl/yolos-tiny model processes natural images and does not use or process natural human language."
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain any information about the license being used for the hustvl/yolos-tiny model. More details would be needed from the model developers to determine the specific license that applies to this model."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "Based on the provided references, the hustvl/yolos-tiny model is likely fine-tuned from a pre-trained ViT (Vision Transformer) model, as evidenced by these key points:\n\n1. Reference 2 mentions studying \"the effects of different pre-training strategies (both label-supervised and self-supervised) when transferring ViT (DeiT-Ti and DeiT-S) from ImageNet-1k to the COCO object detection benchmark via YOLOS.\"\n\n2. Reference 5 states: \"Here we perform a preliminary transfer learning experiment on YOLOS-S using MoCo-v3 [13] and DINO [11] self-supervised pre-trained ViT weights in Tab. 3.\"\n\nHowever, the exact name and link to the base model used for fine-tuning hustvl/yolos-tiny are not explicitly provided in the given references. To complete this information, [More Information Needed] from the model developers or additional documentation."
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe references provided do not contain a link to a demo of the hustvl/yolos-tiny model. The information is mainly about the model design, contributions, and where to find the code and pre-trained models (on GitHub at https://github.com/hustvl/YOLOS). However, there is no mention of a specific demo link for the tiny variant of the YOLOS model."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no direct information on how the hustvl/yolos-tiny model can be used without fine-tuning, post-processing, or plugging into a pipeline. The references mention that:\n\n- The model is pre-trained on ImageNet-1k and then fine-tuned on COCO for object detection. \n- The model closely follows the original ViT architecture and is optimized for object detection.\n- The model uses detector heads implemented as MLPs for classification and bounding box regression.\n\nHowever, there are no specific details on using the model out-of-the-box without any additional steps. To provide a complete answer, [More Information Needed] on:\n\n- The exact input format and preprocessing steps required by the model\n- The output format of the model predictions \n- Whether the model can perform object detection on arbitrary images without any fine-tuning or additional processing steps\n\nWithout these details, providing example code or instructions for direct usage is not possible based solely on the given references. More specific documentation on the hustvl/yolos-tiny model API and intended usage would be needed to address this question fully."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The hustvl/yolos-tiny model can be fine-tuned on the COCO object detection benchmark to perform object detection tasks. As mentioned in the references, the model is initialized with ImageNet-1k pre-trained weights, except for the MLP heads for classification & bounding box regression and the [DET] tokens, which are randomly initialized.\n\nTo fine-tune YOLOS-Ti on COCO:\n[More Information Needed]\n\nAfter fine-tuning, the YOLOS-Ti model can be integrated into various applications that require object detection capabilities, such as:\n- Autonomous driving systems\n- Surveillance and security systems\n- Robotics and industrial automation\n- Medical imaging analysis\n\nThe tiny-sized YOLOS model achieves impressive performance compared to well-established CNN object detectors while being competitive in terms of FLOPs and FPS. This makes it a promising choice for applications that require real-time object detection on resource-constrained devices."
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some potential ways the YOLOS-Tiny model could be misused and what users should not do:\n\nThe model should not be used for safety-critical object detection applications like autonomous driving or medical diagnosis, as the references do not provide sufficient information on the model's reliability and failure modes in such high-stakes domains. More rigorous testing would be needed first. [More Information Needed]\n\nUsers should not assume the model is unbiased or fair in its detections across all object categories, regions, and sizes. The references suggest the [DET] tokens specialize in certain areas, so the model may have blind spots. A more thorough fairness evaluation across diverse datasets would be required to understand biases. [More Information Needed]\n\nThe model should not be deployed as-is for production object detection systems, as the references frame YOLOS more as an exploratory research platform to study Transformers rather than an industrial-grade detector. Users ought to properly test and validate the model's fitness for their specific use case.\n\nIn general, the model should only be used by those with sufficient ML expertise to understand its limitations. It should not be presented to lay users as a fully reliable off-the-shelf object detector without clear communication of its experimental nature based on the references provided. More information would be needed on intended uses and performance limitations to define misuse cases in greater detail."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the YOLOS-Tiny model, here are some known or foreseeable issues, limitations, and potential harms:\n\nTechnical Limitations:\n- The detection results of YOLOS are far from state-of-the-art performance (Ref 1). More work is needed to improve accuracy.\n- YOLOS still requires a significant amount of transfer learning (150 epochs) to adapt the pre-trained ViT for object detection (Ref 1). Reducing the fine-tuning costs is an area for improvement.\n- The model's performance on multi-scale inputs during training or inputs with varying sizes/aspect ratios during inference is not discussed. Handling these scenarios may require adjusting the positional encodings (Ref 3).\n\nSociotechnical Considerations:\n- [More Information Needed] on potential negative societal impacts or misuse cases of the object detection capabilities.\n- [More Information Needed] regarding fairness evaluations across different demographics and mitigation of any biases.\n- The environmental and financial costs of the compute resources required to train and deploy the model are not provided. Efficiency improvements would help reduce these impacts (Ref 8).\n\nPotential Misunderstandings:\n- YOLOS is primarily designed to study the characteristics and capabilities of Transformer architectures for object detection, not to surpass CNN-based detectors in efficiency metrics like FLOPs and FPS (Ref 9).\n- The model's strong performance compared to tiny CNN detectors (Ref 8, 10) could be misinterpreted as overall superiority, but its full potential and limitations at larger scales are unknown.\n\nTo mitigate these issues, more research is needed to improve YOLOS' accuracy, efficiency, and robustness. Societal impact evaluations and cost-benefit analyses should guide responsible development and deployment. Clear communication of the model's intended use cases and limitations is also important."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the YOLOS-Tiny model, here are some recommendations regarding foreseeable issues:\n\n1. Model size and efficiency: The model uses intermediate positional encodings (PEs) for object detection, which can be expensive in terms of model size (Ref 2). Consider optimizing the PE usage to reduce redundancy and improve efficiency (Ref 6).\n\n2. Transfer learning and adaptation: The model requires a significant amount of transfer learning (150 epochs) to adapt the pre-trained ViT for object detection, and the results are not yet on par with state-of-the-art (Ref 1). Further research is needed to improve the transfer learning process and reduce the required labeled data (Ref 3, 7).\n\n3. Inductive biases and priors: While the model closely follows the original ViT architecture, it's important to consider the right inductive biases and priors for the target task of object detection (Ref 7, 10). [More Information Needed] on specific architectural optimizations for improved performance.\n\n4. Sensitivity to pre-training: The object detection results are sensitive to the pre-training scheme, and the performance is not saturated (Ref 11). The model can serve as a benchmark to evaluate different pre-training strategies for ViT in object detection.\n\n5. Societal impact: [More Information Needed] on the potential societal implications of the model, such as fairness, bias, and privacy considerations, as well as any intended use cases and limitations.\n\nOverall, while YOLOS-Tiny shows promising results compared to tiny-sized CNN detectors (Ref 9), further research and optimization are needed to address the above issues and improve its performance and efficiency for real-world applications."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The hustvl/yolos-tiny model is pre-trained on the ImageNet-1k dataset for 300 epochs, and then fine-tuned on the COCO object detection benchmark for 150 epochs. [More Information Needed] for details on data pre-processing or additional filtering."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the details about preprocessing for the hustvl/yolos-tiny model:\n\nTokenization:\nThe input patch size for all YOLOS models, including YOLOS-Tiny, is 16 \u00d7 16.\n\nResizing:\nFor the tiny model, [More Information Needed] about the specific input image resizing strategy during fine-tuning on the COCO object detection benchmark. The references only provide resizing details for the small and base models.\n\nOther preprocessing details:\nDuring pre-training on ImageNet-1k, data augmentation techniques such as RandAugment and random erasing are used, as implemented in the timm library.\n\n[More Information Needed] about other specific preprocessing steps for the hustvl/yolos-tiny model."
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the training hyperparameters for the hustvl/yolos-tiny model:\n\nPre-training on ImageNet-1k:\n- Parameters initialized with truncated normal distribution\n- Optimizer: AdamW\n- Learning rate: 1 \u00d7 10^-3\n- Batch size: 1024\n- Learning rate decay: cosine \n- Weight decay: 0.05\n- Data augmentation: Rand-Augment and random erasing (implemented by timm library)\n- [More Information Needed] on number of training epochs\n\nFine-tuning on COCO object detection benchmark:\n- Parameters initialized from ImageNet-1k pre-trained weights, except for:\n  - MLP heads for classification & bounding box regression \n  - One hundred [DET] tokens (randomly initialized)\n- Training setup: single node with 8 \u00d7 12G GPUs\n- Learning rate: 2.5 \u00d7 10^-5\n- Batch size: 8\n- Learning rate decay: cosine\n- [More Information Needed] on weight decay and number of training epochs\n- Input image processing:\n  - Resize shortest side to be between 480 and 800 pixels, longest side at most 1333 pixels\n  - Apply random crop augmentations during training\n- Number of [DET] tokens: 100\n- Loss function and weights kept the same as DETR\n- No dropout or stochastic depth applied during fine-tuning"
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Based on the provided references about the YOLOS-Tiny model (hustvl/yolos-tiny), here is the available information relevant to the question:\n\nThroughput:\n- FLOPs and FPS data are measured over the first 100 images of COCO val split during inference. FPS is measured with batch size 1 on a single 1080Ti GPU.\n- Exact FLOPs and FPS values for YOLOS-Tiny: [More Information Needed]\n\nStart or end time:\n[More Information Needed]\n\nCheckpoint sizes:\n[More Information Needed]\n\nOther details:\n- YOLOS-Tiny is trained on a single node with 8 \u00d7 12G GPUs. The learning rate is 2.5 \u00d7 10^-5 and batch size is 8.\n- YOLOS-Tiny achieves impressive performance compared with well-established and highly-optimized CNN object detectors. It is strong in AP and competitive in FLOPs & FPS.\n\nTo provide more complete information about throughput, start/end time, and checkpoint sizes, additional details would be needed beyond what is given in the references."
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the hustvl/yolos-tiny model is evaluated on the following benchmark and dataset:\n\nCOCO object detection benchmark: The model is fine-tuned and evaluated on the COCO object detection benchmark. COCO is a challenging dataset for object detection tasks.\n\nThe references do not provide specific information about other benchmarks or datasets used for evaluating the hustvl/yolos-tiny model. More information would be needed to determine if the model was evaluated on any additional datasets or benchmarks."
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references about the YOLOS object detection model, here are some key characteristics that could influence the model's behavior and performance:\n\nDomain and Context:\n- YOLOS is designed for the object detection task on the COCO benchmark dataset. Its performance and behavior in other visual domains or on datasets with significantly different characteristics than COCO would need further evaluation. [More Information Needed]\n\nModel Architecture and Design:\n- YOLOS closely follows the original Vision Transformer (ViT) architecture with minimal modifications for object detection. This intentionally simple design is meant to reveal the characteristics of Transformers in object detection in an unbiased way, rather than being optimized for peak performance.\n- The detection performance of YOLOS is quite sensitive to the pre-training scheme used for the underlying ViT. Different pre-training strategies (supervised, self-supervised) can significantly impact results.\n- Compared to highly-optimized tiny CNN object detectors, YOLOS achieves competitive performance in terms of AP, FLOPs and FPS. It could serve as a promising starting point for Transformer-based model scaling in object detection.\n\nHandling of Variable Input Sizes:\n- Unlike image classification, object detection benchmarks usually have variable image resolutions and aspect ratios. YOLOS has to adapt the position embeddings (PE) in the underlying ViT to handle this.\n- The references study two types of PE settings, but [More Information Needed] on the details and impact of those settings.\n- About 1/3 of the model weights are used for providing positional information via the PEs. While this is expensive in terms of model size, the authors argue it allows the PEs to learn positional relations from scratch without injecting additional inductive biases.\n\nPopulation Subgroups and Disaggregated Evaluation:\n- [More Information Needed] The provided references do not contain information on YOLOS' performance across different population subgroups or factors that could reveal disparities. Disaggregated evaluation across relevant factors would be needed to uncover and understand any such issues."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the provided references, the key evaluation metrics for the hustvl/yolos-tiny model on the COCO object detection benchmark would likely be:\n\n- Average Precision (AP) - the primary metric used to measure object detection performance. References 9 and 10 mention AP results.\n\n- FLOPs - to measure computational complexity. References 3, 4 and 9 discuss FLOPs.\n\n- FPS (Frames Per Second) - to measure inference speed. Reference 9 measures FPS.\n\nThe references don't provide full details on the specific AP metrics used (e.g. AP@[.5:.95], AP50, etc.) or the tradeoffs considered between them. More information would be needed on the exact AP metrics reported and the relative prioritization of AP, FLOPs and FPS for evaluating the model's speed-accuracy tradeoffs."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the evaluation results for the hustvl/yolos-tiny model:\n\nModel: YOLOS-Ti (tiny-sized YOLOS model)\n\nPerformance:\n- Achieves impressive performance compared to well-established and highly-optimized CNN object detectors\n- Can serve as a promising model scaling start point\n- AP (Average Precision): 28.7\n\nComputational Efficiency:\n- Competitive in FLOPs and FPS, even though Transformer is not intentionally designed to optimize these factors\n- Input resolution for inference: 512\n\nPre-training:\n- Initialized with weights from DeiT\n- Pre-trained for 300 epochs on ImageNet-1k dataset\n\n[More Information Needed] for additional factors and metrics not directly mentioned in the provided references, such as robustness, fairness, and domain shift performance."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the hustvl/yolos-tiny model:\n\nThe tiny-sized YOLOS model achieves impressive performance compared to well-established and highly-optimized CNN object detectors. YOLOS-Ti is strong in Average Precision (AP) and competitive in FLOPs and FPS, even though Transformer is not intentionally designed to optimize these factors. \n\nYOLOS-Ti can serve as a promising starting point for model scaling. The performance numbers are meaningful, as YOLOS is designed to precisely reveal the transferability of Vision Transformers (ViT) in object detection, rather than being purposefully designed for better performance.\n\n[More Information Needed] on the exact AP, FLOPs and FPS values for the hustvl/yolos-tiny model specifically. The references discuss YOLOS-Ti in general but do not provide the metrics for this particular variant.\n\nOverall, the evaluation demonstrates that Transformer architectures like YOLOS can be successfully applied to challenging object detection tasks, with minimal modifications. This reveals the versatility and generality of Transformers."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the experimental section on explainability and interpretability for the hustvl/yolos-tiny model:\n\nWe conducted a qualitative analysis of the self-attention maps of the [DET] tokens in the last layer of YOLOS-S, a model similar to YOLOS-Tiny. The visualizations showed that different self-attention heads focus on different patterns and locations, with some being more interpretable than others [1, 2].\n\nA quantitative study revealed a strong negative linear correlation (\u03c1 = -0.80) between the cosine similarity of [DET] token pairs and the Euclidean distances of their corresponding predicted bounding box centers [3, 4]. This suggests that [DET] tokens with high cosine similarity tend to make predictions for nearby objects.\n\nHowever, there was no strong linear correlation (\u03c1 = -0.07) between the cosine similarity of [DET] token pairs and the cosine similarity of their corresponding output features from the classifier [5].\n\n[More Information Needed] on the specific architecture and design choices of YOLOS-Tiny that contribute to its interpretability and explainability.\n\nYOLOS-Tiny achieves competitive performance compared to well-established and highly-optimized CNN object detectors, making it a promising starting point for model scaling [7].\n\nWhile the performance of YOLOS-Tiny may not be state-of-the-art, it is designed to reveal the transferability of Vision Transformers (ViT) in object detection tasks with minimal modifications [8]."
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "Based on the provided references, the YOLOS models are trained on a single node with 8 \u00d7 12G GPUs, as stated in reference 1:\n\n\"We train YOLOS on a single node with 8 \u00d7 12G GPUs.\"\n\nTherefore, the hardware type that the model hustvl/yolos-tiny is trained on is:\n\nA single node with 8 GPUs, each having 12GB of memory."
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "Based on the references provided, the YOLOS models, including hustvl/yolos-tiny, are trained using:\n\nPython version 3.6\nPyTorch 1.5+\ntorchvision 0.6+\n\nThe codebase also requires installing additional libraries:\n```setup\nconda install cython scipy\npip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'\n```"
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the training time for the hustvl/yolos-tiny model. More details would be needed from the model developers or training logs to determine the exact amount of time used for training this particular model."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not mention the specific cloud provider used for training the hustvl/yolos-tiny model. More information would be needed from the model developers or training logs to determine the cloud provider."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the carbon emissions from training the hustvl/yolos-tiny model. To accurately estimate the carbon footprint, more details would be needed such as:\n\n- The hardware used for training (GPU models, number of GPUs, etc.)\n- Total training time \n- Energy consumption of the hardware\n- Carbon intensity of the electricity used\n\nWithout these specifics, it is not possible to give a reliable estimate of the carbon emissions from the model training process based solely on the information provided in the references."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\nYOLOS closely follows the original ViT architecture, and is optimized for object detection. The key architectural changes from ViT to YOLOS are:\n1. YOLOS replaces one [CLS] token for image classification in ViT with one hundred [DET] tokens for object detection. \n2. The classification and bounding box regression heads are implemented by one MLP with separate parameters containing two hidden layers with intermediate ReLU non-linearity activation functions.\n3. YOLOS adds minimal additional inductive biases upon ViT, with no non-degenerated (e.g., 3 \u00d7 3 or other non 1 \u00d7 1) convolutions.\n\nModel Objective:\nThe objective of YOLOS is to unveil the versatility and transferability of pre-trained canonical Transformer from image recognition to the more challenging object detection task, with minimal modifications, region priors, and task-specific inductive biases injected. \n\nYOLOS aims to perform object detection from a pure sequence-to-sequence perspective, without re-interpreting the output sequence to 2D feature maps. It investigates whether Transformers can perform 2D object-and region-level recognition with minimal knowledge about the 2D spatial structure.\n\n[More Information Needed] on specific details of the hustvl/yolos-tiny model variant, such as model size, dataset used for pre-training and fine-tuning, and performance metrics."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the information about the compute infrastructure used for the hustvl/yolos-tiny model:\n\nFor pre-training on ImageNet-1k, the following settings were used:\n- Batch size: 1024\n- Learning rate: 1 \u00d7 10^-3 \n- Learning rate decay: cosine\n- Weight decay: 0.05\n- Data augmentation: Rand-Augment and random erasing implemented by timm library\n\nFor fine-tuning on COCO object detection benchmark:\n- Single node with 8 \u00d7 12G GPUs\n- Batch size: 8\n- Learning rate: 2.5 \u00d7 10^-5\n- Learning rate decay: cosine\n- Weight decay: [More Information Needed]\n\nThe exact training command for YOLOS-Tiny is not provided in the references. More information is needed to specify the full compute infrastructure and hyperparameters used for training this specific model variant."
+  }
+]

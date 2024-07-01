@@ -29,3 +29,17 @@ class PromptTemplate:
 {text}
 ```
 """
+
+    term_translation = {
+        "system_prompt": "You are a helpful assistant.",
+        "prompt_with_explanation": """Translate the term "{term}" from English to {tgt_lang}. Provide the answer only. Here is an explanation of the term:
+
+```
+{explanation}
+```""",
+        "prompt_with_context": """Translate the term "{term}" from English to {tgt_lang}. Provide the answer only. Here is a sentence where the term appears:
+
+```
+{context}
+```"""
+    }

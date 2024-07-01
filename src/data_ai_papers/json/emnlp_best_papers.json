@@ -1,0 +1,324 @@
+[
+  {
+    "title": "Discriminative Training Methods for Hidden Markov Models: Theory and Experiments with Perceptron Algorithms",
+    "venue": "EMNLP",
+    "year": 2002,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/W02-1001.pdf"
+  },
+  {
+    "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques",
+    "venue": "EMNLP",
+    "year": 2002,
+    "award": "NAACL 2018 Test-of-Time Award",
+    "link": "https://aclanthology.org/W02-1011.pdf"
+  },
+  {
+    "title": "Using the Web to Overcome Data Sparseness",
+    "venue": "EMNLP",
+    "year": 2002,
+    "award": "NAACL 2018 Test-of-Time Award",
+    "link": "https://aclanthology.org/W02-1030.pdf"
+  },
+  {
+    "title": "Training Connectionist Models for the Structured Language Model",
+    "venue": "EMNLP",
+    "year": 2003,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/W03-1021.pdf"
+  },
+  {
+    "title": "Max-Margin Parsing",
+    "venue": "EMNLP",
+    "year": 2004,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/W04-3201.pdf"
+  },
+  {
+    "title": "Non-Projective Dependency Parsing using Spanning Tree Algorithms",
+    "venue": "EMNLP",
+    "year": 2005,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/H05-1066.pdf"
+  },
+  {
+    "title": "Modelling Compression with Discourse Constraints",
+    "venue": "EMNLP",
+    "year": 2007,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D07-1001.pdf"
+  },
+  {
+    "title": "Unsupervised Semantic Parsing",
+    "venue": "EMNLP",
+    "year": 2009,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D09-1001.pdf"
+  },
+  {
+    "title": "Dual Decomposition for Parsing with Non-Projective Head Automata",
+    "venue": "EMNLP",
+    "year": 2010,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D10-1125.pdf"
+  },
+  {
+    "title": "A Probabilistic Forest-to-String Model for Language Generation from Typed Lambda Calculus Expressions",
+    "venue": "EMNLP",
+    "year": 2011,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D11-1149.pdf"
+  },
+  {
+    "title": "Open Language Learning for Information Extraction",
+    "venue": "EMNLP",
+    "year": 2012,
+    "award": "ACL 2022 10-Year Test of Time",
+    "link": "https://aclanthology.org/D12-1048.pdf"
+  },
+  {
+    "title": "A Coherence Model Based on Syntactic Patterns",
+    "venue": "EMNLP",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D12-1106.pdf"
+  },
+  {
+    "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
+    "venue": "EMNLP",
+    "year": 2013,
+    "award": "ACL 10-Year Test of Time Paper Award",
+    "link": "https://aclanthology.org/D13-1170.pdf"
+  },
+  {
+    "title": "Breaking Out of Local Optima with Count Transforms and Model Recombination: A Study in Grammar Induction",
+    "venue": "EMNLP",
+    "year": 2013,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D13-1204.pdf"
+  },
+  {
+    "title": "Modeling Biological Processes for Reading Comprehension",
+    "venue": "EMNLP",
+    "year": 2014,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D14-1159.pdf"
+  },
+  {
+    "title": "Broad-coverage CCG Semantic Parsing with AMR",
+    "venue": "EMNLP",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D15-1198.pdf"
+  },
+  {
+    "title": "Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems",
+    "venue": "EMNLP",
+    "year": 2015,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D15-1199.pdf"
+  },
+  {
+    "title": "Improving Information Extraction by Acquiring External Evidence with Reinforcement Learning",
+    "venue": "EMNLP",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D16-1261.pdf"
+  },
+  {
+    "title": "Global Neural CCG Parsing with Optimality Guarantees",
+    "venue": "EMNLP",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D16-1262.pdf"
+  },
+  {
+    "title": "Depression and Self-Harm Risk Assessment in Online Forums",
+    "venue": "EMNLP",
+    "year": 2017,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D17-1322.pdf"
+  },
+  {
+    "title": "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints",
+    "venue": "EMNLP",
+    "year": 2017,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D17-1323.pdf"
+  },
+  {
+    "title": "Linguistically-Informed Self-Attention for Semantic Role Labeling",
+    "venue": "EMNLP",
+    "year": 2018,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D18-1548.pdf"
+  },
+  {
+    "title": "Multi-Source Neural Machine Translation with Data Augmentation",
+    "venue": "EMNLP",
+    "year": 2018,
+    "award": "Best Student Paper",
+    "link": "https://aclanthology.org/2018.iwslt-1.7.pdf"
+  },
+  {
+    "title": "Designing and Interpreting Probes with Control Tasks",
+    "venue": "EMNLP",
+    "year": 2019,
+    "award": "Best Paper Runner-Up",
+    "link": "https://aclanthology.org/D19-1275.pdf"
+  },
+  {
+    "title": "Specializing Word Embeddings (for Parsing) by Information Bottleneck",
+    "venue": "EMNLP",
+    "year": 2019,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/D19-1276.pdf"
+  },
+  {
+    "title": "The FLORES Evaluation Datasets for Low-Resource Machine Translation: Nepali–English and Sinhala–English",
+    "venue": "EMNLP",
+    "year": 2019,
+    "award": "Best Resource Paper",
+    "link": "https://aclanthology.org/D19-1632.pdf"
+  },
+  {
+    "title": "AllenNLP Interpret: A Framework for Explaining Predictions of NLP Models",
+    "venue": "EMNLP",
+    "year": 2019,
+    "award": "Best Demo paper",
+    "link": "https://aclanthology.org/D19-3002.pdf"
+  },
+  {
+    "title": "If beam search is the answer, what was the question?",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Honorable Mention Paper",
+    "link": "https://aclanthology.org/2020.emnlp-main.170.pdf"
+  },
+  {
+    "title": "Spot The Bot: A Robust and Efficient Framework for the Evaluation of Conversational Dialogue Systems",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Honorable Mention Paper",
+    "link": "https://aclanthology.org/2020.emnlp-main.326.pdf"
+  },
+  {
+    "title": "Visually Grounded Compound PCFGs",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Honorable Mention Paper",
+    "link": "https://aclanthology.org/2020.emnlp-main.354.pdf"
+  },
+  {
+    "title": "GLUCOSE: GeneraLized and COntextualized Story Explanations",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Honorable Mention Paper",
+    "link": "https://aclanthology.org/2020.emnlp-main.370.pdf"
+  },
+  {
+    "title": "Digital Voicing of Silent Speech",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2020.emnlp-main.445.pdf"
+  },
+  {
+    "title": "Transformers: State-of-the-Art Natural Language Processing",
+    "venue": "EMNLP",
+    "year": 2020,
+    "award": "Honorable Demonstration Paper",
+    "link": "https://aclanthology.org/2020.emnlp-demos.6.pdf"
+  },
+  {
+    "title": "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.emnlp-main.85.pdf"
+  },
+  {
+    "title": "CHoRaL: Collecting Humor Reaction Labels from Millions of Social Media Users",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2021.emnlp-main.364.pdf"
+  },
+  {
+    "title": "SituatedQA: Incorporating Extra-Linguistic Contexts into QA",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.emnlp-main.586.pdf"
+  },
+  {
+    "title": "When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Outstanding Paper",
+    "link": "https://aclanthology.org/2021.emnlp-main.602.pdf"
+  },
+  {
+    "title": "Visually Grounded Reasoning across Languages and Cultures",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2021.emnlp-main.818.pdf"
+  },
+  {
+    "title": "Datasets: A Community Library for Natural Language Processing",
+    "venue": "EMNLP",
+    "year": 2021,
+    "award": "Best Demonstration Paper",
+    "link": "https://aclanthology.org/2021.emnlp-demo.21.pdf"
+  },
+  {
+    "title": "Abstract Visual Reasoning with Tangram Shapes",
+    "venue": "EMNLP",
+    "year": 2022,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2022.emnlp-main.38.pdf"
+  },
+  {
+    "title": "Topic-Regularized Authorship Representation Learning",
+    "venue": "EMNLP",
+    "year": 2022,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2022.emnlp-main.70.pdf"
+  },
+  {
+    "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition",
+    "venue": "EMNLP",
+    "year": 2023,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2023.emnlp-main.302.pdf"
+  },
+  {
+    "title": "Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning",
+    "venue": "EMNLP",
+    "year": 2023,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2023.emnlp-main.609.pdf"
+  },
+  {
+    "title": "Faster Minimum Bayes Risk Decoding with Confidence-based Pruning",
+    "venue": "EMNLP",
+    "year": 2023,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2023.emnlp-main.767.pdf"
+  },
+  {
+    "title": "PaperMage: A Unified Toolkit for Processing, Representing, and Manipulating Visually-Rich Scientific Documents",
+    "venue": "EMNLP",
+    "year": 2023,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2023.emnlp-demo.45.pdf"
+  },
+  {
+    "title": "Personalized Dense Retrieval on Global Index for Voice-enabled Conversational Systems",
+    "venue": "EMNLP",
+    "year": 2023,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2023.emnlp-industry.9.pdf"
+  }
+]

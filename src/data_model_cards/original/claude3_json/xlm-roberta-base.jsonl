@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "XLM-RoBERTa (XLM-R) is a generic cross-lingual sentence encoder trained on 2.5TB of filtered CommonCrawl data in 100 languages. It obtains state-of-the-art results on many cross-lingual understanding (XLU) benchmarks, significantly outperforming multilingual BERT (mBERT)."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Model Details for xlm-roberta-base:\n\nModel Architecture:\n- Transformer model with 12 layers, 768 hidden states, 12 attention heads\n- Total parameters: 270M\n- Vocabulary size: 250K tokens\n\nTraining Procedure:\n- Trained with the multilingual MLM (masked language modeling) objective using only monolingual data\n- Trained on 2.5TB of filtered CommonCrawl data in 100 languages\n- Languages are sampled using a distribution with \u03b1 = 0.3\n- Tokenization directly on raw text data using SentencePiece with a unigram language model\n- Trained for 1.5 million updates on five-hundred 32GB Nvidia V100 GPUs with a batch size of 8192\n\nImportant Disclaimers:\n- [More Information Needed]"
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain any information about the funding sources for the XLM-RoBERTa-base model. More details would be needed from the model developers or their organizations to determine what people or groups financially supported this specific project."
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, there is no direct information about the specific contributors who made the XLM-RoBERTa-base model available online as a GitHub repo. The references discuss the XLM-R model in general, its training data, and performance on various benchmarks, but do not mention the individuals involved in publishing the model.\n\n[More Information Needed]"
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "XLM-RoBERTa-base is a transformer-based multilingual masked language model pre-trained on monolingual text data in 100 languages using the unsupervised cross-lingual representation learning approach."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "XLM-RoBERTa (XLM-R) is a multilingual model trained on CommonCrawl data in 100 languages."
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe references provided do not contain any information about the license being used for the XLM-RoBERTa base model. More details would be needed from the model developers or official documentation to determine the specific license that applies to this model."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "XLM-RoBERTa (XLM-R) is not fine-tuned from another model, but rather trained from scratch on a large corpus of filtered CommonCrawl data in 100 languages, as mentioned in Reference 9:\n\n\"XLM-R (XLM-RoBERTa) is a generic cross lingual sentence encoder that obtains state-of-the-art results on many cross-lingual understanding (XLU) benchmarks. It is trained on 2.5T of filtered CommonCrawl data in 100 languages (list below).\"\n\nThe model follows the XLM approach closely, with some improvements and scaling modifications, but it is not fine-tuned from a previously released model."
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe references provided do not contain a direct link to a demo of the XLM-RoBERTa-base model. More information would be needed to provide a demo link in the model card description."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "The xlm-roberta-base model can be used without fine-tuning, post-processing, or plugging into a pipeline for tasks like extracting features, encoding and decoding text in multiple languages. Here are a few examples:\n\n1. Extracting features from the last layer:\n```python\nlast_layer_features = xlmr.extract_features(zh_tokens)\nassert last_layer_features.size() == torch.Size([1, 6, 1024])\n```\n\n2. Extracting features from all layers:\n```python\nall_layers = xlmr.extract_features(zh_tokens, return_all_hiddens=True)\nassert len(all_layers) == 25\nassert torch.all(all_layers[-1] == last_layer_features)\n```\n\n3. Encoding and decoding text in various languages:\n```python\nen_tokens = xlmr.encode('Hello world!')\nassert en_tokens.tolist() == [0, 35378,  8999, 38, 2]\nxlmr.decode(en_tokens)  # 'Hello world!'\n\nzh_tokens = xlmr.encode('\u4f60\u597d\uff0c\u4e16\u754c')\nassert zh_tokens.tolist() == [0, 6, 124084, 4, 3221, 2]\nxlmr.decode(zh_tokens)  # '\u4f60\u597d\uff0c\u4e16\u754c'\n\nhi_tokens = xlmr.encode('\u0928\u092e\u0938\u094d\u0924\u0947 \u0926\u0941\u0928\u093f\u092f\u093e')\nassert hi_tokens.tolist() == [0, 68700, 97883, 29405, 2]\nxlmr.decode(hi_tokens)  # '\u0928\u092e\u0938\u094d\u0924\u0947 \u0926\u0941\u0928\u093f\u092f\u093e'\n\nar_tokens = xlmr.encode('\u0645\u0631\u062d\u0628\u0627 \u0628\u0627\u0644\u0639\u0627\u0644\u0645')\nassert ar_tokens.tolist() == [0, 665, 193478, 258, 1705, 77796, 2]\nxlmr.decode(ar_tokens) # '\u0645\u0631\u062d\u0628\u0627 \u0628\u0627\u0644\u0639\u0627\u0644\u0645'\n\nfr_tokens = xlmr.encode('Bonjour le monde')\nassert fr_tokens.tolist() == [0, 84602, 95, 11146, 2]\nxlmr.decode(fr_tokens) # 'Bonjour le monde'\n```\n\nTo use the model, it can be loaded using PyTorch hub:\n```python\nimport torch\nxlmr = torch.hub.load('pytorch/fairseq:main', 'xlmr.large')\nxlmr.eval()  # disable dropout (or leave in train mode to finetune)\n```\n\n[More Information Needed] on other potential use cases without fine-tuning, post-processing or using a pipeline."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The XLM-RoBERTa-base model can be used for various cross-lingual understanding tasks when fine-tuned, such as:\n\n1. Cross-lingual Natural Language Inference (XNLI): The model can be fine-tuned on the English XNLI training set and evaluated on the dev and test sets of 15 languages for cross-lingual transfer.\n\n2. Named Entity Recognition (NER): The model can be fine-tuned on the CoNLL-2002 and CoNLL-2003 datasets in English, Dutch, Spanish, and German for cross-lingual transfer, per-language performance, or multilingual learning.\n\n3. Question Answering: [More Information Needed]\n\n4. GLUE benchmark: The model can be fine-tuned on the GLUE benchmark to evaluate its English performance and compare it to other state-of-the-art models.\n\nWhen plugged into a larger ecosystem or app, the XLM-RoBERTa-base model can be used as a generic cross-lingual sentence encoder. Here's a code snippet demonstrating how to use the model in PyTorch:\n\n```python\nimport torch\nxlmr = torch.hub.load('pytorch/fairseq:main', 'xlmr.large')\nxlmr.eval()  # disable dropout (or leave in train mode to finetune)\n\nar_tokens = xlmr.encode('\u0645\u0631\u062d\u0628\u0627 \u0628\u0627\u0644\u0639\u0627\u0644\u0645')\nassert ar_tokens.tolist() == [0, 665, 193478, 258, 1705, 77796, 2]\nxlmr.decode(ar_tokens) # '\u0645\u0631\u062d\u0628\u0627 \u0628\u0627\u0644\u0639\u0627\u0644\u0645'\n\nfr_tokens = xlmr.encode('Bonjour le monde')\nassert fr_tokens.tolist() == [0, 84602, 95, 11146, 2]\nxlmr.decode(fr_tokens) # 'Bonjour le monde'\n```"
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references about the XLM-RoBERTa model, here are some potential ways the model could be misused and what users should not do:\n\nThe XLM-RoBERTa model is a powerful multilingual language model trained on a large amount of data in 100 languages. As such, it could potentially be misused to:\n\n- Generate fake news, misinformation, hate speech, or other harmful content in many languages. Users should not use the model to create deceptive or abusive multilingual content.\n\n- Impersonate real people or organizations across languages in generated text. The model should not be used for identity theft or fraud.\n\n- Automate spam, phishing, or social engineering attacks by adapting malicious content to target many languages. This is unethical and users must not do this.\n\n- Unfairly favor high-resource languages over low-resource languages in applications, worsening inequities. Developers should carefully evaluate language-specific performance.\n\n[More Information Needed] on specific ways the model architecture or training data could enable misuse.\n\nIn general, the XLM-RoBERTa model is a tool that can be used for both beneficial and harmful purposes in many languages. Users have an ethical responsibility to deploy it only for legitimate applications that help rather than deceive people. Careful testing and monitoring for misuse across languages is advised."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the XLM-R model, here are some known or foreseeable issues, limitations, and potential harms:\n\nCapacity Dilution and Curse of Multilinguality:\n- As the number of languages increases in the multilingual model, the per-language capacity decreases for a fixed model size. This leads to a trade-off between positive transfer and capacity dilution. (Ref 5, 7)\n- The performance on downstream tasks suffers as more languages are added, known as the \"curse of multilinguality\". Increasing model capacity can help mitigate this to some extent. (Ref 5, 7)\n\nHigh-Resource vs Low-Resource Language Trade-off: \n- There is a trade-off between the performance on high-resource and low-resource languages. Improving low-resource language performance by adding similar high-resource languages during pretraining can hurt overall downstream performance. (Ref 7)\n\nVocabulary Dilution:\n- Using a fixed vocabulary size for all models leads to vocabulary dilution as more languages are added. (Ref 6) \n[More Information Needed] on specifics of how this impacts performance.\n\nMonolingual vs Multilingual Performance:\n- Multilingual models are often criticized for obtaining worse performance than their monolingual counterparts. (Ref 10)\n[More Information Needed] on direct comparisons between XLM-R and monolingual models.\n\nSampling and Pretraining Data:\n- The sampling rate of training examples from each language and the pretraining data used can significantly impact performance, especially for low-resource languages. (Ref 6) \n[More Information Needed] on the specifics of XLM-R's sampling strategy and pretraining data.\n\nPotential Misuse and Biases:\n[More Information Needed] The references do not directly address potential misuse cases or biases in XLM-R. Further analysis would be required to identify any biases in the pretraining data or potentially harmful applications of the model.\n\nTechnical Limitations:\n[More Information Needed] on any technical limitations like inference speed, memory requirements, etc. Detailed system specifications and benchmarks would be needed to identify these.\n\nIn summary, the key limitations seem to revolve around the trade-offs in multilingual modeling between the number of languages, positive transfer, capacity dilution, and high-resource vs low-resource language performance. More information is needed to draw conclusions about potential biases, misuse, and technical constraints."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the information provided in the references, here are some recommendations regarding foreseeable issues with the XLM-RoBERTa-base model:\n\n1. Capacity dilution: As the model is trained on 100 languages, the per-language capacity decreases compared to monolingual models. This can lead to reduced performance, especially for low-resource languages. Increasing model capacity (e.g., hidden size) can help mitigate this issue.\n\n2. High-resource vs. low-resource language trade-off: The model's performance on high-resource languages may come at the cost of lower performance on low-resource languages. Careful tuning of the language sampling rate (controlled by the \u03b1 parameter) is necessary to balance this trade-off.\n\n3. Vocabulary size limitations: The fixed vocabulary size of 150K tokens may not be sufficient to capture the full diversity of all 100 languages, leading to vocabulary dilution. [More Information Needed] on the impact of increasing vocabulary size on the model's performance.\n\n4. Language-specific performance: While XLM-RoBERTa-base may outperform previous multilingual models on cross-lingual tasks, it may still lag behind monolingual models for specific languages. [More Information Needed] on the model's performance compared to state-of-the-art monolingual models for each language.\n\n5. Bias and fairness: [More Information Needed] on potential biases in the training data and their impact on the model's performance across different languages, dialects, and demographic groups.\n\nTo address these issues, consider increasing model capacity, optimizing language sampling rates, and conducting thorough evaluations on a diverse set of languages and tasks. Additionally, ensure that the model is used responsibly and that its limitations are clearly communicated to users."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The XLM-RoBERTa model was trained on 2.5TB of filtered CommonCrawl data in 100 languages. The data was filtered using language models trained on each language and an internal language identification model in combination with fastText.\n\n[More Information Needed] for links to documentation related to data pre-processing or additional filtering."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "Based on the references provided, here are the details about the preprocessing for the data of the XLM-RoBERTa Base model:\n\nTokenization:\n- Used SentencePiece model (SPM) directly on raw text data for all languages, instead of language-specific tokenization tools\n- Trained a unigram language model for SentencePiece tokenization\n- Used a large vocabulary size of 250K tokens with a full softmax\n\nResizing/Rewriting:\n[More Information Needed]\n\nOther preprocessing details:\n- Sampled batches from different languages using the same sampling distribution as Lample and Conneau (2019), but with \u03b1 = 0.3\n- Did not use language embeddings, which allows the model to better deal with code-switching\n- Built a clean CommonCrawl Corpus in 100 languages using an internal language identification model in combination with the one from fastText\n- Trained language models in each language and used it to filter documents as described in Wenzek et al. (2019)\n- Considered one CommonCrawl dump for English and twelve dumps for all other languages, which significantly increased dataset sizes, especially for low-resource languages"
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the training hyperparameters for the XLM-R Base model:\n\nModel Architecture:\n- L = 12 (number of layers)\n- H = 768 (hidden size) \n- A = 12 (number of attention heads)\n\nTokenization:\n- Trained SentencePiece tokenization directly on raw text data\n- Used a unigram language model \n- Vocabulary size of 250K with a full softmax\n\nTraining Data:\n- Trained on the CommonCrawl corpus in 100 languages\n- Used an internal language identification model in combination with fastText for language identification\n- Trained language models in each language and used them to filter documents\n- Considered one CommonCrawl dump for English and twelve dumps for all other languages\n\nTraining Objective:\n- Used the multilingual MLM (Masked Language Model) objective with only monolingual data\n\nSampling:\n- Sampled batches from different languages using the same sampling distribution as Lample and Conneau (2019), but with \u03b1 = 0.3\n\nOther:\n- Did not use language embeddings to better deal with code-switching\n\n[More Information Needed] on specific hyperparameters like learning rate, batch size, number of training steps, optimizer, etc."
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the details I can provide about the xlm-roberta-base model:\n\nModel architecture:\n- Uses the BERT-base architecture\n\nModel size:\n- 250M parameters\n- 250k vocabulary size\n\nDownload link:\n[xlm.base.tar.gz](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.base.tar.gz)\n\nTraining data:\n- Trained on 2.5T of filtered CommonCrawl data in 100 languages\n\nPerformance:\n- Obtains state-of-the-art results on many cross-lingual understanding (XLU) benchmarks\n\n[More Information Needed]:\n- Throughput details\n- Training start and end times\n- Checkpoint sizes"
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the XLM-RoBERTa-base model is evaluated on the following benchmarks and datasets:\n\n1. Cross-lingual Natural Language Inference (XNLI) dataset, which covers 15 languages.\n\n2. Named Entity Recognition (NER) datasets: CoNLL-2002 (Dutch and Spanish) and CoNLL-2003 (English and German).\n\n3. Cross-lingual Question Answering: MLQA benchmark, which extends the English SQuAD dataset to Spanish, German, Arabic, Hindi, Vietnamese, and Chinese.\n\n4. GLUE (General Language Understanding Evaluation) benchmark for evaluating the model's performance on English natural language understanding tasks, such as MNLI, SST-2, and QNLI.\n\nThe model is fine-tuned and evaluated on these datasets to assess its cross-lingual transfer capabilities, per-language performance, and multilingual learning abilities."
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references about the XLM-RoBERTa-base model, here are some foreseeable characteristics that may influence the model's behavior:\n\nDomain and context:\n- The model was pretrained on the CommonCrawl (CC) dataset, which improved performance on low-resource languages compared to pretraining on just Wikipedia. So the model may perform better on domains and contexts similar to web crawl data.\n- The model was evaluated on cross-lingual natural language inference (XNLI), named entity recognition (NER), question answering (QA), and the GLUE benchmark. Performance may vary for other NLP tasks and domains.\n\nPopulation subgroups:\n- The model shows strong cross-lingual transfer and performance on low-resource languages like Swahili and Urdu when pretrained on CC data. However, performance disparities likely still exist between high-resource and low-resource languages.\n- [More Information Needed] on performance across other population subgroups, such as dialects, age groups, etc. Evaluation should ideally be disaggregated across these factors.\n\nOther factors:\n- Model performance is impacted by the number of languages it was pretrained on, the size of the shared vocabulary, and the sampling rate of training examples from each language.\n- Using a SentencePiece model for tokenization instead of language-specific tools makes the model easier to use on raw text without hurting performance.\n\nTo uncover potential performance disparities, more disaggregated evaluation is needed across languages, domains, and population subgroups. The provided references do not contain enough information to fully characterize the model's behavior across all relevant factors."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the provided references, the following metrics will be used to evaluate the XLM-RoBERTa-base model:\n\n1. Cross-lingual Natural Language Inference (XNLI): Accuracy\n2. Named Entity Recognition (NER): F1 score\n3. Cross-lingual Question Answering (MLQA): F1 score and Exact Match (EM) score\n4. GLUE benchmark: [More Information Needed] (The specific metrics for each GLUE task are not mentioned in the provided references)\n\nThe references also mention the trade-off between transfer learning and per-language capacity, known as the \"transfer-dilution trade-off\" or \"curse of multilinguality\". This suggests that while adding more languages can improve performance on low-resource languages, it may lead to an overall decrease in downstream performance due to limited model capacity."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the evaluation results for the XLM-RoBERTa-base model:\n\nCross-lingual Natural Language Inference (XNLI):\n- Evaluated on cross-lingual transfer from English to 14 other languages\n- Used machine translation baselines: translate-test, translate-train (per-language), and translate-train-all (multi-language)\n- [More Information Needed] for specific scores\n\nNamed Entity Recognition (NER):\n- Evaluated on CoNLL-2002 and CoNLL-2003 datasets in English, Dutch, Spanish, and German\n- Fine-tuned for (1) cross-lingual transfer from English, (2) per-language performance, and (3) multilingual learning\n- Reported F1 score\n- [More Information Needed] for specific scores and comparison to baselines\n\nCross-lingual Question Answering (MLQA):\n- Evaluated on MLQA benchmark, extending SQuAD to Spanish, German, Arabic, Hindi, Vietnamese, and Chinese\n- Reported F1 score and exact match (EM) score for cross-lingual transfer from English\n- [More Information Needed] for specific scores\n\nGLUE Benchmark:\n- Evaluated English performance on GLUE benchmark\n- [More Information Needed] for comparison to RoBERTa and specific scores\n\nThe references also mention a comparison between XLM and BERT on seven languages using a BERT-base architecture, but [More Information Needed] for the specific results of this comparison for the XLM-RoBERTa-base model."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the XLM-RoBERTa-base (XLM-R) model:\n\n- Cross-lingual Natural Language Inference (XNLI): XLM-R sets a new state of the art, obtaining 80.9% accuracy on cross-lingual transfer. It outperforms XLM-100 and mBERT models by 10.2% and 14.6% average accuracy, respectively. On low-resource languages like Swahili and Urdu, XLM-R significantly outperforms both XLM-100 and mBERT.\n\n- Named Entity Recognition (NER): XLM-R performs on par with the state of the art, even without using a linear-chain CRF on top of the representations. It outperforms Akbik et al. (2018) on Dutch by 2.09 points.\n\n- Question Answering (MLQA): XLM-R achieves new state of the art results, obtaining F1 and accuracy scores of 70.7% and 52.7%, outperforming the previous best by a significant margin. It also outperforms mBERT by 13.0% F1-score and 11.1% accuracy, and even surpasses BERT-Large on English.\n\n- GLUE Benchmark: [More Information Needed]\n\nThe references also suggest that multilingual models like XLM can outperform their monolingual BERT counterparts on the XNLI benchmark, as demonstrated by a comparison on 7 languages."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the experimental section on explainability/interpretability for the XLM-RoBERTa-base model:\n\nXLM-RoBERTa-base is a multilingual masked language model trained on a large corpus of filtered CommonCrawl data in 100 languages. The model follows the XLM approach closely, with improvements in the learning procedure inspired by RoBERTa to achieve better performance.\n\nExplainability and interpretability are important aspects to consider when developing and deploying deep learning models. For XLM-RoBERTa-base, [More Information Needed] on specific techniques or methods used to analyze and interpret the model's predictions and internal representations.\n\nFurther research and experiments could be conducted to gain insights into how XLM-RoBERTa-base captures and processes cross-lingual information. This may involve techniques such as:\n\n- [More Information Needed]\n- [More Information Needed]\n- [More Information Needed]\n\nBy investigating the model's behavior and decision-making process, we can better understand its strengths, limitations, and potential biases. This knowledge can help in developing more transparent and trustworthy multilingual models.\n\nAs the development of XLM-RoBERTa-base progresses, we aim to incorporate more explainability and interpretability techniques to provide a clearer understanding of the model's inner workings and improve its reliability in cross-lingual natural language understanding tasks."
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "Based on the provided references, XLM-R (XLM-RoBERTa) was trained on five-hundred 32GB Nvidia V100 GPUs with a batch size of 8192, as stated in reference 6:\n\n\"We use the multilingual MLM loss and train our XLM-R model for 1.5 Million updates on five-hundred 32GB Nvidia V100 GPUs with a batch size of 8192.\""
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "Based on the references provided, the XLM-RoBERTa (XLM-R) model is trained on CommonCrawl data that has been filtered and cleaned. Specifically, from reference 6:\n\n\"It is trained on `2.5T` of filtered CommonCrawl data in 100 languages.\"\n\nSo in summary, the software type that the XLM-RoBERTa Base model is trained on is filtered and cleaned CommonCrawl data."
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the training time for the XLM-RoBERTa-base model. More details would be needed from the model training logs or documentation to determine the exact amount of time used for training."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not mention the specific cloud provider used for training the XLM-RoBERTa-base model. More information would be needed to determine which cloud provider, if any, was used in the training process."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain any information about the carbon emissions from training the XLM-RoBERTa-base model. To answer this question, we would need more specific details on the computational resources used during training, such as the hardware specs, training duration, energy consumption, etc. Without that information, it is not possible to estimate the carbon footprint of the model training process."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\n- XLM-R Base has an architecture similar to BERT Base, with L=12 layers, H=768 hidden size, A=12 attention heads, and 270M parameters total.\n- It uses a large vocabulary size of 250K with a full softmax.\n\nTraining Objective:\n- XLM-R is trained with the multilingual MLM (masked language modeling) objective, following the XLM approach.\n- It only uses monolingual data, with training data sampled from different languages.\n- The model is trained to predict the masked tokens in the input.\n\nOther Details:\n- XLM-R is trained on CommonCrawl data in 100 languages, with a total of 2.5T tokens after filtering.\n- It uses SentencePiece tokenization with a unigram language model.\n- Language embeddings are not used, allowing the model to better handle code-switching.\n- [More Information Needed] on the specific training hyperparameters like batch size, learning rate, etc."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the compute infrastructure information I could find about the XLM-RoBERTa Base model:\n\nThe XLM-RoBERTa Base model has an architecture with:\n- L = 12 layers\n- H = 768 hidden states \n- A = 12 attention heads\n\nThe model was trained for 1.5 million updates on five-hundred 32GB Nvidia V100 GPUs with a batch size of 8192.\n\n[More Information Needed] on the exact training time and any other compute infrastructure details."
+  }
+]

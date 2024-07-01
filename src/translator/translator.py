@@ -23,7 +23,9 @@ class SeamlessTranslator(Translator):
     
     """
     def prepare_model(self):
-        from transformers import AutoProcessor, SeamlessM4TModel
+        from transformers import AutoProcessor
+        # from transformers import SeamlessM4TModel
+        from transformers_customized.models.seamless_m4t.modeling_seamless_m4t import SeamlessM4TModel
         self.processor = AutoProcessor.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir, use_fast=False)
         self.model = SeamlessM4TModel.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir).to(self.device)
 
@@ -88,7 +90,7 @@ class GoogleTranslator(Translator):
             dest=self.args.lang_dict[tgt_lang],
             src=self.args.lang_dict[src_lang]
         )
-        return translated_text
+        return translated_text.text
 
 class LLMTranslator(Translator):
     def prepare_model(self):
