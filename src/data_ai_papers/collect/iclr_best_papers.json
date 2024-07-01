@@ -14,13 +14,6 @@
     "link": null
   },
   {
-    "title": "Emergence of Maps in the Memories of Blind Navigation Agents",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
     "title": "Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching",
     "venue": "ICLR",
     "year": 2023,
@@ -29,20 +22,6 @@
   },
   {
     "title": "Rethinking the Expressive Power of GNNs via Graph Biconnectivity",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Rethinking the Expressive Power of GNNs via Graph Biconnectivity",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching",
     "venue": "ICLR",
     "year": 2023,
     "award": "Outstanding Paper",
@@ -63,20 +42,6 @@
     "link": null
   },
   {
-    "title": "Conditional Antibody Design as 3D Equivariant Graph Translation",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "On the duality between contrastive and non-contrastive self-supervised learning",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
     "title": "On the duality between contrastive and non-contrastive self-supervised learning",
     "venue": "ICLR",
     "year": 2023,
@@ -85,20 +50,6 @@
   },
   {
     "title": "Disentanglement with Biological Constraints: A Theory of Functional Cell Types",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "Disentanglement with Biological Constraints: A Theory of Functional Cell Types",
-    "venue": "ICLR",
-    "year": 2023,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning",
     "venue": "ICLR",
     "year": 2023,
     "award": "Honorable Mention",
@@ -140,27 +91,6 @@
     "link": null
   },
   {
-    "title": "Learning Strides in Convolutional Neural Networks",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Expressiveness and Approximation Properties of Graph Neural Networks",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
     "title": "Expressiveness and Approximation Properties of Graph Neural Networks",
     "venue": "ICLR",
     "year": 2022,
@@ -182,56 +112,7 @@
     "link": null
   },
   {
-    "title": "Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Bootstrapped Meta-Learning",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Hyperparameter Tuning with Renyi Differential Privacy",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Comparing Distributions by Measuring Differences that Affect Decision Making",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Outstanding Paper",
-    "link": null
-  },
-  {
     "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "PiCO: Contrastive Label Disambiguation for Partial Label Learning",
-    "venue": "ICLR",
-    "year": 2022,
-    "award": "Honorable Mention",
-    "link": null
-  },
-  {
-    "title": "Understanding over-squashing and bottlenecks on graphs via curvature",
     "venue": "ICLR",
     "year": 2022,
     "award": "Honorable Mention",
