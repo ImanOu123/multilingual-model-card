@@ -1,0 +1,170 @@
+[
+  {
+    "title": "The Information Retrieval Experiment Platform",
+    "venue": "SIGIR",
+    "year": "2023",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "A Non-Factoid Question-Answering Taxonomy",
+    "venue": "SIGIR",
+    "year": "2022",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness",
+    "venue": "SIGIR",
+    "year": "2021",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Controlling Fairness and Bias in Dynamic Learning-to-rank",
+    "venue": "SIGIR",
+    "year": "2020",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Variance Reduction in Gradient Exploration for Online Learning to Rank",
+    "venue": "SIGIR",
+    "year": "2019",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Should I Follow the Crowd? A Probabilistic Analysis of the Effectiveness of Popularity in Recommender Systems",
+    "venue": "SIGIR",
+    "year": "2018",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "BitFunnel: Revisiting Signatures for Search",
+    "venue": "SIGIR",
+    "year": "2017",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Understanding Information Need: An fMRI Study",
+    "venue": "SIGIR",
+    "year": "2016",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees",
+    "venue": "SIGIR",
+    "year": "2015",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Partitioned Elias-Fano Indexes",
+    "venue": "SIGIR",
+    "year": "2014",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Beliefs and Biases in Web Search",
+    "venue": "SIGIR",
+    "year": "2013",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Time-Based Calibration of Effectiveness Measures",
+    "venue": "SIGIR",
+    "year": "2012",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Find It If You Can: A Game for Modeling Different Types of Web Search Success Using Interaction Data",
+    "venue": "SIGIR",
+    "year": "2011",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Assessing the Scenic Route: Measuring the Value of Search Trails in Web Logs",
+    "venue": "SIGIR",
+    "year": "2010",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Sources of evidence for vertical selection",
+    "venue": "SIGIR",
+    "year": "2009",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Algorithmic Mediation for Collaborative Exploratory Search",
+    "venue": "SIGIR",
+    "year": "2008",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Studying the Use of Popular Destinations to Enhance Web Search Interaction",
+    "venue": "SIGIR",
+    "year": "2007",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Minimal Test Collections for Retrieval Evaluation",
+    "venue": "SIGIR",
+    "year": "2006",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning to estimate query difficulty: including applications to missing content detection and distributed information retrieval",
+    "venue": "SIGIR",
+    "year": "2005",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "A Formal Study of Information Retrieval Heuristics",
+    "venue": "SIGIR",
+    "year": "2004",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Re-examining the potential effectiveness of interactive query expansion",
+    "venue": "SIGIR",
+    "year": "2003",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Novelty and redundancy detection in adaptive filtering",
+    "venue": "SIGIR",
+    "year": "2002",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Temporal summaries of new topics",
+    "venue": "SIGIR",
+    "year": "2001",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "IR evaluation methods for retrieving highly relevant documents",
+    "venue": "SIGIR",
+    "year": "2000",
+    "award": "Best Paper Award",
+    "link": null
+  }
+]

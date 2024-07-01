@@ -1,0 +1,177 @@
+[
+  {
+    "title": "All in One: Multi-task Prompting for Graph Neural Networks",
+    "venue": "KDD",
+    "year": "2023",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning Causal Effects on Hypergraphs",
+    "venue": "KDD",
+    "year": "2022",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Fast and Memory-Efficient Tucker Decomposition for Answering Diverse Time Range Queries",
+    "venue": "KDD",
+    "year": "2021",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "On Sampled Metrics for Item Recommendation",
+    "venue": "KDD",
+    "year": "2020",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Optimizing Impression Counts for Outdoor Advertising",
+    "venue": "KDD",
+    "year": "2019",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Adversarial Attacks on Neural Networks for Graph Data",
+    "venue": "KDD",
+    "year": "2018",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Accelerating Innovation Through Analogy Mining",
+    "venue": "KDD",
+    "year": "2017",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
+    "venue": "KDD",
+    "year": "2016",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Efficient Algorithms for Public-Private Social Networks",
+    "venue": "KDD",
+    "year": "2015",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Reducing the Sampling Complexity of Topic Models",
+    "venue": "KDD",
+    "year": "2014",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Simple and Deterministic Matrix Sketching",
+    "venue": "KDD",
+    "year": "2013",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping",
+    "venue": "KDD",
+    "year": "2012",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Leakage in Data Mining: Formulation, Detection, and Avoidance",
+    "venue": "KDD",
+    "year": "2011",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Connecting the dots between news articles",
+    "venue": "KDD",
+    "year": "2010",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Large linear classification when data cannot fit in memory",
+    "venue": "KDD",
+    "year": "2010",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Collaborative Filtering with Temporal Dynamics",
+    "venue": "KDD",
+    "year": "2009",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Fastanova: an efficient algorithm for genome-wide association study",
+    "venue": "KDD",
+    "year": "2008",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Predictive discrete latent factor models for large scale dyadic data",
+    "venue": "KDD",
+    "year": "2007",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Training linear SVMs in linear time",
+    "venue": "KDD",
+    "year": "2006",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Graphs over time: densification laws, shrinking diameters and possible explanations",
+    "venue": "KDD",
+    "year": "2005",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "A probabilistic framework for semi-supervised clustering",
+    "venue": "KDD",
+    "year": "2004",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Maximizing the spread of influence through a social network",
+    "venue": "KDD",
+    "year": "2003",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Pattern discovery in sequences under a Markov assumption",
+    "venue": "KDD",
+    "year": "2002",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Robust space transformations for distance-based operations",
+    "venue": "KDD",
+    "year": "2001",
+    "award": "Best Paper Award",
+    "link": null
+  },
+  {
+    "title": "Hancock: a language for extracting signatures from data streams",
+    "venue": "KDD",
+    "year": "2000",
+    "award": "Best Paper Award",
+    "link": null
+  }
+]
