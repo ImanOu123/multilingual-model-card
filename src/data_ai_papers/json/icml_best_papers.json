@@ -1,45 +1,45 @@
 [
   {
-    "title": "Learning Fair Representations",
-    "venue": "ICML",
-    "year": 2023,
-    "award": "Test of Time Award",
-    "link": null
-  },
-  {
     "title": "Learning-Rate-Free Learning by D-Adaptation",
     "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
-    "link": null
-  },
-  {
-    "title": "Adapting to game trees in zero-sum imperfect information games",
-    "venue": "ICML",
-    "year": 2023,
-    "award": "Outstanding Paper",
-    "link": null
+    "link": "https://openreview.net/forum?id=GXZ6cT5cvY"
   },
   {
     "title": "A Watermark for Large Language Models",
     "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
-    "link": null
+    "link": "https://openreview.net/forum?id=aX8ig9X2a7"
   },
   {
     "title": "Generalization on the Unseen, Logic Reasoning and Degree Curriculum",
     "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
-    "link": null
+    "link": "https://openreview.net/forum?id=3dqwXb1te4"
   },
   {
-    "title": "Test of Time Award",
+    "title": "Adapting to game trees in zero-sum imperfect information games",
     "venue": "ICML",
-    "year": 2022,
-    "award": "Test of Time Award",
-    "link": null
+    "year": 2023,
+    "award": "Outstanding Paper",
+    "link": "https://openreview.net/forum?id=O1j4uFuSVW"
+  },
+  {
+    "title": "Self-Repellent Random Walks on General Graphs - Achieving Minimal Sampling Variance via Nonlinear Markov Chains",
+    "venue": "ICML",
+    "year": 2023,
+    "award": "Outstanding Paper",
+    "link": "https://openreview.net/forum?id=450iImFM4U"
+  },
+  {
+    "title": "Bayesian Design Principles for Frequentist Sequential Learning",
+    "venue": "ICML",
+    "year": 2023,
+    "award": "Outstanding Paper",
+    "link": "https://openreview.net/forum?id=tRhQsHnoFw"
   },
   {
     "title": "The Importance of Non-Markovianity in Maximum State Entropy Exploration",
@@ -182,7 +182,7 @@
     "link": null
   },
   {
-    "title": "Test of Time: Gaussian Process Optimization in the Bandit Settings: No Regret and Experimental Design",
+    "title": "Gaussian Process Optimization in the Bandit Settings: No Regret and Experimental Design",
     "venue": "ICML",
     "year": 2020,
     "award": "Test of Time Award",
@@ -192,14 +192,14 @@
     "title": "Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems",
     "venue": "ICML",
     "year": 2020,
-    "award": "Outstanding Paper",
+    "award": "Outstanding Paper Awards",
     "link": null
   },
   {
     "title": "On Learning Sets of Symmetric Elements",
     "venue": "ICML",
     "year": 2020,
-    "award": "Outstanding Paper",
+    "award": "Outstanding Paper Awards",
     "link": null
   },
   {
@@ -255,28 +255,28 @@
     "title": "The Mechanics of n-Player Differentiable Games",
     "venue": "ICML",
     "year": 2018,
-    "award": "Best Paper Awards",
+    "award": "Best Paper Runner Up Awards",
     "link": null
   },
   {
     "title": "Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices",
     "venue": "ICML",
     "year": 2018,
-    "award": "Best Paper Awards",
+    "award": "Best Paper Runner Up Awards",
     "link": null
   },
   {
     "title": "Fairness Without Demographics in Repeated Loss Minimization",
     "venue": "ICML",
     "year": 2018,
-    "award": "Best Paper Awards",
+    "award": "Best Paper Runner Up Awards",
     "link": null
   },
   {
     "title": "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning",
     "venue": "ICML",
     "year": 2018,
-    "award": "Best Paper Awards",
+    "award": "Test of Time Award",
     "link": null
   },
   {
@@ -389,6 +389,20 @@
     "venue": "ICML",
     "year": 2014,
     "award": "10 Year Paper",
+    "link": null
+  },
+  {
+    "title": "Discrete Chebyshev Classifiers",
+    "venue": "ICML",
+    "year": 2014,
+    "award": "Best Paper Runner Up Award",
+    "link": null
+  },
+  {
+    "title": "Compositional Morphology for Word Representations and Language Modelling",
+    "venue": "ICML",
+    "year": 2014,
+    "award": "Application Paper",
     "link": null
   },
   {
