@@ -51,10 +51,8 @@ class ArxivSpider(Spider):
         while curr_tries < self.max_tries:
             try:
                 paper = next(arxiv.Search(id_list=[arxiv_id]).results())
-                paper.download_pdf(dirpath=dir_path, filename=str(Path(dir_path) / f"{file_hash}.pdf"))
-                return {
-                    "file_hash": file_hash
-                }
+                paper.download_pdf(dirpath=dir_path, filename=f"{file_hash}.pdf")
+                break
             except Exception as e:
                 print(e)
             curr_tries += 1
