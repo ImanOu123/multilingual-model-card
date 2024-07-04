@@ -1,0 +1,163 @@
+[
+  {
+    "title": "On Sampled Metrics for Item Recommendation",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/on-sampled-metrics-for-item-recommendation"
+  },
+  {
+    "title": "Malicious Attacks against Deep Reinforcement Learning Interpretations",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD RUNNER-UP Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/malicious-attacks-against-deep-reinforcement-learning-interpretations"
+  },
+  {
+    "title": "TIPRDC: Task-Independent Privacy-Respecting Data Crowdsourcing Framework for Deep Learning with Anonymized Intermediate Representations",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/tiprdc-task-independent-privacy-respecting-data-crowdsourcing-framework-for"
+  },
+  {
+    "title": "Temporal-Contextual Recommendation in Real-Time",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/temporal-contextual-recommendation-in-real-time"
+  },
+  {
+    "title": "Actions Speak Louder Than Goals: Valuing Player Actions in Soccer",
+    "venue": "SIGKDD",
+    "year": 2019,
+    "award": "Winner Research Track",
+    "link": "https://www.kdd.org/kdd2019/accepted-papers/view/actions-speak-louder-than-goals-valuing-player-actions-in-soccer"
+  },
+  {
+    "title": "Developing Measures of Cognitive Impairment in the Real World from Consumer-Grade Multimodal Sensor Streams",
+    "venue": "SIGKDD",
+    "year": 2019,
+    "award": "Runner Up Research Track",
+    "link": "https://www.kdd.org/kdd2019/accepted-papers/view/developing-measures-of-cognitive-impairment-in-the-real-world-from-consumer"
+  },
+  {
+    "title": "Adversarial Attacks on Neural Networks for Graph Data",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/adversarial-attacks-on-neural-networks-for-graph-data"
+  },
+  {
+    "title": "XiaoIce Band: A Melody and Arrangement Generation Framework for Pop Music",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/xiaoice-banda-melody-and-arrangement-generation-framework-for-pop-music"
+  },
+  {
+    "title": "Real-time Personalization using Embeddings for Search Ranking at Airbnb",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb"
+  },
+  {
+    "title": "ActiveRemediation: The Search for Lead Pipes in Flint, Michigan",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/activeremediation-the-search-for-lead-pipes-in-flint-michigan"
+  },
+  {
+    "title": "Accelerating Innovation Through Analogy Mining",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD Accelerating Innovation Through Analogy Mining Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/accelerating-innovation-through-analogy-mining"
+  },
+  {
+    "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/toeplitz-inverse-covariance-based-clustering-of-multivariate-time-series-da"
+  },
+  {
+    "title": "HinDroid: An Intelligent Android\u00a0Malware Detection System Based on Structured Heterogeneous\u00a0Information Network",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD HinDroid: An Intelligent Android\u00a0Malware Detection System Based on Structured Heterogeneous\u00a0Information Network Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/hindroid-an-intelligent-android-malware-detection-system-based-on-structure"
+  },
+  {
+    "title": "DeepSD: Generating High Resolution\u00a0Climate Change Projections through Single Image Super-Resolution",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD DeepSD: Generating High Resolution\u00a0Climate Change Projections through Single Image Super-Resolution Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/deepsd-generating-high-resolution-climate-change-projections-through-single"
+  },
+  {
+    "title": "An efficient bandit algorithm for realtime multivariate optimization",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD An efficient bandit algorithm for realtime multivariate optimization Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/an-efficient-bandit-algorithm-for-realtime-multivariate-optimization"
+  },
+  {
+    "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD FRAUDAR: Bounding Graph Fraud in the Face of Camouflage Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/fraudar-bounding-graph-fraud-in-the-face-of-camouflage"
+  },
+  {
+    "title": "Ranking Causal Anomalies via Temporal and Dynamical Analysis on Vanishing Correlations",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Ranking Causal Anomalies via Temporal and Dynamical Analysis on Vanishing Correlations Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/ranking-causal-anomalies-via-temporal-and-dynamical-analysis-on-vanishing-c"
+  },
+  {
+    "title": "TRI\u00c8ST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD TRI\u00c8ST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/triest-counting-local-and-global-triangles-in-fully-dynamic-streams-with-fi"
+  },
+  {
+    "title": "Predicting matchups and preferences in context",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Predicting matchups and preferences in context Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/predicting-matchups-and-preferences-in-context"
+  },
+  {
+    "title": "Ranking Relevance in Yahoo Search",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Ranking Relevance in Yahoo Search Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/ranking-relevance-in-yahoo-search"
+  },
+  {
+    "title": "Matrix Computations and Optimization in Apache Spark",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Matrix Computations and Optimization in Apache Spark Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/matrix-computations-and-optimization-in-apache-spark"
+  },
+  {
+    "title": "Contextual Intent Tracking for Personal Assistants",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Contextual Intent Tracking for Personal Assistants Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/contextual-intent-tracking-for-personal-assistants"
+  },
+  {
+    "title": "Firebird: Predicting Fire Risk and Prioritizing Fire Inspections in Atlanta",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Firebird: Predicting Fire Risk and Prioritizing Fire Inspections in Atlanta Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/firebird-predicting-fire-risk-and-prioritizing-fire-inspections-in-atlanta"
+  }
+]

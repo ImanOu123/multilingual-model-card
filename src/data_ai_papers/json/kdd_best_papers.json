@@ -1,177 +1,632 @@
 [
   {
     "title": "All in One: Multi-task Prompting for Graph Neural Networks",
-    "venue": "KDD",
-    "year": "2023",
-    "award": "Best Paper Award",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Best Paper Award Research",
+    "link": null
+  },
+  {
+    "title": "Feature-based Learning for Diverse and Privacy-Preserving Counterfactual Explanations",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Best Student Paper Research",
+    "link": null
+  },
+  {
+    "title": "Improving Training Stability for Multitask Ranking Models in Recommender Systems",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Best Paper Award Applied Data Science",
+    "link": null
+  },
+  {
+    "title": "Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms",
+    "venue": "Conference",
+    "year": 2013,
+    "award": "Test of Time Award for Research",
+    "link": null
+  },
+  {
+    "title": "Ad Click Prediction: A View From the Trenches",
+    "venue": "Conference",
+    "year": 2013,
+    "award": "Test of Time Award for Applied Data Science",
+    "link": null
+  },
+  {
+    "title": "On the Predictive Power of Graph Neural Networks",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Outstanding Dissertation Award",
+    "link": null
+  },
+  {
+    "title": "Characterization and Detection of Disinformation Spreading in Online Social Networks",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Outstanding Dissertation Award Runner Up",
+    "link": null
+  },
+  {
+    "title": "Efficient and Secure Message Passing for Machine Learning",
+    "venue": "Conference",
+    "year": 2023,
+    "award": "Outstanding Dissertation Award Runner Up",
     "link": null
   },
   {
     "title": "Learning Causal Effects on Hypergraphs",
-    "venue": "KDD",
-    "year": "2022",
-    "award": "Best Paper Award",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Research Paper Award",
     "link": null
   },
   {
-    "title": "Fast and Memory-Efficient Tucker Decomposition for Answering Diverse Time Range Queries",
-    "venue": "KDD",
-    "year": "2021",
-    "award": "Best Paper Award",
+    "title": "Partial-Quasi-Newton Methods: Efficient Algorithms for Minimax Optimization Problems with Unbalanced Dimensionality",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Flexible Modeling and Multitask Learning using Differentiable Tree Ensembles",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "EasyFGL: Towards a Unified, Comprehensive and Efficient Platform for Federated Graph Learning",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Applied Data Science Paper Award",
+    "link": null
+  },
+  {
+    "title": "Deploying Flexible Forecasting at Scale in LinkedIn",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Applied Data Science Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Collaborative Topic Modeling for Recommending Scientific Articles",
+    "venue": "SIGKDD",
+    "year": 2011,
+    "award": "Test of Time Award for Research",
+    "link": null
+  },
+  {
+    "title": "Overlapping Experiment Infrastructure: More, Better, Faster Experimentation",
+    "venue": "SIGKDD",
+    "year": 2010,
+    "award": "Test of Time Award for Applied Data Science",
     "link": null
   },
   {
     "title": "On Sampled Metrics for Item Recommendation",
-    "venue": "KDD",
-    "year": "2020",
-    "award": "Best Paper Award",
-    "link": null
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/on-sampled-metrics-for-item-recommendation"
   },
   {
-    "title": "Optimizing Impression Counts for Outdoor Advertising",
-    "venue": "KDD",
-    "year": "2019",
-    "award": "Best Paper Award",
-    "link": null
+    "title": "Malicious Attacks against Deep Reinforcement Learning Interpretations",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD RUNNER-UP Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/malicious-attacks-against-deep-reinforcement-learning-interpretations"
+  },
+  {
+    "title": "TIPRDC: Task-Independent Privacy-Respecting Data Crowdsourcing Framework for Deep Learning with Anonymized Intermediate Representations",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/tiprdc-task-independent-privacy-respecting-data-crowdsourcing-framework-for"
+  },
+  {
+    "title": "Temporal-Contextual Recommendation in Real-Time",
+    "venue": "SIGKDD",
+    "year": 2020,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2020/accepted-papers/view/temporal-contextual-recommendation-in-real-time"
+  },
+  {
+    "title": "Actions Speak Louder Than Goals: Valuing Player Actions in Soccer",
+    "venue": "SIGKDD",
+    "year": 2019,
+    "award": "Winner Research Track",
+    "link": "https://www.kdd.org/kdd2019/accepted-papers/view/actions-speak-louder-than-goals-valuing-player-actions-in-soccer"
+  },
+  {
+    "title": "Developing Measures of Cognitive Impairment in the Real World from Consumer-Grade Multimodal Sensor Streams",
+    "venue": "SIGKDD",
+    "year": 2019,
+    "award": "Runner Up Research Track",
+    "link": "https://www.kdd.org/kdd2019/accepted-papers/view/developing-measures-of-cognitive-impairment-in-the-real-world-from-consumer"
   },
   {
     "title": "Adversarial Attacks on Neural Networks for Graph Data",
-    "venue": "KDD",
-    "year": "2018",
-    "award": "Best Paper Award",
-    "link": null
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/adversarial-attacks-on-neural-networks-for-graph-data"
+  },
+  {
+    "title": "XiaoIce Band: A Melody and Arrangement Generation Framework for Pop Music",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/xiaoice-banda-melody-and-arrangement-generation-framework-for-pop-music"
+  },
+  {
+    "title": "Real-time Personalization using Embeddings for Search Ranking at Airbnb",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb"
+  },
+  {
+    "title": "ActiveRemediation: The Search for Lead Pipes in Flint, Michigan",
+    "venue": "SIGKDD",
+    "year": 2018,
+    "award": "BEST STUDENT PAPER AWARD Research Track",
+    "link": "https://www.kdd.org/kdd2018/accepted-papers/view/activeremediation-the-search-for-lead-pipes-in-flint-michigan"
   },
   {
     "title": "Accelerating Innovation Through Analogy Mining",
-    "venue": "KDD",
-    "year": "2017",
-    "award": "Best Paper Award",
-    "link": null
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD Accelerating Innovation Through Analogy Mining Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/accelerating-innovation-through-analogy-mining"
+  },
+  {
+    "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/toeplitz-inverse-covariance-based-clustering-of-multivariate-time-series-da"
+  },
+  {
+    "title": "HinDroid: An Intelligent Android\u00a0Malware Detection System Based on Structured Heterogeneous\u00a0Information Network",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD HinDroid: An Intelligent Android\u00a0Malware Detection System Based on Structured Heterogeneous\u00a0Information Network Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/hindroid-an-intelligent-android-malware-detection-system-based-on-structure"
+  },
+  {
+    "title": "DeepSD: Generating High Resolution\u00a0Climate Change Projections through Single Image Super-Resolution",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD DeepSD: Generating High Resolution\u00a0Climate Change Projections through Single Image Super-Resolution Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/deepsd-generating-high-resolution-climate-change-projections-through-single"
+  },
+  {
+    "title": "An efficient bandit algorithm for realtime multivariate optimization",
+    "venue": "SIGKDD",
+    "year": 2017,
+    "award": "BEST PAPER AWARD An efficient bandit algorithm for realtime multivariate optimization Research Track",
+    "link": "http://www.kdd.org/kdd2017/papers/view/an-efficient-bandit-algorithm-for-realtime-multivariate-optimization"
   },
   {
     "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
-    "venue": "KDD",
-    "year": "2016",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD FRAUDAR: Bounding Graph Fraud in the Face of Camouflage Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/fraudar-bounding-graph-fraud-in-the-face-of-camouflage"
+  },
+  {
+    "title": "Ranking Causal Anomalies via Temporal and Dynamical Analysis on Vanishing Correlations",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Ranking Causal Anomalies via Temporal and Dynamical Analysis on Vanishing Correlations Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/ranking-causal-anomalies-via-temporal-and-dynamical-analysis-on-vanishing-c"
+  },
+  {
+    "title": "TRI\u00c8ST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD TRI\u00c8ST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/triest-counting-local-and-global-triangles-in-fully-dynamic-streams-with-fi"
+  },
+  {
+    "title": "Predicting matchups and preferences in context",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Predicting matchups and preferences in context Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/predicting-matchups-and-preferences-in-context"
+  },
+  {
+    "title": "Ranking Relevance in Yahoo Search",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Ranking Relevance in Yahoo Search Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/ranking-relevance-in-yahoo-search"
+  },
+  {
+    "title": "Matrix Computations and Optimization in Apache Spark",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST PAPER AWARD Matrix Computations and Optimization in Apache Spark Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/matrix-computations-and-optimization-in-apache-spark"
+  },
+  {
+    "title": "Contextual Intent Tracking for Personal Assistants",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Contextual Intent Tracking for Personal Assistants Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/contextual-intent-tracking-for-personal-assistants"
+  },
+  {
+    "title": "Firebird: Predicting Fire Risk and Prioritizing Fire Inspections in Atlanta",
+    "venue": "SIGKDD",
+    "year": 2016,
+    "award": "BEST STUDENT PAPER AWARD Firebird: Predicting Fire Risk and Prioritizing Fire Inspections in Atlanta Research Track",
+    "link": "http://www.kdd.org/kdd2016/subtopic/view/firebird-predicting-fire-risk-and-prioritizing-fire-inspections-in-atlanta"
+  },
+  {
+    "title": "Efficient Algorithms for Public-Private Social Networks",
+    "venue": "SIGKDD",
+    "year": 2022,
     "award": "Best Paper Award",
     "link": null
   },
   {
-    "title": "Efficient Algorithms for Public-Private Social Networks",
-    "venue": "KDD",
-    "year": "2015",
-    "award": "Best Paper Award",
+    "title": "Who supported Obama in 2012? Ecological inference through distribution regression",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Edge-Weighted Personalized PageRank: Breaking a Decade-Old Performance Barrier",
+    "venue": "SIGKDD",
+    "year": 2022,
+    "award": "Best Student Paper Award",
     "link": null
   },
   {
     "title": "Reducing the Sampling Complexity of Topic Models",
-    "venue": "KDD",
-    "year": "2014",
-    "award": "Best Paper Award",
+    "venue": "SIGKDD",
+    "year": 2014,
+    "award": "Best Research Track Paper Award",
     "link": null
   },
   {
-    "title": "Simple and Deterministic Matrix Sketching",
-    "venue": "KDD",
-    "year": "2013",
-    "award": "Best Paper Award",
+    "title": "Efficient SimRank Computation via Linearization",
+    "venue": "SIGKDD",
+    "year": 2014,
+    "award": "Best Research Track Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping",
-    "venue": "KDD",
-    "year": "2012",
-    "award": "Best Paper Award",
+    "title": "An Efficient Algorithm For Weak Hierarchical Lasso",
+    "venue": "SIGKDD",
+    "year": 2014,
+    "award": "Best Student Paper Award",
     "link": null
   },
   {
-    "title": "Leakage in Data Mining: Formulation, Detection, and Avoidance",
-    "venue": "KDD",
-    "year": "2011",
-    "award": "Best Paper Award",
-    "link": null
-  },
-  {
-    "title": "Connecting the dots between news articles",
-    "venue": "KDD",
-    "year": "2010",
-    "award": "Best Paper Award",
-    "link": null
-  },
-  {
-    "title": "Large linear classification when data cannot fit in memory",
-    "venue": "KDD",
-    "year": "2010",
-    "award": "Best Paper Award",
+    "title": "Fast Flux Discriminant for Large-Scale Sparse Nonlinear Classification",
+    "venue": "SIGKDD",
+    "year": 2014,
+    "award": "Best Student Paper Award Runner-Up",
     "link": null
   },
   {
     "title": "Collaborative Filtering with Temporal Dynamics",
-    "venue": "KDD",
-    "year": "2009",
-    "award": "Best Paper Award",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Research Paper Award",
     "link": null
   },
   {
-    "title": "Fastanova: an efficient algorithm for genome-wide association study",
-    "venue": "KDD",
-    "year": "2008",
-    "award": "Best Paper Award",
+    "title": "A LRT Framework for Fast Spatial Anomaly Detection",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Research Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Predictive discrete latent factor models for large scale dyadic data",
-    "venue": "KDD",
-    "year": "2007",
-    "award": "Best Paper Award",
+    "title": "Large-Scale Behavioral Targeting",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Application Paper Award",
     "link": null
   },
   {
-    "title": "Training linear SVMs in linear time",
-    "venue": "KDD",
-    "year": "2006",
-    "award": "Best Paper Award",
+    "title": "Sustainable Operation and Management of Data Center Chillers using Temporal Data Mining",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Application Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Graphs over time: densification laws, shrinking diameters and possible explanations",
-    "venue": "KDD",
-    "year": "2005",
-    "award": "Best Paper Award",
+    "title": "Anonymizing Healthcare Data: A Case Study on the Blood Transfusion Service",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Student Paper Award",
     "link": null
   },
   {
-    "title": "A probabilistic framework for semi-supervised clustering",
-    "venue": "KDD",
-    "year": "2004",
-    "award": "Best Paper Award",
+    "title": "Optimizing Web Traffic via the Media Scheduling Problem",
+    "venue": "SIGKDD",
+    "year": 2009,
+    "award": "Best Student Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Maximizing the spread of influence through a social network",
-    "venue": "KDD",
-    "year": "2003",
-    "award": "Best Paper Award",
+    "title": "FastANOVA: an efficient algorithm for genome-wide association study",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Research Paper Award",
     "link": null
   },
   {
-    "title": "Pattern discovery in sequences under a Markov assumption",
-    "venue": "KDD",
-    "year": "2002",
-    "award": "Best Paper Award",
+    "title": "Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Research Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Robust space transformations for distance-based operations",
-    "venue": "KDD",
-    "year": "2001",
-    "award": "Best Paper Award",
+    "title": "SPIRAL: Efficient and Exact Model Identification for Hidden Markov Models",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Research Paper Award Runner-Up",
     "link": null
   },
   {
-    "title": "Hancock: a language for extracting signatures from data streams",
-    "venue": "KDD",
-    "year": "2000",
-    "award": "Best Paper Award",
+    "title": "Effective Label Acquisition for Collective Classification",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Volatile Correlation Computation: A Checkpoint View",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Student Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Context-Aware Query Suggestion by Mining Click-Through and Session Data",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning from Multi-Topic Web Documents for Contextual Advertising",
+    "venue": "SIGKDD",
+    "year": 2008,
+    "award": "Best Application Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Predictive Discrete Latent Factor Models for Large Scale Dyadic Data",
+    "venue": "SIGKDD",
+    "year": 2007,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Evolutionary Spectral Clustering by Incorporating Temporal Smoothness",
+    "venue": "SIGKDD",
+    "year": 2007,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Cost-effective Outbreak Detection in Networks",
+    "venue": "SIGKDD",
+    "year": 2007,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Automatic Labeling of Multinomial Topic Models",
+    "venue": "SIGKDD",
+    "year": 2007,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "An Event-based Framework for Characterizing the Evolutionary Behavior of Interaction Graphs",
+    "venue": "SIGKDD",
+    "year": 2007,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Training Linear SVMs in Linear Time",
+    "venue": "SIGKDD",
+    "year": 2006,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Accessing Data Mining Results via Swap Randomization",
+    "venue": "SIGKDD",
+    "year": 2006,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Very Sparse Random Projections",
+    "venue": "SIGKDD",
+    "year": 2006,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Generating Semantic Annotations for Frequent Patterns with Context Analysis",
+    "venue": "SIGKDD",
+    "year": 2006,
+    "award": "Best Student Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Graphs Over Time: Densification Laws, Shrinking Diameters, and Possible Explanations",
+    "venue": "SIGKDD",
+    "year": 2005,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Query Chains Learning to Rank from Implicit Feedback",
+    "venue": "SIGKDD",
+    "year": 2005,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Summarizing Itemset Patterns: A Profile-Based Approach",
+    "venue": "SIGKDD",
+    "year": 2005,
+    "award": "Best Student Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Learning to Detect Malicious Executables in the Wild",
+    "venue": "SIGKDD",
+    "year": 2005,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "A Hit-Miss Model for Duplicate Detection in the WHO Drug Safety Database",
+    "venue": "SIGKDD",
+    "year": 2005,
+    "award": "Best Application Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Probabilistic Framework for Semi-Supervised Clustering",
+    "venue": "SIGKDD",
+    "year": 2004,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "The Complexity of Mining Maximal Frequent Itemsets and Maximal Frequent Patterns",
+    "venue": "SIGKDD",
+    "year": 2004,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Incorporating Prior Knowledge with Weighted Margin Support Vector Machines",
+    "venue": "SIGKDD",
+    "year": 2004,
+    "award": "Best Student Paper Award",
+    "link": null
+  },
+  {
+    "title": "Learning to Detect Malicious Executables in the Wild",
+    "venue": "SIGKDD",
+    "year": 2004,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Mining Coherent Gene Clusters from Three-Dimensional Microarray Data",
+    "venue": "SIGKDD",
+    "year": 2004,
+    "award": "Best Application Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Maximizing the Spread of Influence through a Social Network",
+    "venue": "SIGKDD",
+    "year": 2003,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Empirical Bayesian Data Mining for Discovering Patterns in Post-Marketing Drug Safety",
+    "venue": "SIGKDD",
+    "year": 2003,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Capturing Best Practice for Microarray Gene Expression",
+    "venue": "SIGKDD",
+    "year": 2003,
+    "award": "Best Application Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Pattern Discovery in Sequences under a Markov Assumption",
+    "venue": "SIGKDD",
+    "year": 2002,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Customer Lifetime Value Modeling and Its Use for Customer Retention Planning",
+    "venue": "SIGKDD",
+    "year": 2002,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Robust Space Transformations for Distance-Based Operations",
+    "venue": "SIGKDD",
+    "year": 2001,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "The 'DGX' Distribution for Mining Massive, Skewed Data",
+    "venue": "SIGKDD",
+    "year": 2001,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Empirical Bayes Screening for Multi-Item Associations in Massive Datasets",
+    "venue": "SIGKDD",
+    "year": 2001,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Molecular Feature Mining in HIV Data",
+    "venue": "SIGKDD",
+    "year": 2001,
+    "award": "Best Application Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Hancock: A Language for Extracting Signatures from Data Streams",
+    "venue": "SIGKDD",
+    "year": 2000,
+    "award": "Best Research Paper Award",
+    "link": null
+  },
+  {
+    "title": "Deformable Markov Model Templates for Time-Series Pattern Matching",
+    "venue": "SIGKDD",
+    "year": 2000,
+    "award": "Best Research Paper Award Runner-Up",
+    "link": null
+  },
+  {
+    "title": "Mining IC Test Data to Optimize VLSI Testing",
+    "venue": "SIGKDD",
+    "year": 2000,
+    "award": "Best Application Paper Award",
+    "link": null
+  },
+  {
+    "title": "Ongoing Management and Application of Discovered Knowledge in a Large Regulatory Organization: A Case Study of the Use and Impact of NASD Regulation's Advanced Detection System (ADS)",
+    "venue": "SIGKDD",
+    "year": 2000,
+    "award": "Best Application Paper Award Runner-Up",
     "link": null
   }
 ]
