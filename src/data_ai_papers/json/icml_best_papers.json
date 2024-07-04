@@ -1,238 +1,238 @@
 [
   {
     "title": "Learning Fair Representations",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2023,
     "award": "Test of Time Award",
     "link": null
   },
   {
     "title": "Learning-Rate-Free Learning by D-Adaptation",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Adapting to game trees in zero-sum imperfect information games",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "A Watermark for Large Language Models",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Generalization on the Unseen, Logic Reasoning and Degree Curriculum",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2023,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Test of Time Award",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Test of Time Award",
     "link": null
   },
   {
     "title": "The Importance of Non-Markovianity in Maximum State Entropy Exploration",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Understanding Dataset Difficulty with $\\mathcal{V}$-Usable Information",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Stable Conformal Prediction Sets",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Do Differentiable Simulators Give Better Policy Gradients?",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Privacy for Free: How does Dataset Condensation Help Privacy?",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Causal Conceptions of Fairness and their Consequences",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "G-Mixup: Graph Data Augmentation for Graph Classification",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Bayesian Model Selection, the Marginal Likelihood, and Generalization",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Solving Stackelberg Prediction Game with Least Squares Loss via Spherically Constrained Least Squares Reformulation",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Learning Mixtures of Linear Dynamical Systems",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Active fairness auditing",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper Runner Up",
     "link": null
   },
   {
     "title": "Learning inverse folding from millions of predicted structures",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper Runner Up",
     "link": null
   },
   {
     "title": "Adversarially Trained Actor Critic for Offline Reinforcement Learning",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper Runner Up",
     "link": null
   },
   {
     "title": "Monarch: Expressive Structured Matrices for Efficient and Accurate Training",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper Runner Up",
     "link": null
   },
   {
     "title": "Minimum Cost Intervention Design for Causal Effect Identification",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2022,
     "award": "Outstanding Paper Runner Up",
     "link": null
   },
   {
     "title": "Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2021,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Understanding self-supervised learning dynamics without contrastive pairs",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2021,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Oops I Took A Gradient: Scalable Sampling for Discrete Distributions",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2021,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Solving high-dimensional parabolic PDEs using the tensor train format",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2021,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Optimal Complexity in Decentralized Training",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2021,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Test of Time: Gaussian Process Optimization in the Bandit Settings: No Regret and Experimental Design",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2020,
     "award": "Test of Time Award",
     "link": null
   },
   {
     "title": "Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2020,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "On Learning Sets of Symmetric Elements",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2020,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Generative Pretraining From Pixels",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2020,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Efficiently sampling functions from Gaussian process posteriors",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2020,
     "award": "Outstanding Paper Honorable Mention",
     "link": null
   },
   {
     "title": "Online Dictionary Learning for Sparse Coding",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2019,
     "award": "Test of Time Award",
     "link": null
   },
   {
     "title": "Rates of Convergence for Sparse Variational Gaussian Process Regression",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2019,
     "award": "Outstanding Paper",
     "link": null
   },
   {
     "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
-    "venue": "NeurIPS",
+    "venue": "ICML",
     "year": 2019,
     "award": "Outstanding Paper",
     "link": null
