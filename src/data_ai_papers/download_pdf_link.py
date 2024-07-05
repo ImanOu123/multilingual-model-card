@@ -32,8 +32,7 @@ if __name__ == "__main__":
     pdf_spider = PdfSpider(error_file=args.error_file)
     google_spider = GoogleSpider(error_file=args.error_file)
     
-    # for file in tqdm(os.listdir(args.in_dir)):
-    for file in ['iclr_best_papers.json', 'www_best_papers.json', 'sigir_best_papers.json', 'neurips_best_papers.json']:
+    for file in tqdm(os.listdir(args.in_dir)):
         in_file = os.path.join(args.in_dir, file)
         out_file = os.path.join(args.out_dir, file + "l")
         out_f = open(out_file, 'a')
