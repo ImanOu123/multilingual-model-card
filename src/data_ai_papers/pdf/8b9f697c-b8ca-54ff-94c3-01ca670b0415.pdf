@@ -1,0 +1,272 @@
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: 8192</p>
+<p>Message:  Non-static method URL_tube::usage() should not be called statically, assuming $this from incompatible context</p>
+<p>Filename: url_tube/pi.url_tube.php</p>
+<p>Line Number: 13</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--  browser shouldn't cache page, until site is final -->
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Submit papers, workshop, tutorials, demos to KDD 2015">
+	<meta name="author" content="KDD 2015 Organisers">
+	<!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
+    <title>TRIEST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size</title>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   <script src="http://www.kdd.org/js/outbound.js"></script>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/kdd2016/css/bootstrap.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/kdd2016/css/docs.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/kdd2016/css/style.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+	<link href="/kdd2016/css/mia.css" rel="stylesheet">
+
+	<!-- Social icons (footer) -->
+	<link href="/kdd2016/css/social-icons.css" rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body id="call-for" class="content call-for">
+	<div class="navbar navbar-fixed-top top-bar" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="top-logo">
+					<a href="http://www.kdd.org/kdd2016"><strong>KDD</strong>2016</a>
+				</div>
+			</div>
+
+			<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav nav-left">
+					 <li }><a href="http://www.kdd.org/kdd2016/registration">ATTENDING</a></li>
+					   <li style="display:block;">
+              
+              <a href="http://www.kdd.org/kdd2016/program">PROGRAM</a>
+             
+            </li>
+					 <li }><a href="http://www.kdd.org/kdd2016/calls">CALLS</a></li>
+					 <li }><a href="http://www.kdd.org/kdd2016/news">NEWS</a></li>
+				 
+				
+				
+					
+					 
+					 <li }><a href="http://www.kdd.org/kdd2016/tutorials">TUTORIALS</a></li>
+		             <li }><a href="http://www.kdd.org/kdd2016/workshops">WORKSHOPS</a></li>
+		             <li }><a href="http://www.kdd.org/kdd2016/sponsorship">SPONSORSHIP</a></li>
+		             <li }><a href="http://www.kdd.org/kdd2016/organizers">ORGANIZERS</a></li>
+					                      
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+    </div>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ac1b173b943fe7" async="async"></script>
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content" style="background-color:#0065c1">
+		<div class="container" >
+			<h1>KDD Topics</h1>
+		</div>
+    </div>
+
+
+    <div class="container bs-docs-container">
+	
+		<div class"row">
+		
+		<!-- =======================================================
+			==== Sidebar menu
+			============================================================ -->
+		
+						<div class="col-md-3">
+				<div class="bs-sidebar hidden-print" role="complementary">
+				<ul class="nav bs-sidenav">	
+				   
+						<li>
+							<a><span style="">MOST VIEWED PAPERS<br><small></small></span></a>
+						</li>
+ 
+    <li><a href="http://www.kdd.org/kdd2016/subtopic/view/large-scale-item-categorization-in-e-commerce-using-multiple-recurrent-neur/"><span style="color: #000;">Large-Scale Item Categorization in e-Commerce Using Multiple Recurrent Neural Networks</span><br><small>Hyuna Pyo, NAVER LABS; Jung-Woo Ha*, NAVER LABS; Jeonghee Kim, NAVER LABS</small></a></li>
+  
+    <li><a href="http://www.kdd.org/kdd2016/subtopic/view/modeling-precursors-for-event-forecasting-via-nested-multi-instance-learnin/"><span style="color: #000;">Modeling Precursors for Event Forecasting via Nested Multi-Instance Learning</span><br><small>Yue Ning*, Virginia Tech; Sathappan Muthiah, Virginia Tech; Huzefa Rangwala, George Mason University; Naren Ramakrishnan,  Virginia Tech</small></a></li>
+  
+    <li><a href="http://www.kdd.org/kdd2016/subtopic/view/smart-reply-automated-response-suggestion-for-email/"><span style="color: #000;">Smart Reply: Automated Response Suggestion for Email</span><br><small>Anjuli Kannan, ; Karol Kurach*, Google; Sujith Ravi, Google; Tobias Kaufmann, Google, Inc.; Andrew Tomkins, ; Balint Miklos, Google, Inc.; Greg Corrado, ; László Lukács, ; Marina Ganea, ; Peter Young, ; Vivek Ramavajjala</small></a></li>
+  
+  </ul>
+						
+						
+						
+						
+					</ul>
+					
+					<form method="post" action="http://www.kdd.org/kdd2016/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="WiOzrWcHO3eynu20e0HZA9Eln4AkZBaXl7V+aedgdYAT2w9+5oY2n+9k8bY8xTlKpSQyl4tUCR2uLDyNUZ03AdOr/Uw5M0XMJO+MPgj0/+lD9vDFZrKEeV7jiC28yWIkzjlvfi35DH6Ngg5HsXX3cSenH0BiIle+eIVmVuLVsN+nVOCeLUdnUa/xvXQAo9x6Df9er5HLf91wLKB9sK9FQTj6UaSzhG0fW5hfmrB+hC2A5uIPmFZZejMM2A+iNIsMx5YoTBdogaCZadqoClwGntu9Vh4HkwZSOMYzVwF4oY3df8tW0tRif8SppKsB4zLeqhSkZ1QumjXLfBxFZFad3FhN/9IBHhdA84ZBlv8rppPE7pffCb4kmx0NnU/8NTg7raQT2qtRFdh8Uw6XWWNnu2EmlMOaVzrHHQBbEG5jwIs=" />
+<input type="hidden" name="site_id" value="2" />
+<input type="hidden" name="csrf_token" value="39b80cf5b5e8a9e98cd5cd3ba500fa2fac1d0f6c" />
+</div>
+
+
+        <div class="form-group" style="margin-top: 10px;">
+                <input type="text" name="keywords" id="keywords" value="" class="form-control" size="18" maxlength="100">
+        </div>
+
+
+                <input type="submit" value="submit" class="btn btn-default">
+
+</form>
+					
+
+
+
+				</div>
+			</div>
+		
+
+			  <!-- =======================================================
+        ==== Content
+        ============================================================ -->
+        <div class="col-md-9" role="main">
+
+
+          <!-- Call for Sponsorships
+          ================================================== -->
+          <section class="bs-docs-section">
+               <div class="page-header">
+			   		<p style="margin-top: -10px;"><small><a href="http://www.kdd.org/kdd2016">Home</a> / <a href="http://www.kdd.org/kdd2016/topics">Topics</a></small></p>
+
+             <h3><strong>TRIEST: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size</strong></h3>
+			 <p style="color:rgb(10,160,110)"><strong>Lorenzo De Stefani*, Brown University; Alessandro Epasto, Brown; Matteo Riondato, Two Sigma Investments; Eli Upfal, Brown University</strong></p>
+			
+			 </div>
+<h4>Abstract</h4>
+		   <div style="float:right; margin-left: 10px; margin-bottom: 10px;"><iframe width='400' height='225'  src='https://www.youtube.com/embed/DVe7YCzmj2U' 
+                    frameborder='0' allowfullscreen></iframe></div>
+
+           <p>We present TRIEST, a suite of one-pass streaming algorithms to compute unbiased, low-variance, high-quality approximations of the global and local (i.e., incident to each vertex) number of triangles in a fully-dynamic graph represented as an adversarial stream of edge insertions and deletions.</p>
+
+<p>  Our algorithms use reservoir sampling and its variants to exploit the user-specified memory space at all times. This is in contrast with previous approaches, which require hard-to-choose parameters (e.g., a fixed sampling probability) and offer no guarantees on the amount of memory they use. We analyze the variance of the estimations and show novel concentration bounds for these quantities.</p>
+
+<p>  Our experimental results on very large graphs demonstrate that TRIEST outperforms state-of-the-art approaches in accuracy and exhibits a small update time.</p>
+		   
+		   	  <a href="http://www.kdd.org/kdd2016/papers/files/rfp0465-de-stefaniA.pdf" target="_blank" id='triest-counting-local-and-global-triangles-in-fully-dynamic-streams-with-fi'><button type="button" class="btn btn-success" aria-label="Left Align" style="margin-bottom: 20px; margin-right: 10px;">
+<i class="fa fa-download fa-lg" style="margin-right: 10px;"></i> Download PDF
+</button></a>
+		  
+		  <div style="margin-top: 20px;">
+		</div>
+	
+	
+
+	<hr/>
+                    
+				
+<p><strong>Filed under:  <a href="http://www.kdd.org/kdd2016/topics/view/big-data" style="color:rgb(10,160,110)">Big Data</a> | <a href="http://www.kdd.org/kdd2016/topics/view/time-series-and-stream-mining" style="color:rgb(10,160,110)">Time Series and Stream Mining</a> | <a href="http://www.kdd.org/kdd2016/topics/view/mining-rich-data-types" style="color:rgb(10,160,110)">Mining Rich Data Types</a> | <a href="http://www.kdd.org/kdd2016/topics/view/graph-mining-and-social-networks" style="color:rgb(10,160,110)">Graph Mining and Social Networks</a></strong></p>
+
+<hr>
+				
+ <div style="margin-top: 20px;">
+		      
+</div>				
+				
+				
+<h3><strong>Comments</strong></h3>				
+				
+
+<div id="disqus_thread"></div><script type="text/javascript">var disqus_shortname = 'sigkdd';var disqus_identifier = 'sigkdd_623';(function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();</script>
+
+
+
+		</section>
+          
+</div> <!-- End of content -->
+        
+      </div> <!-- End of ".row" -->
+	</div> <!-- End of ".bs-docs-container" -->
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer" role="contentinfo">
+		<div class="container">
+			<h3><strong>KDD</strong>2016</h3>
+			<ul class="list-inline social-icons">
+				<li class="facebook"><a href="https://www.facebook.com/SIGKDD" alt="SIGKDD's Facebook page" target="_blank"><span class="icon-facebook"></span></a></li>
+				<li class="twitter"><a href="https://twitter.com/kdd_news" alt="@kdd_news Twitter profile" target="_blank"><span class="icon-twitter"></a></li>
+				<li class="linkedin"><a href="http://www.linkedin.com/groups?gid=160888" alt="ACM SIGKDD LinkedIn Group" target="_blank"></span><span class="icon-linkedin"></span></a></li>
+				<!-- <li><a><span class="icon-googleplus"></span></a></li> -->
+			</ul>
+		    <a href="http://www.acm.org/sigs/volunteer_resources/officers_manual/code%20of%20conduct">ACM Code of Conduct</a>
+
+		</div>
+    </footer>
+	
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32528290-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/kdd2016/js/bootstrap.js"></script>
+    <script src="/kdd2016/js/holder.js"></script>
+    <script src="/kdd2016/js/application.js"></script>
+	
+<script src="http://www.kdd.org/js/linktracker.js"></script>
+<script>
+var actionurl = "http://www.kdd.org/kdd2016/?uip=MTI4LjIuMjA0LjY=&ACT=72&";
+addEvent(window, 'load', addLinkTracker, false);
+
+</script>
+
+
+</body>
+</html>

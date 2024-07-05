@@ -1,0 +1,522 @@
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: 8192</p>
+<p>Message:  Non-static method URL_tube::usage() should not be called statically, assuming $this from incompatible context</p>
+<p>Filename: url_tube/pi.url_tube.php</p>
+<p>Line Number: 13</p>
+
+</div><!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="KDD Organizers" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="https://www.kdd.org/kdd2017/hfx/css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<!-- Title
+	============================================= -->
+	<title>Accelerating Innovation Through Analogy Mining</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		
+				<header id="header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="https://www.kdd.org/kdd2017" class="standard-logo"><img src="https://www.kdd.org/kdd2017/images/kdd2017_Logo_black_h100.png" alt="KDD 2017" style="max-height: 100px; "></a>
+						<a href="https://www.kdd.org/kdd2017" class="retina-logo"><img src="https://www.kdd.org/kdd2017/images/kdd2017_Logo_black_h100.png" alt="KDD 2017" style="max-height: 100px; "></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="sub-title">
+
+						<ul>
+							
+							<li ><a href="https://www.kdd.org/kdd2017/registration"><div>Registration</div><span>Join Us!</span></a>
+								<ul>
+										<li><a href="https://www.kdd.org/kdd2017/registration"><div>Register Now!</div></a></li>
+									<li><a href="http://www.kdd.org/kdd2017/halifax"><div>Hotel & Venue</div></a></li>
+									<li><a href="https://www.kdd.org/kdd2017/registration/visas"><div>Visa Support Letters</div></a></li></ul>
+							</li>
+													
+								<li ><a href="http://www.kdd.org/kdd2017/program"><div>Program</div><span>The Agenda</span></a>
+								<ul>
+								<li><a href="http://www.kdd.org/kdd2017/program"><div>Schedule</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/keynotes"><div>Keynote Speakers</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/plenary-panel"><div>Plenary Panel</div></a></li>
+
+										        <li><a href="http://www.kdd.org/kdd2017/applied-data-science-invited-panels">Applied Data Science Invited Panels</a></li>
+				        <li><a href="http://www.kdd.org/kdd2017/applied-data-science-invited-talks">Applied Data Science Invited Talks</a></li>
+								<li><a href="http://www.kdd.org/kdd2017/tutorials"><div>Conventional Tutorials</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/hands-on-tutorials"><div>Hands-On Tutorials</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/meet-the-editors"><div>Meet the Editors</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/workshops"><div>Workshops</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/accepted-papers"><div>Accepted Papers</div></a></li>
+								<li><a href="http://www.kdd.org/kdd2017/networking-with-experts">Networking With Experts</a></li>
+								<li><a href="http://www.kdd.org/kdd2017/feedback">Session Feedback</a></li>
+
+								</ul>
+								</li>
+								<li><a href="http://www.kdd.org/kdd2017/announcements/view/announcing-kdd-cup-2017-highway-tollgates-traffic-flow-prediction"><div>KDD Cup 2017</div><span>Highway Tollgates</span></a>
+
+							
+							</li>
+							<li ><a href="https://www.kdd.org/kdd2017/announcements"><div>Announcements</div><span>News & Calls</span></a>
+							<li ><a href="https://www.kdd.org/kdd2017/sponsorship"><div>Sponsorship</div><span>Get Involved</span></a>
+
+							</li>
+					    	<li ><a href="https://www.kdd.org/kdd2017/about"><div>About</div><span>Who We Are</span></a>
+								<ul>
+								    <li><a href="https://www.kdd.org/kdd2017/halifax"><div>About Halifax</div></a></li>
+									<li><a href="https://www.kdd.org/kdd2017/organizers"><div>Organizing Committee</div></a></li>
+									<li><a href="https://www.kdd.org/kdd2017/organizers/program-committees/research-track-program-committee-members">Research Track PC</a></li><li><a href="https://www.kdd.org/kdd2017/organizers/program-committees/applied-data-science-program-track-committee-members">Applied Data Science Track PC </a></li>
+									</ul>
+							</li>
+						  	<li><a href="#" data-scrollto="#section-contact" data-easing="easeInOutExpo" data-speed="1250" data-offset="60"><div>Contact</div><span>Learn More</span></a>
+							</li>
+						
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div><!-- #container end -->
+
+			</div><!-- #header-wrap end -->
+
+		</header><!-- #header end -->
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>KDD Papers</h1>
+			
+			</div>
+
+		</section><!-- #page-title end -->
+	<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+
+					<!-- Post Content
+					============================================= -->
+					<div class="postcontent nobottommargin clearfix">
+
+						<div class="single-post nobottommargin">
+
+							<!-- 
+							============================================= -->
+							<div class="entry clearfix">
+
+								<!-- Entry Image
+								============================================= -->
+								<div class="entry-image">
+
+								</div><!-- .entry-image end -->
+								
+
+								<!-- Entry Content
+								============================================= -->
+								<div class="entry-content notopmargin">
+							<h3>Accelerating Innovation Through Analogy Mining</h3>
+  <p style="color:rgb(10,160,110)"><strong>Tom Hope (Hebrew University of Jerusalem);Joel Chan (Carnegie Mellon University);Aniket Kittur (Carnegie Mellon University);Dafna Shahaf (Hebrew University of Jerusalem)</strong></p>
+             <hr>
+             
+
+<h4>Abstract</h4>
+		   <div style="float:right; margin-left: 10px; margin-bottom: 10px;"><iframe width='400' height='225'  src='https://www.youtube.com/embed/oXkMrZ5DpO8' 
+                    frameborder='0' allowfullscreen></iframe></div>
+
+           <p>The availability of large idea repositories (e.g., the U.S. patent database) could significantly accelerate innovation and discovery by providing people with inspiration from solutions to analogous problems. However, finding useful analogies in these large, messy, real-world repositories remains a persistent challenge for either human or automated methods. Previous approaches include costly hand-created databases that have high relational structure (e.g., predicate calculus representations) but are very sparse. Simpler machine-learning/information-retrieval similarity metrics can scale to large, natural-language datasets, but struggle to account for structural similarity, which is central to analogy. In this paper we explore the viability and value of learning simpler structural representations, specifically, “problem schemas”, which specify the purpose of a product and the mechanisms by which it achieves that purpose. Our approach combines crowdsourcing and recurrent neural networks to extract purpose and mechanism vector representations from product descriptions. We demonstrate that these learned vectors allow us to find analogies with higher precision and recall than traditional information-retrieval methods. In an ideation experiment, analogies retrieved by our models significantly increased people’s likelihood of generating creative ideas compared to analogies retrieved by traditional methods. Our results suggest a promising approach to enabling computational analogy at scale is to learn and leverage weaker structural representations.</p>
+		   
+		      	  <a href="http://dl.acm.org/authorize?N33215" target="_blank" id='accelerating-innovation-through-analogy-mining'><button type="button" class="btn btn-success" aria-label="Left Align" style="margin-bottom: 20px; margin-right: 10px;">
+<i class="fa fa-download fa-lg" style="margin-right: 10px;"></i> Download Full Paper
+</button></a>
+		   
+		   <iframe width='400' height='225'  src='https://www.youtube.com/embed/oXkMrZ5DpO8' 
+                    frameborder='0' allowfullscreen></iframe>
+
+			   
+		   	 
+
+
+
+           
+           
+           
+<!---		     --->
+				
+				
+		   
+           <hr>
+
+    		
+<h3><strong>Comments</strong></h3>				
+				
+
+<div id="disqus_thread"></div><script type="text/javascript">var disqus_shortname = 'sigkdd';var disqus_identifier = 'sigkdd_1695';(function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();</script>
+
+
+<hr/>
+								<!-- Post Single - Content End -->
+
+									
+
+									<div class="clear"></div>
+
+									
+
+								</div>
+							</div><!-- .entry end -->
+
+						
+
+			
+
+						</div>
+
+					</div><!-- .postcontent end -->
+
+					<!-- Sidebar
+					============================================= -->
+					<div class="sidebar nobottommargin col_last clearfix">
+						<div class="sidebar-widgets-wrap">
+						
+						
+<hr>
+<p><strong>Are you the author of this paper?</strong><br>
+<a href="https://www.kdd.org/kdd2017/papers/request/accelerating-innovation-through-analogy-mining">Request access</a> to edit this page</p>
+<hr>
+                           <section class="sponsors">
+
+
+<h3>Diamond Sponsor</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.didichuxing.com/" alt="DiDi Chuxing" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/didi.gif" style="margin-bottom: 30px;"></a></li>
+
+
+</ul>
+
+<h3>Platinum</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.amazon.com" alt="Amazon" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/amazon_logo.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="https://aka.ms/academic-kdd" alt="Microsoft" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Microsoft.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.alibabagroup.com/en/global/home" alt="Alibaba Group" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/alibaba_300.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.facebook.com" alt="Facebook" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/facebook_300.gif" style="margin-bottom: 30px;"></a></li>
+
+
+</ul>
+
+
+<h3>Gold</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.sas.com/" alt="SAS" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/sas.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.capitalone.com" alt="Capital One" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/capital_one.gif" style="margin-bottom: 30px;"></a></li>
+
+
+</ul>
+
+
+<h3>Silver</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.criteolabs.com" alt="Criteo" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/criteo_2017_240.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.google.com" alt="Google" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/googlelogo_color_416x140dp.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.elementai.com" alt="Element AI" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Logo_EAI.PNG" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.siemens.com" alt="Siemens" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/siemens_300.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.linkedin.com" alt="LinkedIn" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/linkedin.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.zillow.com" alt="Zillow" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/zillowlogo.PNG" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Bronze</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.Huawei.com" alt="Huawei" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Huawei.jpg" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.booking.com" alt="Booking.com" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/booking_logo.jpg" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.honeywell.com" alt="Honeywell" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/honeywell_logo.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.americanexpress.com" alt="American Express" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/americanexpress.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.oracle.com" alt="Oracle" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/oracle.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.wdc.com" alt="Western Digital" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/WesternDigital.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>KDD Cup</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.alibabagroup.com/en/global/home" alt="Alibaba Group" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/alibaba_300.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Industry/Government Track Best Paper Awards</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.uber.com" alt="Uber" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Uber.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Research Track Best Paper Awards</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="https://www.cse-cst.gc.ca/en/tutte-institute" alt="The Tutte Institute for Mathematics &amp; Computing" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/tutte.png" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Dissertation Award</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.twosigma.com" alt="Two Sigma" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/TwoSigma.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Best Student Paper</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.wdc.com" alt="Western Digital" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/WesternDigital.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.ibm.com" alt="IBM Research" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/IBM_Research_Logo2.png" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Media Sponsor</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.liebertpub.com/big#utm_campaign=big&utm_medium=conference&utm_source=kdd%202017" alt="Big Data Journal" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/big-data-journal.png" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>WiFi Sponsor</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www4.syngenta.com/" alt="Syngenta" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Syngenta_250.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Named Student Travel Grant</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.twosigma.com" alt="Two Sigma" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/TwoSigma.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="http://www.uber.com" alt="Uber" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Uber.gif" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="https://www.dominodatalab.com/" alt="Domino" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/domino-logo-color.png" style="margin-bottom: 30px;"></a></li>
+
+<li style="width:100%; text-align:center;"><a href="https://www.nsf.gov/" alt="National Science Foundation" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/nsf4.gif" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Lanyard Sponsor</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.knime.org/" alt="KNIME" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/knime.png" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<h3>Track/Session Sponsors</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.snap.com" alt="Snap Inc." target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/snap-inc.png" style="margin-bottom: 30px;"></a></li>
+</ul>
+
+<!-- 
+<h3>Exhibitor</h3>
+<ul class="list-inline">
+
+<li style="width:100%; text-align:center;"><a href="http://www.springer.com" alt="Springer" target="_blank" ><img class="img-responsive-50" src="http://www.kdd.org/kdd2016/images/sponsors/Springer.gif" style="margin-bottom: 30px;"></a></li>
+
+</ul>   
+-->
+
+</section>
+
+
+						</div>
+
+					</div><!-- .sidebar end -->
+
+				</div>
+				
+								
+				<div class="section topmargin-sm footer-stick">
+ 					<div class="container">
+											<div id="section-contact" class="page-section">
+					
+														<p>For any questions regarding registration, please email the Registration Manager, Brooke Daley (<a href="mailto:bdaley@executiveevents.com">bdaley@executivevents.com</a>)</p>		
+
+
+					<h2 class="bottommargin">Contact Us</h2>
+
+						<div class="row clearfix">
+
+							<div class="col-md-6">
+
+								<div class="contact">
+								
+
+								       <form id="contact_form" method="post" action="https://www.kdd.org/kdd2017/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="5" />
+<input type="hidden" name="RET" value="https://www.kdd.org/kdd2017" />
+<input type="hidden" name="URI" value="papers/view/accelerating-innovation-through-analogy-mining" />
+<input type="hidden" name="recipients" value="svQVY+QnfAWo2onWhJ7OLp23eWJc+POdznrgXbzHwHS/xt9qII0EghKeaZ+4Dy9NWiVYMmyre4OZIl8jODK6lQ==" />
+<input type="hidden" name="user_recipients" value="90635e44f9a2011d3b603d6149f81204" />
+<input type="hidden" name="charset" value="utf-8" />
+<input type="hidden" name="redirect" value="" />
+<input type="hidden" name="replyto" value="" />
+<input type="hidden" name="site_id" value="4" />
+<input type="hidden" name="csrf_token" value="41f25080668f495c77831ebfe5574b7d9f609205" />
+</div>
+
+
+
+										<div class="form-process"></div>
+
+										<div class="col_half">
+											<input type="text" id="name" name="name" value="" class="sm-form-control border-form-control required" placeholder="Name" />
+										</div>
+										<div class="col_half col_last">
+											<input type="email" id="from" name="from" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" />
+										</div>
+
+										<div class="clear"></div>
+
+										<div class="col_full">
+											<input type="text" id="subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" />
+										</div>
+
+										<div class="col_full">
+											<textarea class="required sm-form-control border-form-control" id="message[]" name="message" rows="7" cols="30" placeholder="Your Message"></textarea>
+										</div>
+
+										<div class="col_full">
+											<button class="button button-black noleftmargin topmargin-sm" name="submit" type="submit" id="submit" value="submit">Send Message</button>
+										</div>
+
+										<div class="clear"></div>
+
+
+                                   </form>
+								</div>
+
+							</div>
+
+							<div class="col-md-6">
+								<h4>Save the Date</h4>
+
+								<div style="font-size: 16px; line-height: 1.7;">
+									<address style="line-height: 1.7;">
+							     		23rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining<br>
+										August 13 - 17, 2017<br>
+										Halifax, Nova Scotia - Canada<br>
+									</address>
+
+									<div class="clear topmargin"></div>
+
+									
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div id="copyrights" style="background-color:#111;">
+				<div class="container">
+				
+			
+	<a href="https://www.acm.org/" target="_blank"><img src="http://www.kdd.org/images/structure/acm.png"></a><br>
+						<a href="https://www.acm.org/" target="_blank">Copyrights &copy; ACM SIGKDD | All Rights Reserved</a><br>
+					<a href="http://www.acm.org/sigs/volunteer_resources/officers_manual/code%20of%20conduct" target="_blank">ACM Code of Conduct</a>
+
+							
+				</div>
+			</div>
+		</footer><!-- #footer end -->
+		    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32528290-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ac1b173b943fe7" async="async"></script>
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="https://www.kdd.org/kdd2017/hfx/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.kdd.org/kdd2017/hfx/js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="https://www.kdd.org/kdd2017/hfx/js/functions.js"></script>
+</body>
+</html>
