@@ -1,0 +1,667 @@
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: 8192</p>
+<p>Message:  Non-static method URL_tube::usage() should not be called statically, assuming $this from incompatible context</p>
+<p>Filename: url_tube/pi.url_tube.php</p>
+<p>Line Number: 13</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>KDD 2018 | Adversarial Attacks on Neural Networks for Graph Data</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta property="og:locale" content="en_US" /> 
+  <meta property="og:site_name" content="SIGKDD - KDD 2018" /> 
+  <meta property="og:title" content="Adversarial Attacks on Neural Networks for Graph Data" /> 
+  <meta property="og:type" content="article" /> 
+  <meta property="og:url" content="https://www.kdd.org/kdd2018/accepted-papers/view/adversarial-attacks-on-neural-networks-for-graph-data" /> 
+  <meta property="og:description" content="" /> 
+  <meta property="og:image" content="http://www.kdd.org/kdd2018/images/kdd2018-social.jpg" /> 
+  <meta property="og:image:width" content="1600" /> 
+  <meta property="og:image:height" content="800" /> 
+  <meta property="og:updated_time" content="2018-05-13T15:57:00-07:00" /> 
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/bootstrap/bootstrap.min.css">
+  <!-- CSS Global Icons -->
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/icon-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/icon-line/css/simple-line-icons.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/icon-etlinefont/style.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/icon-line-pro/style.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/icon-hs/style.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/animate.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/hs-bg-video/hs-bg-video.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/vendor/hamburgers/hamburgers.min.css">
+
+  <!-- CSS Unify -->
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/css/core.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/css/components.css">
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/css/globals.css">
+
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="https://www.kdd.org/kdd2018/assets/css/custom.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32528290-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-32528290-11');
+</script>
+
+</head>
+
+<body>
+  <main>
+
+    <!-- Header -->
+        <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300">
+      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-py-10" data-header-fix-moment-classes="u-shadow-v18 g-py-0">
+        <nav class="js-mega-menu navbar navbar-expand-lg">
+          <div class="container">
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+              </span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
+
+            <!-- Logo -->
+            <a href="https://www.kdd.org/kdd2018" class="navbar-brand">
+              <img src="https://www.kdd.org/kdd2018/images/kdd2018_116_40.gif">
+            </a>
+            <!-- End Logo -->
+            
+
+
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
+              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                <!-- Intro -->
+                <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                  <a href="https://www.kdd.org/kdd2018" class="nav-link g-py-7 g-px-0">Home</a>
+                </li>
+                <!-- End Intro -->
+
+                <!-- Program -->
+                <li class="hs-has-mega-menu nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
+                  <a id="mega-menu-home" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false">Program
+                   <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-7"></i></a>
+
+                  <!-- Program menu -->
+                  <div class="w-100 hs-mega-menu u-shadow-v11 font-weight-normal g-brd-top g-brd-primary g-brd-top-2 g-bg-white g-mt-21 g-mt-11--lg--scrolling" aria-labelledby="mega-menu-home">
+                    <div class="row align-items-stretch no-gutters">
+                      <!-- Home (col) -->
+                      <div class="col-lg-12">
+                        <ul class="list-unstyled">'
+                          <li class="dropdown-item ">
+                            <a href="http://www.kdd.org/kdd2018/files/KDD2018BookletShared.pdf" class="nav-link">Program Booklet (pdf)</a>
+                          </li>
+                                               
+                         <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/feedback" class="nav-link">Session Feedback</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/keynotes" class="nav-link">Keynote Speakers</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/applied-data-science-invited-talks" class="nav-link">Applied Data Science Invited Speakers</a>
+                          </li>
+                             <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/tutorials" class="nav-link">Conventional Tutorials</a>
+                          </li>
+                         
+                             <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/hands-on-tutorials" class="nav-link">Hands-On Tutorials</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/workshops" class="nav-link">Workshops</a>
+                          </li>
+                          
+                                
+                          
+                           <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/project-showcase" class="nav-link">Project Showcase Track</a>
+                          </li>
+                          
+                           <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/plenary-panel" class="nav-link">Plenary Panel</a>
+                          </li>
+                           <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/applied-data-science-invited-panel" class="nav-link">Applied Data Science Invited Panel</a>
+                          </li>
+                              <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/global-ai-initiatives" class="nav-link">Global AI Initiatives</a>
+                          </li>
+                        
+                                 <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/health-day-at-kdd" class="nav-link">Health Day at KDD</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/deep-learning-day" class="nav-link">Deep Learning Day</a>
+                          </li>
+                           <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/by-application-round-table-event" class="nav-link">By Application: Round Table Event</a>
+                          </li>
+                           <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/networking-with-experts" class="nav-link">Networking With Experts</a>
+                          </li>
+                            <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/accepted-papers" class="nav-link">Accepted Papers</a>
+                          </li>
+                              <li class="dropdown-item ">
+                            <a href="http://www.kdd.org/kdd2018/accepted-papers/poster-instructions" class="nav-link">Poster Preparation Instructions</a>
+                          </li>
+                          
+                            <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/job-match/" class="nav-link">Job Match at KDD 2018</a>
+                          </li>
+     					 <li class="dropdown-item ">
+                            <a href="http://www.kdd.org/kdd2018/files/KDD_2018_Booklet_-_August_19_2018.pdf" class="nav-link" target="_blank">KDD2018 Agenda (pdf download)</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://whova.com/webapp/e/kdd_201808/" class="nav-link" target="_blank">Get Whova</a>
+                          </li>
+
+
+
+
+                        </ul>
+
+
+
+
+                      </div>
+                      <!-- End Home (col) -->
+                  
+                    </div>
+                  </div>
+                  <!-- Program Menu -->
+                </li>
+                <!-- End Program -->
+                
+                 <!-- Attending -->
+                <li class="hs-has-mega-menu nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
+                  <a id="mega-menu-home" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false">Attending
+                   <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-7"></i></a>
+
+                  <!-- Attending menu -->
+                  <div class="w-100 hs-mega-menu u-shadow-v11 font-weight-normal g-brd-top g-brd-primary g-brd-top-2 g-bg-white g-mt-21 g-mt-11--lg--scrolling" aria-labelledby="mega-menu-home">
+                    <div class="row align-items-stretch no-gutters">
+                      <!-- Home (col) -->
+                      <div class="col-lg-12">
+                        <ul class="list-unstyled">
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/registration" class="nav-link">Registration</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/venue" class="nav-link">Conference Venue</a>
+                          </li>
+                             <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/venue/travel-information" class="nav-link">Travel Information</a>
+                          </li>
+                         
+                             <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/venue/accommodations" class="nav-link">Accommodations & Special Rates</a>
+                          </li>
+                             <li class="dropdown-item ">
+                            <a href="https://www.kdd.org/kdd2018/registration/visas" class="nav-link">Visa Support Letters</a>
+                          </li>
+                         
+                        
+                        </ul>
+                      </div>
+                      <!-- End Home (col) -->
+                  
+                    </div>
+                  </div>
+                  <!-- Program Menu -->
+                </li>
+                <!-- End Program -->
+                
+             
+                   <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                  <a href="https://www.kdd.org/kdd2018/calls" class="nav-link g-py-7 g-px-0">Calls</a>
+                </li>
+                
+                      <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                  <a href="https://www.kdd.org/kdd2018/sponsorship/sponsors" class="nav-link g-py-7 g-px-0">Sponsors</a>
+                </li>
+                
+                
+                  <!-- Organizers -->
+          <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link--features" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Organizers</a>
+                                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+               
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="https://www.kdd.org/kdd2018/about/organizers">Organizing Committee</a>
+                    </li>          
+
+                    
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="https://www.kdd.org/kdd2018/about/applied-data-science-program-committee">ADS Track Program Committee</a>
+                    </li>
+                    
+                                        <li class="dropdown-item ">
+                      <a class="nav-link" href="https://www.kdd.org/kdd2018/about/research-track-program-committee">Research Track Program Committee</a>
+                    </li>
+          
+                </ul>
+                </li>
+                <!-- End Program -->
+                
+                
+                         
+                         
+                
+                     <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                  <a href="https://www.kdd.org/kdd2018/kdd-cup" class="nav-link g-py-7 g-px-0">KDD Cup</a>
+                </li>
+        
+        </ul>
+</div>
+
+                 
+
+             
+            
+      <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
+              <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15 js-go-to" href="#" data-target="#contact">Contact Us</a>
+            </div>
+           
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+ <!-- Breadcrumbs -->
+    <section class="g-bg-black g-py-110 g-pb-30">
+      <div class="container">
+        <div class="d-sm-flex text-center">
+          <div class="align-self-center">
+            <h2 class="h3 g-color-white g-font-weight-600 w-100 g-mb-10 g-mb-0--md">Accepted Papers</h2>
+          </div>
+
+
+        <div class="align-self-center ml-auto">
+            <ul class="u-list-inline">
+              <li class="list-inline-item g-mr-5">
+                <a class="u-link-v5 g-color-main" href="https://www.kdd.org/kdd2018">Home</a>
+                <i class="g-color-gray-light-v2 g-ml-5">/</i>
+              </li>
+                  <li class="list-inline-item g-mr-5">
+                <a class="u-link-v5 g-color-main" href="https://www.kdd.org/kdd2018/accepted-papers">Accepted Papers</a>
+                <i class="g-color-gray-light-v2 g-ml-5">/</i>
+              </li>
+  
+            </ul>
+          </div>
+         </div>
+        </div> 
+    </section>
+    <!-- End Breadcrumbs -->
+    
+       <!-- Single Call -->
+  <section class="container g-pt-50 g-pb-50">
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="g-mb-60">
+            <h4><strong>Adversarial Attacks on Neural Networks for Graph Data</strong></h4><h6>Daniel Zügner (Technical University of Munich); Amir Akbarnejad (Technical University of Munich); Stephan Günnemann (Technical University of Munich)</h6>
+                <hr>
+            <p>Deep learning models for graphs have achieved strong performance for the task of node classification. Despite their proliferation, currently there is no study of their robustness to adversarial attacks. Yet, in domains where they are likely to be used, e.g. the web, adversaries are common. Can deep learning models for graphs be easily fooled? In this work, we introduce the first study of adversarial attacks on attributed graphs, specifically focusing on models exploiting ideas of graph convolutions. In addition to attacks at test time, we tackle the more challenging class of poisoning/causative attacks, which focus on the training phase of a machine learning model.We generate adversarial perturbations targeting the node&#8217;s features and the graph structure, thus, taking the dependencies between instances in account. Moreover, we ensure that the perturbations remain unnoticeable by preserving important data characteristics. To cope with the underlying discrete domain we propose an efficient algorithm Nettack exploiting incremental computations. Our experimental study shows that accuracy of node classification significantly drops even when performing only few perturbations. Even more, our attacks are transferable: the learned attacks generalize to other state-of-the-art node classification models and unsupervised approaches, and likewise are successful even when only limited knowledge about the graph is given.</p>
+        
+              	  <a href="https://dl.acm.org/authorize?N665889" target="_blank" id='adversarial-attacks-on-neural-networks-for-graph-data'><button type="button" class="btn btn-success" aria-label="Left Align" style="margin-bottom: 20px; margin-right: 10px;">
+<i class="fa fa-download fa-lg" style="margin-right: 10px;"></i> Download Full Paper
+</button></a>
+		   
+		   <h4>Promotional Video</h4><iframe width='400' height='225'  src='https://www.youtube.com/embed/9edSZzTg3co' 
+                    frameborder='0' allowfullscreen></iframe>
+          </div>
+         </div>
+        </div>
+      </section>  
+
+<section class="container g-pt-100 g-pb-70">
+     <div class="text-center g-mb-60">
+              <h2 class="mb-2">Sponsors</h2>
+
+<!-- Sponsors -->
+    <div class="">
+      <div class="container g-py-70">
+        <div id="carousel1" class="js-carousel" data-infinite="true" data-autoplay="true" data-slides-show="4">
+		
+          <div class="js-slide u-block-hover">
+            <a href="https://www.nsf.gov/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/nsf.png" alt="National Science Foundation" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.classba.cn/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/yixue.png" alt="YiXue" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.hsbc.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/hsbc-300.png" alt="HSBC" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.verisk.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/verisk-300.gif" alt="Verisk" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://bytedance.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Bytedance-300.png" alt="ByteDance" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.inspur.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Inspur-300.png" alt="Inspur" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.thomsonreuters.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/thomson_reuters.gif" alt="Thomson Reuters" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.antfin.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Ant_financial_logo3.png" alt="Ant Financial" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.sf-express.com/us/en/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/shunfeng.gif" alt="Shunfeng" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.dpdhl.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/DPDHL_Group_rgb.gif" alt="Deutsche Post DHL Group" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://deliveroo.co.uk/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/deliveroo.gif" alt="Deliveroo" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.netflix.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Netflix-300.png" alt="Netflix" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.geneia.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Geneia.png" alt="Geneia" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.wayfair.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/wayfair-logo.png" alt="Wayfair" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.microsoft.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/microsoft-logo.gif" alt="Microsoft" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.sas.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/sas-logo.gif" alt="SAS" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.booking.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/booking.png" alt="Booking.com" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.jpmorgan.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/JPM.png" alt="J.P. Morgan" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.ibm.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/ibm_research.png" alt="IBM Research" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.linkedin.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/linked-in-300.png" alt="LinkedIn" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.google.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Google-300.png" alt="Google" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.twosigma.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/two-sigma-300.gif" alt="Two Sigma" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.jumptrading.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/JumpTrading.gif" alt="Jump Trading" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.tencent.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/tencent.png" alt="Tencent" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.snap.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Snap.png" alt="Snap Inc." style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://home.liebertpub.com/publications/big-data/611" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/big-data-publishers.png" alt="Big Data" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.facebook.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/facebook.gif" alt="Facebook" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.amazon.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/amazon.gif" alt="Amazon" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://research.criteo.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/criteo.png" alt="Criteo Research" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.ijac.net/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/IJAC.gif" alt="IJAC" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.americanexpress.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/american-express.gif" alt="American Express" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://corporate.jd.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/jd.gif" alt="JD.COM" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.didichuxing.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/DiDi.png" alt="Didi Chuxing" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.knime.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/KNIME_Logo_CoW_SNTR.png" alt="KNIME" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.intuit.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Intuit.png" alt="Intuit" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.elementai.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/element-ai.png" alt="Element AI" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.baidu.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/baidu.png" alt="Baidu" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.alibabagroup.com" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/alibaba-group.gif" alt="Alibaba" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.huawei.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Huawei.gif" alt="Huawei" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="http://www.squarepoint-capital.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/SquarePoint.gif" alt="Squarepoint Capital LLP" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.wdc.com/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/WesternDigital.gif" alt="Western Digital" style="vertical-align: middle"></a>
+          </div>
+         
+          <div class="js-slide u-block-hover">
+            <a href="https://www.capitalone.com/tech/" target="_blank"><img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer" src="http://www.kdd.org/kdd2018/images/sponsors/Capital-One.gif" alt="Capital One" style="vertical-align: middle"></a>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <p><a href="https://www.kdd.org/kdd2018/sponsorship/sponsors" class="btn btn-md u-btn-blue g-mr-10 g-mb-15">View All Sponsors</a> <a href="https://www.kdd.org/kdd2018/sponsorship" class="btn btn-md u-btn-orange g-mr-10 g-mb-15">Sponsor KDD 2018</a></p>
+<!-- End sponsors -->
+</div>
+</section>
+    
+    <!-- End Single Call -->
+
+
+    
+      
+   
+
+ 
+
+
+    <!-- Copyright Footer -->
+    <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
+      <div class="container">
+        <div class="row">
+                   
+          <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+       
+   <p> <a href="href=http://www.kdd.org/images/structure/acm.png"><img src="http://www.kdd.org/images/structure/acm.png"></a></p>
+
+   </div>
+      <div class="col-md-4 align-self-center">
+            <ul class="list-inline text-center text-md-right mb-0">
+                              <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="http://www.kdd.org/images/structure/acm.png">2017 © All Rights Reserved</a>
+                </li>
+                   <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="http://www.acm.org/sigs/volunteer_resources/officers_manual/code%20of%20conduct">ACM Code of Conduct</a>
+                </li>
+             
+
+              </ul>
+            </div>
+          </div>
+
+       
+        
+
+      </div>
+    </footer>
+    <!-- End Copyright Footer -->
+    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
+     "bottom": 15,
+     "right": 15
+   }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+      <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
+  </main>
+
+  <div class="u-outer-spaces-helper"></div>
+
+
+  <!-- JS Global Compulsory -->
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/jquery.easing/js/jquery.easing.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/popper.min.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/cubeportfolio-full/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+
+  <!-- JS Unify -->
+  <script src="https://www.kdd.org/kdd2018/assets/js/hs.core.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.header.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/helpers/hs.hamburgers.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.tabs.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.go-to.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.carousel.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.cubeportfolio.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.popup.js"></script>
+  <script src="https://www.kdd.org/kdd2018/assets/js/components/hs.go-to.js"></script>
+
+  <!-- JS Customization -->
+  <script src="https://www.kdd.org/kdd2018/assets/js/custom.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+        // initialization of go to
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+
+
+        // initialization of popups
+        $.HSCore.components.HSPopup.init('.js-fancybox');
+      });
+
+      $(window).on('load', function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        // initialization of HSMegaMenu component
+        $('.js-mega-menu').HSMegaMenu({
+          event: 'hover',
+          pageContainer: $('.container'),
+          breakpoint: 991
+        });
+
+        // initialization of cubeportfolio
+        $.HSCore.components.HSCubeportfolio.init('.cbp');
+      });
+
+      $(window).on('resize', function () {
+        setTimeout(function () {$.HSCore.components.HSTabs.init('[role="tablist"]');}, 200);
+      });
+  </script>
+
+
+
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ac1b173b943fe7"></script>
+
+
+</body>
+
+</html>

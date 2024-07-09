@@ -1,0 +1,1975 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" style="scroll-padding-top: 70px;"> 
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/static/virtual/js/virtual.js"></script>
+    <meta name="google-site-verification" content="0jwPnVXIAk4FvFdT37dwMmd-kjHF86e5DKwvqlStUW0">
+
+
+    
+    <link rel="stylesheet" href="/static/core/css/core.css" type="text/css">
+    <link rel="stylesheet" href="/static/virtual/css/virtual.css" type="text/css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/static/core/css/custom.css" type="text/css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+      "tex2jax": {
+        "inlineMath": [["$","$"], ["\\(","\\)"]],
+        "displayMath": [["\\[","\\]"]],
+        "processEscapes": true
+      }
+    }
+    );
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+    <!--This script keeps local links inside the web app rather than opening them
+in Safari, and has nothing to do with editing or Aloha.-->
+
+<script >
+	(function(document,navigator,standalone) {
+		// prevents links from apps from opening in mobile safari
+		// this javascript must be the first script in your <head>
+		if ((standalone in navigator) && navigator[standalone]) {
+			var curnode, location=document.location, stop=/^(a|html)$/i;
+			document.addEventListener('click', function(e) {
+				curnode=e.target;
+				while (!(stop).test(curnode.nodeName)) {
+					curnode=curnode.parentNode;
+				}
+				// Conditions to do this only on links to your own app
+				// if you want all links, use if('href' in curnode) instead.
+				if(
+					'href' in curnode && // is a link
+					(chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
+					(	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
+						chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
+				) {
+					e.preventDefault();
+					location.href = curnode.href;
+				}
+			},false);
+		}
+	})(document,window.navigator,'standalone');
+</script>        
+
+<!-- This style sets the minimum size of a blurb to 260 px unless there is a
+template context variable blurb_min_height that sets it otherwise. If blurbs
+aren't all about the same size, they don't flow well when the window is
+resized.-->
+
+
+<style>
+/*This is here rather that in a .css file for a reason.*/
+    @media screen and (min-width: 767px) {
+        .blurb {
+            min-height:260px;
+        }
+    }
+</style>
+    
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+</script>
+
+<script>
+    if (typeof jQuery === 'undefined') {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = "/static/core/js/jquery-3.6.1.min.js";
+        document.head.appendChild(script);
+    }
+</script>
+
+
+    <script>
+        var $ = jQuery;
+        /*Store a pointer to jquery2, so I can reference it later.  Aloha loads jquery 1.7 and much
+        of bootstrap 3 is not compatible. This comment is deprecated. */
+    </script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="/static/core/js/ajax-csrf-snippet.js"></script>
+    <script src="https://kit.fontawesome.com/be44b7e05d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+
+
+    <style>
+        body {
+            font-family: Exo;}
+    </style>
+
+
+
+
+
+
+
+
+        
+
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/virtual/css/virtual.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.3.1/typeahead.bundle.min.js" integrity="sha512-lEb9Vp/rkl9g2E/LdHIMFTqz21+LA79f84gqP75fbimHqVTu6483JG1AwJlWLLQ8ezTehty78fObKupq3HSHPQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/static/core/js/ajax-csrf-snippet.js" ></script>
+    <script src="/static/virtual/js/virtual.js"></script>
+    
+
+
+    
+    <link rel="stylesheet" href="/static/core/css/nipssched.css" type="text/css">
+    <link rel="stylesheet" href="/static/core/css/cardStyles.css" type="text/css">
+    <meta name="robots" content="noindex"/>
+
+    <title>ICLR 2019 Schedule</title>
+</head>
+
+<body>
+
+
+
+
+<div class="noprint">
+    
+        <!--Navbar start-->
+<header>
+    <a href="#child-menu" class="off-screen">Skip to yearly menu bar</a>
+    <a href="#main" class="off-screen">Skip to main content</a>
+    <div id="id_navbar" class="navbar navbar-expand-sm navbar-dark" aria-label="Main Navigation"
+         style="background-color:#212529">
+        <h2 class="off-screen">Main Navigation</h2>
+        <div class="container-fluid">
+            <div><a class="navbar-brand" href="/">
+
+                <img src="/static/core/img/iclr-navbar-logo.svg" alt="conference_logo" height="40"></a></div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler1"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler1">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ICLR
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/FAQ">
+                    <span >
+                        Help/FAQ
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Help/Contact">
+                    <span >
+                        Contact ICLR
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Downloads">
+                    <span >
+                        Downloads
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://blog.iclr.cc/">
+                    <span >
+                        ICLR Blog
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/CodeOfConduct">
+                    <span >
+                        Code of Conduct
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/PrivacyPolicy">
+                    <span >
+                        Privacy Policy
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Profile/create">
+                    <span >
+                        Create Profile
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/JournalToConference">
+                    <span >
+                        Journal To Conference Track
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/DiversityInclusion">
+                    <span >
+                        Diversity &amp; Inclusion
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://openreview.net/group?id=ICLR.cc">
+                    <span >
+                        Proceedings at OpenReview
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/FutureMeetings">
+                    <span >
+                        Future Meetings
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2024/Press?showtab=pass">
+                    <span >
+                        Press
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Sponsors/sponsorinfo">
+                    <span >
+                        Exhibitor Information
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://twitter.com/iclr_conf?ref_src=twsrc%5Etfw">
+                    <span >
+                        ICLR Twitter
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/About">
+                    <span >
+                        About ICLR
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/MyStuff">
+                    <span >
+                        My Stuff
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+                </ul>
+
+                <form class="d-flex mx-2" aria-label="Search" role="search" action="/search">
+                    <div class="input-group" role="search" style="outline-color:green;">
+                        <input type="text" class="form-control" placeholder="Search" name="q"
+                               value=""
+                               aria-label="Search" aria-describedby="btnGroupAddon"
+                                id="navbar-search">
+                        <div class="input-group-text btn-primary" id="btnGroupAddon">
+                            <button style="border: none; background-color: transparent; padding: 0;" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                
+                    <a href="/accounts/login?nextp=/virtual/2019/oral/1162 " class="navbar-brand"><span
+                            class="fa-solid fa-right-to-bracket"></span> Login</a>
+                
+
+            </div>
+        </div>
+    </div>
+</header>
+<!--Navbar end-->
+    
+</div><!--noprint div-->
+
+
+<!--This holds the whole page including the navbar-->
+
+<main id="main">
+    <div class="container-fluid">
+        <!--Navbar start-->
+
+<div class="dropdown" id="child-menu">
+    <nav class="align-middle navbar navbar-expand-md mx-4 border border-3 border-top-0 rounded-bottom"
+         style="min-height: 57px; background-color: #F6f6f6;">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler1104"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler1104">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                    
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle border-3  btn btn-primary text-white p-1" style= "background-color: #070bff; font-size: 1.2 em;"
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select Year: (2019)
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2024">2024
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2023">2023
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2022">2022
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2021">2021
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2020">2020
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2019">2019
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2018">2018
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2017.html">2017
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2016.html">2016
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2015.html">2015
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/2014/">2014
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/2013/">2013
+                </a>
+                
+            </li>
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Dates">
+                    <span >
+                        Dates
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Schedule
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/ProgramHighlights">
+                    <span >
+                        Program Highlights
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Schedule">
+                    <span >
+                        Full Schedule
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Workshopbook/100">
+                    <span >
+                        Workshop Book PDF
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Workshopbook/120">
+                    <span >
+                        Workshop Book PDF (Large Font)
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Calls
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/CallForPapers">
+                    <span >
+                        Call for Papers
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/CallForWorkshops">
+                    <span >
+                        Call for Workshops
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/AcceptedWorkshopFAQ">
+                    <span style="font-size: .8em;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Workshop FAQ
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Reviewer_Guidelines">
+                    <span >
+                        Reviewer Guide
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/AC_Guidelines">
+                    <span >
+                        Area Chair Guide
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Attend
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://www.jotform.com/KiddieCorp/iclrkids">
+                    <span >
+                        Child Care
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Hotels">
+                    <span >
+                        Hotels
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/FAQ/Safety">
+                    <span >
+                        Safety
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwi2mP6I5dvcAhWSxZ8KHdWADREQFjAAegQIBxAB&amp;url=https%3A%2F%2Fwww.norta.com%2FFares-Passes%2FOverview&amp;usg=AOvVaw3iHn5wcqEJ7Dv7CkPRoCCO">
+                    <span >
+                        Local Transportation
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="http://airportshuttleneworleans.hudsonltd.net/res?USERIDENTRY=ICLR0519&amp;LOGON=GO">
+                    <span >
+                        Airport Shuttle
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://www.mccno.com/attendees/guests-with-disabilities/">
+                    <span >
+                        Disability Assistance
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/VISAInformation">
+                    <span >
+                        Visa Information
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://locations.theupsstore.com/la/new-orleans/900-convention-center-blvd/banners-posters-&amp;-signs">
+                    <span >
+                        Poster Printing
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=70130">
+                    <span >
+                        Restaurants
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/TravelAwardFAQ">
+                    <span >
+                        Travel Awardee FAQ
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Organization
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Board">
+                    <span >
+                        ICLR Board
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/Committees">
+                    <span >
+                        Organizing Committee
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2019/ProgramCommittee">
+                    <span >
+                        Program Committee
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/About">
+                    <span >
+                        About ICLR
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <!--Navbar end-->
+    </div>
+    <br><br>
+    
+        
+        <div class="container">
+    
+    
+
+    
+
+    <div class="row">
+        <div class="col-sm-9" style="position:relative; top:-10px;">
+            <div>
+                <span style="color:lightgray" class="">(2 events) &nbsp;</span> <span
+                    class="pull-left">Timezone: <a
+                    href="/set_timezone?nextp=/Conferences/2019/Schedule?q=Ordered+Neurons%3A+Integrating+Tree+Structures+into+Recurrent+Neural+Networks"> &nbsp;</a></span>
+            </div>
+
+            
+
+
+            
+
+        </div>
+        <div class="col-sm-11">
+
+            <div id="scheduleBar" class="noprint rounded-bottom rounded-top">
+                <button id="showScheduleButton" class="btn btn btn-outline-dark invisible bg-white"
+                        onClick="showSchedule();">
+                    <i class="fa-solid fa-chevron-left"></i> Back
+                </button>
+                <div class="dropdown d-inline">
+                    <button class="btn btn-outline-dark bg-light dropdown-toggle text-black" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        <i class="fa fa-circle red"></i><i class="fa fa-circle gray"></i><i
+                            class="fa fa-circle invitedtalkstext"></i> Filter
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);" class="left8"><i class="fa fa-circle"></i><i class="fa fa-circle gray left8"></i><i class="fa fa-circle lightgray left16"></i><span class="left8">Show All</span></span></li><li role="presentation" class="divider"></li><li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);"><i class="fa fa-circle break-color"></i> &nbsp;Break</span></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);"><i class="fa fa-circle invited-talk-color"></i> &nbsp;Invited Talk</span></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);"><i class="fa fa-circle oral-color"></i> &nbsp;Oral</span></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);"><i class="fa fa-circle poster-color"></i> &nbsp;Poster</span></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1" class="filterHover"> <span class="right10" onClick="filterType(this);"><i class="fa fa-circle workshop-color"></i> &nbsp;Workshop</span></li>
+
+                    </ul>
+                </div>
+                <div class="dropdown d-inline">
+                    <button class="btn btn-outline-dark bg-light dropdown-toggle text-black" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                         Day
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li role="menuitem" tabindex="-1"><a class="filterHover dropdown-item"><div onClick="filterDay('ShowAll');">Show All</div></a></li><hr class="dropdown-divider" aria-hidden="true"><li role="menuitem" tabindex="-1"><a class="filterHover dropdown-item"><div onClick="filterDay('0');">&nbsp;Mon</div></a></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1"><a class="filterHover dropdown-item"><div onClick="filterDay('1');">&nbsp;Tue</div></a></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1"><a class="filterHover dropdown-item"><div onClick="filterDay('2');">&nbsp;Wed</div></a></li>
+<li role="presentation" class="divider"></li>
+<li role="menuitem" tabindex="-1"><a class="filterHover dropdown-item"><div onClick="filterDay('3');">&nbsp;Thu</div></a></li>
+
+                    </ul>
+                </div>
+
+
+                        <button id="help_modal_button" type='button' class="btn btn-btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal_help_modal"><i class="fa-solid fa-question"></i></button>
+                
+            </div>
+        </div>
+
+        
+            <div class="col justify-content-center">
+                <div class="maincardContainer justify-content-center" id="maincardContainer">
+                    <div id="posterToggle" class="btn btn-lg btn-outline-dark Poster"
+                         style="width:80% !important; margin:auto;"
+                         onClick='$(".maincard.Poster").toggleClass("hidden");$("#visIndicator").toggleClass("fa-eye");$("#visIndicator").toggleClass("fa-eye-slash");'>
+                        Toggle Poster Visibility <i id="visIndicator" class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+        
+
+        <!--The html template for event cards stored in the Event model.--><input type="hidden" name="csrfmiddlewaretoken" value="wpNcsPym6jkh7qx3YlMqAsLnvRYc9YF1aLSHMhtshnTH70nxngrPOzg0ADMH1Nt7">
+
+        
+
+            
+                <div onClick="showDetail(1175)">
+                    
+    <div class="maincard narrower oral" id="maincard_1175">
+            <div class='pull-right maincardHeader maincardType'>Oral</div>
+            <div class="maincardHeader">Thu May 09 08:30 AM -- 08:45 AM (PDT) @ Great Hall AD  </div>
+            <div class="maincardBody">Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks</div>
+            
+            <div class="maincardFooter">Yikang Shen &middot; Shawn Tan &middot; Alessandro Sordoni &middot; Aaron Courville</div>
+            
+                <div>
+                    <div></div><div>
+                <span class="nowrap" style="white-space:nowrap">
+                [<a href="https://openreview.net/forum?id=B1l6qiR5F7" class="btn btn-default btn-xs href_PDF" title="PDF">
+                <i class="fa fa-file-pdf-o"></i> PDF</a>]&nbsp;
+                </span>
+            
+                <span class="nowrap" style="white-space:nowrap">
+                [<a href="https://videoken.com/embed/GLv2vBGU-xw?tocitem=72" class="btn btn-default btn-xs href_Video" title="Indexed Video">
+                <i class="fa fa-video-camera"></i> Indexed Video</a>]&nbsp;
+                </span>
+            </div><div></div><div></div><div></div>
+                </div>
+            
+    </div>
+    
+                </div>
+
+            
+                <div onClick="showDetail(660)">
+                    
+    <div class="maincard narrower poster" id="maincard_660">
+            <div class='pull-right maincardHeader maincardType'>Poster</div>
+            <div class="maincardHeader">Thu May 09 09:00 AM -- 11:00 AM (PDT) @ Great Hall BC  #13</div>
+            <div class="maincardBody">Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks</div>
+            
+                <div class='pull-right maincardHeader maincardType'>In
+                    <a href="/Conferences/2019/Schedule?showParentSession=1187">
+                    Thu AM Posters</a>
+                </div>
+            
+            <div class="maincardFooter">Yikang Shen &middot; Shawn Tan &middot; Alessandro Sordoni &middot; Aaron Courville</div>
+            
+                <div>
+                    <div></div><div>
+                <span class="nowrap" style="white-space:nowrap">
+                [<a href="https://openreview.net/forum?id=B1l6qiR5F7" class="btn btn-default btn-xs href_PDF" title="PDF">
+                <i class="fa fa-file-pdf-o"></i> PDF</a>]&nbsp;
+                </span>
+            </div><div></div><div></div><div></div>
+                </div>
+            
+    </div>
+    
+                </div>
+
+            
+
+        
+
+
+    </div><!--col-sm9-->
+
+    <script>
+        function toggleDetail(element) {
+            $('.detailcard, .maincardContainer').toggleClass('showdetail');
+        }
+
+        function showSchedule() {
+            if (window.scrollPosition != undefined) {
+                $(window).scrollTop(scrollPosition);
+            }
+            $('.detailcard, .maincardContainer, .detailcard2').removeClass("showdetail");
+            $('.detailcard, .maincardContainer, .detailcard2').removeClass("showdetail2");
+            $("#showScheduleButton").addClass("invisible");
+        }
+
+        function setDetailInfo(element) {
+            var eventID = element.id;
+            /*Store the event id in a place where we can get it in SetDetail2Info*/
+            document.eventID = element.id;
+            $.ajax({
+                url: "/ajax/schedule_detail",
+                type: "POST",
+                data: {
+                    eventID: eventID,
+                    csrfmiddlewaretoken: csrftoken,
+                },
+                success: function (data) {
+                    $("#detailcard").html(data);
+                    MathJax.Hub.Typeset();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#detailcard").html(textStatus);
+                }
+
+
+            })
+        }
+
+        function setDetail2Info(userID) {
+            $.ajax({
+                url: "/ajax/schedule_detail",
+                type: "POST",
+                data: {
+                    userID: userID,
+                    eventID2: document.eventID,
+                    csrfmiddlewaretoken: csrftoken,
+                },
+                success: function (data) {
+                    $("#detailcard2").html(data);
+                    MathJax.Hub.Typeset();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#detailcard2").html(textStatus);
+                }
+            })
+        }
+
+        function showDetail(eventID) {
+            window.location.assign("/Conferences/2019/Schedule?showEvent=" + eventID);
+        }
+
+        function showSpeaker(speakerID) {
+            var params = $.param({showSpeaker: speakerID});
+            window.location.assign("/Conferences/2019/Schedule?" + params);
+        }
+
+
+        function setSearchToSearchSchedule() {
+            /*Change the search form on the main page to point to /searchschedule rather than /search*/
+            $("#nips-search").parent().parent().attr("action", "/Conferences/2019/Schedule");
+            $("#nips-search").attr("placeholder", "Search Schedule");
+        }
+
+
+        setSearchToSearchSchedule();
+
+
+        function filterType(element) {
+            var filter = element.textContent.trim();
+
+            let params = new URLSearchParams(window.location.search)
+            if (filter != "Show All") {
+                params.set("type", filter);
+            } else {
+                params.delete("type")
+            }
+            ;
+            window.location.search = params.toString()
+            console.log("new window.location", window.location)
+        }
+
+        function filterDay(element) {
+
+            let params = new URLSearchParams(window.location.search)
+            if (element != "ShowAll") {
+                params.set("day", element);
+            } else {
+                params.delete("day")
+            }
+            ;
+            window.location.search = params.toString()
+            console.log("new window.location", window.location)
+
+        }
+
+        function clearFilter() {
+
+            let params = new URLSearchParams(window.location.search)
+            params.delete("type")
+            params.delete("day")
+            window.location.search = params.toString()
+            console.log("new window.location", window.location)
+        }
+
+
+        $().ready(function () {
+            var showEventID = "";
+            if (showEventID != "") {
+                element = $("#maincard_" + showEventID)[0];
+                showDetail(element);
+            }
+            if ($(".maincard.Poster").length == 0) {
+                $("#posterToggle").addClass("hidden");
+            }
+        })
+
+
+    </script>
+
+
+
+    
+        </div>
+    
+
+</main>
+<!--END BLOCK CONTENT-->
+
+
+<!--Footer for the edit button-->
+
+
+<script>
+
+    $(function () {
+        if ($(".editable").length == 0) {
+            $("#editFooter").hide();
+        }
+    })
+</script>
+
+<script src="/static/core/js/fastclick.min.js" ></script>
+
+<!--We don't know if there are editable tags on the page until after the django template engine has rendered the page. So,
+test in javascript for "editable" tags and if present, load the ckeditor engine dynamically. -->
+
+<script>
+    if (document.getElementsByClassName('editable').length > 0) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "/static/core/ckeditor/4.18/ckeditor.js";    // use this for linked script
+        script.text = "alert('voila!');"               // use this for inline script
+        document.body.appendChild(script);
+    }
+
+</script>
+
+
+<script>
+    function fetchContent() {
+        $(".editable").each(function (index) {
+            debugger
+            var myself = this;
+            var docvID = this.getAttribute('id').replace("id_", "");
+            var blurbtext = this.getAttribute("blurbtext");
+            $.ajax({
+                url: "/Admin/RetrieveDocumentVersion",
+                type: "POST",
+                data: {
+                    docvID: docvID,
+                    blurbtext: blurbtext,
+                    csrfmiddlewaretoken: csrftoken,
+                },
+                success: function (data, textStatus, jqXHR) {
+                    myself.setAttribute("contenteditable", "true");
+                    myself.innerHTML = data;
+                    CKEDITOR.inline(myself.id);
+                },
+            });
+        })
+    }
+
+    $("#nopageedit").hide();
+
+    function start_edit() {
+
+        $(".editable").addClass("warning-ring");
+
+        //At the beginning of an edit, we need to replace the content of the
+        //editable div with it's databased content in order to preserve the
+        //template tags. We want the tag, not the rendered tag.
+
+        /* You must remove any countdown.js timers on the page before replacing the page with it's
+        document version otherwise, Javascript will throw an exception.  */
+
+
+        $("[class$='-countdown']").parent().remove();
+        fetchContent();
+        $(".editable").attr("onblur", "ckeditorsave(this)");
+        window.status.bold();
+        window.status = "Click outside the editable area to save. Changes are LIVE!! Refresh page to discard changes.";
+        $("#editpage").hide();
+        $("#noeditpage").show();
+    }
+
+
+    function stop_edit() {
+        ckeditorsave();
+        $("#noeditpage").hide();
+        $("#editpage").show();
+        window.location.reload();
+    }
+
+    function ckeditorsave(event) {
+        for (var name in CKEDITOR.instances) {
+            if (CKEDITOR.instances[name].checkDirty()) {
+                editor = CKEDITOR.instances[name];
+                saveEditable(editor);
+            }
+        }
+    }
+
+    function saveEditable(editor) {
+        var content = editor.getData();
+        var contentId = editor.name;
+        var pageId = window.location.pathname;
+        var originalContent = "N/A";
+        var documentversion = editor.container.getAttribute("id").replace("id_", "");
+        var blurbtext = editor.container.getAttribute("blurbtext");
+        if (contentId.match(/-aloha$/gi)) {
+            contentId = contentId.replace(/-aloha/gi, '');
+        }  /*I'm not sure what this does but it seems like it would matter*/
+        var request = jQuery.ajax({
+            url: "/Admin/SaveDocument",
+            type: "POST",
+            async: false,
+            data: {
+                content: content,
+                originalContent: originalContent,
+                contentId: contentId,
+                pageId: pageId,
+                documentversion: documentversion,
+                blurbtext: blurbtext,
+                csrfmiddlewaretoken: csrftoken
+            },
+            success: function (data) {
+                if (data['message']) {
+                    alert(data['message']);
+                }
+            },
+            error: function (xqXHR, textStatus) {
+                window.status = textStatus;
+                debugger;
+            }
+
+        });
+
+    };
+
+
+</script>
+
+<script>
+    jQuery(document).ajaxSend(function (event, xhr, settings) {
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function sameOrigin(url) {
+            // url could be relative or scheme relative or absolute
+            var host = document.location.host; // host + port
+            var protocol = document.location.protocol;
+            var sr_origin = '//' + host;
+            var origin = protocol + sr_origin;
+            // Allow absolute or scheme relative URLs to same origin
+            return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+                (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+                // or any other URL that isn't scheme relative or absolute i.e relative.
+                !(/^(\/\/|http:|https:).*/.test(url));
+        }
+
+        function safeMethod(method) {
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+
+        if (!safeMethod(settings.type) && sameOrigin(settings.url)) {
+            xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+        }
+    });
+</script>
+
+
+
+    
+
+<!-- Modal -->
+<div class="modal fade" id="modal_help_modal"
+     data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="#modal_label_help_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_label_help_modal">Schedule Help</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          
+            <ul>
+                <li class="listitem">
+                     <span class="dropdown">
+                      <button class="btn btn btn-outline-dark dropdown-toggle" type="button" 
+                          id="dropdownMenu1" data-bs-toggle="dropdown">
+                          <i class="fa fa-circle red"></i><i class="fa fa-circle gray"></i>
+                          <i class="fa fa-circle invitedtalkstext"></i>
+                          <span class="hidden-xs"> Filter</span>
+                          <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                      </ul>
+                    </span><!--Dropdown-->
+                    <p>Is used to filter for Event types: 'Breaks, Demonstrations, Invited Talks, Mini Symposiums, 
+                    Orals, Placeholders, In Posner Lectures, Posters, Sessions, Spotlights, Talks, Tutorials, 
+                    Workshops'. Select Show All to clear this filter</p>
+                </li>
+                <li class="listitem">
+                    <span class="dropdown"></span>
+                      <button class="btn btn btn-outline-dark dropdown-toggle" type="button" 
+                          id="WeekdayMenu" data-bs-toggle="dropdown">
+                          <span class="hidden-xs"> Day</span>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="WeekdayMenu">
+
+                      </ul>
+                    </span><!--Dropdown-->
+                    <p>Is used to filter for events by day. Select Show All to clear this filter.
+                </li>
+                <li class="listitem">
+                    <button id="clearFilter" class="btn btn btn-outline-dark" onClick="clearFilter();" >
+                        <span class="fa-solid fa-xmark-circle"></span>&nbsp;
+                    </button>
+                    <p>Is used to clear both the Event and Day filters. This button is only present when 
+                        filters are set.
+                    </p>
+
+                <li class="listitem">
+                <b>Searching with the search box</b>
+                <div class="input-group" style="max-width:200px">
+                    <input type="text" class="form-control" spellcheck="false" 
+                        placeholder="Search Schedule" name="q" style="width:100%" disabled>
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+                <p>When viewing the schedule, the search box only searches the schedule. When not viewing 
+                    the schedule, it searches everything but the schedule.
+                </p>
+                Search Examples:
+                <table class="table table-striped">
+                <tr><th style="width:30%;">Query</th><th>Result</th>
+                <tr>
+                    <td>Kernel</td>
+                    <td>Current meeting year events with kernel in the abstract, author names, 
+                        room location, date, or abstract
+                    </td>
+                </tr>
+                <tr><td>&nbsp;Deep Learning</td><td>Deep or Learning</td></tr>
+                <tr><td>"Deep Learning"</td><td>Deep Learning</td></tr>
+                <tr>
+                    <td>@"Boston University"</td>
+                    <td>Search for "Boston University" but only in the Institution and email fields of authors. 
+                        Prefix a search term with the @ symbol to constrain it to just email and institution.
+                    </td>
+                </tr>
+                </table>
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                >Close
+        </button>
+        <button type="button" class="btn btn-primary"
+                >
+            
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>
+        $(".maincard a").on("mousedown mouseup click", function (e) {
+            e.stopPropagation();
+        });
+    </script>
+
+
+
+    <script>
+        function clearAndSubmit() {
+            $.when(
+                $("input").removeAttr("checked")
+            ).then($('#bySubjectForm').submit());
+
+        }
+    </script>
+
+
+<div id="successful-page-load" class='hidden'>Successful Page Load</div>
+
+
+
+
+
+    
+        <link href="/static/conf_gdpr/css/conf_gdpr.css" rel="stylesheet">
+        <div id="cookie-bar" style="z-index: 8">
+            <table class="gdpr-statement">
+                <col>
+                <col style="width:120px">
+                <tr>
+                    <td style="padding:5px">
+                        ICLR uses cookies to remember that you are logged in. By using our websites, you agree
+                        to the placement of cookies. <a href="/public/PrivacyPolicy">
+                        Our Privacy Policy &raquo;&nbsp;</a>
+                    </td>
+                    <td>
+                        <button float-end class="btn btn-light btn-sm btn btn-outline-dark" onClick="accept_cookies();">Accept
+                            Cookies
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script>
+            function accept_cookies() {
+
+                $.ajax({
+                    method: "POST",
+                    url: "/conf_gdpr/accept",
+                    data: {
+                        csrfmiddlewaretoken: csrftoken,
+                    },
+                }).done(function (data) {
+                    console.log(data);
+                    $("#cookie-bar").fadeOut();
+                }).fail(function (jqXHR, textStatus) {
+                    alert(textStatus);
+                });
+            }
+        </script>
+
+    
+
+
+
+
+
+
+<br>
+<div class="noprint">
+    <footer id="bootstrap-footer" class="text-center text-lg-start bg-light text-muted noprint">
+
+        <div class="text-center p-1 border-top border-dark">
+        </div>
+        <!-- Section: Links  -->
+        <section class="pt-1">
+            <div class="container text-center text-md-start mt-3">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="/static/core/img/ICLR-logo.svg" alt="ICLR logo" height='30'>
+                        </h6>
+                        <p>
+                            The ICLR Logo above may be used on presentations. Right-click and choose
+                            download. It is a vector graphic and may be used at any scale.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 col-xl-3 mx-auto mb-4" style="max-width: 300px;">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-center">
+                            Useful links
+                        </h6>
+                        <div>
+             <ul>
+	<li><a href="https://iclr.cc/Sponsors/sponsorinfo">Sponsor / Exhibitor Information</a></li>
+	<li><a href="https://iclr.cc/Conferences/2024/Press?showtab=pass">Press</a></li>
+</ul>
+
+            </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        
+                            <p>
+                                <i class="fas fa-home me-3"></i> 2710 E Corridor Dr, Appleton WI 54913
+                            </p>
+                        
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> <a href="/Help/Contact">Email</a>
+                        </p>
+                        
+                            <p><i class="fas fa-phone me-3"></i> Phone: +1-920-268-4789</p>
+                        
+                        
+
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <div>
+             <p><a href="https://openreview.net/group?id=ICLR.cc">ICLR Proceedings at OpenReview</a></p>
+
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<!-- Footer -->
+
+<!-- Footer -->
+
+</body>
+</html>
