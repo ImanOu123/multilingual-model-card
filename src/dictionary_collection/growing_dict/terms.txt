@@ -24,20 +24,20 @@ SAC-COT
 SAC-IA
 OSAC
 FGR
-TE
 RE
-CoFiNet
+TE
 FCGF
+CoFiNet
 Predator
-PointDSC
 TEASER++
-CG-SAC
-DGR
 SC 2 -PCR
+PointDSC
+DGR
+CG-SAC
 FPFH
 feature matching
-FOG
 SOG
+FOG
 MAE
 PCR
 correspondence set
@@ -52,26 +52,26 @@ vector space model
 probabilistic retrieval model
 pivoted normalization
 TFCs
-TDC
 LNCs
+TDC
 Okapi
 language modeling
 Dirichlet prior
 document frequency
 idf
-retrieval formula
 retrieval models
+retrieval formula
 LNC2
-Dirichlet prior method
 pivoted normalization method
+Dirichlet prior method
 Okapi formula
 multi-label classification
 natural language processing
 neural networks
 MLC
-attention mechanism
-decoder
 sequence generation model
+decoder
+attention mechanism
 LSTM
 sequence generation
 embedding vector
@@ -86,10 +86,10 @@ decoder structure
 transform gate
 vocabulary
 beam size
-global embedding
-micro-precision
-micro-recall
 hamming loss
+global embedding
+micro-recall
+micro-precision
 hyper-parameters
 micro-F1 score
 CNN
@@ -97,15 +97,15 @@ baselines
 SGM model
 hamming-loss
 micro-F 1 score
-micro-F1
 weighted average embedding
+micro-F1
 mask module
 cross-entropy loss function
 model
 label sequence
 RCV1-V2
-LLS
 SGM
+LLS
 Long Short Term Memory
 binary classification
 Classifier chains
@@ -155,8 +155,8 @@ EXPRESSIONQ
 optimal policies
 reward functions
 grid world
-policy
 SOAP
+policy
 start-state value
 Markov rewards
 CMP
@@ -167,9 +167,9 @@ TO
 PO
 REWARDDESIGN
 SOAPs
-Markov reward
 TOs
 POs
+Markov reward
 CMPs
 Q-learning
 Π
@@ -182,8 +182,8 @@ LP
 linear programming
 NP-hard
 transition function
-γ
 state-action space
+γ
 Shannon entropy
 greedy policy
 latent factors
@@ -194,13 +194,13 @@ ReLU
 perceptron
 cosine similarity
 matrix factorization
-explainable recommendation model
 aspect-level sentiments
+explainable recommendation model
 tfidf vectors
-SSE
 ESIM
-EFM
+SSE
 MTER
+EFM
 ROUGE-L
 ATT2SEQ
 EXPANSION NET
@@ -214,7 +214,6 @@ environment
 distributionally robust reinforcement learning
 cumulative reward
 DRMDP
-
 RL agent
 DRRL
 distributionally robust Markov decision processes
@@ -261,8 +260,8 @@ transition kernels
 S-rectangular ambiguity set
 S-rectangular
 modeler
-A
 S
+A
 adversarial decision rules
 adversary
 adversarial action sets
@@ -284,8 +283,8 @@ maxmin control problem
 discount factor
 Markov policy
 MSP
-action distribution
 marginalization
+action distribution
 probability distribution
 stochastic games
 Markov decision processes
@@ -310,15 +309,15 @@ rank features
 SVMs
 NLG
 corpus-based methods
-Long Short-term Memory (LSTM)
 cross entropy
+Long Short-term Memory (LSTM)
 language models
 speech recognition
 recurrent NN architecture
 tanh
 σ
-sigmoid function
 hidden layer
+sigmoid function
 vanishing gradient problem
 control vector
 cell value
@@ -339,8 +338,8 @@ learning rate
 parameterization
 machine learning algorithms
 CTR
-parameters
 layer
+parameters
 machine learning
 recall
 precision
@@ -348,8 +347,8 @@ F-measure
 graph density
 3-cliques
 Jaccard similarity
-recommender systems
 association rule learning
+recommender systems
 b-bit minwise hashing
 minwise hashing
 minhashes
@@ -394,8 +393,8 @@ cross-validation
 Laplace approximation
 hyperparameters
 PAC-Bayes
-PAC-Bayes bounds
 hyperparameter tuning
+PAC-Bayes bounds
 LML
 architecture search
 approximate inference
@@ -421,23 +420,23 @@ variational ELBO
 covariance matrix
 parameter vector
 Occam factor
-Hessian
 Laplace marginal likelihood
+Hessian
 posterior contraction
 variational inference
 ELBO
-variational auto-encoders
 decoder network
+variational auto-encoders
 MAP
 reparametrization
 Laplace
 proposal distribution
 Monte Carlo
-datapoints
 priors
+datapoints
 Gaussian distribution
-prior mean
 prior variance
+prior mean
 log-likelihood
 BMA
 predictive distribution
@@ -459,16 +458,16 @@ transfer learning
 CLML optimization
 generalization bounds
 PAC-Bayes generalization bounds
-prior distribution
 posterior distribution
+prior distribution
 training data
 weights
 Bayesian posterior
 Kullback-Leibler divergence
 variational distribution
 log marginal likelihood
-posterior sample
 Bayesian model
+posterior sample
 posteriors
 KL divergence
 generalization error
@@ -486,10 +485,10 @@ permutations
 deep neural networks
 weight decay
 epochs
-VGG19
-DenseNet121
-ResNet-18
 GoogLeNet
+DenseNet121
+VGG19
+ResNet-18
 SGD
 BMA test accuracy
 ResNets
@@ -505,12 +504,12 @@ density estimation
 mean function
 sentence compression
 Integer Linear Programming
-noisy-channel model
 support vector machines
+noisy-channel model
 scoring function
 compression model
-Centering Theory
 local coherence
+Centering Theory
 named entity
 coreference resolution
 lexical chains
@@ -531,9 +530,9 @@ BSP-Net
 implicit functions
 ground truth
 BSP-tree
-part correspondence
 shape auto-encoding
 3D reconstruction
+part correspondence
 network
 convolutions
 convolution
@@ -572,37 +571,37 @@ bounding boxes
 IoU
 few-shot learning
 object representations
-masked language modeling
 MLP
+masked language modeling
 detection transformers
 MASK
-semantic alignment
 fully-connected layer
+semantic alignment
 fine-tuning
-pretraining
 VLMs
+pretraining
 object detector
 VisualBERT
-W2W
 baseline
+W2W
 PPL
 log perplexity
 word-agnostic grounding
 pre-trained language models
 RoBERTa
 perplexities
-referring expression comprehension
 phrase grounding
+referring expression comprehension
 open-world language learning
-visually grounded
 vision-language systems
+visually grounded
 object localization
 intersection-over-union (IoU)
-bounding box
 GOVA
+bounding box
 language modeling head
-MDETR
 ViLT
+MDETR
 unimodal language models
 KL-Divergence
 one-class incremental learning
@@ -617,9 +616,9 @@ partial assignment
 modes
 local structure
 combinatorial optimization
+optimization method
 Algorithm
 RDIS
-optimization method
 subspace optimizer
 state space
 grid search
@@ -630,8 +629,8 @@ hypergraph
 recursive conditioning
 local decomposition
 conjugate gradient descent
-simulated annealing
 Levenberg-Marquardt
+simulated annealing
 branch and bound
 BnB
 structure from motion
@@ -642,8 +641,8 @@ multimodal
 RDIS-NRR
 protein folding
 local minima
-trigram language model
 connectionist models
+trigram language model
 EM
 n-gram language models
 SLM
@@ -660,8 +659,8 @@ neural network model
 neural network models
 back-propagation
 derivative
-n-gram
 Kneser-Ney smoothing
+n-gram
 EM training procedure
 SRILM
 PREDICTOR
@@ -677,8 +676,8 @@ LLM
 ARI
 ASR
 CRs
-SLUICE-CR
 LLMs
+SLUICE-CR
 iCRs
 GPT-4
 Vicuna-13b-v1.5
@@ -727,8 +726,8 @@ logistic regression
 SVM classifier
 GPTZero
 zero-shot
-LR-GLTR
 ELEC-TRA
+LR-GLTR
 GPT-3.5
 NELA
 machine-generated texts
@@ -737,8 +736,8 @@ davinci-003
 machine-generated text
 multi-generator
 multi-lingual
-M4 dataset
 detector
+M4 dataset
 neural learning
 entity linking
 entity mention embedding
@@ -771,22 +770,22 @@ token
 dot product
 Hessian matrix
 edge classification
-SimGRACE
 GraphCL
+SimGRACE
 prompt token
 pre-trained graph model
 prompt tokens
 prompt graph
-node embedding
 graph neural networks
-prompt learning
+node embedding
 pre-trained
+prompt learning
 graph features
 task head
 GPPT
+GAT
 Graph Transformer
 GCN
-GAT
 GNN
 Adam optimizer
 link prediction
@@ -805,8 +804,8 @@ CFLs
 recurrent models
 Dyck languages
 LSTMs
-context-free languages
 Transformers
+context-free languages
 Dyck-n language
 PDA
 feedforward network
@@ -821,8 +820,8 @@ weight matrix
 one-hot encoding
 one-hot vector
 Deterministic Pushdown Automaton
-timestep
 hidden state vector
+timestep
 sequence
 one-hot representation
 one-hot vectors
@@ -833,11 +832,11 @@ Dyck-n languages
 Dyck-2
 neural models
 phonetic learning
-recurrent neural network
 autoencoder
+recurrent neural network
 inference time
-representation space
 acoustic embedding
+representation space
 embeddings
 corpora
 CAE-RNN
@@ -847,8 +846,8 @@ edit distance
 ABX discrimination error
 ABX error rates
 embedding space
-phonolexical representations
 computational model
+phonolexical representations
 phone discrimination
 acoustic embeddings
 justification frame
@@ -868,23 +867,23 @@ B-model
 models
 Lemma
 J-branch
-well-founded model
 stable model
+well-founded model
 approximator
 approximators
 lattice
-wellfounded model
 Kripke-Kleene model
 Kripke-Kleene fixpoint
+wellfounded model
 Kripke-Kleene semantics
 lfp
 ultimate semantics
 Justification frame
 stable models
 ultimate approximator
-default logic
-auto-epistemic logic
 justification frames
+auto-epistemic logic
+default logic
 computer vision
 independent component analysis (ICA)
 computational color constancy
@@ -892,8 +891,8 @@ color constancy algorithms
 CCD camera
 ICA
 independent components
-image processing
 color constancy
+image processing
 multi-task self-supervised learning
 representation learning
 task programming
@@ -937,13 +936,13 @@ policy evaluation
 attention
 convolutional networks
 dueling architecture
-state value function
 dueling network
+state value function
 advantage function
 advantage functions
-reward signal
 time step
 action
+reward signal
 Q-function
 dynamic programming
 V-function
@@ -957,11 +956,11 @@ prioritized replay
 convolutional layers
 fully-connected layers
 deep Q-network
-Q networks
 SARSA
+Q networks
 state-action value
-arg max
 behavior policy
+arg max
 convolutional layer
 fully connected layers
 gradients
@@ -987,8 +986,8 @@ NMT
 QE
 stacked architecture
 sentence-level
-OpenKiwi
 WMT
+OpenKiwi
 n-gram language model
 Statistical Machine Translation
 TER
@@ -997,8 +996,8 @@ Hiero decoder
 dependency trees
 dependency treelets
 dependency structures
-transfer rules
 non-terminal
+transfer rules
 dependency structure
 dependency language model
 dependency tree
@@ -1035,8 +1034,8 @@ hypothesis matrix
 simplex
 popularity random walk
 uniform hypothesis
-structural hypothesis
 popularity hypothesis
+structural hypothesis
 tf-idf
 universal uniform hypothesis
 self-loop hypothesis
@@ -1052,28 +1051,28 @@ cross-lingual cluster features
 NER
 data sparsity
 class-to-class transitions
-word embedding
 SSL
+word embedding
 clusters
 feature
 supervised learning
 cross-lingual transfer
 cross-lingual word clusters
-part-of-speech
 LAS
-cross-lingual clusters
+part-of-speech
 cluster features
+cross-lingual clusters
 alignment
-clustering
 argmax
+clustering
 word alignments
 cluster
 parser
 delexicalized
 over-fitting
 delexicalization
-Stanford-style dependencies
 UAS
+Stanford-style dependencies
 baseline system
 cross-lingual clustering
 PROJECTED CLUSTERS
@@ -1095,8 +1094,8 @@ slack variable
 batch
 KKT conditions
 Lagrangian
-cutting planes
 dual QP
+cutting planes
 subgradient
 training set
 greedy forward search
@@ -1134,8 +1133,8 @@ DeepHuman
 HMR
 VNect
 supervised
-RVIoU
 AMVIoU
+RVIoU
 SVIoU
 mesh representation
 MMD
@@ -1148,8 +1147,8 @@ Parzen window classifier
 i.i.d.
 hard-margin SVM
 support vectors
-kernel-based classification algorithms
 Bayes risk
+kernel-based classification algorithms
 Banach space
 positive definite
 B-splines
@@ -1171,8 +1170,8 @@ categorical distribution
 density model
 covariance function
 GP priors
-GPs
 base density
+GPs
 latent
 Algorithm 1
 Metropolis-Hastings
@@ -1186,8 +1185,8 @@ multivariate Gaussian
 ARD covariance function
 mixture model
 inference
-named entity recognition
 relation extraction
+named entity recognition
 heterogeneous information network
 automated information extraction
 data mining
@@ -1204,8 +1203,8 @@ GPT-2 model
 NN
 NP-complete
 XOR
-propositional satisfiability
 propositional formula
+propositional satisfiability
 model count
 #P-complete
 solution space
@@ -1216,8 +1215,8 @@ subspace
 XOR constraints
 SAT solver
 SAT
-ApproxCount
 Relsat
+ApproxCount
 variable assignment
 CNF
 MBound
@@ -1275,10 +1274,10 @@ singular vectors
 projection error
 proj-sketch
 (α
-streaming algorithm
 sparse matrices
-(ε
+streaming algorithm
 k)-cov-sketch
+(ε
 nnz
 cov-sketch
 cov-sketches
@@ -1311,8 +1310,8 @@ literals
 atom
 literal
 aggregate function
-symbolic set
 aggregate atoms
+symbolic set
 dependency graph
 Herbrand Universe
 solver
@@ -1343,8 +1342,8 @@ bootstrapping
 monolingual system
 Gibbs sampling
 Named Entity Recognition
-monolingual models
 bilingual model
+monolingual models
 NER tagger
 word alignment
 alignment probability
@@ -1364,12 +1363,12 @@ F1 scores
 reranking model
 multi-view learning
 uptraining
-multi-scale
 edge detection
+multi-scale
 CNN-based
 Convolutional Neural Networks
-BSD500 dataset
 Structured Edges
+BSD500 dataset
 GPUs
 end-to-end
 fully convolutional neural networks
@@ -1384,13 +1383,13 @@ ensemble testing
 edge maps
 VGGNet
 stride
-deep supervision
 HED
+deep supervision
 weighted-fusion layer
 network layer
-pretrained model
-semantic segmentation
 image classification
+semantic segmentation
+pretrained model
 momentum
 side-output layer
 deep networks
@@ -1406,8 +1405,8 @@ ODS
 convolutional neural networks
 neural network language models
 NNJM
-tanh activation functions
 output vocabulary
+tanh activation functions
 NNLM
 back propagation
 minibatches
@@ -1421,14 +1420,14 @@ target token
 Kneser-Ney LM
 RNNLM
 GIZA++
-S2T
 NNLTM
+S2T
 source window size
 Maximum Entropy
 logistic function
 ICOA
-branch-and-bound framework
 upper bound estimation
+branch-and-bound framework
 submodular
 approximation ratio
 kNN
@@ -1441,14 +1440,14 @@ upper bound influence
 influence function
 marginal influence
 upper bound
-β
 α
+β
 Algorithm 3
 Algorithm 2
 PBBS
 BBS
-LazyProbe
 Greedy
+LazyProbe
 NP-hardness
 edge set
 bipartite graph
@@ -1472,8 +1471,8 @@ LP relaxation
 conditional random field
 co-occurrence statistics
 Lasso
-multitask learning
 sparse coding
+multitask learning
 reproducing kernel Hilbert spaces
 ℓ 1 -norm
 predictor
@@ -1494,8 +1493,8 @@ unit sphere
 sparsity
 cross validation
 SC-MTL
-GO-MTL
 MTFL
+GO-MTL
 target tasks
 ridge regression
 Hilbert space
@@ -1509,8 +1508,8 @@ Rademacher complexity
 Rademacher averages
 Theorem
 probability
-empirical risk
 expected empirical risk
+empirical risk
 STP
 temporal decoupling
 Simple Temporal Problem (STP)
@@ -1521,9 +1520,9 @@ distance matrix
 STNs
 inter-agent constraint
 flexibility metric
+Jelinek-Mercer
 absolute discounting
 Good-Turing
-Jelinek-Mercer
 entropy
 sample size
 Good-Turing estimator
@@ -1533,8 +1532,8 @@ regret
 worst-case regret
 oracle-aided estimator
 competitive regret
-permutation
 KL loss
+permutation
 distributions
 probability multiset
 multiset
@@ -1615,8 +1614,8 @@ BOA*
 A*
 search graph
 heuristics
-priority queue
 f-value
+priority queue
 pruning
 g-value
 bi-objective search task
@@ -1672,8 +1671,8 @@ target label space
 source label space
 task aligner
 CLS
-MARC
 HatEval
+MARC
 mT5
 semantic
 in-context learner
@@ -1701,23 +1700,23 @@ envy edges
 maximal addable set
 ǫ-EFM
 ǫ-perfect protocol
-ǫ-EF
 ǫ-envy-freeness
+ǫ-EF
 ǫ-envy graph
 EF allocation
 EFAlloc
 ǫ-envy cycle
 envy-cycle-elimination phase
-ENVY
 EQ
+ENVY
 ǫ-envy edge
 Pareto optimality
 Nash welfare
 BERT
 multilingual models
 sub-word tokenization
-morphological analyzer
 BPE
+morphological analyzer
 morphological compositionality
 GLUE benchmark
 sub-word
@@ -1727,8 +1726,8 @@ POS tagger
 tokens
 Viterbi algorithm
 POS tags
-transformer encoder
 token-level
+transformer encoder
 morphology encoder
 morphotactics model
 stem embeddings
@@ -1768,10 +1767,10 @@ poses
 ORB-SLAM2
 monocular depth prediction
 DeMoN
-single-view model
 MC dataset
-DORN
+single-view model
 KITTI
+DORN
 multitask
 deep reinforcement learning
 subpolicy
@@ -1807,8 +1806,8 @@ CAM
 entity type
 MTCNN
 binary classifier
-FaceNet
 DBSCAN
+FaceNet
 VKE
 coreferential
 entity coreference
@@ -1833,16 +1832,16 @@ FFT
 Woodbury identity
 sequence-to-sequence
 convolution kernels
-P
 NPLR
+P
 HiPPO
 SoTA
 filters
 LRD
 LRD tasks
 time-series forecasting
-self-attention layers
 attention-free models
+self-attention layers
 Linear Transformer
 recurrent representation
 inductive bias
@@ -1854,8 +1853,8 @@ BatchNorm
 regularization
 HiPPO initialization
 sequence model
-recurrent
 state space model
+recurrent
 S4
 eigenvectors
 characteristic polynomial
@@ -1866,23 +1865,23 @@ DPLR
 state matrix
 matrix-vector multiplication
 low-rank
-DPLR matrix
 unitary matrix
+DPLR matrix
 Woodbury Identity
 Fast Multipole Method
 Long-Range Arena
 sequence-to-sequence model
 positional encodings
-prenorm
 model dimension
 attention heads
+prenorm
 model layers
 MFCC
-learning rates
 hidden sizes
+learning rates
 WaveGAN
-pooling
 downsampling
+pooling
 S4 model
 hidden dimension
 linear layers
@@ -1890,8 +1889,8 @@ feedforward layers
 S4 layer
 Layer Normalization
 AdamW
-linear layer
 dropout rate
+linear layer
 TensorFlow
 CUDA
 LayerNorm
@@ -1904,8 +1903,8 @@ discriminator
 latent code
 architecture
 dataset
-input layer
 convolution layer
+input layer
 Gaussian noise
 trainable parameters
 adaptive instance normalization (AdaIN)
@@ -1916,9 +1915,9 @@ WGAN-GP
 FIDs
 truncation trick
 self-attention
-affine transformations
-mapping network
 synthesis network
+mapping network
+affine transformations
 mixing regularization
 latent codes
 perceptual path length
@@ -1965,15 +1964,15 @@ sentiment classifier
 PPO-GT
 unlikelihood
 GPT-J
-Preferred-FT
 Pythia-2.8B
+Preferred-FT
 TL;DR
 policy class
 Plackett-Luce model
 normalization constant
 parameterized model
-reference model
 parameter
+reference model
 log
 loss
 supervised fine-tuning
@@ -1996,8 +1995,8 @@ bottleneck layer
 transition layers
 DenseNet-BC
 feature-map
-average pooling
 dense blocks
+average pooling
 dense block
 SVHN
 bottleneck
@@ -2019,8 +2018,8 @@ nonterminals
 morphs
 morph
 prefix
-suffix
 stem
+suffix
 submorph
 submorphs
 cascaded AG
@@ -2047,8 +2046,8 @@ linear system
 forward pass
 backward pass
 deep learning architectures
-initialization
 preconditioning
+initialization
 diagonal matrices
 Jacobi preconditioner
 preconditioner
@@ -2056,8 +2055,8 @@ hierarchical preconditioner
 pyramid-space
 bilateral pyramid
 stereo
-domain transform
 bilateral grid
+domain transform
 PCG
 CRF-RNN
 data term
@@ -2086,8 +2085,8 @@ posterior inference
 variational Bayes
 VB
 topic modeling
-batch algorithms
 online stochastic optimization
+batch algorithms
 online LDA
 batch VB
 topic model
@@ -2102,8 +2101,8 @@ E step
 variational objective
 stochastic natural gradient algorithm
 Fisher information matrix
-particle filtering
 CGS
+particle filtering
 batch CGS
 topic models
 inference algorithm
@@ -2112,10 +2111,10 @@ mini-batch sizes
 batch LDA
 batch algorithm
 mini-batches
-online algorithm
 stochastic gradient
-hypergradients
+online algorithm
 backpropagation
+hypergradients
 MLPs
 recursion
 hyperoptimizers
@@ -2126,8 +2125,8 @@ computation graph
 backwards pass
 hyper-hyperparameters
 hyperoptimizer
-AD
 optimizers
+AD
 HyperSGD
 SGD optimizer
 momentum coefficients
@@ -2143,12 +2142,12 @@ node degrees
 Autonomous Systems
 node degree
 bipartite affiliation graphs
-effective diameter
 hop-plot
+effective diameter
 giant component
 leaf nodes
-Densification Power Law
 Community Guided Attachment
+Densification Power Law
 graph nodes
 Zipf distribution
 tree Γ
@@ -2169,8 +2168,8 @@ sparse transformers
 sparse-attention patterns
 sparse-transformers
 Discrete Fourier Transform (DFT)
-LongT5
 BigBird
+LongT5
 sparse-attention
 autoregressive generation
 recurrence
@@ -2183,9 +2182,9 @@ BiSSM
 transformer layer
 ROUGE-1
 ROUGE-2
+BART
 pre-training objective
 T5
-BART
 pre-train
 learning rate scheduler
 LSG
@@ -2194,8 +2193,8 @@ BERTScore
 input length
 Mean ROUGE
 ROUGE-Lsum
-summarization
 transformer
+summarization
 causal convolution
 circular convolution
 DFT
@@ -2208,8 +2207,8 @@ social network
 conditional random field (CRF)
 CRF model
 support vector machine (SVM)
-thresholding
 classification score
+thresholding
 unigram
 Viterbi decoding
 Viterbi
@@ -2222,8 +2221,8 @@ bias
 deep nets
 test data
 CE loss
-MSE-NC
 CE
+MSE-NC
 central path
 singular value decomposition
 VGG
@@ -2235,14 +2234,14 @@ L
 last-layer features
 gradient flow
 L NC2/3
-Simplex ETF
 class-means
+Simplex ETF
 linear classifier
 Neural Collapse
 within-class covariance
 signal-to-noise ratio
-SNR matrix
 singular values
+SNR matrix
 least-squares classifier
 CIFAR10
 STL10
@@ -2271,8 +2270,8 @@ nullspace
 weight-normalization
 semidefinite program
 CrossEntropy
-ResNet50
 ResNet18
+ResNet50
 ADAM
 class label
 multiclass problems
@@ -2289,12 +2288,12 @@ dual problem
 LaRank
 dual objective function
 multiclass
-SmoStep
 support patterns
+SmoStep
 support pattern
 perceptron algorithm
-duality gap
 dual cost
+duality gap
 structured output problems
 kernel values
 kernel matrix
@@ -2344,8 +2343,8 @@ authorship representation learning
 base model
 topic bias model
 vector representations
-mean pooling
 sBERT
+mean pooling
 R@8
 crosstopic
 named entities
@@ -2373,8 +2372,8 @@ DIAT
 adversarial loss
 cycle consistency loss
 latent representation
-mask vector
 cycle loss
+mask vector
 attention mask
 detection
 attention model
@@ -2394,8 +2393,8 @@ FACTOID
 feed-forward layers
 Hyper-parameters
 BERT-base
-RoBERTa-base
 RoBERTa-SQuAD
+RoBERTa-base
 SERP
 ELI5
 ROUGE score
@@ -2422,8 +2421,8 @@ PROTO
 unsupervised word clustering
 self-supervised
 neural scaling laws
-dataset size
 test error
+dataset size
 cross entropy loss
 power law scaling
 training dataset
@@ -2439,20 +2438,20 @@ student-teacher setting
 α prune
 posterior entropy
 information gain
-decision boundary
 pruned dataset
+decision boundary
 probe student
 pruned dataset size
 EL2N
 class imbalance
-k-means clustering
 cosine distance
+k-means clustering
 training epochs
 pruning metrics
 margin
 data distribution
-pruning fraction
 teacher
+pruning fraction
 probe
 student perceptron
 saddle point equations
@@ -2494,8 +2493,8 @@ disentangled
 mixed-selectivity
 GCs
 border vector cells
-inferior temporal cortex
 parietal cortex
+inferior temporal cortex
 mutual information
 mutual information ratio
 nonlinear ICA
@@ -2547,8 +2546,8 @@ hidden units
 two layer net
 preprocessing
 NDCG
-PRank
 RankProp
+PRank
 linear net
 function space
 reproducing kernel Hilbert space
@@ -2563,8 +2562,8 @@ BERTSCORE
 PMLM
 calibration
 subwords
-Pearson correlation
 evaluation metric
+Pearson correlation
 contextualized embeddings
 masked input
 masked contexts
@@ -2586,8 +2585,8 @@ sub-queries
 histogram vectors
 decision tree
 threshold
-P@10
 Moore-Penrose pseudo-inverse
+P@10
 decision trees
 tree-based classifier
 Kendall's-τ
@@ -2602,8 +2601,8 @@ overfit
 κ-statistic
 discriminative features
 vanishing ideals
-vanishing generators
 vanishing component analysis
+vanishing generators
 algebraic set
 contrastive normalization
 discriminability
@@ -2624,8 +2623,8 @@ rotation transformations
 affine transformation
 gradient-weighted normalization
 L1 norm
-1)
 N(0
+1)
 orthogonal basis
 FashionMNIST
 transformations
@@ -2646,8 +2645,8 @@ conditional probability
 subprogram
 decoding step
 Softmax
-power set
 entity linker
+power set
 sequence transduction
 generation-based model
 Seq2Seq
@@ -2692,14 +2691,14 @@ motion-adjusted ray space
 Bayesian learning framework
 epipolar constraints
 epipolar line
-time embedding
 ray transformer
+time embedding
 volume rendering
-cross-time rendering
 temporal coherence
+cross-time rendering
 epipolar lines
-volumetric IBR
 scene representation
+volumetric IBR
 motion segmentation mask
 NeRF-W
 segmentation masks
@@ -2714,8 +2713,8 @@ a)
 deep network
 sparsification
 FTRL-Proximal
-L1 regularization
 online gradient descent
+L1 regularization
 OGD
 learning-rate schedule
 learning rate schedule
@@ -2770,8 +2769,8 @@ EL
 DL-Learner
 ELTL
 quantifier depth
-EL-concept
 ELH
+EL-concept
 ELI-concepts
 query language
 ELQs
@@ -2801,9 +2800,9 @@ SPELL
 OWL 2 EL
 refinement
 existential restriction
-DLs
 ALC
 SAT-based
+DLs
 EXPTIME-complete
 directed graph
 concept classes
@@ -2837,11 +2836,11 @@ Passive-Aggressive algorithm
 Searn
 SVM-Struct
 Cascades
-generation loss
 selection loss
+generation loss
 oracle heuristic
-cost learner
 heuristic learner
+cost learner
 hit-miss model
 hit-miss mixture model
 normal distribution
@@ -2851,15 +2850,15 @@ probability model
 radicalization pathways
 random walks
 Friedkin-Johnsen dynamics
-structural bias
 segregation score
+structural bias
 centrality
 segregation scores
 rewiring operations
 probabilistic graph
+hitting length
 segregation
 absorbing random walk
-hitting length
 transition probability
 transition probabilities
 rewiring operation
@@ -2889,8 +2888,8 @@ binary regression
 output space
 E
 sparse vector
-compression function
 reconstruction algorithm
+compression function
 reconstruction algorithms
 (k
 sparsity error
@@ -2919,8 +2918,8 @@ normalized edit distance
 SARI
 GloVe
 substitution errors
-DAE
 FACT-CC
+DAE
 annotation
 classification task
 F1-scores
@@ -2965,15 +2964,15 @@ convnet
 fully convolutional inference
 feature extractor
 receptive fields
-in-network upsampling
 patchwise training
+in-network upsampling
 R-CNN
 instance segmentation
 activation functions
-kernel size
 subsampling factor
-classification nets
+kernel size
 pixelwise prediction
+classification nets
 LeNet
 fully convolutional
 output interlacing
@@ -2981,8 +2980,8 @@ deconvolution layers
 minibatch size
 stochastic optimization
 fully convolutional training
-skip architecture
 ILSVRC
+skip architecture
 VGG nets
 deconvolution
 VGG net
@@ -2991,8 +2990,8 @@ upsampled
 bilinear interpolation
 FCN-32s
 FCN-8s
-fully convolutional nets
 FCN-16s
+fully convolutional nets
 VGG16
 FCN-VGG16
 NVIDIA Tesla K40c
@@ -3014,8 +3013,8 @@ internal nodes
 exit leaf
 subtree
 binary decision tree
-leaves
 input feature vector
+leaves
 bitvectors
 additive ensemble
 Boolean test
@@ -3041,8 +3040,8 @@ binary cross entropy
 sentence encoder
 SOTA
 deep models
-MVAE
 rubric sampling
+MVAE
 PCFG
 CFG
 A* algorithm
@@ -3086,8 +3085,8 @@ SAMME
 theorem
 random predictor
 y)
-margin parameter
 measure of confidence
+margin parameter
 Hoeffding's inequality
 Bernoulli distribution
 Bernoulli trials
@@ -3112,37 +3111,37 @@ dueling bandit algorithm
 uniform exploration
 Bleurt
 BTL-logistic
+model-based algorithms
 Electra
 annotation complexity
-model-based algorithms
 UCB Elimination
 RMED
 MoverScore
 Grammatical Error Correction
-automatic metrics
 model-based approaches
+automatic metrics
 Electra model
-Embedding Average
-Vector Extrema
 Greedy Matching
+Vector Extrema
+Embedding Average
 ParaBank
 finetune
-Copeland winner
 Condorcet winner
-SST
+Copeland winner
 RCS
+SST
 Condorcet winner.
 posterior distributions
 DTS++
 RUCB
 Linear probability model
-Uncertainty-aware Selection
 Random Mixing
+Uncertainty-aware Selection
 Laser
 Electra metric
 BTL
-Data Science
 Artificial Intelligence
+Data Science
 ℓ0 optimization
 Fourier Transform
 ranked election problem
@@ -3168,9 +3167,9 @@ supp
 linearly independent
 sparsest-fit algorithm
 partial information matrix
+C2
 Assumptions C1
 C3
-C2
 ℓ 1 norm
 ℓ 1 minimization
 λ-bipartite graph
@@ -3187,8 +3186,8 @@ partial information
 support
 convex function
 PTMs
-early exiting
 multi-exit BERT
+early exiting
 COBEE
 network pruning
 backbone
@@ -3203,16 +3202,16 @@ architectural parameters
 CLS token
 max pooling
 ALBERT
-super-network
 AdamW optimizer
+super-network
 checkpoint
 MHA
 LECO
 SST-2
 speedup ratios
 RTE
-text generation
 sequence labeling
+text generation
 multi-exit
 SRNs
 neural scene representations
@@ -3226,8 +3225,8 @@ non-rigid face model
 few-shot reconstruction
 meshes
 differentiable rendering
-neural renderer
 auto-encoders
+neural renderer
 generative adversarial networks
 Φ
 scene geometry
@@ -3241,8 +3240,8 @@ ray-marching algorithm
 2D convolutions
 latent vector
 Gaussian prior
-network architectures
 computational complexity
+network architectures
 dGQN
 PSNR
 GQN
@@ -3252,13 +3251,13 @@ normal maps
 DeepVoxels
 SSIM
 Hypernetwork
-hypernetwork
 ReLU activations
 layer normalization
+hypernetwork
 Kaiming Normal
 per-pixel formulation
-β 2
 β 1
+β 2
 Hyperparameter
 iterations
 autoregressive
@@ -3284,8 +3283,8 @@ test accuracy
 GD
 feature models
 NTK
-residual
 label noise
+residual
 ResNet-34
 convex optimization
 data vector
@@ -3310,16 +3309,16 @@ O
 unit feature vectors
 multi-view distribution
 single-view distribution
-P(X)
 Pv(X)
+P(X)
 linear classifiers
 feature noise
 ReLU-like activation
 cutout augmentation
 rejection sampling
 random initialization
-multi-view data
 Induction Hypothesis
+multi-view data
 feature sparsity
 single-view data
 polylog
@@ -3337,8 +3336,8 @@ lattices
 noncontext-free languages
 non-terminals
 enumerative algorithms
-polynomial update time
 membership oracle
+polynomial update time
 DLGs
 distributional learning
 semantic tags
@@ -3372,8 +3371,8 @@ nonparametric models
 grammar induction
 target sentence
 source sentence
-source language
 monolingual segmentation model
+source language
 target word
 source model
 Pitman-Yor language model
@@ -3466,8 +3465,8 @@ supervised methods
 self-supervision loss
 semantic categories
 data-augmentation
-semantic consistency
 pipeline
+semantic consistency
 cost volume
 photometric consistency
 MVS pipeline
@@ -3485,8 +3484,8 @@ unsupervised loss
 Data-Augmentation
 MVSNet
 self-supervised signals
-multiplicative update rule
 JDACS
+multiplicative update rule
 MVS-Net
 CVP-MVSNet
 bandit feedback
@@ -3498,9 +3497,9 @@ recommendation systems
 Reinforcement Learning
 multilabel classification
 policy gradients
-XMC datasets
 supervised learning baseline
 BanditNet
+XMC datasets
 instance
 one-versus-all
 AttentionXML
@@ -3540,8 +3539,8 @@ Nadaraya-Watson estimator
 Euclidean norm
 gradient descent algorithm
 Lie group
-tangent vector
 exponential map
+tangent vector
 diffeomorphisms
 argmin
 manifold kernel regression estimator
@@ -3555,8 +3554,8 @@ dependency edge prediction
 ELMo representations
 MLP probes
 word token
-task
 function
+task
 tagset
 multilayer perceptron
 bilinear
@@ -3566,16 +3565,16 @@ hyperparameters.
 linear probes
 dropout.
 linear probe
-ELMo1
 ELMo2
+ELMo1
 dependency head prediction
 memorization
 neural nets
 summarization models
 Deep learning
 Natural Language Processing (NLP)
-Text Summarization
 sequence length
+Text Summarization
 long-range dependencies
 Document Understanding
 extractive summarization
@@ -3596,8 +3595,8 @@ unary potential
 distance function
 MAP estimation
 SDP relaxation
-SDP
 SOCP-MS
+SDP
 SOC
 SOCP-MS relaxation
 IP
@@ -3633,8 +3632,8 @@ scale factor
 outlier rejection
 invertible matrix
 phonemes
-hierarchical clustering
 recurrent layer
+hierarchical clustering
 artificial neural networks
 Automatic Speech Recognition
 syntax
@@ -3664,8 +3663,8 @@ layers
 ABX task
 utterance embeddings
 empirical risk minimization
-empirical likelihood
 distributionally robust optimization
+empirical likelihood
 robust risk
 ERM
 population risk
@@ -3681,8 +3680,8 @@ robustly regularized risk
 diam
 Var
 approximation
-covering numbers
 Gaussian complexity
+covering numbers
 regularizer
 loss minimization
 L ∞ -covering numbers
@@ -3693,8 +3692,8 @@ empirical
 expectation
 empirical minimizer
 Rademacher complexities
-R
 X
+R
 realizable
 function class
 sub-root
@@ -3715,18 +3714,18 @@ constraint set
 upper confidence bound
 θ rob
 binary logistic loss
-variance-based regularization
 classification problems
+variance-based regularization
 robust regularization
 robustly regularized estimators
 concentration inequalities
 empirical variance
-ℓ ∞ -covering numbers
 empirical ℓ ∞ -covering numbers
+ℓ ∞ -covering numbers
 Euclidean projection
 ∇
-X)
 ℓ(θ
+X)
 Jensen's inequality
 uniform convergence
 infimum
@@ -3736,8 +3735,8 @@ convex functions
 Taylor expansion
 synchronous grammars
 NL
-MRL
 SCFG
+MRL
 lexical acquisition
 WASP
 logical variables
@@ -3768,15 +3767,15 @@ maximum-entropy model
 semantic parser
 NL generation
 BLEU points
-word vectors
 machine translation decoder
+word vectors
 composition function
 morpheme vectors
 row vector
 factor vectors
 LBL++
-LBL
 factorisation
+LBL
 CSLMs
 normalisation
 CLBL
@@ -3800,8 +3799,8 @@ arcs
 graph models
 BFS
 undirected graph
-connected components
 WCC algorithm
+connected components
 web graph
 connected component
 SCC
@@ -3813,21 +3812,21 @@ syntactic parsing
 maximum likelihood estimation
 TSG
 treebank
-Tree Substitution Grammars
 Symbol-Refined Tree Substitution Grammars
+Tree Substitution Grammars
 TSG rules
 symbol refinement
+MCMC sampling
 Pitman-Yor Process
 CFG rules
-MCMC sampling
 Bayesian TSG parser
 TSG parser
 nonterminal symbols
 TSG induction
 Bayes' rule
 nonparametric Bayesian model
-adaptor grammar
 terminal symbols
+adaptor grammar
 SR-TSG
 PYP
 nonterminal symbol
@@ -3839,8 +3838,8 @@ backoff model
 latent symbol subcategories
 MH sampler
 elementary tree
-SR-TSG rules
 MAP solutions
+SR-TSG rules
 binary variable
 NNP
 data set
@@ -3877,10 +3876,10 @@ optimisation problems
 cutting planes proof system
 AAAI Conference on Artificial Intelligence
 pseudo-Boolean constraints
-conjunctive normal form (CNF)
 pseudo-Boolean constraint
-satisfiable
+conjunctive normal form (CNF)
 pseudo-Boolean formula
+satisfiable
 constraint
 unit propagation
 (F
@@ -3906,8 +3905,8 @@ DRAT
 BreakID
 pseudo-Boolean
 decision problems
-propagators
 pseudo-Boolean form
+propagators
 decision variable
 pseudo-Boolean model
 redundance-based strengthening
@@ -4008,18 +4007,18 @@ IDB predicates
 Datalog rules
 EDB
 IDB
-LinMDlog
-LinDlog
 MDlog
+LinDlog
+LinMDlog
 UCQ
 EDB predicates
 Datalog queries
-monadic Datalog
 monadic second-order logic
+monadic Datalog
 FCP
 GQ
-database instance
 Monadic Datalog
+database instance
 MQ
 LinGQ
 unary domain predicate
@@ -4045,14 +4044,14 @@ ATM
 frontier-guarded Datalog
 Datalog program
 random forests
-Deep Neural Decision Forests
 deep architectures
+Deep Neural Decision Forests
 deep convolutional networks
 optimization algorithm
 test time
-sigmoidal functions
-Bayesian approach
 linear functions
+Bayesian approach
+sigmoidal functions
 decision node
 Bernoulli random variable
 log-loss
@@ -4108,8 +4107,8 @@ instance-level contrastive loss
 FC layer
 Datasets
 RGB
-MvEL-ILD
 iMSF
+MvEL-ILD
 MF
 IMVL
 MVL-IV
@@ -4144,11 +4143,11 @@ inner-product
 DC
 convex constraint
 BN
-COCO
 GN
+COCO
 batch statistics
-Batch Normalization (BN)
 Group Normalization (GN)
+Batch Normalization (BN)
 normalization variants
 Mask R-CNN
 Normalization
@@ -4183,8 +4182,8 @@ lambda forms
 nsubj
 QLF
 dobj
-unary atom
 lambda form
+unary atom
 lambda-form clusters
 semantic parse
 lambda-form cluster
@@ -4209,8 +4208,8 @@ MINIPAR
 Stanford dependencies
 Faster R-CNN
 YOLOv2
-mAP
 YOLO
+mAP
 object detectors
 YOLO9000
 joint training algorithm
@@ -4239,8 +4238,8 @@ ontological knowledge
 ontological entailment rules
 cloze-completion
 premise
-soft tokens
 soft prompts
+soft tokens
 log probability
 Pooling
 mean reciprocal rank
@@ -4258,8 +4257,8 @@ mean-pooling
 NLLLoss
 BCE-WithLogitsLoss
 BERT-large-uncased
-BERT-large-cased
 RoBERTa-large
+BERT-large-cased
 Pareto-efficient
 leximin
 scoring vector
@@ -4313,24 +4312,24 @@ SV
 conditional distributions
 TV
 Monotonic Sequence Domination Lemma
-graph structures
 conditional random fields
-multi-class
+graph structures
 image segmentation
+multi-class
 pairwise edge potentials
 fully connected CRF
 Gaussian filtering
 multi-class image segmentation
 fully connected models
-smoothness kernel
 appearance kernel
+smoothness kernel
 mean field approximation
 CRF distribution
 fully connected CRFs
 upsample
 Convolution
-permutohedral lattice
 convolution operation
+permutohedral lattice
 Cholesky decomposition
 expectation maximization
 kernel parameters
@@ -4365,8 +4364,8 @@ ROC
 Horn theories
 Horn theory
 DNF
-formula-based representation
 model-based representation
+formula-based representation
 background theory
 characteristic models
 mod(Σ)
@@ -4381,10 +4380,10 @@ prime implicates
 Horn
 abduction
 abductive queries
-LIME
 SHAP
-MLaaS
+LIME
 ML
+MLaaS
 local differential privacy (LDP)
 explanation-guided attacks
 LDP
@@ -4400,11 +4399,11 @@ backdoored classifier
 threat model
 backdoor triggers
 randomized response
-model explainability
 surrogate model
+model explainability
 top-k features
-aggregated explanation
 explanation loss
+aggregated explanation
 privacy budget
 sample-level explanation
 XRAND
@@ -4412,8 +4411,8 @@ top-k
 model predictions
 certified robustness bounds
 PixelDP
-expected value
 Laplace noise
+expected value
 malware classifiers
 trigger-embedded
 log-odds score
@@ -4423,8 +4422,8 @@ backdoored model
 backdoor attacks
 RR mechanisms
 black-box models
-predicted label
 model performance
+predicted label
 ground-truth label
 DP
 perturbation
@@ -4432,8 +4431,8 @@ randomized smoothing
 classification margin
 certified robustness bound
 Binomial distribution
-ensemble classifier
 certified robustness
+ensemble classifier
 backdoors
 certified poisoning
 poisoning
@@ -4450,8 +4449,8 @@ neural sequence models
 data distributions
 model architectures
 visual question answering
-compositional data augmentation
 LEXSYM
+compositional data augmentation
 instruction following
 compositional models
 compositional inductive bias
@@ -4509,8 +4508,8 @@ parameter models
 dropout rates
 D
 training loss
-C4
 OSCAR
+C4
 downstream
 beta1
 FLOP
@@ -4531,8 +4530,8 @@ subtree kernel
 edge
 subtree patterns
 runtime complexity
-isomorphism
 Weisfeiler-Lehman test
+isomorphism
 labeled graphs
 Weisfeiler-Lehman kernel
 Weisfeiler-Lehman algorithm
@@ -4557,8 +4556,8 @@ optimization algorithms
 unrolled optimization
 Evolution Strategies
 RMSprop
-PES
 TBPTT
+PES
 unrolled computation graphs
 BPTT
 ES
@@ -4567,31 +4566,31 @@ Persistent Evolution Strategies
 partial unrolls
 antithetic sampling
 meta-optimization
+gradient estimates
 unrolls
 particles
-gradient estimates
 PES estimator
 meta-train
 UORO
 meta-training
 meta-loss
-vanilla ES
 truncation bias
 partial unroll
+vanilla ES
 meta-objective
 random search
 analytic gradient
 unrolled system
 update function
-black-box
 gradient-based
+black-box
 TPUv2
 meta-loss surface
 perturbation variance
 optimization steps
 antithetic pairs
-inner optimization trajectory
 validation losses
+inner optimization trajectory
 log-space
 momentum coefficient
 logit-space
@@ -4645,8 +4644,8 @@ feature attribution
 semiring
 entropy semiring
 gradient-based methods
-queries
 values
+queries
 keys
 backpropagation algorithm
 normalizing factor
@@ -4665,8 +4664,8 @@ pre-trained model weights
 Spacy
 model complexity
 GNNs
-satisfiability problem
 propositional logic
+satisfiability problem
 P=NP
 Maximum Satisfiability
 graph isomorphism
@@ -4674,8 +4673,8 @@ algorithmic alignment theory
 conjunctive normal form
 Graph neural networks
 GNN models
-aggregating
 concatenation
+aggregating
 CNF formula
 bipartite structure
 AGG
@@ -4686,8 +4685,8 @@ polynomial-time procedure
 DLAs
 DLA
 NSFG
-MS-ESFG
 MS-NSFG
+MS-ESFG
 ESFG
 CNF formulas
 Max2SAT
@@ -4712,8 +4711,8 @@ federated learning
 gradient oracle
 AdaDelta
 iteration complexity
-algorithm class
 protocol layer
+algorithm class
 oracles
 probabilistic zero-chain model
 non-convex optimization
@@ -4746,8 +4745,8 @@ exchangeability
 Gibbs updates
 DDPs
 Gamma-Exponential Process
-MGP
 Doob-Gillespie algorithm
+MGP
 Dirichlet process
 hierarchical model
 rate matrix
@@ -4767,8 +4766,8 @@ pairwise cliques
 QPBO
 second order smoothness priors
 gradient-based optimization
-rectified stereo pair
 disparity
+rectified stereo pair
 second-order priors
 αexpansion
 elementwise multiplication
@@ -4780,9 +4779,9 @@ first-order prior
 second-order prior
 disparity map
 QPBOP
+QPBO-L
 QPBOI-F
 QPBO-F
-QPBO-L
 QPBOI-R
 SegPln
 SameUni
@@ -4830,8 +4829,8 @@ mode-matricization
 space complexities
 space complexity
 CPU
-Tucker-ttmts
 Tucker-ALS
+Tucker-ttmts
 Tucker-ts
 reconstruction error
 input tensor
@@ -4849,21 +4848,21 @@ Markov equivalent DAGs
 polynomial-time algorithm
 partially directed graph
 AMOs
-UCCG
 AMO
+UCCG
 UCCGs
 chordal
 Lexicographic BFS
-LBFS
 PEO
+LBFS
 breadth-first search (BFS)
 topological ordering
 chordal graph
 Meek rule
 clique tree
 rooted clique tree
-PDAGs
 MPDAGs
+PDAGs
 chordal graphs
 Clique-Picking algorithm
 Clique-Picking
@@ -4883,8 +4882,8 @@ perfect elimination ordering
 Semantic Role Labeling
 CoNLL
 domain adaptation
-unlabeled data
 training domain
+unlabeled data
 ADUT
 out-of-domain
 predicate
@@ -4892,16 +4891,16 @@ test example
 in-domain distribution
 predicates
 VerbNet
-PropBank
 SRL
+PropBank
 syntactic parser
 part-of-speech tag
 phrase tuple
 semantic role
 transformation functions
 joint inference
-Penn TreeBank
 shallow parser
+Penn TreeBank
 sequential tagging
 ADUT-Charniak
 GLIDE
@@ -4963,8 +4962,8 @@ regret-to-go
 Markovianity
 non-Markovian policies
 partial observability
-M
 p
+M
 Bernoulli
 3SAT
 non-Markovian policy
@@ -4976,9 +4975,9 @@ policy optimization
 transition model
 Non-Markovian
 stationarity
-entropic measure
-reward-free environment
 state distribution
+reward-free environment
+entropic measure
 MaxEnt
 conditional gradient method
 stationary state-action distribution
@@ -4986,8 +4985,8 @@ entropy function
 π NM
 polynomial-time functions
 image compression
-color appearance
 psychophysical models
+color appearance
 Fourier domain
 HDR-VDP
 Cortex Transform
@@ -5011,8 +5010,8 @@ JSD
 bias mitigation
 OpenAI
 VADER
-text-davinci-003
 text-davinci-002
+text-davinci-003
 model-theoretic
 axiom system
 Autoepistemic Logic
@@ -5038,12 +5037,12 @@ axiomatization
 proof theory
 optimal transport
 vocabularization
-optimal transport matrix
 VOLT
+optimal transport matrix
 word-level vocabularies
 Byte-Pair Encoding
-corpus entropy
 token sparsity
+corpus entropy
 Marginal Utility
 Marginal Utility of Vocabularization
 training corpus
@@ -5055,23 +5054,23 @@ WordPiece
 WMT-14
 embedding parameters
 Moses
-mBART
 mBERT
+mBART
 IndoBERT
 neural methods
 translation models
-PBSMT
 SacreBLEU
+PBSMT
 parallel corpora
 cross-lingual transferability
 PDDL
-initial state
 ground atoms
+initial state
 goal state
 description logics
 transitive closure
-unary predicates
 binary predicates
+unary predicates
 unary predicate
 planning tasks
 unsolvability heuristic
@@ -5079,17 +5078,17 @@ disjunctive normal form (DNF)
 binary classifiers
 DNF formula
 propositional variable
-T-PERFECT
 T-SAFE
-false positive
+T-PERFECT
 Max-SAT
+false positive
 anytime algorithm
 tree
 CART algorithm
 CART
 syntactic complexity
-test sets
 training sets
+test sets
 DECISIONTREE
 hypothesis space
 online algorithms
@@ -5149,17 +5148,17 @@ SNLI
 Shannon information
 I V (X → Y )
 data processing inequality
-sample spaces
 V-information
+sample spaces
 PAC bounds
 sub-populations
-model accuracy
 label entropy
+model accuracy
 natural language inference
 Y
 V
-V-information framework
 MultiNLI
+V-information framework
 CoLA
 predictive family
 PVI
@@ -5171,8 +5170,8 @@ DWMW17
 input token
 minimum description length
 contradiction
-in-distribution
 out-of-distribution
+in-distribution
 data maps
 DistilBERT-base
 Recursive Neural Tensor Network
@@ -5190,8 +5189,8 @@ MV-RNN
 tensor product
 neural network layer
 Hadamard product
-dev set
 word vector
+dev set
 neural word vectors
 n-grams
 Recursive Neural Tensor Networks
@@ -5226,8 +5225,8 @@ camera poses
 coarse network
 hierarchical sampling
 fine network
-β1
 β2
+β1
 voxel grid
 SRN
 alpha compositing
@@ -5235,8 +5234,8 @@ alpha compositing
 LLFF
 network weights
 NV
-2D viewing direction
 3D location
+2D viewing direction
 Tensorflow
 NVIDIA V100 GPUs
 normalized device coordinate
@@ -5278,11 +5277,11 @@ synaptic plasticity
 Markov transition matrix
 neural activity
 synaptic weights
-depression
 potentiation
+depression
 memory capacity
-synaptic dynamical system
 stochastic transition matrices
+synaptic dynamical system
 synaptic models
 equilibrium distribution
 information theoretic
@@ -5302,9 +5301,9 @@ Scorer
 Sampler
 LMDistribution
 BooleanScorer
+CDPGTuner
 FDPGTuner
 DPGTuner
-CDPGTuner
 debiasing
 gradient steps
 ContextDistribution
@@ -5355,8 +5354,8 @@ unbiased estimate
 gradient exploration
 ranker
 document space
-DBGD-type
 OL2R
+DBGD-type
 Dueling Bandit Gradient Descent
 DBGD
 model update
@@ -5365,8 +5364,8 @@ model convergence
 DBGD-type algorithms
 rankers
 cumulative regret
-Dueling Bandit Gradient Descent (DBGD)
 unit vector
+Dueling Bandit Gradient Descent (DBGD)
 link function
 OL2R algorithm
 interleaved test
@@ -5381,8 +5380,8 @@ gradient projection
 Document Space Projection
 ranking features
 MGD
-NSGD
 document space projection
+NSGD
 orthonormal basis
 MSLR-WEB10K
 NDCG@10
@@ -5397,25 +5396,25 @@ model interpretability
 outliers
 text categorization
 model uncertainty
-Visual Question Answering
 Core-Set selection
+Visual Question Answering
+learnability
 confidence
 prediction variance
-learnability
 Dataset Maps
 Entropy
 Monte-Carlo Dropout
-LSTM-CNN
 BUTD
 LXMERT
+LSTM-CNN
 VQA-2
 VQA-Sports
 VQA models
-uncertainty sampling
 acquisition functions
+uncertainty sampling
 GQA
-model confidence
 prediction variability
+model confidence
 ablations
 active learning.
 Dataset Map
@@ -5450,8 +5449,8 @@ randomized algorithm
 DP-SGD optimizer
 DP-SGD
 RDP
-Rényi DP
 δ)-DP
+Rényi DP
 support vector machine
 zCDP
 Rényi divergences
@@ -5471,8 +5470,8 @@ approximate DP
 PGF
 probability density function
 cdf
-point mass distribution
 point mass
+point mass distribution
 ε-DP
 renormalization
 base algorithm
@@ -5488,8 +5487,8 @@ max-regret
 ontology-mediated query
 instance queries
 UCQs
-IQs
 CQs
+IQs
 ALCI
 OMQs
 ALC-IQ
@@ -5497,8 +5496,8 @@ MMSNP
 CSP
 ABox
 TBox
-concept inclusions
 concept language
+concept inclusions
 role inclusions
 inverse roles
 role assertions
@@ -5506,8 +5505,8 @@ concept assertions
 conjunctive query
 concept name
 homomorphism
-disjunction
 union of conjunctive queries
+disjunction
 tuple
 ALCI-IQ
 Σ-ABox
@@ -5533,8 +5532,8 @@ ALCIF
 2NEXPTIME-complete
 IQrewritability
 IQ-rewritings
-CoNLL++
 CoNLL-2003
+CoNLL++
 pre-training data
 adaptive overfitting
 LUKE
@@ -5547,8 +5546,8 @@ correlation coefficients
 continual learning
 transformer-based architecture
 pre-training corpora
-learning_rate
 batch_size
+learning_rate
 OFA
 unimodal
 multimodal pretraining
@@ -5590,8 +5589,8 @@ P M I
 multinomial word distribution
 contextual text mining
 topic labeling
-spatiotemporal text mining
 temporal text mining
+spatiotemporal text mining
 topic distribution
 NLP Chunker
 ngrams
@@ -5600,8 +5599,8 @@ background normalization
 uniform normalization
 background model
 KDD
-mixture models
 parameter estimation
+mixture models
 zero-order relevance
 chunking
 multinomial topic model
@@ -5662,8 +5661,8 @@ maximin share fairness
 proportionality
 ℓ ∞ norm
 ℓ 2 norm
-maximin share
 s-separated partitions
+maximin share
 MMS
 maximin partition
 axis-aligned rectangles
@@ -5673,8 +5672,8 @@ GuMMS
 computational geometry
 guillotine partition
 axis-parallel rectangles
-approximation guarantee
 pairwise-disjoint rectangles
+approximation guarantee
 BiLSTMs
 sequence labelling
 named-entity recognition
@@ -5682,8 +5681,8 @@ likelihood ratio tests
 p-values
 Universal Dependencies
 timesteps
-likelihood ratio test
 NLP model
+likelihood ratio test
 POS-tagging
 BiLSTM-pos
 token position
@@ -5697,14 +5696,14 @@ end-to-end system
 syntactic dependency parsing
 predicate-argument relations
 capsule networks
-syntax-agnostic
 syntax-aware
+syntax-agnostic
 cross-lingual model
 Proposition Bank
-predicate sense disambiguation
+predicate identification
 argument identification
 argument classification
-predicate identification
+predicate sense disambiguation
 word alignment techniques
 universal sentence encoder
 word encodings
@@ -5736,18 +5735,18 @@ mean average precision
 neural baselines
 bag-of-ngrams
 Neural(p
-EVPI model
 q
+EVPI model
 Community Question-Answering (CQA)
 monocular images
 multi-view systems
-template models
 body motion capture
+template models
 mesh
 template mesh
 SE(3)
-skeleton hierarchy
 transformation matrices
+skeleton hierarchy
 pose parameter
 blendshapes
 transform
@@ -5757,13 +5756,13 @@ optimization framework
 ICP
 triangulation
 Frankenstein model
-keypoint detections
 SMPL model
+keypoint detections
 keypoint
 keypoint detection
 LBS
-t T
 φ T
+t T
 3D point clouds
 background subtraction
 word2vec
@@ -5771,12 +5770,12 @@ I-language
 E-language
 strongly connected component
 E-language models
-negative sampling
 down-sampling
+negative sampling
 I-language model
 dimensions
-I-language models
 random walk model
+I-language models
 semantic vectors
 GloVe vectors
 vector spaces
@@ -5814,8 +5813,8 @@ partitioning
 window size
 batch detection
 detections
-hybrid architectures
 answer set programming
+hybrid architectures
 event calculus
 spatial entities
 YOLOv3
@@ -5883,9 +5882,9 @@ Arcade Learning Environment
 Atari games
 RL algorithms
 ALE
+Atari 100k
 Procgen
 DeepMind Control Suite
-Atari 100k
 interval estimates
 stochasticity
 normalized scores
@@ -5903,8 +5902,8 @@ stratified bootstrap CIs
 Rainbow
 DreamerV2
 M-IQN
-PLR
 UCB-DrAC
+PLR
 DM Control
 SPR
 mean squared error (MSE)
@@ -5914,8 +5913,8 @@ CIs
 SUNRISE
 bootstrap CIs
 stratified bootstrap
-PPG
 MixReg
+PPG
 IDAAC
 covariance matrices
 Riemannian manifold
@@ -5926,8 +5925,8 @@ Riemannian geometry
 feature points
 feature image
 covariance descriptors
-integral images
 covariance descriptor
+integral images
 detection window
 topological space
 homeomorphism
@@ -5936,8 +5935,8 @@ Riemannian metric
 eigenvalue decomposition
 LogitBoost
 Riemannian manifolds
-negative binomial log-likelihood
 weak classifiers
+negative binomial log-likelihood
 cascade level
 HOG features
 FPPW
@@ -6005,8 +6004,8 @@ per-pixel refinement
 2D optical flow
 epipolar motion
 motion estimation
-coreference chain inference
 mention classification
+coreference chain inference
 coreference chain
 weighted voting
 encoder network
@@ -6018,8 +6017,8 @@ transpose
 KL term
 prior probability
 confusion matrix
-annotator reliability
 instance complexity
+annotator reliability
 likelihood functions
 chi-square distribution
 Poisson process
@@ -6028,10 +6027,10 @@ SSS
 LRT statistic
 Poisson model
 PDF
-MLE1
 MLE0
-statistical independence
+MLE1
 statistical significance
+statistical independence
 p value
 Monte Carlo method
 MLEs
@@ -6046,8 +6045,8 @@ ET(λ)
 TD(0)
 successor features
 TD learning
-MC algorithm
 λ-returns
+MC algorithm
 expected traces
 empirical loss
 Markov states
@@ -6057,12 +6056,12 @@ ET(λ
 TD(λη)
 replay
 model-based reinforcement learning
-transition dynamics
 credit assignment
+transition dynamics
 eligibility trace
 temporal difference learning
-function approximation
 TD update
+function approximation
 empirical mean
 instantaneous trace vector
 instantaneous traces
@@ -6125,16 +6124,16 @@ inference rules
 GLUCOSE
 ConceptNet
 ATOMIC
+Kendall's τ
 Spearman
 Pearson
-Kendall's τ
 annotations
 GLUCOSE dimensions
 T5 model
-Full-LM
 inference rule
-consequent
+Full-LM
 antecedent
+consequent
 Enc-Dec
 downstream task
 PT-LM
@@ -6150,17 +6149,17 @@ hierarchical features
 attention models
 attention matrix
 Performer
-Longformer
 Big-Bird
+Longformer
 encoder layer
 Fourier sublayer
 Hartley Transform
 position embeddings
 TPU
-self-attention sublayer
 dense
-BERT-Base
+self-attention sublayer
 BERT-Large
+BERT-Base
 Fourier sublayers
 self-attention sublayers
 MLM
@@ -6243,9 +6242,9 @@ Recurrent Neural Network
 kernel SVMs
 grid-search
 binary cross-entropy
-MUSE
 XLM
 VecMap
+MUSE
 FFNN
 F-scores
 cognate detection
@@ -6266,8 +6265,8 @@ ground set
 matroid
 Matroid Median with Outliers
 candidate set
-k-Center
 Matroid
+k-Center
 Colorful k-Median
 τ-approximation algorithm
 sample
@@ -6282,14 +6281,14 @@ R-SVM+
 training examples
 privileged information
 misclassification loss
-bias terms
 feature mappings
+bias terms
 decision space
 minimization problem
 digit classification
 Human Activity Recognition
-gyroscope
 accelerometer
+gyroscope
 RSVM-RHHQ
 R-SVM
 L2-SVM+
@@ -6336,8 +6335,8 @@ CEAF-REE
 SCIREX
 train
 CEAF-RME
-template
 similarity function
+template
 MUC
 role-filler entity extraction
 dynamic oracle
@@ -6349,16 +6348,16 @@ EE
 CEAF
 bipartite matching
 micro-average
-CEAF-REE def
 CEAF-REE impl
+CEAF-REE def
 maximum bipartite matching
 entity alignment
 Kuhn-Munkres algorithm
 event coreference
 grounded language learning
 computer-vision
-false negatives
 false positives
+false negatives
 part of speech
 lexical acquisition algorithm
 object tracks
@@ -6395,8 +6394,8 @@ zeroth-order estimator
 first-order estimator
 α-order gradient estimator
 law of large numbers
-policy parameters
 trajectory optimization
+policy parameters
 Jacobian matrix
 rollout
 batched gradient
@@ -6441,8 +6440,8 @@ shape/morph matrix
 corrective transform
 orthonormal decomposition
 pseudo-motion matrix
-landmarks
 reference frame
+landmarks
 rank-reduction
 3D flow algorithm
 3D model
@@ -6471,8 +6470,8 @@ precision-at-10
 SBERT
 GPT4
 presence penalty
-frequency penalty
 temperature
+frequency penalty
 blind deconvolution
 delta kernel
 marginalizing
@@ -6493,8 +6492,8 @@ spatial domain
 filter
 coordinate descent algorithm
 local minimum
-labels
 identically distributed
+labels
 Conditional random fields
 iid sample
 decentralized
@@ -6526,8 +6525,8 @@ DBNs
 decentralized RL
 chain CRF
 policy-gradient
-multi-label text classification
 pool-based active learning
+multi-label text classification
 scikit-learn
 area under the curve
 classification accuracy
@@ -6538,8 +6537,8 @@ stopping criteria
 prediction entropy
 Coreset
 cold start
-BADGE
 contrastive active learning
+BADGE
 transformer models
 SetFit
 transformer-based
@@ -6560,8 +6559,8 @@ training tasks
 image encoder
 label encoder
 task-specific parameters
-patch-level non-parametric matching
 label decoder
+patch-level non-parametric matching
 non-parametric matching
 meta-testing
 label tokens
@@ -6585,8 +6584,8 @@ query label tokens
 task adaptation
 task-specific adaptation
 Attention
-patch-level embeddings
 Taskonomy dataset
+patch-level embeddings
 Taskonomy
 Sobel edge detector
 quantiles
@@ -6617,20 +6616,20 @@ MPNet
 Wikipedia2Vec
 WSD
 Alternating Structure Optimization (ASO)
-Senseval
 ASO
+Senseval
 joint linear model
 semisupervised learning
 predictive structure
-uni-grams
 bi-grams
+uni-grams
 Senseval-2
 stochastic gradient descent (SGD)
 dimension reduction
 structure matrix
 predictor matrix
-syntactic relations
 local context
+syntactic relations
 global context features
 Senseval-3
 LSA kernel
@@ -6640,13 +6639,13 @@ SLAM
 canonical space
 TSDF
 warp function
-warp-field
 rigid body transformation
+warp-field
 warp field
 k-nearest
 voxel
-non-rigid reconstruction
 canonical frame
+non-rigid reconstruction
 normals
 perspective projection
 aperture problem
@@ -6684,30 +6683,30 @@ one-hot encode
 numerical features
 Precision
 MCCE
-Genetic algorithm
 DICE
+Genetic algorithm
 MACE
 MOC
 counterfactual explanation
 counterfactual generations
 quasi-identifiers
 sensitive attribute
-l-Diversity
 k-Map
+l-Diversity
 k-Anonymity
 counterfactual
-equivalence classes
 model explainer
+equivalence classes
 CF-K
+counterfactual constraints
 linkage attacks
 algorithmic recourse
-counterfactual constraints
 membership inference attacks
 validation sets
 dense layer
 black-box classifiers
-CRUDS
 FastAR
+CRUDS
 feature selector
 probability vector
 counterfactual representations
@@ -6741,18 +6740,18 @@ temperature parameter
 Monte Carlo tree search
 reinforcement-learning
 Nash equilibrium
-replay buffer
 policy network
+replay buffer
 Nash-Q
 equilibrium policy
 policy proposal network
 agent policy
 D KL
-DiL-piKL
 behavioral cloning
+DiL-piKL
 anchor policy
-lambda
 piKL
+lambda
 a priori
 best response
 Bayesian game
@@ -6769,8 +6768,8 @@ equilibrium-finding algorithm
 DNVI
 BC policy
 RL agents
-BC
 BR
+BC
 feature channels
 LSTM decoder
 GeLU activation
@@ -6799,8 +6798,8 @@ hubs skeleton
 Linearity Theorem
 PPV's
 linear combination
-preference vectors
 hub vector
+preference vectors
 hub vectors
 query time
 partial vector
@@ -6808,8 +6807,8 @@ Hubs Theorem
 P-distance
 Hubs Equation
 out-neighbors
-basis vector
 Decomposition Theorem
+basis vector
 derivatives
 dynamic programming algorithm
 naive algorithm
@@ -6821,8 +6820,8 @@ E k [p](q)
 3D scene
 3D scene geometry
 geometric consistency
-object identities
 viewpoint
+object identities
 local object detection
 confidence maps
 kernel density estimation
@@ -6834,8 +6833,8 @@ sampling temperature
 temperature hyperparameter
 multilingual translation model
 BPE tokens
-target sequence
 source sequence
+target sequence
 inverse square root learning rate schedule
 data size
 multilingual machine translation
@@ -6854,8 +6853,8 @@ pairwise optical flow
 global motion representation
 dynamic multi-view geometry
 canonical volume
-photometric loss
 bijections
+photometric loss
 local-canonical bijections
 RAFT
 TAP-Net
@@ -6866,18 +6865,18 @@ GaborNet
 true positives
 RAFT-D
 PIPs
-Layered Neural Atlases
 Deformable Sprites
+Layered Neural Atlases
 query point
 Flow-Walk-C
-RAFT-C
 Flow-Walk-D
+RAFT-C
 occlusion events
 bijections.
 appearance consistency
 cycle consistency check
-mip-NeRF
 gradient losses
+mip-NeRF
 mean absolute error (MAE)
 invertible network
 affine coupling layer
@@ -6889,8 +6888,8 @@ back-propagate
 LPAQA
 cloze prompts
 pretrained
-federated search
 distributed information retrieval
+federated search
 query-log features
 query representation
 query-logs
@@ -6916,17 +6915,17 @@ MTGP
 covariance kernel
 latent variable
 latent functions
-equilibrium points
 cluster labels
+equilibrium points
 data points
 Gaussian Process Latent Variable Model
 Gaussian priors
 Discriminative Gaussian Process Latent Variable Model (DGPLVM)
-Kernel Fisher Discriminant Analysis (KFDA)
 kernel function
+Kernel Fisher Discriminant Analysis (KFDA)
+linear discriminant analysis
 KFDA
 kernelized
-linear discriminant analysis
 latent positions
 asymmetric multi-task learning
 anchors
@@ -6938,13 +6937,13 @@ anchor graphs
 GPLVM
 Adaboost
 codebook
-GaussianFace-FE
 GaussianFace-BC
+GaussianFace-FE
 facial features
 LFW benchmark
 face verification algorithms
-Multi-Task Learning
 Discriminative Gaussian Process Latent Variable Model
+Multi-Task Learning
 dependency relations
 diffusion models
 text-to-image generation
@@ -6958,8 +6957,8 @@ text embeddings
 denoising network
 matrix multiplications
 head
-attention score arrays
 bicubic interpolation
+attention score arrays
 attention maps
 DPM
 mean intersection over union (mIoU)
@@ -6986,8 +6985,8 @@ policy gradient algorithms
 stochastic gradient ascent
 non-convex objective
 Reward Function
-AQE
 IQE
+AQE
 query expansion
 tf*idf
 wpq
@@ -6996,8 +6995,8 @@ social networks
 triadic features
 inference procedure
 binary labels
-η
 edge label
+η
 unsupervised model
 triads
 edge labels
@@ -7039,8 +7038,8 @@ counterfactual best response
 imperfect-information subgame
 imperfect-information games
 subgame solving
-subgame-solving
 exploitability
+subgame-solving
 blueprint strategy
 CBV
 Maxmargin
@@ -7053,8 +7052,8 @@ chance node
 NLFH
 Reach-Maxmargin
 CFR+
-Maxmargin solving
 augmented subgame
+Maxmargin solving
 LP solver
 gadget game
 CFR
@@ -7065,8 +7064,8 @@ strategy
 Estimated-Maxmargin
 Information Retrieval
 saddle point
-K-Means
 LSTM-CRF
+K-Means
 LSA
 SciBERT
 adversarial learning
@@ -7077,10 +7076,10 @@ DeiT
 backbone network
 Transformer blocks
 residual connection
-self-attention module
 Swin Transformer blocks
-W-MSA
+self-attention module
 SW-MSA
+W-MSA
 window partitioning
 Swin-S
 Swin-T
@@ -7088,11 +7087,11 @@ channel number
 ADE20K
 EfficientNet
 multi-scale training
-Con
 ResNe(X)t
+Con
 hierarchical feature maps
-Cascade Mask R-CNN
 mask AP
+Cascade Mask R-CNN
 box AP
 absolute position embedding
 Swin-L
@@ -7103,15 +7102,15 @@ self-attention modules
 Swin-B
 self-attention computation
 cosine decay learning rate scheduler
+ATSS
 Sparse RCNN
 RepPoints v2
-ATSS
 learning rate decay
 instaboost
 soft-NMS
-warmup
-scheduler
 linear learning rate decay
+scheduler
+warmup
 ImageNet-22K
 autoregressive language models
 A* search
@@ -7126,8 +7125,8 @@ Beam search
 lookahead
 subsequence
 lookahead heuristic
-COMMONGEN
 constrained machine translation
+COMMONGEN
 TSMH
 Likert scale
 A* search algorithm
@@ -7181,9 +7180,9 @@ multi-layer perceptrons (MLPs)
 triangle meshes
 inverse rendering
 neural implicit surfaces
+neural implicit
 Lagrangian representation
 Marching Cubes
-neural implicit
 level-set theory
 mean-curvature flow
 gradient-descent
@@ -7208,8 +7207,8 @@ latent-code
 iso-surface extraction
 marching cubes
 ray-marching
-differentiable ray-marching
 parametric implicit surfaces
+differentiable ray-marching
 level-set function
 Laplace-Beltrami operator
 differentiable renderer
@@ -7222,8 +7221,8 @@ inverse problems
 sphere tracing
 NFGP
 photometric error
-level-set functions
 level-set method
+level-set functions
 SIREN
 triangle mesh
 flow-field
@@ -7240,21 +7239,21 @@ Expected Number of User Actions
 conjugate gradient
 UIM2
 user interaction model
-Constrained Forward-Backward
 Constrained Viterbi
+Constrained Forward-Backward
 CCRF
-CCR
 MAXENT
+CCR
 Pearson's r
-constraint propagation
 interactive information extraction
+constraint propagation
 outlier detection
 shielding
-deterministic
 probabilistic
+deterministic
 learning agent
-probabilistic semantics
 probabilistic shields
+probabilistic semantics
 probabilistic logic shields
 predicate symbol
 ProbLog
@@ -7292,8 +7291,8 @@ sparse projection matrices
 projection matrices
 Kullback Leibler divergence
 link functions
-hyperpriors
 Beta
+hyperpriors
 selection indicators
 variational distributions
 truncated Gaussian
@@ -7322,8 +7321,8 @@ Gauss-Seidel method
 Monte Carlo simulation
 decay factor
 all-pairs algorithm
-single-source
 single-pair
+single-source
 Monte-Carlo simulation
 SimRank scores
 Hoeffding inequality
@@ -7346,8 +7345,8 @@ Gauss-Southwell algorithm
 Monte-Carlo algorithm
 linearization
 Guass-Southwell algorithm
-SimRank equation
 linear equation
+SimRank equation
 stochastic thresholding
 state-of-the-arts algorithms
 power-law distributions
@@ -7382,8 +7381,8 @@ LIZARD algorithm
 MINION
 CUCB
 predictive model
-Discretization
 optimal solution
+Discretization
 selection regret
 combinatorial multi-armed bandit problem
 no-regret
@@ -7394,8 +7393,8 @@ multilayer perceptron (MLP)
 mipmap
 Mip-NeRF
 scene representations
-voxel grid representations
 gradient-based learning
+voxel grid representations
 coordinate-based neural representations
 supersampling
 inverse transform sampling
@@ -7405,8 +7404,8 @@ conical frustum
 featurized representation
 integrated positional encoding
 IPE
-cone-tracing
 JaxNeRF
+cone-tracing
 PE
 IPE features
 frustum
@@ -7453,15 +7452,15 @@ bootstrap replicates
 SAE
 DRO bound
 distributional robustness
-per-group parameter gradients
 expected risk
-forward map
+per-group parameter gradients
 discrete time dynamical system
+forward map
 AAE
 autocomplete
 CommitmentBank
-language understanding
 speaker commitment models
+language understanding
 clause-embedding
 multitask training
 biLSTM
@@ -7486,8 +7485,8 @@ utterance encoder
 dialogue management
 DST
 dialogue state tracking
-copy mechanism
 slot gate
+copy mechanism
 state generator
 dialogue states
 slot values
@@ -7505,8 +7504,8 @@ slot embeddings
 joint accuracy
 document classification
 minimax problem
-zero-one loss
 surrogate loss
+zero-one loss
 DCC
 WCE
 MAP LP relaxations
@@ -7518,8 +7517,8 @@ MAP LP relaxation
 discriminative approaches
 minimax
 expected values
-Tree Augmented Naive Bayes
 Naive Bayes
+Tree Augmented Naive Bayes
 TAN
 NB
 post-editing
@@ -7542,8 +7541,8 @@ positional embeddings
 encoder-decoder attention layer
 encoder states
 phonosemantic systematicity
-bandwidth
 distance metric
+bandwidth
 Levenshtein edit distance
 distributional semantic model
 Mahalanobis distance
@@ -7556,8 +7555,8 @@ word-embedding
 L-BGFS-B
 SMLKR
 semantic distances
-regression error
 SMLKR model
+regression error
 SMLKR regression
 polynomial delay
 covariates
@@ -7661,14 +7660,14 @@ stance detector
 hate speech
 misinformation detection
 distilBERT
+distilRoBERTa
 BART-base
 ALBERT-base
-distilRoBERTa
 LM checkpoints
 pretraining corpus
 GPT2
-data bias
 annotator bias
+data bias
 model bias
 mask filling
 encoder-based language models
@@ -7679,18 +7678,18 @@ BART-large
 pytorch
 Siamese networks
 BYOL
-SimCLR
 SimSiam
+SimCLR
 stop-gradient
 Siamese architectures
 unsupervised representation learning
 un-/self-supervised representation learning
-Siamese network
 momentum encoder
+Siamese network
 memory bank
 2-norm
-cosine decay schedule
 LARS
+cosine decay schedule
 stopgrad
 lr
 SwAV
@@ -7702,8 +7701,8 @@ residual block
 MoCo v2
 syntactic trees
 object detections
-syntactic constraints
 semantic constraints
+syntactic constraints
 syntactic
 overgenerate-and-select approach
 surface realization
@@ -7742,8 +7741,8 @@ convex problem
 quadratic program
 positive semidefinite matrices
 projected gradient method
-analytic center
 cutting plane method
+analytic center
 ellipsoid
 positive semidefinite kernels
 SVM classification
@@ -7751,8 +7750,8 @@ data sets
 Inverse Reinforcement Learning
 Bayesian nonparametric
 stochastic environment
-state-action pairs
 search algorithm
+state-action pairs
 latent reward function
 phylogenetic tree
 PUR-IRL
@@ -7813,17 +7812,17 @@ class
 PETs
 ensemble classification
 bootstrap sample
-boosting algorithm
 ensemble members
+boosting algorithm
 Random Subspace Method
 percentile
-RSM
 SubBag
+RSM
 training data set
 C4.5
 C4.4
-weighted average aggregation
 C4.5 classification trees
+weighted average aggregation
 feature ranking
 leave-one-out
 feature subspace
@@ -7864,14 +7863,14 @@ Rotation Forests
 RP
 Random Projections
 Binary
-MultiBoost
 Random Subspaces
+MultiBoost
 Decision Trees
 RP-Ensemble
 Rot-RP
 RPs
-microarray classification
 classification techniques
+microarray classification
 Rotation Forest
 learning problem
 base classifier
@@ -7918,16 +7917,16 @@ eBOA
 convergence criterion
 ODES
 convergence point
-entropy-based
 EDAs
+entropy-based
 Boolean formula
 SAT problem
 k-SAT
 Weighted Max-SAT
 memory cells
 local search algorithm
-QSAT
 GSAT
+QSAT
 artificial immune system
 Artificial Immune System
 Max-3-SAT
@@ -7935,11 +7934,11 @@ NP-hard problems
 NoC
 data dependencies
 ACG
-DM
-IP mapping
 IP assignment
-MOEAs
+IP mapping
+DM
 NSGA-II
+MOEAs
 microGA
 task graph
 critical path
@@ -7950,28 +7949,28 @@ EA
 DE
 combinatorial optimisation
 perturbation operator
-GA
 TS
+GA
 crossover probability
 CR
 LS-PBPSO
-HDE
 DDE
+HDE
 SPA
 WRALP
 embedded systems
 crossover
 subpopulation
 subpopulations
-convergence time
 fitness
+convergence time
 mutation
 one-point crossover
 termination criteria
 bridge pattern
 strategy pattern
-abstract factory
 builder pattern
+abstract factory
 derivation operators
 compatibility function
 L-Fuzzy context
@@ -7987,9 +7986,9 @@ IC
 Principal Components Analysis
 Kmeans
 Inhomogeneity Threshold
+IQN-T
 XB
 CI
-IQN-T
 Fuzzy UDT
 fuzzy logic
 FRBSs
@@ -8018,8 +8017,8 @@ MPC
 fuzzy model
 MFs
 fuzzy partitions
-integrity constraints
 triangular MFs
+integrity constraints
 geometric mean
 MOEA
 SPEA2
@@ -8027,8 +8026,8 @@ mutation operator
 hamming distance
 mutation probability
 GM
-GM3M
 WM
+GM3M
 Soft Computing
 residuals
 hypothesis test
@@ -8063,17 +8062,17 @@ Bees Algorithm
 LS algorithm
 neighbour
 Greedy Algorithm
-Hybrid Differential Evolution Algorithm
-Tabu Search Algorithm
 Local Search Genetic Algorithm
 Hybrid Ant Colony Optimization Algorithm
+Tabu Search Algorithm
+Hybrid Differential Evolution Algorithm
 HACO
 LSGA
 ELECTRE
 Ant Colony Optimization
-ACOR
-Lévy distributed mutation
 Gaussian mutation
+Lévy distributed mutation
+ACOR
 characteristic function
 Lévy distribution
 Gaussian function
@@ -8154,8 +8153,8 @@ epistemic belief probability
 Kullback-Leibler distance
 illocution
 possibility distribution
-necessity measure
 universe of discourse
+necessity measure
 possibility measure
 propositional language
 interpretation
@@ -8168,15 +8167,15 @@ mental state
 utility assignment
 cognitive state
 rational agent
-qualitative utility
 possibility distributions
+qualitative utility
 population-based modelling
 agent-based modelling
 agent-based simulation
 population-based simulation
 population size
-agent-based
 population-based
+agent-based
 agent-based model
 dynamical model
 population-based model
@@ -8190,8 +8189,8 @@ NuSMV
 UML
 activity diagram
 agent hypergraph
-CT L *
 CT L * CA
+CT L *
 MCMAS model checker
 ISPL
 CA
@@ -8229,11 +8228,11 @@ codelets
 Behavior Network
 sequence database
 transaction database
-confidence threshold
 minimum support
+confidence threshold
 causal learning
-Bayesian methods
 causal reasoning
+Bayesian methods
 sequential pattern mining algorithms
 causal learning algorithm
 object tracking
@@ -8261,12 +8260,12 @@ RDFS
 data mining algorithms
 transaction
 classes
-intersection
 union
+intersection
 subsumption
 DL ontology
-Tbox
 Abox
+Tbox
 instance store
 target instance
 association rule algorithm
@@ -8275,15 +8274,15 @@ co-authorship network
 graph partitioning
 social network analysis
 topic weights
-subconcept
 concept hierarchy
-community mining algorithms
+subconcept
 modularity based approaches
-Newman algorithm
+community mining algorithms
 CONGA algorithm
+Newman algorithm
 betweenness
-Clustering
 Data Mining
+Clustering
 topic terms
 association rule
 conf
@@ -8312,8 +8311,8 @@ argumentative discourse structure
 Rhetorical Structure Theory
 RST
 argumentation support systems
-rhetorical relations
 discourse structure
+rhetorical relations
 posteriori probability
 argumentative discourse
 user utterance
@@ -8351,11 +8350,11 @@ temporal locality
 ISODATA clustering
 ISODATA
 elite list
-tabu search
 particle swarm
+tabu search
 learning methods
-SBS
 SFS
+SBS
 iSBP
 data preprocessing
 evaluation function
@@ -8363,8 +8362,8 @@ filter methods
 k-d trees
 instance selection
 feature selection algorithms
-Relief algorithm
 attributes
+Relief algorithm
 elitism
 feature subset size
 instance subset size
@@ -8404,8 +8403,8 @@ maximum weight spanning tree
 connectivity algorithm
 connectivity
 k-nearest neighbor
-SDP-LR
 SDPs
+SDP-LR
 eigenspectrum
 b-matching
 geodesic distances
@@ -8417,9 +8416,9 @@ low-dimensional representations
 k-nearest neighbor classifier
 spectral methods
 n-gram features
-UNIGRAMS
 BIGRAMS
 TRIGRAMS
+UNIGRAMS
 POS SVM
 feature sets
 Dice coefficient
@@ -8431,8 +8430,8 @@ DICE PROD
 plug-in estimator
 PML plug-in estimator
 maximum likelihood estimators
-empirical frequency
 empirical frequency estimator
+empirical frequency
 SML
 Rényi entropy
 sufficient statistic
@@ -8461,8 +8460,8 @@ covering number
 activity recognition
 LLC
 HoG-3d
-within-class variance
 between-class variance
+within-class variance
 SIFT descriptors
 collaborative modeling
 kernel bandwidth
@@ -8503,15 +8502,15 @@ hidden feature
 SoftMax
 vanishing gradient
 MEAN
-sequence prediction
 supervision
+sequence prediction
 RefineGNN
 Pytorch
 internal context encoder
 value vectors
 RMSD
-C α distance
 epitope
+C α distance
 Huber loss
 CDR
 Re-fineGNN
@@ -8533,12 +8532,12 @@ TD-error
 default policy
 domain knowledge
 QRLGO
+Q RLGO
 π random
 π M oGo
-Q RLGO
 random policy
-π σ
 π ǫ
+π σ
 π τ
 on-policy
 U CT RAV E
@@ -8549,8 +8548,8 @@ regret guarantees
 LTS loss
 product-of-experts
 arXiv
-context models
 LTS
+context models
 parameterized context models
 root node
 root nodes
@@ -8572,8 +8571,8 @@ Bootstrap
 solution node
 LTS_CM
 Frank-Wolfe
-line search
 backtracking line search
+line search
 log-sum-exp
 β-simplex
 Weighted A*
@@ -8584,8 +8583,8 @@ ontology-mediated queries
 ontology-mediated querying
 role name
 functionality assertions
-interpretation function
 role names
+interpretation function
 concept names
 ELIHF-ontology
 ELIHF
@@ -8594,8 +8593,8 @@ enumeration algorithm
 adom(D)
 join tree
 acyclic
-CD•Lin
 DelayC lin
+CD•Lin
 quantified variables
 DelayC
 universal model
@@ -8603,22 +8602,22 @@ ELIF
 spBMM
 Gaifman graph
 alphabet
-Q(D) *
 Q(D)
+Q(D) *
 partial answer
 multi-wildcards
-simulation
 interpretations
-chase
+simulation
 existential quantifiers
+chase
 universal models
 var
 answer variable
 minimal model
 propositional Horn formula
 multi-wildcard tuple
-free-connex
 chase-like
+free-connex
 func
 derivation complete
 derivation completeness
@@ -8639,8 +8638,8 @@ embedding lookup tables
 Transformer encoder
 LSH
 LPA
-L2 weight decay
 learning rate warmup
+L2 weight decay
 SGNN
 SGNN++
 ProSeqo
@@ -8698,8 +8697,8 @@ Categorical
 asymptotic variances
 L-smooth
 log-probability function
-sampling efficiency
 Gibbs-With-Gradients
+sampling efficiency
 restricted Boltzmann machines
 Restricted Boltzmann Machines
 RBM
@@ -8713,13 +8712,13 @@ Hamming-Ball sampler
 gradient estimator
 GWG
 MCMC samplers
-Variational Autoencoders
 Deep Belief Network
+Variational Autoencoders
 EBMs
 Metropolis-Hastings.
-gradient-based approximations
-Stein Discrepancies
 Score Matching
+Stein Discrepancies
+gradient-based approximations
 Hamming ball
 Markov transition kernels
 Markov transition kernel
@@ -8736,8 +8735,8 @@ R-HMC
 Taylor-series approximation
 ESS
 Block-Gibbs
-Factorial Hidden Markov Models
 Markov processes
+Factorial Hidden Markov Models
 FHMM
 Hamming Ball Sampler
 PCD
@@ -8746,8 +8745,8 @@ partition function.
 likelihoods
 root-mean-squared-error
 autoregressive language model
-log-likelihoods
 Categorical distribution
+log-likelihoods
 semantic parsers
 AMR
 CCG
@@ -8769,18 +8768,18 @@ ARG1
 Skolem ID
 Skolem IDs
 CCG parse tree
-REL
-CONSTS
 ID
 ARG2
+REL
+CONSTS
 variables
 factor
 CCG parse
 derivation
 CKY chart
-COMPUTEGRAD
-ADAGRAD
 GENMAX
+ADAGRAD
+COMPUTEGRAD
 parameter updates
 lexemes
 CCG parsing
@@ -8800,15 +8799,15 @@ slot filling
 BERT model
 graph attention network
 Graph Neural Network (GNN)
+event classification
 argument role classification
 argument extraction
-event classification
 trigger identification
 event argument extraction
 MRC
 event representation
-event arguments
 dialogue generation
+event arguments
 lexicon-based graph
 event classification model
 event type
@@ -8825,8 +8824,8 @@ learnable parameter
 lexicon-based graph neural network
 vector concatenation
 L2-norm
-event triggers
 event types
+event triggers
 machine reading comprehension
 GAT layers
 incremental event learning
@@ -8834,14 +8833,14 @@ F1score
 MTL
 game-theoretic
 depth-first
-Heuristic
 value iteration
+Heuristic
 proof tree
 iterative deepening
 proof tree manager
 Df-pn algorithm
-tail entity
 head entity
+tail entity
 RE model
 relation type
 DocRED
@@ -8850,8 +8849,8 @@ DS
 labeling bias
 RE models
 human annotation
-HA-Net
 DS-Net
+HA-Net
 dual supervision framework
 REs
 position embedding
@@ -8862,13 +8861,13 @@ log-normal distributions
 disagreement penalty
 head entities
 µ-Net
-σ-Net
 log-normal distribution
+σ-Net
 ε
 distantly supervised labels
 DUAL
-BAFix
 BASet
+BAFix
 DA
 Multitask
 DS-Only
@@ -8886,16 +8885,16 @@ merge tree
 merge-and-shrink heuristics
 state variables
 precondition
-partial state
 operators
-transition system
+partial state
 planning task
+transition system
 synchronized product
 global transition system
 merge-and-shrink framework
 atomic transition systems
-preconditions
 effects
+preconditions
 transition-safe
 preimage
 transition-exact
@@ -8903,15 +8902,15 @@ label mapping
 Θ-combinable
 Θ-combinability
 A * search
-local equivalence relations
 Θ-combinable labels
+local equivalence relations
 DFP merge strategy
 bisimulation
 greedy bisimulation
-abstraction heuristic
 perfect bisimulation
-RL-B-N100k
+abstraction heuristic
 DFP-B-N50k
+RL-B-N100k
 merge strategy
 non-linear merge strategy
 inexact label reduction
@@ -8926,8 +8925,8 @@ CCG supertagging
 parsing models
 neural parsers
 read-out network
-information bottleneck
 token vocabulary
+information bottleneck
 vector quantization
 token representations
 CKY algorithm
@@ -8940,8 +8939,8 @@ model-checking
 firstorder logic
 first-order formula
 model-checker
-separator token
 model-checking problem
+separator token
 NLI datasets
 BERT architecture
 T5 models
@@ -8967,8 +8966,8 @@ meta-algorithm
 latent semantics
 scene reconstruction
 voxel occupancy
-voxel coloring
 space carving
+voxel coloring
 stereo matching
 energy minimization framework
 L1 distance
@@ -9014,8 +9013,8 @@ video-language model
 LayoutLM
 MINEDOJO
 contrastive video-language model
-text encoder
 CLIP model
+text encoder
 MINECLIP
 Paired Student's t-test
 Gym
@@ -9024,8 +9023,8 @@ Ego4D
 open-ended agent learning
 LIDAR
 Cartesian product
-video embedding
 temporal aggregator
+video embedding
 CLIP Adapter
 byte pair encoding
 episodic returns
@@ -9045,8 +9044,8 @@ sub-optimality
 variational auto-encoder
 MDP model
 policy parameterization
-LAICA algorithm
 Baseline
+LAICA algorithm
 LAICA
 inverse dynamics model
 discounted state distribution
@@ -9058,8 +9057,8 @@ actor
 discounting parameter
 isotropic normal distribution
 polysemy
-internal states
 language model.
+internal states
 deep contextualized word representation
 semi-supervision
 subword
@@ -9081,15 +9080,15 @@ softmax-normalized
 structured prediction models
 coarse-to-fine inference
 constituency parsing
-dependency parsers
 first-order model
+dependency parsers
 structured prediction cascades
 transition-based parser
 max-marginals
-parse
 vine pruning pass
-vine parser
+parse
 vine parsing
+vine parser
 firstorder
 graph-based dependency parsing
 dependency arc
@@ -9097,8 +9096,8 @@ dynamic program
 modifier
 head word
 canonical
-third-order models
 second-order models
+third-order models
 first-order parsing
 coarse-to-fine cascade
 coarse-to-fine parsing
@@ -9107,15 +9106,15 @@ parse score
 filter loss
 structured perceptron
 pruning models
-parse constraints
 arc classifier
+parse constraints
 first-order pruning
 marginal polytope
 Markov Random Fields
 cutting-plane algorithm
 cutting-plane
-cut polytope
 MAP problem
+cut polytope
 potentials
 message passing algorithms
 pseudomarginals
@@ -9130,8 +9129,8 @@ LOCAL
 polytope
 TRW
 loopy belief propagation
-semidefinite programming
 conditional gradient
+semidefinite programming
 local consistency polytope
 log-determinant
 k-projection graph
@@ -9142,8 +9141,8 @@ meta-benchmark
 tracking
 object-detection
 streaming perception
-backbone networks
 FLOPS
+backbone networks
 anytime algorithms
 output buffer
 frame rate
@@ -9151,8 +9150,8 @@ zero-order hold
 FPS
 offline algorithms
 Pearson correlation coefficient
-offline
 streaming algorithms
+offline
 latency
 Iverson bracket
 backbones
@@ -9183,8 +9182,8 @@ query reformulation
 slot-filling
 state-action value function
 Q(s
-RL model
 entity values
+RL model
 Maxent classifier
 Maxent
 RL-Extract
@@ -9200,8 +9199,8 @@ YISI-1
 YISI-2
 paired t-test
 syntactic structures
-language acquisition
 computational modeling
+language acquisition
 biological neural networks
 Bayesian learning
 Markov blanket
@@ -9248,8 +9247,8 @@ SHAP score
 naive Bayes distributions
 linear regression models
 KernelSHAP
-PP2CNF
 #P-hard
+PP2CNF
 prediction model
 fully-factorized data distributions
 TreeSHAP
@@ -9268,16 +9267,16 @@ submatrices
 brute force search
 CSSP
 worst-case analysis
-Master Theorem
 stable rank
+Master Theorem
 spectral decay
 k-DPP
 CSSP approximation factor
 approximation factor
 multiple-descent curve
 spectral properties
-condition number
 phase transitions
+condition number
 submatrix
 trace norm
 Nyström approximation
@@ -9288,8 +9287,8 @@ spectrum
 Gaussian Radial Basis Function (RBF) kernel
 rank k approximation
 DPP sampling
-least squares regression
 Determinantal point processes
+least squares regression
 determinantal point process
 model interpretation
 p.s.d.
@@ -9300,8 +9299,8 @@ Nyström
 CSSP/Nyström approximation factor
 RBF parameter
 Computer vision
-edgelets
 boundary fragments
+edgelets
 Canny edge detector
 steerable filters
 edgelet
@@ -9318,25 +9317,25 @@ REINFORCE estimator
 CV
 RLOO
 gradient variance
-CVs
 Stein operator
+CVs
 Gibbs operator
 Barker operator
 vector-valued function
 autodiff
 RELAX
-surrogate functions
 RODEO estimator
+surrogate functions
 RODEO
-DisARM
 ARMS
+DisARM
 Monte Carlo estimation
 Gibbs Stein operator
 ELBOs
 reparameterization.
 surrogate function
-relaxation
 correction term
+relaxation
 reparameterization trick
 REBAR
 control variate network
@@ -9360,15 +9359,15 @@ transfer functions
 transfer function
 Knowledge Distillation
 readout function
-combinatorial explosion
 higher-order transfers
+combinatorial explosion
 target task
 BIP
 depth estimator
 object classification
 scene classification
-transfer networks
 task-specific networks
+transfer networks
 agglomerative clustering
 low dimensional
 st-graph
@@ -9380,16 +9379,16 @@ st-graphs
 edge features
 node factor
 edge factor
-temporal edge
 spatio-temporal edge
+temporal edge
 edge factors
 S-RNN architecture
 nodeRNNs
 edgeRNNs
 spatio-temporal graph
 edgeRNN
-nodeRNN
 backpropagated
+nodeRNN
 forward-pass
 back-propagated gradients
 FC
@@ -9434,16 +9433,16 @@ lookup tables
 lookuptables
 POS classifier
 semantic labels
-inference methods
 optimisation
 cross-correlation
+inference methods
 semantic objects
 dense depth maps
 visual odometry
 feed forward network
 variational autoencoder
-negative log-likelihood
 uncertainty
+negative log-likelihood
 depth autoencoder
 variational
 Jacobians
@@ -9459,8 +9458,8 @@ BERT-style models
 MWE
 random forest classifiers
 labeled attachment score (LAS)
-UDP
 SEM
+UDP
 U:POS
 VMWE
 morphological feature entropy
@@ -9495,13 +9494,13 @@ dependent variables
 dependency lattice
 independent variables
 equivalence
-xor gate
 equivalence gate
+xor gate
 independent variable
 gate
 parent nodes
-dependent variable
 equivalence gates
+dependent variable
 FPGA
 AdaptNovelty
 DPLL
@@ -9547,13 +9546,13 @@ negative pairs
 stop-gradient operation
 positive pairs
 MoCo
-non-contrastive SSL
 target network
+non-contrastive SSL
 Exponential Moving Average (EMA)
 EMA
 principal components analysis
-gradient training
 Top-1 accuracy
+gradient training
 Top-1
 exponential moving average (EMA)
 online network
@@ -9591,8 +9590,8 @@ F1 measure
 sequential classification
 hmm
 BoW model
-Singular Value Decomposition
 Latent Semantic Analysis
+Singular Value Decomposition
 Word Space
 Kernel function
 semisupervised
@@ -9607,8 +9606,8 @@ LSK
 USPK
 BoW Kernel
 regret matching
-iterative algorithms
 equilibrium
+iterative algorithms
 HUNL
 first-order methods
 regret minimizers
@@ -9638,8 +9637,8 @@ quality estimation systems
 Williams test
 WMT-13
 GP optimization
-covariance functions
 GP-UCB
+covariance functions
 RKHS norm
 Upper Confidence Bound
 submodularity
@@ -9664,11 +9663,11 @@ diag
 cyber-physical systems
 CPS
 autonomous vehicle
-perception
 planning
+perception
 ROS
-localization
 path planning
+localization
 model predictive control
 end-to-end driving
 Convolutional Neural Network (CNN)
@@ -9706,13 +9705,13 @@ Transformer-like
 MPNNs
 GNN architectures
 biconnectivity
-cut vertices
 biconnected component
+cut vertices
 computation complexity
 DSS-WL
 Generalized Distance Weisfeiler-Lehman (GD-WL)
-edge-biconnectivity
 vertex-biconnectivity
+edge-biconnectivity
 GD-WL
 2-FWL
 cut edge
@@ -9747,8 +9746,8 @@ WL algorithm
 graph biconnectivity
 Subgraph GNNs
 WL hierarchy
-subgraphs
 equivariance
+subgraphs
 node marking
 k-FWL
 random features
@@ -9793,13 +9792,13 @@ RD
 3-WL
 positional encoding.
 attention module
-weight decay.
 dropout ratio
+weight decay.
 GraphSAGE
 Gaussian Basis kernels
 warm-up stage
-GIN
 Graphormer
+GIN
 vertex partition
 Resistance Distance
 multisets
@@ -9814,8 +9813,8 @@ matrix inversion
 sparse graphs
 Transformer block
 feed-forward layer
-feed-forward network
 node representation
+feed-forward network
 graph-level accuracy
 object category recognition
 classifier function
@@ -9834,8 +9833,8 @@ nearest-neighbor
 cluster index
 spatial pyramid kernel
 machine vision
-paraphrasing
 text simplification
+paraphrasing
 authorship attribution
 DEV set
 feature weights
@@ -9858,14 +9857,14 @@ relative positional embedding
 self-attention matrix
 ALiBi
 cumulative normalized gradient
-Rotary
 Sinusoidal
+Rotary
 KERPLE
-transformer language models
 relative positional embeddings
+transformer language models
 absolute positional embeddings
-input embeddings
 positional embedding
+input embeddings
 windowed attention
 convolution neural networks
 v
@@ -9888,11 +9887,11 @@ model comparison
 discriminative methods
 compositional
 image parsing algorithm
-generative methods
 top-down
+generative methods
 DDMCMC
-bottom-up processing
 top-down processing
+bottom-up processing
 node attributes
 stochastic sampling
 inference problem
@@ -9914,8 +9913,8 @@ sub-kernels
 proposal probabilities
 stochastic partial differential equation
 Canny detector
-acceptance probability
 proposal probability
+acceptance probability
 subkernel
 log-posterior
 steepest descent
@@ -9945,8 +9944,8 @@ Wasserstein distances
 L p losses
 Hilbert-Sobolev space
 minimax convergence rates
-distribution estimation
 IPM losses
+distribution estimation
 wavelet-thresholding estimator
 minimax risk
 linear estimators
@@ -9990,8 +9989,8 @@ intrinsic dimension
 intrinsic dimensionality
 NLP tasks
 low dimensional task representations
-pre-trained representations
 deep-learning
+pre-trained representations
 model compression
 loss landscapes
 Hadamard matrix
@@ -10001,12 +10000,12 @@ dense matrix
 attention-based
 MRPC
 RoBERTa-Large
-DID method
 SAID method
+DID method
 minimal description length
 SAID
-RoBERTa-Base
 sentence classification
+RoBERTa-Base
 downstream datasets
 XLNet
 HuggingFace Transformers
@@ -10017,8 +10016,8 @@ zeroshot
 pretraining configurations
 zero-shot performance
 bilingual
-tokenize
 bert-base-uncased
+tokenize
 weighted adjacency matrix
 bilingual pretraining
 negative transfer
@@ -10056,14 +10055,14 @@ EOp
 sensitive features
 s γ -SimFair
 group fairness
-Equalized Odds
 Demographic Parity
 Equalized Opportunity
+Equalized Odds
 EO
 multi-object detection
 Multivariate Probit model
-Demographic Parity (DP)
 Equalized Opportunity (EOp)
+Demographic Parity (DP)
 multi-label classifier
 γ-SimFair
 in-processing
@@ -10135,8 +10134,8 @@ function value
 alternated linear program
 low-rank matrix approximation
 root mean square error
-natural language queries
 retrieval systems
+natural language queries
 information retrieval system
 query constraints
 Natural Questions
@@ -10152,11 +10151,11 @@ generative PLMs
 Transformer layers
 quantizer
 module-wise dynamic scaling
-quantizing
 clipping factor
+quantizing
 PACT
-LAQ
 LSQ
+LAQ
 quantization error
 token-level contrastive distillation
 contrastive distillation
@@ -10178,12 +10177,12 @@ multi-modal learning
 student network
 contextualized representation
 hidden state dimension
-WikiText2
 PTB dataset
+WikiText2
 distillation loss
 XSum
-non-rigid shape matching
 rotation
+non-rigid shape matching
 quadratic assignment problem
 point-to-point correspondences
 function spaces
@@ -10202,12 +10201,12 @@ functional map representation
 basis elements
 Laplace-Beltrami eigenfunctions
 isometry
-map inference
 constrained optimization
-scalar function
+map inference
 point descriptors
-point-to-point mappings
+scalar function
 mapping matrix
+point-to-point mappings
 Laplace-Beltrami basis
 L 2
 SCAPE
@@ -10240,15 +10239,15 @@ operator model
 spectral learning
 hidden-state space
 spectral algorithms
-posterior marginals
 MBR decoding
+posterior marginals
 dependency
 arc-factored models
 dependencies
 root
 dependency treebanks
-deterministic grammar
 spectral algorithm
+deterministic grammar
 spectral method
 MBR inference
 Viterbi inference
@@ -10290,8 +10289,8 @@ LMU
 model generalization
 round-robin repeated-labeling
 label uncertainty
-TreeDST
 SMCalFlow
+TreeDST
 simultaneous machine translation
 automatic speech recognition (ASR)
 neural graph-based semantic parser
@@ -10316,8 +10315,8 @@ hidden dimensions
 warm-up steps
 model averaging
 convolutional neural network (CNN)
-voxel representations
 2D images
+voxel representations
 CNN architectures
 polygon mesh
 Bilateral Convolution Layer
@@ -10328,10 +10327,10 @@ SPLATNet
 CONV
 spatial convolutions
 sparse
-BCLs
 SPLATNet 3D
-lattice scales
+BCLs
 scaling matrix
+lattice scales
 lattice spaces
 Euclidean grid
 hierarchical representations
@@ -10351,13 +10350,13 @@ point cloud.
 PointNet++
 surprisal theory
 probabilistic representation
-syntactic predictability
 lexical predictability
+syntactic predictability
 syntactic surprisal
 lexical surprisal
 syntactic structure
-CCG supertag
 constituent
+CCG supertag
 supertag
 supertagging
 garden path sentences
@@ -10377,8 +10376,8 @@ joint distributions
 d-separates
 minimal separators
 P(y|do(x))
-backdoor adjustment
 backdoor admissible
+backdoor adjustment
 s-backdoor
 s-backdoor criterion
 non-parametric settings
@@ -10410,8 +10409,8 @@ monocular
 AR(1)
 monocular odometry
 monocular visual odometry
-stereo odometry
 GPS-based odometry
+stereo odometry
 simplification threshold
 moment matching
 Markov networks
@@ -10421,8 +10420,8 @@ binary atom
 Markov logic networks
 undirected graphical model
 lifted inference algorithms
-domain-lifted inference
 lifted inference
+domain-lifted inference
 automorphisms
 finite partial exchangeability
 MLNs
@@ -10476,8 +10475,8 @@ ImageNet-64
 data manifold
 VE
 deterministic sampling
-Langevin diffusion
 Wiener process
+Langevin diffusion
 SDEs
 stochastic sampler
 SDE
@@ -10489,8 +10488,8 @@ F θ
 unit variance
 augmentation regularization
 samplers
-ADM
 iDDPM
+ADM
 probability flow ODE
 probability density functions
 denoiser
@@ -10513,8 +10512,8 @@ AFHQv2
 conditioning input
 dropout probability
 Fourier features
-ADM architecture
 residual blocks
+ADM architecture
 Inception-v3
 global model
 CCG parser
@@ -10541,8 +10540,8 @@ parse structure
 A * parser
 recursive neural networks
 shift-reduce parser
-entity vocabulary
 entity disambiguation
+entity vocabulary
 Entity disambiguation
 supervised manner
 candidate lists
@@ -10575,8 +10574,8 @@ lexical exposure
 conditional log-likelihood
 baseline performance
 MPP evaluations
-token overlap
 dependency overlap
+token overlap
 latent feature
 Equation 2
 OPT 6.7B
@@ -10598,8 +10597,8 @@ CELF algorithm
 NP cost model
 PA
 on-line bound
-off-line bound
 PA objective
+off-line bound
 Triggering Model
 mixed-integer program
 output vectors
@@ -10609,16 +10608,16 @@ regression problem
 targets
 cVAE
 HSR
-target vector
 ML algorithm
+target vector
 ML emulators
 CRM
 E3SM-MMF
 output layers
 artificial neural network
 linear activation function
-MLPv1
 MLPv2
+MLPv1
 data bootstrapping
 Conv1D
 Hyperband
@@ -10653,13 +10652,13 @@ Open Information Extraction
 OpenIE
 highway network
 gradient operator
-multi-head self-attention mechanism
 Bi-LSTM layer
+multi-head self-attention mechanism
 inter-annotator agreement
 intent detection
 cosine similarities
-beam-CRF
 constr-CRF
+beam-CRF
 Domain Adaptation
 conditional probability distributions
 inverse optimal control
@@ -10686,8 +10685,8 @@ maximum causal entropy model
 latent CRF model
 dynamic Bayesian network
 Bayes net
-Markov games
 correlated equilibrium
+Markov games
 held-out likelihood
 probabilistic topic models
 latent topics
@@ -10701,15 +10700,15 @@ latent parameters
 topic mixture proportions
 pLSI
 logistic normal prior
-part of speech tagger
 stop words
+part of speech tagger
 CTM
 point estimate
 predictive likelihood
 penalty parameter
 magnetic resonance imaging (MRI)
-low rank
 data-fidelity term
+low rank
 ADMM
 denoising strength
 PnP
@@ -10743,8 +10742,8 @@ deep unrolling
 IRCNN
 BM3D-MRI
 semantic scene labeling
-optimal control theory
 sequential decision-making process
+optimal control theory
 homotopy classes
 normalization function
 hMDP
@@ -10762,8 +10761,8 @@ Cohen's κ
 Dependency Length Minimization
 working memory
 DLM
-SP
 dependency distance
+SP
 Zipf distributions
 NLP-tools
 ChiSCor
@@ -10776,8 +10775,8 @@ slot labeling
 self-learning
 MARUPA
 friction detection
-label projection
 paraphrase detection
+label projection
 slots
 paraphrases
 intents
@@ -10786,8 +10785,8 @@ entity resolution
 IC/SL model
 regularization constant
 ELMO embeddings
-dialog systems
 intent classification
+dialog systems
 preference DAGs
 ϕ-risk
 probability simplex
@@ -10802,12 +10801,12 @@ surrogate losses
 normal-form games
 extensive-form game
 normal-form correlated equilibrium
-EFCE
 extensive-form games
+EFCE
 NE
 extensive-form correlated equilibrium
-information set
 no-regret learning dynamics
+information set
 sequential games
 terminal nodes
 EFGs
@@ -10842,8 +10841,8 @@ subgradient descent
 subtree regret
 Equation
 regrets
-NFCCEs
 EFCCEs
+NFCCEs
 MAP-inference
 MQPBO
 local polytope relaxation
@@ -10855,8 +10854,8 @@ energy minimization problem
 minimization problems
 auxiliary problems
 CombiLP
-persistent variables
 persistent labeling
+persistent variables
 Corollary 1
 optimization problems
 idempotent
@@ -10893,9 +10892,9 @@ Laplacian matrix
 linear graph
 strongly-convex
 Neural networks
+Federated graph learning
 Federated Learning
 FL
-Federated graph learning
 FGL
 FedAvg
 computational graph
@@ -10911,9 +10910,9 @@ FL algorithms
 FGL algorithms
 FedSage+
 GraphDataZoo
-Splitter
-Dataloader
 Dataset
+Dataloader
+Splitter
 federated
 federated graph datasets
 FedGraphNN
@@ -10941,13 +10940,13 @@ multibody fundamental matrix
 rigid-body motion
 multibody homography
 normal vector
-LLaMA-7B
 Codex
+LLaMA-7B
 TRIPOST
 iterative training algorithm
 M θ
-improvement module
 feedback module
+improvement module
 IMP
 FBK
 BIG-Bench
@@ -10998,8 +10997,8 @@ emotion classification
 attention distributions
 model prediction
 AUC-ROC
-ICL inference
 anchor re-weighting
+ICL inference
 input feature
 adapter
 re-weighting vector
@@ -11049,13 +11048,13 @@ Hidden Markov Model
 syntactic similarity
 discourse relation
 d-sequence
-content models
 entity grid
+content models
 Stanford Parser
 HMM-prod
 HMM-d-seq
-ACL-NAACL
 ART corpus
+ACL-NAACL
 OCR
 machine learning model
 deep learning systems
@@ -11075,8 +11074,8 @@ Regression
 SIGIR
 Gini coefficients
 CelebA
-Akaike information criterion (AIC)
 Bayesian information criterion (BIC)
+Akaike information criterion (AIC)
 AIC
 BIC
 Recommender systems
@@ -11100,9 +11099,9 @@ Softmax Cross-Entropy
 Gradient Clipping
 2 norm
 Clippy
-GC
 LAMB
 AGC
+GC
 ranking model
 training stability
 feed-forward networks
@@ -11141,8 +11140,8 @@ VEB
 multiple linear regression model
 normal means model
 data matrix
-VEB model
 Coordinate ascent
+VEB model
 VEB method
 mean-field variational approximation
 penalty function
@@ -11178,14 +11177,14 @@ nonconvex optimization problem
 posterior mean coefficients
 K-L divergence
 posterior mean operator
-cv.glmnet
 Ridge regression
+cv.glmnet
 glmnet
 multiple kernel learning
 multi-domain adaptation
 Multi-domain Adaptation with Heterogeneous Sources (MDA-HS)
-target domain
 source domains
+target domain
 ρ-SVM
 target classifier
 early fusion
@@ -11224,13 +11223,13 @@ design space
 over-smoothing
 aggregator
 pooling operators
+GBP
 S 2 GC
 SIGN
-GBP
 evaluation engine
 EHVI
-DistDGL
 NextDoor
+DistDGL
 FlexGraph
 APPNP
 GraphSAINT
@@ -11242,22 +11241,22 @@ neural messages
 DGL
 Graph-SAGE
 PaSca-SGAP
-PaSca-V1
 PaSca-V3
+PaSca-V1
 Res-GCN
 class labels
 AP-GCN
 graph convolutions
 ClusterGCN
-constituency parsers
 constituents
+constituency parsers
 global optimisation
 generative parser
 tree entropy
 set cover
 threshold parameter
-CMM
 CBS
+CMM
 f-score
 TNSK
 ANSK
@@ -11267,13 +11266,13 @@ TC
 sample selection
 PBS
 node feature matrix
-DropMessage
 message matrix
-DropNode
+DropMessage
 DropEdge
+DropNode
 message-passing GNNs
-hidden representation
 differentiable functions
+hidden representation
 message-passing schema
 dropping rate
 feature matrix
@@ -11300,31 +11299,31 @@ F1 error
 minimum description length (MDL) principle
 Dirichlet processes
 Markov models
-constituent-context model
 morpheme-context model
+constituent-context model
 token frequency
 morpheme
 DELORTRANS1
 L 2 regularization
 lexicon prior
 deterministic annealing
-phrasal alignment
 phonetic correspondence
+phrasal alignment
 Morfessor Categories-MAP
-decision-making model
 autonomous system
+decision-making model
 temporal logic
 dual form
 decisionmaking model
-occupancy measures
 moral policy
-road state
+occupancy measures
 location state
+road state
 PFD
 sim-to-real transfer
 state representations
-low-level policy
 high-level policy
+low-level policy
 model-based planning
 latent dynamics model
 RGB images
@@ -11341,8 +11340,8 @@ ODQA
 T5-11B
 NaturalQuestions
 QA generalization
-machine reading
 visual QA
+machine reading
 data fidelity
 dataterm
 Mumford-Shah functional
@@ -11373,9 +11372,9 @@ k nearest neighbors
 SentEval
 Quality estimation
 subword units
-L2 penalty
-ReLU activation functions
 Adam stochastic gradient-based optimizer
+ReLU activation functions
+L2 penalty
 LASER embedding
 adversarial splits
 pseudo-algorithm
@@ -11415,8 +11414,8 @@ geometric invariants
 pairwise
 hypergraph matching
 multilinear objective function
-assignment matrix
 multi-dimensional power method
+assignment matrix
 rotation invariance
 scale invariance
 assignment matrices
@@ -11444,12 +11443,12 @@ agent-agent
 end-to-end paradigm
 BEV
 dense feature
-MHCA
 MHSA
+MHCA
 occupancy
 convolutional decoder
-waypoints
 Mo-tionFormer
+waypoints
 OccFormer
 minADE
 minFDE
@@ -11471,13 +11470,13 @@ multi-modal inputs
 occupancy prediction
 track ID
 MOTR
-classification scores
 3D IoU metric
+classification scores
 tracklets
 inference stage
 anchor
-query context
 query position
+query context
 transformer blocks
 dense scene features
 pixel-level
@@ -11488,10 +11487,10 @@ sinusoidal positional embedding
 temporal horizon
 sparse agent features
 Hungarian loss
-Focal loss
 Dice loss
-AMOTA
+Focal loss
 nuScenes
+AMOTA
 AMOTP
 ViP3D
 FN
@@ -11516,8 +11515,8 @@ spectral density
 graph adjacency matrix
 power laws
 undirected graphs
-spectral geometry
 Laplace operator
+spectral geometry
 Laplacian Matrix
 normalized Laplacian
 earth-mover distance
@@ -11527,13 +11526,13 @@ Chebyshev approximation
 Gauss Quadrature
 eigenpairs
 LDOS
-probe vectors
 orthogonal transformation
+probe vectors
 PDOS
 KPM
 hashing
-mollifier
 Lip
+mollifier
 DOS
 eigenbasis
 Chebyshev moments
@@ -11542,9 +11541,9 @@ eigenvalues.
 graph motifs
 compute node
 centrality measures
-graph matching
-graph clustering
 role classification
+graph clustering
+graph matching
 caching
 inverted lists
 index compression
@@ -11591,8 +11590,8 @@ deep network architectures
 zero-sum
 Counterfactual Regret Minimization
 quantal response equilibrium
-chance node probabilities
 payoff matrices
+chance node probabilities
 contextual features
 parameterized
 normal form games
@@ -11616,8 +11615,8 @@ warp parameters
 mixing probability
 aperture-focus image (AFI)
 confocal constancy
-depth-from-defocus
 depth-from-focus
+depth-from-defocus
 radiance
 confocal constancy property
 reprojection error
@@ -11657,8 +11656,8 @@ softmax layers
 Transformer-XL
 BPC
 local features
-WIKI-103
 ENWIK8
+WIKI-103
 single-head attention
 Routing Transformer
 gradient explosion
@@ -11690,8 +11689,8 @@ Style Transformer
 mask-and-fill framework
 discourse-level
 discourse level
-StoryTrans
 Reverse Attention
+StoryTrans
 continuous normalizing flows
 Riemannian CNFs
 Moser Flows
@@ -11700,8 +11699,8 @@ probability densities
 tangent spaces
 tangent vectors
 vector field
-Riemannian
 directional derivative
+Riemannian
 Moser Flow
 Multi-Layer Perceptron (MLP)
 submanifold
@@ -11731,8 +11730,8 @@ Bayesian probabilistic model
 polarity
 supersenses
 confusion matrices
-graph attention mechanism
 token-level attention
+graph attention mechanism
 graph attention
 Wilcoxon signed-rank test
 GATs
@@ -11744,8 +11743,8 @@ self attention
 L2 regularisation
 Multi-layer Perceptron (MLP)
 BoW
-Deepwalk
 GPolS
+Deepwalk
 Zipf
 Zipf's law
 Gaussian variable
@@ -11798,8 +11797,8 @@ garbled circuit
 Π B2G
 garbled shares
 ring Z 2 ℓ
-Π vSh
 Π B2A
+Π vSh
 Π Bit2A
 offline phase
 backward propagation
@@ -11833,12 +11832,12 @@ prompt encoder
 image embedding
 SAM
 foundation model
-background
 foreground
+background
 promptable segmentation
+foreground segmentation
 interactive segmentation
 object proposal generation
-foreground segmentation
 DALL•E
 mask decoder
 element-wise
@@ -11914,15 +11913,15 @@ deviation set
 ε-equilibrium
 dual cone
 K-ICE polytope
-ε-correlated equilibrium
 ICE polytope
+ε-correlated equilibrium
 social welfare
 regret-matching
 dual program
 joint-strategy
 expected regret
-dual optimization problem
 conditional maximum entropy
+dual optimization problem
 primal constraints
 dual weights
 primal
@@ -11931,8 +11930,8 @@ MaxEnt ICE
 Slater's condition
 primal objective
 template-matching
-exploratory data analysis
 unsupervised discovery
+exploratory data analysis
 univariate
 data mining algorithm
 time-series
@@ -11961,34 +11960,34 @@ discrete semidifferentials
 submodular functions
 minimum cut
 Determinantal Point Processes
-submodular set function
 subdifferential
+submodular set function
 supergradient
 semigradients
 supergradients
 Submodularity
-MMin-II
 MMin-I
+MMin-II
 sublattice
 I-minimum
 MMin-III
 MU
 shortest path
 dense graphs
-local maximum
 η-approximate
+local maximum
 MMax
 bi-directional greedy algorithm
-non-monotone submodular maximization
 matroid constraints
+non-monotone submodular maximization
 submodular optimization
 submodular polyhedron
 similarity matrices
 RLS
-RS
-RG
-BG
 DLS
+BG
+RG
+RS
 influence functions
 stat.ML
 Euclidean inner product
@@ -12076,8 +12075,8 @@ conversational QA models
 conversational question answering
 QA benchmarks
 graph similarity
-cycles
 subtrees
+cycles
 graphlets
 Weisfeiler-Lehman subtree kernel
 k-core decomposition
@@ -12090,8 +12089,8 @@ feature mapping
 base kernel
 pyramid match graph kernel
 t-test
-degree distribution
 power-law distribution
+degree distribution
 GR kernel
 base kernels
 document-level
@@ -12116,11 +12115,11 @@ Lexical Functional Grammar
 noun phrases
 POS signature
 training distribution
-NLI models
 Transformer-based models
+NLI models
 Ω max
-Structure-from-Motion (SfM)
 3D reconstructions
+Structure-from-Motion (SfM)
 local image features
 deep features
 visual localization
@@ -12139,8 +12138,8 @@ pairwise constraints
 track separation algorithm
 geometric verification
 keypoint detector
-keypoint detectors
 S2DNet
+keypoint detectors
 R2D2
 featuremetric bundle adjustment
 featuremetric cost
@@ -12183,22 +12182,22 @@ typed lambda calculus
 meaning representations
 λexpressions
 λ-expression
-λ-meaning forest
 higher order unification
+λ-meaning forest
 λ-production
 λ-forest
 λ-hybrid tree
 λ-productions
-λ-hybrid trees
 λ-hybrid tree model
+λ-hybrid trees
 n-best list
-logical connectives
 bound variables
+logical connectives
 preorder
 packed forest representation
 λ-hybrid sequence rules
-context-free grammar
 synchronous context-free grammar
+context-free grammar
 iterative optimization
 obfuscated gradients
 ICLR
@@ -12250,8 +12249,8 @@ MFS
 semantic biases
 NMT systems
 M2M100 LG
-M2M100
 MBart50
+M2M100
 Emotion cause extraction
 ECE
 ECPE
@@ -12263,8 +12262,8 @@ emotion clause
 Sigmoid function
 emotion-cause pairs
 Bi-LSTMs
-Inter-CE
 Inter-EC
+Inter-CE
 Inter-CE-Bound
 Inter-EC-Bound
 categorial grammar
@@ -12279,8 +12278,8 @@ unbounded dependencies
 constituent structure
 generalized categorial grammar
 argument relations
-meaning functions
 entity instances
+meaning functions
 existential quantifier
 Chomsky normal form
 nsubjpass
@@ -12292,8 +12291,8 @@ scalogram
 1D convolutions
 semantic relations
 Apriori
-frequent itemset
 frequent sequential pattern
+frequent itemset
 semantic annotation
 context indicators
 frequent pattern
@@ -12320,8 +12319,8 @@ sequential patterns
 microclusters
 hierarchical microclustering
 one-pass algorithm
-closed frequent pattern
 maximum frequent pattern
+closed frequent pattern
 transaction coverage
 context modeling
 Disentanglement
@@ -12351,13 +12350,13 @@ learning model
 Evidence Lower BOund
 approximate posterior
 disentanglement metric
+disentanglement metrics
 gradient boosted trees
 multi-class logistic regression
-disentanglement metrics
 Shapes3D
 dSprites
-factorizing
 aggregated posterior
+factorizing
 disentanglement learning
 non-linear ICA
 causal inference
@@ -12382,8 +12381,8 @@ Scream-dSprites
 Color-dSprites
 Noisy-dSprites
 hyperparameter values
-hyperparameter selection
 disentanglement scores
+hyperparameter selection
 training runs
 random seed
 Unsupervised model selection
@@ -12408,27 +12407,27 @@ Boltzmann-rational model
 causal entropy maximising policies
 OPT M-robust
 ORD M
-OPT M -robust
 ORD M -robust
+OPT M -robust
 ORD M-robust
 IRL algorithm
 equivalence relation
 OPT M
-maximal causal entropy model
 optimality model
+maximal causal entropy model
 behavioural models
 causal entropy maximisation
 Im
 affine space
 reward vector
 Q ⋆
-OPT M -admissible
 OPT M -equivalence classes
+OPT M -admissible
 initial state distribution
 OPT M-admissible
 ordinary differential equation
-differential calculus
 Nesterov acceleration
+differential calculus
 strongly convex
 gossip algorithms
 Chebyshev acceleration
@@ -12454,18 +12453,18 @@ supermartingale
 Lyapunov
 projector
 euclidean norm
-Lagrangian duality
 convex conjugate
+Lagrangian duality
 dual objective
 dual parameters
-linear programming relaxation
 MAP assignment problem
+linear programming relaxation
 message-passing algorithms
 Bipartite Multi-cut
 Min-cut
 BMC
-Multi-cut
 LP relaxations
+Multi-cut
 Bipartite Multi-cut problem
 Min-cut LP
 Multi-cut problem
@@ -12488,8 +12487,8 @@ NLVR
 factual knowledge object tagging
 neural modules
 NMNs
-Chain-of-Thought
 CoT
+Chain-of-Thought
 AI system
 image generation
 NLVRV2
@@ -12503,8 +12502,8 @@ generative QA models
 vanilla models
 counterfactual data augmentation
 QA systems
-Exact Match
 Accuracy
+Exact Match
 contextual answer
 counterfactual data
 closed-book model
@@ -12520,9 +12519,9 @@ chatbot
 Turing Test
 bootstrap sampling
 Huggingface
-Empathetic Dialogues
-Blender model
 PersonaChat
+Blender model
+Empathetic Dialogues
 KV
 ConvAI
 KVMemNN
@@ -12536,8 +12535,8 @@ preflop
 opponent modeling
 Nash equilibria
 multiarmed bandit
-Max K-Armed Bandit
 Boltzmann distribution
+Max K-Armed Bandit
 multistart stochastic search algorithms
 stochastic search algorithm
 k-armed bandit
@@ -12556,8 +12555,8 @@ VBSS
 Cohen's kappa
 SUBJ
 MLU
-evidence maximization
 automatic relevance determination
+evidence maximization
 noise model
 hyperprior
 maximum a posteriori
@@ -12568,22 +12567,22 @@ covariance model
 ReML
 covariance components
 lead-field matrix
-FOCUSS
 sLORETA
+FOCUSS
 covariance component
 MCE
 ARD cost function
 localization bias
 Generative Adversarial Networks
 phonological features
-Generative Adversarial Networks (GANs)
 probing classifiers
+Generative Adversarial Networks (GANs)
 ciwGAN
 wav2vec
 internal representation
 InfoGAN
-Discriminator network
 Generator network
+Discriminator network
 regression analysis
 acoustic models
 ciw-GAN
@@ -12597,8 +12596,8 @@ reasoning depth
 large language model
 global context
 BELIEFTRACKINGSTRUCTURE
-GLOBALCONTEXTUPDATE
 LOCALCONTEXTUPDATE
+GLOBALCONTEXTUPDATE
 SYMBOLICTOM
 GPT3-Curie
 GPT3.5
@@ -12625,10 +12624,10 @@ closed book models
 Finetuning
 retrieval based models
 open retrieval QA
-exact match
 answer span
-retriever model
+exact match
 reader models
+retriever model
 retriever models
 nn
 pobj
@@ -12655,8 +12654,8 @@ LKS
 Gaussian components
 FSSD test
 FSSD-rand
-C0-universal
 real analytic function
+C0-universal
 cumulative distribution functions (CDF)
 KSD statistic
 central limit theorem
@@ -12679,9 +12678,9 @@ graph-based parsers
 transition-based parsers
 batching
 POS tag embedding
-bert-multilingual-cased
-chinese-xlnet-mid
 xlnet-large-cased
+chinese-xlnet-mid
+bert-multilingual-cased
 POS embedding
 BERT-based model
 coreferences
@@ -12715,14 +12714,14 @@ convex risk minimization
 set-valued function
 feedback space
 T5-based
-multi-document summarization
 data-to-text generation
+multi-document summarization
 distantly supervised
 content selection
 named entity recognizer
-entity tokens
-entity recall
 entity precision
+entity recall
+entity tokens
 pretrain
 FRUIT
 UpdateROUGE
@@ -12745,8 +12744,8 @@ distributional hypothesis
 intrinsic evaluation
 cooccurrences
 second order
-word analogy
 word similarity
+word analogy
 SimLex-999
 CBOW
 Word2vec
@@ -12765,8 +12764,8 @@ skip-gram
 collaborative learning
 sample complexity bounds
 no-regret dynamics
-multi-distribution learning
 sample-efficient
+multi-distribution learning
 multi-agent system
 GDRO
 group DRO
@@ -12775,8 +12774,8 @@ multidistribution learning
 Group DRO
 multi-group learning
 multi-source domain adaptation
-min-max equilibria
 robust optimization
+min-max equilibria
 distributed learning
 average loss
 multi-distribution learning problem
@@ -12844,15 +12843,15 @@ priority function
 BAE
 NBS
 NBB
-DBBS
+BAE*
 GBFHS
 BS*
-DBS
 DVCBS
-BAE*
+DBBS
+DBS
 GAP
-Bi-HS algorithms
 bidirectional search
+Bi-HS algorithms
 near-optimality
 KK bound
 weakly supervised learning
@@ -12860,8 +12859,8 @@ WSL
 weak labels
 WSL algorithms
 WRENCH
-weakly labeled dataset
 pre-trained language model
+weakly labeled dataset
 L2R
 validation split
 LoRA
@@ -12888,9 +12887,9 @@ half-spaces
 RC
 PCP
 RCP
-r.e.-complete
-Sat
 r.e.-hard
+Sat
+r.e.-complete
 RCP(R 3 )
 Turing machines
 parameterisation
@@ -12944,16 +12943,16 @@ Sherman-Morrison formula
 Schur complement
 trust region subproblem
 quadratic function
-GTRS
 TRS
+GTRS
 ǫ optimal solution
 Riemannian trust region Newton method
 Krylov subspace
 matrix-vector products
 Lagrangian multiplier
-retraction
-Riemannian gradient
 Riemannian Hessian
+Riemannian gradient
+retraction
 RTRNewton
 IPM
 LTRSR
@@ -12985,8 +12984,8 @@ modular upper bound
 set cover problem
 surrogate problem
 submodular set cover
-modular function
 feasible set
+modular function
 ISSC
 modular lower bound
 Ellipsoidal Approximation
@@ -13030,10 +13029,10 @@ trial distribution
 acceptance-rejection procedure
 Maximum Degree method
 stochastic matrix
-MD
 MH
-Markov Chains
+MD
 ergodic
+Markov Chains
 probability transition matrix
 MD method
 burn-in period
@@ -13055,8 +13054,8 @@ edge weight
 deg
 r mcmc
 G
-transition matrices
 spectral gaps
+transition matrices
 MH algorithm
 approximate trial distribution
 MD sampler
@@ -13065,8 +13064,8 @@ vdensity
 fetch cost
 MD random walk
 normalized mean deviation
-query weight distribution
 overflow probability
+query weight distribution
 document graph
 power method
 random walk samplers
@@ -13077,10 +13076,10 @@ invdensity
 PBSampler
 minimum Bayes risk decoding
 A * parsing
-k-best lists
 lexicalized grammars
-antecedents
+k-best lists
 deduction rule
+antecedents
 Viterbi inside score
 A * algorithm
 antecedent items
@@ -13155,8 +13154,8 @@ out-of-distribution (OOD)
 Theorem 5
 OOD data
 VCdim
-hypothesis space.
 FCNN
+hypothesis space.
 OOD Detection
 ID datasets
 ID consistency
@@ -13166,8 +13165,8 @@ Realizability Assumption
 ID hypothesis space
 R D
 ID distribution
-one-class novelty detection
 semantic anomaly detection
+one-class novelty detection
 open-set learning
 PAC learning bounds
 PAC theory
@@ -13218,35 +13217,35 @@ ontology languages
 ontology reasoners
 Horn SHIQ ontologies
 EL++
-SHIQ
 Horn SHIQ
+SHIQ
 EL ++
 completeness
-atomic concepts
 inverse role
-universal restriction
+atomic concepts
 conjunction
+universal restriction
 subsumptions
 SHIQ ontology
 universal restrictions
 atomic concept
 axioms
-transitive closures
 transitive relation
+transitive closures
 axiom
 CEL
 embodied AI
 Flamingo
 Embodied AI
-PROCTHOR
 E-AI
-ARCHITECTHOR
+PROCTHOR
 RoboTHOR
+ARCHITECTHOR
 AI2-iTHOR
 AI2-THOR
 procedural generation
-ObjectNav
 PROCTHOR-10K
+ObjectNav
 HM3D
 Habitat
 mapping
@@ -13268,15 +13267,15 @@ GAE
 stereo problem
 spatio-temporal derivatives
 joint probability distributions
-backprojection
 perspective projection matrix
+backprojection
 local minimizer
 coarse-to-fine strategy
 local cross correlation
 global mutual information
 energy functional
-camera spectral sensitivity
 projective distorsion
+camera spectral sensitivity
 global illumination
 inverse-rendering
 Lambertian
@@ -13323,16 +13322,16 @@ memory complexity
 self-supervised model
 autoregressive module
 Greedy InfoMax
-mutual information maximization
 feature-extraction model
+mutual information maximization
 GIM
 speaker classification
 CPC
 encoding module
 end-to-end backpropagation
+supervised loss
 unsupervised pretraining
 deep belief networks
-supervised loss
 negative samples
 linear logistic regression classifier
 cross-modal
@@ -13362,12 +13361,12 @@ UAV
 cross-attention layers
 DF matching
 precision-recall curve
-PointVlad
 CGM
+PointVlad
 RangeNet++
 multi-robot systems
-UAVs
 IMU
+UAVs
 machine translation systems
 chrF
 embedding-based metrics
@@ -13380,8 +13379,8 @@ classification metrics
 dialogue state
 neural metrics
 Multidimensional Quality Metrics
-multi-task setup
 reference-based metrics
+multi-task setup
 COMET-DA
 COMET-MQM
 mBART50
@@ -13413,8 +13412,8 @@ linear combinations
 nullspaces
 trifocal tensors
 null spaces
-generalized eigenvectors
 homographic slices
+generalized eigenvectors
 generalized eigenspace
 Query2Prod2Vec
 prod2vec
@@ -13443,16 +13442,16 @@ Reservoir
 Poisson sampling
 tuple-set
 Olken algorithm
-join sampling algorithm
 candidate networks
+join sampling algorithm
 Poisson-Olken algorithm
 tuples
 exploitation
 exploration
 UCB-1
 query answering
-Roth and Erev's model
 forget parameter
+Roth and Erev's model
 entity retrieval
 user embeddings
 contextualization
@@ -13469,8 +13468,8 @@ semantic search
 recall@1
 vector search
 model output
-ASR model
 phonetic encoder
+ASR model
 embedding.
 PBERT
 recall@k
@@ -13481,25 +13480,25 @@ bipartite
 concept sequence suffix tree
 context-aware approach
 BIRCH
-concept sequences
 concept sequence
+concept sequences
 key-value pair
-parent node
 suffix tree
+parent node
 query sequence
-child node
 heap structure
+child node
 children
 click-through bipartite
 query suggestion model
 concepts
 N-Gram
 CACB
-Adjacency method
 CACB method
+Adjacency method
 N-Gram method
-nonprojective parsing
 dual decomposition
+nonprojective parsing
 head automata
 sibling models
 dual decomposition parsing algorithm
@@ -13508,8 +13507,8 @@ dual solution
 dual-decomposition algorithm
 parent
 dual decomposition algorithm
-arc-factored
 CoNLL-X
+arc-factored
 projective parsing
 MST algorithms
 MST decoding
@@ -13528,8 +13527,8 @@ GPT3-davinci
 AIs
 non-convex algorithms
 optimality
-block coordinate descent
 alternating least squares
+block coordinate descent
 synchronization
 global optima
 cubic regularization
@@ -13567,8 +13566,8 @@ ICM
 squared-error kernel
 piecewise planar
 linear model
-degree centrality
 distance centrality
+degree centrality
 interacting particle systems
 Linear Threshold
 Influence Maximization
@@ -13640,8 +13639,8 @@ MPIIGaze dataset
 filter responses
 object classes
 image windows
-locality-sensitive hashing
 kernel operator
+locality-sensitive hashing
 O(1)
 inverted indexes
 sliding window classifier
@@ -13665,8 +13664,8 @@ representation matrices
 group representations
 irreducibles
 Fourier Transforms
-Clebsch-Gordan coefficients
 Clebsch-Gordan series
+Clebsch-Gordan coefficients
 Kronecker conditioning
 doubly stochastic
 sequential decision-making
@@ -13710,11 +13709,11 @@ GP regression
 ecological correlations
 FastFood
 GP model
-generalized linear model
 logistic link function
+generalized linear model
 covariance structure
-length-scale
 variance parameter
+length-scale
 mean embedding
 Cholesky decompositions
 posterior uncertainty intervals
@@ -13741,8 +13740,8 @@ FRACTIONALVETO
 winner distribution
 flow network
 flow
-q-social cost
 q-cost
+q-social cost
 PLURALITYMATCHING
 primal LP
 retrieval-enhanced
@@ -13771,10 +13770,10 @@ treebanks
 POS taggers
 data sparseness
 lemmatized
-chart parser
 context free grammar
-verb-object bigrams
+chart parser
 noun-noun bigrams
+verb-object bigrams
 predicate-argument relationship
 class-based smoothing
 adjective-noun bigrams
@@ -13793,8 +13792,8 @@ TT-rank
 TT-representation
 component tensors
 coefficient tensor
-component tensor
 local basis functions
+component tensor
 ALS algorithm
 Id
 TT approximations
@@ -13809,8 +13808,8 @@ DRL
 CVNet
 sub-gradient
 IP methods
-SVM optimization problem
 active set
+SVM optimization problem
 primal optimization
 stochastic gradient algorithm
 Pegasos
@@ -13840,8 +13839,8 @@ semantic operators
 anaphoric reference
 dependency representations
 CoNLL-2012 Shared Task
-lifespan model
 coreferent mentions
+lifespan model
 coreference system
 B 3
 NEs
@@ -13896,9 +13895,9 @@ Graphon Estimation
 stochastic block approximation (SBA)
 graph augmentation
 cut norm
-LG
 SBA
 USVT
+LG
 stochastic block models
 Matrix Completion
 matrix decomposition
@@ -13915,8 +13914,8 @@ iterative backoff
 QuerySuggestion
 QueryDestination
 SessionDestination
-Score-based Generative Models
 diffusion process
+Score-based Generative Models
 diffusion
 score matching
 Riemannian Score-based Generative Models
@@ -13933,8 +13932,8 @@ vector fields
 predictor-corrector scheme
 heat kernel
 RSGMs
-Sturm-Liouville decomposition
 compact manifolds
+Sturm-Liouville decomposition
 RSGM
 normalizing flows
 manifold structure
@@ -13961,8 +13960,8 @@ stochastic development
 semi-group
 div
 score network
-SDE model
 Riemannian setting
+SDE model
 ODE model
 Lie algebra
 Riemannian Score-Based Generative Model
@@ -13970,8 +13969,8 @@ score matching loss
 infinitesimal generator
 Girsanov theory
 sub-manifold
-C([0
 X (M))
+C([0
 T ]
 Hausdorff measure
 GRW
@@ -14021,8 +14020,8 @@ Transformer model
 attention weight matrix
 hidden embeddings
 attribution scores
-head pruning
 attribution score
+head pruning
 attribution trees
 attribution tree
 adversarial triggers
@@ -14043,8 +14042,8 @@ time step embeddings
 Diffusion-NAT
 BART decoder
 masked text infilling
-forward process
 Markov transition matrices
+forward process
 cosine schedule
 self-prompting
 BLEU-2
@@ -14055,12 +14054,12 @@ Semi-NAR
 F1 metric
 XSUM
 discrete diffusion model
+BLEU-1
 Distinct-1
 Distinct-2
-BLEU-1
 F1-Score
-CMLM
 NAT
+CMLM
 LevT
 iNAT
 InsT
@@ -14112,8 +14111,8 @@ NF
 Uni-BS
 RN
 FFU
-g-values
 S1
+g-values
 S2
 priority
 GR2
@@ -14127,13 +14126,13 @@ RCM model
 Self-Supervised Imitation Learning
 Reinforced Cross-Modal Matching
 cycle-reconstruction reward
-R2R
 VLN
+R2R
 Reinforced Cross-Modal Matching (RCM)
 SIL
 matching critic
-extrinsic reward
 intrinsic reward
+extrinsic reward
 reasoning navigator
 textual context
 action embedding
@@ -14142,8 +14141,8 @@ trajectory encoder
 Extrinsic Reward
 discounted cumulative reward
 cycle-reconstruction
-Room-to-Room (R2R) dataset
 vision-language navigation
+Room-to-Room (R2R) dataset
 ResNet-152
 Success Rate
 Path Length
@@ -14151,8 +14150,8 @@ panoramic action space
 RCM
 success rate
 cross-modal reasoning
-intrinsic rewards
 embodied agent
+intrinsic rewards
 self-supervised imitation learning
 navigation policy
 entailment detection
@@ -14182,10 +14181,10 @@ AdvGLUE benchmark
 adversarial texts
 QNLI
 Alpaca-7B
-LLaMA-13B
 Vicuna-13B
-adversarial dataset
+LLaMA-13B
 AdvGLUE++
+adversarial dataset
 adversarial transferability
 MNLI-mm
 SemAttack
@@ -14193,8 +14192,8 @@ AdvGLUE++.
 top-p
 hallucinations
 ACC
-QA2023
 MACC
+QA2023
 QA2020
 model robustness
 SNLI-CAD
@@ -14202,9 +14201,9 @@ spurious correlation
 backdoored
 backdoor trigger
 BadWord attack
-StyleBkd
-ASRs
 SynBkd
+ASRs
+StyleBkd
 CACC
 adversarial instructions
 GPT-Neo
@@ -14262,8 +14261,8 @@ tri-gram
 Micro-F1
 BERT-based PLMs
 linear SVM
-one-vs-rest
 Macro-F1
+one-vs-rest
 Lib-MultiLabel
 LibMultiLabel
 term frequency
@@ -14281,24 +14280,24 @@ null space
 positive semi-definite matrix cone
 nuclear norm
 blkdiag
-DCT bases
 shape matrix
+DCT bases
 rank minimization
 nuclear-norm minimization
 EM-PPCA
 NRSFM factorization
 rank-minimization
 SDP solver
-NRSFM
 nuclear norm relaxation
+NRSFM
 block matrix
 orthographic camera model
 Compressive Sensing
 leaderboard
 GENIE
 XTREME
-bucket
 system
+bucket
 Text Classification
 conditional text generation
 EXPLAINABOARD
@@ -14338,8 +14337,8 @@ DSGP
 sparse GP
 Monte Carlo estimator
 variance starvation
-2-Wasserstein distance
 Thompson sampling
+2-Wasserstein distance
 empirical distributions
 Thompson Sampling
 2-Wasserstein distances
@@ -14418,8 +14417,8 @@ Adversarially Trained Actor Critic (ATAC)
 stochastic approximation
 Bellman error
 offline RL algorithms
-no-regret policy
 policy optimization oracle
+no-regret policy
 occupancy measure
 no-regret algorithm
 mirror-descent
@@ -14434,8 +14433,8 @@ function approximators
 off-policy optimization
 double Q heuristic
 temporal difference
-residual error
 DQRA
+residual error
 IL
 Q heuristic
 SAC
@@ -14450,8 +14449,8 @@ Bellman-consistent
 policy iteration
 ε-covering number
 sup
-Batch data
 critics
+Batch data
 Lagrange relaxation
 last-iterate convergence
 DQRA loss
@@ -14467,17 +14466,17 @@ CRF log likelihood
 Monte-Carlo methods
 gradient decent
 topdown
-top-down module
 bottom-up module
+top-down module
 factorized
 tree-rewighted upper bound
 generalized belief propagation
-tree-rewighted belief propagation
 pseudo-marginals vector
+tree-rewighted belief propagation
 TTS
 acoustic features
-statistical parametric speech synthesizer
 speech synthesizer
+statistical parametric speech synthesizer
 Tacotron2
 speech synthesis systems
 neural TTS
@@ -14491,8 +14490,8 @@ temporal abstraction
 subgoals
 options framework
 intra-option policy
-termination functions
 intra-option policies
+termination functions
 termination function
 discounted return
 option policies
@@ -14550,8 +14549,8 @@ multi-task models
 multi-task fine-tuning
 transfer-learning
 DROP
-unconditional probability
 normalize
+unconditional probability
 Mechanical Turk
 Recognizing Textual Entailment
 Freq(k)
@@ -14595,8 +14594,8 @@ diffusion approximation
 supervised setting
 population loss
 teacher-student networks
-spiked matrix
 tensor models
+spiked matrix
 population gradient flow
 macroscopic generalization error
 ℓ 2 norms
@@ -14637,8 +14636,8 @@ importance weight
 CDPN
 FCOS3D
 regularization loss
-point-wise features
 deformable correspondence network
+point-wise features
 refinement network
 dense correspondence network
 implicit differentiation
@@ -14650,8 +14649,8 @@ derivative regularization
 Huber kernel
 trust region radius
 LM algorithm
-PnP solver
 AMIS algorithm
+PnP solver
 multivariate t-distribution
 t-distribution
 von Mises distribution
@@ -14699,22 +14698,22 @@ topic space
 visualization space
 topic distributions
 MDS
-neighbors
 non-neighbors
+neighbors
 Manifold
 k−nearest neighbors
 scatterplot
 value iteration algorithm
 thresholded-rewards MDPs
-finite-horizon
 infinite-horizon
+finite-horizon
 TRMDP
 cumulative intermediate reward
 thresholded-rewards
 NMRDPs
 intermediate rewards
-state aggregation
 TRMDPs
+state aggregation
 lazy-k heuristic
 dense models
 dense-to-sparse fine-tuning
@@ -14727,8 +14726,8 @@ arithmetic circuits
 OpenWebText
 MLPerf
 lottery tickets
-Chebyshev
 low-rank matrices
+Chebyshev
 Monarch matrix
 FFT algorithm
 butterfly factor matrices
@@ -14765,8 +14764,8 @@ DB
 Eckart-Young theorem
 simultaneous diagonalization
 diagonalizing transformations
-fp16
 fp32
+fp16
 feed-forward network (FFN)
 CUDA kernel
 DeepSpeed
@@ -14775,8 +14774,8 @@ zero-shot generation
 IFFT
 SENSE
 dynamic Bayesian networks
-EM clustering
 Random Forests
+EM clustering
 paraphrase generation
 paraphrase models
 AMR graph
@@ -14809,8 +14808,8 @@ dependency features
 propositions
 dependency parse tree
 contexts
-dependency parse trees
 n-ary relations
+dependency parse trees
 conditionals
 ClausIE
 relational tuple
@@ -14843,19 +14842,19 @@ hidden cell states
 time steps
 neural model representations
 causal interventions
+output gates
 forget gates
 input gates
-output gates
 recurrent model
-Convolution Neural Network (CNN)
 Recurrent Neural Network (RNN)
+Convolution Neural Network (CNN)
 quantum probability
 superposition
 unitary
 density matrix
 density matrices
-Semantic Hilbert Space
 sememes
+Semantic Hilbert Space
 off-diagonal elements
 mixed state
 outer product
@@ -14911,8 +14910,8 @@ Perceptron algorithm
 convex objective
 weak learner
 convex proxy
-poly(d
 b
+poly(d
 distribution-free
 polynomial time algorithms
 halfspace
@@ -14932,10 +14931,10 @@ co-reference resolution
 instruction bias
 CLARIQ
 DUORC
-MULTIRC
-SCIQA
 QUOREF
 ROPES
+MULTIRC
+SCIQA
 SQUAD
 dataset biases
 data instances
@@ -14967,8 +14966,8 @@ semantic vector
 length penalty
 MGRC
 MGRC sampling
-IWSLT17
 IWSLT14
+IWSLT17
 tangential contrastive learning
 vanilla Transformer
 FFN layer
@@ -14992,14 +14991,14 @@ Moore-Penrose pseudoinverse
 human-object interactions
 structure learning
 scene recognition
-human pose estimation
 tree structure
+human pose estimation
 human pose
 weight
 HOI
 max
-Object detection
 scanning window detector
+Object detection
 compositional inference method
 non-max suppression
 pictorial structure model
@@ -15034,8 +15033,8 @@ cube learning
 QBFs
 pure-literal elimination
 Q-Resolution
-QCDCL PL
 QCDCL CUBE
+QCDCL PL
 QCNF
 Q-resolution
 QCDCL CUBE+PL
@@ -15046,8 +15045,8 @@ X-literals
 proof-complexity
 DepQBF
 PLE
-SDCL
 Qute
+SDCL
 ir_datasets
 ir_measures
 PyTerrier
@@ -15055,8 +15054,8 @@ leaderboards
 TIREx
 TIRA
 Docker images
-Docker
 Kubernetes
+Docker
 Docker image
 Corpora
 document corpus
@@ -15064,8 +15063,8 @@ re-rankers
 re-ranker
 ChatNoir
 duoT5
-PyGaggle
 BEIR
+PyGaggle
 ColBERT
 monoT5
 A100 GPU
@@ -15079,26 +15078,26 @@ cycle training
 WebNLG
 CycleGT
 RDF triples
-Text-to-Data model
 TDT cycle
+Text-to-Data model
 DTD cycle
 DART
-WTQ
 WSQL
+WTQ
 parameter sizes
 text corpus
 beam search algorithm
 low-resource fine-tuning
 unsupervised cycle training
 low-resource cycle training
-reference text
 input triplets
+reference text
 hallucination
 fully-supervised models
 Hallucination Errors
 subject-predicate-object triplets
-HE
 FE
+HE
 fully-supervised fine-tuning
 internal representations
 keypoint matches
@@ -15132,8 +15131,8 @@ IsA relation
 tokenization scheme
 NVIDIA V100
 byte-pair encoding
-miniCOMPS-WUGS
 davinci
+miniCOMPS-WUGS
 miniCOMPS-WUGS-DIST
 CSLB
 LSTF
@@ -15151,8 +15150,8 @@ placeholder
 dynamic decoding
 ProbSparse self-attention
 LSTMa
-DeepAR
 ARIMA
+DeepAR
 LSTnet
 Informer model
 LogTrans
@@ -15184,8 +15183,8 @@ excess loss
 booster
 online weak learners
 weak learning assumption
-boost-by-majority
 online setting
+boost-by-majority
 boosting algorithms
 Online BBM
 Online BBM algorithm
@@ -15198,8 +15197,8 @@ neural approaches
 Natural Language Understanding (NLU)
 compositional semantics
 semantic sensitivity
-Generative Model
 NLI Model
+Generative Model
 NLI model
 transformer variants
 transformer-based language models
@@ -15209,8 +15208,8 @@ model M
 predictive performance
 interannotator agreement
 Fooling Rate
-distilbart
 bart-large
+distilbart
 BART model
 model distillation
 fooling rate
@@ -15227,8 +15226,8 @@ coresets
 sketches
 sketch
 Caratheodory set
-Ridge Regression
 Scikit-learn
+Ridge Regression
 LMS
 LMS solvers
 weighted set
@@ -15244,8 +15243,8 @@ hyper parameter
 LMS-Coreset
 input matrix
 cross-validation folds
-ElasticNetCV
 LassoCV
+ElasticNetCV
 Singular Value Decomposition (SVD)
 j-SVD
 column space
@@ -15289,8 +15288,8 @@ asymmetric hashing
 random projection
 vector arithmetic
 pairwise word similarities
-distributional word representations
 neural word embeddings
+distributional word representations
 dense representations
 cosine similarity measure
 3COSADD
@@ -15298,8 +15297,8 @@ attributional similarities
 PAIRDIRECTION
 SEMEVAL
 3COSMUL
-explicit representation
 embedded representation
+explicit representation
 pointwise multiplication
 vector offsets
 convolutional features
@@ -15328,12 +15327,12 @@ Select0
 Elias-Fano
 quasi-succinct indexes
 shortest path algorithm
-stopwords
 stemmer
+stopwords
 Elias-Fano indexes
 OptPFD
-EF-optimal
 EF uniform
+EF-optimal
 Varint-G8IU
 AND
 kernel matrices
@@ -15342,8 +15341,8 @@ linear machine
 KD-trees
 shift-invariant kernel
 Random Fourier Features
-shift-invariant kernels
 convex combinations
+shift-invariant kernels
 Laplacian kernel
 randomized feature map
 least squares problem
@@ -15377,8 +15376,8 @@ false positive rates
 counterfactual equalized odds
 conditional principal fairness
 counterfactual fairness
-path-specific fairness
 causal DAG
+path-specific fairness
 causal DAGs
 counterfactually
 counterfactual predictive parity
@@ -15391,8 +15390,8 @@ pathspecific fairness
 beta distribution
 path-specific counterfactuals
 structural equation
-decision variables
 covariate
+decision variables
 decision policy
 utility-maximizing policy
 endogenous variables
@@ -15427,14 +15426,14 @@ in-degree
 threshold units
 Lyapunov exponent
 Reservoir Computing
-reservoirs
 quantization level
+reservoirs
 mean-field predictor
 quantization function
-ESN
 quantized ESN
-scale-free
+ESN
 Poisson
+scale-free
 STD
 reservoir
 binary neurons
@@ -15448,8 +15447,8 @@ mean-field approximation
 target output
 target function
 quantization levels
-average precision (AP)
 normalized discounted cumulative gain (NDCG)
+average precision (AP)
 loss-augmented inference
 area under the ROC curve
 decision forests
@@ -15483,20 +15482,20 @@ asynchronous model
 pivotal agents
 CONSENSUS
 SWAP
-G s
 d
+G s
 clustering coefficient
 network features
 vector space representations
 semantic lexicons
-graph-based learning
 retrofitting
+graph-based learning
 word vector models
 word vector representations
 learning objective
 PPDB
-SG
 Glove
+SG
 SYN-REL
 WN
 lazy
@@ -15518,8 +15517,8 @@ concept
 instance class
 counterexample
 dominance testing
-query-directed learning
 preference networks
+query-directed learning
 convergence bounds
 learning models
 Transfer learning
@@ -15536,8 +15535,8 @@ zero-shot transfer learning
 mutual coherence
 sparse recovery
 LASSO
-Laplacian distribution
 Bayesian perspective
+Laplacian distribution
 Natural Actor Critic
 PG-ELLA
 PG
@@ -15550,8 +15549,8 @@ non-local features
 n-best lists
 baseline parser
 averaged perceptron algorithm
-n-best reranking
 oracle tree
+n-best reranking
 NGramTree
 Parseval F-score
 harmonic mean
@@ -15624,8 +15623,8 @@ parallel corpus mining
 pseudo-parallel data
 Word Mover's Distance
 Language Model
-DistilScore
 multilingual sentence embeddings
+DistilScore
 STS
 sentence-level representations
 SentSim
@@ -15642,12 +15641,12 @@ P@1
 vector space remapping
 Contrastive Learning
 XMover-Score
-UScore
 TYPE-3
+UScore
 pseudoreferences
 TYPE-1
-COMET-QE
 MonoTransQuest
+COMET-QE
 multilingual vector spaces
 unsupervised MT system
 weakly-supervised
@@ -15656,17 +15655,17 @@ Nvidia V100 GPU
 linear transformation matrix
 Levenshtein distance
 pseudo references
-CLP
 UMD
-WMT-17
+CLP
 WMT-MQM
+WMT-17
 entity descriptions
 reading comprehension models
 domain-adaptive pre-training
 structured data
 entity dictionary
-[SEP]
 [CLS]
+[SEP]
 softmax loss
 Cand-Pool-Transformer
 zero-shot entity linking
@@ -15674,8 +15673,8 @@ Pool-Transformer
 Full-Transformer
 Masked LM
 Entity Linking
-candidate ranking
 unsupervised domain adaptation
+candidate ranking
 3D convolutional networks
 3D molecular learning
 graph neural networks (GNNs)
@@ -15689,19 +15688,19 @@ fully connected
 Cormorant
 ATOM3D
 atomistic geometry
-RSR
 LEP
 PSR
+RSR
 ENNs
 ENN
 amino acid
 atom3d
-RES
 PIP
+RES
 3DCNN
 AUROC
-SCOP
 DB5
+SCOP
 PDB
 BLASTP
 covariant neurons
@@ -15769,9 +15768,9 @@ LDS
 RR-HMM
 median trick
 Gaussian RBF kernels
+Hankel matrices
 Subspace ID
 Parzen windows
-Hankel matrices
 LDSs
 conditional embeddings
 AI researchers
@@ -15783,16 +15782,16 @@ prioritizing algorithm
 PRIORITIZED
 LINEAR PRIORITIZED
 artificial agent
-bottom-up approaches
 top-down approaches
+bottom-up approaches
 bottom-up learning
 artificial intelligence system
 factorization methods
 factorization model
 transition tensor
 FPMC
-MC models
 MF models
+MC models
 item recommendation
 transition graphs
 stochastic transition matrix
@@ -15819,16 +15818,16 @@ open-set
 GAN-discriminator
 K-way classification network
 discriminators
-open-set likelihood function
 OpenGAN
+open-set likelihood function
+K-way classification
 closed-world
 open-set discrimination
-K-way classification
 uncertainty modeling
 valset
 closed-set classes
-minimax optimization
 open-set classification
+minimax optimization
 Discriminator
 closed-set
 TinyImageNet
@@ -15841,15 +15840,15 @@ val-set
 embedding features
 OTS features
 λG
-GMMs
 L2-normalization
+GMMs
 OpenGAN-0
 open-set semantic segmentation
 OpenGANs
 OpenGAN-0 pix
 energy functions
-image synthesis
 medical imaging
+image synthesis
 graph cut
 graph cut algorithms
 motion
@@ -15870,8 +15869,8 @@ single task learning
 stochastic gradient methods
 differentiable tree ensembles
 tensor-based formulation
-OC1
 C5.0
+OC1
 first order methods
 gradient boosting
 RF
@@ -15881,15 +15880,15 @@ tree ensemble learning
 supervised multi-task learning
 tensor-based
 hyperplane splits
-soft trees
 soft routing
+soft trees
 tree depth
 learnable weight vector
 logit model
 log-mean
 supernodes
-log-dispersion
 negative binomial regression
+log-dispersion
 weight tensor
 trainable
 regularization penalty
@@ -15900,8 +15899,8 @@ zero-inflation modeling
 inferences
 multi-task regression
 regression datasets
-GRF
 GBDT
+GRF
 out-of-sample
 multi-task tree ensembles
 zero-inflation Poisson regression
@@ -15929,19 +15928,19 @@ prototype-based
 PiCO
 Partial label learning
 prediction head
-pseudo targets
 contrastive embeddings
+pseudo targets
 prototype embeddings
-classifier prediction
 query embeddings
+classifier prediction
 noisy partial label learning
 PiCO+
 query embedding
 contrastive
 contrastive network
 RandAugment
-prototype calculation
 key embeddings
+prototype calculation
 mixup
 PRODEN
 pseudo target
@@ -15949,8 +15948,8 @@ mixup training
 CUB-200
 CIFAR-100-H
 von Mises-Fisher distributions
-intraclass covariance
 hypersphere
+intraclass covariance
 graph-based methods
 supervised contrastive learning
 cross-entropy losses
@@ -15970,8 +15969,8 @@ semantic module
 affinities
 log-linear
 entity assignments
-mean field
 variational posterior
+mean field
 nominal mentions
 referring mentions
 referring mention
@@ -15984,9 +15983,9 @@ left-shift
 SAT engine
 Boolean variable
 nogoods
+global constraint
 lazy clause generation
 binary constraints
-global constraint
 SoftEnergeticChecker
 Time-Tabling
 checker algorithm
@@ -15998,8 +15997,8 @@ EdgeFinding
 SoftEnergeticFiltering
 right-shift
 makespan
-quadratic cost function
 linear function
+quadratic cost function
 rolling-shutter
 masked language modeling (MLM)
 codeswitching
@@ -16021,8 +16020,8 @@ maskable tokens
 gradient accumulation step
 LID-tagged
 X-HIT
-GLUECoS
 XLMR
+GLUECoS
 train / test / dev splits
 Neural Radiance Fields
 diffuse
@@ -16043,10 +16042,10 @@ neural view synthesis
 VolSDF
 commonsense inference
 Stanford CoreNLP
-Reading Comprehension
-Pretraining
-Language Modeling
 Conditional Generation
+Language Modeling
+Pretraining
+Reading Comprehension
 next sentence prediction
 Model Hub
 summarization model
@@ -16068,20 +16067,20 @@ weak-learner
 weak-learning conditions
 boostability
 one-against-all reduction
-AdaBoost.MH
 AdaBoost.M1
+AdaBoost.MH
 weak-learning
 drifting games
 weak learning
-weak learning condition
 adaptive boosting algorithm
+weak learning condition
 exponential loss
 multiclass boosting
 AdaBoost.MR
 AdaBoost.M2
 Frobenius inner product
-Weak-Learner
 Booster
+Weak-Learner
 weak-learning condition
 boostable
 weak-hypotheses
@@ -16104,8 +16103,8 @@ edge-over-random distribution
 weighted state
 cost vector
 error upper bound
-weak learning conditions
 game-theoretic equivalence
+weak learning conditions
 edge-over-random baselines
 Booster strategy
 γ-biased uniform distribution
@@ -16138,22 +16137,22 @@ foreground residual
 base network
 DeepLabV3
 ASPP
-dilated convolution
 bilinear upsampling
+dilated convolution
 error prediction map
 BGM
 FBA
 MobileNetV2
-downsampling block
 dilated convolutions
+downsampling block
 bilinearly upsample
 dilation
 environment matting
 visual hull
 light-path triangulation
 stereo triangulation
-light network
 light path
+light network
 1
 IRLbot
 LRU cache
@@ -16163,8 +16162,8 @@ ranking algorithm
 Hankel matrix
 weighted automata
 probabilistic context-free grammars
-probabilistic automaton
 weighted automaton
+probabilistic automaton
 deterministic finite automata
 weighted automaton.
 constrained matrix completion problem
@@ -16179,8 +16178,8 @@ sub-Gaussian
 SM
 stability analysis
 DFAs
-symmetric positive semidefinite matrix
 symmetric matrix
+symmetric positive semidefinite matrix
 algorithmic stability
 CONP-complete
 weighted directed graph
@@ -16191,16 +16190,16 @@ Presburger arithmetic
 standard atom
 limit predicates
 rule body
-limit program
 rule
+limit program
 limit atom
 min predicate
 limit-closed interpretations
 pseudo-interpretation
 pseudo-model
 pseudo-interpretations
-numeric predicate
 max predicate
+numeric predicate
 immediate consequence operator
 semi-ground limit program
 comparison atoms
@@ -16258,34 +16257,34 @@ target samples
 target sample
 object categorisation
 linear SVMs
-ATI-λ
 OS
+ATI-λ
 open set
 closed set
 unsupervised setting
 locality constrained formulation
 semi-supervised domain adaptation
-ATI-λ-N
 ATI
+ATI-λ-N
 open set domain adaptation
 Normalized Discounted Cumulative Gain (NDCG)
 Mean Average Precision (MAP)
 SoftRank
 score distribution
-rank vector
 BoltzRank
+rank vector
 score vector
 maximum likelihood learning
 learning-to-rank
 LETOR3.0
 IR evaluation metrics
-BoltzRank1
 BoltzRank2
-point features
+BoltzRank1
 3D structure
+point features
 least-squares minimization
-covariance-weighted factorization
 subspace projection
+covariance-weighted factorization
 SVD factorization
 covariance-weighted data space
 SVD-based factorization
@@ -16315,9 +16314,9 @@ multiset tagging model
 structural inductive bias
 bistochastic matrices
 lexicon induction
+xcomp
 nmod
 theme
-xcomp
 FunQL
 high dynamic range
 DMD
@@ -16342,8 +16341,8 @@ net change constraints
 potential heuristics
 potential heuristic
 state equation
-indicator functions
 optimization function
+indicator functions
 OCP
 SEQ
 super-resolution
@@ -16384,10 +16383,10 @@ Find adjacent
 forall
 subsequences
 Curriculum Data Augmentation
-random insertion
-random swap
 random deletion
+random swap
 word-level perturbation
+random insertion
 bottom-k sampling
 Paraphrasing
 cyclic learning
@@ -16396,13 +16395,13 @@ baseline dialogue agent
 synonym replacement
 BERT models
 Round-trip Translation
-Bottom-k Sampling
-curriculum data augmentation
 Cyclic Learning
+curriculum data augmentation
+Bottom-k Sampling
 task-specific model
 curriculum-aware
-difficulty measure
 paraphrase generation module
+difficulty measure
 token length
 mutual implication
 paraphrase
@@ -16411,13 +16410,13 @@ Hard Negative Mining
 task-oriented dialogue generation
 paraphrase augmentation
 BLEU-3
-Triplet Loss
 Gradual Curriculum
+Triplet Loss
 bottom-k
 CDA
+Pervasive Dropout
 SwitchOut
 Token Substitution
-Pervasive Dropout
 DialoGPT
 PerCVAE
 TransferTransfo
@@ -16459,8 +16458,8 @@ minimax optimization problem
 Phased CAL algorithm
 label complexity bound
 OPT MC
-Gap-SC
 OPT SC
+Gap-SC
 (µ
 )-specifying set
 teaching dimension
@@ -16476,8 +16475,8 @@ Bayes formula
 Pr
 ESTIMATE-POSITIVE
 BINARY-SEARCH
-query learning algorithms
 active fairness auditing algorithms
+query learning algorithms
 query learning algorithm
 observation space
 affine subspace
@@ -16501,8 +16500,8 @@ global coordinate frame
 reconstruction graph
 least squares solution
 NLLS
-cross product
 distance transforms
+cross product
 vanishing points
 discrete BP
 incremental bundle adjustment
@@ -16521,8 +16520,8 @@ Markov Random Fields (MRFs)
 clustering distortion measure
 posterior energy
 Expectation Maximization
-cluster representatives
 cluster assignments
+cluster representatives
 must-link constraint
 Pearson's correlation
 penalty scaling function
@@ -16540,8 +16539,8 @@ KMEANS
 semi-supervised clustering algorithm
 Hidden Markov Random Fields
 distance learning
-distortion measures
 pairwise supervision
+distortion measures
 unsupervised image segmentation
 matting components
 matting Laplacian matrix
@@ -16551,13 +16550,13 @@ matting Laplacian
 local window
 color channels
 unsupervised matting
-Poisson matting
 matting algorithms
+Poisson matting
 spectral matting
 morphological operations
 second-order statistics
-nonnegative matrix factorization
 adaptive gradient-based optimization methods
+nonnegative matrix factorization
 large-batch training
 CAME
 column vector
@@ -16638,8 +16637,8 @@ monotonic
 influence estimation algorithm
 Naive Sampling
 core-periphery networks
-INFLUMAX
 CONTINEST
+INFLUMAX
 continuous-time diffusion networks
 perspective cameras
 PPP
@@ -16669,15 +16668,15 @@ GCMC
 rectified linear unit (ReLU)
 tanh activation function
 CF models
-PMF
 ML-1M
+PMF
 I-AutoRec
 State-of-the-art
 matrix-factorization
 TCF models
 Knowledge Base
-KB query
 semantic parsing model
+KB query
 semantic parsing algorithms
 knowledge elements
 KoPL
@@ -16691,13 +16690,13 @@ document retrieval
 term-based
 Neural Corpus Indexer
 sequence-to-sequence architecture
-MRR score
 R-Precision
 Recall@1
-prefix-aware weight-adaptive decoder
+MRR score
 query generation
 semantic document identifiers
 consistency-based regularization
+prefix-aware weight-adaptive decoder
 dense vectors
 dense retrieval
 Deep Retrieval
@@ -16726,21 +16725,21 @@ Sparse Retrieval
 neural ranking model
 DeepCT
 Dense Retrieval
-SPANN
-HNSW
 k-dimensional trees
+HNSW
 graph-based indexes
-Approximate Nearest Neighbor
 DiskANN
-dual encoders
+Approximate Nearest Neighbor
+SPANN
 multi-vector encoding
+dual encoders
 sparse retrieval
 neural network.
 crossing layer
 Siamese architecture
 dense encoders
-internal attention structure
 Condenser
+internal attention structure
 end-to-end retrieval
 contextualized representations
 inverted index.
@@ -16748,11 +16747,11 @@ differentiable search index
 ANN algorithms
 document embeddings
 constrained beam search
-Cosine Similarity
 CoCondenser
+Cosine Similarity
 DSI
-SEAL
 BART-Large
+SEAL
 T5-Base
 natural logic
 syntax tree
@@ -16763,29 +16762,29 @@ entailment relations
 projectivity class
 entailment relation
 semantic composition tree
-implicativity
 containment
-atomic edits
+implicativity
 token span
+atomic edits
 NatLog
 projectivity
 lexical entailment classification
 SUB
-lexical entailment relation
 effective projectivity
+lexical entailment relation
 entailment composition
 atomic entailment relations
 temporal reasoning
 lexical entailment
 common-sense reasoning
-semantic containment
 semantic exclusion
+semantic containment
 natural logic inference
 sequence-to-sequence transduction
 historical text normalization
-transliteration
-grapheme-to-phoneme conversion
 morphological inflection
+grapheme-to-phoneme conversion
+transliteration
 word error rate (WER)
 recurrent baseline
 SIGMORPHON
@@ -16811,13 +16810,13 @@ timestep embeddings
 input points
 V2V
 HandPointNet
-NYU
-ICVL
 MSRA
+ICVL
+NYU
 IPNet
 permutation-equivariant
-joint indicator
 mean joint error
+joint indicator
 Embedding as a Service
 model extraction attacks
 EaaS
@@ -16826,9 +16825,9 @@ backdoor samples
 cos similarity
 MLP classifier
 target embedding
+AG News
 MIND
 SST2
-AG News
 trigger set
 backdoored embeddings
 dimension-shift attacks
@@ -16855,8 +16854,8 @@ internal state
 L2 error
 AI navigation agents
 navigation agents
-Depth sensor
 occupancy grids
+Depth sensor
 map
 softmax distribution
 Proximal Policy Optimization (PPO)
@@ -16893,10 +16892,10 @@ viseme-phoneme mapping
 modality transfer
 adversarial mutual information estimator
 visual speech recognition
-visual modality
 speech enhancement
-noise adaptation techniques
 audio modality
+noise adaptation techniques
+visual modality
 visemes
 K-Means clustering
 K-Means algorithm
@@ -16914,8 +16913,8 @@ audio-visual
 domain mismatch
 hyper-parameter tuning
 region-of-interest (ROI)
-LRS3
 MUSAN
+LRS3
 L GAN
 CTC loss
 LF-MMI TDNN
@@ -16933,8 +16932,8 @@ learned metrics
 LogDet divergence
 kernel space
 projection parameter
-LSH functions
 L p norms
+LSH functions
 metric learning algorithm
 ANNs
 exemplar-based recognition
@@ -16958,8 +16957,8 @@ metaparameters
 KL divergences
 recurrent state
 BMG
-MG
 meta-gradient
+MG
 actor-critic algorithms
 meta-gradients
 TBs
@@ -16970,8 +16969,8 @@ meta-learn
 Actor-Critic
 IMPALA
 matching loss
-policy matching
 value matching
+policy matching
 log-likelihood loss
 MAML
 meta-test
@@ -17006,20 +17005,20 @@ dataset augmentation
 hatespeech detection
 generalized linear mixed models
 GLMMs
-Dolly-V2
 Pythia
+Dolly-V2
 OPT-IML
 Tk-Instruct
 model family
-toxicity detection
 model scale
+toxicity detection
 zero-shot prompting
 8-bit optimization
 auto-regressively
 linear probing
+TPU cores
 generative pre-training
 self-supervised methods
-TPU cores
 attention operation
 permutation invariance
 layer norm
@@ -17028,20 +17027,20 @@ attention logits
 input resolution
 iGPT-XL
 iGPT-L
+class logits
 supervised pre-training
 pre-logits
-class logits
-model resolution
 linear probe accuracy
+model resolution
 iGPT
 classification objective
 fine-tunes
 unsupervised representations
 denoising objective
 generative image modeling
+multiscale modeling
 sparse attention patterns
 locality sensitive hashing
-multiscale modeling
 float16
 3D computer vision
 NerFormer
@@ -17054,11 +17053,11 @@ camera parameters
 implicit representations
 level set
 latent embedding
-Neural Volumes
 deconvolutions
+Neural Volumes
 source views
-implicit surface
 raymarcher
+implicit surface
 category-centric 3D models
 neural implicit rendering
 autodecoders
@@ -17089,8 +17088,8 @@ language planning
 constraint faithfulness
 retrieval augmentation
 causal language models
-Faithfulness
 Semantic completeness
+Faithfulness
 NLP/AI
 machine-in-the-loop
 Natural Language Generation
@@ -17140,8 +17139,8 @@ path derivative
 control variate
 guidance weights
 macro-average
-multinomials
 bags-of-words
+multinomials
 DBM
 Penn English Treebank
 lexicalized parsing model
@@ -17188,17 +17187,17 @@ pseudo-Siamese architecture
 PPO loss
 Trinal-Clip PPO
 policy-clip
-Delta-Uniform Self-Play
 Best-Win Self-Play
 Naive Self-Play
+Delta-Uniform Self-Play
 PBT Self-Play
 mbb/h
 Slumbot
 Penn Treebank corpus
 class balance
 convolutional neural networks (CNN)
-attention-based models
 LSTM network
+attention-based models
 Gigaword corpus
 hidden state vectors
 attention distribution
@@ -17224,16 +17223,16 @@ LONGEVAL
 A/B testing
 PEGASUS
 faithfulness score
-FINE
 COARSE
+FINE
 bart
 inter-annotator variance
 Kendall's τ correlation
 CNN/DM
 fact verification
 A/B tests
-BLEURT
 BARTScore
+BLEURT
 two-player games
 proof number
 disproof number
@@ -17268,10 +17267,10 @@ pretrained embeddings
 BIOES
 BIO
 OOEV
-OOBV
 OOTV
-neural sequence labeling framework
+OOBV
 OOV words
+neural sequence labeling framework
 graph convolution network
 appearance embedding
 layout embedding
@@ -17293,8 +17292,8 @@ location embedding
 instance normalization
 BatchNormalization
 global average pooling layer
-Average Pool
 Convolution layer
+Average Pool
 inducing variables
 low-rank approximations
 integral operator
@@ -17334,8 +17333,8 @@ h-greedy consistent
 γ-contraction
 Modified PI
 partial evaluation
-hλ-PI
 hm-PI
+hλ-PI
 T π
 λreturn
 TDLeaf(λ)
@@ -17385,9 +17384,9 @@ prompt injection
 domain generalization
 EMNLP
 Token Wasting
-Target Phrase Generation
 Prompt Leaking
 Denial of Service
+Target Phrase Generation
 Malicious Action Generation
 Training Data Reconstruction
 Token
@@ -17409,9 +17408,9 @@ distributed learning systems
 agent learning
 multiagent systems
 multiagent
-MARL
-multiagent problems
 delayed reward
+multiagent problems
+MARL
 credit assignment problem
 teaching agents
 Partially Observable Markov Decision Process
@@ -17433,8 +17432,8 @@ AdHocTD
 advising-level rewards
 task-level policy parameters
 policy initialization
-Q-Teaching Reward
 Q-Teaching
+Q-Teaching Reward
 Q-learners
 Adam optimization algorithm
 data streams
@@ -17454,17 +17453,17 @@ CTKM
 Tr
 PCQ framework
 normalized cut
-PCM
 CostNA
+PCM
 Xt
 PCQ
 positive semi-definite
 IND
 cluster membership
 evolutionary spectral clustering algorithms
-CSNC
-CTNC
 CostNC
+CTNC
+CSNC
 concept drifts
 auto-differentiation
 linear programming relaxations
@@ -17479,8 +17478,8 @@ autodifferentiation
 linear-chain
 log-partition term
 prefix sums
-semi-Markov models
 sequence alignment
+semi-Markov models
 vectorize
 semiring matrix multiplication
 TVM
@@ -17490,8 +17489,8 @@ alpha shape
 open-loop
 XLT
 massively multilingual language models
-mmLMs
 multilinguality
+mmLMs
 natural language inference (NLI)
 XNLI
 GT
@@ -17503,12 +17502,12 @@ bilingual training
 monolingual training
 few-shot fine-tuning
 STS-B
-mixed precision
-linear scheduler
 linear warm-up
+linear scheduler
+mixed precision
 zero-shot XLT
-TLLM
 Base
+TLLM
 instruction-tuned
 XGLUE
 representational subspaces
@@ -17533,8 +17532,8 @@ Layers
 5-shot
 BIG-bench
 MT-NLG
-Winogrande
 SIQA
+Winogrande
 Chinchilla
 language modelling loss
 XLA
@@ -17548,11 +17547,11 @@ seq_len
 vocab_size
 LBFGS algorithm
 DeepMind
+TruthfulQA
 RACE
 HellaSwag
-TruthfulQA
-geometry
 topology
+geometry
 auto-regressive models
 autoregressive transformers
 Semantic
@@ -17564,17 +17563,17 @@ eos
 Transformerbased
 model likelihood
 generative adversarial network
-Nucleus Sampling
 Beam Search
-VQ-VAE
+Nucleus Sampling
 Greedy Search
+VQ-VAE
 T2D model
 Obj-GAN
 decoder-only transformer
 T5-large model
 support threshold
-bioinformatics
 Apriori algorithm
+bioinformatics
 transactions
 induced subgraphs
 downward closure property
@@ -17621,8 +17620,8 @@ nearest neighbor classifier
 linear equations
 tangent propagation
 MLP layer
-tangent distance
 domain-knowledge
+tangent distance
 TangentProp
 CAEs
 supervised classifier
@@ -17636,11 +17635,11 @@ shortcut connections
 VLAD
 Partial Differential Equations
 auxiliary classifiers
-gating functions
 highway networks
+gating functions
 inputs
-residual functions
 nonlinear layers
+residual functions
 identity mappings
 residual learning
 input vectors
@@ -17649,15 +17648,15 @@ projection shortcuts
 residual function
 bottleneck architectures
 overfitting.
+COCO segmentation
+COCO detection
 ImageNet localization
 ImageNet detection
-COCO detection
-COCO segmentation
 conv layers
 fc layers
 BN layers
-.95]
 mAP@[.5
+.95]
 RoI pooling
 feature pyramid
 maxout
@@ -17679,8 +17678,8 @@ model families
 per-token probability
 per-token error rate
 Token Edit Distance
-Brier Score
 Multiple Choice Grade
+Brier Score
 LaMDA
 self-attentional
 CIFAR100
@@ -17698,15 +17697,15 @@ bimatrix game
 consensus optimization
 saddle points
 symplectic gradient adjustment
-semidefinite
 invertible
+semidefinite
 ξ
 simultaneous gradient descent
 Gradient descent
 losses
 mode hopping
-Consensus optimization
 SGA
+Consensus optimization
 Helmholtz decomposition
 Hessian-vector products
 saddles
@@ -17760,8 +17759,8 @@ decentralised
 batch mode
 alpha
 BatchSize
-supervised classification model
 NomBank
+supervised classification model
 arg
 coreference patterns
 Cohen's kappa coefficient
@@ -17799,8 +17798,8 @@ noisy channel
 PP
 S node
 syntactic tree
-channel model
 in-order traversal
+channel model
 syntactic constituents
 inorder traversal
 noisy-channel algorithm
@@ -17865,32 +17864,32 @@ grammar inducers
 optical character recognition
 preterminal
 posterior approximation
-VC-PCFG
 C-PCFG
+VC-PCFG
 SBAR
 NPs
 induction model
-multi-head self-attention module
 permutation-invariant
+multi-head self-attention module
 expert embeddings
 I3D
 HowTo100M
 multi-modal transformer
-DiDeMo
 YouCook2
+DiDeMo
+R2P1D
 S-F1
 C-F1
-R2P1D
-S3DG
 ResNeXt
+S3DG
 PPs
 joint embedding space
 unsupervised grammar induction
 Multi-Modal Compound Probabilistic Context-Free Grammars (MMC-PCFG)
 Expectation-Maximization algorithm
 h
-numerical linear algebra
 matrix factorizations
+numerical linear algebra
 NSE
 lexicographic reward preferences
 slack
@@ -17910,8 +17909,8 @@ DVS
 multi-view correspondence
 PTAM
 6-DoF
-Extended Kalman Filter
 6-DoF camera motion
+Extended Kalman Filter
 barycentric coordinates
 EKF
 motion vector
@@ -17932,11 +17931,11 @@ batch level
 domain shifts
 continual adaptation
 target datasets
-domain-agnostic prompt
 domain-specific prompt
+domain-agnostic prompt
 DAP
-Hebbian theory
 DSP
+Hebbian theory
 domain-agnostic
 Homeostatic Factor
 ν
@@ -18018,15 +18017,15 @@ TF.IDF
 vectorial representations
 technique classification
 RoBERTa-CRF
-SI model
 TC model
+SI model
 bi-LSTM
 BIO encoding
-token-level technique classification
 BIO tag
-begin-of-sentence token
-span end token
+token-level technique classification
 span start token
+span end token
+begin-of-sentence token
 SpanBERT
 BERTbase
 dynamic least common sub-sequence
@@ -18049,10 +18048,10 @@ RankGAN
 neural retrieval
 Bag-of-Words
 [CLS] token
-CORAL
 maximum mean discrepancy
-canonicalization
+CORAL
 knowledge elicitation
+canonicalization
 MLCopilot
 experience pool
 knowledge pool
@@ -18070,29 +18069,29 @@ Nesterov momentum
 joint encoding
 meta-dataset
 regression models
-alphas
 lambdas
+alphas
+minbucket
 subsample
 cp
-minbucket
 nrounds
 max depth
-colsample bytree
 eta
-min child weight
 colsample bylevel
+min child weight
+colsample bytree
 mtry
 min node size
 sample fraction
 num trees
 Wide ResNet
+Tanh
 Fashion-MNIST
 Max Pooling
-Tanh
 max-pool
 facial landmarks
-crop size
 anchor matching IoU threshold
+crop size
 negative to positive ratio
 location loss weight
 biased
@@ -18115,8 +18114,8 @@ exposure model
 value-iteration
 system identification
 Imitation Learning
-policy representation
 planning module
+policy representation
 actions
 state spaces
 grid-world
@@ -18155,8 +18154,8 @@ confidence sets
 Ridge
 regression problems
 conformal set
-calibration set
 folds
+calibration set
 conformal prediction sets
 conformal prediction set
 conformal sets
@@ -18169,26 +18168,26 @@ stability bound
 stability bounds
 oracleCP
 Gradient Boosting
-Bidirectional Encoder Representations
 Transformers.
+Bidirectional Encoder Representations
 language representations
-NLP benchmarks
 contextual word embeddings
+NLP benchmarks
 sentence encoders
 BERT BASE
 WordPiece embeddings
 classification token
-left-to-right model
 right-to-left model
-hidden vectors
-masked LM
+left-to-right model
 Cloze task
+masked LM
+hidden vectors
 denoising auto-encoders
 monolingual corpus
 bidirectional cross attention
 hidden vector
-pre-trained checkpoint
 Dev set
+pre-trained checkpoint
 BERT LARGE
 ensembling
 NSP
@@ -18208,8 +18207,8 @@ in-domain text
 NAACL
 importance sampling estimators
 co-occurrences
-Monte Carlo EM algorithm
 EM algorithm.
+Monte Carlo EM algorithm
 importance samples
 MCEM
 exponential complexity
@@ -18219,8 +18218,8 @@ maximum likelihood estimates
 entropy estimation
 plug-in estimators
 invertible mappings
-Bayesian experimental design
 k-NN estimators
+Bayesian experimental design
 density estimator
 KL estimator
 hyper-rectangle
@@ -18275,8 +18274,8 @@ model-based approach
 program traces
 probabilistic shape program
 Z-MAE
-SIRFS
 CAD
+SIRFS
 deep convolutional inverse graphics network
 probabilistic graphics programs
 probabilistic programming
@@ -18293,8 +18292,8 @@ part-of-speech (POS) tagging
 distributional features
 low dimensional representations
 vector space embeddings
-shift reduce parser
 unigram features
+shift reduce parser
 low-rank tensor
 rank-1 tensor
 φ h
@@ -18304,8 +18303,8 @@ parsing performance
 passive-aggressive algorithm
 third-order model
 feature tensor
-cross-product
 lexical items
+cross-product
 MST parser
 state transition matrix
 system matrix
@@ -18327,8 +18326,8 @@ mixture modeling
 linear-quadratic regulators
 Theorem 3
 error bound
-metaalgorithm
 mixed LDSs
+metaalgorithm
 coarse model estimation
 autocovariance
 Trunc
@@ -18342,16 +18341,16 @@ separation parameter
 clustering method
 arborescence
 dependency graphs
-nonprojective dependency graphs
 edge-factored
+nonprojective dependency graphs
 valency
 data-driven parsing
 nonprojective parsing algorithms
-edge-factored model
 multi-digraphs
+edge-factored model
+globally normalized log-linear models
 min-risk decoding
 syntactic language modeling
-globally normalized log-linear models
 arc-factored model
 polyhedron
 arborescence polytope
@@ -18359,28 +18358,28 @@ higher-order features
 grandparent arcs
 constraint matrix
 unlabeled attachment score (UAS)
-indicator variables
 morphological information
+indicator variables
 arguments
 global objective
 labeled dependency parsing
 graph-based parser
 LP-relaxed inference
 ILP formulations
-LP-relaxation
 max-margin
+LP-relaxation
 ensemble configuration
 knowledge triples
 graph attention mechanisms
-conversation generation
 memory network
+conversation generation
 conversational model
 TransE
 graph vector
 key entity
 tail entities
-decoder state
 knowledge graph vectors
+decoder state
 decoder's state
 knowledge triple vectors
 entity word
@@ -18390,8 +18389,8 @@ sign test
 CopyNet
 CCM
 open-domain conversational systems
-content debiasing
 controllable text generation
+content debiasing
 context specificity
 sentiment transfer
 regular expression
@@ -18412,8 +18411,8 @@ parent model
 Multilingual NMT
 ChrF
 ASL
-DGS
 translationese
+DGS
 SLs
 DGS corpus
 singletons
@@ -18443,13 +18442,13 @@ false-name-proofness
 automated mechanism design
 GF N P 2
 Bayesian Network
-heteroscedastic
 anisotropic
+heteroscedastic
 histograms
 KS-test
 empirical cumulative distributions
-contingency table
 Bayesian Networks
+contingency table
 BNs
 AUCs
 specificity
@@ -18490,8 +18489,8 @@ SharpMask
 PolygonRNN
 visual recognition systems
 recognition models
-λ)
 Φ(D
+λ)
 svm
 Platt scaling
 nonmonotonic formalism
@@ -18502,8 +18501,8 @@ causal logic
 stable model semantics
 answer set semantics
 completion semantics
-logic program
 answer set
+logic program
 answer set solvers
 circumscription
 clause
@@ -18556,8 +18555,8 @@ epipolar blocks
 probing matrix
 probing matrices
 indirect-invariant imaging
-multi-pattern
 structured-light pattern
+multi-pattern
 SLT imaging
 transport function
 One-shot
@@ -18580,8 +18579,8 @@ system combination
 AI-powered
 diffusion-based
 semantic prior
-prior knowledge
 language drift
+prior knowledge
 Parti
 DALL-E2
 text-to-image model
@@ -18633,8 +18632,8 @@ QA dataset
 End-to-end
 TiELECTRA
 TiRoBERTa
-SQuAD1.1
 XLM-R BASE
+SQuAD1.1
 computational experiments
 M-MCTS
 Monte Carlo simulations
@@ -18680,8 +18679,8 @@ constituent parsing
 ELI-ontologies
 exact learning
 conjunctive queries (CQs)
-equivalence query
 membership query
+equivalence query
 polynomial query learnability
 polynomial time learnability
 EL-ontologies
@@ -18711,8 +18710,8 @@ conjunctive ontology
 ontology language
 ELQ-separability
 ditrees
-ELQ-query
 ELQ-separable
+ELQ-query
 EL r-ontology
 range restrictions
 polynomial time learnable
@@ -18734,8 +18733,8 @@ neural tangent kernel (NTK)
 Siamese augmentation
 victim model
 MIA
-target dataset
 synthetic dataset
+target dataset
 white-box access
 matrix form
 vector subspace
@@ -18749,10 +18748,10 @@ membership privacy
 loss distribution
 cGAN
 DSA
-DP-MERF
-DP-Sinkhorn
 GS-WGAN
 LiRA
+DP-Sinkhorn
+DP-MERF
 linear extractor
 Proj
 barycenter
@@ -18768,8 +18767,8 @@ seed tuple
 amod
 postag
 prep
-advmod
 iobj
+advmod
 bootstrap learning
 ClausalModifier
 AttributedTo
@@ -18779,8 +18778,8 @@ semantic frame
 co-reference
 argument structure
 Nom-Bank
-syntactic generalization
 type generalization
+syntactic generalization
 visual phrases
 detection responses
 statistical translation models
@@ -18811,8 +18810,8 @@ L c
 Covariance matrix
 Spectral Contrastive Loss
 TCR
-variance criterion
 covariance criterion
+variance criterion
 SCL
 BT
 LogSumExp
@@ -18827,8 +18826,8 @@ centering
 non-contrastive learning
 InfoNCE criterion
 projector architecture
-center crop
 random cropping
+center crop
 horizontal flip
 online classifier
 linear separability
@@ -18872,8 +18871,8 @@ HDP-LDA
 SparseLDA
 Metropolis-Hasting sampling
 AliasLDA
-AliasHDP
 AliasPDP
+AliasHDP
 Metropolis-Hasting
 Gibbs iteration
 alias sampler
@@ -18899,16 +18898,16 @@ r-neighborhood graph
 kNN graph
 neighborhood graph
 Ncut
-clustering criterion
 clustering criteria
+clustering criterion
 U-statistics
 Borel-Cantelli lemma
 Gaussian weights
 r-graph
 Ncut criterion
 Focal Loss
-one-stage detectors
 two-stage detectors
+one-stage detectors
 one-stage detector
 scaling factor
 hard example mining
@@ -18918,9 +18917,9 @@ intersection-over-union
 object box
 sigmoid activations
 anchor box
+box regression subnet
 bounding box regressor
 object classification subnet
-box regression subnet
 ResNet-FPN
 OHEM
 ground-truth box
@@ -18948,9 +18947,9 @@ consistent
 h-value
 Binary Decision Diagrams
 BDDA *
-BDDA
-BDD
 disjunctive partitioning
+BDD
+BDDA
 successor states
 PDBs
 TRs
@@ -18973,16 +18972,16 @@ A+
 neural LM
 symbolic agent
 few-shot in-context learning
-encoder-only LMs
 encoder-decoder LMs
+encoder-only LMs
 decoder-only LMs
-DecAF
 TIARA
+DecAF
 autoregressive decoder
 neuro-symbolic systems
 forward passes
-chain-of-thought prompting
 retrievers
+chain-of-thought prompting
 Pangu
 Exact-Match
 low-level planner
@@ -19015,8 +19014,8 @@ low-pass filter
 self-attention models
 Fourier representation
 stop gradient operator
-cropping
 low-pass filtering
+cropping
 shortcut blocks
 residual branches
 spectrograms
@@ -19031,8 +19030,8 @@ EfficientNet-B0
 hyperparameter settings
 KDD Cup
 hyperparameter space
-deep belief network
 polynomial kernel
+deep belief network
 hyperparameter spaces
 algorithm selection
 SMBO
@@ -19089,8 +19088,8 @@ distance functions
 Mahalanobis distances
 differential entropy
 sub-gradient descent
-discriminant analysis
 Mahalanobis matrix
+discriminant analysis
 convolutional neural net
 Mahalanobis distance function
 multivariate Gaussian distributions
@@ -19103,16 +19102,16 @@ Bregman projections
 batch metric learning
 LogDet
 positive-definiteness
-Algorithm.
 Sherman-Morrison-Woodbury formula
 online metric learning
+Algorithm.
 offline solution
 ITML
 sample covariance matrix
 ITML-MaxEnt
 metric learning algorithms
-LMNN
 MCML
+LMNN
 state space models
 dynamic topic models
 Mult
@@ -19174,8 +19173,8 @@ mlp
 gin
 GTL
 GINs
-vertex embedding
 ChebNet
+vertex embedding
 Graph Isomorphism Networks
 k-FGNNs
 (k + 1)-IGNs
@@ -19191,13 +19190,13 @@ vertex-labellings
 s-tuple
 k-dimensional Weisfeiler-Leman algorithms
 quantifier rank
-Weisfeiler-Leman algorithms
 k-dimensional
+Weisfeiler-Leman algorithms
 summation aggregation
 aggregation functions
 aggregation function
-Θ)
 TL(Ω
+Θ)
 conditional aggregation
 aggregation
 aggr
@@ -19262,8 +19261,8 @@ DemParity
 EqOpt
 selection rate
 outcome curve
-classification system
 fairness criterion
+classification system
 CDF domination
 super-gradient set
 acceptance rate
