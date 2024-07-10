@@ -136,7 +136,6 @@ Augmented Autoencoder
 Authorship Representation Regularization
 Auto-Replace
 Autoencoder
-Autoencoders
 Autoepistemic Logic
 Automatic Speech Recognition
 Autonomous Systems
@@ -148,7 +147,6 @@ AvgPerceptron
 Azuma-Hoeffding inequality
 B-model
 B-spline
-B-splines
 BabelNet
 Backbone
 Backpropagation
@@ -438,12 +436,10 @@ Contractive Auto-Encoder
 Contrastive Active Learning
 Contrastive Learning
 Control-Net
-ControlNets
 Conv
 Conv1D
 Conv3x3
 ConvNet
-ConvNets
 Convolution
 Convolution layer
 Convolutional Neural Networks
@@ -541,7 +537,6 @@ Dense Convolutional Network
 Dense Retrieval
 DenseNet
 DenseNet121
-DenseNets
 DenseShrink
 DenseShrinkR
 Densification Power Law
@@ -729,9 +724,6 @@ Extensive-form correlated equilibrium
 Extrinsic Reward
 F-Score
 F-measure
-F-measures
-F-scores
-F-statistics
 F1 error
 F1 measure
 F1 metric
@@ -799,7 +791,6 @@ Fourier features
 Fourier frequencies
 Fourier representation
 Fourier sublayer
-Fourier sublayers
 FrameNet
 Frank-Wolfe
 Frankenstein model
@@ -864,7 +855,6 @@ Gaussian variable
 Gaussian vectors
 Gaussian weights
 GaussianFace
-Gaussians
 Geman-McClure loss
 Gene Ontology
 Generative Adversarial Network
@@ -1113,7 +1103,6 @@ Jaccard similarity function
 Jacobi preconditioner
 Jacobian matrices
 Jacobian matrix
-Jacobians
 Jelinek-Mercer
 Jensen's inequality
 Jensen-Shannon
@@ -1518,7 +1507,6 @@ MultiBoost
 Multidimensional Quality Metrics
 Multidimensional Scaling
 Multilayer Perceptron
-Multilayer Perceptrons
 Multiple Choice
 Multiple Choice Grade
 Multiple Timer Model
@@ -1532,7 +1520,6 @@ Mutual Information Gap
 N-Gram
 N-Gram method
 N-best lists
-N-grams
 Nadaraya-Watson estimator
 Nadaraya-Watson kernel regression
 Naive Bayes
@@ -1631,7 +1618,6 @@ P(y|do(x))
 P-R curves
 P-Rank
 P-distance
-P-distances
 P-robust
 P2L model
 P@10
@@ -1655,7 +1641,6 @@ Pareto efficient policy
 Pareto frontier
 Pareto optimal
 Pareto optimal matching
-Pareto optimal matchings
 Pareto optimality
 Pareto set
 Pareto-dominates
@@ -1688,7 +1673,6 @@ Penn TreeBank
 Penn Treebank corpus
 Perceptron
 Perceptron algorithm
-Perceptrons
 Performer
 Permutation Acceptance
 Perplexity
@@ -1798,7 +1782,6 @@ Q-learners
 Q-learning
 Q-network
 Q-update
-Q-updates
 Q-updating
 Quadratic Boolean Optimization Problem
 Quality Estimation
@@ -1885,7 +1868,6 @@ Representer theorem
 ResNe(X)t
 ResNet
 ResNet-18
-ResNets
 Reservoir
 Reservoir Computing
 Resistance Distance
@@ -1913,7 +1895,6 @@ Riemannian trust region Newton method
 Ripple Carry Adder
 RoI
 RoI pooling
-RoIs
 Robertson-Webb model
 Robertson-Webb queries
 Robust Bayesian Regression
@@ -2182,7 +2163,6 @@ Token Substitution
 Top-1
 Top-1 accuracy
 Top5-Error
-Top5-Errors
 Topic Detection and Tracking
 Total Variation minimization
 TrackFormer
@@ -2228,11 +2208,9 @@ TweetEval
 TyQ
 Type Encoder
 Type I error
-U-Nets
 U-centered matrix
 U-fine distribution
 U-statistic kernel
-U-statistics
 UnTyQ
 Uncertainty-aware Selection
 Uniform
@@ -2257,7 +2235,6 @@ Var
 Varadhan approximation
 Variance
 Variational Autoencoder
-Variational Autoencoders
 VecMap
 Vector Extrema
 VerbNet
@@ -2655,7 +2632,6 @@ approximation factor
 approximation guarantee
 approximation ratio
 approximator
-approximators
 arXiv
 arborescence
 arborescence polytope
@@ -2711,7 +2687,6 @@ asymptotic bias
 asymptotic notation
 asymptotic null distribution
 asymptotic variance
-asymptotics
 asynchronous Gibbs
 asynchronous Gibbs sampling
 asynchronous Kalman filter
@@ -2792,7 +2767,6 @@ autocovariance
 autocovariance matrices
 autocovariance matrix
 autodecoder
-autodecoders
 autodiff
 autofaiss
 autograd
@@ -2857,7 +2831,6 @@ backdoored classifier
 backdoored demonstrations
 backdoored embeddings
 backdoored model
-backdoors
 background
 background model
 background normalization
@@ -2869,7 +2842,6 @@ backoff scheme
 backoff smoothing
 backpointers
 backprojection
-backpropagates
 backtracking
 backtracking line search
 backward pass
@@ -2941,7 +2913,6 @@ batch mode
 batch optimization
 batch processing
 batch setting
-batch sizes
 batch statistics
 batch training
 batched gradient
@@ -2999,7 +2970,6 @@ bias-variance tradeoff
 biased estimators
 bibliographic coupling
 bicluster
-biclusters
 biconnected component
 biconnectivity
 biconnectivity metrics
@@ -3093,7 +3063,6 @@ bistochastic matrices
 bistochastization algorithm
 bitext
 bitvector
-bitvectors
 black-box
 black-box attack
 black-box classifier
@@ -3312,7 +3281,6 @@ chart parsing
 chase
 chase-like
 chatbot
-chatbots
 checker
 checker algorithm
 checkpoint
@@ -3432,17 +3400,14 @@ clustering criterion
 clustering distortion measure
 clustering method
 clustering problem
-clusterings
 co-authorship network
 co-cluster
 co-clustering
-co-clusters
 co-occurrence
 co-occurrence context
 co-occurrence matrix
 co-occurrence potentials
 co-occurrence statistics
-co-occurrences
 co-reference
 co-training
 coarse correlated equilibria
@@ -3864,7 +3829,6 @@ coordination model
 copy mechanism
 core tensor
 core-periphery networks
-core-sets
 coreference annotation
 coreference chain
 coreference chain inference
@@ -3917,7 +3881,6 @@ cost matrices
 cost matrix
 cost nodes
 cost partitioning
-cost partitionings
 cost vector
 cost volume
 cost-sensitive learning
@@ -3964,7 +3927,6 @@ covariant derivative
 covariant neurons
 covariate
 covariate shift
-covariates
 coverage
 coverage normalization
 covering constraint
@@ -3997,7 +3959,6 @@ cross-lingual approach
 cross-lingual benchmarks
 cross-lingual cluster features
 cross-lingual clustering
-cross-lingual clusterings
 cross-lingual clusters
 cross-lingual embeddings
 cross-lingual features
@@ -4188,7 +4149,6 @@ decomposition methods
 deconvolution
 deconvolution layers
 deconvolutional layers
-deconvolutions
 decoupled sampling
 deduction rule
 deduplication
@@ -4260,7 +4220,6 @@ dendrogram
 denoiser
 denoiser priors
 denoising algorithms
-denoising auto-encoders
 denoising diffusion probabilistic models
 denoising diffusion process
 denoising network
@@ -4417,7 +4376,6 @@ dictionary learning
 dictionary learning problem
 dictionary matrix
 diffeomorphism
-diffeomorphisms
 difference equations
 difference graph
 differentiable function
@@ -4530,7 +4488,6 @@ discriminative features
 discriminative methods
 discriminative model
 discriminative motif
-discriminative motifs
 discriminative probabilities
 discriminative reranking parsers
 discriminative training
@@ -4604,7 +4561,6 @@ distributionally robust optimization
 distributionally robust reinforcement learning
 distributionally robust risk
 ditree
-ditrees
 div
 divergence
 divergence curve
@@ -4619,7 +4575,6 @@ divide-and-conquer strategy
 do-calculus
 dobj
 docId
-docIds
 document classification
 document clustering
 document corpus
@@ -4746,7 +4701,6 @@ edge-over-random baseline
 edge-over-random condition
 edge-over-random distribution
 edgelet
-edgelets
 edit distance
 edit rate
 edit-distance matrix
@@ -4771,11 +4725,9 @@ eigenbasis
 eigendecay
 eigenfunction
 eigenfunction features
-eigenfunctions
 eigengap
 eigenmodes
 eigenpairs
-eigenspaces
 eigenspectrum
 eigenvalue
 eigenvalue decomposition
@@ -4857,7 +4809,6 @@ encoder-decoder model
 encoder-decoder networks
 encoding layer
 encoding module
-encodings
 end-of-sequence token
 end-point-error
 end-to-end backpropagation
@@ -4958,7 +4909,6 @@ epipolar motion
 epipolar planes
 epipolar surfaces
 epipole
-epipoles
 episode
 episodic
 episodic memory
@@ -5103,7 +5053,6 @@ extrinsic evaluation
 f )-validity
 f value
 f-divergence
-f-divergences
 f-level
 facade segmentation
 face detection
@@ -5259,7 +5208,6 @@ fine network
 fine-grained sentiment classification
 fine-tune
 fine-tuned model
-fine-tunes
 finite elements
 finite horizon
 finite partial exchangeability
@@ -5289,7 +5237,6 @@ fixed-parameter tractable
 fixed-point iteration
 fixpoint
 fixpoint computation
-fixpoints
 flat model
 flexibility metric
 float16
@@ -5419,7 +5366,6 @@ fuzzy variables
 g F
 g-forest
 g-value
-g-values
 gadget game
 game state representation
 game theory
@@ -5678,7 +5624,6 @@ graphics simulators
 graphlet kernel
 graphlets
 graphon
-graphons
 grayscale
 greedy approach
 greedy bisimulation
@@ -5888,7 +5833,6 @@ hyperbolic space
 hyperboloid
 hyperclique
 hyperedge
-hyperedges
 hypergradients
 hypergraph attention mechanism
 hypergraph interference
@@ -5898,12 +5842,10 @@ hypergraph neural network
 hypergraph partitioning
 hypergraph spillover effect
 hypergraph structure
-hypergraphs
 hypernym
 hypernym hierarchy
 hypernymy
 hyperoptimizer
-hyperoptimizers
 hyperparameter learning
 hyperparameter optimization
 hyperparameter selection
@@ -5915,8 +5857,6 @@ hyperparameter values
 hyperplane
 hyperplane splits
 hyperprior
-hyperpriors
-hyperspheres
 hyponym
 hyponymy
 hypothesis
@@ -6090,7 +6030,6 @@ information theoretic measures
 information theory
 information-based agent architecture
 infoset
-infosets
 inhomogeneous Poisson process
 initial distribution
 initial state
@@ -6287,7 +6226,6 @@ item embeddings
 item recommendation
 itemset
 itemset patterns
-itemsets
 iterate
 iterated conditional modes
 iteration
@@ -6362,12 +6300,10 @@ k-best search
 k-class classification
 k-core
 k-core decomposition
-k-cores
 k-d trees
 k-dimensional Weisfeiler-Leman algorithms
 k-dimensional trees
 k-gram
-k-grams
 k-hop aggregation
 k-hop neighbors
 k-hop-neighbor array
@@ -6386,7 +6322,6 @@ k-sparse approximation
 k-spectrum kernel
 k-t space
 k-tuple
-k-tuples
 kernel approximation
 kernel bandwidth
 kernel calculations
@@ -6433,7 +6368,6 @@ key vectors
 key-value memories
 key-value pair
 keyframe
-keyframes
 keypoint
 keypoint correspondences
 keypoint detection
@@ -6441,7 +6375,6 @@ keypoint detector
 keypoint locations
 keypoint matches
 keypoint supervision
-keypoints
 keys matrix
 kinematic correspondence-aware aggregation block
 kinematics layer
@@ -6631,7 +6564,6 @@ length extrapolation
 length normalization
 length penalty
 lengthscale parameter
-lengthscales
 level set
 level-set equation
 level-set function
@@ -6867,7 +6799,6 @@ logit equilibrium
 logit function
 logit model
 logit-space
-logits
 lognormal
 long tail
 long-form summarization
@@ -6922,7 +6853,6 @@ mIoD
 mIoH
 mIoU
 mSeq2seq
-mSeq2seqs
 mT0
 mT5
 machine attention
@@ -7160,7 +7090,6 @@ message_aggregator
 meta
 meta distribution
 meta-algorithm
-meta-algorithms
 meta-batches
 meta-benchmark
 meta-classifier
@@ -7170,7 +7099,6 @@ meta-evaluation
 meta-features
 meta-gradient
 meta-gradient variance
-meta-gradients
 meta-learn
 meta-learner
 meta-learning rate
@@ -7180,7 +7108,6 @@ meta-methods
 meta-optimisation
 meta-optimization
 meta-parameter
-meta-parameters
 meta-reinforcement learning
 meta-state
 meta-test
@@ -7598,7 +7525,6 @@ multiscale representation
 multiset
 multiset tagging
 multiset tagging model
-multisets
 multistack decoder
 multistart stochastic search algorithms
 multitask feature learning
@@ -7608,7 +7534,6 @@ multitask training
 multivariate
 multivariate Gaussian
 multivariate Gaussian distribution
-multivariate Gaussians
 multivariate normal
 multivariate normal distribution
 multivariate t-distribution
@@ -7666,7 +7591,6 @@ negative binomial distribution
 negative binomial log-likelihood
 negative binomial regression
 negative log-likelihood
-negative log-likelihoods
 negative pairs
 negative sample
 negative to positive ratio
@@ -7847,7 +7771,6 @@ non-rigid reconstruction
 non-rigid shape matching
 non-rigid tracking
 non-submodular energy
-non-terminals
 non-tree models
 noncontext-free languages
 nonconvex function
@@ -8181,7 +8104,6 @@ over-segmentation
 over-smoothing
 over-squashing
 overfit
-overfits
 overflow probability
 overgenerate-and-select approach
 overlap lift
@@ -8240,7 +8162,6 @@ parameter update
 parameter vector
 parameter-efficient fine-tuning
 parameterisation
-parameterisations
 parameterization
 parameterized context models
 parameterized model
@@ -8577,7 +8498,6 @@ position embedding
 positional bias
 positional embedding
 positional encoding
-positional encodings
 positionality
 positive definite
 positive pairs
@@ -8645,7 +8565,6 @@ power spectrum
 pre-activation
 pre-logits
 pre-processing
-pre-terminals
 pre-train
 pre-trained checkpoint
 pre-trained embeddings
@@ -8663,7 +8582,6 @@ pre-training model
 pre-training objective
 pre-training strategies
 pre-training tasks
-preactivations
 precision matrix
 precision-at-10
 precision-at-k
@@ -8973,7 +8891,6 @@ pseudo-Boolean reasoning
 pseudo-Siamese architecture
 pseudo-algorithm
 pseudo-interpretation
-pseudo-interpretations
 pseudo-inverse
 pseudo-marginals vector
 pseudo-model
@@ -9070,7 +8987,6 @@ query-document pairs
 query-log
 query-log features
 query-log language model
-query-logs
 queue
 quicksort
 r mcmc
@@ -9126,7 +9042,6 @@ rank minimization
 rank vector
 rank-1 tensor
 rank-maximal matching
-rank-maximal matchings
 rank-one update
 rank-reduction
 ranked election problem
@@ -9153,7 +9068,6 @@ ray-marching algorithm
 ray-surface intersection
 rbf kernel
 re-ranker
-re-rankers
 re-weighting vector
 re-writing rule kernel
 reachable states
@@ -9280,7 +9194,6 @@ relational clustering
 relational databases
 relational triples
 relational tuple
-relational tuples
 relations
 relationship descriptors
 relative attributes
@@ -9300,7 +9213,6 @@ reparameterization trick
 reparametrization
 reparametrization trick
 reparametrization vector
-reparametrizations
 repeated squaring algorithm
 replay
 replay buffer
@@ -9575,7 +9487,6 @@ self-attention mechanism
 self-attention models
 self-attention module
 self-attention sublayer
-self-attention sublayers
 self-consistency correction method
 self-decoding
 self-distillation
@@ -9694,12 +9605,9 @@ semi-supervision
 semialgebraic set
 semidefinite
 semidefinite program
-semigradients
 semimartingale
-semimartingales
 semiring backpropagation
 semiring matrix multiplication
-semirings
 sense disambiguation
 senses
 sensitive attribute
@@ -10059,7 +9967,6 @@ squared Euclidean distance
 squared error loss
 squared-error kernel
 st-graph
-st-graphs
 stability analysis
 stability bound
 stable model
@@ -10114,7 +10021,6 @@ state-of-the-art baselines
 state-of-the-art methods
 state-of-the-art model
 state-of-the-art systems
-state-of-the-arts
 state-of-the-arts algorithms
 static analysis
 static topic models
@@ -10275,9 +10181,7 @@ sub-components
 sub-concept
 sub-gradient
 sub-gradient descent
-sub-gradients
 sub-kernel
-sub-kernels
 sub-linear time search
 sub-networks
 sub-optimality
@@ -10285,24 +10189,20 @@ sub-populations
 sub-queries
 sub-root
 sub-tensor
-sub-tensors
 sub-word
 sub-word tokenization
-sub-words
 sub-σ-algebra
 subclass
 subformula
 subformulae
 subgame
 subgame solving
-subgames
 subgoals
 subgradient method
 subgraph isomorphism
 subgraph selection
 subject-predicate-object triplets
 sublattice
-submanifolds
 submatrices
 submatrix
 submodular
@@ -10343,7 +10243,6 @@ subtree
 subtree kernel
 subtree patterns
 subtree regret
-subtrees
 subwindow
 subword segmentation
 subword tokens
@@ -10371,11 +10270,9 @@ super arm
 super-gradient set
 super-network
 super-pixel
-super-pixels
 super-resolution models
 superdifferentials
 supergradient
-supergradients
 supermartingale
 supernodes
 superpixelization
@@ -10384,7 +10281,6 @@ superposition state
 supersenses
 supertag
 supertag-factored model
-supertags
 supervised classification
 supervised classification model
 supervised classifier
@@ -10471,7 +10367,6 @@ synonym
 synonym replacement
 synonymy
 synset
-synsets
 syntactic analysis
 syntactic category
 syntactic complexity
@@ -10753,9 +10648,7 @@ token-level technique classification
 tokenisation
 tokenization
 tokenization scheme
-tokenizations
 tokenizer
-tokenizers
 top p
 top-5 accuracy
 top-K random sampling
@@ -10941,7 +10834,6 @@ tree-rewighted belief propagation
 tree-rewighted upper bound
 treebank annotations
 treebank grammar
-treebanks
 tri-gram
 triadic features
 triads
@@ -10979,8 +10871,6 @@ trust region subproblem
 truth assignment
 tuple
 tuple-set
-tuple-sets
-tuples
 tuplex
 twin network architecture
 two layer net
@@ -11131,7 +11021,6 @@ utterance encoder
 utterance prefix
 utterance understanding
 v-structure
-v-structures
 val-set
 valency
 validation
@@ -11206,7 +11095,6 @@ variational wavelet regression
 vdensity
 vec
 vech
-vecs
 vector
 vector arithmetic
 vector concatenation
@@ -11264,7 +11152,6 @@ virtual graph
 virtual machine
 viseme
 viseme-phoneme mapping
-visemes
 visibility constraint
 vision models
 vision system
@@ -11308,7 +11195,6 @@ voxel grid representations
 voxel occupancy
 voxel representations
 voxel-based representations
-voxels
 walk-based attack
 warm-up
 warm-up period

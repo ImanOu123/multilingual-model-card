@@ -97,7 +97,7 @@ def remove_term_inflections(term_lst):
         termWOpunct = remove_punct(term)
         # if the term or an inflection of the term wasn't seen before
         if termWOpunct.replace(" ", "") not in tmp_term_lst:
-                
+                                
             # add to tmp_term_lst without punctuation to use as a check
             tmp_term_lst.append(termWOpunct.replace(" ", ""))
             
@@ -106,6 +106,7 @@ def remove_term_inflections(term_lst):
             
             # add inflections of full term to tmp_term_lst 
             tmp_term_lst += list(map(lambda lastWord: (" ". join(termWOpunct.split()[:-1]) + " " + lastWord).replace(" ", ""), inflect_lst))
+            tmp_term_lst.append(termWOpunct.replace(" ", "")+"s")
             
             # add to final term list 
             processed_term_lst.append(term)
