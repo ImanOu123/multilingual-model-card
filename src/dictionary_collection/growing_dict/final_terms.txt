@@ -29,10 +29,6 @@ A2C
 Ablation study
 Accuracy
 Active learning
-Ad-aBoost
-AdaBoost.M1
-AdaDelta
-AdaGrad
 Adafactor
 Adam
 Adam algorithm
@@ -40,14 +36,9 @@ Adam optimiser
 Adam optimization
 Adam optimization algorithm
 Adam optimizer
-AdamW
-AdamW optimizer
 Adapter
 Agent
-AlexNet
 Algorithm
-AlphaStar
-AlphaZero
 Answer Set Programming
 Apriori
 Apriori algorithm
@@ -68,7 +59,6 @@ Bag-of-Words
 Baseline
 Basis Pursuit
 Batch Normalization
-BatchNorm
 Baum-Welch algorithm
 Bayes
 Bayes classifier
@@ -122,11 +112,9 @@ Bethe approximation
 Bhattacharyya coefficient
 Binomial distribution
 Bloom filter
-BoW
 Boltzmann distribution
 Boltzmann exploration
 Bonferroni correction
-BoolQ
 Boolean formula
 Boolean functions
 Boolean variable
@@ -142,7 +130,6 @@ Caltech-101
 Canny detector
 Canny edge detector
 Categorical distribution
-CelebA
 Chamfer Distance
 Charniak parser
 Chebyshev acceleration
@@ -156,7 +143,6 @@ Chomsky normal form
 Chu-Liu-Edmonds algorithm
 Chung-Lu model
 Classifier
-ClausalModifier
 Cohen's kappa
 Cohen's kappa coefficient
 Cohen's κ
@@ -166,13 +152,11 @@ Compositionality
 Compressed sensing
 Computational Linguistics
 Computer Vision
-ConceptNet
 Condition 1
 Conditional Generation
 Conditional Random Field
 Condorcet winner
 Contrastive Learning
-ConvNet
 Convolution
 Convolutional Neural Networks
 Coreference Resolution
@@ -184,7 +168,6 @@ Cosine distance
 Counterfactual Regret Minimization
 Covariance
 Cross Entropy Loss
-CrowS-Pairs
 Data Augmentation
 Datalog
 Datalog program
@@ -196,16 +179,8 @@ Decomposable Attention
 Decomposable Attention Model
 Deep Belief Network
 Deep Learning
-DeepDream
-DeepLab
-DeepMask
-DeepMind
-DeepNets
-DeepSpeed
-DeepVoxels
 Demographic Parity
 Denoising Autoencoder
-DenseNet
 Detectron
 Determinantal Point Processes
 Dialogue State Tracking
@@ -222,8 +197,6 @@ Discretization
 Discriminator
 Disentanglement
 Domain Adaptation
-DropEdge
-DropNode
 Dropout
 Dropout distribution
 Dynamic Programming
@@ -250,7 +223,6 @@ Euclidean transformation
 Euler angles
 Euler step
 Exact Match
-ExpTime
 Expectation Maximization
 Expectation Maximization algorithm
 Exponential distribution
@@ -263,7 +235,6 @@ F1 score
 Fairseq
 Fano's inequality
 Fast Fourier Transform
-FastText
 Feature Pyramid Network
 Federated Learning
 Fine-tuning
@@ -278,7 +249,6 @@ Fourier basis functions
 Fourier coefficient
 Fourier features
 Fourier frequencies
-FrameNet
 Frobenius Norm
 Frobenius inner product
 Fréchet
@@ -322,10 +292,6 @@ Gibbs distribution
 Gibbs iteration
 Gibbs sampler
 Gini coefficient
-GloVe
-GloVe embeddings
-GloVe vectors
-GloVe word embeddings
 Good-Turing estimate
 GoogLeNet
 Gradient
@@ -364,7 +330,6 @@ Horn theories
 HowTo100M
 Huber loss
 Huber norm
-HuggingFace Transformers
 Hungarian loss
 Hyper-parameters
 Hyperband
@@ -372,9 +337,6 @@ Hyperparameter
 Hyperparameter search
 I(X; Y)
 I3D
-ImageNet
-ImageNet dataset
-ImageNet-1K
 Imitation Learning
 In-context Learning
 Inception network
@@ -391,9 +353,7 @@ Inside-Outside algorithm
 Instance Normalization
 Integer Linear Programming
 Integer Programming
-Intersection over Union (IoU)
 Inverse Reinforcement Learning
-IoU
 Ising model
 Iverson bracket
 J48
@@ -448,7 +408,6 @@ Lagrange multiplier
 Lagrangian duality
 Lagrangian multiplier
 Lagrangian relaxation
-LambdaRank
 Lambertian reflectance
 Lanczos iteration
 Langevin dynamics
@@ -468,8 +427,6 @@ Lasso penalty
 Latent Dirichlet Allocation
 Latent Semantic Analysis
 Layer Normalization
-LayerNorm
-LeNet
 Learning Rate
 Lemma
 Levenberg-Marquardt algorithm
@@ -491,10 +448,8 @@ Lipschitz continuity
 Lipschitz continuous
 Lipschitz function
 Lipschitzness
-ListNet
 Local Consistency
 Log Gaussian Cox Process
-LogDet divergence
 Logistic Regression
 Longformer
 Lucene
@@ -511,7 +466,6 @@ Mahalanobis distance function
 Mahalanobis matrix
 Mahalanobis metric
 Manhattan distance
-MapReduce
 Marching Cubes
 Markov
 Markov Chain
@@ -538,10 +492,8 @@ Matching Network
 Matrix Completion
 Matrix factorization
 Matérn kernel
-MaxEnt
 Maximum Likelihood
 Maximum Satisfiability
-McDiarmid's inequality
 Mechanical Turk
 Meta-learning
 Metropolis Hastings
@@ -553,7 +505,6 @@ Metropolis-Hastings algorithm
 Metropolis-Hastings sampler
 Micro-F1
 Mixup
-MoCo
 Model
 Monotonicity
 Monte Carlo
@@ -608,11 +559,9 @@ Nyström approximation
 O notation
 Object Localization
 Object detection
-OntoNotes
 Open Information Extraction
 Optimization Problem
 Ornstein-Uhlenbeck
-PageRank
 Pareto dominated
 Pareto frontier
 Pareto optimal
@@ -628,7 +577,6 @@ Pearson's correlation coefficient
 Pearson's r
 Pearson's r correlation
 Penn English Treebank
-Penn TreeBank
 Penn Treebank corpus
 Perceptron
 Perplexity
@@ -636,8 +584,6 @@ Perron-Frobenius theorem
 Pinsker's inequality
 Pitman-Yor Process
 Platt scaling
-PnP
-PnP algorithm
 Pointwise Mutual Information
 Poisson distribution
 Poisson matting
@@ -669,14 +615,10 @@ R-Precision
 Rademacher averages
 Rademacher complexity
 Radon-Nikodym derivative
-RandAugment
 Random Forest
 Random Forest classifier
 Rank
-RankBoost
-RankNet
 Rao-Blackwellization
-ReLu
 Reading Comprehension
 Recall
 Recall@10
@@ -691,9 +633,6 @@ Regressor
 Reinforcement Learning
 Rejection sampling
 ResNeXt
-ResNet
-ResNet-18
-RetinaNet
 Retrieval-Augmented Generation
 Reward Function
 Rhetorical Structure Theory
@@ -701,7 +640,6 @@ Ridge regression
 Riemannian geometry
 Riemannian gradient
 Riemannian manifold
-RoI
 Robertson-Webb model
 Routing Transformer
 Runge-Kutta
@@ -714,7 +652,6 @@ Scikit-learn
 Searn
 Self-Attention
 Self-supervised learning
-SemEval
 Semantic Role Labeling
 Semantic Scholar
 Semantic Web
@@ -722,23 +659,16 @@ Sentence-Piece
 Sentiment Analysis
 Seq2Seq
 Set Cover
-SfM
 Shannon entropy
-ShapeNet
 Sherman-Morrison formula
 Sherman-Morrison-Woodbury formula
 Siamese architecture
 Siamese network
 Sigmoid
 Sigmoid function
-SimLex-999
-SimSiam
 Singular Value Decomposition
 Sinkhorn algorithm
-SoftMax
-SoftRank
 Softmax layer
-SpaCy
 Sparse
 Sparse Transformer
 Sparse reconstruction
@@ -759,7 +689,6 @@ State-of-the-art
 Statistical Machine Translation
 Stochastic Gradient Descent
 Story Cloze Test
-Structure from Motion (SfM)
 Structure from motion
 Subgraph
 Submodularity
@@ -775,7 +704,6 @@ T5-large model
 Tanh
 Taylor approximation
 Tensor
-TensorFlow
 Text Classification
 Text Summarization
 Text-to-Text Transfer Transformer
@@ -796,13 +724,11 @@ Transformer-based models
 Transformer-like
 Traveling Salesman Problem
 Treebank
-TrellisNet
 Triggering Model
 Tucker decomposition
 Turing Test
 Turing machine
 Turing reduction
-TweetEval
 Type I error
 U-statistics
 Unigram
@@ -810,23 +736,15 @@ Universal Dependencies
 Upper Confidence Bound
 Vandermonde matrix
 Variational Autoencoder
-VecMap
 Vertex Cover
-ViT
-ViT-B
-ViT-B/16
-ViT-L
 Vision Transformer
 Visual Question Answering
 Viterbi
 Viterbi algorithm
 Viterbi decoding
 Wasserstein distance
-WaveNet
-WebQuestions
 Weibull
 Weisfeiler-Lehman test
-Wide ResNet
 Wiener process
 Wilcoxon signed-rank test
 Winograd Schema
@@ -836,8 +754,6 @@ Woodbury matrix identity
 Word Embeddings
 Word Mover's Distance
 Word2Vec
-WordPiece
-WordPiece embeddings
 Z-score
 Zipf
 Zipf distribution
@@ -968,7 +884,6 @@ approximation factor
 approximation guarantee
 approximation ratio
 approximator
-arXiv
 arc-factored model
 architectural modifications
 architecture
@@ -1255,7 +1170,6 @@ chemoinformatics
 chi-square distribution
 chi-square test
 child node
-chrF
 chromosome
 chunk size
 citation networks
@@ -3354,7 +3268,6 @@ noun phrase
 novel view synthesis
 nsubj
 nsubjpass
-nuScenes
 nuclear norm
 nuclear norm relaxation
 null distribution
