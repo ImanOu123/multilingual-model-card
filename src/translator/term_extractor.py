@@ -43,17 +43,18 @@ class LLAMATermExtractor(TermExtractor):
         prompt = [prompt_info['system_prompt'], prompt_info['prompt'].format(text=text)]
         process_outputs_func = prompt_info['process_outputs_func']
         
-        res = self.call(
-            prompt,
-            self.llm_config_func,
-            has_system_prompt = True,
-            model_version = self.args.model_name,
-            verbose=True,
-            **self.config
-        )
+        res = ""
         try:
+            res = self.call(
+                prompt,
+                self.llm_config_func,
+                has_system_prompt = True,
+                model_version = self.args.model_name,
+                verbose=True,
+                **self.config
+            )
             processed_res = process_outputs_func(res)
             return res, processed_res
         except Exception as e:
-            print("Error in processing outputs:", e)
-            return res, None
+            print("Error in generating and processing outputs:", e)
+            return res, []

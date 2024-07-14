@@ -27,6 +27,8 @@ llm_lang_dict = {
     "Russian": "Russian",
 }
 
+# translator
+
 class M4TLargeTranslatorConfig:
     model_name = "facebook/hf-seamless-m4t-Large"
     cache_dir = "/data/user_data/jiaruil5/.cache/"
@@ -50,3 +52,27 @@ class LLAMA38BTranslatorConfig:
 class LLAMA370BTranslatorConfig:
     model_name = "llama3_70b"
     lang_dict = llm_lang_dict
+    
+# term detector + translator
+
+class GPT35TermTranslatorConfig:
+    model_name = "gpt-3.5-turbo"
+    lang_dict = llm_lang_dict
+
+class LLAMA370BTermTranslatorConfig:
+    model_name = "llama3_70b"
+    lang_dict = llm_lang_dict
+
+class LLAMA370BTermDictTranslatorConfig:
+    from utils import get_json_list
+    model_name = "llama3_70b"
+    lang_dict = llm_lang_dict
+    term_dict = get_json_list("../dictionary_collection/growing_dict/terms.jsonl")
+    dict_is_growing = False
+    
+class LLAMA370BTermGrowingDictTranslatorConfig:
+    from utils import get_json_list
+    model_name = "llama3_70b"
+    lang_dict = llm_lang_dict
+    term_dict = get_json_list("../dictionary_collection/growing_dict/terms.jsonl")
+    dict_is_growing = True

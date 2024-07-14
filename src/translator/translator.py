@@ -1,4 +1,4 @@
-
+import re
 
 class Translator:
     def __init__(self, args):
@@ -107,21 +107,45 @@ class LLMTranslator(Translator):
             llm.max_tokens = 4096
             return llm
         self.llm_config_func = llm_config_func
-        self.call = call
+        self.call = call  
     
     def translate(self, text, src_lang, tgt_lang, prompt_version: str):
         
-        prompt = self.get_prompt(
-            text,
-            self.args.lang_dict[src_lang],
-            self.args.lang_dict[tgt_lang],
-            prompt_version
+        prompt = self.get_prompt(prompt_version).format(
+            text=text,
+            src_lang=self.args.lang_dict[src_lang],
+            tgt_lang=self.args.lang_dict[tgt_lang]
         )
         
         res = self.call(
             prompt,
             self.llm_config_func,
-            has_system_prompt = True,
+            has_system_prompt = False,
             model_version = self.args.model_name
         )
         return res
+
+class LLMTermTranslator(LLMTranslator):
+    def __init__(self, args):
+        """
+        term_dict: {"english_term": <>, "arabic_term": <>, "chinese_term": <>, "french_term": <>, "japanese_term": <>, "russian_term": <>, "context": <>, "explanation": <>}
+        """
+        super().__init__(args)
+        # if args.use_
+        self.term_dict = {}
+        
+        
+        
+
+    
+
+    
+    def translate_terms(self, text, context, src_lang, tgt_lang, prompt_version: str):
+        prompts = self.get_prompt(prompt_version)
+        prompt = [prompts['system_prompt'], prompts['prompt_with_context']]
+            
+    # def translate_with_dict(self, text, src_lang, tgt_lang, prompt_version: str):
+    
+    # def translate_with_llm(self, text, src_lang, tgt_lang, prompt_version: str):
+        
+    
