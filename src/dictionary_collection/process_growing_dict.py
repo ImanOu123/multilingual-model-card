@@ -226,10 +226,10 @@ if __name__ == "__main__":
     
     # ----------------------------------------------------------------------
     
-    term_lst = read_list_from_file('growing_dict/processed_terms.txt')
+    # term_lst = read_list_from_file('growing_dict/processed_terms.txt')
     
-    final_term_lst = final_changes(term_lst)
+    # final_term_lst = final_changes(term_lst)
     
-    write_list_to_file('growing_dict/final_terms.txt', final_term_lst)
+    # write_list_to_file('growing_dict/final_terms.txt', final_term_lst)
     
     print("done")
