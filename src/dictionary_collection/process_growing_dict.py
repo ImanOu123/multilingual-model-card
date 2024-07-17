@@ -3,6 +3,9 @@ import re
 from pyinflect import getAllInflections
 import nltk
 from confirm_terms_gpt import GPTTermConfirmer
+import csv
+import spacy
+from scispacy.abbreviation import AbbreviationDetector
 
 def remove_punct(term):
     return re.sub(r'[^0-9a-zA-Z /]+', "", term.lower()).replace("  ", " ").strip()
@@ -92,7 +95,7 @@ def remove_terms_w_nonce(term_lst):
     return term_lst[firstNumidx:postZidx]
     
 def remove_term_inflections(term_lst):
-    """removes terms that repeat or their inflections - e.g. singular/plural"""
+    """removes terms that repeat"""
     
     term_lst.sort()
     
@@ -200,6 +203,35 @@ def final_changes(term_lst):
 
     return processed_term_lst
 
+def deduplicate_term_lst(term_lst):
+    nlp = spacy.load("en_core_web_trf")
+    
+    process_term_lst = []
+    for i, term in enumerate(term_lst):
+        doc = nlp(term)
+        new_token = "".join([token.lemma_ + token.whitespace_ for token in doc])
+        process_term_lst.append(new_token)
+        print(i)
+        
+    print("removing duplicates...")
+    final_term_lst = remove_term_inflections(process_term_lst)
+        
+    return final_term_lst
+
+def write_list_to_csv(file_path, lst):
+    # put terms into a dictionary
+    term_dict_lst = []
+    for i, term in enumerate(lst):
+        term_dict_lst.append({"idx" : i, "term" : term})
+    fields = ["idx", "term"]
+    
+    # writing to csv file
+    with open(file_path, 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(term_dict_lst)
+        
+
 if __name__ == "__main__":
     
     # paper_term_lst = extract_paper_term_lst('growing_dict/terms.jsonl')
@@ -231,5 +263,13 @@ if __name__ == "__main__":
     # final_term_lst = final_changes(term_lst)
     
     # write_list_to_file('growing_dict/final_terms.txt', final_term_lst)
+    
+    # ----------------------------------------------------------------------
+    
+    # term_lst = read_list_from_file('growing_dict/man_final_terms.txt')
+    
+    # fin_term_lst = deduplicate_term_lst(term_lst)
+    
+    # write_list_to_csv('growing_dict/final_terms.csv', fin_term_lst)
     
     print("done")
