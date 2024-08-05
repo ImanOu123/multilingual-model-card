@@ -2,3 +2,4 @@
 multilingual-model-card/src/translator/multilingualmodelcard-25ccc9eeb63f.json
 __pycache__/
 src/models/vllm/logs/
+src/data_eval_6060/2/
