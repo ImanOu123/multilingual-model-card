@@ -23,7 +23,7 @@ def google_translate(text, src_lang, tgt_lang):
     ).text
     return result
 
-def openai_setup(key_path='/home/ubuntu/openai_key.txt'):
+def openai_setup(key_path='/home/ubuntu/openai_key_r3lit.txt'):
 	with open(key_path) as f:
 		key, org_id = f.read().strip().split("\n")
 
