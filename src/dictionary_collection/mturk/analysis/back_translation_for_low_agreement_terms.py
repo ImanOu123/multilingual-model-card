@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import openai
 from tqdm import tqdm
+import sys
 from googletrans import Translator
 google_translator = Translator()
 
@@ -62,7 +63,7 @@ Context:
 Output format:
 ```
 1. Candidate: <The best translation candidate.>
-2. Explanation: <Explanation of why the first translation is the best fit.>
+2. Explanation: <Short explanation of why the first translation is the best fit.>
 ```
 """
     while True:
@@ -84,17 +85,19 @@ Output format:
 def get_validated_term(row, lang):
     # Use google translate for back translation of all the candidates to English
     ratio_dict = eval(row['prediction_ratio'])
+    candidates = list(set([ratio['word'] for ratio in ratio_dict] + [google_translate(row['word'], 'English', lang)]))
+    print(candidates)
     back_candidates = []
-    for ratio in ratio_dict:
-        if ratio['word'] is not None:
+    for candidate in candidates:
+        if candidate is not None:
             try:
                 back_candidate = google_translate(
-                    ratio['word'],
+                    candidate,
                     lang,
                     'English'
                 )
             except:
-                back_translate = ratio['word']
+                back_translate = candidate
         else:
             back_translate = ""
         back_candidates.append(back_candidate)
@@ -107,10 +110,11 @@ def get_validated_term(row, lang):
     print(row['word'])
     context = context_df.loc[context_df['English'] == row['word']]['context'].item()
     
+    
     valid_term, explanation = openai_prompt(
         row['word'],
         context,
-        [ratio['word'] for ratio in ratio_dict],
+        candidates,
         back_candidates,
         tgt_lang = lang,
         model = 'gpt-4o'
@@ -122,7 +126,7 @@ def get_valid_list(df, lang, threshold):
     valid_lst = []
     reason_lst = []
     back_candidates = []
-    out_f = open("tmp.txt", 'a')
+    out_f = open(f"tmp_{lang}_gpt4o.txt", 'a')
     
     for idx, row in tqdm(df.iterrows()):
         ratio_dict = eval(row['prediction_ratio'])
@@ -153,7 +157,7 @@ def validate_translation(lang, threshold):
     
 if __name__ == "__main__":
     # langs = ['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']
-    langs = ['Chinese']
+    langs = [sys.argv[1]]
     threshold = 0.5
 
     for lang in tqdm(langs):

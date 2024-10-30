@@ -55,6 +55,8 @@ def get_mean_std_dict(df):
 
     return mean_std_dict
 
+# python3 eval_on_6060.py --in_file /home/ubuntu/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless_prompt_japanese.jsonl --gt_file 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_googletrans.jsonl")
