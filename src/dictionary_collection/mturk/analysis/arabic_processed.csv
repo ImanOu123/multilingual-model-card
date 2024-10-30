@@ -1,4 +1,4 @@
-Input.index,WorkerId,Input.English,Input.Arabic,Answer.translation
+Input.index,WorkerId,Input.Arabic,Input.English,Answer.translation
 0,A1WPT6LLCRWMDY,التحقق المتقاطع بمقدار ١٠ أضعاف,10-fold cross validation,التحقق المتبادل بــ 10 طيات
 0,A1WPT6LLCRWMDY,1D الإلتواء,1D convolution,الالتفاف أحادي الأبعاد
 0,A1WPT6LLCRWMDY,معيار 2,2 norm,القاعدة 2

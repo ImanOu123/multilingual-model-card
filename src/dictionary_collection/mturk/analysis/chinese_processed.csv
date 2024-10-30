@@ -1,4 +1,4 @@
-Input.index,WorkerId,Input.English,Input.Chinese,Answer.translation
+Input.index,WorkerId,Input.Chinese,Input.English,Answer.translation
 0,A18YWTRM269A46,十折交叉验证,10-fold cross validation,10倍交叉验证
 0,A18YWTRM269A46,1D 卷积,1D convolution,一维卷积
 0,A18YWTRM269A46,2范数,2 norm,二范数
