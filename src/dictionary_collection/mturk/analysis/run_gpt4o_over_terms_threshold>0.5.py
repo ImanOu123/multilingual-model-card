@@ -9,6 +9,9 @@ from typing import Any
 setattr(httpcore, 'SyncHTTPTransport', Any)
 from googletrans import Translator
 google_translator = Translator()
+import random
+seed = 42
+random.seed(seed)  # Set the seed
 
 google_translator_lang_dict = {
     "Arabic": "ar",
@@ -132,7 +135,13 @@ def remove_surrounding_quotes(s):
         return s[1:-1]  # Remove the surrounding quotes
     return s  # Return the original string if no surrounding quotes
 
-def get_valid_list(df, lang, threshold, log_file_path, split):
+def sample_indices(a, sample_size=200):
+    if a < sample_size:
+        return list(range(a))  # Return all indices if 'a' is less than sample_size
+    else:
+        return random.sample(range(a), sample_size)  # Randomly sample 'sample_size' indices from range(a)
+
+def get_valid_list(df, lang, threshold, log_file_path, split, sample_size):
     valid_lst = []
     reason_lst = []
     back_candidates = []
@@ -149,54 +158,65 @@ def get_valid_list(df, lang, threshold, log_file_path, split):
     # check if one exists or is now. Append if it is new
     out_f = open(log_file_path, 'a')
     
+    cnt = 0
     for idx, row in tqdm(df.iterrows()):
         ratio_dict = eval(row['prediction_ratio'])
         if ratio_dict[0]['ratio'] >= threshold:
-            valid_lst.append(ratio_dict[0]['word'])
-            reason_lst.append({})
-            back_candidates.append([])
-        else:
-            if row['word'] in existing_dict:
-                print("Find in existing dict...")
-                print(existing_dict[row['word']])
-                res = existing_dict[row['word']]
-                valid_lst.append(remove_surrounding_quotes(res[0]))
-                reason_lst.append(res[1])
-                back_candidates.append(res[2])
-            else:
-                res = get_validated_term(row, lang, split)
-                res0 = remove_surrounding_quotes(res[0])
-                valid_lst.append(res0)
-                reason_lst.append(res[1])
-                back_candidates.append(res[2])
-                print(res)
-                out_f.write(row['word'] + " " + lang + "\n")
-                out_f.write(str((res0, res[1], res[2]))+"\n")
-                out_f.flush()
+            cnt += 1
     
+    indices = sample_indices(cnt, sample_size)
+    
+    cnt = 0
+    for idx, row in tqdm(df.iterrows()):
+        ratio_dict = eval(row['prediction_ratio'])
+        if ratio_dict[0]['ratio'] >= threshold:
+            if cnt in indices:
+                if row['word'] in existing_dict:
+                    print("Find in existing dict...")
+                    print(existing_dict[row['word']])
+                    res = existing_dict[row['word']]
+                    valid_lst.append(remove_surrounding_quotes(res[0]))
+                    reason_lst.append(res[1])
+                    back_candidates.append(res[2])
+                else:
+                    res = get_validated_term(row, lang, split)
+                    res0 = remove_surrounding_quotes(res[0])
+                    valid_lst.append(res0)
+                    reason_lst.append(res[1])
+                    back_candidates.append(res[2])
+                    print(res)
+                    out_f.write(row['word'] + " " + lang + "\n")
+                    out_f.write(str((res0, res[1], res[2]))+"\n")
+                    out_f.flush()
+            else:
+                valid_lst.append("")
+                reason_lst.append("")
+                back_candidates.append([])
+            cnt += 1
+        else:
+            valid_lst.append("")
+            reason_lst.append("")
+            back_candidates.append([])
     return valid_lst, reason_lst, back_candidates
 
 
-def validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_path, split):
+def validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_path, split, sample_size):
     df = pd.read_csv(in_csv_path)
-    res = get_valid_list(df, lang, threshold, log_file_path, split)
+    res = get_valid_list(df, lang, threshold, log_file_path, split, sample_size)
     df['validated_translation'] = res[0]
     df['reason'] = res[1]
     df['back_translations'] = res[2]
     df.to_csv(out_csv_path)
     
 if __name__ == "__main__":
-    # langs = ['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']
-    lang = sys.argv[1]
+    langs = ['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']
     threshold = 0.5
-    # in_csv_path = f"annotation_results_crawled/{lang}.csv"
-    # log_file_path = f"annotation_results_crawled/tmp_{lang}_gpt4o.txt"
-    # out_csv_path = in_csv_path.replace(".csv", "_validated.csv")
-    # split = "whole"
+    sample_size = 200
     
-    in_csv_path = f"annotation_results_6060/{lang}.csv"
-    log_file_path = f"annotation_results_6060/tmp_{lang}_gpt4o.txt"
-    out_csv_path = in_csv_path.replace(".csv", "_validated.csv")
-    split = "6060"
+    for lang in langs:
+        in_csv_path = f"annotation_results_crawled/{lang}.csv"
+        log_file_path = f"annotation_results_crawled/tmp_{lang}_gpt4o_>0.5_sample200.txt"
+        out_csv_path = in_csv_path.replace(".csv", "_validated_>0.5_sample200.csv")
+        split = "whole"
 
-    validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_path, split)
+        validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_path, split, sample_size)
