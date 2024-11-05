@@ -2,6 +2,15 @@ import re
 import json
 from nltk import word_tokenize, sent_tokenize
 
+def get_json_list(path):
+    import json
+    f = open(path, 'r')
+    info = []
+    for line in f.readlines():
+        info.append(json.loads(line))
+    return info
+
+
 class DocProcessor():
     def __init__(self, paper_path):
         self.doc = []

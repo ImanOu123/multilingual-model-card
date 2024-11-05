@@ -1,7 +1,8 @@
 import tqdm
 import json
 import os
-from utils import split_paragraph
+import argparse
+from utils import DocProcessor, split_paragraph
 
 import sys
 sys.path.append("../")
@@ -133,3 +134,5 @@ class TranslateSource:
     
     def translate(self):
         pass
+
+

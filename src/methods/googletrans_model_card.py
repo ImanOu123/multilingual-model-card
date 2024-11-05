@@ -1,50 +1,60 @@
-import os
-import json
 from tqdm import tqdm
-from utils import split_paragraph
+import json
+import os
+import argparse
+from utils import DocProcessor, split_paragraph
+from typing import Any
+
 import sys
 sys.path.append("../")
-
 from translator.config import GoogleTranslatorConfig
 from translator.translator import GoogleTranslator
-args = GoogleTranslatorConfig
-translator = GoogleTranslator(args)
 
-in_dir = "../data_model_cards/original/claude3_json/"
-out_dir = "../data_model_cards/translated/googletrans_claude3_json/"
+import httpcore
+setattr(httpcore, 'SyncHTTPTransport', Any)
 
-tgt_langs = [
-    "Chinese",
-    "Arabic",
-    "French",
-    "Russian",
-    "Japanese"
-]
-
-for file in tqdm(os.listdir(in_dir)):
-    print(f"Start translating {file}..")
-    filepath = in_dir + file
-    json_list = json.load(open(filepath, 'r'))
-    new_json_list = []
-    for idx, item in tqdm(enumerate(json_list)):
-        print(f"Reach item {idx}..")
-        new_item = item.copy()
-        for tgt_lang in tqdm(tgt_langs):
-            chunks = split_paragraph(item['answer'])
-            answer_chunks = []
-            for chunk in chunks:
-                answer_chunk = translator.translate(
-                    chunk,
-                    src_lang='English',
-                    tgt_lang=tgt_lang
-                )
-                answer_chunks.append(answer_chunk)
-        new_item[f"answer_{tgt_lang}"] = " ".join(answer_chunks)
-        new_json_list.append(new_item)
-    out_filepath = out_dir + file
-    json.dump(
-        new_json_list,
-        open(out_filepath, 'w'),
-        ensure_ascii=False,
-        indent=2
-    )
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--info_file", type=str, default="../dataset/info.json")
+    parser.add_argument("--in_dir", type=str, default="../data_model_cards/original/claude3_json/")
+    parser.add_argument("--out_file", type=str, default="../data_model_cards/translated/googletrans_paragraph.jsonl")
+    args = parser.parse_args()
+    
+    tgt_langs = [
+        "Chinese",
+        "Arabic",
+        "French",
+        "Russian",
+        "Japanese"
+    ]
+    
+    out_f = open(args.out_file, 'a')
+    
+    json_info = json.load(open(args.info_file, 'r'))
+    
+    trans_args = GoogleTranslatorConfig
+    translator = GoogleTranslator(trans_args)
+    for file in tqdm(os.listdir(args.in_dir)):
+        print("Start translating ", file)
+        filepath = args.in_dir + file
+        json_list = json.load(open(filepath, 'r'))
+        new_json_list = []
+        for idx, item in tqdm(enumerate(json_list)):
+            content_chunks = split_paragraph(item['answer'])
+            for chunk in tqdm(content_chunks):
+                info = {
+                    "file": file,
+                    "heading": item['question'],
+                    "text": chunk,
+                }
+                
+                for tgt_lang in tqdm(tgt_langs):
+                    answer_chunk = translator.translate(
+                        chunk,
+                        src_lang='English',
+                        tgt_lang=tgt_lang
+                    )
+                    info[f'text_{tgt_lang}'] = answer_chunk
+                json.dump(info, out_f, ensure_ascii=False)
+                out_f.write("\n")
+                out_f.flush()

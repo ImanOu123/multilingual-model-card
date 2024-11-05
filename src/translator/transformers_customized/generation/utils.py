@@ -3150,7 +3150,7 @@ class GenerationMixin:
             # increase cur_len
             cur_len = cur_len + 1
 
-            if beam_scorer.is_done or stopping_criteria(input_ids, scores):
+            if beam_scorer.is_done or torch.all(stopping_criteria(input_ids, scores)):
                 if not synced_gpus:
                     break
                 else:
@@ -4247,8 +4247,7 @@ class GenerationMixin:
 
             # increase cur_len
             cur_len = cur_len + 1
-
-            if constrained_beam_scorer.is_done or stopping_criteria(input_ids, scores):
+            if constrained_beam_scorer.is_done or torch.all(stopping_criteria(input_ids, scores)):
                 if not synced_gpus:
                     break
                 else:

@@ -1,0 +1,768 @@
+{
+  "term_french": "Médiocre en entrée, médiocre en sortie",
+  "terms_french": [],
+  "terms_english": [
+    "garbage in, garbage out",
+    "garbage in-garbage out",
+    "garbage in/garbage out",
+    "GIGO",
+    ""
+  ]
+}
+{
+  "term_french": "À données inexactes, résultats erronés",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "À double insu",
+  "terms_french": [],
+  "terms_english": [
+    "double-blind"
+  ]
+}
+{
+  "term_french": "A priori localement constant",
+  "terms_french": [],
+  "terms_english": [
+    "Locally constant prior"
+  ]
+}
+{
+  "term_french": "A priori régulier",
+  "terms_french": [],
+  "terms_english": [
+    "smoothness prior"
+  ]
+}
+{
+  "term_french": "À simple insu",
+  "terms_french": [],
+  "terms_english": [
+    "single-blind"
+  ]
+}
+{
+  "term_french": "AA Minuscule",
+  "terms_french": [],
+  "terms_english": [
+    "TinyML",
+    "tiny machine learning"
+  ]
+}
+{
+  "term_french": "AAMinuscule",
+  "terms_french": [],
+  "terms_english": [
+    "TinyML",
+    "tiny machine learning"
+  ]
+}
+{
+  "term_french": "Abandon",
+  "terms_french": [],
+  "terms_english": [
+    "dropout"
+  ]
+}
+{
+  "term_french": "Abduction",
+  "terms_french": [],
+  "terms_english": [
+    "abductive reasoning",
+    "abduction reasoning",
+    "abduction",
+    "abduction inference",
+    ""
+  ]
+}
+{
+  "term_french": "Absorption",
+  "terms_french": [],
+  "terms_english": [
+    "photon absorption",
+    "absorption",
+    "Photon absorption is the process by which light energy is taken by a material, transforming it to an internal energy of the media (e.g. thermal energy) or even generating electrons as in the case of semiconductor property. Absorption results in the attenuation of the incident light.",
+    "See also photon"
+  ]
+}
+{
+  "term_french": "Abstraction",
+  "terms_french": [],
+  "terms_english": [
+    "abstraction"
+  ]
+}
+{
+  "term_french": "Accessoire de mode intelligent",
+  "terms_french": [],
+  "terms_english": [
+    "wearables",
+    "wearable technology",
+    "smartwear",
+    "smart clothing",
+    "fashion technology",
+    "fashion electronics",
+    ""
+  ]
+}
+{
+  "term_french": "Accord inter-annotateurs",
+  "terms_french": [],
+  "terms_english": [
+    "inter-rater agreement"
+  ]
+}
+{
+  "term_french": "Accord inter-évaluateurs",
+  "terms_french": [],
+  "terms_english": [
+    "inter-rater agreement"
+  ]
+}
+{
+  "term_french": "Accord.NET",
+  "terms_french": [],
+  "terms_english": [
+    "Accord.NET"
+  ]
+}
+{
+  "term_french": "Accélérateur d'IA",
+  "terms_french": [],
+  "terms_english": [
+    "AI accelerator",
+    "artificial intelligence accelerator",
+    "neural processing unit",
+    "NPU",
+    "Source: 24pm Intelligence artificielle",
+    "Source: Wikipédia"
+  ]
+}
+{
+  "term_french": "Accélérateur d'intelligence artificielle",
+  "terms_french": [],
+  "terms_english": [
+    "AI accelerator",
+    "artificial intelligence accelerator",
+    "neural processing unit",
+    "NPU",
+    "Source: 24pm Intelligence artificielle",
+    "Source: Wikipédia"
+  ]
+}
+{
+  "term_french": "ACID",
+  "terms_french": [],
+  "terms_english": [
+    "ACID"
+  ]
+}
+{
+  "term_french": "ACP éparse",
+  "terms_french": [],
+  "terms_english": [
+    "sparse PCA",
+    "sparse principal component analysis"
+  ]
+}
+{
+  "term_french": "Acquisition d'ontologie",
+  "terms_french": [],
+  "terms_english": [
+    "ontology learning"
+  ]
+}
+{
+  "term_french": "Acquisition des connaissances",
+  "terms_french": [],
+  "terms_english": [
+    "knowledge acquisition"
+  ]
+}
+{
+  "term_french": "Actif numérique",
+  "terms_french": [],
+  "terms_english": [
+    "digital assets"
+  ]
+}
+{
+  "term_french": "Action primitive",
+  "terms_french": [],
+  "terms_english": [
+    "primitive action",
+    "primitive act"
+  ]
+}
+{
+  "term_french": "Actionneur",
+  "terms_french": [],
+  "terms_english": [
+    "actuator"
+  ]
+}
+{
+  "term_french": "Activation",
+  "terms_french": [],
+  "terms_english": [
+    "(to) fire",
+    "activate"
+  ]
+}
+{
+  "term_french": "Activation des données",
+  "terms_french": [],
+  "terms_english": [
+    "Data Activation"
+  ]
+}
+{
+  "term_french": "Activité de base",
+  "terms_french": [],
+  "terms_english": [
+    "base-level activity"
+  ]
+}
+{
+  "term_french": "Adaboost",
+  "terms_french": [],
+  "terms_english": [
+    "Adaboost"
+  ]
+}
+{
+  "term_french": "AdaBoost",
+  "terms_french": [],
+  "terms_english": [
+    "Adaboost"
+  ]
+}
+{
+  "term_french": "Adadelta",
+  "terms_french": [],
+  "terms_english": [
+    "Adadelta"
+  ]
+}
+{
+  "term_french": "Adagrad",
+  "terms_french": [],
+  "terms_english": [
+    "AdaGrad",
+    "Adaptive Gradient",
+    ""
+  ]
+}
+{
+  "term_french": "Adaline",
+  "terms_french": [],
+  "terms_english": [
+    "ADALINE"
+  ]
+}
+{
+  "term_french": "Adaptabilité",
+  "terms_french": [],
+  "terms_english": [
+    "Adaptability"
+  ]
+}
+{
+  "term_french": "Adaptation de domaine",
+  "terms_french": [],
+  "terms_english": [
+    "domain adaptation"
+  ]
+}
+{
+  "term_french": "Adaptation de domaine multi-sources",
+  "terms_french": [],
+  "terms_english": [
+    "domain adaptation"
+  ]
+}
+{
+  "term_french": "Adaptation de rangs faibles",
+  "terms_french": [],
+  "terms_english": [
+    "low-rank adaptation",
+    "LoRA"
+  ]
+}
+{
+  "term_french": "Adaptation par enrichissement contextuel",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "Adaptation par matrice de rang inférieur",
+  "terms_french": [],
+  "terms_english": [
+    "low-rank adaptation",
+    "LoRA"
+  ]
+}
+{
+  "term_french": "Adaptation par modèle auxiliaire",
+  "terms_french": [],
+  "terms_english": [
+    "low-rank adaptation",
+    "LoRA"
+  ]
+}
+{
+  "term_french": "Adaptation par modèle auxiliaire quantifiée",
+  "terms_french": [],
+  "terms_english": [
+    "quantized low-rank adaptation",
+    "QLoRA",
+    ""
+  ]
+}
+{
+  "term_french": "Addition de variables aléatoires",
+  "terms_french": [],
+  "terms_english": [
+    "addition of random variable"
+  ]
+}
+{
+  "term_french": "Adiabatique",
+  "terms_french": [],
+  "terms_english": [
+    "Adiabatic",
+    "Adiabatique method"
+  ]
+}
+{
+  "term_french": "Administrateur de base de données",
+  "terms_french": [],
+  "terms_english": [
+    "database administrator",
+    "DBA"
+  ]
+}
+{
+  "term_french": "Adressage basé sur l'emplacement",
+  "terms_french": [],
+  "terms_english": [
+    "location-based addressing"
+  ]
+}
+{
+  "term_french": "Adressage basé sur le contenu",
+  "terms_french": [],
+  "terms_english": [
+    "content-based addressing"
+  ]
+}
+{
+  "term_french": "Adressage fondé sur l'emplacement",
+  "terms_french": [],
+  "terms_english": [
+    "location-based addressing"
+  ]
+}
+{
+  "term_french": "Adressage fondé sur le contenu",
+  "terms_french": [],
+  "terms_english": [
+    "content-based addressing"
+  ]
+}
+{
+  "term_french": "AED",
+  "terms_french": [],
+  "terms_english": [
+    "exploratory data analysis",
+    "EDA"
+  ]
+}
+{
+  "term_french": "Affabulation de l'IA",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "Affectation d'Écart Isotropique",
+  "terms_french": [],
+  "terms_english": [
+    "Isotropic deviation assignment"
+  ]
+}
+{
+  "term_french": "Affectation proportionnelle",
+  "terms_french": [],
+  "terms_english": [
+    "proportional sampling",
+    "proportional allocation",
+    "proportional allocation of the sample",
+    ""
+  ]
+}
+{
+  "term_french": "Affirmation fausse de l'IA",
+  "terms_french": [],
+  "terms_english": [
+    "AI hallucination",
+    "AI failed approximation",
+    ""
+  ]
+}
+{
+  "term_french": "Agent",
+  "terms_french": [],
+  "terms_english": [
+    "agent"
+  ]
+}
+{
+  "term_french": "Agent animé",
+  "terms_french": [],
+  "terms_english": [
+    "conversational agent"
+  ]
+}
+{
+  "term_french": "Agent autonome",
+  "terms_french": [],
+  "terms_english": [
+    "autonomous agent  ==Sources==",
+    "Source: Benjamin Drieu, L'intelligence artificielle distribuée appliquée aux jeux d'équipe situés dans un milieu dynamique, Les agents autonomes."
+  ]
+}
+{
+  "term_french": "Agent cognitif",
+  "terms_french": [],
+  "terms_english": [
+    "cognitive agent"
+  ]
+}
+{
+  "term_french": "Agent d'interface",
+  "terms_french": [],
+  "terms_english": [
+    "conversational agent"
+  ]
+}
+{
+  "term_french": "Agent d'interface animé",
+  "terms_french": [],
+  "terms_english": [
+    "conversational agent"
+  ]
+}
+{
+  "term_french": "Agent de dialogue",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "Agent de menace",
+  "terms_french": [],
+  "terms_english": [
+    "threat agent"
+  ]
+}
+{
+  "term_french": "Agent délibératif",
+  "terms_french": [],
+  "terms_english": [
+    "deliberative agent"
+  ]
+}
+{
+  "term_french": "Agent incarné",
+  "terms_french": [],
+  "terms_english": [
+    "embodied agent"
+  ]
+}
+{
+  "term_french": "Agent incorporé",
+  "terms_french": [],
+  "terms_english": [
+    "embodied agent"
+  ]
+}
+{
+  "term_french": "Agent intelligent",
+  "terms_french": [],
+  "terms_english": [
+    "intelligent agent"
+  ]
+}
+{
+  "term_french": "Agent intelligent autonome",
+  "terms_french": [],
+  "terms_english": [
+    "autonomous agent  ==Sources==",
+    "Source: Benjamin Drieu, L'intelligence artificielle distribuée appliquée aux jeux d'équipe situés dans un milieu dynamique, Les agents autonomes."
+  ]
+}
+{
+  "term_french": "Agent physique",
+  "terms_french": [],
+  "terms_english": [
+    "physical agent"
+  ]
+}
+{
+  "term_french": "Agent physique autonome",
+  "terms_french": [],
+  "terms_english": [
+    "autonomous physical agent"
+  ]
+}
+{
+  "term_french": "Agent réactif",
+  "terms_french": [],
+  "terms_english": [
+    "reactive agent"
+  ]
+}
+{
+  "term_french": "Agent virtuel",
+  "terms_french": [],
+  "terms_english": [
+    "virtual agent"
+  ]
+}
+{
+  "term_french": "Agrégat",
+  "terms_french": [],
+  "terms_english": [
+    "cluster",
+    ""
+  ]
+}
+{
+  "term_french": "Agrégation conceptuelle",
+  "terms_french": [],
+  "terms_english": [
+    "conceptual clustering"
+  ]
+}
+{
+  "term_french": "Agrégation de circuit fermé",
+  "terms_french": [],
+  "terms_english": [
+    "bagging",
+    "bootstrap aggregation",
+    "Gradient Bagging",
+    ""
+  ]
+}
+{
+  "term_french": "Agrégation de modèles",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "Agrégation par la méthode de Cyrano",
+  "terms_french": [],
+  "terms_english": [
+    "bagging",
+    "bootstrap aggregation",
+    "Gradient Bagging",
+    ""
+  ]
+}
+{
+  "term_french": "AIML",
+  "terms_french": [],
+  "terms_english": [
+    "AIML",
+    "Artificial Intelligence Markup Language"
+  ]
+}
+{
+  "term_french": "AIOps",
+  "terms_french": [],
+  "terms_english": [
+    "AIOps",
+    "Artificial Intelligence Operations Systems"
+  ]
+}
+{
+  "term_french": "Aire sous la courbe ROC",
+  "terms_french": [],
+  "terms_english": [
+    "area under the ROC curve"
+  ]
+}
+{
+  "term_french": "Ajustement fin",
+  "terms_french": [],
+  "terms_english": [
+    "fine-tuning",
+    "fine tuning",
+    "finetuning"
+  ]
+}
+{
+  "term_french": "Ajustement fin de grand modèle de langues",
+  "terms_french": [],
+  "terms_english": []
+}
+{
+  "term_french": "Ako",
+  "terms_french": [],
+  "terms_english": [
+    "ako"
+  ]
+}
+{
+  "term_french": "Alan Turing",
+  "terms_french": [],
+  "terms_english": [
+    "Alan Turing"
+  ]
+}
+{
+  "term_french": "AlexNet",
+  "terms_french": [],
+  "terms_english": [
+    "AlexNet"
+  ]
+}
+{
+  "term_french": "Algorithme",
+  "terms_french": [],
+  "terms_english": [
+    "algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme A*",
+  "terms_french": [],
+  "terms_english": [
+    "A* algorithm",
+    "A star algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme AdaBoost",
+  "terms_french": [],
+  "terms_english": [
+    "Adaboost"
+  ]
+}
+{
+  "term_french": "Algorithme Adagrad",
+  "terms_french": [],
+  "terms_english": [
+    "AdaGrad",
+    "Adaptive Gradient",
+    ""
+  ]
+}
+{
+  "term_french": "Algorithme adaptatif",
+  "terms_french": [],
+  "terms_english": [
+    "adaptive algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme approximatif",
+  "terms_french": [],
+  "terms_english": [
+    "approximation algorithm",
+    "approximate algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme APriori",
+  "terms_french": [],
+  "terms_english": [
+    "Apriori algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme bio-inspiré",
+  "terms_french": [],
+  "terms_english": [
+    "biomimetic algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme biomimétique",
+  "terms_french": [],
+  "terms_english": [
+    "biomimetic algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme BIRCH",
+  "terms_french": [],
+  "terms_english": [
+    "BIRCH",
+    "balanced iterative reducing and clustering using hierarchies"
+  ]
+}
+{
+  "term_french": "Algorithme C4.5",
+  "terms_french": [],
+  "terms_english": [
+    "C4.5 alogrithm"
+  ]
+}
+{
+  "term_french": "Algorithme CART",
+  "terms_french": [],
+  "terms_english": [
+    "CART",
+    "Classification And Regression Trees"
+  ]
+}
+{
+  "term_french": "Algorithme CBOW",
+  "terms_french": [],
+  "terms_english": [
+    "CBOW algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme CLIQUE",
+  "terms_french": [],
+  "terms_english": [
+    "CLIQUE clustering"
+  ]
+}
+{
+  "term_french": "Algorithme CN2",
+  "terms_french": [],
+  "terms_english": [
+    "CN2 algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme d'Aho-Corasick",
+  "terms_french": [],
+  "terms_english": [
+    "Aho-Corasick algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme d'apprentissage",
+  "terms_french": [],
+  "terms_english": [
+    "learning algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme d'apprentissage incrémental",
+  "terms_french": [],
+  "terms_english": [
+    "incremental learning algorithm"
+  ]
+}
+{
+  "term_french": "Algorithme d'apprentissage incrémentiel",
+  "terms_french": [],
+  "terms_english": [
+    "incremental learning algorithm"
+  ]
+}

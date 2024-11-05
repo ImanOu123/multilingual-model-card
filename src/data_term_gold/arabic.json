@@ -1,0 +1,1148 @@
+[
+  {
+    "term_arabic": "ذكاء اصطناعي",
+    "term_english": "Artificial Intelligence (AI)",
+    "explanation_arabic": "أحد مجالات علوم الحاسب يهدف إلى إنشاء أنظمة يمكنها تنفيذ المهام التي تحتاج عادةً إلى الإدراك البشري، مثل التعلّم وصنع القرار والتطوير الذاتي، ويُشار إليه غالباً باسم “ذكاء الآلة”.",
+    "explanation_english": "A domain within computer science focused on creating systems capable of performing tasks typically requiring human cognition, such as learning, decision-making, and adaptation, often referred to as “Machine Intelligence.”"
+  },
+  {
+    "term_arabic": "تعُّلم الآلة",
+    "term_english": "Machine Learning (ML)",
+    "explanation_arabic": "مجموعة فرعية في الذكاء الاصطناعي تركز على تعليم الأنظمة رصد الأنماط في البيانات المتاحة، واتخاذ قرارات أو تقديم تنبؤات استناداً إلى بيانات جديدة دون برمجتها بشكل صريح.",
+    "explanation_english": "A subset of AI that emphasizes instructing systems to recognize patterns in existing data and make informed decisions or predictions on new data without explicit programming."
+  },
+  {
+    "term_arabic": "تعُّلم عميق",
+    "term_english": "Deep Learning",
+    "explanation_arabic": "مجال فرعي من تعلّم الآلة متخصص في استخدام طبقات متعددة من الشبكات العصبية لحل التحديات المعقدة من خلال تحديد السمات الأكثر أهمية للبيانات المُدخلة.",
+    "explanation_english": "A specialized area within machine learning that employs multiple layers of neural networks to address intricate challenges by pinpointing the most critical attributes of the input."
+  },
+  {
+    "term_arabic": "شبكة عصبية اصطناعية",
+    "term_english": "Artificial Neural Network (ANN)",
+    "explanation_arabic": "نموذج رقمي يعتمد على الذكاء الاصطناعي، ويحاكي البُنى العصبية البيولوجية في أدمغة الحيوانات، ويُطلق عليها أيضاً اسم “الشبكة العصبية”.",
+    "explanation_english": "A digital model in AI, influenced by the biological neural structures in animal brains, often termed as “Neural Network (NN).”"
+  },
+  {
+    "term_arabic": "معالجة اللغات الطبيعية",
+    "term_english": "Natural Language Processing (NLP)",
+    "explanation_arabic": "أحد مجالات الذكاء الاصطناعي ويُعنى بتفسير أو توليد اللغة البشرية سواءً بصورة مكتوبة أو منطوقة.",
+    "explanation_english": "An AI discipline dedicated to interpreting or generating human language, whether in written or spoken format."
+  },
+  {
+    "term_arabic": "تعُّلم تعزيزي",
+    "term_english": "Reinforcement Learning",
+    "explanation_arabic": "أحد أساليب تعلُّم الآلة، والذي يحدد أفضل الاستراتيجيات من خلال نظام المكافآت والعقوبات، بهدف تحقيق أكبر قدر من المكافآت التراكمية.",
+    "explanation_english": "A machine learning approach that determines the optimal strategy through a system of rewards and penalties, with the aim of maximizing cumulative rewards."
+  },
+  {
+    "term_arabic": "تعُّلم موَّجه",
+    "term_english": "Supervised Learning",
+    "explanation_arabic": "نوع من تعلّم الآلة، يستخدم مجموعة بيانات مُسماة لتعليم وتدريب نموذج على إجراء التنبؤات أو التصنيفات.",
+    "explanation_english": "A machine learning methodology that uses a labeled dataset to train a model for predictions or categorizations."
+  },
+  {
+    "term_arabic": "تعُّلم غير موَّجه",
+    "term_english": "Unsupervised Learning",
+    "explanation_arabic": "إحدى المنهجيات المستخدمة في مجال تعلّم الآلة، والتي تحدّد الهياكل الأساسية في مجموعة بيانات غير مُسماة.",
+    "explanation_english": "A machine learning approach that identifies underlying structures in datasets without labels."
+  },
+  {
+    "term_arabic": "تعُّلم شبه موَّجه",
+    "term_english": "Semi-supervised Learning",
+    "explanation_arabic": "أحد أساليب تعلّم الآلة يستخدم مزيجاً من البيانات المُسماة وغير المُسماة أثناء عملية التدريب.",
+    "explanation_english": "A machine learning method that utilizes a combination of both labeled and unlabeled data during the training process."
+  },
+  {
+    "term_arabic": "شبكة توليدية تنافسية",
+    "term_english": "Generative Adversarial Network (GAN)",
+    "explanation_arabic": "نموذج لتعلّم الآلة يتكون من شبكتين عصبيتين مترابطتين، شبكة توليدية وشبكة تمييزية، تتنافسان في بيئة تحاكي الألعاب.",
+    "explanation_english": "A machine learning model composed of two interconnected neural networks, a generative and a discriminative network, engaged in a game-theoretic setting."
+  },
+  {
+    "term_arabic": "شبكة عصبية ترشيحية",
+    "term_english": "Convolutional Neural Network (CNN)",
+    "explanation_arabic": "بنية تعلّم عميقة مصممة لتحليل ومعالجة البيانات المرئية مثل الصور ومقاطع الفيديو.",
+    "explanation_english": "A deep learning architecture specialized in the analysis and processing of visual data, such as images and videos."
+  },
+  {
+    "term_arabic": "شبكة عصبية ترشيحية",
+    "term_english": "Convolutional Neural Network (CNN)",
+    "explanation_arabic": "بنية تعلّم عميقة مصممة لتحليل ومعالجة البيانات المرئية مثل الصور ومقاطع الفيديو.",
+    "explanation_english": "A deep learning architecture specialized in the analysis and processing of visual data, such as images and videos."
+  },
+  {
+    "term_arabic": "شبكة عصبية تكرارية",
+    "term_english": "Recurrent Neural Networks (RNNs)",
+    "explanation_arabic": "تصميم شبكة عصبية يفسّر البيانات المتسلسلة عن طريق معالجتها عدة مرات لتمييز الأنماط.",
+    "explanation_english": "A neural network structure designed to interpret sequential data by repetitively processing it to identify patterns."
+  },
+  {
+    "term_arabic": "الذاكرة القصيرة المدى المطولة",
+    "term_english": "Long Short-Term Memory (LSTM)",
+    "explanation_arabic": "نوع من الشبكات العصبية التكرارية القادرة على التعامل مع تسلسل البيانات، مما يضمن الأداء الفعال لكل من التوابع الطويلة والقصيرة المدى.",
+    "explanation_english": "A variant of recurrent neural networks adept at managing data sequences, ensuring effective performance across both long and short-term dependencies."
+  },
+  {
+    "term_arabic": "تعُّلم منقول",
+    "term_english": "Transfer Learning",
+    "explanation_arabic": "أسلوب في تعلّم الآلة يتم فيه تطبيق المعرفة المكتسبة من إحدى المهمات لتحسين الأداء في مهمة مختلفة ولكنها ذات صلة بالمهمة الأصلية.",
+    "explanation_english": "A machine learning technique that involves applying knowledge gained from one task to improve performance on another, albeit related, task."
+  },
+  {
+    "term_arabic": "هندسة الخصائص",
+    "term_english": "Feature Engineering",
+    "explanation_arabic": "عملية الاستخلاص التلقائي للسمات ذات المعنى المطلوبة لاكتشاف الخصائص أو تصنيفها من المدخلات الأولية.",
+    "explanation_english": "The automated process of deriving meaningful attributes essential for feature detection or categorization from raw input."
+  },
+  {
+    "term_arabic": "موازنة التحُّيز-التباين",
+    "term_english": "Bias-Variance Tradeoff",
+    "explanation_arabic": "معضلة تظهر عند محاولة الموازنة بين التحيُّز والتباين، مما يمنع النماذج الخاضعة للإشراف من التعميم الفعال خارج بيانات التدريب الخاصة بها.",
+    "explanation_english": "An inherent challenge encountered when striving to balance bias and variance, thereby preventing supervised models from effectively generalizing beyond their training data."
+  },
+  {
+    "term_arabic": "نزول اشتقاقي",
+    "term_english": "Gradient Descent",
+    "explanation_arabic": "طريقة تُستخدم لتحسين الدَوَال من خلال التحرك بشكل متكرر في الاتجاه المعاكس للاشتقاق للعثور على الحد الأدنى لقيمة الدالة.",
+    "explanation_english": "A method for optimizing functions by iteratively moving in the direction opposite to the gradient to locate the minimum value of the function."
+  },
+  {
+    "term_arabic": "انتشار عكسي",
+    "term_english": "Backpropagation",
+    "explanation_arabic": "أسلوب يُستخدم لتدريب الشبكات العصبية عن طريق تقليل الأخطاء وتحديد قيمة المشتقة لضبط حساب أوزان الشبكة، وغالباً ما يتم تسميته اختصاراً “الانتشار العكسي للأخطاء”.",
+    "explanation_english": "A technique used to train neural networks by minimizing errors and calculating the gradient necessary for adjusting the network’s weights. Frequently abbreviated as “backward propagation of errors.”"
+  },
+  {
+    "term_arabic": "دالة تنشيط",
+    "term_english": "Activation Function",
+    "explanation_arabic": "معادلة رياضية تستخدم في الشبكات العصبية الاصطناعية لمعالجة المدخلات الموزونة للُعَقد وإنتاج المخرجات.",
+    "explanation_english": "A mathematical equation employed in Artificial Neural Networks to process the weighted inputs of a node and generate an output."
+  },
+  {
+    "term_arabic": "دورة",
+    "term_english": "Epoch",
+    "explanation_arabic": "دورة كاملة من التدريب على مجموعة البيانات بأكملها.",
+    "explanation_english": "A full training cycle conducted over the entire dataset."
+  },
+  {
+    "term_arabic": "فرط التخصيص",
+    "term_english": "Overfitting",
+    "explanation_arabic": "مشكلة في تعلُّم الآلة تحدث عند تصميم النموذج بدقة شديدة ليناسب بيانات التدريب، مما يعيق قدرته على التعميم بفعالية على البيانات الجديدة..",
+    "explanation_english": "A challenge in machine learning where a model is tailored too precisely to the training data, hindering its ability to generalize effectively to new data."
+  },
+  {
+    "term_arabic": "فرط التعميم",
+    "term_english": "Underfitting",
+    "explanation_arabic": "مشكلة في تعلُّم الآلة تحدث عندما لا يتمكن النموذج من التعرف على التعقيد الأساسي لبيانات التدريب، مما يؤدي إلى تنبؤات دون المستوى الأمثل.",
+    "explanation_english": "An issue in machine learning where the model doesn’t capture the underlying complexity of the training data, leading to suboptimal predictions."
+  },
+  {
+    "term_arabic": "ضبط",
+    "term_english": "Regularization",
+    "explanation_arabic": "أسلوب يُستخدم لردع فرط التخصيص من خلال تضمين قيود أو معلومات إضافية.",
+    "explanation_english": "A technique introduced to deter overfitting by incorporating additional constraints or information."
+  },
+  {
+    "term_arabic": "ضبط الإسقاط",
+    "term_english": "Dropout Regularization",
+    "explanation_arabic": "استراتيجية الحذف العشوائي لوحدات معينة في طبقة الشبكة أثناء تحديث مشتقة واحدة.",
+    "explanation_english": "A strategy of randomly omitting certain units in a network layer during a single gradient update."
+  },
+  {
+    "term_arabic": "زيادة البيانات",
+    "term_english": "Data Augmentation",
+    "explanation_arabic": "طريقة في تعلُّم الآلة لتوليد بيانات إضافية عن طريق تغيير مجموعة البيانات الحالية.",
+    "explanation_english": "A method in machine learning to generate additional data by altering the existing dataset."
+  },
+  {
+    "term_arabic": "بيانات التدريب",
+    "term_english": "Training Dataset",
+    "explanation_arabic": "مجموعة البيانات المستخدمة لتدريب نموذج تعلُّم الآلة.",
+    "explanation_english": "A set of data used to train a machine learning model."
+  },
+  {
+    "term_arabic": "بيانات الاختبار",
+    "term_english": "Test Dataset",
+    "explanation_arabic": "مجموعة البيانات المستخدمة لتقييم فعالية نموذج تعلُّم الآلة بعد التدريب والتحقق. يُطلق عليها أيضاً “بيانات التقييم”.",
+    "explanation_english": "A dataset employed to assess the efficacy of a machine learning model post-training and validation, often termed “Evaluation Data.”"
+  },
+  {
+    "term_arabic": "بيانات التحقق",
+    "term_english": "Validation Dataset",
+    "explanation_arabic": "مجموعة البيانات المستخدمة لقياس أداء نموذج تعلُّم الآلة بعد التدريب.",
+    "explanation_english": "A dataset used to gauge the performance of a machine learning model after its training."
+  },
+  {
+    "term_arabic": "شجرة القرار",
+    "term_english": "Decision Tree",
+    "explanation_arabic": "أسلوب تعلّم موجّه يستخدم هيكلاً شجرياً لتحليل عملية صنع القرار.",
+    "explanation_english": "A supervised learning technique that employs a tree-like structure for decision-making analysis."
+  },
+  {
+    "term_arabic": "غابة عشوائية",
+    "term_english": "Random Forest",
+    "explanation_arabic": "أسلوب تعلّم جماعي ينشئ أشجار قرار متعددة ويدمج نتائجها للحصول على أفضل النتائج.",
+    "explanation_english": "A collective learning technique that constructs multiple decision trees and amalgamates their results for optimal outcomes."
+  },
+  {
+    "term_arabic": "آلة الُمَّتجهات الداعمة",
+    "term_english": "Support Vector Machine (SVM)",
+    "explanation_arabic": "نموذج تعلّم موجّه مصمم لتصنيف البيانات وتحليل  الانحدار، بهدف إنشاء حدود قرار بأكبر هوامش ممكنة.",
+    "explanation_english": "A supervised learning model designed for data classification and regression, aiming to establish decision boundaries with the largest possible margins."
+  },
+  {
+    "term_arabic": "تجميع بالمتوسط",
+    "term_english": "K-means (or K-Means Clustering)",
+    "explanation_arabic": "خوارزمية تستخدم القيمة المتوسطة لتصنيف البيانات إلى عدد محدد من المجموعات بناءً على أوجه التشابه في الخصائص.",
+    "explanation_english": "An algorithm that classifies data into ‘k’ clusters based on feature similarities, using the mean value."
+  },
+  {
+    "term_arabic": "تحليل الُمكِّون الرئيس",
+    "term_english": "Principal Component Analysis (PCA)",
+    "explanation_arabic": "أسلوب يُستخدم لتقليل التكرار عن طريق تقليل أبعاد مجموعة البيانات، مع التركيز على المكونات الأكثر أهمية.",
+    "explanation_english": "A method to minimize redundancy by reducing dataset dimensions, focusing on the most significant components."
+  },
+  {
+    "term_arabic": "تجميع النماذج",
+    "term_english": "Ensemble",
+    "explanation_arabic": "طريقة تدمج التنبؤات من نماذج متعدّدة بهدف تعزيز الدقة التنبؤية الشاملة.",
+    "explanation_english": "A technique that merges predictions from multiple models to enhance overall predictive accuracy."
+  },
+  {
+    "term_arabic": "تجميع بوتستراب",
+    "term_english": "Bootstrap Aggregating (Bagging)",
+    "explanation_arabic": "استراتيجية تعلّم جماعي تهدف إلى تعزيز استقرار ودقة نماذج التصنيف والانحدار.",
+    "explanation_english": "A collective learning strategy aimed at enhancing the stability and precision of classification and regression models."
+  },
+  {
+    "term_arabic": "تعزيز",
+    "term_english": "Boosting",
+    "explanation_arabic": "أسلوب يقلّل من التحيُّز والتباين في التعلم الموجَّه، وتحويل خوارزميات التعلم الضعيفة إلى خوارزميات أكثر قوة.",
+    "explanation_english": "A technique that minimizes bias and variance in supervised learning, transforming weak learning algorithms into more robust ones."
+  },
+  {
+    "term_arabic": "تحليل الانحدار",
+    "term_english": "Regression Analysis",
+    "explanation_arabic": "طريقة إحصائية للتأكد من العلاقة بين المتغيرات التابعة والمستقلة، ويُشار إليها ببساطة باسم “الانحدار”.",
+    "explanation_english": "A statistical method to ascertain the correlation between dependent and independent variables. Often simply referred to as “Regression.”"
+  },
+  {
+    "term_arabic": "تصنيف",
+    "term_english": "Classification",
+    "explanation_arabic": "فئة من خوارزميات تعلُّم الآلة مكلّفة بتحديد الفئة أو المجموعة التي ينتمي إليها مدخل معيّن، ويُطلق عليها أحياناً اسم “التصنيف القياسي”.",
+    "explanation_english": "A category of machine learning algorithms tasked with determining the class or group an input belongs to. Sometimes called “Standard Classification.”"
+  },
+  {
+    "term_arabic": "الانحدار الخطي",
+    "term_english": "Linear Regression",
+    "explanation_arabic": "طريقة إحصائية تحدّد العلاقات بين المتغيرات لتطوير نموذج تنبؤي يسلط الضوء على اتجاهات البيانات.",
+    "explanation_english": "A statistical method that establishes relationships among variables to develop a predictive model, highlighting data trends."
+  },
+  {
+    "term_arabic": "انحدار لوجستي",
+    "term_english": "Logistic Regression",
+    "explanation_arabic": "أسلوب إحصائي يستخدم دالة لوجستية لتحويل تنبؤات النموذج الخطي إلى نطاق يتراوح بين 0 و1، وغالباً ما يشار إليه باسم “نموذج لوجيت”.",
+    "explanation_english": "A statistical technique employing a logistic function to transform predictions of a linear model into a range between 0 and 1, often referred to as the “Logit Model.”"
+  },
+  {
+    "term_arabic": "دالة الخسارة",
+    "term_english": "Loss Function",
+    "explanation_arabic": "دالة تحدد الاختلاف بين تنبؤات الخوارزمية والقيم الفعلية، ويُطلق عليها أحياناً اسم “دالة التكلفة”.",
+    "explanation_english": "A function that quantifies the discrepancy between an algorithm’s predictions and the actual values. Sometimes termed the “Cost Function.”"
+  },
+  {
+    "term_arabic": "تحسين",
+    "term_english": "Optimization",
+    "explanation_arabic": "عملية اختيار الحل الأنسب من بين جميع الخيارات المتاحة، وتعرف أيضاً باسم “التحسين الرياضي”.",
+    "explanation_english": "The act of choosing the most suitable solution from all available options, also known as “Mathematical Optimization.”"
+  },
+  {
+    "term_arabic": "ضبط معاملات الضبط",
+    "term_english": "Hyperparameters Tuning",
+    "explanation_arabic": "طريقة تعديل معاملات الضبط بشكل متكرر لتحديد المجموعة التي تنتج النموذج الأكثر دقة.",
+    "explanation_english": "The method of fine-tuning hyperparameters iteratively to identify the combination that yields the most accurate model."
+  },
+  {
+    "term_arabic": "حوسبة شبكية",
+    "term_english": "Grid Computing",
+    "explanation_arabic": "مجموعة من أجهزة الحاسب المترابطة التي تتعاون لتعمل كجهاز حاسب عملاق افتراضي واحد، مما يسهل العمليات الحسابية واسعة النطاق.",
+    "explanation_english": "A collection of interconnected computers that collaborate to function as a singular virtual supercomputer, facilitating extensive computations."
+  },
+  {
+    "term_arabic": "التحقق المتقاطع",
+    "term_english": "Cross-Validation",
+    "explanation_arabic": "أسلوب يُستخدم لتقييم قدرة النموذج على تعميم البيانات الجديدة من خلال تقييمها مقابل مجموعات فرعية مستخلصة من بيانات التدريب.",
+    "explanation_english": "A technique to assess a model’s ability to generalize to new data by evaluating it against subsets derived from the training data."
+  },
+  {
+    "term_arabic": "الإحكام",
+    "term_english": "Precision",
+    "explanation_arabic": "مقياس يشير إلى جزء الإيجابيات المحددة بشكل صحيح من بين جميع الإيجابيات المتوقعة.",
+    "explanation_english": "A metric indicating the fraction of correctly identified positives out of all predicted positives."
+  },
+  {
+    "term_arabic": "الاستدعاء",
+    "term_english": "Recall",
+    "explanation_arabic": "مقياس يسلط الضوء على نسبة الإيجابيات الصحيحة من بين جميع الإيجابيات الفعلية، والمعروف أيضاً باسم “المعدل الإيجابي الصحيح”.",
+    "explanation_english": "A metric highlighting the fraction of true positives out of all actual positives, also known as the “True Positive Rate.”"
+  },
+  {
+    "term_arabic": "مقياس إف",
+    "term_english": "F-Score",
+    "explanation_arabic": "مقياس يقيّم دقة المصنف الثنائي عن طريق حساب المتوسط التوافقي للإحكام والاستدعاء.",
+    "explanation_english": "A metric that gauges the accuracy of a binary classifier by computing the harmonic mean of precision and recall."
+  },
+  {
+    "term_arabic": "مصفوقة الدقة",
+    "term_english": "Confusion Matrix",
+    "explanation_arabic": "جدول يلخص أداء نموذج التصنيف، ويوضح مدى دقة تنبؤاته.",
+    "explanation_english": "A table that encapsulates the performance of a classification model, illustrating the accuracy of its predictions."
+  },
+  {
+    "term_arabic": "منحنى دّقة الأداء",
+    "term_english": "ROC Curve",
+    "explanation_arabic": "تمثيل رسومي يوضّح فعالية المُصنِّف في جميع الحدود المحتملة.",
+    "explanation_english": "A plot showcasing a classifier’s efficacy across all potential thresholds."
+  },
+  {
+    "term_arabic": "المساحة تحت منحنى دّقة الأداء",
+    "term_english": "Area under the ROC Curve (AUC)",
+    "explanation_arabic": "مقياس أداء يقيّم كفاءة النموذج من خلال النظر في جميع حدود التصنيف المحتملة.",
+    "explanation_english": "A performance metric assessing a model’s efficacy by considering all potential classification thresholds."
+  },
+  {
+    "term_arabic": "تينسر",
+    "term_english": "Tensor",
+    "explanation_arabic": "مصفوفة أو بنية بيانات موحدة ومتعددة الأبعاد.",
+    "explanation_english": "A uniformly-typed, multi-dimensional array or data structure."
+  },
+  {
+    "term_arabic": "تينسرفلو",
+    "term_english": "TensorFlow",
+    "explanation_arabic": "إطار عمل مفتوح المصدر مصمم لتطبيقات تعلُّم الآلة.",
+    "explanation_english": "An open-source framework tailored for applications in machine learning."
+  },
+  {
+    "term_arabic": "كيراس",
+    "term_english": "Keras",
+    "explanation_arabic": "واجهـة برمجـة تطبيقـات شهيرة تستخدم لغـة البايثـون، وتُستخدم في مجال تعلّم الآلة، ومتوافقة مع العديد من الواجهات الخلفية للتعلّم العميق.",
+    "explanation_english": "A renowned Python interface for machine learning compatible with multiple deep learning backends."
+  },
+  {
+    "term_arabic": "سايكيت-ليرن",
+    "term_english": "Scikit-learn",
+    "explanation_arabic": "مجموعة أدوات واجهـة برمجـة تطبيقـات بلغـة البايثـون مفتوحة المصدر مستخدمة على نطاق واسع في مهام تعلُّم الآلة.",
+    "explanation_english": "A widely-used open-source Python toolkit for machine learning tasks."
+  },
+  {
+    "term_arabic": "بوت محادثة",
+    "term_english": "Chatbot",
+    "explanation_arabic": "برنامج يعتمد على الذكاء الاصطناعي يستخدم معالجة اللغات الطبيعية للتفاعل مع المستخدمين عبر المحادثات النصية أو الصوتية.",
+    "explanation_english": "An AI-driven software that harnesses natural language processing to engage in text or voice interactions with users."
+  },
+  {
+    "term_arabic": "روبوتية",
+    "term_english": "Robotics",
+    "explanation_arabic": "مجال يُعنى بتصميم الروبوتات وتطويرها وتطبيقها.",
+    "explanation_english": "A domain dedicated to the design, creation, and application of robots."
+  },
+  {
+    "term_arabic": "رؤية الحاسب",
+    "term_english": "Computer Vision",
+    "explanation_arabic": "أحد تخصصات الذكاء الاصطناعي الذي يركز على تحليل البيانات المرئية وفهمها، مثل الصور ومقاطع الفيديو. غالباً ما يُطلق عليها “رؤية الآلة”.",
+    "explanation_english": "An AI specialty focused on interpreting and comprehending visual data, such as images and videos. Frequently referred to as “Machine Vision.”"
+  },
+  {
+    "term_arabic": "التعرف على الصور",
+    "term_english": "Image Recognition",
+    "explanation_arabic": "عملية تمييز الأشياء أو الأنماط أو المفاهيم داخل الصور، ويُعرف أيضاً باسم “تصنيف الصور” أو “التعرُّف على الصور”.",
+    "explanation_english": "An act of discerning objects, patterns, or themes within images. Also known as “Image Classification” or “Visual Recognition.”"
+  },
+  {
+    "term_arabic": "التعرف على الكلام",
+    "term_english": "Speech Recognition",
+    "explanation_arabic": "عملية ترجمة اللغة المنطوقة إلى نص مكتوب باستخدام الطرق الحاسوبية. يُشار إليه عادةً باسم “التعرّف الآلي على الكلام” أو “تحويل الكلام إلى نص”.",
+    "explanation_english": "A technique of converting spoken language into written text using computational methods. Commonly referred to as “Automatic Speech Recognition (ASR)” or “Speech to Text (STT).”"
+  },
+  {
+    "term_arabic": "تحليل المشاعر",
+    "term_english": "Sentiment Analysis",
+    "explanation_arabic": "تطبيق أساليب التعلّم الإحصائي أو تعلّم الآلة لقياس المشاعر أو العواطف الموجودة في النص أو الصورة.",
+    "explanation_english": "The application of statistical or machine learning methods to assess sentiments or emotions present in text or imagery."
+  },
+  {
+    "term_arabic": "اكتشاف الشذوذ",
+    "term_english": "Anomaly Detection",
+    "explanation_arabic": "تحديد نقاط البيانات التي تنحرف بشكل كبير عن غالبية البيانات، بسبب خصائصها الفريدة.",
+    "explanation_english": "The  identification of data points that significantly deviate from the majority due to their unique characteristics."
+  },
+  {
+    "term_arabic": "تحليل السلاسل الزمنية",
+    "term_english": "Time Series Analysis",
+    "explanation_arabic": "فحص نقاط البيانات التي تم جمعها أو تسجيلها على فترات زمنية محددة.",
+    "explanation_english": "The examination of data points collected or recorded at specific time intervals."
+  },
+  {
+    "term_arabic": "تحليلات تنبؤية",
+    "term_english": "Predictive Analytics",
+    "explanation_arabic": "عملية الاستفادة من البيانات التاريخية بالإضافة إلى النماذج الرياضية للتنبؤ بالسيناريوهات المستقبلية أو الأحداث غير المعروفة.",
+    "explanation_english": "The process of utilizing historical data along with mathematical models to predict future scenarios or unseen occurrences."
+  },
+  {
+    "term_arabic": "نظام توصيات",
+    "term_english": "Recommendation System",
+    "explanation_arabic": "نظام مصمم لاقتراح مجموعة من العناصر للمستخدمين، استناداً إلى تفضيلاتهم وتصرفاتهم. يُطلق عليه أيضاً “محرك توصيات” أو “خوارزمية توصيات”.",
+    "explanation_english": "A system designed to suggest a collection of items to users, influenced by their preferences and actions. Often termed “Recommendation Engine” or “Recommendation Algorithm.”"
+  },
+  {
+    "term_arabic": "شبكة معرفية",
+    "term_english": "Knowledge Graph",
+    "explanation_arabic": "تمثيل منظم للكيانات وعلاقاتها المتبادلة، ويُطلق عليه أيضاً اسم “الشبكة الدلالية”.",
+    "explanation_english": "A structured representation showcasing entities and their interconnections, often referred to as a “Semantic Network.”"
+  },
+  {
+    "term_arabic": "ويب دلالي",
+    "term_english": "Semantic Web",
+    "explanation_arabic": "تحسين شبكة الويب العالمية لتسهيل مشاركة البيانات وإعادة استخدامها عبر المنصات من خلال تحديد هياكل البيانات والمفردات وقواعد إدارة البيانات.",
+    "explanation_english": "An enhancement of the World Wide Web, facilitating data sharing and reuse across platforms by defining data structures, vocabularies, and governance rules."
+  },
+  {
+    "term_arabic": "نظام خبير",
+    "term_english": "Expert Systems",
+    "explanation_arabic": "أنظمة محوسبة تحاكي قدرة الخبراء البشريين على صنع القرار  في مجالات محددة استناداً إلى قاعدة معرفية تشتمل على الحقائق والاستدلالات.",
+    "explanation_english": "Computerized systems that replicate human expert decision-making in specific domains by leveraging a knowledge base comprising facts and heuristics."
+  },
+  {
+    "term_arabic": "ذكاء السرب",
+    "term_english": "Swarm Intelligence",
+    "explanation_arabic": "مجال يركز على السلوك المنسق للكيانات اللامركزية في الأنظمة ذاتية التنظيم.",
+    "explanation_english": "A field emphasizing the coordinated behavior of decentralized entities in self-organizing systems."
+  },
+  {
+    "term_arabic": "خوارزمية جينية",
+    "term_english": "Genetic Algorithms",
+    "explanation_arabic": "خوارزميات تطورية مستوحاة من مبادئ الانتقاء الطبيعي لإيجاد الحلول المثلى لتحديات التحسين.",
+    "explanation_english": "Evolutionary algorithms inspired by natural selection principles to pinpoint optimal solutions for optimization challenges."
+  },
+  {
+    "term_arabic": "منطق ضبابي",
+    "term_english": "Fuzzy Logic",
+    "explanation_arabic": "نظام منطقي يوسّع التمييز الثنائي بين الصواب والخطأ من خلال استيعاب قيم متعدّدة للصواب.",
+    "explanation_english": "A logic system broadening the binary distinction between truth and falsehood by accommodating multiple truth values."
+  },
+  {
+    "term_arabic": "مركبة ذاتية القيادة",
+    "term_english": "Autonomous Vehicle",
+    "explanation_arabic": "مركبة مجهزة بحيث تكون قادرة على استشعار البيئة المحيطة بها والتنقل فيها بشكل مستقل. تُعرف أيضاً باسم “مركبة مؤتمتة”.",
+    "explanation_english": "A vehicle equipped to perceive its environment and navigate autonomously. Also known as an “Automated Vehicle.”"
+  },
+  {
+    "term_arabic": "أخلاقيات الذكاء الاصطناعي",
+    "term_english": "AI Ethics",
+    "explanation_arabic": "إطار المبادئ والقيم والمنهجيات التي توجّه تطوير حلول الذكاء الاصطناعي وتطبيقها بشكلٍ أخلاقي.",
+    "explanation_english": "A framework of moral principles and methodologies guiding the ethical creation and application of AI solutions."
+  },
+  {
+    "term_arabic": "نموذج الانتباه",
+    "term_english": "Attention Model",
+    "explanation_arabic": "أسلوب في الشبكة العصبية يمكّن الشبكة من التركيز على جوانب محددة من المدخلات المعقدة في كل مرة. ويُسمى أيضاً “آلية الانتباه”.",
+    "explanation_english": "A neural network approach that enables the network to concentrate on specific facets of intricate input iteratively. Also termed “Attention Mechanism.”"
+  },
+  {
+    "term_arabic": "مُحوِّل",
+    "term_english": "Transformer",
+    "explanation_arabic": "بنية شبكة عصبية مخصصة لمعالجة البيانات المتسلسلة استناداً إلى آلية الانتباه الذاتي. وتُسمى أيضاً “شبكة المُحولات العصبية”.",
+    "explanation_english": "A neural network design tailored for sequential data processing, leveraging a self-attention mechanism. Sometimes referred to as “Transformer Neural Network.”"
+  },
+  {
+    "term_arabic": "تمثيلات الترميز الثنائية الاتجاه من المحولات (بيرت)",
+    "term_english": "Bidirectional Encoder Representations From Transformers (BERT)",
+    "explanation_arabic": "طريقة تعلّم عميق تعود جذورها إلى بنية الُمحـِّولات، وهي مصممة خصيصاً لمهام معالجة اللغات الطبيعية.",
+    "explanation_english": "A deep learning method rooted in the transformer architecture, tailored for natural language processing tasks."
+  },
+  {
+    "term_arabic": "مُرِّمز تلقائي",
+    "term_english": "Autoencoders",
+    "explanation_arabic": "شبكات عصبية مصممة لإنشاء تمثيلات بيانات فعالة لسيناريوهات التعلّم غير الموجَّه.",
+    "explanation_english": "Neural networks designed to generate efficient data representations for unsupervised learning scenarios."
+  },
+  {
+    "term_arabic": "شبكة عصبية كبسولية",
+    "term_english": "Capsule Neural Network",
+    "explanation_arabic": "شبكات عصبية تشتمل على كبسولات (مجموعات من الخلايا العصبية) تشير إلى معاملات إنشاء لكيان محدد.",
+    "explanation_english": "Neural networks comprising capsules (sets of neurons) that signify specific entity instantiation parameters."
+  },
+  {
+    "term_arabic": "مهمة تحويل تسلسل إلى تسلسل",
+    "term_english": "Sequence-to-Sequence Models",
+    "explanation_arabic": "النماذج التي تحوّل تسلسلاً واحداً من العناصر إلى تسلسل آخر.",
+    "explanation_english": "Models that transform one sequence of elements into another sequence."
+  },
+  {
+    "term_arabic": "تضمين",
+    "term_english": "Embedding",
+    "explanation_arabic": "عملية ترجمة المتجهات عالية الأبعاد إلى فضاء أبعاد أكثر إحكاماً.",
+    "explanation_english": "The technique of translating high-dimensional vectors into a more compact dimensional space."
+  },
+  {
+    "term_arabic": "شبكة بايزية",
+    "term_english": "Bayesian Network",
+    "explanation_arabic": "تمثيل رسومي يعرض المتغيرات وترابطها الشرطي باستخدام المنطق البايزي.",
+    "explanation_english": "A graphical representation that illustrates variables and their conditional interdependencies through Bayesian reasoning."
+  },
+  {
+    "term_arabic": "عملية قرار ماركوف",
+    "term_english": "Markov Decision Processes (MDP)",
+    "explanation_arabic": "عمليات التحكم العشوائية المستخدمة لنمذجة عملية صنع القرار في سيناريوهات التحسين غير المؤكدة.",
+    "explanation_english": "A stochastic control that processes employed for modeling decision-making in uncertain optimization scenarios."
+  },
+  {
+    "term_arabic": "البحث الشجري باستخدام مونت كارلو",
+    "term_english": "Monte Carlo Tree Search (MCTS)",
+    "explanation_arabic": "خوارزمية صنع القرار تجمع بين محاكاة مونت كارلو ومنهجيات البحث الشجري لتحديد القرارات المثلى.",
+    "explanation_english": "A decision-making algorithm that integrates Monte Carlo simulations with tree search methodologies to determine optimal decisions."
+  },
+  {
+    "term_arabic": "تعلم بمثال واحد",
+    "term_english": "One-shot Learning",
+    "explanation_arabic": "منهجية تعلّم تنشئ مصنِّفات فعالة من مثال تدريبي واحد.",
+    "explanation_english": "An approach to learning that constructs effective classifiers from a single training instance."
+  },
+  {
+    "term_arabic": "تعلم بأمثلة قليلة",
+    "term_english": "Few-shot Learning",
+    "explanation_arabic": "منهجية تعلّم تنشئ المصنِّفات باستخدام مجموعة محدودة من أمثلة التدريب.",
+    "explanation_english": "A methodology for crafting classifiers using a limited set of training instances."
+  },
+  {
+    "term_arabic": "تعلم بدون أمثلة مباشرة",
+    "term_english": "Zero-shot Learning",
+    "explanation_arabic": "أسلوب يُمكّن النماذج من التعرّف على الأصناف التي لم يسبق التعرض لها أثناء التدريب.",
+    "explanation_english": "A technique enabling models to recognize classes they have not encountered during training."
+  },
+  {
+    "term_arabic": "تعلم الآلة العدائي",
+    "term_english": "Adversarial machine Training",
+    "explanation_arabic": "مجال يُعنى بإنشاء خوارزميات قوية لتعلّم الآلة لمواجهة التهديدات الأمنية.",
+    "explanation_english": "A field dedicated to developing robust machine learning algorithms to counteract security threats."
+  },
+  {
+    "term_arabic": "آلة تورينج العصبية",
+    "term_english": "Neural Turing Machine",
+    "explanation_arabic": "تصميم شبكة عصبية قادر على استنتاج الخوارزميات من الأمثلة المقدمة.",
+    "explanation_english": "A neural network design with the capability to infer algorithms from provided examples."
+  },
+  {
+    "term_arabic": "شبكة عصبية شبكية",
+    "term_english": "Graph Neural Network",
+    "explanation_arabic": "أساليب التعلّم العميق المصممة للبيانات الممثلة باستخدام الرسوم البيانية.",
+    "explanation_english": "Deep learning techniques customized for data represented as graphs."
+  },
+  {
+    "term_arabic": "الانتباه الذاتي",
+    "term_english": "Self-Attention",
+    "explanation_arabic": "مكون للشبكة العصبية، ينتج تسلسلاً جديداً من التضمينات من خلال تطبيـق آلية الانتباه على عناصر تسلسل الإدخال.",
+    "explanation_english": "A component of neural networks that generates a new sequence of embeddings by applying attention to input sequence elements."
+  },
+  {
+    "term_arabic": "انتباه ذاتي متعدد الرؤوس",
+    "term_english": "Multi-Head Self-Attention",
+    "explanation_arabic": "آلية انتباه ذاتي تُنفَّذ عدة مرات لكل موضع ضمن تسلسل الإدخال.",
+    "explanation_english": "A self-attention mechanism executed multiple times for every position within the input sequence."
+  },
+  {
+    "term_arabic": "تسوية الحزمة",
+    "term_english": "Batch Normalization",
+    "explanation_arabic": "أسلوب يعمل على تحسين أداء الشبكة العصبية واستقرارها من خلال توحيد المخرجات بين الطبقات.",
+    "explanation_english": "A technique that enhances neural network performance and stability by standardizing the outputs between layers."
+  },
+  {
+    "term_arabic": "وحدة خطية مصححة (ريلو)",
+    "term_english": "Rectified Linear Unit (ReLU)",
+    "explanation_arabic": "دالة تنشيط تعطي نفس قيمة المدخل للمدخلات الإيجابية، وتعطي القيمة صفر للمدخلات غير الإيجابية.",
+    "explanation_english": "An activation function that produces the input value for positive inputs and zero for non-positive inputs."
+  },
+  {
+    "term_arabic": "دالة ريلو المتسربة",
+    "term_english": "Leaky ReLU",
+    "explanation_arabic": "أحد أنواع دالة التنشيط التي تسمح بتدرج بسيط للقيم السالبة.",
+    "explanation_english": "A variant of the ReLU activation function that allows a slight gradient for negative values."
+  },
+  {
+    "term_arabic": "دالة سيجمويد",
+    "term_english": "Sigmoid Function",
+    "explanation_arabic": "دالة تعيّن مخرجات الانحدار اللوجستي أو متعدد الحدود إلى احتمالات قيمتها تتراوح بين الصفر والواحد.",
+    "explanation_english": "A function that maps logistic or multinomial regression outputs to probabilities ranging between 0 and 1."
+  },
+  {
+    "term_arabic": "خاصية متناثرة",
+    "term_english": "Sparse Feature",
+    "explanation_arabic": "متجه خصائص يتكون في الغالب من قيم صفرية أو فارغة.",
+    "explanation_english": "A feature vector primarily consisting of zero or null values."
+  },
+  {
+    "term_arabic": "شبكة دالة القاعدة الشعاعية",
+    "term_english": "Radial Basis Function (RBF) Network",
+    "explanation_arabic": "شبكات عصبية تستخدم دالة الأساس نصف القطرية كدالة تنشيط لمهام التصنيف غير الخطية.",
+    "explanation_english": "Neural networks that employ the radial basis function as their activation function for non-linear classification tasks."
+  },
+  {
+    "term_arabic": "بيرسبترون",
+    "term_english": "Perceptron",
+    "explanation_arabic": "خوارزمية تعالج القيم المدخلة، وتطبق دالة على مجموعها المرجح، وتنتج مخرجة واحدة.",
+    "explanation_english": "An algorithm that processes input values, applies a function to their weighted sum, and produces a single output."
+  },
+  {
+    "term_arabic": "قص اشتقاقي",
+    "term_english": "Gradient Clipping",
+    "explanation_arabic": "استراتيجية لمواجهة مشكلة انفجار المشتقة من خلال تحديد الحد الأقصى لقيمة المشتقة أثناء تدريب النموذج باستخدام النزول الاشتقاقي.",
+    "explanation_english": "A strategy to mitigate the exploding gradient issue by capping the maximum gradient value during model training using gradient descent."
+  },
+  {
+    "term_arabic": "معدل التعلم",
+    "term_english": "Learning Rate",
+    "explanation_arabic": "معامل ضبط يُستخدم في أساليب التحسين التي تحدد حجم كل خطوة أثناء التكرارات. ويُسمى أيضاً “حجم الخطوة”.",
+    "explanation_english": "A hyperparameter in optimization techniques that determines the magnitude of each step during iterations. Often referred to as “Step Size.”"
+  },
+  {
+    "term_arabic": "الزخم",
+    "term_english": "Momentum",
+    "explanation_arabic": "نوع من النزول الاشتقاقي يتأثر فيه اتجاه الخطوة باتجاه الخطوة السابقة ومشتقة الخطوة الحالية.",
+    "explanation_english": "A variant of gradient descent in which the step direction is influenced by the previous step’s direction and the current gradient."
+  },
+  {
+    "term_arabic": "فضاء التضمين",
+    "term_english": "Embedding Space",
+    "explanation_arabic": "فضاء متجه مكثف تُعيّن عليه خصائص الفضاء المتجه ذو الأبعاد الأعلى.",
+    "explanation_english": "A condensed vector space where higher-dimensional features are mapped."
+  },
+  {
+    "term_arabic": "التشابكية",
+    "term_english": "Connectionism",
+    "explanation_arabic": "نهج نمذجة إدراكية يستخدم من الشبكات العصبية الاصطناعية لمحاكاة القدرات الفكرية.",
+    "explanation_english": "A cognitive modeling approach that leverages artificial neural networks to simulate intellectual capabilities."
+  },
+  {
+    "term_arabic": "نموذج تسلسلي",
+    "term_english": "Sequence Model",
+    "explanation_arabic": "نموذج مصمم للتعامل مع المدخلات التي تربطها علاقة زمنية أو متسلسلة.",
+    "explanation_english": "A model designed to handle inputs with a temporal or sequential relationship."
+  },
+  {
+    "term_arabic": "ثنائي الاتجاه",
+    "term_english": "Bidirectional",
+    "explanation_arabic": "أسلوب مستخدم في تحليل النصوص، يأخذ في الاعتبار السياقين السابق واللاحق لجزء محدّد من النص.",
+    "explanation_english": "In text analysis, a method that takes into account both preceding and succeeding contexts of a specific text segment."
+  },
+  {
+    "term_arabic": "استدلال مكاني-زماني",
+    "term_english": "Spatial-Temporal Reasoning",
+    "explanation_arabic": "مجال من مجالات الذكاء الاصطناعي يركز على الفهم والاستدلال بشأن الجوانب المكانية والزمانية بأسلوب مشابه للبشر.",
+    "explanation_english": "An AI domain focused on comprehending and reasoning about spatial and temporal aspects similar to human understanding."
+  },
+  {
+    "term_arabic": "تعلم عملية التعلم",
+    "term_english": "Metalearning",
+    "explanation_arabic": "مجموعة فرعية من تعلُّم الآلة تهدف إلى تحسين أو ابتكار خوارزميات التعلّم من خلال التعلم من البيانات المحدودة أو المهام السابقة. يُعرف أيضاً باسم “تعلّم كيفية التعلم”.",
+    "explanation_english": "A subset of machine learning that aims to refine or create learning algorithms by learning from limited data or prior tasks. Also known as “Learning to Learn.”"
+  },
+  {
+    "term_arabic": "خريطة الخصائص",
+    "term_english": "Feature Map",
+    "explanation_arabic": "نتيجة تطبيق عملية ترشيح على بيانات الإدخال باستخدام مرشح محدد، يُطلق عليها أيضاً “خريطة التنشيط”.",
+    "explanation_english": "The result of applying a convolution operation on input data using a specific filter, sometimes termed “Activation Map.”"
+  },
+  {
+    "term_arabic": "ضبط الإسقاط",
+    "term_english": "Dropout Regularization",
+    "explanation_arabic": "استراتيجية الحذف العشوائي لوحدات معينة في طبقة الشبكة أثناء تحديث مشتقة واحدة.",
+    "explanation_english": "A technique where random units in a network layer are omitted during a single gradient update."
+  },
+  {
+    "term_arabic": "إعادة تشغيل التجربة",
+    "term_english": "Experience Replay",
+    "explanation_arabic": "في التعلم المعزز، يوجد مخزن مؤقت للذاكرة، يخزن انتقالات الحالة ليتم استخدامها لاحقاً في تدريب النموذج.",
+    "explanation_english": "A memory buffer that stores state transitions for later model training in reinforcement learning."
+  },
+  {
+    "term_arabic": "طبقة تجميع",
+    "term_english": "Pooling Layer",
+    "explanation_arabic": "عملية تخفيض حجم المصفوفة التي أنشئت بواسطة طبقة ترشيحية.",
+    "explanation_english": "A process downsizing a matrix generated by a convolutional layer."
+  },
+  {
+    "term_arabic": "مُعامل",
+    "term_english": "Parameter",
+    "explanation_arabic": "متغير في نموذج يمكن تعديله بشكل متكرر أثناء التدريب.",
+    "explanation_english": "A model’s variable iteratively adjusted during training."
+  },
+  {
+    "term_arabic": "شبكة عصبية ترشيحية قابلة للفصل عمًقا",
+    "term_english": "Depthwise Seperable Convolutional Neural Network",
+    "explanation_arabic": "تصميم شبكة عصبية ترشيحية يحل فيها الترشيح القابل للفصل عمقاً محل عمليات الترشيح التقليدية.",
+    "explanation_english": "A convolutional neural network design where depthwise separable convolution replaces traditional convolution operations."
+  },
+  {
+    "term_arabic": "نموذج متعدد الصيغ",
+    "term_english": "Multimodal Learning",
+    "explanation_arabic": "نموذج مصمم للتعامل مع المدخلات أو المخرجات من مصادر أو صيغ متعددة.",
+    "explanation_english": "A model designed handling inputs or outputs from multiple sources or modalities."
+  },
+  {
+    "term_arabic": "تعلم الآلة المستمر",
+    "term_english": "Online Machine Learning",
+    "explanation_arabic": "مجموعة فرعية من تعلُّم الآلة يتعلّم فيها النموذج بشكل تسلسلي من البيانات الواردة باستمرار. تُعرف أيضاً باسم “التعلّم المستمر”.",
+    "explanation_english": "A machine learning subset where the model learns sequentially from continuously incoming data. Also known as “Continual Learning.”"
+  },
+  {
+    "term_arabic": "تعلم ذاتي التوجيه",
+    "term_english": "Self-Supervised Learning",
+    "explanation_arabic": "نوع من تعلُّم الآلة تستخدم فيه النماذج تسميات مستعارة منشأة ذاتياً في عملية توجيه البيانات غير المسماة.",
+    "explanation_english": "A machine learning type where models use self-generated pseudo-labels for supervision on unlabeled data."
+  },
+  {
+    "term_arabic": "برمجة بايزية",
+    "term_english": "Bayesian Programming",
+    "explanation_arabic": "نهج إحصائي لبناء نماذج احتمالية، ومعالجة المشكلات ذات المعلومات غير المكتملة.",
+    "explanation_english": "A statistical approach constructing probabilistic models and addressing problems with incomplete information."
+  },
+  {
+    "term_arabic": "استدلال",
+    "term_english": "Inference",
+    "explanation_arabic": "عملية تُعنى بعمل تنبؤات باستخدام نموذج مدرب على بيانات جديدة غير مسماة.",
+    "explanation_english": "The act making predictions using a trained model on new, unlabeled data."
+  },
+  {
+    "term_arabic": "نظام خبير",
+    "term_english": "Expert System",
+    "explanation_arabic": "نظام محوسب يحاكي قدرة الخبير البشري على اتخاذ القرارات في مجالات محددة باستخدام قاعدة معرفية.",
+    "explanation_english": "A computerized system emulating human expert decision-making in specific areas using a knowledge base."
+  },
+  {
+    "term_arabic": "التجزيء الكمي",
+    "term_english": "Quantization",
+    "explanation_arabic": "عملية خوارزمية تجمع البيانات في مجموعات باستخدام التجميع الكمي.",
+    "explanation_english": "An algorithmic process grouping data into quantile-based buckets."
+  },
+  {
+    "term_arabic": "تشذيب",
+    "term_english": "Pruning",
+    "explanation_arabic": "عملية تحسين النموذج أو الكود عن طريق إزالة المكونات غير الضرورية لتعزيز إمكانية الصيانة.",
+    "explanation_english": "The act refining a model or code by removing unnecessary components to enhance maintainability."
+  },
+  {
+    "term_arabic": "شبكة معرفية",
+    "term_english": "Knowledge Graph",
+    "explanation_arabic": "تمثيل منظم للكيانات وعلاقاتها المتبادلة، ويُطلق عليه أيضاً اسم “الشبكة الدلالية”.",
+    "explanation_english": "A structured representation of entities and their interrelationships, often termed a “Semantic Network.”"
+  },
+  {
+    "term_arabic": "تمثيل متناثر",
+    "term_english": "Sparse Representation",
+    "explanation_arabic": "تمثيل غالبية عناصره صفرية أو فارغة.",
+    "explanation_english": "A representation where the majority of elements zero or null."
+  },
+  {
+    "term_arabic": "خاصية كثيفة",
+    "term_english": "Dense Feature",
+    "explanation_arabic": "خاصية تكون معظم قيمها غير صفرية.",
+    "explanation_english": "A feature predominantly populated with non-zero values."
+  },
+  {
+    "term_arabic": "وحدة لغوية",
+    "term_english": "Token",
+    "explanation_arabic": "وحدة لغوية مميزة (على سبيل المثال، كلمة، جزء من كلمة، حرف) تستخدم لتدريب النموذج والتنبؤات.",
+    "explanation_english": "A distinct unit in language (e.g., word, subword, character) used for model training and predictions."
+  },
+  {
+    "term_arabic": "تقسيم النص",
+    "term_english": "Text Tokenization",
+    "explanation_arabic": "عملية تقسيم النص إلى وحدات أو رموز أصغر.",
+    "explanation_english": "The process segmenting text into smaller units or tokens."
+  },
+  {
+    "term_arabic": "ترميز الواحد النشط",
+    "term_english": "One-Hot Encoding",
+    "explanation_arabic": "تمثيل بيانات تكون فيه جميع عناصر المتجهات معيّنة على 0، باستثناء عنصر واحد يعيّن على 1.",
+    "explanation_english": "A data representation where vectors have all elements set to 0 except for one element set to 1."
+  },
+  {
+    "term_arabic": "سلسلة كلمات",
+    "term_english": "N-grams",
+    "explanation_arabic": "تسلسل متجاور للعناصر في نص معيّن.",
+    "explanation_english": "A contiguous sequence of N items from a given text."
+  },
+  {
+    "term_arabic": "صنف سلبي",
+    "term_english": "Negative Class",
+    "explanation_arabic": "في التصنيف الثنائي، هو الصنف الذي يمثّل النتيجة البديلة.",
+    "explanation_english": "In binary classification, the class representing the alternative outcome."
+  },
+  {
+    "term_arabic": "تجميع هرمي",
+    "term_english": "Hierarchical Clustering",
+    "explanation_arabic": "أسلوب تجميع مناسب للبيانات الهرمية، وينتج عنه شجرة من المجموعات.",
+    "explanation_english": "A clustering method suitable for hierarchical data, producing a tree of clusters."
+  },
+  {
+    "term_arabic": "نموذج تسلسلي",
+    "term_english": "Sequence Model",
+    "explanation_arabic": "نموذج مصمم للتعامل مع المدخلات التي تربطها علاقة زمنية أو متسلسلة.",
+    "explanation_english": "A model designed handling inputs with a temporal or sequential relationship."
+  },
+  {
+    "term_arabic": "نموذج الانتباه",
+    "term_english": "Attention Model",
+    "explanation_arabic": "أسلوب في الشبكة العصبية يمكّن الشبكة من التركيز على جوانب محددة من المدخلات المعقدة في كل مرة.",
+    "explanation_english": "A neural network technique allowing the network to concentrate on specific parts of complex input iteratively."
+  },
+  {
+    "term_arabic": "ثنائي الاتجاه",
+    "term_english": "Bidirectional",
+    "explanation_arabic": "أسلوب مستخدم في تحليل النصوص، يأخذ في الاعتبار السياقين السابق واللاحق لجزء محدّد من النص.",
+    "explanation_english": "In text analysis, a method considering both preceding and succeeding contexts of a specific text segment."
+  },
+  {
+    "term_arabic": "مشكلة تلاشي المشتقة",
+    "term_english": "Vanishing Gradient Problem",
+    "explanation_arabic": "السيناريو الذي تكون فيه الطبقات المخفية في البداية في الشبكات العصبية العميقة ذات مشتقات تميل نحو الصفر.",
+    "explanation_english": "A scenario where early hidden layers in deep neural networks have gradients that tend toward zero."
+  },
+  {
+    "term_arabic": "مشتقة",
+    "term_english": "Gradient",
+    "explanation_arabic": "متجه يشير إلى معدل تغير الدالة فيما يتعلق بمعاملاتها.",
+    "explanation_english": "A vector indicating the rate of change of a function concerning its parameters."
+  },
+  {
+    "term_arabic": "تجميع",
+    "term_english": "Clustering",
+    "explanation_arabic": "أسلوب في تعلّم الآلة غير الموجّه يجمع الأشياء المتشابهة. يُعرف أيضاً باسم “تحليل المجموعات”.",
+    "explanation_english": "An unsupervised machine learning technique for grouping similar objects. Also known as “Cluster Analysis.”"
+  },
+  {
+    "term_arabic": "حيلة النواة",
+    "term_english": "Kernel Trick",
+    "explanation_arabic": "طريقة تُستخدم لإسقاط البيانات غير الخطية على فضاء بأبعاد أعلى لتسهيل التصنيف.",
+    "explanation_english": "A method for projecting non-linear data into higher-dimensional space to enable easier classification."
+  },
+  {
+    "term_arabic": "دالة القاعدة الشعاعية",
+    "term_english": "Radial Basis Function (RBF)",
+    "explanation_arabic": "دالة تعتمد قيمها على المسافة من النقطة المركزية.",
+    "explanation_english": "A function whose values are dependent on the distance from a center point."
+  },
+  {
+    "term_arabic": "دالة النواة",
+    "term_english": "Kernel Function",
+    "explanation_arabic": "دالة لقياس التشابه بين مثالين، وإسقاط البيانات في فضاء ذي بُعد أعلى.",
+    "explanation_english": "A function that measures similarity between instances, projecting data into higher-dimensional space."
+  },
+  {
+    "term_arabic": "آلة المَّتجهات الداعمة باستخدام النواة",
+    "term_english": "Kernel Support Vector Machine (KSVM)",
+    "explanation_arabic": "خوارزمية تصنيف تستخدم دوال النواة لتعظيم الهامش بين الأصناف.",
+    "explanation_english": "A classification algorithm that employs kernel functions to maximize the margin between classes."
+  },
+  {
+    "term_arabic": "خسارة مفصلية",
+    "term_english": "Hinge Loss",
+    "explanation_arabic": "دالة خسارة للتصنيف تهدف إلى تعظيم الهامش بين أمثلة التدريب وحدود القرار.",
+    "explanation_english": "A loss function for classification that aims to maximize the margin between training instances and the decision boundary."
+  },
+  {
+    "term_arabic": "خصوصية تباينية",
+    "term_english": "Differentiale Privacy",
+    "explanation_arabic": "تعريف للخصوصية في تعلُّم الآلة يضمن خصوصية الأفراد عند جمع البيانات وتحليلها.",
+    "explanation_english": "A privacy definition in machine learning that ensures individual privacy when collecting and analyzing data."
+  },
+  {
+    "term_arabic": "شبكة عصبية كبسولية",
+    "term_english": "Capsule Neural Network",
+    "explanation_arabic": "شبكات عصبية تشتمل على كبسولات (مجموعات من الخلايا العصبية) تشير إلى معاملات إنشاء لكيان محدد.",
+    "explanation_english": "A neural network composed of capsules, which are sets of neurons representing specific entity parameters."
+  },
+  {
+    "term_arabic": "نموذج ديناميكي",
+    "term_english": "Dynamic Model",
+    "explanation_arabic": "نموذج يتم تدريبه عبر الإنترنت باستخدام البيانات الواردة بشكل مستمر.",
+    "explanation_english": "A model trained online with continuously incoming data."
+  },
+  {
+    "term_arabic": "ترجمة الآلة العصبية",
+    "term_english": "Neural Machine Translation",
+    "explanation_arabic": "تقنية ترجمة آلية تستخدم شبكات عصبية واسعة النطاق للتنبؤ بتسلسل الكلمات، وغالباً ما تترجم جملاً كاملة.",
+    "explanation_english": "A machine translation technique that utilizes extensive neural networks to predict word sequences, often translating entire sentences."
+  },
+  {
+    "term_arabic": "الذاكرة القصيرة المدى المطولة",
+    "term_english": "Long Short-Term Memory",
+    "explanation_arabic": "نوع من الشبكات العصبية التكرارية، قادر على معالجة تسلسل البيانات لكل من التوابع الطويلة والقصيرة.",
+    "explanation_english": "A variant of recurrent neural network adept at processing data sequences, taking into account both short and long-term dependencies."
+  },
+  {
+    "term_arabic": "وحدة معالجة الرسوميات",
+    "term_english": "Graphics Processing Unit (GPU)",
+    "explanation_arabic": "دائرة إلكترونية متخصصة مصممة للمعالجة المتوازية السريعة، وذلك لعرض الرسومات على شاشات العرض الإلكترونية.",
+    "explanation_english": "A specialized electronic circuit designed for rapid parallel processing, primarily used for rendering graphics on electronic displays."
+  },
+  {
+    "term_arabic": "شبكة عصبية ذات تغذية أمامية",
+    "term_english": "Feedforward Neural Network",
+    "explanation_arabic": "نوع من الشبكات العصبية الاصطناعية تتدفق فيها البيانات في اتجاه واحد من طبقة الإدخال إلى طبقة الإخراج، دون تكرارها.",
+    "explanation_english": "A type of artificial neural network where data flows unidirectionally from the input to the output layer, without looping back."
+  },
+  {
+    "term_arabic": "حيلة النواة",
+    "term_english": "Kernel Trick",
+    "explanation_arabic": "طريقة تُستخدم لإسقاط البيانات غير الخطية على فضاء بأبعاد أعلى لتسهيل التصنيف.",
+    "explanation_english": "A technique that transforms non-linear data into a higher-dimensional space, facilitating easier classification."
+  },
+  {
+    "term_arabic": "تحيز ضمني",
+    "term_english": "Implicit Bias",
+    "explanation_arabic": "ارتباط أو حكم غير واعٍ يستند إلى تجارب الفرد وذكرياته.",
+    "explanation_english": "An unconscious association or judgment based on one’s experiences and memories."
+  },
+  {
+    "term_arabic": "بوت محادثة موجه",
+    "term_english": "Flow-based Chatbot",
+    "explanation_arabic": "روبوت محادثة يتبع تدفق محادثات محدد مسبقاً، وغالباً ما يكون قائماً على قواعد أو كلمات رئيسية.",
+    "explanation_english": "A chatbot that adheres to a predetermined conversation flow, frequently guided by rules or keywords."
+  },
+  {
+    "term_arabic": "محول توليدي مسبق التدريب (جي بي تي)",
+    "term_english": "Generative Pre-trained Transformer (GPT)",
+    "explanation_arabic": "سلسلة من النماذج اللغوية التي تعتمد على المحولات واسعة النطاق، والمصممة لمختلف مهام معالجة اللغة الطبيعية.",
+    "explanation_english": "A series of large-scale transformer-based language models engineered for diverse natural language processing tasks."
+  },
+  {
+    "term_arabic": "شبكة عصبية بايزية",
+    "term_english": "Bayesian Neural Network",
+    "explanation_arabic": "شبكة عصبية تستخدم الاستدلال البايزي لتقدير حالات عدم اليقين في الأوزان والتنبؤات.",
+    "explanation_english": "A neural network that employs Bayesian inference to estimate uncertainties in both weights and predictions."
+  },
+  {
+    "term_arabic": "شبكة عصبية عميقة",
+    "term_english": "Deep Neural Network",
+    "explanation_arabic": "شبكة عصبية اصطناعية ذات طبقات متعددة بين المدخلات والمخرجات، مما يعزز قدرتها على تعلّم الأنماط المعقدة.",
+    "explanation_english": "An artificial neural network featuring multiple layers situated between input and output, thereby enhancing its capacity to acquire intricate patterns."
+  },
+  {
+    "term_arabic": "هجوم استنتاج العضوية",
+    "term_english": "Membership Inference Attack",
+    "explanation_arabic": "هجوم يهدف إلى التأكد مما إذا كانت عينة بيانات محددة قد ساهمت في تدريب نموذج تعلُّم الآلة.",
+    "explanation_english": "An assault with the objective of determining whether a specific data sample contributed to the training of a machine learning model."
+  },
+  {
+    "term_arabic": "استخراج العلاقة",
+    "term_english": "Relationship Extraction",
+    "explanation_arabic": "عملية تحديد وتصنيف العلاقات بين الكيانات داخل النص.",
+    "explanation_english": "The action of recognizing and classifying relationships between entities within a text."
+  },
+  {
+    "term_arabic": "تعلم منقول",
+    "term_english": "Transfer Learning",
+    "explanation_arabic": "استراتيجية في تعلُّم الآلة، تشمل تدريب النموذج على أداء مهمة ما، ومن ثم ضبطه لأداء مهمة مختلفة ولكنها ذات صلة بالمهمة الأولى.",
+    "explanation_english": "A machine learning approach where a model, subsequent to being trained for one task, is fine-tuned for another but related task."
+  },
+  {
+    "term_arabic": "تعلم تدريجي",
+    "term_english": "Incremental Learning",
+    "explanation_arabic": "أسلوب في تعلُّم الآلة تكون فيه عمليات التدريب والتعلّم مستمرة كلما توفرت عينات بيانات جديدة.",
+    "explanation_english": "A technique in machine learning where the training and learning processes are persistently conducted as new data samples become accessible."
+  },
+  {
+    "term_arabic": "تعلم عملية التعلم",
+    "term_english": "Metalearning",
+    "explanation_arabic": "مجال فرعي من تعلّم الآلة يركز على تحسين الخوارزميات من خلال التعلّم من البيانات المحدودة أو الاستفادة من رؤى المهام السابقة.",
+    "explanation_english": "A subdomain of machine learning that concentrates on refining algorithms through learning from restricted data or capitalizing on insights from previous tasks."
+  },
+  {
+    "term_arabic": "شبكة عصبية ترشيحية قابلة للفصل عمًقا",
+    "term_english": "Depthwise Separable Convolutional Neural Network",
+    "explanation_arabic": "تصميم شبكة عصبية ترشيحية يحل فيها الترشيح القابل للفصل عمقاً محل عمليات الترشيح التقليدية.",
+    "explanation_english": "A convolutional neural network design that employs depthwise separable convolutions as an alternative to conventional convolution operations."
+  },
+  {
+    "term_arabic": "اختبار تورينج",
+    "term_english": "Turing Test",
+    "explanation_arabic": "مقياس اقترحه آلان تورينج لتقييم قدرة الآلة على إظهار ذكاء شبيه بالذكاء البشري.",
+    "explanation_english": "A criterion introduced by Alan Turing for evaluating a machine’s ability to demonstrate human-like intelligence."
+  },
+  {
+    "term_arabic": "خصوصية تباينية",
+    "term_english": "Differential Privacy",
+    "explanation_arabic": "معيار خصوصية في تعلُّم الآلة يضمن أن تحليل البيانات لا يضر بخصوصية بيانات الأفراد.",
+    "explanation_english": "A privacy standard in machine learning that guarantees data analysis does not jeopardize individual data privacy."
+  },
+  {
+    "term_arabic": "انتباه ذاتي متعدد الرؤوس",
+    "term_english": "Multi-Head Self-Attention",
+    "explanation_arabic": "آلية تطبّق الانتباه الذاتي عدة مرات بشكل متزامن على مواضع مختلفة من سلسلة الإدخال.",
+    "explanation_english": "A mechanism that applies the self-attention procedure simultaneously at various positions in an input sequence."
+  },
+  {
+    "term_arabic": "تدريب ذاتي",
+    "term_english": "Self-Training",
+    "explanation_arabic": "نهج تعلّم شبه موجّه يستخدم فيه النموذج، بعد تدريبه على البيانات المسماة، توقعاته على البيانات غير المسماة لمواصلة تدريبه.",
+    "explanation_english": "A semi-supervised learning approach where a model, having been initially trained on labeled data, utilizes its predictions on unlabeled data to further its training."
+  },
+  {
+    "term_arabic": "نموذج متعدد الصيغ",
+    "term_english": "Multimodal Model",
+    "explanation_arabic": "نموذج مصمم لمعالجة أو إنتاج البيانات عبر طرق وصيغ متعددة.",
+    "explanation_english": "A model structured to handle or generate data across multiple modalities or formats."
+  },
+  {
+    "term_arabic": "الأنتروبيا التقاطعية",
+    "term_english": "Cross-Entropy",
+    "explanation_arabic": "مقياس يحدد الفرق بين توزيعين احتماليين، وهو شائع الاستخدام في مهام التصنيف.",
+    "explanation_english": "A metric that quantifies the distinction between two probability distributions, commonly employed in classification tasks."
+  },
+  {
+    "term_arabic": "تكييف المجال",
+    "term_english": "Domain Adaptation",
+    "explanation_arabic": "أسلوب في تعلّم الآلة يهدف إلى تكييف نموذج سبق تدريبه في مجال معيّن ليعمل في مجال مختلف ولكن له علاقة بالمجال الأول.",
+    "explanation_english": "A machine learning technique in which a model trained in one domain is adapted to operate in a different, yet related, domain."
+  },
+  {
+    "term_arabic": "بنية إدراكية",
+    "term_english": "Cognitive Architecture",
+    "explanation_arabic": "إطار نظري يحدد الهياكل والعمليات الأساسية لنظام معين يظهر سلوكاً ذكياً، سواء كان هذا النظام اصطناعياً أو بيولوجياً.",
+    "explanation_english": "A theoretical framework outlining the fundamental structures and processes of a system, whether artificial or biological, that demonstrates intelligent behavior."
+  },
+  {
+    "term_arabic": "تعلم متحد",
+    "term_english": "Federated Learning",
+    "explanation_arabic": "نهج في تعلّم الآلة الموزّع يدرّب النماذج عبر أجهزة متعددة باستخدام البيانات محلياً، مما يضمن خصوصية البيانات.",
+    "explanation_english": "A distributed machine learning approach in which models are trained across multiple devices using local data, ensuring data privacy."
+  },
+  {
+    "term_arabic": "تجميع بوتستراب",
+    "term_english": "Bootstrap Aggregating",
+    "explanation_arabic": "طريقة تعلّم تجميعي تعمل على تحسين الاستقرار والدقة من خلال تدريب نماذج متعددة على مجموعات فرعية عشوائية من البيانات.",
+    "explanation_english": "A machine learning ensemble method that enhances stability and accuracy by training multiple models on random subsets of the data."
+  },
+  {
+    "term_arabic": "تحيز ضمني",
+    "term_english": "Implicit Bias",
+    "explanation_arabic": "نوع من التحيز تنشأ فيه الأحكام أو الافتراضات من ذكريات وتجارب العقل الباطن للفرد.",
+    "explanation_english": "A form of bias where judgments or assumptions arise from an individual’s subconscious memories and experiences."
+  },
+  {
+    "term_arabic": "استدلال مكاني-زماني",
+    "term_english": "Spatial-Temporal Reasoning",
+    "explanation_arabic": "مجال من مجالات الذكاء الاصطناعي يركز على الفهم والاستدلال بشأن الجوانب المكانية والزمانية بأسلوب مشابه للبشر.",
+    "explanation_english": "An AI domain focused on understanding and reasoning about both spatial and temporal aspects in a manner similar to human cognition."
+  },
+  {
+    "term_arabic": "حوسبة عصبية",
+    "term_english": "Neuromorphic Computing",
+    "explanation_arabic": "طريقة حاسوبية مستوحاة من بنية الدماغ البشري ووظيفته، تهدف إلى تحسين كفاءة وسرعة الحواسيب.",
+    "explanation_english": "A computational approach inspired by the human brain’s structure and function, aiming for improved efficiency and computational speed."
+  },
+  {
+    "term_arabic": "تحليل الخوارزميات",
+    "term_english": "Analysis of Algorithms",
+    "explanation_arabic": "دراسة أداء الخوارزميات وتعقيدها، لتحديد مدى ملاءمتها لتطبيقات محددة.",
+    "explanation_english": "The study of algorithm performance and complexity, determining their suitability for specific applications."
+  },
+  {
+    "term_arabic": "إطار الحجج",
+    "term_english": "Argumentation Framework",
+    "explanation_arabic": "رسم بياني منظم تمثّل العقد الموجودة فيه الحجج، وتشير فيه الحواف إلى التعارضات أو العلاقات بين هذه الحجج.",
+    "explanation_english": "A structured graph where nodes represent arguments and edges signify conflicts or relationships between these arguments."
+  },
+  {
+    "term_arabic": "ذكاء اصطناعي عام",
+    "term_english": "Artificial General Intelligence",
+    "explanation_arabic": "نوع من أنواع الذكاء الاصطناعي يمكنه أداء أي مهمة فكرية يستطيع الإنسان القيام بها، بما في ذلك القدرة على التكيّف وحل المشكلات والإبداع.",
+    "explanation_english": "A form of artificial intelligence that can perform any intellectual task that a human can, encompassing adaptability, problem-solving, and creativity."
+  },
+  {
+    "term_arabic": "لغة ترميز الذكاء الاصطناعي",
+    "term_english": "Artificial Intelligence Markup Language (AIML)",
+    "explanation_arabic": "لغة مبنية على لغة الترميز الموسعة (XML) مصممة لإنشاء تطبيقات معالجة اللغات الطبيعية.",
+    "explanation_english": "An XML-based language designed for crafting natural language processing applications."
+  },
+  {
+    "term_arabic": "استدلال مؤتمت",
+    "term_english": "Automated Reasoning",
+    "explanation_arabic": "طريقة منهجية تزوّد خوارزميات تعلُّم الآلة بإطار منظم لتعريف المشكلة وحلها.",
+    "explanation_english": "A systematic approach that equips machine learning algorithms with a structured framework for problem definition and resolution."
+  },
+  {
+    "term_arabic": "حوسبة ذاتية",
+    "term_english": "Autonomic Computing",
+    "explanation_arabic": "قدرة النظام على إدارة موارده بشكل مستقل دون تدخل بشري.",
+    "explanation_english": "A system’s capability to autonomously manage its resources without human intervention."
+  },
+  {
+    "term_arabic": "تسلسل عكسي",
+    "term_english": "Backward Chaining",
+    "explanation_arabic": "أسلوب تفكير منطقي يبدأ من الهدف ويعود إلى تحديد البيانات أو الأدلة الداعمة له.",
+    "explanation_english": "A logical reasoning method that starts from a goal and traces back to identify the data or evidence supporting it."
+  },
+  {
+    "term_arabic": "بيانات ضخمة",
+    "term_english": "Big Data",
+    "explanation_arabic": "مجموعات بيانات ضخمة تتميّز بحجمها وتنوعها وسرعتها، مما يستلزم تقنيات قابلة للتوسع من أجل إدارتها وتحليلها بفعالية.",
+    "explanation_english": "Vast datasets characterized by their volume, variety, velocity, and variability, necessitating scalable technologies for effective management and analysis."
+  },
+  {
+    "term_arabic": "تحليلات البيانات الضخمة",
+    "term_english": "Big Data Analytics",
+    "explanation_arabic": "ممارسة تحليل مجموعات البيانات الكبيرة والشاملة للكشف عن الرؤى والأنماط والاتجاهات التي سيتم الاسترشاد بها في عملية صنع القرار.",
+    "explanation_english": "The practice of analyzing extensive datasets to uncover insights, patterns, and trends to inform decision-making."
+  },
+  {
+    "term_arabic": "استدلال بديهي",
+    "term_english": "Commonsense Reasoning",
+    "explanation_arabic": "مجال من مجالات الذكاء الاصطناعي يركز على تمكين الآلات من وضع افتراضات حول المواقف اليومية بطريقة تشبه الحدس البشري.",
+    "explanation_english": "An AI domain focused on enabling machines to make assumptions about everyday situations in a manner akin to human intuition."
+  },
+  {
+    "term_arabic": "ذكاء حوسبي",
+    "term_english": "Computational Intelligence (CI)",
+    "explanation_arabic": "مجال يستمد الإلهام من المبادئ البيولوجية واللغوية لتطوير المنهجيات الحاسوبية، بما في ذلك الشبكات العصبية والأنظمة الضبابية.",
+    "explanation_english": "A field drawing inspiration from biological and linguistic principles to develop computational methodologies, including neural networks and fuzzy systems."
+  },
+  {
+    "term_arabic": "البيانات المظلمة",
+    "term_english": "Dark Data",
+    "explanation_arabic": "البيانات التي تجمعها المؤسسات أثناء العمليات العادية، ولكنها لا تُستخدم بشكل نشط في التحليلات أو لأغراض أخرى.",
+    "explanation_english": "The Data accumulated by organizations during regular operations but not actively used for analytics or other purposes."
+  },
+  {
+    "term_arabic": "تكامل البيانات",
+    "term_english": "Data Integration",
+    "explanation_arabic": "عملية دمج البيانات من مصادر مختلفة في قاعدة بيانات متماسكة وموحدة.",
+    "explanation_english": "The process of amalgamating data from various sources into a cohesive, unified perspective."
+  },
+  {
+    "term_arabic": "نمذجة البيانات",
+    "term_english": "Data Modelling",
+    "explanation_arabic": "عملية إنشاء تمثيل مفاهيمي للبيانات، وتحديد علاقاتها، من أجل تخزينها في قواعد البيانات.",
+    "explanation_english": "The action of constructing a conceptual portrayal of data, delineating their interconnections for inclusion in databases."
+  },
+  {
+    "term_arabic": "تزييف عميق",
+    "term_english": "deepfake",
+    "explanation_arabic": "وسائط اصطناعية يُستبدل فيها الشخص في صورة أو فيديو أو مقطع صوتي بشخص آخر باستخدام خوارزميات متقدمة.",
+    "explanation_english": "The synthetic media in which the likeness of an individual in an image, video, or audio is substituted with that of another person utilizing sophisticated algorithms."
+  },
+  {
+    "term_arabic": "تحسين سرب الدودة المضيئة",
+    "term_english": "Glowworm Swarm Optimization",
+    "explanation_arabic": "أسلوب في ذكاء السرب مستوحى من سلوك الديدان المضيئة، يُستخدم لتحسين الدالة متعدّدة الصيغ.",
+    "explanation_english": "A swarm intelligence method motivated by the conduct of glowworms, employed for the optimization of multimodal functions."
+  },
+  {
+    "term_arabic": "تحليلات في قاعدة البيانات",
+    "term_english": "In-Database Analytics",
+    "explanation_arabic": "نموذج تحليلي تُدمج فيه معالجة البيانات بسلاسة داخل قاعدة البيانات نفسها.",
+    "explanation_english": "An analytical model in which the processing of data is harmoniously integrated within the database."
+  }
+]

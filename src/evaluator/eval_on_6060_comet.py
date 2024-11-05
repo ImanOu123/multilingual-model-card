@@ -83,13 +83,15 @@ class COMET:
         model_output = self.model.predict(data, batch_size=batch_size, gpus=gpus)
         return model_output
 
-# default model:
+# default model: Unbabel/wmt22-comet-da
 # python3 eval_on_6060_comet.py
 # python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_comet.json
+# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_gpt4omini.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_gpt4omini_comet.json
 
 # reference-free model: Unbabel/wmt23-cometkiwi-da-xl
 # python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
 # python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
+# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_gpt4omini.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_gpt4omini_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
 
 # explanable comet model: Unbabel/XCOMET-XL
 # python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_xcomet_xl.json --model_id Unbabel/XCOMET-XL

@@ -1,6 +1,6 @@
 # llama3 70b instruct
 # CUDA_VISIBLE_DEVICES=0,1,2,3 bash run_llama3_70b.sh > logs/stdout_llama3_70b.txt 2> logs/stderr_llama3_70b.txt
-MODEL_DIR="/compute/babel-1-31/jiaruil5/.cache/models--meta-llama--Meta-Llama-3-70B-Instruct/snapshots/7129260dd854a80eb10ace5f61c20324b472b31c/"
+MODEL_DIR="/data/models/huggingface/meta-llama/Meta-Llama-3-70B-Instruct/"
 test -d "$MODEL_DIR"
 python -O -u -m vllm.entrypoints.openai.api_server \
     --port=9570 \

@@ -1,0 +1,5046 @@
+,word,validated_translation
+0,10-fold cross validation,التحقق المتقاطع بعشر طيات
+1,1D convolution,الالتفاف أحادي البُعد
+2,2 norm,النورم 2
+3,2D convolution,الالتفاف ثنائي الأبعاد
+4,2D image,صورة ثنائية الأبعاد
+5,2D image synthesis,توليد الصور ثنائية الأبعاد
+6,2D-3D correspondence,المراسلات ثنائية وثلاثية الأبعاد
+7,3D bounding box,الصندوق المحيط ثلاثي الأبعاد
+8,3D computer vision,الرؤية الحاسوبية ثلاثية الأبعاد
+9,3D convolutional network,شبكة التلافيف ثلاثية الأبعاد
+10,3D geometry,الهندسة ثلاثية الأبعاد
+11,3D human pose estimation,تقدير وضعية الإنسان ثلاثية الأبعاد
+12,3D localization,توطين ثلاثي الأبعاد
+13,3D mesh,شبكة ثلاثية الأبعاد
+14,3D model,نموذج ثلاثي الأبعاد
+15,3D object detection,كشف الأجسام ثلاثية الأبعاد
+16,3D point,نقطة ثلاثية الأبعاد
+17,3D point cloud,سحابة نقاط ثلاثية الأبعاد
+18,3D pose,وضع ثلاثي الأبعاد
+19,3D reconstruction,إعادة بناء ثلاثية الأبعاد
+20,3D scene,مشهد ثلاثي الأبعاد
+21,3D scene geometry,هندسة المشهد ثلاثي الأبعاد
+22,3D structure,الهيكل ثلاثي الأبعاد
+23,5-fold cross validation,التحقق المتقاطع بخمس طيات
+24,A * algorithm,خوارزمية A*
+25,A/B test,اختبار A/B
+26,A2C,A2C
+27,AI,الذكاء الاصطناعي
+28,AI ethics,أخلاقيات الذكاء الاصطناعي
+29,API,واجهة برمجة التطبيقات
+30,AQA,AQA
+31,ARENA,أرينا
+32,Ablation study,دراسة الاستئصال
+35,Adafactor,أدافاكتور
+36,Adam,آدم
+37,Adam algorithm,خوارزمية آدم
+38,Adam optimiser,مُحسِّن آدم
+39,Adam optimization,تحسين آدم
+40,Adam optimization algorithm,خوارزمية تحسين آدم
+41,Adam optimizer,خوارزمية آدم
+42,Adapter,المحول
+43,Additionally,بالإضافة إلى ذلك
+45,AmbigQA,أمبج كيو إيه
+46,Answer Set Programming,برمجة مجموعات الإجابات
+47,Apriori,أبريوري
+48,Apriori algorithm,خوارزمية أبريوري
+49,Arcade Learning Environment,بيئة تعلم الأركيد
+50,Architectures,الهياكل
+54,Autonomous Systems,الأنظمة الذاتية
+55,Average Pool,التجميع المتوسط
+56,Average Precision,الدقة المتوسطة
+57,Azuma-Hoeffding inequality,متباينة أزوما-هوفدينج
+58,B-spline,بي-سبلاين
+59,BART,بارت
+60,BERT,بيرت
+61,BERTs,نماذج BERT
+62,BETO,بيتو
+63,BIO,ترميز BIO
+64,BLEU,مقياس بليو
+65,BPE,ترميز BPE
+66,BSARD,بي إس إيه آر دي
+67,Backbone,العمود الفقري
+1004,Backpropagation,انتشار عكسي
+69,Basis Pursuit,السعي وراء الأساس
+70,Baum-Welch algorithm,خوارزمية باوم-ويلش
+71,Bayes,بايز
+72,Bayes classifier,مصنف بايز
+73,Bayes factor,عامل بايز
+74,Bayes formula,صيغة بايز
+75,Bayes net,شبكة بايز
+76,Bayes optimal classifier,المصنف الأمثل لبايز
+77,Bayes risk,مخاطر بايزي
+78,Bayes risk decoding,فك تشفير مخاطرة بايز الدنيا
+79,Bayes rule,قاعدة بايز
+80,Bayes theorem,نظرية بايز
+81,Bayes-Nash equilibrium,توازن بايز-ناش
+82,Bayesian Information Criterion,معيار بايزين للمعلومات
+83,Bayesian active learning,التعلم النشط البايزي
+84,Bayesian analysis,التحليل البايزي
+85,Bayesian approach,النهج البايزي
+86,Bayesian clustering,التجميع البايزي
+87,Bayesian decision,قرار بايزي
+88,Bayesian deep learning,التعلم العميق البايزي
+89,Bayesian evidence,الدليل البيزي
+90,Bayesian framework,الإطار البايزي
+91,Bayesian game,اللعبة البايزية
+92,Bayesian inference,الاستدلال البايزي
+93,Bayesian learning,التعلم البايزي
+94,Bayesian method,الطريقة البايزية
+95,Bayesian model,النموذج البايزي
+96,Bayesian network,شبكة بايزية
+97,Bayesian neural network,شبكة عصبية بايزية
+98,Bayesian optimization,التحسين البايزي
+99,Bayesian perspective,المنظور البايزي
+100,Bayesian probabilistic model,نموذج احتمالي بيزي
+101,Bayesian programming,برمجة بايزية
+102,Bayesian update,التحديث البايزي
+105,Bellman,بيلمان
+106,Bellman backup,النسخ الاحتياطي لبيلمان
+107,Bellman equation,معادلة بيلمان
+108,Bellman error,خطأ بيلمان
+109,Bellman operator,مشغل بيلمان
+110,Berkeley parser,محلل بيركلي
+111,Berkeley segmentation dataset,مجموعة بيانات تقسيم بيركلي
+112,Bernoulli,برنولي
+113,Bernoulli distribution,توزيع برنولي
+114,Bernoulli likelihood,احتمالية برنولي
+115,Bernoulli random variable,متغير برنولي العشوائي
+116,Bernoulli sampling,أخذ العينات برنولي
+117,Bernoulli trial,تجربة برنولي
+118,Bernoulli variable,متغير برنولي
+119,Bernstein's inequality,متباينة برنشتاين
+121,Bethe approximation,تقريب بيث
+122,Bhattacharyya coefficient,معامل بهاتشاريا
+124,Bloom filter,مرشح بلوم
+125,Boltzmann distribution,توزيع بولتزمان
+126,Boltzmann exploration,استكشاف بولتزمان
+127,Bonferroni correction,تصحيح بونفيروني
+128,Boolean formula,صيغة بوليانية
+129,Boolean function,دالة بوليانية
+130,Boolean variable,متغير بولياني
+131,Borda scores,درجات بورد
+132,Bradley-Terry Model,نموذج برادلي-تيري
+133,Branch and Bound,التفرع والتقيد
+134,Bregman divergence,تباعد بريغمان
+135,Bregman's method,طريقة بريغمان
+136,Bundle adjustment,تعديل الحزمة
+137,Byte-Pair Encoding,ترميز زوج البايتات
+138,CAS,CAS
+139,CDA,CDA
+140,CEAS,CEAS
+141,CLIP,CLIP
+142,CLS,CLS
+143,CONLL,تنسيق كونل
+144,CRF,نموذج الحقول العشوائية المشروطة
+145,Caltech-101,مجموعة بيانات كالتك-101
+146,CamemBERT,كاميمبيرت
+147,Canny detector,كاشف كاني
+148,Canny edge detector,كاشف حواف كاني
+150,Chamfer Distance,مسافة شامفر
+151,Charniak parser,محلل تشارنيك
+152,Chebyshev acceleration,تسريع تشيبيشيف
+153,Chebyshev polynomial,كثيرات الحدود تشيبيشيف
+154,Chernoff bound,حد تشيرنوف
+155,Cholesky decomposition,تحليل شولي
+156,Cholesky factor,عامل شولي
+157,Cholesky factorization,تحليل شولي
+158,Chomsky normal form,الشكل العادي لشومسكي
+159,Chu-Liu-Edmonds algorithm,خوارزمية تشو-ليو-إدموندز
+160,Chung-Lu model,نموذج تشونغ-لو
+162,CodeBERT,كودبيرت
+163,Cohen's kappa,كابا كوهين
+164,Cohen's kappa coefficient,معامل كابا لكوهين
+165,Cohen's κ,كابا لكوهين
+166,Combinatory Categorial Grammar,قواعد النحو التصنيفي التوليفي
+1298,Commonsense Reasoning,استدلال بديهي
+168,Compressed sensing,الاستشعار المضغوط
+169,Computational linguistic,اللسانيات الحاسوبية
+170,Condition 1,الشرط 1
+171,Conditional Generation,التوليد الشرطي
+173,Condorcet winner,الفائز وفقًا لمعيار كوندورسيه
+174,Contrastive Learning,التعلم التبايني
+176,Coreference Resolution,حل الإحالة المرجعية
+177,Coreset,مجموعة النواة
+178,Corpora,مجموعات بيانات
+182,Cosine distance,مسافة جيب التمام
+183,Counterfactual Regret Minimization,تقليل الندم المضاد للوقائع
+185,Cross Entropy Loss,خسارة الانتروبيا المتقاطعة
+186,Datalog,داتالوج
+187,Datalog program,برنامج داتالوغ
+188,Dataset,مجموعة بيانات
+190,Decentralized optimization,التحسين اللامركزي
+191,Decision Transformer,محول القرار
+193,Decomposable Attention,الانتباه القابل للتفكيك
+194,Decomposable Attention Model,نموذج الانتباه القابل للتفكيك
+196,Demographic Parity,التكافؤ الديموغرافي
+198,Detecting,الكشف
+199,Detectron,ديتكترون
+200,Determinantal Point process,عملية النقاط الحتمية
+201,Dialogue,الحوار
+202,Dialogue State Tracking,تتبع حالة الحوار
+203,Dice coefficient,معامل دايس
+204,Dice loss,خسارة دايس
+205,Dijkstra's algorithm,خوارزمية ديكسترا
+206,Dirac distribution,توزيع ديراك
+207,Dirac measure,مقياس ديراك
+208,Dirichlet,ديريشليه
+209,Dirichlet Process,عملية ديريشليه
+210,Dirichlet distribution,توزيع ديريشليه
+211,Dirichlet prior,توزيع سابق لديريشليت
+214,Disentanglement,فصل
+216,Dropout distribution,توزيع الإسقاط
+218,E-step,خطوة E
+219,Elastic Net,الشبكة المرنة
+220,Electra,إلكترا
+223,English,الإنجليزية
+224,Entity Linking,ربط الكيانات
+226,Epanechnikov kernel,نواة إيبانيتشنيكوف
+227,Euclidean,إقليدي
+228,Euclidean distance,المسافة الإقليدية
+229,Euclidean divergence,تباعد إقليدي
+230,Euclidean loss,خسارة إقليدية
+231,Euclidean norm,المعيار الإقليدي
+232,Euclidean plane,المستوى الإقليدي
+233,Euclidean projection,الإسقاط الإقليدي
+234,Euclidean space,الفضاء الإقليدي
+235,Euclidean transformation,التحويل الإقليدي
+236,Euler angle,زاوية أويلر
+237,Euler step,خطوة أويلر
+238,Exact Match,التطابق التام
+242,Extended Kalman Filter,مرشح كالمان الممتد
+243,F-measure,مقياس F
+244,F-score,مقياس إف
+245,F1 measure,مقياس F1
+246,F1 metric,مقياس F1
+247,F1 score,درجة F1
+248,FLR,تقليل زمن التأخير النهائي (FLR
+249,Fairseq,Fairseq
+250,Fano's inequality,متباينة فانو
+251,Fast Fourier Transform,تحويل فورييه السريع
+252,FeSTE,FeSTE
+253,Feature Pyramid Network,شبكة هرم الميزات
+2117,Federated Learning,تعلم متحد
+254,Fisher information matrix,مصفوفة معلومات فيشر
+255,Fisher score,درجة فيشر
+256,Fleiss' kappa,كاپا فلييس
+257,Floyd-Warshall algorithm,خوارزمية فلويد-وارشال
+258,Focal Loss,الخسارة البؤرية
+259,Fokker-Planck equation,معادلة فوكر-بلانك
+260,For,على سبيل المثال
+262,Fourier basis function,دالة أساس فورييه
+263,Fourier coefficient,معامل فورييه
+264,Fourier feature,ميزة فورييه
+265,Fourier frequency,تردد فورييه
+261,Fourier transform,تحويل فورييه
+266,French,فرنسي
+268,Frobenius inner product,جداء فروبنيوس الداخلي
+267,Frobenius norm,معيار فروبينيوس
+269,Fréchet,فريشيت
+270,Furthermore,علاوة على ذلك
+271,GLUE,GLUE
+272,GPT,نموذج GPT
+274,Gamma prior,توزيع غاما المسبق
+275,Gauss-Newton algorithm,خوارزمية غاوس-نيوتن
+276,Gauss-Seidel method,طريقة غاوس-سايدل
+279,Gaussian blur,ضبابية غاوسية
+280,Gaussian complexity,التعقيد الغاوسي
+281,Gaussian component,المكون الغاوسي
+282,Gaussian conditional random field,حقل عشوائي شرطي غاوسي
+283,Gaussian density,كثافة غاوسية
+284,Gaussian distribution,التوزيع الغاوسي
+285,Gaussian elimination,الحذف الجاوسي
+286,Gaussian filter,فلتر غاوسي
+287,Gaussian function,دالة غاوسية
+288,Gaussian initialization,تهيئة غاوسية
+289,Gaussian kernel,نواة غاوسية
+290,Gaussian likelihood,الاحتمالية الجاوسية
+291,Gaussian matrix,مصفوفة غاوسية
+292,Gaussian mixture,مزيج غاوسي
+277,Gaussian mixture model,نموذج المزيج الغاوسي
+293,Gaussian model,نموذج غاوسي
+294,Gaussian noise,الضوضاء الغاوسية
+295,Gaussian prior,التوزيع الأولي الغاوسي
+278,Gaussian process,العملية الغاوسية
+296,Gaussian process model,نموذج العملية الغاوسية
+297,Gaussian process regression,انحدار العملية الغاوسية
+298,Gaussian random variable,متغير عشوائي غاوسي
+299,Gaussian smoothing,التنعيم الغاوسي
+300,Gaussian variable,المتغير الغاوسي
+301,Gaussian weight,وزن غاوسي
+302,Gene Ontology,أنطولوجيا الجينات
+307,Gensim,جينسيم
+309,Gibbs iteration,تكرار غيبس
+310,Gibbs sampler,جيبس ​​أخذ العينات
+308,Gibbs sampling,أخذ عينات جيبس
+311,Gini coefficient,معامل جيني
+312,Good-Turing estimate,تقدير جود-تيرينغ
+313,GoogLeNet,جوجل نت
+314,Gram matrix,مصفوفة جرام
+317,Graph Transformer,محول الرسم البياني
+320,Gröbner basis,أساس غروبنر
+321,Gumbel,غومبل
+322,Gumbel distribution,توزيع غومبل
+323,Gumbel noise,ضوضاء غومبل
+324,Gumbel-softmax distribution,توزيع غومبل-سوفتماكس
+325,Haar wavelet,موجة هار
+326,Hadamard matrix,مصفوفة هادامارد
+327,Hadamard product,جداء هادامارد
+328,Hamiltonian Monte Carlo,هاملتونيان مونت كارلو
+329,Hamming distance,مسافة هامينغ
+330,Hamming loss,خسارة هامينغ
+331,Hankel matrix,مصفوفة هانكل
+332,Hausdorff distance,مسافة هاوسدورف
+333,Hedge algorithm,خوارزمية هيدج
+334,Hellinger distance,مسافة هيلينجر
+335,Helmholtz machine,آلة هيلمهولتز
+336,Hence,وبالتالي
+337,Hessian matrix,مصفوفة هيسيان
+338,Hessian-vector product,حاصل ضرب هسيان-متجه
+340,Hiero system,نظام هيرو
+341,Hodge decomposition,تحليل هودج
+342,Hoeffding's inequality,متباينة هوفدينغ
+343,Homography,الهوموغرافيا
+344,Horn theory,نظرية هورن
+345,HowTo100M,HowTo100M
+346,Huber loss,خسارة هوبر
+347,Huber norm,معيار هوبر
+348,Hungarian loss,خسارة هنغارية
+349,Hyper-parameter,المعلمات الفائقة
+350,Hyperband,هايبر باند
+351,Hyperparameter search,بحث المعلمات الفائقة
+352,ICLR,مؤتمر ICLR
+353,IDF,التردد العكسي في المستندات
+355,In-context Learning,التعلم في السياق
+356,Inception network,شبكة إنسيبشن
+357,Independent Cascade,الكاسكيد المستقل
+358,Independent Cascade Model,نموذج الكاسكيد المستقل
+360,Influence Maximization,تعظيم التأثير
+361,Information Extraction,استخراج المعلومات
+363,Informer model,نموذج إنفورمر
+365,Inside-Outside algorithm,خوارزمية الداخل-الخارج
+366,Instance Normalization,تطبيع المثيل
+368,Ising model,نموذج إيسينغ
+369,Iverson bracket,قوس إيفرسون
+370,Jaccard,جاكارد
+371,Jaccard index,مؤشر جاكارد
+372,Jaccard similarity,تشابه جاكارد
+373,Jaccard similarity coefficient,معامل تشابه جاكارد
+374,Jacobian matrix,مصفوفة جاكوب
+375,Jensen's inequality,متباينة جنسن
+376,Jensen-Shannon,جينسن-شانون
+377,Jensen-Shannon divergence,تباعد جنسن-شانون
+378,K-L divergence,تباعد كولباك-ليبلر
+380,K-means,تجميع بالمتوسط
+381,K-means algorithm,خوارزمية K-المتوسطات
+379,K-means clustering,تجميع K-Means
+382,Kalman filter,مرشح كالمان
+383,Kendall's τ,"""معامل كيندال"" (Kendall coefficient)"
+384,Keras,كيراس
+385,Kernel,نواة
+386,KinyaBERT,كينيا بيرت
+387,Kleene closure,الإغلاق كلين
+388,Kneser-Ney smoothing,تنعيم كنيزر-ني
+391,Kolmogorov-Smirnov test,اختبار كولموغوروف-سميرنوف
+392,Krippendorff's α,ألفا كريبندورف
+393,Kronecker delta,دلتا كرونكر
+394,Kronecker product,جداء كرونيكر
+395,Kullback Leibler divergence,تباعد كولباك-ليبلر
+396,L 1 -norm,المعيار 𝐿 1
+397,L 1 distance,مسافة L1
+398,L 2 -norm,المعيار 𝐿 2 L 2 ​
+399,L 2 distance,مسافة L2
+400,L 2 loss,خسارة L2
+401,L 2 regularization,تنظيم L2
+402,L ∞ norm,معيار L∞
+403,L1 bound,حد L1
+404,L1 difference,فرق L1
+405,L1 loss,خسارة L1
+406,L1 penalty,عقوبة L1
+407,L1 regularization,تنظيم L1
+408,L1 term,مصطلح L1
+409,L2 error,خطأ L2
+410,L2 regularisation,تنظيم L2
+411,L2 regularizer,منظم L2
+412,L2 weight decay,اضمحلال الوزن L2
+413,L2-normalization,تطبيع L2
+414,LXMert,LXMert
+415,Lagrange multiplier,مضاعف لاغرانج
+416,Lagrangian duality,الازدواجية اللاغرانجية
+417,Lagrangian multiplier,مضاعف لاجرانج
+418,Lagrangian relaxation,الاسترخاء اللاغرانجي
+419,Lambertian reflectance,الانعكاس اللامبرتي
+420,Lanczos iteration,تكرار لانكزوس
+421,Langevin dynamic,ديناميكا لانجفين
+423,Language Modeling Toolkit,مجموعة أدوات نمذجة اللغة
+424,Laplace approximation,تقريب لابلاس
+425,Laplace distribution,توزيع لابلاس
+426,Laplace noise,ضوضاء لابلاس
+427,Laplace smoothing,تنعيم لابلاس
+428,Laplace-Beltrami operator,مشغل لابلاس-بيلترامي
+429,Laplacian distribution,توزيع لابلاس
+430,Laplacian matrix,مصفوفة لابلاس
+431,Laplacian smoothing,تنعيم لابلاس
+432,Lasso,لاسو
+433,Lasso penalty,عقوبة لاسو
+437,Lemma,ليمّا
+438,Levenberg-Marquardt algorithm,خوارزمية ليفنبرغ-ماركاردت
+439,Levenshtein distance,مسافة ليفنشتاين
+440,Levenshtein edit distance,مسافة تحرير ليفينشتاين
+441,Lexical Functional Grammar,قواعد اللغة الوظيفية المعجمية
+442,Libratus,ليبراتوس
+443,Lie algebra,جبر لاي
+445,Likert scale,مقياس ليكرت
+446,LinCE,لينس
+447,Linear Threshold,العتبة الخطية
+448,Linear Threshold Model,نموذج العتبة الخطية
+449,Linear Transformer,المحول الخطي
+450,Linformer,لينفورمر
+451,Lipschitz,ليبشيتز
+452,Lipschitz constant,ثابت ليبشيتز
+453,Lipschitz continuity,استمرارية ليبشيتز
+454,Lipschitz continuous,مستمر ليبشيتز
+455,Lipschitz function,دالة ليبشيتز
+456,Lipschitzness,خاصية ليبشيتز
+457,Local Consistency,التناسق المحلي
+458,Log Gaussian Cox Process,عملية كوكس لوغاريتمية غاوسية
+459,Longformer,لونغفورمر
+460,Lucene,لوسين
+461,Lyapunov function,دالة ليابونوف
+462,M-estimation,تقدير M
+463,M-step,خطوة M
+464,MAWPS,MAWPS
+465,MTDNN,MTDNN
+466,Machine Comprehension,فهم الآلة
+467,Machine Learning Repository,مستودع تعلم الآلة
+468,Machine Reading Comprehension,فهم القراءة الآلي
+470,Mahalanobis distance,مسافة ماهالانوبس
+471,Mahalanobis distance function,دالة مسافة ماهالانوبس
+472,Mahalanobis matrix,مصفوفة ماهالانوبس
+473,Mahalanobis metric,مقياس ماهالانوبس
+474,Manhattan distance,مسافة مانهاتن
+475,Marching Cubes,مكعبات مارشينغ
+476,Markov,ماركوف
+481,Markov assumption,افتراض ماركوف
+482,Markov blanket,غلاف ماركوف
+477,Markov chain,سلسلة ماركوف
+478,Markov chain Monte Carlo,سلسلة ماركوف مونت كارلو
+483,Markov chain model,نموذج سلسلة ماركوف
+479,Markov decision process,عملية قرار ماركوف
+484,Markov decision processes,عملية قرار ماركوف
+485,Markov game,لعبة ماركوف
+486,Markov kernel,نواة ماركوف
+487,Markov logic,منطق ماركوف
+488,Markov logic network,شبكة ماركوف المنطقية
+489,Markov model,نموذج ماركوف
+490,Markov network,شبكة ماركوف
+491,Markov process,عملية ماركوف
+492,Markov property,خاصية ماركوف
+480,Markov random field,حقل ماركوف العشوائي
+493,Markov state,حالة ماركوف
+494,Markov transition,انتقال ماركوف
+495,Markov transition matrix,مصفوفة انتقال ماركوف
+496,Markov's inequality,متباينة ماركوف
+497,MatConvNet,MatConvNet
+498,Matching Network,شبكة المطابقة
+499,MathQA,MathQA
+501,Matrix factorization,تحليل المصفوفة
+502,Matérn kernel,نواة ماتيرن
+504,Maximum Satisfiability,أقصى إشباع
+505,Mechanical Turk,ميكانيكال تورك
+507,Metropolis Hastings,ميتروبوليس هاستينغز
+508,Metropolis algorithm,خوارزمية ميتروبوليس
+509,Metropolis method,طريقة متروبوليس
+510,Metropolis-Hasting,خوارزمية متروبوليس-هاستينغز
+511,Metropolis-Hastings acceptance ratio,نسبة قبول متروبوليس-هاستينغز
+512,Metropolis-Hastings algorithm,خوارزمية ميتروبوليس-هاستينغز
+513,Metropolis-Hastings sampler,مولد متروبوليس-هاستينغز
+514,Mixup,خلط البيانات
+516,Modeling,النمذجة
+517,Monotonicity,رتابية
+518,Monte Carlo,مونت كارلو
+519,Monte Carlo Dropout,مونت كارلو دروب آوت
+520,Monte Carlo algorithm,خوارزمية مونت كارلو
+521,Monte Carlo approximation,تقريب مونت كارلو
+522,Monte Carlo estimate,تقدير مونت كارلو
+523,Monte Carlo estimation,تقدير مونت كارلو
+524,Monte Carlo estimator,مقدر مونت كارلو
+525,Monte Carlo method,طريقة مونت كارلو
+526,Monte Carlo sample,عينة مونت كارلو
+527,Monte Carlo search,بحث مونت كارلو
+528,Monte Carlo simulation,محاكاة مونت كارلو
+529,Monte Carlo tree search,البحث الشجري باستخدام مونت كارلو
+530,Monte-Carlo return,عائد مونت كارلو
+531,Moore-Penrose pseudo-inverse,المعكوس الزائف لمور-بينروز
+532,Moreover,علاوة على ذلك
+533,Morfessor,مورفيسور
+534,Morphology,علم الصرف
+536,Multi-Task Learning,التعلم متعدد المهام
+537,Multidimensional Quality metric,مقياس الجودة متعدد الأبعاد
+538,Multidimensional Scaling,التحجيم متعدد الأبعاد
+539,Multiple Choice,اختيار من متعدد
+542,NLI,استنتاج اللغة الطبيعية
+543,NLP,معالجة اللغة الطبيعية
+544,Nadaraya-Watson estimator,مقدّر نادارايا-واتسون
+548,Nash equilibria,توازن ناش
+549,Nash welfare,رفاهية ناش
+551,Natural Language Inference,استدلال اللغة الطبيعية
+552,Natural Language Understanding,فهم اللغة الطبيعية
+553,Natural question,الأسئلة الطبيعية
+554,Naïve Bayes,بايز الساذج
+556,Nesterov momentum,زخم نيستروف
+557,Neural Information Processing Systems,أنظمة معالجة المعلومات العصبية
+559,Neural Radiance field,مجال الإشعاع العصبي
+560,Neural volume,الحجم العصبي
+561,Newton method,طريقة نيوتن
+562,Newton's method,طريقة نيوتن
+563,Nom-Bank,بنك الأسماء
+564,Non-maximum suppression,قمع غير الأقصى
+566,Nucleus Sampling,أخذ العينات باستخدام النواة
+567,Nyström approximation,تقريب نايستروم
+568,OOV,خارج المفردات
+569,Object Localization,توطين الكائن
+571,Open Information Extraction,استخراج المعلومات المفتوحة
+572,Optimization Problem,مشكلة التحسين
+573,Ornstein-Uhlenbeck,أورنشتاين-أولنبيك
+574,PaLM,بالم
+575,Pareto dominated,مهيمن عليه باريتو
+576,Pareto frontier,حدود باريتو
+577,Pareto optimal,الأمثل من حيث باريتو
+578,Pareto optimality,الأمثلية باريتو
+579,Pareto-efficient,كفء باريتو
+580,Partially Observable Markov Decision Process,عملية اتخاذ قرار ماركوف يمكن ملاحظتها جزئيًا
+581,Parzen window,نافذة بارزين
+582,Pearson correlation,معامل ارتباط بيرسون
+583,Pearson correlation coefficient,معامل ارتباط بيرسون
+584,Pearson's correlation,ارتباط بيرسون
+585,Pearson's correlation coefficient,معامل ارتباط بيرسون
+586,Pearson's r,معامل الارتباط لبيرسون
+587,Pearson's r correlation,معامل ارتباط بيرسون
+588,Penn English Treebank,شجرة بن الإنجليزية
+589,Penn Treebank corpus,مجموعة بيانات شجرة بن
+591,Perron-Frobenius theorem,نظرية بيرون-فروبينيوس
+592,Pinsker's inequality,متباينة بينسكر
+593,Pitman-Yor Process,عملية بيتمان-يور
+594,Platt scaling,تحجيم بلات
+595,Pointwise Mutual Information,المعلومات المتبادلة على مستوى النقطة
+596,Poisson distribution,توزيع بواسون
+597,Poisson matting,تأطير بواسون
+598,Poisson model,نموذج بواسون
+599,Poisson point process,عملية نقطة بواسون
+600,Poisson process,عملية بواسون
+601,Poisson random variable,متغير بواسون العشوائي
+602,Poisson rate,معدل بواسون
+603,Poisson regression,انحدار بواسون
+604,Poisson sampling,أخذ العينات بواسون
+605,Potts model,نموذج بوتس
+606,Prop-Bank,بروب-بانك
+607,Proposition,المسلمة
+608,Proximal Policy Optimization,تحسين السياسة القريب
+609,PubMed,بوبمد
+610,Py-Torch,باي تورش
+611,Q function,دالة Q
+612,Q value,قيمة Q
+613,Q-learning,تعلم Q
+614,Q-network,شبكة Q
+615,QA,الأسئلة والأجوبة
+616,QED,QED
+617,QUOREF,QUOREF
+618,Quality Estimation,تقدير الجودة
+619,Query expansion,توسيع الاستعلام
+620,Question Answering,الإجابة على الأسئلة
+621,R-Precision,دقة R
+622,REALM,REALM
+623,RGF,RGF
+624,RNSum,RNSum
+625,ROC curve,منحنى دّقة الأداء
+626,ROUGE,ROUGE
+627,Rademacher average,متوسط راديماشر
+628,Rademacher complexity,تعقيد راديماشر
+629,Radon-Nikodym derivative,مشتق رادون-نيكوديم
+630,Random Forest classifier,مصنف الغابة العشوائية
+632,Rao-Blackwellization,راو بلاكويليزيشن
+633,Reading Comprehension,فهم القراءة
+634,Receiver Operating Characteristic Curve,منحنى خصائص التشغيل المستقبِل
+635,Recognizing Textual Entailment,التعرف على الدلالة النصية
+637,Recurrent layer,الطبقة المتكررة
+638,Reformer,المُصلِح
+640,Regressor,المُنحدِر
+642,ResNeXt,ريزنيكست
+643,Retrieval-Augmented Generation,التوليد المعزز بالاسترجاع
+645,Rhetorical Structure Theory,نظرية البنية البلاغية
+647,Riemannian geometry,الهندسة الريمانية
+648,Riemannian gradient,التدرج الريماني
+649,Riemannian manifold,مشعب ريماني
+650,Robertson-Webb model,نموذج روبرتسون-ويب
+651,Routing Transformer,المحول الموجه
+652,Runge-Kutta,رونج-كوتا
+653,Runge-Kutta method,طريقة رونج-كوتا
+654,Rényi entropy,انتروبيا ريني
+655,S node,عقدة S
+656,S-expression,تعبير S
+657,SMCalFlow,SMCalFlow
+658,SUTD,SUTD
+659,SVAMP,SVAMP
+660,Schur complement,متمم شُور
+661,Scikit-learn,سايكيت-ليرن
+4167,Self-supervised learning,تعلم ذاتي التوجيه
+662,Semantic,دلالي
+663,Semantic Scholar,الباحث الدلالي
+4212,Semantic Web,ويب دلالي
+664,Sentence-Piece,جملة-قطعة
+665,Seq2Seq,التسلسل إلى التسلسل
+667,Set Cover,تغطية المجموعة
+668,Shannon entropy,إنتروبيا شانون
+669,Sherman-Morrison formula,صيغة شيرمان-موريسون
+670,Sherman-Morrison-Woodbury formula,صيغة شيرمان-موريسون-وودبري
+671,Siamese architecture,العمارة السيامية
+672,Siamese network,الشبكة السيامية
+674,Similar,مشابه
+676,Sinkhorn algorithm,خوارزمية سينكهورن
+677,Softmax layer,طبقة سوفتماكس
+679,Sparse Transformer,المحوّل المتناثر
+680,Sparse reconstruction,إعادة بناء متفرقة
+681,Sparsemax,سبارسماكس
+682,Spearman correlation,معامل ارتباط سبيرمان
+683,Spearman rank correlation,ارتباط رتبة سبيرمان
+684,Spearman's correlation,معامل ارتباط سبيرمان
+685,Spearman's correlation coefficient,معامل ارتباط سبيرمان
+686,Spearman's rank correlation coefficient,معامل ارتباط رتبة سبيرمان
+687,Squared Exponential kernel,نواة الأسية المربعة
+688,Stanford Parser,محلل ستانفورد
+689,Stanford Question Answering Dataset,مجموعة بيانات ستانفورد للإجابة على الأسئلة
+690,Stanford Sentiment Treebank,مجموعة بيانات ستانفورد لتحليل المشاعر
+691,Stanford dependency,تبعيات ستانفورد
+692,Stanford dependency framework,إطار عمل تبعية ستانفورد
+693,Stanford dependency parser,محلل التبعيات في ستانفورد
+694,State-of-the-art,الأحدث
+695,Statistical Machine Translation,الترجمة الآلية الإحصائية
+697,Story Cloze Test,اختبار إكمال القصة
+698,Structure from motion,الهيكل من الحركة
+699,Subgraph,الرسم البياني الفرعي
+700,Submodularity,التفرعية
+701,Swin-S,سوين-S
+702,T5 model,نموذج T5
+703,T5-11B,T5-11B
+704,T5-11B model,نموذج T5-11B
+705,T5-Large,T5-Large
+706,T5-base,T5-base
+707,T5-base model,نموذج T5-base
+708,T5-large model,نموذج T5-large
+709,Tanh,تانH
+710,Taylor approximation,تقريب تايلور
+711,TensorFlow,تينسرفلو
+712,Text Classification,تصنيف النصوص
+713,Text Summarization,تلخيص النصوص
+714,Text-to-Text Transfer Transformer,محول نقل النص إلى النص
+715,Theano,ثيانو
+716,Therefore,لذلك
+717,Toeplitz matrix,مصفوفة توبليتز
+718,Topic Detection and Tracking,كشف وتتبع الموضوعات
+719,Transformer architecture,معمارية المحول
+720,Transformer block,كتلة المحولات
+721,Transformer decoder,جهاز فك ترميز المحولات
+722,Transformer encoder,جهاز ترميز المحولات
+724,Transformer-based language model,نموذج اللغة القائم على المحولات
+725,Transformer-based model,نموذج قائم على المحولات
+726,Transformer-like,شبيه بالمحولات
+727,Traveling Salesman Problem,مشكلة البائع المتجول
+728,TreeDST,شجرةDST
+730,Triggering Model,نموذج التحفيز
+731,Tucker decomposition,تحليل توكر
+732,Turing machine,آلة تورينج
+733,Turing reduction,اختزال تورينغ
+734,Turing test,اختبار تورينج
+735,U-statistic,إحصائية U
+737,Universal dependency,التبعية العالمية
+738,Upper Confidence Bound,الحد الأعلى للثقة
+739,VALSE,فالس
+740,VFL,دوري فيكتوريا لكرة القدم
+741,Vandermonde matrix,مصفوفة فانديرموندي
+743,Vertex Cover,تغطية الرؤوس
+744,ViLBERT,فيلبرت
+745,Vision Transformer,محول الرؤية
+746,Visual Question Answering,الإجابة على الأسئلة البصرية
+747,VisualBERT,فيجوال بيرت
+748,Viterbi,فيتربي
+749,Viterbi algorithm,خوارزمية فيتربي
+750,Viterbi decoding,فك تشفير فيتربي
+751,Wasserstein distance,مسافة فاسرشتاين
+752,Weibull,ويبول
+753,Weisfeiler-Lehman test,اختبار وايزفيلر-ليهمان
+754,Wiener process,عملية فينر
+755,Wikipedia,ويكيبيديا
+756,Wilcoxon signed-rank test,اختبار ويلكوكسون ذو الرتبة الموقعة
+757,Winograd Schema,مخطط وينوجراد
+758,Winograd Schema Challenge,تحدي مخطط وينوجراد
+759,Winogrande,وينوغراند
+760,Woodbury matrix identity,هوية مصفوفة وودبري
+761,Word Mover's Distance,مسافة مُحرك الكلمات
+762,Word2Vec,Word2Vec
+764,XLM,إكس إل إم
+765,XLNet,إكس إل نت
+766,Z-score,درجة Z
+767,Zipf,زيبف
+768,Zipf distribution,توزيع زيـبف
+769,Zipf's law,قانون زيبف
+770,abductive explanation,الشرح الاستدلالي
+771,ablation,دراسة الاجتثاث
+772,ablation analysis,تحليل الاجتثاث
+773,ablation experiment,تجربة الإزالة
+774,abstraction,التجريد
+775,abstraction heuristic,ارشادي التجريد
+776,abstractive summarization,التلخيص التجريدي
+777,accelerated gradient descent,الانحدار التدرجي المتسارع
+778,acceptance function,دالة القبول
+779,acceptance probability,احتمالية القبول
+780,accumulated error,الخطأ المتراكم
+33,accuracy,الدقة
+781,achieves,يحقق
+782,acoustic feature,الميزة الصوتية
+783,acoustic model,النموذج الصوتي
+784,acquisition function,دالة الاستحواذ
+785,action classification,تصنيف الأفعال
+786,action embedding,تمثيل الأفعال
+787,action recognition,التعرف على الأفعال
+788,action sequence,تسلسل الأفعال
+789,action set,مجموعة الأفعال
+790,action space,فضاء الإجراءات
+791,action-value function,دالة قيمة الفعل
+792,actionability,قابلية التنفيذ
+793,activation,تنشيط
+794,activation function,دالة تنشيط
+795,activation matrix,مصفوفة التنشيط
+796,activation vector,متجه التنشيط
+34,active learning,التعلم النشط
+797,active learning loop,حلقة التعلم النشط
+798,active set,المجموعة النشطة
+799,activity detection,كشف النشاط
+800,activity recognition,التعرف على النشاط
+801,actor,الممثل
+802,actor critic algorithm,خوارزمية الممثل-الناقد
+803,actor network,شبكة الوكيل
+804,actor-critic framework,إطار الفاعل والناقد
+805,actor-critic method,طريقة الممثل-الناقد
+806,adapter-based fine-tuning,الضبط الدقيق المعتمد على المحول
+807,adaptive boosting algorithm,خوارزمية التعزيز التكيفي
+808,adaptive thresholding,العتبة التكيفية
+809,additive Gaussian noise,الضوضاء الجاوسية الإضافية
+810,additive noise,الضوضاء المضافة
+811,adjacency,المجاورة
+812,adjacency matrix,مصفوفة التجاور
+813,advantage function,دالة الميزة
+814,advcl,جملة ظرفية
+815,adversarial,خصمي
+816,adversarial attack,هجوم معادٍ
+817,adversarial dataset,مجموعة بيانات خصمية
+818,adversarial example,مثال خصومي
+819,adversarial filtering,التصفية الخصمية
+820,adversarial input,المدخلات العدائية
+821,adversarial learning,التعلم العدائي
+822,adversarial loss,الخسارة العدائية
+823,adversarial machine training,تعلم الآلة العدائي
+824,adversarial network,الشبكة العدائية
+825,adversarial perturbation,اضطراب عدائي
+826,adversarial prompt,موجه عدائي
+827,adversarial robustness,الصلابة تجاه الهجمات العدائية
+828,adversarial training,التدريب الخصمي
+829,adversary,الخصم
+830,advmod,معدل ظرفي
+831,affine,تحويل أفيني
+832,affine subspace,الفضاء الجزئي التآلفي
+833,affine transform,تحويل أفيني
+834,affine transformation,التحويل الأفيني
+835,affinity matrix,مصفوفة التآلف
+836,affinity measure,مقياس التآلف
+837,agent architecture,بنية الوكيل
+838,agent learning,تعلم الوكيل
+839,agent policy,سياسة الوكيل
+840,agent's policy,سياسة الوكيل
+841,agent-based model,نموذج قائم على الوكلاء
+842,aggregate function,دالة تجميع
+843,aggregation,تجميع
+844,aggregation function,دالة التجميع
+845,aleatoric uncertainty,عدم اليقين العشوائي
+44,algorithm,خوارزمية
+847,algorithm class,فئة الخوارزميات
+848,algorithm design,تصميم الخوارزميات
+849,algorithmic approach,النهج الخوارزمي
+850,algorithmic bias,التحيز الخوارزمي
+851,algorithmic fairness,العدالة الخوارزمية
+852,algorithmic stability,الاستقرار الخوارزمي
+853,algorithms,الخوارزميات
+854,alias table,جدول الأسماء المستعارة
+855,alignment algorithm,خوارزمية المحاذاة
+856,alignment model,نموذج المحاذاة
+857,alpha compositing,التركيب الألفا
+858,alphabet size,حجم الأبجدية
+859,alternating least square,أقل المربعات المتناوبة
+860,alternating minimization,التقليل بالتناوب
+861,ambient space,الفضاء المحيط
+862,analysis,تحليل
+863,analysis of algorithms,تحليل الخوارزميات
+864,anaphora resolution,حل الإحالة
+865,anaphoric reference,الإشارة الإحالية
+866,ancestral sampling,أخذ العينات الأجدادية
+867,anchor,مرساة
+868,anchor box,صندوق المرساة
+869,annotated,مُعَلَّم
+870,annotated corpus,مجموعة بيانات مُعَلَّمَة
+871,annotated datum,بيانات مُعَلَّمَة
+872,annotation,التعليق
+873,annotation artifact,عيب التوسيم
+874,annotation projection,إسقاط التوسيم
+875,annotations,التعليقات التوضيحية
+876,annotator,المُعَلِّق
+877,annotator bias,تحيز المُعَلِّق
+878,annotators,المُعَلِّقون
+879,anomaly detection,اكتشاف الشذوذ
+880,anomaly score,درجة الشذوذ
+881,answer,إجابة
+882,answer set,مجموعة الإجابات
+883,answer set solver,حلّال مجموعة الإجابات
+884,answer span,نطاق الإجابة
+885,answer variable,متغير الإجابة
+886,antecedent,الشرط المسبق
+887,antithetic sampling,أخذ العينات المضادة
+888,anytime algorithm,خوارزمية في أي وقت
+889,aperture problem,مشكلة الفتحة
+890,appearance model,نموذج المظهر
+891,apprenticeship learning,تعلم التلمذة
+892,approach,نهج
+893,approximate inference,استدلال تقريبي
+894,approximate inference algorithm,خوارزمية الاستدلال التقريبي
+895,approximate posterior,التوزيع اللاحق التقريبي
+896,approximate posterior distribution,التوزيع اللاحق التقريبي
+897,approximate similarity search,بحث التشابه التقريبي
+898,approximation,تقريب
+899,approximation algorithm,خوارزمية التقريب
+900,approximation bound,حد التقريب
+901,approximation error,خطأ التقريب
+902,approximation factor,عامل التقريب
+903,approximation guarantee,ضمان التقريب
+904,approximation ratio,نسبة التقريب
+905,approximator,المقرب
+906,arc-factored model,نموذج معتمد على القوس
+907,architectural modification,تعديل هيكلي
+908,architecture,بنية
+909,architecture search,بحث في البنية
+910,area under the ROC curve,المساحة تحت منحنى دّقة الأداء
+911,arg max,أرج ماكس
+912,arg min,الحد الأدنى للوسيطة
+913,argument,حجة
+914,argument identification,تحديد الحجة
+915,argument relation,علاقة الحجة
+916,argument structure,بنية المعامل
+917,argumentation framework,إطار الحجج
+918,arity,"""عدد المتغيرات"" (Number of variables)"
+919,artificial agent,الوكيل الاصطناعي
+920,artificial general intelligence,ذكاء اصطناعي عام
+921,artificial intelligence,ذكاء اصطناعي
+922,artificial intelligence markup language,لغة ترميز الذكاء الاصطناعي
+923,artificial intelligence system,نظام الذكاء الاصطناعي
+924,artificial neural network,شبكة عصبية اصطناعية
+925,aspect,جانب
+926,assessing,تقييم
+927,assignment problem,مشكلة التخصيص
+928,association rule,قاعدة الارتباط
+929,association rule mining,استخراج قواعد الارتباط
+930,asymmetric transformation,التحويل غير المتماثل
+931,asymptotic bias,التحيز المقارب
+932,asymptotic notation,تدوين مقارب
+933,asymptotic variance,التباين المقارب
+934,attack success rate,معدل نجاح الهجوم
+51,attention,الانتباه
+936,attention distribution,توزيع الانتباه
+937,attention function,دالة الانتباه
+938,attention head,رأس الانتباه
+939,attention layer,طبقة الانتباه
+940,attention map,خريطة الانتباه
+941,attention mask,قناع الانتباه
+942,attention matrix,مصفوفة الانتباه
+943,attention mechanism,آلية الانتباه
+944,attention model,نموذج الانتباه
+945,attention module,وحدة الانتباه
+946,attention operation,عملية الانتباه
+947,attention pattern,نمط الانتباه
+948,attention score,درجة الانتباه
+949,attention value,قيمة الانتباه
+950,attention weight,وزن الانتباه
+951,attention-based model,نموذج قائم على الانتباه
+952,attribute,خاصية
+953,attribution,الإسناد
+954,augmentation,زيادة البيانات
+955,augmented,مُعزز
+956,augmented state space,فضاء الحالة المُعزز
+957,auto-regressive language model,نموذج اللغة ذاتي الانحدار
+958,auto-regressive model,نموذج الانحدار التلقائي
+959,auto-regressive process,نموذج الانحدار التلقائي
+960,autocalibration,المعايرة الذاتية
+961,autocorrelation,الارتباط الذاتي
+962,autodiff,التفاضل التلقائي
+52,autoencoder,المشفِّر التلقائي
+963,autoencoders,مُرِّمز تلقائي
+964,automata,الآلات
+965,automated mechanism design,تصميم الآليات المؤتمتة
+966,automated reasoning,استدلال مؤتمت
+967,automatic,تلقائي
+968,automatic differentiation,التفاضل التلقائي
+969,automatic evaluation,التقييم التلقائي
+970,automatic post-editing,التحرير اللاحق التلقائي
+53,automatic speech recognition,التعرف التلقائي على الكلام
+971,automatically,تلقائيًا
+972,automorphism,التشاكل الذاتي
+973,autonomic computing,حوسبة ذاتية
+974,autonomous agent,وكيل مستقل
+975,autonomous vehicle,مركبة ذاتية القيادة
+976,autoregressive decoder,فك الترميز الانحداري الذاتي
+977,autoregressive generation,التوليد ذاتي الانحدار
+978,auxiliary classifier,المصنف المساعد
+979,auxiliary loss,الخسارة المساعدة
+980,auxiliary task,المهمة المساعدة
+981,auxiliary variable,المتغير المساعد
+982,auxillary loss,الخسارة المساعدة
+983,average loss,الخسارة المتوسطة
+984,averaged perceptron,البيرسبترون المتوسط
+985,averaged perceptron algorithm,خوارزمية البرسيبترون المتوسط
+986,axis-aligned rectangle,مستطيل محاذٍ للمحاور
+987,back-off strategy,استراتيجية التراجع
+988,back-propagate,الانتشار العكسي
+989,back-propagated gradient,تدرج الانتشار العكسي
+990,back-propagation algorithm,خوارزمية الانتشار العكسي
+991,back-translation,الترجمة العكسية
+992,backbone model,نموذج العمود الفقري
+993,backbone network,شبكة العمود الفقري
+994,backdoor,ثغرة خلفية
+995,backdoor adjustment,تعديل الثغرة الخلفية
+996,backdoor attack,هجوم الثغرة الخلفية
+997,backdoor sample,عينة الثغرة الخلفية
+998,background model,نموذج الخلفية
+999,background subtraction,طرح الخلفية
+1000,backoff model,نموذج التراجع
+1001,backpointer,المؤشر الخلفي
+1002,backprojection,الإسقاط الخلفي
+1003,backprop,الانتشار العكسي
+1005,backtracking line search,البحث الخطي التراجعي
+1006,backward chaining,تسلسل عكسي
+1007,backward pass,المرور العكسي
+1008,bag of feature,حقيبة الميزات
+1009,bag-of-word,حقيبة الكلمات
+1010,bag-of-word model,نموذج حقيبة الكلمات
+1011,bag-of-word representation,تمثيل حقيبة الكلمات
+1012,bandit,الباندت
+1013,bandit feedback,تغذية البانديت الراجعة
+1014,bandit learning,تعلم المقامر
+1015,bandwidth parameter,معامل عرض النطاق
+1016,bart-base,بارت-بيس
+1017,bart-large,بارت-كبير
+1018,barycentric coordinate,إحداثيات باري مركزية
+1019,base classifier,مصنف أساسي
+1020,base distribution,التوزيع الأساسي
+1021,base learner,المتعلم الأساسي
+1022,base model,النموذج الأساسي
+68,baseline,الأساس
+1023,baseline algorithm,الخوارزمية الأساسية
+1024,baseline method,الطريقة الأساسية
+1025,baseline model,النموذج الأساسي
+1026,baseline parser,محلل الأساس
+1027,baseline policy,سياسة الأساس
+1028,baseline system,النظام الأساسي
+1029,baselines,خطوط الأساس
+1030,basis function,دالة الأساس
+1031,basis vector,متجه الأساس
+1032,batch algorithm,خوارزمية دفعة
+1033,batch dimension,البعد الدفعي
+1034,batch element,عنصر الدفعة
+1035,batch learning,التعلم الدفعي
+1036,batch mode,وضع الدفعات
+1037,batch normalization,تسوية الحزمة
+1038,batch optimization,تحسين الدفعات
+1039,batch processing,معالجة الدفعات
+1040,batch setting,إعداد الدفعات
+1041,batch training,التدريب على دفعات كبيرة
+103,beam search,بحث شعاع
+1042,beam search algorithm,خوارزمية البحث الشعاعي
+1043,beam search decoding,فك تشفير بحث الشعاع
+1044,beam search decoding algorithm,خوارزمية فك تشفير بحث الشعاع
+1045,beam size,حجم الشعاع
+1046,beam width,عرض الشعاع
+1047,behavior cloning,استنساخ السلوك
+1048,behavior policy,سياسة السلوك
+104,belief propagation,انتشار المعتقدات
+1049,belief state,حالة الاعتقاد
+1050,benchmark,معيار
+1051,benchmark dataset,مجموعة بيانات مرجعية
+1052,benchmark task,مهمة مرجعية
+1053,best-first search,بحث الأفضل أولاً
+1054,best-first search algorithm,خوارزمية البحث الأفضل أولاً
+120,beta distribution,توزيع بيتا
+1055,beta1,بيتا1
+1056,between-class variance,التباين بين الفئات
+1057,betweenness,البينية
+1058,bi-gram,ثنائي-الجرام
+1059,bi-level optimization,تحسين ثنائي المستوى
+1060,bias,التحيز
+1061,bias mitigation,تخفيف التحيز
+1062,bias parameter,معامل التحيز
+1063,bias term,مصطلح التحيز
+1064,bias vector,متجه التحيز
+1065,bias-variance tradeoff,موازنة التحُّيز-التباين
+1066,biased estimator,مُقدِّر مُتحيِّز
+1067,biases,التحيزات
+1068,bibliographic coupling,الاقتران الببليوغرافي
+1069,bicubic interpolation,الاستيفاء الثنائي التكعيبي
+1070,bidirectional,ثنائي الاتجاه
+1071,bidirectional Transformer,محول ثنائي الاتجاه
+1072,bidirectional encoder,مشفر ثنائي الاتجاه
+1073,bidirectional encoder representations from transformers,تمثيلات الترميز الثنائية الاتجاه من المحولات 
+1074,bidirectional heuristic search,البحث الهيوريستيكي ثنائي الاتجاه
+1075,bidirectional model,نموذج ثنائي الاتجاه
+1076,bidirectional search,البحث الثنائي الاتجاه
+1077,bidirectionality,ثنائية الاتجاه
+1078,big data,بيانات ضخمة
+1079,big data analytics,تحليلات البيانات الضخمة
+1080,big-O notation,تدوين O الكبير
+1081,bigram count,عدد الثنائيات
+1082,bigram language model,نموذج لغة بيجرام
+1083,bijective function,دالة تباينية
+1084,bijective mapping,تعيين تقابلي
+1085,bilateral filtering,الترشيح الثنائي
+1086,bilinear,ثنائي الخطية
+1087,bilinear form,شكل ثنائي الخطية
+1088,bilinear interpolation,الاستيفاء الثنائي الخطي
+1089,bilinear model,نموذج ثنائي الخط
+1090,bilingual model,النموذج ثنائي اللغة
+1091,binarization,تحويل إلى ثنائي
+1092,binary,ثنائي
+1093,binary atom,ذرة ثنائية
+1094,binary classification,تصنيف ثنائي
+1095,binary classification head,رأس التصنيف الثنائي
+1096,binary classification problem,مشكلة التصنيف الثنائي
+1097,binary classification task,مهمة التصنيف الثنائي
+1098,binary classifier,مصنف ثنائي
+1099,binary constraint,قيد ثنائي
+1100,binary cross entropy,الإنتروبيا المتقاطعة الثنائية
+1101,binary cross-entropy loss,خسارة الانتروبيا الثنائية المتصالبة
+1102,binary decision tree,شجرة القرار الثنائية
+1103,binary feature,السمة الثنائية
+1104,binary label,تسمية ثنائية
+1105,binary matrix,مصفوفة ثنائية
+1106,binary predicate,المسند الثنائي
+1107,binary relation,علاقة ثنائية
+1108,binary search,البحث الثنائي
+1109,binary segmentation,التقسيم الثنائي
+1110,binary tree,شجرة ثنائية
+1111,binary variable,متغير ثنائي
+1112,binary vector,متجه ثنائي
+123,binomial distribution,توزيع ثنائي الحدين
+1113,bioinformatic,المعلوماتية الحيوية
+1114,biological neural network,الشبكة العصبية البيولوجية
+1115,bipartite,ثنائي الطرف
+1116,bipartite graph,رسم بياني ثنائي التقسيم
+1117,bipartite matching,المطابقة الثنائية
+1118,bipartite structure,الهيكل الثنائي
+1119,birth-death process,عملية الولادة-الموت
+1120,bisection method,طريقة التقسيم
+1121,bisimulation,المحاكاة الثنائية
+1122,bitext,النص الثنائي اللغة
+1123,bitvector,متجه البتات
+1124,black-box,الصندوق الأسود
+1125,black-box model,نموذج الصندوق الأسود
+1126,block coordinate descent,نزول إحداثيات الكتلة
+1127,block matrix,مصفوفة الكتل
+1128,block-diagonal matrix,مصفوفة قطريّة كتلية
+1129,blur kernel,نواة التمويه
+1130,boosting,تعزيز
+1131,boosting algorithm,خوارزمية التعزيز
+1132,boosting approach,نهج التعزيز
+1133,bootstrap aggregating,تجميع بوتستراب
+1134,bootstrap learning,تعلم التمهيد
+1135,bootstrap resampling,إعادة أخذ العينات باستخدام طريقة البوتستراب
+1136,bootstrap sample,عينة بوتستراب
+1137,bottleneck,عنق الزجاجة
+1138,bottleneck layer,طبقة عنق الزجاجة
+1139,bottom-up,من الأسفل إلى الأعلى
+1140,bottom-up learning,التعلم من الأسفل إلى الأعلى
+1141,bottom-up module,الوحدة التصاعدية
+1142,bottom-up parsing,التحليل النحوي التصاعدي
+1143,bound variable,المتغير المقيد
+1144,bounded rationality,العقلانية المحدودة
+1145,bounding box,مربع الإحاطة
+1146,bounding box detection,اكتشاف مربع الإحاطة
+1147,bounding box regression,انحدار صندوق الإحاطة
+1148,bounding box regressor,مُقدِّر صندوق الإحاطة
+1149,branch and bound algorithm,خوارزمية التفرع والتقييد
+1150,branching factor,عامل التفرع
+1151,breadth-first order,ترتيب البحث بالعرض
+1152,breadth-first search,البحث أولاً بالعرض
+1153,brute force search,البحث بالقوة الغاشمة
+1154,burn-in,مرحلة الإحماء
+1155,calculus of variation,حساب التغيرات
+1156,calibration,معايرة
+1157,calibration method,طريقة المعايرة
+1158,camera calibration,معايرة الكاميرا
+1159,camera intrinsic,الخصائص الداخلية للكاميرا
+1160,camera matrix,مصفوفة الكاميرا
+1161,camera parameter,معامل الكاميرا
+1162,camera pose estimation,تقدير وضع الكاميرا
+1163,candidate generation,توليد المرشحين
+1164,candidate set,مجموعة المرشحين
+1165,canonical basis,الأساس القياسي
+1166,canonical correlation analysis,تحليل الارتباط الكنسي
+1167,canonical form,الصيغة القياسية
+1168,canonical frame,الإطار القياسي
+1169,canonical space,الفضاء القياسي
+1170,canonicalization,التوحيد القياسي
+1171,capsule network,شبكة الكبسولة
+1172,capsule neural network,شبكة عصبية كبسولية
+1173,captions,التسميات التوضيحية
+1174,cardinality,الكاردينالية
+1175,cardinality constraint,قيد عدد العناصر
+1176,cascade model,نموذج الكاسكيد
+1177,catastrophic forgetting,النسيان الكارثي
+1178,categorial grammar,قواعد اللغة الفئوية
+1179,categorical cross-entropy,الانتروبيا المتقاطعة التصنيفية
+149,categorical distribution,توزيع تصنيفي
+1180,categorical feature,الميزة الفئوية
+1181,causal effect,التأثير السببي
+1182,causal effect estimation,تقدير التأثير السببي
+1183,causal entropy,الإنتروبيا السببية
+1184,causal graph,الرسم البياني السببي
+1185,causal inference,الاستدلال السببي
+1186,causal intervention,التدخل السببي
+1187,causal language model,نموذج اللغة السببي
+1188,causal model,النموذج السببي
+1189,causal reasoning,الاستدلال السببي
+1190,causal rule,القاعدة السببية
+1191,causal theory,نظرية السببية
+1192,cell state,حالة الخلية
+1193,center crop,الاقتصاص المركزي
+1194,center of projection,مركز الإسقاط
+1195,centrality measure,مقياس المركزية
+1196,centroid,النقطه الوسطى
+1197,chain rule,قاعدة السلسلة
+1198,change of basis,تغيير الأساس
+1199,character embedding,تضمين الأحرف
+1200,character n-gram,n-جرام الأحرف
+1201,characteristic function,الدالة المميزة
+1202,characteristic polynomial,كثيرة الحدود المميزة
+1203,characteristic vector,المتجه المميز
+1204,chart parser,محلل الرسم البياني
+1205,chart parsing,تحليل الرسم البياني
+1206,chatbot,بوت محادثة
+1207,checkpoint,نقطة التحقق
+1208,chemoinformatic,الكيمياء المعلوماتية
+1209,chi-square distribution,توزيع كاي-تربيع
+1210,chi-square test,اختبار كاي-تربيع
+1211,child node,العقدة الفرعية
+1212,chromosome,الكروموسوم
+1213,chunk size,حجم الكتلة
+1214,citation network,شبكة الاستشهادات
+1215,class,فئة
+1216,class balance,توازن الفئات
+1217,class distribution,توزيع الفئات
+1218,class imbalance,عدم توازن الفئات
+1219,class label,تسمية الفئة
+1220,class prior,الأولوية الفئوية
+1221,classical planning,التخطيط الكلاسيكي
+1222,classification,تصنيف
+1223,classification accuracy,دقة التصنيف
+1224,classification algorithm,خوارزمية التصنيف
+1225,classification approach,نهج التصنيف
+1226,classification error,خطأ التصنيف
+1227,classification head,رأس التصنيف
+1228,classification loss,خسارة التصنيف
+1229,classification margin,هامش التصنيف
+1230,classification method,طريقة التصنيف
+1231,classification metric,مقياس التصنيف
+1232,classification model,نموذج التصنيف
+1233,classification network,شبكة التصنيف
+1234,classification objective,هدف التصنيف
+1235,classification problem,مشكلة التصنيف
+1236,classification score,درجة التصنيف
+1237,classification task,مهمة التصنيف
+1238,classification token,رمز التصنيف
+161,classifier,مصنف
+1240,classifiers,المصنّفات
+1241,classifying,تصنيف
+1242,clause learning,تعلم الجمل
+1243,click model,نموذج النقر
+1244,clip range,نطاق القص
+1245,clipping factor,عامل القص
+1246,clipping threshold,عتبة القص
+1247,clique potential,إمكانية الزمرة
+1248,closed frequent itemset,مجموعة العناصر المتكررة المغلقة
+1249,closed-book model,نموذج الكتاب المغلق
+1250,closed-world,العالم المغلق
+1251,cloze prompt,سؤال ملء الفراغ
+1252,cloze task,مهمة ملء الفراغ
+1253,cluster assignment,تعيين العنقود
+1254,cluster center,مركز العنقود
+1255,cluster centroid,مركز العنقود
+1256,cluster feature,ميزة العنقود
+1257,cluster label,تسمية الكتلة
+1258,cluster size,حجم العنقود
+1259,clustering,تجميع
+1260,clustering algorithm,خوارزمية التجميع
+1261,clustering criterion,معيار التجميع
+1262,clustering method,طريقة التجميع
+1263,clustering problem,مشكلة التجميع
+1264,co-occurrence,حدوث مشترك
+1265,co-occurrence matrix,مصفوفة التواجد المشترك
+1266,co-occurrence statistic,إحصائية التزامن
+1267,co-reference,الإحالة المشتركة
+1268,co-training,التدريب المشترك
+1269,coarse correlated equilibria,التوازنات المترابطة الخشنة
+1270,coarse correlated equilibrium,التوازن المرتبط الخشن
+1271,coarse layer,الطبقة الخشنة
+1272,coarse-to-fine,من الخشن إلى الدقيق
+1273,coarse-to-fine approach,نهج من الخشن إلى الدقيق
+1274,coarse-to-fine cascade,تسلسل من الخشن إلى الدقيق
+1275,coarse-to-fine strategy,استراتيجية من الخشن إلى الدقيق
+1276,codebook,كتاب الرموز
+1277,codomain,المجال المقابل
+1278,coefficient matrix,مصفوفة المعاملات
+1279,cognitive architecture,بنية إدراكية
+1280,cognitive model,النموذج المعرفي
+1281,cognitive science,علم الإدراك
+1282,cold start,البدء البارد
+1283,collaborative filtering,التصفية التعاونية
+1284,collaborative learning,التعلم التعاوني
+1285,collective inference,الاستدلال الجماعي
+1286,color channel,قناة اللون
+1287,color constancy,ثبات اللون
+1288,colorization,تلوين
+1289,column space,فضاء الأعمدة
+1290,column vector,متجه العمود
+1291,combinator,مُركِّب
+1292,combinatorial explosion,الانفجار التوافقي
+1293,combinatorial optimization,الأمثلية التوافقية
+1294,combinatorial optimization problem,مشكلة التحسين التوافقي
+1295,commonsense inference,استدلال الحس السليم
+1296,commonsense knowledge,المعرفة بالحس العام
+1297,commonsense knowledge graph,رسم بياني للمعرفة البديهية
+1299,communication complexity,تعقيد الاتصال
+1300,communication graph,رسم بياني للتواصل
+1301,compared,مقارنة
+1302,compatibility function,دالة التوافق
+1303,compatibility graph,رسم بياني للتوافق
+1304,competitive ratio,النسبة التنافسية
+1305,composition function,دالة التركيب
+1306,compositional generalization,التعميم التركيبي
+1307,compositional semantic,الدلالة التركيبية
+167,compositionality,التركيبية
+1309,compressive sensing,الاستشعار الضاغط
+1310,computation,الحساب
+1311,computation complexity,تعقيد الحساب
+1312,computation graph,رسم بياني للحساب
+1313,computational,الحوسبة
+1314,computational argumentation,الحجج الحاسوبية
+1315,computational budget,الميزانية الحاسوبية
+1316,computational complexity,التعقيد الحسابي
+1317,computational experiment,هل قمت بإجراء تجارب حوسبية؟
+1318,computational graph,الرسم البياني الحسابي
+1319,computational intelligence,ذكاء حوسبي
+1320,computational model,النموذج الحسابي
+1321,compute budget,ميزانية الحوسبة
+1322,computer vision,رؤية الحاسب
+1323,computer vision model,نموذج الرؤية الحاسوبية
+1324,concatenation,الدمج التسلسلي
+1325,concatenation operation,عملية الدمج
+1326,concentration inequality,عدم المساواة التركيزية
+1327,concentration parameter,معامل التركيز
+1328,concept,مفهوم
+1329,concept assertion,تأكيد المفهوم
+1330,concept atom,ذرة المفهوم
+1331,concept class,فئة المفهوم
+1332,concept drift,انجراف المفهوم
+1333,concept inclusion,إدراج المفهوم
+1334,concept name,اسم المفهوم
+1335,condition number,عدد الشرط
+1336,conditional computation,الحساب الشرطي
+1337,conditional density,الكثافة الشرطية
+1338,conditional distribution,التوزيع الشرطي
+1339,conditional effect,التأثير الشرطي
+1340,conditional entropy,الإنتروبيا الشرطية
+1341,conditional expectation,التوقع الشرطي
+1342,conditional gradient,التدرج الشرطي
+1343,conditional independence,الاستقلال الشرطي
+1344,conditional independency,الاستقلال الشرطي
+1345,conditional likelihood,الاحتمالية الشرطية
+1346,conditional log likelihood,الاحتمالية اللوغاريتمية الشرطية
+1347,conditional log probability,الاحتمالية اللوغاريتمية الشرطية
+1348,conditional maximum entropy,أقصى إنتروبيا شرطية
+1349,conditional model,النموذج الشرطي
+1350,conditional probability,الاحتمال الشرطي
+1351,conditional probability distribution,توزيع الاحتمال الشرطي
+172,conditional random field,الحقل العشوائي الشرطي
+1352,conditional sampling,أخذ العينات المشروطة
+1353,conditional text generation,توليد النص الشرطي
+1354,conditioning,التكييف
+1355,conditioning vector,متجه التكييف
+1356,confidence,الثقة
+1357,confidence bound,حد الثقة
+1358,confidence interval,فترة الثقة
+1359,confidence map,خريطة الثقة
+1360,confidence score,درجة الثقة
+1361,confidence threshold,عتبة الثقة
+1362,configuration,تكوين
+1363,confusion matrix,مصفوقة الدقة
+1364,confusion network,شبكة الالتباس
+1365,conjugate gradient,التدرج المترافق
+1366,conjugate gradient descent,نزول التدرج المترافق
+1367,conjugate gradient method,طريقة التدرج المترافق
+1368,conjunct,المعطوف
+1369,conjunctive normal form,الصيغة العادية الاقترانية
+1370,conjunctive query,الاستعلام الاقتراني
+1371,connected component,المكون المتصل
+1372,connectionism,التشابكية
+1373,connectionist model,النموذج الترابطي
+1374,connectivity matrix,مصفوفة الاتصال
+1375,consensus network decoding,فك تشفير الشبكة التوافقية
+1376,consequent,النتيجة المترتبة
+1377,consistent estimator,مقدّر متسق
+1378,constellation model,نموذج الكوكبة
+1379,constituency parser,محلل التراكيب
+1380,constituency parsing,التحليل النحوي للمكونات
+1381,constituency tree,شجرة التراكيب
+1382,constituent parsing,تحليل المكونات
+1383,constituent structure,بنية المكونات
+1384,constrained beam search,بحث الشعاع المقيد
+1385,constrained decoding,فك الترميز المقيد
+1386,constrained optimization,التحسين المقيد
+1387,constrained optimization problem,مشكلة التحسين المقيد
+1388,constraint,قيد
+1389,constraint generation,توليد القيود
+1390,constraint programming,برمجة القيود
+1391,constraint propagation,انتشار القيود
+1392,constraint satisfaction,إرضاء القيود
+1393,constraint satisfaction problem,مسألة إرضاء القيود
+1394,constraint set,مجموعة القيود
+1395,content model,نموذج المحتوى
+1396,content selection,اختيار المحتوى
+1397,context,السياق
+1398,context encoder,مشفر السياق
+1399,context free grammar,قواعد خالية من السياق
+1400,context model,نموذج السياق
+1401,context vector,متجه السياق
+1402,context window,نافذة السياق
+1403,context-free language,لغة خالية من السياق
+1404,contexts,السياقات
+1405,contextual embedding,التضمين السياقي
+1406,contextual feature,ميزة سياقية
+1407,contextual information,المعلومات السياقية
+1408,contextual model,النموذج السياقي
+1409,contextual representation,التمثيل السياقي
+1410,contextual vector,المتجه السياقي
+1411,contextual word embedding,تضمين الكلمات السياقي
+1412,contextualized,السياقي
+1413,contextualized embedding,التضمين السياقي
+1414,contextualized representation,التمثيل السياقي
+1415,contextualized word vector,ناقلات الكلمات السياقية
+1416,contingency table,جدول الطوارئ
+1417,continual learning,التعلم المستمر
+1418,continuous normalizing flow,التدفق الطبيعي المستمر
+1419,contrastive approach,النهج التبايني
+1420,contrastive fine-tuning,التحسين التبايني
+1421,contrastive loss,خسارة تباينية
+1422,contrastive objective,الهدف التبايني
+1423,control variate,المتغير الضابط
+1424,controllable text generation,توليد النص القابل للتحكم
+1425,conv layer,طبقة الالتفاف
+1426,convergence,التقارب
+1427,convergence analysis,تحليل التقارب
+1428,convergence bound,حد التقارب
+1429,convergence criterion,معيار التقارب
+1430,convergence rate,معدل التقارب
+1431,convergence time,زمن التقارب
+1432,conversation history,سجل المحادثة
+1433,conversational,محادثاتي
+1434,conversational agent,وكيل محادثة
+1435,conversational dialogue system,نظام حوار محادثة
+1436,convex,محدب
+1437,convex combination,مزيج محدب
+1438,convex conjugate,المترافق المحدب
+1439,convex constraint,قيد محدب
+1440,convex decomposition,التحلل المحدب
+1441,convex function,دالة محدبة
+1442,convex hull,بدن محدب
+1443,convex loss,الخسارة المحدبة
+1444,convex objective,الهدف المحدب
+1445,convex objective function,دالة الهدف المحدبة
+1446,convex optimization,التحسين المحدب
+1447,convex optimization problem,مشكلة تحسين محدبة
+1448,convex problem,مشكلة محدبة
+1449,convex program,برنامج محدب
+1450,convex proxy,الوكيل المحدب
+1451,convex quadratic program,برنامج تربيعي محدب
+1452,convex relaxation,استرخاء محدب
+1453,convex risk minimization,تقليل المخاطر المحدبة
+1454,convex set,مجموعة محدبة
+1455,convex surrogate,بديل محدب
+1456,convex-concave,محدب-مقعر
+1457,convexity,محدبية
+175,convolution,الالتفاف
+1458,convolution kernel,نواة الالتفاف
+1459,convolution layer,طبقة الالتفاف
+1460,convolution neural network,شبكة الالتفاف العصبية
+1461,convolution operation,عملية الالتفاف
+1462,convolution operator,مُشغّل الالتفاف
+1463,convolutional,تلافيفي
+1464,convolutional architecture,البنية التلافيفية
+1465,convolutional block,الكتلة التلافيفية
+1466,convolutional decoder,وحدة فك التشفير التلافيفية
+1467,convolutional encoder,المشفّر التلافيفي
+1468,convolutional feature,الخاصية التلافيفية
+1469,convolutional filter,مرشح تلافيفي
+1470,convolutional kernel,نواة التلافيف
+1471,convolutional layer,طبقة التلافيف
+1472,convolutional network,شبكة التلافيف
+1473,convolutional neural net,شبكة عصبية تلافيفية
+1474,convolutional neural network,شبكة عصبية ترشيحية
+1475,convolutional representation,تمثيل تلافيفي
+1476,cooling schedule,جدول التبريد
+1477,coordinate ascent,الصعود الإحداثي
+1478,coordinate descent,الانحدار الإحداثي
+1479,coordinate descent algorithm,خوارزمية النزول التنسيقي
+1480,coordinate frame,إطار الإحداثيات
+1481,copy mechanism,آلية النسخ
+1482,core tensor,الموتر الأساسي
+1483,coreference,الإحالة المرجعية
+1484,coreference annotation,توسيم الترابط
+1485,coreference chain,سلسلة الإحالة
+1486,coreference resolution model,نموذج حل الإحالة المشتركة
+1487,coreference resolution system,نظام حل المراجع المشتركة
+1488,coreferent,مرجع مشترك
+180,corpus,مجموعة لغوية
+1492,correlated equilibria,التوازنات المترابطة
+1493,correlated equilibrium,التوازن المرتبط
+1494,correlation coefficient,معامل الارتباط
+1495,correlations,الارتباطات
+1496,correspondence matrix,مصفوفة المطابقة
+1497,corresponding,المطابق
+1498,cosine,جيب التمام
+1499,cosine decay,تناقص جيب التمام
+1500,cosine decay schedule,جدول تسوس جيب التمام
+1501,cosine learning rate schedule,جدول معدل التعلم بتناقص جيب التمام
+1502,cosine measure,مقياس جيب التمام
+1503,cosine schedule,جدول جيب التمام
+181,cosine similarity,تشابه جيب التمام
+1504,cosine similarity measure,مقياس تشابه جيب التمام
+1505,cost function,دالة التكلفة
+1506,cost vector,متجه التكلفة
+1507,cost volume,حجم التكلفة
+1508,cost-sensitive learning,التعلم الحساس للتكلفة
+1509,counterexample,مثال مضاد
+1510,counterfactual,افتراض مغاير للواقع
+1511,counterfactual datum,بيانات مغايرة للواقع
+1512,counterfactual example,مثال مضاد للواقع
+1513,counterfactual fairness,الإنصاف المضاد للواقع
+1514,counterfactual reasoning,التفكير المضاد للواقع
+184,covariance,التغاير
+1515,covariance function,دالة التغاير
+1516,covariance kernel,نواة التغاير
+1517,covariance matrix,مصفوفة التغاير
+1518,covariance model,نموذج التغاير
+1519,covariance operator,مؤثر التغاير
+1520,covariance parameter,معامل التباين
+1521,covariance structure,هيكل التباين
+1522,covariant derivative,المشتقة المتغايرة
+1523,covariate,المتغير المصاحب
+1524,covariate shift,انزياح المتغيرات
+1525,credit assignment,إسناد الفضل
+1526,credit assignment problem,مشكلة إسناد الفضل
+1527,criterion,معيار
+1528,critic,الناقد
+1529,critic loss,خسارة الناقد
+1530,critic network,شبكة الناقد
+1531,cross attention,الانتباه المتقاطع
+1532,cross entropy,الإنتروبيا المتقاطعة
+1533,cross entropy error,خطأ الانتروبيا المتقاطعة
+1534,cross validation,التحقق المتقاطع
+1535,cross-attention layer,طبقة الانتباه المتقاطع
+1536,cross-attention module,وحدة الانتباه المتقاطع
+1537,cross-correlation,الارتباط المتقاطع
+1538,cross-entropy,الأنتروبيا التقاطعية
+1539,cross-entropy loss function,دالة خسارة الانتروبيا المتقاطعة
+1540,cross-entropy objective,هدف الانتروبيا المتقاطعة
+1541,cross-lingual benchmark,المعيار المرجعي عبر اللغات
+1542,cross-lingual embedding,التضمين عبر اللغات
+1543,cross-lingual feature,ميزة عبر اللغات
+1544,cross-lingual knowledge transfer,نقل المعرفة عبر اللغات
+1545,cross-lingual model,نموذج عبر اللغات
+1546,cross-lingual representation,تمثيل عبر اللغات
+1547,cross-lingual transfer,نقل عبر اللغات
+1548,cross-modal,عبر الوسائط
+1549,cross-validating,التحقق المتقاطع
+1550,cross-validation,التحقق المتقاطع
+1551,cumulant generating function,دالة توليد الكومولانت
+1552,cumulative density function,دالة الكثافة التراكمية
+1553,cumulative distribution function,دالة التوزيع التراكمي
+1554,cumulative regret,الندم التراكمي
+1555,cumulative reward,المكافأة التراكمية
+1556,curriculum learning,التعلم التدريجي
+1557,curse of dimensionality,لعنة الأبعاد
+1558,cutting plane,طائرة القطع
+1559,cutting plane algorithm,خوارزمية المستوى القاطع
+1560,cutting plane method,طريقة المستوى القاطع
+1561,cycle consistency,اتساق الدورة
+1562,cycle consistency loss,خسارة اتساق الدورة
+1563,cycle inequality,متباينة الدورة
+1564,d-separation,د- الانفصال
+1565,d_model,د_النموذج
+1566,dark data,البيانات المظلمة
+1567,data,البيانات
+1568,data augmentation,زيادة البيانات
+1569,data distribution,توزيع البيانات
+1570,data imbalance,اختلال البيانات
+1571,data integration,تكامل البيانات
+1572,data manifold,مشعب البيانات
+1573,data mining,تنقيب البيانات
+1574,data modelling,نمذجة البيانات
+1575,data point,نقطة بيانات
+1576,data processing inequality,عدم المساواة في معالجة البيانات
+1577,data sparseness,ندرة البيانات
+1578,data sparsity,ندرة البيانات
+1579,data structure,بنية البيانات
+1580,data vector,متجه البيانات
+1581,data-to-text generation,توليد النص من البيانات
+1584,dataset augmentation,زيادة مجموعة البيانات
+1585,dataset bias,تحيز مجموعة البيانات
+1586,dataset size,حجم مجموعة البيانات
+1587,datasets,مجموعات البيانات
+1588,datasheet,ورقة بيانات
+1589,datum bias,تحيز البيانات
+1590,datum clustering,تجميع البيانات
+1591,datum contamination,تلوث البيانات
+1592,datum dependency,اعتماد البيانات
+1593,datum fidelity,دقة البيانات
+1594,datum filtering,تصفية البيانات
+1595,datum generative process,عملية توليد البيانات
+1596,datum matrix,مصفوفة البيانات
+1597,datum mining algorithm,خوارزمية استخراج البيانات
+1598,datum parallelism,توازي البيانات
+1599,datum perturbation,اضطراب البيانات
+1600,davinci,دافنشي
+1601,decay parameter,معامل الاضمحلال
+1602,decentralized algorithm,الخوارزمية اللامركزية
+1603,decision boundary,حد القرار
+1604,decision function,دالة القرار
+1605,decision node,عقدة القرار
+1606,decision policy,سياسة القرار
+1607,decision problem,مشكلة القرار
+1608,decision rule,قاعدة القرار
+1609,decision space,فضاء القرار
+1610,decision stumps,جذوع القرار
+1611,decision theory,نظرية القرار
+1612,decision tree,شجرة القرار
+1613,decision variable,متغير القرار
+192,decoder,المفكك
+1615,decoder hidden state,الحالة المخفية لفك التشفير
+1616,decoder layer,طبقة فك الترميز
+1617,decoder network,شبكة فك الترميز
+1618,decoder output,خرج فك التشفير
+1619,decoder state,حالة فك الترميز
+1620,decoder-only transformer,محول يعتمد على فك الترميز فقط
+1621,decoding,فك التشفير
+1622,decoding algorithm,خوارزمية فك التشفير
+1623,decoding problem,مشكلة فك التشفير
+1624,decoding step,خطوة فك التشفير
+1625,decoding strategy,استراتيجية فك التشفير
+1626,decomposition,تحليل
+1627,decomposition method,طريقة التحليل
+1628,deconvolution,إلغاء الالتفاف
+1629,deconvolution layer,طبقة إلغاء الالتفاف
+1630,deconvolutional layer,طبقة إزالة الالتفاف
+1631,deep Q-learning,تعلم Q العميق
+1632,deep Q-network,شبكة Q العميقة
+1633,deep architecture,العمارة العميقة
+195,deep belief network,شبكة الاعتقاد العميقة
+1634,deep convolutional network,الشبكة العصبية التلافيفية العميقة
+1635,deep convolutional neural network,شبكة عصبية تلافيفية عميقة
+1636,deep feature,الميزات العميقة
+1637,deep generative model,نموذج توليدي عميق
+1638,deep layer,الطبقة العميقة
+1639,deep learning,تعُّلم عميق
+1640,deep learning architecture,بنية التعلم العميق
+1641,deep learning framework,إطار عمل التعلم العميق
+1642,deep learning model,نموذج التعلم العميق
+1643,deep learning system,نظام التعلم العميق
+1644,deep model,نموذج عميق
+1645,deep net,شبكة عميقة
+1646,deep network,شبكة عميقة
+1647,deep network architecture,بنية الشبكة العميقة
+1648,deep neural model,نموذج الشبكة العصبية العميقة
+1649,deep neural net,شبكة عصبية عميقة
+1650,deep neural network,شبكة عصبية عميقة
+1651,deep reinforcement learning,التعلم المعزز العميق
+1652,deep supervision,الإشراف العميق
+1653,deepfake,تزييف عميق
+1654,deeply-supervised net,شبكة ذات إشراف عميق
+1655,default logic,المنطق الافتراضي
+1656,deformable template,قالب قابل للتشوه
+1657,deformation field,مجال التشوه
+1658,degree distribution,توزيع الدرجة
+1659,delayed reward,المكافأة المؤجلة
+1660,delexicalization,إزالة الخصائص اللغوية
+1661,delta kernel,نواة دلتا
+1662,dendrogram,شجرة التفرع
+1663,denoiser,مزيل الضوضاء
+197,denoising autoencoder,المُشفّر التلقائي لإزالة الضوضاء
+1664,denoising diffusion probabilistic model,نموذج الانتشار الاحتمالي لإزالة الضوضاء
+1665,denoising network,شبكة إزالة الضوضاء
+1666,denoising objective,هدف إزالة الضوضاء
+1667,denoising process,عملية إزالة الضوضاء
+1668,denoising score matching,مطابقة الدرجات لإزالة الضوضاء
+1669,denoising score matching loss,خسارة مطابقة الدرجات لإزالة الضوضاء
+1670,denotation,دلالة
+1671,dense,كثيف
+1672,dense attention,انتباه كثيف
+1673,dense depth map,خريطة العمق الكثيفة
+1674,dense feature,خاصية كثيفة
+1675,dense layer,طبقة كثيفة
+1676,dense matrix,مصفوفة كثيفة
+1677,dense network,شبكة كثيفة
+1678,dense prediction,التنبؤ الكثيف
+1679,dense representation,التمثيل الكثيف
+1680,dense vector,المتجه الكثيف
+1681,density estimate,تقدير الكثافة
+1682,density estimation,تقدير الكثافة
+1683,density estimator,مقدِّر الكثافة
+1684,density field,مجال الكثافة
+1685,density function,دالة الكثافة
+1686,density gradient,تدرج الكثافة
+1687,density ratio,نسبة الكثافة
+1688,dependencies,التبعيات
+1689,dependency,التبعية
+1690,dependency arc,قوس التبعية
+1691,dependency feature,ميزة التبعية
+1692,dependency graph,رسم بياني للتبعية
+1693,dependency label,علامة التبعية
+1694,dependency model,نموذج التبعية
+1695,dependency parse,تحليل التبعية
+1696,dependency parse tree,شجرة تحليل التبعية
+1697,dependency parser,محلل التبعية
+1698,dependency parsing model,نموذج تحليل التبعية
+1699,dependency path,مسار التبعية
+1700,dependency relation,علاقة التبعية
+1701,dependency representation,تمثيل التبعية
+1702,dependency structure,هيكل الاعتماد
+1703,dependency tree,شجرة الاعتماد
+1704,dependency treebank,بنك شجرة التبعية
+1705,dependent variable,المتغير التابع
+1706,depth estimation,تقدير العمق
+1707,depth estimator,مقدر العمق
+1708,depth image,صورة العمق
+1709,depth map,خريطة العمق
+1710,depth prediction,تنبؤ العمق
+1711,depth-first search,البحث أولاً في العمق
+1712,depthwise separable convolutional neural network,شبكة عصبية ترشيحية قابلة للفصل عمًقا
+1713,description logic,منطق الوصف
+1714,descriptor,موصّف
+1715,design matrix,مصفوفة التصميم
+1716,design space,فضاء التصميم
+1717,det,المحدد
+1718,detection,الكشف
+1719,detection algorithm,خوارزمية الكشف
+1720,detection model,نموذج الكشف
+1721,detection score,درجة الكشف
+1722,detection window,نافذة الكشف
+1723,detector,كاشف
+1724,deterministic algorithm,خوارزمية حتمية
+1725,deterministic annealing,التلدين الحتمي
+1726,deterministic automaton,الأوتوماتون الحتمي
+1727,deterministic baseline,خط الأساس الحتمي
+1728,deterministic finite automaton,آلة حتمية محدودة
+1729,deterministic policy,السياسة الحتمية
+1730,deterministic rule,القاعدة الحتمية
+1731,dev set,مجموعة التطوير
+1732,development set,مجموعة التطوير
+1733,diagonal matrix,مصفوفة قطرية
+1734,dialog system,نظام الحوار
+1735,dialogue act,فعل الحوار
+1736,dialogue context,سياق الحوار
+1737,dialogue generation,توليد الحوار
+1738,dialogue history,تاريخ الحوار
+1739,dialogue management,إدارة الحوار
+1740,dialogue state,حالة الحوار
+1741,dialogue state tracker,متعقب حالة الحوار
+1742,dialogue system,نظام الحوار
+1743,dialogue turn,دور الحوار
+1744,dictionary learning,تعلم القاموس
+1745,dictionary matrix,مصفوفة القاموس
+1746,diffeomorphism,تشاكل تفاضلي
+1747,differentiable function,دالة قابلة للاشتقاق
+1748,differentiable renderer,العارض القابل للتفاضل
+1749,differentiable rendering,التصيير القابل للتفاضل
+1750,differentiable rendering function,دالة التصيير القابلة للتفاضل
+1751,differential entropy,الانتروبيا التفاضلية
+1752,differential privacy,خصوصية تباينية
+1753,diffusion matrix,مصفوفة الانتشار
+1754,diffusion model,نموذج الانتشار
+1755,diffusion tensor,موتر الانتشار
+1756,digamma function,دالة الديجاما
+1757,digit classification,تصنيف الأرقام
+1758,dilated convolution,الالتفاف المتوسع
+1759,dilation,التوسيع
+1760,dim,الأبعاد
+1761,dimension,البُعد
+1762,dimension reduction,تخفيض الأبعاد
+1763,dimensional vector,متجه الأبعاد
+1764,dimensionality,الأبعاد
+1765,dimensionality reduction,تقليل الأبعاد
+1766,directed acyclic graph,الرسم البياني الموجه غير الدوري
+1767,directed edge,حافة موجهة
+1768,directed graph,الرسم البياني الموجه
+1769,directed graphical model,نموذج رسومي موجه
+1770,directed tree,الشجرة الموجهة
+1771,disambiguation,إزالة الغموض
+1772,discount factor,عامل الخصم
+1773,discount parameter,معلمة الخصم
+1774,discounted cumulative reward,المكافأة التراكمية المخصومة
+1775,discounted return,العائد المخصوم
+1776,discounted reward,المكافأة المخصومة
+1777,discounted state distribution,توزيع الحالة المخصوم
+1778,discrete distribution,توزيع منفصل
+1779,discrete graphical model,النموذج الرسومي المنفصل
+1780,discrete random variable,متغير عشوائي منفصل
+212,discretization,التقسيم
+1781,discriminant analysis,تحليل التمييز
+1782,discriminant function,دالة التمييز
+1783,discriminative,تمييزية
+1784,discriminative approach,النهج التمييزي
+1785,discriminative feature,ميزة تمييزية
+1786,discriminative method,الطريقة التمييزية
+1787,discriminative model,النموذج التمييزي
+1788,discriminative training,التدريب التمييزي
+213,discriminator,المميز
+1789,discriminator network,شبكة التمييز
+1790,disentangle,فصل
+1791,disentangled representation,التمثيل المفصول
+1792,disparity estimation,تقدير التباين
+1793,disparity map,خريطة التباين
+1794,distance function,دالة المسافة
+1795,distance matrix,مصفوفة المسافة
+1796,distance measure,مقياس المسافة
+1797,distance metric,مقياس المسافة
+1798,distance transform,تحويل المسافة
+1799,distant supervision,الإشراف البعيد
+1800,distillation,التقطير
+1801,distributed information retrieval,استرجاع المعلومات الموزع
+1802,distributed learning,التعلم الموزع
+1803,distributed learning system,نظام التعلم الموزع
+1804,distributed representation,التمثيل الموزع
+1805,distribution shift,تحول التوزيع
+1806,distribution vector,متجه التوزيع
+1807,distributional,توزيعي
+1808,distributional feature,ميزة توزيعية
+1809,distributional hypothesis,الفرضية التوزيعية
+1810,distributional model,نموذج توزيعي
+1811,distributional representation,تمثيل توزيعي
+1812,distributional semantic,الدلالات التوزيعية
+1813,distributional semantic model,نموذج الدلالات التوزيعية
+1814,distributional similarity,التشابه التوزيعي
+1815,distributional word representation,تمثيل الكلمات التوزيعي
+1816,distributionally robust optimization,التحسين القوي التوزيعي
+1817,distributions,توزيعات
+1818,divergence operator,مشغل التباعد
+1819,diversity score,درجة التنوع
+1820,do-calculus,حسابات التدخل
+1821,document,وثيقة
+1822,document classification,تصنيف المستندات
+1823,document clustering,تجميع المستندات
+1824,document corpus,مجموعة المستندات
+1825,document retrieval,استرجاع المستندات
+1826,document summarization,تلخيص الوثائق
+1827,document vector,متجه الوثيقة
+1828,document-level,مستوى الوثيقة
+1829,document-topic assignment,تعيين الموضوعات للوثائق
+1830,documents,الوثائق
+1831,domain,المجال
+1832,domain adaptation,تكييف المجال
+1833,domain element,عنصر المجال
+1834,domain gap,فجوة المجال
+1835,domain generalization,تعميم المجال
+1836,domain knowledge,معرفة المجال
+1837,domain mismatch,عدم تطابق المجال
+1838,domain ontology,أنطولوجيا المجال
+1839,domain shift,تحول المجال
+1840,domain transfer,نقل المجال
+1841,domain-specific,خاص بالمجال
+1842,domains,المجالات
+1843,dot product,حاصل الضرب النقطي
+1844,dot-product attention,انتباه حاصل الضرب النقطي
+1845,down-sampling,خفض العينات
+1846,down-sampling layer,طبقة تقليل العينات
+1847,downsampling block,كتلة خفض العينات
+1848,downsampling factor,عامل تقليص العينات
+1849,downsampling layer,طبقة تقليل العينات
+1850,downstream,المهام اللاحقة
+1851,downstream dataset,مجموعة البيانات اللاحقة
+1852,downstream model,نموذج المصب
+1853,downstream performance,أداء التطبيقات النهائية
+1854,downstream task,مهمة المصب
+215,dropout,إسقاط
+1855,dropout layer,طبقة الإسقاط
+1856,dropout probability,احتمالية الإسقاط
+1857,dropout rate,معدل الإسقاط
+1858,dropout ratio,نسبة التسرب
+1859,dropout regularization,ضبط الإسقاط
+1860,dual decomposition,التحلل المزدوج
+1861,dual encoder model,نموذج المشفر المزدوج
+1862,dual norm,المعيار الثنائي
+1863,dual objective,الهدف الثنائي
+1864,dual optimization problem,مشكلة التحسين المزدوجة
+1865,dual parameter,البارامتر المزدوج
+1866,dual problem,المشكلة الثنائية
+1867,dual program,البرنامج الثنائي
+1868,dual solution,الحل الثنائي
+1869,dual variable,المتغير الثنائي
+1870,duality gap,فجوة الازدواجية
+1871,dynamic Bayesian network,شبكة بايزية ديناميكية
+1872,dynamic model,نموذج ديناميكي
+217,dynamic programming,البرمجة الديناميكية
+1873,dynamic programming algorithm,خوارزمية البرمجة الديناميكية
+1874,dynamic time warping,تزييف الوقت الديناميكي
+1875,dynamical model,النموذج الديناميكي
+1876,dynamical system,النظام الديناميكي
+1877,early fusion,الدمج المبكر
+1878,early stopping,الإيقاف المبكر
+1879,earth-mover distance,مسافة نقل التراب
+1880,edge detection,كشف الحواف
+1881,edge feature,ميزة الحافة
+1882,edge label,تسمية الحافة
+1883,edge prediction,التنبؤ بالحافة
+1884,edge set,مجموعة الحواف
+1885,edge weight,وزن الحافة
+1886,edit,تعديل
+1887,edit distance,مسافة التحرير
+1888,effective receptive field,المجال الاستقبالي الفعال
+1889,ego-motion,حركة الذات
+1890,eigen-decomposition,تحليل القيم الذاتية
+1891,eigenbasis,الأساس الذاتي
+1892,eigendecay,اضمحلال القيم الذاتية
+1893,eigenfunction,دالة ذاتية
+1894,eigenspace,الفضاء الذاتي
+1895,eigenspectrum,طيف القيم الذاتية
+1896,eigenvalue,القيمة الذاتية
+1897,eigenvalue decomposition,تحليل القيم الذاتية
+1898,eigenvector,المتجه الذاتي
+1899,elastic net regularization,تنظيم الشبكة المرن
+1900,element-wise,عنصر-بعنصر
+1901,element-wise multiplication,ضرب عنصر بعنصر
+1902,element-wise product,حاصل ضرب عنصري
+1903,elementary tree,شجرة أساسية
+1904,eligibility trace,أثر الأهلية
+1905,embedded deformation graph,الرسم البياني للتشوه المضمن
+1906,embedding,تضمين
+1907,embedding dimension,أبعاد التضمين
+1908,embedding dimensionality,أبعاد التضمين
+1909,embedding feature,ميزة التضمين
+1910,embedding layer,طبقة التضمين
+1911,embedding matrix,مصفوفة التضمين
+1912,embedding model,نموذج التضمين
+1913,embedding parameter,معامل التضمين
+1914,embedding size,حجم التضمين
+1915,embedding space,فضاء التضمين
+1916,embedding vector,متجه التضمين
+1917,embedding-based metric,مقياس قائم على التضمين
+1918,embeddings,التضمينات
+1919,embodied agent,الوكيل المتجسد
+1920,emission probability,احتمالية الانبعاث
+1921,emotion classification,تصنيف المشاعر
+1922,empirical Bayes,بايز التجريبي
+1923,empirical distribution,التوزيع التجريبي
+1924,empirical estimate,التقدير التجريبي
+1925,empirical estimator,المُقدِّر التجريبي
+1926,empirical frequency,التكرار التجريبي
+1927,empirical loss,الخسارة التجريبية
+1928,empirical mean,المتوسط التجريبي
+1929,empirical measure,القياس التجريبي
+1930,empirical minimizer,المُحسِّن التجريبي
+1931,empirical process theory,نظرية العمليات التجريبية
+1932,empirical risk,المخاطر التجريبية
+1933,empirical risk minimization,تقليل المخاطر التجريبية
+1934,empirical risk minimizer,مُقلل المخاطر التجريبية
+1935,empirical variance,التباين التجريبي
+1936,emulator,المحاكي
+1937,encode,ترميز
+221,encoder,المشفّر
+1939,encoder layer,طبقة المشفر
+1940,encoder model,نموذج المشفر
+1941,encoder network,شبكة الترميز
+1942,encoder states,حالات الترميز
+222,encoder-decoder,المشفّر-المفكك
+1943,encoder-decoder architecture,بنية المشفر-فك التشفير
+1944,encoder-decoder framework,إطار عمل الترميز-فك التشفير
+1945,encoder-decoder model,نموذج التشفير-فك التشفير
+1946,encoders,المشفرات
+1947,encoding,ترميز
+1948,end-of-sequence token,رمز نهاية التسلسل
+1949,end-to-end learning,التعلم من النهاية إلى النهاية
+1950,end-to-end model,نموذج من النهاية إلى النهاية
+1951,end-to-end neural model,نموذج عصبي من النهاية إلى النهاية
+1952,end-to-end pipeline,خط أنابيب من نهاية إلى نهاية
+1953,end-to-end system,نظام شامل
+1954,end-to-end training,تدريب شامل
+1955,energy function,دالة الطاقة
+1956,energy minimization,تقليل الطاقة
+1957,energy minimization framework,إطار تقليل الطاقة
+1958,energy minimization problem,مشكلة تقليل الطاقة
+1959,ensemble,تجميع النماذج
+1960,ensemble classification,تصنيف التجميع
+1961,ensemble classifier,مصنف التجميع
+1962,ensemble learning,تعلم التجميع
+1963,ensemble method,طريقة التجميع
+1964,ensemble model,نموذج التجميع
+1965,ensemble of classifier,مجموعة المصنِّفات
+1966,ensemble size,حجم التجميع
+1967,entail,يستلزم
+1968,entailment,التضمين
+1969,entailment detection,كشف التضمن
+1970,entities,الكيانات
+1971,entity,كيان
+1972,entity coreference,المرجعية الكيانية
+1973,entity description,وصف الكيان
+1974,entity detection,كشف الكيان
+1975,entity embedding,تضمين الكيان
+1976,entity extraction,استخراج الكيان
+1977,entity linker,موصل الكيانات
+1978,entity mention,ذكر الكيان
+1979,entity recognition,التعرف على الكيانات
+1980,entity representation,تمثيل الكيان
+1981,entity resolution,حل الكيانات
+1982,entity set,مجموعة الكيانات
+1983,entity type,نوع الكيان
+225,entropy,الانتروبيا
+1984,entropy estimation,تقدير الإنتروبيا
+1985,entropy function,دالة الإنتروبيا
+1986,entropy loss,خسارة الإنتروبيا
+1987,entropy regularization,تنظيم الانتروبيا
+1988,enumeration algorithm,خوارزمية التعداد
+1989,envy-freeness,الخلو من الحسد
+1990,eos,رمز نهاية التسلسل
+1991,epipolar constraint,القيد القطبي
+1992,epipolar geometry,الهندسة الإيبيبولارية
+1993,epipolar line,خط Epipolar
+1994,epipole,النقطة الإيبيبولارية
+1995,episodic return,العائد الإيبيزودي
+1996,epistemic uncertainty,عدم اليقين الإبستيمي
+1997,epoch,دورة
+1998,equalized odd,الاحتمالات المتساوية
+1999,equivalence class,فئة التكافؤ
+2000,equivalence query,استعلام التكافؤ
+2001,equivariance,التكافؤ
+2002,equivariant,متناظر
+2003,error,خطأ
+2004,error analysis,تحليل الأخطاء
+2005,error bound,حد الخطأ
+2006,error function,دالة الخطأ
+2007,error probability,احتمالية الخطأ
+2008,error rate,معدل الخطأ
+2009,error tolerance,تحمل الخطأ
+2010,estimation error,خطأ التقدير
+2011,estimator,مقدِّر
+2012,evaluation,تقييم
+2013,evaluation function,دالة التقييم
+2014,evaluation metric,مقياس التقييم
+2015,evaluation set,مجموعة التقييم
+2016,event,حدث
+2017,event calculus,حساب الأحداث
+2018,event coreference,الإحالة المشتركة للأحداث
+2019,event detection,كشف الأحداث
+2020,event extraction,استخراج الأحداث
+2021,evidence lower bound,الحد الأدنى للأدلة
+2022,evidence maximization,تعظيم الأدلة
+2023,exact inference,الاستدلال الدقيق
+2024,excess loss,الخسارة الزائدة
+2025,exchangeability,قابلية التبادل
+2026,existential quantifier,الكمي الوجودي
+2027,existing,موجود
+239,expectation maximization,تعظيم التوقع
+240,expectation maximization algorithm,خوارزمية تعظيم التوقعات
+2028,expected loss,الخسارة المتوقعة
+2029,expected reward,المكافأة المتوقعة
+2030,expected utility,المنفعة المتوقعة
+2031,experience replay,إعادة تشغيل التجربة
+2032,expert demonstration,مظاهرة الخبراء
+2033,expert system,نظام خبير
+2034,expert systems,نظام خبير
+2035,explicit-state search,بحث الحالة الصريحة
+2036,exploding gradient,تدرج متفجر
+2037,exploitability,قابلية الاستغلال
+2038,exploration rate,معدل الاستكشاف
+2039,exploratory data analysis,التحليل الاستكشافي للبيانات
+2040,exponential complexity,تعقيد أسي
+2041,exponential decay,الاضمحلال الأسي
+241,exponential distribution,التوزيع الأسي
+2042,exponential family,العائلة الأسية
+2043,exponential loss,الخسارة الأسية
+2044,exponential map,الخريطة الأسية
+2045,exponential moving average,المتوسط المتحرك الأسي
+2046,exposure bias,تحيز التعرض
+2047,extensive-form game,لعبة الشكل الموسع
+2048,extracted,مستخرج
+2049,extracting,استخراج
+2050,extraction,استخراج
+2051,extractive,استخراجي
+2052,extractive question answering,الإجابة عن الأسئلة الاستخراجية
+2053,extractive summarization,التلخيص الاستخراجي
+2054,extractor,مستخرج
+2055,f-divergence,تباعد f
+2056,face detection,كشف الوجه
+2057,face detector,كاشف الوجه
+2058,face recognition,التعرف على الوجوه
+2059,facial landmark,معلم الوجه
+2060,facial recognition,التعرف على الوجه
+2061,fact verification,التحقق من الحقائق
+2062,factor analysis,تحليل العوامل
+2063,factor graph,رسم بياني للعوامل
+2064,factor matrix,مصفوفة العوامل
+2065,factor of variation,عامل التغير
+2066,factorization,تحليل العوامل
+2067,factorization algorithm,خوارزمية التحليل
+2068,factorization method,طريقة التحليل
+2069,failure probability,احتمالية الفشل
+2070,fairness criterion,معيار العدالة
+2071,fairness loss,خسارة الإنصاف
+2072,fairness notion,مفهوم العدالة
+2073,faithfulness score,درجة الأمانة
+2074,false negative,سلبية كاذبة
+2075,false negative rate,معدل السلبيات الكاذبة
+2076,false positive rate,معدل الإيجابيات الكاذبة
+2077,fanout,عدد التفرعات
+2078,fc layer,طبقة متصلة بالكامل
+2079,feasible set,المجموعة الممكنة
+2080,feature,ميزة
+2081,feature channel,قناة الميزة
+2082,feature correspondence,المراسلات المميزة
+2083,feature count,عدد الميزات
+2084,feature descriptor,موصِف الميزات
+2085,feature detection,كشف الميزات
+2086,feature detector,كاشف الميزات
+2087,feature dimension,بُعد الميزات
+2088,feature dimensionality,أبعاد الميزات
+2089,feature embedding,تضمين الميزات
+2090,feature encoder,مشفّر الميزات
+2091,feature engineering,هندسة الخصائص
+2092,feature extraction,استخراج الميزات
+2093,feature extractor,مستخرج الميزات
+2094,feature function,دالة الميزات
+2095,feature hashing,تجزئة الميزات
+2096,feature hierarchy,تسلسل الميزات
+2097,feature map,خريطة الخصائص
+2098,feature mapping function,وظيفة رسم الخرائط الميزة
+2099,feature matching,مطابقة الميزات
+2100,feature matrix,مصفوفة الميزات
+2101,feature model,نموذج الميزات
+2102,feature normalization,تطبيع الميزة
+2103,feature point,نقطة ميزة
+2104,feature pyramid,هرم الميزات
+2105,feature representation,تمثيل الميزات
+2106,feature representation learning,تعلم تمثيل الميزات
+2107,feature selection,اختيار الميزات
+2108,feature selector,محدد الميزات
+2109,feature set,مجموعة الميزات
+2110,feature space,فضاء الميزات
+2111,feature template,قالب الميزات
+2112,feature vector,متجه الميزات
+2113,feature weight,وزن الميزة
+2114,features,الميزات
+2115,featurization,تحويل الميزات
+2116,featurized representation,تمثيل الميزة
+2118,feed forward,تغذية أمامية
+2119,feed forward network,شبكة التغذية الأمامية
+2120,feed forward neural network,شبكة عصبية ذات تغذية أمامية
+2121,feed-forward layer,طبقة التغذية الأمامية
+2122,feedback loop,حلقة التغذية الراجعة
+2123,feedforward neural network,شبكة عصبية ذات تغذية أمامية
+2124,few shot learning,التعلم من عدد قليل من الأمثلة
+2125,few-shot classification,تصنيف قليل الأمثلة
+2126,few-shot example,مثال قليل الأمثلة
+2127,few-shot fine-tuning,ضبط دقيق قليل الأمثلة
+2128,few-shot in-context learning,التعلم في السياق قليل الأمثلة
+2129,few-shot learning,تعلم بأمثلة قليلة
+2130,few-shot prompting,تحفيز قليل الأمثلة
+2131,few-shot setting,إعداد قليل الأمثلة
+2132,filter bank,مجموعة الفلاتر
+2133,filter weight,وزن الفلتر
+2134,fine-grained sentiment classification,تصنيف المشاعر الدقيق
+2135,fine-tune,ضبط دقيق
+2136,fine-tuned model,النموذج المُعدل بدقة
+2137,finetuning,الضبط الدقيق
+2138,finite horizon,الأفق المحدود
+2139,finite-state automata,آلات الحالة المنتهية
+2140,first order method,طريقة من الدرجة الأولى
+2141,first-order,من الدرجة الأولى
+2142,first-order language,لغة من الدرجة الأولى
+2143,first-order logic,المنطق من الدرجة الأولى
+2144,first-order model,نموذج من الدرجة الأولى
+2145,first-order parsing,التحليل النحوي من الدرجة الأولى
+2146,fitness function,دالة اللياقة
+2147,five-fold cross-validation,التحقق المتقاطع بخمسة أضعاف
+2148,fixed point,نقطة ثابتة
+2149,fixed-parameter tractable,قابلية المعالجة بمعلمة ثابتة
+2150,fixed-point iteration,تكرار النقطة الثابتة
+2151,fixpoint,نقطة ثابتة
+2152,float16,فلوات16
+2153,float32,فلوات32
+2154,flow field,حقل التدفق
+2155,flow model,نموذج التدفق
+2156,flow-based chatbot,بوت محادثة موجه
+2157,forall,لِكُلِّ
+2158,forecasting,التنبؤ
+2159,foreground segmentation,تقسيم المقدمة
+2160,forget gate,بوابة النسيان
+2161,forward algorithm,الخوارزمية الأمامية
+2162,forward model,النموذج الأمامي
+2163,forward pass,التمرير الأمامي
+2164,forward process,العملية الأمامية
+2165,forward propagation,الانتشار الأمامي
+2166,forward-backward algorithm,خوارزمية الأمام-الخلف
+2167,foundation model,نموذج أساسي
+2168,fp,إطارات في الثانية
+2169,fp16,دقة 16-بت العائمة
+2170,fp32,دقة 32-بت العائمة
+2171,fractional program,برنامج كسري
+2172,frame,إطار
+2173,free variable,متغير حر
+2174,frequency penalty,عقوبة التكرار
+2175,frequency vector,متجه التردد
+2176,frequent closed itemset,مجموعة العناصر المغلقة المتكررة
+2177,frequent item set,مجموعة العناصر المتكررة
+2178,frequent pattern,الأنماط المتكررة
+2179,frequent pattern mining,تنقيب الأنماط المتكررة
+2180,fully connected graph,رسم بياني متصل بالكامل
+2181,fully connected layer,طبقة متصلة بالكامل
+2182,fully connected network,شبكة متصلة بالكامل
+2183,fully connected neural network,شبكة عصبية متصلة بالكامل
+2184,fully convolutional network,شبكة تلافيفية بالكامل
+2185,fully convolutional neural network,شبكة عصبية تلافيفية بالكامل
+2186,fully-supervised model,نموذج خاضع للإشراف الكامل
+2187,function approximation,تقريب الدوال
+2188,function approximator,مُقَرِّب الدالة
+2189,function class,فئة الدوال
+2190,function space,فضاء الدوال
+2191,functionality assertion,تصريح الوظائف
+2192,fundamental matrix,المصفوفة الأساسية
+2193,fusion module,وحدة الدمج
+2194,fuzzy logic,منطق ضبابي
+2195,fuzzy matching,المطابقة الضبابية
+2196,g-value,قيمة g
+2197,game tree,شجرة اللعبة
+2198,game-theoretic analysis,التحليل النظري للألعاب
+273,gamma distribution,توزيع غاما
+2199,gate,بوابة
+2200,gating function,دالة البوابة
+2201,generalisation,التعميم
+2202,generalization,التعميم
+2203,generalization ability,قدرة التعميم
+2204,generalization bound,حد التعميم
+2205,generalization error,خطأ التعميم
+2206,generalization gap,فجوة التعميم
+2207,generalization guarantee,ضمان التعميم
+2208,generalization performance,أداء التعميم
+2209,generalize,تعميم
+2210,generalized eigenvector,المتجهات الذاتية المعممة
+2211,generalized linear mixed model,النموذج الخطي المختلط المعمم
+2212,generalized linear model,النموذج الخطي العام
+2213,generated,الذي تم توليده
+2214,generating,توليد
+2215,generation,توليد
+2216,generation model,نموذج التوليد
+2217,generative,توليدي
+2218,generative adversarial network,شبكة توليدية تنافسية
+303,generative adversarial networks,الشبكات التوليدية التنافسية
+2219,generative approach,النهج التوليدي
+304,generative model,النموذج التوليدي
+2220,generative network,الشبكة التوليدية
+2221,generative parser,محلل توليدي
+2222,generative pre-trained transformer,محول توليدي مسبق التدريب 
+2223,generative pre-training,التدريب المسبق التوليدي
+2224,generative probabilistic model,نموذج احتمالي توليدي
+2225,generative process,العملية التوليدية
+305,generator,المولد
+2226,generator architecture,بنية المولد
+2227,generator network,شبكة المولد
+306,genetic algorithm,الخوارزمية الجينية
+2228,genetic algorithms,خوارزمية جينية
+2229,geodesic,المنحنى الجيوديسي
+2230,geodesic distance,المسافة الجيوديسية
+2231,geometric consistency,الاتساق الهندسي
+2232,geometric distribution,التوزيع الهندسي
+2233,geometric invariant,الثابت الهندسي
+2234,geometric transformation,التحويل الهندسي
+2235,geometry processing,معالجة الهندسة
+2236,gibb distribution,توزيع جيبز
+2237,gist descriptor,موصِّف الجوهر
+2238,global average pooling,التجميع عبر المتوسط العالمي
+2239,global average pooling layer,طبقة التجميع المتوسط العالمي
+2240,global coordinate frame,إطار الإحداثيات العالمي
+2241,global illumination,الإضاءة العالمية
+2242,global minima,الحد الأدنى العالمي
+2243,global minimum,الحد الأدنى العالمي
+2244,global model,النموذج العالمي
+2245,global objective,الهدف العالمي
+2246,global optima,القيم المثلى العالمية
+2247,global optimization,التحسين العالمي
+2248,global optimum,الأمثل العالمي
+2249,global pooling,التجميع العالمي
+2250,global reward,المكافأة العالمية
+2251,glowworm swarm optimization,تحسين سرب الدودة المضيئة
+2252,goal state,حالة الهدف
+2253,gold label,التسمية الذهبية
+2254,gold parse,التحليل الذهبي
+2255,gossip algorithm,خوارزمية النميمة
+2256,gradient,مشتقة
+2257,gradient accumulation,تراكم التدرج
+2258,gradient accumulation step,خطوة تراكم التدرج
+2259,gradient ascent,صعود التدرج
+2260,gradient boosted tree,شجرة معززة بالتدرج
+2261,gradient clipping,قص اشتقاقي
+2262,gradient computation,حساب التدرج
+2263,gradient descent,نزول اشتقاقي
+2264,gradient descent algorithm,خوارزمية النزول بالتدرج
+2265,gradient estimate,تقدير التدرج
+2266,gradient estimation,تقدير التدرج
+2267,gradient estimator,مُقدِّر التدرج
+2268,gradient explosion,انفجار التدرج
+2269,gradient flow,تدفق التدرج
+2270,gradient information,معلومات التدرج
+2271,gradient method,طريقة التدرج
+2272,gradient norm,معيار التدرج
+2273,gradient operator,مُشغِّل التدرج
+2274,gradient penalty,عقوبة التدرج
+2275,gradient signal,إشارة التدرج
+2276,gradient step,خطوة التدرج
+2277,gradient term,مصطلح التدرج
+2278,gradient update,تحديث التدرج
+2279,gradient variance,تباين التدرج
+2280,gradient vector,متجه التدرج
+2281,gradient-based approach,النهج القائم على التدرج
+2282,gradient-based learning,التعلم القائم على التدرج
+2283,gradient-based method,الطريقة القائمة على التدرج
+2284,gradient-based optimization,التحسين القائم على التدرج
+2285,grammar,القواعد
+2286,grammar inducer,مولد القواعد
+2287,grammar induction,استنباط القواعد
+2288,grammatical,نحوي
+2289,grammatical error detection,كشف الأخطاء النحوية
+2290,grandparent dependency,تبعية الأجداد
+315,graph,رسم بياني
+2292,graph Laplacian,لابلاسيان الرسم البياني
+2293,graph Laplacian matrix,مصفوفة لابلاسيان الرسم البياني
+2294,graph adjacency matrix,مصفوفة تلاصق الرسم البياني
+2295,graph attention,انتباه الرسم البياني
+2296,graph attention mechanism,آلية انتباه الرسم البياني
+2297,graph attention network,شبكة انتباه الرسم البياني
+2298,graph classification,تصنيف الرسم البياني
+2299,graph clustering,تجميع الرسم البياني
+2300,graph construction,بناء الرسم البياني
+2301,graph contrastive learning,التعلم التبايني للرسوم البيانية
+2302,graph convolution,التلافيف على الرسم البياني
+2303,graph convolution network,شبكة الالتفاف البياني
+2304,graph convolutional network,الشبكة التلافيفية على الرسم البياني
+2305,graph cut,قطع الرسم البياني
+2306,graph cut algorithm,خوارزمية قطع الرسم البياني
+2307,graph dataset,مجموعة بيانات الرسم البياني
+2308,graph datum,بيانات الرسم البياني
+2309,graph diameter,قطر الرسم البياني
+2310,graph embedding,تضمين الرسم البياني
+2311,graph generator,مولد الرسوم البيانية
+2312,graph isomorphism,تماثل الرسوم البيانية
+2313,graph kernel,نواة الرسم البياني
+2314,graph learning,تعلم الرسم البياني
+2315,graph matching,مطابقة الرسوم البيانية
+2316,graph mining,تنقيب الرسوم البيانية
+2317,graph model,نموذج الرسم البياني
+2318,graph neural network,شبكة عصبية شبكية
+316,graph neural networks,شبكات الرسم البياني العصبية
+2319,graph node,عقدة الرسم البياني
+2320,graph partitioning,تقسيم الرسم البياني
+2321,graph pattern,نمط الرسم البياني
+2322,graph representation,تمثيل الرسم البياني
+2323,graph sampling,أخذ عينات الرسم البياني
+2324,graph structure,هيكل الرسم البياني
+2325,graph theory,نظرية الرسوم البيانية
+2326,graph topology,طوبولوجيا الرسم البياني
+2327,graph traversal,استكشاف الرسم البياني
+2328,graph-based approach,النهج القائم على الرسم البياني
+2329,graph-based dependency parsing,تحليل التبعيات القائم على الرسم البياني
+2330,graph-based learning,التعلم القائم على الرسم البياني
+2331,graph-based method,طريقة قائمة على الرسم البياني
+2332,graph-based model,النموذج القائم على الرسوم البيانية
+2333,graph-based representation,تمثيل قائم على الرسم البياني
+2334,graph-level task,مهمة على مستوى الرسم البياني
+2335,graphical model,النموذج الرسومي
+2336,graphics processing unit,وحدة معالجة الرسوميات
+2337,graphlet,الرسومات البيانية الصغيرة
+2338,graphlet kernel,نواة الرسوم البيانية الصغيرة
+2339,graphs,الرسوم البيانية
+318,greedy,جشع
+2340,greedy algorithm,الخوارزمية الجشعة
+2341,greedy approach,النهج الجشع
+2342,greedy decoding,الترميز الجشع
+2343,greedy inference,الاستدلال الجشع
+2344,greedy maximization,التعظيم الجشع
+2345,greedy method,الطريقة الجشعة
+2346,greedy optimization,التحسين الجشع
+2347,greedy policy,سياسة جشعة
+2348,greedy search,بحث جشع
+2349,greedy strategy,استراتيجية جشعة
+2350,grid cell,خلية شبكية
+2351,grid computing,حوسبة شبكية
+2352,grid search,بحث شبكي
+2353,grid-world,عالم الشبكة
+2354,ground atom,ذرة أرضية
+2355,ground set,المجموعة الأساسية
+319,ground truth,الحقيقة الأساسية
+2356,ground truth label,تسمية الحقيقة الأرضية
+2357,ground-truth box,صندوق الحقيقة الأرضية
+2358,grounded language learning,تعلم اللغة المتجذر
+2359,grounded supervision,الإشراف المستند إلى الواقع
+2360,grounding,التأسيس
+2361,group normalization,التطبيع الجماعي
+2362,group sparsity,ندرة جماعية
+2363,half-space,نصف الفضاء
+2364,hand pose estimation,تقدير وضع اليد
+2365,hard attention,الانتباه الصارم
+2366,hash,تجزئة
+2367,hash function,دالة التجزئة
+2368,hash table,جدول التجزئة
+2369,hashing algorithm,خوارزمية التجزئة
+2370,hate speech classifier,مصنف خطاب الكراهية
+2371,hate speech detection,كشف خطاب الكراهية
+2372,head entity,الكيان الرئيسي
+2373,head word,الكلمة الرئيسية
+2374,heap structure,هيكل الكومة
+2375,heatmap,خريطة الحرارة
+2376,held-out data,البيانات المحجوبة
+2377,heuristic,إرشادي
+2378,heuristic algorithm,خوارزمية إرشادية
+2379,heuristic function,دالة استرشادية
+2380,heuristic search,البحث الاسترشادي
+2381,heuristic search algorithm,خوارزمية البحث الاسترشادي
+2382,heuristic value,القيمة الاستدلالية
+339,hidden Markov model,نموذج ماركوف المخفي
+2383,hidden dimension,البُعد المخفي
+2384,hidden dimension size,حجم البُعد المخفي
+2385,hidden dimensionality,الأبعاد المخفية
+2386,hidden embedding,التمثيل المخفي
+2387,hidden feature,الميزة المخفية
+2388,hidden layer,الطبقة المخفية
+2389,hidden representation,التمثيل المخفي
+2390,hidden size,حجم الطبقة المخفية
+2391,hidden state,الحالة المخفية
+2392,hidden state dimension,بُعد الحالة المخفية
+2393,hidden state representation,تمثيل الحالة المخفية
+2394,hidden state vector,متجه الحالة المخفية
+2395,hidden unit,وحدة مخفية
+2396,hidden variable,متغير مخفي
+2397,hierarchical agglomerative clustering,التجميع الهرمي التراكمي
+2398,hierarchical clustering,تجميع هرمي
+2399,hierarchical decoder,فك الترميز الهرمي
+2400,hierarchical feature,الميزات الهرمية
+2401,hierarchical inference,الاستدلال الهرمي
+2402,hierarchical method,الطريقة الهرمية
+2403,hierarchical model,نموذج هرمي
+2404,hierarchical reinforcement learning,التعلم المعزز الهرمي
+2405,hierarchical representation,تمثيل هرمي
+2406,hierarchical structure,بنية هرمية
+2407,hierarchical topic model,نموذج الموضوعات الهرمي
+2408,hierarchy,تسلسل هرمي
+2409,high-dimensional datum,بيانات ذات أبعاد عالية
+2410,high-dimensional space,الفضاء عالي الأبعاد
+2411,high-dimensionality,البعدية العالية
+2412,higher-order feature,ميزة من الرتبة الأعلى
+2413,higher-order model,نموذج من الرتبة الأعلى
+2414,hill-climbing,التسلق التلّي
+2415,hinge loss,خسارة مفصلية
+2416,hinge loss function,دالة خسارة المفصلة
+2417,histogram of oriented gradient,هيستوغرام التدرجات الموجهة
+2418,homogeneous coordinate,الإحداثيات المتجانسة
+2419,homographie,"""هوموغرافيا"" (""Homography"")"
+2420,homography matrix,مصفوفة الهوموغرافية
+2421,homomorphism,التماثل
+2422,human,بشري
+2423,human annotation,التوسيم البشري
+2424,human pose,وضع الإنسان
+2425,human pose estimation,تقدير وضع الإنسان
+2426,human-computer interaction,التفاعل بين الإنسان والحاسوب
+2427,human-in-the-loop,الإنسان في الحلقة
+2428,human-machine interaction,التفاعل بين الإنسان والآلة
+2429,hybrid model,النموذج الهجين
+2430,hyper-graph,الهايبر غراف
+2431,hyper-parameter tuning,ضبط المعلمات الفائقة
+2432,hyperbolic space,الفضاء الزائدي
+2433,hyperedge,الهايبرحافة
+2434,hypernym,الاسم الشامل
+2435,hypernymy,العلاقة الهرمية
+2436,hyperparameter optimization,تحسين المعلمات الفائقة
+2437,hyperparameter selection,اختيار المعلمات الفائقة
+2438,hyperparameter setting,إعدادات المعلمات الفائقة
+2439,hyperparameter space,فضاء المعلمات الفائقة
+2440,hyperparameters tuning,ضبط معاملات الضبط
+2441,hyperplane,المستوى الفائق
+2442,hyperprior,الهايبر برايور
+2443,hyponym,هيبونيم
+2444,hyponymy,الهيبونيمية
+2445,hypothesis class,فئة الفرضيات
+2446,hypothesis set,مجموعة الفرضيات
+2447,hypothesis space,فضاء الفرضيات
+2448,hypothesis test,اختبار الفرضيات
+2449,i.i.d,مستقل ومتطابق التوزيع
+2450,i.i.d. sample,عينة مستقلة ومتماثلة التوزيع
+2451,idempotent,ذو خاصية الإيديمبوتنت
+2452,identifying,تحديد
+2453,identity function,دالة الهوية
+2454,identity mapping,رسم خرائط الهوية
+2455,identity matrix,مصفوفة الهوية
+2456,identity transformation,تحويل الهوية
+2457,image,صورة
+2458,image analysis,تحليل الصور
+2459,image captioning,وصف الصورة
+2460,image classification,تصنيف الصور
+2461,image compression,ضغط الصور
+2462,image denoising,إزالة الضوضاء من الصور
+2463,image diffusion model,نموذج انتشار الصور
+2464,image embedding,تضمين الصورة
+2465,image encoder,مشفر الصورة
+2466,image feature,ميزة الصورة
+2467,image generation,توليد الصورة
+2468,image inpainting,إعادة ترميم الصورة
+2469,image patch,رقعة الصورة
+2470,image plane,مستوى الصورة
+2471,image processing,معالجة الصور
+2472,image pyramid,هرم الصورة
+2473,image recognition,التعرف على الصور
+2474,image representation,تمثيل الصورة
+2475,image restoration,استعادة الصورة
+2476,image segmentation,تقسيم الصورة
+2477,image super-resolution,تحسين دقة الصورة
+2478,image synthesis,توليد الصورة
+2479,image translation,ترجمة الصور
+2480,image-based rendering,التصيير القائم على الصور
+2481,image-text pre-training,التدريب المسبق على الصورة والنص
+2482,image-to-image translation,الترجمة من صورة إلى صورة
+354,imitation learning,التعلم بالتقليد
+2483,immediate consequence operator,مشغل العواقب الفورية
+2484,imperfect information,معلومات غير كاملة
+2485,implicit bias,تحيز ضمني
+2486,implicit differentiation,التفاضل الضمني
+2487,implicit function,دالة ضمنية
+2488,implicit representation,تمثيل ضمني
+2489,implicit surface,سطح ضمني
+2490,importance sampling,أخذ العينات بالاعتماد على الأهمية
+2491,importance sampling estimator,مقدر أخذ العينات بالاعتماد على الأهمية
+2492,importance weight,وزن الأهمية
+2493,in-context demonstration,العرض التوضيحي في السياق
+2494,in-context example,مثال في السياق
+2495,in-context learner,المتعلم في السياق
+2496,in-database analytics,تحليلات في قاعدة البيانات
+2497,in-degree distribution,توزيع الدرجة الداخلية
+2498,in-distribution,في التوزيع
+2499,in-domain,ضمن المجال
+2500,in-domain text,نص ضمن المجال
+2501,in-neighbor,الجيران الداخلين
+2502,in-order traversal,الاجتياز بالترتيب
+2503,inception score,درجة الإنشاء
+2504,incremental learning,تعلم تدريجي
+2505,incremental parsing,التحليل التدريجي
+359,independent component analysis,تحليل المكونات المستقلة
+2506,independent set,مجموعة مستقلة
+2507,independent variable,متغير مستقل
+2508,indicator matrix,مصفوفة مؤشرات
+2509,indicator variable,متغير المؤشر
+2510,indicator vector,متجه المؤشرات
+2511,induced subgraph,الرسم البياني الفرعي المستحث
+2512,inducing variable,المتغيرات المستحثة
+2513,induction hypothesis,فرضية الاستقراء
+2514,inductive bias,التحيز الاستقرائي
+2515,inductive learning,التعلم الاستقرائي
+2516,inf,القيمة الدنيا
+2517,inference,استدلال
+2518,inference algorithm,خوارزمية الاستدلال
+2519,inference machinery,آلية الاستدلال
+2520,inference method,طريقة الاستدلال
+2521,inference problem,مشكلة الاستدلال
+2522,inference procedure,إجراء الاستدلال
+2523,inference process,عملية الاستدلال
+2524,inference rule,قاعدة الاستدلال
+2525,inference stage,مرحلة الاستدلال
+2526,inference task,مهمة الاستدلال
+2527,inference time,وقت الاستدلال
+2528,infinite-horizon,الأفق اللانهائي
+2529,influence diagram,مخطط التأثير
+2530,influence function,دالة التأثير
+2531,information,معلومات
+2532,information bottleneck,عنق الزجاجة المعلوماتي
+2533,information content,محتوى المعلومات
+2534,information gain,كسب المعلومات
+362,information retrieval,استرجاع المعلومات
+2535,information retrieval system,نظام استرجاع المعلومات
+2536,information set,مجموعة المعلومات
+2537,information theoretic,نظرية المعلومات
+2538,information theoretic measure,مقياس نظري المعلومات
+2539,infoset,مجموعة المعلومات
+2540,inhomogeneous Poisson process,عملية بواسون غير متجانسة
+2541,initial distribution,التوزيع الابتدائي
+2542,initial state,الحالة الابتدائية
+2543,initial state distribution,توزيع الحالة الابتدائية
+2544,initialization,التهيئة
+2545,injective function,دالة حقنية
+2546,inlier,نقطة داخلية
+2547,inner layer,الطبقة الداخلية
+2548,inner loop,الحلقة الداخلية
+2549,inner node,العقدة الداخلية
+2550,inner product,الضرب الداخلي
+2551,input,المدخلات
+2552,input context,سياق الإدخال
+2553,input datum,بيانات الإدخال
+2554,input embedding,تمثيل الإدخال
+2555,input feature,ميزة الإدخال
+2556,input feature vector,متجه ميزة الإدخال
+2557,input filter,فلتر الإدخال
+2558,input formula,صيغة الإدخال
+2559,input gate,بوابة الإدخال
+2560,input graph,الرسم البياني للإدخال
+2561,input image,صورة الإدخال
+2562,input layer,طبقة الإدخال
+2563,input length,طول الإدخال
+2564,input matrix,مصفوفة الإدخال
+2565,input point,نقطة الإدخال
+2566,input position,موضع الإدخال
+2567,input representation,تمثيل الإدخال
+2568,input resolution,دقة الإدخال
+2569,input sequence,تسلسل الإدخال
+364,input space,فضاء المدخلات
+2570,input tensor,موتر الإدخال
+2571,input text,نص الإدخال
+2572,input token,رمز الإدخال
+2573,input vector,متجه الإدخال
+2574,input-output pair,زوج إدخال-إخراج
+2575,instance,مثال
+2576,instance level,مستوى المثيل
+2577,instance segmentation,تجزئة الكائنات
+2578,instance selection,اختيار المثيل
+2579,instance space,فضاء الحالات
+2580,instruction tuning,ضبط التعليمات
+2581,integer linear program,برنامج خطي صحيح
+2582,integer program,برنامج صحيح
+2583,integral image,الصورة التكاملية
+2584,integral operator,مشغل تكاملي
+2585,integral probability metric,مقياس الاحتمال التكاملي
+2586,integrity constraint,القيود المتعلقة بالنزاهة
+2587,intelligent agent,وكيل ذكي
+2588,intensity function,دالة الشدة
+2589,intent,نية
+2590,inter-annotator agreement,اتفاق بين المراجعين
+2591,interaction matrix,مصفوفة التفاعل
+2592,interest point,نقطة اهتمام
+2593,interior point method,طريقة النقطة الداخلية
+2594,intermediate layer,طبقة وسيطة
+2595,intermediate representation,التمثيل الوسيط
+2596,internal edge,الحافة الداخلية
+2597,internal node,العقدة الداخلية
+2598,internal regret,الندم الداخلي
+2599,internal representation,التمثيل الداخلي
+2600,internal state,الحالة الداخلية
+2601,internet,الإنترنت
+2602,interpolation,الاستيفاء
+2603,interpretability,قابلية التفسير
+2604,interpretable,قابل للتفسير
+2605,interpretation function,دالة التفسير
+2606,intersection-over-union,معدل التقاطع على الاتحاد
+2607,interval estimate,تقدير الفاصل الزمني
+2608,intractability,الاستعصاء
+2609,intrinsic,الأساسية
+2610,intrinsic camera parameter,معامل الكاميرا الأساسي
+2611,intrinsic dimension subspace,الفضاء الفرعي البعد الجوهري
+2612,intrinsic dimensionality,الأبعاد الأساسية
+2613,intrinsic evaluation,التقييم الداخلي
+2614,intrinsic image,الصورة الجوهرية
+2615,intrinsic parameter,البارامترات الجوهرية
+2616,inverse document frequency,تردد الوثيقة العكسي
+2617,inverse dynamic model,نموذج الديناميات العكسي
+2618,inverse problem,المشكلة العكسية
+367,inverse reinforcement learning,التعلم المعزز العكسي
+2619,inverse rendering,التصيير العكسي
+2620,inverse role,الدور العكسي
+2621,inverse square root learning rate schedule,جدول معدل التعلم الجذر التربيعي العكسي
+2622,inverse square root learning rate scheduler,مجدول معدل التعلم الجذر التربيعي العكسي
+2623,inverse transform sampling,أخذ العينات باستخدام التحويل العكسي
+2624,inverted index,الفهرس المقلوب
+2625,inverted list,الفهرس العكسي
+2626,invertible map,خريطة قابلة للعكس
+2627,invertible matrix,مصفوفة قابلة للعكس
+2628,iobj,المفعول به غير المباشر
+2629,iso-surface extraction,استخراج الأسطح المتساوية
+2630,isotropic Gaussians,غاوسيين الخواص
+2631,itemset,مجموعة العناصر
+2632,iterate,تكرار
+2633,iterated conditional mode,الوضع الشرطي التكراري
+2634,iteration,تكرار
+2635,iteration complexity,تعقيد التكرار
+2636,iteration counter,عداد التكرار
+2637,iterative algorithm,خوارزمية تكرارية
+2638,iterative deepening,التعمق التكراري
+2639,iterative optimization,التحسين التكراري
+2640,iterative optimization algorithm,خوارزمية التحسين التكراري
+2641,iterative training algorithm,خوارزمية التدريب التكراري
+2642,iteratively reweighted least square,المربعات الصغرى المعاد وزنها تكرارياً
+2643,joint density,الكثافة المشتركة
+2644,joint distribution,التوزيع المشترك
+2645,joint embedding space,فضاء التضمين المشترك
+2646,joint encoding,الترميز المشترك
+2647,joint entropy,الإنتروبيا المشتركة
+2648,joint inference,الاستدلال المشترك
+2649,joint learning,التعلم المشترك
+2650,joint learning algorithm,خوارزمية التعلم المشترك
+2651,joint likelihood,الاحتمالية المشتركة
+2652,joint model,النموذج المشترك
+2653,joint policy,السياسة المشتركة
+2654,joint probability,الاحتمال المشترك
+2655,joint probability distribution,توزيع الاحتمال المشترك
+2656,joint probability matrix,مصفوفة الاحتمال المشترك
+2657,joint probability table,جدول الاحتمال المشترك
+2658,joint semantic space,الفضاء الدلالي المشترك
+2659,junction tree,شجرة التقاطع
+2660,junction tree algorithm,خوارزمية شجرة التقاطع
+2661,k nearest neighbor,أقرب جيران عدد k
+2662,k-Center,ك-مركز
+2663,k-best list,قائمة k الأفضل
+2664,k-best parsing,تحليل أفضل k
+2665,k-d tree,شجرة k-d
+2666,k-hop neighbor,جيران k-hop
+2667,k-means clustering algorithm,خوارزمية التجميع k-means
+2668,k-nearest neighbor,ك-أقرب جار
+2669,k-nearest neighbor classifier,مصنف الجار الأقرب k
+2670,k-nearest neighbor graph,رسم بياني لأقرب جار k
+2671,kernel approximation,تقريب النواة
+2672,kernel bandwidth,عرض النواة
+2673,kernel classifier,مصنف النواة
+2674,kernel density,كثافة النواة
+2675,kernel density estimate,تقدير كثافة النواة
+2676,kernel density estimation,تقدير كثافة النواة
+2677,kernel evaluation,تقييم النواة
+2678,kernel function,دالة النواة
+2679,kernel learning,تعلم النواة
+2680,kernel learning problem,مشكلة تعلم النواة
+2681,kernel machine,آلة النواة
+2682,kernel matrix,مصفوفة النواة
+2683,kernel method,طريقة النواة
+2684,kernel operation,عملية النواة
+2685,kernel operator,مشغل النواة
+2686,kernel parameter,معامل النواة
+2687,kernel regression,انحدار النواة
+2688,kernel ridge regression,انحدار Ridge بالنواة
+2689,kernel size,حجم النواة
+2690,kernel smoothing,تنعيم النواة
+2691,kernel space,فضاء النواة
+2692,kernel spectrum,طيف النواة
+2693,kernel support vector machine,آلة المَّتجهات الداعمة باستخدام النواة
+2694,kernel trick,حيلة النواة
+2695,kernel value,قيمة النواة
+2696,kernel weight,وزن النواة
+2697,kernel width,عرض النواة
+2698,kernel-based classification,التصنيف القائم على النواة
+2699,key,مفتاح
+2700,keypoint,نقطة مفتاحية
+2701,keypoint detection,اكتشاف النقاط الرئيسية
+2702,keypoint detector,كاشف النقاط الرئيسية
+2703,keypoint location,موقع النقطة الرئيسية
+2704,keypoint match,مطابقة النقاط المفتاحية
+2705,knapsack problem,مشكلة حقيبة الظهر
+2706,knowledge,المعرفة
+389,knowledge base,قاعدة المعرفة
+2707,knowledge compilation,تجميع المعرفة
+390,knowledge distillation,تقطير المعرفة
+2708,knowledge element,عنصر المعرفة
+2709,knowledge graph,شبكة معرفية
+2710,knowledge graph completion,إكمال رسم المعرفة
+2711,knowledge representation,تمثيل المعرفة
+2712,knowledge transfer,نقل المعرفة
+2713,label,تسمية
+2714,label distribution,توزيع التسميات
+2715,label embedding,تضمين التسمية
+2716,label noise,ضوضاء التسميات
+2717,label sequence,تسلسل التسميات
+2718,label smoothing,تنعيم التسمية
+2719,label space,فضاء التسميات
+2720,label token,رمز التسمية
+2721,label vector,متجه التسمية
+2722,labeled,مُعَلَّم
+2723,labeled datum,بيانات موسومة
+2724,labeled example,مثال موسوم
+2725,labeled graph,رسم بياني مُعَلَّم
+2726,labeled training datum,بيانات تدريب مُعلمة
+2727,lambda calculus,حساب لامدا
+2728,landmark,معلم
+2729,landmark point,نقطة معلم
+2730,language,لغة
+2731,language drift,انحراف اللغة
+2732,language encoder,مشفر اللغة
+2733,language generation,توليد اللغة
+2734,language generation model,نموذج توليد اللغة
+2735,language identification,تحديد اللغة
+422,language model,نموذج اللغة
+2736,language model pre-training,التدريب المسبق لنموذج اللغة
+2737,language pair,زوج لغوي
+2738,language representation,تمثيل اللغة
+2739,language transfer,نقل اللغة
+2740,language understanding,فهم اللغة
+2741,languages,اللغات
+2742,large,كبير
+2743,large language model,نموذج لغوي كبير
+2744,large-margin learning,التعلم ذو الهامش الكبير
+434,latent Dirichlet allocation,تخصيص ديريشليه الكامن
+2745,latent code,الرمز الكامن
+2746,latent dimension,البعد الكامن
+2747,latent distribution,التوزيع الكامن
+2748,latent dynamic model,نموذج الديناميات الكامنة
+2749,latent embedding,التضمين الكامن
+2750,latent factor,العامل الكامن
+2751,latent feature,السمة الكامنة
+2752,latent function,الدالة الكامنة
+2753,latent group,المجموعة الكامنة
+2754,latent parameter,معلمة كامنة
+2755,latent representation,التمثيل الكامن
+2756,latent reward function,دالة المكافأة الكامنة
+2757,latent semantic,الدلالية الكامنة
+435,latent semantic analysis,التحليل الدلالي الكامن
+2758,latent space,الفضاء الكامن
+2759,latent state,الحالة الكامنة
+2760,latent topic,الموضوع الكامن
+2761,latent variable,المتغير الكامن
+2762,latent variable model,نموذج المتغيرات الخفية
+2763,latent vector,المتجه الكامن
+2764,layer,طبقة
+2765,layer activation,تفعيل الطبقة
+436,layer normalization,تطبيع الطبقة
+2766,layer-wise learning rate decay,تناقص معدل التعلم حسب الطبقة
+2767,lazy grounding,التأسيس الكسول
+2768,leaf node,عقدة ورقية
+2769,leaky ReLU,دالة ريلو المتسربة
+2770,learnability,قابلية التعلم
+2771,learnable parameter,معامل قابل للتعلم
+2772,learnable vector,متجه قابل للتعلم
+2773,learned model,النموذج المتعلم
+2774,learned representation,التمثيل المتعلم
+2775,learner,المتعلم
+2776,learning,التعلم
+2777,learning agent,وكيل التعلم
+2778,learning algorithm,خوارزمية التعلم
+2779,learning method,طريقة التعلم
+2780,learning paradigm,نموذج التعلم
+2781,learning problem,مشكلة التعلم
+2782,learning rate,معدل التعلم
+2783,learning rate decay,اضمحلال معدل التعلم
+2784,learning rate decay schedule,جدول اضمحلال معدل التعلم
+2785,learning rate schedule,جدول معدل التعلم
+2786,learning rate scheduler,منظم معدل التعلم
+2787,learning rate warmup,تسخين معدل التعلم
+2788,learning-to-rank algorithm,خوارزمية التعلم للترتيب
+2789,least square,المربعات الصغرى
+2790,least square criterion,معيار المربعات الصغرى
+2791,least square minimization,تقليل المربعات الصغرى
+2792,least square problem,مشكلة المربعات الصغرى
+2793,least square regression,انحدار المربعات الصغرى
+2794,least square solution,حل المربعات الصغرى
+2795,leave-one-out,ترك واحد خارج
+2796,left-to-right model,نموذج من اليسار إلى اليمين
+2797,lemmatization,استخراج الجذور
+2798,length normalization,تطبيع الطول
+2799,length penalty,عقوبة الطول
+2800,lexeme,الوحدة المعجمية
+2801,lexical,معجمي
+2802,lexical acquisition,الاكتساب المعجمي
+2803,lexical acquisition algorithm,خوارزمية اكتساب المفردات
+2804,lexical ambiguity,الغموض المعجمي
+2805,lexical entry,مدخل معجمي
+2806,lexical exposure,التعرض المعجمي
+2807,lexical feature,السمة المعجمية
+2808,lexical head,الرأس المعجمي
+2809,lexical item,عنصر معجمي
+2810,lexical knowledge,المعرفة المعجمية
+2811,lexical model,النموذج المعجمي
+2812,lexical overlap,التداخل المعجمي
+2813,lexicalization,التضمين المعجمي
+2814,lexicalized grammar,نحو معجمي
+2815,lexicalized parsing model,نموذج التحليل المعجمي
+2816,lexicon,معجم
+2817,lexicon induction,تحريض المعجم
+444,lifelong learning,التعلم مدى الحياة
+2818,light field,الحقل الضوئي
+2819,light field interpolation,استيفاء حقل الضوء
+2820,likelihood function,دالة الأرجحية
+2821,likelihood ratio test,اختبار نسبة الاحتمال
+2822,likelihood score,درجة الاحتمالية
+2823,line search,البحث الخطي
+2824,linear,خطي
+2825,linear activation function,دالة التفعيل الخطية
+2826,linear algebra,الجبر الخطي
+2827,linear classification,التصنيف الخطي
+2828,linear classification layer,طبقة التصنيف الخطية
+2829,linear classifier,مصنف خطي
+2830,linear combination,تركيبة خطية
+2831,linear complexity,تعقيد خطي
+2832,linear constraint,قيد خطي
+2833,linear decay,اضمحلال خطي
+2834,linear decoder,الديكودر الخطي
+2835,linear discriminant analysis,تحليل التمييز الخطي
+2836,linear equation,معادلة خطية
+2837,linear evaluation,التقييم الخطي
+2838,linear function,دالة خطية
+2839,linear function approximation,تقريب دالة خطية
+2840,linear inequality,متباينة خطية
+2841,linear interpolation,استيفاء خطي
+2842,linear kernel,نواة خطية
+2843,linear layer,الطبقة الخطية
+2844,linear learning rate decay,اضمحلال خطي لمعدل التعلم
+2845,linear learning rate schedule,جدول معدل التعلم الخطي
+2846,linear map,تحويل خطي
+2847,linear model,نموذج خطي
+2848,linear predictor,المتنبئ الخطي
+2849,linear probe,المسبار الخطي
+2850,linear program,البرنامج الخطي
+2851,linear programming relaxation,استرخاء البرمجة الخطية
+2852,linear projection,الإسقاط الخطي
+2853,linear regression,الانحدار الخطي
+2854,linear regression model,نموذج الانحدار الخطي
+2855,linear regressor,المنحدر الخطي
+2856,linear scaling,التحجيم الخطي
+2857,linear scheduler,جدول زمني خطي
+2858,linear separability,قابلية الفصل الخطي
+2859,linear system,نظام خطي
+2860,linear transform,تحويل خطي
+2861,linear transformation,تحويل خطي
+2862,linear transformation matrix,مصفوفة التحويل الخطي
+2863,linear warm-up,الإحماء الخطي
+2864,linear-chain,سلسلة خطية
+2865,linear-quadratic regulator,منظم خطي-تربيعي
+2866,linearization,خطية
+2867,linguistic,لغوي
+2868,linguistics,اللغويات
+2869,link function,دالة الربط
+2870,link prediction,تنبؤ الروابط
+2871,linked,مرتبط
+2872,local basis function,دالة الأساس المحلية
+2873,local coherence,التماسك المحلي
+2874,local context,السياق المحلي
+2875,local coordinate frame,إطار الإحداثيات المحلي
+2876,local feature,الميزة المحلية
+2877,local geometry,الهندسة المحلية
+2878,local image feature,ميزة الصورة المحلية
+2879,local maxima,الحد الأقصى المحلي
+2880,local maximum,الحد الأقصى المحلي
+2881,local minima,الحد الأدنى المحلي
+2882,local minimizer,المُصغِّر المحلي
+2883,local minimum,الحد الأدنى المحلي
+2884,local model,النموذج المحلي
+2885,local optima,الحلول المثلى المحلية
+2886,local optimum,الأمثل المحلي
+2887,local parameter,المعامل المحلي
+2888,local search,البحث المحلي
+2889,local search method,طريقة البحث المحلي
+2890,local variable,متغير محلي
+2891,local window,نافذة محلية
+2892,locality-sensitive hashing,التجزئة الحساسة للمحلية
+2893,localization,تحديد الموقع
+2894,location parameter,معامل الموقع
+2895,log,لوغاريتم
+2896,log likelihood,الاحتمالية اللوغاريتمية
+2897,log loss,الخسارة اللوغاريتمية
+2898,log marginal likelihood,الاحتمالية الهامشية اللوغاريتمية
+2899,log p,لوغاريتم الاحتمال
+2900,log partition function,دالة التقسيم اللوغاريتمية
+2901,log perplexity,التعقيد اللوغاريتمي
+2902,log probability,احتمال اللوغاريتم
+2903,log-likelihood function,دالة الاحتمالية اللوغاريتمية
+2904,log-likelihood loss,خسارة الاحتمال اللوغاريتمي
+2905,log-likelihood ratio,نسبة الاحتمال اللوغاريتمي
+2906,log-linear model,نموذج لوج-خطي
+2907,log-linear translation model,نموذج الترجمة اللوغاريتمي الخطي
+2908,log-log plot,رسم بياني لوج-لوج
+2909,log-normal distribution,التوزيع اللوغاريتمي الطبيعي
+2910,log-odd score,درجة الأرجحية اللوغاريتمية
+2911,log-prob,الاحتمال اللوغاريتمي
+2912,log-sum-exp,لوغاريتم مجموع القيم الأسية
+2913,logical connective,الرابط المنطقي
+2914,logical form,الشكل المنطقي
+2915,logistic function,الدالة اللوجستية
+2916,logistic loss,خسارة لوجستية
+2917,logistic regression,انحدار لوجستي
+2918,logistic regression classifier,مصنف الانحدار اللوجستي
+2919,logistic regression model,نموذج الانحدار اللوجستي
+2920,logit,اللوغيت
+2921,logit model,نموذج اللوغيت
+2922,long short-term memory,الذاكرة القصيرة المدى المطولة
+2923,long-range dependency,التبعية طويلة المدى
+2924,lookup table,جدول البحث
+2925,loop closure,إغلاق الحلقة
+2926,loopy belief propagation,الانتشار الاعتقادي الحلقي
+2927,loss,الخسارة
+2928,loss distribution,توزيع الخسارة
+2929,loss function,دالة الخسارة
+2930,loss landscape,مشهد الخسارة
+2931,loss minimization,تقليل الخسارة
+2932,loss term,عنصر الخسارة
+2933,lossy compression,ضغط مع فقدان البيانات
+2934,lottery ticket hypothesis,فرضية التذكرة الرابحة
+2935,low rank,رتبة منخفضة
+2936,low rank approximation,تقريب منخفض الرتبة
+2937,low-data regime,نظام البيانات المنخفضة
+2938,low-dimensional embedding,التضمين منخفض الأبعاد
+2939,low-dimensional representation,تمثيل منخفض الأبعاد
+2940,low-pass filter,مرشح التمرير المنخفض
+2941,low-rank factorization,تحليل منخفض الرتبة
+2942,low-rank matrix approximation,تقريب المصفوفة منخفضة الرتبة
+2943,lower bound,الحد الأدنى
+2944,mIoU,متوسط تقاطع الاتحاد
+2945,mT5,mT5
+2946,machine learning,تعُّلم الآلة
+2947,machine learning algorithm,خوارزمية تعلم الآلة
+2948,machine learning classifier,مصنف التعلم الآلي
+2949,machine learning model,نموذج تعلم الآلة
+2950,machine learning system,نظام تعلم الآلة
+2951,machine reading,القراءة الآلية
+469,machine translation,الترجمة الآلية
+2952,machine translation model,نموذج الترجمة الآلية
+2953,machine translation system,نظام الترجمة الآلية
+2954,machine vision,الرؤية الآلية
+2955,machine-generated text,النص المُولَّد آليًا
+2956,machine-in-the-loop,آلة في الحلقة
+2957,macro-F1,ماكرو-F1
+2958,macro-action,إجراء ماكرو
+2959,macro-average,المتوسط الكلي
+2960,majority voting,التصويت بالأغلبية
+2961,manifold,مشعب
+2962,manifold hypothesis,فرضية المانيفولد
+2963,manifold learning,تعلم المتشعبات
+2964,manifold projection,إسقاط المانيفولد
+2965,manifold structure,بنية المانيفولد
+2966,manifold-valued datum,بيانات ذات قيم مانيفولدية
+2967,manually,يدويًا
+2968,margin parameter,معامل الهامش
+2969,marginal density,كثافة الهامش
+2970,marginal distribution,توزيع الهامش
+2971,marginal inference,الاستدلال الهامشي
+2972,marginal likelihood,الاحتمال الهامشي
+2973,marginal log-likelihood,اللوغاريتم الاحتمالي الهامشي
+2974,marginal polytope,بوليتوب هامشي
+2975,marginal probability,الاحتمال الهامشي
+2976,marginalization,التهميش
+2977,mask,قناع
+2978,mask token,رمز القناع
+2979,mask vector,متجه القناع
+2980,masked input,الإدخال المقنع
+2981,masked language model,نموذج اللغة المقنع
+2982,masked token,الرمز المقنّع
+2983,masking function,دالة التقنيع
+2984,matching algorithm,خوارزمية المطابقة
+2985,matching loss,خسارة المطابقة
+2986,matrix,مصفوفة
+2987,matrix approximation,تقريب المصفوفات
+500,matrix completion,إكمال المصفوفة
+2988,matrix decomposition,تحلل المصفوفة
+2989,matrix form,شكل مصفوفي
+2990,matrix inversion,عكس المصفوفة
+2991,matrix multiplication,ضرب المصفوفات
+2992,matrix norm,مقياس المصفوفة
+2993,matrix sketching,تخطيط المصفوفة
+2994,matrix vector product,حاصل ضرب المصفوفة والمتجه
+2995,matrix-vector multiplication,ضرب المصفوفة بالمتجه
+2996,matroid,ماترويد
+2997,matroid constraint,قيد الماترويد
+2998,max norm,معيار الحد الأقصى
+2999,max pooling,التجميع الأقصى
+3000,max-margin,أقصى هامش
+3001,max-margin learning,التعلم بالهامش الأقصى
+3002,max-pool,التجميع الأقصى
+3003,max-pooling layer,طبقة التجميع الأقصى
+3004,max-product semiring,حلقة الضرب الأقصى
+3005,maximal clique,الزمرة القصوى
+3006,maximal frequent itemset,مجموعة العناصر المتكررة القصوى
+3007,maximal frequent pattern,النمط المتكرر الأقصى
+3008,maximization problem,مشكلة التعظيم
+3009,maximum a posteriori,الأرجحية البعدية القصوى
+3010,maximum a posteriori estimation,التقدير الأقصى للاحتمال البعدي
+3011,maximum clique,الزمرة القصوى
+3012,maximum entropy,الانتروبيا القصوى
+3013,maximum entropy model,نموذج الإنتروبيا القصوى
+3014,maximum entropy principle,مبدأ الإنتروبيا القصوى
+3015,maximum flow,أقصى تدفق
+503,maximum likelihood,الاحتمالية القصوى
+3016,maximum likelihood estimate,تقدير الاحتمالية القصوى
+3017,maximum likelihood estimation,تقدير الاحتمالية القصوى
+3018,maximum likelihood estimator,مقدر الأرجحية القصوى
+3019,maximum likelihood learning,التعلم بالأرجحية القصوى
+3020,maximum mean discrepancy,الاختلاف الأقصى في المتوسط
+3021,mean average precision,متوسط الدقة العامة
+3022,mean field,المجال المتوسط
+3023,mean function,دالة المتوسط
+3024,mean pooling,تجميع المتوسط
+3025,mean reciprocal rank,متوسط الرتبة العكسية
+3026,mean shape,الشكل المتوسط
+3027,mean square error,الخطأ المربعي المتوسط
+3028,mean vector,المتجه المتوسط
+3029,mean-field approximation,تقريب المجال المتوسط
+3030,meaning,المعنى
+3031,measurable space,الفضاء القابل للقياس
+3032,measurement matrix,مصفوفة القياس
+3033,measurement noise,ضجيج القياس
+3034,medical imaging,التصوير الطبي
+3035,medoid,الميدويد
+3036,membership inference attack,هجوم استنتاج العضوية
+3037,membership query,استعلام العضوية
+3038,memory bank,بنك الذاكرة
+3039,memory capacity,سعة الذاكرة
+3040,memory cell,خلية الذاكرة
+3041,memory complexity,تعقيد الذاكرة
+3042,mention detection,كشف الإشارات
+3043,meronymy,علاقة الجزء بالكل
+3044,message passing,تمرير الرسائل
+3045,message passing algorithm,خوارزمية تمرير الرسائل
+3046,meta,الميتا
+3047,meta-algorithm,ميتا-خوارزمية
+3048,meta-classifier,الـمِتَا-مُصنِّف
+3049,meta-dataset,مجموعة بيانات ميتا
+3050,meta-evaluation,التقييم التلوي
+3051,meta-learn,ميتا-تعلم
+3052,meta-learner,المتعلم الفوقي
+506,meta-learning,التعلم الفوقي
+3053,meta-loss,الخسارة الفوقية
+3054,meta-parameter,معلمة فوقية
+3055,meta-testing,الاختبار الفوقي
+3056,meta-training,التدريب الفوقي
+3057,metadata,بيانات وصفية
+3058,metalearning,تعلم عملية التعلم
+3059,method,طريقة
+3060,methods,طرق
+3061,metric learning,التعلم المتري
+3062,metric learning algorithm,خوارزمية التعلم المترية
+3063,metric score,درجة المقياس
+3064,metric space,فضاء المقياس
+3065,metrics,المقاييس
+3066,micro-average,المتوسط الدقيق
+3067,microarray datum,بيانات المصفوفة الدقيقة
+3068,mini-batch,الدفعة المصغرة
+3069,mini-batch size,حجم الدفعة المصغرة
+3070,mini-batch training,التدريب بالدفعات المصغرة
+3071,minima,النقاط الدنيا
+3072,minimax,مينيماكس
+3073,minimax game,لعبة مينيماكس
+3074,minimax optimization problem,مشكلة تحسين مينيماكس
+3075,minimax problem,مشكلة مينيماكس
+3076,minimization problem,مشكلة التقليل
+3077,minimizer,المُقلِّل
+3078,minimum baye risk decoding,فك التشفير بخطر بايز الأدنى
+3079,minimum cut,القطع الأدنى
+3080,minimum description length,الحد الأدنى لطول الوصف
+3081,minimum support,الدعم الأدنى
+3082,mirror descent,الانحدار المرآتي
+3083,misclassification error,خطأ التصنيف
+3084,misclassification loss,خسارة التصنيف الخاطئ
+3085,misinformation detection,كشف المعلومات المضللة
+3086,mixed integer programming,البرمجة الصحيحة المختلطة
+3087,mixed precision,الدقة المختلطة
+3088,mixed precision training,التدريب بالدقة المختلطة
+3089,mixed strategy,استراتيجية مختلطة
+3090,mixed-integer program,برنامج مختلط الأعداد الصحيحة
+3091,mixing matrix,مصفوفة الخلط
+3092,mixing time,زمن الخلط
+3093,mixing weight,أوزان المزج
+3094,mixture component,مكون المزيج
+3095,mixture distribution,توزيع المزيج
+3096,mixture model,نموذج المزيج
+3097,mixture of Gaussians,مزيج من التوزيعات الغاوسية
+3098,mixture weight,وزن المزيج
+3099,mocap,التقاط الحركة
+3100,modalities,الأنماط
+3101,modality,نمط
+3102,mode,نمط
+3103,mode collapse,انهيار النمط
+515,model,نموذج
+3105,model M,النموذج M
+3106,model accuracy,دقة النموذج
+3107,model architecture,بنية النموذج
+3108,model averaging,متوسط النماذج
+3109,model bias,تحيز النموذج
+3110,model capacity,سعة النموذج
+3111,model card,بطاقة النموذج
+3112,model checking,التحقق من النموذج
+3113,model class,فئة النموذج
+3114,model comparison,مقارنة النماذج
+3115,model complexity,تعقيد النموذج
+3116,model compression,ضغط النموذج
+3117,model convergence,تقارب النموذج
+3118,model development,تطوير النموذج
+3119,model distillation,تقطير النموذج
+3120,model distribution,توزيع النموذج
+3121,model estimation,تقدير النموذج
+3122,model evaluation,تقييم النموذج
+3123,model family,عائلة النماذج
+3124,model fine-tuning,الضبط الدقيق للنموذج
+3125,model generalization,تعميم النموذج
+3126,model hyperparameter,المعلمات الفائقة للنموذج
+3127,model inference,استدلال النموذج
+3128,model initialization,تهيئة النموذج
+3129,model interpretability,قابلية تفسير النموذج
+3130,model interpretation,تفسير النموذج
+3131,model layer,طبقة النموذج
+3132,model output,مخرجات النموذج
+3133,model parallelism,توازي النماذج
+3134,model parameter,معلمة النموذج
+3135,model performance,أداء النموذج
+3136,model precision,دقة النموذج
+3137,model prediction,تنبؤ النموذج
+3138,model predictive control,التحكم التنبؤي بالنموذج
+3139,model representation,تمثيل النموذج
+3140,model robustness,متانة النموذج
+3141,model score,درجة النموذج
+3142,model selection,اختيار النموذج
+3143,model size,حجم النموذج
+3144,model specification,تحديد النموذج
+3145,model structure,هيكل النموذج
+3146,model training,تدريب النموذج
+3147,model update,تحديث النموذج
+3148,model variant,نوع النموذج
+3149,model weight,وزن النموذج
+3150,model's parameter,معلمات النموذج
+3151,model-based approach,النهج القائم على النموذج
+3152,model-based reinforcement learning,التعلم المعزز القائم على النموذج
+3153,model-free approach,نهج خالٍ من النموذج
+3154,models,نماذج
+3155,modular,قابل للتجزئة
+3156,modular architecture,العمارة المعيارية
+3157,module,وحدة
+3158,moment matching,مطابقة العزوم
+3159,momentum,الزخم
+3160,momentum coefficient,معامل الزخم
+3161,momentum encoder,مشفر الزخم
+3162,momentum term,مصطلح الزخم
+3163,monocular,أحادي العين
+3164,monocular reconstruction,إعادة بناء أحادية العين
+3165,monolingual,أحادي اللغة
+3166,monolingual baseline,خط الأساس الأحادي اللغة
+3167,monolingual corpora,مجموعات بيانات أحادية اللغة
+3168,monolingual corpus,مجموعة أحادية اللغة
+3169,monolingual dataset,مجموعة بيانات أحادية اللغة
+3170,monolingual datum,بيانات أحادية اللغة
+3171,monolingual embedding,تضمين أحادي اللغة
+3172,monolingual model,نموذج أحادي اللغة
+3173,monolingual training,التدريب أحادي اللغة
+3174,monotone,رتيب
+3175,monotonic,أحادي الرتابة
+3176,morphemes,المورفيمات
+3177,morphological,المورفولوجي
+3178,morphological analysis,التحليل الصرفي
+3179,morphological analyzer,محلل صرفي
+3180,morphological feature,السمة الصرفية
+3181,morphological information,المعلومات المورفولوجية
+3182,morphological operation,العملية المورفولوجية
+3183,morphological segmentation,التجزئة الصرفية
+3184,morphologically,صرفياً
+3187,motion analysis,تحليل الحركة
+3188,motion estimation,تقدير الحركة
+3189,motion matrix,مصفوفة الحركة
+3190,motion planning,تخطيط الحركة
+3191,motion segmentation,تجزئة الحركة
+3192,motivated,مدفوع
+3193,moving average,المتوسط المتحرك
+3194,multi-agent,متعدد الوكلاء
+3195,multi-agent interaction,تفاعل متعدد الوكلاء
+3196,multi-agent learning,تعلم متعدد الوكلاء
+3197,multi-agent reinforcement learning,التعلم المعزز متعدد الوكلاء
+3198,multi-agent system,نظام متعدد الوكلاء
+3199,multi-armed bandit,قطاع الطرق متعدد الأسلحة
+3200,multi-armed bandit problem,مشكلة قطاع الطرق متعدد الأسلحة
+3201,multi-class,متعدد الفئات
+3202,multi-class classification,تصنيف متعدد الفئات
+3203,multi-class logistic regression,الانحدار اللوجستي متعدد الفئات
+3204,multi-class problem,مشكلة متعددة الفئات
+3205,multi-classification,تصنيف متعدد الفئات
+3206,multi-document summarization,تلخيص متعدد الوثائق
+3207,multi-domain,متعدد المجالات
+3208,multi-head,متعدد الرؤوس
+3209,multi-head attention,الانتباه متعدد الرؤوس
+3210,multi-head attention layer,طبقة الانتباه متعدد الرؤوس
+3211,multi-head self-attention,انتباه ذاتي متعدد الرؤوس
+3212,multi-head self-attention mechanism,آلية الانتباه الذاتي متعدد الرؤوس
+3213,multi-head self-attention module,وحدة الانتباه الذاتي متعددة الرؤوس
+3214,multi-headed self-attention,الانتباه الذاتي متعدد الرؤوس
+3215,multi-label,متعدد التسميات
+3216,multi-label classification,تصنيف متعدد التسميات
+3217,multi-label classification loss,خسارة تصنيف متعدد التسميات
+3218,multi-label classifier,مصنف متعدد التسميات
+3219,multi-label datum,بيانات متعددة التصنيفات
+3220,multi-label learning,التعلم متعدد العلامات
+3221,multi-label text classification,تصنيف النصوص متعدد التسميات
+3222,multi-layer neural network,شبكة عصبية متعددة الطبقات
+3223,multi-layer perceptron,المدرك متعدد الطبقات
+3224,multi-modal,متعدد الوسائط
+3225,multi-modal input,مدخلات متعددة الوسائط
+3226,multi-modal learning,التعلم متعدد الوسائط
+3227,multi-modal model,نموذج متعدد الوسائط
+3228,multi-object detection,كشف الأجسام المتعددة
+3229,multi-objective optimization,تحسين متعدد الأهداف
+3230,multi-scale,متعدد المقاييس
+3231,multi-scale architecture,بنية متعددة المقاييس
+3232,multi-scale training,تدريب متعدد المقاييس
+3233,multi-task,متعدد المهام
+3234,multi-task fine-tuning,الضبط الدقيق متعدد المهام
+3235,multi-task model,نموذج متعدد المهام
+3236,multi-task regression,انحدار متعدد المهام
+3237,multi-task setting,إعداد متعدد المهام
+3238,multi-view,متعدد المناظر
+3239,multi-view datum,بيانات متعددة الرؤى
+3240,multi-view geometry,الهندسة متعددة المناظر
+3241,multi-view learning,التعلم متعدد المشاهدات
+3242,multi-view stereo,ستيريو متعدد المناظر
+3243,multi-view system,النظام متعدد المناظر
+3244,multiclass classifier,مصنف متعدد الفئات
+3245,multiclass hinge loss,خسارة المفصلة متعددة الفئات
+3246,multiclass model,نموذج متعدد الفئات
+3247,multiclass object detection,كشف الكائنات متعدد الفئات
+3248,multilingual,متعدد اللغات
+3249,multilingual embedding,التضمين متعدد اللغات
+3250,multilingual language model,نموذج لغوي متعدد اللغات
+3251,multilingual model,نموذج متعدد اللغات
+3252,multilingual representation,تمثيل متعدد اللغات
+3253,multilingual training,تدريب متعدد اللغات
+3254,multilinguality,تعدد اللغات
+3255,multimodal learning,نموذج متعدد الصيغ
+3256,multimodal model,نموذج متعدد الصيغ
+3257,multimodal task,مهمة متعددة الوسائط
+3258,multinomial distribution,توزيع متعدد الحدود
+3259,multinomial model,نموذج متعدد الحدود
+3260,multiple kernel learning,تعلم الأنوية المتعددة
+3261,multiple linear regression,الانحدار الخطي المتعدد
+3262,multiscale modeling,النمذجة متعددة المقاييس
+3263,multiset,المجموعة المتعددة
+3264,multitask,متعدد المهام
+3265,multitask training,تدريب متعدد المهام
+3266,multivariate,متعدد المتغيرات
+3267,multivariate Gaussian,توزيع غاوسي متعدد المتغيرات
+3268,multivariate Gaussian distribution,توزيع Gaussian متعدد المتغيرات
+3269,multivariate normal,التوزيع الطبيعي متعدد المتغيرات
+3270,multivariate normal distribution,توزيع طبيعي متعدد المتغيرات
+3271,multivariate time series,سلاسل زمنية متعددة المتغيرات
+3272,mutex,قفل متبادل
+3273,mutexe,قفل متبادل
+3274,mutual entropy,الإنتروبيا المتبادلة
+540,mutual information,المعلومات المتبادلة
+3275,n-best list,قائمة الن-best
+541,n-gram,N-جرام
+3276,n-gram feature,ميزة n-gram
+3277,n-gram language model,نموذج لغة n-جرام
+3278,n-gram model,نموذج n-جرام
+3279,n-grams,سلسلة كلمات
+3280,n-step returns,عوائد n-خطوة
+545,naive Bayes,بايز الساذج
+546,naive Bayes classifier,مُصنّف بايز الساذج
+3281,naive Bayes model,نموذج بايز الساذج
+3282,named,مسمى
+3283,named entity,كيان مسمى
+547,named entity recognition,التعرف على الكيانات المسماة
+3284,named entity recognizer,مُتعرف على الكيانات المسماة
+3285,namely,أي
+3286,natural,طبيعي
+3287,natural image statistic,إحصائيات الصور الطبيعية
+3288,natural language,اللغة الطبيعية
+550,natural language generation,توليد اللغة الطبيعية
+3289,natural language processing,معالجة اللغات الطبيعية
+3290,natural language query,استعلام باللغة الطبيعية
+3291,natural logic,المنطق الطبيعي
+3292,natural logic inference,استدلال المنطق الطبيعي
+3293,natural parameter,المعلمة الطبيعية
+3294,near-optimality,شبه الأمثلية
+555,nearest neighbor,أقرب جار
+3295,nearest neighbor classifier,مصنف الجار الأقرب
+3296,nearest neighbor search,بحث الجار الأقرب
+3297,nearest-neighbor algorithm,خوارزمية الجار الأقرب
+3298,negation,النفي
+3299,negative class,صنف سلبي
+3300,negative log-likelihood,الاحتمال اللوغاريتمي السلبي
+3301,negative pair,زوج سلبي
+3302,negative sample,عينة سلبية
+3303,negative transfer,النقل السلبي
+3304,neighborhood function,دالة الجوار
+3305,neighborhood system,نظام الجوار
+3306,net,شبكة
+3307,network,الشبكة
+3308,network architecture,معمارية الشبكة
+3309,network feature,ميزة الشبكة
+3310,network parameter,معلمات الشبكة
+3311,network structure,هيكل الشبكة
+3312,network topology,طوبولوجيا الشبكة
+3313,network weight,وزن الشبكة
+3314,neural,عصبي
+3315,neural Turing machine,آلة تورينج العصبية
+3316,neural activity,النشاط العصبي
+3317,neural approach,النهج العصبي
+3318,neural architecture,العمارة العصبية
+3319,neural architecture search,بحث عن العمارة العصبية
+3320,neural embedding,التضمين العصبي
+3321,neural generation model,نموذج التوليد العصبي
+3322,neural implicit representation,تمثيل ضمني عصبي
+3323,neural language model,نموذج اللغة العصبي
+3324,neural machine translation,ترجمة الآلة العصبية
+3325,neural machinery,الآلية العصبية
+3326,neural mapping,رسم الخرائط العصبية
+3327,neural method,الطريقة العصبية
+3328,neural model,النموذج العصبي
+3329,neural module,الوحدة العصبية
+3330,neural net,الشبكة العصبية
+558,neural network,الشبكة العصبية
+3331,neural network architecture,بنية الشبكة العصبية
+3332,neural network classifier,مصنف الشبكة العصبية
+3333,neural network language model,نموذج لغة الشبكة العصبية
+3334,neural network layer,طبقة الشبكة العصبية
+3335,neural network model,نموذج الشبكة العصبية
+3336,neural operator,مشغل عصبي
+3337,neural parser,محلل عصبي
+3338,neural renderer,المصيّر العصبي
+3339,neural rendering,التصيير العصبي
+3340,neural representation,التمثيل العصبي
+3341,neural retrieval,استرجاع عصبي
+3342,neural scaling law,قانون القياس العصبي
+3343,neural scene representation,تمثيل المشهد العصبي
+3344,neural sequence model,نموذج التسلسل العصبي
+3345,neural text generation,توليد النصوص العصبية
+3346,neural volumetric representation,التمثيل الحجمي العصبي
+3347,neural word embedding,تضمين الكلمات العصبي
+3348,neuro-symbolic system,النظام العصبي الرمزي
+3349,neuromorphic computing,حوسبة عصبية
+3350,neuron,خلية عصبية
+3351,news,أخبار
+3352,newswire,وكالة الأنباء
+3353,next sentence prediction,توقع الجملة التالية
+3354,next token prediction,توقع الرمز التالي
+3355,nmod,nmod
+3356,no-regret algorithm,خوارزمية بدون ندم
+3357,no-regret dynamic,ديناميات عدم الندم
+3358,no-regret learning algorithm,خوارزمية التعلم بلا ندم
+3359,node,عقدة
+3360,node attribute,خاصية العقدة
+3361,node classification,تصنيف العقد
+3362,node degree,درجة العقدة
+3363,node embedding,تضمين العقدة
+3364,node feature,ميزة العقدة
+3365,node feature matrix,مصفوفة ميزات العقدة
+3366,node label,تسمية العقدة
+3367,node representation,تمثيل العقدة
+3368,node set,مجموعة العقد
+3369,node-disjoint path,مسار غير متداخل بين العقد
+3370,nodes,العقد
+3371,noise distribution,توزيع الضوضاء
+3372,noise level,مستوى الضوضاء
+3373,noise model,نموذج الضوضاء
+3374,noise schedule,جدول الضوضاء
+3375,noise-contrastive estimation,التقدير التبايني للضوضاء
+3376,noisy channel,قناة مشوشة
+3377,nominal mention,الإشارة الاسمية
+3378,non-Euclidean space,الفضاء غير الإقليدي
+3379,non-Markov process,عملية غير ماركوف
+3380,non-convex objective,الهدف غير المقعر
+3381,non-convex optimization,التحسين غير المحدب
+3382,non-convex problem,مشكلة غير محدبة
+3383,non-convexity,عدم التحدب
+3384,non-linear least square,أقل المربعات غير الخطية
+3385,non-linear optimization,التحسين غير الخطي
+3386,non-linearity,عدم الخطية
+3387,non-local feature,الميزة غير المحلية
+3388,non-max suppression,قمع غير الحد الأقصى
+3389,non-maxima suppression,قمع غير القصوى
+3390,non-maximal suppression,قمع غير الأقصى
+3391,non-negative matrix factorization,تحليل المصفوفة غير السالبة
+3392,non-parametric setting,الإعداد غير المعلمي
+3393,non-projective parsing,التحليل النحوي غير الإسقاطي
+3394,non-submodular energy,طاقة غير شبه تجزئية
+3395,non-tree model,نموذج غير شجري
+3396,nonconvex function,دالة غير محدبة
+3397,nonlinear optimisation,التحسين غير الخطي
+3398,nonmonotonic reasoning,الاستدلال غير الرتيب
+3399,nonterminal symbol,رمز غير نهائي
+3400,norm,معيار
+3401,normal,العمودي
+3402,normal distribution,التوزيع الطبيعي
+3403,normal form,الصيغة الطبيعية
+3404,normal vector,المتجه الطبيعي
+3405,normal-form game,لعبة الصيغة الطبيعية
+3406,normalisation,التطبيع
+565,normalization,التطبيع
+3407,normalization constant,ثابت التطبيع
+3408,normalization factor,عامل التطبيع
+3409,normalization function,دالة التطبيع
+3410,normalization layer,طبقة التطبيع
+3411,normalization method,طريقة التطبيع
+3412,normalization strategy,استراتيجية التطبيع
+3413,normalize,تطبيع
+3414,normalized cross correlation,الارتباط المتقاطع المُطَبَّع
+3415,normalized cut,قطع تطبيع
+3416,normalized cut algorithm,خوارزمية القطع المُطَبَّع
+3417,normalized edit distance,مسافة التحرير المعيارية
+3418,normalizing factor,عامل التطبيع
+3419,normalizing flow,تدفق التطبيع
+3420,noun,اسم
+3421,noun phrase,عبارة اسمية
+3422,nouns,الأسماء
+3423,novel view synthesis,توليف المشاهد الجديدة
+3424,nsubj,الفاعل الاسمي
+3425,nsubjpass,الفاعل الاسمي المبني للمجهول
+3426,nuclear norm,المعيار النووي
+3427,nuclear norm relaxation,استرخاء المعيار النووي
+3428,null distribution,التوزيع الصفري
+3429,null space,الفضاء الصفري
+3430,number,عدد
+3431,numerical linear algebra,الجبر الخطي العددي
+3432,object bounding box,صندوق تحديد الكائن
+3433,object categorization,تصنيف الكائنات
+3434,object category,فئة الكائن
+3435,object category recognition,التعرف على فئة الكائنات
+3436,object class,فئة الكائنات
+3437,object classification,تصنيف الكائنات
+570,object detection,اكتشاف الكائنات
+3438,object detector,كاشف الأجسام
+3439,object domain,مجال الكائنات
+3440,object embedding,تضمين الكائن
+3441,object instance segmentation,تجزئة مثيلات الأجسام
+3442,object model,نموذج الكائن
+3443,object proposal,اقتراح الكائن
+3444,object recognition,التعرف على الكائنات
+3445,object segmentation,تجزئة الكائنات
+3446,object tracking,تتبع الكائنات
+3447,objective function,دالة الهدف
+3448,objective value,قيمة الهدف
+3449,objectness,مؤشر الكائن
+3450,observation function,دالة الملاحظة
+3451,observation model,نموذج الملاحظة
+3452,observation space,فضاء الملاحظة
+3453,observational datum,البيانات الملاحظة
+3454,occlusion handling,معالجة الانسداد
+3455,occlusion reasoning,استدلال الانسداد
+3456,occupancy grid,شبكة الإشغال
+3457,occupancy map,خريطة الإشغال
+3458,occupancy measure,مقياس الإشغال
+3459,odometry,قياس المسافة
+3460,off-diagonal element,عنصر غير قطري
+3461,off-policy,خارج السياسة
+3462,offline algorithm,خوارزمية غير متصلة
+3463,offline learning,التعلم غير المتصل
+3464,on-policy,تدريب على السياسة
+3465,one-against-all reduction,اختزال واحد ضد الجميع
+3466,one-hot encoded,ترميز واحد-حار
+3467,one-hot encoding,ترميز الواحد النشط
+3468,one-hot representation,"تمثيل ""وان هوت"""
+3469,one-hot vector,متجه واحد-ساخن
+3470,one-shot learning,تعلم بمثال واحد
+3471,one-shot setting,إعداد من لقطة واحدة
+3472,one-stage detector,كاشف من مرحلة واحدة
+3473,one-versus-all,واحد ضد الجميع
+3474,online,عبر الإنترنت
+3475,online algorithm,خوارزمية عبر الإنترنت
+3476,online convex optimization,تحسين محدب عبر الإنترنت
+3477,online gradient descent,نزول التدرج عبر الإنترنت
+3478,online learning,التعلم عبر الإنترنت
+3479,online learning algorithm,خوارزمية التعلم عبر الإنترنت
+3480,online learning method,طريقة التعلم عبر الإنترنت
+3481,online learning theory,نظرية التعلم عبر الإنترنت
+3482,online machine learning,تعلم الآلة المستمر
+3483,ontology,أنطولوجيا
+3484,ontology language,لغة الأنطولوجيا
+3485,ontology-mediated query,استعلام بوساطة الأنطولوجيا
+3486,open set,مجموعة مفتوحة
+3487,open-ended text generation,توليد النصوص المفتوحة النهاية
+3488,open-loop,حلقة مفتوحة
+3489,operator norm,معيار المشغل
+3490,operator sequence,تسلسل المشغل
+3491,optical character recognition,التعرف الضوئي على الحروف
+3492,optical flow,التدفق البصري
+3493,optical flow estimation,تقدير التدفق البصري
+3494,optimal control theory,نظرية التحكم الأمثل
+3495,optimal experimental design,التصميم التجريبي الأمثل
+3496,optimal policy,السياسة المثلى
+3497,optimal solution,الحل الأمثل
+3498,optimality,الأمثلية
+3499,optimality condition,شرط الأمثلية
+3500,optimisation,تحسين
+3501,optimisation problem,مشكلة التحسين
+3502,optimiser,المحسّن
+3503,optimization,تحسين
+3504,optimization algorithm,خوارزمية التحسين
+3505,optimization framework,إطار التحسين
+3506,optimization function,دالة التحسين
+3507,optimization method,طريقة التحسين
+3508,optimization objective,هدف التحسين
+3509,optimization procedure,إجراء التحسين
+3510,optimization step,خطوة التحسين
+3511,optimization theory,نظرية التحسين
+3512,optimizer,المحسِّن
+3513,option,خيار
+3514,oracle,الأوراكل
+3515,oracle policy,سياسة أوراكل
+3516,ordinal embedding,التمثيل الترتيبي
+3517,ordinal regression,الانحدار الترتيبي
+3518,orientation loss,خسارة التوجه
+3519,orthogonal basis,أساس متعامد
+3520,orthogonal matrix,مصفوفة متعامدة
+3521,orthogonal projection matrix,مصفوفة الإسقاط المتعامد
+3522,orthographic camera model,نموذج الكاميرا الأورثوغرافي
+3523,orthographic projection,الإسقاط المتعامد
+3524,orthonormal decomposition,التحلل المتعامد
+3525,orthonormal matrix,المصفوفة المتعامدة
+3526,orthonormal row,صف متعامد
+3527,orthonormality,التعامدية
+3528,out-of-distribution,خارج التوزيع
+3529,out-of-domain,خارج النطاق
+3530,out-of-domain evaluation,تقييم خارج النطاق
+3531,outlier,القيمة الشاذة
+3532,outlier detection,اكتشاف القيم الشاذة
+3533,outlier exposure,التعرض للقيم الشاذة
+3534,outlier rejection,رفض القيم الشاذة
+3535,output,الناتج
+3536,output gate,بوابة الإخراج
+3537,output layer,طبقة الإخراج
+3538,output space,فضاء المخرجات
+3539,output token,توكن المخرجات
+3540,output vector,متجه الإخراج
+3541,output vocabulary,مفردات المخرجات
+3542,outputs,المخرجات
+3543,over-fitting,الإفراط في التكيف
+3544,over-segmentation,التجزئة الزائدة
+3545,over-smoothing,التنعيم المفرط
+3546,overfitting,فرط التخصيص
+3547,paired t-test,اختبار t المقترن
+3548,pairwise,ثنائي
+3549,pairwise classifier,مصنف ثنائي
+3550,pairwise clique,تجمّع ثنائي
+3551,pairwise comparison,مقارنة ثنائية
+3552,pairwise constraint,قيد ثنائي
+3553,pairwise flow,التدفق الثنائي
+3554,pairwise learning,التعلم الثنائي
+3555,pairwise potential,الإمكانات الثنائية
+3556,pairwise word similarity,تشابه الكلمات الثنائي
+3557,panoptic segmentation,تجزئة بانوبتيك
+3558,paper,ورقة
+3559,parallel,متوازي
+3560,parallel corpora,المتون المتوازية
+3561,parallel corpus,متن متوازٍ
+3562,parallel datum,بيانات متوازية
+3563,parameter,مُعامل
+3564,parameter count,عدد المعلمات
+3565,parameter estimation,تقدير المعلمات
+3566,parameter learning,تعلم المعلمات
+3567,parameter matrix,مصفوفة المعلمات
+3568,parameter model,نموذج المعلمات
+3569,parameter regularization,تنظيم المعلمات
+3570,parameter sharing,مشاركة المعلمات
+3571,parameter size,حجم المعلمات
+3572,parameter space,فضاء المعلمات
+3573,parameter tuning,ضبط المعلمات
+3574,parameter tying,ربط المعلمات
+3575,parameter update,تحديث المعلمات
+3576,parameter vector,متجه المعلمات
+3577,parameter-efficient fine-tuning,ضبط دقيق فعال من حيث المعلمات
+3578,parameterisation,التمثيل بواسطة المعلمات
+3579,parameterization,تمثيل المعلمات
+3580,parameterized model,نموذج ذو معلمات
+3581,parametric,بارامترية
+3582,parametric family,عائلة بارامترية
+3583,parametric knowledge,المعرفة البارامترية
+3584,parametric model,النموذج البارامتري
+3585,parametrization,البرمترة
+3586,paraphrase,إعادة صياغة
+3587,paraphrase generation,توليد إعادة صياغة
+3588,paraphrase generator,مولد إعادة الصياغة
+3589,paraphrase identification,التعرف على إعادة الصياغة
+3590,paraphrase model,نموذج إعادة الصياغة
+3591,parent node,العقدة الأصلية
+3592,parse,تحليل
+3593,parse chart,مخطط التحليل
+3594,parse forest,غابة التحليل
+3595,parse score,درجة التحليل
+3596,parse structure,هيكل التحليل
+3597,parse tree,شجرة التحليل
+3598,parser,محلل
+3599,parsing,التحليل النحوي
+3600,parsing accuracy,دقة التحليل
+3601,parsing algorithm,خوارزمية التحليل
+3602,parsing model,نموذج التحليل
+3603,parsing performance,أداء التحليل
+3604,part of speech,جزء الكلام
+3605,part of speech tag,وسم جزء الكلام
+3606,part of speech tagger,مُصنِّف أقسام الكلام
+3607,partial assignment,تعيين جزئي
+3608,partial derivation,اشتقاق جزئي
+3609,partial evaluation,تقييم جزئي
+3610,partial observability,قابلية الملاحظة الجزئية
+3611,partial order,ترتيب جزئي
+3612,particle filter,مرشح الجسيمات
+3613,partition,تقسيم
+3614,partition function,دالة التقسيم
+3615,patch,رقعة
+3616,path integration,تكامل المسار
+3617,path planning,تخطيط المسار
+3618,pattern profile,ملف النمط
+3619,pattern recognition,التعرف على الأنماط
+3620,pattern summarization,تلخيص الأنماط
+3621,pattern-verbalizer pair,زوج النمط-التعبير
+3622,payoff function,دالة العائد
+3623,payoff matrix,مصفوفة العائد
+3624,pedestrian detection,كشف المشاة
+3625,penalty function,دالة العقوبة
+3626,penalty parameter,معامل العقوبة
+3627,penalty term,مصطلح عقوبة
+3628,per-pixel,لكل بكسل
+3629,perception,الإدراك
+3630,perceptron,بيرسبترون
+3631,perceptron algorithm,خوارزمية البيرسبترون
+3632,perceptual feature,خاصية إدراكية
+3633,perceptual loss,الخسارة الإدراكية
+3634,perfect matching,المطابقة المثالية
+3635,performance difference lemma,ليمما فرق الأداء
+3636,permutation,تبديل
+3637,permutation invariance,عدم التأثر بالترتيب
+3638,permutation matrix,مصفوفة التبديل
+3639,permutation test,اختبار التبديل
+3640,permutohedral lattice,شبكة بيرموتوهيدرال
+590,perplexity,الارتباك
+3642,perplexity score,درجة الارتباك
+3643,perspective projection,الإسقاط المنظوري
+3644,perspective projection matrix,مصفوفة الإسقاط المنظوري
+3645,perturbation,اضطراب
+3646,perturbation analysis,تحليل الاضطراب
+3647,perturbation variance,تباين الاضطراب
+3648,phase retrieval,استرجاع الطور
+3649,phoneme,فونيم
+3650,phoneme segmentation,تقسيم الفونيمات
+3651,photoconsistency,الاتساق الضوئي
+3652,photometric consistency,التناسق الفوتومتري
+3653,photometric error,الخطأ الفوتومتري
+3654,photometric loss,خسارة فوتومترية
+3655,photometric stereo,الاستريو الفوتومتري
+3656,phrase,عبارة
+3657,phrase structure tree,شجرة بنية العبارة
+3658,phrase table,جدول العبارات
+3659,piecewise linear,خطية مجزأة
+3660,piecewise planar,مستوي مجزأ
+3661,pipeline,خط أنابيب
+3662,pixel,بكسل
+3663,pixel labeling,تسمية البكسل
+3664,pixel-level,على مستوى البكسل
+3665,pixel-wise,على مستوى البكسل
+3666,place recognition,التعرف على الأماكن
+3667,placeholder,عنصر نائب
+3668,planning,التخطيط
+3669,planning problem,مشكلة التخطيط
+3670,planning task,مهمة التخطيط
+3671,plug-in estimator,مقدر البرنامج المساعد
+3672,pobj,المفعول المجرور
+3673,point cloud,سحابة نقطية
+3674,point correspondence,المراسلات النقطية
+3675,point estimate,التقدير النقطي
+3676,point match,تطابق النقاط
+3677,pointwise,نقطة بنقطة
+3678,pointwise multiplication,الضرب عنصرًا عنصرًا
+3679,policy,سياسة
+3680,policy class,فئة السياسات
+3681,policy distribution,توزيع السياسة
+3682,policy entropy,إنتروبيا السياسة
+3683,policy evaluation,تقييم السياسة
+3684,policy gradient,تدرج السياسة
+3685,policy gradient algorithm,خوارزمية تدرج السياسة
+3686,policy gradient estimator,مقدّر تدرج السياسة
+3687,policy gradient method,طريقة تدرج السياسات
+3688,policy gradient theorem,نظرية تدرج السياسة
+3689,policy improvement,تحسين السياسة
+3690,policy iteration,تكرار السياسة
+3691,policy learning,تعلم السياسة
+3692,policy network,شبكة السياسة
+3693,policy optimization,تحسين السياسة
+3694,policy parameter,معلمة السياسة
+3695,policy representation,تمثيل السياسة
+3696,policy sketch,مخطط السياسة
+3697,policy space,فضاء السياسة
+3698,polygon mesh,شبكة مضلعة
+3699,polylog,بولي لوغ
+3700,polylogarithmic,متعدد اللوغاريتمي
+3701,polynomial,متعدد الحدود
+3702,polynomial delay,تأخير متعدد الحدود
+3703,polynomial kernel,نواة متعددة الحدود
+3704,polynomial time,زمن كثيرات الحدود
+3705,polynomial time algorithm,خوارزمية زمنية متعددة الحدود
+3706,pool-based active learning,التعلم النشط القائم على المسبح
+3707,pooling layer,طبقة تجميع
+3708,pooling operation,عملية التجميع
+3709,pose estimation,تقدير الوضعية
+3710,pose parameter,معامل الوضعية
+3711,pose prior,السابقة الوضعية
+3712,pose space,فضاء الوضع
+3713,position bias,انحياز الموضع
+3714,position embedding,تضمين الموقع
+3715,positional bias,التحيز الموضعي
+3716,positional embedding,التضمين الموضعي
+3717,positional encoding,ترميز موضعي
+3718,positive definite,موجب التعريف
+3719,positive pair,زوج إيجابي
+3720,positive semidefinite,شبه محدد إيجابي
+3721,positive semidefinite kernel,نواة شبه محددة إيجابية
+3722,positive semidefinite matrix,مصفوفة شبه محددة إيجابية
+3723,post-editing,التحرير بعد الترجمة
+3724,post-hoc,بعد الحدث
+3725,post-hoc analysis,تحليل ما بعد المخصص
+3726,post-processing,ما بعد المعالجة
+3727,posterior,التوزيع اللاحق
+3728,posterior approximation,تقريب التوزيع اللاحق
+3729,posterior density,كثافة الاحتمال اللاحق
+3730,posterior distribution,توزيع الاحتمال اللاحق
+3731,posterior entropy,انتروبيا التوزيع اللاحق
+3732,posterior estimation,تقدير الاحتمال الخلفي
+3733,posterior inference,الاستدلال اللاحق
+3734,posterior mean,المتوسط البوستيري
+3735,posterior mean function,دالة المتوسط اللاحق
+3736,posterior probability,الاحتمال الخلفي
+3737,posterior probability distribution,توزيع الاحتمال اللاحق
+3738,posterior sample,عينة بعدية
+3739,posterior variance,تباين لاحق
+3740,potential function,الدالة الكامنة
+3741,potential heuristic,ارشادي محتمل
+3742,power iteration method,طريقة التكرار القوي
+3743,power law distribution,توزيع قانون القوة
+3744,power method,طريقة القوة
+3745,pre-logit,ما قبل اللوجيت
+3746,pre-processing,المعالجة المسبقة
+3747,pre-terminals,الرموز الأولية
+3748,pre-train,التدريب المسبق
+3749,pre-trained checkpoint,نقطة التفتيش المدربة مسبقاً
+3750,pre-trained embedding,التضمين المدرب مسبقًا
+3751,pre-trained language model,نموذج اللغة المدرب مسبقًا
+3752,pre-trained model,نموذج مُدرّب مسبقًا
+3753,pre-trained parameter,البارامتر المدرب مسبقًا
+3754,pre-trained weight,الأوزان المدربة مسبقًا
+3755,pre-training corpus,مجموعة بيانات التدريب المسبق
+3756,pre-training datum,بيانات التدريب المسبق
+3757,pre-training objective,هدف التدريب المسبق
+3758,pre-training task,مهمة ما قبل التدريب
+3759,precision,الإحكام
+3760,precision matrix,مصفوفة الدقة
+3761,precision-at-10,الدقة عند 10
+3762,precision-recall curve,منحنى الدقة والاسترجاع
+3763,precision-recall graph,رسم بياني للدقة والاسترجاع
+3764,precondition,الشرط المسبق
+3765,preconditioner,المُكيِّف المسبق
+3766,predicate,المسند
+3767,predicate logic,المنطق المسند
+3768,predicate symbol,رمز المسند
+3769,predicate-argument relation,العلاقة بين المسند والوسيطة
+3770,predicate-argument structure,هيكل الوسيطة المسند
+3771,predicates,المحمولات
+3772,prediction,التنبؤ
+3773,prediction accuracy,دقة التنبؤ
+3774,prediction entropy,إنتروبيا التنبؤ
+3775,prediction error,خطأ التنبؤ
+3776,prediction head,رأس التنبؤ
+3777,prediction invariance,ثبات التنبؤ
+3778,prediction model,نموذج التنبؤ
+3779,prediction network,شبكة التنبؤ
+3780,prediction variance,تباين التنبؤ
+3781,predictive analytics,تحليلات تنبؤية
+3782,predictive coding,الترميز التنبؤي
+3783,predictive distribution,التوزيع التنبؤي
+3784,predictive likelihood,الاحتمالية التنبؤية
+3785,predictive model,النموذج التنبؤي
+3786,predictive performance,الأداء التنبؤي
+3787,predictor,المتنبئ
+3788,prefix,البادئة
+3789,prefix sum,مجموع البادئات
+3790,prefix tree,شجرة البادئات
+3791,preimage,الصورة السابقة
+3792,prepositional phrase,عبارة جر
+3793,preprocessing phase,مرحلة المعالجة المسبقة
+3794,presence penalty,عقوبة الوجود
+3795,pretrained,مدرّب مسبقاً
+3796,pretrained multilingual model,نموذج متعدد اللغات مدرب مسبقاً
+3797,pretraining,التدريب المسبق
+3798,previous,سابق
+3799,primal objective function,دالة الهدف الأولية
+3800,primal optimization,التحسين البدائي
+3801,primal problem,المشكلة الأولية
+3802,primal variable,المتغير الأساسي
+3803,primal-dual algorithm,خوارزمية أولية-ثنائية
+3804,primal-dual method,الطريقة الأولية-الثنائية
+3805,primitive,عنصر بدائي
+3806,principal component,المكون الرئيسي
+3807,principal component analysis,تحليل الُمكِّون الرئيس
+3808,prior distribution,التوزيع السابق
+3809,prior hyperparameter,المعلمة الفائقة السابقة
+3810,prior knowledge,المعرفة السابقة
+3811,prior mean,المتوسط السابق
+3812,prior probability,الاحتمال المسبق
+3813,prior probability distribution,التوزيع الاحتمالي السابق
+3814,prior variance,التباين السابق
+3815,priority queue,طابور الأولويات
+3816,privacy budget,ميزانية الخصوصية
+3817,privacy-preserving data mining,التنقيب عن البيانات مع الحفاظ على الخصوصية
+3818,probabilistic context-free grammar,قواعد احتمالية خالية من السياق
+3819,probabilistic distribution,التوزيع الاحتمالي
+3820,probabilistic formulation,الصياغة الاحتمالية
+3821,probabilistic framework,الإطار الاحتمالي
+3822,probabilistic generative model,نموذج توليدي احتمالي
+3823,probabilistic graphical model,النموذج البياني الاحتمالي
+3824,probabilistic inference,الاستدلال الاحتمالي
+3825,probabilistic logic,المنطق الاحتمالي
+3826,probabilistic method,الطريقة الاحتمالية
+3827,probabilistic model,النموذج الاحتمالي
+3828,probabilistic relational model,نموذج علائقي احتمالي
+3829,probabilistic representation,التمثيل الاحتمالي
+3830,probabilistic semantic,الدلالات الاحتمالية
+3831,probabilistic topic modeling,نمذجة المواضيع الاحتمالية
+3832,probabilistic tree,الشجرة الاحتمالية
+3833,probability density,كثافة الاحتمال
+3834,probability density function,دالة كثافة الاحتمال
+3835,probability distribution,توزيع الاحتمال
+3836,probability flow,تدفق الاحتمال
+3837,probability map,خريطة الاحتمال
+3838,probability mass,الكتلة الاحتمالية
+3839,probability mass function,دالة كتلة الاحتمال
+3840,probability matrix,مصفوفة الاحتمال
+3841,probability measure,قياس الاحتمال
+3842,probability model,نموذج الاحتمال
+3843,probability multiset,مجموعة احتمالية
+3844,probability simplex,مجموعة الاحتمالات
+3845,probability space,فضاء الاحتمالات
+3846,probability threshold,عتبة الاحتمال
+3847,probability transition matrix,مصفوفة انتقال الاحتمالات
+3848,probability vector,متجه الاحتمال
+3849,probing classifier,مصنف الاستكشاف
+3850,problem,مشكلة
+3851,problem space,فضاء المشكلة
+3852,product distribution,توزيع المنتج
+3853,product-of-expert,حاصل ضرب الخبراء
+3854,program induction,استدلال البرامج
+3855,projection algorithm,خوارزمية الإسقاط
+3856,projection layer,طبقة الإسقاط
+3857,projection matrix,مصفوفة الإسقاط
+3858,projection operator,مشغل الإسقاط
+3859,projection step,خطوة الإسقاط
+3860,projective camera,كاميرا إسقاطية
+3861,projective dependency parsing,تحليل التبعية الإسقاطية
+3862,projective dependency tree,شجرة التبعية الإسقاطية
+3863,projective parsing,التحليل الإسقاطي
+3864,projective transformation,التحويل الإسقاطي
+3865,prompt,موجه
+3866,prompt engineering,هندسة الموجهات
+3867,prompt learning,تعلم المطالبات
+3868,prompt tuning,تعديل التلميحات
+3869,pronoun resolution,حل الضمائر
+3870,pronouns,الضمائر
+3871,proof complexity,تعقيد البرهان
+3872,proof number,رقم البرهان
+3873,proof tree,شجرة الإثبات
+3874,propensity score,درجة الميل
+3875,proposal distribution,توزيع الاقتراح
+3876,proposal probability,احتمال الاقتراح
+3877,propose,اقترح
+3878,propositional,اقتراني
+3879,propositional formula,صيغة اقتراحية
+3880,propositional language,لغة قضوية
+3881,propositional logic,المنطق الاقتراحي
+3882,propositional variable,متغير قضوي
+3883,protected attribute,سمة محمية
+3884,protein folding,طي البروتين
+3885,prototype embedding,تضمين النموذج الأولي
+3886,proximal operator,مُشغل قُرب
+3887,pruning,تشذيب
+3888,pruning algorithm,خوارزمية التقليم
+3889,pseudo,زائف
+3890,pseudo-inverse,المعكوس الزائف
+3891,pure strategy,استراتيجية نقية
+3892,pyramid level,مستوى الهرم
+3893,quadratic assignment problem,مشكلة التعيين التربيعي
+3894,quadratic loss,خسارة تربيعية
+3895,quadratic program,برنامج تربيعي
+3896,quadratic regularizer,المنظم التربيعي
+3897,qualitative,نوعي
+3898,quality,جودة
+3899,quantal response equilibrium,توازن الاستجابة الكوانتية
+3900,quantified variable,المتغير الكمي
+3901,quantifier,محدد الكمية
+3902,quantile,كوانتايل
+3903,quantization,التجزيء الكمي
+3904,quantization function,دالة التكميم
+3905,quantizer,دالة التكميم
+3906,quasi-Newton method,طريقة شبه نيوتن
+3907,quaternion,كواتيرنيون
+3908,queries,استعلامات
+3909,query,استعلام
+3910,query answering,إجابة الاستعلام
+3911,query complexity,تعقيد الاستعلام
+3912,query context,سياق الاستعلام
+3913,query embedding,تضمين الاستعلام
+3914,query image,صورة الاستعلام
+3915,query language,لغة الاستعلام
+3916,query phase,مرحلة الاستعلام
+3917,query point,نقطة الاستعلام
+3918,query processing,معالجة الاستعلامات
+3919,query reformulation,إعادة صياغة الاستعلام
+3920,query representation,تمثيل الاستعلام
+3921,query strategy,استراتيجية الاستعلام
+3922,query time,وقت الاستعلام
+3923,query vector,متجه الاستعلام
+3924,query-document pair,زوج الاستعلام-المستند
+3925,question,سؤال
+3926,questions,أسئلة
+3927,radial basis function,دالة القاعدة الشعاعية
+3928,radial basis function network,شبكة دالة القاعدة الشعاعية
+3929,radiance field,مجال الإشعاع
+3930,random crop,القص العشوائي
+3931,random feature,ميزات عشوائية
+3932,random forest,غابة عشوائية
+3933,random matrix theory,نظرية المصفوفات العشوائية
+3934,random policy,سياسة عشوائية
+3935,random projection,الإسقاط العشوائي
+3936,random projection algorithm,خوارزمية الإسقاط العشوائي
+3937,random sampling,أخذ العينات العشوائية
+3938,random seed,البذور العشوائية
+3939,random variable,متغير عشوائي
+3940,random vector,متجه عشوائي
+3941,random walk model,نموذج المشي العشوائي
+3942,randomization,العشوائية
+3943,randomized algorithm,خوارزمية عشوائية
+3944,randomized smoothing,التنعيم العشوائي
+3945,range query,استعلام النطاق
+631,rank,الرتبة
+3946,rank-one update,تحديث من الرتبة الواحدة
+3947,ranking algorithm,خوارزمية الترتيب
+3948,ranking function,دالة الترتيب
+3949,ranking model,نموذج الترتيب
+3950,re,إعادة
+3951,reachable state,الحالة القابلة للوصول
+3952,readout function,دالة القراءة
+3953,reasoning,التفكير
+3954,recall,الاستدعاء
+3955,receptive field,مجال الاستقبال
+3956,recognition,التعرف
+3957,recognition model,نموذج التعرف
+3958,recommendation algorithm,خوارزمية التوصية
+3959,recommendation model,نموذج التوصية
+3960,recommendation system,نظام توصيات
+3961,recommender,موصي
+3962,recommender system,نظام التوصية
+3963,reconstruction algorithm,خوارزمية إعادة البناء
+3964,reconstruction error,خطأ إعادة البناء
+3965,reconstruction loss,خسارة إعادة الإعمار
+3966,recovery algorithm,خوارزمية الاسترداد
+3967,rectified linear unit,وحدة خطية مصححة 
+3968,rectified stereo pair,زوج استريو مصحح
+3969,recurrent,تكراري
+3970,recurrent architecture,بنية متكررة
+3971,recurrent autoencoder,مشفر تلقائي متكرر
+3972,recurrent connection,الاتصال المتكرر
+3973,recurrent dynamic,ديناميات متكررة
+3974,recurrent model,نموذج متكرر
+3975,recurrent network,شبكة متكررة
+636,recurrent neural network,الشبكة العصبية المتكررة
+3976,recurrent neural networks,شبكة عصبية تكرارية
+3977,recurrent state,حالة متكررة
+3978,recursion,التكرار
+3979,recursive call,الاستدعاء التكراري
+3980,recursive neural model,النموذج العصبي العودي
+3981,recursive neural network,الشبكة العصبية العودية
+3982,reference distribution,توزيع مرجعي
+3983,reference resolution,حل الإشارة
+3984,reference text,النص المرجعي
+3985,reference-based metric,مقياس قائم على المرجع
+3986,refinement network,شبكة الصقل
+639,regression,الانحدار
+3988,regression analysis,تحليل الانحدار
+3989,regression coefficient,معامل الانحدار
+3990,regression function,دالة الانحدار
+3991,regression model,نموذج الانحدار
+3992,regression problem,مشكلة الانحدار
+3993,regression task,مهمة الانحدار
+3994,regression tree,شجرة الانحدار
+3995,regret bound,حد الندم
+3996,regret matching,مطابقة الندم
+3997,regret minimization,تقليل الندم
+3998,regret minimization algorithm,خوارزمية تقليل الندم
+3999,regret minimizer,مُقلل الندم
+4000,regular expression,التعبير النمطي
+4001,regularisation,تنظيم
+4002,regularization,ضبط
+4003,regularization constant,ثابت التنظيم
+4004,regularization function,دالة التنظيم
+4005,regularization loss,خسارة التنظيم
+4006,regularization parameter,معلمة التنظيم
+4007,regularization path,مسار التنظيم
+4008,regularization penalty,عقوبة التنظيم
+4009,regularization strength,قوة التنظيم
+4010,regularization term,مصطلح التنظيم
+4011,regularization weight,وزن التنظيم
+4012,regularization-based method,الطرق المعتمدة على التنظيم
+4013,regularizer,مُنظِّم
+4014,reinforcement learning,تعُّلم تعزيزي
+4015,reinforcement learning algorithm,خوارزمية التعلم المعزز
+641,rejection sampling,أخذ العينات الرفض
+4016,relation,علاقة
+4017,relation extraction,استخراج العلاقات
+4018,relation type,نوع العلاقة
+4019,relational tuple,سجل علائقي
+4020,relations,علاقات
+4021,relationship extraction,استخراج العلاقة
+4022,relative entropy,الإنتروبيا النسبية
+4023,relative positional embedding,التضمين الموضعي النسبي
+4024,relevance score,درجة الصلة
+4025,rendering network,شبكة التصيير
+4026,renormalization,إعادة التطبيع
+4027,reparameterization,إعادة التهيئة
+4028,reparameterization trick,خدعة إعادة التعيين
+4029,replay buffer,ذاكرة التخزين المؤقت للإعادة
+4030,replay memory,ذاكرة الإعادة
+4031,representation,تمثيل
+4032,representation learning,تعلم التمثيل
+4033,representation matrix,مصفوفة التمثيل
+4034,representation space,فضاء التمثيل
+4035,representation vector,متجه التمثيل
+4036,representations,التمثيلات
+4037,representer theorem,نظرية الممثل
+4038,reproducing kernel Hilbert space,فضاء هيلبرت ذو النواة المستنسخة
+4039,reproducing property,خاصية الاستنساخ
+4040,reprojection,إعادة الإسقاط
+4041,reprojection error,خطأ إعادة الإسقاط
+4042,reranker,إعادة الترتيب
+4043,reranking model,نموذج إعادة الترتيب
+4044,reranking parser,محلل إعادة الترتيب
+4045,research,بحث
+4046,reservoir sampling,أخذ العينات الخزاني
+4047,residual block,كتلة متبقية
+4048,residual branch,فرع متبقي
+4049,residual connection,اتصال متبقي
+4050,residual error,الخطأ المتبقي
+4051,residual function,الدالة المتبقية
+4052,residual graph,الرسم البياني المتبقي
+4053,residual learning,التعلم المتبقي
+4054,residual network,شبكة متبقية
+4055,resources,الموارد
+4056,restricted isometry property,خاصية الأيزومترية المقيدة
+4057,retrieval,استرجاع
+4058,retrieval function,دالة الاسترجاع
+4059,retrieval method,طريقة الاسترجاع
+4060,retrieval model,نموذج الاسترجاع
+4061,retrieval system,نظام الاسترجاع
+4062,retrieved,المسترجع
+4063,reverse-mode,الوضع العكسي
+4064,reward,مكافأة
+644,reward function,دالة المكافأة
+4065,reward model,نموذج المكافأة
+4066,reward shaping,تشكيل المكافأة
+4067,reward signal,إشارة المكافأة
+4068,reward-maximizing policy,سياسة تعظيم المكافآت
+646,ridge regression,الانحدار بطريقة Ridge
+4069,ridge regularization,تنظيم ريدج
+4070,right-to-left model,نموذج من اليمين إلى اليسار
+4071,rigid body transformation,تحويل الجسم الصلب
+4072,rigid transformation,تحويل صلب
+4073,risk minimization,تقليل المخاطر
+4074,roberta-large,روبيرتا-كبير
+4075,robotic,روبوتي
+4076,robotics,روبوتية
+4077,robust optimization,التحسين القوي
+4078,robust risk,مخاطر قوية
+4079,robustness,المتانة
+4080,role assertion,تأكيد الدور
+4081,role atom,ذرة الدور
+4082,role classification,تصنيف الدور
+4083,role name,اسم الدور
+4084,roll-out policy,سياسة التنفيذ
+4085,rollout,تنفيذ
+4086,rollout length,طول التنفيذ
+4087,root mean square error,جذر متوسط الخطأ التربيعي
+4088,root node,العقدة الجذرية
+4089,rotation angle,زاوية الدوران
+4090,rotation invariance,عدم التأثر بالدوران
+4091,rotation matrix,مصفوفة الدوران
+4092,row vector,متجه الصف
+4093,rule body,جسم القاعدة
+4094,runtime complexity,تعقيد وقت التشغيل
+4095,saddle-point problem,مشكلة نقطة السرج
+4096,saliency,الأهمية
+4097,saliency map,خريطة البروز
+4098,sample complexity,تعقيد العينة
+4099,sample complexity bound,حد تعقيد العينة
+4100,sample covariance matrix,مصفوفة التغاير العينية
+4101,sample efficiency,كفاءة العينة
+4102,sample selection,اختيار العينة
+4103,sample space,فضاء العينة
+4104,sample variance,تباين العينة
+4105,sample-efficient,كفاءة العينة
+4106,sampler,أداة أخذ العينات
+4107,sampling algorithm,خوارزمية أخذ العينات
+4108,sampling-based inference,الاستدلال القائم على أخذ العينات
+4109,satisfiability,قابلية الإشباع
+4110,satisfiability problem,مشكلة قابلية الإشباع
+4111,scalability,قابلية التوسع
+4112,scalar,عدد قياسي
+4113,scalar product,المنتج العددي
+4114,scalarization,التحجيم
+4115,scale invariance,عدم التأثر بالمقياس
+4116,scale parameter,معامل المقياس
+4117,scaled dot-product,المنتج النقطي المقياس
+4118,scaled dot-product attention,الانتباه ذو الناتج النقطي المقيس
+4119,scaling factor,عامل التحجيم
+4120,scanning window detector,كاشف نافذة المسح
+4121,scene category,فئة المشهد
+4122,scene classification,تصنيف المشهد
+4123,scene classifier,مصنف المشهد
+4124,scene flow,تدفق المشهد
+4125,scene flow estimation,تقدير تدفق المشهد
+4126,scene geometry,هندسة المشهد
+4127,scene graph,رسم بياني للمشهد
+4128,scene parsing,تحليل المشهد
+4129,scene recognition,التعرف على المشهد
+4130,scene reconstruction,إعادة بناء المشهد
+4131,scene representation,تمثيل المشهد
+4132,scene understanding,فهم المشهد
+4133,scheduled sampling,أخذ العينات المجدولة
+4134,scheduler,المجدول
+4135,schema item,عنصر المخطط
+4136,score function,دالة التقييم
+4137,score matching,مطابقة النتيجة
+4138,score vector,متجه الدرجات
+4139,score-based model,نموذج قائم على الدرجات
+4140,scoring function,دالة التقييم
+4141,search,بحث
+4142,search algorithm,خوارزمية البحث
+4143,search problem,مشكلة البحث
+4144,search procedure,إجراء البحث
+4145,search space,فضاء البحث
+4146,search tree,شجرة البحث
+4147,second order,ترتيب ثانٍ
+4148,second order statistic,الإحصاء من الدرجة الثانية
+4149,second-order optimization,تحسين من الدرجة الثانية
+4150,second-order potential,إمكانات من الدرجة الثانية
+4151,segmentation,تجزئة
+4152,segmentation algorithm,خوارزمية التقسيم
+4153,segmentation map,خريطة التقسيم
+4154,segmentation mask,قناع التقسيم
+4155,selection bias,تحيز الاختيار
+4156,selectional preference,تفضيل الاختيار
+4157,self-attention,الانتباه الذاتي
+4158,self-attention head,رأس الانتباه الذاتي
+4159,self-attention layer,طبقة الانتباه الذاتي
+4160,self-attention matrix,مصفوفة الانتباه الذاتي
+4161,self-attention mechanism,آلية الانتباه الذاتي
+4162,self-attention model,نموذج الانتباه الذاتي
+4163,self-attention module,وحدة الانتباه الذاتي
+4164,self-learning,التعلم الذاتي
+4165,self-loop,حلقة ذاتية
+4166,self-play,اللعب الذاتي
+4168,self-supervised method,الطريقة الذاتية الإشراف
+4169,self-supervised model,النموذج الذاتي الإشراف
+4170,self-supervised representation learning,تعلم التمثيلات ذاتية الإشراف
+4171,self-supervised signal,إشارة ذات إشراف ذاتي
+4172,self-supervised training,تدريب ذاتي الإشراف
+4173,self-supervision,الإشراف الذاتي
+4174,self-training,تدريب ذاتي
+4175,semantic alignment,المواءمة الدلالية
+4176,semantic analysis,التحليل الدلالي
+4177,semantic annotation,التعليق التوضيحي الدلالي
+4178,semantic category,الفئة الدلالية
+4179,semantic class,صنف دلالي
+4180,semantic constraint,القيود الدلالية
+4181,semantic distance,المسافة الدلالية
+4182,semantic encoder,المشفّر الدلالي
+4183,semantic equivalence,التكافؤ الدلالي
+4184,semantic feature,الميزة الدلالية
+4185,semantic graph,الرسم البياني الدلالي
+4186,semantic information,المعلومات الدلالية
+4187,semantic interpretation,التفسير الدلالي
+4188,semantic label,التسمية الدلالية
+4189,semantic memory,الذاكرة الدلالية
+4190,semantic model,النموذج الدلالي
+4191,semantic network,الشبكة الدلالية
+4192,semantic object,الكائن الدلالي
+4193,semantic operator,المشغل الدلالي
+4194,semantic parse,التحليل الدلالي
+4195,semantic parser,المحلل الدلالي
+4196,semantic priming,التهيئة الدلالية
+4197,semantic relation,العلاقة الدلالية
+4198,semantic representation,التمثيل الدلالي
+4199,semantic role,الدور الدلالي
+4200,semantic role label,تسمية الدور الدلالي
+4201,semantic search,البحث الدلالي
+4202,semantic segmentation,التقسيم الدلالي
+4203,semantic similarity,التشابه الدلالي
+4204,semantic similarity measure,مقياس التشابه الدلالي
+4205,semantic space,الفضاء الدلالي
+4206,semantic structure,الهيكل الدلالي
+4207,semantic symbol,الرمز الدلالي
+4208,semantic textual similarity,تشابه النصوص الدلالي
+4209,semantic unit,الوحدة الدلالية
+4210,semantic vector,المتجه الدلالي
+4211,semantic vector space,فضاء المتجهات الدلالية
+4213,semantically,دلاليًا
+4214,semantics,الدلالات
+4215,semi-Markov,شبه ماركوف
+4216,semi-definite programming,البرمجة شبه المحددة
+4217,semi-supervised clustering,التجميع شبه المُشرف
+4218,semi-supervised learning,تعُّلم شبه موَّجه
+4219,semi-supervision,شبه إشراف
+4220,semidefinite program,البرنامج شبه المحدد
+4221,sense,معنى
+4222,sense disambiguation,تمييز المعنى
+4223,sensitive attribute,السمة الحساسة
+4224,sensitivity analysis,تحليل الحساسية
+4225,sentence,جملة
+4226,sentence classification,تصنيف الجمل
+4227,sentence compression,ضغط الجمل
+4228,sentence embedding,تمثيل الجمل
+4229,sentence encoder,مشفر الجملة
+4230,sentence representation,تمثيل الجملة
+4231,sentence segmentation,تقسيم الجمل
+4232,sentence vector,متجه الجملة
+4233,sentence-level,على مستوى الجملة
+4234,sentence-level classification,تصنيف على مستوى الجملة
+4235,sentence-level representation,تمثيل على مستوى الجملة
+4236,sentences,جمل
+4237,sentiment,المشاعر
+4238,sentiment analysis,تحليل المشاعر
+4239,sentiment analysis model,نموذج تحليل المشاعر
+4240,sentiment classification,تصنيف المشاعر
+4241,sentiment classifier,مصنف المشاعر
+4242,sentiment detection,كشف المشاعر
+4243,sentiment transfer,نقل المشاعر
+4244,separation oracle,أوراكل الفصل
+4245,separation parameter,معامل الفصل
+4246,separator token,رمز الفاصل
+4249,seq2seq model,نموذج تسلسل إلى تسلسل
+4250,sequence,تسلسل
+4251,sequence alignment,محاذاة التسلسل
+4252,sequence classification,تصنيف التسلسل
+4253,sequence database,قاعدة بيانات التسلسل
+4254,sequence generation,توليد التسلسل
+4255,sequence labeling,توسيم التسلسل
+4256,sequence labeling model,نموذج توسيم التسلسلات
+4257,sequence length,طول التسلسل
+4258,sequence model,نموذج تسلسلي
+4259,sequence prediction,تنبؤ التسلسل
+4260,sequence tagging,توسيم التسلسل
+4261,sequence transduction,تحويل التسلسل
+4262,sequence-to-sequence,نمذجة التسلسل إلى التسلسل
+4263,sequence-to-sequence architecture,بنية التسلسل إلى التسلسل
+4264,sequence-to-sequence generation,توليد من تسلسل إلى تسلسل
+4265,sequence-to-sequence model,نموذج تسلسل إلى تسلسل
+4266,sequence-to-sequence models,مهمة تحويل تسلسل إلى تسلسل
+4267,sequence-to-sequence transduction,تحويل تسلسل إلى تسلسل
+4268,sequences,تسلسلات
+4269,sequential datum,بيانات تسلسلية
+4270,sequential decision making,اتخاذ القرارات التسلسلية
+4271,sequential decision-making process,عملية اتخاذ القرار المتسلسل
+4272,sequential sampler,أخذ العينات متسلسل
+4273,sequential tagging,الوسم المتسلسل
+4274,set cover problem,مشكلة تغطية المجموعة
+4275,set function,دالة المجموعة
+4276,shallow network,شبكة ضحلة
+4277,shape matching,مضاهاة الأشكال
+4278,shape prior,قيد الشكل
+4279,shared,مشترك
+4280,shift invariant,غير متغير مع الإزاحة
+4281,shift reduce parser,محلل التحويل والتقليص
+4282,shortest path,أقصر مسار
+4283,shortest path algorithm,خوارزمية أقصر مسار
+4284,shortest path kernel,نواة أقصر مسار
+4285,shortest path length,طول أقصر مسار
+4286,sibling model,نموذج الأشقاء
+673,sigmoid,دالة سيجمويد
+4287,sigmoid activation,تفعيل سيجمويد
+4288,sigmoid activation function,دالة التفعيل السينية
+4289,sigmoid function,دالة سيجمويد
+4290,signal-to-noise ratio,نسبة الإشارة إلى الضوضاء
+4291,sim,تشابه
+4292,similarity,تشابه
+4293,similarity function,دالة التشابه
+4294,similarity graph,رسم بياني للتشابه
+4295,similarity matrix,مصفوفة التشابه
+4296,similarity measure,مقياس التشابه
+4297,similarity metric,مقياس التشابه
+4298,similarity score,درجة التشابه
+4299,similarity search,بحث التشابه
+4300,simplicial complex,مجموعة سيمبليسية
+4301,simulated annealing,التلدين المحاكى
+4302,simultaneous,متزامن
+4303,single task learning,التعلم أحادي المهمة
+4304,single-label classification,التصنيف أحادي التسمية
+4305,single-view data,بيانات ذات رؤية واحدة
+4306,singleton,عنصر مفرد
+4307,singular value,القيمة الفردية
+675,singular value decomposition,تحليل القيم المفردة
+4308,singular vector,المتجه المفرد
+4309,skip connection,اتصال تخطي
+4310,skip-gram,تخطي جرام
+4311,skip-gram model,نموذج تخطي-جرام
+4312,slack variable,متغير التراخي
+4313,sliding window,النافذة المنزلقة
+4314,sliding window classifier,مصنف النافذة المنزلقة
+4315,slot,خانة
+4316,slot filling,ملء الخانات
+4317,slot value,قيمة الحقل
+4318,slot-value pair,زوج الفتحة والقيمة
+4319,smoothing parameter,معامل التنعيم
+4320,smoothness term,مصطلح التنعيم
+4321,social,اجتماعي
+4322,social bias,التحيز الاجتماعي
+4323,social network analysis,تحليل الشبكات الاجتماعية
+4324,soft margin,الهامش اللين
+4325,softmax,سوفتماكس
+4326,softmax activation,تفعيل السوفتماكس
+4327,softmax activation function,دالة تفعيل السوفتماكس
+4328,softmax classifier,مصنف السوفتماكس
+4329,softmax distribution,توزيع سوفتماكس
+4330,softmax function,دالة سوفتماكس
+4331,softmax loss,خسارة سوفتماكس
+4332,softplus,سوفتمبلاس
+4333,softplus activation,تفعيل سوفتبلس
+4334,softplus function,دالة سوفت بلس
+4335,solution space,فضاء الحلول
+4336,solver,الحلّال
+4337,source,مصدر
+4338,source domain,مجال المصدر
+4339,source model,نموذج المصدر
+4340,source node,عقدة المصدر
+4341,source sequence,تسلسل المصدر
+4342,source token,رمز المصدر
+4343,source word,كلمة المصدر
+4344,space carving,نحت الفضاء
+4345,space complexity,تعقيد الفضاء
+4346,space partitioning,تقسيم الفضاء
+4347,spam detection,كشف الرسائل المزعجة
+4348,spam filtering,تصفية الرسائل المزعجة
+4349,span,المجال
+4350,spans,الأقسام
+678,sparse,متناثر
+4351,sparse approximation,التقريب المتناثر
+4352,sparse attention,الاهتمام المتناثر
+4353,sparse attention pattern,نمط الانتباه المتناثر
+4354,sparse feature,خاصية متناثرة
+4355,sparse graph,رسم بياني متفرق
+4356,sparse matrix,المصفوفة المتناثرة
+4357,sparse model,النموذج المتناثر
+4358,sparse recovery,الاسترداد المتناثر
+4359,sparse representation,تمثيل متناثر
+4360,sparse sampling,أخذ العينات المتناثر
+4361,sparse vector,متجه نادر
+4362,sparsification,التخفيف المتناثر
+4363,sparsity,الندرة
+4364,sparsity level,مستوى الندرة
+4365,sparsity regularization,تنظيم الندرة
+4366,spatial,مكاني
+4367,spatial domain,المجال المكاني
+4368,spatial gradient,التدرج المكاني
+4369,spatial pooling,تجميع مكاني
+4370,spatial pyramid,الهرم المكاني
+4371,spatial-temporal reasoning,استدلال مكاني-زماني
+4372,special token,رمز خاص
+4373,spectral algorithm,الخوارزمية الطيفية
+4374,spectral clustering,التجميع الطيفي
+4375,spectral decomposition,التحليل الطيفي
+4376,spectral embedding,التضمين الطيفي
+4377,spectral gap,الفجوة الطيفية
+4378,spectral learning,التعلم الطيفي
+4379,spectral matching,المطابقة الطيفية
+4380,spectral method,الطريقة الطيفية
+4381,spectral norm,المعيار الطيفي
+4382,spectral property,خاصية طيفية
+4383,spectrogram,المخطط الطيفي
+4384,speech,الكلام
+4385,speech recognition,التعرف على الكلام
+4386,speech recognizer,مُتعرف على الكلام
+4387,speech synthesis model,نموذج توليد الكلام
+4388,speech synthesizer,جهاز تركيب الكلام
+4389,spoken,محكي
+4390,spoken dialogue system,نظام الحوار المنطوق
+4391,spurious correlation,الارتباط الزائف
+4392,squared Euclidean distance,المسافة الإقليدية المربعة
+4393,squared error loss,خسارة الخطأ التربيعي
+4394,stable model,النموذج المستقر
+4395,stable model semantic,الدلالات النموذجية المستقرة
+4396,stance detection,كشف الموقف
+4397,standard normal distribution,التوزيع الطبيعي القياسي
+4398,start token,رمز البداية
+4399,state,حالة
+4400,state action pair,زوج الحالة والإجراء
+4401,state distribution,توزيع الحالة
+4402,state estimation,تقدير الحالة
+4403,state machine,آلة الحالة
+4404,state matrix,مصفوفة الحالة
+4405,state of the art algorithm,خوارزمية أحدث ما توصلت إليه التكنولوجيا
+4406,state representation,تمثيل الحالة
+4407,state sequence,تسلسل الحالة
+4408,state space,فضاء الحالة
+4409,state trajectory,مسار الحالة
+4410,state transition,انتقال الحالة
+4411,state transition function,دالة انتقال الحالة
+4412,state transition matrix,مصفوفة انتقال الحالة
+4413,state transition model,نموذج انتقال الحالة
+4414,state transition probability,احتمال انتقال الحالة
+4415,state value function,دالة قيمة الحالة
+4416,state variable,متغير الحالة
+4417,state vector,متجه الحالة
+4418,state-action distribution,توزيع الحالة-الإجراء
+4419,state-action space,فضاء الحالة-الإجراء
+4420,state-action value,قيمة الحالة-الإجراء
+4421,state-action value function,دالة قيمة الحالة-الإجراء
+4422,state-of-the-art baseline,الأساس المعياري الرائد
+4423,state-of-the-art method,الطريقة المتقدمة
+4424,state-of-the-art model,النموذج المتقدم
+4425,state-of-the-art system,النظام المتقدم
+4426,static analysis,التحليل الثابت
+4427,stationarity,الثبات
+4428,stationary distribution,التوزيع الثابت
+4429,stationary kernel,النواة الثابتة
+4430,stationary policy,السياسة الثابتة
+4431,statistical,إحصائي
+4432,statistical analysis,تحليل إحصائي
+4433,statistical independence,الاستقلال الإحصائي
+4434,statistical learning,التعلم الإحصائي
+4435,statistical learning algorithm,خوارزمية التعلم الإحصائي
+4436,statistical learning theory,نظرية التعلم الإحصائي
+4437,statistical machine translation system,نظام الترجمة الآلية الإحصائي
+4438,statistical measure,مقياس إحصائي
+4439,statistical model,نموذج إحصائي
+4440,statistical translation model,نموذج الترجمة الإحصائي
+4441,steepest descent,الانحدار الأشد
+4442,steerable filter,مرشح قابل للتوجيه
+4443,stemmer,الجذر اللغوي
+4444,stereo algorithm,خوارزمية الرؤية المجسمة
+4445,stereo benchmark,معيار الاستريو
+4446,stereo disparity,التفاوت المجسم
+4447,stereo image,الصورة المجسمة
+4448,stereo matching,المطابقة الاستريو
+4449,stereo pair,الزوج المجسم
+4450,stereo reconstruction,إعادة بناء الاستيريو
+4451,stereo vision,الرؤية المجسمة
+4452,stochastic algorithm,الخوارزمية العشوائية
+4453,stochastic approximation,التقريب العشوائي
+4454,stochastic depth,العمق العشوائي
+4455,stochastic differential equation,معادلة تفاضلية عشوائية
+4456,stochastic dynamic,الديناميكا العشوائية
+4457,stochastic environment,البيئة العشوائية
+4458,stochastic game,لعبة عشوائية
+4459,stochastic gradient,التدرج العشوائي
+4460,stochastic gradient algorithm,خوارزمية التدرج العشوائي
+4461,stochastic gradient ascent,صعود التدرج العشوائي
+696,stochastic gradient descent,الهبوط التدرج العشوائي
+4462,stochastic gradient method,طريقة التدرج العشوائي
+4463,stochastic grammar,القواعد النحوية العشوائية
+4464,stochastic matrix,المصفوفة العشوائية
+4465,stochastic model,النموذج العشوائي
+4466,stochastic objective,الهدف العشوائي
+4467,stochastic optimization,التحسين العشوائي
+4468,stochastic policy,السياسة العشوائية
+4469,stochastic process,العملية العشوائية
+4470,stochastic sampling,أخذ العينات العشوائية
+4471,stochastic search algorithm,خوارزمية البحث العشوائي
+4472,stochastic subgradient descent,النزول العشوائي بالمشتق الفرعي
+4473,stochastic transition matrix,مصفوفة الانتقال العشوائية
+4474,stochastic variational inference,الاستدلال التبايني العشوائي
+4475,stochasticity,العشوائية
+4476,stop word,كلمة توقف
+4477,stop-gradient,إيقاف التدرج
+4478,stop-gradient operation,عملية إيقاف التدرج
+4479,stopping condition,شرط الإيقاف
+4480,stopping criterion,معيار الإيقاف
+4481,stratified sampling,أخذ العينات الطبقي
+4482,streaming algorithm,الخوارزمية المتدفقة
+4483,streaming datum,البيانات المتدفقة
+4484,streaming model,النموذج المتدفق
+4485,stride,الخطوة
+4486,string kernel metric,مقياس نواة السلسلة
+4487,structural learning,التعلم الهيكلي
+4488,structural risk minimization,تقليل المخاطر الهيكلية
+4489,structure,الهيكل
+4490,structure learning,التعلم الهيكلي
+4491,structured,منظم
+4492,structured datum,البيانات المهيكلة
+4493,structured output,الإخراج المهيكل
+4494,structured perceptron,بيرسيبترون مُنَظَّم
+4495,structured prediction,التنبؤ المنظم
+4496,structured prediction model,نموذج التنبؤ الهيكلي
+4497,structured prediction problem,مشكلة التنبؤ الهيكلي
+4498,structured support vector machine,آلة الدعم الهيكلي
+4499,student model,نموذج الطالب
+4500,style transfer,نقل الأسلوب
+4501,sub-gradient,التدرج الفرعي
+4502,sub-gradient descent,هبوط التدرج الفرعي
+4503,sub-networks,الشبكات الفرعية
+4504,sub-population,السكان الفرعيون
+4505,sub-word,كلمة فرعية
+4506,sub-word tokenization,ترميز الكلمات الفرعية
+4507,subgame,اللعبة الفرعية
+4508,subgradient method,طريقة التدرج الفرعي
+4509,subgraph isomorphism,تطابق الرسم البياني الفرعي
+4510,subgraph selection,اختيار الرسم البياني الفرعي
+4511,submatrice,المصفوفة الفرعية
+4512,submatrix,المصفوفة الفرعية
+4513,submodular,غير شبه تآزري
+4514,submodular function,دالة دون نمطية
+4515,submodular function optimization,تحسين دالة دون نمطية
+4516,submodular influence function,وظيفة التأثير تحت المعيارية
+4517,submodular optimization,تحسين شبه معياري
+4518,submodular polyhedron,متعدد السطوح تحت الوحدات
+4519,submodular set function,دالة مجموعة شبه معيارية
+4520,subnetwork,شبكة فرعية
+4521,suboptimal,دون المستوى الأمثل
+4522,subpixel,بكسل فرعي
+4523,subsample,عينة فرعية
+4524,subsampling factor,عامل أخذ العينات الفرعية
+4525,subspace learning,تعلم الفضاء الفرعي
+4526,subspace method,طريقة الفضاءات الفرعية
+4527,subspace projection,إسقاط الفضاء الفرعي
+4528,substitution,استبدال
+4529,subsumption,الاحتواء
+4530,subsumption relation,علاقة التضمين
+4531,subtree,الشجرة الفرعية
+4532,subwindow,النافذة الفرعية
+4533,subword,وحدة صرفية
+4534,subword token,رمز الكلمة الفرعية
+4535,subword unit,وحدة الكلمة الفرعية
+4536,successor function,دالة الخلف
+4537,successor state,حالة الخلف
+4538,successor state axiom,بديهية حالة الخلف
+4539,sufficient statistic,إحصائية كافية
+4540,suffix tree,شجرة اللاحقات
+4541,summarization,التلخيص
+4542,summarization algorithm,خوارزمية التلخيص
+4543,summarization model,نموذج التلخيص
+4544,summarization system,نظام التلخيص
+4545,summarizing,تلخيص
+4546,super-pixel,البكسل الفائق
+4547,super-resolution,الدقة الفائقة
+4548,supergradient,تدرج فائق
+4549,supertag,الوسم الفائق
+4550,supervised classification,التصنيف الخاضع للإشراف
+4551,supervised classification model,نموذج التصنيف الخاضع للإشراف
+4552,supervised classifier,مصنّف مُراقَب
+4553,supervised contrastive learning,التعلم التبايني تحت الإشراف
+4554,supervised datum,البيانات الخاضعة للإشراف
+4555,supervised finetuning,الضبط الدقيق الخاضع للإشراف
+4556,supervised learning,تعُّلم موَّجه
+4557,supervised manner,بطريقة خاضعة للإشراف
+4558,supervised method,طريقة خاضعة للإشراف
+4559,supervised model,نموذج خاضع للإشراف
+4560,supervised multi-task learning,التعلم متعدد المهام الخاضع للإشراف
+4561,supervised setting,الإعداد الخاضع للإشراف
+4562,supervised system,نظام خاضع للإشراف
+4563,supervised training,التدريب تحت الإشراف
+4564,support,الدعم
+4565,support set,مجموعة الدعم
+4566,support threshold,عتبة الدعم
+4567,support vector,متجه الدعم
+4568,support vector machine,آلة الُمَّتجهات الداعمة
+4569,surface normal,المتجه العمودي على السطح
+4570,surface normal estimator,مقدر المتجه العمودي على السطح
+4571,surface normal prediction,تنبؤ الناظم السطحي
+4572,surface realization,تحقيق السطح
+4573,surrogate,بديل
+4574,surrogate function,دالة بديلة
+4575,surrogate loss,الخسارة البديلة
+4576,surrogate loss function,دالة الخسارة البديلة
+4577,surrogate model,نموذج بديل
+4578,swarm intelligence,ذكاء السرب
+4579,symbol grounding problem,مشكلة تأصيل الرموز
+4580,symbolic representation,تمثيل رمزي
+4581,symmetric matrix,مصفوفة متماثلة
+4582,symmetric positive semidefinite matrix,مصفوفة متماثلة موجبة شبه محددة
+4583,symmetrization,التناظر
+4584,synchronous context-free grammar,قواعد نحوية حرة السياق متزامنة
+4585,synonymy,الترادف
+4586,synset,مجموعة مترادفات
+4587,syntactic,نحوي
+4588,syntactic analysis,التحليل النحوي
+4589,syntactic category,الفئة النحوية
+4590,syntactic constraint,القيود النحوية
+4591,syntactic dependency,الاعتماد النحوي
+4592,syntactic dependency parsing,تحليل التبعية النحوية
+4593,syntactic dependency tree,شجرة التبعيات النحوية
+4594,syntactic feature,ميزة نحوية
+4595,syntactic information,معلومات نحوية
+4596,syntactic parse,تحليل نحوي
+4597,syntactic parser,محلل نحوي
+4598,syntactic regularity,الانتظام النحوي
+4599,syntactic representation,التمثيل النحوي
+4600,syntactic similarity,التشابه النحوي
+4601,syntactic structure,الهيكل النحوي
+4602,syntactic tree,شجرة نحوية
+4603,syntax,النحو
+4604,syntax tree,شجرة بناء الجملة
+4605,synthetic dataset,مجموعة بيانات صناعية
+4606,system,نظام
+4607,system identification,تحديد النظام
+4608,systems,الأنظمة
+4609,t-test,اختبار t
+4610,tag recommendation,توصية بالوسوم
+4611,tag sequence,تسلسل العلامات
+4612,tagger,مُعَلِّم
+4613,tagging,الوسم
+4614,tagset,مجموعة العلامات
+4615,tail entity,كيان الذيل
+4616,tangent space,فضاء المماس
+4617,tanh activation function,دالة التفعيل tanh
+4618,target,الهدف
+4619,target classifier,المصنف المستهدف
+4620,target distribution,توزيع الهدف
+4621,target domain,النطاق المستهدف
+4622,target function,الدالة المستهدفة
+4623,target instance,مثيل الهدف
+4624,target model,النموذج المستهدف
+4625,target network,الشبكة المستهدفة
+4626,target node,العقدة المستهدفة
+4627,target policy,السياسة المستهدفة
+4628,target sentence,الجملة المستهدفة
+4629,target sequence,تسلسل الهدف
+4630,target task,المهمة المستهدفة
+4631,target token,الرمز المستهدف
+4632,target variable,المتغير المستهدف
+4633,target vector,المتجه المستهدف
+4634,target vocabulary,المفردات المستهدفة
+4635,target word,الكلمة المستهدفة
+4636,target-to-source model,نموذج من الهدف إلى المصدر
+4637,task,مهمة
+4638,task adaptation,تكييف المهمة
+4639,task model,نموذج المهمة
+4640,task-oriented dialog system,نظام الحوار الموجه للمهام
+4641,task-oriented dialogue system,نظام الحوار الموجه نحو المهام
+4642,task-specific model,نموذج خاص بالمهمة
+4643,tasks,المهام
+4644,taxonomy,التصنيف
+4645,teacher forcing,التعليم القسري
+4646,teacher network,شبكة المعلم
+4647,temperature parameter,معامل الحرارة
+4648,temperature scaling,تعديل درجة الحرارة
+4649,template,نموذج
+4650,template model,نموذج القالب
+4651,template-matching,مطابقة القوالب
+4652,temporal derivative,المشتقة الزمنية
+4653,temporal difference,الفرق الزمني
+4654,temporal difference learning,تعلم الفرق الزمني
+4655,temporal drift,الانجراف الزمني
+4656,temporal fusion,دمج زمني
+4657,temporal locality,المحلية الزمنية
+4658,temporal logic,المنطق الزمني
+4659,temporal reasoning,الاستدلال الزمني
+4660,temporal variable,المتغير الزمني
+4661,tensor,تينسر
+4662,tensor decomposition,تحلل الموتر
+4663,tensor factorization,تحليل الموتر
+4664,tensor field,حقل التنسور
+4665,tensor product,حاصل الضرب التنسوري
+4666,term frequency,تردد المصطلح
+4667,terminal node,العقدة النهائية
+4668,terminal state,الحالة النهائية
+4669,termination condition,شرط الإنهاء
+4670,termination criterion,معيار الإنهاء
+4671,terminology,مصطلحات
+4672,test accuracy,دقة الاختبار
+4673,test dataset,بيانات الاختبار
+4674,test datum,بيانات الاختبار
+4675,test domain,مجال الاختبار
+4676,test error,خطأ الاختبار
+4677,test loss,خسارة الاختبار
+4678,test set,مجموعة الاختبار
+4679,test split,تقسيم الاختبار
+4680,test time,وقت الاختبار
+4681,testing set,مجموعة الاختبار
+4682,text,نص
+4683,text categorization,تصنيف النصوص
+4684,text corpus,مجموعة نصية
+4685,text embedding,تمثيل نصي
+4686,text encoder,مشفر النص
+4687,text generation,توليد النصوص
+4688,text generation model,نموذج توليد النصوص
+4689,text mining,تنقيب النصوص
+4690,text segmentation,تقسيم النصوص
+4691,text simplification,تبسيط النصوص
+4692,text tokenization,تقسيم النص
+4693,text-davinci-002,text-davinci-002
+4694,text-davinci-003,text-davinci-003
+4695,text-to-image diffusion model,نموذج الانتشار من النص إلى الصورة
+4696,text-to-image generation,توليد الصور من النص
+4697,text-to-image model,نموذج النص إلى الصورة
+4698,text-to-image synthesis,تخليق الصور من النص
+4699,texts,نصوص
+4700,textual entailment,الاستدلال النصي
+4701,tf-idf,tf-idf
+4702,threat model,نموذج التهديد
+4703,threshold,عتبة
+4704,threshold function,دالة العتبة
+4705,threshold parameter,معامل العتبة
+4706,threshold policy,سياسة العتبة
+4707,time complexity,تعقيد الزمن
+4708,time series,السلاسل الزمنية
+4709,time series analysis,تحليل السلاسل الزمنية
+4710,time series forecasting,التنبؤ بالسلاسل الزمنية
+4711,time step,خطوة زمنية
+4712,time-series datum,بيانات السلاسل الزمنية
+4713,time-series model,نموذج السلاسل الزمنية
+4714,time/space complexity,تعقيد الزمن/المكان
+4715,token,وحدة لغوية
+4716,token classification,تصنيف الرموز
+4717,token embedding,تضمين الرموز
+4718,token frequency,تردد الرموز
+4719,token length,طول الرمز
+4720,token representation,تمثيل الرمز
+4721,token sequence,تسلسل الرموز
+4722,token space,فضاء الرموز
+4723,token vector,متجه الرمز
+4724,token vocabulary,مفردات الرموز
+4725,token-level,مستوى الرموز
+4726,token-level attention,الانتباه على مستوى الرموز
+4727,token-level feature,ميزة على مستوى الرمز المميز
+4728,tokenisation,تحويل النص إلى رموز
+4729,tokenization,تقسيم النص إلى رموز
+4730,tokenization scheme,مخطط التقسيم إلى رموز
+4731,tokenizer,مُقسّم الكلمات
+4732,tokens,الرموز
+4733,top-1 accuracy,أعلى 1 دقة
+4734,top-down segmentation,التجزئة من الأعلى إلى الأسفل
+4735,top-k,أعلى-k
+4736,top-k sampling,أخذ العينات من الأعلى-k
+4737,top-p sampling,أخذ العينات من الأعلى-p
+4738,topic assignment,تعيين الموضوع
+4739,topic classification,تصنيف الموضوعات
+4740,topic distribution,توزيع الموضوعات
+4741,topic model,نموذج الموضوعات
+4742,topic proportion,نسبة الموضوع
+4743,topic weight,وزن الموضوع
+4744,total variation,التباين الكلي
+4745,total variation distance,مسافة التباين الكلي
+4746,toxicity detection,كشف السمية
+4747,trace norm,معيار الأثر
+4748,tracking algorithm,خوارزمية التتبع
+4749,train,تدريب
+4750,train / test / dev split,تقسيم التدريب / الاختبار / التطوير
+4751,train set,مجموعة التدريب
+4752,train-test split,تقسيم التدريب-الاختبار
+4753,train/test,تدريب / اختبار
+4754,trainable parameter,معامل قابل للتدريب
+4755,trainable weight,وزن قابل للتدريب
+4756,training,تدريب
+4757,training accuracy,دقة التدريب
+4758,training algorithm,خوارزمية التدريب
+4759,training batch,دفعة التدريب
+4760,training corpora,مجموعات بيانات التدريب
+4761,training corpus,مجموعة بيانات التدريب
+4762,training dataset,بيانات التدريب
+4763,training datum,بيانات التدريب
+4764,training distribution,توزيع التدريب
+4765,training dynamic,ديناميات التدريب
+4766,training epoch,عصر التدريب
+4767,training error,خطأ التدريب
+4768,training example,مثال التدريب
+4769,training loss,خسارة التدريب
+4770,training objective,هدف التدريب
+4771,training phase,مرحلة التدريب
+4772,training procedure,إجراء التدريب
+4773,training process,عملية التدريب
+4774,training sample,عينة التدريب
+4775,training set,مجموعة التدريب
+4776,training stability,استقرار التدريب
+4777,training step,خطوة التدريب
+4778,training task,مهمة التدريب
+4779,training time,وقت التدريب
+4780,training token,رمز التدريب
+4781,trajectory forecasting,توقع المسار
+4782,trajectory optimization,تحسين المسار
+4783,transaction database,قاعدة بيانات المعاملات
+4784,transductive learning,التعلم الانتقائي
+4785,transfer function,دالة النقل
+4786,transfer learning,تعُّلم منقول
+4787,transformation function,دالة التحويل
+4788,transformation matrix,مصفوفة التحويل
+4789,transformer,مُحوِّل
+4790,transformer language model,نموذج اللغة القائم على المحولات
+4791,transformer layer,طبقة المحولات
+723,transformer model,نموذج المحولات
+4792,transformer variant,تنويعة المحولات
+4793,transformer-based architecture,معمارية قائمة على المحولات
+4794,transformers,المحولات
+4795,transition distribution,توزيع الانتقال
+4796,transition dynamic,ديناميكية الانتقال
+4797,transition function,دالة الانتقال
+4798,transition graph,رسم بياني للانتقال
+4799,transition kernel,نواة الانتقال
+4800,transition matrix,مصفوفة الانتقال
+4801,transition model,نموذج الانتقال
+4802,transition probability,احتمال الانتقال
+4803,transition probability model,نموذج احتمال الانتقال
+4804,transition system,نظام الانتقال
+4805,transition-based dependency parsing,تحليل التبعية القائم على الانتقال
+4806,transition-based model,النموذج القائم على الانتقال
+4807,transition-based parser,المحلل النحوي القائم على الانتقال
+4808,transition-based parsing,التحليل النحوي القائم على الانتقال
+4809,transitive closure,الإغلاق الانتقالي
+4810,transitive relation,علاقة متعدية
+4811,translation,ترجمة
+4812,translation invariance,ثبات الإزاحة
+4813,translation model,نموذج الترجمة
+4814,translation system,نظام الترجمة
+4815,translation vector,متجه الترجمة
+4816,translations,الترجمات
+4817,transliteration,النقحرة
+4818,transpose,المصفوفة المنقولة
+4819,transposition table,جدول التبديل
+4820,tree data structure,هيكل بيانات شجري
+4821,tree decomposition,تحليل الشجرة
+4822,tree depth,عمق الشجرة
+4823,tree ensemble,مجموعة الأشجار
+4824,tree search,بحث الشجرة
+4825,tree structure,هيكل شجري
+4826,tree width,عرض الشجرة
+4827,tree-based model,نموذج قائم على الشجرة
+729,treebank,تريبانك
+4828,treebank annotation,تعليق بنك الأشجار
+4829,tri-gram,ثلاثي-الجرام
+4830,triangle inequality,متباينة المثلث
+4831,trifocal tensor,موتر ثلاثي البؤرة
+4832,trigram language model,نموذج لغة التريجرام
+4833,trigram model,نموذج ثلاثي الكلمات
+4834,trilinear interpolation,الاستيفاء ثلاثي الخطوط
+4835,trimap,خريطة ثلاثية
+4836,triple,ثلاثي
+4837,triplet,ثلاثي
+4838,triplet loss,خسارة ثلاثية
+4839,true positive rate,معدل الإيجابيات الحقيقية
+4840,truth assignment,تعيين الحقيقة
+4841,tuple,مجموعة مرتبة
+4842,tuplex,توبلكس
+4843,two-class classification,تصنيف ثنائي الفئات
+4844,two-player zero-sum game,لعبة لاعبين محصلتها صفر
+4845,type embedding,تضمين النوع
+4846,unary atom,ذرة أحادية
+4847,unary constraint,قيد أحادي
+4848,unary feature,ميزة أحادية
+4849,unary potential,احتمال أحادي
+4850,unary predicate,المسند الأحادي
+4851,unary production,إنتاج أحادي
+4852,unbiased estimate,تقدير غير متحيز
+4853,unbiased estimator,مقدّر غير متحيز
+4854,uncertainty,عدم اليقين
+4855,uncertainty measure,مقياس عدم اليقين
+4856,uncertainty modeling,نمذجة عدم اليقين
+4857,uncertainty sampling,أخذ عينات عدم اليقين
+4858,underfitting,فرط التعميم
+4859,undirected graph,رسم بياني غير موجه
+4860,undirected graphical model,نموذج رسومي غير موجه
+4861,uniform convergence,التقارب المنتظم
+4862,uniform distribution,توزيع موحد
+4863,uniform information density hypothesis,فرضية كثافة المعلومات المنتظمة
+4864,uniform sampling,أخذ العينات الموحدة
+736,unigram,يونيجرام
+4865,unigram counts,عدادات يونجرام
+4866,unigram distribution,توزيع يونيجرام
+4867,unigram language model,نموذج لغة يونيجرام
+4868,unigram model,نموذج يونيجرام
+4869,union bound,حد الاتحاد
+4870,union of conjunctive query,اتحاد الاستعلامات الاقترانية
+4871,unit propagation,انتشار الوحدة
+4872,unit sphere,الكرة الوحدة
+4873,universal approximation,التقريب الشامل
+4874,universal approximator,المقرب العالمي
+4875,universal model,النموذج الشامل
+4876,unlabeled datum,بيانات غير مُعَلَّمة
+4877,unlexicalized grammar,قواعد غير مُعجمية
+4878,unnormalized probability,الاحتمال غير المعياري
+4879,unseen,غير مرئي
+4880,unsolvability,عدم القابلية للحل
+4881,unsupervised,غير خاضع للإشراف
+4882,unsupervised algorithm,خوارزمية غير مُراقبة
+4883,unsupervised approach,النهج غير الخاضع للإشراف
+4884,unsupervised classification,التصنيف غير الخاضع للإشراف
+4885,unsupervised clustering,التجميع غير الخاضع للإشراف
+4886,unsupervised datum,بيانات غير خاضعة للإشراف
+4887,unsupervised discovery,اكتشاف غير خاضع للإشراف
+4888,unsupervised disentanglement,فك الارتباط غير الخاضع للإشراف
+4889,unsupervised domain adaptation,التكيف غير الخاضع للإشراف مع المجال
+4890,unsupervised feature learning,تعلم الميزات غير الخاضع للإشراف
+4891,unsupervised image segmentation,تجزئة الصور غير الخاضعة للإشراف
+4892,unsupervised learning,تعُّلم غير موَّجه
+4893,unsupervised method,الطريقة غير المراقبة
+4894,unsupervised model,النموذج غير المراقب
+4895,unsupervised morphological segmentation,التجزئة المورفولوجية غير الخاضعة للرقابة
+4896,unsupervised parsing,التحليل النحوي غير الموجه
+4897,unsupervised pre-training,التدريب المسبق غير الخاضع للرقابة
+4898,unsupervised representation,التمثيل غير الخاضع للإشراف
+4899,unsupervised representation learning,تعلم التمثيل غير الخاضع للإشراف
+4900,unsupervised segmentation,تجزئة غير خاضعة للرقابة
+4901,unsupervised system,نظام غير خاضع للإشراف
+4902,unsupervised word clustering,تجميع الكلمات غير الخاضع للإشراف
+4903,unweighted graph,رسم بياني غير مرجح
+4904,update function,دالة التحديث
+4905,update rule,قاعدة التحديث
+4906,user,مستخدم
+4907,user embedding,تضمين المستخدم
+4908,user utterance,تعبير المستخدم
+4909,user-item matrix,مصفوفة المستخدم-العنصر
+4910,utility,المنفعة
+4911,utility function,دالة المنفعة
+4912,utterance,الكلام
+4913,utterance encoder,مشفر العبارات
+4914,utterances,الكلام
+4915,validation,التحقق
+4916,validation accuracy,دقة التحقق
+4917,validation dataset,بيانات التحقق
+4918,validation datum,بيانات التحقق
+4919,validation loss,خسارة التحقق
+4920,validation performance,أداء التحقق
+4921,validation set,مجموعة التحقق
+4922,validation split,تقسيم التحقق
+4923,value estimate,تقدير القيمة
+4924,value function,دالة القيمة
+4925,value function approximation,تقريب دالة القيمة
+4926,value iteration,تكرار القيمة
+4927,value iteration algorithm,خوارزمية تكرار القيمة
+4928,value network,شبكة القيمة
+4929,value-based reinforcement learning,التعلم المعزز القائم على القيمة
+4930,vanilla Transformer,المحول القياسي
+4931,vanishing gradient,التدرج المتلاشي
+4932,vanishing gradient problem,مشكلة تلاشي المشتقة
+4933,variable assignment,تعيين المتغيرات
+4934,variable selection,اختيار المتغيرات
+4935,variance reduction,تقليل التباين
+4936,variance regularization,تنظيم التباين
+4937,variational Bayes,بايز التبايني
+4938,variational approach,النهج التبايني
+4939,variational approximation,تقريب تغييري
+742,variational autoencoder,المشفّر التلقائي التبايني
+4940,variational bound,الحد التغايري
+4941,variational distribution,التوزيع التبايني
+4942,variational formulation,الصياغة التباينية
+4943,variational framework,الإطار التغيري
+4944,variational inference,الاستدلال التغيري
+4945,variational lower bound,الحد الأدنى التغييري
+4946,variational method,الطريقة التغايرية
+4947,variational model,النموذج التغييري
+4948,variational objective,الهدف التبايني
+4949,variational parameter,المعلمة التغايرية
+4950,variational posterior,التوزيع الخلفي المتغير
+4951,vector,متجه
+4952,vector arithmetic,حسابيات المتجهات
+4953,vector concatenation,دمج المتجهات
+4954,vector embedding,تضمين متجهي
+4955,vector field,حقل المتجهات
+4956,vector graphic,الرسوميات المتجهية
+4957,vector normalization,تطبيع المتجه
+4958,vector quantization,تكميم المتجهات
+4959,vector representation,التمثيل المتجهي
+4960,vector space,فضاء المتجهات
+4961,vector space embedding,تضمين فضاء المتجهات
+4962,vector space model,نموذج فضاء المتجهات
+4963,vector space representation,تمثيل فضاء المتجهات
+4964,vector-valued function,دالة ذات قيم متجهة
+4965,vectorization,تحويل إلى متجهات
+4966,vectorization operator,مُشغِّل التحويل إلى متجهات
+4967,vectorize,تحويل إلى متجهات
+4968,vectors,متجهات
+4969,verb,فعل
+4970,verbalizer,المُلفِّظ
+4971,verbs,الأفعال
+4972,vertex label,تسمية الرأس
+4973,vertex set,مجموعة الرؤوس
+4974,victim model,نموذج الضحية
+4975,view synthesis,توليف المناظر
+4976,virtual camera,كاميرا افتراضية
+4977,vision model,نموذج الرؤية
+4978,vision system,نظام الرؤية
+4979,vision-language model,نموذج الرؤية-اللغة
+4980,visual,بصري
+4981,visual attention,الانتباه البصري
+4982,visual attribute,السمة المرئية
+4983,visual context,السياق البصري
+4984,visual cortex,القشرة البصرية
+4985,visual feature,الميزة البصرية
+4986,visual grounding,التأصيل البصري
+4987,visual hull,الهيكل البصري
+4988,visual localization,التوطين البصري
+4989,visual odometry,قياس الحركة البصرية
+4990,visual recognition system,نظام التعرف البصري
+4991,vocabulary,المفردات
+4992,vocabulary size,حجم المفردات
+4993,vocoder,المُشفِّر الصوتي
+4994,volume rendering,التصيير الحجمي
+4995,von Mises-Fisher distribution,توزيع فون ميسيس-فيشر
+4996,voting rule,قاعدة التصويت
+4997,voxel,فوكسل
+4998,voxel grid,شبكة الفوكسل
+4999,voxel grid representation,تمثيل شبكة الفوكسل
+5000,voxel occupancy,شغل الفوكسل
+5001,voxel representation,تمثيل الفوكسل
+5002,voxel-based representation,تمثيل قائم على الفوكسل
+5003,warp function,وظيفة الاعوجاج
+5004,wav2vec,موجة إلى متجه
+5005,wavelet,المويجة
+5006,wavelet transform,تحويل المويجات
+5007,weak classifier,مصنف ضعيف
+5008,weak learner,المتعلم الضعيف
+5009,weak learning,التعلم الضعيف
+5010,weak learning assumption,افتراض التعلم الضعيف
+5011,weak supervision,الإشراف الضعيف
+5012,weakly supervised,الخاضع للإشراف الضعيف
+5013,weakly supervised learning,التعلم تحت إشراف ضعيف
+5014,web graph,الرسم البياني للويب
+5015,weight,وزن
+5016,weight decay,اضمحلال الوزن
+5017,weight initialization,تهيئة الوزن
+5018,weight matrix,مصفوفة الأوزان
+5019,weight parameter,معامل الوزن
+5020,weight regularization,تنظيم الوزن
+5021,weight tensor,موتر الوزن
+5022,weight update,تحديث الوزن
+5023,weight vector,متجه الوزن
+5024,weight-sharing,مشاركة الوزن
+5025,weighted adjacency matrix,مصفوفة التلاصق الموزونة
+5026,weighted average,المتوسط المرجح
+5027,weighted directed graph,الرسم البياني الموجه الموزون
+5028,weighted graph,رسم بياني موزون
+5029,weighted sum,مجموع موزون
+5030,weighting function,دالة الوزن
+5031,weights,الأوزان
+5032,white-box,الصندوق الأبيض
+5033,white-box attack,هجوم الصندوق الأبيض
+5034,window size,حجم النافذة
+5035,within-class variance,التباين داخل الفئة
+5036,word,كلمة
+5037,word alignment,محاذاة الكلمات
+5038,word dropout,إسقاط الكلمات
+5039,word embedding,تمثيل الكلمات
+5040,word embedding model,نموذج تضمين الكلمات
+5041,word representation,تمثيل الكلمات
+5042,word segmentation,تجزئة الكلمات
+5043,word sense disambiguation,إزالة غموض معنى الكلمات
+5044,word similarity,تشابه الكلمات
+5045,word surprisal,تفاجؤ الكلمات
+5046,word token,رمز الكلمة
+5047,word vector,متجه الكلمة
+5048,word vector representation,تمثيل متجه الكلمات
+5049,word-aligned corpus,المتن المحاذى على مستوى الكلمات
+5050,word-level,على مستوى الكلمة
+5051,word-level vocabulary,مفردات على مستوى الكلمة
+5054,word2vec embedding,تضمين word2vec
+5055,words,كلمات
+5056,world state,حالة العالم
+5057,worst case,أسوأ حالة
+5058,worst-case regret,الندم في أسوأ الحالات
+5059,written,مكتوب
+5060,zero-one loss,خسارة صفر-واحد
+5061,zero-shot classification,تصنيف بدون أمثلة
+5062,zero-shot cross-lingual setting,إعداد صفر-لقطة عبر اللغات
+5063,zero-shot generalization,التعميم بدون تدريب
+5064,zero-shot learning,تعلم بدون أمثلة مباشرة
+5065,zero-shot prediction,التنبؤ بدون أمثلة
+5066,zero-shot prompting,التحفيز بدون أمثلة
+5067,zero-shot reasoning,الاستدلال بدون أمثلة سابقة
+5068,zero-shot setting,إعداد بدون أمثلة
+5069,zero-shot transfer,النقل الصفري
+5070,zero-shot transfer learning,التعلم بالتحويل بدون تدريب

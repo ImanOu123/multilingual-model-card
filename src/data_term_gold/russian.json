@@ -1,0 +1,1958 @@
+[
+    {
+        "term_russian": "абдукция",
+        "term_english": "abduction"
+    },
+    {
+        "term_russian": "абстракция",
+        "term_english": "abstraction"
+    },
+    {
+        "term_russian": "абстракция данных",
+        "term_english": "data abstraction"
+    },
+    {
+        "term_russian": "автомат",
+        "term_english": "automaton"
+    },
+    {
+        "term_russian": "автомат клеточный",
+        "term_english": "cellular automaton"
+    },
+    {
+        "term_russian": "автомат конечный",
+        "term_english": "finite automaton"
+    },
+    {
+        "term_russian": "автомат линейно-ограниченный",
+        "term_english": "linear-bounded automaton"
+    },
+    {
+        "term_russian": "автомат магазинный",
+        "term_english": "push-down automaton"
+    },
+    {
+        "term_russian": "автомат секвенциальный",
+        "term_english": "sequential automaton"
+    },
+    {
+        "term_russian": "автомат стохастический",
+        "term_english": "stochastic automaton"
+    },
+    {
+        "term_russian": "автоматизация делопроизводства",
+        "term_english": "office automation"
+    },
+    {
+        "term_russian": "аксиома",
+        "term_english": "axiom"
+    },
+    {
+        "term_russian": "акт речевой",
+        "term_english": "speech act"
+    },
+    {
+        "term_russian": "актор",
+        "term_english": "actor"
+    },
+    {
+        "term_russian": "алгоритм",
+        "term_english": "algorithm"
+    },
+    {
+        "term_russian": "алгоритм волновой",
+        "term_english": "wave algorithm"
+    },
+    {
+        "term_russian": "алгоритм генетический",
+        "term_english": "genetic algorithm"
+    },
+    {
+        "term_russian": "анализ кластерный",
+        "term_english": "cluster analisys"
+    },
+    {
+        "term_russian": "анализ морфологический",
+        "term_english": "morphologic analisys"
+    },
+    {
+        "term_russian": "анализ протокольный",
+        "term_english": "protocol analysis"
+    },
+    {
+        "term_russian": "анализ синтаксический",
+        "term_english": "syntactic analysis"
+    },
+    {
+        "term_russian": "анализ сцен",
+        "term_english": "scenary analysis"
+    },
+    {
+        "term_russian": "анализатор синтаксический",
+        "term_english": "syntactic parser"
+    },
+    {
+        "term_russian": "аналогия",
+        "term_english": "analogy"
+    },
+    {
+        "term_russian": "анафора",
+        "term_english": "anaphora"
+    },
+    {
+        "term_russian": "аргументация",
+        "term_english": "argumentation"
+    },
+    {
+        "term_russian": "архитектура компьютера",
+        "term_english": "computer architecture"
+    },
+    {
+        "term_russian": "архитектура конвейерная",
+        "term_english": "pipeline architecture"
+    },
+    {
+        "term_russian": "архитектура параллельная",
+        "term_english": "parallel architecture"
+    },
+    {
+        "term_russian": "архитектура потоковая",
+        "term_english": "data flow architecture"
+    },
+    {
+        "term_russian": "ассоциация",
+        "term_english": "association"
+    },
+    {
+        "term_russian": "атом",
+        "term_english": "atom"
+    },
+    {
+        "term_russian": "атрибут",
+        "term_english": "attribute"
+    },
+    {
+        "term_russian": "база данных",
+        "term_english": "data base"
+    },
+    {
+        "term_russian": "база данных иерархическая",
+        "term_english": "hierarchical data base"
+    },
+    {
+        "term_russian": "база данных реляционная",
+        "term_english": "relational data base"
+    },
+    {
+        "term_russian": "база данных экстенсиональная",
+        "term_english": "extensional data base"
+    },
+    {
+        "term_russian": "база знаний",
+        "term_english": "knowledge base"
+    },
+    {
+        "term_russian": "база знаний замкнутая",
+        "term_english": "closed knowledge base"
+    },
+    {
+        "term_russian": "база знаний интенсиональная",
+        "term_english": "intensional knowledge base"
+    },
+    {
+        "term_russian": "база знаний открытая",
+        "term_english": "open knowledge base"
+    },
+    {
+        "term_russian": "бектрекинг",
+        "term_english": "backtracking"
+    },
+    {
+        "term_russian": "беседа сократическая",
+        "term_english": "Socratic dialogue"
+    },
+    {
+        "term_russian": "бихейвиоризм",
+        "term_english": "behaviourism"
+    },
+    {
+        "term_russian": "валидация",
+        "term_english": "validation"
+    },
+    {
+        "term_russian": "верификация",
+        "term_english": "verification"
+    },
+    {
+        "term_russian": "видеопроцессор",
+        "term_english": "video-processor"
+    },
+    {
+        "term_russian": "восприятие",
+        "term_english": "perception"
+    },
+    {
+        "term_russian": "восприятие зрительной информации",
+        "term_english": "visual perception"
+    },
+    {
+        "term_russian": "восприятие тактильной информации",
+        "term_english": "tactile perception"
+    },
+    {
+        "term_russian": "выборка обучающая",
+        "term_english": "teaching selection"
+    },
+    {
+        "term_russian": "вывод",
+        "term_english": "inference"
+    },
+    {
+        "term_russian": "вывод абдуктивный",
+        "term_english": "abductive inference"
+    },
+    {
+        "term_russian": "вывод вероятностный",
+        "term_english": "probabilitic inference"
+    },
+    {
+        "term_russian": "вывод естественный",
+        "term_english": "common-sense inference"
+    },
+    {
+        "term_russian": "вывод индуктивный",
+        "term_english": "inductive inference"
+    },
+    {
+        "term_russian": "вывод интуиционисткий",
+        "term_english": "intuitionistic inference"
+    },
+    {
+        "term_russian": "вывод линейный",
+        "term_english": "linear inference"
+    },
+    {
+        "term_russian": "вывод логический",
+        "term_english": "logical inference"
+    },
+    {
+        "term_russian": "вывод на знаниях",
+        "term_english": "knoledge-based inference"
+    },
+    {
+        "term_russian": "вывод немонотонный",
+        "term_english": "non-monotonic inference"
+    },
+    {
+        "term_russian": "вывод нечеткий",
+        "term_english": "fuzzy inference"
+    },
+    {
+        "term_russian": "вывод по аналогии",
+        "term_english": "inference by analogy"
+    },
+    {
+        "term_russian": "вывод правдоподобный",
+        "term_english": "plausible inference"
+    },
+    {
+        "term_russian": "вывод прямой",
+        "term_english": "direct inference"
+    },
+    {
+        "term_russian": "вызов по образцу",
+        "term_english": "call by pattern"
+    },
+    {
+        "term_russian": "высказывание",
+        "term_english": "proposition"
+    },
+    {
+        "term_russian": "высказывание атомарное",
+        "term_english": "atomic proposition"
+    },
+    {
+        "term_russian": "генерация текста",
+        "term_english": "text generation"
+    },
+    {
+        "term_russian": "герменевтика",
+        "term_english": "hermeneutics"
+    },
+    {
+        "term_russian": "гиперсобытие",
+        "term_english": "hyper-event"
+    },
+    {
+        "term_russian": "гипотеза",
+        "term_english": "hypothesis"
+    },
+    {
+        "term_russian": "гипотеза компактности",
+        "term_english": "compactness hypothesis"
+    },
+    {
+        "term_russian": "грамматика матричная",
+        "term_english": "matrix grammar"
+    },
+    {
+        "term_russian": "грамматика падежная",
+        "term_english": "case grammar"
+    },
+    {
+        "term_russian": "грамматика сетевая",
+        "term_english": "network grammar"
+    },
+    {
+        "term_russian": "грамматика формальная",
+        "term_english": "formal grammar"
+    },
+    {
+        "term_russian": "граф",
+        "term_english": "graph"
+    },
+    {
+        "term_russian": "графика динамическая",
+        "term_english": "animation"
+    },
+    {
+        "term_russian": "графика когнитинвная",
+        "term_english": "cognitive graphics"
+    },
+    {
+        "term_russian": "действие",
+        "term_english": "action"
+    },
+    {
+        "term_russian": "декомпозиция задач",
+        "term_english": "problem decomposition"
+    },
+    {
+        "term_russian": "денотат",
+        "term_english": "denotatum"
+    },
+    {
+        "term_russian": "дерево вывода",
+        "term_english": "inference tree"
+    },
+    {
+        "term_russian": "дерево двоичное",
+        "term_english": "binary tree"
+    },
+    {
+        "term_russian": "дерево зависимостей",
+        "term_english": "dependency tree"
+    },
+    {
+        "term_russian": "дерево решений",
+        "term_english": "decision tree"
+    },
+    {
+        "term_russian": "дерево составляющих",
+        "term_english": "consistency tree"
+    },
+    {
+        "term_russian": "дерево целей",
+        "term_english": "goal tree"
+    },
+    {
+        "term_russian": "десигнат",
+        "term_english": "designator"
+    },
+    {
+        "term_russian": "дескриптор",
+        "term_english": "descriptor"
+    },
+    {
+        "term_russian": "дефолт",
+        "term_english": "default"
+    },
+    {
+        "term_russian": "дизъюнкт пустой",
+        "term_english": "empty clause"
+    },
+    {
+        "term_russian": "дизъюнкт Хорна",
+        "term_english": "Horn clause"
+    },
+    {
+        "term_russian": "дизъюнкция",
+        "term_english": "disjunction"
+    },
+    {
+        "term_russian": "дискурс",
+        "term_english": "discourse"
+    },
+    {
+        "term_russian": "диссонанс когнитивный",
+        "term_english": "cognitive dissonance"
+    },
+    {
+        "term_russian": "доказательство конструктивное",
+        "term_english": "constructive proof"
+    },
+    {
+        "term_russian": "доказательство теоремы",
+        "term_english": "theorem proving"
+    },
+    {
+        "term_russian": "домен",
+        "term_english": "domain"
+    },
+    {
+        "term_russian": "доска объявлений",
+        "term_english": "blackboard"
+    },
+    {
+        "term_russian": "знания",
+        "term_english": "knowledge"
+    },
+    {
+        "term_russian": "знания декларативные",
+        "term_english": "declarative knowledge"
+    },
+    {
+        "term_russian": "знания о предметной области",
+        "term_english": "problem area knowledge"
+    },
+    {
+        "term_russian": "знания прагматические",
+        "term_english": "pragmatic knowledge"
+    },
+    {
+        "term_russian": "знания процедурные",
+        "term_english": "procedural knowledge"
+    },
+    {
+        "term_russian": "знания эвристические",
+        "term_english": "heuristic knowledge"
+    },
+    {
+        "term_russian": "знания экспертные",
+        "term_english": "expert knowledge"
+    },
+    {
+        "term_russian": "значение атрибута",
+        "term_english": "attribute value"
+    },
+    {
+        "term_russian": "значение по умолчанию",
+        "term_english": "default value"
+    },
+    {
+        "term_russian": "зрение машинное",
+        "term_english": "computer vision"
+    },
+    {
+        "term_russian": "И/ИЛИ граф",
+        "term_english": "AND/OR graph"
+    },
+    {
+        "term_russian": "идентификация",
+        "term_english": "identification"
+    },
+    {
+        "term_russian": "идентификация знаний",
+        "term_english": "knowledge identification"
+    },
+    {
+        "term_russian": "извлечение знаний",
+        "term_english": "knowledge acquisition"
+    },
+    {
+        "term_russian": "ИИ-программирование",
+        "term_english": "AI-programming"
+    },
+    {
+        "term_russian": "иллокуция",
+        "term_english": "illocution"
+    },
+    {
+        "term_russian": "импликация",
+        "term_english": "implication"
+    },
+    {
+        "term_russian": "индукция",
+        "term_english": "induction"
+    },
+    {
+        "term_russian": "индукция неполная (эмпирическая)",
+        "term_english": "empirical induction"
+    },
+    {
+        "term_russian": "индукция полная (математическая)",
+        "term_english": "complete induction (mathematical)"
+    },
+    {
+        "term_russian": "инженер по знаниям",
+        "term_english": "knowledge engineer"
+    },
+    {
+        "term_russian": "инженерия знаний",
+        "term_english": "knowledge engineering"
+    },
+    {
+        "term_russian": "интеллект искусственный",
+        "term_english": "artificial intelligence"
+    },
+    {
+        "term_russian": "интервью",
+        "term_english": "interview"
+    },
+    {
+        "term_russian": "интерпретация",
+        "term_english": "interpretation"
+    },
+    {
+        "term_russian": "интерфейс естественно-языковый",
+        "term_english": "natural language interface"
+    },
+    {
+        "term_russian": "интерфейс интеллектуальный",
+        "term_english": "intelligent interface"
+    },
+    {
+        "term_russian": "источник знаний",
+        "term_english": "knowledge source"
+    },
+    {
+        "term_russian": "исчисления",
+        "term_english": "calculus"
+    },
+    {
+        "term_russian": "исчисление высказываний",
+        "term_english": "propositional calculus"
+    },
+    {
+        "term_russian": "исчисление логическое",
+        "term_english": "logical calculus"
+    },
+    {
+        "term_russian": "исчисление предикатов",
+        "term_english": "predicate calculus"
+    },
+    {
+        "term_russian": "исчисление предикатов первого порядка",
+        "term_english": "first order predicate calculus"
+    },
+    {
+        "term_russian": "исчисление пропозициональное",
+        "term_english": "propositional calculus"
+    },
+    {
+        "term_russian": "исчисление ситуационное",
+        "term_english": "situational calculus"
+    },
+    {
+        "term_russian": "карта когнитивная",
+        "term_english": "cognitive map"
+    },
+    {
+        "term_russian": "каузация",
+        "term_english": "causation"
+    },
+    {
+        "term_russian": "квантификатор",
+        "term_english": "quantifier"
+    },
+    {
+        "term_russian": "квантификация",
+        "term_english": "quantification"
+    },
+    {
+        "term_russian": "квантор общности",
+        "term_english": "universal quantifier"
+    },
+    {
+        "term_russian": "квантор существования",
+        "term_english": "existential quantifier"
+    },
+    {
+        "term_russian": "классификация",
+        "term_english": "classification"
+    },
+    {
+        "term_russian": "кластеризация",
+        "term_english": "clusterization"
+    },
+    {
+        "term_russian": "когитология",
+        "term_english": "cogitology"
+    },
+    {
+        "term_russian": "когнитивная наука",
+        "term_english": "cognitive science"
+    },
+    {
+        "term_russian": "компонента декларативная",
+        "term_english": "declarative component"
+    },
+    {
+        "term_russian": "конкатенация",
+        "term_english": "concatenation"
+    },
+    {
+        "term_russian": "конструкт Келли",
+        "term_english": "Kelly construct"
+    },
+    {
+        "term_russian": "концепт",
+        "term_english": "concept"
+    },
+    {
+        "term_russian": "конъюнкция",
+        "term_english": "conjunction"
+    },
+    {
+        "term_russian": "лингвистика вычислительная",
+        "term_english": "computational linguistics"
+    },
+    {
+        "term_russian": "лингвистика компьютерная",
+        "term_english": "computer linguistics"
+    },
+    {
+        "term_russian": "липс",
+        "term_english": "lips"
+    },
+    {
+        "term_russian": "литера",
+        "term_english": "literal"
+    },
+    {
+        "term_russian": "логика",
+        "term_english": "logic"
+    },
+    {
+        "term_russian": "логика вероятностная",
+        "term_english": "probabilitic logic"
+    },
+    {
+        "term_russian": "логика веры",
+        "term_english": "belief logic"
+    },
+    {
+        "term_russian": "логика временная",
+        "term_english": "temporal logic"
+    },
+    {
+        "term_russian": "логика второго порядка",
+        "term_english": "second order logic"
+    },
+    {
+        "term_russian": "логика действий",
+        "term_english": "operational logic"
+    },
+    {
+        "term_russian": "логика деонтическая",
+        "term_english": "deontic logic"
+    },
+    {
+        "term_russian": "логика динамическая",
+        "term_english": "dynamic logic"
+    },
+    {
+        "term_russian": "логика здравого смысла",
+        "term_english": "common-sense logic"
+    },
+    {
+        "term_russian": "логика индуктивная",
+        "term_english": "inductive logic"
+    },
+    {
+        "term_russian": "логика интуиционисткая",
+        "term_english": "intuitionistic logic"
+    },
+    {
+        "term_russian": "логика каузальная",
+        "term_english": "causal logic"
+    },
+    {
+        "term_russian": "логика команд",
+        "term_english": "command logic"
+    },
+    {
+        "term_russian": "логика конструктивная",
+        "term_english": "constructive logic"
+    },
+    {
+        "term_russian": "логика математическая",
+        "term_english": "mathematical logic"
+    },
+    {
+        "term_russian": "логика многозначная",
+        "term_english": "multi-valued logic"
+    },
+    {
+        "term_russian": "логика монотонная",
+        "term_english": "monotonic logic"
+    },
+    {
+        "term_russian": "логика немонотонная",
+        "term_english": "non-monotonic logic"
+    },
+    {
+        "term_russian": "логика нечетная",
+        "term_english": "fuzzy logic"
+    },
+    {
+        "term_russian": "логика оценок",
+        "term_english": "deontic logic"
+    },
+    {
+        "term_russian": "логика первого порядка",
+        "term_english": "first order logic"
+    },
+    {
+        "term_russian": "логика пропозициональная",
+        "term_english": "propositional logic"
+    },
+    {
+        "term_russian": "логика пространственная",
+        "term_english": "spatial logic"
+    },
+    {
+        "term_russian": "логика псевдофизическая",
+        "term_english": "pseudophysical logic"
+    },
+    {
+        "term_russian": "логика размытая",
+        "term_english": "fuzzy logic"
+    },
+    {
+        "term_russian": "логика рассуждений по умолчанию",
+        "term_english": "default logic"
+    },
+    {
+        "term_russian": "логика эпистемиологическая",
+        "term_english": "epistemiological logic"
+    },
+    {
+        "term_russian": "локуция",
+        "term_english": "locution"
+    },
+    {
+        "term_russian": "\"лямбда\"-исчисление",
+        "term_english": "lambda-calculus"
+    },
+    {
+        "term_russian": "машина абстрактная",
+        "term_english": "abstract machine"
+    },
+    {
+        "term_russian": "машина баз данных",
+        "term_english": "data base machine"
+    },
+    {
+        "term_russian": "машина баз знаний",
+        "term_english": "knowledge base machine"
+    },
+    {
+        "term_russian": "машина виртуальная",
+        "term_english": "virtual machine"
+    },
+    {
+        "term_russian": "машина параллельного вывода",
+        "term_english": "parallel inference machine"
+    },
+    {
+        "term_russian": "машина Поста",
+        "term_english": "Post machine"
+    },
+    {
+        "term_russian": "машина связей",
+        "term_english": "connection machine"
+    },
+    {
+        "term_russian": "машина Тьюринга",
+        "term_english": "Turing machine"
+    },
+    {
+        "term_russian": "машина, управляемая потоком данных",
+        "term_english": "data flow machine"
+    },
+    {
+        "term_russian": "меню",
+        "term_english": "menu"
+    },
+    {
+        "term_russian": "мера правдоподобия",
+        "term_english": "plausibility measure"
+    },
+    {
+        "term_russian": "метазнание",
+        "term_english": "meta-knowledge"
+    },
+    {
+        "term_russian": "метапродукция",
+        "term_english": "meta-production"
+    },
+    {
+        "term_russian": "метафора",
+        "term_english": "metaphor"
+    },
+    {
+        "term_russian": "метаязык",
+        "term_english": "meta-language"
+    },
+    {
+        "term_russian": "метод ветвей и границ",
+        "term_english": "branch-and-bound method"
+    },
+    {
+        "term_russian": "метод интервью",
+        "term_english": "interview method"
+    },
+    {
+        "term_russian": "механизм вывода",
+        "term_english": "inference mechanism"
+    },
+    {
+        "term_russian": "механизм наследования",
+        "term_english": "inheritance mechanism"
+    },
+    {
+        "term_russian": "МИМД архитектура",
+        "term_english": "MIMD architecture"
+    },
+    {
+        "term_russian": "множество нечеткое",
+        "term_english": "fuzzy set"
+    },
+    {
+        "term_russian": "модель",
+        "term_english": "model"
+    },
+    {
+        "term_russian": "модель ассоциативная",
+        "term_english": "associative model"
+    },
+    {
+        "term_russian": "модель вычислительная",
+        "term_english": "computational model"
+    },
+    {
+        "term_russian": "модель замкнутая",
+        "term_english": "closed model"
+    },
+    {
+        "term_russian": "модель знаний",
+        "term_english": "knowledge model"
+    },
+    {
+        "term_russian": "модель когнитивная",
+        "term_english": "cognitive model"
+    },
+    {
+        "term_russian": "модель концептуальная",
+        "term_english": "conceptual model"
+    },
+    {
+        "term_russian": "модель Крипке",
+        "term_english": "Kripke model"
+    },
+    {
+        "term_russian": "модель лабиринтная",
+        "term_english": "labyrinth model"
+    },
+    {
+        "term_russian": "модель лингвистическая",
+        "term_english": "linguistic model"
+    },
+    {
+        "term_russian": "модель логико-лингвистическая",
+        "term_english": "logical-linquistic model"
+    },
+    {
+        "term_russian": "модель логическая",
+        "term_english": "logical model"
+    },
+    {
+        "term_russian": "модель мира",
+        "term_english": "world model"
+    },
+    {
+        "term_russian": "модель обучения",
+        "term_english": "learning model"
+    },
+    {
+        "term_russian": "модель общения",
+        "term_english": "communication model"
+    },
+    {
+        "term_russian": "модель открытая",
+        "term_english": "open model"
+    },
+    {
+        "term_russian": "модель пользователя",
+        "term_english": "user model"
+    },
+    {
+        "term_russian": "модель реляционная",
+        "term_english": "relational model"
+    },
+    {
+        "term_russian": "модель сетевая",
+        "term_english": "network model"
+    },
+    {
+        "term_russian": "модель ситуаций",
+        "term_english": "situational model"
+    },
+    {
+        "term_russian": "модель стимул-реакция",
+        "term_english": "SR-model (stimulus-reaction model)"
+    },
+    {
+        "term_russian": "модель формальная",
+        "term_english": "formal model"
+    },
+    {
+        "term_russian": "модель языка",
+        "term_english": "language model"
+    },
+    {
+        "term_russian": "модус поненс",
+        "term_english": "modus ponens"
+    },
+    {
+        "term_russian": "модус толленс",
+        "term_english": "modus tollens"
+    },
+    {
+        "term_russian": "наследование",
+        "term_english": "hireditance"
+    },
+    {
+        "term_russian": "нейробионика",
+        "term_english": "neurobionics"
+    },
+    {
+        "term_russian": "неопределенность",
+        "term_english": "uncertainty"
+    },
+    {
+        "term_russian": "неопределенность лингвистическая",
+        "term_english": "linguistic uncertainty"
+    },
+    {
+        "term_russian": "неполнота",
+        "term_english": "incompleteness"
+    },
+    {
+        "term_russian": "неразрешимость алгоритмическая",
+        "term_english": "algorithmic nonresolvability"
+    },
+    {
+        "term_russian": "область предметная",
+        "term_english": "subject area"
+    },
+    {
+        "term_russian": "область предметная плохо структурированная",
+        "term_english": "ill-structered subject area"
+    },
+    {
+        "term_russian": "область предметная хорошо структурированная",
+        "term_english": "well-structured subject area"
+    },
+    {
+        "term_russian": "область проблемная",
+        "term_english": "problem area"
+    },
+    {
+        "term_russian": "обобщение индуктивное",
+        "term_english": "inductive generalization"
+    },
+    {
+        "term_russian": "оболочка",
+        "term_english": "shell"
+    },
+    {
+        "term_russian": "обоснование",
+        "term_english": "argument"
+    },
+    {
+        "term_russian": "обработка естественного языка",
+        "term_english": "natural language processing"
+    },
+    {
+        "term_russian": "обработка изображений",
+        "term_english": "image processing"
+    },
+    {
+        "term_russian": "обработка параллельная",
+        "term_english": "parallel processing"
+    },
+    {
+        "term_russian": "обработка сигналов",
+        "term_english": "signal processing"
+    },
+    {
+        "term_russian": "образ",
+        "term_english": "image"
+    },
+    {
+        "term_russian": "образец",
+        "term_english": "pattern"
+    },
+    {
+        "term_russian": "обучение",
+        "term_english": "learning"
+    },
+    {
+        "term_russian": "обучение на примерах",
+        "term_english": "learning from examples"
+    },
+    {
+        "term_russian": "общение",
+        "term_english": "communication"
+    },
+    {
+        "term_russian": "объединение свидетельств",
+        "term_english": "combination of evidences"
+    },
+    {
+        "term_russian": "объяснение",
+        "term_english": "explanation"
+    },
+    {
+        "term_russian": "оправдание",
+        "term_english": "justification"
+    },
+    {
+        "term_russian": "отладка базы знаний",
+        "term_english": "knowledge base debugging"
+    },
+    {
+        "term_russian": "отношение",
+        "term_english": "relation"
+    },
+    {
+        "term_russian": "отношение антирефлексивное",
+        "term_english": "antireflexive relation"
+    },
+    {
+        "term_russian": "отношение антисимметричное",
+        "term_english": "antisymmetric relation"
+    },
+    {
+        "term_russian": "отношение антитранзитивное",
+        "term_english": "antitransitive relation"
+    },
+    {
+        "term_russian": "отношение виртуальное",
+        "term_english": "virtual relation"
+    },
+    {
+        "term_russian": "отношение временное",
+        "term_english": "temporal relation"
+    },
+    {
+        "term_russian": "отношение действия",
+        "term_english": "action relation"
+    },
+    {
+        "term_russian": "отношение интенсиональное",
+        "term_english": "intensional relation"
+    },
+    {
+        "term_russian": "отношение каузальное",
+        "term_english": "causal relation"
+    },
+    {
+        "term_russian": "отношение моделирования нечетко",
+        "term_english": "fuzzy modelling relation"
+    },
+    {
+        "term_russian": "отношение нерефлексивное",
+        "term_english": "non-reflexive relation"
+    },
+    {
+        "term_russian": "отношение несимметричное",
+        "term_english": "non-symmetric relation"
+    },
+    {
+        "term_russian": "отношение нетранзитивное",
+        "term_english": "non-transitive relation"
+    },
+    {
+        "term_russian": "отношение пространственное",
+        "term_english": "spatial relation"
+    },
+    {
+        "term_russian": "отношение релевантности",
+        "term_english": "relevance relation"
+    },
+    {
+        "term_russian": "отношение рефлексивное",
+        "term_english": "reflexive relation"
+    },
+    {
+        "term_russian": "отношение семантическое",
+        "term_english": "semantic relation"
+    },
+    {
+        "term_russian": "отношение симметричное",
+        "term_english": "symmetric relation"
+    },
+    {
+        "term_russian": "отношение толерантности",
+        "term_english": "tolerance relation"
+    },
+    {
+        "term_russian": "отношение транзитивное",
+        "term_english": "transitive relation"
+    },
+    {
+        "term_russian": "отношение функциональное",
+        "term_english": "functional relation"
+    },
+    {
+        "term_russian": "отношение эквивалентности",
+        "term_english": "equivalence relation"
+    },
+    {
+        "term_russian": "отношение экстенсиональное",
+        "term_english": "extensional relation"
+    },
+    {
+        "term_russian": "отрицание",
+        "term_english": "negation"
+    },
+    {
+        "term_russian": "отрицание логическое",
+        "term_english": "logical negation"
+    },
+    {
+        "term_russian": "падеж глубинный",
+        "term_english": "deep case"
+    },
+    {
+        "term_russian": "падеж Филлмора",
+        "term_english": "Fillmor case"
+    },
+    {
+        "term_russian": "память ассоциативная",
+        "term_english": "associative memory"
+    },
+    {
+        "term_russian": "память виртуальная",
+        "term_english": "virtual memory"
+    },
+    {
+        "term_russian": "память иконическая",
+        "term_english": "iconic memory"
+    },
+    {
+        "term_russian": "паплайн-архитектура",
+        "term_english": "pipeline architecture"
+    },
+    {
+        "term_russian": "перевод машинный",
+        "term_english": "machine translation"
+    },
+    {
+        "term_russian": "переменная лингвистическая",
+        "term_english": "linguistic variable"
+    },
+    {
+        "term_russian": "переменная пропозициональная",
+        "term_english": "propositional variable"
+    },
+    {
+        "term_russian": "переменная связанная",
+        "term_english": "bound variable"
+    },
+    {
+        "term_russian": "перлокуция",
+        "term_english": "perlocution"
+    },
+    {
+        "term_russian": "перцептрон",
+        "term_english": "perceptron"
+    },
+    {
+        "term_russian": "перцепция",
+        "term_english": "perception"
+    },
+    {
+        "term_russian": "пиксел",
+        "term_english": "pixel"
+    },
+    {
+        "term_russian": "планирование",
+        "term_english": "planning"
+    },
+    {
+        "term_russian": "планирование деятельности",
+        "term_english": "activity planning"
+    },
+    {
+        "term_russian": "планирование иерархическое",
+        "term_english": "hierarchical planning"
+    },
+    {
+        "term_russian": "планирование распределенное",
+        "term_english": "distributed planning"
+    },
+    {
+        "term_russian": "планирование стратегическое",
+        "term_english": "strategic planning"
+    },
+    {
+        "term_russian": "планирование тактическое",
+        "term_english": "tactic planning"
+    },
+    {
+        "term_russian": "планировщик",
+        "term_english": "planner"
+    },
+    {
+        "term_russian": "подход байесовский",
+        "term_english": "Bayesian approach"
+    },
+    {
+        "term_russian": "поиск",
+        "term_english": "search"
+    },
+    {
+        "term_russian": "поиск ассоциативный",
+        "term_english": "associative search"
+    },
+    {
+        "term_russian": "поиск в глубину",
+        "term_english": "depth-first search"
+    },
+    {
+        "term_russian": "поиск в пространстве задач",
+        "term_english": "search in problem space"
+    },
+    {
+        "term_russian": "поиск в пространстве состояний",
+        "term_english": "search in state space"
+    },
+    {
+        "term_russian": "поиск в ширину",
+        "term_english": "breadth-first search"
+    },
+    {
+        "term_russian": "поиск информационный",
+        "term_english": "information search"
+    },
+    {
+        "term_russian": "поиск по образцу",
+        "term_english": "pattern-matching"
+    },
+    {
+        "term_russian": "поиск по принципу \"сперва лучше\"",
+        "term_english": "best-first search"
+    },
+    {
+        "term_russian": "понимание естественного языка",
+        "term_english": "natural language understanding"
+    },
+    {
+        "term_russian": "понятие",
+        "term_english": "concept"
+    },
+    {
+        "term_russian": "порождение гипотез автоматическое",
+        "term_english": "automated hypothesis generation"
+    },
+    {
+        "term_russian": "порождение текста",
+        "term_english": "text generation"
+    },
+    {
+        "term_russian": "поток данных",
+        "term_english": "data flow"
+    },
+    {
+        "term_russian": "правила де Моргана",
+        "term_english": "de Morgan rules"
+    },
+    {
+        "term_russian": "правило",
+        "term_english": "rule"
+    },
+    {
+        "term_russian": "правило вывода",
+        "term_english": "inference rule"
+    },
+    {
+        "term_russian": "правило вывода композиционное",
+        "term_english": "compositional inference rule"
+    },
+    {
+        "term_russian": "правило синтаксическое",
+        "term_english": "syntactic rule"
+    },
+    {
+        "term_russian": "предикат",
+        "term_english": "predicate"
+    },
+    {
+        "term_russian": "представление данных",
+        "term_english": "data representation"
+    },
+    {
+        "term_russian": "представление знаний",
+        "term_english": "knowledge representation"
+    },
+    {
+        "term_russian": "представление экстенсиональное",
+        "term_english": "extensional representation"
+    },
+    {
+        "term_russian": "пресуппозиция",
+        "term_english": "presupposition"
+    },
+    {
+        "term_russian": "принцип резолюции",
+        "term_english": "resolution principle"
+    },
+    {
+        "term_russian": "приобретение знаний",
+        "term_english": "knowledge acquisition"
+    },
+    {
+        "term_russian": "программа игровая",
+        "term_english": "game program"
+    },
+    {
+        "term_russian": "программа эвристическая",
+        "term_english": "heuristic program"
+    },
+    {
+        "term_russian": "программирование",
+        "term_english": "programming"
+    },
+    {
+        "term_russian": "программирование логическое",
+        "term_english": "logical programming"
+    },
+    {
+        "term_russian": "программирование объектно-ориентированное",
+        "term_english": "object-oriented programming"
+    },
+    {
+        "term_russian": "программирование эвристическое",
+        "term_english": "heuristic programming"
+    },
+    {
+        "term_russian": "продукция",
+        "term_english": "production"
+    },
+    {
+        "term_russian": "пропозиция",
+        "term_english": "proposition"
+    },
+    {
+        "term_russian": "пространство Осгуда",
+        "term_english": "Osgood space"
+    },
+    {
+        "term_russian": "пространство семантическое",
+        "term_english": "semantic space"
+    },
+    {
+        "term_russian": "пространство состояний",
+        "term_english": "state space"
+    },
+    {
+        "term_russian": "пространство целевое",
+        "term_english": "goal space"
+    },
+    {
+        "term_russian": "противоречивость абсолютная",
+        "term_english": "absolute inconsistency"
+    },
+    {
+        "term_russian": "противоречивость модельная",
+        "term_english": "model inconsistency"
+    },
+    {
+        "term_russian": "протофрейм",
+        "term_english": "frame-prototype"
+    },
+    {
+        "term_russian": "процедура опровержения",
+        "term_english": "refutation procedure"
+    },
+    {
+        "term_russian": "процедура присоединенная",
+        "term_english": "attached procedure"
+    },
+    {
+        "term_russian": "процесс асинхронный",
+        "term_english": "asynchronous process"
+    },
+    {
+        "term_russian": "процессор ассоциативный",
+        "term_english": "associative processor"
+    },
+    {
+        "term_russian": "процессор базы данных",
+        "term_english": "data base processor"
+    },
+    {
+        "term_russian": "процессор лингвистический",
+        "term_english": "linguistic processor"
+    },
+    {
+        "term_russian": "процессор логический",
+        "term_english": "logical processor"
+    },
+    {
+        "term_russian": "процессор логического вывода",
+        "term_english": "inference processor"
+    },
+    {
+        "term_russian": "процессор матричный",
+        "term_english": "matrix processor"
+    },
+    {
+        "term_russian": "процессор символьный",
+        "term_english": "simbolic processor"
+    },
+    {
+        "term_russian": "психология когнитивная",
+        "term_english": "cognitive psychology"
+    },
+    {
+        "term_russian": "разрешимость алгоритмическая",
+        "term_english": "algorithmic resolvability"
+    },
+    {
+        "term_russian": "распознавание образов",
+        "term_english": "pattern-recognition"
+    },
+    {
+        "term_russian": "распознавание речи",
+        "term_english": "speech recognition"
+    },
+    {
+        "term_russian": "расстояние семантическое",
+        "term_english": "semantic distance"
+    },
+    {
+        "term_russian": "рассуждение",
+        "term_english": "reasoning"
+    },
+    {
+        "term_russian": "рассуждение автоэпистемическое",
+        "term_english": "autoepistemic reasoning"
+    },
+    {
+        "term_russian": "рассуждение герменевтическое",
+        "term_english": "hermeneutics reasoning"
+    },
+    {
+        "term_russian": "рассуждение здравого смысла",
+        "term_english": "common-sense reasoning"
+    },
+    {
+        "term_russian": "рассуждение немонотонное",
+        "term_english": "non-monotonic reasoning"
+    },
+    {
+        "term_russian": "рассуждение по аналогии",
+        "term_english": "reasoning by analogy"
+    },
+    {
+        "term_russian": "рассуждение по ассоциации",
+        "term_english": "reasoning by association"
+    },
+    {
+        "term_russian": "рассуждение по умолчанию",
+        "term_english": "default reasoning"
+    },
+    {
+        "term_russian": "рассуждение правдоподобное",
+        "term_english": "plausible reasoning"
+    },
+    {
+        "term_russian": "резольвента",
+        "term_english": "resolvent"
+    },
+    {
+        "term_russian": "резолюция",
+        "term_english": "resolution"
+    },
+    {
+        "term_russian": "решатель задач",
+        "term_english": "problem solver"
+    },
+    {
+        "term_russian": "решетка Келли репертуарная",
+        "term_english": "repertoire lattice of Kelly"
+    },
+    {
+        "term_russian": "РИСК-архитектура",
+        "term_english": "RISC-architecture"
+    },
+    {
+        "term_russian": "робот автономный",
+        "term_english": "autonomous robot"
+    },
+    {
+        "term_russian": "робот интегральный",
+        "term_english": "integral robot"
+    },
+    {
+        "term_russian": "робот интеллектуальный",
+        "term_english": "intelligent robot"
+    },
+    {
+        "term_russian": "сборка мусора",
+        "term_english": "garbage collection"
+    },
+    {
+        "term_russian": "свидетельство",
+        "term_english": "evidence"
+    },
+    {
+        "term_russian": "секвенция",
+        "term_english": "sequent"
+    },
+    {
+        "term_russian": "семантика",
+        "term_english": "semantics"
+    },
+    {
+        "term_russian": "семантика ситуативная",
+        "term_english": "situational semantics"
+    },
+    {
+        "term_russian": "семиотика",
+        "term_english": "semiotics"
+    },
+    {
+        "term_russian": "сеть",
+        "term_english": "network"
+    },
+    {
+        "term_russian": "сеть ассоциативная",
+        "term_english": "associative network"
+    },
+    {
+        "term_russian": "сеть вывода",
+        "term_english": "inference network"
+    },
+    {
+        "term_russian": "сеть каузальная",
+        "term_english": "causal network"
+    },
+    {
+        "term_russian": "сеть переходов расширенная",
+        "term_english": "argumented transition network"
+    },
+    {
+        "term_russian": "сеть Петри",
+        "term_english": "Petri network"
+    },
+    {
+        "term_russian": "сеть причинно-следственная",
+        "term_english": "causal network"
+    },
+    {
+        "term_russian": "сеть семантическая",
+        "term_english": "semantic network"
+    },
+    {
+        "term_russian": "сеть семантическая интенсиональная",
+        "term_english": "intensional semantic network"
+    },
+    {
+        "term_russian": "сеть семантическая экстенсиональная",
+        "term_english": "extensional semantic network"
+    },
+    {
+        "term_russian": "сеть соединительная",
+        "term_english": "connectional network"
+    },
+    {
+        "term_russian": "силлогизм",
+        "term_english": "syllogism"
+    },
+    {
+        "term_russian": "СИМД-архитектура",
+        "term_english": "SIMD-architecture"
+    },
+    {
+        "term_russian": "синтаксис",
+        "term_english": "syntax"
+    },
+    {
+        "term_russian": "синтез программ автоматический",
+        "term_english": "automated program synthesis"
+    },
+    {
+        "term_russian": "синтез программ дедуктивный",
+        "term_english": "inductive program synthesis"
+    },
+    {
+        "term_russian": "синтез программ индуктивный",
+        "term_english": "inductive program synthesis"
+    },
+    {
+        "term_russian": "система автоматизированного проектирования",
+        "term_english": "computer-aided design"
+    },
+    {
+        "term_russian": "система аксиоматическая",
+        "term_english": "axiomatic system"
+    },
+    {
+        "term_russian": "система вопросно-ответная",
+        "term_english": "question-answering system"
+    },
+    {
+        "term_russian": "система дедуктивная",
+        "term_english": "deductive system"
+    },
+    {
+        "term_russian": "система доверия",
+        "term_english": "belief system"
+    },
+    {
+        "term_russian": "система естественно-языковая",
+        "term_english": "natural language system"
+    },
+    {
+        "term_russian": "система индуктивная",
+        "term_english": "inductive system"
+    },
+    {
+        "term_russian": "система интеллектуальная",
+        "term_english": "intelligent system"
+    },
+    {
+        "term_russian": "система интеллектуальная обучающая",
+        "term_english": "intelligent teaching system"
+    },
+    {
+        "term_russian": "система интеллектуальная обучающаяся",
+        "term_english": "intelligent learning system"
+    },
+    {
+        "term_russian": "система интерактивная",
+        "term_english": "interactive system"
+    },
+    {
+        "term_russian": "система мультипроцессорная",
+        "term_english": "multi-processor system"
+    },
+    {
+        "term_russian": "система обучающаяся",
+        "term_english": "learning system"
+    },
+    {
+        "term_russian": "система объяснения",
+        "term_english": "explanatory system"
+    },
+    {
+        "term_russian": "система, основанная на знаниях",
+        "term_english": "knowledge-based system"
+    },
+    {
+        "term_russian": "система, основанная на правилах",
+        "term_english": "rule-based system"
+    },
+    {
+        "term_russian": "система представления знаний",
+        "term_english": "knowledge representation system"
+    },
+    {
+        "term_russian": "система продукций",
+        "term_english": "production system"
+    },
+    {
+        "term_russian": "система продукционная",
+        "term_english": "production system"
+    },
+    {
+        "term_russian": "система пятого поколения вычислительная",
+        "term_english": "fifth generation computer system"
+    },
+    {
+        "term_russian": "система управления автоматизированная",
+        "term_english": "computer-aided control system"
+    },
+    {
+        "term_russian": "система управления базой данных",
+        "term_english": "data base management system"
+    },
+    {
+        "term_russian": "система управления базой знаний",
+        "term_english": "knowledge base management system"
+    },
+    {
+        "term_russian": "система формальная",
+        "term_english": "formal system"
+    },
+    {
+        "term_russian": "система фреймов",
+        "term_english": "frame system"
+    },
+    {
+        "term_russian": "система экспертная",
+        "term_english": "expert system"
+    },
+    {
+        "term_russian": "система экспертная пустая",
+        "term_english": "tool expert system"
+    },
+    {
+        "term_russian": "следствие логическое",
+        "term_english": "logical consequence"
+    },
+    {
+        "term_russian": "слот",
+        "term_english": "slot"
+    },
+    {
+        "term_russian": "событие",
+        "term_english": "event"
+    },
+    {
+        "term_russian": "сопоставление с образцом",
+        "term_english": "pattern-matching"
+    },
+    {
+        "term_russian": "список ассоциативный",
+        "term_english": "associative list"
+    },
+    {
+        "term_russian": "средства инженерии знаний инструментальные",
+        "term_english": "knowledge engineering tools"
+    },
+    {
+        "term_russian": "ссылка анафорическая",
+        "term_english": "anaphoric reference"
+    },
+    {
+        "term_russian": "стратегия управления выводом",
+        "term_english": "inference control strategy"
+    },
+    {
+        "term_russian": "структура глубинная",
+        "term_english": "deep structure"
+    },
+    {
+        "term_russian": "структура когнитивная",
+        "term_english": "cognitive structure"
+    },
+    {
+        "term_russian": "структура однородная",
+        "term_english": "homogeneous structure"
+    },
+    {
+        "term_russian": "структура падежная",
+        "term_english": "case structure"
+    },
+    {
+        "term_russian": "структура познавательная",
+        "term_english": "cognitive structure"
+    },
+    {
+        "term_russian": "суждение",
+        "term_english": "judgement"
+    },
+    {
+        "term_russian": "сущность",
+        "term_english": "entity"
+    },
+    {
+        "term_russian": "схема концептуальная",
+        "term_english": "conceptual scheme"
+    },
+    {
+        "term_russian": "сценарий",
+        "term_english": "script"
+    },
+    {
+        "term_russian": "творчество машинное",
+        "term_english": "computer art"
+    },
+    {
+        "term_russian": "тезис Черча",
+        "term_english": "Church thesis"
+    },
+    {
+        "term_russian": "теория аксиоматическая",
+        "term_english": "axiomatic theory"
+    },
+    {
+        "term_russian": "теория логическая",
+        "term_english": "logical theory"
+    },
+    {
+        "term_russian": "теория речевых актов",
+        "term_english": "speech act theory"
+    },
+    {
+        "term_russian": "терм",
+        "term_english": "term"
+    },
+    {
+        "term_russian": "тип данных",
+        "term_english": "data type"
+    },
+    {
+        "term_russian": "тип данных абстрактный",
+        "term_english": "abstract data type"
+    },
+    {
+        "term_russian": "универсум",
+        "term_english": "universum"
+    },
+    {
+        "term_russian": "универсум Эрбрана",
+        "term_english": "Herbrand universum"
+    },
+    {
+        "term_russian": "унификатор",
+        "term_english": "unifier"
+    },
+    {
+        "term_russian": "унификатор наибольший общий",
+        "term_english": "most general unifier"
+    },
+    {
+        "term_russian": "унификация",
+        "term_english": "unification"
+    },
+    {
+        "term_russian": "управление ситуационное",
+        "term_english": "situational control"
+    },
+    {
+        "term_russian": "фасет",
+        "term_english": "facet"
+    },
+    {
+        "term_russian": "фокус",
+        "term_english": "focus"
+    },
+    {
+        "term_russian": "форма префиксная нормальная",
+        "term_english": "prefix normal form"
+    },
+    {
+        "term_russian": "формула атомарная",
+        "term_english": "atomic formula"
+    },
+    {
+        "term_russian": "формула замкнутая",
+        "term_english": "closed formula"
+    },
+    {
+        "term_russian": "формула общезначимая",
+        "term_english": "valid formula"
+    },
+    {
+        "term_russian": "фрактал",
+        "term_english": "fractail"
+    },
+    {
+        "term_russian": "фрейм",
+        "term_english": "frame"
+    },
+    {
+        "term_russian": "фрейм-образец",
+        "term_english": "frame-prototype"
+    },
+    {
+        "term_russian": "фрейм падежный",
+        "term_english": "case frame"
+    },
+    {
+        "term_russian": "фрейм-прототип",
+        "term_english": "prototype frame"
+    },
+    {
+        "term_russian": "фрейм-экземпляр",
+        "term_english": "frame-example"
+    },
+    {
+        "term_russian": "функция доверия",
+        "term_english": "belief function"
+    },
+    {
+        "term_russian": "функция переходов",
+        "term_english": "membership function"
+    },
+    {
+        "term_russian": "функция принадлежности",
+        "term_english": "membership function"
+    },
+    {
+        "term_russian": "функция Сколема",
+        "term_english": "Skolem function"
+    },
+    {
+        "term_russian": "цепочка вывода",
+        "term_english": "inference chain"
+    },
+    {
+        "term_russian": "шкала абсолютная",
+        "term_english": "absolute scale"
+    },
+    {
+        "term_russian": "шкала метрическая",
+        "term_english": "metric scale"
+    },
+    {
+        "term_russian": "шкала Осгуда",
+        "term_english": "Osgood scale"
+    },
+    {
+        "term_russian": "шкала относительная",
+        "term_english": "relative scale"
+    },
+    {
+        "term_russian": "шкала размытая",
+        "term_english": "fuzzy scale"
+    },
+    {
+        "term_russian": "шкала топологическая",
+        "term_english": "topological scale"
+    },
+    {
+        "term_russian": "шкала универсальная",
+        "term_english": "universal scale"
+    },
+    {
+        "term_russian": "ЭВМ нейробионические",
+        "term_english": "neurobionical computer"
+    },
+    {
+        "term_russian": "эвристика",
+        "term_english": "heuristics"
+    },
+    {
+        "term_russian": "язык запросов",
+        "term_english": "query language"
+    },
+    {
+        "term_russian": "язык представления знаний",
+        "term_english": "knowledge representation language"
+    },
+    {
+        "term_russian": "язык представления знаний логический",
+        "term_english": "logical knowledge representation language"
+    },
+    {
+        "term_russian": "язык продукционный",
+        "term_english": "production language"
+    },
+    {
+        "term_russian": "язык фреймовый",
+        "term_english": "frame language"
+    },
+    {
+        "term_russian": "ящик черный",
+        "term_english": "black box"
+    }
+]
