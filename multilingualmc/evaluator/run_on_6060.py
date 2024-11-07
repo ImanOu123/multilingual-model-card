@@ -133,7 +133,7 @@ if __name__ == "__main__":
                     **kwargs
                 )
             elif args.method == 'constrained_beam_search':
-                force_words = list(set([term_collector.terms_dict[key] for key in term_collector.find_terminology(item)]))
+                force_words = list(set([term_collector.terms_dict[key][tgt_lang] for key in term_collector.find_terminology(item)]))
                 answer = translator.translate_cbs(
                     item,
                     src_lang = 'English',
