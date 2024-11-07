@@ -1,0 +1,416 @@
+Hallo allemaal. Vandaag presenteer ik ons onderzoekswerk Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction.
+Ik ben Allan van ByteDance AI Lab, en dit is een gezamenlijk werk met Jierui Li van de Universiteit van Texas in Austin en Wei Lu van SUTD.
+Eerst wil ik het hebben over onze motivatie om te redeneren.
+Dus hier laten we een voorbeeld zien waar meervoudig redeneren nuttig is.
+Dus dit cijfer is afkomstig uit het PaLM-artikel waarin ze vragen stellen om het netwerkprobleem op te lossen in het enkele shot-leerscenario.
+Dus aan de linkerkant kunnen we zien of we enkele voorbeelden geven met alleen vraag en antwoorden, we kunnen misschien niet de juiste antwoorden krijgen.
+Maar als we wat meer redeneringsbeschrijving geven, is het model in staat om de redeneringsbeschrijving te voorspellen en hier ook een correcte voorspelling te doen.
+Het is dus goed om interpreteerbare meertrapsredenering als output te hebben.
+En we denken ook dat wiskundig woordprobleem een eenvoudige toepassing is om dergelijke redeneervaardigheden te evalueren.
+Dus, hier in onze probleemopstelling, gezien de vragen die we nodig hebben om deze vraag op te lossen en de numerieke antwoorden te krijgen.
+Dus in onze datasets krijgen we ook de wiskundige uitdrukking die ook naar de ah naar dit specifieke antwoord leidt.
+Dus, bepaalde veronderstellingen ah zijn ook van toepassing zoals in het vorige werk.
+We gaan ervan uit dat de nauwkeurigheid van hoeveelheden bekend is.
+En we beschouwen alleen basisoperatoren zoals optellen, aftrekken, vermenigvuldigen, delen en exponentieel.
+Bovendien kunnen gecompliceerde operatoren in feite worden ontbonden tot deze basisexploitanten.
+Dus, eerder werk in het oplossen van wiskundige problemen ah kan eigenlijk worden gecategoriseerd in volgorde naar volgorde en volgorde naar boommodel.
+Dus, traditionele sequentie tot sequentie model zet de expressie om naar een specifieke sequentie voor generatie.
+En het is vrij eenvoudig te implementeren en het kan generaliseren naar veel verschillende gecompliceerde problemen.
+Maar de nadelen zijn dat de prestaties eigenlijk over het algemeen niet beter zijn dan het gestructureerde model en het gebrek aan interpreteerbaarheid voor voorspelling.
+Maar eigenlijk is deze richting nog steeds vrij populair vanwege het transformatormodel.
+Dus in op bomen gebaseerde modellen structureren we deze uitdrukkingen in de boomvorm en volgen we een voorbestelde doorgang in boomgeneraties.
+Dus hier blijven we de operators genereren totdat we de bladeren bereiken, wat de hoeveelheden zijn.
+Dus het goede is dat het ons deze binaire boomstructuur geeft, en het is eh maar eigenlijk is het nogal contra-intuïtief omdat we eerst de operator genereren en dan aan het einde genereren we de hoeveelheden.
+En het tweede ding is dat het ook enkele repetitieve berekeningen bevat.
+Dus als we naar deze uitdrukking kijken, wordt acht keer drie plus drie eigenlijk twee keer gegenereerd, maar in feite moeten we de resultaten hergebruiken.
+Dus, in onze voorgestelde aanpak willen we die problemen stap voor stap en interpreteerbare manieren oplossen.
+Dus bijvoorbeeld, hier in de tweede stap, ah kunnen we deze delers verkrijgen die zevenentwintig zijn.
+En we kunnen ook teruggaan naar de oorspronkelijke vragen om de relevante inhoud te vinden.
+En in deze stappen krijgen we de delers.
+Dus, ah en dan bij deze derde stap krijgen we eigenlijk het quotiënt.
+Na deze drie stappen, kunnen we de resultaten van de tweede stap hergebruiken, en dan de ah resultaten van de vierde stap krijgen, en dan uiteindelijk kunnen we de dividenden verkrijgen.
+Dus, hier genereren we eigenlijk de hele expressie rechtstreeks in plaats van het genereren van een enkele operator of hoeveelheden.
+Dit maakt het proces nauwkeuriger.
+Dus, in ons deductieve systeem, beginnen we eerst met een aantal hoeveelheden gepresenteerd in de vragen en ook met een aantal constante als onze initiële staat.
+Dus, de uitdrukking wordt vertegenwoordigd door e i j o p.
+Waar we operator uitvoeren van q_i tot q_j, en een dergelijke expressie is eigenlijk gericht.
+Dus we hebben hier ook aftrekken met woorden om de tegenovergestelde richting weer te geven.
+Dit is vergelijkbaar met relatie-extractie.
+Dus in een formeel deductief systeem, in een tijdstap t, passen we de operator toe tussen het q_i en q_j paar, en dan verkrijgen we deze nieuwe expressie.
+We voegen het toe aan de volgende staat om een nieuwe hoeveelheid te worden.
+Deze dia 's visualiseren dus eigenlijk de evolutie van de toestand waarin we expressie blijven toevoegen aan de huidige toestand.
+Dus in onze modelimplementaties gebruiken we eerst een voorgetraind taalmodel dat BERT 's of Robertas kan zijn en dan coderen we de zin en dan krijgen we deze kwantiteitsrepresentaties.
+Dus, zodra we de kwantiteitsrepresentaties hebben, kunnen we inferentie beginnen te doen.
+Hier tonen we een voorbeeld van q_1 om de representatie voor q_2 te verkrijgen gedeeld door q_2 en dan keer q_3.
+Eerst krijgen we de ah-paarrepresentatie, wat in feite gewoon de aaneenschakeling is tussen q_1 en q_2, en dan passen we een feedforward-netwerk toe dat door de operator wordt geparametriseerd.
+En tenslotte krijgen we de expressie representatie q_1 gedeeld door q_2.
+Maar in de praktijk, in de inferentiefase, zouden we in staat kunnen zijn om ook de verkeerde uitdrukking te krijgen.
+Dus hier is alle mogelijke expressie gelijk aan drie keer het aantal operatoren.
+Het leuke hier is dat we gemakkelijk beperkingen kunnen toevoegen om deze zoekopdracht te controleren.
+Als deze expressie bijvoorbeeld niet is toegestaan, kunnen we deze expressie gewoon verwijderen in onze zoekruimte.
+Dus in de tweede stap doen we hetzelfde, maar het enige verschil is dat we ah het enige verschil is nog een hoeveelheid.
+Dus deze hoeveelheid komt van de vorige berekende uitdrukking.
+Dus uiteindelijk kunnen we deze laatste uitdrukking q_3 keer q_4 verkrijgen.
+En we kunnen ook zien dat het nummer van alle mogelijke ah-expressie anders is dan de vorige stap.
+Dus, ah zo 'n verschil maakt het moeilijk om beam search toe te passen omdat de kansverdeling tussen deze twee stappen onevenwichtig is.
+Dus de trainingsprocedure is vergelijkbaar met het trainen van een sequentie tot sequentiemodel waarbij we het verlies bij elke stap optimaliseren.
+En hier gebruiken we deze tau ook om aan te geven wanneer we dit generatieproces moeten beëindigen.
+En hier is de ruimte verschillend van volgorde tot volgorde omdat de ruimte bij elke tijdstap anders is, terwijl in traditionele volgorde tot volgordemodel dit het aantal woordenschat is.
+En het stelt ons ook in staat om bepaalde beperkingen op te leggen van voorkennis.
+Dus we voeren experimenten uit op de veelgebruikte wiskundige woordprobleem datasets, MAWPS, Math23K,  MathQA en SVAMP.
+En hier laten we kort de resultaten zien in vergelijking met de vorige beste benaderingen.
+Dus onze best presterende variant is Roberta-DeductiveReasoner.
+En in feite gebruiken we geen beam search, in tegenstelling tot alle voorgaande benaderingen gebruiken beam search.
+De beste benaderingen zijn vaak op bomen gebaseerd model.
+Dus over het algemeen is onze redeneerder in staat om significant beter te presteren dan dit op bomen gebaseerde model.
+Maar we kunnen zien dat de absolute aantallen op MathQA of SVAMP niet echt hoog zijn.
+Dus we onderzoeken de resultaten verder op SVAMP.
+En deze dataset is een uitdaging omdat de auteur probeerde handmatig iets toe te voegen om het NLP-model te verwarren, zoals het toevoegen van irrelevante informatie en extra hoeveelheden.
+Dus, in onze voorspelling vinden we dat sommige van de tussenliggende waarden eigenlijk negatief zijn.
+Bijvoorbeeld, in deze vragen vragen vragen we hoeveel appels Jake heeft?
+Maar we hebben wat extra informatie, zoals zeventien foto 's minder, en Steven heeft acht foto' s, wat totaal irrelevant is.
+Ons model maakt dus een voorspelling als deze die negatieve waarden produceert.
+En we observeren dat deze twee uitdrukkingen eigenlijk vergelijkbare scores hebben.
+Dus we kunnen deze zoekruimte eigenlijk beperken door de resultaten te verwijderen die negatief zijn, zodat we het antwoord correct kunnen maken.
+Dus we vinden verder dat een dergelijke beperking eigenlijk behoorlijk veel verbetert voor sommige modellen.
+Voor BERT verbeteren we bijvoorbeeld zeven punten en voor het Roberta-basismodel verbeterden we eigenlijk twee punten.
+Dus een beter taalmodel heeft betere taalverstaanbaarheid, zodat het aantal hier hoger is voor Roberta en lager voor BERT.
+En we proberen ook de moeilijkheid achter al deze datasets te analyseren.
+We gaan ervan uit dat het aantal ongebruikte hoeveelheden hier als irrelevante informatie kan worden beschouwd.
+Dus ah hier kunnen we zien dat ah,we hebben het percentage monsters met ongebruikte hoeveelheden, en de SVAMP-dataset heeft het grootste deel.
+En hier laten we ook de algehele prestaties zien.
+Voor die monsters zonder ongebruikte hoeveelheden, dus de algehele prestaties zijn eigenlijk hoger dan de, de prestaties zijn eigenlijk hoger dan de algehele prestaties.
+Maar met die monsters die met ongebruikte hoeveelheid eigenlijk veel slechter zijn dan de, slechter dan de algehele prestaties.
+Voor MAWPS hebben we niet echt ah te veel testgevallen, dus ik negeer dit deel gewoon.
+Tot slot willen we de interpreteerbaarheid laten zien aan de hand van een voorbeeld van verstoring van de vraagstelling.
+Dus hier maakt ons model eigenlijk een verkeerde voorspelling bij de eerste stap.
+Dus we kunnen deze uitdrukking correleren met de zin hier.
+Dus we denken dat deze zin het model zou kunnen misleiden tot een onjuiste voorspelling.
+Dus hier planten nog eens vijfendertig maakt het model denkt dat het moet een toevoeging operator.
+Dus we proberen de zin te herzien om zoiets te zijn als het aantal perenbomen zijn vijfendertig minder dan de appelbomen.
+Dus maken we het om nauwkeuriger semantiek over te brengen, zodat het model in staat is om um de voorspelling juist te maken.
+Deze studie laat dus zien hoe de interpreteerbare voorspellingen ons helpen het modelgedrag te begrijpen.
+Dus om ons werk af te ronden, dus eerst is ons model eigenlijk behoorlijk efficiënt.
+En we zijn in staat om interpreteerbare oplossingsprocedure te bieden.
+En we kunnen gemakkelijk enige voorkennis opnemen als beperking die kan helpen de prestaties te verbeteren.
+En het laatste is dat het onderliggende mechanisme niet alleen van toepassing is op netwerkprobleemoplossende taken, maar ook op andere taken waarbij meerdere stappen worden geredeneerd.
+We hebben ook bepaalde beperkingen.
+Ah, als we een groot aantal operatoren of constanten hebben, kan het geheugenverbruik behoorlijk hoog zijn.
+En het tweede ding is dat, zoals gezegd, omdat de kansverdeling onevenwichtig is tussen verschillende tijdsstappen, dus het is ook behoorlijk uitdagend om de zoekstrategie van de straal toe te passen.
+Dus dit is het einde van het gesprek, en vragen zijn welkom.
+Hallo, mijn naam is Antoine en ik ben van de Universiteit Maastricht.
+Ik zal mijn gezamenlijke werk met Jerry presenteren, dat gaat over een nieuwe dataset voor het ophalen van wettelijke artikelen.
+Juridische kwesties zijn een integraal onderdeel van het leven van veel mensen.
+Maar de meerderheid van de burgers heeft weinig kennis over hun rechten en fundamentele juridische processen.
+Als gevolg hiervan worden veel kwetsbare burgers die zich de dure hulp van een jurist niet kunnen veroorloven, onbeschermd of, erger nog, uitgebuit.
+Alle werkzaamheden zijn gericht op het overbruggen van de kloof tussen mensen en de wet door het ontwikkelen van een effectief ophaalsysteem voor wettelijke artikelen.
+Een dergelijk systeem zou een gratis professionele juridische hulpdienst voor ongeschoolde mensen kunnen bieden.
+Voordat we ingaan op de belangrijkste bijdrage van dit werk, laten we eerst het probleem van het ophalen van wettelijke artikelen beschrijven.
+Met een simpele vraag over een juridische kwestie zoals, wat riskeer ik als ik het beroepsgeheim schend?
+Een model is nodig om alle relevante statutaire artikelen uit een grote hoeveelheid wetgeving op te halen.
+Deze taak voor het ophalen van informatie komt met zijn eigen reeks uitdagingen.
+In de eerste plaats gaat het om twee soorten taal.
+Gemeenschappelijke natuurlijke taal voor de vragen en complexe juridische taal voor de statuten.
+Dit verschil in taalverdeling maakt het moeilijker voor een systeem om relevante kandidaten op te halen, omdat het indirect een inherent tolksysteem vereist dat een natuurlijke vraag kan vertalen naar een juridische vraag die overeenkomt met de terminologie van de statuten.
+Bovendien is het wettelijk recht geen stapel onafhankelijke artikelen die als een complete bron van informatie op zichzelf kunnen worden behandeld, in tegenstelling tot bijvoorbeeld nieuws of recepten.
+In plaats daarvan is het een gestructureerde verzameling wettelijke bepalingen die alleen een hele betekenis hebben als ze in de algemene context worden beschouwd, dat wil zeggen, samen met de aanvullende informatie van de naburige artikelen, de velden en subvelden waartoe ze behoren en hun plaats in de structuur van de wet.
+Ten slotte zijn wettelijke artikelen geen kleine paragrafen, wat meestal de typische ophaaleenheid is in de meeste ophaalwerken.
+Hier zijn lange documenten die kunnen oplopen tot zesduizend woorden.
+De recente vooruitgang in NLP heeft geleid tot grote belangstelling voor veel juridische taken, zoals het voorspellen van juridische uitspraken of geautomatiseerde contractbeoordeling.
+Maar het ophalen van wettelijke artikelen is grotendeels onaangetast gebleven vanwege het ontbreken van grote en hoogwaardige gelabelde datasets.
+In dit werk presenteren we een nieuwe Franse native citizen-centric dataset om te onderzoeken of opvraagmodellen de efficiëntie en betrouwbaarheid van een juridisch expert voor de taak van het ophalen van wettelijke artikelen kunnen benaderen.
+Onze Belgische wettelijke dataset BSARD bestaat uit meer dan duizend honderd juridische vragen van Belgische burgers.
+Deze vragen bestrijken een breed scala aan onderwerpen, van familie, huisvesting, geld, tot werk en sociale zekerheid.
+Elk van hen is gelabeld door ervaren juristen met verwijzingen naar relevante artikelen uit een corpus van meer dan tweeëntwintigduizend zeshonderd juridische artikelen uit Belgische wetboeken.
+Laten we het nu hebben over hoe we deze dataset hebben verzameld.
+Eerst begonnen we met het samenstellen van een groot corpus aan juridische artikelen.
+We hebben tweeëndertig openbaar beschikbare Belgische codes overwogen en alle artikelen en de bijbehorende sectiekoppen geëxtraheerd.
+Vervolgens verzamelden we juridische vragen met verwijzingen naar relevante statuten.
+Hiervoor werken we samen met het Belgische advocatenkantoor dat jaarlijks zo 'n vierduizend e-mails ontvangt van Belgische burgers die advies vragen over een persoonlijk juridisch vraagstuk.
+We hadden het geluk om toegang te krijgen tot hun websites, waar hun team van ervaren juristen de meest voorkomende juridische problemen van Belgen aanpakt.
+We verzamelden duizenden vragen geannoteerd met categorieën, subcategorieën en wettelijke verwijzingen naar relevante statuten.
+Tot slot hebben we de juridische referenties doorgegeven en de vragen eruit gefilterd waarvan de referenties geen artikelen waren in een van de wetboeken die we hebben overwogen.
+De overige referenties werden gematcht en omgezet naar de corresponderende artikel-id 's uit ons corpus.
+Uiteindelijk kwamen we uit op een duizendtal honderdacht vragen, elk zorgvuldig gelabeld met de id 's van de relevante artikelen uit ons grote corpus van tweeëntwintigduizend zeshonderd drieëndertig statutaire artikelen.
+Bovendien wordt elke vraag geleverd met de hoofdcategorie en een aaneenschakeling van subcategorieën.
+En elk artikel wordt geleverd met een aaneenschakeling van de aaneenschakeling van de titel in de structuur van de wet.
+Deze extra informatie wordt niet gebruikt in het huidige werk, maar kan van belang zijn voor toekomstig onderzoek naar het ophalen van juridische informatie of juridische tekstclassificatie.
+Laten we eens kijken naar een kenmerk van onze dataset.
+De vragen zijn tussen de vijf en vierenveertig woorden lang met een mediaan van veertien woorden.
+De artikelen zijn veel langer met een gemiddelde lengte van zevenenzeventig woorden, waarvan honderd tweeënveertig meer dan duizend woorden.
+De langste is tot vijfduizend zevenhonderd negentig woorden.
+Zoals eerder vermeld, bestrijken de vragen een breed scala aan onderwerpen, waarvan ongeveer vijfentachtig procent over familie, huisvesting, geld of rechtvaardigheid gaat.
+De overige vijftien procent heeft betrekking op sociale zekerheid, buitenlanders of werk.
+Het artikel is ook zeer divers omdat ze afkomstig zijn uit tweeëndertig verschillende Belgische codes die een groot aantal juridische onderwerpen bestrijken.
+Hier is het totale aantal artikelen verzameld uit elk van deze Belgische codes.
+Van de tweeëntwintigduizend zeshonderddrieëndertig artikelen wordt slechts éénduizend zeshonderd twaalf als relevant aangeduid voor ten minste één vraag in de dataset.
+En ongeveer tachtig procent van deze geciteerde artikelen zijn afkomstig uit het burgerlijk wetboek, gerechtelijk wetboek, strafwetboek of strafwetboek.
+Achttien van de tweeëndertig codes bevatten minder dan vijf artikelen die relevant zijn voor ten minste één vraag.
+Dat kan worden verklaard door het feit dat die codes minder gericht waren op individuen en hun zorgen.
+Over het algemeen is het mediane aantal citaten voor deze geciteerde artikelen twee, en minder dan vijfentwintig procent van hen wordt meer dan vijf keer geciteerd.
+Met behulp van alle datasets hebben we verschillende benaderingen voor ophalen gebenchmarkt, waaronder lexicale en dichte architectuur.
+Gegeven een query en een artikel, wijst een lexicaal model een score toe aan het queryartikelpaar door de som te berekenen over de queryvoorwaarden van de gewichten van elk van deze termen in dat artikel.
+We experimenteren met de standaard TF-IDF en BM25 ranking functies.
+Het grootste probleem met deze benaderingen is dat ze alleen artikelen kunnen ophalen die trefwoorden bevatten die in de query aanwezig zijn.
+Om deze beperking te overwinnen, experimenteren we met een neurale architectuur die semantische relaties tussen zoekopdrachten en artikelen kan vastleggen.
+We gebruiken een bi-encodermodel dat zoekopdrachten en artikelen in dichte vectorrepresentaties in kaart brengt en een relevantiescore tussen een queryartikelpaar berekent op basis van de gelijkenis van hun inbeddingen.
+Deze inbeddingen zijn meestal het gevolg van een pooling operatie op de output van een woord inbedding model.
+Ten eerste bestuderen we de effectiviteit van Siamese bi-encoders in een zero shot evaluatie setup, wat betekent dat voorgetrainde woord inbedding modellen out-of-the-box worden toegepast zonder extra finetuning.
+We experimenteren met contextonafhankelijke tekstcoder, namelijk word2vec en fastText, en contextafhankelijke inbeddingsmodellen, namelijk Roberta en meer specifiek CamemBERT, een Frans Roberta-model.
+Daarnaast trainen we onze eigen CamemBERT gebaseerde model ah bi-encoders op onze dataset.
+Merk op dat we voor training experimenteren met de twee smaken van de bi-encoder-architectuur.
+Siamese, die een uniek woord inbedding model dat de query en het artikel samen in een gedeelde dichte vectorruimte kaarten gebruikt, en twee-toren, die twee onafhankelijke woord inbedding modellen die de query en het artikel afzonderlijk coderen in verschillende inbedding ruimtes gebruikt.
+We experimenteren met gemiddelde, max en CLS pooling, evenals product en cosinus voor het berekenen van overeenkomsten.
+Hier zijn de resultaten van onze baseline op de testsets.
+Met de lexicale methoden hierboven, evalueerden de Siamese bi-encoders in een zero shot setup in het midden, en de verfijnde bi-encoders hieronder.
+Over het algemeen presteert de afgestemde bi-encoder aanzienlijk beter dan alle andere basislijnen.
+Het model met twee torens verbetert ten opzichte van zijn Siamese varianten bij terugroeping op honderd, maar presteert op dezelfde manier op de andere statistieken.
+Hoewel BM25 aanzienlijk slechter presteerde dan de getrainde bi-encoder, gaven de prestaties aan dat het nog steeds een sterke basislijn is voor domeinspecifieke retrieval.
+Met betrekking tot de zero shot evaluatie van Siamese bi-encoder, vinden we dat direct gebruik van de inbeddingen van een voorgetraind CamemBERT-model zonder te optimaliseren voor de taak van het ophalen van informatie slechte resultaten oplevert, wat consistent is met eerdere bevindingen.
+Bovendien zien we dat de op word2vec gebaseerde bi-encoder aanzienlijk beter presteerde dan de op fastText en BERT gebaseerde modellen, wat suggereert dat misschien voorgetrainde woordniveau-insluitingen geschikter zijn voor de taak dan insluitingen op tekenniveau of subwoordniveau wanneer ze out of the box worden gebruikt.
+Hoewel veelbelovend, suggereren deze resultaten voldoende mogelijkheden voor verbetering in vergelijking met een bekwame jurist die uiteindelijk alle relevante artikelen op elke vraag kan ophalen en dus perfecte scores kan behalen.
+Laten we afsluiten door twee beperkingen van onze dataset te bespreken.
+Ten eerste is het corpus van het artikel beperkt tot die verzameld uit de tweeëndertig beschouwde Belgische codes, die niet de gehele Belgische wet bestrijken omdat artikelen uit decreten, richtlijnen en verordeningen ontbreken.
+Tijdens de datasetconstructie worden alle verwijzingen naar deze niet-verzamelde artikelen genegeerd, waardoor sommige vragen slechts een fractie van het oorspronkelijke aantal relevante artikelen bevatten.
+Deze informatie impliceert dus dat het antwoord in de overige relevante artikelen onvolledig kan zijn, hoewel het nog steeds volledig passend is.
+Ten tweede moeten we opmerken dat niet alle juridische vragen alleen met statuten kunnen worden beantwoord.
+Bijvoorbeeld, de vraag, kan ik mijn huurders uitzetten als ze te veel lawaai maken?
+Heeft mogelijk geen gedetailleerd antwoord binnen de wettelijke wetgeving dat een specifieke geluidsdrempel kwantificeert waarbij uitzetting is toegestaan.
+In plaats daarvan moet de verhuurder waarschijnlijk meer vertrouwen op jurisprudentie en precedenten vinden die vergelijkbaar zijn met hun huidige situatie.
+De huurders maken bijvoorbeeld twee partijen per week tot twee uur 's nachts.
+Daarom zijn sommige vragen beter geschikt dan andere voor de wettelijke taak om artikelen op te halen, en het domein van de minder geschikte moet nog worden bepaald.
+We hopen dat ons werk interesse wekt in het ontwikkelen van praktische en betrouwbare wettelijke modellen voor het ophalen van artikelen.
+Dit kan de toegang tot de rechter voor iedereen verbeteren.
+U kunt ons papier, dataset en code bekijken op de volgende links. Dank u.
+Hallo, we presenteren graag ons werk aan VALSE; een taakonafhankelijke benchmark bedoeld voor het testen van visie- en taalmodellen met specifieke taalkundige verschijnselen.
+Waarom hebben we de moeite genomen om deze benchmark op te zetten?
+Welnu, in de afgelopen jaren hebben we een explosie gezien van op transformatoren gebaseerde visie- en taalmodellen die zijn getraind op grote hoeveelheden beeldtekstparen.
+Elk van deze modellen duwt state-of-the-art op visie en taal taken zoals visuele vraag beantwoorden, visueel gezond verstand redeneren, beeld ophalen, zin aarding.
+Dus kregen we een bericht, de nauwkeurigheid van deze taken en specifieke benchmarks nemen gestaag toe.
+Maar weten we eigenlijk wel wat de modellen hebben geleerd?
+Wat is het dat een visie- en taaltransformator begreep bij het toewijzen van een hoge score voor deze afbeelding en deze zin?
+En de lage score voor deze?
+Richten visie- en taalmodellen zich op het juiste?
+Of richten ze zich op vooroordelen zoals aangetoond door eerder werk?
+Om meer licht te werpen op dit aspect, stellen we een meer taak-agnostische richting voor en introduceren we VALSE dat de gevoeligheid van visie- en taalmodellen test voor specifieke taalkundige verschijnselen die zowel de taalkundige als de visuele modaliteiten beïnvloeden.
+We richten ons op bestaan, pluraliteit, tellen, ruimtelijke relaties, acties en entiteit coreference.
+Maar hoe testen we of de visie- en taalmodellen dit fenomeen hebben vastgelegd?
+Door een methode te verijdelen die eerder werd toegepast voor visie- en taalmodellen, alleen voor zelfstandige naamwoordzinnen van Ravi Shekhar en medewerkers, en door door ons te tellen in eerder werk.
+Folie betekent in feite dat we het bijschrift van een afbeelding nemen en een folie produceren door het bijschrift zodanig te wijzigen dat het de afbeelding niet meer beschrijft.
+En we doen deze zinswijzigingen door ons te concentreren op zes specifieke stukken zoals bestaan, pluraliteit, tellen, ruimtelijke relaties, acties en entiteitkernverwijzing, waarbij elk stuk kan bestaan uit een of meer instrumenten, voor het geval we meer dan één interessante manier vonden om folie-exemplaren te maken.
+In het geval van het actiestuk hebben we bijvoorbeeld twee instrumenten, een waarin het actiewerkwoord wordt gewijzigd met een andere actie en een waarin acteurs worden verwisseld.
+Tellen en coreference zijn ook stukken die meer dan één instrument hebben.
+En we creëren deze folies door ervoor te zorgen dat ze het beeld niet beschrijven, dat ze grammaticaal zijn en anderszins geldige zinnen.
+Dit is niet gemakkelijk te doen omdat een folie bijschrift minder waarschijnlijk is dan het oorspronkelijke bijschrift.
+Hoewel het bijvoorbeeld niet onmogelijk is, is het statistisch minder waarschijnlijk dat planten een man snijden dan een man om planten te snijden, en grote visie- en taalmodellen zouden dit kunnen oppikken.
+Om geldige folies te verkrijgen, moeten we daarom actie ondernemen.
+Ten eerste maken we gebruik van sterke taalmodellen om folies voor te stellen.
+Ten tweede gebruiken we natuurlijke taalinferentie of korte NLI om folies uit te filteren die het beeld nog steeds zouden kunnen beschrijven, omdat we er bij het construeren van folies voor moeten zorgen dat ze het beeld niet beschrijven.
+Om dit automatisch te testen, passen we natuurlijke taalinferentie toe met de volgende redenering.
+We beschouwen een beeld als het uitgangspunt en het bijschrift als de bijbehorende hypothese.
+Bovendien beschouwen we het bijschrift als het uitgangspunt, en de folie is de hypothese.
+Als een NLI-model voorspelt dat de folie in tegenspraak is met of neutraal is ten opzichte van het bijschrift, nemen we dit als een indicator van een geldige folie.
+Als een NLI de folie voorspelt die het bijschrift met zich meebrengt, kan het geen goede folie zijn, omdat het door transitie een waarheidsgetrouwe beschrijving van het beeld zal geven, en we filteren deze folies eruit.
+Maar deze procedure is niet perfect, het is slechts een indicator voor geldige folies.
+Daarom gebruiken we als derde maatregel voor het genereren van geldige folies menselijke annotators om de gegevens die in VALSE worden gebruikt te valideren.
+Dus, na filtering en menselijke evaluatie, hebben we zoveel testvoorbeelden als beschreven in deze tabel.
+Merk op dat VALSE geen trainingsgegevens levert, maar alleen testgegevens.
+Omdat het alleen een zero shot-testbenchmark is, is het ontworpen om gebruik te maken van de bestaande mogelijkheden van visie- en taalmodellen na pre-training.
+Finetuning zou modellen alleen in staat stellen om artefacten of statistische vooroordelen in de gegevens te exploiteren.
+En we weten allemaal dat deze modellen graag vals spelen en snelkoppelingen nemen.
+En zoals we al zeiden, zijn we geïnteresseerd in het beoordelen van welke mogelijkheden de visie- en taalmodellen hebben na pre-training.
+We experimenteren met vijf visie- en taalmodellen op VALSE, namelijk met CLIP, LXMert, ViLBERT, ViLBERT twaalf in één en VisualBERT.
+Twee van onze belangrijkste evaluatiestatistieken zijn de nauwkeurigheid van de modellen bij het classificeren van beeldzinparen in bijschriften en folies.
+Misschien relevanter voor deze video, zullen we onze meer tolerante statistiek laten zien, de paarsgewijze nauwkeurigheid, die meet of de uitlijningsscore van de afbeeldingszin groter is voor het juiste beeldtekstpaar dan voor het gefoliede paar.
+Voor meer statistieken en resultaten over hen, kijk op onze paper.
+De resultaten met paarsgewijze nauwkeurigheid worden hier getoond en ze zijn consistent met de resultaten die we van de andere statistieken hebben gekregen, is dat de beste zero shot-prestaties worden bereikt door ViLBERT twaalf in één, gevolgd door ViLBERT, LXMert, CLIP en tenslotte VisualBERT.
+Het is opmerkelijk hoe instrumenten die gericht zijn op de individuele objecten zoals het bestaan en zelfstandige naamwoordzinnen bijna worden opgelost door ViLBERT twaalf in één, wat benadrukt dat modellen in staat zijn om benoemde objecten en hun aanwezigheid in afbeeldingen te identificeren.
+Geen van de resterende stukken kan echter betrouwbaar worden opgelost in onze vijandige folie-instellingen.
+We zien aan de meervoudigheid en telinstrumenten dat visie- en taalmodellen moeite hebben om verwijzingen naar enkele versus meerdere objecten te onderscheiden, of ze in een afbeelding te tellen.
+Het relatiestuk laat zien dat ze moeite hebben met het correct classificeren van een benoemde ruimtelijke relatie tussen objecten in een afbeelding.
+Ze hebben ook moeite om acties te onderscheiden en hun deelnemers te identificeren, zelfs als ze worden ondersteund door plausibiliteitsbias zoals we in het actiestuk zien.
+Uit het coreference-stuk blijkt dat het traceren van meerdere verwijzingen naar hetzelfde object in een afbeelding met behulp van voornaamwoorden ook moeilijk is voor visie- en taalmodellen.
+Als een geestelijke controle, en omdat het een interessant experiment is, benchmarken we ook twee alleen-tekstmodellen, GPT één en GPT twee, om te beoordelen of VALSE oplosbaar is door deze unimodale modellen door de verbijstering van de juiste en de folie ondertiteling te berekenen, geen afbeelding hier, en de invoer met de laagste verbijstering te voorspellen.
+Als de perplexiteit hoger is voor de folie, nemen we dit als een indicatie dat de folie kan lijden aan plausibiliteitsbias of andere taalkundige vooroordelen.
+En het is interessant om te zien dat in sommige gevallen de tekst alleen GPT-modellen de plausibiliteit van de wereld beter hebben vastgelegd dan de visie- en taalmodellen.
+Dus om samen te vatten, VALSE is een benchmark die de lens van taalkundige constructies gebruikt om de gemeenschap te helpen het gezichtsvermogen en taalmodellen te verbeteren door hun visuele aardingsmogelijkheden hard te testen.
+Onze experimenten tonen aan dat visie- en taalmodellen benoemde objecten en hun aanwezigheid in afbeeldingen goed identificeren, zoals blijkt uit het existentiestuk, maar moeite hebben om hun onderlinge afhankelijkheid en relaties in visuele scènes te aarden wanneer ze worden gedwongen om linguïstische indicatoren te respecteren.
+We willen de gemeenschap echt aanmoedigen om VALSE te gebruiken voor het meten van vooruitgang in de richting van taalaarding met visie- en taalmodellen.
+En nog meer, VALSE kan worden gebruikt als een indirecte beoordeling van datasets, omdat modellen voor en na de training of finetuning kunnen worden geëvalueerd om te zien of een dataset modellen helpt bij het verbeteren van een van de door VALSE geteste aspecten.
+Als je geïnteresseerd bent, bekijk dan de Valse-gegevens OP GitHub en als je vragen hebt, aarzel dan niet om contact met ons op te nemen.
+Hallo, mijn naam is Kamezawa van de Universiteit van Tokio.
+Ik zal een paper presenteren met de titel RNSum: A Large-Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization.
+Ik zal het in deze volgorde uitleggen.
+Ten eerste zal ik het automatisch genereren van release notes introduceren waar we in dit onderzoek aan werken.
+Een release note is een technisch document dat de wijzigingen samenvat die bij elke release van een softwareproduct worden gedistribueerd.
+De afbeelding toont een release note voor versie twee punt zes punt vier van de vuejs bibliotheek.
+Release notes spelen een belangrijke rol in open source ontwikkeling, maar ze zijn tijdrovend om handmatig voor te bereiden.
+Daarom zou het erg handig zijn om automatisch release notes van hoge kwaliteit te kunnen genereren.
+Ik zal twee eerdere onderzoeken over het automatisch genereren van release notes uitstellen.
+De eerste is een systeem genaamd ARENA uitgebracht in twintig veertien.
+Er is een op regels gebaseerde aanpak nodig, bijvoorbeeld door de change extractor te gebruiken om alle verschillen, bibliotheekwijzigingen en documentwijzigingen uit de verschillen tussen releases te extraheren en uiteindelijk te combineren.
+Het meest opvallende kenmerk van dit systeem is de issue-extractor in de rechterbovenhoek.
+Die moet worden overgelaten aan Jira, het issue tracker systeem, en kan alleen worden toegepast op projecten die Jira gebruiken.
+Met andere woorden, het kan niet worden gebruikt voor veel projecten op GitHub.
+De tweede is Glyph, onlangs aangekondigd in twintig twintig.
+Het is beschikbaar op het internet en kan worden geïnstalleerd via pip.
+Dit systeem heeft een eenvoudig op leren gebaseerd tekstclassificatiemodel en voert een van de vijf labels uit, zoals functies of bugfixes voor elk invoercommitbericht.
+Deze afbeelding is een voorbeeldgebruik dat een correctief of bugfixelabel retourneert.
+De trainingsgegevens van Glyph zijn vrij klein, ongeveer vijfduizend, en zullen worden getoond in de hieronder beschreven experimenten.
+De prestaties van het tekstclassificatiemodel zijn niet hoog.
+Ik presenteer twee gerelateerde onderzoeken, maar hun problemen zijn beperkte toepasbaarheid en schaarse gegevensbronnen.
+Ons papier lost deze twee problemen op en genereert automatisch release notes van hoge kwaliteit.
+Met een beperkt toepasbaarheidsprobleem stellen we een hoogwaardige, klassikale samenvattingsmethode voor waarbij alleen commitberichten als invoer worden gebruikt.
+Deze voorgestelde methode kan worden gebruikt voor alle Engelse repositories.
+Voor het tweede probleem van schaarse gegevensbronnen hebben we onze RNSum-dataset gebouwd die bestaat uit ongeveer tweeëntachtigduizend stukjes gegevens door gegevens te verzamelen uit openbare GitHub-repositories met behulp van de GitHub API.
+Vervolgens beschrijf ik onze dataset.
+Hier is een voorbeeld van data.
+De linkerkant is een commit bericht en de rechterkant is de release notes.
+Release notes worden gelabeld als verbeteringen of fixes, etc.
+We hebben een taak ingesteld die de commit-berichten als invoer neemt en een gelabelde release-notities uitvoert.
+Dit kan worden beschouwd als een samenvattende taak.
+We hebben vooraf vier labels gedefinieerd: functies, verbeteringen, bugfixes, verwijderingen van afschrijvingen en het doorbreken van wijzigingen.
+Deze zijn vastgesteld op basis van eerder onderzoek en andere factoren.
+De release note rechtsonder wordt uit de release note linksonder gehaald.
+Op dit moment is het noodzakelijk om de vier labels die van tevoren zijn ingesteld te detecteren.
+Maar de labels zijn niet altijd consistent met elke repository.
+Het verbeterlabel bevat bijvoorbeeld verbeteringen, verbeteringen, optimalisaties, enzovoort.
+We hebben voor elk van deze notatievariaties een woordenlijst van ongeveer dertig labels opgesteld.
+Dit is om de release note klasse te detecteren, en verzamelt de tekst van de release die volgt als de release note zin voor de klasse.
+Het volgende is een commit boodschap.
+Commit-berichten zijn niet gebonden aan elke release.
+Zoals te zien is in de afbeelding hieronder, als de huidige release versie twee punt vijf tot negentien is, moeten we de vorige releaseversie twee punt vijf tot achttien identificeren en een diff krijgen.
+Dit is een beetje vervelend en het is niet genoeg om gewoon een lijst met releases te krijgen en naar het voor en na te kijken.
+We hebben een heuristische matchingregel gemaakt om de vorige en volgende versies te krijgen.
+Dataset analyse.
+Uiteindelijk werden zevenduizend tweehonderd repositories en tweeëntachtigduizend stukjes data verzameld.
+Ook is het gemiddelde aantal release notes-tokens drieënzestig, wat vrij hoog is voor een samenvattingstaak.
+Ook is het aantal unieke tokens vrij groot op achtduizend achthonderd dertigduizend.
+Dit komt door het grote aantal unieke klasse- of methodenamen in de repository.
+Vervolgens zal ik de voorgestelde methode toelichten.
+Het klasse-extractieve en vervolgens abstractieve samenvattend model bestaat uit twee neurale modules.
+Een classificeerder met BERT of CodeBERT en een generator met BART.
+Ten eerste gebruikt CEAS een classifier om elk commitbericht te classificeren in vijf release notes-klassen, die verbeteringen, bugfixes, afschrijvingen en een andere gebruiken.
+De commitberichten die zijn geclassificeerd als overig worden verwijderd.
+Vervolgens past CEAS de generator onafhankelijk toe op de vier gelabelde documenten en genereert het releasenotes voor elke klasse.
+In deze taak zijn de directe correspondenties tussen commitberichten en release notes niet bekend.
+Om de classificeerder te trainen, hebben we daarom enquêtes opnieuw toegewezen aan elk commitbericht met behulp van de eerste tien tekens van elk commitbericht.
+We modelleerden de klassengewijze abstracte samenvattende benadering op twee verschillende manieren.
+Het eerste model, dat we CAS-Single noemen, bestaat uit een enkel zes tot zes netwerk en genereert een single release note tekst die een aaneenschakeling van input commit berichten geeft.
+De outputteksten kunnen worden onderverdeeld in klassesegmenten op basis van speciale klassespecifieke eindpuntsymbolen.
+De tweede methode, methode, die we CAS-Multi noemen, bestaat uit vier verschillende seq2seq-netwerken, die elk overeenkomen met een van de klassen met vaste release notes.
+Oké, laat me de experimenten uitleggen.
+Vijf methoden werden vergeleken: CEAS, CAS-Single, CAS-Multi, Clustering en eerdere studie, Glyph.
+Met betrekking tot de evaluatie, in sommige gevallen, release notes zijn output in meerdere zinnen.
+Omdat het moeilijk is om het aantal zinnen te berekenen zoals ze zijn, worden ze gecombineerd met spaties en behandeld als één lange zin.
+De BLEU wordt bestraft wanneer het systeem een korte zin uitvoert.
+Deze straf resulteert in EEN lagere Bleu-waarde in de hierna beschreven experimentresultaten.
+Ten slotte berekenen we ook de specificiteit omdat ROUGE en BLEU niet kunnen worden berekend als de release notes leeg zijn.
+Een hogere specificiteit betekent dat het model correct een lege tekst uitvoert in gevallen waarin de releasenotes leeg gaan.
+Hier zijn de resultaten.
+Omdat de dataset e-mailadressen, gehashte waarden, enz. bevat, hebben we ook de schoongemaakte dataset geëvalueerd, die ze uitsluit.
+CEAS en CAS behaalden ROUGE-L scoren meer dan tien punten hoger dan de basislijnen.
+Met name op de clean test set steeg de scorekloof tussen de voorgestelde methode en de basislijnen naar meer dan twintig punten.
+Deze resultaten wijzen erop dat CEAS en CAS aanzienlijk worden beïnvloed.
+CEAS behaalde een betere ROUGE-L-score dan CAS, wat suggereert dat het combineren van een classifier en een generator effectief is bij het trainen van de classifier met behulp van pseudo-etiketten.
+Een hoge dekking van CEAS kan waarschijnlijk worden bereikt omdat de classificeerder zich kan concentreren op het selecteren van relevante commit-berichten voor elke klas.
+CAS-Multi had de neiging om een hogere ROUGE-L op te leveren dan CAS-Single.
+Suggereert dat het ook effectief is om onafhankelijk verschillende abstracte samenvattingsmodellen te ontwikkelen voor elke release note-klasse.
+Hier is een foutanalyse.
+CAS-methoden hebben de neiging om kortere zinnen uit te voeren dan menselijke referentiezinnen.
+In de figuur rechts heeft de referentiezin drie of vier zinnen, terwijl CAS er slechts één heeft.
+De reden voor de terughoudendheid van dit model is dat in trainingsgegevens slechts drieëndertig procent van de zinnen aanwezig is in het kenmerklabel en veertig procent in het verbeterlabel.
+Bovendien kunnen CAS-methoden geen nauwkeurige releasenotes genereren zonder aanvullende informatie.
+Het bovenste voorbeeld aan de rechterkant is een voorbeeld van een zeer rommelig commitbericht en de volledige zin kan niet worden gegenereerd zonder verwijzing naar de bijbehorende voortgang of kwestie.
+Het onderstaande voorbeeld laat zien dat de twee commitberichten in de invoer gerelateerd zijn en in één zin moeten worden gecombineerd, maar dit niet doen.
+Tot slot een conclusie.
+We hebben een nieuwe dataset gebouwd voor het automatisch genereren van release notes.
+We hebben ook een taak geformuleerd om commitberichten in te voeren en samen te vatten, zodat deze van toepassing is op alle projecten die in het Engels zijn geschreven.
+Onze experimenten tonen aan dat de voorgestelde methode minder lawaaierige release notes genereert bij een hogere dekking dan de basislijnen.
+Bekijk onze dataset op GitHub.
+Dank je wel.
+Hallo, mijn naam is Asaf Harari.
+En ik zal ons artikel presenteren, Few-Shot Tabular Data Enrichment Using Fine-Tuned Transformers Architectures.
+Datawetenschappers analyseren gegevens en richten zich voornamelijk op het manipuleren van de bestaande functies van de gegevens.
+Maar soms zijn deze kenmerken beperkt.
+Het genereren van functies met behulp van een andere gegevensbron kan aanzienlijke informatie toevoegen.
+Ons onderzoeksdoel is automatische tabelgegevensverrijking met behulp van de vrije tekst van externe bronnen.
+Stel dat we een tabelvormige dataset en een kennisbank hebben.
+We hebben een automatisch proces nodig waarbij entiteiten worden gekoppeld en tekst wordt geanalyseerd om nieuwe functies uit de vrije tekst van de kennisbank te extraheren.
+Ons framework FeSTE is precies dit automatische proces.
+Laten we een voorbeeld bekijken in een dataset die in FeSTE wordt ingevoerd.
+In dit voorbeeld is de dataset universitaire dataset.
+Wanneer het doel is om universiteiten te classificeren in laaggeplaatste universiteiten en hooggeplaatste universiteiten.
+Als kennisbank gebruiken we Wikipedia.
+De eerste fase van FeSTE is entity linking.
+Wanneer elke entiteit, in dit voorbeeld de naam van de universiteit, is gekoppeld aan een entiteit binnen de kennisbasis.
+En en de tekst van de entiteiten van de kennisbank wordt geëxtraheerd en toegevoegd aan de dataset.
+In dit voorbeeld is de tekst het abstract van de Wikipedia-pagina.
+Nu moeten we functies genereren of extraheren uit de opgehaalde tekst.
+Dus, we moeten ah functie-extractie fase ah die tekst analyse omvat.
+En dit is de belangrijkste nieuwigheid van dit artikel en ik zal er in de volgende dia 's dieper op ingaan.
+Na de feature-extractiefase is er een featuregeneratiefase wanneer we de geëxtraheerde functies gebruiken om een klein aantal nieuwe functies te genereren.
+Genereer eerst ah-functies in het aantal klassen van de oorspronkelijke dataset.
+In dit voorbeeld heeft de oorspronkelijke dataset twee klassen.
+FeSTE genereert dus twee nieuwe functies.
+Maar als de dataset vijf klassen heeft, genereert FeSTE vijf nieuwe functies.
+Elk kenmerk vertegenwoordigt de waarschijnlijkheid voor elke klasse.
+Om de tekst te analyseren, gebruiken we de huidige state-of-the-art van tekstanalyse, die op transformatoren gebaseerde taalmodellen zijn zoals BERT, GPT,  XLNet en etc.
+Het is niet waarschijnlijk dat we taalmodellen kunnen trainen met behulp van de input datasets.
+Dus een naïeve aanpak zal ah doel taak finetuning zijn.
+In de extractiefase van functies kunnen we voorgetrainde taalmodellen downloaden en het taalmodel afstemmen op de doeldataset.
+In dit voorbeeld om het taalmodel te verfijnen, om ah te classificeren om tekst in klassen te classificeren, abstract in klassen, laag of hoog.
+Ontvang de output van het taalmodel, wat de waarschijnlijkheid is voor elke klasse en gebruik als nieuwe functies.
+Het probleem met deze aanpak is dat datasets weinig verschillende entiteiten / teksten kunnen hebben.
+In ons experiment bevat bijna de helft van de datasets minder dan vierhonderd samples en de kleinste dataset bevat vijfendertig samples in its, in een trainingsset.
+Dus om een taalmodel af te stemmen op ah zal deze dataset niet effectief zijn.
+Maar we kunnen gebruik maken van voorkennis over vooraf geanalyseerde datasets.
+Omdat FeSTE, we FeSTE toepassen op een meervoudige dataset, kunnen we de n minus één dataset gebruiken om informatie te verzamelen over de n minus één dataset, en deze informatie gebruiken wanneer we de n-de dataset analyseren.
+Wat wij, wat wij voorstellen is om toe te voegen, om nog een afstemmingsfase toe te voegen.
+Een voorbereidende multitask finetuning fase.
+Wanneer u het taalmodel finetunen over de n min één datasets.
+En dan voeren we nog een finetuning-fase uit, wat een finetuning van de doeltaak is, wanneer je het taalmodel afstemt op de n-de doeldataset.
+De state-of-the-art in multitask ah multitask finetuning genaamd MTDNN.
+In MTDNN, MTDNN onderhoudt ah hoofden in het aantal taken in de training set.
+Dus, in dit voorbeeld zijn er vier taken in de trainingsset, dus MTDNN onderhoudt vier hoofden zoals je kunt zien op de afbeelding.
+En het bemonstert een willekeurige partij van ah uit de trainingsset.
+En als ze willekeurig batch behoort tot een, bijvoorbeeld enkele zin classificatie taak, voert het voorwaartse en achterwaartse paden door het eerste hoofd.
+En als de willekeurige batch tot de paarsgewijze rangschikkingstaak behoort, voert deze het voorwaartse en achterwaartse pad door het laatste hoofd uit.
+In ons scenario, ah tabelvormige datasets variëren in het aantal klassen.
+Er zijn dus veel taken.
+MTDNN onderhouden aantal klassen, hoofden, output lagen.
+En de extra, bovendien MTDNN moet nieuwe hoofden initialiseren voor een nieuwe dataset met een nieuwe taak.
+Onze aanpak, genaamd taak herformulering finetuning is, in onze aanpak taak herformulering finetuning, in plaats van het handhaven van meerdere hoofden, herformuleren we elke dataset in een zin per classificatie probleem, dat is twee klassen taken.
+Laten we een voorbeeld nemen.
+Hier is de onze input dataset die bestaat uit entiteiten, functies, tekst en klassen.
+En we herformuleren de taak van een classificatie van de tekst in laag of hoog om de tekst, het abstracte en de klasse in waar of onwaar te classificeren.
+Of met andere woorden, we hebben het taalmodel getraind om een abstract en klasse ah te classificeren naar abstract en klasse ah, als het abstract tot de klasse behoort of niet.
+Dus de labelvector blijft in dit geval altijd ah die altijd uit twee klassen bestaat.
+Dit is het ah-algoritme voor onze verfijnde, geherformuleerde finetuningaanpak.
+Laten we het volledige kader bekijken.
+Dataset ingevoerd in FeSTE.
+En dan voert ah FeSTE entiteit koppelingsfase uit.
+Het ah het haalt de tekst uit de kennisbank, die in dit voorbeeld het abstract is van de Wikipedia-pagina.
+Vervolgens werd de taak geherformuleerd in een paarsgewijze zin classificatie taak.
+Pas het taalmodel toe op de nieuwe taak en de uitvoerwaarschijnlijkheid voor elke klasse.
+En nu het taalmodel al is afgestemd op n minus één dataset met behulp van een voorlopige multitask finetuning.
+Vervolgens gebruiken we de outputvector van het taalmodel als een nieuw gegenereerde functie in het aantal klassen.
+Om ons raamwerk te evalueren, gebruiken we ah zeventien tabelvormige classificatiedatasets die variëren in grootte, functies, balans, domein en initiële prestaties.
+Als kennisbank gebruiken we Wikipedia.
+We ontwerpen ons experiment als leave one out ah evaluatie waarbij we FeSTe trainen over zestien datasets en toepassen op de zeventiende dataset.
+We splitsen ook elke dataset op in vier vouwen en passen vier vouwen kruisvalidatie toe.
+Vervolgens genereren we de nieuwe functies en evalueren ze met behulp van vijf beoordelingsclassificatoren.
+We gebruiken in onze experimenten de basisarchitectuur van BERT Base.
+Dit zijn de resultaten van onze experimenten.
+U kunt zien dat we ons raamwerk vergelijken met target dataset finetuning, target task finetuning en een MTDNN voorlopige finetuning.
+En onze geherformuleerde finetuning bereikt het beste resultaat, de beste prestaties.
+Terwijl MTDNN bereikt twee procent verbetering ten opzichte van de doelstelling dataset finetuning.
+Onze aanpak heeft een verbetering van zes procent opgeleverd.
+Wanneer we kijken naar de kleine ah dataset, kunnen we zien dat de prestaties van MTDNN afneemt en de verbetering van de prelim, de voorlopige multitask finetuning fase afneemt tot één punt vijf procent.
+Maar onze prestaties stegen tot elf procent in vergelijking met alleen het finetunen van de doeltaak.
+Samenvattend maakt FeSTE weinig schotverrijking mogelijk van vijfendertig monsters in onze experimenten.
+Het maakt gebruik van één architectuur voor alle taken en datasets.
+En het houdt het hoofd van ah van het model.
+Maar het voegt herformuleringsfase toe.
+Het vergroot de treinset en het heeft een doelwaarde met semantische betekenis nodig, zodat we het in het taalmodel kunnen invoeren en het kunnen gebruiken in het classificatieprobleem voor zinsparen.
+Dank je wel.

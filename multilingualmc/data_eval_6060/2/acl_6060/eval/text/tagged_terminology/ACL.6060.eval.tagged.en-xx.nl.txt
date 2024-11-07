@@ -1,0 +1,416 @@
+Hallo allemaal. Vandaag presenteer ik ons [onderzoek] [Leren] Deductief Redeneren: [Wiskundig woordprobleem] oplossen als complexe [Relatie-extractie].
+Ik ben Allan van ByteDance [AI] Lab, en dit is een gezamenlijk werk met Jierui Li van de Universiteit van Texas in Austin en Wei Lu van [SUTD].
+Eerst wil ik het hebben over onze motivatie [voor] [redenering].
+Dus hier laten we een voorbeeld zien waar multi-step [redenering] nuttig is.
+Deze figuur komt dus uit de [PaLM] [paper] waar ze prompting uitvoeren om het netwerk [probleem] op te lossen in het few shot [leren] scenario.
+Dus aan de linkerkant kunnen we zien of we enkele voorbeelden geven met alleen [vraag] en antwoorden, we kunnen misschien niet de juiste antwoorden krijgen.
+Maar als we wat meer [redenering] beschrijving geven, is het [model] in staat om de [redenering] beschrijving te voorspellen en hier ook een correcte [voorspelling] te doen.
+Het is dus goed om [interpretabele] meerstaps [redenering] als output te hebben.
+En we denken ook dat [wiskundig woordprobleem] een eenvoudige toepassing is om dergelijke [redeneer] vaardigheden te evalueren.
+Dus, hier in onze [probleem] -opstelling, gezien de [vragen] moeten we deze [vraag] oplossen en de numerieke antwoorden krijgen.
+Dus in onze [datasets] krijgen we ook de wiskundige uitdrukking die ook naar de ah naar dit specifieke [antwoord] leidt.
+Dus, bepaalde veronderstellingen ah zijn ook van toepassing zoals in [eerder] werk.
+We gaan ervan uit dat de nauwkeurigheid van hoeveelheden bekend is.
+En we beschouwen alleen basisoperatoren zoals optellen, aftrekken, vermenigvuldigen, delen en exponentieel.
+[Verder] kunnen gecompliceerde operatoren eigenlijk worden ontbonden in deze basisexploitanten.
+Dus, [eerder] werk in [wiskundig woordprobleem] het oplossen van ah kan eigenlijk ah worden gecategoriseerd in [sequentie] tot [sequentie] en [sequentie] tot boomstructuur [model].
+Traditioneel [sequentie] tot [sequentie] [model] converteert de expressie dus naar een specifieke [sequentie] [voor] [generatie].
+En het is vrij eenvoudig te implementeren en het kan [generaliseren] naar veel verschillende gecompliceerde [probleem].
+Maar de nadelen zijn dat de prestaties eigenlijk over het algemeen niet beter zijn dan het [gestructureerde] [model] en het gebrek aan [interpreteerbaarheid] [voor] [voorspelling].
+Maar eigenlijk is deze richting nog steeds vrij populair vanwege eh de [transformer] [model].
+Dus, in boomgebaseerde [modellen], [structuur] wij deze uitdrukkingen feitelijk in de boomvorm en volgen wij een voorgeordende doorloop in boomgeneraties.
+Dus hier blijven we de operatoren [genereren] tot we bij de bladeren komen, die de hoeveelheden zijn.
+Dus hier is het goede ding dat het ons eigenlijk deze [binaire] boom [structuur] geeft, en het is um maar eigenlijk is het heel contra-intuïtief omdat we eerst de operator genereren en dan aan het einde genereren we de hoeveelheden.
+En het tweede ding is dat het ook enkele repetitieve berekeningen bevat.
+Dus als we hier naar deze uitdrukking kijken, wordt acht keer drie plus drie eigenlijk twee [gegenereerde], maar in feite moeten we de resultaten hergebruiken.
+In onze voorgestelde [benadering] willen wij die problemen stap voor stap en [interpretabel] oplossen.
+Dus [bijvoorbeeld] hier in de tweede stap, kunnen we deze delers verkrijgen die zevenentwintig zijn.
+En we kunnen ook terugverwijzen naar de originele [vragen] om de relevante inhoud te vinden.
+En in deze stappen krijgen we de delers.
+Dus, en dan bij deze derde stap krijgen we eigenlijk het quotiënt.
+Goed. En na deze drie stappen kunnen we in feite de resultaten van de tweede stap hergebruiken, en dan de resultaten van de vierde stap krijgen, en tenslotte kunnen we de dividenden verkrijgen.
+Hier genereren we dus eigenlijk de hele uitdrukking direct in plaats van een enkele [gegenereerde] operator of hoeveelheid.
+Dit maakt het proces nauwkeuriger.
+Dus, in ons deductieve [systeem], beginnen we eerst met een aantal hoeveelheden gepresenteerd in de [vragen] en ook met een aantal constante als onze initiële staat ah initiële staat.
+Dus, de uitdrukking wordt vertegenwoordigd door e i j o p.
+Waar we operator uitvoeren van q_i tot q_j, en een dergelijke expressie is eigenlijk gericht.
+Dus we hebben hier ook aftrekken met [woorden] om de tegenovergestelde richting weer te geven.
+Dit is vrij [vergelijkbaar] aan [relatie-extractie].
+Dus in een formeel deductief [systeem], in een tijdstap t, passen we de operator toe tussen het q_i en q_j paar, en dan verkrijgen we deze nieuwe expressie.
+We voegen het toe aan de volgende staat om een nieuwe hoeveelheid te worden.
+Deze dia 's visualiseren dus eigenlijk de evolutie van de toestand waarin we expressie blijven toevoegen aan de huidige toestand.
+Dus in onze [model] implementaties gebruiken we eerst een [voorgetrainde taal] [model] dat [BERTs] of Robertas kan zijn en dan [coderen] we de [zin] en dan verkrijgen we deze hoeveelheid [representaties].
+Dus als we eenmaal de hoeveelheid [representaties] hebben, kunnen we beginnen met [interferentie].
+Hier tonen we een voorbeeld van q_1 om de [representatie] [voor] q_2 te verkrijgen gedeeld door q_2 en dan keer q_3.
+Eerst krijgen we het ah-paar [representatie], wat in feite gewoon de [concatenation] is tussen q_1 en q_2, en dan passen we een feedforward-netwerk toe dat door de operator wordt geparametriseerd.
+En tenslotte krijgen we de uitdrukking [representatie] q_1 gedeeld door q_2.
+[interferentie]Maar in feite, in de praktijk, in de [interferentie] fase, kunnen we in staat zijn om de verkeerde uitdrukking ook te krijgen.
+Dus hier is alle mogelijke expressie gelijk aan drie keer het [aantal] van operatoren.
+Dus het mooie hier is dat wij gemakkelijk beperkingen kunnen toevoegen om deze [zoek-], [zoek-] ruimte te controleren.
+[Bijvoorbeeld], als deze expressie niet is toegestaan, kunnen we deze expressie eenvoudigweg verwijderen in onze [zoek-]ruimte.
+Dus in de tweede stap doen we hetzelfde, maar het enige verschil is dat we ah het enige verschil is nog een hoeveelheid.
+Dus deze hoeveelheid komt van de [eerder] berekende uitdrukking.
+Dus uiteindelijk kunnen we deze laatste uitdrukking q_3 keer q_4 verkrijgen.
+En we kunnen ook zien dat het [aantal] van alle mogelijke expressies verschilt van de [eerdere] stap.
+Dus, ah zo 'n verschil maakt het moeilijk om [beam search] toe te passen omdat de kansverdeling tussen deze twee stappen onevenwichtig is.
+Dus de [training] procedure is [vergelijkbaar] met [training] een [sequentie] tot [sequentie] [model] waarbij we het verlies optimaliseren bij elke stap.
+En hier gebruiken we deze tau ook om aan te geven wanneer we dit [generatie] proces moeten beëindigen.
+En hier is de ruimte verschillend van [sequentie] tot [sequentie] omdat de ruimte bij elke tijdstap anders is, terwijl in traditionele [sequentie] tot [sequentie] [model] dit het [nummer] van [woordenschat] is.
+En het stelt ons ook in staat om bepaalde beperkingen op te leggen van eerdere [kennis].
+Dus we voeren experimenten uit op de veelgebruikte [wiskundig woordprobleem] [datasets], [MAWPS], Math23K,  [MathQA] en [SVAMP].
+En hier tonen we kort de resultaten [vergeleken] met de [eerdere] beste benaderingen.
+Dus onze best presterende variant is Roberta-DeductiveReasoner.
+En in feite gebruiken we geen [beam search], in tegenstelling tot alle [eerdere] benaderingen gebruiken [beam search].
+Goed. Dus de beste benaderingen zijn vaak op bomen gebaseerd [model].
+Dus over het algemeen is onze redeneerder in staat om significant beter te presteren dan deze op bomen gebaseerde [model].
+Maar we kunnen zien dat de absolute aantallen op [MathQA] of [SVAMP] niet echt hoog zijn.
+Dus we onderzoeken de resultaten verder op [SVAMP].
+En deze [dataset] is een uitdaging omdat de auteur probeerde [handmatig] ah iets toe te voegen om het [NLP] [model] te verwarren, zoals het toevoegen van irrelevante [informatie] en extra hoeveelheden.
+Dus, in onze [voorspelling] vinden we dat sommige van de tussenliggende waarden eigenlijk negatief zijn.
+[Bijvoorbeeld] in deze [vragen] vragen we hoeveel appels Jake heeft?
+Maar we hebben wat extra [informatie] zoals zeventien minder foto 's, en Steven heeft acht foto' s, wat totaal irrelevant is.
+Dus, ons [model] maakt een [voorspelling] als deze die negatieve waarden produceert.
+En we observeren dat deze twee uitdrukkingen eigenlijk [vergelijkbare] scores hebben.
+Dus we kunnen deze [zoek-]ruimte eigenlijk beperken door die resultaten te verwijderen die negatief zijn, zodat we de ah het [antwoord] correct kunnen maken.
+Dus eh we vinden verder dat zo 'n [beperking] eigenlijk behoorlijk veel verbetert [voor] sommige [modellen].
+[Bijvoorbeeld] [voor] [BERT], we verbeteren zeven punten en vervolgens [voor] het Roberta-basis [model] verbeterden we eigenlijk twee punten.
+Dus beter [taalmodel] heeft betere [taalbegrip] vaardigheden, zodat het [nummer] hier hoger is [voor] Roberta en lager [voor] [BERT].
+En we proberen ook de moeilijkheid achter al deze [datasets] te analyseren.
+We gaan ervan uit dat het [aantal] ongebruikte hoeveelheden hier als irrelevant [informatie] kan worden beschouwd.
+Dus ah hier kunnen we zien dat we hebben het percentage monsters met ongebruikte hoeveelheden, en de [SVAMP] [dataset] heeft het grootste deel.
+En hier laten we ook de algehele prestaties zien.
+[Voor] die monsters zonder ongebruikte hoeveelheden, dus de totale prestaties zijn eigenlijk hoger dan de, de prestaties zijn eigenlijk hoger dan de totale prestaties.
+Maar met die monsters die met ongebruikte hoeveelheid eigenlijk veel slechter zijn dan de, slechter dan de algehele prestaties.
+[Voor] [MAWPS] hebben we niet echt ah te veel testgevallen, dus ik negeer dit deel gewoon.
+Dus, tot slot willen we de [interpreteerbaarheid] laten zien door middel van een [vraag] verstoringsvoorbeeld.
+Dus hier maakt ons [model] eigenlijk een verkeerde [voorspelling] bij de eerste stap.
+Dus we kunnen deze uitdrukking eigenlijk correleren met de [zin] hier. Goed.
+Dus we denken dat deze [zin] het [model] zou kunnen misleiden tot een onjuiste voorspelling.
+Dus hier planten nog eens vijfendertig maakt het [model] maakt het [model] denken dat het een toevoeging operator moet zijn.
+Dus proberen we de [zin] te herzien tot iets als het [aantal] perenbomen is vijfendertig minder dan de appelbomen.
+Dus maken we het om nauwkeuriger [semantiek] over te brengen, zodat het [model] in staat is om um de [voorspelling] correct te maken.
+[interpretabel]Dus, deze studie laat zien hoe de [interpretabele] voorspellingen ons helpen het [model] gedrag te begrijpen.
+Dus om ons werk af te ronden, dus eerst is ons [model] eigenlijk behoorlijk efficiënt.
+En we zijn in staat om een [interpretabel] oplossingsprocedure te bieden.
+En we kunnen gemakkelijk wat eerdere [kennis] opnemen als [beperking] die kan helpen de prestaties te verbeteren.
+En het laatste ding is dat het onderliggende mechanisme niet alleen van toepassing is op netwerk [probleem] oplossen [taken], maar ook op andere [taken] die meerdere stappen omvatten [redeneren].
+We hebben ook bepaalde beperkingen.
+Ah, als we een [groot] [aantal] operatoren of constanten hebben, kan het geheugenverbruik behoorlijk hoog zijn.
+En het tweede ding is dat, zoals gezegd, omdat de kansverdeling onevenwichtig is tussen verschillende tijdsstappen, dus het is ook behoorlijk uitdagend om [beam search] strategie toe te passen.
+Dus dit is het einde van het gesprek, en [vragen] zijn welkom. Bedankt.
+Hallo, mijn naam is Antoine en ik ben van de Universiteit Maastricht.
+Ik zal een presentatie geven over mijn gemeenschappelijk werk met Jerry dat gaat over een nieuwe [dataset] [voor] het [retrieval] van wetsartikelen.
+Juridische kwesties zijn een integraal onderdeel van het leven van veel mensen.
+Maar de meeste burgers hebben weinig [kennis] over hun rechten en fundamentele juridische processen.
+Als gevolg hiervan worden veel kwetsbare burgers die zich de dure hulp van een jurist niet kunnen veroorloven, onbeschermd of, erger nog, uitgebuit.
+Alle werkzaamheden zijn gericht op het overbruggen van de kloof tussen mensen en de wet door het ontwikkelen van een effectief [retrieval] [systeem] [voor] statutaire artikelen.
+Zo 'n [systeem] zou een gratis professionele juridische hulpdienst [voor] ongeschoolde mensen kunnen bieden.
+Voordat we ingaan op de belangrijkste bijdrage van dit werk, laten we eerst het [probleem] van wettelijk artikel [retrieval] beschrijven.
+Gegeven een eenvoudige [vraag] over een juridische kwestie zoals, wat riskeer ik als ik het beroepsgeheim schend?
+Een [model] is vereist om alle relevante statutaire artikelen uit een [groot] geheel van wetgeving op te halen.
+Deze [information retrieval] [taak] komt met zijn eigen reeks uitdagingen.
+Ten eerste gaat het om twee soorten [taal].
+Gemeenschappelijke [natuurlijke taal] [voor] de [vragen] en complexe juridische [taal] [voor] de statuten.
+Dit verschil in [taal] [verdelingen] maakt het moeilijker [voor] een [systeem] om relevante kandidaten op te halen, omdat het indirect een inherente interpretatie [systeem] vereist dat een [natuurlijke] [vraag] kan vertalen naar een juridische [vraag] die overeenkomt met de [terminologie] van statuten.
+Trouwens, het wettelijk recht is geen stapel onafhankelijke artikelen die kunnen worden behandeld als een volledige [bron] van [informatie] op zichzelf, in tegenstelling tot [nieuws] of recepten, [bijvoorbeeld].
+In plaats daarvan is het een [gestructureerde] verzameling wettelijke bepalingen die alleen een hele [betekenis] hebben als ze in de algemene [context] worden beschouwd, dat wil zeggen, samen met de aanvullende [informatie] van de naburige artikelen, de velden en subvelden waartoe ze behoren, en hun plaats in de [structuur] van de wet.
+Ten slotte zijn wettelijke artikelen geen kleine paragrafen, wat meestal de typische [retrieval] -eenheid is in de meeste [retrieval] -werken.
+Hier zijn lange [documenten] die kunnen oplopen tot zesduizend [woorden].
+De [recente voorschotten] in [NLP] hebben grote belangstelling gewekt voor veel juridische [taken], zoals juridisch oordeel [voorspelling] of geautomatiseerde contractbeoordeling.
+Maar statutair artikel [retrieval] is grotendeels onaangetast gebleven door het ontbreken van [groot] en hoge [kwaliteit] [gelabelde] [datasets].
+In dit werk presenteren we een nieuwe [Franse] native citizen-centric [dataset] om te bestuderen of [retrieval] [modellen] de efficiëntie en betrouwbaarheid van een juridisch expert [voor] de [taak] van wettelijk artikel [retrieval] kunnen benaderen.
+Ons Belgisch wettelijk artikel [retrieval] [dataset] [BSARD] bestaat uit meer dan duizend honderd juridische [vragen] van Belgische burgers.
+Deze [vragen] behandelen een breed scala aan onderwerpen, van familie, huisvesting, geld, tot werk en [sociale] zekerheid.
+Elk van hen is [gelabeld] door ervaren juristen met verwijzingen naar relevante artikelen uit een [corpus] van meer dan tweeëntwintigduizend zeshonderd juridische artikelen uit Belgische wetboeken.
+Laten we het nu hebben over hoe we deze [dataset] hebben verzameld.
+Eerst begonnen we met het samenstellen van een [groot] [corpus] van juridische artikelen.
+We hebben tweeëndertig openbaar beschikbare Belgische codes overwogen en [geëxtraheerd] alle artikelen evenals de [overeenkomende] sectiekoppen.
+Vervolgens verzamelden we juridische [vragen] met verwijzingen naar relevante statuten.
+Daartoe werken wij samen met het Belgische advocatenkantoor dat elk jaar ongeveer vierduizend e-mails ontvangt van Belgische burgers die advies vragen [voor] een persoonlijke juridische kwestie.
+We hadden het geluk om toegang te krijgen tot hun websites, waar hun team van ervaren juristen de meest voorkomende juridische problemen van Belgen aanpakt.
+We hebben duizenden [vragen] [geannoteerd] verzameld met categorieën, subcategorieën en juridische verwijzingen naar relevante statuten.
+Ten slotte hebben we de wettelijke referenties doorgegeven en de [vragen] eruit gefilterd waarvan de referenties geen artikelen waren in een van de wetboeken die we hebben overwogen.
+De overige referenties werden gematcht en geconverteerd naar de [overeenkomende] artikel-id 's uit ons [corpus].
+Uiteindelijk kwamen we uit op duizend achtenzestig [vragen], elk zorgvuldig [gelabeld] met de id 's van de relevante artikelen uit ons [grote] [corpus] van tweeëntwintigduizend zeshonderd drieëndertig statutaire artikelen.
+Daarnaast komt elke [vraag] met de hoofdcategorie en een [concatenation] van subcategorieën.
+En elk artikel komt met een [concatenation] van de volgende rubriek in de [structuur] van de wet.
+Deze extra [informatie] wordt niet gebruikt in het huidige werk, maar kan van belang zijn [voor] toekomstig [onderzoek] naar juridisch [informatie ophalen] of juridisch [tekstclassificatie].
+Laten we eens kijken naar een kenmerk van onze [dataset].
+De [vragen] zijn tussen de vijf en vierenveertig [woorden] lang met een mediaan van veertien [woorden].
+De artikelen zijn veel langer met een mediaan lengte van zevenenzeventig [woorden], met honderd tweeënveertig van hen meer dan duizend [woorden].
+De langste is tot vijfduizend zevenhonderd negentig [woorden].
+Zoals eerder vermeld, bestrijken de [vragen] een breed scala aan onderwerpen, waarvan ongeveer vijfentachtig procent over familie, huisvesting, geld of rechtvaardigheid gaat.
+De overige vijftien procent betreft ofwel [sociale] zekerheid, buitenlanders of werk.
+Het artikel is ook zeer divers omdat ze afkomstig zijn uit tweeëndertig verschillende Belgische codes die een [groot] [aantal] juridische onderwerpen bestrijken.
+Hier is het totaal [aantal] artikelen verzameld uit elk van deze Belgische codes.
+Van de tweeëntwintigduizend zeshonderddrieëndertig artikelen wordt slechts éénduizend zeshonderd twaalf als relevant aangeduid ten minste één [vraag] in de [dataset].
+En ongeveer tachtig procent van deze geciteerde artikelen zijn afkomstig uit het burgerlijk wetboek, gerechtelijk wetboek, strafwetboek of strafwetboek.
+Ondertussen hebben achttien van de tweeëndertig codes minder dan vijf artikelen die als relevant worden vermeld voor ten minste één [vraag].
+Dat kan worden verklaard door het feit dat die codes minder gericht waren op individuen en hun zorgen.
+Over het algemeen is het mediaan [aantal] van citaten [voor] deze geciteerde artikelen is twee, en minder dan vijfentwintig procent van hen worden meer dan vijf keer geciteerd.
+Met behulp van alle [datasets] hebben we verschillende [retrieval] -benaderingen gebenchmarkt, waaronder [lexicale] en dichte architectuur.
+Gegeven een [query] en een artikel kent een [lexicaal] [model] een score toe aan het [query] artikelpaar door de som te berekenen over de [query] termen van de [waardes] van elk van deze termen in dat artikel.
+We experimenteren met de standaard TF-[IDF] en BM25 ranking functies.
+Het belangrijkste [probleem] met deze benaderingen is dat ze alleen artikelen kunnen ophalen die trefwoorden bevatten die aanwezig zijn in de [vraag].
+Om deze beperking te overwinnen, experimenteren we met een [neurale] architectuur die [semantische] relaties tussen [vragen] en artikel kan vastleggen.
+We gebruiken een bi-[encoder] [model] dat [queries] en artikelen in kaart brengt in dichte [vector] [representaties] en berekenen een relevantie score tussen een [query] artikelpaar door de [gelijkenis] van hun [inbeddingen].
+Deze [inbeddingen] zijn meestal het resultaat van een pooling-operatie op de output van een [word embedding] [model].
+Eerst bestuderen we de doeltreffendheid van Siamese bi-[encoders] in een zero shot [evaluatie] opstelling. De [betekenis] hiervan is dat er [vooraf getraind] [woord inbeddingen] [modellen] out-of-the-box worden toegepast zonder extra te [finetunen].
+We experimenteren met [context] onafhankelijke [tekst] [encoder], [namelijk] [word2vec] en fastText, en [context] afhankelijke [inbedding] [modellen], [namelijk] Roberta en meer specifiek [CamemBERT] wat een [Frans] Roberta [model] is.
+[Bovendien] trainen we onze eigen [CamemBERT] op basis van [model] ah bi-[encoders] op onze [dataset].
+Merk op dat [voor] [training], we experimenteren met de twee smaken van de bi-[encoder] architectuur.
+Siamees, dat een uniek [woord inbedding] [model] gebruikt dat de [vraag] en het artikel samen in kaart brengt in [gedeeld] dichte [vectorruimte], en twee-toren, dat twee onafhankelijke [woord inbedding] [modellen] gebruikt die de [vraag] en het artikel afzonderlijk [coderen] in verschillende [inbedding] ruimten.
+We experimenteren met gemiddelde, max en [CLS] pooling evenals product en [cosinus] [voor] computing overeenkomsten.
+Hier zijn de resultaten van onze baseline op de testsets.
+Met de [lexicaal]-[methoden] hierboven, de Siamese bi-[encoders] geëvalueerd in een zero shot setup in het midden, en de verfijnde bi-[encoders] hieronder.
+Over het algemeen presteert de afgestemde bi-[encoder] aanzienlijk beter dan alle andere [baselines].
+De twee-toren [model] verbetert ten opzichte van zijn Siamees varianten op recall op honderd, maar presteert op dezelfde manier op de andere [statistieken].
+Hoewel BM25 aanzienlijk slechter presteerde dan de getrainde bi-[encoder], gaven de prestaties aan dat het nog steeds een sterke basislijn [voor] [domein] specifieke [retrieval] is.
+Met betrekking tot de nul schot [evaluatie] van Siamese bi-[encoder], vinden we dat direct met behulp van de [inbeddingen] van een [vooraf getraind] [CamemBERT] [model] zonder te optimaliseren [voor] de [informatie ophalen] [taak] geeft slechte resultaten, die in overeenstemming is met [eerdere] bevindingen.
+[Verder] merken we op dat de [word2vec] gebaseerde bi-[encoder] aanzienlijk beter presteerde dan de fastText en [BERT] gebaseerde [modellen], wat suggereert dat misschien [vooraf getraind] niveau van [woordinbeddingen] geschikter zijn [voor] de [taak] dan karakterniveau of [subwoord] niveau [inbeddingen] bij gebruik uit de doos.
+Hoewel veelbelovend, suggereren deze resultaten voldoende mogelijkheden [voor] verbetering [vergeleken] met een bekwame juridische expert die uiteindelijk alle relevante artikelen kan ophalen bij elke [vraag] en dus perfecte scores kan behalen.
+Laten we afsluiten door twee beperkingen van onze [dataset] te bespreken.
+In de eerste plaats is het [corpus] van het artikel beperkt tot die verzameld uit de tweeëndertig beschouwde Belgische wetboeken, die niet de gehele Belgische wet bestrijken omdat artikelen uit decreten, richtlijnen en verordeningen ontbreken.
+Tijdens de [dataset] constructie worden alle verwijzingen naar deze niet-verzamelde artikelen genegeerd, waardoor sommige [vragen] slechts een fractie van het initiële [aantal] van relevante artikelen bevatten.
+Deze [informatie] impliceert dus dat het [antwoord] in de overige relevante artikelen onvolledig kan zijn, hoewel het nog steeds volledig passend is.
+Ten tweede moeten we opmerken dat niet alle juridische [vragen] alleen met statuten kunnen worden beantwoord.
+[Bijvoorbeeld] de [vraag], kan ik mijn huurders uitzetten als ze te veel lawaai maken?
+Heeft mogelijk geen gedetailleerd [antwoord] binnen het wettelijk recht dat een specifieke geluidsdrempel kwantificeert waarbij uitzetting is toegestaan.
+In plaats daarvan moet de verhuurder waarschijnlijk meer vertrouwen op jurisprudentie en precedenten vinden [vergelijkbaar] met hun huidige situatie.
+[Bijvoorbeeld] de huurders maakt twee partijen per week tot twee AM.
+[Vandaar] dat sommige [vraag] beter geschikt zijn dan andere voor het statutaire artikel [retrieval] [taak], en het [domein] van de minder geschikte moet nog worden bepaald.
+We hopen dat ons werk interesse wekt in het ontwikkelen van praktische en betrouwbare wettelijke artikelen [retrieval] [modellen].
+Dat kan de toegang tot de rechter [voor] iedereen helpen verbeteren.
+U kunt onze [paper], [dataset] en code bekijken op de volgende links. Bedankt.
+Hallo, we presenteren graag ons werk aan [VALSE]; een [Taak] -onafhankelijke benchmark bedoeld [voor] het testen van visie en [taalmodellen] met specifieke [linguïstische] verschijnselen.
+Waarom hebben we de moeite genomen om deze benchmark op te zetten?
+In de afgelopen jaren hebben we een explosie gezien van [transformer] gebaseerde visie en [taalmodellen] [vooraf getraind] op [grote] hoeveelheden [afbeelding] [tekst] paren.
+Elk van deze [modellen] duwt state-of-the-art op visie en [taal] [taken] zoals [visuele vraag beantwoorden], [visueel] gezond [betekenis] [redeneren], [afbeelding] [retrieval], [zinsdeel] [verankering].
+Dus kregen we een bericht, de nauwkeurigheid van deze [taken] en specifieke benchmarks nemen gestaag toe.
+Maar weten we wat de [modellen] daadwerkelijk hebben geleerd?
+Wat heeft een visie en [taal] [transformer] begrepen bij het toekennen van een hoge score [voor] deze [afbeelding] en deze [zin] om overeen te komen?
+En de lage score (voor deze)?
+Richten visie en [taalmodellen] zich op het juiste?
+Of richten ze zich op [bias] zoals blijkt uit [eerder] werk?
+Om meer licht op dit [aspect] te werpen, [stellen we voor] wij een meer [taak]agnostische richting voor en introduceren wij [VALSE] dat de gevoeligheid van visie en [linguïstische] test voor specifieke [taal]verschijnselen die zowel de [taal]als de [visuele] [modaliteiten] beïnvloeden.
+Ons [doel] is het bestaan, meervoudigheid, tellen, [relaties] die [ruimtelijk] zijn, handelingen en [entiteit] [coreferentie].
+Maar hoe testen we of de visie en [taalmodellen] dit fenomeen hebben vastgelegd?
+Door het verijdelen van een [methode] eerder toegepast [voor] visie en [taalmodellen] alleen [voor] [zelfstandig naamwoord] zinnen van Ravi Shekhar en medewerkers, en op tellen door ons in [eerder] werk.
+Folie betekent in feite dat we het bijschrift van een [afbeelding] nemen en een folie produceren door het bijschrift zodanig te wijzigen dat het de [afbeelding] niet meer beschrijft.
+En we doen deze [zinsdeel] -wijzigingen door ons te concentreren op zes specifieke stukken zoals bestaan, pluraliteit, tellen, [relaties] die [ruimtelijk] zijn, acties en [entiteit] [coreferentie], waarbij elk stuk kan bestaan uit een of meer instrumenten, voor het geval we meer dan één interessante manier vonden om folie-exemplaren te maken.
+[Bijvoorbeeld] in het geval van het actiestuk hebben we twee instrumenten, één waarin de actie [werkwoord] wordt gewijzigd met een andere actie, en één waarin acteurs worden verwisseld.
+Tellen en [coreferentie] zijn ook stukken die meer dan één instrument hebben.
+En we creëren deze folies door ervoor te zorgen dat ze het [afbeelding] niet beschrijven, dat ze [grammaticaal] zijn en anderszins geldig [zinnen].
+Dit is niet gemakkelijk te doen omdat een folie bijschrift minder waarschijnlijk is dan het oorspronkelijke bijschrift.
+[Bijvoorbeeld], hoewel het niet onmogelijk is, is het statistisch minder waarschijnlijk [voor] planten om een man te snijden dan een man om planten te snijden, en [groot] zicht en [taalmodellen] zouden dit kunnen oppikken.
+[Daarom], om geldige folies te verkrijgen, moeten we actie ondernemen.
+Ten eerste maken wij gebruik van sterke [taalmodellen] om [voorstellen] te doen voor folies.
+Ten tweede gebruiken we [natuurlijke taalinferentie] of korte [NLI] om folies uit te filteren die nog steeds de [afbeelding] zouden kunnen beschrijven, omdat we er bij het construeren van folies voor moeten zorgen dat ze de [afbeelding] niet beschrijven.
+Om dit [automatisch] te testen, passen we [natuurlijke taalinferentie] toe met de volgende redenering.
+We beschouwen een [afbeelding] als het uitgangspunt en het bijschrift als de bijbehorende hypothese.
+Bovendien beschouwen we het bijschrift als het uitgangspunt, en de folie is de hypothese.
+Als een [NLI] [model] voorspelt dat de folie in tegenspraak is met of neutraal is ten opzichte van het bijschrift, nemen we dit als een indicator van een geldige folie.
+Als een [NLI] de folie voorspelt die het bijschrift met zich meebrengt, kan het geen goede folie zijn, omdat het door transitie een waarheidsgetrouwe beschrijving van de [afbeelding] zal geven, en we filteren deze folies eruit.
+Maar deze procedure is niet perfect, het is slechts een indicator [voor] geldige folies.
+[Daarom], als een derde maatregel [voor] het [genereren] van geldige folies, gebruiken wij [annotatoren] die [menselijk] zijn om de [data] gebruikt in [VALSE] te valideren].
+Dus, na het filteren en [menselijke evaluatie], hebben we zoveel testgevallen als beschreven in deze tabel.
+Merk op dat [VALSE] geen [trainingsgegevens] levert, maar alleen [gegevens] test.
+Omdat het alleen een zero shot-testbenchmark is, is het ontworpen om gebruik te maken van een [bestaand] mogelijkheid van visie en [taalmodellen] na [pre-training].
+Het [finetunen] zou [modellen] alleen in staat stellen om artefacten of een [statistisch] [bias] in de [data] te benutten.
+En we weten allemaal dat deze [modellen] graag vals spelen en snelkoppelingen maken.
+En zoals we al zeiden, zijn we geïnteresseerd in het [beoordelen] van welke mogelijkheden de visie en [taalmodellen] hebben na [pre-training].
+We experimenteren met vijf visie- en [taalmodellen] op [VALSE], [namelijk] met [CLIP], [LXMert], [ViLBERT], [ViLBERT] twaalf in één, en [VisualBERT].
+Twee van onze belangrijkste [evaluatie] [statistieken] zijn de nauwkeurigheid van de [modellen] in [classificeren] [afbeelding] [zin] paren in [bijschriften] en folies.
+Misschien relevanter [voor] deze video, zullen we onze meer tolerante metriek laten zien, de [paarsgewijze] nauwkeurigheid, die meet of de [afbeelding] [zinuitlijning] score groter is [voor] het juiste [afbeelding] [tekst] paar dan [voor] het gefoliede paar.
+[Voor] meer [statistieken] en resultaten daarover, bekijk onze [paper].
+De resultaten met [paarsgewijs] nauwkeurigheid worden hier getoond en ze zijn consistent met de resultaten die we van de andere [statistieken] hebben gekregen, is dat de beste nul-shotprestaties worden bereikt door [ViLBERT] twaalf in één, gevolgd door [ViLBERT], [LXMert], [CLIP] en ten slotte [VisualBERT].
+Het is opmerkelijk hoe instrumenten die gericht zijn op de individuele objecten zoals het bestaan en [zelfstandig naamwoord] zinnen bijna worden opgelost door [ViLBERT] twaalf in één, waarbij wordt benadrukt dat [modellen] in staat zijn om [benoemde] objecten en hun aanwezigheid in afbeeldingen te [identificeren].
+Geen van de resterende stukken kan echter betrouwbaar worden opgelost in onze [adversarial] folie-instellingen.
+We zien aan de meervoudigheid en telinstrumenten dat visie en [taalmodellen] moeite hebben om verwijzingen naar enkele versus meerdere objecten te onderscheiden, of ze in een [afbeelding] te tellen.
+Het [relatie] stuk laat zien dat ze moeite hebben met het correct [classificeren] van een [benoemd] [ruimtelijk] [relatie] tussen objecten in een [afbeelding].
+Ze hebben ook moeite om acties te onderscheiden en hun deelnemers te [identificeren], zelfs als ze worden ondersteund door plausibiliteit [bias] zoals we in het actiestuk zien.
+Uit de [coreferentie] stuk blijkt dat het opsporen van meerdere verwijzingen naar hetzelfde object in een [afbeelding] met behulp van [voornaamwoorden] ook moeilijk is [voor] vision en [taalmodellen].
+Als een geestelijke controle, en omdat het een interessant experiment is, benchmarken we ook twee [tekst] slechts [modellen], [GPT] één en [GPT] twee, om te beoordelen of [VALSE] oplosbaar is door deze unimodale [modellen] door het berekenen van de [perplexiteit] van de juiste en de foiled caption, geen [afbeelding] hier, en het voorspellen van de ingang met de laagste [perplexiteit].
+Als de [perplexiteit] hoger is [voor] de folie, beschouwen wij dit als een aanwijzing dat het verijdelde bijschrift kan lijden aan plausibiliteitsbias of ander [linguïstisch] [bias].
+En het is interessant om te zien dat in sommige gevallen de [tekst] alleen [GPT] [modellen] de plausibiliteit van de wereld beter hebben vastgelegd dan de visie en [taalmodellen].
+Dus om samen te vatten, [VALSE] is een benchmark die de lens van [linguïstische] constructies gebruikt om de gemeenschap te helpen het gezichtsvermogen en [taalmodellen] te verbeteren door hun [visuele] [verankering] capaciteiten hard te testen.
+Onze experimenten tonen aan dat visie en [taalmodellen] objecten die [benoemd] zijn en hun aanwezigheid in afbeeldingen goed identificeren, zoals blijkt uit het bestaansstuk, maar moeite hebben om hun onderlinge afhankelijkheid en relaties in [visuele] scènes te gronden wanneer ze gedwongen worden om [linguïstische] indicatoren te respecteren.
+We willen de gemeenschap echt aanmoedigen om [VALSE] [voor] het meten van vooruitgang naar [taal] [verankering] met visie en [taalmodellen] te gebruiken.
+En nog meer, [VALSE] kan worden gebruikt als een indirecte beoordeling van [datasets], omdat [modellen] voor en na [training] of [finetunen] kunnen worden geëvalueerd om te zien of een [dataset] [modellen] helpt bij het verbeteren van een van de aspecten getest door [VALSE].
+Als je geïnteresseerd bent, bekijk dan de [VALSE] [data] op GitHub, en als je [vragen] hebt, aarzel dan niet om contact met ons op te nemen.
+Hallo, mijn naam is Kamezawa van de Universiteit van Tokio.
+Ik zal een [paper] presenteren met de titel [RNSum]: Een [grote]-schaal [dataset] [voor] [automatische] release note [generatie] via Commit Logs [samenvatting].
+Ik zal het in deze volgorde uitleggen.
+Eerst zal ik de [automatische] release note [generatie] introduceren waaraan we in dit [onderzoek] werken.
+Een release note is een technisch [document] dat de wijzigingen samenvat die bij elke release van een softwareproduct worden verspreid.
+De [afbeelding] toont een release note [voor] versie twee punt zes punt vier van de vuejs bibliotheek.
+Release notes spelen een belangrijke rol in [open source] ontwikkeling, maar ze zijn tijdrovend voor te bereiden [handmatig].
+[Daarom] zou het erg handig zijn om [automatisch] release notes van hoge [kwaliteit] te kunnen genereren.
+Ik zal twee [eerdere] onderzoeken op [automatische] release note [generatie] uitstellen.
+De eerste is een [systeem] genaamd [ARENA] uitgebracht in veertienentwintig.
+Er is een op regels gebaseerde [benadering] nodig, [bijvoorbeeld] met behulp van de change [extractor] om alle verschillen, bibliotheekwijzigingen en [document] wijzigingen uit de verschillen tussen releases te extraheren en uiteindelijk te combineren.
+Het meest opvallende kenmerk van dit [systeem] is het probleem [extractor] in de rechterbovenhoek.
+Die moet worden overgelaten aan Jira, de issue tracker [systeem], en kan alleen worden toegepast op projecten die Jira gebruiken.
+Met andere [woorden], het kan niet worden gebruikt [voor] veel projecten op GitHub.
+De tweede is Glyph, onlangs aangekondigd in tweeduizend twintig.
+Het is beschikbaar op het [internet] en kan worden geïnstalleerd via pip.
+Dit [systeem] heeft een eenvoudig [leren] gebaseerd [tekst classificatie] [model] en [outputs] een van de vijf labels zoals [functies] of bug fixes [voor] elk [input] commit bericht.
+Deze [afbeelding] is een voorbeeldgebruik dat een correctief of bugfixelabel retourneert.
+Glyph 's [trainingsgegevens] zijn vrij klein, ongeveer vijfduizend, en zullen worden getoond in de hieronder beschreven experimenten.
+De prestaties van het [tekstclassificatie] [model] zijn niet hoog.
+Ik presenteer twee gerelateerde onderzoeken, maar hun problemen zijn beperkte toepasbaarheid en schaarse [gegevens] [middelen].
+Onze [paper] lost deze twee problemen op en genereert [automatisch] hoge [kwaliteit] release notes.
+Met een beperkte toepasbaarheid [probleem], willen we [voorstellen] een klassegewijze [samenvatting] [methode] van hoge [kwaliteit] met alleen vastleggingsberichten als [input].
+Deze voorgestelde [methode] kan worden gebruikt [voor] alle repositories in [Engels].
+[Voor] het tweede [probleem] van schaarse [gegevens] [bronnen] hebben we onze [RNSum] [dataset] opgebouwd, bestaande uit ongeveer tweeëntachtigduizend stukjes [gegevens] door [gegevens] te verzamelen uit openbare GitHub-repositories met behulp van de GitHub [API].
+Vervolgens beschrijf ik onze [dataset].
+Hier is een voorbeeld van [data].
+De linkerkant is een commit bericht en de rechterkant is de release notes.
+Release notes worden [gelabeld] als verbeteringen of fixes, etc.
+We hebben een [taak] ingesteld die de commitberichten als [input] en [outputs] als [gelabelde] release notes neemt.
+Dit kan worden beschouwd als een [samenvatting] [taak].
+We hebben vooraf vier labels gedefinieerd: [functies], verbeteringen, bugfixes, verwijderingen van afschrijvingen en brekende wijzigingen.
+Deze zijn vastgesteld op basis van [eerder] [onderzoek] en andere factoren.
+De release note rechtsonder is [geëxtraheerd] uit de release note linksonder.
+Op dit moment is het noodzakelijk om de vier labels die van tevoren zijn ingesteld te detecteren.
+Maar de labels zijn niet altijd consistent met elke repository.
+[Bijvoorbeeld] het verbeterlabel bevat verbeteringen, verbeteringen, optimalisaties, enzovoort.
+Wij hebben een [woordenschat]lijst opgesteld met ongeveer dertig labels [voor] elk van deze notatievarianten.
+Dit is om de release note class te detecteren, en verzamelt de [tekst] van de release die volgt als de release note [zin] [voor] de klasse.
+Het volgende is een commit boodschap.
+Commit-berichten zijn niet gebonden aan elke release.
+Zoals getoond in de [afbeelding] hieronder, als de huidige release versie twee punt vijf tot negentien is, moeten we de [eerdere] release versie twee punt vijf tot achttien identificeren en een diff krijgen.
+Dit is een beetje vervelend en het is niet genoeg om gewoon een lijst met releases te krijgen en naar het voor en na te kijken.
+We hebben een [heuristische] matchingregel gemaakt om de [eerdere] en volgende versies te krijgen.
+[Dataset] [analyse].
+Uiteindelijk werden zevenduizend tweehonderd repositories en tweeëntachtigduizend stukken [data] verzameld.
+Ook is het gemiddelde [aantal] van release notes [tokens] drieënzestig, wat vrij hoog is [voor] een [samenvatting] [taak].
+Ook het [aantal] unieke [tokens] is met achtduizend achthonderd dertigduizend vrij [groot].
+Dit is te wijten aan de [groot] [aantal] van unieke klasse of [methode] namen gevonden in de repository.
+Vervolgens zal ik de voorgestelde [methode] toelichten.
+Het classwise [extractieve] dan [abstracte samenvatting] [model] bestaat uit twee [neurale] modules.
+Een [classifier] met [BERT] of [CodeBERT] en een generator met [BART].
+Ten eerste gebruikt [CEAS] een [classifier] om elk commitbericht te classificeren in vijf release notes-klassen, die verbeteringen, bugfixes, afschrijvingen en een andere gebruiken.
+De commitberichten die zijn geclassificeerd als overig worden verwijderd.
+Vervolgens past [CEAS] de generator onafhankelijk toe op de vier [gelabelde] [documenten] en genereert hij releasenotes [voor] elke klasse.
+In deze [taak] zijn de directe correspondenties tussen commitberichten en release notes niet bekend.
+[Daarom], om de [classifier] te trainen, hebben we enquêtes toegewezen aan elk [input] commit-bericht met behulp van de eerste tien tekens van elk commit-bericht.
+We modelleerden de klassengewijze [abstracte samenvatting] [benadering] door twee verschillende [methoden].
+Het eerste [model], dat we [CAS]-Single noemen, bestaat uit een enkel zes tot zes netwerk en genereert een enkele release note [tekst] geven een [concatenation] van [input] commit berichten.
+De output [teksten] kan worden onderverdeeld in klassesegmenten op basis van speciale klassespecifieke eindpuntsymbolen.
+De tweede [methode], [methode], die we [CAS]-Multi noemen, bestaat uit vier verschillende [seq2seq] netwerken, die elk overeenkomen met een van de vaste release note klassen.
+Oké, laat me de experimenten uitleggen.
+Vijf [methoden] werden [vergeleken]: [CEAS], [CAS]-Single, [CAS]-Multi, [Clustering] en [eerdere] studie, Glyph.
+Met betrekking tot [evaluatie] worden release notes in sommige gevallen in meerdere [zinnen] uitgevoerd.
+Omdat het moeilijk is om het [aantal] van [zinnen] te berekenen zoals ze zijn, worden ze gecombineerd met spaties en behandeld als één lange [zin].
+De [BLEU] wordt bestraft wanneer het [systeem] een korte [zin] [outputs].
+Deze straf resulteert in een lagere [BLEU] -waarde in de hierna beschreven experimentresultaten.
+Ten slotte berekenen we ook de specificiteit omdat [ROUGE] en [BLEU] niet kunnen worden berekend als de release notes leeg zijn.
+Een hogere specificiteit betekent dat het [model] correct [outputs] een lege [tekst] in gevallen waarin de release notes veronderstellen leeg.
+Hier volgen de resultaten.
+Aangezien de [dataset] e-mailadressen, gehashte waarden, enz. bevat, hebben we ook de opgeruimde [dataset] geëvalueerd, die deze uitsluit.
+[CEAS] en [CAS] behaalden [ROUGE]-L scoren meer dan tien punten hoger dan de [baselines].
+Met name op de clean test set steeg de scorekloof tussen de voorgestelde [methode] en de [baselines] naar meer dan twintig punten.
+Deze resultaten geven aan dat [CEAS] en [CAS] aanzienlijk worden beïnvloed.
+[CEAS] kreeg een betere [ROUGE]-L score dan [CAS], wat suggereert dat het combineren van een [classifier] en een generator effectief is op [training] de [classifier] met behulp van [pseudo-] labels.
+Een hoge dekking van [CEAS] kan waarschijnlijk worden bereikt omdat de [classifier] zich kan concentreren op het selecteren van relevante commit-berichten [voor] elke klas.
+[CAS]-Multi had de neiging om hogere [ROUGE]-L op te leveren dan [CAS]-Single.
+Suggereert dat het ook effectief is om onafhankelijk te ontwikkelen anders [abstracte samenvatting] [modellen] [voor] elke release note klasse.
+Hier is een fout [analyse].
+[CAS] [methoden] hebben de neiging om kortere [zinnen] uit te voeren dan [menselijke] verwijzing [zinnen].
+In de figuur rechts heeft de verwijzing [zin] drie of vier [zinnen], terwijl [CAS] er slechts één heeft.
+De reden [voor] de terughoudendheid van dit [model] is dat in [trainingsgegevens] slechts drieëndertig procent van de [zinnen] aanwezig zijn in het [functies] -label en veertig procent in het verbeterlabel.
+[Verder], [CAS] [methoden] kunnen geen nauwkeurige release notes genereren zonder aanvullende [informatie].
+Het bovenste voorbeeld aan de rechterkant is een voorbeeld van een zeer rommelig commitbericht en de volledige [zin] kan niet worden [gegenereerd] zonder verwijzing naar de [overeenkomende] voortgang of kwestie.
+Het onderstaande voorbeeld laat zien dat de twee commitberichten in de [input] gerelateerd zijn en gecombineerd moeten worden tot één [zin], maar dit lukt niet.
+Tot slot nog een conclusie.
+We hebben een nieuwe [dataset] [voor] [automatische] release note [generatie] gebouwd.
+Wij hebben ook een [taak] geformuleerd om commit-berichten in te voeren en [samenvatten], zodat het van toepassing is op alle projecten [die] in het [Engels] zijn [geschreven].
+Onze experimenten tonen aan dat de voorgestelde [methode] minder lawaaierige release notes genereert bij een hogere dekking dan de [baselines].
+Bekijk onze [dataset] op GitHub.
+Bedankt.
+Hallo. Mijn naam is Asaf Harari.
+En ik zal onze [paper] presenteren, Few-Shot Tabular [Data] Enrichment Using Fine-Tuned [Transformers] [Architectuur].
+[Data] wetenschappers analyseren [data] en richten zich vooral op het manipuleren van de [data]'s met [bestaand] [functies].
+Maar soms zijn deze [functies] beperkt.
+Functie [generatie] met behulp van een andere [gegevens] [bron] kan aanzienlijke [informatie] toevoegen.
+Het doel van ons [onderzoek] is [automatische] verrijking in tabelvorm [data] met behulp van de vrije [tekst] van externe bronnen.
+Stel dat we een tabel [dataset] en een [dataset] hebben.
+Wij hebben een [automatisch] proces nodig met [entiteitkoppeling] en [tekst] [analyse] om nieuwe [functies] te extraheren uit de vrije [tekst] van de [kennisbank].
+Ons raamwerk [FeSTE] is precies dit [automatische] proces.
+Dus laten we een voorbeeld zien in een [dataset] ingevoerd in [FeSTE].
+In dit voorbeeld is de [dataset] een universitaire [dataset].
+Wanneer het doel is om universiteiten te classificeren in laaggeplaatste universiteiten en hooggeplaatste universiteiten.
+Als [kennisbank] gebruiken we [Wikipedia].
+De eerste fase van [FeSTE] is [entity linking].
+Wanneer elke [entiteit], in dit voorbeeld de naam van de universiteit, [gelinkt] is aan een [entiteit] binnen de [kennisbank].
+En de [tekst] van de [entiteiten] van de [kennisbank] wordt [geëxtraheerd] en toegevoegd aan de [dataset].
+In dit voorbeeld is de [tekst] het abstract van de [Wikipedia] pagina.
+Nu moeten we [functies] genereren of extraheren uit de [opgehaald] [tekst].
+Dus, we moeten de functies [extractie] fase inclusief [tekst] [analyse] hebben.
+En dit is de belangrijkste nieuwigheid van deze [paper] en ik zal er in de volgende dia's dieper op ingaan.
+Na de feature [extractie] -fase is er een feature [generatie] -fase wanneer we de [geëxtraheerde] [functies] gebruiken om een klein [aantal] nieuwe [functies] te genereren.
+Genereer eerst [functies] in het [aantal] klassen van de originele [dataset].
+In dit voorbeeld heeft de oorspronkelijke [dataset] twee klassen.
+Dus, [FeSTE] genereert twee nieuwe [functies].
+Maar als de [dataset] vijf klassen heeft, genereert [FeSTE] vijf nieuwe [functies].
+Elk kenmerk vertegenwoordigt de waarschijnlijkheid [voor] elke klasse.
+Om de [tekst] te analyseren, gebruiken we de huidige state-of-the-art van [tekst] [analyse], die op [transformer] gebaseerde [taalmodellen] zijn als [BERT], [GPT], [XLNet] en etc.
+Het is echter niet waarschijnlijk dat we [taalmodellen] kunnen trainen met behulp van de [input] [datasets].
+Dus een naïeve [benadering] zal [doel] [taak] [finetunen] zijn.
+Dus, in de functie [extractie] fase, kunnen we downloaden [voorgetrainde taal] [modellen], finetunen van de [taalmodel] over de [doel] [dataset].
+In dit voorbeeld om het [taalmodel] te finetunen, om [tekst] in te delen in klassen, abstract in klassen, laag of hoog.
+Ontvang de uitvoer van [taalmodel], wat de waarschijnlijkheid is [voor] elke klasse en gebruik als nieuwe [functies].
+Het [probleem] met deze [benadering] is dat [datasets] mogelijk weinig verschillende [entiteiten] / [teksten] hebben.
+In ons experiment bevat bijna de helft van de [datasets] minder dan vierhonderd monsters en de kleinste [dataset] bevat vijfendertig monsters in zijn, in een [training] set.
+Dus om een [taalmodel] af te stemmen op ah zal deze [dataset] niet effectief zijn.
+Maar we kunnen vooraf [kennis] gebruiken over vooraf geanalyseerde [datasets].
+Omdat [FeSTE], we [FeSTE] toepassen op een meervoudige [dataset], kunnen we de n min één [datasets] gebruiken om [informatie] te verzamelen over de n min één [datasets], en deze [informatie] gebruiken wanneer we de nth [dataset] analyseren.
+Wat wij, wat wij voorstellen is om toe te voegen, om een andere fase om te [finetunen] toe te voegen.
+Een voorbereidende fase van [multitasken] [finetunen].
+Wanneer u het [taalmodel] afstemt op de n min één [datasets].
+En dan voeren we nog een [finetuning] fase uit die een [target] [task] [finetuning] is, wanneer je het fijn afstemt wanneer we het [taalmodel] finetunen over de nth [target] [dataset].
+De state-of-the-art in [multitasken] [finetunen] genaamd [MTDNN].
+In [MTDNN] handhaaft [MTDNN] ah koppen in het [aantal] van [taken] in de [training] set.
+Dus, in dit voorbeeld zijn er vier [taken] in de [training] set, dus [MTDNN] onderhoudt vier hoofden zoals u kunt zien op de [afbeelding].
+En het bemonstert een willekeurige partij van ah uit de [training] set.
+En als ze willekeurig batch behoort tot een, [voor] bijvoorbeeld enkele [zin classificatie] [taak], het voert voorwaartse en achterwaartse paden door het eerste hoofd.
+En als de willekeurige batch behoort tot [paarsgewijze] ranking [taak], voert het voorwaartse en achterwaartse pad door de laatste kop.
+In ons scenario variëren ah-tabellen [datasets] in het [aantal] klassen.
+Er zijn dus veel [taken].
+[MTDNN] handhaafde [aantal] van klassen, hoofden, outputlagen.
+En de extra, [bovendien] aanvullende [MTDNN] moet nieuwe hoofden initialiseren [voor] een nieuwe [dataset] met een nieuwe [taak].
+Onze [benadering], genaamd [taak] herformulering [finetunen] is, in onze [aanpak] [taak] herformulering [finetunen], in plaats van meerdere hoofden te behouden, herformuleren we elke [dataset] in een [zin] per [classificatie] [probleem], wat twee klassen '[taken] is.
+Laten we een voorbeeld bekijken.
+Hier is de [input] [dataset] die bestaat uit [entiteiten], [functies], [tekst] en klassen.
+En we herformuleren de [taak] van een [classificerende] de [tekst] in laag of hoog om de [tekst], de abstracte en de klasse in waar of onwaar te classificeren.
+Of met andere [woorden], we hebben het [taalmodel] getraind om een abstract en klasse ah te classificeren naar abstract en klasse ah, als het abstract tot de klasse behoort of niet.
+Dus het label [vector] blijft in dit geval altijd ah wat altijd uit twee klassen bestaat.
+En dit is het ah [algoritme] [voor] onze fijne, geherformuleerde [finetunen] [benadering].
+Laten we het volledige kader bekijken.
+[Dataset] ingevoerd in [FeSTE].
+En dan voert [FeSTE] [entiteit die] fase uit.
+Het ah het haalt de [tekst] uit de [kennisbank], die in dit voorbeeld het abstract is van de [Wikipedia] pagina.
+Vervolgens werd de [taak] geherformuleerd in een [paarsgewijze] [zinsclassificatie] [taak].
+Pas het [taalmodel] toe op de nieuwe [taak] en de uitvoerwaarschijnlijkheid [voor] elke klasse.
+En nu dat het [taalmodel] al gefinetuned is over n min één [dataset] met behulp van een voorlopige [multitasken] [finetunen].
+Vervolgens gebruiken we de uitvoer [vector] van het [taalmodel] als een nieuw [gegenereerde] functie in het [aantal] klassen.
+Om ons raamwerk te evalueren, gebruiken we ah zeventien tabelvormige [classificatie] [datasets] die variëren in grootte, [functies], balans, [domein] en initiële prestaties.
+Als [kennisbank] gebruiken we [Wikipedia].
+We ontwerpen ons experiment als leave one out ah [evaluatie] waarbij we [FeSTe] trainen over zestien [datasets] en toepassen op de zeventiende [dataset].
+We splitsen ook elke [dataset] in vier vouwen en passen vier vouwen kruisvalidatie toe.
+Vervolgens genereren we de nieuwe [functies] en evalueren ze met behulp van vijf [evaluatie] [classifiers].
+We gebruiken in onze experimenten basis [BERT] basisarchitectuur.
+Dit zijn de resultaten [voor] onze experimenten.
+U ziet dat wij ons kader vergelijken met [doel] [dataset] [finetunen], [doel] [taak] [finetunen], en een [MTDNN] voorlopig [finetunen].
+En onze herformulering [finetunen] [behaalt] het beste resultaat, de beste prestaties.
+Terwijl [MTDNN] twee procent verbetering bereikte ten opzichte van de [doel] [dataset] [finetunen].
+Onze [benadering] bereikte een verbetering van zes procent.
+Wanneer we kijken naar de kleine ah [dataset], kunnen we zien dat de prestaties van [MTDNN] afnemen en de verbetering van de prelim, de voorlopige [multitasken] [finetunen] fase afneemt tot één punt vijf procent.
+Maar onze prestaties stegen tot elf procent [vergeleken] met de [doel] [taak] [finetunen] alleen.
+[Voor] het optellen maakt [FeSTE] in onze experimenten een verrijking van enkele schoten uit vijfendertig monsters mogelijk.
+Het maakt gebruik van één architectuur [voor] alle [taken] en [datasets].
+En het houdt het hoofd van ah van [model].
+Maar het voegt herformuleringsfase toe.
+Het vergroot de treinset en het heeft een [doel] waarde nodig met [semantisch] [betekenis] zodat we het kunnen invoeren in het [taalmodel] en het kunnen gebruiken in het [zinspaar] [classificatie] [probleem].
+Bedankt.

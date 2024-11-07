@@ -1,0 +1,854 @@
+,english,chinese,arabic,french,russian,japanese
+0,modeling,造型,نمذجة,modélisation,моделирование,モデリング
+1,lexical,词汇,معجمي,lexicale,словарный ,語彙的
+2,task,任务,مهمة,tâche,задача,タスク
+3,dataset,数据集,مجموعة بيانات,données,набор данных,データセット
+4,models,模型,نماذج,modèles,модели,モデル
+5,words,字,كلمات,mots,слова,単語
+6,language,语言,اللغة,langue,язык,言語
+7,linguistic,语言化,لغوي,linguistique,лингвистический,言語的
+8,languages,语言,لغات,langues,языки,言語
+9,grammar,语法,قواعد,grammaire,грамматика,文法
+10,linguistics,语言学,لغويات,linguistiques,языкознания,言語学
+11,source,来源,مصدر,source,источник,ソース
+12,NLP,自然语言处理,معالجة اللغة الطبيعية,TAL traitement automatique du langage naturel,NLP,自然言語処理
+13,vocabulary,词汇,مفردات,vocabulaire,словарь,語彙
+14,downstream,下游,البيانات المنخفضة,downstream,подчиненная,下流
+15,tasks,任务,مهام,tâches,задачи,タスク
+16,parsing,解析,تحليل,analyse syntaxique,парсинг,構文解析
+17,text,文本,النص,texte,текст ,テキスト
+18,speech,语音,الكلام,dicours,речь,スピーチ
+19,detection,检测,كشف,detéction,обнаружение,検出
+20,extracting,提取,استخراج,extraction,извлечение,抽出
+21,sentence,句子,جملة,phrase,предложение,文章
+22,spans,跨度,امتدادات,étendage,пяди,スパン
+23,texts,文本,نصوص,textes,тексты,テキスト
+24,word,单词,كلمة,mot,слово,単語
+25,CRF,CRF,CRF,CRF,CRF,CRF
+26,model,模型,نموذج,modèle,модель,モデル
+27,training,训练,تدريب,formation,обучение,訓練
+28,generalize,概括,التعميم,généralise,обобщить,一般化する
+29,annotated,带注释,مشروحة,annoté,аннотированный,注釈付き
+30,tokens,令牌,رموز,gages,маркеры,トークン
+31,OOV,OOV,OOV,OOV,OOV,OOV
+32,corpus,语料库,مجموعة,corpus,корпус,コーパス
+33,CONLL,CoNLL,CoNLL,CoNLL,CoNLL,CoNLL
+34,BIO,BIO,BIO,BIO,BIO,BIO
+35,encoding,编码,تشفير,encodage,кодировка,エンコーディング
+36,encode,编码,تشفير,encode,кодировать,エンコード
+37,token,令牌,رمز,gage,жетон,トークン
+38,labeled,标签化,مصنف,étiquetés,обозначеный,ラベル付き
+39,features,特征,ميزات,fonctions,функции,機能
+40,binary,二进制,تصنيف ثنائي,binaire,двоичный,バイナリ
+41,transformer,转换器,محول,conversion,преобразователь ,トランスフォーマー
+42,BETO,BETO,BETO,BETO,BETO,BETO
+43,monolingual,单语,أحاديّ اللغة,monolingue,одноязычный,単一言語
+44,transformers,转换器,محولات,transformateurs,преобразователи,トランスフォーマー
+45,metrics,指标,مقاييس,indicateurs,метрики,メトリックス
+46,embeddings,嵌入,التضمينات,intégration,встраивания,埋込み
+47,contextualized,情境化,السياقية,contextualisé,контекстуализированный,文脈で理解できる
+48,BERT,BERT,بيرت,Représentations d'encodeurs bidirectionnels à partir de transformateurs,BERT,BERT
+49,BPE,BPE,BPE,BPE,BPE,BPE
+50,pretrained,预训练,مدرب مسبقًا,pré-formation,предварительно обученный,事前訓練された
+51,LinCE,LinCE,LinCE,LinCE,LinCE,LinCE
+52,resources,资源,الموارد,ressources,ресурсы,リソース
+53,embedding,嵌入,التضمين,intégration,внедрение,埋込み
+54,paper,纸,ورقة,article,бумага,論文
+55,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT
+56,morphology,形态学,مورفولوجيا,morphologique,морфология,語形論
+57,research,研究,بحث,recherches,исследование,研究
+58,morphologically,形态上,مورفولوجيا,morphologie,морфологически,形態的に
+59,tokenization,标记化,الترميز,marquage,токенизация,トークン化
+61,subword,子词,الكلمات الفرعية,sous-mot,подсловие,サブ単語
+62,morphemes,语素,مورفيمات,morphèmes,морфем,形態素
+63,representation,表达,تمثيل,représentation,представление,表現
+64,algorithms,算法,خوارزميات,algorithmes,алгоритмы,アルゴリズム
+65,morphological,形态化,مورفولوجي,morphologique,морфологический,形態的
+66,oracle,甲骨文,أوراكل,oracle,оракул,Oracle
+67,compositionality,组合性,نمذجة التركيبة,compositionnalité,композиционность,構成の可能性
+68,input,输入,الإدخال,saisient,ввод,入力
+69,document,文档,مستندات,document,документ,文章
+70,verbs,动词,أفعال,verbes,глаголы,動詞
+71,noun,名词,أسم,nom,существительное,名詞
+72,encoder,编码器,مشفر,encodeur,кодировщик,エンコーダ
+73,vectors,矢量,متجهات,vecteurs,векторa,ベクトル
+74,nouns,名词,أسماء,noms,существительные,名詞
+75,pronouns,代词,الضمائر,pronoms,местоимения,代名詞
+76,unsupervised,无监督,غير الخاضع للإشراف,non supervisé,безнадзорный,監視なし
+77,tagging,标记,وضع علامات,classification,маркировка,タグ付け
+78,syntactic,句法,النحوي,syntaxique,синтаксический,構文
+79,tagger,标记器,علامة,marqueurs,теггер,タグ付け部
+80,bidirectional,双向,ثنائية الاتجاه,bidirectionnel,двунаправленный,双方向
+81,inference,推理,استدلال,inférence,вывод,推論
+82,decoding,解码,فك تشفير,décodage,расшифровка,デコーディング
+83,ICLR,ICLR,ICLR,ICLR,ICLR,ICLR
+84,correlations,相关性,ارتباطات,corrélation,корреляции,相関
+85,attention,注意力,انتباه,attention,внимание,アテンション
+86,computation,计算,حساب,calcul,вычисление,計算
+87,prediction,预测,تنبؤ,prévention,предсказание,予測
+88,classification,分类,لتصنيف,classification,классификация,分類
+89,vector,向量,متجه,vectoriel,вектор,ベクトル
+90,multilingual,多语言,متعدد اللغات,multilingue,многоязычный,他言語
+91,XLM,XLM,XLM,XLM,XLM,XLM
+92,corpora,语料库,المجاميع,corpus,корпуса,コーパス
+93,baselines,基线,خطوط الأساس,bases,базовых линий,ベースライン
+94,gradient,坡度,تدرج,pente,градиент,傾度
+95,sequences,序列,تسلسل,séquences,последовательности,シーケンス
+96,GLUE,GLUE,GLUE,GLUE,GLUE,GLUE
+97,data,数据,بيانات,données,данные,データ
+98,quality,质量,جودة,qualité,качество,品質
+99,finetuning,微调,الضبط الدقيق,raffinement,тонкая настройка,微調整
+100,user,用户,مستخدم,utilisateur,пользователь,ユーザー
+101,evaluation,评估,تقييم,évaluation,оценка,評価
+102,translations,翻译,الترجمات,traductions,переводы,翻訳
+103,assessing,评估,تقييم,évalution,проведение оценки,評価
+104,translation,翻译,الترجمة,traduction,перевод,翻訳
+105,regression,回归,تراجع,régression,регрессия,回帰
+106,ablation,消融,استئصال,ablation,абляция,アブレーション
+107,AI,人工智能,AI,Intelligence artificielle,AI,AI
+108,method,方法,طريقة,méthode,метод,方法
+109,relations,relations,علاقات,relations,отношения,relations
+110,computational,计算类,الحسابية,informatique,вычислительный,計算
+112,representations,陈述,تمثيلات,représentations,представления,表現
+113,decoder,解码器,وحدة فك الترميز,décodeur,дешифратор,デコーダ
+114,target,目标,هدف,cible,цель,ターゲット
+115,dependencies,依赖关系,تبعيات,dépendances,зависимости,依存性
+116,linear,线性的,خطي,linéaire,линейный,線形
+117,weights,权重,أوزان,poids,веса,荷重
+118,softmax,softmax,softmax,softmax,софтмакс,softmax
+119,qualitative,定性的,نوعي,qualitative,качественный,質的
+120,summarization,总结,تلخيص,synthèse,суммирования,要約
+121,PubMed,PubMed,PubMed,PubMed,ПабМед,PubMed
+123,pretraining,预训练,التدريب المسبق,pré-formation,предварительная подготовка,事前訓練
+124,dialogue,对话,حوار,dialogue,диалог,ダイアログ
+125,semantic,语义,الدلاليّة,sémantique,семантический,意味論
+126,system,系统,نظام,système,система,システム
+127,utterances,话语,اقوال,discours,высказываний,発話
+128,utterance,发声,نُطقٍ,énonciation,высказывание,発話
+130,nodes,节点,العقد,nodules,узлы,ノード
+131,graphs,图表,نماذج,diagrammes,диаграммы,グラフ
+132,generating,生成,توليد,production,генерация,生成
+134,parallel,平行线,متوازي,parallèle,параллельный, 並列
+135,dependency,依赖,تبعية,dépendance,зависимость,依存
+136,structure,结构体,بنية,structure,структура,構成
+137,BART,BART,BART,BART,BART,BART
+138,parser,解析器,محلل,analyseur,синтаксический анализатор,パーサー
+139,generated,已生成,الناشئة,générés,созданный,生成された
+141,methods,方法,أساليب,méthodes,методика,方法
+142,FLR,FLR,FLR,FLR,FLR,FLR
+143,systems,系统,نظم,systèmes,системы,システム
+144,conversational,会话式,حواري,conversationnel,разговорный,会話的
+145,datasets,数据集,مجموعة بيانات,données,наборы данных,データセット
+146,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow
+147,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST
+148,achieves,达到,يحقق,performance,достигает,達成する
+149,BLEU,BLEU,BLEU,Bleu,BLEU,BLEU
+150,generation,一代,توليد,génération,генерация,生成
+151,domains,域,مجالات,domaines,домены,ドメイン
+152,retrieval,恢复,استرجاع,extraction,возвращение,取得
+153,augmented,增强型,معزز,amélioré,увеличенный,強化された
+154,counterfactual,反事实的,counterfactual,contrefactuel,противного,非現実節
+155,sentiment,情绪,شعور,émotionel,настроение,感情
+156,biases,偏见,biases,biais,предубеждения,バイアス
+157,annotation,注释,التعليق التوضيحي,annotation,аннотация,注釈
+159,knowledge,知识,معرفة,connaissance,знание,知識
+160,RGF,RGF,RGF,RGF,RGF,RGF
+161,REALM,REALM,REALM,REALM,REALM,REALM
+162,contexts,上下文,سياقات,contextes,содержания,文脈
+163,context,语境,context,contexte,содержание,文脈
+164,Wikipedia,维基百科,ويكيبيديا,Wikipédia,Википедия,wikipedia
+165,similarity,相似度,تشابه,similitude,сходство,類似性
+166,search,搜索,البحث,cherche,искать,検索
+167,retrieved,检索到,مسترجع,récupérés,полученный,回収された
+168,query,询问,استعلام,requête,запрос,疑問
+169,queries,查询,استفسارات,requêtes,запросы,質問
+170,VFL,VFL,VFL,VFL,VFL,VFL
+171,semantically,语义上,لغوياً,sémantiquement,семантически,意味論的に
+172,edit,编辑,تحرير,édition,редактировать,編集
+173,QED,QED,QED,QED,QED,QED
+174,predicate,谓词,أصلي,prédicat,предикат,述語
+175,entities,实体,كيانات,entités,объекты,エンティティ
+176,annotations,注释,تعليقات توضيحية,annotations,аннотации,注釈
+177,predicates,谓词,الفرضيات,prédicat,предикаты,述語
+178,augmentation,增强,زيادة,élargissement,увеличение,増大
+179,relation,关系,علاقة,relation,отношение,リレーション
+180,domain,域,مجال,domaine,домен,ドメイン
+181,generalization,泛化,تعميم,généralisation,обобщение,一般化
+182,reasoning,推理,المنطق,raisonnement,рассуждение,推論
+183,CDA,CDA,CDA,CDA,CDA,CDA
+184,QA,问答,ضمان الجودة,QA,Контроль качества,QA
+185,learning,学习,تعلم,apprentissage,учение,学習
+186,robustness,鲁棒性,متانة,robustesse,надежность,堅牢性
+187,AQA,AQA,AQA,AQA,AQA,AQA
+188,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA
+189,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF
+190,SUTD,SUTD,SUTD,SUTD,SUTD,SUTD
+191,PaLM,PaLM,PaLM,PaLM,PaLM,PaLM
+192,interpretable,可解释,قابلةٍ للتفسير,interprétable,интерпретируемый,解釈可能
+193,interpretability,可解释性,إمكانية تفسير,interopérabilité,интерпретируемость,解釈度
+194,BERTs,BERTs,BERTs,BERTs,BERTs,BERTs
+196,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS
+197,MathQA,MathQA,MathQA,MathQA,MathQA,MathQA
+198,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP
+199,constraint,约束,القيود,contraintes,ограничение,制約
+201,distributions,分布,توزيعات,distribution,распределения,分布
+202,terminology,术语,مصطلح,terminologie,терминология,用語
+203,documents,文件,مستندات,documents,документы,文章
+204,BSARD,BSARD,BSARD,BSARD,BSARD,BSARD
+205,extracted,提取的,مستخرج,extrait,извлекаемый,抽出された
+206,IDF,IDF,IDF,IDF,IDF,IDF
+207,neural,神经,عصبي,neuronal,невральный,ニューラル
+208,encoders,编码器,مشفرو,encodeurs,кодеры,エンコーダ
+209,word2vec,word2vec,word2vec,word2vec,word2vec,単語2vec
+210,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT
+211,CLS,CLS,CLS,CLS,CLS,CLS
+212,cosine,余弦,جيب,cosinus,косинус,コサイン
+213,VALSE,VALSE,VALSE,VALSE,VALSE,VALSE
+214,image,图片,صورة,image,изображениe,イメージ
+215,sense,感觉,حسي,sens,смысл,感覚
+216,phrase,短语,عبارة,phrases,фраза,フレーズ
+217,grounding,领域,تأسيس,bases,обоснование,教育付け
+218,modalities,形态,طرائق,modalités,условия,モダリティ
+219,entity,实体,كيان,entité,сущность,エンティティ
+220,coreference,共指,مراجع مشترك,coréférence,корреляция,同一指示
+221,verb,动词,فعل,verbe,глагол,動詞
+222,grammatical,语法类,نحوي,grammatical,грамматический,文法的
+223,sentences,句子,جمل,phrases,предложения,文章
+224,NLI,NLI,NLI,NLI,NLI,NLI
+225,annotators,注释者,المعلقين,annotateurs,аннотаторы,注釈者
+226,existing,现存,الحالي,existant,существующий,既存の
+227,statistical,统计类,إحصائي,statistique,статистический,統計的
+228,CLIP,CLIP,CLIP,CLIP,CLIP,CLIP
+229,LXMert,LXMert,LXMert,LXMert,LXMert,LXMert
+230,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT
+231,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT
+232,classifying,分类,تصنيف,classification,классификации,分類し
+233,captions,字幕,التعليقات,captures,подписи,キャプション
+234,identifying,识别,تحديد,identification,определение,識別
+235,adversarial,对抗性,عدائي,antagoniste,состязательной,敵対的
+236,GPT,GPT,GPT,GPT,GPT,GPT
+237,perplexity,混乱,حيرة,perplexité,растерянность,困惑
+238,RNSum,RNSum,RNSum,RNSum,RNSum,RNSum
+239,ARENA,ARENA,ARENA,ARENA,ARENA,ARENA
+240,extractor,提取器,مستخرج,extracteur,экстрактор,抽出機
+242,outputs,输出,مخرجات,sorties,выходы,出力
+243,API,API,API,API,API,API
+244,extractive,可提取,استخراجي,extraction,экстрактивное,抽出
+245,classifier,分类器,مصنف,classificateur,классификатор,類別詞
+246,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT
+247,CEAS,CEAS,CEAS,CEAS,CEAS,CEAS
+248,CAS,CAS,CAS,CAS,CAS,CAS
+249,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq
+250,clustering,聚类,تجميع,regroupement,кластеризация,クラスタリング
+251,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE
+252,pseudo,伪,زائف,pseudo,псевдо,擬似
+253,summarizing,总结,تلخيص,résumé,суммирующая,要約
+254,architectures,架构,هياكل,architectures,архитектуры,アーキテクチャ
+255,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE
+256,extraction,提取,استخراج,extraction,извлечение,抽出
+257,XLNet,XLNet,XLNet,XLNet,XLNet,XLNet
+258,multitask,多任务,متعددة المهام,multi-tâches,многозадачность,マルチタスク
+259,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN
+260,classifiers,分类器,مصنفات,classificateurs,классификаторы,類別詞
+261,abductive logic programming,归纳逻辑编程,برمجة منطقية استنتاجية,Programmation logique abductive,Абдуктивное логическое программирование,アブダクティブ論理プログラミング
+262,abductive reasoning,溯因推理,التفكير الاستنباطي,Raisonnement abductif,Абдуктивное рассуждение,アブダクション推論
+263,abstract data type,抽象数据类型,نوع البيانات المجردة,Type de données abstrait,Абстрактный тип данных,抽象データ型
+265,accelerating change,加速变化,التغيير المتسارع,Changement accéléré,Ускоряющиеся изменения,加速する変化
+266,action language,动作语言,لغة الفعل,langage d'action,язык действий,アクション言語
+267,action model learning,动作模型学习,تعلم نموذج العمل,Apprentissage du modèle d'action,Изучение моделей действий,アクションモデル学習
+268,action selection,动作选择,اختيار الإجراء,sélection d'action,Выбор действия,行動選択 (こうどうせんたく)
+269,activation function,激活函数,دالة التنشيط,fonction d'activation,Функция активации,活性化関数
+270,adaptive algorithm,自适应算法,خوارزمية تكيفية,algorithme adaptatif,Адаптивный алгоритм,適応アルゴリズム
+271,adaptive neuro fuzzy inference system,自适应神经模糊推理系统,نظام الاستدلال العصبي الضبابي التكيفي,Système d'inférence neuro-flou adaptatif,Адаптивная нейро-нечёткая система вывода,適応型ニューラルファジィ推論システム
+272,admissible heuristic,可接受启发式函数,الاستدلال المقبول,Heuristique admissible,Допустимая эвристика,許容ヒューリスティック
+273,affective computing,情感计算,الحوسبة العاطفية,Informatique affective,Аффективные вычисления,感情コンピューティング
+275,AI accelerator,人工智能加速器,مسرع الذكاء الاصطناعي,Accélérateur d'IA,ускоритель ИИ,AIアクセラレータ
+276,AI-complete,AI 完备,مكتمل الذكاء الاصطناعي,AI-complet,AI-полный,AI完全
+277,algorithm,算法,خوارزمية,algorithme,алгоритм,アルゴリズム
+278,algorithmic efficiency,算法效率,كفاءة الخوارزمية,Efficacité algorithmique,Эффективность алгоритма,アルゴリズムの効率
+279,algorithmic probability,算法概率,احتمالية خوارزمية,Probabilité algorithmique,Алгоритмическая вероятность,アルゴリズム確率
+280,AlphaGo,阿尔法围棋,ألفا جو,AlphaGo,АльфаГо,アルファ碁
+281,ambient intelligence,环境智能,الذكاء المحيطي,Intelligence ambiante,Интеллектуальная среда,環境知能
+282,analysis of algorithms,算法分析,تحليل الخوارزميات,Analyse des algorithmes,Анализ алгоритмов,アルゴリズムの解析
+283,analytics,分析,التحليلات,Analytique,Аналитика,分析 (ぶんせき)
+284,answer set programming,答案集编程,برمجة مجموعة الإجابات,Programmation par ensemble de réponses,Программирование на основе множеств ответов,解集合プログラミング
+285,anytime algorithm,随时算法,خوارزمية في أي وقت,algorithme à interruption,Алгоритм с прерываемым вычислением,いつでもアルゴリズム
+286,application programming interface,应用程序编程接口,واجهة برمجة التطبيقات,Interface de programmation d'applications,Интерфейс прикладного программирования,アプリケーションプログラミングインターフェース
+287,approximate string matching,近似字符串匹配,مطابقة السلاسل التقريبية,Correspondance approximative de chaînes de caractères,приблизительное сопоставление строк,近似文字列照合
+288,approximation error,近似误差,خطأ التقريب,Erreur d'approximation,Ошибка аппроксимации,近似誤差
+289,argumentation framework,论证框架,إطار الجدال,cadre d'argumentation,структура аргументации,議論フレームワーク
+290,artificial general intelligence,通用人工智能,الذكاء الاصطناعي العام,intelligence artificielle générale,искусственный общий интеллект,汎用人工知能
+291,artificial immune system,人工免疫系统,النظام المناعي الاصطناعي,système immunitaire artificiel,искусственная иммунная система,人工免疫システム
+292,artificial intelligence,人工智能,الذكاء الاصطناعي,intelligence artificielle,искусственный интеллект,人工知能
+293,Artificial Intelligence Markup Language,人工智能标记语言,لغة ترميز الذكاء الاصطناعي,Langage de balisage pour l'intelligence artificielle,Язык разметки искусственного интеллекта,人工知能マークアップ言語
+294,artificial neural network,人工神经网络,الشبكة العصبية الاصطناعية,Réseau de neurones artificiels,Искусственная нейронная сеть,人工ニューラルネットワーク
+295,Association for the Advancement of Artificial Intelligence,人工智能促进协会,جمعية النهوض بالذكاء الاصطناعي,Association pour l'avancement de l'intelligence artificielle,Ассоциация по продвижению искусственного интеллекта,人工知能学会
+296,asymptotic computational complexity,渐近计算复杂度,التعقيد الحسابي التقاربي,Complexité computationnelle asymptotique,Асимптотическая вычислительная сложность,漸近的計算複雑性
+297,attention mechanism,注意力机制,آلية الانتباه,mécanisme d'attention,механизм внимания,アテンションメカニズム
+298,attributional calculus,归因演算,حساب الإسناد,Calcul attributionnel,атрибутивное исчисление,属性計算
+299,augmented reality,增强现实,الواقع المعزز,réalité augmentée,Дополненная реальность,拡張現実
+300,automata theory,自动机理论,نظرية الأوتوماتا,théorie des automates,Теория автоматов,オートマタ理論
+301,automated machine learning,自动化机器学习,التعلم الآلي المؤتمت,Apprentissage automatique automatisé,Автоматизированное машинное обучение,自動機械学習
+302,automated planning and scheduling,自动化规划与调度,التخطيط والجدولة الآلية,Planification et ordonnancement automatisés,автоматизированное планирование и расписание,自動計画およびスケジューリング
+303,automated reasoning,自动推理,الاستدلال الآلي,Raisonnement automatisé,Автоматизированное рассуждение,自動推論
+304,autonomic computing,自主计算,الحوسبة الذاتية,Informatique autonome,Автономные вычисления,オートノミックコンピューティング
+305,autonomous car,自动驾驶汽车,سيارة ذاتية القيادة,voiture autonome,автономный автомобиль,自動運転車
+306,autonomous robot,自主机器人,روبوت ذاتي التحكم,robot autonome,автономный робот,自律ロボット
+307,backpropagation,反向传播,الانتشار العكسي,Rétropropagation,Обратное распространение ошибок,逆伝播
+308,backpropagation through time,时间反向传播,الانتشار العكسي عبر الزمن,Rétropropagation dans le temps,Обратное распространение во времени,時間展開逆伝播
+309,backward chaining,逆向推理,التسلسل العكسي,Chaînage arrière,Обратное логическое вывождение,後向き推論
+310,bag-of-words model,词袋模型,نموذج حقيبة الكلمات,modèle sac de mots,модель мешка слов,バッグオブワーズモデル
+311,bag-of-words model in computer vision,计算机视觉中的词袋模型,نموذج الحقيبة من الكلمات في رؤية الحاسوب,Modèle sac de mots en vision par ordinateur,Модель мешка слов в компьютерном зрении,コンピュータビジョンにおけるバッグオブワードモデル
+312,batch normalization,批量归一化,تسوية الدفعات,Normalisation par lot,Нормализация пакетов,バッチ正規化
+313,Bayesian programming,贝叶斯编程,برمجة بايزية,Programmation bayésienne,Байесовское программирование,ベイズプログラミング
+314,bees algorithm,蜜蜂算法,خوارزمية النحل,algorithme des abeilles,Алгоритм пчел,ビーアルゴリズム
+315,behavior informatics,行为信息学,معلوماتية السلوك,Informatique comportementale,Информатика поведения,行動情報学
+316,behavior tree,行为树,شجرة السلوك,Arbre de comportement,дерево поведения,ビヘイビアツリー
+317,belief–desire–intention software model,信念-愿望-意图软件模型,نموذج البرمجيات القائم على المعتقدات والرغبات والنوايا,modèle logiciel croyance-désir-intention,модель программного обеспечения «вера–желание–намерение»,信念-欲求-意図ソフトウェアモデル
+318,bias–variance tradeoff,偏差-方差权衡,مقايضة التحيز والتباين,compromis biais-variance,Компромисс между смещением и дисперсией,バイアス・バリアンス トレードオフ
+319,big data,大数据,البيانات الضخمة,"""Big data"" in French is ""grandes données"".",Большие данные,ビッグデータ
+320,Big O notation,大O符号,ترميز O الكبير,Notation grand O,О-нотация,ビッグO記法
+321,binary tree,二叉树,شجرة ثنائية,arbre binaire,Двоичное дерево,二分木
+322,blackboard system,黑板系统,نظام السبورة,système à tableau noir,система черной доски,ブラックボードシステム
+323,Boltzmann machine,玻尔兹曼机,آلة بولتزمان,Machine de Boltzmann,Больцмановская машина,ボルツマンマシン
+324,Boolean satisfiability problem,布尔可满足性问题,مشكلة إرضاء بولياني,Problème de satisfiabilité booléenne,Задача булевой выполнимости,ブール充足可能性問題
+325,brain technology,脑技术,تكنولوجيا الدماغ,technologie cérébrale,технология мозга,脳技術
+326,branching factor,分支因子,عامل التفرع,Facteur de branchement,Фактор ветвления,分岐因子
+327,brute-force search,暴力搜索,البحث بالقوة الغاشمة,Recherche par force brute,Поиск методом перебора,総当たり探索
+328,capsule neural network,胶囊神经网络,شبكة عصبية كبسولية,réseau de capsules neuronales,капсульная нейронная сеть,カプセルニューラルネットワーク
+329,case-based reasoning,基于案例的推理,الاستدلال القائم على الحالات,Raisonnement à partir de cas,Прецедентное моделирование,事例ベース推論
+330,chatbot,聊天机器人,روبوت الدردشة,Agent conversationnel,чатбот,チャットボット
+331,cloud robotics,云机器人,الروبوتات السحابية,robotique en nuage,Облачная робототехника,クラウドロボティクス
+332,cluster analysis,聚类分析,تحليل التجمعات,Analyse de regroupement,Кластерный анализ,クラスタ分析
+333,Cobweb,蛛网,شبكة العنكبوت,Toile d'araignée,Кобвеб,コブウェブ
+334,cognitive architecture,认知架构,الهندسة المعرفية,Architecture cognitive,Когнитивная архитектура,認知アーキテクチャ
+335,cognitive computing,认知计算,الحوسبة الإدراكية,Informatique cognitive,Когнитивные вычисления,認知コンピューティング
+337,combinatorial optimization,组合优化,التحسين التوافقي,optimisation combinatoire,Комбинаторная оптимизация,組合せ最適化
+338,committee machine,委员会机器,آلة اللجنة,machine de comité,Комитетная машина,委員会マシン
+339,commonsense knowledge,常识知识,المعرفة العامة,connaissances de base,Знания здравого смысла,常識知識
+340,commonsense reasoning,常识推理,الاستدلال السليم,raisonnement de bon sens,Здравый смысл.,常識推論
+341,computational chemistry,计算化学,الكيمياء الحاسوبية,Chimie computationnelle,вычислительная химия,計算化学
+342,computational complexity theory,计算复杂性理论,نظرية التعقيد الحسابي,théorie de la complexité computationnelle,Теория вычислительной сложности,計算複雑性理論
+343,computational creativity,计算创意,الإبداع الحاسوبي,créativité computationnelle,"""вычислительное творчество""",計算創造性
+344,computational cybernetics,计算控制论,السيبرنتيك الحسابي,Cybernétique computationnelle,Вычислительная кибернетика,計算サイバネティックス
+345,computational humor,计算幽默,الفكاهة الحاسوبية,humour computationnel,компьютерный юмор,計算ユーモア
+346,computational intelligence,计算智能,الذكاء الحسابي,Intelligence computationnelle,вычислительный интеллект,計算知能
+347,computational learning theory,计算学习理论,نظرية التعلم الحسابي,Théorie de l'apprentissage computationnel,Теория вычислительного обучения,計算学習理論
+348,computational linguistics,计算语言学,اللسانيات الحاسوبية,Linguistique informatique,Компьютерная лингвистика,計算言語学
+349,computational mathematics,计算数学,الرياضيات الحاسوبية,mathématiques computationnelles,Вычислительная математика,計算数学
+350,computational neuroscience,计算神经科学,علم الأعصاب الحاسوبي,Neurosciences computationnelles,"""компьютерная нейронаука""",計算論的神経科学
+351,computational number theory,计算数论,نظرية الأعداد الحاسوبية,théorie des nombres computationnelle,компьютерная теория чисел,計算数論
+352,computational problem,计算问题,مشكلة حسابية,problème de calcul,вычислительная задача,計算問題
+353,computational statistics,计算统计学,الإحصاء الحاسوبي,Statistiques computationnelles,Вычислительная статистика,計算統計学
+354,computer-automated design,计算机自动化设计,التصميم المؤتمت بالحاسوب,Conception assistée par ordinateur,Компьютерное автоматизированное проектирование,コンピュータ自動設計
+355,computer audition,计算机听觉,الاستماع الآلي,audition par ordinateur,Компьютерный слух,コンピュータ聴覚
+358,concept drift,概念漂移,انحراف المفهوم,Dérive du concept,Изменение концепции,コンセプトドリフト
+359,connectionism,联结主义,الاتصالية,Connexionnisme,коннекционизм,コネクショニズム
+360,consistent heuristic,一致启发式,التقدير الاسترشادي المتسق,Heuristique cohérente,Согласованная эвристика,一貫したヒューリスティック
+361,constrained conditional model,约束条件模型,نموذج شرطي مقيد,modèle conditionnel contraint,Модель условного распределения с ограничениями,制約付き条件モデル
+362,constraint logic programming,约束逻辑编程,برمجة منطقية مقيدة,programmation logique par contraintes,Программирование с ограничениями на логике,制約論理プログラミング
+363,constraint programming,约束编程,برمجة القيود,Programmation par contraintes,Программирование с ограничениями,制約プログラミング
+364,constructed language,人工语言,لغة مصطنعة,langue construite,"""сконструированный язык""",人工言語
+365,control theory,控制理论,نظرية التحكم,théorie du contrôle,Теория управления,制御理論
+366,convolutional neural network,卷积神经网络,الشبكة العصبية الالتفافية,réseau de neurones convolutifs,сверточная нейронная сеть,畳み込みニューラルネットワーク
+367,crossover,交叉操作,التزاوج,Croisement,Кроссовер,交叉
+368,Darkforest,暗森林,الغابة المظلمة,Darkforest,Даркфорест,ダークフォレスト
+369,Dartmouth workshop,达特茅斯会议,ورشة دارتموث,Atelier de Dartmouth,Дартмутская конференция,ダートマス会議
+370,data augmentation,数据增强,زيادة البيانات,Augmentation de données,Аугментация данных,データ拡張
+371,data fusion,数据融合,دمج البيانات,Fusion de données,Слияние данных,データ融合
+372,data integration,数据集成,تكامل البيانات,Intégration de données,интеграция данных,データ統合
+373,data mining,数据挖掘,تنقيب البيانات,Exploration de données,добыча данных,データマイニング
+374,data science,数据科学,علم البيانات,Science des données,Наука о данных,データサイエンス
+375,data set,数据集,مجموعة بيانات,Ensemble de données,Набор данных,データセット
+376,data warehouse,数据仓库,مستودع البيانات,Entrepôt de données,Хранилище данных,データウェアハウス
+377,Datalog,Datalog（数据逻辑）,داتالوج,Datalog,Даталог,データログ
+378,decision boundary,决策边界,حد القرار,Frontière de décision,Граница принятия решения,決定境界
+379,decision support system,决策支持系统,نظام دعم القرار,Système d'aide à la décision,Система поддержки принятия решений,意思決定支援システム
+380,decision theory,决策理论,نظرية القرار,théorie de la décision,Теория принятия решений,意思決定理論
+381,decision tree learning,决策树学习,تعلم شجرة القرار,Apprentissage par arbre de décision,Обучение решающего дерева,決定木学習
+382,declarative programming,声明式编程,البرمجة التصريحية,programmation déclarative,Декларативное программирование,宣言型プログラミング
+383,deductive classifier,演绎分类器,المصنف الاستنتاجي,Classificateur déductif,Дедуктивный классификатор,演繹分類器
+384,Deep Blue,深蓝,ديب بلو,Deep Blue,Дип Блю,ディープ・ブルー
+385,deep learning,深度学习,التعلم العميق,apprentissage profond,глубокое обучение,ディープラーニング
+386,DeepMind Technologies,深度思维科技,ديب مايند تكنولوجيز,DeepMind Technologies,DeepMind Technologies,ディープマインド・テクノロジーズ
+387,default logic,默认逻辑,منطق افتراضي,logique par défaut,Логика по умолчанию,デフォルト論理
+388,description logic,描述逻辑,منطق الوصف,logique de description,Логика описаний,記述論理
+389,developmental robotics,发展机器人学,الروبوتات التنموية,robotique développementale,робототехника развития,発達ロボティクス
+390,diagnosis,诊断,تشخيص,diagnostic,Диагностика,診断
+391,dialogue system,对话系统,نظام الحوار,système de dialogue,диалоговая система,対話システム
+392,diffusion model,扩散模型,نموذج الانتشار,modèle de diffusion,диффузионная модель,拡散モデル
+393,dimensionality reduction,降维,تقليل الأبعاد,réduction de la dimensionnalité,Снижение размерности,次元削減
+394,discrete system,离散系统,نظام متقطع,Système discret,дискретная система,離散システム
+395,distributed artificial intelligence,分布式人工智能,الذكاء الاصطناعي الموزع,intelligence artificielle distribuée,распределённый искусственный интеллект,分散型人工知能
+396,dynamic epistemic logic,动态认知逻辑,المنطق المعرفي الديناميكي,logique épistémique dynamique,Динамическая эпистемическая логика,動的認識論理
+397,eager learning,积极学习,التعلم المتحمس,apprentissage avide,"""активное обучение""",熱心な学習
+398,Ebert test,艾伯特测试,اختبار إيبرت,Test d'Ebert,Тест Эберта,エバートテスト
+399,echo state network,回声状态网络,شبكة الحالة الصدوية,réseau d'états écho,Эхо-сетевой нейрон.,エコー状態ネットワーク
+400,embodied agent,具身代理人,وكيل مجسد,Agent incarné,воплощённый агент,具現化エージェント
+401,embodied cognitive science,具身认知科学,علم الإدراك المتجسد,Science cognitive incarnée,воплощённая когнитивная наука,身体性認知科学
+402,error-driven learning,误差驱动学习,التعلم المدفوع بالخطأ,apprentissage par l'erreur,Обучение с учетом ошибок,誤差駆動学習
+403,ensemble averaging,集成平均,المتوسط الجماعي,Moyennage d'ensemble,Усреднение ансамбля,アンサンブル平均化
+404,epoch,纪元,عصر,"""Époque""",эпоха,エポック
+405,ethics of artificial intelligence,人工智能伦理,أخلاقيات الذكاء الاصطناعي,éthique de l'intelligence artificielle,Этика искусственного интеллекта,人工知能の倫理
+406,evolutionary algorithm,进化算法,خوارزمية تطورية,algorithme évolutionniste,эволюционный алгоритм,進化的アルゴリズム
+407,evolutionary computation,进化计算,الحوسبة التطورية,calcul évolutif,Эволюционная вычислительная техника,進化計算
+408,evolving classification function,演化分类函数,دالة التصنيف المتطورة,Fonction de classification évolutive,Функция эволюционирующей классификации,進化する分類関数
+409,existential risk,生存风险,مخاطر وجودية,risque existentiel,Экзистенциальный риск,実存的リスク
+410,expert system,专家系统,نظام خبير,système expert,Экспертная система,エキスパートシステム
+411,fast-and-frugal trees,快速简洁树,الأشجار السريعة والبسيطة,arbres rapides et frugaux,"""быстрые и бережливые деревья""",ファスト・アンド・フルーガル・ツリー
+412,feature extraction,特征提取,استخراج الميزات,Extraction de caractéristiques,Извлечение признаков,特徴抽出
+413,feature learning,特征学习,تعلم الميزات,Apprentissage de caractéristiques,Обучение признакам,特徴学習
+414,feature selection,特征选择,اختيار الميزات,sélection de caractéristiques,отбор признаков,特徴選択
+415,federated learning,联邦学习,التعلم الفيدرالي,Apprentissage fédéré,Федеративное обучение,フェデレーテッドラーニング
+416,first-order logic,一阶逻辑,المنطق من الدرجة الأولى,logique du premier ordre,логика первого порядка,一階述語論理
+417,fluent,流畅的,سلس,Fluent,флуент,流暢な
+418,formal language,形式语言,اللغة الرسمية,langage formel,Формальный язык,形式言語
+419,forward chaining,正向链推理,السلسلة الأمامية,Chaînage avant,Прямой вывод,順方向推論
+420,frame,框架,إطار,cadre,фрейм,フレーム
+421,frame language,框架语言,لغة الإطار,langage à cadres,язык фреймов,フレーム言語
+422,frame problem,框架问题,مشكلة الإطار,problème du cadre,Проблема фреймов,フレーム問題
+423,friendly artificial intelligence,友好的人工智能,الذكاء الاصطناعي الودود,Intelligence artificielle amicale,дружественный искусственный интеллект,友好的人工知能
+424,futures studies,未来学,دراسات المستقبل,Études des futurs,Футурология,未来学
+425,fuzzy control system,模糊控制系统,نظام التحكم الضبابي,système de contrôle flou,Система нечеткого управления,ファジィ制御システム
+426,fuzzy logic,模糊逻辑,المنطق الضبابي,Logique floue,нечёткая логика,ファジィ論理
+427,fuzzy rule,模糊规则,قاعدة ضبابية,règle floue,нечеткое правило,ファジィルール
+428,fuzzy set,模糊集,مجموعة ضبابية,Ensemble flou,нечеткое множество,ファジィ集合
+429,game theory,博弈论,نظرية الألعاب,Théorie des jeux,Теория игр,ゲーム理論
+430,general game playing,通用游戏玩家,اللعب العام للألعاب,jeu généraliste,Общее игровое поведение,汎用ゲームプレイ
+431,generative adversarial network,生成对抗网络,شبكة توليدية تَنافسية,Réseau antagoniste génératif,Генеративно-состязательная сеть,敵対的生成ネットワーク
+432,generative artificial intelligence,生成式人工智能,الذكاء الاصطناعي التوليدي,intelligence artificielle générative,Генеративный искусственный интеллект,生成的人工知能
+433,genetic algorithm,遗传算法,الخوارزمية الجينية,algorithme génétique,генетический алгоритм,遺伝的アルゴリズム
+434,genetic operator,遗传算子,المعامل الجيني,Opérateur génétique,Генетический оператор,遺伝的オペレーター
+435,generative pretrained transformer,生成式预训练变换模型,المحول التوليدي المدرب مسبقًا,transformateur génératif pré-entraîné,Генеративный предварительно обученный трансформер,生成的事前学習済みトランスフォーマー
+436,glowworm swarm optimization,萤火虫群优化算法,تحسين سرب اليراعات,Optimisation par essaims de vers luisants,Оптимизация роя светлячков,グローワーム群最適化
+437,graph,图 (tú),رسم بياني,graphe,граф,グラフ
+439,graph database,图数据库,قاعدة بيانات الرسم البياني,Base de données graphe,Графовая база данных,グラフデータベース
+440,graph theory,图论,نظرية المخططات,Théorie des graphes,Теория графов,グラフ理論
+441,graph traversal,图遍历,اجتياز الرسم البياني,Parcours de graphe,Обход графа,グラフ探索
+442,halting problem,停机问题,مشكلة التوقف,problème de l'arrêt,Проблема остановки,停止問題
+443,heuristic,启发式,استدلالي,Heuristique,эвристика,ヒューリスティック
+444,hidden layer,隐藏层,الطبقة المخفية,couche cachée,Скрытый слой,隠れ層
+445,hidden unit,隐藏单元,وحدة مخفية,unité cachée,Скрытый нейрон,隠れユニット
+446,hyper-heuristic,超启发式算法,فرط الاستدلال,Hyper-heuristique,Гиперэвристика,ハイパーヒューリスティック
+447,IEEE Computational Intelligence Society,IEEE计算智能学会,جمعية IEEE للذكاء الحسابي,"""Société de l'Intelligence Computationnelle de l'IEEE""",Общество вычислительного интеллекта IEEE,IEEEコンピューテーショナルインテリジェンスソサエティ
+448,incremental learning,增量学习,التعلم التدريجي,Apprentissage incrémental,Инкрементальное обучение,インクリメンタル学習
+449,inference engine,推理引擎,محرك الاستدلال,Moteur d'inférence,Машина вывода,推論エンジン
+450,information integration,信息集成,تكامل المعلومات,Intégration de l'information,Интеграция информации,情報統合
+451,Information Processing Language,信息处理语言,لغة معالجة المعلومات,Langage de traitement de l'information,Язык обработки информации,情報処理言語
+452,intelligence amplification,智能增强,تعزيز الذكاء,Amplification de l'intelligence,усиление интеллекта,知能増幅
+453,intelligence explosion,智能爆炸,انفجار الذكاء,Explosion d'intelligence,Взрыв интеллекта,知能爆発
+454,intelligent agent,智能代理,وكيل ذكي,Agent intelligent,Интеллектуальный агент,知的エージェント
+455,intelligent control,智能控制,التحكم الذكي,contrôle intelligent,интеллектуальное управление,インテリジェント制御
+456,intelligent personal assistant,智能个人助理,مساعد شخصي ذكي,Assistant personnel intelligent,интеллектуальный персональный помощник,インテリジェントパーソナルアシスタント
+457,interpretation,解释,تفسير,Interprétation,интерпретация,解釈
+458,intrinsic motivation,内在动机,الدافع الداخلي,motivation intrinsèque,Внутренняя мотивация,内発的動機付け
+459,issue tree,问题树,شجرة القضايا,Arbre des problèmes,Дерево проблем,課題ツリー
+460,junction tree algorithm,树状图算法,خوارزمية شجرة الوصلات,algorithme de l'arbre de jonction,Алгоритм дерева сочленений,接合木アルゴリズム
+461,kernel method,核方法,طريقة النواة,méthode à noyau,метод ядра,カーネル法
+462,KL-ONE,KL-ONE (克隆),كي إل-ون,KL-ONE,КЛ-ОДИН,KL-ONE (ケーエルワン)
+463,knowledge acquisition,知识获取,اكتساب المعرفة,acquisition des connaissances,Приобретение знаний,知識獲得
+464,knowledge-based system,知识库系统,نظام قائم على المعرفة,système à base de connaissances,"Система, основанная на знаниях",知識ベースシステム
+465,knowledge engineering,知识工程,هندسة المعرفة,Ingénierie des connaissances,Инженерия знаний,ナレッジエンジニアリング
+466,knowledge extraction,知识提取,استخراج المعرفة,Extraction de connaissances,Извлечение знаний,知識抽出
+467,knowledge Interchange Format,知识交换格式,صيغة تبادل المعرفة,Format d'Échange de Connaissances,Формат обмена знаниями,知識交換フォーマット
+468,knowledge representation and reasoning,知识表示与推理,تمثيل المعرفة والاستدلال,Représentation des connaissances et raisonnement,Представление знаний и рассуждения,知識表現と推論
+469,language model,语言模型,نموذج لغوي,modèle de langage,языковая модель,言語モデル
+470,large language model,大型语言模型,نموذج لغة كبير,modèle de langage de grande taille,Большая языковая модель,大規模言語モデル
+471,lazy learning,惰性学习,التعلم الكسول,Apprentissage paresseux,ленивое обучение,遅延学習
+472,Lisp,Lisp（编程语言）,ليسب,Lisp,Лисп,リスプ
+474,long short-term memory,长短期记忆,الذاكرة طويلة قصيرة المدى,mémoire à long court terme,долговременная краткосрочная память,長短期記憶
+475,machine vision,机器视觉,الرؤية الآلية,Vision industrielle,Машинное зрение,マシンビジョン
+476,Markov chain,马尔可夫链,سلسلة ماركوف,Chaîne de Markov,Марковская цепь,マルコフ連鎖
+477,Markov decision process,马尔可夫决策过程,عملية اتخاذ القرار لماركوڤ,Processus de décision markovien,Марковский процесс принятия решений,マルコフ決定過程
+478,mathematical optimization,数学优化,تحسين رياضي,optimisation mathématique,математическая оптимизация,数理最適化
+479,machine learning,机器学习,التعلم الآلي,Apprentissage automatique,Машинное обучение,機械学習
+480,machine listening,机器听觉,الاستماع الآلي,écoute automatique,машинное слушание,機械聴取
+481,machine perception,机器感知,إدراك الآلة,Perception des machines,Машинное восприятие,機械知覚
+482,mechanism design,机制设计,تصميم الآليات,Conception de mécanismes,Теория механизмов,メカニズムデザイン
+483,mechatronics,机电一体化,الميكاترونكس,Mécatronique,мехатроника,メカトロニクス
+484,metabolic network reconstruction and simulation,代谢网络重建与模拟,إعادة بناء ومحاكاة الشبكة الأيضية,Reconstruction et simulation de réseau métabolique,реконструкция и моделирование метаболической сети,代謝ネットワークの再構築とシミュレーション
+485,metaheuristic,元启发式算法,الميتا-استدلالية,Métaheuristique,Метагевристика,メタヒューリスティック
+486,model checking,模型检测,التحقق النموذجي,Vérification de modèles,Проверка моделей,モデル検査
+487,modus ponens,演绎法,التأكيد المثبت,Modus ponens,Модус поненс,モーダスポネンス
+488,modus tollens,否定后件,نمط الإنكار,Modus tollens,Модус толленс,モードス・トレンス
+489,Monte Carlo tree search,蒙特卡洛树搜索,البحث الشجري لمونت كارلو,Recherche arborescente de Monte-Carlo,Поиск по дереву Монте-Карло,モンテカルロ木探索
+490,multi-agent system,多智能体系统,نظام متعدد الوكلاء,système multi-agent,Мультиагентная система,マルチエージェントシステム
+491,multi-swarm optimization,多群优化,تحسين السرب المتعدد,Optimisation par essaims multiples,Мульти-ройная оптимизация,マルチスワーム最適化
+492,mutation,突变,طفرة,Mutation,Мутация,突然変異
+493,Mycin,霉素,مايسين,Mycine,Мицин,マイシン
+494,naive Bayes classifier,朴素贝叶斯分类器,مصنف بايز الساذج,classificateur naïf bayésien,Наивный байесовский классификатор,ナイーブベイズ分類器
+495,naive semantics,朴素语义学,الدلالات الساذجة,sémantique naïve,наивная семантика,素朴意味論
+496,name binding,名称绑定,ربط الأسماء,liaison de nom,Связывание имён,名前束縛
+497,named-entity recognition,命名实体识别,التعرف على الكيانات المسماة,Reconnaissance d'entités nommées,Распознавание именованных сущностей,固有表現認識
+498,named graph,命名图,الرسم البياني المسمي,Graphe nommé,Именованный граф,名前付きグラフ
+499,natural language generation,自然语言生成,توليد اللغة الطبيعية,Génération de langage naturel,Генерация естественного языка,自然言語生成
+500,natural language processing,自然语言处理,معالجة اللغة الطبيعية,Traitement automatique du langage naturel,Обработка естественного языка,自然言語処理
+501,natural language programming,自然语言编程,برمجة اللغة الطبيعية,programmation en langage naturel,Программирование на естественном языке,自然言語プログラミング
+502,network motif,网络基元,النمط الشبكي,Motif de réseau,Сетевой мотив,ネットワークモチーフ
+503,neural machine translation,神经机器翻译,الترجمة الآلية العصبية,traduction automatique neuronale,Нейронный машинный перевод,ニューラル機械翻訳
+504,neural network,神经网络,الشبكة العصبية,Réseau neuronal,нейронная сеть,ニューラルネットワーク
+505,neural Turing machine,神经图灵机,آلة تورنغ العصبية,machine de Turing neuronale,нейронная машина Тьюринга,ニューラルチューリングマシン
+506,neuro-fuzzy,神经模糊,عصبي ضبابي,Neuro-flou,Нейро-нечеткий,ニューロファジィ
+507,neurocybernetics,神经控制论,علم التحكم الآلي العصبي,Neurocybernétique,Нейрокибернетика,神経サイバネティックス
+508,neuromorphic engineering,神经形态工程,الهندسة العصبية الشكل,Ingénierie neuromorphique,Нейроморфное проектирование,ニューロモーフィック・エンジニアリング
+509,node,节点,العقدة,Nœud,узел,ノード
+510,nondeterministic algorithm,非确定性算法,خوارزمية غير حتمية,algorithme non déterministe,недетерминированный алгоритм,非決定性アルゴリズム
+511,nouvelle AI,新人工智能,الذكاء الاصطناعي الجديد,nouvelle IA,"""новый ИИ""",ヌーベルAI
+512,NP,非确定性多项式时间,إن بي,NP,НП,NP（非決定性多項式時間）
+513,NP-completeness,NP完全性,إكمالية NP,NP-complétude,NP-полнота,NP完全性
+514,NP-hardness,NP-困难性,صعوبة NP,NP-dureté,NP-трудность,NP困難
+515,Occam's razor,奥卡姆剃刀,مبدأ أوكام,Le rasoir d'Occam,Бритва Оккама,オッカムの剃刀
+516,offline learning,离线学习,التعلم غير المتصل بالإنترنت,apprentissage hors ligne,Оффлайн обучение,オフライン学習
+517,online machine learning,在线机器学习,التعلم الآلي عبر الإنترنت,apprentissage automatique en ligne,Обучение на лету,オンライン機械学習
+518,ontology learning,本体学习,تعلم الأنطولوجيا,apprentissage d'ontologies,Извлечение онтологий,オントロジー学習
+519,OpenAI,开放人工智能,أوبن أي آي,OpenAI,ОупенЭйАй,オープンAI
+520,OpenCog,开放认知,أوبن كوج,OpenCog,ОпенКог,オープンコグ
+521,Open Mind Common Sense,开放心态常识,العقل المفتوح الحس السليم,"""Open Mind Common Sense"" in French is ""Esprit Ouvert Sens Commun"".",Открытый Разум Здравый Смысл,オープンマインド・コモンセンス
+523,Parameter#Artificial_Intelligence,参数#人工智能,المعلمة#الذكاء_الاصطناعي,Paramètre#Intelligence_Artificielle,Параметр#Искусственный_Интеллект,パラメータ#人工知能
+524,partial order reduction,部分顺序约简,اختزال الترتيب الجزئي,réduction par ordre partiel,Редукция частичного порядка,部分順序削減
+525,partially observable Markov decision process,部分可观察马尔可夫决策过程,عملية اتخاذ القرار لماركوڤ القابلة للملاحظة جزئيًا,Processus décisionnel de Markov partiellement observable,Частично наблюдаемый марковский процесс принятия решений,部分観測マルコフ決定過程
+526,particle swarm optimization,粒子群优化,تحسين سرب الجسيمات,optimisation par essaim de particules,Оптимизация роя частиц,粒子群最適化
+527,pathfinding,寻路,إيجاد المسار,Recherche de chemin,Поиск пути,経路探索
+528,pattern recognition,模式识别,التعرف على الأنماط,reconnaissance de formes,распознавание образов,パターン認識
+529,predicate logic,谓词逻辑,منطق محمولات,logique des prédicats,предикатная логика,述語論理
+530,predictive analytics,预测分析,التحليلات التنبؤية,Analytique prédictive,прогностическая аналитика,予測分析
+531,principal component analysis,主成分分析,تحليل المكونات الرئيسية,Analyse en composantes principales,Анализ главных компонент,主成分分析
+532,principle of rationality,理性原则,مبدأ العقلانية,principe de rationalité,принцип рациональности,合理性の原則
+533,probabilistic programming,概率编程,البرمجة الاحتمالية,Programmation probabiliste,Программирование с использованием вероятностных моделей,確率的プログラミング
+534,production system,生产系统,نظام الإنتاج,système de production,производственная система,生産システム
+535,programming language,编程语言,لغة البرمجة,langage de programmation,язык программирования,プログラミング言語
+536,Prolog,Prolog (编程语言),برولوغ,Prolog,Пролог,プロログ
+537,propositional calculus,命题演算,حساب القضايا,Calcul des propositions,Пропозициональное исчисление,命題論理学
+538,Python,Python (编程语言),بايثون,Python,Питон,パイソン
+539,qualification problem,限定性问题,مشكلة التأهيل,problème de qualification,Проблема квалификации,資格問題
+540,quantifier,量词,المحدّد الكمي,Quantificateur,квантор,量化子
+541,quantum computing,量子计算,الحوسبة الكمومية,Informatique quantique,Квантовые вычисления,量子コンピューティング
+542,query language,查询语言,لغة الاستعلام,langage de requête,язык запросов,問い合わせ言語
+543,R programming language,R编程语言,لغة البرمجة R,Langage de programmation R,Язык программирования R,Rプログラミング言語
+544,radial basis function network,径向基函数网络,شبكة دالة الأساس الشعاعي,réseau de fonctions à base radiale,Сеть на основе радиальных базисных функций,ラジアル基底関数ネットワーク
+545,random forest,随机森林,الغابة العشوائية,Forêt aléatoire,Случайный лес,ランダムフォレスト
+546,reasoning system,推理系统,نظام الاستدلال,système de raisonnement,Система рассуждений,推論システム
+547,recurrent neural network,循环神经网络,الشبكة العصبية التكرارية,réseau de neurones récurrent,Рекуррентная нейронная сеть,再帰型ニューラルネットワーク
+548,region connection calculus,区域连接演算,حساب اتصال المنطقة,Calcul des connexions régionales,исчисление связей регионов,領域接続計算
+549,reinforcement learning,强化学习,التعلم المعزز,apprentissage par renforcement,обучение с подкреплением,強化学習
+550,reinforcement learning from human feedback,从人类反馈中进行强化学习,التعلم التعزيزي من التغذية الراجعة البشرية,Apprentissage par renforcement à partir de retours humains,Обучение с подкреплением на основе обратной связи от человека,人間のフィードバックによる強化学習
+551,reservoir computing,储备计算,الحوسبة بالخزان,informatique réservoir,резервуарные вычисления,リザーバーコンピューティング
+552,Resource Description Framework,资源描述框架,إطار توصيف الموارد,Cadre de description des ressources,"""Каркас описания ресурсов""",リソース記述フレームワーク
+553,restricted Boltzmann machine,受限玻尔兹曼机,آلة بولتزمان المقيدة,machine de Boltzmann restreinte,Ограниченная машина Больцмана,制限付きボルツマンマシン
+554,Rete algorithm,Rete算法,خوارزمية ريت,Algorithme Rete,Алгоритм Рете,リテアルゴリズム
+556,rule-based system,基于规则的系统,نظام قائم على القواعد,Système à base de règles,Система на основе правил,ルールベースシステム
+557,satisfiability,可满足性,الإرضاء,Satisfiabilité,удовлетворимость,充足可能性
+558,search algorithm,搜索算法,خوارزمية البحث,algorithme de recherche,алгоритм поиска,探索アルゴリズム
+559,selection,选择,الانتقاء,sélection,Отбор,選択
+560,self-management,自我管理,الإدارة الذاتية,Autogestion,самоуправление,セルフマネジメント
+561,semantic network,语义网络,شبكة دلالية,réseau sémantique,Семантическая сеть,セマンティックネットワーク
+562,semantic reasoner,语义推理器,المستنتج الدلالي,"""raisonneur sémantique""",семантический выводчик,セマンティック・リゾーナー
+563,semantic query,语义查询,استعلام دلالي,requête sémantique,Семантический запрос,セマンティッククエリ
+564,semantics,语义学,علم الدلالات,Sémantique,семантика,意味論
+565,sensor fusion,传感器融合,دمج المستشعرات,Fusion de capteurs,Сенсорный синтез,センサーフュージョン
+566,separation logic,分离逻辑,منطق الفصل,logique de séparation,логика разделения,分離論理
+567,similarity learning,相似性学习,تعلم التشابه,Apprentissage de similarité,обучение на основе сходства,類似性学習
+568,simulated annealing,模拟退火,التلدين المحاكى,Recuit simulé,Имитация отжига,焼きなまし法
+569,situated approach,情境方法,النهج الموقعي,approche située,"""ситуативный подход""",状況に応じたアプローチ
+570,situation calculus,情境演算,حساب المواقف,Calcul des situations,исчисление ситуаций,状況計算
+571,Selective Linear Definite clause resolution,选择性线性确定子句解析,الاستنتاج الانتقائي الخطي للبنود المحددة,Résolution sélective linéaire de clauses définies,"""Избирательное линейное разрешение определённых предложений""",選択的線形確定節解決
+573,software engineering,软件工程,هندسة البرمجيات,génie logiciel,Программная инженерия,ソフトウェア工学
+574,spatial-temporal reasoning,时空推理,الاستدلال المكاني الزماني,Raisonnement spatio-temporel,Пространственно-временное мышление,時空間推論
+575,SPARQL,SPARQL查询语言,إس بي إيه آر كيو إل,SPARQL,SPARQL,SPARQL（スパークル）
+576,speech recognition,语音识别,التعرف على الكلام,reconnaissance vocale,распознавание речи,音声認識
+577,spiking neural network,脉冲神经网络,شبكة عصبية شوكية,réseau de neurones impulsionnels,спайковая нейронная сеть,スパイキングニューラルネットワーク
+578,state,状态,الحالة,état,состояние,状態 (じょうたい)
+579,statistical classification,统计分类,التصنيف الإحصائي,Classification statistique,статистическая классификация,統計的分類
+580,statistical relational learning,统计关系学习,التعلم العلائقي الإحصائي,Apprentissage relationnel statistique,Статистическое реляционное обучение,統計的関係学習
+581,stochastic optimization,随机优化,التحسين العشوائي,Optimisation stochastique,Стохастическая оптимизация,確率的最適化
+582,stochastic semantic analysis,随机语义分析,التحليل الدلالي العشوائي,analyse sémantique stochastique,Стохастический семантический анализ,確率的意味解析
+583,Stanford Research Institute Problem Solver,斯坦福研究院问题解决器,محلّل مشاكل معهد ستانفورد للأبحاث,Solveur de problèmes de l'Institut de recherche de Stanford,Решатель задач Стэнфордского исследовательского института,スタンフォード研究所問題解決者
+584,subject-matter expert,主题专家,خبير في الموضوع,Expert en la matière,Эксперт по предмету,専門家
+585,superintelligence,超级智能,الذكاء الفائق,Superintelligence,суперинтеллект,スーパーインテリジェンス
+586,supervised learning,监督学习,التعلم المراقب,apprentissage supervisé,обучение с учителем,教師あり学習
+587,support-vector machines,支持向量机,آلات المتجهات الداعمة,machines à vecteurs de support,машины опорных векторов,サポートベクターマシン
+588,swarm intelligence,群体智能,ذكاء السرب,intelligence en essaim,Рой интеллекта,群知能
+589,symbolic artificial intelligence,符号人工智能,الذكاء الاصطناعي الرمزي,intelligence artificielle symbolique,Символический искусственный интеллект,記号的人工知能
+590,synthetic intelligence,合成智能,الذكاء الاصطناعي,intelligence synthétique,Синтетический интеллект,合成知能
+591,systems neuroscience,系统神经科学,علم الأعصاب النظامي,Neurosciences des systèmes,Системная нейронаука,システム神経科学
+592,technological singularity,技术奇点,التفرد التكنولوجي,Singularité technologique,технологическая сингулярность,技術的特異点
+593,temporal difference learning,时序差分学习,التعلم بالتفاضل الزمني,apprentissage par différence temporelle,Обучение с временными разностями,時間差分学習
+594,tensor network theory,张量网络理论,نظرية الشبكة الموترية,théorie des réseaux de tenseurs,Теория тензорных сетей,テンソルネットワーク理論
+595,TensorFlow,张量流,تينسور فلو,TensorFlow,ТензорФлоу,テンソルフロー
+596,theoretical computer science,理论计算机科学,علوم الحاسوب النظرية,Informatique théorique,Теоретическая информатика,理論計算機科学
+597,theory of computation,计算理论,نظرية الحوسبة,théorie de la computation,Теория вычислений,計算理論
+598,Thompson sampling,汤普森采样,أخذ العينات بطريقة تومبسون,Échantillonnage de Thompson,Сэмплирование Томпсона,トンプソンサンプリング
+599,time complexity,时间复杂度,تعقيد الزمن,Complexité temporelle,Временная сложность,時間計算量
+601,transhumanism,超人类主义,ما بعد الإنسانية,Transhumanisme,Трансгуманизм,トランスヒューマニズム
+602,transition system,转换系统,نظام الانتقال,système de transition,система переходов,遷移システム
+603,tree traversal,树遍历,اجتياز الشجرة,Parcours d'arbre,Обход дерева,木の走査
+604,true quantified Boolean formula,真量化布尔公式,الصيغة البوليانية الكمية الصحيحة,formule booléenne quantifiée vraie,истинная квантифицированная булева формула,真の量化ブール式
+605,Turing machine,图灵机,آلة تورنغ,Machine de Turing,Тьюринговая машина,チューリングマシン
+606,Turing test,图灵测试,اختبار تورينج,Test de Turing,Тест Тьюринга,チューリングテスト
+607,type system,类型系统,نظام النوع,Système de types,Система типов,型システム
+608,unsupervised learning,无监督学习,التعلم غير المراقب,apprentissage non supervisé,обучение без учителя,教師なし学習
+609,vision processing unit,视觉处理单元,وحدة معالجة الرؤية,Unité de traitement de la vision,Блок обработки изображений,ビジョンプロセッシングユニット
+610,Watson,沃森,واتسون,Watson,Уотсон,ワトソン
+611,weak AI,弱人工智能,الذكاء الاصطناعي الضعيف,Intelligence artificielle faible,Слабый ИИ,弱いAI
+612,World Wide Web Consortium,万维网联盟,اتحاد شبكة الويب العالمية,Consortium World Wide Web,Консорциум Всемирной паутины,ワールド・ワイド・ウェブ・コンソーシアム
+614,abstract method,抽象方法,طريقة مجردة,méthode abstraite,Абстрактный метод,抽象メソッド
+615,abstraction,抽象,التجريد,Abstraction,абстракция,抽象化
+616,agent architecture,代理架构,بنية الوكيل,architecture d'agent,Архитектура агента,エージェントアーキテクチャ
+617,agent-based model,基于代理的模型,نموذج قائم على الوكيل,modèle basé sur les agents,Модель на основе агентов,エージェントベースモデル
+618,aggregate function,聚合函数,دالة تجميعية,fonction d'agrégation,агрегатная функция,集計関数
+619,agile software development,敏捷软件开发,تطوير البرمجيات الرشيقة,Développement logiciel agile,гибкая разработка программного обеспечения,アジャイルソフトウェア開発
+621,algorithm design,算法设计,تصميم الخوارزميات,conception d'algorithmes,Проектирование алгоритмов,アルゴリズム設計
+623,American Standard Code for Information Interchange,信息交换用美国标准代码,الرمز الأمريكي القياسي لتبادل المعلومات,Code américain normalisé pour l'échange d'information,Американский стандартный код для обмена информацией,情報交換用米国標準コード
+625,application software,应用软件,البرمجيات التطبيقية,Logiciel applicatif,Прикладное программное обеспечение,アプリケーションソフトウェア
+626,array data structure,数组数据结构,بنية بيانات المصفوفة,structure de données en tableau,структура данных массив,配列データ構造
+627,artifact,工件,القطعة الأثرية,Artefact,Артефакт,成果物
+629,ASCII,美国信息交换标准代码,الرمز الأمريكي القياسي لتبادل المعلومات,Code américain normalisé pour l'échange d'information,ASCII,アスキー
+630,assertion,断言,توكيد,assertion,утверждение,アサーション
+631,associative array,关联数组,مصفوفة ترابطية,Tableau associatif,ассоциативный массив,連想配列
+634,bandwidth,带宽,عرض النطاق الترددي,Bande passante,Пропускная способность,帯域幅
+636,benchmark,基准测试,المعيار,Repère,Бенчмарк,ベンチマーク
+637,"best, worst and average case",最佳情况、最坏情况和平均情况,أفضل حالة، أسوأ حالة، ومتوسط الحالة,"Meilleur cas, pire cas et cas moyen","лучший, худший и средний случай",最良、最悪、平均ケース
+639,big O notation,大O符号,ترميز O الكبير,Notation grand O,"""О-нотация""",ビッグO記法
+640,binary number,二进制数,العدد الثنائي,nombre binaire,двоичное число,2進数
+641,binary search algorithm,二分查找算法,خوارزمية البحث الثنائي,algorithme de recherche binaire,Алгоритм бинарного поиска,二分探索アルゴリズム
+643,bioinformatics,生物信息学,المعلوماتية الحيوية,Bioinformatique,Биоинформатика,バイオインフォマティクス
+644,bit,比特,بت,bit,бит,ビット
+645,bit rate,比特率,معدل البتات,Débit binaire,битрейт,ビットレート
+646,blacklist,黑名单,القائمة السوداء,Liste noire,чёрный список,ブラックリスト
+647,BMP file format,BMP文件格式,تنسيق ملف BMP,Format de fichier BMP,Формат файла BMP,BMPファイル形式
+648,Boolean data type,布尔数据类型,نوع البيانات المنطقية,Type de données booléen,Булевый тип данных,ブールデータ型
+649,Boolean expression,布尔表达式,تعبير منطقي,Expression booléenne,Булево выражение,ブール式
+650,Boolean algebra,布尔代数,الجبر البولياني,Algèbre de Boole,Булева алгебра,ブール代数
+651,byte,字节,بايت,octet,байт,バイト
+652,booting,启动,الإقلاع,Démarrage,Загрузка,ブート
+653,callback,回调,استدعاء العودة,Rappel,Обратный вызов,コールバック
+654,central processing unit,中央处理器,وحدة المعالجة المركزية,Unité centrale de traitement,Центральный процессор,中央処理装置
+655,character,字符,حرف,caractère,символ,文字
+656,cipher,密码,شيفرة,Chiffre,Шифр,暗号 (あんごう)
+657,class,类,فئة,classe,класс,クラス
+658,class-based programming,基于类的编程,البرمجة القائمة على الفئات,Programmation basée sur les classes,Программирование на основе классов,クラスベースのプログラミング
+659,client,客户端,عميل,Client,клиент,クライアント
+660,cleanroom software engineering,洁净室软件工程,هندسة البرمجيات النظيفة,"""ingénierie logicielle en salle blanche""",Чистая разработка программного обеспечения,クリーンルームソフトウェア工学
+661,closure,闭包,الإغلاق,fermeture,замыкание,クロージャ
+662,cloud computing,云计算,الحوسبة السحابية,Informatique en nuage,Облачные вычисления,クラウドコンピューティング
+663,code library,代码库,مكتبة الشيفرة,Bibliothèque de code,Библиотека кода,コードライブラリ
+664,coding,编码,البرمجة,Codage,кодирование,コーディング
+665,coding theory,编码理论,نظرية الترميز,Théorie du codage,Теория кодирования,符号理論
+666,cognitive science,认知科学,علم الإدراك,Sciences cognitives,Когнитивная наука,認知科学
+667,collection,集合,مجموعة,collection,коллекция,コレクション
+668,comma-separated values,逗号分隔值,قيم مفصولة بفواصل,valeurs séparées par des virgules,"значения, разделённые запятыми",コンマ区切り値
+669,compiler,编译器,المترجم,Compilateur,компилятор,コンパイラ
+670,computability theory,可计算性理论,نظرية الحسابية,théorie de la calculabilité,Теория вычислимости,計算可能性理論
+672,computational biology,计算生物学,علم الأحياء الحاسوبي,Biologie computationnelle,компьютерная биология,計算生物学
+675,computational model,计算模型,نموذج حسابي,modèle computationnel,вычислительная модель,計算モデル
+677,computational physics,计算物理学,الفيزياء الحاسوبية,physique computationnelle,вычислительная физика,計算物理学
+678,computational science,计算科学,علم الحوسبة,Science computationnelle,Вычислительная наука,計算科学
+679,computational steering,计算引导,التوجيه الحسابي,Pilotage computationnel,"""компьютерное управление""",計算ステアリング
+680,computer,计算机,كمبيوتر,Ordinateur,компьютер,コンピュータ
+681,computer architecture,计算机体系结构,هندسة الحاسوب,Architecture informatique,Архитектура компьютера,コンピュータアーキテクチャ
+682,computer data storage,计算机数据存储,تخزين بيانات الكمبيوتر,Stockage de données informatiques,Хранение данных компьютера,コンピュータデータストレージ
+683,computer ethics,计算机伦理,أخلاقيات الحاسوب,éthique informatique,Компьютерная этика,コンピュータ倫理
+684,computer graphics,计算机图形学,رسوميات الحاسوب,Graphisme informatique,Компьютерная графика,コンピュータグラフィックス
+685,computer network,计算机网络,شبكة الحاسوب,Réseau informatique,Компьютерная сеть,コンピュータネットワーク
+686,computer program,计算机程序,برنامج حاسوبي,Programme informatique,Компьютерная программа,コンピュータプログラム
+687,computer programming,计算机编程,برمجة الحاسوب,Programmation informatique,Программирование компьютеров,コンピュータプログラミング
+688,computer science,计算机科学,علوم الحاسوب,Informatique,Информатика,コンピュータサイエンス
+689,computer scientist,计算机科学家,عالم حاسوب,Informaticien / Informaticienne,учёный в области информатики,コンピュータ科学者
+690,computer security,计算机安全,أمن الحاسوب,Sécurité informatique,Компьютерная безопасность,コンピュータセキュリティ
+691,computer vision,计算机视觉,رؤية الحاسوب,vision par ordinateur,Компьютерное зрение,コンピュータビジョン
+692,computing,计算,الحوسبة,Informatique,Вычисления,コンピューティング
+693,concatenation,串联,الربط,Concaténation,Конкатенация,連結
+694,Concurrency,并发性,التزامن,Concurrence,Параллелизм,並行性
+695,conditional,条件语句,شرطي,Conditionnel,Условный,条件文
+696,container,容器,حاوية,conteneur,контейнер,コンテナ
+697,continuation-passing style,续传风格,أسلوب تمرير الاستمرارية,style de passage de continuation,стиль передачи продолжений,継続渡しスタイル
+698,control flow,控制流,تدفق التحكم,Flux de contrôle,Управление потоком выполнения,制御フロー
+699,Creative Commons,知识共享组织,المشاع الإبداعي,Creative Commons,Криейтив Коммонс,クリエイティブ・コモンズ
+700,cryptography,密码学,التشفير,Cryptographie,криптография,暗号学
+701,CSV,逗号分隔值,قيم مفصولة بفواصل,valeurs séparées par des virgules,"значения, разделённые запятыми",CSV (カンマ区切り値)
+702,cyberbullying,网络欺凌,التنمر الإلكتروني,Cyberharcèlement,кибербуллинг,サイバーブルイング
+703,cyberspace,网络空间,الفضاء الإلكتروني,cyberespace,киберпространство,サイバースペース
+704,daemon,守护进程,خادم,démon,демон,デーモン
+705,Data,数据中心,البيانات,Données,Дата-центр,データセンター
+706,data center,数据中心,مركز البيانات,Centre de données,Центр обработки данных,データセンター
+707,database,数据库,قاعدة بيانات,Base de données,база данных,データベース
+710,data structure,数据结构,هيكل البيانات,structure de données,структура данных,データ構造
+711,data type,数据类型,نوع البيانات,Type de données,Тип данных,データ型
+712,debugging,调试,إزالة الأخطاء,Débogage,Отладка,デバッグ
+713,declaration,声明,تصريح,déclaration,декларация,宣言
+714,digital data,数字数据,البيانات الرقمية,données numériques,Цифровые данные,デジタルデータ
+715,digital signal processing,数字信号处理,معالجة الإشارة الرقمية,Traitement numérique du signal,Цифровая обработка сигналов,デジタル信号処理
+716,discrete event simulation,离散事件模拟,محاكاة الأحداث المنفصلة,Simulation d'événements discrets,Имитационное моделирование дискретных событий,離散事象シミュレーション
+717,disk storage,磁盘存储,تخزين القرص,Stockage sur disque,Дисковое хранилище,ディスクストレージ
+718,distributed computing,分布式计算,الحوسبة الموزعة,Informatique distribuée,Распределённые вычисления,分散コンピューティング
+719,divide and conquer algorithm,分治算法,خوارزمية التقسيم والغزو,algorithme de division et de conquête,"Алгоритм ""разделяй и властвуй""",分割統治アルゴリズム
+720,DNS,域名系统,نظام أسماء النطاقات,Système de noms de domaine,Система доменных имен,ドメインネームシステム
+721,documentation,文档,التوثيق,documentation,документация,ドキュメント
+723,Domain Name System,域名系统,نظام أسماء النطاقات,Système de noms de domaine,Система доменных имен,ドメインネームシステム
+724,double-precision floating-point format,双精度浮点格式,صيغة الفاصلة العائمة ذات الدقة المضاعفة,Format à virgule flottante double précision,Формат чисел с плавающей запятой двойной точности,倍精度浮動小数点形式
+725,download,下载,تنزيل,Télécharger,скачать,ダウンロード
+726,edge device,边缘设备,جهاز طرفي,Appareil périphérique,Пограничное устройство,エッジデバイス
+727,encryption,加密,تشفير,Chiffrement,Шифрование,暗号化
+728,event,事件,حدث,événement,событие,イベント
+729,event-driven programming,事件驱动编程,برمجة مدفوعة بالأحداث,Programmation événementielle,"Программирование, управляемое событиями",イベント駆動型プログラミング
+730,evolutionary computing,进化计算,الحوسبة التطورية,Informatique évolutive,Эволюционные вычисления,進化計算
+731,executable,可执行文件,قابل للتنفيذ,exécutable,исполняемый файл,実行可能ファイル
+732,executable module,可执行模块,وحدة قابلة للتنفيذ,module exécutable,исполняемый модуль,実行可能モジュール
+733,execution,执行,تنفيذ,exécution,выполнение,実行
+734,exception handling,异常处理,معالجة الاستثناءات,Gestion des exceptions,Обработка исключений,例外処理
+735,Existence detection,存在检测,كشف الوجود,Détection d'existence,Обнаружение существования,存在検出
+736,expression,表达式,تعبير,expression,выражение,式
+737,external library,外部库,مكتبة خارجية,bibliothèque externe,внешняя библиотека,外部ライブラリ
+738,fault-tolerant computer system,容错计算机系统,نظام حاسوبي متحمل للأخطاء,système informatique tolérant aux pannes,Отказоустойчивая компьютерная система,フォールトトレラントコンピュータシステム
+739,feasibility study,可行性研究,دراسة الجدوى,étude de faisabilité,Технико-экономическое обоснование,実現可能性調査
+740,field,字段,حقل,Champ,поле,フィールド
+741,filename extension,文件扩展名,امتداد الملف,extension de fichier,расширение имени файла,ファイル名拡張子
+742,filter,过滤器,مرشح,Filtre,фильтр,フィルター
+743,floating point arithmetic,浮点运算,الحساب العشري العائم,arithmétique à virgule flottante,Арифметика с плавающей запятой,浮動小数点演算
+744,for loop,for循环,"حلقة ""for""",boucle for,Цикл for,for文
+745,formal methods,形式化方法,الأساليب الشكلية,méthodes formelles,формальные методы,形式手法
+746,formal verification,形式验证,التحقق الرسمي,Vérification formelle,Формальная верификация,形式検証
+747,functional programming,函数式编程,البرمجة الوظيفية,programmation fonctionnelle,Функциональное программирование,関数型プログラミング
+749,"garbage in, garbage out",输入垃圾，输出垃圾,المدخلات الخاطئة تؤدي إلى مخرجات خاطئة,"""Des données erronées produisent des résultats erronés.""","""что посеешь, то и пожнёшь""",入力が不正だと出力も不正になる
+750,Graphics Interchange Format,图形交换格式,تنسيق تبادل الرسومات,Format d'échange de graphiques,Формат обмена графикой,グラフィックス・インターチェンジ・フォーマット
+751,gigabyte,千兆字节,غيغابايت,Gigaoctet,Гигабайт,ギガバイト
+752,global variable,全局变量,المتغير العالمي,variable globale,Глобальная переменная,グローバル変数
+754,handle,句柄,مؤشر,poignée,дескриптор,ハンドル
+755,hard problem,难题,مشكلة صعبة,"""Problème difficile""",трудная задача,難問
+756,hash function,哈希函数,دالة التجزئة,Fonction de hachage,Хеш-функция,ハッシュ関数
+757,hash table,哈希表,جدول التجزئة,table de hachage,Хеш-таблица,ハッシュテーブル
+758,heap,堆,الكومة,tas,Куча,ヒープ
+759,heapsort,堆排序,هِيَابْسُورْت,tri par tas,Пирамидальная сортировка,ヒープソート
+760,human-computer interaction,人机交互,التفاعل بين الإنسان والحاسوب,Interaction homme-machine,Взаимодействие человека и компьютера,人間とコンピュータの相互作用
+761,identifier,标识符,معرف,identifiant,идентификатор,識別子
+762,IDE,集成开发环境,بيئة تطوير متكاملة,Environnement de développement intégré.,Интегрированная среда разработки,統合開発環境
+763,image processing,图像处理,معالجة الصور,traitement d'image,обработка изображений,画像処理
+764,imperative programming,命令式编程,البرمجة الأمرية,Programmation impérative,Императивное программирование,命令型プログラミング
+765,incremental build model,增量构建模型,نموذج البناء التدريجي,Modèle de construction incrémentale,Инкрементальная модель сборки,インクリメンタルビルドモデル
+766,information space analysis,信息空间分析,تحليل فضاء المعلومات,Analyse de l'espace d'information,Анализ информационного пространства,情報空間分析
+767,information visualization,信息可视化,تصوير المعلومات,visualisation de l'information,визуализация информации,情報可視化
+768,inheritance,继承,وراثة,héritage,наследование,継承
+769,input/output,输入/输出,إدخال/إخراج,Entrée/Sortie,ввод/вывод,入出力
+770,insertion sort,插入排序,الفرز بالإدراج,tri par insertion,Сортировка вставками,挿入ソート
+771,instruction cycle,指令周期,دورة التعليمات,Cycle d'instruction,Цикл выполнения команд,命令サイクル
+772,integer,整数,عدد صحيح,Entier,Целое число,整数
+773,integrated development environment,集成开发环境,بيئة تطوير متكاملة,Environnement de développement intégré,Интегрированная среда разработки,統合開発環境
+774,integration testing,集成测试,اختبار التكامل,Tests d'intégration,Интеграционное тестирование,結合テスト
+775,intellectual property,知识产权,الملكية الفكرية,propriété intellectuelle,интеллектуальная собственность,知的財産
+777,interface,接口,واجهة,Interface,интерфейс,インターフェース
+778,internal documentation,内部文档,التوثيق الداخلي,Documentation interne,Внутренняя документация,内部文書
+779,internet,互联网,الإنترنت,Internet,Интернет,インターネット
+780,internet bot,网络机器人,روبوت الإنترنت,bot internet,Интернет-бот,インターネットボット
+781,interpreter,解释器,مفسر,Interpréteur,Интерпретатор,インタープリタ
+782,invariant,不变式,ثابت,Invariant,инвариант,不変量
+783,iteration,迭代,التكرار,Itération,итерация,反復
+784,Java,Java (编程语言),جافا,Java,Джава,ジャバ
+785,kernel,内核,النواة,Noyau,ядро,カーネル
+786,library,库 (kù),مكتبة,Bibliothèque,библиотека,ライブラリ
+787,linear search,线性搜索,البحث الخطي,Recherche linéaire,Линейный поиск,線形探索
+788,linked list,链表,قائمة مرتبطة,liste chaînée,Связанный список,連結リスト
+789,linker,链接器,الرابط,Éditeur de liens,редактор связей,リンカ
+790,list,列表,قائمة,liste,список,リスト
+791,loader,加载程序,محمل,Chargeur,загрузчик,ローダー
+792,logic error,逻辑错误,خطأ منطقي,Erreur logique,Логическая ошибка,論理エラー
+793,logic programming,逻辑编程,برمجة منطقية,programmation logique,Логическое 
+796,mathematical logic,数理逻辑,المنطق الرياضي,logique mathématique,математическая логика,数理論理学
+797,matrix,矩阵,مصفوفة,matrice,Матрица,行列
+798,memory,内存,ذاكرة,mémoire,память,メモリ
+799,merge sort,归并排序,فرز الدمج,Tri fusion,Сортировка слиянием,マージソート
+801,methodology,方法论,المنهجية,Méthodologie,Методология,方法論
+802,modem,调制解调器,مودم,modem,модем,モデム
+805,number theory,数论,نظرية الأعداد,théorie des nombres,Теория чисел,数論
+806,numerical analysis,数值分析,التحليل العددي,analyse numérique,Численный анализ,数値解析
+807,numerical method,数值方法,طريقة عددية,méthode numérique,Численный метод,数値計算法
+808,object,对象,كائن,objet,объект,オブジェクト
+809,object code,目标代码,الشفرة الهدف,Code objet,Объектный код,オブジェクトコード
+810,object-oriented analysis and design,面向对象分析与设计,تحليل وتصميم موجه للكائنات,Analyse et conception orientées objet,Объектно-ориентированный анализ и проектирование,オブジェクト指向分析設計
+811,object-oriented programming,面向对象编程,البرمجة الكائنية التوجه,programmation orientée objet,Объектно-ориентированное программирование,オブジェクト指向プログラミング
+812,open-source software,开源软件,البرمجيات مفتوحة المصدر,logiciel open source,Программное обеспечение с открытым исходным кодом,オープンソースソフトウェア
+813,operating system,操作系统,نظام التشغيل,Système d'exploitation,Операционная система,オペレーティングシステム
+814,optical fiber,光纤,الألياف البصرية,Fibre optique,Оптическое волокно,光ファイバー
+815,pair programming,结对编程,البرمجة الزوجية,Programmation en binôme,Парное программирование,ペアプログラミング
+816,parallel computing,并行计算,الحوسبة المتوازية,Calcul parallèle,Параллельные вычисления,並列計算
+817,parameter,参数,معامل,paramètre,параметр,パラメータ
+818,peripheral,外设,محيطي,Périphérique,Периферийное устройство,周辺機器
+819,pointer,指针,المؤشر,pointeur,указатель,ポインタ
+820,postcondition,后置条件,الشرط اللاحق,Postcondition,Постусловие,事後条件
+821,precondition,前提条件,شرط مسبق,précondition,Предусловие,前提条件
+822,primary storage,主存储器,التخزين الأساسي,Stockage primaire,Первичная память,主記憶装置
+823,primitive data type,原始数据类型,نوع البيانات البدائي,type de données primitif,Примитивный тип данных,プリミティブデータ型
+824,priority queue,优先队列,قائمة الأولويات,file d'attente prioritaire,Очередь с приоритетом,優先度付きキュー
+825,procedural programming,过程式编程,البرمجة الإجرائية,programmation procédurale,Процедурное программирование,手続き型プログラミング
+826,procedure,过程,إجراء,procédure,процедура,手続き
+827,program lifecycle phase,程序生命周期阶段,مرحلة دورة حياة البرنامج,Phase du cycle de vie du programme,Фаза жизненного цикла программы,プログラムライフサイクルフェーズ
+829,programming language implementation,编程语言实现,تنفيذ لغة البرمجة,Implémentation de langage de programmation,Реализация языка программирования,プログラミング言語の実装
+830,programming language theory,编程语言理论,نظرية لغات البرمجة,Théorie des langages de programmation,Теория языков программирования,プログラミング言語理論
+834,queue,队列,طابور,file d'attente,очередь,キュー
+835,quicksort,快速排序,الفرز السريع,tri rapide,Быстрая сортировка,クイックソート
+837,radix,基数,الجذر,Base,Основание,基数
+838,record,记录,سجل,enregistrement,запись,レコード
+839,recursion,递归,التكرار,Récursion,Рекурсия,再帰 (さいき)
+840,reference,引用,مرجع,référence,Ссылка,参照
+841,reference counting,引用计数,عد المراجع,Comptage de références,Подсчёт ссылок,参照カウント
+842,relational database,关系数据库,قاعدة بيانات علائقية,Base de données relationnelle,реляционная база данных,リレーショナルデータベース
+843,reliability engineering,可靠性工程,هندسة الموثوقية,Ingénierie de la fiabilité,Инженерия надежности,信頼性工学
+844,regression testing,回归测试,اختبار الانحدار,tests de régression,регрессионное тестирование,回帰テスト
+845,requirements analysis,需求分析,تحليل المتطلبات,Analyse des besoins,Анализ требований,要求分析
+846,robotics,机器人学,الروبوتات,robotique,Робототехника,ロボット工学
+847,round-off error,舍入误差,خطأ التقريب,Erreur d'arrondi,Ошибка округления,丸め誤差
+848,router,路由器,موجّه,Routeur,Маршрутизатор,ルーター
+849,routing table,路由表,جدول التوجيه,Table de routage,Таблица маршрутизации,ルーティングテーブル
+850,run time,运行时,وقت التشغيل,Temps d'exécution,Время выполнения,実行時間
+851,run time error,运行时错误,خطأ وقت التشغيل,Erreur d'exécution,Ошибка времени выполнения,実行時エラー
+853,secondary storage,次级存储,التخزين الثانوي,Stockage secondaire,Внешняя память,二次記憶装置
+854,selection sort,选择排序,فرز الاختيار,Tri par sélection,Сортировка выбором,選択ソート
+856,sequence,序列,تسلسل,séquence,последовательность,シーケンス
+857,serializability,可串行性,تسلسلية,Sérialisabilité,Сериализуемость,直列化可能性
+858,serialization,序列化,التسلسل,Sérialisation,Сериализация,シリアライゼーション
+859,service level agreement,服务水平协议,اتفاقية مستوى الخدمة,Accord de niveau de service,Соглашение об уровне обслуживания,サービスレベル合意
+860,set,集合,مجموعة,ensemble,Множество,集合
+861,singleton variable,单例变量,متغير فردي,Variable singleton,Переменная-одиночка,シングルトン変数
+862,soft computing,软计算,الحوسبة الناعمة,Informatique douce,Мягкие вычисления,ソフトコンピューティング
+863,software,软件,البرمجيات,Logiciel,программное обеспечение,ソフトウェア
+864,software agent,软件代理,وكيل برمجي,Agent logiciel,Программный агент,ソフトウェアエージェント
+865,software construction,软件构建,بناء البرمجيات,Construction de logiciels,конструирование программного обеспечения,ソフトウェア構築
+866,software deployment,软件部署,نشر البرمجيات,Déploiement de logiciel,Развертывание программного обеспечения,ソフトウェアの展開
+867,software design,软件设计,تصميم البرمجيات,Conception de logiciel,Проектирование программного обеспечения,ソフトウェア設計
+868,software development,软件开发,تطوير البرمجيات,Développement logiciel,разработка программного обеспечения,ソフトウェア開発
+869,software development process,软件开发过程,عملية تطوير البرمجيات,processus de développement logiciel,процесс разработки программного обеспечения,ソフトウェア開発プロセス
+871,software maintenance,软件维护,صيانة البرمجيات,maintenance logicielle,сопровождение программного обеспечения,ソフトウェア保守
+872,software prototyping,软件原型设计,نمذجة البرمجيات,Prototypage logiciel,Прототипирование программного обеспечения,ソフトウェアプロトタイピング
+873,software requirements specification,软件需求规格说明书,مواصفات متطلبات البرمجيات,Spécification des exigences logicielle,Техническое задание на программное обеспечение,ソフトウェア要件仕様書
+874,software testing,软件测试,اختبار البرمجيات,Test de logiciel,Тестирование программного обеспечения,ソフトウェアテスト
+875,sorting algorithm,排序算法,خوارزمية الفرز,algorithme de tri,алгоритм сортировки,ソートアルゴリズム
+876,source code,源代码,شفرة المصدر,code source,исходный код,ソースコード
+877,spiral model,螺旋模型,نموذج الحلزوني,modèle en spirale,спиральная модель,スパイラルモデル
+878,stack,栈,مكدس,Pile,стек,スタック
+880,statement,语句,تعليمة,Instruction,оператор,文 (ぶん)
+881,storage,存储,تخزين,Stockage,хранение данных,ストレージ
+882,stream,数据流,تدفق,Flux,Поток,ストリーム
+883,string,字符串,سلسلة,chaîne,строка,文字列
+884,structured storage,结构化存储,التخزين المنظم,stockage structuré,структурированное хранилище,構造化ストレージ
+885,subroutine,子程序,روتين فرعي,Sous-programme,подпрограмма,サブルーチン
+886,symbolic computation,符号计算,الحساب الرمزي,Calcul symbolique,символьные вычисления,記号計算
+887,syntax,语法,بناء الجملة,Syntaxe,Синтаксис,構文
+888,syntax error,语法错误,خطأ نحوي,Erreur de syntaxe,синтаксическая ошибка,構文エラー
+889,system console,系统控制台,وحدة التحكم بالنظام,console système,Системная консоль,システムコンソール
+890,technical documentation,技术文档,التوثيق الفني,Documentation technique,Техническая документация,技術文書
+891,third-generation programming language,第三代编程语言,لغة برمجة من الجيل الثالث,Langage de programmation de troisième génération,Язык программирования третьего поколения,第3世代プログラミング言語
+892,top-down and bottom-up design,自顶向下和自底向上设计,تصميم من أعلى إلى أسفل ومن أسفل إلى أعلى,Conception descendante et ascendante,Проектирование сверху вниз и снизу вверх,トップダウン設計とボトムアップ設計
+893,tree,树,شجرة,arbre,дерево,木
+894,type theory,类型理论,نظرية الأنواع,théorie des types,Теория типов,型理論
+895,upload,上传,رفع,Téléverser,загрузить,アップロード
+896,Uniform Resource Locator,统一资源定位器,محدد موقع الموارد الموحد,Localisateur Uniforme de Ressource,Унифицированный указатель ресурса,統一資源位置指定子
+898,user agent,用户代理,وكيل المستخدم,Agent utilisateur,Пользовательский агент,ユーザーエージェント
+899,user interface,用户界面,واجهة المستخدم,Interface utilisateur,Пользовательский интерфейс,ユーザーインターフェース
+900,user interface design,用户界面设计,تصميم واجهة المستخدم,Conception d'interface utilisateur,Проектирование пользовательского интерфейса,ユーザーインターフェースデザイン
+901,variable,变量,متغير,variable,переменная,変数
+902,virtual machine,虚拟机,آلة افتراضية,Machine virtuelle,Виртуальная машина,仮想マシン
+903,V-Model,V模型,نموذج V,Modèle en V,V-Model,Vモデル
+904,waterfall model,瀑布模型,نموذج الشلال,Modèle en cascade,каскадная модель,ウォーターフォールモデル
+905,Waveform Audio File Format,波形音频文件格式,تنسيق ملف صوتي للموجة,Format de fichier audio Waveform.,Формат аудиофайлов Waveform.,波形オーディオファイル形式
+906,web crawler,网络爬虫,زاحف الويب,robot d'indexation,Веб-краулер,ウェブクローラー
+907,Wi-Fi,Wi-Fi (无线网络),واي فاي,Wi-Fi,Wi-Fi,Wi-Fi
+908,XHTML,可扩展超文本标记语言,لغة توصيف النص الفائق القابلة للامتداد,XHTML,XHTML,XHTML

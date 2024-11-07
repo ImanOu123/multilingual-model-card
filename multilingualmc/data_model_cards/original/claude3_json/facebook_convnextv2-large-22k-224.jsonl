@@ -1,0 +1,157 @@
+[
+  {
+    "question": "summary",
+    "chain": "generation",
+    "answer": "The facebook/convnextv2-large-22k-224 model is a large-sized variant of the ConvNeXt V2 architecture, which is a pure convolutional neural network that achieves state-of-the-art performance on various visual recognition tasks. It is pre-trained on the ImageNet-22K dataset and fine-tuned on the ImageNet-1K dataset, using a resolution of 224x224 pixels."
+  },
+  {
+    "question": "description",
+    "chain": "generation",
+    "answer": "Model Architecture:\n- Encoder: ConvNeXt V2 Large model (198M parameters)\n- Channel dimension: 192\n- Block configuration: (3,3,27,3)\n- Decoder: Single ConvNeXt block with dimension 512\n\nTraining Procedure:\n- Pre-training using the Fully Convolutional Masked Autoencoder (FCMAE) framework\n- Intermediate fine-tuning on ImageNet-22K dataset\n- Final fine-tuning on ImageNet-1K dataset\n- Uses 384x384 resolution images for pre-training and fine-tuning\n\nParameters: 198 million\n\nImportant Disclaimers:\n[More Information Needed]"
+  },
+  {
+    "question": "funded_by",
+    "chain": "generation",
+    "answer": "Based on the provided references, the model facebook/convnextv2-large-22k-224 appears to be funded by Meta AI, as evidenced by the author affiliations listed in Reference 1:\n\nSanghyun Woo; Shoubhik Debnath; Ronghang Hu; Xinlei Chen; Zhuang Liu; In So Kweon; Saining Xie; Meta Ai\n\nNo other specific funding sources or organizations are mentioned in the given references."
+  },
+  {
+    "question": "shared_by",
+    "chain": "generation",
+    "answer": "Based on the references provided, the main contributors who made the model facebook/convnextv2-large-22k-224 available online are:\n\nSanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, and Saining Xie from Meta AI.\n\nThe references also mention that the repository borrows from the work of Ross Wightman on the initial design of small-compute ConvNeXt model variants and the associated training recipe. Kaiming He provided helpful discussions and feedback as well."
+  },
+  {
+    "question": "model_type",
+    "chain": "generation",
+    "answer": "The facebook/convnextv2-large-22k-224 model is a self-supervised ConvNeXt model pre-trained on ImageNet-22K using a masked autoencoder approach for computer vision tasks."
+  },
+  {
+    "question": "language",
+    "chain": "generation",
+    "answer": "The facebook/convnextv2-large-22k-224 model processes natural images and does not use or process natural human language."
+  },
+  {
+    "question": "license",
+    "chain": "generation",
+    "answer": "The ImageNet pre-trained and fine-tuned models of ConvNeXt V2 are licensed under a CC-BY-NC license, while the rest of the project is released under the MIT license. The link to the license file is provided in the references, but the full URL is not given.\n\n[More Information Needed] on the exact URL of the license file."
+  },
+  {
+    "question": "finetuned_from",
+    "chain": "generation",
+    "answer": "Based on the provided references, the model facebook/convnextv2-large-22k-224 is likely fine-tuned from a self-supervised pre-trained ConvNeXt V2 model, as mentioned in this excerpt:\n\n\"Our ConvNeXt V2 model, which is powered by self-supervised learning, provides a simple way to upgrade existing models and achieve a significant boost in\"\n\nHowever, the specific pre-trained model used as the base is not directly mentioned. The closest relevant information is in reference 3:\n\n\"| ConvNeXt V2-L | 224x224 | 87.3 | 198M  | 34.4G   | [model](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_large_22k_224_ema.pt)|\"\n\nThis points to a ConvNeXt V2-L model trained on ImageNet-22K at 224x224 resolution, which could potentially be the base model. But without more definitive information, the safest response is:\n\n[More Information Needed]"
+  },
+  {
+    "question": "demo_sources",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nBased on the provided references, there is no specific information about a demo link for the model facebook/convnextv2-large-22k-224. The references discuss the ConvNeXt V2 architecture, training details, and performance on various benchmarks, but do not mention a publicly available demo. More information would be needed from the model developers to determine if a demo link exists."
+  },
+  {
+    "question": "direct_use",
+    "chain": "generation",
+    "answer": "The facebook/convnextv2-large-22k-224 model can be used for image classification without requiring any fine-tuning, post-processing or plugging into a pipeline. It has been pre-trained on the ImageNet-22K dataset and can directly output predicted class probabilities for 22,000 categories given an input image.\n\nTo use the model for evaluation, you can run the following example commands:\n\nSingle-GPU\n```\npython main_finetune.py \\\n--model convnextv2_base \\\n--eval true \\\n--resume /path/to/checkpoint \\\n--input_size 224 \\\n--data_path /path/to/imagenet-1k \\\n```\n\nMulti-GPU\n```\npython -m torch.distributed.launch --nproc_per_node=8 main_finetune.py \\\n--model convnextv2_base \\\n--eval true \\\n--resume /path/to/checkpoint \\\n--input_size 224 \\\n--data_path /path/to/imagenet-1k \\\n```\n\nThe model takes as input an image of size 224x224 and outputs predicted probabilities for the 22K ImageNet classes. No additional fine-tuning or processing is needed to use the model for classification out-of-the-box.\n\n[More Information Needed] on details about using the large variant of the model or plugging it into an application pipeline without fine-tuning. The example commands only show evaluating the base model on ImageNet-1K."
+  },
+  {
+    "question": "downstream_use",
+    "chain": "generation",
+    "answer": "The ConvNeXt V2-L model, pre-trained on ImageNet-22K and fine-tuned on 224x224 resolution images, can be used for various downstream tasks such as object detection, semantic segmentation, and fine-tuning on other datasets. Here are a few examples:\n\n1. Object detection and segmentation: The model can be used as a backbone for frameworks like Mask R-CNN to improve performance on datasets like COCO. [More Information Needed]\n\n2. Semantic segmentation: ConvNeXt V2-L can be integrated into semantic segmentation frameworks like UperNet to enhance performance on datasets such as ADE20K. [More Information Needed]\n\n3. Fine-tuning on other datasets: The model can be fine-tuned on specific datasets for various classification tasks. Here's a code snippet for evaluating the model:\n\nSingle-GPU:\n```\npython main_finetune.py \\\n--model convnextv2_large \\\n--eval true \\\n--resume /path/to/checkpoint \\\n--input_size 224 \\\n--data_path /path/to/dataset \\\n```\n\nMulti-GPU:\n```\npython -m torch.distributed.launch --nproc_per_node=8 main_finetune.py \\\n--model convnextv2_large \\\n--eval true \\\n--resume /path/to/checkpoint \\\n--input_size 224 \\\n--data_path /path/to/dataset \\\n```\n\nThe ConvNeXt V2-L model, with its improved architecture and self-supervised pre-training, offers significant performance gains compared to its V1 counterpart, making it a powerful choice for various computer vision tasks when fine-tuned or integrated into larger ecosystems."
+  },
+  {
+    "question": "out_of_scope_use",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some potential ways the ConvNeXt V2 large model pre-trained on ImageNet-22K could be misused and what users ought not do:\n\n- The model is licensed under CC-BY-NC for the ImageNet pre-trained and fine-tuned versions. This means it cannot be used for commercial purposes. Users should not deploy this model in any commercial applications without obtaining the appropriate commercial license.\n\n- As a powerful image classification model, it could potentially be misused for harmful surveillance applications that violate privacy and civil liberties if fine-tuned on sensitive data like facial images. Users should carefully consider the ethical implications and potential for abuse before using this model on any data that could enable tracking or identification of individuals without consent.\n\n- [More Information Needed] on specific failure modes or biases the model may exhibit on certain demographics or image types that users should be aware of and avoid relying on the model for.\n\n- [More Information Needed] on whether the model training data contained any inappropriate, explicit, or offensive content that could be reflected in model outputs if probed in certain ways. Users should not attempt to elicit such content from the model.\n\nIn general, users should use the model only for its intended purpose of generic image classification within appropriate domains, be transparent about its usage, and consider potential negative societal impacts before deploying it in any system that could cause real-world harms if the model fails or exhibits biases. More specific information on limitations and ethical considerations would help provide clearer guidance to users."
+  },
+  {
+    "question": "bias_risks_limitations",
+    "chain": "generation",
+    "answer": "Based on the provided references about the ConvNeXt V2 model, here are some potential issues and limitations:\n\nForeseeable harms and misunderstandings:\n- The model was trained on the ImageNet-22K dataset, which may contain biases present in the training data. This could lead to the model exhibiting biased or unfair behavior when applied to real-world tasks. [More Information Needed] on specific biases and harms.\n\n- As a large-scale image classification model, it could potentially be misused for unintended purposes like surveillance or generating deepfakes if released without proper safeguards. [More Information Needed] on specific misuse cases.\n\nTechnical limitations: \n- The sparse convolution libraries used for pre-training are not highly optimized for efficiency yet. This impacts computational and memory efficiency.\n\n- [More Information Needed] on model performance and failure modes on specific downstream tasks and datasets beyond ImageNet, COCO, and ADE20K which were evaluated.\n\nSociotechnical limitations:\n- Releasing such a powerful model publicly requires carefully considering the potential societal impacts and implementing appropriate responsible AI practices. [More Information Needed] on the specific practices followed.\n\n- Transparent communication is needed to users about the model's capabilities, limitations, and intended use cases to prevent misunderstandings and misuse. [More Information Needed] on the specific communication and documentation provided.\n\nIn summary, while ConvNeXt V2 represents an advancement in ConvNet-based models for computer vision, more information is needed to fully characterize the potential issues and limitations from both a technical and sociotechnical perspective before a public release. A thorough model card covering these points would be beneficial."
+  },
+  {
+    "question": "bias_recommendations",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some recommendations regarding foreseeable issues with the facebook/convnextv2-large-22k-224 model:\n\n1. Feature collapse at the MLP layer: The references mention identifying a potential issue of feature collapse at the MLP layer when training ConvNeXt directly on masked input. This was addressed by adding a Global Response Normalization (GRN) layer to enhance inter-channel feature competition. It's important to ensure that the model architecture incorporates this change to mitigate the feature collapse issue.\n\n2. Transferability of learned features: The class selectivity index analysis suggests that ConvNeXt V2 tends to include more class-generic features compared to V1. While class-agnostic features are more transferable, it's crucial to evaluate the model's performance on a diverse range of downstream tasks to ensure the learned features are indeed transferable and effective.\n\n3. Comparison with contrastive self-supervised learning: The references mention comparing the performance of the proposed FC-MAE framework with contrastive learning methods like MoCoV3. [More Information Needed] on the specific results and implications of this comparison for the facebook/convnextv2-large-22k-224 model.\n\n4. Efficiency and scalability: ConvNeXt V2 models are designed to cover a broader range of complexity and efficiency. While the model is said to excel in scenarios requiring lower complexity, [More Information Needed] on the specific efficiency metrics and scalability characteristics of the facebook/convnextv2-large-22k-224 variant.\n\n5. Societal impact and fairness: [More Information Needed] on any analyses or considerations regarding the potential societal impact, biases, or fairness aspects of the facebook/convnextv2-large-22k-224 model. It's important to assess and mitigate any unintended consequences or disparate impacts the model might have on different demographics or user groups.\n\nTo summarize, while the provided references offer insights into some architectural improvements and performance aspects of ConvNeXt V2 models, more specific information is needed to comprehensively address the foreseeable issues and provide detailed recommendations for the facebook/convnextv2-large-22k-224 model. Further evaluation, benchmarking, and analysis of the model's efficiency, transferability, fairness, and societal impact would be beneficial to inform its responsible deployment and use."
+  },
+  {
+    "question": "training_data",
+    "chain": "generation",
+    "answer": "The ConvNeXt V2-L model was pre-trained on ImageNet-22K dataset, and fine-tuned on ImageNet-1K at 224x224 resolution. [More Information Needed] for details on data pre-processing or additional filtering."
+  },
+  {
+    "question": "preprocessing",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the details about preprocessing for the facebook/convnextv2-large-22k-224 model:\n\nResizing:\nThe model uses 384x384 resolution images for pretraining and fine-tuning, as mentioned in reference 7: \"We use 384 2 resolution images for pretraining and fine-tuning [38].\"\n\nTokenization:\n[More Information Needed] The references do not provide specific details about the tokenization process for this model.\n\nOther preprocessing details:\n[More Information Needed] The references do not provide additional information about other preprocessing steps, such as normalization or data augmentation techniques, for the facebook/convnextv2-large-22k-224 model."
+  },
+  {
+    "question": "training_regime",
+    "chain": "generation",
+    "answer": "Based on the provided references, the ConvNeXt V2 Large model (facebook/convnextv2-large-22k-224) was trained using the following steps and hyperparameters:\n\n1. Pre-training using the FCMAE (Fully Convolutional Masked Auto-Encoder) framework on the ImageNet-22K dataset. [More Information Needed] on the specific hyperparameters used during pre-training.\n\n2. Intermediate fine-tuning on the ImageNet-22K dataset. The setups are summarized in Table 12 and 13 from the references. Using larger layer-wise learning rate decay values for small models is helpful. [More Information Needed] on the exact values used for the Large model.\n\n3. Final fine-tuning on the ImageNet-1K dataset using 384x384 resolution images, as mentioned in reference 2.\n\n[More Information Needed] on the specific hyperparameters used during the ImageNet-1K fine-tuning stage, such as learning rate, batch size, optimizer, and number of epochs.\n\nThe model achieves state-of-the-art performance on various recognition benchmarks, including ImageNet classification, COCO detection, and ADE20K segmentation, as stated in reference 8."
+  },
+  {
+    "question": "speeds_sizes_times",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are the details I could find about the model facebook/convnextv2-large-22k-224:\n\nModel size: 198M parameters (from reference 8)\nThroughput: 34.4G (likely referring to FLOPs, from reference 8)\nImageNet-1K top-1 accuracy: 85.8% (from reference 8)\n\n[More Information Needed] for the following:\n- Start or end training time \n- Checkpoint sizes\n\nThe references do not contain specific information about the training time or checkpoint sizes for this particular model."
+  },
+  {
+    "question": "testing_data",
+    "chain": "generation",
+    "answer": "Based on the provided references, the ConvNeXt V2 Large model, which is likely the facebook/convnextv2-large-22k-224 model, evaluates on the following benchmarks and datasets:\n\n1. ImageNet-1K classification\n- Achieves state-of-the-art 88.9% top-1 accuracy using only publicly available data\n\n2. COCO object detection and segmentation\n- Fine-tunes Mask R-CNN on COCO dataset\n- Reports detection mAP (box) and segmentation mAP (mask) on COCO val2017 set\n\n3. ADE20K segmentation\n\nThe model is pre-trained using the FCMAE framework and fine-tuned on the ImageNet-22K dataset."
+  },
+  {
+    "question": "testing_factors",
+    "chain": "generation",
+    "answer": "Based on the provided references, here are some foreseeable characteristics that may influence the behavior of the facebook/convnextv2-large-22k-224 model:\n\nDomain and Context:\n- The model was pretrained on ImageNet-22K dataset and fine-tuned on ImageNet-1K (Ref 1, 4, 8). This suggests it is primarily designed for image classification tasks in the domain of natural images similar to those found in ImageNet.\n\nPopulation Subgroups:\n[More Information Needed] - The references do not provide specific information about performance on different population subgroups or potential disparities.\n\nOther Factors:\n- The model uses a convolution-based architecture (ConvNeXt V2) co-designed with the FCMAE pre-training framework (Ref 3, 5, 7, 9). This unique architecture and training approach may influence its performance characteristics compared to other models.\n- The model exhibits strong scaling behavior, with improved performance as model size increases (Ref 2, 7). The \"large\" variant is likely to have different performance than smaller or larger versions.\n- The model's feature representations evolve distinctly across layers compared to supervised ConvNeXt and MAE pretrained ViT models (Ref 10). This may affect its suitability for different downstream tasks or fine-tuning approaches.\n\nTo fully understand potential performance disparities across population subgroups, further disaggregated evaluation would be needed. The current references focus primarily on the model's architecture, training approach, and benchmark results on ImageNet."
+  },
+  {
+    "question": "testing_metrics",
+    "chain": "generation",
+    "answer": "Based on the provided references, the main evaluation metric used for the ConvNeXt V2 Large model pre-trained on ImageNet-22K is top-1 accuracy on the ImageNet-1K dataset. Specifically:\n\n- The ConvNeXt V2 architecture, when pre-trained using the FCMAE framework and fine-tuned on ImageNet-22K, achieves a state-of-the-art 88.9% top-1 accuracy on ImageNet-1K, using only publicly available data.\n\n- The references consistently highlight top-1 accuracy improvements on ImageNet-1K across various model sizes, from the efficient 3.7M-parameter Atto model to the 650M Huge model.\n\nHowever, the references do not provide detailed information about the tradeoffs between different types of errors or alternative evaluation metrics used for this specific model. [More Information Needed] regarding other potential metrics or error tradeoffs considered during the model's development and evaluation process."
+  },
+  {
+    "question": "results",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is the evaluation information for the model facebook/convnextv2-large-22k-224:\n\nModel Architecture:\n- The model uses the ConvNeXt V2 architecture, which incorporates the GRN (Global Response Normalization) layer into the original ConvNeXt block.\n- LayerScale is removed when GRN is applied.\n- The model is part of the ConvNeXt V2 model family, which includes models of varying efficiency and capacity, from lightweight (e.g., Atto) to compute-intensive (e.g., Huge).\n\nPre-training:\n- The model was pre-trained using the FC-MAE (Fully Convolutional Masked Autoencoder) framework.\n- Pre-training was done on ImageNet-22K dataset.\n\nFine-tuning:\n- The model was fine-tuned on ImageNet-1K dataset.\n- Fine-tuning was performed using 384x384 resolution images.\n\nPerformance:\n- The ConvNeXt V2 models pre-trained on FC-MAE outperform the Swin transformer counterparts across all model sizes.\n- The model achieves state-of-the-art accuracy using only publicly available data (ImageNet-1K and ImageNet-22K).\n\n[More Information Needed] for the specific performance metrics (e.g., top-1 accuracy) of the facebook/convnextv2-large-22k-224 model on ImageNet-1K dataset.\n\nThe model was also evaluated on various recognition benchmarks, including:\n- ImageNet classification\n- COCO detection\n- ADE20K segmentation\n\n[More Information Needed] for the specific performance metrics on these benchmarks for the facebook/convnextv2-large-22k-224 model."
+  },
+  {
+    "question": "results_summary",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is a summary of the evaluation results for the facebook/convnextv2-large-22k-224 model:\n\nThe ConvNeXt V2 model, pre-trained using the FCMAE framework and fine-tuned on the ImageNet-22K dataset, achieves a new state-of-the-art accuracy of 88.9% top-1 on the ImageNet-1K dataset, using only publicly available data. This convolution-based architecture outperforms previous state-of-the-art designs, including transformer-based and hybrid models.\n\nThe model demonstrates strong scaling behavior, with consistently improved performance over supervised baselines across all model sizes. ConvNeXt V2 pre-trained on FCMAE outperforms Swin transformer counterparts pre-trained with SimMIM across all model sizes, with the largest gap achieved in the huge model regime.\n\n[More Information Needed] on specific performance metrics for the Large model size variant.\n\nIn transfer learning benchmarks, ConvNeXt V2 shows significant improvements over ConvNeXt V1 across various recognition tasks, including ImageNet classification, COCO detection, and ADE20K segmentation."
+  },
+  {
+    "question": "model_examination",
+    "chain": "generation",
+    "answer": "Based on the provided references, here is an attempt at an experimental section on explainability/interpretability for the facebook/convnextv2-large-22k-224 model:\n\nWe performed qualitative analysis to gain insight into the learning behavior of the ConvNeXt architecture used in the facebook/convnextv2-large-22k-224 model. By visualizing the activations of a FCMAE pre-trained ConvNeXt-Base model, we observed an intriguing \"feature collapse\" phenomenon: many dead or saturated feature maps and redundant activations across channels, particularly in the dimension-expansion MLP layers of the ConvNeXt blocks (Reference 2, Figure 3).\n\nTo quantitatively validate this observation, we conducted a feature cosine distance analysis on the activation tensors. [More Information Needed] \n\nThe results, plotted against normalized layer indexes, showed that the ConvNeXt V1 FCMAE pre-trained model exhibited severe feature collapse behavior compared to the supervised model (Reference 5, Figure 4).\n\nThese findings shed light on the learning dynamics of the ConvNeXt architecture and highlight opportunities for further research to mitigate feature collapse and improve the interpretability of the facebook/convnextv2-large-22k-224 model. [More Information Needed]"
+  },
+  {
+    "question": "hardware",
+    "chain": "generation",
+    "answer": "The model facebook/convnextv2-large-22k-224 was trained on TPU (v3-256) pods, as mentioned in reference 7:\n\n\"The experiments in the main paper are all conducted on TPU (v3-256) pods and we release a PyTorch reproduction.\""
+  },
+  {
+    "question": "software",
+    "chain": "generation",
+    "answer": "The model facebook/convnextv2-large-22k-224 is trained using PyTorch, as evidenced by the following information from the references:\n\n1. The evaluation commands provided use Python and PyTorch libraries (e.g., `python main_finetune.py`, `python -m torch.distributed.launch`).\n\n2. The repository borrows from timm, which is a PyTorch library for image models.\n\n3. The references explicitly state: \"This repo contains the PyTorch version of *8* model definitions (*Atto, Femto, Pico, Nano, Tiny, Base, Large, Huge*), pre-training/fine-tuning code and pre-trained weights (converted from JAX weights trained on TPU) for our ConvNeXt V2 paper.\"\n\nTherefore, the software type used for training the model facebook/convnextv2-large-22k-224 is PyTorch."
+  },
+  {
+    "question": "hours_used",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the training time for the facebook/convnextv2-large-22k-224 model. More details would be needed from the model developers or training logs to determine the exact amount of time used for training this particular model."
+  },
+  {
+    "question": "cloud_provider",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not mention the specific cloud provider used for training the facebook/convnextv2-large-22k-224 model. More information would be needed from the model developers or training logs to determine the cloud provider utilized."
+  },
+  {
+    "question": "co2_emitted",
+    "chain": "generation",
+    "answer": "[More Information Needed]\n\nThe provided references do not contain specific information about the amount of carbon emitted during the training of the facebook/convnextv2-large-22k-224 model. To accurately report the carbon emissions, details such as the hardware used for training, training duration, energy consumption, and the carbon intensity of the energy source would be required."
+  },
+  {
+    "question": "model_specs",
+    "chain": "generation",
+    "answer": "Model Architecture:\nThe ConvNeXt V2-L (Large) model follows the ConvNeXt V1 architecture with C=192 channels and B=(3,3,27,3) blocks in each stage. It incorporates the Gated Residual Network (GRN) layer into the ConvNeXt block, replacing the LayerScale component.\n\nObjective:\nThe ConvNeXt V2 models are pre-trained using a fully convolutional masked autoencoder (FCMAE) approach. The learning objective is to predict the missing parts of randomly masked input visuals given the remaining context. The models are then fine-tuned on the ImageNet-22K dataset for improved performance on downstream tasks such as classification, object detection, and segmentation.\n\n[More Information Needed] on the specific pre-training and fine-tuning hyperparameters used for the ConvNeXt V2-L model."
+  },
+  {
+    "question": "compute_infrastructure",
+    "chain": "generation",
+    "answer": "Based on the provided references, the compute infrastructure used for the ConvNeXt V2 large model (facebook/convnextv2-large-22k-224) is as follows:\n\n- The experiments in the main paper were all conducted on TPU (v3-256) pods.\n- A PyTorch reproduction was also released.\n- Sparse encoding was implemented using:\n  1) Sparse convolution supported by external libraries like MinkowskiEngine on the GPU environment with PyTorch framework. \n  2) Simulating sparse encoding with masked dense convolution.\n\n[More Information Needed] on the exact compute infrastructure used specifically for the ConvNeXt V2 large model, as the references mostly discuss the general compute setup for the ConvNeXt V2 model family."
+  }
+]

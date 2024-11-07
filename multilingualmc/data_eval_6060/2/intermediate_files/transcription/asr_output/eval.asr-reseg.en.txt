@@ -1,0 +1,416 @@
+Hi everyone, today I'm going to present our research work learning to reason the debatably matwork problem solving as complex region extraction. 
+I'm Alan from Biden's AI lab and this is joint work with Jerry from the University of Texas at Austin and where you from Sutd. 
+First I'd like to talk about our motivation for reasoning. 
+So here we're showing an examples where multi step reasoning is helpful. 
+So this figure is taken from the pound paper where they perform prompting to solve the network. Problem in a few short learning scenario. 
+So on the left hand side we can see if we give some examples with just question and answers, we might not be able to obtain the correct answers. 
+But if we give some more reasoning description, the model is able to predict the recent description and also make correct predictions here. 
+So it is good to have interpretable multi step reasoning as output 
+and we also think method problem is a straightforward application to evaluate such reasoning abilities. 
+So here in our problem setup given the questions we need to solve this question and obtain the numerical answers. 
+So in our datasets we are also given the mathematical expression which leads to the this particular answer as well. 
+So certain assumptions are also apply. As in previous work, 
+we assume the precision of quantities are known 
+and we only consider basic operators such as addition, subtractions, multiplication, division, and exponential. 
+Furthermore, communicate the operators can be actually decomposed into these basic operators. 
+So previous work in material problem solving actually can categorize into sequence to sequence and sequence to tree model. 
+So traditional sequence to sequence model convert the expression to a sub specific sequence for generation 
+and it is pretty easy to implement and it can generalize to many different complicated problem. 
+But the drawbacks are the performance is actually generally not better than the structure model and it is lack of interpretability for prediction. 
+So actually this direction is still quite popular because of the transformer model. 
+The tree based models we actually structure these expressions in the tree form and follow a pre-order traversal in tree generations. 
+So here we keep generating the operators until we reach the leaves which are the quantities. 
+So here the good thing is that it actually gives us this binary tree structure, and it is. But actually it is quite counterintuitive because we generate the operator 1st and then at the end we generate the quantities. 
+And the second thing is that it also contains some repetitive computations. 
+So here if we look at this expression, a * 3 + 3 is actually generated twice, but in fact we should reuse the results. 
+So in our proposed approach we want to solve those problems in a step by step and interpretable manners. 
+So for example here in the second step we can obtain this divisor which is 27. 
+And we can also refer back to the original questions to find the relevant contents. 
+And in these steps we obtain the divisors. 
+So and then at this third step we actually get the quotient. 
+Alright. And after these three steps, we can actually reuse the results from the second step and then get the results of the fourth step and then finally we can obtain the dividends? 
+So here we actually generate the whole. Expression. Directly, rather than generating a single. Operators or quantities, 
+so this makes the process more accurate. 
+So in our deductive system we first start start with a bunch of quantities presented in the questions and also including some constant as our initial initial state. 
+So the expression is represented by Eiji top. 
+Where we perform operator from Qi to QJ and such expression is actually directed, 
+so we also have subtraction with words here to represent the opposite direction. 
+This is quite similar to relation extraction. 
+So in a formal deductive system, at the time step T we apply the operator between the Q&QJ pair and then we obtain this new expressions. 
+We add it to the next stage to become a new quantity. 
+So this slides actually visualize the evolution of these states where we keep adding expression to the current state. 
+So in our model implementations we first use a pre trained language model which can be birds or robertas and then we encode the sentence and then we obtain these quantity representations. 
+So once we get the quantity representations we can start to do inference. 
+Here we show an example of Q1 to obtain the representation for Q1 divided by Q2 and then times Q3. 
+First we get the pair representation, which is basically just the concatenation between Q1 and Q2, and then we apply a feedforward network which is parameterized by the operator, 
+and then finally we obtain the expression representation Q1 divided by Q2. 
+That are in France. In practice, in the inference stage, we might be able to get the incorrect incorrect expression as well. 
+So here all the possible expression. Is equals to three times the number of operators. 
+So the nice thing here is that we can easily add constraints to control this search search space. 
+For example, if this expression is not allowed, we can simply remove this expression in our search space. 
+So in the second step we do the same thing, but the only difference is the only difference is one more quantities. 
+So this quantity comes from the previous calculated expression. 
+So finally we can obtain this final expression Q3 times Q4. 
+And we can also see the number of all the possible. Expression is different from the previous step, 
+so such difference make it hard to apply beam search because the probability distribution between these two steps is. Unbalanced. 
+So the training procedure is similar to training a sequence to sequence. Model where we optimize the loss at each time step 
+and here we also use this Tau. To represent. When? We. Should terminate this. Generation process. 
+And here the space is different from sequential sequence because the space is different at each time step, while in traditional sequence to sequence model it is the number of vocabulary. 
+And it also allows us to impose certain constraints from prior knowledge. 
+So we conduct experiments on the commonly used method problem data sets MWP, PPS, maternity, 3K, maqluba and swam. 
+And here we briefly shows the results compared with the previous best approaches, 
+so our best performing. Variant is Roberta. Deductive reasoning. 
+And in fact, we do not use beam search in contrast. Obvious approaches. Using beam search. 
+All right, so the best approaches are often tree based model. 
+So overall our reasoner is able to significantly significantly outperform this tree based model. 
+But we can see the absolute number on maxqda or swam are not really high. 
+So we further investigate the results on Swamp. 
+And this data set is challenging because the author tries to manually adding something to confuse the NLP model, such as adding environment information and extra quantities. 
+So in our prediction we find. Some of the intermediate values are actually negatives. 
+For example, in this questions we are asking how many apples does Jake have? 
+But we have some extra information like 17 fewer pictures and Steven has eight pictures which is totally irrelevant. 
+So our model makes some prediction like this which is producing negative values 
+and we observe these two. Action actually have similar scores, 
+so we can actually limit these search space by removing those results. Negatives so that we can make the make the answer correct. 
+So we further find such constraint actually improves quite a lot for some model. 
+For example, for birds we improve 7 point and then for the Roberta based model we actually improved 2 point. 
+So better language model has a better language understanding ability so that the number here is higher for Roberta and lower for for birds. 
+And we also try to analyze the difficulty behind this. Behind all these datasets 
+we assume the number of unused quantity. Maybe regarded as environment information here. 
+So here we can see that we have the percentage of samples we unused quantities and the swamp data set has the largest portion. 
+And here we also show the overall performance. 
+For those samples without unused quantities, so the overall performance is actually higher than the performance is actually higher than the overall performance. 
+But with those samples that with unused quantity is actually way worse than the worse than the overall performance. 
+For MPs, we don't really have too many test cases, so I just ignore this part. 
+So finally we want to show the interpretability through a crash and perturbation example. 
+So here our model actually makes a wrong prediction at the first step, 
+so we can actually correlate this expression with the sentence here. So 
+we think this sentence might be misleading the model to an incorrect predictions. 
+So here planting another 35 makes the model makes the model think it should be an addition operators. 
+So we try to revise the sentence to be something like the number of pear trees out 55 fewer than the apple trees. 
+So we make it to convey more accurate semantics such that the model is able to make the prediction correct. 
+So this study shows how the interpretable predictions help us understand the model behavior. 
+So to conclude our work. So first our model is actually pretty efficient 
+and we are able to provide interpretable solving procedure 
+and we can easily incorporate some prior knowledge as constraint which can help improve the performance. 
+And the last thing is that the underlying mechanism does not only apply to matwork problem solving tasks but also other tasks that involve multi step reasoning. 
+But we also have certain limitations. 
+If we have a large number of operators or contents or constants, the memory consumption could be pretty high. 
+And the second thing is that, as mentioned, because the probability distribution is unbalanced between at different time steps, so it's also pretty challenging to apply beam searches. Strategy. 
+So this is the end of the talk and questions are welcome. Thank you. 
+Hi my name is Antwan and I'm from Mastrick University. 
+I will be presenting my joint work with Jerry which is about new data set for statutory article retrieval. 
+The legal issue are an integral part of many people's life. 
+But the majority of citizens have little to no knowledge about their rights and fundamental legal processes. 
+As a result, many vulnerable citizens who cannot afford the costly assistance of a legal expert are left unprotected or, worst, exploited. 
+All work aims to bridge the gap between people and the law by developing effective retrieval system for statutory articles. 
+Such a system could provide a free professional legal help service for unskilled humans. 
+Before diving into the main contribution of this work, let's first describe the problem of statutory article retrieval. 
+Given a simple question on a legal matter such as what do I risk if I violate professional confidentiality? 
+A model is required to retrieve all relevant statutory articles from a large body of legislation. 
+This information retrieval task comes with its own set of challenges. 
+First, it deals with two types of language. 
+Human natural language for the questions and complex illegal language for the statutes. 
+This difference in language distributions makes it harder for a system to retrieve relevant candidates, as their indirectly requires an inherent interpretation system that can translate a natural question to a legal question that matches the terminology of statutes. 
+Besides, statutory law is not a stack of independent article that can be treated as a complete source of information on their own, like news or recipes, for example. 
+Instead, it's a structure. Collection of legal provision that have a whole meaning only when considered in the overall context, that is, together with the supplementary information from the neighboring articles, the fields and subfields they belong to and they place in the structure of the law. 
+Lastly, statutory articles aren't small paragraph, which usually is the typical retrieval unit in most retrieval works 
+here. They are long documents that may be up to 6000 words. 
+The recent advances in NLP have sparked huge interest in many legal tasks, such as legal judgment prediction or automatic contact contract review. 
+And statutory article retrieval has remained mainly untouched due to the lack of large and high quality labeled datasets. 
+In this work, we present a new French native citizen centric datasets to study whether retrieval model can approximate the efficiency and reliability of a legal expert for the task of statutory article retrieval. 
+Or Belgian statutory article retrieval that set results consist of more than 1100 illegal questions posed by Belgian citizens. 
+These questions cover a wide range of topics from family, housing, money. To work in Social Security. 
+Each of them has been labeled by experienced jurists with references to relevant articles from a corpus of more than 22,600 legal articles from Belgian codes of flow. 
+Let's not talk about how we collected these datasets. 
+First, we started by compiling a large corpus of legal articles. 
+We considered 32 publicly available Belgian codes and extracted all the articles as well as the corresponding section headings. 
+Then we gathered legal. Questions. With references to relevant statutes. 
+To do so, we partner with the Belgian law firm that receives each year around 4000's e-mail from Belgian citizens. Who ask for advice on a personal legal issue. 
+We were lucky enough to get access to their websites, where their team of experienced jurists addresses Belgian most common legal issues. 
+We collected thousands of questions annotated with categories, subcategories and legal references to relevant statutes. 
+Lastly, we passed the legal references and filtered out the questions whose references were not articles in one of the codes of low we considered. 
+The remaining references were matched and converted to the corresponding article IDs from all corpus. 
+We eventually ended up with 1108 questions, each carefully labeled with the IDs of the relevant articles from our large corpus of 22,633 statutory articles. 
+In addition, each question comes with a main category and a concatenation of subcategories, 
+and each articles comes with the concatenation of the subsequence heading in the structure of the low. 
+This extra information is not used in the present work, but might be of interest for future research on legal information retrieval or legal text classification. 
+Let's look at some characteristic of our data sets. 
+The question now between 5 and 44 words long, with a median of 14 words. 
+The article are much longer with the median length of 77 words, with 142 of them exceeding 1000 words, the 
+lengthened 1 being up to 5790 words. 
+Previously mentioned the question cover a wide range of topics, with around 85% of them being either about family, housing, money or justice, 
+while the remaining 15% concern either Social Security, foreigners or work. 
+The article are also very diverse as they come from 32 different Belgian codes that cover a large number of illegal topics. 
+Here's the total number of articles collected from each of these Belgian codes. 
+Out of the 22,633 articles, only 1612 are referred to as relevant to at least one question in the datasets 
+and around 80% of these cited articles come from either the Civil Code, judicial Codes, criminal investigation codes or penal codes. 
+Meanwhile, 18 out of 32 codes have less than five article mentioned as relevant to at least one question. 
+Can be explained by the fact that those code focused less on individuals and their concerns. 
+Overall, the median number of citation for these cited articles is 2, and less than 25% of them are cited more than five times. 
+Using old data sets, we benchmark several retrieval approaches, including lexical and dense architecture. 
+Given a query in an article, a lexical model assigns a score to the query article pair by computing the sum over the query terms of the weights of each of these terms in that article. 
+We experiment with the standard TFIDF and BM25 ranking functions. 
+The main problem with these approaches is that they can only retrieve article that contain keywords present in the query. 
+To overcome this limitation, we experiment with a neural based architecture that can capture semantic relationship between queries and article. 
+We use a beyond code model that maps queries and articles into dense vector representations and calculate a relevance score between a query article pair by the similarity of their embeddings. 
+These embeddings typically result from a pooling operation on. The output of a word embedding model. 
+First we study the effectiveness of Siamese Bianco orders in a zero shot evaluation setup, meaning that pre trained word embedding models are applied out-of-the-box without any additional fine tuning. 
+We experiment with context independent text encoder, namely word to VEC and fast text and context dependent on betting models, namely Roberta and more specifically Camembert which is a French Roberta model. 
+Additionally, we train our own. Onboard based model beyond coders on all datasets. 
+Know that for training we experiment with the two flavors of the biancardi architecture. 
+Siamese, which uses a unique word embedding model model that maps the query and article together in a shared dense vector space, and to tower, which uses 2 independent word embedding models that encode the query and article separately into different embedding spaces. 
+The experiment would mean Max and CLS pooling, as well as dot product and cosine for computing similarities. 
+Here are the result of our baseline on the test sets 
+with the lexical methods above, the Siamese Bianco orders evaluated in a zero shot setup in the middle and the fine-tuned beyond coders below. 
+Overall, the fine-tuned beyond coder significantly outperform all the other baselines. 
+The two tower model improves over its Siamese variants on recall at 100 but perform similarly on the other metrics. 
+Although BM25 underperformed the train beyond code significantly, its performance indicated that. Still a strong baseline for domain specific retrieval. 
+Regarding the zero shot evaluation of Siamese beyond coder, we find that directly using the embeddings of a pre trained common boot model without optimizing for the information retrieval task gives poor results which is consistent with previous findings. 
+Furthermore, we observe that the word to VEC based Bianco order significantly outperformed the fast text and bird based model, suggesting that maybe pre trained word level embeddings are more appropriate for the task than character. Or sub word level embeddings when used out-of-the-box. 
+Although promising, these results suggest ample opportunity for improvement compared to a skill little expert who can eventually retrieve all relevant article to any question and thus get perfect scores. 
+Let's conclude by discussing 2 limitation of all datasets. 
+First, the corpus of article is limited to those collected from the 32 considered Belgian codes, which does not cover the entire Belgian law. As articles from decrease, directives and ordinances are missing 
+during the data set construction, all references to these uncollected articles are ignored, which causes some question to end up with only a fraction of the initial number of relevant articles. 
+This information. It implies that the answer contained in the remaining relevant articles might be incomplete, although it's still completely appropriate. 
+Second, we should note that not all legal questions can be answered with statutes alone. 
+For instance, the question can I evict my tenants if they make too much noise? 
+Might not have a detailed answer within statutory law that quantifies a specific noise threshold at which eviction is loads. 
+Instead, the landlord should probably rely more. Case. Go and find precedents similar to their current situation. 
+For example, the tenants makes two parties a week until 2:00 AM. 
+Hence some question are better suited than others to the statutory article retrieval task, and the domain of the less suitable ones remains to be determined. 
+We hope that all work sparks interest in developing practical and reliable statutory article retrieval models 
+that can help improve access to justice for all. 
+You can check out our paper dot certain code at the following links. Thank you. 
+Hello, we are happy to present our work on vowels task independent benchmark meant for testing vision and language models with specific linguistic phenomena. 
+Why did we do the trouble in setting up this benchmark? 
+Well during the last years we have seen an explosion of transformer based vision and language models pre trained on large amounts of image text pairs. 
+Each one of these models pushes state-of-the-art on vision and language tasks such as visual question answering, visual, common sense reasoning, image retrieval, phrase grounding. 
+So we got a message. The accuracies on these task specific benchmarks are increasing steadily, 
+but do we know what the models have actually learned? 
+What is it that a vision and language transformer understood when assigning a high score for this image and this sentence to match? 
+In the low score for this one. 
+Do vision and language models focus on the right thing, 
+or do they focus on biases as shown by previous work? 
+To shed more light on this aspect, we propose a more task agnostic direction and introduce vowels that test the sensitivity of vision and language models to specific linguistic phenomena that affect both linguistic and the visual modalities. 
+We target existence, plurality, counting, spatial relations, actions and entity coreference. 
+But how do we test whether the vision and language models have captured these phenomena? 
+By foiling a method previously applied for vision and language models only for known phrases by Ravi Shankar and collaborators, and on counting by us in previous work, 
+foiling basically means that we take the caption. Of an image and produce a foil by altering the caption such that it does not describe the image anymore. 
+And we do these phrase alterations by focusing on 6 specific pieces such as existence, plurality, counting, spatial relations, actions and entity coreference, where each piece can consist of one or more instruments in case we found more than one interesting way to create. Foil instances. 
+For example, in the case of the actions piece, we have two instruments, one in which the action verb is changed with a different action, and one in which actants are swapped. 
+Counting and coreference also are pieces that have more than one instrument, 
+and we create these foils by making sure that they fail to describe the image, that they are grammatical, and otherwise valid sentences. 
+This is not easy. Do because a foiled caption may be less likely than the original caption. 
+For example, though it's not impossible, it is statistically less likely for plans to cut a man than a man to cut plants, and large vision and language models could pick up on this. 
+Therefore, to obtain valid foils, we must take action. 
+First, we make use of strong language models to propose foils. 
+We use natural language inference or short NLI to filter out foils that could be still describing the image, since when constructing foils we need to ensure that they fail to describe the image. 
+To test this automatically, we apply natural language inference with the following rationale. 
+We consider an image to be the premise and its caption it's entailed hypothesis. 
+In addition, we consider the caption to be the premise. The foil is. Its hypothesis. 
+If an NLI model predicts the foil to contradict or to be neutral with respect to the caption, we take this as an indicator of a valid foil. 
+If an NLI predicts the foil to be entailed by the caption, it cannot be a good foil, since by transitivity it will give a truthful description of the image, and we filter these foils out. 
+But this procedure is not perfect, it is just an indicator for valid foils. 
+Therefore, as a third measure for generating valid foils, we employ human annotators to validate the data used in VALS. 
+So after filtering and human evaluation, we have as many test instances as described in this table. 
+Note that Valve does not deliver any training data but only test data. 
+Since it is a zero shot testing benchmark only, it is designed to leverage the existing capabilities of vision and language models after pre 
+training. Fine tuning would only enable models to exploit artifacts or statistical. Places in the data 
+and we all know that these models like to cheat and take. Shortcuts. 
+And as we said, we are interested in assessing what capabilities the vision and language models. Have after pre training. 
+We experiment with five vision and language models on valves, namely with clip, L, Xmart, Wilbert, Wilbert 12 and one, and visual Albert. 
+Two of our most important evaluation metrics are the accuracy of the models in classifying image sentence pairs into captions and foils. 
+Perhaps more relevant for this video, we will showcase our more permissive metric, the pairwise accuracy, which measures whether the image. Instance Alignment score is greater for the correct image taxpayer than for its foiled pair. 
+For more metrics and results on them, do check out our paper. 
+The results with pairwise accuracy are shown here and they are consistent with the results we got from the other metrics is that the best zero shot performance is achieved by vilbert 12-IN-1, followed by Wilbert, Lexmark, clip and finally Visual Bert. 
+It's notable how instruments centered on the individual objects. Existence and noun phrases are almost solved by vibrate 12 in one highlighting that models are capable of identifying named objects and their presence in images. 
+However, none of the remaining pieces can be reliably solved in our adversarial foiling settings. 
+We see from the plurality and counting instruments that vision and language models have trouble distinguishing references to single versus multiple objects or counting them in an image. 
+Relation piece shows that they have difficulties in correctly classifying a named spatial relation between objects in an image. 
+They also have trouble distinguishing actions and identifying their participants, even if supported by plausibility biases. As we see in the actions piece 
+from the Coreference piece, we find out that tracing multiple references to the same object in an image by using pronouns is also difficult for vision and language models 
+as a. Unity check. And because it's an interesting experiment, we also benchmark 2 textonly models, GPT one and GPT 2, to assess whether valves is solvable by these unimodal models by computing the perplexity of the correct and the fault caption. No image here. And predicting the entry with the lowest perplexity. 
+If the perplexity is higher for the foil, we take this as an indication that the foiled caption may suffer from plausibility bias or other linguistic biases. 
+And it's interesting to see that in some cases, the text only GPT models have captured the plausibility of the world better than the vision and language models. 
+So to sum up, vowels is a benchmark that uses the lens of linguistic constructs to help the community improve vision and language models by hard testing their visual grounding capabilities. 
+Our experiments show that vision and language models identify named objects in their presence in images as well as shown by the existence piece, but struggle to ground their interdependence and relationships in visual scenes when forced to respect linguistic indicators. 
+We would really like to encourage the Community to use valves for measuring progress towards language grounding with vision and language models 
+and even more. Valves could be used as an indirect assessment of datasets as models could be evaluated before and after training or fine tuning to see whether a data set helps models improve on any of the aspects tested by valves. 
+If you're interested, do check out the valves data on GitHub and if you have any questions. Not hesitate to. Contact us. 
+Hello, my name is Kami 0 from the University of Tokyo. 
+I'll be presenting a paper entitled our in some large scale data set for automatic restart generation will commit log summarization. Have 
+you explained in this? Order. 
+First, I will introduce automatically simulation that we are working on in this research. 
+This note is a technical document that summarizes the changes distributed with each release of a software product. 
+The image shows the release notes for version 2.6 point four of the Debugger's library. 
+These notes play an important role in open source development, but they're time-consuming to prepare manually. 
+Therefore, it would be very useful to be able to automatically generate high quality release notes. 
+Every four to two previous researches on automatic listener generation. 
+The first is a system called a letter, released in 2014. 
+It takes a rule based approach, for example using the change extractor to extract core differences, library changes and document changes from the differences between releases and finally combining them. 
+The most notable feature of this system is the issue extractor in the upper right corner. 
+Which must be linked to zero the issue to ecosystem and can only be applied to projects that use zero. 
+In other words, it cannot be used for many projects on GitHub. 
+The second is grief. Recently announced in 2020. 
+It is available on the Internet and can be stored via PIP. 
+This system has a simple learning based text classification model and outputs one of five levels such as features or bugfixes. For each input committee message. 
+AMS is a sample usage that returns a collective or bug fixes level. 
+Drivers training data is fairly small, about 5000. And will be shown in the experiments. Described below 
+the performance of the text. Classification model. Is not high. 
+At present two related researches but their problems are limited applicability and scarce data resources. 
+Our paper solves these two problems and automatically generates high quality release notes. 
+It was a limited applicability program. We propose a high quality cosplay. Summarization method. Using only committee. Message as input. 
+This proposed method can be used for all English properties. 
+For the second problem of scarce state resources, we built our art and some dessert consisting of about 82,000 pieces of data by collecting data from public guitar repositories using the GitHub API. 
+Next I describe. Our desert. 
+Here is an example of data. 
+The left side. Is a commit message. On the left side is the list nodes. 
+These notes are labeled as improvements, offices, etc. 
+You have set up a task that. Makes up the commit messages as input and outputs. The language is not. 
+This can be regarded as a summarization task. 
+We have predefined 4 lovers, features, improvements or fixes, duplications, removals and breaking changes. 
+Eastborough said, based on previous. Research and other. Factors. 
+There is notes on the bottom right and extracted from the list notion on the bottom left. 
+At this time, it is necessary to detect the four rabbits that have been set up in advance. 
+With the Nagas are not always consistent with each leprosy. 
+For example, the improvements level includes improvements, enhancements, optimizations and so on. 
+We prepared a vocabulary list of about study levels for each of these rotational variations. 
+This eight to detect surgery is not cross and collects the text of the list that follows as the least no sentence for the class. 
+Next is a commuter message. 
+Going to. Messages are. Not tied to each list. 
+As shown in the image. Below if the current release is. Version 2.5 to 19 we need to identify. The previous release version. 2.5 to 18. And get it there. 
+This is a bit tedious and it is not enough to just get a list of releases and look at the before and after. 
+He created a heuristic matching rule to get the previous and next versions. 
+Is. It. Analysis. 
+In the end, 7200 repositories and 82,000 pieces of data were collected. 
+Also, the average number of reasonable targets is 63, which is quite high for summarization task. 
+Also, the number of unique tokens is quite large, but it doesn't 830,000. 
+This is due to the large number of unique class or method names found in the laboratory. 
+Next I will explain the proposed method. 
+The crosswise extractive and abstractive summarization model consists of two neural modules 
+across fire using bot or old bot and generator using bot. 
+First she gas uses a classifier to classify each commit message into five regional classes which use improvements, bugfixes, duplications plus and other 
+the commit messages classified as other or discarded, 
+then applies the generator to the whole router documents independently. Generates list node for each class. 
+In this task, the direct correspondences between commit messages and read nodes are not known, 
+therefore to train the classifier. That's why we assign so rabbis. To each input commit message using. The 1st 10. Characters of each commit message. 
+We model the crosswires obstructive summarizes to approach by two different methods. 
+The first model, which we call single, consists of a single sexual sex network and generate a single room is no text give a concatenation of input commit messages. 
+The output techs can be divided into Crossfire segments based on special cross specific endpoint symbols. 
+The. 2nd. Method. Method, which we call CPS much, consists of four different sector sack networks, each of which correspond to one of the least node classes. 
+And there, that explains experiment. 5 
+methods were compared cheers, C single CSS mouse rustling and previous study grief. 
+Regarding evaluation, in some cases these notes are output in multiple sentences. 
+Since it is difficult to calculate the number of sentences as their their combined with spaces are treated as one long sentence. 
+The blue is penalized when the system outputs are short sentence. 
+This penalty results in a lower blue volume in the experiment results described next. 
+Finally, we also calculate the specificity because Rouge and blue cannot be calculated if the release notes are empty. 
+High specificity means that the model correctly outputs are empty text in cases where the release notes assume empty. 
+Here are the results. 
+Since the data set contains e-mail addresses, hashed values, etc, we also evaluate its claimed they set, which excludes them. 
+TSRS achieved Rouge escorts more than 10 points higher than the baselines. 
+In particular, on the clean test set, the score gap between the proposed method and the baselines jumped to more than 20 points. 
+These results indicate that she has and she has are significantly effective. 
+Cheers go to a better loose school than she is suggesting that combining a classifier and a generator is effective on training the classifier using pseudorabies. 
+High coverage of CS can be achieved properly because the classifier can focus on selecting relevant commit messages for each class. 
+She is much tended to eat higher, larger than she is single. 
+Suggesting that it is also effective to. Independently develop differently obstructive summarization models for each use node class. 
+Here and. There analysis. 
+She has methods tend to output shorter sentences than human reference sentence says. 
+In the figure on the right, the reference sentence has three or four sentences, while she is has only one. 
+The reason for this model reluctance is that his training data only 33% of the sentences are present in the features level and 40% in the improvements level. 
+Furthermore, she has methods cannot generate accurate with note without additional information. 
+The top example on the right is an example of a very messy commit message, and the complete sentence cannot be generated without reference to the corresponding progress or issue. 
+The example below shows that the two commit message in the input are related and should be combined into one sentence, but it fails to do so. 
+Finally. A. Conclusion. 
+We have built a new desert for automatic business generation. 
+We have also formed the task of entering commit messages and thermal exams so that it is applicable to all projects written in English. 
+So experiments show that the proposed method generate less noisy is not at higher coverage than the baselines. 
+Please check out our desert on GitHub. 
+Thank. You. 
+Hello my name is Safari and 
+I represent our paper few short tabular data enrichment using fine tuning Transformers architectures. 
+That's the scientists analyze data and mainly focus on the manipulating the data existing features. 
+But sometimes these features are limited 
+feature generation using another data source may add substantial information. 
+Our research goal is automatic tabular data enrichment using external sources free text. 
+Assume we have a tabular data set and a knowledge base. 
+We need an automatic process which involve. And it linking and text analysis to extract new features from the knowledge base free text. 
+Our framework first is exactly this automatic process. 
+So let's say an example in a datasets fed into fest. 
+In this example the data set is university data set. 
+When its goal is to classify universities into low ranked universities and high-ranking universities. 
+As knowledge base we use Wikipedia. 
+The first phase of first is entity linking, 
+when each entity, in this example the university name, is linked to an entity within the knowledge base. 
+And and the text of the entities of the knowledge base is extracted and add to the data set. 
+In this example, the text is the Wikipedia page abstract. 
+Now we need to generate or extract features from the retrieval text, 
+so we need to. Feature extraction phase which include text analysis 
+and this is the main ability of this paper and I will deep dive into it in the next slides. 
+After the feature. Extraction phase. There is a future generation phase when we use the extracted features to generate a small number of new features. 
+1st. Generate. A. Features in the number of classes of the original data set. 
+In this example, the original data set has two classes, 
+so fast generate 2 new features, 
+but if the data set has five classes, 1st generate 5 new features 
+each feature. Represent the likelihood. For each class. 
+To analyze the text we use the current state-of-the-art of text analysis which are transformed based language models as bare GTX, alerts and etc. 
+It is, but it is not likely that we can train language model using the input datasets. 
+So a naive approach will be a target task fine 
+tuning. So individual extraction. Phase. We can download Petrain language model. Fine tune the language model over. The target data 
+set in this. Example to fine tune the language model. To classify, classify text into classes, abstract into classes low or high. 
+Receive the language model output, which is the likelihood for each class and use as new features. 
+The problem with this approach. Is data sets may have few distinct entities texts. 
+In our experiment, almost half of the datasets contain less than 400 sample and the smallest data set contain 35 sample in his training set. 
+So to fine tune a language model over this data set will be ineffective. 
+But we can use prior knowledge about pre analyze datasets. 
+Because fast is we apply fast over a multiple data set, we can use the n -, 1 data sets. To gather information about the n -, 1 datasets and use. Use this information when we analyze the NTH data set. 
+What we what we suggest is the add to add another fine tuning 
+phase, a preliminary multitask fine tuning 
+phase when you fine tuning the language model over North minus one data 
+sets and then we execute another fine tuning phase which is a target as fine tuning when you find when we fine tune the language model over the NTH target data set. 
+The state-of-the-art in multitask multitask fine tuning called empty 
+DNN in mtDNA. The empty DNN maintain a heads in the number of tasks in the training set. 
+So in this example there are four tasks in the training set. So empty DNN and maintain foreheads as you can see the image 
+and it samples random batch from the training set 
+and if they run batch belongs to a for example singing. With this classification tasks it's execute forward and backward pass through the first head 
+and if the random batch belongs to pairwise ranking task, it's attitude forward and backward path through the last head. 
+And our scenario, a tableau data set behind a number of classes A. 
+So there are many tasks. 
+Then maintain number of classes, heads, output layers 
+and the additional additionally empty DNA needs to initialize a new heads for a new data set with a new task. 
+Our approach called task reformulation fine tuning. Is we in our approach task reformative functioning? Instead of maintaining multiple heads, we reformulate each data set into a sentence per classification problem, which is 2 classes tasks. 
+So let's see an example. 
+Here is the our input data set which consists of entities, features, text and classes 
+and we reformulate. Task from a classifying the text into low and height to classify the text, the abstract and the class into true or false. 
+Or in other. Word. Trained their language model to classify a abstract and Class A. True to to abstract in class. If the abstract belong to the class or not, 
+so the label vector in this case is stays always. Which consist always. With two classes. 
+And this is the algorithm for our fine or formulated fine tuning approach. 
+So let's see the full framework 
+data set fed into fast. 
+And then a fast execute entity linking phase. 
+It extract the text from the knowledge base, which in this example is the abstract of the Wikipedia page. 
+Then it reformulate the task into a pill. Spell. Classification. Tasks. 
+Applied the language model to the new task and the output likelihood for each class, 
+and note that the language model is. Already fine-tuned over n -, 1 data set using a preliminary multitask fine 
+tuning. Then. We. Use. The output vector of the language model is a newly generated feature in the number of classes. 
+To evaluate the our framework, we use a 17 tabular classification data set which varying size features, balanced domain and initial performance. 
+And as knowledge base we use Wikipedia. 
+To design our experiment is live one out. And evaluation when we train fast over 16 datasets and apply it to the 17th data set. 
+We also split each data set into a four folds and apply for folks across validation 
+then. Will generate the new feature and evaluate them using 5 evaluation classifiers. 
+We use in our experiment. Based bird based architecture. 
+Got their results for our experiment, 
+you can see that. We compare our is our framework to target. Data set the fine tuning target task fine tuning. And a empty DNA preliminary fine 
+tuning and. Or. Reformulated. By tuning achieve. The best result? The best performance? 
+While empty DNN. Achieve 2%. Improvement over the. The target data set 
+fine tuning our approach achieves 6% improvement when 
+we look. On the small data set, we can see that the performance of empty DNN decreases and the improvement of the preliminary multitask fine tuning phase decreases to 1.5. Of percent, but 
+our performance increase to 11%. Compared to the target task, fine tuning along. 
+For summing fast enables few short enrichment from 35 samples. In our experiment 
+it uses 1 architecture for all tasks datasets. 
+And he keeps the head. Of of the model. 
+But it adds real formulation phase. 
+It's argument the train set at and its needs a target value with semantic meaning. So we can feed it into the language model and use it in the sentence per classification problem. 
+Thank. You. 

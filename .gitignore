@@ -1,0 +1,7 @@
+.DS_Store
+multilingual-model-card/src/translator/multilingualmodelcard-25ccc9eeb63f.json
+__pycache__/
+multilingual/models/vllm/logs/
+multilingualmc/data_eval_6060/2/acl_6060/dev/*_wavs/
+multilingualmc/data_eval_6060/2/acl_6060/eval/*_wavs/
+multilingualmc/data_ai_papers/pdf/

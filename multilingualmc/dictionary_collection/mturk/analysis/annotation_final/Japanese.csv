@@ -1,0 +1,4771 @@
+Index,English,Japanese
+0,10-fold cross validation,10分割交差検証
+1,1D convolution,1次元畳み込み
+2,2 norm,2ノルム
+3,2D convolution,2次元畳み込み
+4,2D image,2次元画像
+5,2D image synthesis,2D画像合成
+6,2D-3D correspondence,2D-3D対応
+7,3D bounding box,3Dバウンディングボックス
+8,3D computer vision,3Dコンピュータビジョン
+9,3D convolutional network,3D畳み込みネットワーク
+10,3D geometry,3Dジオメトリ
+11,3D human pose estimation,3D人体ポーズ推定
+12,3D localization,3D位置特定
+13,3D mesh,3Dメッシュ
+14,3D model,3Dモデル
+15,3D object detection,3Dオブジェクト検出
+16,3D point,3Dポイント
+17,3D point cloud,3Dポイントクラウド
+18,3D pose,3Dポーズ
+19,3D reconstruction,3D再構成
+20,3D scene,3Dシーン
+21,3D scene geometry,3Dシーンジオメトリ
+22,3D structure,3D構造
+23,5-fold cross validation,5分割交差検証
+24,A * algorithm,A*アルゴリズム
+25,A/B test,A/Bテスト
+26,A2C,A2C
+27,AI,AI
+28,API,API
+29,AQA,AQA
+30,ARENA,ARENA
+31,Ablation study,アブレーションスタディ
+32,Adafactor,アダファクター
+33,Adam,アダム
+34,Adam algorithm,アダムアルゴリズム
+35,Adam optimiser,アダムオプティマイザー
+36,Adam optimization,Adam最適化
+37,Adam optimization algorithm,アダム最適化アルゴリズム
+38,Adam optimizer,Adamオプティマイザ
+39,Adapter,アダプタ
+41,AmbigQA,AmbigQA
+42,Answer Set Programming,アンサーセットプログラミング
+43,Apriori,アプリオリ
+44,Apriori algorithm,アプリオリアルゴリズム
+45,Arcade Learning Environment,アーケード学習環境
+47,Autonomous Systems,自律システム
+48,Average Pool,平均プーリング
+49,Average Precision,平均適合率
+50,Azuma-Hoeffding inequality,アズマ・ホフディング不等式
+51,B-spline,Bスプライン
+52,BART,BART
+53,BERT,BERT
+54,BERTs,BERTs
+55,BETO,BETO
+56,BIO,BIO
+57,BLEU,BLEU
+58,BPE,BPE
+59,BSARD,BSARD
+60,Backbone,バックボーン
+61,Backpropagation,逆伝播
+62,Basis Pursuit,ベーシス・パシュート
+63,Baum-Welch algorithm,バウム・ウェルチアルゴリズム
+64,Bayes,ベイズ
+65,Bayes classifier,ベイズ分類器
+66,Bayes factor,ベイズ因子
+67,Bayes formula,ベイズの公式
+68,Bayes net,ベイズネット
+69,Bayes optimal classifier,ベイズ最適分類器
+70,Bayes risk,ベイズリスク
+71,Bayes risk decoding,ベイズリスクデコーディング
+72,Bayes rule,ベイズ則
+73,Bayes theorem,ベイズの定理
+74,Bayes-Nash equilibrium,ベイズ・ナッシュ均衡
+75,Bayesian Information Criterion,ベイズ情報量基準
+76,Bayesian active learning,ベイジアンアクティブラーニング
+77,Bayesian analysis,ベイジアン分析
+78,Bayesian approach,ベイズ的アプローチ
+79,Bayesian clustering,ベイズクラスタリング
+80,Bayesian decision,ベイズ的決定
+81,Bayesian deep learning,ベイズ深層学習
+82,Bayesian evidence,ベイズ証拠
+83,Bayesian framework,ベイズフレームワーク
+84,Bayesian game,ベイズゲーム
+85,Bayesian inference,ベイズ推論
+86,Bayesian learning,ベイズ学習
+87,Bayesian method,ベイズ法
+88,Bayesian model,ベイズモデル
+89,Bayesian network,ベイジアンネットワーク
+90,Bayesian optimization,ベイズ最適化
+91,Bayesian perspective,ベイズ的視点
+92,Bayesian probabilistic model,ベイズ確率モデル
+93,Bayesian update,ベイズ更新
+94,Bellman,ベルマン
+95,Bellman backup,ベルマンバックアップ
+96,Bellman equation,ベルマン方程式
+97,Bellman error,ベルマン誤差
+98,Bellman operator,ベルマン演算子
+99,Berkeley parser,バークレー構文解析器
+100,Berkeley segmentation dataset,バークレーセグメンテーションデータセット
+101,Bernoulli,ベルヌーイ
+102,Bernoulli distribution,ベルヌーイ分布
+103,Bernoulli likelihood,ベルヌーイ尤度
+104,Bernoulli random variable,ベルヌーイ確率変数
+105,Bernoulli sampling,ベルヌーイサンプリング
+106,Bernoulli trial,ベルヌーイ試行
+107,Bernoulli variable,ベルヌーイ変数
+108,Bernstein's inequality,バーンスタインの不等式
+109,Bethe approximation,ベーテ近似
+110,Bhattacharyya coefficient,バタチャリヤ係数
+111,Bloom filter,ブルームフィルタ
+112,Boltzmann distribution,ボルツマン分布
+113,Boltzmann exploration,ボルツマン探索
+114,Bonferroni correction,ボンフェローニ補正
+115,Boolean formula,ブール式
+116,Boolean function,ブール関数
+117,Boolean variable,ブール変数
+118,Borda scores,ボルダ得点
+119,Bradley-Terry Model,ブラッドリー＝テリーモデル
+120,Branch and Bound,分枝限定法
+121,Bregman divergence,ブレグマン発散
+122,Bregman's method,ブレグマン法
+123,Bundle adjustment,バンドル調整
+124,Byte-Pair Encoding,バイトペアエンコーディング
+125,CAS,CAS
+126,CDA,CDA
+127,CEAS,CEAS
+128,CLIP,CLIP
+129,CLS,CLS
+130,CONLL,CoNLL
+131,CRF,CRF
+132,Caltech-101,カルテック-101
+133,CamemBERT,CamemBERT
+134,Canny detector,キャニー検出器
+135,Canny edge detector,キャニーエッジ検出器
+136,Chamfer Distance,チャンファー距離
+137,Charniak parser,チャーニアックパーサー
+138,Chebyshev acceleration,チェビシェフ加速
+139,Chebyshev polynomial,チェビシェフ多項式
+140,Chernoff bound,チェルノフ境界
+141,Cholesky decomposition,コレスキー分解
+142,Cholesky factor,コレスキー因子
+143,Cholesky factorization,コレスキー因子分解
+144,Chomsky normal form,チョムスキー標準形
+145,Chu-Liu-Edmonds algorithm,Chu-Liu-Edmonds アルゴリズム
+146,Chung-Lu model,Chung-Lu モデル
+147,CodeBERT,CodeBERT
+148,Cohen's kappa,コーエンのカッパ
+149,Cohen's kappa coefficient,コーエンのカッパ係数
+150,Cohen's κ,コーエンのκ
+151,Combinatory Categorial Grammar,組み合わせ的カテゴリアル文法
+152,Commonsense Reasoning,常識推論
+153,Compressed sensing,圧縮センシング
+154,Computational linguistic,計算言語学
+155,Condition 1,条件1
+156,Conditional Generation,条件付き生成
+157,Condorcet winner,コンドルセ勝者
+158,Contrastive Learning,対照学習
+159,Coreference Resolution,共参照解決
+160,Coreset,コアセット
+161,Corpora,コーパス
+162,Cosine distance,コサイン距離
+163,Counterfactual Regret Minimization,反事実的後悔最小化
+164,Cross Entropy Loss,クロスエントロピー損失
+165,Datalog,データログ
+166,Datalog program,Datalogプログラム
+167,Dataset,データセット
+168,Decentralized optimization,分散最適化
+169,Decision Transformer,デシジョントランスフォーマー
+170,Decomposable Attention,分解可能アテンション
+171,Decomposable Attention Model,分解可能注意モデル
+172,Demographic Parity,デモグラフィックパリティ
+174,Detectron,ディテクトロン
+175,Determinantal Point process,行列式点過程
+177,Dialogue State Tracking,ダイアログ状態追跡
+178,Dice coefficient,ダイス係数
+179,Dice loss,ダイス損失
+180,Dijkstra's algorithm,ダイクストラのアルゴリズム
+181,Dirac distribution,ディラック分布
+182,Dirac measure,ディラック測度
+183,Dirichlet,ディリクレ
+184,Dirichlet Process,ディリクレ過程
+185,Dirichlet distribution,ディリクレ分布
+186,Dirichlet prior,ディリクレ事前分布
+187,Disentanglement,分離化
+188,Dropout distribution,ドロップアウト分布
+189,E-step,Eステップ
+190,Elastic Net,エラスティックネット
+191,Electra,エレクトラ
+193,Entity Linking,エンティティリンク
+194,Epanechnikov kernel,エパネチニコフカーネル
+195,Euclidean,ユークリッド
+196,Euclidean distance,ユークリッド距離
+197,Euclidean divergence,ユークリッドダイバージェンス
+198,Euclidean loss,ユークリッド損失
+199,Euclidean norm,ユークリッドノルム
+200,Euclidean plane,ユークリッド平面
+201,Euclidean projection,ユークリッド射影
+202,Euclidean space,ユークリッド空間
+203,Euclidean transformation,ユークリッド変換
+204,Euler angle,オイラー角
+205,Euler step,オイラーステップ
+206,Exact Match,完全一致
+207,Extended Kalman Filter,拡張カルマンフィルター
+208,F-measure,F値
+209,F-score,Fスコア
+210,F1 measure,F1スコア
+211,F1 metric,F1メトリック
+212,F1 score,F1スコア
+213,FLR,FLR
+214,Fairseq,フェアセク
+215,Fano's inequality,ファノの不等式
+216,Fast Fourier Transform,高速フーリエ変換
+217,FeSTE,FeSTE
+218,Feature Pyramid Network,特徴ピラミッドネットワーク
+219,Federated Learning,フェデレーテッドラーニング
+220,Fisher information matrix,フィッシャー情報行列
+221,Fisher score,フィッシャースコア
+222,Fleiss' kappa,フレイスのカッパ
+223,Floyd-Warshall algorithm,フロイド・ワーシャル・アルゴリズム
+224,Focal Loss,フォーカルロス
+225,Fokker-Planck equation,フォッカー・プランク方程式
+227,Fourier basis function,フーリエ基底関数
+228,Fourier coefficient,フーリエ係数
+229,Fourier feature,フーリエ特徴
+230,Fourier frequency,フーリエ周波数
+231,Fourier transform,フーリエ変換
+233,Frobenius inner product,フロベニウス内積
+234,Frobenius norm,フロベニウスノルム
+235,Fréchet,フレーシェ
+237,GLUE,GLUE
+238,GPT,GPT
+239,Gamma prior,ガンマ事前分布
+240,Gauss-Newton algorithm,ガウス・ニュートン法
+241,Gauss-Seidel method,ガウス・ザイデル法
+242,Gaussian blur,ガウスぼかし
+243,Gaussian complexity,ガウス複雑性
+244,Gaussian component,ガウス成分
+245,Gaussian conditional random field,ガウス条件付きランダムフィールド
+246,Gaussian density,ガウス密度
+247,Gaussian distribution,ガウス分布
+248,Gaussian elimination,ガウス消去法
+249,Gaussian filter,ガウスフィルタ
+250,Gaussian function,ガウス関数
+251,Gaussian initialization,ガウス初期化
+252,Gaussian kernel,ガウスカーネル
+253,Gaussian likelihood,ガウス尤度
+254,Gaussian matrix,ガウスマトリックス
+255,Gaussian mixture,ガウス混合
+256,Gaussian mixture model,ガウス混合モデル
+257,Gaussian model,ガウスモデル
+258,Gaussian noise,ガウスノイズ
+259,Gaussian prior,ガウス事前分布
+260,Gaussian process,ガウス過程
+261,Gaussian process model,ガウス過程モデル
+262,Gaussian process regression,ガウス過程回帰
+263,Gaussian random variable,ガウス確率変数
+264,Gaussian smoothing,ガウス平滑化
+265,Gaussian variable,ガウス変数
+266,Gaussian weight,ガウス重み
+267,Gene Ontology,ジーンオントロジー
+268,Gensim,ゲン
+269,Gibbs iteration,ギブス反復
+270,Gibbs sampler,ギブスサンプラー
+271,Gibbs sampling,ギブスサンプリング
+272,Gini coefficient,ジニ係数
+273,Good-Turing estimate,グッド・チューリング推定
+274,GoogLeNet,グーグルネット
+275,Gram matrix,グラム行列
+276,Graph Transformer,グラフトランスフォーマー
+277,Gröbner basis,グレブナー基底
+278,Gumbel,ガンベル
+279,Gumbel distribution,ガンベル分布
+280,Gumbel noise,ガンベルノイズ
+281,Gumbel-softmax distribution,ガンベルソフトマックス分布
+282,Haar wavelet,ハールウェーブレット
+283,Hadamard matrix,ハダマード行列
+284,Hadamard product,ハダマード積
+285,Hamiltonian Monte Carlo,ハミルトンモンテカルロ
+286,Hamming distance,ハミング距離
+287,Hamming loss,ハミング損失
+288,Hankel matrix,ハンケル行列
+289,Hausdorff distance,ハウスドルフ距離
+290,Hedge algorithm,ヘッジアルゴリズム
+291,Hellinger distance,ヘリング距離
+292,Helmholtz machine,ヘルムホルツマシン
+294,Hessian matrix,ヘッセ行列
+295,Hessian-vector product,ヘッセ行列-ベクトル積
+296,Hiero system,ヒエロシステム
+297,Hodge decomposition,ホッジ分解
+298,Hoeffding's inequality,ヘフディングの不等式
+299,Homography,ホモグラフィ
+300,Horn theory,ホーン理論
+301,HowTo100M,HowTo100M
+302,Huber loss,フーバー・ロス
+303,Huber norm,フーバー規範
+304,Hungarian loss,ハンガリアン損失
+305,Hyper-parameter,ハイパーパラメータ
+306,Hyperband,ハイパーバンド
+307,Hyperparameter search,ハイパーパラメータ探索
+308,ICLR,ICLR
+309,IDF,IDF
+310,In-context Learning,コンテキスト内学習
+311,Inception network,インセプションネットワーク
+312,Independent Cascade,独立カスケード
+313,Independent Cascade Model,独立カスケードモデル
+314,Influence Maximization,影響最大化
+315,Information Extraction,情報抽出
+316,Informer model,インフォーマーモデル
+317,Inside-Outside algorithm,インサイド・アウトサイドアルゴリズム
+318,Instance Normalization,インスタンス正規化
+319,Ising model,イジングモデル
+320,Iverson bracket,アイバーソンブラケット
+321,Jaccard,ジャッカード
+322,Jaccard index,ジャッカード指数
+323,Jaccard similarity,ジャッカード類似度
+324,Jaccard similarity coefficient,ジャッカード類似係数
+325,Jacobian matrix,ヤコビ行列
+326,Jensen's inequality,ヤンセンの不等式
+327,Jensen-Shannon,ヤンセン・シャノン
+328,Jensen-Shannon divergence,ヤンセン・シャノン発散
+329,K-L divergence,K-Lダイバージェンス
+330,K-means,K-平均法
+331,K-means algorithm,K-平均アルゴリズム
+332,K-means clustering,K-平均クラスタリング
+333,Kalman filter,カルマンフィルタ
+334,Kendall's τ,ケンドールのτ
+335,Keras,難しい
+336,Kernel,カーネル
+337,KinyaBERT,KinyaBERT
+338,Kleene closure,クレーネ閉包
+339,Kneser-Ney smoothing,クネーザー・ネイ平滑化
+340,Kolmogorov-Smirnov test,コルモゴロフ・スミルノフ検定
+341,Krippendorff's α,クリッペンドルフのα
+342,Kronecker delta,クロネッカーのデルタ
+343,Kronecker product,クロネッカー積
+344,Kullback Leibler divergence,クルバック・ライブラー発散
+345,L 1 -norm,L1ノルム
+346,L 1 distance,L1距離
+347,L 2 -norm,L2ノルム
+348,L 2 distance,L2距離
+349,L 2 loss,L2損失
+350,L 2 regularization,L2正則化
+351,L ∞ norm,L∞ノルム
+352,L1 bound,L1バウンド
+353,L1 difference,L1差
+354,L1 loss,L1損失
+355,L1 penalty,L1ペナルティ
+356,L1 regularization,L1正則化
+357,L1 term,L1項
+358,L2 error,L2誤差
+359,L2 regularisation,L2正則化
+360,L2 regularizer,L2正則化項
+361,L2 weight decay,L2重み減衰
+362,L2-normalization,L2正規化
+363,LXMert,LXMert
+364,Lagrange multiplier,ラグランジュ乗数
+365,Lagrangian duality,ラグランジュ双対性
+366,Lagrangian multiplier,ラグランジュ乗数
+367,Lagrangian relaxation,ラグランジュ緩和
+368,Lambertian reflectance,ランバート反射率
+369,Lanczos iteration,ランチョス反復法
+370,Langevin dynamic,ランジュバン動力学
+371,Language Modeling Toolkit,言語モデルツールキット
+372,Laplace approximation,ラプラス近似
+373,Laplace distribution,ラプラス分布
+374,Laplace noise,ラプラスノイズ
+375,Laplace smoothing,ラプラス平滑化
+376,Laplace-Beltrami operator,ラプラス・ベルトラミ演算子
+377,Laplacian distribution,ラプラス分布
+378,Laplacian matrix,ラプラス行列
+379,Laplacian smoothing,ラプラシアン平滑化
+380,Lasso,ラッソ
+381,Lasso penalty,ラッソペナルティ
+382,Lemma,補題
+383,Levenberg-Marquardt algorithm,レーベンバーグ-マルカートアルゴリズム
+384,Levenshtein distance,レーベンシュタイン距離
+385,Levenshtein edit distance,レーベンシュタイン編集距離
+386,Lexical Functional Grammar,語彙機能文法
+387,Libratus,リブラトゥス
+388,Lie algebra,リー代数
+389,Likert scale,リッカート尺度
+390,LinCE,LinCE
+391,Linear Threshold,線形閾値
+392,Linear Threshold Model,線形閾値モデル
+393,Linear Transformer,リニアトランスフォーマー
+394,Linformer,リンフォーマー
+395,Lipschitz,リプシッツ
+396,Lipschitz constant,リプシッツ定数
+397,Lipschitz continuity,リプシッツ連続性
+398,Lipschitz continuous,リプシッツ連続
+399,Lipschitz function,リプシッツ関数
+400,Lipschitzness,リプシッツ性
+401,Local Consistency,局所整合性
+402,Log Gaussian Cox Process,ログガウスコックス過程
+403,Longformer,ロングフォーマー
+404,Lucene,ルーセーン
+405,Lyapunov function,リャプノフ関数
+406,M-estimation,M推定
+407,M-step,Mステップ
+408,MAWPS,MAWPS
+409,MTDNN,MTDNN
+410,Machine Comprehension,機械理解
+411,Machine Learning Repository,機械学習リポジトリ
+412,Machine Reading Comprehension,機械読解
+413,Mahalanobis distance,マハラノビス距離
+414,Mahalanobis distance function,マハラノビス距離関数
+415,Mahalanobis matrix,マハラノビス行列
+416,Mahalanobis metric,マハラノビス距離
+417,Manhattan distance,マンハッタン距離
+418,Marching Cubes,マーチングキューブ
+419,Markov,マルコフ
+420,Markov assumption,マルコフ仮定
+421,Markov blanket,マルコフブランケット
+422,Markov chain,マルコフ連鎖
+423,Markov chain Monte Carlo,マルコフ連鎖モンテカルロ法
+424,Markov chain model,マルコフ連鎖モデル
+425,Markov decision process,マルコフ決定過程
+426,Markov game,マルコフゲーム
+427,Markov kernel,マルコフカーネル
+428,Markov logic,マルコフ論理
+429,Markov logic network,マルコフ論理ネットワーク
+430,Markov model,マルコフモデル
+431,Markov network,マルコフネットワーク
+432,Markov process,マルコフ過程
+433,Markov property,マルコフ性
+434,Markov random field,マルコフランダムフィールド
+435,Markov state,マルコフ状態
+436,Markov transition,マルコフ遷移
+437,Markov transition matrix,マルコフ遷移行列
+438,Markov's inequality,マルコフの不等式
+439,MatConvNet,MatConvNet
+440,Matching Network,マッチングネットワーク
+441,MathQA,MathQA
+442,Matrix factorization,行列分解
+443,Matérn kernel,マテーンカーネル
+444,Maximum Satisfiability,最大充足可能性
+445,Mechanical Turk,メカニカルターク
+446,Metropolis Hastings,メトロポリス・ヘイスティングス
+447,Metropolis algorithm,メトロポリスアルゴリズム
+448,Metropolis method,メトロポリス法
+449,Metropolis-Hasting,メトロポリス・ヘイスティングス
+450,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングス受容比
+451,Metropolis-Hastings algorithm,メトロポリス・ヘイスティングスアルゴリズム
+452,Metropolis-Hastings sampler,メトロポリス・ヘイスティングスサンプラー
+453,Mixup,ミックスアップ
+455,Monotonicity,単調性
+456,Monte Carlo,モンテカルロ
+457,Monte Carlo Dropout,モンテカルロドロップアウト
+458,Monte Carlo algorithm,モンテカルロアルゴリズム
+459,Monte Carlo approximation,モンテカルロ近似
+460,Monte Carlo estimate,モンテカルロ推定
+461,Monte Carlo estimation,モンテカルロ推定
+462,Monte Carlo estimator,モンテカルロ推定器
+463,Monte Carlo method,モンテカルロ法
+464,Monte Carlo sample,モンテカルロサンプル
+465,Monte Carlo search,モンテカルロ探索
+466,Monte Carlo simulation,モンテカルロシミュレーション
+467,Monte Carlo tree search,モンテカルロ木探索
+468,Monte-Carlo return,モンテカルロリターン
+469,Moore-Penrose pseudo-inverse,ムーア・ペンローズ擬似逆行列
+471,Morfessor,モルフェッサー
+473,Multi-Task Learning,マルチタスク学習
+474,Multidimensional Quality metric,多次元品質指標
+475,Multidimensional Scaling,多次元尺度法
+476,Multiple Choice,多肢選択
+477,NLI,NLI
+478,NLP,自然言語処理
+479,Nadaraya-Watson estimator,ナダラヤ・ワトソン推定量
+480,Nash equilibria,ナッシュ均衡
+481,Nash welfare,ナッシュ福祉
+482,Natural Language Inference,自然言語推論
+483,Natural Language Understanding,自然言語理解
+484,Natural question,ナチュラルクエスチョン
+485,Naïve Bayes,ナイーブベイズ
+486,Nesterov momentum,ネステロフモメンタム
+487,Neural Information Processing Systems,神経情報処理システム
+488,Neural Radiance field,ニューラル放射場
+489,Neural volume,ニューラルボリューム
+490,Newton method,ニュートン法
+491,Newton's method,ニュートン法
+492,Nom-Bank,ノンバンク
+493,Non-maximum suppression,非最大抑制
+494,Nucleus Sampling,ニュクレウスサンプリング
+495,Nyström approximation,ニューストローム近似
+496,OOV,OOV
+497,Object Localization,物体位置特定
+498,Open Information Extraction,オープン情報抽出
+499,Optimization Problem,最適化問題
+500,Ornstein-Uhlenbeck,オルンシュタイン-ウーレンベック
+501,PaLM,PaLM
+502,Pareto dominated,パレート支配
+503,Pareto frontier,パレートフロンティア
+504,Pareto optimal,パレート最適
+505,Pareto optimality,パレート最適性
+506,Pareto-efficient,パレート効率的
+507,Partially Observable Markov Decision Process,部分観測マルコフ決定過程
+508,Parzen window,パルゼンウィンドウ
+509,Pearson correlation,ピアソンの相関
+510,Pearson correlation coefficient,ピアソンの相関係数
+511,Pearson's correlation,ピアソンの相関
+512,Pearson's correlation coefficient,ピアソンの相関係数
+513,Pearson's r,ピアソンのr
+514,Pearson's r correlation,ピアソンのr相関
+515,Penn English Treebank,ペン・イングリッシュ・ツリーバンク
+516,Penn Treebank corpus,ペン・ツリーバンク・コーパス
+517,Perron-Frobenius theorem,ペロン・フロベニウス定理
+518,Pinsker's inequality,ピンスカーの不等式
+519,Pitman-Yor Process,ピットマン・ヨール過程
+520,Platt scaling,プラットスケーリング
+521,Pointwise Mutual Information,ポイントワイズ相互情報量
+522,Poisson distribution,ポアソン分布
+523,Poisson matting,ポアソンマッティング
+524,Poisson model,ポアソンモデル
+525,Poisson point process,ポアソン点過程
+526,Poisson process,ポアソン過程
+527,Poisson random variable,ポアソンランダム変数
+528,Poisson rate,ポアソン率
+529,Poisson regression,ポアソン回帰
+530,Poisson sampling,ポアソンサンプリング
+531,Potts model,ポッツモデル
+532,Prop-Bank,プロップバンク
+533,Proposition,命題
+534,Proximal Policy Optimization,近接方策最適化
+535,PubMed,PubMed
+536,Py-Torch,PyTorch
+537,Q function,Q関数
+538,Q value,Q値
+539,Q-learning,Q学習
+540,Q-network,Qネットワーク
+541,QA,QA
+542,QED,QED
+543,QUOREF,QUOREF
+544,Quality Estimation,品質推定
+545,Query expansion,クエリ拡張
+546,Question Answering,質問応答
+547,R-Precision,R-精度
+548,REALM,REALM
+549,RGF,RGF
+550,RNSum,RNSum
+551,ROUGE,ROUGE
+552,Rademacher average,ラデマッハー平均
+553,Rademacher complexity,ラデマッハー複雑性
+554,Radon-Nikodym derivative,ラドン–ニコディム導関数
+555,Random Forest classifier,ランダムフォレスト分類器
+556,Rao-Blackwellization,ラオ-ブラックウェル化
+557,Reading Comprehension,読解力
+558,Receiver Operating Characteristic Curve,受信者動作特性曲線
+559,Recognizing Textual Entailment,テキスト含意認識
+560,Recurrent layer,再帰層
+561,Reformer,リフォーマー
+562,Regressor,回帰器
+563,ResNeXt,レスネクスト
+564,Retrieval-Augmented Generation,検索拡張生成
+565,Rhetorical Structure Theory,修辞構造理論
+566,Riemannian geometry,リーマン幾何学
+567,Riemannian gradient,リーマン勾配
+568,Riemannian manifold,リーマン多様体
+569,Robertson-Webb model,ロバートソン＝ウェッブモデル
+570,Routing Transformer,ルーティングトランスフォーマー
+571,Runge-Kutta,ルンゲ＝クッタ法
+572,Runge-Kutta method,ルンゲ・クッタ法
+573,Rényi entropy,レンyiエントロピー
+574,S node,Sノード
+575,S-expression,S式
+576,SMCalFlow,SMCalFlow
+577,SUTD,SUTD
+578,SVAMP,SVAMP
+579,Schur complement,シュアの補数
+580,Scikit-learn,Scikit-learn
+581,Self-supervised learning,自己教師あり学習
+583,Semantic Scholar,セマンティック・スカラー
+584,Semantic Web,セマンティックウェブ
+585,Sentence-Piece,SentencePiece
+586,Seq2Seq,シーケンス 2 シーケンス
+587,Set Cover,セットカバー
+588,Shannon entropy,シャノンエントロピー
+589,Sherman-Morrison formula,シャーマン・モリソンの公式
+590,Sherman-Morrison-Woodbury formula,シャーマン・モリソン・ウッドベリーの公式
+591,Siamese architecture,シャムネットワークアーキテクチャ
+592,Siamese network,シャムネットワーク
+594,Sinkhorn algorithm,シンクホーンアルゴリズム
+595,Softmax layer,ソフトマックス層
+596,Sparse Transformer,スパーストランスフォーマー
+597,Sparse reconstruction,スパース再構成
+598,Sparsemax,スパースマックス
+599,Spearman correlation,スピアマン相関
+600,Spearman rank correlation,スピアマン順位相関
+601,Spearman's correlation,スピアマンの相関
+602,Spearman's correlation coefficient,スピアマンの相関係数
+603,Spearman's rank correlation coefficient,スピアマンの順位相関係数
+604,Squared Exponential kernel,二乗指数カーネル
+605,Stanford Parser,スタンフォードパーサー
+606,Stanford Question Answering Dataset,スタンフォード質問応答データセット
+607,Stanford Sentiment Treebank,スタンフォード感情ツリーバンク
+608,Stanford dependency,スタンフォード依存関係
+609,Stanford dependency framework,スタンフォード依存関係フレームワーク
+610,Stanford dependency parser,スタンフォード依存構文解析器
+611,State-of-the-art,最先端
+612,Statistical Machine Translation,統計的機械翻訳
+613,Story Cloze Test,ストーリークローズテスト
+614,Structure from motion,動きからの構造
+615,Subgraph,サブグラフ
+616,Submodularity,サブモジュラリティ
+617,Swin-S,スウィンS
+618,T5 model,T5モデル
+619,T5-11B,T5-11B
+620,T5-11B model,T5-11Bモデル
+621,T5-Large,T5-ラージ
+622,T5-base,T5ベース
+623,T5-base model,T5ベースモデル
+624,T5-large model,T5-largeモデル
+625,Tanh,双曲線正接
+626,Taylor approximation,テイラー近似
+627,Text Classification,テキスト分類
+628,Text Summarization,テキスト要約
+629,Text-to-Text Transfer Transformer,テキスト・ツー・テキスト転送トランスフォーマー
+630,Theano,テアノ
+632,Toeplitz matrix,トプリッツ行列
+633,Topic Detection and Tracking,トピック検出と追跡
+634,Transformer architecture,トランスフォーマーアーキテクチャ
+635,Transformer block,トランスフォーマーブロック
+636,Transformer decoder,トランスフォーマーデコーダ
+637,Transformer encoder,トランスフォーマーエンコーダ
+638,Transformer-based language model,トランスフォーマーベースの言語モデル
+639,Transformer-based model,トランスフォーマーベースのモデル
+640,Transformer-like,トランスフォーマー的
+641,Traveling Salesman Problem,巡回セールスマン問題
+642,TreeDST,TreeDST
+643,Triggering Model,トリガーモデル
+644,Tucker decomposition,タッカー分解
+645,Turing machine,チューリングマシン
+646,Turing reduction,チューリング還元
+647,Turing test,チューリングテスト
+648,U-statistic,U統計量
+649,Universal dependency,ユニバーサル依存関係
+650,Upper Confidence Bound,上限信頼区間
+651,VALSE,VALSE
+652,VFL,VFL
+653,Vandermonde matrix,ヴァンデルモンデ行列
+654,Vertex Cover,頂点被覆
+655,ViLBERT,ViLBERT
+656,Vision Transformer,ビジョントランスフォーマー
+657,Visual Question Answering,ビジュアル質問応答
+658,VisualBERT,VisualBERT
+659,Viterbi,ビタビ
+660,Viterbi algorithm,ビタビアルゴリズム
+661,Viterbi decoding,ビタビ復号
+662,Wasserstein distance,ワッサースタイン距離
+663,Weibull,ワイブル
+664,Weisfeiler-Lehman test,ワイスフェイラー＝レーマンテスト
+665,Wiener process,ウィーナー過程
+667,Wilcoxon signed-rank test,ウィルコクソンの符号付き順位検定
+668,Winograd Schema,ウィノグラードスキーマ
+669,Winograd Schema Challenge,ウィノグラードスキーマチャレンジ
+670,Winogrande,ウィノグランデ
+671,Woodbury matrix identity,ウッドベリー行列恒等式
+672,Word Mover's Distance,ワードムーバー距離
+673,Word2Vec,Word2Vec
+674,XLM,XLM
+675,XLNet,XLNet
+676,Z-score,Zスコア
+677,Zipf,ジップフ
+678,Zipf distribution,ジップフ分布
+679,Zipf's law,ジップフの法則
+680,abductive explanation,アブダクティブ説明
+681,ablation,アブレーション
+682,ablation analysis,アブレーション分析
+683,ablation experiment,アブレーション実験
+684,abstraction,抽象化
+685,abstraction heuristic,抽象ヒューリスティック
+686,abstractive summarization,抽象的要約
+687,accelerated gradient descent,加速勾配降下法
+688,acceptance function,受容関数
+689,acceptance probability,受容確率
+690,accumulated error,累積誤差
+691,accuracy,精度
+693,acoustic feature,音響特徴
+694,acoustic model,音響モデル
+695,acquisition function,獲得関数
+696,action classification,アクション分類
+697,action embedding,アクション埋め込み
+698,action recognition,アクション認識
+699,action sequence,アクションシーケンス
+700,action set,アクションセット
+701,action space,行動空間
+702,action-value function,行動価値関数
+703,actionability,アクショナビリティ
+704,activation,活性化
+705,activation function,活性化関数
+706,activation matrix,活性化行列
+707,activation vector,活性化ベクトル
+708,active learning,アクティブラーニング
+709,active learning loop,アクティブラーニングループ
+710,active set,アクティブセット
+711,activity detection,活動検出
+712,activity recognition,活動認識
+713,actor,アクター
+714,actor critic algorithm,アクター・クリティックアルゴリズム
+715,actor network,アクターネットワーク
+716,actor-critic framework,アクター・クリティックフレームワーク
+717,actor-critic method,アクター・クリティック法
+718,adapter-based fine-tuning,アダプターベースのファインチューニング
+719,adaptive boosting algorithm,アダプティブブースティングアルゴリズム
+720,adaptive thresholding,適応的しきい値処理
+721,additive Gaussian noise,加法的ガウスノイズ
+722,additive noise,加法ノイズ
+723,adjacency,隣接性
+724,adjacency matrix,隣接行列
+725,advantage function,アドバンテージ関数
+726,advcl,副詞節
+728,adversarial attack,敵対的攻撃
+729,adversarial dataset,敵対的データセット
+730,adversarial example,敵対的例
+731,adversarial filtering,敵対的フィルタリング
+732,adversarial input,敵対的入力
+733,adversarial learning,敵対的学習
+734,adversarial loss,敵対的損失
+735,adversarial network,敵対的ネットワーク
+736,adversarial perturbation,敵対的摂動
+737,adversarial prompt,敵対的プロンプト
+738,adversarial robustness,敵対的ロバスト性
+739,adversarial training,敵対的訓練
+740,adversary,敵対者
+741,advmod,advmod
+742,affine,アフィン
+743,affine subspace,アフィン部分空間
+744,affine transform,アフィン変換
+745,affine transformation,アフィン変換
+746,affinity matrix,アフィニティ行列
+747,affinity measure,親和性の尺度
+748,agent architecture,エージェントアーキテクチャ
+749,agent learning,エージェント学習
+750,agent policy,エージェントポリシー
+751,agent's policy,エージェントのポリシー
+752,agent-based model,エージェントベースモデル
+753,aggregate function,集約関数
+754,aggregation,集約
+755,aggregation function,集約関数
+756,aleatoric uncertainty,アレアトリック不確実性
+758,algorithm class,アルゴリズムクラス
+759,algorithm design,アルゴリズム設計
+760,algorithmic approach,アルゴリズム的アプローチ
+761,algorithmic bias,アルゴリズム的バイアス
+762,algorithmic fairness,アルゴリズム的公正性
+763,algorithmic stability,アルゴリズムの安定性
+765,alias table,エイリアステーブル
+766,alignment algorithm,アライメントアルゴリズム
+767,alignment model,アライメントモデル
+768,alpha compositing,アルファ合成
+769,alphabet size,アルファベットサイズ
+770,alternating least square,交互最小二乗法
+771,alternating minimization,交互最小化
+772,ambient space,周囲空間
+774,anaphora resolution,指示詞解決
+775,anaphoric reference,照応参照
+776,ancestral sampling,祖先サンプリング
+777,anchor,アンカー
+778,anchor box,アンカーボックス
+780,annotated corpus,注釈付きコーパス
+781,annotated datum,注釈付きデータ
+783,annotation artifact,注釈アーティファクト
+784,annotation projection,注釈投影
+786,annotator,アノテーター
+787,annotator bias,アノテーターのバイアス
+789,anomaly detection,異常検知
+790,anomaly score,異常スコア
+792,answer set,解答集合
+793,answer set solver,解答集合ソルバー
+794,answer span,解答範囲
+795,answer variable,解答変数
+796,antecedent,前件
+797,antithetic sampling,反対称サンプリング
+798,anytime algorithm,エニタイムアルゴリズム
+799,aperture problem,アパーチャ問題
+800,appearance model,外観モデル
+801,apprenticeship learning,アプレンティスシップ学習
+803,approximate inference,近似推論
+804,approximate inference algorithm,近似推論アルゴリズム
+805,approximate posterior,近似事後分布
+806,approximate posterior distribution,近似事後分布
+807,approximate similarity search,近似類似検索
+808,approximation,近似
+809,approximation algorithm,近似アルゴリズム
+810,approximation bound,近似境界
+811,approximation error,近似誤差
+812,approximation factor,近似因子
+813,approximation guarantee,近似保証
+814,approximation ratio,近似比
+815,approximator,近似器
+816,arc-factored model,アーク因子モデル
+817,architectural modification,アーキテクチャの変更
+818,architecture,アーキテクチャ
+819,architecture search,アーキテクチャ探索
+820,arg max,最大値を取る引数
+821,arg min,最小化引数
+822,argument,引数
+823,argument identification,引数の特定
+824,argument relation,引数関係
+825,argument structure,引数構造
+826,arity,アリティ
+827,artificial agent,人工エージェント
+828,artificial intelligence,人工知能
+829,artificial intelligence system,人工知能システム
+830,artificial neural network,人工ニューラルネットワーク
+833,assignment problem,割り当て問題
+834,association rule,アソシエーションルール
+835,association rule mining,アソシエーションルールマイニング
+836,asymmetric transformation,非対称変換
+837,asymptotic bias,漸近バイアス
+838,asymptotic notation,漸近表記
+839,asymptotic variance,漸近分散
+840,attack success rate,攻撃成功率
+841,attention,注意
+842,attention distribution,アテンション分布
+843,attention function,アテンション関数
+844,attention head,アテンションヘッド
+845,attention layer,アテンション層
+846,attention map,アテンションマップ
+847,attention mask,アテンションマスク
+848,attention matrix,アテンション行列
+849,attention mechanism,アテンションメカニズム
+850,attention model,アテンションモデル
+851,attention module,アテンションモジュール
+852,attention operation,アテンション操作
+853,attention pattern,アテンションパターン
+854,attention score,アテンションスコア
+855,attention value,アテンション値
+856,attention weight,アテンション重み
+857,attention-based model,注意機構に基づくモデル
+858,attribute,属性
+859,attribution,帰属
+860,augmentation,増強
+862,augmented state space,拡張状態空間
+863,auto-regressive language model,自己回帰言語モデル
+864,auto-regressive model,自己回帰モデル
+865,auto-regressive process,自己回帰過程
+866,autocalibration,自動キャリブレーション
+867,autocorrelation,自己相関
+868,autodiff,自動微分
+869,autoencoder,オートエンコーダ
+870,automata,オートマトン
+871,automated mechanism design,自動メカニズム設計
+873,automatic differentiation,自動微分
+874,automatic evaluation,自動評価
+875,automatic post-editing,自動ポストエディット
+876,automatic speech recognition,自動音声認識
+878,automorphism,自己同型
+879,autonomous agent,自律エージェント
+880,autonomous vehicle,自律走行車
+881,autoregressive decoder,自己回帰デコーダ
+882,autoregressive generation,自己回帰生成
+883,auxiliary classifier,補助分類器
+884,auxiliary loss,補助損失
+885,auxiliary task,補助タスク
+886,auxiliary variable,補助変数
+887,auxillary loss,補助損失
+888,average loss,平均損失
+889,averaged perceptron,平均パーセプトロン
+890,averaged perceptron algorithm,平均パーセプトロンアルゴリズム
+891,axis-aligned rectangle,軸に整列した長方形
+892,back-off strategy,バックオフ戦略
+893,back-propagate,バックプロパゲート
+894,back-propagated gradient,バックプロパゲートされた勾配
+895,back-propagation algorithm,バックプロパゲーションアルゴリズム
+896,back-translation,バックトランスレーション
+897,backbone model,バックボーンモデル
+898,backbone network,バックボーンネットワーク
+899,backdoor,バックドア
+900,backdoor adjustment,バックドア調整
+901,backdoor attack,バックドア攻撃
+902,backdoor sample,バックドアサンプル
+903,background model,背景モデル
+904,background subtraction,背景差分
+905,backoff model,バックオフモデル
+906,backpointer,バックポインタ
+907,backprojection,バックプロジェクション
+908,backprop,バックプロップ
+909,backtracking line search,バックトラッキングラインサーチ
+910,backward pass,バックワードパス
+911,bag of feature,特徴の袋
+912,bag-of-word,バッグ・オブ・ワーズ
+913,bag-of-word model,バッグ・オブ・ワーズモデル
+914,bag-of-word representation,バッグ・オブ・ワーズ表現
+915,bandit,バンディット
+916,bandit feedback,バンディットフィードバック
+917,bandit learning,バンディット学習
+918,bandwidth parameter,帯域幅パラメータ
+919,bart-base,バートベース
+920,bart-large,バート大
+921,barycentric coordinate,バリセントリック座標
+922,base classifier,ベース分類器
+923,base distribution,基底分布
+924,base learner,ベースラーナー
+925,base model,ベースモデル
+926,baseline,ベースライン
+927,baseline algorithm,ベースラインアルゴリズム
+928,baseline method,ベースライン手法
+929,baseline model,ベースラインモデル
+930,baseline parser,ベースラインパーサー
+931,baseline policy,ベースラインポリシー
+932,baseline system,ベースラインシステム
+934,basis function,基底関数
+935,basis vector,基底ベクトル
+936,batch algorithm,バッチアルゴリズム
+937,batch dimension,バッチ次元
+938,batch element,バッチ要素
+939,batch learning,バッチ学習
+940,batch mode,バッチモード
+941,batch normalization,バッチ正規化
+942,batch optimization,バッチ最適化
+943,batch processing,バッチ処理
+944,batch setting,バッチ設定
+945,batch training,バッチトレーニング
+946,beam search,ビームサーチ
+947,beam search algorithm,ビームサーチアルゴリズム
+948,beam search decoding,ビームサーチデコーディング
+949,beam search decoding algorithm,ビームサーチデコーディングアルゴリズム
+950,beam size,ビームサイズ
+951,beam width,ビーム幅
+952,behavior cloning,行動クローン
+953,behavior policy,行動方針
+954,belief propagation,信念伝播
+955,belief state,信念状態
+956,benchmark,ベンチマーク
+957,benchmark dataset,ベンチマークデータセット
+958,benchmark task,ベンチマークタスク
+959,best-first search,最良優先探索
+960,best-first search algorithm,最良優先探索アルゴリズム
+961,beta distribution,ベータ分布
+962,beta1,ベータ1
+963,between-class variance,クラス間分散
+964,betweenness,媒介中心性
+965,bi-gram,バイグラム
+966,bi-level optimization,バイレベル最適化
+967,bias,バイアス
+968,bias mitigation,バイアス軽減
+969,bias parameter,バイアスパラメータ
+970,bias term,バイアス項
+971,bias vector,バイアスベクトル
+972,bias-variance tradeoff,バイアス-分散トレードオフ
+973,biased estimator,有偏推定量
+975,bibliographic coupling,書誌的結合
+976,bicubic interpolation,バイキュービック補間
+978,bidirectional Transformer,双方向トランスフォーマー
+979,bidirectional encoder,双方向エンコーダ
+980,bidirectional heuristic search,双方向ヒューリスティック探索
+981,bidirectional model,双方向モデル
+982,bidirectional search,双方向探索
+983,bidirectionality,双方向性
+984,big-O notation,ビッグオー記法
+985,bigram count,バイグラムカウント
+986,bigram language model,バイグラム言語モデル
+987,bijective function,全単射関数
+988,bijective mapping,全単射写像
+989,bilateral filtering,バイラテラルフィルタリング
+990,bilinear,バイリニア
+991,bilinear form,バイリニア形式
+992,bilinear interpolation,バイリニア補間
+993,bilinear model,バイリニアモデル
+994,bilingual model,バイリンガルモデル
+995,binarization,二値化
+997,binary atom,二項原子
+998,binary classification,バイナリ分類
+999,binary classification head,バイナリ分類ヘッド
+1000,binary classification problem,バイナリ分類問題
+1001,binary classification task,バイナリ分類タスク
+1002,binary classifier,バイナリ分類器
+1003,binary constraint,バイナリ制約
+1004,binary cross entropy,バイナリ交差エントロピー
+1005,binary cross-entropy loss,バイナリ交差エントロピー損失
+1006,binary decision tree,バイナリ決定木
+1007,binary feature,バイナリ特徴
+1008,binary label,バイナリラベル
+1009,binary matrix,バイナリ行列
+1010,binary predicate,バイナリ述語
+1011,binary relation,バイナリ関係
+1012,binary search,二分探索
+1013,binary segmentation,二値セグメンテーション
+1014,binary tree,二分木
+1015,binary variable,二値変数
+1016,binary vector,二値ベクトル
+1017,binomial distribution,二項分布
+1018,bioinformatic,バイオインフォマティクス
+1019,biological neural network,生物学的ニューラルネットワーク
+1020,bipartite,二部グラフ
+1021,bipartite graph,二部グラフ
+1022,bipartite matching,二部マッチング
+1023,bipartite structure,二部構造
+1024,birth-death process,出生・死亡過程
+1025,bisection method,二分法
+1026,bisimulation,バイシミュレーション
+1027,bitext,バイテキスト
+1028,bitvector,ビットベクター
+1029,black-box,ブラックボックス
+1030,black-box model,ブラックボックスモデル
+1031,block coordinate descent,ブロック座標降下法
+1032,block matrix,ブロック行列
+1033,block-diagonal matrix,ブロック対角行列
+1034,blur kernel,ブラーカーネル
+1035,boosting algorithm,ブースティングアルゴリズム
+1036,boosting approach,ブースティングアプローチ
+1037,bootstrap learning,ブートストラップ学習
+1038,bootstrap resampling,ブートストラップ再サンプリング
+1039,bootstrap sample,ブートストラップサンプル
+1040,bottleneck,ボトルネック
+1041,bottleneck layer,ボトルネック層
+1042,bottom-up,ボトムアップ
+1043,bottom-up learning,ボトムアップ学習
+1044,bottom-up module,ボトムアップモジュール
+1045,bottom-up parsing,ボトムアップ構文解析
+1046,bound variable,束縛変数
+1047,bounded rationality,有界合理性
+1048,bounding box,バウンディングボックス
+1049,bounding box detection,バウンディングボックス検出
+1050,bounding box regression,バウンディングボックス回帰
+1051,bounding box regressor,バウンディングボックス回帰器
+1052,branch and bound algorithm,分岐限定アルゴリズム
+1053,branching factor,分岐係数
+1054,breadth-first order,幅優先順序
+1055,breadth-first search,幅優先探索
+1056,brute force search,総当たり検索
+1057,burn-in,バーンイン
+1058,calculus of variation,変分法
+1059,calibration,キャリブレーション
+1060,calibration method,キャリブレーション手法
+1061,camera calibration,カメラキャリブレーション
+1062,camera intrinsic,カメラ内部パラメータ
+1063,camera matrix,カメラ行列
+1064,camera parameter,カメラパラメータ
+1065,camera pose estimation,カメラポーズ推定
+1066,candidate generation,候補生成
+1067,candidate set,候補セット
+1068,canonical basis,標準基底
+1069,canonical correlation analysis,標準相関分析
+1070,canonical form,標準形
+1071,canonical frame,標準フレーム
+1072,canonical space,標準空間
+1073,canonicalization,標準化
+1074,capsule network,カプセルネットワーク
+1076,cardinality,カーディナリティ
+1077,cardinality constraint,カーディナリティ制約
+1078,cascade model,カスケードモデル
+1079,catastrophic forgetting,壊滅的忘却
+1080,categorial grammar,カテゴリカル文法
+1081,categorical cross-entropy,カテゴリカル交差エントロピー
+1082,categorical distribution,カテゴリ分布
+1083,categorical feature,カテゴリカル特徴
+1084,causal effect,因果効果
+1085,causal effect estimation,因果効果推定
+1086,causal entropy,因果エントロピー
+1087,causal graph,因果グラフ
+1088,causal inference,因果推論
+1089,causal intervention,因果介入
+1090,causal language model,因果言語モデル
+1091,causal model,因果モデル
+1092,causal reasoning,因果推論
+1093,causal rule,因果ルール
+1094,causal theory,因果理論
+1095,cell state,セル状態
+1096,center crop,センタークロップ
+1097,center of projection,投影中心
+1098,centrality measure,中心性測定
+1099,centroid,セントロイド
+1100,chain rule,連鎖律
+1101,change of basis,基底の変更
+1102,character embedding,文字埋め込み
+1103,character n-gram,文字n-グラム
+1104,characteristic function,特性関数
+1105,characteristic polynomial,特性多項式
+1106,characteristic vector,特性ベクトル
+1107,chart parser,チャートパーサー
+1108,chart parsing,チャート解析
+1109,chatbot,チャットボット
+1110,checkpoint,チェックポイント
+1111,chemoinformatic,ケモインフォマティクス
+1112,chi-square distribution,カイ二乗分布
+1113,chi-square test,カイ二乗検定
+1114,child node,子ノード
+1115,chromosome,染色体
+1116,chunk size,チャンクサイズ
+1117,citation network,引用ネットワーク
+1118,class,クラス
+1119,class balance,クラスバランス
+1120,class distribution,クラス分布
+1121,class imbalance,クラス不均衡
+1122,class label,クラスラベル
+1123,class prior,クラス事前分布
+1124,classical planning,古典計画
+1125,classification,分類
+1126,classification accuracy,分類精度
+1127,classification algorithm,分類アルゴリズム
+1128,classification approach,分類アプローチ
+1129,classification error,分類誤差
+1130,classification head,分類ヘッド
+1131,classification loss,分類損失
+1132,classification margin,分類マージン
+1133,classification method,分類手法
+1134,classification metric,分類指標
+1135,classification model,分類モデル
+1136,classification network,分類ネットワーク
+1137,classification objective,分類目的
+1138,classification problem,分類問題
+1139,classification score,分類スコア
+1140,classification task,分類タスク
+1141,classification token,分類トークン
+1145,clause learning,節学習
+1146,click model,クリックモデル
+1147,clip range,クリップ範囲
+1148,clipping factor,クリッピング係数
+1149,clipping threshold,クリッピング閾値
+1150,clique potential,クリークポテンシャル
+1151,closed frequent itemset,閉じた頻出アイテムセット
+1152,closed-book model,クローズドブックモデル
+1153,closed-world,閉世界
+1154,cloze prompt,クロースプロンプト
+1155,cloze task,クロースタスク
+1156,cluster assignment,クラスタ割り当て
+1157,cluster center,クラスタ中心
+1158,cluster centroid,クラスターセントロイド
+1159,cluster feature,クラスタ特徴
+1160,cluster label,クラスタラベル
+1161,cluster size,クラスタサイズ
+1162,clustering,クラスタリング
+1163,clustering algorithm,クラスタリングアルゴリズム
+1164,clustering criterion,クラスタリング基準
+1165,clustering method,クラスタリング手法
+1166,clustering problem,クラスタリング問題
+1167,co-occurrence,共起
+1168,co-occurrence matrix,共起行列
+1169,co-occurrence statistic,共起統計
+1170,co-reference,共参照
+1171,co-training,コトレーニング
+1172,coarse correlated equilibria,粗い相関均衡
+1173,coarse correlated equilibrium,粗い相関均衡
+1174,coarse layer,粗い層
+1175,coarse-to-fine,粗いから細かい
+1176,coarse-to-fine approach,粗いから細かいアプローチ
+1177,coarse-to-fine cascade,粗いから細かいカスケード
+1178,coarse-to-fine strategy,粗から細への戦略
+1179,codebook,コードブック
+1180,codomain,コドメイン
+1181,coefficient matrix,係数行列
+1182,cognitive model,認知モデル
+1183,cognitive science,認知科学
+1184,cold start,コールドスタート
+1185,collaborative filtering,協調フィルタリング
+1186,collaborative learning,協調学習
+1187,collective inference,集団推論
+1188,color channel,カラーチャンネル
+1189,color constancy,色恒常性
+1190,colorization,彩色
+1191,column space,列空間
+1192,column vector,列ベクトル
+1193,combinator,コンビネータ
+1194,combinatorial explosion,組み合わせ爆発
+1195,combinatorial optimization,組み合わせ最適化
+1196,combinatorial optimization problem,組合せ最適化問題
+1197,commonsense inference,常識推論
+1198,commonsense knowledge,常識知識
+1199,commonsense knowledge graph,常識知識グラフ
+1200,communication complexity,通信複雑性
+1201,communication graph,通信グラフ
+1203,compatibility function,互換性関数
+1204,compatibility graph,互換性グラフ
+1205,competitive ratio,競争比
+1206,composition function,合成関数
+1207,compositional generalization,組成的一般化
+1208,compositional semantic,合成意味論
+1209,compositionality,合成性
+1210,compressive sensing,圧縮センシング
+1211,computation,計算
+1212,computation complexity,計算複雑度
+1213,computation graph,計算グラフ
+1215,computational argumentation,計算的議論
+1216,computational budget,計算予算
+1217,computational complexity,計算複雑性
+1218,computational experiment,計算実験
+1219,computational graph,計算グラフ
+1220,computational model,計算モデル
+1221,compute budget,計算予算
+1222,computer vision,コンピュータビジョン
+1223,computer vision model,コンピュータビジョンモデル
+1225,concatenation operation,連結操作
+1226,concentration inequality,集中不等式
+1227,concentration parameter,集中パラメータ
+1228,concept,概念
+1229,concept assertion,概念アサーション
+1230,concept atom,概念原子
+1231,concept class,概念クラス
+1232,concept drift,概念ドリフト
+1233,concept inclusion,概念包含
+1234,concept name,概念名
+1235,condition number,条件数
+1236,conditional computation,条件付き計算
+1237,conditional density,条件付き密度
+1238,conditional distribution,条件付き分布
+1239,conditional effect,条件付き効果
+1240,conditional entropy,条件付きエントロピー
+1241,conditional expectation,条件付き期待値
+1242,conditional gradient,条件付き勾配
+1243,conditional independence,条件付き独立
+1244,conditional independency,条件付き独立性
+1245,conditional likelihood,条件付き尤度
+1246,conditional log likelihood,条件付き対数尤度
+1247,conditional log probability,条件付き対数確率
+1248,conditional maximum entropy,条件付き最大エントロピー
+1249,conditional model,条件付きモデル
+1250,conditional probability,条件付き確率
+1251,conditional probability distribution,条件付き確率分布
+1252,conditional random field,条件付きランダムフィールド
+1253,conditional sampling,条件付きサンプリング
+1254,conditional text generation,条件付きテキスト生成
+1255,conditioning,条件付け
+1256,conditioning vector,条件ベクトル
+1257,confidence,信頼度
+1258,confidence bound,信頼度境界
+1259,confidence interval,信頼区間
+1260,confidence map,信頼度マップ
+1261,confidence score,信頼度スコア
+1262,confidence threshold,信頼度閾値
+1263,configuration,構成
+1264,confusion matrix,混同行列
+1265,confusion network,混乱ネットワーク
+1266,conjugate gradient,共役勾配
+1267,conjugate gradient descent,共役勾配降下法
+1268,conjugate gradient method,共役勾配法
+1269,conjunct,結合詞
+1270,conjunctive normal form,連言標準形
+1271,conjunctive query,連言クエリ
+1272,connected component,連結成分
+1273,connectionist model,コネクショニストモデル
+1274,connectivity matrix,接続行列
+1275,consensus network decoding,コンセンサスネットワークデコーディング
+1276,consequent,結果
+1277,consistent estimator,整合的推定量
+1278,constellation model,コンステレーションモデル
+1279,constituency parser,構文解析器
+1280,constituency parsing,句構造解析
+1281,constituency tree,"""句構造木"" (phrase structure tree)"
+1282,constituent parsing,構成素解析
+1283,constituent structure,構成素構造
+1284,constrained beam search,制約付きビームサーチ
+1285,constrained decoding,制約付きデコーディング
+1286,constrained optimization,制約付き最適化
+1287,constrained optimization problem,制約付き最適化問題
+1288,constraint,制約
+1289,constraint generation,制約生成
+1290,constraint programming,制約プログラミング
+1291,constraint propagation,制約伝播
+1292,constraint satisfaction,制約充足
+1293,constraint satisfaction problem,制約充足問題
+1294,constraint set,制約集合
+1295,content model,コンテンツモデル
+1296,content selection,コンテンツ選択
+1298,context encoder,コンテキストエンコーダ
+1299,context free grammar,文脈自由文法
+1300,context model,コンテキストモデル
+1301,context vector,コンテキストベクトル
+1302,context window,コンテキストウィンドウ
+1303,context-free language,文脈自由言語
+1305,contextual embedding,文脈埋め込み
+1306,contextual feature,文脈特徴
+1307,contextual information,文脈情報
+1308,contextual model,文脈モデル
+1309,contextual representation,コンテキスト表現
+1310,contextual vector,コンテキストベクトル
+1311,contextual word embedding,コンテクスト依存の単語埋め込み
+1313,contextualized embedding,文脈化された埋め込み
+1314,contextualized representation,コンテキスト化された表現
+1315,contextualized word vector,コンテキスト化された単語ベクトル
+1316,contingency table,クロス集計表
+1317,continual learning,継続的学習
+1318,continuous normalizing flow,連続正規化フロー
+1319,contrastive approach,対照的アプローチ
+1320,contrastive fine-tuning,対照的ファインチューニング
+1321,contrastive loss,コントラスト損失
+1322,contrastive objective,対照的目的関数
+1323,control variate,コントロールバリアテ
+1324,controllable text generation,制御可能なテキスト生成
+1325,conv layer,畳み込み層
+1326,convergence,収束
+1327,convergence analysis,収束解析
+1328,convergence bound,収束境界
+1329,convergence criterion,収束基準
+1330,convergence rate,収束速度
+1331,convergence time,収束時間
+1332,conversation history,会話履歴
+1334,conversational agent,会話型エージェント
+1335,conversational dialogue system,会話型対話システム
+1336,convex,凸
+1337,convex combination,凸結合
+1338,convex conjugate,凸共役
+1339,convex constraint,凸制約
+1340,convex decomposition,凸分解
+1341,convex function,凸関数
+1342,convex hull,凸包
+1343,convex loss,凸損失
+1344,convex objective,凸目的関数
+1345,convex objective function,凸目的関数
+1346,convex optimization,凸最適化
+1347,convex optimization problem,凸最適化問題
+1348,convex problem,凸問題
+1349,convex program,凸最適化問題
+1350,convex proxy,凸代理
+1351,convex quadratic program,凸二次計画
+1352,convex relaxation,凸緩和
+1353,convex risk minimization,凸リスク最小化
+1354,convex set,凸集合
+1355,convex surrogate,凸代理関数
+1356,convex-concave,凸凹
+1357,convexity,凸性
+1358,convolution,畳み込み
+1359,convolution kernel,畳み込みカーネル
+1360,convolution layer,畳み込み層
+1361,convolution neural network,畳み込みニューラルネットワーク
+1362,convolution operation,畳み込み演算
+1363,convolution operator,畳み込み演算子
+1364,convolutional,畳み込みの
+1365,convolutional architecture,畳み込みアーキテクチャ
+1366,convolutional block,畳み込みブロック
+1367,convolutional decoder,畳み込みデコーダ
+1368,convolutional encoder,畳み込みエンコーダ
+1369,convolutional feature,畳み込み特徴
+1370,convolutional filter,畳み込みフィルタ
+1371,convolutional kernel,畳み込みカーネル
+1372,convolutional layer,畳み込み層
+1373,convolutional network,畳み込みネットワーク
+1374,convolutional neural net,畳み込みニューラルネット
+1375,convolutional neural network,畳み込みニューラルネットワーク
+1376,convolutional representation,畳み込み表現
+1377,cooling schedule,冷却スケジュール
+1378,coordinate ascent,座標上昇法
+1379,coordinate descent,座標降下法
+1380,coordinate descent algorithm,座標降下アルゴリズム
+1381,coordinate frame,座標フレーム
+1382,copy mechanism,コピー機構
+1383,core tensor,コアテンソル
+1384,coreference,同一指示
+1385,coreference annotation,共参照アノテーション
+1386,coreference chain,共参照連鎖
+1387,coreference resolution model,共参照解決モデル
+1388,coreference resolution system,共参照解決システム
+1389,coreferent,共参照対象
+1390,corpus,コーパス
+1391,correlated equilibria,相関平衡
+1392,correlated equilibrium,相関均衡
+1393,correlation coefficient,相関係数
+1395,correspondence matrix,対応行列
+1397,cosine,コサイン
+1398,cosine decay,コサイン減衰
+1399,cosine decay schedule,コサイン減衰スケジュール
+1400,cosine learning rate schedule,コサイン学習率スケジュール
+1401,cosine measure,余弦測度
+1402,cosine schedule,コサインスケジュール
+1403,cosine similarity,コサイン類似度
+1404,cosine similarity measure,コサイン類似度測定
+1405,cost function,コスト関数
+1406,cost vector,コストベクトル
+1407,cost volume,コストボリューム
+1408,cost-sensitive learning,コスト感度学習
+1409,counterexample,反例
+1411,counterfactual datum,反実仮想データ
+1412,counterfactual example,反実仮想例
+1413,counterfactual fairness,反事実的公平性
+1414,counterfactual reasoning,反事実的推論
+1415,covariance,共分散
+1416,covariance function,共分散関数
+1417,covariance kernel,共分散カーネル
+1418,covariance matrix,共分散行列
+1419,covariance model,共分散モデル
+1420,covariance operator,共分散演算子
+1421,covariance parameter,共分散パラメータ
+1422,covariance structure,共分散構造
+1423,covariant derivative,共変微分
+1424,covariate,共変量
+1425,covariate shift,共変量シフト
+1426,credit assignment,クレジット割り当て
+1427,credit assignment problem,クレジット割り当て問題
+1428,criterion,基準
+1429,critic,クリティック
+1430,critic loss,クリティック損失
+1431,critic network,クリティックネットワーク
+1432,cross attention,クロスアテンション
+1433,cross entropy,クロスエントロピー
+1434,cross entropy error,クロスエントロピー誤差
+1435,cross validation,交差検証
+1436,cross-attention layer,クロスアテンション層
+1437,cross-attention module,クロスアテンションモジュール
+1438,cross-correlation,相互相関
+1439,cross-entropy loss function,クロスエントロピー損失関数
+1440,cross-entropy objective,クロスエントロピー目的
+1441,cross-lingual benchmark,クロスリンガルベンチマーク
+1442,cross-lingual embedding,クロスリンガル埋め込み
+1443,cross-lingual feature,クロスリンガル特徴
+1444,cross-lingual knowledge transfer,クロスリンガル知識転送
+1445,cross-lingual model,クロスリンガルモデル
+1446,cross-lingual representation,クロスリンガル表現
+1447,cross-lingual transfer,クロスリンガルトランスファー
+1448,cross-modal,クロスモーダル
+1449,cross-validating,クロスバリデーション
+1450,cumulant generating function,累積生成関数
+1451,cumulative density function,累積密度関数
+1452,cumulative distribution function,累積分布関数
+1453,cumulative regret,累積後悔
+1454,cumulative reward,累積報酬
+1455,curriculum learning,カリキュラム学習
+1456,curse of dimensionality,次元の呪い
+1457,cutting plane,カッティングプレーン
+1458,cutting plane algorithm,カッティングプレーンアルゴリズム
+1459,cutting plane method,カッティングプレーン法
+1460,cycle consistency,サイクル一貫性
+1461,cycle consistency loss,サイクル一貫性損失
+1462,cycle inequality,サイクル不等式
+1463,d-separation,d-分離
+1464,d_model,d_model
+1466,data augmentation,データ拡張
+1467,data distribution,データ分布
+1468,data imbalance,データの不均衡
+1469,data manifold,データ多様体
+1470,data mining,データマイニング
+1471,data point,データポイント
+1472,data processing inequality,データ処理不等式
+1473,data sparseness,データの希薄性
+1474,data sparsity,データの疎性
+1475,data structure,データ構造
+1476,data vector,データベクトル
+1477,data-to-text generation,データからテキスト生成
+1478,dataset augmentation,データセット拡張
+1479,dataset bias,データセットバイアス
+1480,dataset size,データセットサイズ
+1482,datasheet,データシート
+1483,datum bias,データバイアス
+1484,datum clustering,データクラスタリング
+1485,datum contamination,データ汚染
+1486,datum dependency,データ依存性
+1487,datum fidelity,データ忠実度
+1488,datum filtering,データフィルタリング
+1489,datum generative process,データ生成プロセス
+1490,datum matrix,データ行列
+1491,datum mining algorithm,データマイニングアルゴリズム
+1492,datum parallelism,データ並列性
+1493,datum perturbation,データ摂動
+1494,davinci,ダヴィンチ
+1495,decay parameter,減衰パラメータ
+1496,decentralized algorithm,分散型アルゴリズム
+1497,decision boundary,決定境界
+1498,decision function,決定関数
+1499,decision node,決定ノード
+1500,decision policy,意思決定ポリシー
+1501,decision problem,決定問題
+1502,decision rule,決定ルール
+1503,decision space,決定空間
+1504,decision stumps,決定スタンプ
+1505,decision theory,意思決定理論
+1506,decision tree,決定木
+1507,decision variable,決定変数
+1508,decoder,デコーダー
+1509,decoder hidden state,デコーダ隠れ状態
+1510,decoder layer,デコーダ層
+1511,decoder network,デコーダネットワーク
+1512,decoder output,デコーダ出力
+1513,decoder state,デコーダ状態
+1514,decoder-only transformer,デコーダ専用トランスフォーマー
+1515,decoding,デコーディング
+1516,decoding algorithm,デコーディングアルゴリズム
+1517,decoding problem,デコーディング問題
+1518,decoding step,デコーディングステップ
+1519,decoding strategy,デコーディング戦略
+1520,decomposition,分解
+1521,decomposition method,分解法
+1522,deconvolution,デコンボリューション
+1523,deconvolution layer,デコンボリューション層
+1524,deconvolutional layer,デコンボリューショナル層
+1525,deep Q-learning,深層Q学習
+1526,deep Q-network,ディープQネットワーク
+1527,deep architecture,ディープアーキテクチャ
+1528,deep belief network,深層信念ネットワーク
+1529,deep convolutional network,深層畳み込みネットワーク
+1530,deep convolutional neural network,深層畳み込みニューラルネットワーク
+1531,deep feature,深層特徴
+1532,deep generative model,深層生成モデル
+1533,deep layer,深層
+1534,deep learning,深層学習
+1535,deep learning architecture,深層学習アーキテクチャ
+1536,deep learning framework,深層学習フレームワーク
+1537,deep learning model,深層学習モデル
+1538,deep learning system,深層学習システム
+1539,deep model,深層モデル
+1540,deep net,ディープネット
+1541,deep network,深層ネットワーク
+1542,deep network architecture,深層ネットワークアーキテクチャ
+1543,deep neural model,深層ニューラルモデル
+1544,deep neural net,深層ニューラルネット
+1545,deep neural network,深層ニューラルネットワーク
+1546,deep reinforcement learning,深層強化学習
+1547,deep supervision,ディープスーパービジョン
+1548,deeply-supervised net,ディープスーパーバイズネット
+1549,default logic,デフォルト論理
+1550,deformable template,変形テンプレート
+1551,deformation field,変形場
+1552,degree distribution,次数分布
+1553,delayed reward,遅延報酬
+1554,delexicalization,デレクシカリゼーション
+1555,delta kernel,デルタカーネル
+1556,dendrogram,デンドログラム
+1557,denoiser,デノイザー
+1558,denoising autoencoder,デノイジングオートエンコーダ
+1559,denoising diffusion probabilistic model,デノイジング拡散確率モデル
+1560,denoising network,デノイジングネットワーク
+1561,denoising objective,デノイジング目的
+1562,denoising process,デノイジングプロセス
+1563,denoising score matching,デノイジングスコアマッチング
+1564,denoising score matching loss,ノイズ除去スコアマッチング損失
+1565,denotation,デノテーション
+1566,dense,密な
+1567,dense attention,密なアテンション
+1568,dense depth map,密な深度マップ
+1569,dense feature,密な特徴
+1570,dense layer,密な層
+1571,dense matrix,密行列
+1572,dense network,密なネットワーク
+1573,dense prediction,密な予測
+1574,dense representation,密な表現
+1575,dense vector,デンスベクトル
+1576,density estimate,密度推定
+1577,density estimation,密度推定
+1578,density estimator,密度推定器
+1579,density field,密度場
+1580,density function,密度関数
+1581,density gradient,密度勾配
+1582,density ratio,密度比
+1585,dependency arc,依存関係アーク
+1586,dependency feature,依存関係特徴
+1587,dependency graph,依存グラフ
+1588,dependency label,依存ラベル
+1589,dependency model,依存モデル
+1590,dependency parse,依存構文解析
+1591,dependency parse tree,依存構文解析木
+1592,dependency parser,依存構文解析器
+1593,dependency parsing model,依存構文解析モデル
+1594,dependency path,依存経路
+1595,dependency relation,依存関係
+1596,dependency representation,依存表現
+1597,dependency structure,依存構造
+1598,dependency tree,依存木
+1599,dependency treebank,依存関係ツリーバンク
+1600,dependent variable,従属変数
+1601,depth estimation,深度推定
+1602,depth estimator,深度推定器
+1603,depth image,深度画像
+1604,depth map,深度マップ
+1605,depth prediction,深度予測
+1606,depth-first search,深さ優先探索
+1607,description logic,記述論理
+1608,descriptor,ディスクリプタ
+1609,design matrix,デザイン行列
+1610,design space,設計空間
+1611,det,行列式
+1613,detection algorithm,検出アルゴリズム
+1614,detection model,検出モデル
+1615,detection score,検出スコア
+1616,detection window,検出ウィンドウ
+1617,detector,検出器
+1618,deterministic algorithm,決定論的アルゴリズム
+1619,deterministic annealing,決定論的アニーリング
+1620,deterministic automaton,決定論的オートマトン
+1621,deterministic baseline,決定論的ベースライン
+1622,deterministic finite automaton,決定論的有限オートマトン
+1623,deterministic policy,決定論的ポリシー
+1624,deterministic rule,決定論的ルール
+1625,dev set,開発セット
+1626,development set,開発セット
+1627,diagonal matrix,対角行列
+1628,dialog system,ダイアログシステム
+1629,dialogue act,対話行為
+1630,dialogue context,対話コンテキスト
+1631,dialogue generation,対話生成
+1632,dialogue history,対話履歴
+1633,dialogue management,対話管理
+1634,dialogue state,対話状態
+1635,dialogue state tracker,ダイアログ状態トラッカー
+1636,dialogue system,対話システム
+1637,dialogue turn,対話ターン
+1638,dictionary learning,辞書学習
+1639,dictionary matrix,辞書行列
+1640,diffeomorphism,微分同相
+1641,differentiable function,微分可能関数
+1642,differentiable renderer,微分可能レンダラー
+1643,differentiable rendering,微分可能レンダリング
+1644,differentiable rendering function,微分可能レンダリング関数
+1645,differential entropy,微分エントロピー
+1646,differential privacy,差分プライバシー
+1647,diffusion matrix,拡散行列
+1648,diffusion model,拡散モデル
+1649,diffusion tensor,拡散テンソル
+1650,digamma function,ディガンマ関数
+1651,digit classification,数字分類
+1652,dilated convolution,拡張畳み込み
+1653,dilation,膨張
+1654,dim,次元
+1655,dimension,次元
+1656,dimension reduction,次元削減
+1657,dimensional vector,次元ベクトル
+1658,dimensionality,次元数
+1659,dimensionality reduction,次元削減
+1660,directed acyclic graph,有向非巡回グラフ
+1661,directed edge,有向辺
+1662,directed graph,有向グラフ
+1663,directed graphical model,有向グラフィカルモデル
+1664,directed tree,有向木
+1665,disambiguation,曖昧性解消
+1666,discount factor,割引率
+1667,discount parameter,割引パラメータ
+1668,discounted cumulative reward,割引累積報酬
+1669,discounted return,割引リターン
+1670,discounted reward,割引報酬
+1671,discounted state distribution,割引状態分布
+1672,discrete distribution,離散分布
+1673,discrete graphical model,離散グラフィカルモデル
+1674,discrete random variable,離散確率変数
+1675,discretization,離散化
+1676,discriminant analysis,判別分析
+1677,discriminant function,判別関数
+1678,discriminative,判別的
+1679,discriminative approach,判別的アプローチ
+1680,discriminative feature,判別的特徴
+1681,discriminative method,識別的手法
+1682,discriminative model,識別モデル
+1683,discriminative training,識別訓練
+1684,discriminator,判別器
+1685,discriminator network,識別器ネットワーク
+1686,disentangle,解きほぐす
+1687,disentangled representation,"""もつれの解けた表現"" (untangled expression)"
+1688,disparity estimation,視差推定
+1689,disparity map,視差マップ
+1690,distance function,距離関数
+1691,distance matrix,距離行列
+1692,distance measure,距離測定
+1693,distance metric,距離尺度
+1694,distance transform,距離変換
+1695,distant supervision,遠隔監視
+1696,distillation,蒸留
+1697,distributed information retrieval,分散情報検索
+1698,distributed learning,分散学習
+1699,distributed learning system,分散学習システム
+1700,distributed representation,分散表現
+1701,distribution shift,分布シフト
+1702,distribution vector,分布ベクトル
+1703,distributional,分布的
+1704,distributional feature,分布的特徴
+1705,distributional hypothesis,分布仮説
+1706,distributional model,分布モデル
+1707,distributional representation,分布表現
+1708,distributional semantic,分布意味論
+1709,distributional semantic model,分布意味論モデル
+1710,distributional similarity,分布類似性
+1711,distributional word representation,分布的単語表現
+1712,distributionally robust optimization,分布的にロバストな最適化
+1714,divergence operator,ダイバージェンス演算子
+1715,diversity score,多様性スコア
+1716,do-calculus,do-カルキュラス
+1718,document classification,文書分類
+1719,document clustering,文書クラスタリング
+1720,document corpus,文書コーパス
+1721,document retrieval,文書検索
+1722,document summarization,文書要約
+1723,document vector,文書ベクトル
+1724,document-level,文書レベル
+1725,document-topic assignment,文書-トピック割り当て
+1728,domain adaptation,ドメイン適応
+1729,domain element,ドメイン要素
+1730,domain gap,ドメインギャップ
+1731,domain generalization,ドメイン一般化
+1732,domain knowledge,ドメイン知識
+1733,domain mismatch,ドメインミスマッチ
+1734,domain ontology,ドメインオントロジー
+1735,domain shift,ドメインシフト
+1736,domain transfer,ドメイン転送
+1737,domain-specific,ドメイン固有
+1739,dot product,ドット積
+1740,dot-product attention,内積アテンション
+1741,down-sampling,ダウンサンプリング
+1742,down-sampling layer,ダウンサンプリング層
+1743,downsampling block,ダウンサンプリングブロック
+1744,downsampling factor,ダウンサンプリング係数
+1745,downsampling layer,ダウンサンプリング層
+1747,downstream dataset,ダウンストリームデータセット
+1748,downstream model,ダウンストリームモデル
+1749,downstream performance,下流性能
+1750,downstream task,ダウンストリームタスク
+1751,dropout,ドロップアウト
+1752,dropout layer,ドロップアウト層
+1753,dropout probability,ドロップアウト確率
+1754,dropout rate,ドロップアウト率
+1755,dropout ratio,ドロップアウト率
+1756,dual decomposition,二重分解
+1757,dual encoder model,二重エンコーダーモデル
+1758,dual norm,双対ノルム
+1759,dual objective,双対目的
+1760,dual optimization problem,双対最適化問題
+1761,dual parameter,双対パラメータ
+1762,dual problem,双対問題
+1763,dual program,双対プログラム
+1764,dual solution,双対解
+1765,dual variable,双対変数
+1766,duality gap,双対ギャップ
+1767,dynamic Bayesian network,動的ベイジアンネットワーク
+1768,dynamic model,動的モデル
+1769,dynamic programming,動的計画法
+1770,dynamic programming algorithm,動的プログラミングアルゴリズム
+1771,dynamic time warping,動的時間ワーピング
+1772,dynamical model,動的モデル
+1773,dynamical system,動的システム
+1774,early fusion,早期融合
+1775,early stopping,早期停止
+1776,earth-mover distance,アースムーバー距離
+1777,edge detection,エッジ検出
+1778,edge feature,エッジ特徴
+1779,edge label,エッジラベル
+1780,edge prediction,エッジ予測
+1781,edge set,エッジ集合
+1782,edge weight,エッジ重み
+1784,edit distance,編集距離
+1785,effective receptive field,有効受容野
+1786,ego-motion,自己運動
+1787,eigen-decomposition,固有分解
+1788,eigenbasis,固有基底
+1789,eigendecay,固有減衰
+1790,eigenfunction,固有関数
+1791,eigenspace,固有空間
+1792,eigenspectrum,固有スペクトル
+1793,eigenvalue,固有値
+1794,eigenvalue decomposition,固有値分解
+1795,eigenvector,固有ベクトル
+1796,elastic net regularization,エラスティックネット正則化
+1797,element-wise,要素ごと
+1798,element-wise multiplication,要素ごとの乗算
+1799,element-wise product,要素ごとの積
+1800,elementary tree,基本木
+1801,eligibility trace,適格性トレース
+1802,embedded deformation graph,埋め込み変形グラフ
+1804,embedding dimension,埋め込み次元
+1805,embedding dimensionality,埋め込み次元数
+1806,embedding feature,埋め込み特徴
+1807,embedding layer,埋め込み層
+1808,embedding matrix,埋め込み行列
+1809,embedding model,埋め込みモデル
+1810,embedding parameter,埋め込みパラメータ
+1811,embedding size,埋め込みサイズ
+1812,embedding space,埋め込み空間
+1813,embedding vector,埋め込みベクトル
+1814,embedding-based metric,埋め込みベースのメトリック
+1816,embodied agent,具現化されたエージェント
+1817,emission probability,放出確率
+1818,emotion classification,感情分類
+1819,empirical Bayes,経験的ベイズ
+1820,empirical distribution,経験的分布
+1821,empirical estimate,経験的推定
+1822,empirical estimator,経験的推定量
+1823,empirical frequency,経験的頻度
+1824,empirical loss,経験的損失
+1825,empirical mean,経験的平均
+1826,empirical measure,経験的測度
+1827,empirical minimizer,経験的最小化器
+1828,empirical process theory,経験的プロセス理論
+1829,empirical risk,経験的リスク
+1830,empirical risk minimization,経験的リスク最小化
+1831,empirical risk minimizer,経験的リスク最小化器
+1832,empirical variance,経験的分散
+1833,emulator,エミュレーター
+1834,encode,エンコード
+1836,encoder layer,エンコーダ層
+1837,encoder model,エンコーダモデル
+1838,encoder network,エンコーダネットワーク
+1839,encoder states,エンコーダ状態
+1840,encoder-decoder,エンコーダ・デコーダ
+1841,encoder-decoder architecture,エンコーダ・デコーダアーキテクチャ
+1842,encoder-decoder framework,エンコーダ・デコーダフレームワーク
+1843,encoder-decoder model,エンコーダ・デコーダモデル
+1845,encoding,エンコーディング
+1846,end-of-sequence token,シーケンス終了トークン
+1847,end-to-end learning,エンドツーエンド学習
+1848,end-to-end model,エンドツーエンドモデル
+1849,end-to-end neural model,エンドツーエンドニューラルモデル
+1850,end-to-end pipeline,エンドツーエンドパイプライン
+1851,end-to-end system,エンドツーエンドシステム
+1852,end-to-end training,エンドツーエンドトレーニング
+1853,energy function,エネルギー関数
+1854,energy minimization,エネルギー最小化
+1855,energy minimization framework,エネルギー最小化フレームワーク
+1856,energy minimization problem,エネルギー最小化問題
+1857,ensemble classification,アンサンブル分類
+1858,ensemble classifier,アンサンブル分類器
+1859,ensemble learning,アンサンブル学習
+1860,ensemble method,アンサンブル法
+1861,ensemble model,アンサンブルモデル
+1862,ensemble of classifier,分類器のアンサンブル
+1863,ensemble size,アンサンブルサイズ
+1864,entail,含意する
+1865,entailment,含意
+1866,entailment detection,含意検出
+1869,entity coreference,エンティティ共参照
+1870,entity description,エンティティ記述
+1871,entity detection,エンティティ検出
+1872,entity embedding,エンティティ埋め込み
+1873,entity extraction,エンティティ抽出
+1874,entity linker,エンティティリンカー
+1875,entity mention,エンティティメンション
+1876,entity recognition,エンティティ認識
+1877,entity representation,エンティティ表現
+1878,entity resolution,エンティティ解決
+1879,entity set,エンティティセット
+1880,entity type,エンティティタイプ
+1881,entropy,エントロピー
+1882,entropy estimation,エントロピー推定
+1883,entropy function,エントロピー関数
+1884,entropy loss,エントロピー損失
+1885,entropy regularization,エントロピー正則化
+1886,enumeration algorithm,列挙アルゴリズム
+1887,envy-freeness,嫉妬フリー性
+1888,eos,エンド・オブ・シーケンス
+1889,epipolar constraint,エピポーラ制約
+1890,epipolar geometry,エピポーラ幾何学
+1891,epipolar line,エピポーラ線
+1892,epipole,エピポール
+1893,episodic return,エピソディックリターン
+1894,epistemic uncertainty,認識論的不確実性
+1895,epoch,エポック
+1896,equalized odd,等化されたオッズ
+1897,equivalence class,同値類
+1898,equivalence query,同値クエリ
+1899,equivariance,同変性
+1900,equivariant,等変
+1901,error,誤差
+1902,error analysis,誤差分析
+1903,error bound,エラーバウンド
+1904,error function,誤差関数
+1905,error probability,誤差確率
+1906,error rate,誤差率
+1907,error tolerance,誤差許容
+1908,estimation error,推定誤差
+1909,estimator,推定量
+1910,evaluation,評価
+1911,evaluation function,評価関数
+1912,evaluation metric,評価指標
+1913,evaluation set,評価セット
+1915,event calculus,イベント計算
+1916,event coreference,イベント共参照
+1917,event detection,イベント検出
+1918,event extraction,イベント抽出
+1919,evidence lower bound,エビデンス下限
+1920,evidence maximization,証拠最大化
+1921,exact inference,厳密推論
+1922,excess loss,超過損失
+1923,exchangeability,交換可能性
+1924,existential quantifier,存在量化子
+1926,expectation maximization,期待値最大化
+1927,expectation maximization algorithm,期待値最大化アルゴリズム
+1928,expected loss,期待損失
+1929,expected reward,期待報酬
+1930,expected utility,期待効用
+1931,experience replay,経験再生
+1932,expert demonstration,エキスパートデモンストレーション
+1933,explicit-state search,明示的状態探索
+1934,exploding gradient,勾配爆発
+1935,exploitability,利用可能性
+1936,exploration rate,探索率
+1937,exploratory data analysis,探索的データ分析
+1938,exponential complexity,指数的複雑性
+1939,exponential decay,指数関数的減衰
+1940,exponential distribution,指数分布
+1941,exponential family,指数族
+1942,exponential loss,指数損失
+1943,exponential map,指数写像
+1944,exponential moving average,指数移動平均
+1945,exposure bias,エクスポージャーバイアス
+1946,extensive-form game,拡張形ゲーム
+1949,extraction,抽出
+1951,extractive question answering,抽出型質問応答
+1952,extractive summarization,抽出型要約
+1953,extractor,抽出器
+1954,f-divergence,f-ダイバージェンス
+1955,face detection,顔検出
+1956,face detector,顔検出器
+1957,face recognition,顔認識
+1958,facial landmark,顔のランドマーク
+1959,facial recognition,顔認識
+1960,fact verification,事実確認
+1961,factor analysis,因子分析
+1962,factor graph,ファクターグラフ
+1963,factor matrix,因子行列
+1964,factor of variation,変動因子
+1965,factorization,因子分解
+1966,factorization algorithm,因子分解アルゴリズム
+1967,factorization method,因子分解法
+1968,failure probability,失敗確率
+1969,fairness criterion,公平性基準
+1970,fairness loss,公平性損失
+1971,fairness notion,公平性の概念
+1972,faithfulness score,忠実度スコア
+1973,false negative,偽陰性
+1974,false negative rate,偽陰性率
+1975,false positive rate,偽陽性率
+1976,fanout,ファンアウト
+1977,fc layer,全結合層
+1978,feasible set,実現可能集合
+1979,feature,特徴
+1980,feature channel,特徴チャネル
+1981,feature correspondence,特徴対応
+1982,feature count,特徴量カウント
+1983,feature descriptor,特徴記述子
+1984,feature detection,特徴検出
+1985,feature detector,特徴検出器
+1986,feature dimension,特徴次元
+1987,feature dimensionality,特徴次元数
+1988,feature embedding,特徴埋め込み
+1989,feature encoder,特徴エンコーダ
+1990,feature engineering,特徴エンジニアリング
+1991,feature extraction,特徴抽出
+1992,feature extractor,特徴抽出器
+1993,feature function,特徴関数
+1994,feature hashing,特徴ハッシング
+1995,feature hierarchy,特徴階層
+1996,feature map,特徴マップ
+1997,feature mapping function,特徴マッピング関数
+1998,feature matching,特徴マッチング
+1999,feature matrix,特徴行列
+2000,feature model,特徴モデル
+2001,feature normalization,特徴正規化
+2002,feature point,特徴点
+2003,feature pyramid,特徴ピラミッド
+2004,feature representation,特徴表現
+2005,feature representation learning,特徴表現学習
+2006,feature selection,特徴選択
+2007,feature selector,特徴選択器
+2008,feature set,特徴セット
+2009,feature space,特徴空間
+2010,feature template,特徴テンプレート
+2011,feature vector,特徴ベクトル
+2012,feature weight,特徴重み
+2014,featurization,特徴化
+2015,featurized representation,特徴表現
+2016,feed forward,フィードフォワード
+2017,feed forward network,フィードフォワードネットワーク
+2018,feed forward neural network,フィードフォワードニューラルネットワーク
+2019,feed-forward layer,フィードフォワード層
+2020,feedback loop,フィードバックループ
+2021,few shot learning,少数ショット学習
+2022,few-shot classification,フューショット分類
+2023,few-shot example,フューショット例
+2024,few-shot fine-tuning,少数ショットファインチューニング
+2025,few-shot in-context learning,少数ショットインコンテキスト学習
+2026,few-shot prompting,フューショットプロンプティング
+2027,few-shot setting,少数ショット設定
+2028,filter bank,フィルタバンク
+2029,filter weight,フィルタ重み
+2030,fine-grained sentiment classification,細粒度感情分類
+2031,fine-tune,微調整
+2032,fine-tuned model,微調整されたモデル
+2033,finetuning,微調整
+2034,finite horizon,有限ホライズン
+2035,finite-state automata,有限状態オートマトン
+2036,first order method,一次法
+2037,first-order,一階
+2038,first-order language,一階言語
+2039,first-order logic,一階論理
+2040,first-order model,一階モデル
+2041,first-order parsing,一階構文解析
+2042,fitness function,適応度関数
+2043,five-fold cross-validation,5分割交差検証
+2044,fixed point,固定点
+2045,fixed-parameter tractable,固定パラメーターのトラクタブル
+2046,fixed-point iteration,固定点反復
+2047,fixpoint,不動点
+2048,float16,フロート16
+2049,float32,フロート32
+2050,flow field,流れ場
+2051,flow model,フローモデル
+2052,forall,すべての
+2053,forecasting,予測
+2054,foreground segmentation,前景セグメンテーション
+2055,forget gate,忘却ゲート
+2056,forward algorithm,前向きアルゴリズム
+2057,forward model,フォワードモデル
+2058,forward pass,フォワードパス
+2059,forward process,フォワードプロセス
+2060,forward propagation,順伝播
+2061,forward-backward algorithm,フォワード・バックワード・アルゴリズム
+2062,foundation model,基盤モデル
+2063,fp,フレーム毎秒
+2064,fp16,fp16
+2065,fp32,fp32
+2066,fractional program,フラクショナルプログラム
+2067,frame,フレーム
+2068,free variable,自由変数
+2069,frequency penalty,頻度ペナルティ
+2070,frequency vector,頻度ベクトル
+2071,frequent closed itemset,頻出閉アイテムセット
+2072,frequent item set,頻出アイテム集合
+2073,frequent pattern,頻出パターン
+2074,frequent pattern mining,頻出パターンマイニング
+2075,fully connected graph,完全連結グラフ
+2076,fully connected layer,全結合層
+2077,fully connected network,全結合ネットワーク
+2078,fully connected neural network,全結合ニューラルネットワーク
+2079,fully convolutional network,完全畳み込みネットワーク
+2080,fully convolutional neural network,完全畳み込みニューラルネットワーク
+2081,fully-supervised model,完全教師ありモデル
+2082,function approximation,関数近似
+2083,function approximator,関数近似器
+2084,function class,関数クラス
+2085,function space,関数空間
+2086,functionality assertion,機能性アサーション
+2087,fundamental matrix,基本行列
+2088,fusion module,融合モジュール
+2089,fuzzy matching,ファジーマッチング
+2090,g-value,g値
+2091,game tree,ゲームツリー
+2092,game-theoretic analysis,ゲーム理論的分析
+2093,gamma distribution,ガンマ分布
+2094,gate,ゲート
+2095,gating function,ゲーティング関数
+2096,generalisation,一般化
+2097,generalization,一般化
+2098,generalization ability,一般化能力
+2099,generalization bound,一般化境界
+2100,generalization error,一般化誤差
+2101,generalization gap,一般化ギャップ
+2102,generalization guarantee,一般化保証
+2103,generalization performance,一般化性能
+2105,generalized eigenvector,一般化固有ベクトル
+2106,generalized linear mixed model,一般化線形混合モデル
+2107,generalized linear model,一般化線形モデル
+2111,generation model,生成モデル
+2112,generative,生成的
+2113,generative adversarial network,敵対的生成ネットワーク
+2114,generative adversarial networks,敵対的生成ネットワーク
+2115,generative approach,生成的アプローチ
+2116,generative model,生成モデル
+2117,generative network,生成ネットワーク
+2118,generative parser,生成的パーサー
+2119,generative pre-training,生成的事前学習
+2120,generative probabilistic model,生成的確率モデル
+2121,generative process,生成過程
+2122,generator,ジェネレーター
+2123,generator architecture,ジェネレータ・アーキテクチャ
+2124,generator network,生成器ネットワーク
+2125,genetic algorithm,遺伝的アルゴリズム
+2126,geodesic,測地線
+2127,geodesic distance,測地距離
+2128,geometric consistency,幾何的一貫性
+2129,geometric distribution,幾何分布
+2130,geometric invariant,幾何学的不変量
+2131,geometric transformation,幾何変換
+2132,geometry processing,幾何処理
+2133,gibb distribution,ギブス分布
+2134,gist descriptor,ジスト記述子
+2135,global average pooling,グローバル平均プーリング
+2136,global average pooling layer,グローバル平均プーリング層
+2137,global coordinate frame,グローバル座標系
+2138,global illumination,グローバルイルミネーション
+2139,global minima,グローバル最小値
+2140,global minimum,グローバル最小値
+2141,global model,グローバルモデル
+2142,global objective,グローバル目的関数
+2143,global optima,グローバル最適解
+2144,global optimization,グローバル最適化
+2145,global optimum,グローバル最適解
+2146,global pooling,グローバルプーリング
+2147,global reward,グローバル報酬
+2148,goal state,目標状態
+2149,gold label,ゴールドラベル
+2150,gold parse,ゴールドパース
+2151,gossip algorithm,ゴシップアルゴリズム
+2152,gradient,勾配
+2153,gradient accumulation,勾配蓄積
+2154,gradient accumulation step,勾配蓄積ステップ
+2155,gradient ascent,勾配上昇
+2156,gradient boosted tree,勾配ブーストツリー
+2157,gradient clipping,勾配クリッピング
+2158,gradient computation,勾配計算
+2159,gradient descent,勾配降下法
+2160,gradient descent algorithm,勾配降下アルゴリズム
+2161,gradient estimate,勾配推定
+2162,gradient estimation,勾配推定
+2163,gradient estimator,勾配推定器
+2164,gradient explosion,勾配爆発
+2165,gradient flow,勾配フロー
+2166,gradient information,勾配情報
+2167,gradient method,勾配法
+2168,gradient norm,勾配ノルム
+2169,gradient operator,勾配演算子
+2170,gradient penalty,勾配ペナルティ
+2171,gradient signal,勾配信号
+2172,gradient step,勾配ステップ
+2173,gradient term,勾配項
+2174,gradient update,勾配更新
+2175,gradient variance,勾配分散
+2176,gradient vector,勾配ベクトル
+2177,gradient-based approach,勾配ベースのアプローチ
+2178,gradient-based learning,勾配ベースの学習
+2179,gradient-based method,勾配ベースの手法
+2180,gradient-based optimization,勾配ベースの最適化
+2182,grammar inducer,文法誘導器
+2183,grammar induction,文法誘導
+2185,grammatical error detection,文法的誤り検出
+2186,grandparent dependency,祖父母依存関係
+2188,graph Laplacian,グラフラプラシアン
+2189,graph Laplacian matrix,グラフラプラシアン行列
+2190,graph adjacency matrix,グラフ隣接行列
+2191,graph attention,グラフアテンション
+2192,graph attention mechanism,グラフ注意機構
+2193,graph attention network,グラフ注意ネットワーク
+2194,graph classification,グラフ分類
+2195,graph clustering,グラフクラスタリング
+2196,graph construction,グラフ構築
+2197,graph contrastive learning,グラフ対比学習
+2198,graph convolution,グラフ畳み込み
+2199,graph convolution network,グラフ畳み込みネットワーク
+2200,graph convolutional network,グラフ畳み込みネットワーク
+2201,graph cut,グラフカット
+2202,graph cut algorithm,グラフカットアルゴリズム
+2203,graph dataset,グラフデータセット
+2204,graph datum,グラフデータ
+2205,graph diameter,グラフ直径
+2206,graph embedding,グラフ埋め込み
+2207,graph generator,グラフ生成器
+2208,graph isomorphism,グラフ同型性
+2209,graph kernel,グラフカーネル
+2210,graph learning,グラフ学習
+2211,graph matching,グラフマッチング
+2212,graph mining,グラフマイニング
+2213,graph model,グラフモデル
+2214,graph neural network,グラフニューラルネットワーク
+2215,graph neural networks,グラフニューラルネットワーク
+2216,graph node,グラフノード
+2217,graph partitioning,グラフ分割
+2218,graph pattern,グラフパターン
+2219,graph representation,グラフ表現
+2220,graph sampling,グラフサンプリング
+2221,graph structure,グラフ構造
+2222,graph theory,グラフ理論
+2223,graph topology,グラフトポロジー
+2224,graph traversal,グラフトラバーサル
+2225,graph-based approach,グラフベースのアプローチ
+2226,graph-based dependency parsing,グラフベースの依存構文解析
+2227,graph-based learning,グラフベースの学習
+2228,graph-based method,グラフベースの手法
+2229,graph-based model,グラフベースのモデル
+2230,graph-based representation,グラフベースの表現
+2231,graph-level task,グラフレベルのタスク
+2232,graphical model,グラフィカルモデル
+2233,graphlet,グラフレット
+2234,graphlet kernel,グラフレットカーネル
+2236,greedy,貪欲法
+2237,greedy algorithm,貪欲アルゴリズム
+2238,greedy approach,貪欲アプローチ
+2239,greedy decoding,貪欲デコーディング
+2240,greedy inference,貪欲推論
+2241,greedy maximization,貪欲最大化
+2242,greedy method,貪欲法
+2243,greedy optimization,貪欲最適化
+2244,greedy policy,貪欲方策
+2245,greedy search,貪欲探索
+2246,greedy strategy,貪欲戦略
+2247,grid cell,グリッド細胞
+2248,grid search,グリッドサーチ
+2249,grid-world,グリッドワールド
+2250,ground atom,グラウンドアトム
+2251,ground set,グラウンドセット
+2252,ground truth,グラウンドトゥルース
+2253,ground truth label,グラウンドトゥルースラベル
+2254,ground-truth box,グラウンドトゥルースボックス
+2255,grounded language learning,グラウンデッド言語学習
+2256,grounded supervision,グラウンデッド・スーパービジョン
+2258,group normalization,グループ正規化
+2259,group sparsity,グループスパース性
+2260,half-space,半空間
+2261,hand pose estimation,手のポーズ推定
+2262,hard attention,ハードアテンション
+2263,hash,ハッシュ
+2264,hash function,ハッシュ関数
+2265,hash table,ハッシュテーブル
+2266,hashing algorithm,ハッシングアルゴリズム
+2267,hate speech classifier,ヘイトスピーチ分類器
+2268,hate speech detection,ヘイトスピーチ検出
+2269,head entity,ヘッドエンティティ
+2270,head word,見出し語
+2271,heap structure,ヒープ構造
+2272,heatmap,ヒートマップ
+2273,held-out data,検証データ
+2275,heuristic algorithm,ヒューリスティックアルゴリズム
+2276,heuristic function,ヒューリスティック関数
+2277,heuristic search,ヒューリスティック探索
+2278,heuristic search algorithm,ヒューリスティック探索アルゴリズム
+2279,heuristic value,ヒューリスティック値
+2280,hidden Markov model,隠れマルコフモデル
+2281,hidden dimension,隠れ次元
+2282,hidden dimension size,隠れ次元サイズ
+2283,hidden dimensionality,隠れ次元数
+2284,hidden embedding,隠れ埋め込み
+2285,hidden feature,隠れ特徴
+2286,hidden layer,隠れ層
+2287,hidden representation,隠れ表現
+2288,hidden size,隠れサイズ
+2289,hidden state,隠れ状態
+2290,hidden state dimension,隠れ状態次元
+2291,hidden state representation,隠れ状態表現
+2292,hidden state vector,隠れ状態ベクトル
+2293,hidden unit,隠れユニット
+2294,hidden variable,隠れ変数
+2295,hierarchical agglomerative clustering,階層的凝集クラスタリング
+2296,hierarchical clustering,階層的クラスタリング
+2297,hierarchical decoder,階層デコーダ
+2298,hierarchical feature,階層的特徴
+2299,hierarchical inference,階層的推論
+2300,hierarchical method,階層的手法
+2301,hierarchical model,階層モデル
+2302,hierarchical reinforcement learning,階層強化学習
+2303,hierarchical representation,階層的表現
+2304,hierarchical structure,階層構造
+2305,hierarchical topic model,階層トピックモデル
+2306,hierarchy,階層
+2307,high-dimensional datum,高次元データ
+2308,high-dimensional space,高次元空間
+2309,high-dimensionality,高次元性
+2310,higher-order feature,高次特徴
+2311,higher-order model,高次モデル
+2312,hill-climbing,ヒルクライミング
+2313,hinge loss,ヒンジ損失
+2314,hinge loss function,ヒンジ損失関数
+2315,histogram of oriented gradient,勾配方向ヒストグラム
+2316,homogeneous coordinate,同次座標
+2317,homographie,ホモグラフィ
+2318,homography matrix,ホモグラフィ行列
+2319,homomorphism,準同型
+2321,human annotation,人間によるアノテーション
+2322,human pose,人間のポーズ
+2323,human pose estimation,人間のポーズ推定
+2324,human-computer interaction,ヒューマンコンピュータインタラクション
+2325,human-in-the-loop,人間参加型
+2326,human-machine interaction,人間-機械インタラクション
+2327,hybrid model,ハイブリッドモデル
+2328,hyper-graph,ハイパーグラフ
+2329,hyper-parameter tuning,ハイパーパラメータ調整
+2330,hyperbolic space,双曲空間
+2331,hyperedge,ハイパーエッジ
+2332,hypernym,上位語
+2333,hypernymy,上位語性
+2334,hyperparameter optimization,ハイパーパラメータ最適化
+2335,hyperparameter selection,ハイパーパラメータ選択
+2336,hyperparameter setting,ハイパーパラメータ設定
+2337,hyperparameter space,ハイパーパラメータ空間
+2338,hyperplane,ハイパープレーン
+2339,hyperprior,ハイパープライヤー
+2340,hyponym,下位語
+2341,hyponymy,下位語関係
+2342,hypothesis class,仮説クラス
+2343,hypothesis set,仮説集合
+2344,hypothesis space,仮説空間
+2345,hypothesis test,仮説検定
+2346,i.i.d,独立同分布
+2347,i.i.d. sample,独立同分布サンプル（i.i.d.サンプル）
+2348,idempotent,冪等
+2350,identity function,恒等関数
+2351,identity mapping,同一写像
+2352,identity matrix,単位行列
+2353,identity transformation,同一変換
+2355,image analysis,画像解析
+2356,image captioning,画像キャプション生成
+2357,image classification,画像分類
+2358,image compression,画像圧縮
+2359,image denoising,画像ノイズ除去
+2360,image diffusion model,画像拡散モデル
+2361,image embedding,画像埋め込み
+2362,image encoder,画像エンコーダ
+2363,image feature,画像特徴
+2364,image generation,画像生成
+2365,image inpainting,画像修復
+2366,image patch,画像パッチ
+2367,image plane,画像平面
+2368,image processing,画像処理
+2369,image pyramid,画像ピラミッド
+2370,image recognition,画像認識
+2371,image representation,画像表現
+2372,image restoration,画像復元
+2373,image segmentation,画像セグメンテーション
+2374,image super-resolution,画像超解像
+2375,image synthesis,画像合成
+2376,image translation,画像変換
+2377,image-based rendering,画像ベースのレンダリング
+2378,image-text pre-training,画像-テキストの事前学習
+2379,image-to-image translation,画像間翻訳
+2380,imitation learning,模倣学習
+2381,immediate consequence operator,即時帰結演算子
+2382,imperfect information,不完全情報
+2383,implicit differentiation,暗黙的微分
+2384,implicit function,暗黙関数
+2385,implicit representation,暗黙的表現
+2386,implicit surface,暗黙的な曲面
+2387,importance sampling,重要サンプリング
+2388,importance sampling estimator,重要度サンプリング推定量
+2389,importance weight,重要度重み
+2390,in-context demonstration,コンテキスト内デモンストレーション
+2391,in-context example,コンテキスト内例
+2392,in-context learner,インコンテクスト学習者
+2393,in-degree distribution,入次数分布
+2394,in-distribution,"""同一分布内"" (within the same distribution)"
+2395,in-domain,ドメイン内
+2396,in-domain text,ドメイン内テキスト
+2397,in-neighbor,入隣接ノード
+2398,in-order traversal,インオーダートラバーサル
+2399,inception score,インセプションスコア
+2400,incremental learning,増分学習
+2401,incremental parsing,増分構文解析
+2402,independent component analysis,独立成分分析
+2403,independent set,独立集合
+2404,independent variable,独立変数
+2405,indicator matrix,インジケータ行列
+2406,indicator variable,指示変数
+2407,indicator vector,インジケータベクトル
+2408,induced subgraph,誘導部分グラフ
+2409,inducing variable,誘導変数
+2410,induction hypothesis,帰納仮説
+2411,inductive bias,帰納的バイアス
+2412,inductive learning,帰納的学習
+2413,inf,インフ
+2414,inference,推論
+2415,inference algorithm,推論アルゴリズム
+2416,inference machinery,推論機構
+2417,inference method,推論手法
+2418,inference problem,推論問題
+2419,inference procedure,推論手続き
+2420,inference process,推論プロセス
+2421,inference rule,推論規則
+2422,inference stage,推論段階
+2423,inference task,推論タスク
+2424,inference time,推論時間
+2425,infinite-horizon,無限ホライズン
+2426,influence diagram,影響図
+2427,influence function,影響関数
+2429,information bottleneck,情報ボトルネック
+2430,information content,情報量
+2431,information gain,情報利得
+2432,information retrieval,情報検索
+2433,information retrieval system,情報検索システム
+2434,information set,情報集合
+2435,information theoretic,情報理論的
+2436,information theoretic measure,情報理論的尺度
+2437,infoset,インフォセット
+2438,inhomogeneous Poisson process,不均一ポアソン過程
+2439,initial distribution,初期分布
+2440,initial state,初期状態
+2441,initial state distribution,初期状態分布
+2442,initialization,初期化
+2443,injective function,単射関数
+2444,inlier,内点
+2445,inner layer,内部層
+2446,inner loop,内部ループ
+2447,inner node,内部ノード
+2448,inner product,内積
+2450,input context,入力コンテキスト
+2451,input datum,入力データ
+2452,input embedding,入力埋め込み
+2453,input feature,入力特徴
+2454,input feature vector,入力特徴ベクトル
+2455,input filter,入力フィルタ
+2456,input formula,入力式
+2457,input gate,入力ゲート
+2458,input graph,入力グラフ
+2459,input image,入力画像
+2460,input layer,入力層
+2461,input length,入力長
+2462,input matrix,入力行列
+2463,input point,入力点
+2464,input position,入力位置
+2465,input representation,入力表現
+2466,input resolution,入力解像度
+2467,input sequence,入力シーケンス
+2468,input space,入力空間
+2469,input tensor,入力テンソル
+2470,input text,入力テキスト
+2471,input token,入力トークン
+2472,input vector,入力ベクトル
+2473,input-output pair,入力-出力ペア
+2474,instance,インスタンス
+2475,instance level,インスタンスレベル
+2476,instance segmentation,インスタンスセグメンテーション
+2477,instance selection,インスタンス選択
+2478,instance space,インスタンス空間
+2479,instruction tuning,インストラクションチューニング
+2480,integer linear program,整数線形プログラム
+2481,integer program,整数プログラム
+2482,integral image,積分画像
+2483,integral operator,積分演算子
+2484,integral probability metric,積分確率距離
+2485,integrity constraint,整合性制約
+2486,intelligent agent,知能エージェント
+2487,intensity function,強度関数
+2488,intent,意図
+2489,inter-annotator agreement,アノテーター間一致
+2490,interaction matrix,相互作用行列
+2491,interest point,特徴点
+2492,interior point method,内点法
+2493,intermediate layer,中間層
+2494,intermediate representation,中間表現
+2495,internal edge,内部エッジ
+2496,internal node,内部ノード
+2497,internal regret,内部後悔
+2498,internal representation,内部表現
+2499,internal state,内部状態
+2501,interpolation,補間
+2502,interpretability,解釈可能性
+2504,interpretation function,解釈関数
+2505,intersection-over-union,インターセクション・オーバー・ユニオン
+2506,interval estimate,区間推定
+2507,intractability,計算不可能性
+2508,intrinsic,内因性
+2509,intrinsic camera parameter,内因性カメラパラメータ
+2510,intrinsic dimension subspace,内因次元部分空間
+2511,intrinsic dimensionality,内因次元性
+2512,intrinsic evaluation,内在的評価
+2513,intrinsic image,内在画像
+2514,intrinsic parameter,内部パラメータ
+2515,inverse document frequency,逆文書頻度
+2516,inverse dynamic model,逆動力学モデル
+2517,inverse problem,逆問題
+2518,inverse reinforcement learning,逆強化学習
+2519,inverse rendering,逆レンダリング
+2520,inverse role,逆役割
+2521,inverse square root learning rate schedule,逆平方根学習率スケジュール
+2522,inverse square root learning rate scheduler,逆平方根学習率スケジューラ
+2523,inverse transform sampling,逆変換サンプリング
+2524,inverted index,逆インデックス
+2525,inverted list,逆リスト
+2526,invertible map,可逆写像
+2527,invertible matrix,可逆行列
+2528,iobj,間接目的語
+2529,iso-surface extraction,等値面抽出
+2530,isotropic Gaussians,等方性ガウス分布
+2531,itemset,アイテムセット
+2532,iterate,イテレート
+2533,iterated conditional mode,反復条件付きモード
+2534,iteration,反復
+2535,iteration complexity,イテレーション複雑性
+2536,iteration counter,反復カウンタ
+2537,iterative algorithm,反復アルゴリズム
+2538,iterative deepening,反復深化
+2539,iterative optimization,反復最適化
+2540,iterative optimization algorithm,反復最適化アルゴリズム
+2541,iterative training algorithm,反復訓練アルゴリズム
+2542,iteratively reweighted least square,反復再重み付け最小二乗法
+2543,joint density,同時密度
+2544,joint distribution,同時分布
+2545,joint embedding space,同時埋め込み空間
+2546,joint encoding,同時エンコーディング
+2547,joint entropy,同時エントロピー
+2548,joint inference,ジョイント推論
+2549,joint learning,ジョイント学習
+2550,joint learning algorithm,ジョイント学習アルゴリズム
+2551,joint likelihood,結合尤度
+2552,joint model,ジョイントモデル
+2553,joint policy,ジョイントポリシー
+2554,joint probability,結合確率
+2555,joint probability distribution,結合確率分布
+2556,joint probability matrix,結合確率行列
+2557,joint probability table,結合確率表
+2558,joint semantic space,共同意味空間
+2559,junction tree,ジャンクションツリー
+2560,junction tree algorithm,ジャンクションツリーアルゴリズム
+2561,k nearest neighbor,k最近傍法
+2562,k-Center,kセンター
+2563,k-best list,k-bestリスト
+2564,k-best parsing,k-best構文解析
+2565,k-d tree,k-d木
+2566,k-hop neighbor,k-hop隣接ノード
+2567,k-means clustering algorithm,k-means クラスタリングアルゴリズム
+2568,k-nearest neighbor,k最近傍法
+2569,k-nearest neighbor classifier,k最近傍分類器
+2570,k-nearest neighbor graph,k最近傍グラフ
+2571,kernel approximation,カーネル近似
+2572,kernel bandwidth,カーネルバンド幅
+2573,kernel classifier,カーネル分類器
+2574,kernel density,カーネル密度
+2575,kernel density estimate,カーネル密度推定
+2576,kernel density estimation,カーネル密度推定法
+2577,kernel evaluation,カーネル評価
+2578,kernel function,カーネル関数
+2579,kernel learning,カーネル学習
+2580,kernel learning problem,カーネル学習問題
+2581,kernel machine,カーネルマシン
+2582,kernel matrix,カーネル行列
+2583,kernel method,カーネル法
+2584,kernel operation,カーネル操作
+2585,kernel operator,カーネル演算子
+2586,kernel parameter,カーネルパラメータ
+2587,kernel regression,カーネル回帰
+2588,kernel ridge regression,カーネルリッジ回帰
+2589,kernel size,カーネルサイズ
+2590,kernel smoothing,カーネルスムージング
+2591,kernel space,カーネル空間
+2592,kernel spectrum,カーネルスペクトル
+2593,kernel trick,カーネルトリック
+2594,kernel value,カーネル値
+2595,kernel weight,カーネル重み
+2596,kernel width,カーネル幅
+2597,kernel-based classification,カーネルベースの分類
+2598,key,キー
+2599,keypoint,キーポイント
+2600,keypoint detection,キーポイント検出
+2601,keypoint detector,キーポイント検出器
+2602,keypoint location,キーポイント位置
+2603,keypoint match,キーポイントマッチ
+2604,knapsack problem,ナップサック問題
+2606,knowledge base,知識ベース
+2607,knowledge compilation,知識コンパイル
+2608,knowledge distillation,知識蒸留
+2609,knowledge element,知識要素
+2610,knowledge graph,知識グラフ
+2611,knowledge graph completion,知識グラフ補完
+2612,knowledge representation,知識表現
+2613,knowledge transfer,知識転送
+2614,label,ラベル
+2615,label distribution,ラベル分布
+2616,label embedding,ラベル埋め込み
+2617,label noise,ラベルノイズ
+2618,label sequence,ラベルシーケンス
+2619,label smoothing,ラベルスムージング
+2620,label space,ラベル空間
+2621,label token,ラベルトークン
+2622,label vector,ラベルベクトル
+2624,labeled datum,ラベル付きデータ
+2625,labeled example,ラベル付き例
+2626,labeled graph,ラベル付きグラフ
+2627,labeled training datum,ラベル付きトレーニングデータ
+2628,lambda calculus,ラムダ計算
+2629,landmark,ランドマーク
+2630,landmark point,ランドマークポイント
+2632,language drift,言語の漂流
+2633,language encoder,言語エンコーダ
+2634,language generation,言語生成
+2635,language generation model,言語生成モデル
+2636,language identification,言語識別
+2637,language model,言語モデル
+2638,language model pre-training,言語モデルの事前学習
+2639,language pair,言語ペア
+2640,language representation,言語表現
+2641,language transfer,言語転送
+2642,language understanding,言語理解
+2645,large language model,大規模言語モデル
+2646,large-margin learning,ラージ・マージン・ラーニング
+2647,latent Dirichlet allocation,潜在ディリクレ配分
+2648,latent code,潜在コード
+2649,latent dimension,潜在次元
+2650,latent distribution,潜在分布
+2651,latent dynamic model,潜在動的モデル
+2652,latent embedding,潜在埋め込み
+2653,latent factor,潜在因子
+2654,latent feature,潜在特徴
+2655,latent function,潜在関数
+2656,latent group,潜在グループ
+2657,latent parameter,潜在パラメータ
+2658,latent representation,潜在表現
+2659,latent reward function,潜在報酬関数
+2660,latent semantic,潜在意味
+2661,latent semantic analysis,潜在意味解析
+2662,latent space,潜在空間
+2663,latent state,潜在状態
+2664,latent topic,潜在トピック
+2665,latent variable,潜在変数
+2666,latent variable model,潜在変数モデル
+2667,latent vector,潜在ベクトル
+2668,layer,レイヤー
+2669,layer activation,レイヤー活性化
+2670,layer normalization,レイヤー正規化
+2671,layer-wise learning rate decay,層ごとの学習率減衰
+2672,lazy grounding,レイジーグラウンディング
+2673,leaf node,リーフノード
+2674,learnability,学習可能性
+2675,learnable parameter,学習可能なパラメータ
+2676,learnable vector,学習可能ベクトル
+2677,learned model,学習モデル
+2678,learned representation,学習された表現
+2679,learner,学習者
+2681,learning agent,学習エージェント
+2682,learning algorithm,学習アルゴリズム
+2683,learning method,学習方法
+2684,learning paradigm,学習パラダイム
+2685,learning problem,学習問題
+2686,learning rate,学習率
+2687,learning rate decay,学習率減衰
+2688,learning rate decay schedule,学習率減衰スケジュール
+2689,learning rate schedule,学習率スケジュール
+2690,learning rate scheduler,学習率スケジューラ
+2691,learning rate warmup,学習率ウォームアップ
+2692,learning-to-rank algorithm,ランキング学習アルゴリズム
+2693,least square,最小二乗法
+2694,least square criterion,最小二乗基準
+2695,least square minimization,最小二乗最適化
+2696,least square problem,最小二乗問題
+2697,least square regression,最小二乗回帰
+2698,least square solution,最小二乗解
+2699,leave-one-out,一つ除外法
+2700,left-to-right model,左から右へのモデル
+2701,lemmatization,レンマ化
+2702,length normalization,長さ正規化
+2703,length penalty,長さペナルティ
+2704,lexeme,レキシーム
+2706,lexical acquisition,語彙獲得
+2707,lexical acquisition algorithm,語彙獲得アルゴリズム
+2708,lexical ambiguity,語彙的曖昧性
+2709,lexical entry,語彙エントリ
+2710,lexical exposure,語彙的露出
+2711,lexical feature,語彙特徴
+2712,lexical head,語彙的ヘッド
+2713,lexical item,語彙項目
+2714,lexical knowledge,語彙知識
+2715,lexical model,語彙モデル
+2716,lexical overlap,語彙的重複
+2717,lexicalization,語彙化
+2718,lexicalized grammar,語彙化文法
+2719,lexicalized parsing model,語彙化された構文解析モデル
+2720,lexicon,辞書
+2721,lexicon induction,辞書誘導
+2722,lifelong learning,生涯学習
+2723,light field,ライトフィールド
+2724,light field interpolation,ライトフィールド補間
+2725,likelihood function,尤度関数
+2726,likelihood ratio test,尤度比検定
+2727,likelihood score,尤度スコア
+2728,line search,線形探索
+2730,linear activation function,線形活性化関数
+2731,linear algebra,線形代数
+2732,linear classification,線形分類
+2733,linear classification layer,線形分類層
+2734,linear classifier,線形分類器
+2735,linear combination,線形結合
+2736,linear complexity,線形複雑性
+2737,linear constraint,線形制約
+2738,linear decay,線形減衰
+2739,linear decoder,線形デコーダ
+2740,linear discriminant analysis,線形判別分析
+2741,linear equation,線形方程式
+2742,linear evaluation,線形評価
+2743,linear function,線形関数
+2744,linear function approximation,線形関数近似
+2745,linear inequality,線形不等式
+2746,linear interpolation,線形補間
+2747,linear kernel,線形カーネル
+2748,linear layer,線形層
+2749,linear learning rate decay,線形学習率減衰
+2750,linear learning rate schedule,線形学習率スケジュール
+2751,linear map,線形写像
+2752,linear model,線形モデル
+2753,linear predictor,線形予測子
+2754,linear probe,線形プローブ
+2755,linear program,線形プログラム
+2756,linear programming relaxation,線形計画緩和
+2757,linear projection,線形射影
+2758,linear regression,線形回帰
+2759,linear regression model,線形回帰モデル
+2760,linear regressor,線形回帰器
+2761,linear scaling,線形スケーリング
+2762,linear scheduler,線形スケジューラ
+2763,linear separability,線形分離可能性
+2764,linear system,線形システム
+2765,linear transform,線形変換
+2766,linear transformation,線形変換
+2767,linear transformation matrix,線形変換行列
+2768,linear warm-up,線形ウォームアップ
+2769,linear-chain,線形連鎖
+2770,linear-quadratic regulator,線形二次レギュレータ
+2771,linearization,線形化
+2773,linguistics,言語学
+2774,link function,リンク関数
+2775,link prediction,リンク予測
+2777,local basis function,ローカル基底関数
+2778,local coherence,ローカルコヒーレンス
+2779,local context,ローカルコンテキスト
+2780,local coordinate frame,ローカル座標系
+2781,local feature,ローカル特徴
+2782,local geometry,ローカルジオメトリ
+2783,local image feature,ローカル画像特徴
+2784,local maxima,局所極大
+2785,local maximum,局所最大値
+2786,local minima,局所極小
+2787,local minimizer,局所極小化器
+2788,local minimum,局所最小値
+2789,local model,ローカルモデル
+2790,local optima,局所最適
+2791,local optimum,局所最適
+2792,local parameter,ローカルパラメータ
+2793,local search,ローカルサーチ
+2794,local search method,局所探索法
+2795,local variable,ローカル変数
+2796,local window,ローカルウィンドウ
+2797,locality-sensitive hashing,局所性に敏感なハッシュ法
+2798,localization,ローカリゼーション
+2799,location parameter,位置パラメータ
+2800,log,対数
+2801,log likelihood,対数尤度
+2802,log loss,対数損失
+2803,log marginal likelihood,対数周辺尤度
+2804,log p,ログp
+2805,log partition function,対数分配関数
+2806,log perplexity,対数パープレキシティ
+2807,log probability,対数確率
+2808,log-likelihood function,対数尤度関数
+2809,log-likelihood loss,対数尤度損失
+2810,log-likelihood ratio,対数尤度比
+2811,log-linear model,対数線形モデル
+2812,log-linear translation model,対数線形翻訳モデル
+2813,log-log plot,対数-対数プロット
+2814,log-normal distribution,対数正規分布
+2815,log-odd score,対数オッズスコア
+2816,log-prob,対数確率
+2817,log-sum-exp,対数和指数
+2818,logical connective,論理接続詞
+2819,logical form,論理形式
+2820,logistic function,ロジスティック関数
+2821,logistic loss,ロジスティック損失
+2822,logistic regression,ロジスティック回帰
+2823,logistic regression classifier,ロジスティック回帰分類器
+2824,logistic regression model,ロジスティック回帰モデル
+2825,logit,ロジット
+2826,logit model,ロジットモデル
+2827,long-range dependency,長距離依存性
+2828,lookup table,ルックアップテーブル
+2829,loop closure,ループクローズure
+2830,loopy belief propagation,ループ信念伝播
+2831,loss,損失
+2832,loss distribution,損失分布
+2833,loss function,損失関数
+2834,loss landscape,損失ランドスケープ
+2835,loss minimization,損失最小化
+2836,loss term,損失項
+2837,lossy compression,非可逆圧縮
+2838,lottery ticket hypothesis,ロトリーチケット仮説
+2839,low rank,低ランク
+2840,low rank approximation,低ランク近似
+2841,low-data regime,低データレジーム
+2842,low-dimensional embedding,低次元埋め込み
+2843,low-dimensional representation,低次元表現
+2844,low-pass filter,ローパスフィルター
+2845,low-rank factorization,低ランク因子分解
+2846,low-rank matrix approximation,低ランク行列近似
+2847,lower bound,下限
+2848,mIoU,mIoU
+2849,mT5,mT5
+2850,machine learning,機械学習
+2851,machine learning algorithm,機械学習アルゴリズム
+2852,machine learning classifier,機械学習分類器
+2853,machine learning model,機械学習モデル
+2854,machine learning system,機械学習システム
+2855,machine reading,機械読解
+2856,machine translation,機械翻訳
+2857,machine translation model,機械翻訳モデル
+2858,machine translation system,機械翻訳システム
+2859,machine vision,機械視覚
+2860,machine-generated text,機械生成テキスト
+2861,machine-in-the-loop,機械介在型
+2862,macro-F1,マクロF1
+2863,macro-action,マクロアクション
+2864,macro-average,マクロ平均
+2865,majority voting,多数決
+2866,manifold,多様体
+2867,manifold hypothesis,多様体仮説
+2868,manifold learning,多様体学習
+2869,manifold projection,多様体射影
+2870,manifold structure,多様体構造
+2871,manifold-valued datum,多様体値データ
+2873,margin parameter,マージンパラメータ
+2874,marginal density,周辺密度
+2875,marginal distribution,周辺分布
+2876,marginal inference,周辺推論
+2877,marginal likelihood,周辺尤度
+2878,marginal log-likelihood,周辺対数尤度
+2879,marginal polytope,周辺多面体
+2880,marginal probability,周辺確率
+2881,marginalization,周辺化
+2882,mask,マスク
+2883,mask token,マスクトークン
+2884,mask vector,マスクベクトル
+2885,masked input,マスクされた入力
+2886,masked language model,マスク言語モデル
+2887,masked token,マスクトークン
+2888,masking function,マスキング関数
+2889,matching algorithm,マッチングアルゴリズム
+2890,matching loss,マッチングロス
+2891,matrix,行列
+2892,matrix approximation,行列近似
+2893,matrix completion,行列補完
+2894,matrix decomposition,行列分解
+2895,matrix form,行列形式
+2896,matrix inversion,行列逆行列
+2897,matrix multiplication,行列乗算
+2898,matrix norm,行列ノルム
+2899,matrix sketching,行列スケッチング
+2900,matrix vector product,行列ベクトル積
+2901,matrix-vector multiplication,行列-ベクトル乗算
+2902,matroid,マトロイド
+2903,matroid constraint,マイトロイド制約
+2904,max norm,最大ノルム
+2905,max pooling,最大プーリング
+2906,max-margin,最大マージン
+2907,max-margin learning,最大マージン学習
+2908,max-pool,マックスプーリング
+2909,max-pooling layer,最大プーリング層
+2910,max-product semiring,最大積半環
+2911,maximal clique,最大クリーク
+2912,maximal frequent itemset,最大頻出アイテム集合
+2913,maximal frequent pattern,最大頻出パターン
+2914,maximization problem,最大化問題
+2915,maximum a posteriori,最大事後確率
+2916,maximum a posteriori estimation,最大事後確率推定
+2917,maximum clique,最大クリーク
+2918,maximum entropy,最大エントロピー
+2919,maximum entropy model,最大エントロピーモデル
+2920,maximum entropy principle,最大エントロピー原理
+2921,maximum flow,最大流量
+2922,maximum likelihood,最大尤度
+2923,maximum likelihood estimate,最尤推定
+2924,maximum likelihood estimation,最大尤度推定
+2925,maximum likelihood estimator,最大尤度推定量
+2926,maximum likelihood learning,最大尤度学習
+2927,maximum mean discrepancy,最大平均差
+2928,mean average precision,平均平均精度
+2929,mean field,平均場
+2930,mean function,平均関数
+2931,mean pooling,平均プーリング
+2932,mean reciprocal rank,平均逆順位
+2933,mean shape,平均形状
+2934,mean square error,平均二乗誤差
+2935,mean vector,平均ベクトル
+2936,mean-field approximation,平均場近似
+2938,measurable space,可測空間
+2939,measurement matrix,測定行列
+2940,measurement noise,測定ノイズ
+2941,medical imaging,医用画像
+2942,medoid,メドイド
+2943,membership inference attack,メンバーシップ推論攻撃
+2944,membership query,メンバーシップクエリ
+2945,memory bank,メモリーバンク
+2946,memory capacity,メモリ容量
+2947,memory cell,メモリセル
+2948,memory complexity,メモリ複雑度
+2949,mention detection,メンション検出
+2950,meronymy,部分関係
+2951,message passing,メッセージパッシング
+2952,message passing algorithm,メッセージパッシングアルゴリズム
+2953,meta,メタ
+2954,meta-algorithm,メタアルゴリズム
+2955,meta-classifier,メタ分類器
+2956,meta-dataset,メタデータセット
+2957,meta-evaluation,メタ評価
+2958,meta-learn,メタ学習
+2959,meta-learner,メタ学習者
+2960,meta-learning,メタ学習
+2961,meta-loss,メタ損失
+2962,meta-parameter,メタパラメータ
+2963,meta-testing,メタテスト
+2964,meta-training,メタトレーニング
+2965,metadata,メタデータ
+2968,metric learning,メトリック学習
+2969,metric learning algorithm,メトリック学習アルゴリズム
+2970,metric score,メトリックスコア
+2971,metric space,メトリック空間
+2973,micro-average,マイクロ平均
+2974,microarray datum,マイクロアレイデータ
+2975,mini-batch,ミニバッチ
+2976,mini-batch size,ミニバッチサイズ
+2977,mini-batch training,ミニバッチトレーニング
+2978,minima,極小値
+2979,minimax,ミニマックス
+2980,minimax game,ミニマックスゲーム
+2981,minimax optimization problem,ミニマックス最適化問題
+2982,minimax problem,ミニマックス問題
+2983,minimization problem,最小化問題
+2984,minimizer,最小化点
+2985,minimum baye risk decoding,最小ベイズリスクデコーディング
+2986,minimum cut,最小カット
+2987,minimum description length,最小記述長
+2988,minimum support,最小サポート
+2989,mirror descent,ミラー降下
+2990,misclassification error,誤分類誤差
+2991,misclassification loss,誤分類損失
+2992,misinformation detection,誤情報検出
+2993,mixed integer programming,混合整数計画法
+2994,mixed precision,混合精度
+2995,mixed precision training,混合精度トレーニング
+2996,mixed strategy,混合戦略
+2997,mixed-integer program,混合整数プログラム
+2998,mixing matrix,混合行列
+2999,mixing time,混合時間
+3000,mixing weight,混合重み
+3001,mixture component,混合成分
+3002,mixture distribution,混合分布
+3003,mixture model,混合モデル
+3004,mixture of Gaussians,ガウス混合モデル
+3005,mixture weight,混合重み
+3006,mocap,モーションキャプチャ
+3008,modality,モダリティ
+3009,mode,モード
+3010,mode collapse,モード崩壊
+3012,model M,モデル M
+3013,model accuracy,モデル精度
+3014,model architecture,モデルアーキテクチャ
+3015,model averaging,モデル平均化
+3016,model bias,モデルバイアス
+3017,model capacity,モデル容量
+3018,model card,モデルカード
+3019,model checking,モデル検査
+3020,model class,モデルクラス
+3021,model comparison,モデル比較
+3022,model complexity,モデルの複雑性
+3023,model compression,モデル圧縮
+3024,model convergence,モデル収束
+3025,model development,モデル開発
+3026,model distillation,モデル蒸留
+3027,model distribution,モデル分布
+3028,model estimation,モデル推定
+3029,model evaluation,モデル評価
+3030,model family,モデルファミリー
+3031,model fine-tuning,モデルのファインチューニング
+3032,model generalization,モデルの一般化
+3033,model hyperparameter,モデルハイパーパラメータ
+3034,model inference,モデル推論
+3035,model initialization,モデル初期化
+3036,model interpretability,モデル解釈可能性
+3037,model interpretation,モデル解釈
+3038,model layer,モデル層
+3039,model output,モデル出力
+3040,model parallelism,モデル並列性
+3041,model parameter,モデルパラメータ
+3042,model performance,モデル性能
+3043,model precision,モデル精度
+3044,model prediction,モデル予測
+3045,model predictive control,モデル予測制御
+3046,model representation,モデル表現
+3047,model robustness,モデルの堅牢性
+3048,model score,モデルスコア
+3049,model selection,モデル選択
+3050,model size,モデルサイズ
+3051,model specification,モデル仕様
+3052,model structure,モデル構造
+3053,model training,モデル訓練
+3054,model update,モデル更新
+3055,model variant,モデルバリアント
+3056,model weight,モデルの重み
+3057,model's parameter,モデルのパラメータ
+3058,model-based approach,モデルベースのアプローチ
+3059,model-based reinforcement learning,モデルベースの強化学習
+3060,model-free approach,モデルフリーアプローチ
+3062,modular,モジュラー
+3063,modular architecture,モジュラーアーキテクチャ
+3064,module,モジュール
+3065,moment matching,モーメントマッチング
+3066,momentum,モーメンタム
+3067,momentum coefficient,モーメンタム係数
+3068,momentum encoder,モメンタムエンコーダ
+3069,momentum term,モーメンタム項
+3070,monocular,単眼
+3071,monocular reconstruction,単眼再構成
+3073,monolingual baseline,単言語ベースライン
+3074,monolingual corpora,単言語コーパス
+3075,monolingual corpus,単言語コーパス
+3076,monolingual dataset,単言語データセット
+3077,monolingual datum,単言語データ
+3078,monolingual embedding,単言語埋め込み
+3079,monolingual model,単言語モデル
+3080,monolingual training,モノリンガルトレーニング
+3081,monotone,単調
+3082,monotonic,モノトニック
+3085,morphological analysis,形態素解析
+3086,morphological analyzer,形態素解析器
+3087,morphological feature,形態素的特徴
+3088,morphological information,形態素情報
+3089,morphological operation,形態素操作
+3090,morphological segmentation,形態素セグメンテーション
+3092,motion analysis,運動解析
+3093,motion estimation,動作推定
+3094,motion matrix,モーション行列
+3095,motion planning,モーションプランニング
+3096,motion segmentation,モーションセグメンテーション
+3098,moving average,移動平均
+3099,multi-agent,マルチエージェント
+3100,multi-agent interaction,マルチエージェント相互作用
+3101,multi-agent learning,マルチエージェント学習
+3102,multi-agent reinforcement learning,マルチエージェント強化学習
+3103,multi-agent system,マルチエージェントシステム
+3104,multi-armed bandit,マルチアームバンディット
+3105,multi-armed bandit problem,マルチアームバンディット問題
+3106,multi-class,マルチクラス
+3107,multi-class classification,マルチクラス分類
+3108,multi-class logistic regression,マルチクラスロジスティック回帰
+3109,multi-class problem,多クラス問題
+3110,multi-classification,多クラス分類
+3111,multi-document summarization,多文書要約
+3112,multi-domain,多ドメイン
+3113,multi-head,マルチヘッド
+3114,multi-head attention,マルチヘッドアテンション
+3115,multi-head attention layer,マルチヘッドアテンション層
+3116,multi-head self-attention,多頭自己注意
+3117,multi-head self-attention mechanism,マルチヘッド自己注意メカニズム
+3118,multi-head self-attention module,マルチヘッドセルフアテンションモジュール
+3119,multi-headed self-attention,マルチヘッド自己注意
+3120,multi-label,マルチラベル
+3121,multi-label classification,マルチラベル分類
+3122,multi-label classification loss,マルチラベル分類損失
+3123,multi-label classifier,マルチラベル分類器
+3124,multi-label datum,マルチラベルデータ
+3125,multi-label learning,マルチラベル学習
+3126,multi-label text classification,マルチラベルテキスト分類
+3127,multi-layer neural network,多層ニューラルネットワーク
+3128,multi-layer perceptron,多層パーセプトロン
+3129,multi-modal,マルチモーダル
+3130,multi-modal input,マルチモーダル入力
+3131,multi-modal learning,マルチモーダル学習
+3132,multi-modal model,マルチモーダルモデル
+3133,multi-object detection,マルチオブジェクト検出
+3134,multi-objective optimization,多目的最適化
+3135,multi-scale,マルチスケール
+3136,multi-scale architecture,マルチスケールアーキテクチャ
+3137,multi-scale training,マルチスケールトレーニング
+3138,multi-task,マルチタスク
+3139,multi-task fine-tuning,マルチタスク微調整
+3140,multi-task model,マルチタスクモデル
+3141,multi-task regression,マルチタスク回帰
+3142,multi-task setting,マルチタスク設定
+3143,multi-view,マルチビュー
+3144,multi-view datum,マルチビューデータ
+3145,multi-view geometry,マルチビュー幾何学
+3146,multi-view learning,マルチビュー学習
+3147,multi-view stereo,マルチビュー・ステレオ
+3148,multi-view system,マルチビューシステム
+3149,multiclass classifier,マルチクラス分類器
+3150,multiclass hinge loss,マルチクラスヒンジ損失
+3151,multiclass model,マルチクラスモデル
+3152,multiclass object detection,多クラス物体検出
+3154,multilingual embedding,多言語埋め込み
+3155,multilingual language model,多言語モデル
+3156,multilingual model,多言語モデル
+3157,multilingual representation,多言語表現
+3158,multilingual training,多言語トレーニング
+3159,multilinguality,多言語性
+3160,multimodal task,マルチモーダルタスク
+3161,multinomial distribution,多項分布
+3162,multinomial model,多項モデル
+3163,multiple kernel learning,多重カーネル学習
+3164,multiple linear regression,多重線形回帰
+3165,multiscale modeling,マルチスケールモデリング
+3166,multiset,多重集合
+3167,multitask,マルチタスク
+3168,multitask training,マルチタスクトレーニング
+3169,multivariate,多変量
+3170,multivariate Gaussian,多変量ガウス
+3171,multivariate Gaussian distribution,多変量ガウス分布
+3172,multivariate normal,多変量正規分布
+3173,multivariate normal distribution,多変量正規分布
+3174,multivariate time series,多変量時系列
+3175,mutex,ミューテックス
+3176,mutexe,ミューテックス
+3177,mutual entropy,相互エントロピー
+3178,mutual information,相互情報量
+3179,n-best list,n-bestリスト
+3180,n-gram,N-グラム
+3181,n-gram feature,n-グラム特徴
+3182,n-gram language model,n-グラム言語モデル
+3183,n-gram model,n-グラムモデル
+3184,n-step returns,nステップリターン
+3185,naive Bayes,ナイーブベイズ
+3186,naive Bayes classifier,ナイーブベイズ分類器
+3187,naive Bayes model,ナイーブベイズモデル
+3189,named entity,名前付きエンティティ
+3190,named entity recognition,固有表現認識
+3191,named entity recognizer,名前付きエンティティ認識器
+3194,natural image statistic,自然画像統計
+3195,natural language,自然言語
+3196,natural language generation,自然言語生成
+3197,natural language processing,自然言語処理
+3198,natural language query,自然言語クエリ
+3199,natural logic,自然論理
+3200,natural logic inference,自然論理推論
+3201,natural parameter,自然パラメータ
+3202,near-optimality,近似最適性
+3203,nearest neighbor,最近傍法
+3204,nearest neighbor classifier,最近傍分類器
+3205,nearest neighbor search,最近傍探索
+3206,nearest-neighbor algorithm,最近傍アルゴリズム
+3207,negation,否定
+3208,negative log-likelihood,負の対数尤度
+3209,negative pair,負のペア
+3210,negative sample,ネガティブサンプル
+3211,negative transfer,負の転送
+3212,neighborhood function,隣接関数
+3213,neighborhood system,近傍系
+3214,net,ネット
+3215,network,ネットワーク
+3216,network architecture,ネットワークアーキテクチャ
+3217,network feature,ネットワーク特徴量
+3218,network parameter,ネットワークパラメータ
+3219,network structure,ネットワーク構造
+3220,network topology,ネットワークトポロジー
+3221,network weight,ネットワーク重み
+3223,neural activity,神経活動
+3224,neural approach,ニューラルアプローチ
+3225,neural architecture,ニューラルアーキテクチャ
+3226,neural architecture search,ニューラルアーキテクチャ検索
+3227,neural embedding,ニューラル埋め込み
+3228,neural generation model,ニューラル生成モデル
+3229,neural implicit representation,ニューラル暗黙的表現
+3230,neural language model,ニューラル言語モデル
+3231,neural machine translation,ニューラル機械翻訳
+3232,neural machinery,ニューラル機構
+3233,neural mapping,ニューラルマッピング
+3234,neural method,ニューラルメソッド
+3235,neural model,ニューラルモデル
+3236,neural module,ニューラルモジュール
+3237,neural net,ニューラルネット
+3238,neural network,ニューラルネットワーク
+3239,neural network architecture,ニューラルネットワークアーキテクチャ
+3240,neural network classifier,ニューラルネットワーク分類器
+3241,neural network language model,ニューラルネットワーク言語モデル
+3242,neural network layer,ニューラルネットワーク層
+3243,neural network model,ニューラルネットワークモデル
+3244,neural operator,ニューラルオペレーター
+3245,neural parser,ニューラルパーサー
+3246,neural renderer,ニューラルレンダラー
+3247,neural rendering,ニューラルレンダリング
+3248,neural representation,ニューラル表現
+3249,neural retrieval,ニューラルリトリーバル
+3250,neural scaling law,ニューラルスケーリング則
+3251,neural scene representation,ニューラルシーン表現
+3252,neural sequence model,ニューラルシーケンスモデル
+3253,neural text generation,ニューラルテキスト生成
+3254,neural volumetric representation,ニューラル体積表現
+3255,neural word embedding,ニューラル・ワード・エンベッディング
+3256,neuro-symbolic system,ニューラル・シンボリックシステム
+3257,neuron,ニューロン
+3260,next sentence prediction,次文予測
+3261,next token prediction,次トークン予測
+3262,nmod,名詞修飾語
+3263,no-regret algorithm,ノーリグレットアルゴリズム
+3264,no-regret dynamic,ノーリグレットダイナミクス
+3265,no-regret learning algorithm,無後悔学習アルゴリズム
+3266,node,ノード
+3267,node attribute,ノード属性
+3268,node classification,ノード分類
+3269,node degree,ノードの次数
+3270,node embedding,ノード埋め込み
+3271,node feature,ノード特徴
+3272,node feature matrix,ノード特徴行列
+3273,node label,ノードラベル
+3274,node representation,ノード表現
+3275,node set,ノード集合
+3276,node-disjoint path,ノード非交差パス
+3278,noise distribution,ノイズ分布
+3279,noise level,ノイズレベル
+3280,noise model,ノイズモデル
+3281,noise schedule,ノイズスケジュール
+3282,noise-contrastive estimation,ノイズ対比推定
+3283,noisy channel,ノイジーチャンネル
+3284,nominal mention,名詞的言及
+3285,non-Euclidean space,非ユークリッド空間
+3286,non-Markov process,非マルコフ過程
+3287,non-convex objective,非凸目的関数
+3288,non-convex optimization,非凸最適化
+3289,non-convex problem,非凸問題
+3290,non-convexity,非凸性
+3291,non-linear least square,非線形最小二乗法
+3292,non-linear optimization,非線形最適化
+3293,non-linearity,非線形性
+3294,non-local feature,非局所特徴
+3295,non-max suppression,非最大抑制
+3296,non-maxima suppression,非最大値抑制
+3297,non-maximal suppression,非最大抑制
+3298,non-negative matrix factorization,非負行列分解
+3299,non-parametric setting,ノンパラメトリック設定
+3300,non-projective parsing,非射影構文解析
+3301,non-submodular energy,非サブモジュラーエネルギー
+3302,non-tree model,非ツリーモデル
+3303,nonconvex function,非凸関数
+3304,nonlinear optimisation,非線形最適化
+3305,nonmonotonic reasoning,非単調推論
+3306,nonterminal symbol,非終端記号
+3307,norm,ノルム
+3308,normal,法線
+3309,normal distribution,正規分布
+3310,normal form,正規形
+3311,normal vector,法線ベクトル
+3312,normal-form game,正規形ゲーム
+3313,normalisation,正規化
+3314,normalization,正規化
+3315,normalization constant,正規化定数
+3316,normalization factor,正規化因子
+3317,normalization function,正規化関数
+3318,normalization layer,正規化層
+3319,normalization method,正規化手法
+3320,normalization strategy,正規化戦略
+3321,normalize,正規化する
+3322,normalized cross correlation,正規化相関
+3323,normalized cut,正規化カット
+3324,normalized cut algorithm,正規化カットアルゴリズム
+3325,normalized edit distance,正規化編集距離
+3326,normalizing factor,正規化因子
+3327,normalizing flow,正規化フロー
+3329,noun phrase,名詞句
+3331,novel view synthesis,新しい視点合成
+3332,nsubj,主語
+3333,nsubjpass,受動主語
+3334,nuclear norm,核ノルム
+3335,nuclear norm relaxation,核ノルム緩和
+3336,null distribution,帰無分布
+3337,null space,零空間
+3339,numerical linear algebra,数値線形代数
+3340,object bounding box,物体バウンディングボックス
+3341,object categorization,物体のカテゴリ化
+3342,object category,物体カテゴリ
+3343,object category recognition,物体カテゴリ認識
+3344,object class,オブジェクトクラス
+3345,object classification,物体分類
+3346,object detection,物体検出
+3347,object detector,物体検出器
+3348,object domain,オブジェクトドメイン
+3349,object embedding,物体埋め込み
+3350,object instance segmentation,物体インスタンスセグメンテーション
+3351,object model,オブジェクトモデル
+3352,object proposal,オブジェクト提案
+3353,object recognition,オブジェクト認識
+3354,object segmentation,オブジェクトセグメンテーション
+3355,object tracking,オブジェクト追跡
+3356,objective function,目的関数
+3357,objective value,目的値
+3358,objectness,オブジェクトネス
+3359,observation function,観測関数
+3360,observation model,観測モデル
+3361,observation space,観測空間
+3362,observational datum,観測データ
+3363,occlusion handling,オクルージョン処理
+3364,occlusion reasoning,オクルージョン推論
+3365,occupancy grid,占有グリッド
+3366,occupancy map,占有マップ
+3367,occupancy measure,占有測度
+3368,odometry,オドメトリ
+3369,off-diagonal element,非対角要素
+3370,off-policy,オフポリシー
+3371,offline algorithm,オフラインアルゴリズム
+3372,offline learning,オフライン学習
+3373,on-policy,オンポリシー
+3374,one-against-all reduction,ワンアゲインストオール削減
+3375,one-hot encoded,ワンホットエンコード
+3376,one-hot representation,ワンホット表現
+3377,one-hot vector,ワンホットベクトル
+3378,one-shot learning,ワンショット学習
+3379,one-shot setting,ワンショット設定
+3380,one-stage detector,ワンステージ検出器
+3381,one-versus-all,一対全
+3383,online algorithm,オンラインアルゴリズム
+3384,online convex optimization,オンライン凸最適化
+3385,online gradient descent,オンライン勾配降下法
+3386,online learning,オンライン学習
+3387,online learning algorithm,オンライン学習アルゴリズム
+3388,online learning method,オンライン学習手法
+3389,online learning theory,オンライン学習理論
+3390,ontology,オントロジー
+3391,ontology language,オントロジー言語
+3392,ontology-mediated query,オントロジー媒介クエリ
+3393,open set,開集合
+3394,open-ended text generation,オープンエンドのテキスト生成
+3395,open-loop,オープンループ
+3396,operator norm,演算子ノルム
+3397,operator sequence,演算子列
+3398,optical character recognition,光学文字認識
+3399,optical flow,光学フロー
+3400,optical flow estimation,光学フロー推定
+3401,optimal control theory,最適制御理論
+3402,optimal experimental design,最適実験デザイン
+3403,optimal policy,最適方策
+3404,optimal solution,最適解
+3405,optimality,最適性
+3406,optimality condition,最適性条件
+3407,optimisation,最適化
+3408,optimisation problem,最適化問題
+3409,optimiser,最適化手法
+3410,optimization,最適化
+3411,optimization algorithm,最適化アルゴリズム
+3412,optimization framework,最適化フレームワーク
+3413,optimization function,最適化関数
+3414,optimization method,最適化手法
+3415,optimization objective,最適化目的
+3416,optimization procedure,最適化手順
+3417,optimization step,最適化ステップ
+3418,optimization theory,最適化理論
+3419,optimizer,オプティマイザ
+3420,option,オプション
+3421,oracle,オラクル
+3422,oracle policy,オラクルポリシー
+3423,ordinal embedding,順序埋め込み
+3424,ordinal regression,順序回帰
+3425,orientation loss,オリエンテーション損失
+3426,orthogonal basis,直交基底
+3427,orthogonal matrix,直交行列
+3428,orthogonal projection matrix,直交射影行列
+3429,orthographic camera model,正射影カメラモデル
+3430,orthographic projection,直交投影
+3431,orthonormal decomposition,正規直交分解
+3432,orthonormal matrix,正規直交行列
+3433,orthonormal row,正規直交行
+3434,orthonormality,正規直交性
+3435,out-of-distribution,分布外
+3436,out-of-domain,ドメイン外
+3437,out-of-domain evaluation,ドメイン外評価
+3438,outlier,外れ値
+3439,outlier detection,外れ値検出
+3440,outlier exposure,異常値露出
+3441,outlier rejection,外れ値棄却
+3442,output,出力
+3443,output gate,出力ゲート
+3444,output layer,出力層
+3445,output space,出力空間
+3446,output token,出力トークン
+3447,output vector,出力ベクトル
+3448,output vocabulary,出力語彙
+3450,over-fitting,過学習
+3451,over-segmentation,過剰セグメンテーション
+3452,over-smoothing,過剰平滑化
+3453,paired t-test,対応のt検定
+3455,pairwise classifier,ペアワイズ分類器
+3456,pairwise clique,ペアワイズクリーク
+3457,pairwise comparison,ペアワイズ比較
+3458,pairwise constraint,ペアワイズ制約
+3459,pairwise flow,ペアワイズフロー
+3460,pairwise learning,ペアワイズ学習
+3461,pairwise potential,ペアワイズポテンシャル
+3462,pairwise word similarity,ペアワイズ単語類似度
+3463,panoptic segmentation,パノプティックセグメンテーション
+3465,parallel,並列
+3466,parallel corpora,並列コーパス
+3467,parallel corpus,対訳コーパス
+3468,parallel datum,対訳データ
+3470,parameter count,パラメータ数
+3471,parameter estimation,パラメータ推定
+3472,parameter learning,パラメータ学習
+3473,parameter matrix,パラメータ行列
+3474,parameter model,パラメータモデル
+3475,parameter regularization,パラメータ正則化
+3476,parameter sharing,パラメータ共有
+3477,parameter size,パラメータサイズ
+3478,parameter space,パラメータ空間
+3479,parameter tuning,パラメータ調整
+3480,parameter tying,パラメーター・タイイング
+3481,parameter update,パラメータ更新
+3482,parameter vector,パラメータベクトル
+3483,parameter-efficient fine-tuning,パラメータ効率の良いファインチューニング
+3484,parameterisation,パラメータ化
+3485,parameterization,パラメータ化
+3486,parameterized model,パラメータ化モデル
+3487,parametric,パラメトリック
+3488,parametric family,パラメトリックファミリー
+3489,parametric knowledge,パラメトリック知識
+3490,parametric model,パラメトリックモデル
+3491,parametrization,パラメータ化
+3492,paraphrase,パラフレーズ
+3493,paraphrase generation,パラフレーズ生成
+3494,paraphrase generator,パラフレーズ生成器
+3495,paraphrase identification,パラフレーズ識別
+3496,paraphrase model,パラフレーズモデル
+3497,parent node,親ノード
+3498,parse,構文解析
+3499,parse chart,解析チャート
+3500,parse forest,構文解析フォレスト
+3501,parse score,解析スコア
+3502,parse structure,構文解析構造
+3503,parse tree,構文木
+3504,parser,パーサー
+3506,parsing accuracy,構文解析精度
+3507,parsing algorithm,構文解析アルゴリズム
+3508,parsing model,構文解析モデル
+3509,parsing performance,構文解析性能
+3510,part of speech,品詞
+3511,part of speech tag,品詞タグ
+3512,part of speech tagger,品詞タグ付け器
+3513,partial assignment,部分割り当て
+3514,partial derivation,部分導出
+3515,partial evaluation,部分評価
+3516,partial observability,部分可観測性
+3517,partial order,部分順序
+3518,particle filter,粒子フィルタ
+3519,partition,分割
+3520,partition function,分配関数
+3521,patch,パッチ
+3522,path integration,パスインテグレーション
+3523,path planning,経路計画
+3524,pattern profile,パターンプロファイル
+3525,pattern recognition,パターン認識
+3526,pattern summarization,パターンサマリゼーション
+3527,pattern-verbalizer pair,パターン-バーバライザーペア
+3528,payoff function,ペイオフ関数
+3529,payoff matrix,ペイオフ行列
+3530,pedestrian detection,歩行者検出
+3531,penalty function,ペナルティ関数
+3532,penalty parameter,ペナルティパラメータ
+3533,penalty term,ペナルティ項
+3534,per-pixel,ピクセルごとの
+3535,perception,知覚
+3536,perceptron,パーセプトロン
+3537,perceptron algorithm,パーセプトロンアルゴリズム
+3538,perceptual feature,知覚的特徴
+3539,perceptual loss,知覚損失
+3540,perfect matching,完全マッチング
+3541,performance difference lemma,性能差の補題
+3542,permutation,順列
+3543,permutation invariance,順列不変性
+3544,permutation matrix,順列行列
+3545,permutation test,順列検定
+3546,permutohedral lattice,パーミュテオヘドラル格子
+3547,perplexity,パープレキシティ
+3548,perplexity score,パープレキシティスコア
+3549,perspective projection,透視投影
+3550,perspective projection matrix,透視投影行列
+3551,perturbation,摂動
+3552,perturbation analysis,摂動解析
+3553,perturbation variance,摂動分散
+3554,phase retrieval,位相復元
+3555,phoneme,音素
+3556,phoneme segmentation,音素セグメンテーション
+3557,photoconsistency,フォトコンシステンシー
+3558,photometric consistency,光度的一貫性
+3559,photometric error,光度誤差
+3560,photometric loss,光度損失
+3561,photometric stereo,光度ステレオ
+3563,phrase structure tree,句構造木
+3564,phrase table,フレーズテーブル
+3565,piecewise linear,区分線形
+3566,piecewise planar,区分的平面
+3567,pipeline,パイプライン
+3568,pixel,ピクセル
+3569,pixel labeling,ピクセルラベリング
+3570,pixel-level,ピクセルレベル
+3571,pixel-wise,ピクセル単位
+3572,place recognition,場所認識
+3573,placeholder,プレースホルダー
+3574,planning,計画
+3575,planning problem,計画問題
+3576,planning task,計画タスク
+3577,plug-in estimator,プラグイン推定量
+3578,pobj,前置詞目的語
+3579,point cloud,点群
+3580,point correspondence,点対応
+3581,point estimate,点推定
+3582,point match,ポイントマッチ
+3583,pointwise,ポイントワイズ
+3584,pointwise multiplication,点ごとの乗算
+3585,policy,方策
+3586,policy class,ポリシークラス
+3587,policy distribution,方策分布
+3588,policy entropy,ポリシーエントロピー
+3589,policy evaluation,ポリシー評価
+3590,policy gradient,方策勾配
+3591,policy gradient algorithm,ポリシー勾配アルゴリズム
+3592,policy gradient estimator,ポリシー勾配推定器
+3593,policy gradient method,ポリシー勾配法
+3594,policy gradient theorem,ポリシー勾配定理
+3595,policy improvement,ポリシー改善
+3596,policy iteration,ポリシー反復
+3597,policy learning,ポリシー学習
+3598,policy network,ポリシーネットワーク
+3599,policy optimization,ポリシー最適化
+3600,policy parameter,ポリシーパラメータ
+3601,policy representation,ポリシー表現
+3602,policy sketch,ポリシースケッチ
+3603,policy space,ポリシースペース
+3604,polygon mesh,ポリゴンメッシュ
+3605,polylog,ポリログ
+3606,polylogarithmic,多対数
+3607,polynomial,多項式
+3608,polynomial delay,多項式遅延
+3609,polynomial kernel,多項式カーネル
+3610,polynomial time,多項式時間
+3611,polynomial time algorithm,多項式時間アルゴリズム
+3612,pool-based active learning,プールベースのアクティブラーニング
+3613,pooling layer,プーリング層
+3614,pooling operation,プーリング操作
+3615,pose estimation,ポーズ推定
+3616,pose parameter,ポーズパラメータ
+3617,pose prior,ポーズ事前分布
+3618,pose space,ポーズ空間
+3619,position bias,位置バイアス
+3620,position embedding,位置埋め込み
+3621,positional bias,ポジショナルバイアス
+3622,positional embedding,ポジショナル埋め込み
+3623,positional encoding,位置エンコーディング
+3624,positive definite,正定値
+3625,positive pair,正のペア
+3626,positive semidefinite,正半定値
+3627,positive semidefinite kernel,正半定値カーネル
+3628,positive semidefinite matrix,半正定値行列
+3629,post-editing,ポストエディティング
+3630,post-hoc,ポストホック
+3631,post-hoc analysis,ポストホック分析
+3632,post-processing,ポストプロセッシング
+3633,posterior,事後分布
+3634,posterior approximation,事後近似
+3635,posterior density,事後密度
+3636,posterior distribution,事後分布
+3637,posterior entropy,事後エントロピー
+3638,posterior estimation,事後推定
+3639,posterior inference,事後推論
+3640,posterior mean,事後平均
+3641,posterior mean function,事後平均関数
+3642,posterior probability,事後確率
+3643,posterior probability distribution,事後確率分布
+3644,posterior sample,事後サンプル
+3645,posterior variance,事後分散
+3646,potential function,ポテンシャル関数
+3647,potential heuristic,ポテンシャルヒューリスティック
+3648,power iteration method,べき乗反復法
+3649,power law distribution,べき乗則分布
+3650,power method,パワー法
+3651,pre-logit,プレロジット
+3652,pre-processing,前処理
+3653,pre-terminals,プレターミナル
+3654,pre-train,事前学習
+3655,pre-trained checkpoint,事前学習済みチェックポイント
+3656,pre-trained embedding,事前学習済み埋め込み
+3657,pre-trained language model,事前学習済み言語モデル
+3658,pre-trained model,事前学習モデル
+3659,pre-trained parameter,事前学習済みパラメータ
+3660,pre-trained weight,事前学習済み重み
+3661,pre-training corpus,事前学習コーパス
+3662,pre-training datum,事前学習データ
+3663,pre-training objective,事前学習目的
+3664,pre-training task,事前学習タスク
+3665,precision,精度
+3666,precision matrix,精度行列
+3667,precision-at-10,プレシジョン-アット-10
+3668,precision-recall curve,精度-再現率曲線
+3669,precision-recall graph,精度-再現率グラフ
+3670,precondition,前提条件
+3671,preconditioner,前処理器
+3673,predicate logic,述語論理
+3674,predicate symbol,述語記号
+3675,predicate-argument relation,命題-引数関係
+3676,predicate-argument structure,命題-引数構造
+3678,prediction,予測
+3679,prediction accuracy,予測精度
+3680,prediction entropy,予測エントロピー
+3681,prediction error,予測誤差
+3682,prediction head,予測ヘッド
+3683,prediction invariance,予測不変性
+3684,prediction model,予測モデル
+3685,prediction network,予測ネットワーク
+3686,prediction variance,予測分散
+3687,predictive coding,予測コーディング
+3688,predictive distribution,予測分布
+3689,predictive likelihood,予測尤度
+3690,predictive model,予測モデル
+3691,predictive performance,予測性能
+3692,predictor,予測器
+3693,prefix,接頭辞
+3694,prefix sum,累積和
+3695,prefix tree,接頭辞木
+3696,preimage,逆像
+3697,prepositional phrase,前置詞句
+3698,preprocessing phase,前処理フェーズ
+3699,presence penalty,存在ペナルティ
+3701,pretrained multilingual model,事前学習済み多言語モデル
+3704,primal objective function,プライマル目的関数
+3705,primal optimization,プライマル最適化
+3706,primal problem,プライマル問題
+3707,primal variable,プライマル変数
+3708,primal-dual algorithm,プライマル・デュアルアルゴリズム
+3709,primal-dual method,プライマル・デュアル法
+3710,primitive,プリミティブ
+3711,principal component,主成分
+3712,principal component analysis,主成分分析
+3713,prior distribution,事前分布
+3714,prior hyperparameter,事前ハイパーパラメータ
+3715,prior knowledge,事前知識
+3716,prior mean,事前平均
+3717,prior probability,事前確率
+3718,prior probability distribution,事前確率分布
+3719,prior variance,事前分散
+3720,priority queue,優先キュー
+3721,privacy budget,プライバシーバジェット
+3722,privacy-preserving data mining,プライバシー保護データマイニング
+3723,probabilistic context-free grammar,確率的文脈自由文法
+3724,probabilistic distribution,確率分布
+3725,probabilistic formulation,確率的定式化
+3726,probabilistic framework,確率的枠組み
+3727,probabilistic generative model,確率的生成モデル
+3728,probabilistic graphical model,確率的グラフィカルモデル
+3729,probabilistic inference,確率的推論
+3730,probabilistic logic,確率的論理
+3731,probabilistic method,確率的手法
+3732,probabilistic model,確率モデル
+3733,probabilistic relational model,確率的関係モデル
+3734,probabilistic representation,確率的表現
+3735,probabilistic semantic,確率的意味論
+3736,probabilistic topic modeling,確率的トピックモデル
+3737,probabilistic tree,確率的木
+3738,probability density,確率密度
+3739,probability density function,確率密度関数
+3740,probability distribution,確率分布
+3741,probability flow,確率フロー
+3742,probability map,確率マップ
+3743,probability mass,確率質量
+3744,probability mass function,確率質量関数
+3745,probability matrix,確率行列
+3746,probability measure,確率測度
+3747,probability model,確率モデル
+3748,probability multiset,確率多集合
+3749,probability simplex,確率単体
+3750,probability space,確率空間
+3751,probability threshold,確率閾値
+3752,probability transition matrix,確率遷移行列
+3753,probability vector,確率ベクトル
+3754,probing classifier,プロービング分類器
+3756,problem space,問題空間
+3757,product distribution,積分布
+3758,product-of-expert,エキスパートの積
+3759,program induction,プログラム誘導
+3760,projection algorithm,射影アルゴリズム
+3761,projection layer,射影層
+3762,projection matrix,射影行列
+3763,projection operator,射影演算子
+3764,projection step,射影ステップ
+3765,projective camera,射影カメラ
+3766,projective dependency parsing,射影依存構文解析
+3767,projective dependency tree,射影依存木
+3768,projective parsing,射影構文解析
+3769,projective transformation,射影変換
+3770,prompt,プロンプト
+3771,prompt engineering,プロンプトエンジニアリング
+3772,prompt learning,プロンプト学習
+3773,prompt tuning,プロンプトチューニング
+3774,pronoun resolution,代名詞解決
+3776,proof complexity,証明の複雑性
+3777,proof number,証明数
+3778,proof tree,証明木
+3779,propensity score,傾向スコア
+3780,proposal distribution,提案分布
+3781,proposal probability,提案確率
+3783,propositional,命題の
+3784,propositional formula,命題式
+3785,propositional language,命題言語
+3786,propositional logic,命題論理
+3787,propositional variable,命題変数
+3788,protected attribute,保護属性
+3789,protein folding,タンパク質折りたたみ
+3790,prototype embedding,プロトタイプ埋め込み
+3791,proximal operator,近位演算子
+3792,pruning algorithm,プルーニングアルゴリズム
+3794,pseudo-inverse,擬似逆行列
+3795,pure strategy,純戦略
+3796,pyramid level,ピラミッドレベル
+3797,quadratic assignment problem,二次割り当て問題
+3798,quadratic loss,二次損失
+3799,quadratic program,二次計画
+3800,quadratic regularizer,二次正則化項
+3803,quantal response equilibrium,クアンタル応答均衡
+3804,quantified variable,定量変数
+3805,quantifier,量化子
+3806,quantile,分位数
+3807,quantization,量子化
+3808,quantization function,量子化関数
+3809,quantizer,量子化器
+3810,quasi-Newton method,準ニュートン法
+3811,quaternion,四元数
+3814,query answering,クエリ応答
+3815,query complexity,クエリ複雑性
+3816,query context,クエリコンテキスト
+3817,query embedding,クエリ埋め込み
+3818,query image,クエリ画像
+3819,query language,クエリ言語
+3820,query phase,クエリフェーズ
+3821,query point,クエリポイント
+3822,query processing,クエリ処理
+3823,query reformulation,クエリ再構成
+3824,query representation,クエリ表現
+3825,query strategy,クエリ戦略
+3826,query time,クエリ時間
+3827,query vector,クエリベクトル
+3828,query-document pair,クエリ-ドキュメントペア
+3831,radiance field,放射輝度場
+3832,random crop,ランダムクロップ
+3833,random feature,ランダム特徴
+3834,random forest,ランダムフォレスト
+3835,random matrix theory,ランダム行列理論
+3836,random policy,ランダムポリシー
+3837,random projection,ランダム射影
+3838,random projection algorithm,ランダム射影アルゴリズム
+3839,random sampling,ランダムサンプリング
+3840,random seed,ランダムシード
+3841,random variable,ランダム変数
+3842,random vector,ランダムベクトル
+3843,random walk model,ランダムウォークモデル
+3844,randomization,ランダム化
+3845,randomized algorithm,ランダム化アルゴリズム
+3846,randomized smoothing,ランダム化スムージング
+3847,range query,範囲クエリ
+3848,rank,ランク
+3849,rank-one update,ランク1更新
+3850,ranking algorithm,ランキングアルゴリズム
+3851,ranking function,ランキング関数
+3852,ranking model,ランキングモデル
+3854,reachable state,到達可能状態
+3855,readout function,読み出し関数
+3856,reasoning,推論
+3857,recall,再現率
+3858,receptive field,受容野
+3859,recognition,認識
+3860,recognition model,認識モデル
+3861,recommendation algorithm,推薦アルゴリズム
+3862,recommendation model,推薦モデル
+3863,recommendation system,推薦システム
+3864,recommender,レコメンダー
+3865,recommender system,レコメンダーシステム
+3866,reconstruction algorithm,再構成アルゴリズム
+3867,reconstruction error,再構成誤差
+3868,reconstruction loss,再構成損失
+3869,recovery algorithm,復元アルゴリズム
+3870,rectified linear unit,整流線形ユニット
+3871,rectified stereo pair,整流ステレオペア
+3872,recurrent,再帰的
+3873,recurrent architecture,再帰的アーキテクチャ
+3874,recurrent autoencoder,再帰的オートエンコーダ
+3875,recurrent connection,再帰接続
+3876,recurrent dynamic,反復的な動的
+3877,recurrent model,再帰モデル
+3878,recurrent network,再帰ネットワーク
+3879,recurrent neural network,再帰型ニューラルネットワーク
+3880,recurrent state,再帰状態
+3881,recursion,再帰
+3882,recursive call,再帰呼び出し
+3883,recursive neural model,再帰ニューラルモデル
+3884,recursive neural network,再帰ニューラルネットワーク
+3885,reference distribution,参照分布
+3886,reference resolution,参照解決
+3887,reference text,参照テキスト
+3888,reference-based metric,参照ベースのメトリック
+3889,refinement network,リファインメントネットワーク
+3890,regression,回帰
+3891,regression analysis,回帰分析
+3892,regression coefficient,回帰係数
+3893,regression function,回帰関数
+3894,regression model,回帰モデル
+3895,regression problem,回帰問題
+3896,regression task,回帰タスク
+3897,regression tree,回帰木
+3898,regret bound,後悔境界
+3899,regret matching,後悔マッチング
+3900,regret minimization,後悔最小化
+3901,regret minimization algorithm,後悔最小化アルゴリズム
+3902,regret minimizer,後悔最小化器
+3903,regular expression,正規表現
+3904,regularisation,正則化
+3905,regularization,正則化
+3906,regularization constant,正則化定数
+3907,regularization function,正則化関数
+3908,regularization loss,正則化損失
+3909,regularization parameter,正則化パラメータ
+3910,regularization path,正則化パス
+3911,regularization penalty,正則化ペナルティ
+3912,regularization strength,正則化強度
+3913,regularization term,正則化項
+3914,regularization weight,正則化重み
+3915,regularization-based method,正則化ベースの手法
+3916,regularizer,正則化項
+3917,reinforcement learning,強化学習
+3918,reinforcement learning algorithm,強化学習アルゴリズム
+3919,rejection sampling,棄却サンプリング
+3921,relation extraction,関係抽出
+3922,relation type,関係タイプ
+3923,relational tuple,関係タプル
+3925,relative entropy,相対エントロピー
+3926,relative positional embedding,相対位置埋め込み
+3927,relevance score,関連スコア
+3928,rendering network,レンダリングネットワーク
+3929,renormalization,再正規化
+3930,reparameterization,再パラメータ化
+3931,reparameterization trick,再パラメータ化トリック
+3932,replay buffer,リプレイバッファ
+3933,replay memory,リプレイメモリ
+3935,representation learning,表現学習
+3936,representation matrix,表現行列
+3937,representation space,表現空間
+3938,representation vector,表現ベクトル
+3940,representer theorem,表現者定理
+3941,reproducing kernel Hilbert space,再生核ヒルベルト空間
+3942,reproducing property,再生特性
+3943,reprojection,再投影
+3944,reprojection error,再投影誤差
+3945,reranker,リランキング
+3946,reranking model,リランキングモデル
+3947,reranking parser,リランキング・パーサー
+3949,reservoir sampling,リザーバサンプリング
+3950,residual block,残差ブロック
+3951,residual branch,残差ブランチ
+3952,residual connection,残差接続
+3953,residual error,残差誤差
+3954,residual function,残差関数
+3955,residual graph,残差グラフ
+3956,residual learning,残差学習
+3957,residual network,残差ネットワーク
+3959,restricted isometry property,制限等長性特性
+3960,retrieval,検索
+3961,retrieval function,検索関数
+3962,retrieval method,検索手法
+3963,retrieval model,検索モデル
+3964,retrieval system,検索システム
+3966,reverse-mode,逆モード
+3967,reward,報酬
+3968,reward function,報酬関数
+3969,reward model,報酬モデル
+3970,reward shaping,報酬シェーピング
+3971,reward signal,報酬信号
+3972,reward-maximizing policy,報酬最大化ポリシー
+3973,ridge regression,リッジ回帰
+3974,ridge regularization,リッジ正則化
+3975,right-to-left model,右から左へのモデル
+3976,rigid body transformation,剛体変換
+3977,rigid transformation,剛体変換
+3978,risk minimization,リスク最小化
+3979,roberta-large,ロバータ・ラージ
+3980,robotic,ロボティクス
+3981,robust optimization,ロバスト最適化
+3982,robust risk,ロバストリスク
+3983,robustness,堅牢性
+3984,role assertion,役割アサーション
+3985,role atom,役割アトム
+3986,role classification,役割分類
+3987,role name,ロール名
+3988,roll-out policy,ロールアウトポリシー
+3989,rollout,ロールアウト
+3990,rollout length,ロールアウト長
+3991,root mean square error,二乗平均平方根誤差
+3992,root node,ルートノード
+3993,rotation angle,回転角
+3994,rotation invariance,回転不変性
+3995,rotation matrix,回転行列
+3996,row vector,行ベクトル
+3997,rule body,ルール本体
+3998,runtime complexity,実行時複雑性
+3999,saddle-point problem,サドルポイント問題
+4000,saliency,顕著性
+4001,saliency map,顕著性マップ
+4002,sample complexity,サンプル複雑度
+4003,sample complexity bound,サンプル複雑性境界
+4004,sample covariance matrix,サンプル共分散行列
+4005,sample efficiency,サンプル効率
+4006,sample selection,サンプル選択
+4007,sample space,標本空間
+4008,sample variance,標本分散
+4009,sample-efficient,標本効率的
+4010,sampler,サンプラー
+4011,sampling algorithm,サンプリングアルゴリズム
+4012,sampling-based inference,サンプリングベースの推論
+4013,satisfiability,充足可能性
+4014,satisfiability problem,充足可能性問題
+4015,scalability,スケーラビリティ
+4016,scalar,スカラー
+4017,scalar product,スカラー積
+4018,scalarization,スカラー化
+4019,scale invariance,スケール不変性
+4020,scale parameter,スケールパラメータ
+4021,scaled dot-product,スケーリングされたドット積
+4022,scaled dot-product attention,スケールド・ドット・プロダクト・アテンション
+4023,scaling factor,スケーリングファクター
+4024,scanning window detector,スキャニングウィンドウ検出器
+4025,scene category,シーンカテゴリ
+4026,scene classification,シーン分類
+4027,scene classifier,シーン分類器
+4028,scene flow,シーンフロー
+4029,scene flow estimation,シーンフロー推定
+4030,scene geometry,シーンジオメトリ
+4031,scene graph,シーングラフ
+4032,scene parsing,シーン解析
+4033,scene recognition,シーン認識
+4034,scene reconstruction,シーン再構築
+4035,scene representation,シーン表現
+4036,scene understanding,シーン理解
+4037,scheduled sampling,スケジュールサンプリング
+4038,scheduler,スケジューラ
+4039,schema item,スキーマ項目
+4040,score function,スコア関数
+4041,score matching,スコアマッチング
+4042,score vector,スコアベクトル
+4043,score-based model,スコアベースモデル
+4044,scoring function,スコアリング関数
+4046,search algorithm,検索アルゴリズム
+4047,search problem,探索問題
+4048,search procedure,探索手続き
+4049,search space,探索空間
+4050,search tree,探索木
+4051,second order,セカンドオーダー
+4052,second order statistic,二次統計量
+4053,second-order optimization,二次最適化
+4054,second-order potential,二次ポテンシャル
+4055,segmentation,セグメンテーション
+4056,segmentation algorithm,セグメンテーションアルゴリズム
+4057,segmentation map,セグメンテーションマップ
+4058,segmentation mask,セグメンテーションマスク
+4059,selection bias,選択バイアス
+4060,selectional preference,選択的選好
+4061,self-attention,自己注意機構
+4062,self-attention head,セルフアテンションヘッド
+4063,self-attention layer,セルフアテンション層
+4064,self-attention matrix,セルフアテンション行列
+4065,self-attention mechanism,自己注意機構
+4066,self-attention model,セルフアテンションモデル
+4067,self-attention module,セルフアテンションモジュール
+4068,self-learning,自己学習
+4069,self-loop,自己ループ
+4070,self-play,自己対戦
+4071,self-supervised method,自己教師あり手法
+4072,self-supervised model,自己教師ありモデル
+4073,self-supervised representation learning,自己教師あり表現学習
+4074,self-supervised signal,自己教師あり信号
+4075,self-supervised training,自己教師あり学習
+4076,self-supervision,自己教師あり学習
+4077,self-training,自己学習
+4078,semantic alignment,セマンティックアライメント
+4079,semantic analysis,セマンティック分析
+4080,semantic annotation,セマンティックアノテーション
+4081,semantic category,セマンティックカテゴリ
+4082,semantic class,セマンティッククラス
+4083,semantic constraint,意味的制約
+4084,semantic distance,意味的距離
+4085,semantic encoder,セマンティックエンコーダ
+4086,semantic equivalence,意味的同等性
+4087,semantic feature,意味的特徴
+4088,semantic graph,セマンティックグラフ
+4089,semantic information,セマンティック情報
+4090,semantic interpretation,セマンティック解釈
+4091,semantic label,セマンティックラベル
+4092,semantic memory,セマンティックメモリ
+4093,semantic model,セマンティックモデル
+4094,semantic network,セマンティックネットワーク
+4095,semantic object,セマンティックオブジェクト
+4096,semantic operator,意味演算子
+4097,semantic parse,セマンティック解析
+4098,semantic parser,セマンティックパーサー
+4099,semantic priming,セマンティックプライミング
+4100,semantic relation,セマンティック関係
+4101,semantic representation,セマンティック表現
+4102,semantic role,セマンティックロール
+4103,semantic role label,意味役割ラベル
+4104,semantic search,セマンティック検索
+4105,semantic segmentation,セマンティックセグメンテーション
+4106,semantic similarity,意味的類似性
+4107,semantic similarity measure,意味的類似度尺度
+4108,semantic space,意味空間
+4109,semantic structure,意味構造
+4110,semantic symbol,意味記号
+4111,semantic textual similarity,意味的テキスト類似性
+4112,semantic unit,意味単位
+4113,semantic vector,意味ベクトル
+4114,semantic vector space,意味ベクトル空間
+4117,semi-Markov,セミ・マルコフ
+4118,semi-definite programming,半正定値計画法
+4119,semi-supervised clustering,半教師ありクラスタリング
+4120,semi-supervised learning,半教師あり学習
+4121,semi-supervision,半教師あり
+4122,semidefinite program,半正定値プログラム
+4124,sense disambiguation,意味の曖昧さ解消
+4125,sensitive attribute,センシティブ属性
+4126,sensitivity analysis,感度分析
+4128,sentence classification,文分類
+4129,sentence compression,文圧縮
+4130,sentence embedding,文埋め込み
+4131,sentence encoder,文エンコーダー
+4132,sentence representation,文表現
+4133,sentence segmentation,文分割
+4134,sentence vector,文ベクトル
+4135,sentence-level,文レベル
+4136,sentence-level classification,文レベル分類
+4137,sentence-level representation,文レベル表現
+4139,sentiment,感情
+4140,sentiment analysis,感情分析
+4141,sentiment analysis model,感情分析モデル
+4142,sentiment classification,感情分類
+4143,sentiment classifier,感情分類器
+4144,sentiment detection,感情検出
+4145,sentiment transfer,感情転送
+4146,separation oracle,分離オラクル
+4147,separation parameter,分離パラメータ
+4148,separator token,セパレータトークン
+4149,seq2seq model,seq2seqモデル
+4151,sequence alignment,シーケンスアライメント
+4152,sequence classification,シーケンス分類
+4153,sequence database,シーケンスデータベース
+4154,sequence generation,シーケンス生成
+4155,sequence labeling,シーケンスラベリング
+4156,sequence labeling model,シーケンスラベリングモデル
+4157,sequence length,シーケンス長
+4158,sequence model,シーケンスモデル
+4159,sequence prediction,シーケンス予測
+4160,sequence tagging,シーケンスタギング
+4161,sequence transduction,シーケンストランスダクション
+4162,sequence-to-sequence,シーケンス・ツー・シーケンス
+4163,sequence-to-sequence architecture,シーケンス・ツー・シーケンスアーキテクチャ
+4164,sequence-to-sequence generation,シーケンス・ツー・シーケンス生成
+4165,sequence-to-sequence model,シーケンス・ツー・シーケンスモデル
+4166,sequence-to-sequence transduction,シーケンス・ツー・シーケンストランスダクション
+4168,sequential datum,シーケンシャルデータ
+4169,sequential decision making,逐次的意思決定
+4170,sequential decision-making process,逐次意思決定プロセス
+4171,sequential sampler,シーケンシャルサンプラー
+4172,sequential tagging,シーケンシャルタグ付け
+4173,set cover problem,集合被覆問題
+4174,set function,集合関数
+4175,shallow network,浅いネットワーク
+4176,shape matching,形状マッチング
+4177,shape prior,形状事前情報
+4179,shift invariant,シフト不変
+4180,shift reduce parser,シフトリデュースパーサー
+4181,shortest path,最短経路
+4182,shortest path algorithm,最短経路アルゴリズム
+4183,shortest path kernel,最短経路カーネル
+4184,shortest path length,最短経路長
+4185,sibling model,兄弟モデル
+4186,sigmoid,シグモイド
+4187,sigmoid activation,シグモイド活性化
+4188,sigmoid activation function,シグモイド活性化関数
+4189,sigmoid function,シグモイド関数
+4190,signal-to-noise ratio,信号対雑音比
+4191,sim,類似度
+4192,similarity,類似性
+4193,similarity function,類似度関数
+4194,similarity graph,類似性グラフ
+4195,similarity matrix,類似度行列
+4196,similarity measure,類似度尺度
+4197,similarity metric,類似性尺度
+4198,similarity score,類似性スコア
+4199,similarity search,類似検索
+4200,simplicial complex,単体複体
+4201,simulated annealing,シミュレーテッドアニーリング
+4203,single task learning,単一タスク学習
+4204,single-label classification,単一ラベル分類
+4205,single-view data,単一ビューデータ
+4206,singleton,シングルトン
+4207,singular value,特異値
+4208,singular value decomposition,特異値分解
+4209,singular vector,特異ベクトル
+4210,skip connection,スキップ接続
+4211,skip-gram,スキップグラム
+4212,skip-gram model,スキップグラムモデル
+4213,slack variable,スラック変数
+4214,sliding window,スライディングウィンドウ
+4215,sliding window classifier,スライディングウィンドウ分類器
+4216,slot,スロット
+4217,slot filling,スロット充填
+4218,slot value,スロット値
+4219,slot-value pair,スロット-値ペア
+4220,smoothing parameter,スムージングパラメータ
+4221,smoothness term,スムーズネス項
+4223,social bias,社会的バイアス
+4224,social network analysis,ソーシャルネットワーク分析
+4225,soft margin,ソフトマージン
+4226,softmax,softmax
+4227,softmax activation,ソフトマックス活性化
+4228,softmax activation function,ソフトマックス活性化関数
+4229,softmax classifier,ソフトマックス分類器
+4230,softmax distribution,ソフトマックス分布
+4231,softmax function,ソフトマックス関数
+4232,softmax loss,ソフトマックス損失
+4233,softplus,ソフトプラス
+4234,softplus activation,ソフトプラス活性化
+4235,softplus function,ソフトプラス関数
+4236,solution space,解空間
+4237,solver,ソルバー
+4238,source,ソース
+4239,source domain,ソースドメイン
+4240,source model,ソースモデル
+4241,source node,ソースノード
+4242,source sequence,ソースシーケンス
+4243,source token,ソーストークン
+4244,source word,ソースワード
+4245,space carving,スペースカービング
+4246,space complexity,空間計算量
+4247,space partitioning,空間分割
+4248,spam detection,スパム検出
+4249,spam filtering,スパムフィルタリング
+4250,span,スパン
+4252,sparse,スパース
+4253,sparse approximation,疎近似
+4254,sparse attention,スパースアテンション
+4255,sparse attention pattern,スパースアテンションパターン
+4256,sparse graph,疎グラフ
+4257,sparse matrix,疎行列
+4258,sparse model,スパースモデル
+4259,sparse recovery,スパースリカバリー
+4260,sparse representation,スパース表現
+4261,sparse sampling,スパースサンプリング
+4262,sparse vector,スパースベクトル
+4263,sparsification,スパース化
+4264,sparsity,スパース性
+4265,sparsity level,疎性レベル
+4266,sparsity regularization,スパース性正則化
+4268,spatial domain,空間領域
+4269,spatial gradient,空間勾配
+4270,spatial pooling,空間プーリング
+4271,spatial pyramid,空間ピラミッド
+4272,special token,特殊トークン
+4273,spectral algorithm,スペクトルアルゴリズム
+4274,spectral clustering,スペクトルクラスタリング
+4275,spectral decomposition,スペクトル分解
+4276,spectral embedding,スペクトル埋め込み
+4277,spectral gap,スペクトルギャップ
+4278,spectral learning,スペクトル学習
+4279,spectral matching,スペクトルマッチング
+4280,spectral method,スペクトル法
+4281,spectral norm,スペクトルノルム
+4282,spectral property,スペクトル特性
+4283,spectrogram,スペクトログラム
+4284,speech,スピーチ
+4285,speech recognition,音声認識
+4286,speech recognizer,音声認識器
+4287,speech synthesis model,音声合成モデル
+4288,speech synthesizer,音声合成器
+4290,spoken dialogue system,音声対話システム
+4291,spurious correlation,偽相関
+4292,squared Euclidean distance,二乗ユークリッド距離
+4293,squared error loss,二乗誤差損失
+4294,stable model,安定モデル
+4295,stable model semantic,安定モデル意味論
+4296,stance detection,スタンス検出
+4297,standard normal distribution,標準正規分布
+4298,start token,開始トークン
+4299,state,状態
+4300,state action pair,状態-行動ペア
+4301,state distribution,状態分布
+4302,state estimation,状態推定
+4303,state machine,状態機械
+4304,state matrix,状態行列
+4305,state of the art algorithm,最先端アルゴリズム
+4306,state representation,状態表現
+4307,state sequence,状態列
+4308,state space,状態空間
+4309,state trajectory,状態軌跡
+4310,state transition,状態遷移
+4311,state transition function,状態遷移関数
+4312,state transition matrix,状態遷移行列
+4313,state transition model,状態遷移モデル
+4314,state transition probability,状態遷移確率
+4315,state value function,状態価値関数
+4316,state variable,状態変数
+4317,state vector,状態ベクトル
+4318,state-action distribution,状態-行動分布
+4319,state-action space,状態-行動空間
+4320,state-action value,状態-行動価値
+4321,state-action value function,状態-行動価値関数
+4322,state-of-the-art baseline,最先端のベースライン
+4323,state-of-the-art method,最先端の手法
+4324,state-of-the-art model,最先端のモデル
+4325,state-of-the-art system,最先端のシステム
+4326,static analysis,静的解析
+4327,stationarity,定常性
+4328,stationary distribution,定常分布
+4329,stationary kernel,定常カーネル
+4330,stationary policy,定常方策
+4332,statistical analysis,統計分析
+4333,statistical independence,統計的独立性
+4334,statistical learning,統計学習
+4335,statistical learning algorithm,統計的学習アルゴリズム
+4336,statistical learning theory,統計的学習理論
+4337,statistical machine translation system,統計的機械翻訳システム
+4338,statistical measure,統計的尺度
+4339,statistical model,統計モデル
+4340,statistical translation model,統計的翻訳モデル
+4341,steepest descent,最急降下法
+4342,steerable filter,ステアラブルフィルタ
+4343,stemmer,ステミング器
+4344,stereo algorithm,ステレオアルゴリズム
+4345,stereo benchmark,ステレオベンチマーク
+4346,stereo disparity,ステレオ視差
+4347,stereo image,ステレオ画像
+4348,stereo matching,ステレオマッチング
+4349,stereo pair,ステレオペア
+4350,stereo reconstruction,ステレオ再構成
+4351,stereo vision,立体視
+4352,stochastic algorithm,確率的アルゴリズム
+4353,stochastic approximation,確率的近似
+4354,stochastic depth,確率的深さ
+4355,stochastic differential equation,確率微分方程式
+4356,stochastic dynamic,確率的動力学
+4357,stochastic environment,確率的環境
+4358,stochastic game,確率ゲーム
+4359,stochastic gradient,確率勾配
+4360,stochastic gradient algorithm,確率的勾配アルゴリズム
+4361,stochastic gradient ascent,確率的勾配上昇法
+4362,stochastic gradient descent,確率的勾配降下法
+4363,stochastic gradient method,確率的勾配法
+4364,stochastic grammar,確率文法
+4365,stochastic matrix,確率行列
+4366,stochastic model,確率モデル
+4367,stochastic objective,確率的目的関数
+4368,stochastic optimization,確率的最適化
+4369,stochastic policy,確率的ポリシー
+4370,stochastic process,確率過程
+4371,stochastic sampling,確率的サンプリング
+4372,stochastic search algorithm,確率的探索アルゴリズム
+4373,stochastic subgradient descent,確率的サブグラディエント降下法
+4374,stochastic transition matrix,確率的遷移行列
+4375,stochastic variational inference,確率的変分推論
+4376,stochasticity,確率性
+4377,stop word,ストップワード
+4378,stop-gradient,ストップグラディエント
+4379,stop-gradient operation,ストップグラディエント操作
+4380,stopping condition,停止条件
+4381,stopping criterion,停止基準
+4382,stratified sampling,層化サンプリング
+4383,streaming algorithm,ストリーミングアルゴリズム
+4384,streaming datum,ストリーミングデータ
+4385,streaming model,ストリーミングモデル
+4386,stride,ストライド
+4387,string kernel metric,文字列カーネル計量
+4388,structural learning,構造学習
+4389,structural risk minimization,構造リスク最小化
+4390,structure,構成
+4391,structure learning,構造学習
+4393,structured datum,構造化データ
+4394,structured output,構造化出力
+4395,structured perceptron,構造化パーセプトロン
+4396,structured prediction,構造化予測
+4397,structured prediction model,構造化予測モデル
+4398,structured prediction problem,構造化予測問題
+4399,structured support vector machine,構造化サポートベクターマシン
+4400,student model,学生モデル
+4401,style transfer,スタイル転送
+4402,sub-gradient,サブグラディエント
+4403,sub-gradient descent,サブグラディエント降下法
+4404,sub-networks,サブネットワーク
+4405,sub-population,サブポピュレーション
+4406,sub-word,サブワード
+4407,sub-word tokenization,サブワードトークナイゼーション
+4408,subgame,サブゲーム
+4409,subgradient method,サブグラディエント法
+4410,subgraph isomorphism,部分グラフ同型性
+4411,subgraph selection,サブグラフ選択
+4412,submatrice,部分行列
+4413,submatrix,サブマトリックス
+4414,submodular,サブモジュラー
+4415,submodular function,サブモジュラー関数
+4416,submodular function optimization,サブモジュラー関数最適化
+4417,submodular influence function,劣モジュラ影響関数
+4418,submodular optimization,劣モジュラー最適化
+4419,submodular polyhedron,劣モジュラ多面体
+4420,submodular set function,劣モジュラ集合関数
+4421,subnetwork,サブネットワーク
+4422,suboptimal,最適でない
+4423,subpixel,サブピクセル
+4424,subsample,サブサンプル
+4425,subsampling factor,サブサンプリング係数
+4426,subspace learning,サブスペース学習
+4427,subspace method,サブスペース法
+4428,subspace projection,部分空間射影
+4429,substitution,置換
+4430,subsumption,包含関係
+4431,subsumption relation,包摂関係
+4432,subtree,部分木
+4433,subwindow,サブウィンドウ
+4434,subword,サブ単語
+4435,subword token,サブワードトークン
+4436,subword unit,サブワード単位
+4437,successor function,後継関数
+4438,successor state,後継状態
+4439,successor state axiom,後継状態公理
+4440,sufficient statistic,十分統計量
+4441,suffix tree,サフィックスツリー
+4442,summarization,要約
+4443,summarization algorithm,要約アルゴリズム
+4444,summarization model,要約モデル
+4445,summarization system,要約システム
+4447,super-pixel,スーパーピクセル
+4448,super-resolution,超解像
+4449,supergradient,スーパー勾配
+4450,supertag,スーパータグ
+4451,supervised classification,教師あり分類
+4452,supervised classification model,教師あり分類モデル
+4453,supervised classifier,教師あり分類器
+4454,supervised contrastive learning,教師あり対照学習
+4455,supervised datum,教師ありデータ
+4456,supervised finetuning,教師ありファインチューニング
+4457,supervised learning,教師あり学習
+4458,supervised manner,教師ありの方法
+4459,supervised method,教師あり手法
+4460,supervised model,教師ありモデル
+4461,supervised multi-task learning,教師ありマルチタスク学習
+4462,supervised setting,教師あり設定
+4463,supervised system,教師ありシステム
+4464,supervised training,教師あり学習
+4465,support,サポート
+4466,support set,サポートセット
+4467,support threshold,サポート閾値
+4468,support vector,サポートベクトル
+4469,support vector machine,サポートベクターマシン
+4470,surface normal,表面法線
+4471,surface normal estimator,表面法線推定器
+4472,surface normal prediction,表面法線予測
+4473,surface realization,表面実現
+4474,surrogate,代理変数
+4475,surrogate function,代理関数
+4476,surrogate loss,代理損失
+4477,surrogate loss function,代理損失関数
+4478,surrogate model,代理モデル
+4479,symbol grounding problem,シンボルグラウンディング問題
+4480,symbolic representation,シンボリック表現
+4481,symmetric matrix,対称行列
+4482,symmetric positive semidefinite matrix,対称正半定値行列
+4483,symmetrization,対称化
+4484,synchronous context-free grammar,同期文脈自由文法
+4485,synonymy,同義性
+4486,synset,同義語集合
+4488,syntactic analysis,構文解析
+4489,syntactic category,統語範疇
+4490,syntactic constraint,構文制約
+4491,syntactic dependency,構文依存
+4492,syntactic dependency parsing,構文依存解析
+4493,syntactic dependency tree,構文依存木
+4494,syntactic feature,統語的特徴
+4495,syntactic information,構文情報
+4496,syntactic parse,構文解析
+4497,syntactic parser,構文解析器
+4498,syntactic regularity,構文的規則性
+4499,syntactic representation,構文表現
+4500,syntactic similarity,構文的類似性
+4501,syntactic structure,構文構造
+4502,syntactic tree,構文木
+4504,syntax tree,構文木
+4505,synthetic dataset,合成データセット
+4507,system identification,システム同定
+4509,t-test,t検定
+4510,tag recommendation,タグ推薦
+4511,tag sequence,タグシーケンス
+4512,tagger,タガー
+4514,tagset,タグセット
+4515,tail entity,テールエンティティ
+4516,tangent space,接線空間
+4517,tanh activation function,tanh活性化関数
+4518,target,ターゲット
+4519,target classifier,ターゲット分類器
+4520,target distribution,ターゲット分布
+4521,target domain,ターゲットドメイン
+4522,target function,ターゲット関数
+4523,target instance,ターゲットインスタンス
+4524,target model,ターゲットモデル
+4525,target network,ターゲットネットワーク
+4526,target node,ターゲットノード
+4527,target policy,ターゲットポリシー
+4528,target sentence,ターゲット文
+4529,target sequence,ターゲットシーケンス
+4530,target task,ターゲットタスク
+4531,target token,ターゲットトークン
+4532,target variable,ターゲット変数
+4533,target vector,ターゲットベクトル
+4534,target vocabulary,ターゲット語彙
+4535,target word,ターゲット単語
+4536,target-to-source model,ターゲットからソースへのモデル
+4538,task adaptation,タスク適応
+4539,task model,タスクモデル
+4540,task-oriented dialog system,タスク指向対話システム
+4541,task-oriented dialogue system,タスク指向ダイアログシステム
+4542,task-specific model,タスク特化モデル
+4544,taxonomy,タクソノミー
+4545,teacher forcing,教師強制
+4546,teacher network,教師ネットワーク
+4547,temperature parameter,温度パラメータ
+4548,temperature scaling,温度スケーリング
+4549,template,テンプレート
+4550,template model,テンプレートモデル
+4551,template-matching,テンプレートマッチング
+4552,temporal derivative,時間微分
+4553,temporal difference,時間差
+4554,temporal difference learning,時間差学習
+4555,temporal drift,時間的ドリフト
+4556,temporal fusion,時間的融合
+4557,temporal locality,時間的局所性
+4558,temporal logic,時間論理
+4559,temporal reasoning,時間推論
+4560,temporal variable,時間変数
+4561,tensor,テンソル
+4562,tensor decomposition,テンソル分解
+4563,tensor factorization,テンソル因子分解
+4564,tensor field,テンソル場
+4565,tensor product,テンソル積
+4566,term frequency,用語頻度
+4567,terminal node,終端ノード
+4568,terminal state,終端状態
+4569,termination condition,終了条件
+4570,termination criterion,終了基準
+4571,terminology,用語
+4572,test accuracy,テスト精度
+4573,test dataset,テストデータセット
+4574,test datum,テストデータ
+4575,test domain,テストドメイン
+4576,test error,テスト誤差
+4577,test loss,テスト損失
+4578,test set,テストセット
+4579,test split,テスト分割
+4580,test time,テスト時
+4581,testing set,テストセット
+4583,text categorization,テキスト分類
+4584,text corpus,テキストコーパス
+4585,text embedding,テキスト埋め込み
+4586,text encoder,テキストエンコーダ
+4587,text generation,テキスト生成
+4588,text generation model,テキスト生成モデル
+4589,text mining,テキストマイニング
+4590,text segmentation,テキストセグメンテーション
+4591,text simplification,テキスト簡略化
+4592,text-davinci-002,テキスト-ダヴィンチ-002
+4593,text-davinci-003,テキスト-ダヴィンチ-003
+4594,text-to-image diffusion model,テキストから画像への拡散モデル
+4595,text-to-image generation,テキストから画像生成
+4596,text-to-image model,テキストから画像モデル
+4597,text-to-image synthesis,テキストから画像合成
+4599,textual entailment,テキスト含意
+4600,tf-idf,tf-idf
+4601,threat model,脅威モデル
+4602,threshold,閾値
+4603,threshold function,閾値関数
+4604,threshold parameter,閾値パラメータ
+4605,threshold policy,閾値ポリシー
+4606,time complexity,時間計算量
+4607,time series,時系列
+4608,time series analysis,時系列分析
+4609,time series forecasting,時系列予測
+4610,time step,時間ステップ
+4611,time-series datum,時系列データ
+4612,time-series model,時系列モデル
+4613,time/space complexity,時間/空間計算量
+4615,token classification,トークン分類
+4616,token embedding,トークン埋め込み
+4617,token frequency,トークン頻度
+4618,token length,トークン長
+4619,token representation,トークン表現
+4620,token sequence,トークン列
+4621,token space,トークンスペース
+4622,token vector,トークンベクトル
+4623,token vocabulary,トークン語彙
+4624,token-level,トークンレベル
+4625,token-level attention,トークンレベルのアテンション
+4626,token-level feature,トークンレベルの特徴
+4627,tokenisation,トークン化
+4628,tokenization,トークン化
+4629,tokenization scheme,トークン化スキーム
+4630,tokenizer,トークナイザー
+4632,top-1 accuracy,トップ1精度
+4633,top-down segmentation,トップダウンセグメンテーション
+4634,top-k,トップ-k
+4635,top-k sampling,トップkサンプリング
+4636,top-p sampling,トップ-p サンプリング
+4637,topic assignment,トピック割り当て
+4638,topic classification,トピック分類
+4639,topic distribution,トピック分布
+4640,topic model,トピックモデル
+4641,topic proportion,トピック比率
+4642,topic weight,トピック重み
+4643,total variation,全変動
+4644,total variation distance,全変動距離
+4645,toxicity detection,毒性検出
+4646,trace norm,トレースノルム
+4647,tracking algorithm,トラッキングアルゴリズム
+4648,train,学習
+4649,train / test / dev split,訓練/テスト/検証分割
+4650,train set,学習セット
+4651,train-test split,訓練・テスト分割
+4652,train/test,学習/テスト
+4653,trainable parameter,学習可能なパラメータ
+4654,trainable weight,学習可能な重み
+4655,training,訓練
+4656,training accuracy,学習精度
+4657,training algorithm,学習アルゴリズム
+4658,training batch,トレーニングバッチ
+4659,training corpora,トレーニングコーパス
+4660,training corpus,トレーニングコーパス
+4661,training dataset,トレーニングデータセット
+4662,training datum,トレーニングデータ
+4663,training distribution,学習分布
+4664,training dynamic,学習ダイナミクス
+4665,training epoch,トレーニングエポック
+4666,training error,訓練誤差
+4667,training example,トレーニング例
+4668,training loss,訓練損失
+4669,training objective,トレーニング目標
+4670,training phase,トレーニングフェーズ
+4671,training procedure,トレーニング手順
+4672,training process,トレーニングプロセス
+4673,training sample,トレーニングサンプル
+4674,training set,トレーニングセット
+4675,training stability,トレーニングの安定性
+4676,training step,トレーニングステップ
+4677,training task,トレーニングタスク
+4678,training time,学習時間
+4679,training token,学習トークン
+4680,trajectory forecasting,軌道予測
+4681,trajectory optimization,軌道最適化
+4682,transaction database,トランザクションデータベース
+4683,transductive learning,トランスダクティブ学習
+4684,transfer function,転送関数
+4685,transfer learning,転移学習
+4686,transformation function,変換関数
+4687,transformation matrix,変換行列
+4689,transformer language model,トランスフォーマー言語モデル
+4690,transformer layer,トランスフォーマー層
+4691,transformer model,トランスフォーマーモデル
+4692,transformer variant,トランスフォーマーバリアント
+4693,transformer-based architecture,トランスフォーマーベースのアーキテクチャ
+4695,transition distribution,遷移分布
+4696,transition dynamic,遷移ダイナミクス
+4697,transition function,遷移関数
+4698,transition graph,遷移グラフ
+4699,transition kernel,遷移カーネル
+4700,transition matrix,遷移行列
+4701,transition model,遷移モデル
+4702,transition probability,遷移確率
+4703,transition probability model,遷移確率モデル
+4704,transition system,遷移システム
+4705,transition-based dependency parsing,遷移ベースの依存構文解析
+4706,transition-based model,遷移ベースのモデル
+4707,transition-based parser,遷移ベースのパーサー
+4708,transition-based parsing,遷移ベースの解析
+4709,transitive closure,推移閉包
+4710,transitive relation,推移関係
+4712,translation invariance,翻訳不変性
+4713,translation model,翻訳モデル
+4714,translation system,翻訳システム
+4715,translation vector,平行移動ベクトル
+4717,transliteration,音訳
+4718,transpose,転置
+4719,transposition table,転置テーブル
+4720,tree data structure,ツリーデータ構造
+4721,tree decomposition,木分解
+4722,tree depth,木の深さ
+4723,tree ensemble,木のアンサンブル
+4724,tree search,木探索
+4725,tree structure,ツリー構造
+4726,tree width,ツリー幅
+4727,tree-based model,ツリーベースモデル
+4728,treebank,木構造コーパス
+4729,treebank annotation,ツリーバンク注釈
+4730,tri-gram,トライグラム
+4731,triangle inequality,三角不等式
+4732,trifocal tensor,三焦点テンソル
+4733,trigram language model,トライグラム言語モデル
+4734,trigram model,トライグラムモデル
+4735,trilinear interpolation,三線形補間
+4736,trimap,トリマップ
+4737,triple,トリプル
+4738,triplet,トリプレット
+4739,triplet loss,トリプレット損失
+4740,true positive rate,真陽性率
+4741,truth assignment,真理割り当て
+4742,tuple,タプル
+4743,tuplex,タプルックス
+4744,two-class classification,二クラス分類
+4745,two-player zero-sum game,二人プレイヤーゼロサムゲーム
+4746,type embedding,タイプ埋め込み
+4747,unary atom,単項原子
+4748,unary constraint,単項制約
+4749,unary feature,単項特徴
+4750,unary potential,単項ポテンシャル
+4751,unary predicate,単項述語
+4752,unary production,単項生成
+4753,unbiased estimate,不偏推定値
+4754,unbiased estimator,不偏推定量
+4755,uncertainty,不確実性
+4756,uncertainty measure,不確実性測定
+4757,uncertainty modeling,不確実性モデリング
+4758,uncertainty sampling,不確実性サンプリング
+4759,undirected graph,無向グラフ
+4760,undirected graphical model,無向グラフィカルモデル
+4761,uniform convergence,一様収束
+4762,uniform distribution,一様分布
+4763,uniform information density hypothesis,一様情報密度仮説
+4764,uniform sampling,一様サンプリング
+4765,unigram,ユニグラム
+4766,unigram counts,ユニグラムカウント
+4767,unigram distribution,ユニグラム分布
+4768,unigram language model,ユニグラム言語モデル
+4769,unigram model,ユニグラムモデル
+4770,union bound,和集合の上界
+4771,union of conjunctive query,結合クエリの和
+4772,unit propagation,単位伝播
+4773,unit sphere,単位球
+4774,universal approximation,普遍近似
+4775,universal approximator,普遍近似器
+4776,universal model,ユニバーサルモデル
+4777,unlabeled datum,ラベルなしデータ
+4778,unlexicalized grammar,非語彙化文法
+4779,unnormalized probability,非正規化確率
+4781,unsolvability,解決不可能性
+4783,unsupervised algorithm,教師なしアルゴリズム
+4784,unsupervised approach,教師なしアプローチ
+4785,unsupervised classification,教師なし分類
+4786,unsupervised clustering,教師なしクラスタリング
+4787,unsupervised datum,教師なしデータ
+4788,unsupervised discovery,教師なし発見
+4789,unsupervised disentanglement,教師なし解きほぐし
+4790,unsupervised domain adaptation,教師なしドメイン適応
+4791,unsupervised feature learning,教師なし特徴学習
+4792,unsupervised image segmentation,教師なし画像セグメンテーション
+4793,unsupervised learning,教師なし学習
+4794,unsupervised method,教師なし手法
+4795,unsupervised model,教師なしモデル
+4796,unsupervised morphological segmentation,教師なし形態素セグメンテーション
+4797,unsupervised parsing,教師なし構文解析
+4798,unsupervised pre-training,教師なし事前学習
+4799,unsupervised representation,教師なし表現
+4800,unsupervised representation learning,教師なし表現学習
+4801,unsupervised segmentation,教師なしセグメンテーション
+4802,unsupervised system,教師なしシステム
+4803,unsupervised word clustering,教師なし単語クラスタリング
+4804,unweighted graph,無重みグラフ
+4805,update function,更新関数
+4806,update rule,更新ルール
+4808,user embedding,ユーザー埋め込み
+4809,user utterance,ユーザー発話
+4810,user-item matrix,ユーザーアイテム行列
+4811,utility,ユーティリティ
+4812,utility function,効用関数
+4814,utterance encoder,発話エンコーダ
+4816,validation,検証
+4817,validation accuracy,検証精度
+4818,validation dataset,検証データセット
+4819,validation datum,検証データ
+4820,validation loss,検証損失
+4821,validation performance,検証性能
+4822,validation set,検証セット
+4823,validation split,検証分割
+4824,value estimate,価値推定
+4825,value function,価値関数
+4826,value function approximation,価値関数近似
+4827,value iteration,価値反復
+4828,value iteration algorithm,値反復アルゴリズム
+4829,value network,価値ネットワーク
+4830,value-based reinforcement learning,価値ベースの強化学習
+4831,vanilla Transformer,バニラトランスフォーマー
+4832,vanishing gradient,消失勾配
+4833,vanishing gradient problem,消失勾配問題
+4834,variable assignment,変数割り当て
+4835,variable selection,変数選択
+4836,variance reduction,分散削減
+4837,variance regularization,分散正則化
+4838,variational Bayes,変分ベイズ
+4839,variational approach,変分アプローチ
+4840,variational approximation,変分近似
+4841,variational autoencoder,変分オートエンコーダ
+4842,variational bound,変分境界
+4843,variational distribution,変分分布
+4844,variational formulation,変分定式化
+4845,variational framework,変分フレームワーク
+4846,variational inference,変分推論
+4847,variational lower bound,変分下限
+4848,variational method,変分法
+4849,variational model,変分モデル
+4850,variational objective,変分目的
+4851,variational parameter,変分パラメータ
+4852,variational posterior,変分事後分布
+4854,vector arithmetic,ベクトル演算
+4855,vector concatenation,ベクトル連結
+4856,vector embedding,ベクトル埋め込み
+4857,vector field,ベクトル場
+4858,vector graphic,ベクトルグラフィック
+4859,vector normalization,ベクトル正規化
+4860,vector quantization,ベクトル量子化
+4861,vector representation,ベクトル表現
+4862,vector space,ベクトル空間
+4863,vector space embedding,ベクトル空間埋め込み
+4864,vector space model,ベクトル空間モデル
+4865,vector space representation,ベクトル空間表現
+4866,vector-valued function,ベクトル値関数
+4867,vectorization,ベクトル化
+4868,vectorization operator,ベクトル化演算子
+4869,vectorize,ベクトル化する
+4872,verbalizer,ヴァーバライザー
+4874,vertex label,頂点ラベル
+4875,vertex set,頂点集合
+4876,victim model,被害者モデル
+4877,view synthesis,視点合成
+4878,virtual camera,仮想カメラ
+4879,vision model,ビジョンモデル
+4880,vision system,ビジョンシステム
+4881,vision-language model,視覚-言語モデル
+4883,visual attention,視覚的注意
+4884,visual attribute,視覚属性
+4885,visual context,視覚的文脈
+4886,visual cortex,視覚野
+4887,visual feature,視覚特徴
+4888,visual grounding,視覚的基盤
+4889,visual hull,視覚的ハル
+4890,visual localization,視覚的位置特定
+4891,visual odometry,視覚オドメトリ
+4892,visual recognition system,視覚認識システム
+4893,vocabulary,語彙
+4894,vocabulary size,語彙サイズ
+4895,vocoder,ボコーダー
+4896,volume rendering,ボリュームレンダリング
+4897,von Mises-Fisher distribution,フォン・ミーゼス・フィッシャー分布
+4898,voting rule,投票ルール
+4899,voxel,ボクセル
+4900,voxel grid,ボクセルグリッド
+4901,voxel grid representation,ボクセルグリッド表現
+4902,voxel occupancy,ボクセル占有
+4903,voxel representation,ボクセル表現
+4904,voxel-based representation,ボクセルベースの表現
+4905,warp function,ワープ関数
+4906,wav2vec,wav2vec
+4907,wavelet,ウェーブレット
+4908,wavelet transform,ウェーブレット変換
+4909,weak classifier,弱分類器
+4910,weak learner,弱学習器
+4911,weak learning,弱い学習
+4912,weak learning assumption,弱学習の仮定
+4913,weak supervision,弱い監視
+4914,weakly supervised,弱い監督下で
+4915,weakly supervised learning,弱教師あり学習
+4916,web graph,ウェブグラフ
+4917,weight,重み
+4918,weight decay,重み減衰
+4919,weight initialization,重み初期化
+4920,weight matrix,重み行列
+4921,weight parameter,重みパラメータ
+4922,weight regularization,重み正則化
+4923,weight tensor,重みテンソル
+4924,weight update,重み更新
+4925,weight vector,重みベクトル
+4926,weight-sharing,重み共有
+4927,weighted adjacency matrix,重み付き隣接行列
+4928,weighted average,重み付き平均
+4929,weighted directed graph,重み付き有向グラフ
+4930,weighted graph,加重グラフ
+4931,weighted sum,加重和
+4932,weighting function,重み付け関数
+4934,white-box,ホワイトボックス
+4935,white-box attack,ホワイトボックス攻撃
+4936,window size,ウィンドウサイズ
+4937,within-class variance,クラス内分散
+4939,word alignment,単語アライメント
+4940,word dropout,単語ドロップアウト
+4941,word embedding,単語埋め込み
+4942,word embedding model,単語埋め込みモデル
+4943,word representation,単語表現
+4944,word segmentation,単語分割
+4945,word sense disambiguation,語義曖昧性解消
+4946,word similarity,単語類似度
+4947,word surprisal,語の驚き度
+4948,word token,単語トークン
+4949,word vector,単語ベクトル
+4950,word vector representation,単語ベクトル表現
+4951,word-aligned corpus,単語アラインメントコーパス
+4952,word-level,単語レベル
+4953,word-level vocabulary,単語レベルの語彙
+4954,word2vec embedding,word2vec埋め込み
+4956,world state,世界状態
+4957,worst case,最悪の場合
+4958,worst-case regret,最悪ケースの後悔
+4960,zero-one loss,ゼロ・ワン損失
+4961,zero-shot classification,ゼロショット分類
+4962,zero-shot cross-lingual setting,ゼロショットクロスリンガル設定
+4963,zero-shot generalization,ゼロショット一般化
+4964,zero-shot learning,ゼロショット学習
+4965,zero-shot prediction,ゼロショット予測
+4966,zero-shot prompting,ゼロショットプロンプティング
+4967,zero-shot reasoning,ゼロショット推論
+4968,zero-shot setting,ゼロショット設定
+4969,zero-shot transfer,ゼロショット転送
+4970,zero-shot transfer learning,ゼロショット転移学習

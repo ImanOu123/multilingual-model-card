@@ -1,0 +1,416 @@
+Herkese merhaba. Bugün araştırma çalışmamızı sunacağım Tümdengelimli Akıl Yürütmeyi Öğrenme: Karmaşık İlişki Çıkarma Olarak Matematik Kelime Problem Çözme.
+Ben ByteDance AI Lab'dan Allan ve bu Austin'deki Texas Üniversitesi'nden Jierui Li ve SUTD'den Wei Lu ile ortak bir çalışma.
+Öncelikle akıl yürütme motivasyonumuzdan bahsetmek istiyorum.
+Bu yüzden burada çok adımlı akıl yürütmenin yararlı olduğu bir örnek gösteriyoruz.
+Dolayısıyla bu rakam, birkaç atış öğrenme senaryosunda ağ problemini çözme isteğini gerçekleştirdikleri PaLM makalesinden alınmıştır.
+Yani sol tarafta, sadece soru ve cevaplarla bazı örnekler verirsek, doğru cevapları elde edemeyebiliriz.
+Ancak biraz daha akıl yürütme açıklaması verirsek, model akıl yürütme açıklamasını tahmin edebilir ve burada doğru bir tahmin yapabilir.
+Bu nedenle, çıktı olarak yorumlanabilir çok adımlı akıl yürütmeye sahip olmak iyidir.
+Ve ayrıca matematik kelime probleminin bu tür akıl yürütme yeteneklerini değerlendirmek için basit bir uygulama olduğunu düşünüyoruz.
+Yani, burada problem kurulumumuzda, sorular göz önüne alındığında, bu soruyu çözmemiz ve sayısal cevapları elde etmemiz gerekir.
+Bu yüzden veri kümelerimizde, bu özel cevaba da yol açan matematiksel ifade de verilmiştir.
+Bu nedenle, önceki çalışmalarda olduğu gibi bazı varsayımlar da geçerlidir.
+Miktarların kesinliğinin bilindiğini varsayıyoruz.
+Ve sadece toplama, çıkarma, çarpma, bölme ve üstel gibi temel operatörleri dikkate alıyoruz.
+Dahası, karmaşık işleçler aslında bu temel işleçlere ayrıştırılabilir.
+Yani, matematik kelime problem çözme ah önceki çalışma aslında ah ağaç modeline dizi ve dizi sıraya içine kategorize edilebilir.
+Bu nedenle, geleneksel diziden diziye modeli, ifadeyi üretim için belirli bir diziye dönüştürür.
+Ve uygulanması oldukça kolaydır ve birçok farklı karmaşık soruna genelleme yapabilir.
+Ancak dezavantajları, performansın genellikle yapılandırılmış modelden ve tahmin için yorumlanabilirlik eksikliğinden daha iyi olmamasıdır.
+Fakat aslında bu yön, transformatör modeli nedeniyle hala oldukça popülerdir.
+Ağaç tabanlı modellerde, aslında bu ifadeleri ağaç formunda yapılandırıyoruz ve ağaç nesillerinde önceden sıralanmış bir geçişi takip ediyoruz.
+Yani burada miktarlar olan yapraklara ulaşana kadar operatörleri üretmeye devam ediyoruz.
+Yani burada iyi olan şey aslında bize bu ikili ağaç yapısını veriyor ve um ama aslında oldukça mantıksız çünkü önce operatörü üretiyoruz ve sonra sonunda miktarları üretiyoruz.
+Ve ikinci şey, aynı zamanda bazı tekrarlayan hesaplamalar içermesidir.
+Bu ifadeye bakarsak, sekiz kere üç artı üç aslında iki kere üretilir, ama aslında sonuçları tekrar kullanmalıyız.
+Bu nedenle, önerdiğimiz yaklaşımda, bu sorunları adım adım ve yorumlanabilir bir şekilde çözmek istiyoruz.
+Örneğin, burada ikinci adımda, yirmi yedi olan bu bölücüleri elde edebiliriz.
+Ve ilgili içeriği bulmak için orijinal sorulara da geri dönebiliriz.
+Ve bu adımlarda bölücüleri elde ederiz.
+Yani, ah ve bu üçüncü adımda aslında bölümü elde ediyoruz.
+Tamam. Ve bu üç adımdan sonra, aslında ikinci adımdan elde edilen sonuçları tekrar kullanabilir ve dördüncü adımın ah sonuçlarını elde edebiliriz ve sonunda temettüleri elde edebiliriz.
+Yani, burada aslında tek bir operatör veya miktar üretmek yerine tüm ifadeyi doğrudan üretiyoruz.
+Bu da süreci daha doğru hale getiriyor.
+Bu nedenle, tümdengelim sistemimizde, önce sorularda sunulan bir dizi nicelikle başlarız ve ayrıca başlangıç durumumuz olarak bir sabiti de dahil ederiz.
+Yani, ifade e i j o p ile temsil edilir.
+Burada q_i'den q_j'ye operatör gerçekleştiriyoruz ve bu ifade aslında yönlendiriliyor.
+Yani, burada ters yönü temsil etmek için kelimelerle çıkarma da var.
+Bu, ilişki çıkarmaya oldukça benzer.
+Resmi bir tümdengelim sisteminde, t zaman adımında, operatörü q_i ve q_j çifti arasında uygularız ve sonra bu yeni ifadeyi elde ederiz.
+Yeni bir miktar olması için bir sonraki duruma ekliyoruz.
+Yani, bu slaytlar aslında mevcut duruma ifade eklemeye devam ettiğimiz durumun evrimini görselleştiriyor.
+Model uygulamalarımızda, önce BERT'ler veya Robertas olabilecek önceden eğitilmiş bir dil modeli kullanırız ve sonra cümleyi kodlarız ve sonra bu miktar temsillerini elde ederiz.
+Yani, nicelik gösterimlerini elde ettikten sonra, çıkarım yapmaya başlayabiliriz.
+Burada q_2 'nin gösterimini elde etmek için q_1' in q_2 'ye ve ardından q_3' e bölünmüş bir örneğini gösteriyoruz.
+İlk önce, temelde q_1 ve q_2 arasındaki birleştirme olan ah çifti gösterimini elde ederiz ve daha sonra operatör tarafından parametrelendirilen bir ileri besleme ağı uygularız.
+Ve son olarak q_1 ifadesinin q_2 'ye bölünmesini elde ederiz.
+Ama aslında, pratikte, çıkarım aşamasında, yanlış ifadeyi de alabiliriz.
+Yani, burada mümkün olan tüm ifadeler operatör sayısının üç katına eşittir.
+Buradaki güzel şey, bu arama alanını kontrol etmek için kolayca kısıtlamalar ekleyebilmemizdir.
+Örneğin, bu ifadeye izin verilmiyorsa, bu ifadeyi arama alanımızdan kaldırabiliriz.
+Yani ikinci adımda, aynı şeyi yapıyoruz, ama tek fark, ah tek farkımız bir miktar daha.
+Yani bu miktar önceki hesaplanan ifadeden geliyor.
+Son olarak q_3 çarpı q_4 ifadesini elde edebiliriz.
+Ve ayrıca tüm olası ah ifadelerinin sayısının önceki adımdan farklı olduğunu da görebiliriz.
+Dolayısıyla, böyle bir fark, ışın aramasını uygulamayı zorlaştırır, çünkü bu iki adım arasındaki olasılık dağılımı dengesizdir.
+Bu nedenle, eğitim prosedürü, her zaman adımında kaybı optimize ettiğimiz bir sıradan sıraya modeli eğitmeye benzer.
+Ve burada da bu tau'yu bu nesil sürecini ne zaman sonlandırmamız gerektiğini temsil etmek için kullanıyoruz.
+Ve burada uzay diziden diziye farklıdır, çünkü uzay her zaman adımında farklıdır, geleneksel diziden diziye modelde ise bu kelime sayısıdır.
+Ve aynı zamanda, önceki bilgiden belirli kısıtlamalar getirmemize izin verir.
+Bu yüzden yaygın olarak kullanılan matematik kelime problemi veri setleri, MAWPS, Math23K, MathQA ve SVAMP üzerinde deneyler yapıyoruz.
+Ve burada önceki en iyi yaklaşımlarla karşılaştırıldığında sonuçları kısaca gösteriyoruz.
+Yani en iyi performans gösteren varyantımız Roberta - DeductiveReasoner.
+Ve aslında hüzme araması kullanmıyoruz, aksine önceki tüm yaklaşımlar hüzme araması kullanıyor.
+Pekala, en iyi yaklaşımlar genellikle ağaç tabanlı modellerdir.
+Dolayısıyla, genel olarak akıl yürütücümüz bu ağaç tabanlı modelden önemli ölçüde daha iyi performans gösterebilir.
+Ancak MathQA veya SVAMP'deki mutlak sayıların gerçekten yüksek olmadığını görebiliriz.
+Bu yüzden SVAMP üzerindeki sonuçları daha da araştırıyoruz.
+Ve bu veri kümesi zordur, çünkü yazar NLP modelini karıştırmak için alakasız bilgiler ve ekstra miktarlar eklemek gibi bir şeyi manuel olarak eklemeye çalıştı.
+Yani, tahminimizde ara değerlerden bazılarının aslında negatif olduğunu görüyoruz.
+Örneğin, bu sorularda Jake'in kaç elması olduğunu soruyoruz.
+Ama elimizde on yedi tane daha az resim var ve Steven'ın sekiz tane resmi var ki bu da tamamen alakasız.
+Yani, modelimiz negatif değerler üreten bunun gibi bazı tahminler yapar.
+Ve bu iki ifadenin aslında benzer puanlara sahip olduğunu gözlemliyoruz.
+Bu nedenle, negatif olan sonuçları kaldırarak bu arama alanını sınırlayabiliriz, böylece ah cevabı doğru hale getirebiliriz.
+Bu nedenle, bu tür kısıtlamaların aslında bazı modeller için oldukça fazla geliştiğini görüyoruz.
+Örneğin, BERT için yedi puan geliştirdik ve sonra Roberta temel modeli için aslında iki puan geliştirdik.
+Bu nedenle, daha iyi dil modeli daha iyi dil anlama yeteneklerine sahiptir, böylece buradaki sayı Roberta için daha yüksek ve BERT için daha düşüktür.
+Ve ayrıca tüm bu veri setlerinin arkasındaki zorlukları analiz etmeye çalışıyoruz.
+Kullanılmayan miktarların sayısının burada alakasız bilgi olarak kabul edilebileceğini varsayıyoruz.
+Burada, kullanılmayan miktarlardaki örneklerin yüzdesine sahip olduğumuzu ve SVAMP veri kümesinin en büyük paya sahip olduğunu görebiliriz.
+Ve burada genel performansı da gösteriyoruz.
+Kullanılmayan miktarları olmayan numuneler için, genel performans aslında 'den daha yüksektir, performans aslında genel performanstan daha yüksektir.
+Ancak kullanılmayan miktara sahip numuneler aslında genel performanstan çok daha kötüdür.
+MAWPS için, gerçekten çok fazla test senaryomuz yok, bu yüzden bu kısmı görmezden geliyorum.
+Son olarak, yorumlanabilirliği bir soru tedirginliği örneğiyle göstermek istiyoruz.
+Yani burada modelimiz aslında ilk adımda yanlış bir tahminde bulunuyor.
+Yani, bu ifadeyi buradaki cümleyle ilişkilendirebiliriz.
+Dolayısıyla, bu cümlenin modeli yanlış tahminlere yönlendirebileceğini düşünüyoruz.
+Yani burada otuz beş tane daha dikmek, modelin bir toplama operatörü olması gerektiğini düşünmesini sağlar.
+Bu yüzden cümleyi, armut ağaçlarının sayısının elma ağaçlarından otuz beş daha az olduğu gibi bir şey olacak şekilde revize etmeye çalışıyoruz.
+Bu nedenle, modelin tahmini doğru yapabilmesi için daha doğru anlambilim aktarmasını sağlıyoruz.
+Bu nedenle, bu çalışma yorumlanabilir tahminlerin model davranışı anlamamıza nasıl yardımcı olduğunu göstermektedir.
+Yani çalışmamızı sonuçlandırmak için, ilk önce modelimiz aslında oldukça verimli.
+Ve yorumlanabilir çözüm prosedürü sağlayabiliyoruz.
+Ve performansı artırmaya yardımcı olabilecek bazı ön bilgileri kısıtlama olarak kolayca dahil edebiliriz.
+Ve son olarak, altta yatan mekanizmanın sadece ağ problem çözme görevleri için değil, aynı zamanda çok adımlı akıl yürütmeyi içeren diğer görevler için de geçerli olmasıdır.
+Bizim de bazı sınırlarımız var.
+Çok sayıda operatörümüz veya sabitimiz varsa, bellek tüketimi oldukça yüksek olabilir.
+Ve ikincisi, belirtildiği gibi, olasılık dağılımı farklı zaman adımları arasında dengesiz olduğu için, hüzme arama stratejisini uygulamak da oldukça zordur.
+Bu konuşmanın sonu ve sorular memnuniyetle karşılanıyor.
+Merhaba, adım Antoine ve Maastricht Üniversitesi'ndenim.
+Jerry ile ortak çalışmamı sunacağım, bu da Yasal Makale Alımı için Yeni Bir Veri Kümesi ile ilgili.
+Hukuki konular birçok insanın hayatının ayrılmaz bir parçasıdır.
+Ancak vatandaşların çoğunluğu hakları ve temel yasal süreçleri hakkında çok az bilgiye sahiptir.
+Sonuç olarak, bir hukuk uzmanının masraflı yardımını karşılayamayan birçok savunmasız vatandaş korunmasız veya en kötüsü sömürülmektedir.
+Tüm çalışmalar, yasal makaleler için etkili bir geri alma sistemi geliştirerek insanlar ve hukuk arasındaki boşluğu kapatmayı amaçlamaktadır.
+Böyle bir sistem, vasıfsız insanlar için ücretsiz bir profesyonel yasal yardım hizmeti sağlayabilir.
+Bu çalışmanın ana katkısına dalmadan önce, önce yasal makale alma sorununu açıklayalım.
+Mesleki gizliliği ihlal edersem, yasal bir konuyla ilgili basit bir soru göz önüne alındığında, ne gibi bir risk alırım?
+İlgili tüm yasal maddeleri büyük bir mevzuattan almak için bir model gereklidir.
+Bu bilgi alma görevi kendi zorlukları ile birlikte gelir.
+İlk olarak, iki tür dille ilgilenir.
+Sorular için ortak doğal dil ve tüzükler için karmaşık yasal dil.
+Dil dağılımlarındaki bu fark, bir sistemin ilgili adayları almasını zorlaştırır, çünkü dolaylı olarak doğal bir soruyu tüzük terminolojisine uyan yasal bir soruya çevirebilen doğal bir yorumlama sistemi gerektirir.
+Ayrıca, yasal hukuk, örneğin haber veya tariflerin aksine, kendi başlarına tam bir bilgi kaynağı olarak ele alınabilecek bir bağımsız makale yığını değildir.
+Bunun yerine, yalnızca genel bağlamda düşünüldüğünde, yani komşu makalelerden, ait oldukları alanlardan ve alt alanlardan ve yasanın yapısındaki yerlerinden gelen tamamlayıcı bilgilerle birlikte bütün bir anlama sahip olan yapılandırılmış bir yasal hükümler topluluğudur.
+Son olarak, yasal makaleler genellikle çoğu geri alma işinde tipik geri alma birimi olan küçük paragraflar değildir.
+Burada altı bin kelimeye kadar çıkabilen uzun belgeler var.
+NLP'deki son gelişmeler, yasal yargı tahmini veya otomatik sözleşme incelemesi gibi birçok yasal görevde büyük ilgi uyandırdı.
+Ancak yasal makale alımı, büyük ve yüksek kaliteli etiketli veri kümelerinin eksikliği nedeniyle esas olarak el değmeden kalmıştır.
+Bu çalışmada, geri alma modellerinin yasal makale geri alma görevi için bir hukuk uzmanının verimliliğine ve güvenilirliğine yaklaşıp yaklaşamayacağını incelemek için yeni bir Fransız yerli vatandaş merkezli veri seti sunuyoruz.
+Belçika yasal makale alma veri setimiz BSARD, Belçika vatandaşlarının sorduğu bin yüzden fazla yasal sorudan oluşmaktadır.
+Bu sorular aile, konut, para, iş ve sosyal güvenlik gibi çok çeşitli konuları kapsamaktadır.
+Her biri, Belçika hukuk kurallarından yirmi iki bin altı yüz yasal maddeden oluşan bir külliyattan ilgili maddelere atıfta bulunan deneyimli hukukçular tarafından etiketlenmiştir.
+Şimdi bu veri kümesini nasıl topladığımızdan bahsedelim.
+İlk olarak, yasal makalelerden oluşan büyük bir külliyat derleyerek başladık.
+Halka açık otuz iki Belçika kodunu dikkate aldık ve tüm makaleleri ve ilgili bölüm başlıklarını çıkardık.
+Daha sonra ilgili tüzüklere atıfta bulunarak yasal sorular topladık.
+Bunu yapmak için, her yıl kişisel bir yasal konuda tavsiye isteyen Belçika vatandaşlarından yaklaşık dört bin e - posta alan Belçika hukuk firması ile ortaklık kuruyoruz.
+Deneyimli hukukçu ekibinin Belçikalıların en yaygın yasal sorunlarına hitap ettiği web sitelerine erişebilecek kadar şanslıydık.
+Kategoriler, alt kategoriler ve ilgili tüzüklere yasal referanslarla açıklamalı binlerce soru topladık.
+Son olarak, yasal referansları geçtik ve referansları dikkate aldığımız hukuk kurallarından birinde makale olmayan soruları filtreledik.
+Kalan referanslar eşleştirildi ve derlemimizden ilgili makale kimliklerine dönüştürüldü.
+Sonunda, her biri yirmi iki bin altı yüz otuz üç yasal maddeden oluşan büyük derlememizdeki ilgili makalelerin kimlikleriyle dikkatlice etiketlenmiş bin yüz sekiz soruyla sonuçlandık.
+Ek olarak, her soru ana kategori ve alt kategorilerin bir birleşimi ile birlikte gelir.
+Ve her makale, yasanın yapısındaki müteakip başlığın bir birleşimi ile birlikte gelir.
+Bu ekstra bilgiler mevcut çalışmada kullanılmamaktadır, ancak yasal bilgi alma veya yasal metin sınıflandırması ile ilgili gelecekteki araştırmalar için ilgi çekici olabilir.
+Veri kümemizin bazı özelliklerine bakalım.
+Sorular beş ila kırk dört kelime uzunluğunda ve ortanca on dört kelimedir.
+Makaleler, medyan uzunluğu yetmiş yedi kelime olan ve yüz kırk iki tanesi bin kelimeyi aşan çok daha uzundur.
+En uzun olanı beş bin yedi yüz doksan kelimeye kadardır.
+Daha önce de belirtildiği gibi, sorular çok çeşitli konuları kapsıyor ve bunların yaklaşık yüzde seksen beşi ya aile, konut, para ya da adaletle ilgili.
+Geriye kalan yüzde 15 'lik kesim ise ya sosyal güvenlik, ya yabancılar ya da iş ile ilgili.
+Makale, çok sayıda yasal konuyu kapsayan otuz iki farklı Belçika kodundan geldiği için de çok çeşitlidir.
+İşte bu Belçika kodlarının her birinden toplanan toplam makale sayısı.
+Yirmi iki bin altı yüz otuz üç maddeden sadece bin altı yüz on iki tanesi veri setinde en az bir soru ile ilgili olarak anılmaktadır.
+Ve bu alıntı makalelerin yaklaşık yüzde sekseni ya medeni kanun, yargı kanunları, ceza soruşturma kanunları ya da ceza kanunlarından geliyor.
+Bu arada, otuz iki koddan on sekizinde en az bir soruyla ilgili olarak belirtilen beşten az madde vardır.
+Bu, bu kodların bireylere ve endişelerine daha az odaklanmasıyla açıklanabilir.
+Genel olarak, bu alıntılanan makaleler için ortalama atıf sayısı ikidir ve bunların yüzde yirmi beşinden azı beşten fazla kez alıntılanmıştır.
+Tüm veri kümelerini kullanarak, sözlüksel ve yoğun mimari de dahil olmak üzere çeşitli geri alma yaklaşımlarını karşılaştırdık.
+Bir sorgu ve bir makale verildiğinde, sözlüksel bir model, o makaledeki bu terimlerin her birinin ağırlıklarının sorgu terimleri üzerindeki toplamını hesaplayarak sorgu makalesi çiftine bir puan atar.
+Standart TF - IDF ve BM25 sıralama fonksiyonlarını deniyoruz.
+Bu yaklaşımlarla ilgili temel sorun, yalnızca sorguda bulunan anahtar kelimeleri içeren makaleleri alabilmeleridir.
+Bu sınırlamanın üstesinden gelmek için, sorgular ve makale arasındaki semantik ilişkileri yakalayabilen sinirsel tabanlı bir mimariyi deniyoruz.
+Sorguları ve makaleleri yoğun vektör gösterimlerine eşleyen ve gömülmelerinin benzerliğine göre bir sorgu makalesi çifti arasındaki alaka düzeyi puanını hesaplayan bir iki kodlayıcı modeli kullanıyoruz.
+Bu gömülmeler tipik olarak bir kelime gömme modelinin çıktısındaki bir havuzlama işleminden kaynaklanır.
+İlk olarak, Siyam iki kodlayıcısının etkinliğini sıfır atış değerlendirme düzeneğinde inceliyoruz, yani önceden eğitilmiş kelime gömme modelleri herhangi bir ek ince ayar yapılmadan kutunun dışında uygulanmaktadır.
+Bağlamdan bağımsız metin kodlayıcı, yani word2vec ve fastText ve bağlama bağlı gömme modelleri, yani Roberta ve daha spesifik olarak Fransız Roberta modeli olan CamemBERT ile denemeler yapıyoruz.
+Ek olarak, kendi CamemBERT tabanlı model ah iki kodlayıcımızı veri kümemiz üzerinde eğitiyoruz.
+Eğitim için, iki kodlayıcı mimarisinin iki çeşidini denediğimizi unutmayın.
+Sorguyu ve makaleyi paylaşılan yoğun bir vektör uzayında eşleştiren benzersiz bir kelime gömme modeli kullanan Siyam ve sorguyu ve makaleyi ayrı ayrı farklı gömme alanlarına kodlayan iki bağımsız kelime gömme modeli kullanan iki kule.
+Ortalama, maks ve CLS havuzunun yanı sıra bilgi işlem benzerlikleri için ürün ve kosinüs ile deneyler yapıyoruz.
+İşte test setlerindeki taban çizgimizin sonucu.
+Yukarıdaki sözlüksel yöntemlerle, Siyam iki kodlayıcıları ortada sıfır atış kurulumunda ve aşağıdaki ince ayarlı iki kodlayıcılarda değerlendirilmiştir.
+Genel olarak, ince ayarlı iki kodlayıcı diğer tüm temel hatlardan önemli ölçüde daha iyi performans gösterir.
+İki kuleli model, 100 'de hatırlandığında Siyam varyantları üzerinde iyileştirmeler yapar, ancak diğer metriklerde benzer şekilde performans gösterir.
+BM25, eğitilmiş iki kodlayıcının önemli ölçüde altında performans göstermesine rağmen, performansı, alana özgü geri alma için hala güçlü bir temel olduğunu gösterdi.
+Siyam çift kodlayıcısının sıfır atış değerlendirmesiyle ilgili olarak, önceden eğitilmiş bir CamemBERT modelinin gömülmelerinin bilgi toplama görevi için optimize edilmeden doğrudan kullanılmasının, önceki bulgularla tutarlı olarak kötü sonuçlar verdiğini görüyoruz.
+Ayrıca, word2vec tabanlı bi - kodlayıcının fastText ve BERT tabanlı modellerden önemli ölçüde daha iyi performans gösterdiğini gözlemledik, bu da önceden eğitilmiş kelime seviyesi gömülmelerinin görev için karakter seviyesinden veya alt kelime seviyesi gömülmelerinden daha uygun olabileceğini düşündürmektedir.
+Her ne kadar umut verici olsa da, bu sonuçlar, nihayetinde ilgili tüm makaleleri herhangi bir soruya getirebilecek ve böylece mükemmel puanlar alabilecek yetenekli bir hukuk uzmanına kıyasla iyileştirme için yeterli fırsat sunmaktadır.
+Veri kümemizin iki sınırlamasını tartışarak sonuçlandıralım.
+İlk olarak, madde külliyatı, kararnameler, direktifler ve kararnameler eksik olduğu için tüm Belçika yasalarını kapsamayan, dikkate alınan otuz iki Belçika kodundan toplananlarla sınırlıdır.
+Veri seti yapımı sırasında, bu toplanmamış makalelere yapılan tüm referanslar göz ardı edilir, bu da bazı soruların ilgili makalelerin ilk sayısının sadece bir kısmı ile sonuçlanmasına neden olur.
+Bu nedenle bu bilgiler, kalan ilgili makalelerde yer alan cevabın hala tamamen uygun olmasına rağmen eksik olabileceğini ima eder.
+İkincisi, tüm yasal soruların yalnızca tüzüklerle cevaplanamayacağını belirtmeliyiz.
+Örneğin, soru, çok fazla gürültü yaparlarsa kiracılarımı tahliye edebilir miyim?
+Yasal yasa dahilinde, tahliyeye izin verilen belirli bir gürültü eşiğini ölçen ayrıntılı bir cevaba sahip olmayabilir.
+Bunun yerine, ev sahibi muhtemelen içtihatlara daha fazla güvenmeli ve mevcut durumlarına benzer emsaller bulmalıdır.
+Örneğin, kiracılar saat ikiye kadar haftada iki parti yapar.
+Bu nedenle, bazı sorular yasal makale alma görevine diğerlerinden daha uygundur ve daha az uygun olanların etki alanı belirlenmeye devam etmektedir.
+Çalışmalarımızın pratik ve güvenilir yasal makale alma modelleri geliştirmeye ilgi duyduğunu umuyoruz.
+Bu, herkes için adalete erişimin iyileştirilmesine yardımcı olabilir.
+Makalemizi, veri setimizi ve kodumuzu aşağıdaki linklerden inceleyebilirsiniz. Teşekkür ederiz.
+Merhaba, çalışmalarımızı VALSE üzerinde sunmaktan mutluluk duyuyoruz; belirli dilbilimsel fenomenlerle vizyon ve dil modellerini test etmek için kullanılan Görevden Bağımsız bir Kıyaslama.
+Bu ölçütü oluştururken neden sorun çıkardık?
+Son yıllarda, büyük miktarlarda görüntü metin çiftleri üzerinde önceden eğitilmiş transformatör tabanlı vizyon ve dil modellerinde bir patlama gördük.
+Bu modellerin her biri, görsel soru cevaplama, görsel sağduyu akıl yürütme, görüntü alma, cümle topraklama gibi vizyon ve dil görevlerine son teknoloji ürünü iter.
+Bu yüzden bir mesaj aldık, bu görevlerdeki doğruluklar ve belirli ölçütler giderek artıyor.
+Peki modellerin gerçekte ne öğrendiğini biliyor muyuz?
+Bu görüntü ve bu cümle için yüksek bir puan atarken bir vizyon ve dil dönüştürücünün anladığı nedir?
+Ve bunun için düşük puan?
+Vizyon ve dil modelleri doğru şeye odaklanıyor mu?
+Yoksa önceki çalışmaların gösterdiği gibi önyargılara mı odaklanıyorlar?
+Bu konuya daha fazla ışık tutmak için, daha fazla görev agnostik yönü öneriyoruz ve görme ve dil modellerinin hem dilbilimsel hem de görsel modaliteleri etkileyen belirli dilsel fenomenlere duyarlılığını test eden Valse'yi tanıtıyoruz.
+Varoluşu, çoğulluğu, saymayı, mekansal ilişkileri, eylemleri ve varlık çekirdeğini hedefliyoruz.
+Ancak vizyon ve dil modellerinin bu fenomeni yakalayıp yakalamadığını nasıl test ederiz?
+Daha önce sadece Ravi Shekhar ve işbirlikçileri tarafından isim ifadeleri için vizyon ve dil modelleri için uygulanan bir yöntemi dosyalayarak ve önceki çalışmalarda bizim tarafımızdan sayarak.
+Foiling temel olarak bir görüntünün altyazısını alıp, altyazıyı artık görüntüyü tanımlamayacak şekilde değiştirerek bir folyo üretmemiz anlamına gelir.
+Ve bu cümle değişikliklerini, her bir parçanın bir veya daha fazla enstrümandan oluşabileceği varoluş, çoğulluk, sayma, mekansal ilişkiler, eylemler ve varlık çekirdeği gibi altı spesifik parçaya odaklanarak yapıyoruz. Folyo örnekleri oluşturmak için birden fazla ilginç yol bulduk.
+Örneğin, eylem parçası durumunda, eylem fiilinin farklı bir eylemle değiştirildiği ve eylemcilerin değiştirildiği iki aracımız vardır.
+Sayma ve çekirdek referans da birden fazla enstrümana sahip parçalardır.
+Ve bu folyoları, görüntüyü tanımlamadıklarından, dilbilgisel olduklarından ve başka türlü geçerli cümleler olduklarından emin olarak oluşturuyoruz.
+Bunu yapmak kolay değildir, çünkü engellenmiş bir altyazı orijinal altyazıdan daha az olası olabilir.
+Örneğin, imkansız olmasa da, bitkilerin bir insanı kesmesi, bir insanın bitkileri kesmesinden istatistiksel olarak daha az olasıdır ve büyük vizyon ve dil modelleri bunu anlayabilir.
+Bu nedenle, geçerli folyolar elde etmek için harekete geçmeliyiz.
+İlk olarak, folyoları önermek için güçlü dil modelleri kullanıyoruz.
+İkincisi, görüntüyü hala tanımlayabilecek folyoları filtrelemek için doğal dil çıkarımını veya kısa NLI kullanıyoruz, çünkü folyoları oluştururken görüntüyü tanımlayamadıklarından emin olmamız gerekiyor.
+Bunu otomatik olarak test etmek için, aşağıdaki gerekçeyle doğal dil çıkarımını uygularız.
+Bir görüntüyü öncül ve altyazısını gerekli hipotezi olarak görüyoruz.
+Buna ek olarak, altyazının öncül olduğunu düşünüyoruz ve folyo onun hipotezidir.
+Bir NLI modeli, folyonun başlıkla çelişeceğini veya nötr olacağını öngörüyorsa, bunu geçerli bir folyonun göstergesi olarak alırız.
+Bir NLI, başlığın gerektireceği folyoyu öngörürse, iyi bir folyo olamaz, çünkü geçişkenlik ile görüntünün doğru bir tanımını verir ve bu folyoları filtreleriz.
+Ancak bu prosedür mükemmel değildir, sadece geçerli folyolar için bir göstergedir.
+Bu nedenle, geçerli folyolar oluşturmak için üçüncü bir önlem olarak, Valse'de kullanılan verileri doğrulamak için insan ek açıklamaları kullanıyoruz.
+Yani, filtreleme ve insan değerlendirmesinden sonra, bu tabloda açıklandığı gibi birçok test örneğimiz var.
+Valse'nin herhangi bir eğitim verisi değil, yalnızca test verisi sunduğunu unutmayın.
+Sadece sıfır atış testi ölçütü olduğundan, ön eğitimden sonra vizyon ve dil modellerinin mevcut yeteneklerinden yararlanmak için tasarlanmıştır.
+İnce ayar, modellerin yalnızca verilerdeki eserlerden veya istatistiksel önyargılardan yararlanmasını sağlayacaktır.
+Ve hepimiz bu modellerin hile yapmayı ve kestirmeden gitmeyi sevdiğini biliyoruz.
+Ve dediğimiz gibi, ön eğitimden sonra vizyon ve dil modellerinin sahip olduğu yetenekleri değerlendirmekle ilgileniyoruz.
+Valse'de beş vizyon ve dil modelini, yani CLIP, LXMert, ViLBERT, ViLBERT ON iki bir arada ve VisualBERT ile deniyoruz.
+En önemli değerlendirme metriklerimizden ikisi, görüntü cümle çiftlerini başlıklar ve folyolar halinde sınıflandırmadaki modellerin doğruluğudur.
+Belki de bu video için daha alakalı olan, görüntü cümlesi hizalama puanının doğru görüntü metin çifti için folyo çiftinden daha büyük olup olmadığını ölçen daha izin verici metriğimizi, çiftli doğruluğumuzu göstereceğiz.
+Bunlarla ilgili daha fazla ölçüm ve sonuç için makalemize göz atın.
+İkili doğruluğa sahip sonuçlar burada gösterilmektedir ve diğer metriklerden elde ettiğimiz sonuçlarla tutarlıdır, en iyi sıfır atış performansı ViLBERT on iki ile bir arada elde edilir, ardından ViLBERT, LXMert, CLIP ve son olarak VisualBERT.
+Varlık ve isim cümleleri gibi bireysel nesnelere odaklanan araçların ViLBERT on iki tarafından neredeyse nasıl çözüldüğü dikkat çekicidir, bu da modellerin adlandırılmış nesneleri ve görüntülerdeki varlıklarını tanımlayabildiğini vurgulamaktadır.
+Bununla birlikte, kalan parçaların hiçbiri düşmanca folyo ayarlarımızda güvenilir bir şekilde çözülemez.
+Çoğulluk ve sayma araçlarından, vizyon ve dil modellerinin tek ve çoklu nesnelere yapılan referansları ayırt etmekte veya bir görüntüde saymakta zorluk çektiğini görüyoruz.
+İlişki parçası, bir görüntüdeki nesneler arasındaki adlandırılmış bir mekansal ilişkiyi doğru bir şekilde sınıflandırmakta zorlandıklarını göstermektedir.
+Ayrıca, eylem parçasında gördüğümüz gibi, inandırıcılık önyargılarıyla desteklense bile, eylemleri ayırt etmekte ve katılımcılarını tanımlamakta sorun yaşarlar.
+Çekirdek referans parçasından, bir görüntüdeki aynı nesneye birden fazla referansı zamirler kullanarak izlemenin vizyon ve dil modelleri için de zor olduğunu görüyoruz.
+Bir akıl sağlığı kontrolü olarak ve ilginç bir deney olduğu için, Valse'nin bu tek modlu modeller tarafından çözülebilir olup olmadığını değerlendirmek için yalnızca iki metin modelini, GPT bir ve GPT iki, doğru ve engellenmiş altyazının karmaşıklığını hesaplayarak, burada görüntü yok ve girişi en düşük karmaşıklıkla tahmin etmek.
+Folyo için kafa karışıklığı daha yüksekse, bunu, folyolu altyazının inandırıcılık önyargısı veya diğer dilsel önyargılardan muzdarip olabileceğinin bir göstergesi olarak alıyoruz.
+Ve bazı durumlarda, sadece GPT modellerinin dünyanın makuliyetini vizyon ve dil modellerinden daha iyi yakaladığını görmek ilginç.
+Özetlemek gerekirse, VALSE, topluluğun görsel topraklama yeteneklerini zorlayarak vizyon ve dil modellerini geliştirmelerine yardımcı olmak için dilsel yapıların lensini kullanan bir kriterdir.
+Deneylerimiz, görme ve dil modellerinin, varlık parçasının gösterdiği gibi, adlandırılmış nesneleri ve görüntülerdeki varlıklarını iyi tanımladığını, ancak dilsel göstergelere saygı duymaya zorlandıklarında görsel sahnelerde karşılıklı bağımlılıklarını ve ilişkilerini temellendirmek için mücadele ettiğini göstermektedir.
+Toplumu, vizyon ve dil modelleriyle dil temellendirmeye yönelik ilerlemeyi ölçmek için Valse'yi kullanmaya gerçekten teşvik etmek istiyoruz.
+Dahası, VALSE veri kümelerinin dolaylı bir değerlendirmesi olarak kullanılabilir, çünkü modeller bir veri kümesinin modellerin VALSE tarafından test edilen yönlerden herhangi birinde gelişmesine yardımcı olup olmadığını görmek için eğitim veya ince ayardan önce ve sonra değerlendirilebilir.
+İlgileniyorsanız, GitHub'daki VALSE verilerini kontrol edin ve herhangi bir sorunuz varsa bizimle iletişime geçmekten çekinmeyin.
+Merhaba, benim adım Tokyo Üniversitesi'nden Kamezawa.
+RNSum: A Large - Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization başlıklı bir makale sunacağım.
+Bu sırayla açıklayacağım.
+İlk olarak, bu araştırmada üzerinde çalıştığımız otomatik sürüm notu üretimini tanıtacağım.
+Sürüm notu, bir yazılım ürününün her sürümünde dağıtılan değişiklikleri özetleyen teknik bir belgedir.
+Resim, vuejs kütüphanesinin iki nokta altı nokta dört sürümü için bir sürüm notu gösterir.
+Sürüm notları açık kaynak geliştirmede önemli bir rol oynar, ancak manuel olarak hazırlanmaları zaman alır.
+Bu nedenle, otomatik olarak yüksek kaliteli sürüm notları üretebilmek çok yararlı olacaktır.
+Otomatik sürüm notu oluşturma konusundaki önceki iki araştırmaya erteleyeceğim.
+Birincisi, yirmi dörtte serbest bırakılan ARENA adı verilen bir sistemdir.
+Kural tabanlı bir yaklaşım gerektirir, örneğin tüm farklılıkları, kitaplık değişikliklerini ve belge değişikliklerini sürümler arasındaki farklılıklardan çıkarmak ve son olarak bunları birleştirmek için değişiklik çıkarıcıyı kullanır.
+Bu sistemin en dikkat çekici özelliği sağ üst köşedeki sorun çıkarıcıdır.
+Bu, sorun izleme sistemi olan JIRA'ya bırakılmalıdır ve yalnızca JIRA kullanan projelere uygulanabilir.
+Başka bir deyişle, GitHub'daki birçok proje için kullanılamaz.
+İkincisi Glyph, son zamanlarda yirmi yirmi ilan edildi.
+İnternette mevcuttur ve pip ile kurulabilir.
+Bu sistem, basit bir öğrenme tabanlı metin sınıflandırma modeline sahiptir ve her girdi işleme mesajı için özellikler veya hata düzeltmeleri gibi beş etiketten birini çıkarır.
+Bu görüntü, düzeltici veya hata düzeltmeleri etiketi döndüren örnek bir kullanımdır.
+Glyph'in eğitim verileri oldukça küçüktür, yaklaşık beş bin ve aşağıda açıklanan deneylerde gösterilecektir.
+Metin sınıflandırma modelinin performansı yüksek değildir.
+İlgili iki araştırma sunuyorum, ancak sorunları sınırlı uygulanabilirlik ve kıt veri kaynaklarıdır.
+Makalemiz bu iki sorunu çözer ve otomatik olarak yüksek kaliteli sürüm notları oluşturur.
+Sınırlı bir uygulanabilirlik sorunuyla, yalnızca iletileri girdi olarak kullanan yüksek kaliteli bir sınıfsal özetleme yöntemi öneriyoruz.
+Önerilen bu yöntem tüm İngilizce depolar için kullanılabilir.
+Kıt veri kaynaklarının ikinci problemi için, GitHub API'sini kullanarak kamu GitHub depolarından veri toplayarak yaklaşık seksen iki bin veri parçasından oluşan RNSum veri setimizi oluşturduk.
+Ardından, veri kümemizi açıklayacağım.
+İşte bir veri örneği.
+Sol taraf bir taahhüt mesajıdır ve sağ taraf sürüm notlarıdır.
+Sürüm notları iyileştirmeler veya düzeltmeler vb. olarak etiketlenir.
+Gönderme mesajlarını girdi olarak alan ve etiketli sürüm notlarının çıktısını alan bir görev belirledik.
+Bu bir özetleme görevi olarak kabul edilebilir.
+Dört etiketi önceden tanımladık: özellikler, iyileştirmeler, hata düzeltmeleri, kullanımdan kaldırma işlemleri ve sonlandırma değişiklikleri.
+Bunlar önceki araştırmalara ve diğer faktörlere dayanarak belirlendi.
+Sağ alttaki sürüm notu, sol alttaki sürüm notundan çıkarılır.
+Şu anda, önceden ayarlanmış dört etiketi tespit etmek gerekir.
+Ancak etiketler her depoyla her zaman tutarlı değildir.
+Örneğin, iyileştirmeler etiketi iyileştirmeler, geliştirmeler, optimizasyonlar vb. içerir.
+Bu notasyonel varyasyonların her biri için yaklaşık otuz etiket içeren bir kelime listesi hazırladık.
+Bu, sürüm notu sınıfını tespit etmektir ve sınıf için sürüm notu cümlesi olarak takip eden sürüm metnini toplar.
+Sırada bir commit mesajı var.
+Gönderme mesajları her sürümle bağlantılı değildir.
+Aşağıdaki resimde gösterildiği gibi, mevcut sürüm sürüm iki nokta beş ila on dokuz ise, önceki sürüm sürüm iki nokta beş ila on sekiz tanımlamalı ve bir fark almalıyız.
+Bu biraz sıkıcı ve sadece sürümlerin bir listesini almak ve öncesi ve sonrasına bakmak yeterli değil.
+Önceki ve sonraki sürümleri almak için sezgisel bir eşleştirme kuralı oluşturduk.
+Veri kümesi analizi.
+Sonunda yedi bin iki yüz depo ve seksen iki bin adet veri toplanmıştır.
+Ayrıca, ortalama sürüm notu token sayısı altmış üçtür ve bu bir özetleme görevi için oldukça yüksektir.
+Ayrıca, benzersiz belirteçlerin sayısı sekiz bin sekiz yüz otuz bin oldukça büyüktür.
+Bu, depoda bulunan çok sayıda benzersiz sınıf veya yöntem adından kaynaklanmaktadır.
+Ardından, önerilen yöntemi açıklayacağım.
+Classwise extractive then abstractive summarization modeli iki nöral modülden oluşur.
+BERT veya CodeBERT kullanan bir sınıflandırıcı ve BART kullanan bir jeneratör.
+İlk olarak, CEAS, her bir taahhüt mesajını iyileştirmeler, hata düzeltmeleri, kullanımdan kaldırmalar ve bir diğerini kullanan beş sürüm notu sınıfına sınıflandırmak için bir sınıflandırıcı kullanır.
+Diğer olarak sınıflandırılan işleme mesajları atılır.
+Daha sonra CEAS jeneratörü etiketli dört belgeye bağımsız olarak uygular ve her sınıf için sürüm notları oluşturur.
+Bu görevde, taahhüt mesajları ve sürüm notları arasındaki doğrudan yazışmalar bilinmemektedir.
+Bu nedenle, sınıflandırıcıyı eğitmek için, her bir giriş iletisinin ilk on karakterini kullanarak anketleri her bir giriş iletisi iletisine yeniden atamamızın nedeni budur.
+Classwise abstractive summarization yaklaşımını iki farklı yöntemle modelledik.
+CAS - Single dediğimiz ilk model, tek bir altıdan altıya kadar ağdan oluşur ve tek bir sürüm notu metni oluşturur, girdi işleme mesajlarının bir birleşimini verir.
+Çıktı metinleri, özel sınıfa özgü uç nokta sembollerine dayalı olarak sınıfsal bölümlere ayrılabilir.
+CAS - Multi olarak adlandırdığımız ikinci yöntem, her biri sabit sürüm notu sınıflarından birine karşılık gelen dört farklı seq2seq ağından oluşur.
+Tamam, deneyleri açıklayayım.
+Beş yöntem karşılaştırıldı: CEAS, CAS - Single, CAS - Multi, Clustering ve önceki çalışma, Glyph.
+Değerlendirme ile ilgili olarak, bazı durumlarda, sürüm notları birden fazla cümlede çıkarılır.
+Cümle sayısını olduğu gibi hesaplamak zor olduğundan, boşluklarla birleştirilir ve uzun bir cümle olarak ele alınır.
+BLEU, sistem kısa bir cümle çıkardığında cezalandırılır.
+Bu ceza, daha sonra açıklanan deney sonuçlarında daha düşük bir BLEU değeri ile sonuçlanır.
+Son olarak, sürüm notları boşsa ROUGE ve BLEU hesaplanamayacağı için özgüllüğü de hesaplıyoruz.
+Daha yüksek bir özgüllük, sürüm notlarının boş olduğu durumlarda modelin boş bir metni doğru bir şekilde çıkardığı anlamına gelir.
+İşte sonuçlar.
+Veri kümesi e - posta adresleri, karma değerler vb. içerdiğinden, bunları hariç tutan temizlenmiş veri kümesini de değerlendirdik.
+CEAS ve CAS, taban çizgilerinden on puan daha yüksek ROUGE - L puanları elde etti.
+Özellikle, temiz test setinde, önerilen yöntem ile temel çizgiler arasındaki puan boşluğu yirmiden fazla puana sıçramıştır.
+Bu sonuçlar CEAS ve CAS'ın önemli ölçüde etkilendiğini göstermektedir.
+CEAS, CAS'tan daha iyi bir ROUGE - L puanı aldı ve bir sınıflandırıcı ile bir jeneratörün birleştirilmesinin, sınıflandırıcıyı sözde etiketler kullanarak eğitmede etkili olduğunu öne sürdü.
+Sınıflandırıcı, muhtemelen her sınıf için ilgili taahhüt mesajlarını seçmeye odaklanabileceğinden, yüksek CEAS kapsamı elde edilebilir.
+CAS - Multi, CAS - Single'dan daha yüksek ROUGE - L üretme eğilimindeydi.
+Her sürüm notu sınıfı için bağımsız olarak farklı soyut özetleme modelleri geliştirmenin de etkili olduğunu öne sürmek.
+İşte bir hata analizi.
+CAS yöntemleri, insan referans cümlelerinden daha kısa cümleler çıkarma eğilimindedir.
+Sağdaki şekilde, referans cümlenin üç veya dört cümlesi varken, CAS'ın sadece bir cümlesi vardır.
+Bu modelin isteksizliğinin nedeni, eğitim verilerinde, cümlelerin sadece yüzde otuz üçünün özellikler etiketinde ve yüzde kırkının iyileştirmeler etiketinde bulunmasıdır.
+Ayrıca, CAS yöntemleri ek bilgi olmadan doğru sürüm notları oluşturamaz.
+Sağdaki en üstteki örnek, çok dağınık bir taahhüt mesajının bir örneğidir ve ilgili ilerleme veya soruna atıfta bulunulmadan cümlenin tamamı oluşturulamaz.
+Aşağıdaki örnek, girdideki iki taahhüt mesajının ilişkili olduğunu ve bir cümlede birleştirilmesi gerektiğini, ancak bunu yapamadığını göstermektedir.
+Son olarak, bir sonuç.
+Otomatik sürüm notu oluşturma için yeni bir veri kümesi oluşturduk.
+Ayrıca, taahhüt mesajlarını girme ve bunları özetleme görevini de formüle ettik, böylece İngilizce yazılmış tüm projeler için geçerlidir.
+Deneylerimiz, önerilen yöntemin taban çizgilerinden daha yüksek kapsama alanında daha az gürültülü sürüm notları ürettiğini göstermektedir.
+Lütfen GitHub'daki veri kümemize göz atın.
+Teşekkür ederim.
+Merhaba, benim adım Asaf Harari.
+Ve makalemizi sunacağım, İnce Ayarlı Transformatörler Mimarileri Kullanarak Birkaç Çekim Tablolu Veri Zenginleştirme.
+Veri bilimcileri verileri analiz eder ve esas olarak verilerin mevcut özelliklerini manipüle etmeye odaklanır.
+Ancak bazen bu özellikler sınırlıdır.
+Başka bir veri kaynağı kullanılarak özellik üretimi, önemli bilgiler ekleyebilir.
+Araştırma hedefimiz, dış kaynakların serbest metnini kullanarak otomatik tablo veri zenginleştirmesidir.
+Tablolu bir veri kümemiz ve bir bilgi tabanımız olduğunu varsayalım.
+Bilgi tabanının serbest metninden yeni özellikler çıkarmak için varlık bağlama ve metin analizi içeren otomatik bir sürece ihtiyacımız var.
+Bizim çerçeve FeSTE tam olarak bu otomatik süreçtir.
+FeSTE'ye beslenen bir veri kümesinde bir örnek görelim.
+Bu örnekte, veri kümesi üniversite veri kümesidir.
+Amacı üniversiteleri düşük rütbeli üniversiteler ve yüksek rütbeli üniversiteler olarak sınıflandırmak olduğunda.
+Bilgi tabanı olarak Wikipedia'yı kullanıyoruz.
+FeSTE'nin ilk aşaması varlık bağlantısıdır.
+Her varlık, bu örnekte üniversite adı, bilgi tabanı içindeki bir varlığa bağlı olduğunda.
+Ve bilgi tabanının varlıklarının metni çıkarılır ve veri kümesine eklenir.
+Bu örnekte, metin Wikipedia sayfasının özetidir.
+Şimdi, alınan metinden detaylar oluşturmamız veya ayıklamamız gerekiyor.
+Yani, metin analizini içeren özellik çıkarma aşamasına ihtiyacımız var.
+Ve bu makalenin ana yeniliği budur ve sonraki slaytlarda derinlemesine inceleyeceğim.
+Özellik çıkarma aşamasından sonra, az sayıda yeni özellik oluşturmak için çıkarılan özellikleri kullandığımızda bir özellik oluşturma aşaması vardır.
+Önce orijinal veri kümesinin sınıf sayısında ah özellikleri oluşturun.
+Bu örnekte, orijinal veri kümesinin iki sınıfı vardır.
+Böylece, FeSTE iki yeni özellik üretir.
+Ancak veri kümesinin beş sınıfı varsa, FeSTE beş yeni özellik üretir.
+Her özellik, her sınıfın olasılığını temsil eder.
+Metni analiz etmek için, BERT, GPT, XLNet ve etc gibi transformatör tabanlı dil modelleri olan mevcut en son metin analizini kullanıyoruz.
+Bu, ancak girdi veri kümelerini kullanarak dil modellerini eğitebilmemiz olası değildir.
+Bu yüzden naif bir yaklaşım, hedef görev ince ayarı olacaktır.
+Böylece, özellik çıkarma aşamasında, önceden eğitilmiş dil modellerini indirebilir, dil modelini hedef veri kümesi üzerinden ince ayar yapabiliriz.
+Bu örnekte, dil modelini ince ayarlamak, metni sınıflara sınıflandırmak için ah'ı sınıflandırmak, sınıflara soyut, düşük veya yüksek.
+Her sınıf için olasılık olan dil modeli çıktısını alın ve yeni özellikler olarak kullanın.
+Bu yaklaşımla ilgili sorun, veri kümelerinin birkaç farklı varlığa / metne sahip olabilmesidir.
+Deneyimizde, veri setlerinin neredeyse yarısı dört yüzden az örnek içerir ve en küçük veri seti, bir eğitim setinde otuz beş örnek içerir.
+Yani bir dil modelini ah üzerinde ince ayar yapmak için bu veri kümesi etkisiz olacaktır.
+Ancak önceden analiz edilmiş veri kümeleri hakkında ön bilgileri kullanabiliriz.
+FeSTE, FeSTE'yi birden fazla veri kümesi üzerinde uyguladığımız için, n eksi bir veri kümesi hakkında bilgi toplamak için n eksi bir veri kümesini kullanabilir ve n'inci veri kümesini analiz ederken bu bilgileri kullanabiliriz.
+Önerdiğimiz şey, eklemek, başka bir ince ayar aşaması eklemek.
+Ön çoklu görev ince ayar aşaması.
+Dil modelini n eksi bir veri kümesi üzerinden ince ayarladığınızda.
+Ve sonra, dil modelini n'inci hedef veri kümesi üzerinde ince ayar yaptığımızda iyi olduğunuzda, hedef görev ince ayarı olan başka bir ince ayar aşaması yürütürüz.
+MTDNN adı verilen çoklu görev ah çoklu görev ince ayarında son teknoloji ürünü.
+MTDNN'de MTDNN, eğitim setindeki görevlerin sayısında başı tutar.
+Bu nedenle, bu örnekte eğitim setinde dört görev vardır, bu nedenle MTDNN, görüntüde görebileceğiniz gibi dört kafayı korur.
+Ve eğitim setinden rastgele bir partiyi örnekliyor.
+Ve eğer rastgele toplu iş, örneğin tek cümle sınıflandırma görevine aitse, ilk başlık boyunca ileri ve geri yolları yürütür.
+Rastgele parti çift sıralama görevine aitse, son başlık boyunca ileri ve geri yolu yürütür.
+Senaryomuzda, ah tablo veri kümeleri sınıfların sayısına göre değişir.
+Bu yüzden birçok görev var.
+MTDNN, sınıfların, kafaların, çıktı katmanlarının sayısını korudu.
+Ve ek olarak MTDNN'nin yeni bir görevle yeni bir veri kümesi için yeni başlıkları başlatması gerekiyor.
+Görev yeniden formülasyonu ince ayarlaması olarak adlandırılan yaklaşımımız, yaklaşımımızda görev yeniden formülasyonu ince ayarlaması, birden fazla kafayı korumak yerine, her veri kümesini sınıflandırma problemi başına iki sınıfın görevi olan bir cümleye dönüştürüyoruz.
+Bir örnek görelim.
+İşte varlıklar, özellikler, metin ve sınıflardan oluşan girdi veri kümemiz.
+Ve görevi, metni, özeti ve sınıfı doğru veya yanlış olarak sınıflandırmak için metni düşük veya yüksek olarak sınıflandırmaktan yeniden formüle ediyoruz.
+Ya da başka bir deyişle, dil modelini bir soyutu ve ah sınıfını soyuta ve ah sınıfına, soyut sınıfa aitse veya değilse sınıflandırmak için eğittik.
+Bu durumda etiket vektörü her zaman iki sınıftan oluşan ah olarak kalır.
+Ve bu bizim ince, yeniden formüle edilmiş ince ayar yaklaşımımız için bir algoritma.
+Şimdi tüm çerçeveyi görelim.
+FeSTE'ye beslenen veri kümesi.
+Ve sonra ah FeSTE varlık bağlama aşamasını yürütür.
+Bu örnekte Vikipedi sayfasının özeti olan bilgi tabanından metni çıkarır.
+Daha sonra görevi ikili bir cümle sınıflandırma görevi olarak yeniden formüle etti.
+Dil modelini yeni göreve ve her sınıf için çıktı olasılığına uyguladı.
+Ve şimdi dil modeli, bir ön çoklu görev ince ayarı kullanılarak n eksi bir veri kümesi üzerinde zaten ince ayarlanmıştır.
+Daha sonra dil modelinin çıktı vektörünü sınıf sayısında yeni oluşturulan bir özellik olarak kullanırız.
+Çerçevemizi değerlendirmek için, boyut, özellikler, denge, etki alanı ve ilk performansa göre değişen on yedi tablo sınıflandırma veri kümesi kullanıyoruz.
+Ve bilgi tabanı olarak Vikipedi'yi kullanıyoruz.
+Deneyimizi, FeSTe'yi on altı veri kümesi üzerinde eğittiğimiz ve on yedinci veri kümesine uyguladığımız bir değerlendirme olarak tasarlıyoruz.
+Ayrıca, her veri kümesini dört kata bölüyoruz ve dört kat çapraz doğrulama uyguluyoruz.
+Daha sonra yeni özellikleri üretiyoruz ve beş değerlendirme sınıflandırıcısı kullanarak değerlendiriyoruz.
+Deneylerimizde temel BERT temel mimarisini kullanıyoruz.
+İşte deneylerimizin sonuçları.
+Çerçevemizi hedef veri kümesi ince ayarı, hedef görev ince ayarı ve MTDNN ön ince ayarı ile karşılaştırdığımızı görebilirsiniz.
+Ve yeniden formüle edilmiş ince ayarımız en iyi sonucu, en iyi performansı elde eder.
+MTDNN, hedef veri kümesi ince ayarına göre yüzde iki iyileşme elde etti.
+Yaklaşımımız yüzde altı iyileşme sağladı.
+Küçük ah veri setine baktığımızda, MTDNN'nin performansının düştüğünü ve ön hazırlık, ön çoklu görev ince ayar aşamasının yüzde bir nokta beşe düştüğünü görebiliriz.
+Ancak performansımız, tek başına hedef görev ince ayarına kıyasla yüzde on bire yükseldi.
+Özetlemek gerekirse, FeSTE deneylerimizde otuz beş numuneden çok az atış zenginleştirmesi sağlar.
+Tüm görevler ve veri kümeleri için tek bir mimari kullanır.
+Ve modelin ah başını tutar.
+Ama reformülasyon aşamasını da ekliyor.
+Tren setini arttırır ve anlamsal anlamı olan bir hedef değere ihtiyaç duyar, böylece onu dil modeline besleyebilir ve cümle çifti sınıflandırma probleminde kullanabiliriz.
+Teşekkür ederim.

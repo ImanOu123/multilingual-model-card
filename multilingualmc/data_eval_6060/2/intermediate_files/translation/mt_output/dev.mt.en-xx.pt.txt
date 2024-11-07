@@ -1,0 +1,468 @@
+Olá, sou a Elena e vou apresentar o nosso trabalho Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling.
+Então, vamos abordar o que é empréstimo lexical, a tarefa que propusemos, o conjunto de dados que lançamos e alguns modelos que exploramos.
+Mas, para começar, o que é empréstimo lexical e por que é importante como uma tarefa de PNL?
+Bem, empréstimo lexical é basicamente a incorporação de palavras de um idioma em outro idioma.
+Por exemplo, em espanhol usamos palavras que vêm do inglês.
+E aqui você tem alguns exemplos, palavras como podcast, app e crowdfunding online, todas essas são palavras em inglês que às vezes usamos em espanhol.
+O empréstimo lexical é um tipo de empréstimo linguístico que basicamente se reproduz em padrões de linguagem de outras línguas.
+E empréstimos e comutação de código às vezes foram comparados e descritos como um continuum, sendo a comutação de código ah a coisa que os bilíngues fazem quando misturam dois idiomas ao mesmo tempo.
+No entanto, existem algumas diferenças entre o empréstimo lexical e a troca de código.
+Vamos concentrar-nos no empréstimo lexical.
+A troca de código é algo que é feito por bilíngues e, por definição, os switches de código não são integrados em nenhuma das línguas em uso, enquanto o empréstimo lexical é algo que também é feito por monolíngues.
+Os empréstimos estarão em conformidade com a gramática do idioma do destinatário.
+E os empréstimos podem eventualmente ser integrados no idioma do destinatário.
+Então, porque é que pedir emprestado é um fenómeno interessante?
+Bem, do ponto de vista da linguística, o empréstimo é uma manifestação de como as línguas mudam e como elas interagem.
+E também empréstimos lexicais são uma fonte de novas palavras.
+Aqui você tem alguns exemplos de empréstimos lexicais que foram incorporados à língua espanhola como novas palavras.
+Em termos de PNL, os empréstimos são uma fonte comum de palavras fora do vocabulário.
+E, de fato, a detecção automática de empréstimos lexicais provou ser útil para tarefas posteriores da PNL, como análise, síntese de texto em fala ou tradução automática.
+Tem havido um interesse crescente na influência do inglês em outras línguas, particularmente relacionadas a empréstimos lexicais em inglês, empréstimos que às vezes são chamados de anglicismos.
+E aqui, você tem alguns exemplos de ah trabalho na detecção automática de empréstimos em ah algumas dessas línguas.
+Portanto, a tarefa que propomos é detectar empréstimos lexicais não assimilados em notícias espanholas.
+O que significa que estamos interessados em extrair ah palavras emprestadas de outras línguas que estão sendo usadas em jornais espanhóis, mas que não foram integradas ou assimiladas na língua de destino.
+Ainda não está integrado ao espanhol.
+Aqui tens um exemplo.
+Esta é uma frase em espanhol: Las prendas best-sellers se estampan con motivos florales, animal print o retales tipo patchwork.
+E como podem ver, há três textos que são palavras inglesas como best-seller, animal print e patchwork.
+Estes são os tipos de vãos que estamos interessados em extrair e detectar.
+Houve uma palavra anterior sobre a detecção de anglicismo ah que consiste em um modelo de CRF para detecção de anglicismo em Spanish Newswire.
+Este modelo alcançou uma pontuação F1 de oitenta e seis.
+Mas havia algumas limitações tanto no conjunto de dados quanto na abordagem de modelagem.
+Assim, o conjunto de dados focado exclusivamente em uma fonte de notícias, consistia apenas de manchetes.
+E também houve uma sobreposição nos empréstimos que aparecem no conjunto de treinamento e no conjunto de testes.
+Isso impediu a avaliação de se a abordagem de modelagem poderia realmente generalizar para empréstimos não vistos anteriormente.
+Portanto, o que pretendemos é enfrentar algumas dessas limitações na tarefa.
+Então, para começar, criamos um novo conjunto de dados.
+Ah, o objetivo de um novo conjunto de dados que foi anotado com empréstimos lexicais e o objetivo era criar um conjunto de testes que fosse o mais difícil possível.
+Portanto, haveria uma sobreposição mínima de palavras e tópicos entre o conjunto de treinamento e o conjunto de testes.
+E como resultado, bem, o conjunto de testes vem de fontes e datas que não estamos vendo no conjunto de treinamento.
+Aqui você pode ver que não há sobreposição no tempo.
+É também, o conjunto de teste também é muito emprestado denso.
+Apenas para lhe dar alguns números, se o conjunto de treinamento contém seis empréstimos por cada mil tokens, o conjunto de teste continha vinte empréstimos por cada mil tokens.
+O conjunto de testes continha o maior número possível de palavras fora do vocabulário.
+Na verdade, noventa e dois por cento dos empréstimos no conjunto de teste são OOV.
+Então, eles não foram vistos durante os treinos.
+E o corpus consistia basicamente de uma coleção de textos que vinham de diferentes fontes de jornais espanhóis.
+E ah foi anotado à mão ah usando duas etiquetas.
+Um para empréstimos lexicais em inglês, que é a maioria dos empréstimos lexicais em espanhol, e depois o rótulo outro para empréstimos de outras línguas.
+Usamos formatos CONLL e usamos codificação BIO para que pudéssemos codificar empréstimos de token único, como empréstimos de aplicativo ou multi token, como aprendizado de máquina.
+Estes são os números do corpus.
+Como você pode ver, isso equivale a cerca de trezentos e setenta mil tokens.
+E aqui você tem o número de vãos que foram rotulados como inglês e os vãos que foram rotulados como outros empréstimos e quantos deles eram únicos.
+E aqui você tem alguns exemplos do conjunto do conjunto de dados.
+Como você pode ver, por exemplo, aqui, temos ah no primeiro exemplo, temos o empréstimo de cozimento em lote, que é um empréstimo de várias palavras.
+E nós o anotamos usando o BIO um encode.
+Assim, a BIOGRAFIA foi usada para palavras em espanhol, então não para palavras que não foram emprestadas.
+E aqui neste segundo exemplo, você tem benching e crash que também são rotulados como empréstimos do inglês.
+Assim, uma vez que tínhamos o conjunto de dados, exploramos vários modelos para a tarefa de extrair e detectar esses empréstimos lexicais.
+O primeiro que tentamos foi o modelo de campo aleatório condicional.
+Ah, este foi o modelo que tinha sido usado em trabalhos anteriores.
+E usamos os mesmos recursos artesanais daqueles daquele trabalho.
+Como podem ver, estas são as características.
+Estes são recursos binários, como a palavra ou o token em maiúsculas?
+É titulação?
+É uma aspas?
+Coisas assim, que são o tipo de recursos que se esperaria em uma tarefa de reconhecimento de entidade nomeada.
+Estes são os resultados que obtivemos.
+Obtemos a pontuação de cinquenta e cinco F1 usando o modelo CRF com características artesanais.
+O que é uma enorme diferença em comparação com a pontuação F1 relatada de oitenta e seis, que foi o resultado obtido com o mesmo modelo de CRF, as mesmas características, mas em um conjunto de dados diferente também para a detecção de empréstimos lexicais em espanhol.
+Então, isso prova que o conjunto de dados que criamos é mais difícil e que precisávamos explorar modelos mais sofisticados para essas tarefas.
+Então, testamos dois modelos baseados em transformadores.
+Usamos o BETO, que é um modelo monolíngue BERT treinado para espanhol e também BERT multilíngue.
+Ambos os modelos os usamos através da biblioteca de transformadores da HuggingFace.
+Estes são os resultados que obtivemos.
+Como você pode ver, o BERT multilíngue tem um desempenho melhor do que o BETO tanto no conjunto de desenvolvimento quanto no conjunto de teste e em todas as métricas.
+Só para termos uma ideia para comparar, o modelo CRF obteve um oitenta e dois.
+O modelo CRF obteve um escore de cinquenta e cinco F1, enquanto o BERT multilíngue obteve oitenta e dois, o que é uma grande diferença.
+Então, uma vez que tivemos esses resultados, nos perguntamos outra questão que é, poderíamos encontrar um modelo BiLSTM-CRF, alimentá-lo com diferentes tipos de incorporações, incorporações que codificam diferentes tipos de informações linguísticas e superam os resultados obtidos por modelos baseados em transformadores?
+Então, para fazer isso, realizamos alguns experimentos preliminares, executamos isso pelo modelo BiLSTM-CRF usando a biblioteca flare.
+E tentamos experimentar diferentes tipos de incorporações, como baseadas em transformadores, mas também em texto rápido, incorporações de caracteres e assim por diante.
+O que descobrimos foi que as incorporações baseadas em transformadores tiveram um desempenho melhor do que as incorporações não contextualizadas, que a combinação de incorporações BERT em inglês e BETO em espanhol supera as incorporações BERT multilíngues.
+E que as incorporações de BPE produziram melhor F1 e as incorporações de caracteres produzem melhor recordação.
+Com isso em mente, estes foram os resultados de melhor desempenho que obtivemos.
+Ambos os modelos eram modelos BiLSTM-CRF usando flare.
+Um foi alimentado com incorporações de BETO e BERT e BPE, e o outro com incorporações de BETO e BERT e BPE e também incorporações de caracteres.
+Este último foi o que produziu a maior pontuação F1 no conjunto de testes, embora a maior pontuação no conjunto de desenvolvimento tenha sido obtida por aquele sem incorporação de caracteres.
+Apenas para ter em mente que o melhor resultado que obtivemos com o BERT multilíngue obteve uma F1 de setenta e seis no conjunto de desenvolvimento e oitenta e dois no conjunto de teste.
+Portanto, esta é uma melhoria em comparação com esses resultados.
+Finalmente, fizemos a nós mesmos outra pergunta: a detecção de empréstimos lexicais pode ser enquadrada como transferência de aprendizado a partir da identificação de idiomas na troca de código?
+Então, executamos o mesmo modelo BiLSTM-CRF que executamos usando flare, mas em vez de usar essas incorporações BETO e BERT não adaptadas baseadas em transformador, usamos incorporações de switch de código.
+O que são incorporações de comutadores de código?
+Bem, estes são incorporações que são incorporações baseadas em transformador ajustadas que foram pré-treinadas para identificação de idioma na seção Inglês Espanhol do conjunto de dados de comutação de código LinCE.
+LinCE é um conjunto de dados sobre comutação de código que possui uma seção sobre comutação de código em inglês espanhol e inglês espanhol.
+Assim, alimentamos nosso BiLSTM-CRF com incorporações de chave de código e, opcionalmente, incorporações de caracteres, incorporações de BPE e assim por diante.
+O melhor resultado que obtivemos foi oitenta e quatro vírgula vinte e dois, que é o mais alto em todos os modelos que testamos no conjunto de testes.
+Embora o melhor resultado F1 que obtivemos no conjunto de desenvolvimento, que foi de setenta e nove, tenha sido inferior ao melhor resultado obtido pelo BiLSTM-CRF alimentado com embutimentos não adaptados.
+Então, algumas conclusões do nosso trabalho.
+Produzimos um novo conjunto de dados de notícias espanholas que é anotado com empréstimos lexicais não assimilados.
+Este conjunto de dados é mais denso e rico em OOV do que os recursos anteriores.
+Exploramos quatro tipos de modelos para detecção de empréstimos lexicais.
+Em termos de análise de erros, bem, recordar foi um ponto fraco para todos os modelos.
+Ah, como você pode ver aqui, alguns falsos negativos frequentes incluem empréstimos em maiúsculas, palavras que existem em inglês e espanhol, por exemplo.
+Também curiosamente, as incorporações de BPE parecem melhorar a pontuação da F1.
+E a incorporação de caracteres parece melhorar a recordação.
+Que ah é uma descoberta interessante que talvez possamos explorar em trabalhos futuros.
+Bem, isto é tudo o que tenho.
+Muito obrigado por me ouvirem.
+Chamo-me Antoine.
+Sou estudante de doutoramento na Universidade de Massachusetts Amherst.
+Estou apresentando nosso artigo KinyaBERT: a Morphology-aware Kinyarwanda Language Model.
+Hoje vou falar sobre a motivação desta pesquisa.
+Em seguida, apresentarei a arquitetura do modelo KinyaBERT em detalhes.
+Vou então falar sobre os nossos resultados experimentais, e depois terminar com algumas conclusões.
+Todos sabemos que os recentes avanços no processamento de linguagem natural foram possíveis graças ao uso de modelos de linguagem pré-treinados, como o BERT.
+No entanto, ainda há uma série de limitações.
+Devido à morfologia complexa que é expressa pela maioria das linguagens morfologicamente ricas, o onipresente par de bytes que codifica o algoritmo de tokenização que usei não pode extrair as unidades lexicais exatas das subpalavras, ou seja, os morfemas, que são necessários para uma representação eficaz.
+Por exemplo, aqui temos três palavras de Kinyarwanda que têm vários morfemas nelas, mas os algoritmos BPE não podem extraí-las.
+Isso ocorre porque algumas regras morfológicas produzem diferentes formas de superfície que escondem as informações lexicais exatas, e o BPE, que é baseado apenas nas formas de superfície, não tem acesso a esse modelo lexical.
+O segundo desafio é que, mesmo que se tenha acesso a um analisador morfológico oráculo, a substituição de tokens BPE por morfemas não é suficiente para expressar a composicionalidade morfológica.
+Uma terceira lacuna na pesquisa é que os novos modelos de linguagem pré-treinados são mais frequentemente avaliados em linguagens de alto recurso.
+E precisamos avaliar sua aplicabilidade em baixos recursos e linguagens diversas também.
+Portanto, apresentamos KinyaBERT, que é uma adaptação simples, mas eficaz da arquitetura BERT que se destina a lidar de forma mais eficaz com linguagens morfologicamente ricas.
+Avaliamos o KinyaBERT em Kinyarwanda, uma língua morfologicamente rica em poucos recursos, que é falada por mais de doze milhões de pessoas em toda a África Oriental e Central.
+A entrada para o modelo é uma frase ou um documento.
+Por exemplo, aqui temos John twarahamubonye biradutangaza, o que significa que ficamos surpresos ao encontrar John lá.
+Como você pode ver, as palavras Kinyarwanda contêm vários morfemas que contêm informações diferentes neles.
+Portanto, em nosso modelo, passamos essa frase ou um documento para um analisador morfológico.
+Que então gera morfemas contidos em cada uma das palavras.
+Os morfemas geralmente são feitos do caule e zero ou mais afixos.
+Os afixos podem indicar tempo, aspecto, sujeito ou objeto em verbos, e mais frequentemente se relacionam com a classe de substantivos Bantu para sujeitos e objetos.
+O analisador morfológico também produz uma parte da tag de fala para cada uma das palavras.
+Após esta etapa, fazemos incorporações para a parte das tags de fala.
+Embeddings para os afixos.
+E encaixes para o caule.
+Estes são o nível de morfologia, estes são os embutimentos de nível de morfologia.
+Em seguida, passamos essas incorporações através de um codificador de morfologia, que é um pequeno codificador de transformador que é aplicado a cada palavra de forma independente.
+A saída do são os vetores que são contextualizados com a informação morfológica em cada palavra.
+Agora, realizamos a composição onde as incorporações morfológicas correspondentes a parte da fala e haste são concatenadas juntas.
+Concatenamos ainda mais, concatenando-os com outra incorporação de haste no nível da frase.
+Em seguida, formamos uma entrada para a frase principal ou codificador de documento.
+A saída final são incorporações contextualizadas que podem ser usadas para tarefas de PNL a jusante.
+Para um analisador morfológico, usamos princípios de morfologia de dois níveis de estado finito com implementação personalizada que é adaptada à linguagem Kinyarwanda.
+Nós efetivamente modelamos a morfologia de todas as palavras de Kinyarwanda, incluindo verbais, substantivos, pronomes demonstrativos e possessivos, numerais e outros.
+Usamos uma parte não supervisionada do algoritmo de marcação de fala.
+Um modelo fatorial de primeira ordem é usado para explicar a probabilidade morfológica, basicamente a probabilidade que é atribuída pelo analisador morfológico.
+Também levamos em consideração a parte da precedência da tag de fala, bem como os acordos sintáticos que estão presentes nas palavras de entrada.
+A parte do marcador de fala usa uma inferência bidirecional bidirecional que melhora o algoritmo Viterbi mais usado para decodificação.
+Algumas observações aqui para codificação posicional.
+Primeiro, o codificador de morfologia não usa nenhuma codificação posicional.
+Isso ocorre porque cada um dos morfemas ocupa um espaço conhecido no modelo morfológico.
+Portanto, a informação posicional é inerente quando os morfemas são dados.
+Em segundo lugar, o codificador de sentença usa os chamados embutimentos posicionais relativos desamarrados, que foram recentemente publicados na conferência ICLR.
+Esses encaixes posicionais essencialmente desembaraçam correlações posicionais de token para computação de atenção de token.
+Semelhante ao BERT, usamos um objetivo de pré-treinamento de modelo de linguagem mascarado.
+Essencialmente, temos que prever tanto a haste quanto os afixos que estão associados às palavras.
+Durante o pré-treinamento, quinze por cento de todas as palavras são consideradas para previsão, das quais oitenta por cento são mascaradas, dez por cento são trocadas por palavras aleatórias e dez por cento permanecem inalteradas.
+Para a predição de afixos, enfrentamos alguns problemas de classificação de rótulos múltiplos.
+Para isso, agrupamos afixos em um número fixo de conjuntos e prevemos o conjunto como um rótulo de classe.
+A outra opção é prever o vetor de probabilidade de afixação.
+Nós avaliamos ambas as abordagens em nossos experimentos.
+Nós pré-treinamos o KinyaBERT em cerca de dois gigabytes e meio de texto Kinyarwanda e o comparamos com três modelos de linha de base.
+Um deles é um modelo multilíngue chamado XLM-R, que é treinado em um grande corpo de texto que é feito de vários idiomas.
+As outras duas linhas de base são pré-treinadas no mesmo texto de Kinyarwanda usando o algoritmo de codificação de par de bytes ou usando análise morfológica sem usar a arquitetura de codificador de transformador de duas camadas.
+Todos os modelos são configurados na arquitetura base, que é de cerca de cento e cento e dez milhões de parâmetros, com Kinyarwanda com KinyaBERT usando o menor número de parâmetros.
+Todos os modelos, exceto o multilíngue, são pré-treinados para trinta e duas mil atualizações de gradiente com um tamanho de lote de duas mil e quinhentas e sessenta sequências em cada lote.
+Avaliamos os modelos pré-treinados em três conjuntos de tarefas.
+Uma delas é a referência de COLA que tem sido frequentemente usada para avaliar a eficácia de modelos de linguagem pré-treinados.
+Obtemos nossos dados de referência de COLA traduzindo os dados de referência originais para Kinyarwanda usando o Google Translate.
+A segunda tarefa é Kinyarwanda nomeado benchmark de reconhecimento de entidade, que é um conjunto de dados de alta qualidade que foi anotado por falantes nativos treinados.
+A terceira é uma tarefa de categorização de notícias, onde puxamos artigos de notícias de vários sites e coletamos suas tags de categorização que foram atribuídas pelos autores e, em seguida, essencialmente tentando prever o mesmo, as mesmas categorias.
+E agora vamos aos resultados.
+Para a referência de COLA, descobrimos que o KinyaBERT supera consistentemente os modelos de linha de base.
+Aqui mostramos o desempenho médio para dez execuções de ajuste fino.
+Também realizamos uma avaliação do usuário das traduções produzidas pelo Google Tradutor.
+Essencialmente, os utilizadores avaliaram cerca de seis mil exemplos, atribuindo pontuações numa escala de um a quatro, avaliando a qualidade das traduções.
+O resultado é que muitas traduções eram barulhentas.
+Mas, todos os modelos tiveram que lidar com o mesmo ruído de tradução, e o desempenho relativo entre os modelos ainda é importante notar.
+Para a tarefa de reconhecimento de entidade nomeada, também descobrimos que KinyaBERT oferece o melhor desempenho com a variante de regressão de distribuição de afixo com melhor desempenho.
+Esses resultados também são médias de dez execuções de ajuste fino.
+Para a tarefa de categorização de notícias, encontramos resultados mistos.
+Trabalhos anteriores sobre classificação de texto para Kinyarwanda descobriram que a detecção simples de palavras-chave é principalmente suficiente para resolver essa tarefa específica.
+Portanto, há menos ganho com o uso de modelos de linguagem pré-treinados.
+Sobre esta tarefa particular de categorização de notícias.
+Também realizamos um estudo de ablação para ver se existem estruturas alternativas que melhorem o desempenho.
+Para o benchmark de COLA, descobrimos que o uso de conjuntos de afixos tem um desempenho melhor de forma consistente, enquanto o objetivo de regressão de probabilidade de afixação produz o melhor desempenho no reconhecimento de entidades nomeadas.
+Também observando as pontuações baixas para ajuste fino, descobrimos que KinyaBERT tem melhor convergência na maioria dos casos.
+Portanto, para concluir, este trabalho demonstrou a eficácia do uso explícito de informações morfológicas em modelos de linguagem pré-treinados.
+A arquitetura proposta do codificador de transformador de duas camadas permite capturar a complexidade morfológica da composicionalidade morfológica, que é um aspecto importante das linguagens morfologicamente ricas.
+Esses achados devem motivar novas pesquisas sobre modelos de linguagem pré-treinados em linguagem consciente da morfologia.
+Olá, meu nome é Michał Pietruszka e tenho o prazer de apresentar a vocês o artigo intitulado Sparsifying Transformer Models with Trainable Representation Pooling.
+Um trabalho feito na Applica AI em cooperação com Lukasz Borchmann e Lukasz Garncarek.
+Permitam-me que comece pelos problemas que os nossos objectivos de trabalho nos propõem.
+Nosso método funciona bem para os casos em que entradas longas são consideradas.
+Grosso modo, ele é destinado para as ordens de tarefa e entrada de mais de dois mil tokens e os alvos são mais curtos do que as entradas fornecidas.
+Isso tem algumas aplicações específicas em PNL.
+Por exemplo, pode-se imaginar que dado um documento longo, há uma necessidade de resumi-lo, classificar, responder à pergunta sobre ele, extrair informações ou algumas frases-chave.
+Deixe-me lembrar o transformador de baunilha e nossa e sua questão da sua complexidade de atenção que depende do quadrado da linha de entrada.
+No transformador baunilha, com conectividade de atenção total, as relações de cada token com todos os outros tokens devem ser calculadas.
+A complexidade computacional da atenção depende do número de camadas l, do comprimento da sequência n, do comprimento de outra sequência e da dimensionalidade das representações.
+Da mesma forma, na atenção cruzada do decodificador, para esta imagem no lado direito, a única diferença aqui é que os tokens de destino estão atendendo aos tokens de entrada neste caso.
+O que também pode ser visto nesta fórmula.
+A pontuação BLEU representa as relações que devem ser calculadas.
+No caso da atenção total, precisamos calcular todas as relações dentro da sequência de entrada.
+Agora, vemos o que acontece quando temos um codificador em bloco que funciona limitando a conectividade dos tokens para que eles possam ver apenas outros tokens próximos.
+O texto é lido em pedaços que podem reduzir drasticamente o número de cálculos no lado do codificador, mas não melhora a atenção cruzada do decodificador, pois cada token de entrada é passado para o decodificador de qualquer maneira.
+Este método é muitas vezes referido como fusão em decodificador.
+A melhoria aqui pode ser interpretada como a mudança de uma das dependências de n para outra constante m representando o tamanho do bloco.
+Nossa principal observação é que a maioria dos tokens é irrelevante para uma ampla variedade de tarefas e pode ser quase completamente desconsiderada. Isso é exemplificado no slide.
+As únicas partes das entradas são relevantes para a saída desejada.
+Por exemplo.
+Pode-se ler um artigo uma vez marcando as partes mais importantes com um marcador e, em seguida, produzir um resumo baseado nessa parte apenas no estágio intermediário.
+O custo de destacar e decidir se o token atual é essencial para produzir o resumo é, portanto, barato e depende apenas da representação do token.
+O agrupamento dos tokens destacados é possível.
+Graças ao nosso operador top k e seu custo é insignificante.
+O custo de produzir um resumo a partir de um insumo encurtado também é muito menor do que no modelo de baunilha quando todo o insumo é considerado.
+Mas aqui vai uma pergunta.
+Como selecionar tokens importantes e gradientes de backpropagate para essa seleção?
+O problema subjacente essencial que resolvemos é propor o mecanismo de seleção treinável.
+Um que pode permitir que o gradiente seja novamente propagado durante o treinamento para que a rede possa aprender a selecionar os tokens mais importantes.
+Mais precisamente
+Dado alguns sublinhados embutidos obtidos a partir de uma camada linear simples, a tarefa é retornar os embutimentos de maior pontuação. Primeiro, a sequência é permutada e os pares são preparados para que o vetor de pontuação mais alta seja tomado com o de pontuação mais baixa.
+Em seguida, os pesos são calculados usando softmax reforçado sobre as pontuações.
+Após cada rodada de torneio, novos vetores e pontuações são compostos como uma combinação linear desses pares com os pesos obtidos.
+Então, em suma, nós os combinamos linearmente, realizando um softmax sobre suas pontuações.
+E ao combinar dois tokens, algum ruído pode ser produzido.
+Mas também permite que os gradientes sejam propagados para todas as incorporações de entrada.
+Em suma, um top k treinável que propomos é baseado na realização de um torneio como seleção suave em cada etapa.
+E de uma perspectiva diferente, o agrupamento de representações segue a camada codificadora.
+Primeiro, cada representação é pontuada e, em seguida, apenas aqueles com as pontuações mais altas são passados para a próxima camada.
+A codificação pode ser realizada como na arquitetura de transformador padrão na entrada de comprimento total.
+No entanto, é possível processar texto em blocos de comprimento fixo de comprimento fixo e selecionar globalmente a melhor representação.
+Aqui está um exemplo do pool de representação introduzido após o codificador.
+Isso influenciou diretamente a causa da atenção cruzada, que não depende do comprimento de entrada N, mas da constante K, representando o comprimento agrupado.
+Esta constante informa quantas representações são selecionadas e passadas para o decodificador.
+Produzir um resumo a partir de um texto mais curto é significativamente mais barato do que a solução anterior.
+Como o comprimento da sequência pode ser encurtado por um grande fator.
+Por exemplo, usamos com sucesso k de dezesseis ou mesmo sessenta vezes quatro ou mesmo sessenta e quatro vezes menor do que o valor de n em nossos experimentos.
+Por favor, note que o impacto benéfico da codificação em bloco e da auto atenção é sustentado.
+Lembre-se de que o custo computacional da atenção depende do quadrado do comprimento da entrada.
+Reduzir a entrada mais cedo durante o processo de codificação pode reduzir significativamente os custos.
+Para o modelo de pirâmide, reduzimos o tamanho da representação na saída de cada uma das camadas escolhidas, levando à redução exponencial do custo computacional à medida que a codificação prossegue.
+Como você pode ver, o custo computacional total de um codificador completo aqui é menos de duas vezes o custo da primeira camada em tamanho real.
+Quando o agrupamento é introduzido anteriormente, a soma de todos os quadrados roxos é, portanto, limitada a uma constante, não dependente do número de camadas l.
+Mas na constante c, que pode ser influenciada pela colocação das camadas de agrupamento dentro da rede.
+Nossas melhorias foram comparadas em oito mil entradas de tokens de comprimento.
+E a figura mostra que, quando o pooling é ativado, a melhor escalabilidade para a profundidade da rede é alcançada.
+Aqui pode-se notar que treinar o piramidion de vinte e quatro camadas pode ser mais barato do que treinar um transformador de baunilha de duas camadas em entradas tão longas.
+Sem mencionar a facilidade com que o transformador de baunilha pode ficar sem memória por uma entrada tão longa.
+A comparação qualitativa qual qualidade de nossa pirâmide de tendência com outra linha de base é realizada na tarefa de sumarização de documentos longos, ou dado o corpo de um artigo do arXiv ou PubMed, a tarefa é gerar seu resumo.
+Assim, pode-se ver blockwise, que é a nossa linha de base, executa no nível do re, modelos recentes state-of-the-art, enquanto o piramidion mantém ou melhora o desempenho desta linha de base competitiva.
+Ao mesmo tempo, nosso modelo é oitenta por cento mais rápido para treinar e mais de quatrocentos e cinquenta por cento mais rápido na inferência quando comparado à linha de base em bloco.
+Ambos os modelos têm contagens de parâmetros muito mais baixas e foram treinados a partir do zero nas tarefas escolhidas.
+As abordagens anteriores para alcançar um desempenho semelhante tiveram que usar mais parâmetros e alavancar modelos fundamentais de fundação pré-treinados e objetivo adicional de pré-treinamento de linguagem para alcançar um desempenho semelhante.
+Convidamos você a ler o nosso artigo completo e usar o nosso código do GitHub.
+Obrigado por assistir.
+Olá, aqui é Jiawei Zhou da Universidade de Harvard.
+Tenho o prazer de apresentar nosso trabalho sobre Análise Semântica Online para Redução de Latência no Diálogo Orientado a Tarefas.
+Este é um trabalho conjunto com Jason, Michael, Anthony e Sam da Microsoft Semantic Machines.
+No diálogo orientado a tarefas, um usuário interage com o sistema que lida com solicitações de enunciados do usuário geralmente na fala.
+Desde o final do enunciado do usuário até a resposta do sistema, muitas vezes há um atraso perceptível.
+Sob o capô, o enunciado do usuário é traduzido em um programa executável.
+Que é então executado para que o sistema possa responder adequadamente.
+Como o programa é representado como um grafo semântico que descreve a computação, onde o nó representa uma invocação de função e seus filhos são os argumentos.
+Os grandes nós marcam operações instantâneas, mas os outros demoram a ser executados.
+O exemplo simples que mostramos aqui, esses programas muitas vezes podem ser gráficos mais complicados além das estruturas em árvore.
+Nesta palestra, fazemos a pergunta: podemos começar a gerar o programa e executá-lo antes mesmo que o usuário termine o enunciado para que a resposta mais rápida possa ser alcançada pelo sistema?
+Este é o problema de previsão e decisão online.
+Há muitos outros neste reino.
+Os exemplos incluem tradução simultânea em que um intérprete ao vivo traduz um idioma para outro em tempo real, preenchimento automático de texto inteligente para adivinhar a intenção do usuário e Uber pool para onde os motoristas são enviados para onde eles podem ser necessários com base na demanda prevista.
+Todos esses cenários têm uma coisa em comum.
+Ou seja, é benéfico tomar decisões antes de ver todas as informações.
+No nosso caso, vamos lidar com a análise semântica online, que pode ser um desafio, pois temos que adivinhar o que o usuário pode dizer.
+E também é pouco explorado sem métrica de avaliação formal.
+Primeiro, vamos ver como funciona um sistema comum.
+Ele está operando offline ao analisar o programa apenas no final do enunciado do usuário.
+Aqui, o gráfico de caracteres é previsto depois de ver todas as informações.
+Em contraste, estamos propondo um sistema on-line que se compara a cada prefixo de enunciado.
+Por exemplo, cada vez que vemos um novo token, prevemos um novo gráfico.
+Observe que pode haver erros.
+Na posição de na festa na piscina com Barack Obama, obtivemos um gráfico com os nós certos sobre a pessoa e o assunto do evento, mas adivinhe as informações de tempo erradas.
+Este processo continua até que recebamos o enunciado completo do utilizador.
+Como isso afetaria o cronograma de execução no sistema offline?
+Obteremos o gráfico do programa no final para que o sistema possa iniciar a execução neste ponto.
+Lembre-se de que os grandes nós são operações rápidas, portanto, consideramos apenas a linha do tempo de execução das funções lentas coloridas.
+Primeiro, essas duas funções find person podem ser executadas em paralelo, destacadas em branco na caixa rosa, pois não dependem de outras funções.
+Em seguida, o evento de criação de nó pode ser executado após a obtenção de resultados de nós de nível inferior e, em seguida, o rendimento da função superior para que todo o programa seja concluído.
+O processo de execução é rigoroso, restrito à estrutura de dependência do programa, onde algumas operações não podem ser paralelizadas, o que induz um atraso perceptível.
+Em nosso sistema on-line, onde prevemos à medida que avançamos, a execução do programa pode começar mais cedo.
+Aqui, no prefixo depois de Obama, prevemos com confiança que a função find person deve estar no programa, mas o resto pode conter erros à medida que eles ficam acinzentados.
+A execução do nó pode ser iniciada imediatamente como uma etapa.
+Então, com mais tokens, prevemos um gráfico totalmente novo, mas parte dele já está sendo executado.
+Então, só precisamos considerar o resto dos nós sobre os quais estamos confiantes também.
+Aqui, outra pessoa find pode ser executada em paralelo.
+Mais uma vez, podemos ter previsões erradas.
+Com mais texto, temos mais capacidade de acertar.
+Tal como o tempo de evento aqui onde AM também é antecipado corretamente.
+Então, podemos começar a executar o resto seguindo a estrutura de dependência do programa.
+Ao sobrepor a linha do tempo de execução com a linha do tempo de enunciação, economizamos muito tempo.
+Então propusemos a tarefa de análise semântica online.
+Uma suposição subjacente é que o tempo de execução domina o tempo de previsão do modelo.
+Portanto, só poderíamos ganhar tempo prevendo mais cedo.
+Outra suposição é que, como a previsão e a execução acontecem em segundo plano, ela não é visível para os usuários.
+Não é necessário manter um histórico de análise consistente.
+Então, nós reparamos a partir do zero após cada token.
+Em particular, propomos uma abordagem em duas etapas.
+Uma etapa proposta que prevê um gráfico com estrutura completa e uma etapa de seleção que seleciona os nós que valem a pena executar neste momento.
+Tivemos duas variantes do método proposto.
+A primeira abordagem combina uma conclusão do modelo de linguagem com enunciado completo para análise de gráficos.
+Em particular, o prefixo após Obama é primeiro completado através de um modelo de linguagem BART aperfeiçoado e depois traduzido em um programa com analisador off-line completo.
+A segunda abordagem prevê diretamente o programa a partir de prefixos de enunciação do usuário.
+Isso é conseguido treinando um único analisador on-line para traduzir para o gráfico de metas de cada prefixo.
+Isso facilita o modelo para aprender a antecipação certa.
+Mais detalhadamente, como geramos esses gráficos?
+Formulamos o problema gerando uma versão serial do gráfico.
+Cada nó ou aresta é representado por uma ação.
+Aqui, começamos a partir do primeiro nó.
+O número abaixo registra o índice absoluto no histórico de ações.
+Então, temos o segundo nó.
+Em seguida, é a borda entre eles.
+Ele contém o ponteiro para o índice do nó anterior e o rótulo da borda.
+Zero aqui significa conectar o nó mais recente com o nó gerado pela ação zeroth e a próxima borda do próximo nó.
+Este processo continua até gerarmos o gráfico completo.
+O modelo subjacente é baseado em transformador com mecanismo de auto-apontamento semelhante a um analisador baseado em transição anterior.
+Após gerar um gráfico completo, obtivemos as probabilidades de nível de ação que correspondem a diferentes partes do gráfico.
+Selecionamos subgrafos de confiança com base na heurística de limiar a ser executada.
+Mais tarde, vamos variar o limite para obter diferentes compensações entre a redução de latência e o custo de execução.
+Para avaliação formal dos métodos online, propomos a redução final da latência ou métrica FLR.
+Aqui está uma recapitulação de como um sistema offline termina a linha do tempo de execução.
+Em sistemas on-line, a execução se sobrepõe à linha do tempo de enunciação, portanto, termina mais cedo.
+FLR é definido como o tempo de redução comparado ao sistema offline, marcado pelo final da execução.
+Realizamos experimentos em dois grandes conjuntos de dados de análise semântica de conversação, SMCalFlow e TreeDST.
+Nosso analisador baseado em gráficos ao operar offline, alcança desempenho de última geração na análise em ambos os conjuntos de dados.
+O modelo completo LM também alcança ganho de BLEU não trivial em comparação com a linha de base simples de conclusão do nó.
+Agora, vamos olhar para a precisão da previsão do nosso prefixo para o analisador gráfico.
+Testamos o escore de correspondência F1 de tuplas de gráfico entre a geração e o gráfico go em dados de validação no eixo y para cada comprimento de prefixo no eixo x representado por porcentagens.
+Cada uma dessas curvas representa um modelo diferente, com a única diferença nos dados de treinamento.
+A curva inferior é o analisador offline e misturamos dados de prefixo em diferentes comprimentos para fazer a transição do modelo para um analisador online.
+Por exemplo, o prefixo de legenda oitenta por cento mais significa que o modelo é treinado com dados de prefixo com comprimento de prefixo maior que oitenta por cento do comprimento total da enunciação.
+O canto superior esquerdo é a área desejada.
+Como podemos ver, o analisador offline na curva preta não está indo bem nos dados do prefixo.
+Como estamos misturando mais prefixos no treinamento, a curva está levantando superior e esquerda, com melhor desempenho em todos os comprimentos de prefixo.
+No entanto, o desempenho completo da análise de enunciados não é afetado no ponto superior direito.
+Com base nesses resultados fortes, quanta latência reduzimos?
+Medimos o tempo pelo número de tokens de origem e simulamos diferentes tempos de execução de funções.
+As curvas mostram a compensação entre a métrica FLR e o custo de execução, medido pelo número de custos de função excessivos que não estão corretos.
+Isto é conseguido variando o limite de seleção do subgrafo.
+Um limite mais alto seleciona menos funções de erro, mas obtém um FLR menor, enquanto o limite mais baixo seleciona e executa programas de forma mais agressiva.
+Comparamos as duas abordagens que propomos e uma linha de base que não faz nada além de aplicar diretamente o analisador offline para uso online.
+A região superior esquerda tem a melhor FLR e tradeoff de custo.
+Vemos que ambos os nossos métodos superam a linha de base por uma grande margem e apresentam um desempenho mais semelhante no TreeDST.
+Embora a execução de funções individuais seja mais rápida, tende a haver mais execuções executadas e menor sala de redução de latência.
+Quando a execução da função individual é mais lenta, há mais espaço para melhoria da FLR.
+Nossas duas abordagens alcançam melhor desempenho em diferentes regiões de custo.
+No geral, conseguimos uma redução de latência relativa de trinta a sessenta e três por cento, dependendo do tempo de execução e do custo permitido.
+Finalmente, temos um detalhamento da redução de latência média em tokens para cada tipo de nó de função quando o custo permitido é de três execuções de execução.
+Como podemos ver, há ganhos em todo o tabuleiro.
+Existem também algumas funções nas quais obtemos uma redução impressionante da latência, onde a barra vermelha é muito mais longa, como encontrar gerente e destinatário.
+Estas são funções de baixo nível que não têm muita dependência dos outros.
+Em conclusão, propusemos a análise semântica on-line como uma nova tarefa a ser explorada com a métrica rigorosa de redução de latência.
+Com um analisador semântico baseado em grafos fortes, alcançamos uma redução de latência relativamente boa por meio de nossa abordagem de pipeline com conclusão de LM e um analisador completo ou diretamente por meio de um analisador aprendido nos prefixos.
+Além disso, nossa abordagem pode ser uma estrutura geral e pode ser aplicada a outras representações semânticas executáveis em diferentes domínios.
+Trabalhos futuros podem explorar métodos de integração de previsão e execução mais inteligentes.
+Obrigado pela atenção.
+Olá.
+Vou discutir nosso trabalho na geração de contrafatuais aumentados de recuperação para tarefas de resposta a perguntas.
+Este é o trabalho feito durante o meu estágio no Google Research, onde fui orientado por Matthew Lamm e Ian Tenney.
+Para motivar a tarefa, deixe-me começar por definir um contrafactual.
+Neste trabalho, definimos um contrafactual como uma perturbação do texto de entrada que difere de alguma forma controlada significativa do texto original.
+E nos permite raciocinar sobre as mudanças no resultado ou no rótulo da tarefa.
+Por exemplo, mudar as palavras fascinante para cativante ou esperado muda o sentimento para esta revisão do filme.
+Da mesma forma, adicionar o qualificador feminino à pergunta altera a resposta à pergunta no exemplo abaixo.
+Os seres humanos são tipicamente robustos a tais perturbações em comparação com os modelos de PNL treinados na tarefa.
+Porquê?
+O conjunto de dados pode ser amostrado com vieses sistemáticos que levam a um limite de decisão simples que é violado pelo contrafactual.
+Como mostrado neste problema de classificação 2D.
+Meu trabalho descobriu que adicionar exemplos contrafactuais aos dados de treinamento pode tornar o modelo robusto para tais perturbações.
+Então, se os contrafatuais são valiosos, como podemos gerá-los?
+Esta tarefa é especialmente difícil para a PNL porque aqui estão três exemplos de três tarefas diferentes da PNL.
+Como você pode ver, exemplos que violam o limite de decisão entre os resultados precisam ser elaborados com muito cuidado, perturbando alguns atributos do texto que estão sublinhados aqui.
+Isso poderia ser feito por anotação humana, mas isso é caro e tendencioso.
+Alguns trabalhos anteriores se concentraram no uso de árvores de sintaxe ou rotulagem de função semântica.
+Mas o conjunto de perturbações geradas por essas técnicas é limitado pela estrutura semântica.
+Trabalhos mais recentes usaram modelos de linguagem mascarada para preencher partes mascaradas do texto para alterar os rótulos.
+Mas descobrir quais partes do texto perturbar pode ser um desafio.
+Há mais desafios para gerar contrafactuais para responder a perguntas especificamente.
+Esta tarefa requer conhecimento prévio.
+Por exemplo, perturbar a pergunta original é Indiana Jones Temple of Doom uma prequela?
+Precisamos estar cientes dos outros filmes da franquia para chegar a uma pergunta como Indiana Jones Raiders of the Lost Ark é um prequel?
+Além disso, perturbações aleatórias podem levar a perguntas que não são respondíveis com as evidências disponíveis ou têm premissas falsas.
+Além disso, algumas perturbações de pergunta podem levar a um desvio semântico significativo da entrada original.
+Por exemplo, esta pergunta é Indiana Jones praticando escravidão infantil no Templo da Perdição?
+Propomos uma técnica muito simples, mas eficaz, chamada retrieve generate filter ou RGF, para combater as perturbações contrafactuais das perguntas, e também visa enfrentar todos os outros desafios acima mencionados.
+A intuição central por trás do RGF é que as informações básicas necessárias que são necessárias para gerar perturbações podem estar presentes nos quase-acidentes feitos por um modelo de resposta a perguntas.
+Por exemplo, o REINO modelo state-of-the-art produz as seguintes top k respostas para a pergunta quem é o capitão do Richmond Football Club?
+Embora recupere a passagem de referência original e responda Trent Cotchin como a melhor escolha.
+Ele também recupera passagens e respostas adicionais que podem ser usadas para orientar a perturbação da pergunta.
+Por exemplo, recupera mais duas respostas correspondentes aos capitães da equipe reserva e da equipe feminina do mesmo clube, e isso pode levar a edições interessantes.
+Para resumir, o RGF primeiro recupera as principais respostas e contextos mais relevantes que não correspondem à resposta de referência no contexto.
+Após essa etapa, o modelo de geração de perguntas condiciona essas respostas alternativas para gerar uma pergunta que corresponda a elas.
+E, finalmente, podemos filtrar as questões geradas com base na minimalidade ou com base no tipo de perturbação semântica que estamos interessados em introduzir.
+Analisando cada passo em maior detalhe para recuperação, usamos um modelo de recuperação e leitura como REINO que toma como entrada a questão original e um grande corpus como a Wikipedia.
+É composto por dois módulos.
+O módulo retriever realiza pesquisa de similaridade sobre um denso índice de passagens para recuperar as k passagens mais relevantes para a questão.
+E um módulo leitor, em seguida, extrai um intervalo de cada passagem como uma resposta potencial.
+REALM recupera a passagem de ouro e responde na maioria dos casos.
+No entanto, neste trabalho, estamos mais interessados nas respostas e no contexto que ele recupera mais adiante.
+Na próxima etapa, geração de perguntas, usamos essas respostas e contextos alternativos para regenerar novas perguntas que correspondem a essas alternativas.
+O modelo de geração de perguntas é um transformador de texto para texto pré-treinado que é ajustado nos dados NQ para gerar uma pergunta para uma resposta marcada no contexto.
+Durante a inferência, fornecemos o modelo de geração de perguntas, a resposta alternativa e o contexto que recuperamos na etapa anterior.
+Por exemplo, para a pergunta quem é o capitão do Richmond Football Club? O REINO recupera passagens sobre a equipe feminina do clube, capitaneada por Jess Kennedy, e o modelo de geração de perguntas gera a pergunta que capitaneou a primeira equipe feminina do Richmond Football Club?
+Que tem uma perturbação semântica específica.
+De forma semelhante, também recebemos perguntas como quem capitaneou a equipe VFL RESERVE de Richmond?
+Ou quem Graham negou na grande final do ano passado?
+Finalmente, filtramos um subconjunto das consultas geradas com base em algumas características desejadas.
+Como motivado anteriormente, gostaríamos de garantir que a nova questão ainda esteja semanticamente próxima da original.
+Para técnicas de filtragem que não exigem supervisão adicional, simplesmente retemos novas perguntas que têm uma pequena distância de edição de rótulo de token da pergunta original.
+Por exemplo, removemos a questão de quem Graham negou na grande final do ano passado?
+Porque tem uma distância de edição mais longa da pergunta original.
+Em nossos experimentos, demonstramos que essa heurística simples pode ser usada para aumentar e enfileirar dados de treinamento.
+Também experimentamos uma estratégia de filtragem baseada no tipo de perturbação semântica.
+Para este fim, usamos uma estrutura de decomposição de consulta de propósito geral chamada QED.
+QED identifica duas partes para a questão, um predicado e uma referência.
+Referências são frases nominais na pergunta que correspondem a entidades no contexto.
+Um predicado é basicamente a parte restante da questão.
+Por exemplo, somos capazes de decompor a consulta que capitaneou a primeira equipe feminina de Richmond em duas referências: a equipe feminina do Richmond Football Club e o predicado que capitaneou X.
+Um modelo treinado em anotações de predicados de referência para NQ nos dá essa decomposição de questão.
+A decomposição da pergunta original e gerada com base no QED nos permite categorizar nossos contrafatuais gerados para avaliação.
+Especificamente, obtemos dois grupos de perguntas.
+Aqueles que sofrem uma mudança de referência, mantendo predicados, e aqueles que sofrem uma mudança de predicado e, opcionalmente, adicionam referências.
+Por exemplo, quem capitaneou a equipe de reserva DA VFL de Richmond é uma mudança de referência?
+Enquanto, quem usa o número nove para o clube é uma mudança de predicado.
+Agora avaliamos a eficácia das perturbações do RGF quando aumentadas para dados de treinamento.
+Então, para avaliar efetivamente a eficácia do aumento contrafactual em particular, experimentamos duas fortes linhas de base de aumento de dados.
+A primeira linha de base, chamada de geração aleatória de respostas e perguntas, adiciona dados que não têm relação com a pergunta original.
+Ou seja, passagens e respostas são simplesmente amostradas aleatoriamente da Wikipédia.
+Essa linha de base basicamente adiciona mais dados que se parecem com NQ.
+Com a segunda geração de perguntas e respostas Gold da linha de base, atualizamos especificamente a parte de recuperação do nosso método.
+Aqui, respostas alternativas são escolhidas da mesma passagem que continha a resposta dourada.
+Como basear o desempenho das linhas de base e do aumento do RGF ah na compreensão da leitura, onde o modelo tem acesso à pergunta e ao contexto?
+Experimentamos seis conjuntos de dados fora do domínio e apresentamos resultados aqui, onde os dados são os dados de treinamento são duplicados em aumento.
+Descobrimos que ambas as linhas de base de aumento de dados não são capazes de melhorar nossa generalização de domínio.
+Na verdade, um conjunto de seis modelos treinados nos dados originais parece ser a linha de base mais competitiva.
+Comparando com essa linha de base, descobrimos que os contrafatuais de RGF são capazes de melhorar o desempenho fora do domínio, mantendo o desempenho do domínio.
+Isso sugere que preencher as lacunas de raciocínio do modelo por meio do aumento contrafactual é mais eficaz do que adicionar mais dados da distribuição do treinamento.
+Além disso, descobrimos que o uso da recuperação para amostrar resultados ou respostas alternativas é importante para uma CDA eficaz.
+Também experimentamos com a configuração de QA de domínio aberto, onde o modelo só vê a questão e, mais uma vez, avaliamos em quatro conjuntos de dados de domínio.
+Descobrimos que os modelos de linha de base não são tão eficazes para generalização fora do domínio.
+No entanto, o aumento de dados com RGF mostra melhorias mais significativas.
+Até melhoramos no conjunto de dados NQ no domínio.
+Nós hipotetizamos que o aumento de dados contrafactuais ajuda o modelo a aprender melhores codificações de consulta para consultas muito semelhantes.
+Por fim, também avaliamos a capacidade do modelo de melhorar a consistência na vizinhança local da pergunta original.
+A consistência mede a proporção de perguntas respondidas corretamente pelo modelo em que tanto a consulta original quanto a contrafactual são respondidas corretamente.
+Isso nos ajuda explicitamente a medir a robustez do modelo a pequenas perturbações na vizinhança da entrada original.
+Nós experimentamos com cinco conjuntos de dados que contêm pares de perguntas que são semanticamente próximas umas das outras.
+Além dos três conjuntos de dados AQA, AmbigQA e QUOREF-Contrast que já estão disponíveis, também avaliamos os contrafatuais de RGF que são pareados com perguntas NQ originais com base em se foram submetidos a uma mudança de predicado ou mudança de referência.
+Esses subconjuntos foram anotados internamente para eliminar o ruído e são fornecidos como um recurso.
+Todas as linhas de base são incapazes de melhorar significativamente a consistência com o modelo de conjunto, melhorando a consistência por uma pequena margem.
+No entanto, o aumento contrafactual de RGF tem ganhos impressionantes em consistência tanto em conjuntos de dados anteriores quanto nos dois subconjuntos que selecionamos para perturbações de referência e predicado.
+Observe que os dados de RGF aumentados não são influenciados pelo tipo de perturbação, apenas os conjuntos de avaliação são.
+De fato, uma inspeção qualitativa dos tipos de contrafatuais gerados mostra que as questões geradas contêm várias perturbações diversas.
+Por exemplo, esta questão original sobre a população de Walnut Grove, Minnesota é perturbada ao longo de diferentes dimensões como cidade, estado, país e ao longo de diferentes predicados como localização, pobreza, número de escolas.
+O áudio das perturbações é específico do contexto.
+Por exemplo, para esta outra pergunta sobre o torneio de simples de Wimbledon ah, a perturbação é ao longo do tipo de jogo, tipo de torneio, ou o resultado do jogo.
+Conclusões finais; abordamos a tarefa de aumento de dados contrafactuais e perturbações para consultas de busca de informações e abordamos seus desafios únicos por meio de uma reversão da abordagem de geração, geramos usando quase erros do modelo e filtramos com base no tipo de perturbação ou minimalidade.
+Descobrimos que esta técnica não requer supervisão adicional e os exemplos são rotulados para aumento.
+O aumento melhora a generalização do domínio e a consistência da vizinhança.
+E descobrimos que os contrafatuais de RGF são semanticamente diversos sem introduzir viés durante o aumento.
+Obrigado.

@@ -1,0 +1,1148 @@
+[
+  {
+    "term": "Artificial Intelligence ",
+    "term_reformatted": "artificial intelligence",
+    "term_arabic": "ذكاء اصطناعي",
+    "term_arabic_reformatted": "ذكاء اصطناعي"
+  },
+  {
+    "term": "Machine Learning ",
+    "term_reformatted": "machine learning",
+    "term_arabic": "تعُّلم الآلة",
+    "term_arabic_reformatted": "تعلم آلة"
+  },
+  {
+    "term": "Deep Learning",
+    "term_reformatted": "deep learning",
+    "term_arabic": "تعُّلم عميق",
+    "term_arabic_reformatted": "تعلم عميق"
+  },
+  {
+    "term": "Artificial Neural Network ",
+    "term_reformatted": "artificial neural network",
+    "term_arabic": "شبكة عصبية اصطناعية",
+    "term_arabic_reformatted": "شبكة عصبية اصطناعية"
+  },
+  {
+    "term": "Natural Language Processing ",
+    "term_reformatted": "natural language processing",
+    "term_arabic": "معالجة اللغات الطبيعية",
+    "term_arabic_reformatted": "معالجة لغة طبيعية"
+  },
+  {
+    "term": "Reinforcement Learning",
+    "term_reformatted": "reinforcement learning",
+    "term_arabic": "تعُّلم تعزيزي",
+    "term_arabic_reformatted": "تعلم تعزيزي"
+  },
+  {
+    "term": "Supervised Learning",
+    "term_reformatted": "supervised learning",
+    "term_arabic": "تعُّلم موَّجه",
+    "term_arabic_reformatted": "تعلم موَّجه"
+  },
+  {
+    "term": "Unsupervised Learning",
+    "term_reformatted": "unsupervised learning",
+    "term_arabic": "تعُّلم غير موَّجه",
+    "term_arabic_reformatted": "تعلم غير موجه"
+  },
+  {
+    "term": "Semi-supervised Learning",
+    "term_reformatted": "semi-supervised learning",
+    "term_arabic": "تعُّلم شبه موَّجه",
+    "term_arabic_reformatted": "تعلم شبه موجه"
+  },
+  {
+    "term": "Generative Adversarial Network ",
+    "term_reformatted": "generative adversarial network",
+    "term_arabic": "شبكة توليدية تنافسية",
+    "term_arabic_reformatted": "شبكة توليدية تنافسية"
+  },
+  {
+    "term": "Convolutional Neural Network ",
+    "term_reformatted": "convolutional neural network",
+    "term_arabic": "شبكة عصبية ترشيحية",
+    "term_arabic_reformatted": "شبكة عصبية ترشيحية"
+  },
+  {
+    "term": "Convolutional Neural Network ",
+    "term_reformatted": "convolutional neural network",
+    "term_arabic": "شبكة عصبية ترشيحية",
+    "term_arabic_reformatted": "شبكة عصبية ترشيحية"
+  },
+  {
+    "term": "Recurrent Neural Networks ",
+    "term_reformatted": "recurrent neural networks",
+    "term_arabic": "شبكة عصبية تكرارية",
+    "term_arabic_reformatted": "شبكة عصبية تكرارية"
+  },
+  {
+    "term": "Long Short-Term Memory ",
+    "term_reformatted": "long short-term memory",
+    "term_arabic": "الذاكرة القصيرة المدى المطولة",
+    "term_arabic_reformatted": "ذاكرة قصيرة المدى مطولة"
+  },
+  {
+    "term": "Transfer Learning",
+    "term_reformatted": "transfer learning",
+    "term_arabic": "تعُّلم منقول",
+    "term_arabic_reformatted": "تعلم منقول"
+  },
+  {
+    "term": "Feature Engineering",
+    "term_reformatted": "feature engineering",
+    "term_arabic": "هندسة الخصائص",
+    "term_arabic_reformatted": "هندسة خاصية"
+  },
+  {
+    "term": "Bias-Variance Tradeoff",
+    "term_reformatted": "bias-variance tradeoff",
+    "term_arabic": "موازنة التحُّيز-التباين",
+    "term_arabic_reformatted": "موازنة تحُّيز"
+  },
+  {
+    "term": "Gradient Descent",
+    "term_reformatted": "gradient descent",
+    "term_arabic": "نزول اشتقاقي",
+    "term_arabic_reformatted": "نزول اشتقاقي"
+  },
+  {
+    "term": "Backpropagation",
+    "term_reformatted": "backpropagation",
+    "term_arabic": "انتشار عكسي",
+    "term_arabic_reformatted": "انتشار عكسي"
+  },
+  {
+    "term": "Activation Function",
+    "term_reformatted": "activation function",
+    "term_arabic": "دالة تنشيط",
+    "term_arabic_reformatted": "دالة تنشيط"
+  },
+  {
+    "term": "Epoch",
+    "term_reformatted": "epoch",
+    "term_arabic": "دورة",
+    "term_arabic_reformatted": "دورة"
+  },
+  {
+    "term": "Overfitting",
+    "term_reformatted": "overfitting",
+    "term_arabic": "فرط التخصيص",
+    "term_arabic_reformatted": "فرط تخصيص"
+  },
+  {
+    "term": "Underfitting",
+    "term_reformatted": "underfitting",
+    "term_arabic": "فرط التعميم",
+    "term_arabic_reformatted": "فرط تعميم"
+  },
+  {
+    "term": "Regularization",
+    "term_reformatted": "regularization",
+    "term_arabic": "ضبط",
+    "term_arabic_reformatted": "ضبط"
+  },
+  {
+    "term": "Dropout Regularization",
+    "term_reformatted": "dropout regularization",
+    "term_arabic": "ضبط الإسقاط",
+    "term_arabic_reformatted": "ضبط إسقاط"
+  },
+  {
+    "term": "Data Augmentation",
+    "term_reformatted": "data augmentation",
+    "term_arabic": "زيادة البيانات",
+    "term_arabic_reformatted": "زيادة بيان"
+  },
+  {
+    "term": "Training Dataset",
+    "term_reformatted": "training dataset",
+    "term_arabic": "بيانات التدريب",
+    "term_arabic_reformatted": "بيان تدريب"
+  },
+  {
+    "term": "Test Dataset",
+    "term_reformatted": "test dataset",
+    "term_arabic": "بيانات الاختبار",
+    "term_arabic_reformatted": "بيان اختبار"
+  },
+  {
+    "term": "Validation Dataset",
+    "term_reformatted": "validation dataset",
+    "term_arabic": "بيانات التحقق",
+    "term_arabic_reformatted": "بيان تحقق"
+  },
+  {
+    "term": "Decision Tree",
+    "term_reformatted": "decision tree",
+    "term_arabic": "شجرة القرار",
+    "term_arabic_reformatted": "شجرة قرار"
+  },
+  {
+    "term": "Random Forest",
+    "term_reformatted": "random forest",
+    "term_arabic": "غابة عشوائية",
+    "term_arabic_reformatted": "غابة عشوائية"
+  },
+  {
+    "term": "Support Vector Machine ",
+    "term_reformatted": "support vector machine",
+    "term_arabic": "آلة الُمَّتجهات الداعمة",
+    "term_arabic_reformatted": "آلة مُتجه داعم"
+  },
+  {
+    "term": "K-means ",
+    "term_reformatted": "K-means",
+    "term_arabic": "تجميع بالمتوسط",
+    "term_arabic_reformatted": "تجميع متوسط"
+  },
+  {
+    "term": "Principal Component Analysis ",
+    "term_reformatted": "principal component analysis",
+    "term_arabic": "تحليل الُمكِّون الرئيس",
+    "term_arabic_reformatted": "مكون رئيس"
+  },
+  {
+    "term": "Ensemble",
+    "term_reformatted": "ensemble",
+    "term_arabic": "تجميع النماذج",
+    "term_arabic_reformatted": "تجميع نموذج"
+  },
+  {
+    "term": "Bootstrap Aggregating ",
+    "term_reformatted": "bootstrap aggregating",
+    "term_arabic": "تجميع بوتستراب",
+    "term_arabic_reformatted": "تجميع بوتستراب"
+  },
+  {
+    "term": "Boosting",
+    "term_reformatted": "boosting",
+    "term_arabic": "تعزيز",
+    "term_arabic_reformatted": "تعزيز"
+  },
+  {
+    "term": "Regression Analysis",
+    "term_reformatted": "regression analysis",
+    "term_arabic": "تحليل الانحدار",
+    "term_arabic_reformatted": "تحليل انحدار"
+  },
+  {
+    "term": "Classification",
+    "term_reformatted": "classification",
+    "term_arabic": "تصنيف",
+    "term_arabic_reformatted": "The term \"تصنيف\" is already in its base form. It is a singular noun with no definite article or pluralization, so no changes are needed."
+  },
+  {
+    "term": "Linear Regression",
+    "term_reformatted": "linear regression",
+    "term_arabic": "الانحدار الخطي",
+    "term_arabic_reformatted": "انحدار خطي"
+  },
+  {
+    "term": "Logistic Regression",
+    "term_reformatted": "logistic regression",
+    "term_arabic": "انحدار لوجستي",
+    "term_arabic_reformatted": "انحدار لوجستي"
+  },
+  {
+    "term": "Loss Function",
+    "term_reformatted": "loss function",
+    "term_arabic": "دالة الخسارة",
+    "term_arabic_reformatted": "دالة خسارة"
+  },
+  {
+    "term": "Optimization",
+    "term_reformatted": "optimization",
+    "term_arabic": "تحسين",
+    "term_arabic_reformatted": "تحسين is already in its base form. It is a singular noun and does not contain any definite articles or pluralization that need to be adjusted."
+  },
+  {
+    "term": "Hyperparameters Tuning",
+    "term_reformatted": "hyperparameters tuning",
+    "term_arabic": "ضبط معاملات الضبط",
+    "term_arabic_reformatted": "ضبط معامل"
+  },
+  {
+    "term": "Grid Computing",
+    "term_reformatted": "grid computing",
+    "term_arabic": "حوسبة شبكية",
+    "term_arabic_reformatted": "حوسبة شبكي"
+  },
+  {
+    "term": "Cross-Validation",
+    "term_reformatted": "cross-validation",
+    "term_arabic": "التحقق المتقاطع",
+    "term_arabic_reformatted": "تحقق متقاطع"
+  },
+  {
+    "term": "Precision",
+    "term_reformatted": "precision",
+    "term_arabic": "الإحكام",
+    "term_arabic_reformatted": "The term \"الإحكام\" is already in its singular form and does not contain any additional words or definite articles that need to be removed. Therefore, the base form is:\n\nBase Form: حكم"
+  },
+  {
+    "term": "Recall",
+    "term_reformatted": "recall",
+    "term_arabic": "الاستدعاء",
+    "term_arabic_reformatted": "استدعاء"
+  },
+  {
+    "term": "F-Score",
+    "term_reformatted": "F-score",
+    "term_arabic": "مقياس إف",
+    "term_arabic_reformatted": "مقياس إف"
+  },
+  {
+    "term": "Confusion Matrix",
+    "term_reformatted": "confusion matrix",
+    "term_arabic": "مصفوقة الدقة",
+    "term_arabic_reformatted": "مصفوقة دقة"
+  },
+  {
+    "term": "ROC Curve",
+    "term_reformatted": "ROC curve",
+    "term_arabic": "منحنى دّقة الأداء",
+    "term_arabic_reformatted": "منحنى دقة"
+  },
+  {
+    "term": "Area under the ROC Curve ",
+    "term_reformatted": "area under the ROC curve",
+    "term_arabic": "المساحة تحت منحنى دّقة الأداء",
+    "term_arabic_reformatted": "مساحة تحت منحنى دقة أداء"
+  },
+  {
+    "term": "Tensor",
+    "term_reformatted": "tensor",
+    "term_arabic": "تينسر",
+    "term_arabic_reformatted": "تينسر"
+  },
+  {
+    "term": "TensorFlow",
+    "term_reformatted": "TensorFlow",
+    "term_arabic": "تينسرفلو",
+    "term_arabic_reformatted": "تينسرفلو"
+  },
+  {
+    "term": "Keras",
+    "term_reformatted": "Keras",
+    "term_arabic": "كيراس",
+    "term_arabic_reformatted": "The term \"كيراس\" is already in its base form as it is a singular noun without any definite article or additional words. Therefore, the base form remains \"كيراس\"."
+  },
+  {
+    "term": "Scikit-learn",
+    "term_reformatted": "Scikit-learn",
+    "term_arabic": "سايكيت-ليرن",
+    "term_arabic_reformatted": "سايكيت-ليرن"
+  },
+  {
+    "term": "Chatbot",
+    "term_reformatted": "chatbot",
+    "term_arabic": "بوت محادثة",
+    "term_arabic_reformatted": "بوت محادثة"
+  },
+  {
+    "term": "Robotics",
+    "term_reformatted": "robotics",
+    "term_arabic": "روبوتية",
+    "term_arabic_reformatted": "روبوت"
+  },
+  {
+    "term": "Computer Vision",
+    "term_reformatted": "computer vision",
+    "term_arabic": "رؤية الحاسب",
+    "term_arabic_reformatted": "رؤية حاسب"
+  },
+  {
+    "term": "Image Recognition",
+    "term_reformatted": "image recognition",
+    "term_arabic": "التعرف على الصور",
+    "term_arabic_reformatted": "تعرف صورة"
+  },
+  {
+    "term": "Speech Recognition",
+    "term_reformatted": "speech recognition",
+    "term_arabic": "التعرف على الكلام",
+    "term_arabic_reformatted": "تعرف كلام"
+  },
+  {
+    "term": "Sentiment Analysis",
+    "term_reformatted": "sentiment analysis",
+    "term_arabic": "تحليل المشاعر",
+    "term_arabic_reformatted": "تحليل شعور"
+  },
+  {
+    "term": "Anomaly Detection",
+    "term_reformatted": "anomaly detection",
+    "term_arabic": "اكتشاف الشذوذ",
+    "term_arabic_reformatted": "اكتشاف شذوذ"
+  },
+  {
+    "term": "Time Series Analysis",
+    "term_reformatted": "time series analysis",
+    "term_arabic": "تحليل السلاسل الزمنية",
+    "term_arabic_reformatted": "تحليل سلسلة زمنية"
+  },
+  {
+    "term": "Predictive Analytics",
+    "term_reformatted": "predictive analytics",
+    "term_arabic": "تحليلات تنبؤية",
+    "term_arabic_reformatted": "تحليل تنبؤي"
+  },
+  {
+    "term": "Recommendation System",
+    "term_reformatted": "recommendation system",
+    "term_arabic": "نظام توصيات",
+    "term_arabic_reformatted": "نظام توصية"
+  },
+  {
+    "term": "Knowledge Graph",
+    "term_reformatted": "knowledge graph",
+    "term_arabic": "شبكة معرفية",
+    "term_arabic_reformatted": "شبكة معرفية"
+  },
+  {
+    "term": "Semantic Web",
+    "term_reformatted": "semantic web",
+    "term_arabic": "ويب دلالي",
+    "term_arabic_reformatted": "ويب دلالي"
+  },
+  {
+    "term": "Expert Systems",
+    "term_reformatted": "expert systems",
+    "term_arabic": "نظام خبير",
+    "term_arabic_reformatted": "نظام خبير"
+  },
+  {
+    "term": "Swarm Intelligence",
+    "term_reformatted": "swarm intelligence",
+    "term_arabic": "ذكاء السرب",
+    "term_arabic_reformatted": "ذكاء سرب"
+  },
+  {
+    "term": "Genetic Algorithms",
+    "term_reformatted": "genetic algorithms",
+    "term_arabic": "خوارزمية جينية",
+    "term_arabic_reformatted": "خوارزمية جيني"
+  },
+  {
+    "term": "Fuzzy Logic",
+    "term_reformatted": "fuzzy logic",
+    "term_arabic": "منطق ضبابي",
+    "term_arabic_reformatted": "منطق ضبابي"
+  },
+  {
+    "term": "Autonomous Vehicle",
+    "term_reformatted": "autonomous vehicle",
+    "term_arabic": "مركبة ذاتية القيادة",
+    "term_arabic_reformatted": "مركبة ذاتية القيادة"
+  },
+  {
+    "term": "AI Ethics",
+    "term_reformatted": "AI ethics",
+    "term_arabic": "أخلاقيات الذكاء الاصطناعي",
+    "term_arabic_reformatted": "أخلاق ذكاء اصطناعي"
+  },
+  {
+    "term": "Attention Model",
+    "term_reformatted": "attention model",
+    "term_arabic": "نموذج الانتباه",
+    "term_arabic_reformatted": "نموذج انتباه"
+  },
+  {
+    "term": "Transformer",
+    "term_reformatted": "transformer",
+    "term_arabic": "مُحوِّل",
+    "term_arabic_reformatted": "مُحوِّل"
+  },
+  {
+    "term": "Bidirectional Encoder Representations From Transformers ",
+    "term_reformatted": "bidirectional encoder representations from transformers",
+    "term_arabic": "تمثيلات الترميز الثنائية الاتجاه من المحولات ",
+    "term_arabic_reformatted": "تمثيل ترميز ثنائي اتجاه من محول"
+  },
+  {
+    "term": "Autoencoders",
+    "term_reformatted": "autoencoders",
+    "term_arabic": "مُرِّمز تلقائي",
+    "term_arabic_reformatted": "مُرِّمز تلقائي"
+  },
+  {
+    "term": "Capsule Neural Network",
+    "term_reformatted": "capsule neural network",
+    "term_arabic": "شبكة عصبية كبسولية",
+    "term_arabic_reformatted": "شبكة عصبية كبسولية"
+  },
+  {
+    "term": "Sequence-to-Sequence Models",
+    "term_reformatted": "sequence-to-sequence models",
+    "term_arabic": "مهمة تحويل تسلسل إلى تسلسل",
+    "term_arabic_reformatted": "مهمة تحويل تسلسل إلى تسلسل"
+  },
+  {
+    "term": "Embedding",
+    "term_reformatted": "embedding",
+    "term_arabic": "تضمين",
+    "term_arabic_reformatted": "The term \"تضمين\" is already in its base form as it is a singular noun without any definite article or pluralization. Therefore, the base form remains \"تضمين\"."
+  },
+  {
+    "term": "Bayesian Network",
+    "term_reformatted": "Bayesian network",
+    "term_arabic": "شبكة بايزية",
+    "term_arabic_reformatted": "شبكة بايزية"
+  },
+  {
+    "term": "Markov Decision Processes ",
+    "term_reformatted": "Markov decision processes",
+    "term_arabic": "عملية قرار ماركوف",
+    "term_arabic_reformatted": "عملية قرار ماركوف"
+  },
+  {
+    "term": "Monte Carlo Tree Search ",
+    "term_reformatted": "Monte Carlo tree search",
+    "term_arabic": "البحث الشجري باستخدام مونت كارلو",
+    "term_arabic_reformatted": "بحث شجري باستخدام مونت كارلو"
+  },
+  {
+    "term": "One-shot Learning",
+    "term_reformatted": "one-shot learning",
+    "term_arabic": "تعلم بمثال واحد",
+    "term_arabic_reformatted": "تعلم بمثال واحد"
+  },
+  {
+    "term": "Few-shot Learning",
+    "term_reformatted": "few-shot learning",
+    "term_arabic": "تعلم بأمثلة قليلة",
+    "term_arabic_reformatted": "تعلم بمثال قليل"
+  },
+  {
+    "term": "Zero-shot Learning",
+    "term_reformatted": "zero-shot learning",
+    "term_arabic": "تعلم بدون أمثلة مباشرة",
+    "term_arabic_reformatted": "The term \"تعلم بدون أمثلة مباشرة\" does not contain any noun phrases (الإضافة) or definite articles (ال) that need to be removed. Additionally, there are no plural or dual nouns to singularize. Therefore, the base form remains the same:\n\nBase Form: تعلم بدون أمثلة مباشرة"
+  },
+  {
+    "term": "Adversarial machine Training",
+    "term_reformatted": "adversarial machine training",
+    "term_arabic": "تعلم الآلة العدائي",
+    "term_arabic_reformatted": "تعلم آلة عدائي"
+  },
+  {
+    "term": "Neural Turing Machine",
+    "term_reformatted": "neural Turing machine",
+    "term_arabic": "آلة تورينج العصبية",
+    "term_arabic_reformatted": "آلة تورينج عصبي"
+  },
+  {
+    "term": "Graph Neural Network",
+    "term_reformatted": "graph neural network",
+    "term_arabic": "شبكة عصبية شبكية",
+    "term_arabic_reformatted": "شبكة عصبية شبكية"
+  },
+  {
+    "term": "Self-Attention",
+    "term_reformatted": "self-attention",
+    "term_arabic": "الانتباه الذاتي",
+    "term_arabic_reformatted": "انتباه ذاتي"
+  },
+  {
+    "term": "Multi-Head Self-Attention",
+    "term_reformatted": "multi-head self-attention",
+    "term_arabic": "انتباه ذاتي متعدد الرؤوس",
+    "term_arabic_reformatted": "انتباه ذات متعدد الرأس"
+  },
+  {
+    "term": "Batch Normalization",
+    "term_reformatted": "batch normalization",
+    "term_arabic": "تسوية الحزمة",
+    "term_arabic_reformatted": "تسوية حزمة"
+  },
+  {
+    "term": "Rectified Linear Unit ",
+    "term_reformatted": "rectified linear unit",
+    "term_arabic": "وحدة خطية مصححة ",
+    "term_arabic_reformatted": "وحدة خطية مصحح"
+  },
+  {
+    "term": "Leaky ReLU",
+    "term_reformatted": "leaky ReLU",
+    "term_arabic": "دالة ريلو المتسربة",
+    "term_arabic_reformatted": "دالة ريلو متسرب"
+  },
+  {
+    "term": "Sigmoid Function",
+    "term_reformatted": "sigmoid function",
+    "term_arabic": "دالة سيجمويد",
+    "term_arabic_reformatted": "دالة سيجمويد"
+  },
+  {
+    "term": "Sparse Feature",
+    "term_reformatted": "sparse feature",
+    "term_arabic": "خاصية متناثرة",
+    "term_arabic_reformatted": "خاصية متناثرة"
+  },
+  {
+    "term": "Radial Basis Function  Network",
+    "term_reformatted": "radial basis function network",
+    "term_arabic": "شبكة دالة القاعدة الشعاعية",
+    "term_arabic_reformatted": "شبكة دالة قاعدة شعاعية"
+  },
+  {
+    "term": "Perceptron",
+    "term_reformatted": "perceptron",
+    "term_arabic": "بيرسبترون",
+    "term_arabic_reformatted": "بيرسبترون"
+  },
+  {
+    "term": "Gradient Clipping",
+    "term_reformatted": "gradient clipping",
+    "term_arabic": "قص اشتقاقي",
+    "term_arabic_reformatted": "قص اشتقاقي"
+  },
+  {
+    "term": "Learning Rate",
+    "term_reformatted": "learning rate",
+    "term_arabic": "معدل التعلم",
+    "term_arabic_reformatted": "معدل تعلم"
+  },
+  {
+    "term": "Momentum",
+    "term_reformatted": "momentum",
+    "term_arabic": "الزخم",
+    "term_arabic_reformatted": "زخم"
+  },
+  {
+    "term": "Embedding Space",
+    "term_reformatted": "embedding space",
+    "term_arabic": "فضاء التضمين",
+    "term_arabic_reformatted": "فضاء تضمين"
+  },
+  {
+    "term": "Connectionism",
+    "term_reformatted": "connectionism",
+    "term_arabic": "التشابكية",
+    "term_arabic_reformatted": "The term \"التشابكية\" is a singular noun with a definite article. To convert it to its base form, we need to remove the definite article \"ال\". \n\nBase Form: تشابكية"
+  },
+  {
+    "term": "Sequence Model",
+    "term_reformatted": "sequence model",
+    "term_arabic": "نموذج تسلسلي",
+    "term_arabic_reformatted": "نموذج تسلسلي"
+  },
+  {
+    "term": "Bidirectional",
+    "term_reformatted": "bidirectional",
+    "term_arabic": "ثنائي الاتجاه",
+    "term_arabic_reformatted": "ثنائي الاتجاه is already in its base form. The term consists of a noun phrase where \"ثنائي\" (dual) is an adjective describing \"الاتجاه\" (direction). Since \"الاتجاه\" is singular and does not have a definite article, and \"ثنائي\" is already in its base form as an adjective, no further changes are needed."
+  },
+  {
+    "term": "Spatial-Temporal Reasoning",
+    "term_reformatted": "spatial-temporal reasoning",
+    "term_arabic": "استدلال مكاني-زماني",
+    "term_arabic_reformatted": "استدلال مكاني-زماني"
+  },
+  {
+    "term": "Metalearning",
+    "term_reformatted": "metalearning",
+    "term_arabic": "تعلم عملية التعلم",
+    "term_arabic_reformatted": "تعلم عملية تعلم"
+  },
+  {
+    "term": "Feature Map",
+    "term_reformatted": "feature map",
+    "term_arabic": "خريطة الخصائص",
+    "term_arabic_reformatted": "خريطة خاصية"
+  },
+  {
+    "term": "Dropout Regularization",
+    "term_reformatted": "dropout regularization",
+    "term_arabic": "ضبط الإسقاط",
+    "term_arabic_reformatted": "ضبط إسقاط"
+  },
+  {
+    "term": "Experience Replay",
+    "term_reformatted": "experience replay",
+    "term_arabic": "إعادة تشغيل التجربة",
+    "term_arabic_reformatted": "إعادة تشغيل تجربة"
+  },
+  {
+    "term": "Pooling Layer",
+    "term_reformatted": "pooling layer",
+    "term_arabic": "طبقة تجميع",
+    "term_arabic_reformatted": "طبقة تجميع"
+  },
+  {
+    "term": "Parameter",
+    "term_reformatted": "parameter",
+    "term_arabic": "مُعامل",
+    "term_arabic_reformatted": "مُعامل"
+  },
+  {
+    "term": "Depthwise Seperable Convolutional Neural Network",
+    "term_reformatted": "depthwise separable convolutional neural network",
+    "term_arabic": "شبكة عصبية ترشيحية قابلة للفصل عمًقا",
+    "term_arabic_reformatted": "شبكة عصبية ترشيحية قابلة للفصل عمق"
+  },
+  {
+    "term": "Multimodal Learning",
+    "term_reformatted": "multimodal learning",
+    "term_arabic": "نموذج متعدد الصيغ",
+    "term_arabic_reformatted": "نموذج متعدد صيغة"
+  },
+  {
+    "term": "Online Machine Learning",
+    "term_reformatted": "online machine learning",
+    "term_arabic": "تعلم الآلة المستمر",
+    "term_arabic_reformatted": "تعلم آلة مستمر"
+  },
+  {
+    "term": "Self-Supervised Learning",
+    "term_reformatted": "self-supervised learning",
+    "term_arabic": "تعلم ذاتي التوجيه",
+    "term_arabic_reformatted": "تعلم ذاتي توجيه"
+  },
+  {
+    "term": "Bayesian Programming",
+    "term_reformatted": "Bayesian programming",
+    "term_arabic": "برمجة بايزية",
+    "term_arabic_reformatted": "برمجة بايزية"
+  },
+  {
+    "term": "Inference",
+    "term_reformatted": "inference",
+    "term_arabic": "استدلال",
+    "term_arabic_reformatted": "استدلال is already in its base form. It is a singular noun and does not contain any definite articles or pluralization that need to be adjusted."
+  },
+  {
+    "term": "Expert System",
+    "term_reformatted": "expert system",
+    "term_arabic": "نظام خبير",
+    "term_arabic_reformatted": "نظام خبير"
+  },
+  {
+    "term": "Quantization",
+    "term_reformatted": "quantization",
+    "term_arabic": "التجزيء الكمي",
+    "term_arabic_reformatted": "تجزيء كمي"
+  },
+  {
+    "term": "Pruning",
+    "term_reformatted": "pruning",
+    "term_arabic": "تشذيب",
+    "term_arabic_reformatted": "تشذيب"
+  },
+  {
+    "term": "Knowledge Graph",
+    "term_reformatted": "knowledge graph",
+    "term_arabic": "شبكة معرفية",
+    "term_arabic_reformatted": "شبكة معرفية"
+  },
+  {
+    "term": "Sparse Representation",
+    "term_reformatted": "sparse representation",
+    "term_arabic": "تمثيل متناثر",
+    "term_arabic_reformatted": "تمثيل متناثر"
+  },
+  {
+    "term": "Dense Feature",
+    "term_reformatted": "dense feature",
+    "term_arabic": "خاصية كثيفة",
+    "term_arabic_reformatted": "خاصية كثيفة"
+  },
+  {
+    "term": "Token",
+    "term_reformatted": "token",
+    "term_arabic": "وحدة لغوية",
+    "term_arabic_reformatted": "وحدة لغوية"
+  },
+  {
+    "term": "Text Tokenization",
+    "term_reformatted": "text tokenization",
+    "term_arabic": "تقسيم النص",
+    "term_arabic_reformatted": "تقسيم نص"
+  },
+  {
+    "term": "One-Hot Encoding",
+    "term_reformatted": "one-hot encoding",
+    "term_arabic": "ترميز الواحد النشط",
+    "term_arabic_reformatted": "رمز نشط"
+  },
+  {
+    "term": "N-grams",
+    "term_reformatted": "n-grams",
+    "term_arabic": "سلسلة كلمات",
+    "term_arabic_reformatted": "سلسلة كلمة"
+  },
+  {
+    "term": "Negative Class",
+    "term_reformatted": "negative class",
+    "term_arabic": "صنف سلبي",
+    "term_arabic_reformatted": "صنف سلبي"
+  },
+  {
+    "term": "Hierarchical Clustering",
+    "term_reformatted": "hierarchical clustering",
+    "term_arabic": "تجميع هرمي",
+    "term_arabic_reformatted": "تجميع هرمي"
+  },
+  {
+    "term": "Sequence Model",
+    "term_reformatted": "sequence model",
+    "term_arabic": "نموذج تسلسلي",
+    "term_arabic_reformatted": "نموذج تسلسلي"
+  },
+  {
+    "term": "Attention Model",
+    "term_reformatted": "attention model",
+    "term_arabic": "نموذج الانتباه",
+    "term_arabic_reformatted": "نموذج انتباه"
+  },
+  {
+    "term": "Bidirectional",
+    "term_reformatted": "bidirectional",
+    "term_arabic": "ثنائي الاتجاه",
+    "term_arabic_reformatted": "ثنائي الاتجاه is already in its base form. The term consists of a noun phrase where \"ثنائي\" (dual) is an adjective describing \"الاتجاه\" (direction). Since \"الاتجاه\" is singular and does not have a definite article, and \"ثنائي\" is already in its base form as an adjective, no further changes are needed."
+  },
+  {
+    "term": "Vanishing Gradient Problem",
+    "term_reformatted": "vanishing gradient problem",
+    "term_arabic": "مشكلة تلاشي المشتقة",
+    "term_arabic_reformatted": "مشكلة تلاشي مشتق"
+  },
+  {
+    "term": "Gradient",
+    "term_reformatted": "gradient",
+    "term_arabic": "مشتقة",
+    "term_arabic_reformatted": "مشتقة"
+  },
+  {
+    "term": "Clustering",
+    "term_reformatted": "clustering",
+    "term_arabic": "تجميع",
+    "term_arabic_reformatted": "The term \"تجميع\" is already in its base form. It is a singular noun and does not contain any definite articles or additional words that need modification."
+  },
+  {
+    "term": "Kernel Trick",
+    "term_reformatted": "kernel trick",
+    "term_arabic": "حيلة النواة",
+    "term_arabic_reformatted": "حيلة نواة"
+  },
+  {
+    "term": "Radial Basis Function ",
+    "term_reformatted": "radial basis function",
+    "term_arabic": "دالة القاعدة الشعاعية",
+    "term_arabic_reformatted": "دالة قاعدة شعاعية"
+  },
+  {
+    "term": "Kernel Function",
+    "term_reformatted": "kernel function",
+    "term_arabic": "دالة النواة",
+    "term_arabic_reformatted": "دالة نواة"
+  },
+  {
+    "term": "Kernel Support Vector Machine ",
+    "term_reformatted": "kernel support vector machine",
+    "term_arabic": "آلة المَّتجهات الداعمة باستخدام النواة",
+    "term_arabic_reformatted": "آلة متجه داعم باستخدام نواة"
+  },
+  {
+    "term": "Hinge Loss",
+    "term_reformatted": "hinge loss",
+    "term_arabic": "خسارة مفصلية",
+    "term_arabic_reformatted": "خسارة مفصلية"
+  },
+  {
+    "term": "Differentiale Privacy",
+    "term_reformatted": "differential privacy",
+    "term_arabic": "خصوصية تباينية",
+    "term_arabic_reformatted": "خصوصية تبايني"
+  },
+  {
+    "term": "Capsule Neural Network",
+    "term_reformatted": "capsule neural network",
+    "term_arabic": "شبكة عصبية كبسولية",
+    "term_arabic_reformatted": "شبكة عصبية كبسولية"
+  },
+  {
+    "term": "Dynamic Model",
+    "term_reformatted": "dynamic model",
+    "term_arabic": "نموذج ديناميكي",
+    "term_arabic_reformatted": "نموذج ديناميكي"
+  },
+  {
+    "term": "Neural Machine Translation",
+    "term_reformatted": "neural machine translation",
+    "term_arabic": "ترجمة الآلة العصبية",
+    "term_arabic_reformatted": "ترجمة آلة عصبية"
+  },
+  {
+    "term": "Long Short-Term Memory",
+    "term_reformatted": "long short-term memory",
+    "term_arabic": "الذاكرة القصيرة المدى المطولة",
+    "term_arabic_reformatted": "ذاكرة قصيرة المدى مطولة"
+  },
+  {
+    "term": "Graphics Processing Unit ",
+    "term_reformatted": "graphics processing unit",
+    "term_arabic": "وحدة معالجة الرسوميات",
+    "term_arabic_reformatted": "وحدة معالجة رسم"
+  },
+  {
+    "term": "Feedforward Neural Network",
+    "term_reformatted": "feedforward neural network",
+    "term_arabic": "شبكة عصبية ذات تغذية أمامية",
+    "term_arabic_reformatted": "شبكة عصبية ذات تغذية أمامية"
+  },
+  {
+    "term": "Kernel Trick",
+    "term_reformatted": "kernel trick",
+    "term_arabic": "حيلة النواة",
+    "term_arabic_reformatted": "حيلة نواة"
+  },
+  {
+    "term": "Implicit Bias",
+    "term_reformatted": "implicit bias",
+    "term_arabic": "تحيز ضمني",
+    "term_arabic_reformatted": "تحيز ضمني"
+  },
+  {
+    "term": "Flow-based Chatbot",
+    "term_reformatted": "flow-based chatbot",
+    "term_arabic": "بوت محادثة موجه",
+    "term_arabic_reformatted": "بوت محادثة موجه"
+  },
+  {
+    "term": "Generative Pre-trained Transformer ",
+    "term_reformatted": "generative pre-trained transformer",
+    "term_arabic": "محول توليدي مسبق التدريب ",
+    "term_arabic_reformatted": "محول توليدي مسبق تدريب"
+  },
+  {
+    "term": "Bayesian Neural Network",
+    "term_reformatted": "Bayesian neural network",
+    "term_arabic": "شبكة عصبية بايزية",
+    "term_arabic_reformatted": "شبكة عصبية بايزية"
+  },
+  {
+    "term": "Deep Neural Network",
+    "term_reformatted": "deep neural network",
+    "term_arabic": "شبكة عصبية عميقة",
+    "term_arabic_reformatted": "شبكة عصبية عميقة"
+  },
+  {
+    "term": "Membership Inference Attack",
+    "term_reformatted": "membership inference attack",
+    "term_arabic": "هجوم استنتاج العضوية",
+    "term_arabic_reformatted": "هجوم استنتاج عضوية"
+  },
+  {
+    "term": "Relationship Extraction",
+    "term_reformatted": "relationship extraction",
+    "term_arabic": "استخراج العلاقة",
+    "term_arabic_reformatted": "استخراج علاقة"
+  },
+  {
+    "term": "Transfer Learning",
+    "term_reformatted": "transfer learning",
+    "term_arabic": "تعلم منقول",
+    "term_arabic_reformatted": "The term \"تعلم منقول\" is already in its base form. The word \"تعلم\" is a verb, and \"منقول\" is an adjective. Since the task is to convert nouns or noun phrases to their base form, and this term does not contain a noun phrase with a definite article or pluralization, no changes are needed."
+  },
+  {
+    "term": "Incremental Learning",
+    "term_reformatted": "incremental learning",
+    "term_arabic": "تعلم تدريجي",
+    "term_arabic_reformatted": "تعلم تدريجي"
+  },
+  {
+    "term": "Metalearning",
+    "term_reformatted": "metalearning",
+    "term_arabic": "تعلم عملية التعلم",
+    "term_arabic_reformatted": "تعلم عملية تعلم"
+  },
+  {
+    "term": "Depthwise Separable Convolutional Neural Network",
+    "term_reformatted": "depthwise separable convolutional neural network",
+    "term_arabic": "شبكة عصبية ترشيحية قابلة للفصل عمًقا",
+    "term_arabic_reformatted": "شبكة عصبية ترشيحية قابلة للفصل عمق"
+  },
+  {
+    "term": "Turing Test",
+    "term_reformatted": "Turing test",
+    "term_arabic": "اختبار تورينج",
+    "term_arabic_reformatted": "اختبار تورينج"
+  },
+  {
+    "term": "Differential Privacy",
+    "term_reformatted": "differential privacy",
+    "term_arabic": "خصوصية تباينية",
+    "term_arabic_reformatted": "خصوصية تبايني"
+  },
+  {
+    "term": "Multi-Head Self-Attention",
+    "term_reformatted": "multi-head self-attention",
+    "term_arabic": "انتباه ذاتي متعدد الرؤوس",
+    "term_arabic_reformatted": "انتباه ذات متعدد الرأس"
+  },
+  {
+    "term": "Self-Training",
+    "term_reformatted": "self-training",
+    "term_arabic": "تدريب ذاتي",
+    "term_arabic_reformatted": "تدريب ذاتي"
+  },
+  {
+    "term": "Multimodal Model",
+    "term_reformatted": "multimodal model",
+    "term_arabic": "نموذج متعدد الصيغ",
+    "term_arabic_reformatted": "نموذج متعدد صيغة"
+  },
+  {
+    "term": "Cross-Entropy",
+    "term_reformatted": "cross-entropy",
+    "term_arabic": "الأنتروبيا التقاطعية",
+    "term_arabic_reformatted": "أنتروبيا تقاطعية"
+  },
+  {
+    "term": "Domain Adaptation",
+    "term_reformatted": "domain adaptation",
+    "term_arabic": "تكييف المجال",
+    "term_arabic_reformatted": "تكييف مجال"
+  },
+  {
+    "term": "Cognitive Architecture",
+    "term_reformatted": "cognitive architecture",
+    "term_arabic": "بنية إدراكية",
+    "term_arabic_reformatted": "بنية إدراكية"
+  },
+  {
+    "term": "Federated Learning",
+    "term_reformatted": "federated learning",
+    "term_arabic": "تعلم متحد",
+    "term_arabic_reformatted": "The term \"تعلم متحد\" does not contain any definite articles or plural forms that need to be singularized. It appears to be a phrase that does not follow the typical noun-adjective or iḍāfa construction. Therefore, the base form remains the same:\n\nBase Form: تعلم متحد"
+  },
+  {
+    "term": "Bootstrap Aggregating",
+    "term_reformatted": "bootstrap aggregating",
+    "term_arabic": "تجميع بوتستراب",
+    "term_arabic_reformatted": "تجميع بوتستراب"
+  },
+  {
+    "term": "Implicit Bias",
+    "term_reformatted": "implicit bias",
+    "term_arabic": "تحيز ضمني",
+    "term_arabic_reformatted": "تحيز ضمني"
+  },
+  {
+    "term": "Spatial-Temporal Reasoning",
+    "term_reformatted": "spatial-temporal reasoning",
+    "term_arabic": "استدلال مكاني-زماني",
+    "term_arabic_reformatted": "استدلال مكاني-زماني"
+  },
+  {
+    "term": "Neuromorphic Computing",
+    "term_reformatted": "neuromorphic computing",
+    "term_arabic": "حوسبة عصبية",
+    "term_arabic_reformatted": "حوسبة عصبية"
+  },
+  {
+    "term": "Analysis of Algorithms",
+    "term_reformatted": "analysis of algorithms",
+    "term_arabic": "تحليل الخوارزميات",
+    "term_arabic_reformatted": "تحليل خوارزمية"
+  },
+  {
+    "term": "Argumentation Framework",
+    "term_reformatted": "argumentation framework",
+    "term_arabic": "إطار الحجج",
+    "term_arabic_reformatted": "إطار حجة"
+  },
+  {
+    "term": "Artificial General Intelligence",
+    "term_reformatted": "artificial general intelligence",
+    "term_arabic": "ذكاء اصطناعي عام",
+    "term_arabic_reformatted": "ذكاء اصطناعي عام"
+  },
+  {
+    "term": "Artificial Intelligence Markup Language ",
+    "term_reformatted": "artificial intelligence markup language",
+    "term_arabic": "لغة ترميز الذكاء الاصطناعي",
+    "term_arabic_reformatted": "لغة ترميز ذكاء اصطناعي"
+  },
+  {
+    "term": "Automated Reasoning",
+    "term_reformatted": "automated reasoning",
+    "term_arabic": "استدلال مؤتمت",
+    "term_arabic_reformatted": "استدلال مؤتمت"
+  },
+  {
+    "term": "Autonomic Computing",
+    "term_reformatted": "autonomic computing",
+    "term_arabic": "حوسبة ذاتية",
+    "term_arabic_reformatted": "حوسبة ذاتي"
+  },
+  {
+    "term": "Backward Chaining",
+    "term_reformatted": "backward chaining",
+    "term_arabic": "تسلسل عكسي",
+    "term_arabic_reformatted": "تسلسل عكسي"
+  },
+  {
+    "term": "Big Data",
+    "term_reformatted": "big data",
+    "term_arabic": "بيانات ضخمة",
+    "term_arabic_reformatted": "بيان ضخم"
+  },
+  {
+    "term": "Big Data Analytics",
+    "term_reformatted": "big data analytics",
+    "term_arabic": "تحليلات البيانات الضخمة",
+    "term_arabic_reformatted": "تحليل بيانات ضخم"
+  },
+  {
+    "term": "Commonsense Reasoning",
+    "term_reformatted": "commonsense reasoning",
+    "term_arabic": "استدلال بديهي",
+    "term_arabic_reformatted": "استدلال بديهي"
+  },
+  {
+    "term": "Computational Intelligence ",
+    "term_reformatted": "computational intelligence",
+    "term_arabic": "ذكاء حوسبي",
+    "term_arabic_reformatted": "ذكاء حوسبي"
+  },
+  {
+    "term": "Dark Data",
+    "term_reformatted": "dark data",
+    "term_arabic": "البيانات المظلمة",
+    "term_arabic_reformatted": "بيان مظلم"
+  },
+  {
+    "term": "Data Integration",
+    "term_reformatted": "data integration",
+    "term_arabic": "تكامل البيانات",
+    "term_arabic_reformatted": "تكامل بيانات"
+  },
+  {
+    "term": "Data Modelling",
+    "term_reformatted": "data modelling",
+    "term_arabic": "نمذجة البيانات",
+    "term_arabic_reformatted": "نموذج بيانات"
+  },
+  {
+    "term": "deepfake",
+    "term_reformatted": "deepfake",
+    "term_arabic": "تزييف عميق",
+    "term_arabic_reformatted": "تزييف عميق"
+  },
+  {
+    "term": "Glowworm Swarm Optimization",
+    "term_reformatted": "glowworm swarm optimization",
+    "term_arabic": "تحسين سرب الدودة المضيئة",
+    "term_arabic_reformatted": "تحسين سرب دودة مضيئة"
+  },
+  {
+    "term": "In-Database Analytics",
+    "term_reformatted": "in-database analytics",
+    "term_arabic": "تحليلات في قاعدة البيانات",
+    "term_arabic_reformatted": "تحليل قاعدة بيانات"
+  }
+]

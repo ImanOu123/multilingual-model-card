@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Modeling Semantic Containment and Exclusion in Natural Language Inference",
+    "venue": "COLING",
+    "year": 2008,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/C08-1066.pdf"
+  },
+  {
+    "title": "Measuring the Non-compositionality of Multiword Expressions",
+    "venue": "COLING",
+    "year": 2010,
+    "award": "Best Paper Finalist",
+    "link": "https://aclanthology.org/C10-1014.pdf"
+  },
+  {
+    "title": "Controlling Listening-oriented Dialogue using Partially Observable Markov Decision Processes",
+    "venue": "COLING",
+    "year": 2010,
+    "award": "Best Paper Finalist",
+    "link": "https://aclanthology.org/C10-1086.pdf"
+  },
+  {
+    "title": "Recognition of Affect, Judgment, and Appreciation in Text",
+    "venue": "COLING",
+    "year": 2010,
+    "award": "Best Paper Finalist",
+    "link": "https://aclanthology.org/C10-1091.pdf"
+  },
+  {
+    "title": "Nonparametric Word Segmentation for Machine Translation",
+    "venue": "COLING",
+    "year": 2010,
+    "award": "Best Paper Finalist",
+    "link": "https://aclanthology.org/C10-1092.pdf"
+  },
+  {
+    "title": "Accurate Unbounded Dependency Recovery using Generalized Categorial Grammars",
+    "venue": "COLING",
+    "year": 2012,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/C12-1130.pdf"
+  },
+  {
+    "title": "Empirical Analysis of Aggregation Methods for Collective Annotation",
+    "venue": "COLING",
+    "year": 2014,
+    "award": "Honorable Mention",
+    "link": "https://aclanthology.org/C14-1145.pdf"
+  },
+  {
+    "title": "A context-based model for Sentiment Analysis in Twitter",
+    "venue": "COLING",
+    "year": 2014,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/C14-1221.pdf"
+  },
+  {
+    "title": "Extending the Use of Adaptor Grammars for Unsupervised Morphological Segmentation of Unseen Languages",
+    "venue": "COLING",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/C16-1086.pdf"
+  },
+  {
+    "title": "Predicting human similarity judgments with distributional models: The value of word associations.",
+    "venue": "COLING",
+    "year": 2016,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/C16-1175.pdf"
+  },
+  {
+    "title": "AnlamVer: Semantic Model Evaluation Dataset for Turkish - Word Similarity and Relatedness",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Resource Paper",
+    "link": "https://aclanthology.org/C18-1323.pdf"
+  },
+  {
+    "title": "Arguments and Adjuncts in Universal Dependencies",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Position Paper",
+    "link": "https://aclanthology.org/C18-1324.pdf"
+  },
+  {
+    "title": "Distinguishing affixoid formations from compounds",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Linguistic Analysis",
+    "link": "https://aclanthology.org/C18-1325.pdf"
+  },
+  {
+    "title": "A Survey on Open Information Extraction",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Survey Paper",
+    "link": "https://aclanthology.org/C18-1326.pdf"
+  },
+  {
+    "title": "Design Challenges and Misconceptions in Neural Sequence Labeling",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Most reproducible",
+    "link": "https://aclanthology.org/C18-1327.pdf"
+  },
+  {
+    "title": "Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Reproduction Paper",
+    "link": "https://aclanthology.org/C18-1328.pdf"
+  },
+  {
+    "title": "Authorless Topic Models: Biasing Models Away from Known Structure",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best NLP Engineering Experiment",
+    "link": "https://aclanthology.org/C18-1329.pdf"
+  },
+  {
+    "title": "SGM: Sequence Generation Model for Multi-label Classification",
+    "venue": "COLING",
+    "year": 2018,
+    "award": "Best Error Analysis and Best Evaluation",
+    "link": "https://aclanthology.org/C18-1330.pdf"
+  },
+  {
+    "title": "On the Practical Ability of Recurrent Neural Networks to Recognize Hierarchical Languages",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2020.coling-main.129.pdf"
+  },
+  {
+    "title": "Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2020.coling-main.398.pdf"
+  },
+  {
+    "title": "GPolS: A Contextual Graph-Based Language Model for Analyzing Parliamentary Debates and Political Cohesion",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Honorable Mention",
+    "link": "https://aclanthology.org/2020.coling-main.426.pdf"
+  },
+  {
+    "title": "A Neural Model for Aggregating Coreference Annotation in Crowdsourcing",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Honorable Mention",
+    "link": "https://aclanthology.org/2020.coling-main.507.pdf"
+  },
+  {
+    "title": "Dual Supervision Framework for Relation Extraction with Distant Supervision and Human Annotation",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Honorable Mention",
+    "link": "https://aclanthology.org/2020.coling-main.564.pdf"
+  },
+  {
+    "title": "Leveraging User Paraphrasing Behavior In Dialog Systems To Automatically Collect Annotations For Long-Tail Utterances",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2020.coling-industry.3.pdf"
+  },
+  {
+    "title": "SemEval-2020 Task 4: Commonsense Validation and Explanation",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Task Honorable Mention",
+    "link": "https://aclanthology.org/2020.semeval-1.39.pdf"
+  },
+  {
+    "title": "SemEval-2020 Task 7: Assessing Humor in Edited News Headlines",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Task",
+    "link": "https://aclanthology.org/2020.semeval-1.98.pdf"
+  },
+  {
+    "title": "SESAM at SemEval-2020 Task 8: Investigating the Relationship between Image and Text in Sentiment Analysis of Memes",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Paper Honorable Mention",
+    "link": "https://aclanthology.org/2020.semeval-1.102.pdf"
+  },
+  {
+    "title": "SemEval-2020 Task 11: Detection of Propaganda Techniques in News Articles",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Task Honorable Mention",
+    "link": "https://aclanthology.org/2020.semeval-1.186.pdf"
+  },
+  {
+    "title": "ApplicaAI at SemEval-2020 Task 11: On RoBERTa-CRF, Span CLS and Whether Self-Training Helps Them",
+    "venue": "COLING",
+    "year": 2020,
+    "award": "Best Paper",
+    "link": "https://aclanthology.org/2020.semeval-1.187.pdf"
+  },
+  {
+    "title": "ArcaneQA: Dynamic Program Induction and Contextualized Encoding for Knowledge Base Question Answering",
+    "venue": "COLING",
+    "year": 2022,
+    "award": "Outstanding Paper Award",
+    "link": "https://aclanthology.org/2022.coling-1.148.pdf"
+  }
+]

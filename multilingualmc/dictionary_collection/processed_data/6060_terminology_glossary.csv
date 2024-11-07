@@ -1,0 +1,262 @@
+,english,chinese,arabic,french,russian,japanese,pos_tag
+1,modeling,造型,نمذجة,modélisation,моделирование,モデリング,NOUN
+2,lexical,词汇,معجمي,lexicale,словарный ,語彙的,ADJ
+3,task,任务,مهمة,tâche,задача,タスク,NOUN
+4,dataset,数据集,مجموعة بيانات,données,набор данных,データセット,NOUN
+5,models,模型,نماذج,modèles,модели,モデル,NOUN
+6,words,字,كلمات,mots,слова,単語,NOUN
+7,language,语言,اللغة,langue,язык,言語,NOUN
+11,linguistic,语言化,لغوي,linguistique,лингвистический,言語的,ADJ
+12,languages,语言,لغات,langues,языки,言語,NOUN
+14,grammar,语法,قواعد,grammaire,грамматика,文法,NOUN
+15,linguistics,语言学,لغويات,linguistiques,языкознания,言語学,NOUN
+16,source,来源,مصدر,source,источник,ソース,NOUN
+17,NLP,自然语言处理,معالجة اللغة الطبيعية,TAL traitement automatique du langage naturel,NLP,自然言語処理,PROPN
+18,vocabulary,词汇,مفردات,vocabulaire,словарь,語彙,NOUN
+20,downstream,下游,البيانات المنخفضة,downstream,подчиненная,下流,ADJ
+21,tasks,任务,مهام,tâches,задачи,タスク,NOUN
+22,parsing,解析,تحليل,analyse syntaxique,парсинг,構文解析,VERB
+23,text,文本,النص,texte,текст ,テキスト,NOUN
+24,speech,语音,الكلام,dicours,речь,スピーチ,NOUN
+26,detection,检测,كشف,detéction,обнаружение,検出,NOUN
+29,extracting,提取,استخراج,extraction,извлечение,抽出,VERB
+30,sentence,句子,جملة,phrase,предложение,文章,NOUN
+31,spans,跨度,امتدادات,étendage,пяди,スパン,NOUN
+32,texts,文本,نصوص,textes,тексты,テキスト,NOUN
+34,word,单词,كلمة,mot,слово,単語,NOUN
+35,CRF,CRF,CRF,CRF,CRF,CRF,PROPN
+36,model,模型,نموذج,modèle,модель,モデル,NOUN
+39,training,训练,تدريب,formation,обучение,訓練,NOUN
+40,generalize,概括,التعميم,généralise,обобщить,一般化する,VERB
+42,annotated,带注释,مشروحة,annoté,аннотированный,注釈付き,VERB
+43,tokens,令牌,رموز,gages,маркеры,トークン,NOUN
+44,OOV,OOV,OOV,OOV,OOV,OOV,PROPN
+45,corpus,语料库,مجموعة,corpus,корпус,コーパス,PROPN
+46,CONLL,CoNLL,CoNLL,CoNLL,CoNLL,CoNLL,PROPN
+47,BIO,BIO,BIO,BIO,BIO,BIO,PROPN
+48,encoding,编码,تشفير,encodage,кодировка,エンコーディング,NOUN
+49,encode,编码,تشفير,encode,кодировать,エンコード,NOUN
+50,token,令牌,رمز,gage,жетон,トークン,NOUN
+52,labeled,标签化,مصنف,étiquetés,обозначеный,ラベル付き,VERB
+53,features,特征,ميزات,fonctions,функции,機能,NOUN
+54,binary,二进制,تصنيف ثنائي,binaire,двоичный,バイナリ,ADJ
+55,transformer,转换器,محول,conversion,преобразователь ,トランスフォーマー,NOUN
+56,BETO,BETO,BETO,BETO,BETO,BETO,PROPN
+57,monolingual,单语,أحاديّ اللغة,monolingue,одноязычный,単一言語,ADJ
+58,transformers,转换器,محولات,transformateurs,преобразователи,トランスフォーマー,NOUN
+59,metrics,指标,مقاييس,indicateurs,метрики,メトリックス,NOUN
+61,embeddings,嵌入,التضمينات,intégration,встраивания,埋込み,NOUN
+63,contextualized,情境化,السياقية,contextualisé,контекстуализированный,文脈で理解できる,VERB
+64,BERT,BERT,بيرت,Représentations d'encodeurs bidirectionnels à partir de transformateurs,BERT,BERT,PROPN
+65,BPE,BPE,BPE,BPE,BPE,BPE,PROPN
+66,pretrained,预训练,مدرب مسبقًا,pré-formation,предварительно обученный,事前訓練された,VERB
+67,LinCE,LinCE,LinCE,LinCE,LinCE,LinCE,PROPN
+68,resources,资源,الموارد,ressources,ресурсы,リソース,NOUN
+70,embedding,嵌入,التضمين,intégration,внедрение,埋込み,VERB
+71,paper,纸,ورقة,article,бумага,論文,NOUN
+72,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,PROPN
+73,morphology,形态学,مورفولوجيا,morphologique,морфология,語形論,NOUN
+74,research,研究,بحث,recherches,исследование,研究,NOUN
+75,morphologically,形态上,مورفولوجيا,morphologie,морфологически,形態的に,ADV
+76,tokenization,标记化,الترميز,marquage,токенизация,トークン化,NOUN
+77,algorithm,算法,خوارزمية,algorithme,алгоритм,アリゴリズム,NOUN
+78,subword,子词,الكلمات الفرعية,sous-mot,подсловие,サブ単語,NOUN
+80,morphemes,语素,مورفيمات,morphèmes,морфем,形態素,NOUN
+81,representation,表达,تمثيل,représentation,представление,表現,NOUN
+82,algorithms,算法,خوارزميات,algorithmes,алгоритмы,アリゴリズム,NOUN
+83,morphological,形态化,مورفولوجي,morphologique,морфологический,形態的,ADJ
+84,oracle,甲骨文,أوراكل,oracle,оракул,Oracle,PROPN
+85,compositionality,组合性,نمذجة التركيبة,compositionnalité,композиционность,構成の可能性,NOUN
+88,input,输入,الإدخال,saisient,ввод,入力,NOUN
+89,document,文档,مستندات,document,документ,文章,NOUN
+91,verbs,动词,أفعال,verbes,глаголы,動詞,NOUN
+92,noun,名词,أسم,nom,существительное,名詞,PROPN
+93,encoder,编码器,مشفر,encodeur,кодировщик,エンコーダ,NOUN
+94,vectors,矢量,متجهات,vecteurs,векторa,ベクトル,NOUN
+96,nouns,名词,أسماء,noms,существительные,名詞,NOUN
+97,pronouns,代词,الضمائر,pronoms,местоимения,代名詞,NOUN
+98,unsupervised,无监督,غير الخاضع للإشراف,non supervisé,безнадзорный,監視なし,ADJ
+99,tagging,标记,وضع علامات,classification,маркировка,タグ付け,VERB
+100,syntactic,句法,النحوي,syntaxique,синтаксический,構文,ADJ
+101,tagger,标记器,علامة,marqueurs,теггер,タグ付け部,PROPN
+102,bidirectional,双向,ثنائية الاتجاه,bidirectionnel,двунаправленный,双方向,ADJ
+103,inference,推理,استدلال,inférence,вывод,推論,NOUN
+104,decoding,解码,فك تشفير,décodage,расшифровка,デコーディング,NOUN
+105,ICLR,ICLR,ICLR,ICLR,ICLR,ICLR,PROPN
+106,correlations,相关性,ارتباطات,corrélation,корреляции,相関,NOUN
+107,attention,注意力,انتباه,attention,внимание,アテンション,NOUN
+108,computation,计算,حساب,calcul,вычисление,計算,NOUN
+110,prediction,预测,تنبؤ,prévention,предсказание,予測,NOUN
+111,classification,分类,لتصنيف,classification,классификация,分類,NOUN
+113,vector,向量,متجه,vectoriel,вектор,ベクトル,NOUN
+114,multilingual,多语言,متعدد اللغات,multilingue,многоязычный,他言語,ADJ
+115,XLM,XLM,XLM,XLM,XLM,XLM,PROPN
+117,corpora,语料库,المجاميع,corpus,корпуса,コーパス,PROPN
+118,baselines,基线,خطوط الأساس,bases,базовых линий,ベースライン,NOUN
+119,gradient,坡度,تدرج,pente,градиент,傾度,NOUN
+120,sequences,序列,تسلسل,séquences,последовательности,シーケンス,NOUN
+121,GLUE,GLUE,GLUE,GLUE,GLUE,GLUE,PROPN
+122,data,数据,بيانات,données,данные,データ,NOUN
+123,quality,质量,جودة,qualité,качество,品質,NOUN
+124,finetuning,微调,الضبط الدقيق,raffinement,тонкая настройка,微調整,NOUN
+125,user,用户,مستخدم,utilisateur,пользователь,ユーザー,NOUN
+126,evaluation,评估,تقييم,évaluation,оценка,評価,NOUN
+127,translations,翻译,الترجمات,traductions,переводы,翻訳,NOUN
+128,assessing,评估,تقييم,évalution,проведение оценки,評価,VERB
+129,translation,翻译,الترجمة,traduction,перевод,翻訳,NOUN
+130,regression,回归,تراجع,régression,регрессия,回帰,NOUN
+131,ablation,消融,استئصال,ablation,абляция,アブレーション,NOUN
+132,AI,人工智能,AI,Intelligence artificielle,AI,AI,PROPN
+133,method,方法,طريقة,méthode,метод,方法,NOUN
+135,relations,relations,علاقات,relations,отношения,relations,NOUN
+136,computational,计算类,الحسابية,informatique,вычислительный,計算,ADJ
+137,sequence,顺序,التسلسل,séquence,последовательность,シーケンス,NOUN
+138,representations,陈述,تمثيلات,représentations,представления,表現,NOUN
+139,decoder,解码器,وحدة فك الترميز,décodeur,дешифратор,デコーダ,NOUN
+140,target,目标,هدف,cible,цель,ターゲット,NOUN
+141,dependencies,依赖关系,تبعيات,dépendances,зависимости,依存性,NOUN
+142,linear,线性的,خطي,linéaire,линейный,線形,ADJ
+143,weights,权重,أوزان,poids,веса,荷重,NOUN
+144,softmax,softmax,softmax,softmax,софтмакс,softmax,PROPN
+145,qualitative,定性的,نوعي,qualitative,качественный,質的,ADJ
+146,summarization,总结,تلخيص,synthèse,суммирования,要約,NOUN
+147,PubMed,PubMed,PubMed,PubMed,ПабМед,PubMed,PROPN
+149,parameter,参数,معلمة,paramètres,параметр,パラメータ,NOUN
+150,pretraining,预训练,التدريب المسبق,pré-formation,предварительная подготовка,事前訓練,VERB
+151,dialogue,对话,حوار,dialogue,диалог,ダイアログ,NOUN
+152,semantic,语义,الدلاليّة,sémantique,семантический,意味論,ADJ
+153,system,系统,نظام,système,система,システム,NOUN
+154,utterances,话语,اقوال,discours,высказываний,発話,NOUN
+155,utterance,发声,نُطقٍ,énonciation,высказывание,発話,NOUN
+156,graph,图形,رسم بياني,"graphique, diagramme",диаграммa,グラフ,NOUN
+157,nodes,节点,العقد,nodules,узлы,ノード,NOUN
+158,graphs,图表,نماذج,diagrammes,диаграммы,グラフ,NOUN
+159,generating,生成,توليد,production,генерация,生成,VERB
+161,event,事件,حدث,activité,событие,イベント,NOUN
+162,parallel,平行线,متوازي,parallèle,параллельный, 並列,PROPN
+163,dependency,依赖,تبعية,dépendance,зависимость,依存,NOUN
+164,structure,结构体,بنية,structure,структура,構成,NOUN
+165,BART,BART,BART,BART,BART,BART,PROPN
+166,parser,解析器,محلل,analyseur,синтаксический анализатор,パーサー,NOUN
+167,generated,已生成,الناشئة,générés,созданный,生成された,VERB
+168,heuristic,启发式,إرشادي,heuristique,эвристический,ヒューリスティック,NOUN
+169,methods,方法,أساليب,méthodes,методика,方法,NOUN
+170,FLR,FLR,FLR,FLR,FLR,FLR,PROPN
+171,systems,系统,نظم,systèmes,системы,システム,NOUN
+172,conversational,会话式,حواري,conversationnel,разговорный,会話的,ADJ
+173,datasets,数据集,مجموعة بيانات,données,наборы данных,データセット,NOUN
+174,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,PROPN
+175,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST,PROPN
+176,achieves,达到,يحقق,performance,достигает,達成する,NOUN
+177,BLEU,BLEU,BLEU,Bleu,BLEU,BLEU,PROPN
+178,generation,一代,توليد,génération,генерация,生成,NOUN
+180,domains,域,مجالات,domaines,домены,ドメイン,NOUN
+181,retrieval,恢复,استرجاع,extraction,возвращение,取得,PROPN
+182,augmented,增强型,معزز,amélioré,увеличенный,強化された,VERB
+183,counterfactual,反事实的,counterfactual,contrefactuel,противного,非現実節,ADJ
+184,sentiment,情绪,شعور,émotionel,настроение,感情,NOUN
+185,biases,偏见,biases,biais,предубеждения,バイアス,NOUN
+187,annotation,注释,التعليق التوضيحي,annotation,аннотация,注釈,NOUN
+188,syntax,句法,بناء جملة,syntaxe,синтаксис,構文論,NOUN
+189,knowledge,知识,معرفة,connaissance,знание,知識,NOUN
+192,RGF,RGF,RGF,RGF,RGF,RGF,PROPN
+193,REALM,REALM,REALM,REALM,REALM,REALM,PROPN
+194,contexts,上下文,سياقات,contextes,содержания,文脈,NOUN
+195,context,语境,context,contexte,содержание,文脈,NOUN
+196,Wikipedia,维基百科,ويكيبيديا,Wikipédia,Википедия,wikipedia,PROPN
+197,similarity,相似度,تشابه,similitude,сходство,類似性,NOUN
+198,search,搜索,البحث,cherche,искать,検索,NOUN
+199,retrieved,检索到,مسترجع,récupérés,полученный,回収された,VERB
+200,query,询问,استعلام,requête,запрос,疑問,VERB
+201,queries,查询,استفسارات,requêtes,запросы,質問,NOUN
+202,VFL,VFL,VFL,VFL,VFL,VFL,PROPN
+204,semantically,语义上,لغوياً,sémantiquement,семантически,意味論的に,ADV
+205,edit,编辑,تحرير,édition,редактировать,編集,VERB
+206,QED,QED,QED,QED,QED,QED,PROPN
+207,predicate,谓词,أصلي,prédicat,предикат,述語,NOUN
+208,entities,实体,كيانات,entités,объекты,エンティティ,NOUN
+209,annotations,注释,تعليقات توضيحية,annotations,аннотации,注釈,NOUN
+210,predicates,谓词,الفرضيات,prédicat,предикаты,述語,NOUN
+211,augmentation,增强,زيادة,élargissement,увеличение,増大,NOUN
+212,relation,关系,علاقة,relation,отношение,リレーション,NOUN
+213,domain,域,مجال,domaine,домен,ドメイン,NOUN
+214,generalization,泛化,تعميم,généralisation,обобщение,一般化,NOUN
+215,reasoning,推理,المنطق,raisonnement,рассуждение,推論,NOUN
+216,CDA,CDA,CDA,CDA,CDA,CDA,PROPN
+217,QA,问答,ضمان الجودة,QA,Контроль качества,QA,PROPN
+218,learning,学习,تعلم,apprentissage,учение,学習,VERB
+219,robustness,鲁棒性,متانة,robustesse,надежность,堅牢性,NOUN
+220,AQA,AQA,AQA,AQA,AQA,AQA,PROPN
+221,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA,PROPN
+222,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF,PROPN
+223,SUTD,SUTD,SUTD,SUTD,SUTD,SUTD,PROPN
+224,PaLM,PaLM,PaLM,PaLM,PaLM,PaLM,PROPN
+225,interpretable,可解释,قابلةٍ للتفسير,interprétable,интерпретируемый,解釈可能,ADJ
+227,interpretability,可解释性,إمكانية تفسير,interopérabilité,интерпретируемость,解釈度,NOUN
+228,BERTs,BERTs,BERTs,BERTs,BERTs,BERTs,NOUN
+229,concatenation,联结,سلسلة,enchaînement,конкатенация,連続,NOUN
+230,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS,NOUN
+231,MathQA,MathQA,MathQA,MathQA,MathQA,MathQA,PROPN
+232,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP,PROPN
+234,constraint,约束,القيود,contraintes,ограничение,制約,NOUN
+235,semantics,语义,دلالات,sémantiques,семантика,意味論,NOUN
+236,distributions,分布,توزيعات,distribution,распределения,分布,NOUN
+238,terminology,术语,مصطلح,terminologie,терминология,用語,NOUN
+239,documents,文件,مستندات,documents,документы,文章,NOUN
+241,BSARD,BSARD,BSARD,BSARD,BSARD,BSARD,PROPN
+243,extracted,提取的,مستخرج,extrait,извлекаемый,抽出された,VERB
+244,IDF,IDF,IDF,IDF,IDF,IDF,PROPN
+245,neural,神经,عصبي,neuronal,невральный,ニューラル,ADJ
+246,encoders,编码器,مشفرو,encodeurs,кодеры,エンコーダ,NOUN
+248,word2vec,word2vec,word2vec,word2vec,word2vec,単語2vec,PROPN
+249,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT,PROPN
+252,CLS,CLS,CLS,CLS,CLS,CLS,NOUN
+253,cosine,余弦,جيب,cosinus,косинус,コサイン,NOUN
+255,VALSE,VALSE,VALSE,VALSE,VALSE,VALSE,PROPN
+256,image,图片,صورة,image,изображениe,イメージ,NOUN
+258,sense,感觉,حسي,sens,смысл,感覚,NOUN
+259,phrase,短语,عبارة,phrases,фраза,フレーズ,NOUN
+260,grounding,领域,تأسيس,bases,обоснование,教育付け,VERB
+261,modalities,形态,طرائق,modalités,условия,モダリティ,NOUN
+263,entity,实体,كيان,entité,сущность,エンティティ,NOUN
+264,coreference,共指,مراجع مشترك,coréférence,корреляция,同一指示,NOUN
+265,verb,动词,فعل,verbe,глагол,動詞,NOUN
+266,grammatical,语法类,نحوي,grammatical,грамматический,文法的,ADJ
+267,sentences,句子,جمل,phrases,предложения,文章,NOUN
+268,NLI,NLI,NLI,NLI,NLI,NLI,PROPN
+269,annotators,注释者,المعلقين,annotateurs,аннотаторы,注釈者,NOUN
+270,existing,现存,الحالي,existant,существующий,既存の,VERB
+271,statistical,统计类,إحصائي,statistique,статистический,統計的,ADJ
+272,CLIP,CLIP,CLIP,CLIP,CLIP,CLIP,NOUN
+273,LXMert,LXMert,LXMert,LXMert,LXMert,LXMert,PROPN
+274,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT,PROPN
+275,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT,PROPN
+276,classifying,分类,تصنيف,classification,классификации,分類し,VERB
+277,captions,字幕,التعليقات,captures,подписи,キャプション,NOUN
+279,identifying,识别,تحديد,identification,определение,識別,VERB
+281,adversarial,对抗性,عدائي,antagoniste,состязательной,敵対的,ADJ
+282,GPT,GPT,GPT,GPT,GPT,GPT,PROPN
+283,perplexity,混乱,حيرة,perplexité,растерянность,困惑,NOUN
+284,RNSum,RNSum,RNSum,RNSum,RNSum,RNSum,PROPN
+285,ARENA,ARENA,ARENA,ARENA,ARENA,ARENA,PROPN
+286,extractor,提取器,مستخرج,extracteur,экстрактор,抽出機,NOUN
+287,internet,互联网,الإنترنت,internet,интернет,インターネット,NOUN
+288,outputs,输出,مخرجات,sorties,выходы,出力,NOUN
+289,API,API,API,API,API,API,PROPN
+290,extractive,可提取,استخراجي,extraction,экстрактивное,抽出,ADJ
+291,classifier,分类器,مصنف,classificateur,классификатор,類別詞,NOUN
+292,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT,PROPN
+293,CEAS,CEAS,CEAS,CEAS,CEAS,CEAS,PROPN
+294,CAS,CAS,CAS,CAS,CAS,CAS,PROPN
+295,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq,PROPN
+296,clustering,聚类,تجميع,regroupement,кластеризация,クラスタリング,VERB
+297,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE,PROPN
+298,pseudo,伪,زائف,pseudo,псевдо,擬似,PROPN
+299,summarizing,总结,تلخيص,résumé,суммирующая,要約,VERB
+301,architectures,架构,هياكل,architectures,архитектуры,アーキテクチャ,NOUN
+302,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE,PROPN
+304,extraction,提取,استخراج,extraction,извлечение,抽出,NOUN
+305,XLNet,XLNet,XLNet,XLNet,XLNet,XLNet,PROPN
+306,multitask,多任务,متعددة المهام,multi-tâches,многозадачность,マルチタスク,PROPN
+307,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN,PROPN
+308,classifiers,分类器,مصنفات,classificateurs,классификаторы,類別詞,NOUN

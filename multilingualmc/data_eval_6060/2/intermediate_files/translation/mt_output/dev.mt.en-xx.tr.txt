@@ -1,0 +1,468 @@
+Merhaba, ben Elena ve çalışmamızı sunacağım, İspanyolca Asimile Edilmemiş Borçlanmaları Algılama: Açıklamalı Bir Korpus ve Modellemeye Yaklaşımlar.
+Bu yüzden sözcüksel borçlanmanın ne olduğunu, önerdiğimiz görevi, yayınladığımız veri setini ve araştırdığımız bazı modelleri ele alacağız.
+Ama öncelikle, sözlüksel borçlanma nedir ve bir NLP görevi olarak neden önemlidir?
+Sözlüksel ödünç alma temelde kelimelerin bir dilden başka bir dile dahil edilmesidir.
+Örneğin, İspanyolca'da İngilizce'den gelen kelimeleri kullanırız.
+Ve burada birkaç örneğiniz var, podcast, uygulama ve çevrimiçi kitle fonlaması gibi kelimeler, bunların hepsi bazen İspanyolca'da kullandığımız İngilizce kelimeler.
+Sözcüksel ödünç alma, temel olarak diğer dillerin bir dil modelinde yeniden üretilen bir tür dilsel ödünç alma türüdür.
+Ve ödünç alma ve kod değiştirme bazen karşılaştırılmış ve bir süreklilik olarak tanımlanmıştır, kod değiştirme, iki dillilerin aynı anda iki dili karıştırdıkları yerde yaptıkları şeydir.
+Bununla birlikte, sözcüksel borçlanma ve kod değiştirme arasında bazı farklılıklar vardır.
+Sözlüksel borçlanmaya odaklanacağız.
+Kod değiştirme, iki dilli kişiler tarafından yapılan bir şeydir ve tanım gereği kod anahtarları, kullanılan dillerin hiçbirine entegre edilmezken, sözcüksel ödünç alma, tek dilli kişiler tarafından da yapılan bir şeydir.
+Ödünç almalar, alıcı dilin dilbilgisine uygun olacaktır.
+Ve borçlanmalar sonunda alıcı dile entegre edilebilir.
+Öyleyse neden ödünç almak ilginç bir fenomen?
+Dilbilim açısından ödünç alma, dillerin nasıl değiştiğinin ve nasıl etkileşime girdiğinin bir tezahürüdür.
+Ve ayrıca sözcüksel ödünçlemeler yeni kelimelerin kaynağıdır.
+Burada, İspanyolca diline yeni kelimeler olarak dahil edilmiş bazı sözcüksel ödünç alma örnekleri var.
+NLP açısından ah borçlanmaları, kelime dağarcığı dışındaki kelimelerin ortak bir kaynağıdır.
+Ve aslında, sözlüksel borçlanmaları otomatik olarak tespit etmenin, ayrıştırma, metin - konuşma sentezi veya makine çevirisi gibi NLP aşağı akış görevleri için yararlı olduğu kanıtlanmıştır.
+İngilizcenin diğer diller üzerindeki etkisine artan bir ilgi olmuştur, özellikle İngilizce sözlüksel borçlanmalarla ilgili, bazen Anglicisms olarak adlandırılan borçlanmalar.
+Ve burada, bu dillerden bazılarında borçlanmaların otomatik olarak algılanması üzerine bazı örnekler var.
+Bu yüzden önerdiğimiz görev, İspanyol Newswire'daki asimile edilmemiş sözcüksel borçlanmaları tespit etmektir.
+Bu, İspanyolca gazetelerde kullanılan ancak alıcı dile entegre edilmemiş veya asimile edilmemiş diğer dillerden ödünç alınan kelimeleri çıkarmakla ilgilendiğimiz anlamına geliyor.
+Henüz İspanyolcaya entegre edilmemiştir.
+İşte size bir örnek.
+Bu İspanyolca bir cümledir: Las prendas bestseller se estampan con motivos florales, animal print o retales tipo patchwork.
+Gördüğünüz gibi, üç metin aralığı var. Bunlar aslında İngilizce kelimeler. En çok satanlar, hayvan baskısı ve yama işi gibi.
+Bunlar, çıkarmak ve tespit etmekle ilgilendiğimiz açıklıkların türüdür.
+Anglicism detection hakkında daha önce İspanyol Newswire'da Anglicism detection için bir CRF modelinden oluşan bir kelime vardı.
+Bu model F1 puanını seksen altıya çıkardı.
+Ancak hem veri kümesinde hem de modelleme yaklaşımında bazı sınırlamalar vardı.
+Bu nedenle, veri kümesi yalnızca bir haber kaynağına odaklandı ve yalnızca başlıklardan oluşuyordu.
+Ayrıca, eğitim setinde ve test setinde görünen borçlanmalarda bir örtüşme vardı.
+Bu durum modelleme yaklaşımının aslında daha önce görülmemiş borçlanmalara genelleme yapıp yapamayacağının değerlendirilmesini engellemiştir.
+Bu yüzden amacımız görevdeki bu sınırlamalardan bazılarını ele almaktır.
+Başlamak için, yeni bir veri kümesi oluşturduk.
+Ah, sözcüksel ödünçlemelerle eklenen yeni bir veri setinin amacı ve amaç, mümkün olduğunca zor bir test seti oluşturmaktı.
+Bu nedenle, eğitim seti ve test seti arasında kelimelerde ve konularda minimum örtüşme olacaktır.
+Sonuç olarak, test seti, eğitim setinde görmediğimiz kaynaklardan ve tarihlerden geliyor.
+Burada zaman içinde çakışma olmadığını görebilirsiniz.
+Ayrıca, test seti de çok ödünç alma yoğundur.
+Sadece size bazı sayılar vermek için, eğitim seti her bin jeton başına altı borç içeriyorsa, test seti her bin jeton başına yirmi borç içeriyordu.
+Test seti mümkün olduğunca kelime dağarcığı dışında kelimeler içeriyordu.
+Aslında, test setindeki borçlanmaların yüzde doksan ikisi OOV'dir.
+Antrenman sırasında görülmediler.
+Ve külliyat temel olarak İspanyol gazetelerinin farklı kaynaklarından gelen bir metin koleksiyonundan oluşuyordu.
+Ve ah iki etiket kullanılarak elle ek açıklama yapıldı.
+Biri, İspanyolca'daki sözcüksel borçlanmaların çoğunluğu olan İngilizce sözcüksel borçlanmalar ve daha sonra diğer dillerden borçlanmalar için etiket.
+CONLL formatlarını kullanıyoruz ve BİYO kodlama kullandık, böylece uygulama gibi tek belirteçli borçlanmaları veya makine öğrenimi gibi çoklu belirteçli borçlanmaları kodlayabildik.
+Bunlar korpusun numaraları.
+Gördüğünüz gibi, kabaca üç yüz yetmiş bin jeton tutarındadır.
+Ve burada İngilizce olarak etiketlenmiş açıklıkların sayısı ve diğer borçlanmalar olarak etiketlenmiş açıklıkların sayısı ve bunların kaç tanesinin benzersiz olduğu var.
+Ve burada veri kümesi kümesinin birkaç örneği var.
+Örneğin burada gördüğünüz gibi, ilk örnekte ah var, çok kelimeli bir ödünç alma olan ödünç alma toplu pişirme var.
+Ve BİYO - um kodlamasını kullanarak ek açıklama yaptık.
+Bu yüzden BİYOGRAFİ İspanyolca kelimeler için kullanıldı, bu yüzden ödünç alınmayan kelimeler için değil.
+Ve burada bu ikinci örnekte, İngilizce'den ödünç alma olarak da etiketlenen tezgah ve çökme var.
+Bu yüzden, veri kümesine sahip olduktan sonra, bu sözcüksel borçlanmaları çıkarma ve tespit etme görevi için birkaç model araştırdık.
+Denediğimiz ilk model koşullu rastgele alan modeliydi.
+Bu, önceki çalışmalarda kullanılan modeldi.
+Ve o çalışmadakilerle aynı el yapımı özellikleri kullandık.
+Gördüğünüz gibi, bunlar özellikler.
+Bunlar kelime veya büyük harfteki belirteç gibi ikili özellikler mi?
+Titlecase var mı?
+Tırnak işareti mi?
+Bunun gibi şeyler, adlandırılmış bir varlık tanıma görevinde beklenecek özelliklerin türüdür.
+Elde ettiğimiz sonuçlar bunlar.
+El işi özelliklere sahip CRF modelini kullanarak elli beş F1 puanı elde ediyoruz.
+Bu, aynı CRF modeli, aynı özellikler ile elde edilen sonuç olan seksen altı F1 skoruna kıyasla çok farklı bir farktır, ancak İspanyolca sözlüksel borçlanma tespiti için de farklı bir veri kümesinde.
+Bu, oluşturduğumuz veri kümesinin daha zor olduğunu ve bu görevler için daha sofistike modeller keşfetmemiz gerektiğini kanıtlıyor.
+Böylece, iki transformatör tabanlı modeli test ettik.
+İspanyolca ve çok dilli BERT için eğitilmiş tek dilli bir BERT modeli olan BETO'YU kullandık.
+Her iki modeli de HuggingFace'in transformatörler kütüphanesi aracılığıyla kullanıyoruz.
+Elde ettiğimiz sonuçlar bunlar.
+Gördüğünüz gibi, çok dilli BERT, hem geliştirme setinde hem de test setinde ve tüm metriklerde BETO'DAN daha iyi performans gösterir.
+Karşılaştırmak için bir fikrimiz var, CRF modeli seksen iki elde etti.
+CRF modeli elli beş F1 puanı elde ederken, çok dilli BERT seksen iki puan almıştır ki bu büyük bir farktır.
+Bu sonuçları elde ettikten sonra, kendimize başka bir soru sorduk: BiLSTM - CRF modeli bulabilir miyiz, farklı türde gömmelerle besleyebilir miyiz, farklı türde dilsel bilgileri kodlayan ve transformatör tabanlı modellerin elde ettiği sonuçlardan daha iyi performans gösteren gömmeler?
+Bunu yapmak için, bazı ön deneyler yaptık, bunu flare kütüphanesini kullanarak BiLSTM - CRF modeli ile çalıştırıyoruz.
+Ve transformatör tabanlı ama aynı zamanda hızlı metin, karakter gömme gibi farklı gömme türlerini denedik.
+Bulduğumuz şey, transformatör tabanlı gömülmelerin bağlamsallaştırılmamış gömülmelerden daha iyi performans gösterdiği, İngilizce BERT ve İspanyolca BETO gömülmelerinin kombinasyonunun çok dilli BERT gömülmelerinden daha iyi performans gösterdiği idi.
+Ve BPE gömülmelerinin daha iyi F1 ve karakter gömülmeleri daha iyi hatırlama üretti.
+Bunu göz önünde bulundurarak, bunlar elde ettiğimiz en iyi performanslı sonuçlardı.
+Her iki model de alev kullanan BiLSTM - CRF modelleriydi.
+Biri BETO ve BERT gömülmeleri ve BPE, diğeri BETO ve BERT gömülmeleri ve BPE ve ayrıca karakter gömülmeleri ile beslendi.
+Bu sonuncusu, test setinde en yüksek F1 puanını üretti, ancak geliştirme setindeki en yüksek puan, karakter gömülmeyen biri tarafından elde edildi.
+Çok dilli BERT ile elde ettiğimiz en iyi sonucun, geliştirme setinde yetmiş altı ve test setinde seksen iki F1 elde ettiğini unutmamak gerekir.
+Bu, bu sonuçlara kıyasla bir gelişmedir.
+Son olarak, kendimize başka bir soru sorduk: Sözcüksel ödünç alma tespiti, kod değiştirmede dil tanımlamasından aktarım öğrenimi olarak çerçevelenebilir mi?
+Bu yüzden, flare kullanarak çalıştırdığımız aynı BiLSTM - CRF modelini çalıştırıyoruz, ancak bu uyarlanmamış trafo tabanlı BETO ve BERT gömülmelerini kullanmak yerine, kod anahtarı gömülmelerini kullandık.
+Code Switch Emeddings Nasıl Yapılır?
+Bunlar, LinCE kod değiştirme veri setinin İspanyolca İngilizce bölümünde dil tanımlama için önceden eğitilmiş ince ayarlanmış trafo tabanlı gömülerdir.
+LinCE, İspanyolca İngilizce, İspanyolca İngilizce kod değiştirme ile ilgili bir bölüme sahip olan kod değiştirme üzerine bir veri kümesidir.
+Bu yüzden BiLSTM - CRF'imizi kod anahtarı katıştırmaları ve isteğe bağlı olarak karakter katıştırmaları, BPE katıştırmaları vb. İle besledik.
+Elde ettiğimiz en iyi sonuç, test setinde denediğimiz tüm modellerde en yüksek olan seksen dört nokta yirmi iki idi.
+Yetmiş dokuz olan geliştirme setinde aldığımız en iyi sonuç F1 skoru, uyumsuz gömme ile beslenen BiLSTM - CRF'nin elde ettiği en iyi sonuçtan daha düşük olmasına rağmen.
+Çalışmamızdan bazı sonuçlar çıkardık.
+Asimile edilmemiş sözcüksel borçlanmalarla açıklamalı yeni bir İspanyol haber dizisi ürettik.
+Bu veri kümesi, önceki kaynaklardan daha yoğun ve OOV açısından zengindir.
+Sözlüksel borçlanma tespiti için dört tür model araştırdık.
+Hata analizi açısından, hatırlama tüm modeller için zayıf bir noktadır.
+Ah, burada görebileceğiniz gibi, bazı sık yanlış negatifler, örneğin hem İngilizce hem de İspanyolca'da var olan kelimeler olan büyük harfli borçlanmaları içerir.
+Ayrıca ilginç bir şekilde, BPE gömülmeleri F1 puanını artırıyor gibi görünüyor.
+Ve karakter gömme hatırlamayı geliştiriyor gibi görünüyor.
+Ki bu ilginç bir bulgu, belki de gelecekteki çalışmalar üzerinde araştırma yapabiliriz.
+Bunlar sahip olduğum her şey.
+Dinlediğiniz için çok teşekkür ederim.
+Benim adım Antoine.
+Massachusetts Amherst Üniversitesi'nde doktora öğrencisiyim.
+Makalemizi sunuyorum KinyaBERT: Morfolojiye duyarlı bir Kinyarwanda Dil Modeli.
+Bugün, bu araştırmanın motivasyonu hakkında konuşacağım.
+Ardından KinyaBERT model mimarisini detaylı olarak sunacağım.
+Daha sonra deneysel sonuçlarımız hakkında konuşacağım, sonra bazı sonuçlarla bitireceğim.
+Hepimiz biliyoruz ki, son doğal dil işleme ilerlemeleri, BERT gibi önceden eğitilmiş dil modellerinin kullanılmasıyla mümkün olmuştur.
+Bununla birlikte, hala bir takım sınırlamalar vardır.
+Morfolojik olarak zengin dillerin çoğu tarafından ifade edilen karmaşık morfoloji nedeniyle, kullandığım her yerde bulunan bayt çifti kodlama belirteçleştirme algoritması, etkili temsil için gerekli olan morfemler anlamına gelen sözcük birimlerini tam olarak çıkaramaz.
+Örneğin, burada içinde birkaç morfem bulunan üç Kinyarwanda kelimemiz var, ancak BPE algoritmaları bunları çıkaramıyor.
+Bunun nedeni, bazı morfolojik kuralların kesin sözcük bilgisini gizleyen farklı yüzey formları üretmesi ve yalnızca yüzey formlarına dayanan BPE'nin bu sözcük modeline erişimi olmamasıdır.
+İkinci zorluk, bir kahin morfolojik analizörüne erişimi olsa bile, BPE belirteçlerini morfemlerle değiştirmek morfolojik kompozisyonu ifade etmek için yeterli değildir.
+Araştırmadaki üçüncü bir boşluk, yeni önceden eğitilmiş dil modellerinin en sık yüksek kaynak dillerinde değerlendirilmesidir.
+Ve düşük kaynaklar ve çeşitli diller üzerinde uygulanabilirliklerini de değerlendirmemiz gerekiyor.
+Bu nedenle, BERT mimarisinin morfolojik olarak zengin dilleri daha etkili bir şekilde ele alması anlamına gelen basit ama etkili bir uyarlaması olan KinyaBERT'i sunuyoruz.
+KinyaBERT'i, Doğu ve Orta Afrika'da on iki milyondan fazla insan tarafından konuşulan, morfolojik olarak zengin bir dil olan Kinyarwanda'da değerlendiriyoruz.
+Modelin girdisi ya bir cümle ya da bir belgedir.
+Örneğin, burada John twarahamubonye biradutangaza var, bu da John'u orada bulduğumuza şaşırdığımız anlamına geliyor.
+Gördüğünüz gibi, Kinyarwanda kelimeleri, içinde farklı bilgiler içeren birkaç morfem içerir.
+Bu nedenle, modelimizde, bu cümleyi veya bir belgeyi morfolojik bir analizöre geçiriyoruz.
+Bu da kelimelerin her birinde bulunan morfemleri oluşturur.
+Morfemler genellikle gövdeden ve sıfır veya daha fazla ekten yapılır.
+Ekler, fiillerde gerginliği, yönü, özneyi veya nesneyi gösterebilir ve daha çok özneler ve nesneler için Bantu isim sınıfı ile ilgilidir.
+Morfolojik analizör ayrıca kelimelerin her biri için konuşma etiketinin bir bölümünü üretir.
+Bu adımdan sonra, konuşma etiketlerinin bir kısmı için spee - için gömme yapıyoruz.
+Ekler için gömme.
+Ve sapı için süslemeler.
+Bunlar morfoloji seviyesi, bunlar morfoloji seviyesi gömülmeleridir.
+Daha sonra bu gömülmeleri, her kelimeye bağımsız olarak uygulanan küçük bir transformatör kodlayıcısı olan bir morfoloji kodlayıcısından geçiriyoruz.
+nin çıktısı, her kelimede morfolojik bilgilerle bağlamsallaştırılan vektörlerdir.
+Şimdi, konuşmanın ve STEM'in bir kısmına karşılık gelen morfolojik gömülmelerin bir araya getirildiği kompozisyonu gerçekleştiriyoruz.
+Ayrıca, onları cümle düzeyinde başka bir STEM gömme ile daha da birleştirdiğimiz sonucuna varıyoruz.
+Ardından ana cümle veya belge kodlayıcısına bir girdi oluştururuz.
+Nihai çıktı, aşağı akış NLP görevleri için kullanılabilecek bağlamsallaştırılmış gömmelerdir.
+Morfolojik bir analizör için, Kinyarwanda diline uyarlanmış özel uygulama ile sonlu durum iki seviyeli morfoloji ilkelerini kullanıyoruz.
+Sözcükler, isimler, gösteri ve sahiplenme zamirleri, rakamlar ve diğerleri dahil olmak üzere tüm Kinyarwanda kelimelerinin morfolojisini etkili bir şekilde modelliyoruz.
+Konuşma etiketleme algoritmasının denetimsiz bir bölümünü kullanıyoruz.
+Morfoloji olasılığını, temel olarak morfolojik analizör tarafından atanan olasılığı açıklamak için birinci dereceden çarpanlara ayrılmış bir model kullanılır.
+Ayrıca, konuşma etiketi önceliğinin yanı sıra girdi kelimelerinde mevcut olan sözdizimsel anlaşmaları da dikkate alıyoruz.
+Konuşma etiketleyicisinin parçası, kod çözme için daha sık kullanılan Viterbi algoritmasını geliştiren çift yönlü bir çıkarım kullanır.
+Konumsal kodlama için birkaç açıklama.
+Birincisi, morfoloji kodlayıcısı herhangi bir konumsal kodlama kullanmaz.
+Bunun nedeni, morfemlerin her birinin morfolojik modelde bilinen bir yuvayı işgal etmesidir.
+Bu nedenle, morfemler verildiğinde konumsal bilgi içseldir.
+İkincisi, cümle kodlayıcı, yakın zamanda ICLR konferansında yayınlanan çözülmüş göreli konumsal gömülmeleri kullanır.
+Bu konumsal gömülmeler, esasen belirteçten belirteç dikkat hesaplamasına konumsal korelasyonları çözer.
+BERT'E benzer şekilde, maskeli bir dil modeli ön eğitim hedefi kullanıyoruz.
+Esasen, kelimelerle ilişkili hem gövdeyi hem de ekleri tahmin etmemiz gerekir.
+Ön eğitim sırasında, tüm kelimelerin yüzde on beşi tahmin için kabul edilir, bunların yüzde sekseni maskelenir, yüzde on rastgele kelimelerle değiştirilir ve yüzde on değişmeden kalır.
+APPIX tahmini için, bazı çoklu etiket sınıflandırma problemleriyle karşı karşıyayız.
+Bunun için ya birlikte sabit sayıda kümeye ekleriz ve kümeyi bir sınıf etiketi olarak tahmin ederiz.
+Diğer seçenek, olasılık vektörünü tahmin etmektir.
+Bu yaklaşımların her ikisini de deneylerimizde değerlendiriyoruz.
+KinyaBERT'i yaklaşık iki buçuk gigabayt Kinyarwanda metni üzerinde önceden eğitiyor ve üç temel modelle karşılaştırıyoruz.
+Bunlardan biri, birden fazla dilden oluşan büyük bir metin korporası üzerinde eğitilmiş XLM - R adlı çok dilli bir modeldir.
+Diğer iki temel çizgi, ya bayt çifti kodlama algoritması kullanılarak ya da iki katmanlı trafo kodlayıcı mimarisi kullanılmadan morfolojik analiz kullanılarak aynı Kinyarwanda metni üzerinde önceden eğitilmiştir.
+Tüm modeller, yüz ila yüz on milyon parametre arasında olan temel mimaride, en az sayıda parametreyi kullanan KinyaBERT'li Kinyarwanda ile yapılandırılmıştır.
+Çok dilli hariç tüm modeller, her seride iki bin beş yüz altmış dizi büyüklüğünde otuz iki bin gradyan güncellemesi için önceden eğitilmiştir.
+Önceden eğitilmiş modelleri üç görev kümesi üzerinde değerlendiriyoruz.
+Bunlardan biri, önceden eğitilmiş dil modellerinin etkinliğini değerlendirmek için sıklıkla kullanılan TUTKAL ölçütüdür.
+TUTKAL kıyaslama verilerimizi, orijinal kıyaslama verilerini Google Translate kullanarak Kinyarwanda'ya çevirerek elde ediyoruz.
+İkinci görev, Kinyarwanda'nın eğitimli anadil konuşmacıları tarafından açıklanan yüksek kaliteli bir veri kümesi olan varlık tanıma ölçütüdür.
+Üçüncüsü, çeşitli web sitelerinden haber makaleleri çektiğimiz ve yazarlar tarafından atanan kategorizasyon etiketlerini topladığımız ve daha sonra esasen aynı kategoriyi tahmin etmeye çalıştığımız bir haber kategorizasyon görevidir.
+Ve şimdi sonuçlara geçiyoruz.
+TUTKAL kıyaslaması için, KinyaBERT'in sürekli olarak temel modellerden daha iyi performans gösterdiğini görüyoruz.
+Burada on ince ayar çalışması için ortalama performansı gösteriyoruz.
+Ayrıca Google Translate tarafından üretilen çevirilerin kullanıcı değerlendirmesini de yapıyoruz.
+Esasen, kullanıcı kullanıcılar yaklaşık altı bin örneği derecelendirdi, birden dörde kadar bir ölçekte puanlar atadı ve çevirilerin kalitesini değerlendirdi.
+Sonuç olarak, birçok çevirinin gürültülü olmasıydı.
+Ancak, tüm modeller aynı çeviri gürültüsüyle başa çıkmak zorunda kaldı ve modeller arasındaki göreceli performansın fark edilmesi hala önemlidir.
+Adlandırılan varlık tanıma görevi için, KinyaBERT'in en iyi performansı en iyi performans gösteren ek dağıtım regresyon varyantı ile verdiğini de görüyoruz.
+Bu sonuçlar aynı zamanda on ince ayar çalışmasının ortalamalarıdır.
+Haber kategorizasyonu görevi için karışık sonuçlar buluyoruz.
+Kinyarwanda için metin sınıflandırması üzerine yapılan önceki çalışmalar, basit anahtar kelime tespitinin bu özel görevi çözmek için çoğunlukla yeterli olduğunu bulmuştu.
+Bu nedenle, önceden eğitilmiş dil modellerini kullanmaktan daha az kazanç vardır.
+Bu özel haber kategorizasyonu görevinde.
+Ayrıca performansı artıran alternatif yapılar olup olmadığını görmek için bir ablasyon çalışması yaptık.
+TUTKAL kıyaslaması için, ek kümeleri kullanmanın tutarlı bir şekilde daha iyi performans gösterdiğini, ek olasılık regresyon hedefinin ise adlandırılmış varlık tanımada en iyi performansı verdiğini görüyoruz.
+Ayrıca, ince ayar için düşük puanlara bakarak, KinyaBERT'in çoğu durumda daha iyi bir yakınsamaya sahip olduğunu görüyoruz.
+Sonuç olarak, bu çalışma önceden eğitilmiş dil modellerinde morfolojik bilgileri açıkça kullanmanın etkinliğini göstermiştir.
+Önerilen iki katmanlı transformatör enkoder mimarisi, morfolojik açıdan zengin dillerin önemli bir yönü olan morfolojik karmaşıklık morfolojik kompozisyonunun yakalanmasını sağlar.
+Bu bulgular, morfolojiye duyarlı dil önceden eğitilmiş dil modellerine yönelik daha fazla araştırmayı motive etmelidir.
+Merhaba, benim adım Michał Pietruszka ve size Eğitilebilir Temsil Havuzlama ile Sparsifying Transformatör Modelleri başlıklı makaleyi sunmaktan memnuniyet duyuyorum.
+Applica AI'da Lukasz Borchmann ve Lukasz Garncarek ile işbirliği içinde yapılan bir çalışma.
+İş hedeflerimizdeki sorunlarla başlayayım.
+Yöntemimiz, uzun girdilerin dikkate alındığı durumlar için iyi çalışır.
+Kabaca konuşursak, görev emirleri ve iki binden fazla jetonun girişi içindir ve hedefler sağlanan girdilerden daha kısadır.
+Bunun NLP'de bazı özel uygulamaları vardır.
+Örneğin, uzun bir belge verildiğinde, onu özetlemeye, sınıflandırmaya, onunla ilgili soruyu cevaplamaya, bilgi çıkarmaya veya bazı anahtar ifadelere ihtiyaç duyulduğunu hayal edebilirsiniz.
+Vanilya transformatörünü ve giriş çizgisinin karesine bağlı olan dikkat karmaşıklığı konusunu hatırlayayım.
+Vanilya transformatöründe, tam dikkat bağlantısıyla, her bir jetonun diğer jetonlarla ilişkileri hesaplanmalıdır.
+Dikkatin hesaplama karmaşıklığı, bu katman sayısına (l), dizi uzunluğuna (n), başka bir dizi uzunluğuna ve gösterimlerin boyutluluğuna bağlıdır.
+Benzer şekilde, kod çözücünün çapraz dikkatinde, sağ taraftaki bu resme, buradaki tek fark, hedef belirteçlerin bu durumda giriş belirteçlerine katılmasıdır.
+Bu formülde de görülebilir.
+BLEU skoru hesaplanması gereken ilişkileri temsil eder.
+Tam dikkat durumunda, giriş dizisi içindeki her ilişkiyi hesaplamamız gerekir.
+Şimdi, yalnızca yakındaki diğer belirteçleri görebilmeleri için belirteçlerin bağlantısını sınırlayarak çalışan bloklu bir kodlayıcımız olduğunda ne olduğunu görüyoruz.
+Metin, kodlayıcı tarafındaki hesaplama sayısını büyük ölçüde azaltabilen parçalar halinde okunur, ancak her giriş belirteci yine de kod çözücüye iletildiğinden kod çözücünün çapraz dikkatini geliştirmez.
+Bu yöntem genellikle kod çözücüde füzyon olarak adlandırılır.
+Buradaki gelişme, n'nin bağımlılıklarından birinin blok boyutunu temsil eden başka bir sabit m'ye değiştirilmesi olarak yorumlanabilir.
+Kilit gözlemimiz, çoğu jetonun çok çeşitli görevlerle ilgisiz olduğu ve neredeyse tamamen göz ardı edilebileceğidir. Bu, slaytta örneklenmiştir.
+Girişlerin sadece parçaları istenen çıkışla ilgilidir.
+Mesela.
+Bir kez bir vurgulayıcı ile en önemli parçaları işaretleme bir makale okumak ve daha sonra sadece orta aşamadan bu bölüme dayalı bir özet üretebilir.
+Özet üretmek için mevcut belirtecin gerekli olup olmadığına karar vermenin ve vurgulamanın maliyeti bu nedenle ucuzdur ve yalnızca belirtecin temsiline bağlıdır.
+Vurgulanan belirteçlerin havuzlanması mümkündür.
+Top k operatörümüz sayesinde maliyeti ihmal edilebilir.
+Kısaltılmış bir girdiden bir özet üretmenin maliyeti, tüm girdi dikkate alındığında vanilya modelinden çok daha düşüktür.
+Ama bir sorum var.
+Bu seçim için önemli belirteçler ve geri yayılan gradyanlar nasıl seçilir?
+Çözdüğümüz temel sorun, eğitilebilir seçim mekanizmasını önermektir.
+Eğitim sırasında gradyanın geri yayılmasına izin verebilir, böylece ağ en önemli belirteçleri seçmeyi öğrenebilir.
+Daha açık olarak
+Basit bir doğrusal katmandan elde edilen bazı gömme alt çizgileri göz önüne alındığında, görev en yüksek puan alan gömme işlemlerini döndürmektir. İlk olarak, sıra değiştirilir ve çiftler hazırlanır, böylece daha yüksek puanlama vektörü daha düşük puanlama ile alınır.
+Daha sonra, ağırlıklar puanlara göre artırılmış softmax kullanılarak hesaplanır.
+Her turnuva turundan sonra, elde edilen ağırlıklarla bu çiftlerin doğrusal bir kombinasyonu olarak yeni vektörler ve puanlar oluşturulur.
+Kısacası, puanları üzerinde bir softmax gerçekleştirerek bunları doğrusal olarak birleştiriyoruz.
+Ve iki jetonu birleştirirken, bir miktar gürültü üretilebilir.
+Ancak aynı zamanda gradyanların tüm girdi gömülmelerine yayılmasını sağlar.
+Kısacası, önerdiğimiz eğitilebilir bir top k, her adımda yumuşak seçim gibi bir turnuva gerçekleştirmeye dayanmaktadır.
+Ve farklı bir perspektiften, temsil havuzu kodlayıcı katmanını takip eder.
+İlk olarak, her temsil puanlanır ve daha sonra sadece en yüksek puanlara sahip olanlar bir sonraki katmana geçirilir.
+Kodlama, standart transformatör mimarisinde olduğu gibi tam uzunluktaki girişte gerçekleştirilebilir.
+Bununla birlikte, sabit uzunlukta sabit uzunlukta bloklar halinde metin işlemek ve küresel olarak en iyi temsili seçmek mümkündür.
+İşte kodlayıcıdan sonra tanıtılan temsil havuzunun bir örneği.
+Bu, giriş uzunluğuna (N) değil, havuzlanmış uzunluğu temsil eden sabit K'ya bağlı olan çapraz dikkat nedenini doğrudan etkilemiştir.
+Bu sabit, kaç gösterimin seçildiğini ve kod çözücüye iletildiğini bildirir.
+Daha kısa bir metinden özet üretmek, önceki çözümden önemli ölçüde daha ucuzdur.
+Çünkü dizi uzunluğu büyük bir faktörle kısaltılabilir.
+Örneğin, deneylerimizde on altı, hatta altmış kere dört, hatta altmış dört kere n'nin değerinden daha küçük olan k'yı başarıyla kullandık.
+Bloklu kodlamanın ve öz dikkatin yararlı etkisinin sürdürüldüğünü lütfen unutmayın.
+Dikkatin hesaplama maliyetinin giriş uzunluğunun karesine bağlı olduğunu unutmayın.
+Kodlama işlemi sırasında girdinin daha erken azaltılması, maliyetleri önemli ölçüde düşürebilir.
+Piramit model için, seçilen her bir katmanın çıktısındaki temsil boyutunu daralttık ve kodlama ilerledikçe hesaplama maliyetinin üstel olarak azaltılmasına yol açtık.
+Gördüğünüz gibi, burada tam bir kodlayıcının toplam hesaplama maliyeti, tam boyutlu ilk katmanın maliyetinin iki katından daha azdır.
+Havuzlama daha önce uygulamaya koyulduğunda, tüm mor karelerin toplamı, katmanların (l) sayısına bağlı değil, bir sabite bağlanır.
+Ancak, havuz katmanlarının ağa yerleştirilmesinden etkilenebilecek sabit c'de.
+İyileştirmelerimiz sekiz bin token uzunluğunda girdi ile kıyaslandı.
+Ve şekil, havuzlama devreye girdiğinde, ağın derinliği için en iyi ölçeklenebilirliğin elde edildiğini göstermektedir.
+Burada, yirmi dört tabakanın piramidyonunun eğitilmesinin, iki tabakalı bir vanilya transformatörünün bu tür uzun girdiler üzerinde eğitilmesinden daha ucuz olabileceği belirtilebilir.
+Vanilya transformatörünün bu kadar uzun bir giriş için hafızadan ne kadar kolay çıkabileceğinden bahsetmiyorum bile.
+Eğilim piramidimizin niteliksel nitel karşılaştırması, uzun belge özetleme görevinde gerçekleştirilir veya arXiv veya PubMed'den bir makalenin gövdesi göz önüne alındığında, görev özetini oluşturmaktır.
+Böylece, temel çizgimiz olan blok yönünden bakıldığında, piramit bu rekabetçi temel çizginin performansını korurken veya geliştirirken, en son teknoloji ürünü modeller düzeyinde performans gösterdiği görülebilir.
+Aynı zamanda, modelimizin eğitilmesi yüzde seksen daha hızlıdır ve blok bazında temel çizgiye kıyasla çıkarımda yüzde dört yüz elli daha hızlıdır.
+Her iki model de çok daha düşük parametre sayılarına sahiptir ve seçilen görevlerde sıfırdan eğitilmiştir.
+Benzer bir performans elde etmek için önceki yaklaşımlar, benzer performans elde etmek için daha fazla parametre kullanmak ve önceden eğitilmiş temel temel modellerinden ve ek dil ön eğitim hedefinden yararlanmak zorundaydı.
+Sizi tam makalemizi okumaya ve GitHub kodumuzu kullanmaya davet ediyoruz.
+İzlediğiniz için teşekkürler.
+Merhaba, ben Harvard Üniversitesi'nden Jiawei Zhou.
+Görev Odaklı Diyalogda Gecikme Azaltımı için Online Semantik Ayrıştırma çalışmamızı sunmaktan çok memnunum.
+Bu, Microsoft Semantic Machines'ten Jason, Michael, Anthony ve Sam ile ortak çalışma.
+Görev odaklı diyalogda, bir kullanıcı genellikle konuşmada kullanıcı ifadelerinden gelen istekleri işleyen sistemle etkileşime girer.
+Kullanıcı ifadesinin bitiminden sistem yanıtına kadar genellikle gözle görülür bir gecikme vardır.
+Kaputun altında, kullanıcı ifadesi çalıştırılabilir bir programa çevrilir.
+Daha sonra sistem düzgün bir şekilde yanıt verebilecek şekilde yürütülür.
+Çünkü program, hesaplamayı özetleyen anlamsal bir grafik olarak temsil edilir, burada düğüm bir işlev çağrısını temsil eder ve alt öğeleri bağımsız değişkenlerdir.
+Büyük düğümler anlık işlemleri işaretler, ancak diğerleri yürütmek için yavaştır.
+Burada gösterdiğimiz basit örnek, bu programlar genellikle ağaç yapılarının ötesinde daha karmaşık grafikler olabilir.
+Bu konuşmada şu soruyu soruyoruz, programı oluşturmaya ve kullanıcı ifadeyi bitirmeden önce çalıştırmaya başlayabilir miyiz, böylece sistem tarafından daha hızlı yanıt elde edilebilir mi?
+Bu online tahmin ve karar problemidir.
+Bu diyarda bir sürü insan var.
+Örnekler arasında, canlı bir tercümanın bir dili gerçek zamanlı olarak başka bir dile çevirdiği eşzamanlı çeviri, kullanıcı niyetini tahmin etmek için akıllı metin otomatik tamamlama ve sürücülerin öngörülen talebe göre ihtiyaç duyabilecekleri yere gönderildiği Uber havuzu sayılabilir.
+Tüm bu senaryoların ortak bir noktası var.
+Yani, tüm girdileri görmeden önce karar vermek faydalıdır.
+Bizim durumumuzda, kullanıcının ne söyleyebileceğini tahmin etmek zorunda olduğumuz için zor olması beklenen çevrimiçi semantik ayrıştırma ile uğraşacağız.
+Ayrıca resmi bir değerlendirme metriği olmadan da yeterince araştırılmamıştır.
+İlk olarak, sıradan bir sistemin nasıl çalıştığına bakalım.
+Programa yalnızca kullanıcı ifadesinin sonunda ayrıştırılarak çevrimdışı çalışıyor.
+Burada tüm bilgiler görüldükten sonra karakter grafiği tahmin edilir.
+Buna karşılık, her ifade önekinde karşılaştıran bir çevrimiçi sistem öneriyoruz.
+Örneğin, her yeni bir belirteç gördüğümüzde, yeni bir grafik tahmin ederiz.
+Hatalar olabileceğine dikkat edin.
+Barack Obama ile havuz partisindeki pozisyonda, kişi ve olay konusu hakkında doğru düğümleri içeren bir grafik elde ettik, ancak yanlış zamanlama bilgisini tahmin edin.
+Bu süreç, tam kullanıcı ifadesini alana kadar devam eder.
+Bu, çevrimdışı sistemdeki yürütme zaman çizelgesini nasıl etkiler?
+Program grafiğini sonunda alacağız, böylece sistem bu noktada yürütmeye başlayabilir.
+Büyük düğümlerin hızlı işlemler olduğunu unutmayın, bu nedenle yalnızca renkli yavaş işlevlerin yürütme zaman çizelgesini dikkate alırız.
+İlk olarak, bu iki kişi bulma işlevi paralel olarak yürütülebilir, diğer işlevlere bağımlı olmadıkları için pembe kutudan beyazla vurgulanabilir.
+Daha sonra, düğüm oluşturma olayı daha sonra düşük seviyeli düğümlerden sonuçlar elde ettikten sonra yürütülebilir ve daha sonra üst işlev verimi böylece tüm program tamamlanır.
+Yürütme süreci katıdır, bazı işlemlerin paralelleştirilemediği ve gözle görülür bir gecikmeye neden olan program bağımlılığı yapısı ile sınırlıdır.
+Gittikçe tahmin ettiğimiz çevrimiçi sistemimizde, programın yürütülmesi daha erken başlayabilir.
+Burada, Obama'dan sonraki önekte, kişi bulma işlevinin programda olması gerektiğinden emin bir şekilde tahmin ediyoruz, ancak geri kalanı gri renkte olduğu için hatalar içerebilir.
+Düğümün yürütülmesi hemen bir adım olarak başlatılabilir.
+Daha sonra, daha fazla jetonla, tamamen yeni bir grafik tahmin ediyoruz, ancak bir kısmı zaten yürütülüyor.
+Bu nedenle, yalnızca emin olduğumuz düğümlerin geri kalanını da göz önünde bulundurmamız gerekir.
+Burada, başka bir bulunan kişi paralel olarak yürütülebilir.
+Yine, yanlış tahminlerimiz olabilir.
+Daha fazla metinle, bunu düzeltmek için daha fazla yeteneğimiz var.
+AM'nin de doğru bir şekilde öngörüldüğü olay zamanı gibi.
+Ardından, program bağımlılık yapısını izleyerek gerisini çalıştırmaya başlayabiliriz.
+Yürütme zaman çizelgesini ifade zaman çizelgesiyle çakıştırarak büyük miktarda zaman tasarrufu sağlarız.
+Bu yüzden çevrimiçi semantik ayrıştırma görevini önerdik.
+Altta yatan varsayımlardan biri, yürütme süresinin model tahmin süresine hakim olmasıdır.
+Bu yüzden sadece daha önce tahmin ederek zaman kazanabiliriz.
+Başka bir varsayım, tahmin ve yürütme arka planda gerçekleştiğinden, kullanıcılar tarafından görülemediğidir.
+Tutarlı bir ayrıştırma geçmişi sürdürmek gerekli değildir.
+Yani, her belirteçten sonra sıfırdan onarıyoruz.
+Özellikle iki aşamalı bir yaklaşım öneriyoruz.
+Tam yapıya sahip bir grafiği öngören önerilen bir adım ve şu anda yürütülmeye değer düğümleri seçen bir seçim adımı.
+Önerilen yöntemin iki çeşidi vardı.
+İlk yaklaşım, bir dil modelinin tamamlanmasını grafik ayrıştırmaya tam ifadeyle birleştirir.
+Özellikle, Obama'dan sonraki önek önce ince ayarlı bir BART dil modeli ile tamamlanır ve daha sonra tam çevrimdışı ayrıştırıcılı bir programa çevrilir.
+İkinci yaklaşım, programı kullanıcı ifadeleri öneklerinden doğrudan tahmin eder.
+Bu, her bir önekten hedef grafiğe çevirmek için tek bir çevrimiçi ayrıştırıcıyı eğiterek elde edilir.
+Bu, modelin doğru beklentiyi öğrenmesini kolaylaştırır.
+Biraz daha ayrıntılı olarak, bu grafikleri nasıl oluşturabiliriz?
+Grafiğin seri bir versiyonunu oluşturarak problemi formüle ediyoruz.
+Her düğüm veya kenar bir eylemle temsil edilir.
+Burada ilk düğümden başlıyoruz.
+Aşağıdaki sayı, eylem geçmişindeki mutlak endeksi kaydeder.
+Sonra ikinci düğümü elde ettik.
+Sonra, aralarındaki uçurum.
+Önceki düğümün dizininin işaretçisini ve kenar etiketini içerir.
+Burada sıfır, en son düğümü sıfırıncı eylem tarafından oluşturulan düğüme ve bir sonraki düğümün sonraki kenarına bağlamak anlamına gelir.
+Bu süreç biz tam grafiği oluşturana kadar devam eder.
+Altta yatan model, önceki bir geçiş tabanlı ayrıştırıcıya benzer kendi kendine işaret etme mekanizmasına sahip transformatöre dayanmaktadır.
+Tam bir grafik oluşturduktan sonra, grafiğin farklı bölümlerine karşılık gelen eylem seviyesi olasılıklarını elde ettik.
+Yürütülecek eşikleme sezgiseline dayalı güven alt grafiklerini seçiyoruz.
+Daha sonra, gecikme azaltma ve yürütme maliyeti arasında farklı ödünleşimler elde etmek için eşiği değiştireceğiz.
+Çevrimiçi yöntemlerin resmi değerlendirmesi için, nihai gecikme süresini azaltma veya FLR metriğini öneriyoruz.
+İşte çevrimdışı bir sistemin yürütme zaman çizelgesini nasıl tamamladığının bir özeti.
+Çevrimiçi sistemlerde yürütme, ifade zaman çizelgesiyle çakışır, bu nedenle daha erken sona erer.
+FLR, yürütmenin sonu ile işaretlenen çevrimdışı sisteme kıyasla azaltma süresi olarak tanımlanır.
+İki büyük konuşma semantik ayrıştırma veri kümesi, SMCalFlow ve TreeDST üzerinde deneyler yapıyoruz.
+Çevrimdışı çalışırken grafik tabanlı ayrıştırıcımız, her iki veri kümesinde ayrıştırmada en son teknolojiye sahip performansa ulaşır.
+LM komple modeli, düğüm tamamlamanın basit temel çizgisine kıyasla önemsiz olmayan BLEU kazancı da sağlar.
+Şimdi, grafik ayrıştırıcısına önekimizin tahmin doğruluğuna bakalım.
+Doğrulama verilerinde üretim ve go grafiği arasındaki grafik değişkenlerinin y eksenindeki eşleşen F1 skorunu, x eksenindeki her bir önek uzunluğu için yüzde ile temsil edilen test ediyoruz.
+Bu eğrilerin her biri, eğitim verilerindeki tek farkla farklı bir modeli temsil eder.
+Alttaki eğri çevrimdışı ayrıştırıcıdır ve modeli çevrimiçi bir ayrıştırıcıya geçirmek için önek verilerini farklı uzunluklarda karıştırırız.
+Örneğin, gösterge ön eki yüzde seksen artı, modelin ön ek uzunluğu tam ifade uzunluğunun yüzde sekseninden daha büyük olan ön ek verileriyle eğitildiği anlamına gelir.
+Sol üst köşe istenen alandır.
+Gördüğümüz gibi, siyah eğrideki çevrimdışı ayrıştırıcı önek verilerinde iyi çalışmıyor.
+Eğitimde daha fazla önek karıştırdıkça, eğri yukarı ve sola doğru kalkıyor ve tüm önek uzunluklarında daha iyi performans gösteriyor.
+Ancak sağ üst noktada tam sözdizimi ayrıştırma performansı etkilenmez.
+Bu güçlü sonuçlara dayanarak, ne kadar gecikme süresini azaltıyoruz?
+Zamanı kaynak belirteçlerin sayısıyla ölçer ve farklı işlev yürütme sürelerini simüle ederiz.
+Eğriler, FLR metriği ile yürütme maliyeti arasındaki dengeyi gösterir ve doğru olmayan aşırı işlev maliyetlerinin sayısıyla ölçülür.
+Bu, alt grafik seçim eşiğinin değiştirilmesi vasıtasıyla elde edilir.
+Daha yüksek bir eşik, daha az hata fonksiyonu seçer, ancak daha küçük bir FLR elde ederken, daha düşük eşik daha agresif bir şekilde programları seçer ve yürütür.
+Önerdiğimiz iki yaklaşımı ve çevrimdışı ayrıştırıcıyı çevrimiçi kullanım için doğrudan uygulamaktan başka bir şey yapmayan bir temel çizgiyi karşılaştırıyoruz.
+Sol üst bölge en iyi FLR ve maliyet ödünleşimine sahiptir.
+Her iki yöntemimizin de temel çizgiyi büyük bir farkla geçtiğini görüyoruz ve TreeDST'de daha benzer şekilde performans gösteriyorlar.
+Bireysel işlev yürütme daha hızlı olsa da, daha fazla çalıştırma yürütmesi ve daha düşük gecikme azaltma odası olma eğilimindedir.
+Bireysel işlev yürütme daha yavaş olduğunda, FLR iyileştirmesi için daha fazla yer vardır.
+İki yaklaşımımız farklı maliyet maliyet bölgelerinde daha iyi performans sağlar.
+Genel olarak, yürütme süresine ve izin verilen maliyete bağlı olarak yüzde otuz ila altmış üç nispi gecikme azalması elde ediyoruz.
+Son olarak, izin verilen maliyet üç çalıştırma yürütmesi olduğunda, işlev düğümünün her türü için belirteçlerdeki ortalama gecikme azalmasının bir dökümüne sahibiz.
+Gördüğümüz gibi, her yerde kazanımlar var.
+Kırmızı çubuğun çok daha uzun olduğu durumlarda, yönetici ve alıcı bulma gibi etkileyici gecikme süresi azaltımı elde ettiğimiz bazı işlevler de vardır.
+Bunlar, başkalarına fazla bağımlılığı olmayan düşük seviyeli işlevlerdir.
+Sonuç olarak, titiz gecikme azaltma metriği ile keşfedilecek yeni bir görev olarak çevrimiçi semantik ayrıştırma önerdik.
+Güçlü bir grafik tabanlı semantik ayrıştırıcı ile, LM tamamlama ve tam ayrıştırıcı ile boru hattı yaklaşımımızla veya doğrudan öneklerde öğrenilmiş bir ayrıştırıcı aracılığıyla nispeten iyi gecikme süresi azaltımı elde ederiz.
+Dahası, yaklaşımımız genel bir çerçeve olabilir ve farklı alanlardaki diğer yürütülebilir anlamsal temsillere uygulanabilir.
+Gelecekteki çalışmalar daha akıllı tahmin ve yürütme entegrasyon yöntemini keşfedebilir.
+Dinlediğiniz için teşekkürler.
+Merhaba.
+Soru cevaplama görevleri için geri alma artırılmış karşı olgular oluşturma konusundaki çalışmalarımızı tartışacağım.
+Bu, Matthew Lamm ve Ian Tenney tarafından mentorluk yaptığım Google Research'teki stajım sırasında yapılan bir çalışmadır.
+Görevi motive etmek için, bir karşı olgusal tanımlayarak başlayayım.
+Bu çalışmada, bir karşı olguyu, giriş metninin orijinal metinden anlamlı bir şekilde kontrollü bir şekilde farklılık gösteren bir tedirginliği olarak tanımlıyoruz.
+Ve sonuçtaki veya görev etiketindeki değişiklikler hakkında akıl yürütmemizi sağlar.
+Örneğin, büyüleyici kelimelerin büyüleyici veya zihin uyuşturucu olması beklenen kelimelerin değiştirilmesi, bu film incelemesinin duygusunu değiştirir.
+Benzer şekilde, niteleyici kadınların soruya eklenmesi, aşağıdaki örnekteki sorunun cevabını değiştirir.
+İnsanlar, görev konusunda eğitilmiş NLP modellerine kıyasla tipik olarak bu tür tedirginliklere karşı dayanıklıdır.
+Nedenmiş o?
+Veri kümesi, karşı olgusal tarafından ihlal edilen basit bir karar sınırına yol açan sistematik önyargılarla örneklenebilir.
+Bu 2D sınıflandırma probleminde gösterildiği gibi.
+Çalışmam, eğitim verilerine karşı olgusal örnekler eklemenin modeli bu tür rahatsızlıklara karşı sağlam hale getirebileceğini buldu.
+Öyleyse, eğer karşı olgular değerliyse, onları nasıl üretebiliriz?
+Bu görev özellikle NLP için zordur, çünkü burada üç farklı NLP görevinden üç örnek verilmiştir.
+Gördüğünüz gibi, sonuçlar arasındaki karar sınırını ihlal eden örneklerin, burada altı çizilen metnin bazı niteliklerini bozarak çok dikkatli bir şekilde hazırlanması gerekir.
+Bu, insan açıklamasıyla yapılabilir, ancak bu pahalı ve önyargılıdır.
+Daha önce yapılan bazı çalışmalar sözdizimi ağaçlarını veya anlamsal rol etiketlemesini kullanmaya odaklanmıştır.
+Ancak bu teknikler tarafından üretilen tedirginlikler kümesi, anlamsal çerçeve ile sınırlıdır.
+Daha yeni çalışmalar, etiketleri değiştirmek için metnin maskeli kısımlarını doldurmak için maskeli dil modellerini kullandı.
+Ancak metnin hangi bölümlerinin rahatsız edileceğini bulmak zor olabilir.
+Özellikle soru cevaplama için karşı olgusallar oluşturmanın daha fazla zorluğu vardır.
+Bu görev arka plan bilgisi gerektirir.
+Örneğin, asıl soruyu rahatsız etmek için Indiana Jones Doom Tapınağı bir prequel mi?
+Indiana Jones Raiders of the Lost Ark gibi bir soruya ulaşmak için franchise'daki diğer filmlerin farkında olmamız gerekiyor.
+Ayrıca, rastgele tedirginlikler, mevcut kanıtlarla cevaplanamayan veya yanlış öncüllere sahip sorulara yol açabilir.
+Dahası, bazı soru tedirginlikleri orijinal girdiden önemli ölçüde anlamsal sapmaya yol açabilir.
+Örneğin, bu soru Indiana Jones'un Doom Tapınağı'nda çocuk köleliği uygulaması mı?
+Soruların karşı olgusal tedirginliklerini ele almak için retrieve generate filter veya RGF adı verilen çok basit ama etkili bir teknik öneriyoruz ve ayrıca yukarıda belirtilen tüm zorlukların üstesinden gelmeyi amaçlıyoruz.
+RGF'nin arkasındaki temel sezgi, pertürbasyon oluşturmak için gerekli olan arka plan bilgisinin, bir soru cevaplama modeli tarafından yapılan ramak kala olaylarında mevcut olabileceğidir.
+Örneğin, son teknoloji model ALEM, Richmond Futbol Kulübü'nün kaptanı kimdir sorusuna aşağıdaki en iyi k cevaplarını üretiyor?
+Orijinal referans pasajını kurtarır ve Trent Cotchin'i en iyi seçenek olarak cevaplar.
+Ayrıca, soru tedirginliğini yönlendirmek için kullanılabilecek ek pasajlar ve cevaplar alır.
+Örneğin, rezerv takımın kaptanlarına ve aynı kulübün kadın takımına karşılık gelen iki cevabı daha kurtarır ve bu ilginç düzenlemelere yol açabilir.
+Özetlemek gerekirse, RGF önce bağlamdaki referans cevabıyla eşleşmeyen en alakalı cevapları ve bağlamları alır.
+Bu adımı takiben, soru üretme modeli, bu alternatif cevapları kendilerine karşılık gelen bir soru üretmek için şart koşar.
+Ve son olarak, oluşturulan soruları minimaliteye veya tanıtmakla ilgilendiğimiz anlamsal tedirginlik türüne göre filtreleyebiliriz.
+Geri alma için her adımı daha ayrıntılı olarak gözden geçirirken, orijinal soruyu girdi olarak alan ALEM gibi bir alma sonra okuma modeli ve Wikipedia gibi büyük bir korpus kullanırız.
+İki modülden oluşur.
+Retriever modülü, soruya en alakalı en üst k pasajı almak için yoğun bir pasaj indeksi üzerinde benzerlik araması gerçekleştirir.
+Ve bir okuyucu modülü daha sonra her pasajdan potansiyel bir cevap olarak bir aralık çıkarır.
+REALM altın pasajı alır ve çoğu durumda cevap verir.
+Bununla birlikte, bu çalışmada, hattın daha da ilerisine götürdüğü cevaplar ve bağlamla daha fazla ilgileniyoruz.
+Bir sonraki adımda, soru oluşturma, bu alternatif alternatiflere karşılık gelen yeni soruları yeniden oluşturmak için bu alternatif cevapları ve bağlamları kullanıyoruz.
+Soru üretme modeli, bağlamda işaretlenmiş bir cevap için bir soru üretmek üzere NQ verileri üzerinde ince ayar yapılmış önceden eğitilmiş bir metin - metin dönüştürücüsüdür.
+Çıkarım sırasında, soru oluşturma modelini, bir önceki adımda aldığımız alternatif cevabı ve bağlamı sağlıyoruz.
+Richmond Futbol Kulübü'nün kaptanı kimdir? REALM, Jess Kennedy'nin kaptanlığını yaptığı kulübün kadın takımı hakkındaki pasajları alıyor ve soru üretme modeli, Richmond Futbol Kulübü'nün ilk kadın takımının kaptanlığını kimin yaptığını sorguluyor.
+Belirli bir semantik tedirginliği olan.
+Benzer şekilde, Richmond'un VFL Reserve takımını kimin kaptanlık ettiği gibi sorular da alıyoruz.
+Ya da Graham geçen yılki büyük finalde kimi reddetti?
+Son olarak, oluşturulan sorguların bir alt kümesini istenen bazı özelliklere göre filtreliyoruz.
+Daha önce motive edildiği gibi, yeni sorunun hala anlamsal olarak orijinaline yakın olmasını sağlamak istiyoruz.
+Ek denetim gerektirmeyen filtreleme teknikleri için, orijinal sorudan küçük bir belirteç etiketi düzenleme mesafesine sahip yeni soruları saklıyoruz.
+Örneğin, Graham'ın geçen yılki büyük finalde kimi reddettiği sorusunu kaldırıyoruz.
+Çünkü orijinal sorudan daha uzun bir düzenleme mesafesine sahiptir.
+Deneylerimizde, bu basit buluşsal yöntemin eğitim verilerini artırmak ve sıraya koymak için kullanılabileceğini gösteriyoruz.
+Ayrıca, anlamsal tedirginlik türüne dayanan bir filtreleme stratejisini de deniyoruz.
+Bu amaçla, QED adı verilen genel amaçlı bir sorgu ayrıştırma çerçevesi kullanıyoruz.
+QED, sorunun iki bölümünü, bir yüklem ve bir referansı tanımlar.
+Referanslar, soruda bağlamdaki varlıklara karşılık gelen isim ifadeleridir.
+Bir yüklem temelde sorunun kalan kısmıdır.
+Örneğin, Richmond'un ilk kadın takımına kaptanlık eden sorguyu iki referansa ayrıştırabiliriz: Richmond Futbol Kulübü kadın takımı ve X'e kaptanlık eden yüklem.
+NQ için referans yüklem ek açıklamaları konusunda eğitilmiş bir model bize bu soru ayrıştırmasını verir.
+Hem orijinal hem de oluşturulan soruyu QED'ye göre ayrıştırmak, oluşturulan karşı olgularımızı değerlendirme için kategorize etmemizi sağlar.
+Özellikle iki grup soru elde ediyoruz.
+Yükümlülükleri korurken bir referans değişikliğine uğrayanlar ve bir yüklem değişikliğine uğrayanlar ve isteğe bağlı olarak referanslar ekleyenler.
+Örneğin, Richmond'un VFL rezerv takımını kim kaptan yaptı?
+Bu arada, kulüp için dokuz numarayı giyen kişi bir yüklem değişikliğidir.
+Şimdi eğitim verilerine arttırıldığında RGF pertürbasyonlarının etkinliğini değerlendiriyoruz.
+Bu nedenle, özellikle karşı olgusal artırmanın etkinliğini etkili bir şekilde değerlendirmek için, iki güçlü veri artırma temel çizgisini deniyoruz.
+Rastgele cevap ve soru üretimi olarak adlandırılan ilk temel çizgi, orijinal soruyla ilgisi olmayan verileri ekler.
+Yani, pasajlar ve cevaplar Wikipedia'dan rastgele örneklenir.
+Bu taban çizgisi temel olarak NQ'ya benzeyen daha fazla veri ekler.
+İkinci taban çizgisi altın cevabı ve soru üretimi ile, yöntemimizin geri alma bölümünü özellikle güncelliyoruz.
+Burada, alternatif cevaplar sadece altın cevabı içeren aynı pasajdan seçilir.
+Temel çizgiler ve RGF ah büyütme, modelin soru ve bağlama erişebildiği okuma anlama üzerine nasıl performans gösterir?
+Alan dışı altı veri kümesini deniyoruz ve sonuçları burada sunuyoruz; burada veriler, eğitim verilerinin büyütmede iki katına çıkarıldığı yerdir.
+Her iki veri büyütme temel çizgisinin de etki alanı genellememizi iyileştiremediğini görüyoruz.
+Aslında, orijinal veriler üzerinde eğitilmiş altı modelden oluşan bir topluluk en rekabetçi temel gibi görünmektedir.
+Bu temel çizgiyle karşılaştırıldığında, RGF karşı olgusallarının etki alanı performansını korurken etki alanı performansını iyileştirebildiğini görüyoruz.
+Bu, modelin muhakeme boşluklarını karşı olgusal artırma yoluyla doldurmanın, eğitim dağılımından daha fazla veri eklemekten daha etkili olduğunu göstermektedir.
+Ayrıca, alternatif sonuçları veya cevapları örneklemek için geri kazanımın kullanılmasının etkili CDA için önemli olduğunu görüyoruz.
+Ayrıca, modelin yalnızca soruyu gördüğü açık alan QA ayarını da deniyoruz ve bir kez daha alan dışı dört veri kümesini değerlendiriyoruz.
+Temel modellerin etki alanı dışı genelleme için etkili olmadığını görüyoruz.
+Bununla birlikte, RGF ile veri büyütme daha önemli gelişmeler göstermektedir.
+Alan içi NQ veri kümesinde bile gelişiyoruz.
+Karşı olgusal veri artırımının, modelin çok benzer sorgular için daha iyi sorgu kodlamaları öğrenmesine yardımcı olduğunu varsaydık.
+Son olarak, modelin orijinal sorunun yerel mahallesindeki tutarlılığı iyileştirme yeteneğini de değerlendiriyoruz.
+Tutarlılık, hem orijinal hem de karşı olgusal sorgunun doğru cevaplandığı model tarafından doğru cevaplanan soruların oranını ölçer.
+Bu, modelin orijinal girdinin çevresindeki küçük tedirginliklere karşı sağlamlığını ölçmemize açıkça yardımcı olur.
+Anlamsal olarak birbirine yakın soru çiftleri içeren beş veri kümesi ile deney yapıyoruz.
+Halihazırda mevcut olan üç veri kümesi AQA, AmbigQA ve QUOREF - Kontrast setinin yanı sıra, orijinal NQ soruları ile eşleştirilen RGF karşı olgusallarını da bir yüklem değişikliği veya referans değişikliği geçirip geçirmediklerine göre değerlendiriyoruz.
+Bu alt kümeler gürültüyü ortadan kaldırmak için şirket içinde ek açıklamalı ve bir kaynak olarak sağlanmıştır.
+Tüm temel çizgiler, tutarlılığı küçük bir farkla iyileştiren topluluk modeliyle tutarlılığı önemli ölçüde iyileştiremez.
+Bununla birlikte, RGF karşı olgusal büyütme, hem önceki veri kümelerinde hem de referans ve yüklem pertürbasyonları için küratörlüğünü yaptığımız iki alt kümede tutarlılık açısından etkileyici kazanımlara sahiptir.
+Artırılmış RGF verilerinin pertürbasyon tipine göre önyargılı olmadığını, yalnızca değerlendirme setlerinin olduğunu unutmayın.
+Aslında, üretilen karşı olgusal türlerin nitel bir incelemesi, üretilen soruların birkaç farklı tedirginlik içerdiğini göstermektedir.
+Örneğin, Walnut Grove, Minnesota nüfusu hakkındaki bu orijinal soru, kasaba, eyalet, ülke gibi farklı boyutlarda ve konum, yoksulluk, okul sayısı gibi farklı yüklemler boyunca tedirgin edilmektedir.
+Pertürbasyonların sesi bağlama özgüdür.
+Örneğin, Wimbledon ah single turnuvasıyla ilgili bu diğer soru için, tedirginlik oyun türü, turnuva türü veya oyun sonucudur.
+Nihai çıkarımlar; bilgi arama sorguları için karşı olgusal veri artırma ve pertürbasyon görevlerini ele alıyoruz ve üretim yaklaşımının tersine çevrilmesi yoluyla benzersiz zorluklarıyla başa çıkıyoruz, modelin kıl payı kurtulmalarını kullanarak üretiyoruz ve pertürbasyon türüne veya minimaliteye dayalı filtreliyoruz.
+Bu tekniğin ek bir denetim gerektirmediğini ve örneklerin büyütme için etiketlendiğini görüyoruz.
+Büyütme, etki alanı genellemesi ve mahalle tutarlılığı dışında gelişir.
+Ve RGF karşı olgusallarının, artırma sırasında önyargı getirmeden anlamsal olarak farklı olduğunu görüyoruz.
+Teşekkür ederim.

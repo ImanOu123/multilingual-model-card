@@ -1,0 +1,416 @@
+Hallo zusammen. Heute werde ich unsere Forschungsarbeit Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction vorstellen.
+Ich bin Allan vom ByteDance AI Lab, und das ist eine gemeinsame Arbeit mit Jierui Li von der University of Texas at Austin und Wei Lu von SUTD.
+Zuerst möchte ich über unsere Argumentationsmotivation sprechen.
+Hier zeigen wir Beispiele, bei denen mehrstufiges Denken hilfreich ist.
+Diese Zahl stammt aus dem PaLM-Papier, in dem sie aufgefordert werden, das Netzwerkproblem in dem Szenario mit wenigen Shots zu lösen.
+Auf der linken Seite können wir also sehen, wenn wir einige Beispiele mit bloßen Fragen und Antworten geben, könnten wir möglicherweise nicht in der Lage sein, die richtigen Antworten zu erhalten.
+Wenn wir jedoch eine weitere Argumentationsbeschreibung geben, ist das Modell in der Lage, die Argumentationsbeschreibung vorherzusagen und hier auch eine korrekte Vorhersage zu treffen.
+Daher ist es gut, interpretierbare mehrstufige Argumentation als Ausgabe zu haben.
+Und wir denken auch, dass das mathematische Wortproblem eine einfache Anwendung ist, um solche Denkfähigkeiten zu bewerten.
+Also, hier in unserem Problem-Setup, angesichts der Fragen, die wir brauchen, um diese Frage zu lösen und die numerischen Antworten zu erhalten.
+In unseren Datensätzen erhalten wir also auch den mathematischen Ausdruck, der auch zu dieser speziellen Antwort führt.
+Es gelten also auch bestimmte Annahmen ah wie in früheren Arbeiten.
+Wir gehen davon aus, dass die Genauigkeit der Mengen bekannt ist.
+Und wir betrachten nur grundlegende Operatoren wie Addition, Subtraktion, Multiplikation, Division und Exponential.
+Weiterhin können komplizierte Operatoren tatsächlich in diese Grundoperatoren zerlegt werden.
+So können frühere Arbeiten zur Lösung von mathematischen Wortproblemen tatsächlich in Sequenz zu Sequenz und Sequenz zu Baummodell kategorisiert werden.
+Das traditionelle Sequenz-zu-Sequenz-Modell wandelt die Expression also in eine bestimmte Sequenz für die Generierung um.
+Und es ist ziemlich einfach zu implementieren und es kann zu vielen verschiedenen komplizierten Problem verallgemeinern.
+Die Nachteile sind jedoch, dass die Leistung im Allgemeinen nicht besser ist als das strukturierte Modell und seine mangelnde Interpretierbarkeit für Vorhersagen.
+Aber eigentlich ist diese Richtung immer noch sehr beliebt wegen um das Transformator-Modell.
+In baumbasierten Modellen strukturieren wir diese Ausdrücke also tatsächlich in der Baumform und folgen einem vorbestellten Durchlauf in Baumgenerationen.
+Hier erzeugen wir also weiterhin die Operatoren, bis wir die Blätter erreichen, das sind die Mengen.
+Das Gute ist also, dass es uns tatsächlich diese binäre Baumstruktur gibt, und es ist ähm, aber eigentlich ist es ziemlich kontraintuitiv, weil wir zuerst den Operator und dann am Ende die Mengen erzeugen.
+Und das zweite ist, dass es auch einige sich wiederholende Berechnungen enthält.
+Wenn wir uns also diesen Ausdruck anschauen, werden acht mal drei plus drei tatsächlich zweimal generiert, aber tatsächlich sollten wir die Ergebnisse wiederverwenden.
+In unserem vorgeschlagenen Ansatz wollen wir diese Probleme also Schritt für Schritt und auf interpretierbare Weise lösen.
+Zum Beispiel können wir hier im zweiten Schritt ah diese Teiler erhalten, die siebenundzwanzig sind.
+Und wir können auch auf die ursprünglichen Fragen zurückgreifen, um die entsprechenden Inhalte zu finden.
+Und in diesen Schritten erhalten wir die Teiler.
+Also, ah und dann bei diesem dritten Schritt bekommen wir tatsächlich den Quotienten.
+Und nach diesen drei Schritten können wir tatsächlich die Ergebnisse aus dem zweiten Schritt wiederverwenden und dann die Ergebnisse des vierten Schritts erhalten und schließlich können wir die Dividenden erhalten.
+Hier generieren wir also tatsächlich den gesamten Ausdruck direkt, anstatt einen einzelnen Operator oder Mengen zu generieren.
+Dadurch wird der Prozess genauer.
+In unserem deduktiven System beginnen wir also zunächst mit einer Reihe von Mengen, die in den Fragen dargestellt werden, und auch mit einigen Konstanten als unserem Anfangszustand.
+Der Ausdruck wird also durch e i j o p dargestellt.
+Wo wir Operatoren von q_i bis q_j ausführen, und ein solcher Ausdruck ist tatsächlich gerichtet.
+Wir haben hier also auch eine Subtraktion mit Wörtern, um die entgegengesetzte Richtung darzustellen.
+Dies ist der Relationsextraktion sehr ähnlich.
+In einem formalen deduktiven System wenden wir in einem Zeitschritt t den Operator zwischen dem q_i- und q_j-Paar an, und dann erhalten wir diesen neuen Ausdruck.
+Wir fügen es dem nächsten Staat hinzu, um eine neue Menge zu werden.
+Diese Folien visualisieren also tatsächlich die Entwicklung des Zustands, in dem wir dem aktuellen Zustand ständig einen Ausdruck hinzufügen.
+In unseren Modellimplementierungen verwenden wir also zuerst ein vortrainiertes Sprachmodell, das BERTs oder Robertas sein kann, und dann kodieren wir den Satz und erhalten dann diese Mengenrepräsentationen.
+Sobald wir also die Mengenrepräsentationen erhalten haben, können wir anfangen, Rückschlüsse zu ziehen.
+Hier zeigen wir ein Beispiel für q_1, um die Darstellung für q_2 dividiert durch q_2 und dann mal q_3 zu erhalten.
+Zuerst erhalten wir die ah-Paar-Darstellung, die im Grunde nur die Verkettung zwischen q_1 und q_2 ist, und dann wenden wir ein Feedforward-Netzwerk an, das vom Operator parametriert wird.
+Und dann erhalten wir schließlich die Ausdrucksdarstellung q_1 dividiert durch q_2.
+Aber in der Praxis könnten wir in der Folgerungsphase auch in der Lage sein, den falschen Ausdruck zu erhalten.
+Hier entspricht also alles mögliche der dreifachen Anzahl von Operatoren.
+Das Schöne hier ist, dass wir einfach Einschränkungen hinzufügen können, um diese Suche in diesem Suchraum zu steuern.
+Wenn dieser Ausdruck beispielsweise nicht erlaubt ist, können wir diesen Ausdruck einfach in unserem Suchraum entfernen.
+Im zweiten Schritt machen wir also das Gleiche, aber der einzige Unterschied ist, dass wir ah der einzige Unterschied ist eine weitere Menge.
+Diese Menge stammt also aus dem zuvor berechneten Ausdruck.
+So können wir endlich diesen letzten Ausdruck q_3 mal q_4 erhalten.
+Und wir können auch sehen, dass sich die Anzahl aller möglichen ah-Ausdrücke vom vorherigen Schritt unterscheidet.
+Ein solcher Unterschied macht es also schwierig, die Strahlsuche anzuwenden, weil die Wahrscheinlichkeitsverteilung zwischen diesen beiden Schritten unausgewogen ist.
+Das Trainingsverfahren ähnelt also dem Training eines Sequenz-zu-Sequenz-Modells, bei dem wir den Verlust bei jedem Zeitschritt optimieren.
+Und hier verwenden wir diese Tau auch, um darzustellen, wann wir diesen Generierungsprozess beenden sollten.
+Und hier ist der Raum von Sequenz zu Sequenz unterschiedlich, weil der Raum bei jedem Zeitschritt unterschiedlich ist, während im traditionellen Sequenz-zu-Sequenz-Modell dies die Anzahl der Vokabeln ist.
+Und es ermöglicht uns auch, bestimmte Einschränkungen aus Vorkenntnissen aufzuerlegen.
+Daher führen wir Experimente mit den häufig verwendeten mathematischen Wortproblemdatensätzen MAWPS, Math23K, MathQA  und SVAMP durch.
+Und hier zeigen wir kurz die Ergebnisse im Vergleich zu den bisherigen besten Ansätzen.
+Unsere leistungsstärkste Variante ist also Roberta-DeductiveReasoner.
+Und tatsächlich verwenden wir keine Strahlsuche, im Gegensatz dazu verwenden alle bisherigen Ansätze die Strahlsuche.
+Also, die besten Ansätze sind oft baumbasierte Modelle.
+Insgesamt ist unser Denker also in der Lage, dieses baumbasierte Modell erheblich zu übertreffen.
+Aber wir können sehen, dass die absoluten Zahlen auf MathQA oder SVAMP nicht wirklich hoch sind.
+Daher untersuchen wir die Ergebnisse von SVAMP weiter.
+Und dieser Datensatz ist herausfordernd, weil der Autor versuchte, manuell etwas hinzuzufügen, um das NLP-Modell zu verwirren, wie z. B. das Hinzufügen irrelevanter Informationen und zusätzlicher Mengen.
+In unserer Vorhersage stellen wir also fest, dass einige der Zwischenwerte tatsächlich negativ sind.
+Zum Beispiel, ähm, in diesen Fragen stellen wir uns, wie viele Äpfel Jake hat?
+Aber wir haben einige zusätzliche Informationen wie siebzehn Bilder weniger, und Steven hat acht Bilder, was völlig irrelevant ist.
+Unser Modell macht also eine Vorhersage wie diese, die negative Werte erzeugt.
+Und wir beobachten, dass diese beiden Ausdrücke tatsächlich ähnliche Werte haben.
+Wir können also diesen Suchraum tatsächlich einschränken, indem wir jene Ergebnisse entfernen, die negativ sind, damit wir die Antwort korrigieren können.
+Wir finden weiter, dass sich diese Einschränkung bei einigen Modellen sogar erheblich verbessert.
+Zum Beispiel für BERT verbessern wir sieben Punkte und dann für das Roberta-Basismodell sogar zwei Punkte.
+Ein besseres Sprachmodell hat also bessere Sprachverständnisfähigkeiten, so dass die Zahl hier für Roberta höher und für BERT niedriger ist.
+Und wir versuchen auch, die Schwierigkeit hinter all diesen Datensätzen zu analysieren.
+Wir gehen davon aus, dass die Anzahl der nicht verwendeten Mengen hier als irrelevante Informationen angesehen werden kann.
+Hier können wir also sehen, dass wir den Prozentsatz der Proben mit unbenutzten Mengen haben und der SVAMP-Datensatz den größten Anteil hat.
+Und hier zeigen wir auch die Gesamtleistung.
+Für Proben ohne unbenutzte Mengen ist die Gesamtleistung tatsächlich höher als die Gesamtleistung.
+Aber mit diesen Proben, die mit unbenutzter Menge ist eigentlich viel schlimmer als die, schlimmer als die Gesamtleistung.
+Für MAWPS haben wir nicht wirklich ah zu viele Testfälle, also ignoriere ich diesen Teil einfach.
+Zum Schluss wollen wir die Interpretierbarkeit anhand eines Beispiels für eine Frage-Störung zeigen.
+Hier macht unser Modell also im ersten Schritt tatsächlich eine falsche Vorhersage.
+Also können wir diesen Ausdruck mit dem Satz hier korrelieren.
+Wir glauben also, dass dieser Satz das Modell zu falschen Vorhersagen verleiten könnte.
+Wenn man also hier noch fünfunddreißig pflanzt, denkt das Modell, dass es ein Additionsoperator sein sollte.
+Wir versuchen also, den Satz so zu überarbeiten, dass die Anzahl der Birnenbäume 35 weniger beträgt als die der Apfelbäume.
+Wir machen es also, um eine genauere Semantik zu vermitteln, so dass das Modell in der Lage ist, die Vorhersage zu korrigieren.
+Diese Studie zeigt also, wie die interpretierbaren Vorhersagen uns helfen, das Modellverhalten zu verstehen.
+Um unsere Arbeit abzuschließen, so dass zunächst unser Modell ist eigentlich ziemlich effizient.
+Und wir sind in der Lage, ein interpretierbares Lösungsverfahren anzubieten.
+Und wir können leicht einige Vorkenntnisse als Einschränkung einbeziehen, die dazu beitragen können, die Leistung zu verbessern.
+Und das Letzte ist, dass der zugrunde liegende Mechanismus nicht nur für die Lösung von Netzwerkproblemen gilt, sondern auch für andere Aufgaben, die mehrstufige Argumentation erfordern.
+Wir haben auch gewisse Einschränkungen.
+Ah, wenn wir eine große Anzahl von Operatoren oder Konstanten haben, könnte der Speicherverbrauch ziemlich hoch sein.
+Und die zweite Sache ist, wie erwähnt, weil die Wahrscheinlichkeitsverteilung zwischen verschiedenen Zeitschritten unausgewogen ist, so dass es auch ziemlich schwierig ist, eine Strahlsuchstrategie anzuwenden.
+Das ist also das Ende des Gesprächs, und Fragen sind willkommen. Danke.
+Hallo, mein Name ist Antoine und ich bin von der Universität Maastricht.
+Ich werde meine gemeinsame Arbeit mit Jerry vorstellen, in der es um einen neuen Datensatz für die Abrufung gesetzlicher Artikel geht.
+Rechtliche Fragen sind ein integraler Bestandteil des Lebens vieler Menschen.
+Aber die Mehrheit der Bürger hat wenig Wissen über ihre Rechte und grundlegenden Rechtsverfahren.
+Infolgedessen werden viele schutzbedürftige Bürger, die sich die kostspielige Hilfe eines Rechtsexperten nicht leisten können, ungeschützt gelassen oder am schlimmsten ausgebeutet.
+Alle Arbeiten zielen darauf ab, die Kluft zwischen Mensch und Gesetz zu überbrücken, indem ein effektives Abrufsystem für gesetzliche Artikel entwickelt wird.
+Ein solches System könnte ungelernten Menschen einen kostenlosen professionellen Rechtsbeistand bieten.
+Bevor wir in den Hauptbeitrag dieser Arbeit eintauchen, wollen wir zunächst das Problem des gesetzlichen Artikelabrufs beschreiben.
+Wenn ich eine einfache Frage zu einer rechtlichen Angelegenheit stelle, wie z. B.: Was riskiere ich, wenn ich gegen das Berufsgeheimnis verstoße?
+Ein Modell ist erforderlich, um alle relevanten gesetzlichen Artikel aus einem großen Kreis von Rechtsvorschriften abzurufen.
+Diese Aufgabe zum Abrufen von Informationen bringt eine Reihe von Herausforderungen mit sich.
+Erstens geht es um zwei Arten von Sprache.
+Gemeinsame natürliche Sprache für die Fragen und komplexe Rechtssprache für die Satzung.
+Dieser Unterschied in der Sprachverteilung erschwert es einem System, relevante Kandidaten abzurufen, da es indirekt ein inhärentes Dolmetschsystem erfordert, das eine natürliche Frage in eine rechtliche Frage übersetzen kann, die der Terminologie der Satzung entspricht.
+Außerdem ist das gesetzliche Recht kein Stapel unabhängiger Artikel, die als vollständige Informationsquelle für sich betrachtet werden können, im Gegensatz beispielsweise zu Nachrichten oder Rezepten.
+Stattdessen handelt es sich um eine strukturierte Sammlung von Rechtsvorschriften, die nur dann eine ganze Bedeutung haben, wenn sie im Gesamtzusammenhang betrachtet werden, d. h. zusammen mit den ergänzenden Informationen aus den benachbarten Artikeln, den Feldern und Unterfeldern, zu denen sie gehören, und ihrem Platz in der Rechtsstruktur.
+Schließlich sind gesetzliche Artikel keine kleinen Absätze, die in den meisten Retrieval-Arbeiten in der Regel die typische Retrieval-Einheit sind.
+Hier gibt es lange Dokumente, die bis zu sechstausend Wörter umfassen können.
+Die jüngsten Fortschritte bei NLP haben großes Interesse an vielen rechtlichen Aufgaben geweckt, wie der Vorhersage des Gerichtsurteils oder der automatisierten Überprüfung von Kontaktverträgen.
+Der gesetzlich vorgeschriebene Artikelabruf blieb jedoch hauptsächlich aufgrund des Mangels an großen und hochwertigen etikettierten Datensätzen unberührt.
+In dieser Arbeit stellen wir einen neuen bürgerzentrierten Datensatz vor, um zu untersuchen, ob Abrufmodelle die Effizienz und Zuverlässigkeit eines Rechtsexperten für die Aufgabe des gesetzlichen Artikelabrufs annähern können.
+Unser belgischer gesetzlicher Artikelabrufdatensatz BSARD besteht aus mehr als tausend einhundert rechtlichen Fragen, die von belgischen Bürgern gestellt werden.
+Diese Fragen decken ein breites Spektrum von Themen ab, von Familie, Wohnen, Geld bis hin zu Arbeit und sozialer Sicherheit.
+Jeder von ihnen wurde von erfahrenen Juristen mit Verweisen auf relevante Artikel aus einem Korpus von mehr als zweiundzwanzigtausendsechshundert rechtlichen Artikeln aus belgischen Rechtsordnungen gekennzeichnet.
+Lassen Sie uns nun darüber sprechen, wie wir diesen Datensatz gesammelt haben.
+Zuerst haben wir mit der Zusammenstellung eines großen Korpus von Rechtsartikeln begonnen.
+Wir betrachteten 32 öffentlich zugängliche belgische Codes und extrahierten alle Artikel sowie die entsprechenden Abschnittsüberschriften.
+Dann sammelten wir Rechtsfragen mit Verweisen auf relevante Statuten.
+Dazu arbeiten wir mit der belgischen Anwaltskanzlei zusammen, die jedes Jahr rund viertausend E-Mails von belgischen Bürgern erhält, die um Rat zu einem persönlichen Rechtsstreit bitten.
+Wir hatten das Glück, Zugang zu ihren Websites zu erhalten, wo ihr Team von erfahrenen Juristen die häufigsten rechtlichen Fragen der Belgier behandelt.
+Wir haben Tausende von Fragen mit Anmerkungen zu Kategorien, Unterkategorien und rechtlichen Verweisen auf relevante Gesetze gesammelt.
+Schließlich haben wir die Rechtsverweise übergeben und die Fragen herausgefiltert, deren Verweise keine Artikel in einem der von uns betrachteten Rechtsvorschriften waren.
+Die übrigen Referenzen wurden abgeglichen und in die entsprechenden Artikel-IDs aus unserem Korpus konvertiert.
+Schließlich ergaben sich eintausendeinhundertachtzig Fragen, die jeweils sorgfältig mit den IDs der relevanten Artikel aus unserem großen Korpus von zweiundzwanzigtausendsechshundertdreiunddreißig gesetzlichen Artikeln gekennzeichnet waren.
+Darüber hinaus enthält jede Frage die Hauptkategorie und eine Verkettung von Unterkategorien.
+Und jeder Artikel kommt mit einer Verkettung der Teilfolge Überschrift in der Struktur des Gesetzes.
+Diese zusätzlichen Informationen werden in der vorliegenden Arbeit nicht verwendet, könnten aber für zukünftige Untersuchungen zum Abruf von Rechtsinformationen oder zur Klassifizierung von Rechtstexten von Interesse sein.
+Schauen wir uns einige Merkmale unseres Datensatzes an.
+Die Fragen sind zwischen fünf und vierundvierzig Wörter lang mit einem Median von vierzehn Wörtern.
+Die Artikel sind viel länger mit einer mittleren Länge von siebenundsiebzig Wörtern, wobei einhundertvierzig von ihnen mehr als tausend Wörter.
+Die längste ist bis zu fünftausend siebenhundertneunzig Worte.
+Wie bereits erwähnt, decken die Fragen ein breites Spektrum von Themen ab, wobei sich rund 85 Prozent entweder um Familie, Wohnung, Geld oder Gerechtigkeit drehen.
+Während die restlichen fünfzehn Prozent entweder soziale Sicherheit, Ausländer oder Arbeit betreffen.
+Der Artikel ist auch sehr vielfältig, da er aus zweiunddreißig verschiedenen belgischen Codes stammt, die eine große Anzahl von rechtlichen Themen abdecken.
+Hier ist die Gesamtzahl der Artikel, die von jedem dieser belgischen Codes gesammelt wurden.
+Von den zweiundzwanzigtausendsechshundertdreißig Artikeln werden nur eintausendsechshundertzwölf als relevant für mindestens eine Frage im Datensatz bezeichnet.
+Und rund achtzig Prozent dieser zitierten Artikel stammen entweder aus dem Zivilgesetzbuch, dem Justizgesetzbuch, dem Ermittlungsgesetzbuch oder dem Strafgesetzbuch.
+Inzwischen haben achtzehn von zweiunddreißig Codes weniger als fünf Artikel als relevant für mindestens eine Frage erwähnt.
+Was dadurch erklärt werden kann, dass sich diese Kodizes weniger auf Einzelpersonen und ihre Anliegen konzentrierten.
+Insgesamt beträgt die durchschnittliche Anzahl der Zitate für diese zitierten Artikel zwei, und weniger als fünfundzwanzig Prozent davon werden mehr als fünfmal zitiert.
+Unter Verwendung aller Datensätze haben wir mehrere Abrufansätze verglichen, einschließlich lexikalischer und dichter Architektur.
+Bei einer Abfrage und einem Artikel weist ein lexikalisches Modell dem Abfrageartikelpaar eine Bewertung zu, indem die Summe über die Abfrageterme der Gewichte jedes dieser Terme in diesem Artikel berechnet wird.
+Wir experimentieren mit den Standard TF-IDF und BM25 Ranking Funktionen.
+Das Hauptproblem bei diesen Ansätzen ist, dass sie nur Artikel abrufen können, die Schlüsselwörter enthalten, die in der Abfrage vorhanden sind.
+Um diese Einschränkung zu überwinden, experimentieren wir mit einer neuronalen Architektur, die semantische Beziehungen zwischen Abfragen und Artikel erfassen kann.
+Wir verwenden ein Bi-Codierermodell, das Abfragen und Artikel in dichte Vektordarstellungen abbildet und eine Relevanzbewertung zwischen einem Abfrageartikelpaar anhand der Ähnlichkeit ihrer Einbettungen berechnet.
+Diese Einbettungen resultieren typischerweise aus einer Pooling-Operation am Ausgang eines Worteinbettungsmodells.
+Zuerst untersuchen wir die Wirksamkeit von siamesischen Bi-Codierern in einem Nullschuss-Bewertungs-Setup, was bedeutet, dass vortrainierte Worteinbettungsmodelle sofort und ohne zusätzliche Feinabstimmung angewendet werden.
+Wir experimentieren mit kontextunabhängigen Textcodierern, nämlich word2vec und fastText, und kontextabhängigen Einbettungsmodellen, nämlich Roberta und insbesondere CamemBERT, einem französischen Roberta-Modell.
+Darüber hinaus schulen wir unser eigenes CamemBERT-basiertes Modell ah bi-Encoder in unserem Datensatz.
+Beachten Sie, dass wir für das Training mit den beiden Varianten der Bi-Codierer-Architektur experimentieren.
+Siamesisch, das ein einzigartiges Wort-Einbettungsmodell verwendet, das die Abfrage und den Artikel zusammen in einem gemeinsamen dichten Vektorraum abbildet, und Zweiturm, der zwei unabhängige Wort-Einbettungsmodelle verwendet, die die Abfrage und den Artikel getrennt in verschiedene Einbettungsräume kodieren.
+Wir experimentieren mit Mean-, Max- und CLS-Pooling sowie mit Produkten und Cosinus zur Berechnung von Ähnlichkeiten.
+Hier sind die Ergebnisse unserer Baseline zu den Testsets.
+Mit den obigen lexikalischen Methoden wurden die siamesischen Bi-Codierer in einem Nullschuss-Setup in der Mitte bewertet, und die fein abgestimmten Bi-Codierer unten.
+Insgesamt übertrifft der fein abgestimmte Bi-Codierer alle anderen Baselines erheblich.
+Das zweitürmige Modell verbessert sich gegenüber seinen siamesischen Varianten beim Rückruf auf hundert, schneidet aber bei den anderen Metriken ähnlich ab.
+Obwohl BM25 den trainierten Bi-Codierer deutlich untertraf, deutete seine Leistung darauf hin, dass er immer noch eine starke Basis für den domänenspezifischen Abruf ist.
+In Bezug auf die Nullpunktauswertung des siamesischen Bi-Codierers stellen wir fest, dass die direkte Verwendung der Einbettungen eines vortrainierten CamemBERT-Modells ohne Optimierung für die Informationsabrufaufgabe schlechte Ergebnisse liefert, was mit früheren Erkenntnissen übereinstimmt.
+Darüber hinaus beobachten wir, dass der wort2vec-basierte Bi-Codierer die FastText- und Bert-basierten Modelle deutlich übertrifft, was darauf hindeutet, dass vorab trainierte Einbettungen auf Wortebene für die Aufgabe besser geeignet sind als Einbettungen auf Zeichenebene oder Unterwortebene, wenn sie nicht im Lieferumfang enthalten sind.
+Obwohl vielversprechend, deuten diese Ergebnisse auf reichlich Verbesserungsmöglichkeiten im Vergleich zu einem erfahrenen Rechtsexperten hin, der letztendlich alle relevanten Artikel zu jeder Frage abrufen kann und somit perfekte Punktzahlen erhält.
+Lassen Sie uns abschließend zwei Einschränkungen unseres Datensatzes besprechen.
+Erstens beschränkt sich der Korpus des Artikels auf diejenigen, die aus den zweiunddreißig berücksichtigten belgischen Codes gesammelt wurden, die nicht das gesamte belgische Recht abdecken, da Artikel aus Verordnungen, Richtlinien und Verordnungen fehlen.
+Während der Datensatzkonstruktion werden alle Verweise auf diese nicht gesammelten Artikel ignoriert, was dazu führt, dass einige Fragen nur einen Bruchteil der ursprünglichen Anzahl relevanter Artikel ergeben.
+Diese Information impliziert also, dass die in den übrigen relevanten Artikeln enthaltene Antwort möglicherweise unvollständig ist, obwohl sie immer noch völlig angemessen ist.
+Zweitens sollten wir beachten, dass nicht alle rechtlichen Fragen mit Statuten allein beantwortet werden können.
+Zum Beispiel die Frage: Kann ich meine Mieter vertreiben, wenn sie zu viel Lärm machen?
+Möglicherweise gibt es keine detaillierte Antwort innerhalb des gesetzlichen Rechts, die eine bestimmte Lärmschwelle quantifiziert, bei der Räumung zulässig ist.
+Stattdessen sollte sich der Vermieter wahrscheinlich mehr auf die Rechtsprechung verlassen und Präzedenzfälle finden, die seiner aktuellen Situation ähneln.
+Zum Beispiel macht der Mieter zwei Partys pro Woche bis zwei Uhr morgens.
+Daher sind einige Fragen besser als andere für die gesetzliche Auffindungsaufgabe geeignet, und die Domäne der weniger geeigneten bleibt noch zu bestimmen.
+Wir hoffen, dass unsere Arbeit Interesse an der Entwicklung praktischer und zuverlässiger gesetzlicher Artikelabrufmodelle weckt.
+Das kann dazu beitragen, den Zugang zur Justiz für alle zu verbessern.
+Sie können sich unsere Arbeit, unseren Datensatz und unseren Code unter den folgenden Links ansehen. Danke.
+Hallo, wir freuen uns, unsere Arbeit an VALSE zu präsentieren; ein aufgabenunabhängiger Benchmark, der zum Testen von Visionen und Sprachmodellen mit spezifischen sprachlichen Phänomenen gedacht ist.
+Warum haben wir uns die Mühe gemacht, diesen Benchmark einzurichten?
+Nun, in den letzten Jahren haben wir eine Explosion von transformatorbasierten Seh- und Sprachmodellen erlebt, die auf große Mengen von Bildtextpaaren trainiert wurden.
+Jedes dieser Modelle treibt den neuesten Stand der Technik in Bezug auf Vision und Sprachaufgaben wie visuelle Fragenbeantwortung, visuelle Vernunft, Bildwiederauffindung und Phrasenerdung voran.
+Wir haben also eine Botschaft erhalten, die Genauigkeit dieser Aufgaben und spezifischen Benchmarks steigt stetig.
+Aber wissen wir, was die Models tatsächlich gelernt haben?
+Was hat ein Vision- und Sprachwandler verstanden, wenn er eine hohe Punktzahl für dieses Bild und diesen Satz vergeben hat?
+Und die niedrige Punktzahl für diese?
+Konzentrieren sich Visionen und Sprachmodelle auf das Richtige?
+Oder konzentrieren sie sich auf Vorurteile, wie aus früheren Arbeiten hervorgeht?
+Um mehr Licht auf diesen Aspekt zu werfen, schlagen wir eine aufgabenunabhängigere Richtung vor und führen VALSE ein, die die Empfindlichkeit von Seh- und Sprachmodellen für spezifische sprachliche Phänomene testet, die sowohl die sprachliche als auch die visuelle Modalität beeinflussen.
+Wir zielen auf Existenz, Pluralität, Zählung, räumliche Beziehungen, Handlungen und Entity Coreference ab.
+Aber wie testen wir, ob die Visionen und Sprachmodelle diese Phänomene erfasst haben?
+Indem wir eine Methode, die zuvor für Visionen und Sprachmodelle angewendet wurde, nur für Nomenphrasen von Ravi Shekhar und Mitarbeitern vereiteln und in früheren Arbeiten von uns zählen.
+Folieren bedeutet im Grunde, dass wir die Bildunterschrift eines Bildes nehmen und eine Folie erzeugen, indem wir die Bildunterschrift so verändern, dass sie das Bild nicht mehr beschreibt.
+Und wir machen diese Phrasenänderungen, indem wir uns auf sechs spezifische Stücke konzentrieren, wie Existenz, Pluralität, Zählung, räumliche Beziehungen, Handlungen und Entity Coreference, wobei jedes Stück aus einem oder mehreren Instrumenten bestehen kann, falls wir mehr als eine interessante Möglichkeit gefunden haben, Folieninstanzen zu erstellen.
+Zum Beispiel haben wir im Fall des Aktionsstücks zwei Instrumente, eines, in dem das Aktionsverb mit einer anderen Aktion geändert wird, und eines, in dem Aktoren ausgetauscht werden.
+Zählung und Coreference sind auch Stücke, die mehr als ein Instrument haben.
+Und wir erstellen diese Folien, indem wir sicherstellen, dass sie das Bild nicht beschreiben, dass sie grammatikalisch sind und ansonsten gültige Sätze.
+Dies ist nicht einfach, da eine beschädigte Beschriftung weniger wahrscheinlich ist als die ursprüngliche Beschriftung.
+Zum Beispiel, obwohl es nicht unmöglich ist, ist es statistisch weniger wahrscheinlich für Pflanzen, einen Mann zu schneiden als ein Mann, Pflanzen zu schneiden, und große Seh- und Sprachmodelle könnten dies aufgreifen.
+Daher müssen wir Maßnahmen ergreifen, um gültige Folien zu erhalten.
+Zunächst nutzen wir starke Sprachmodelle, um Folien vorzuschlagen.
+Zweitens filtern wir mithilfe natürlicher Sprachinferenz oder kurzer NLI Folien heraus, die das Bild noch beschreiben könnten, da wir beim Erstellen von Folien sicherstellen müssen, dass sie das Bild nicht beschreiben.
+Um dies automatisch zu testen, wenden wir den Rückschluss in natürlicher Sprache auf die folgenden Gründe an.
+Wir betrachten ein Bild als die Prämisse und seine Bezeichnung als die damit verbundene Hypothese.
+Darüber hinaus betrachten wir die Beschriftung als die Prämisse, und die Folie ist ihre Hypothese.
+Wenn ein NLI-Modell vorhersagt, dass die Folie in Bezug auf die Beschriftung widersprüchlich oder neutral ist, nehmen wir dies als Indikator für eine gültige Folie.
+Wenn ein NLI vorhersagt, dass die Folie von der Bildunterschrift mitgeführt wird, kann es keine gute Folie sein, da sie durch die Transitivität eine wahrheitsgetreue Beschreibung des Bildes liefert und wir diese Folien herausfiltern.
+Aber dieses Verfahren ist nicht perfekt, es ist nur ein Indikator für gültige Folien.
+Daher verwenden wir als dritte Maßnahme zur Erzeugung gültiger Folien menschliche Annotatoren, um die in VALSE verwendeten Daten zu validieren.
+Nach Filterung und menschlicher Bewertung haben wir also so viele Testinstanzen, wie in dieser Tabelle beschrieben.
+Beachten Sie, dass VALSE keine Trainingsdaten, sondern nur Testdaten liefert.
+Da es sich nur um einen Nullpunkttest-Benchmark handelt, wurde er entwickelt, um die vorhandenen Fähigkeiten von Visionen und Sprachmodellen nach dem Vortraining zu nutzen.
+Finetuning würde es Modellen nur ermöglichen, Artefakte oder statistische Verzerrungen in den Daten auszunutzen.
+Und wir alle wissen, dass diese Models gerne betrügen und Abkürzungen nehmen.
+Und wie gesagt, wir sind daran interessiert zu beurteilen, welche Fähigkeiten die Vision und Sprachmodelle nach dem Pre-Training haben.
+Wir experimentieren mit fünf Vision- und Sprachmodellen auf VALSE, nämlich mit CLIP, LXMert, ViLBERT, ViLBERT zwölf in einem und VisualBERT.
+Zwei unserer wichtigsten Bewertungsmetriken sind die Genauigkeit der Modelle bei der Klassifizierung von Bildsatzpaaren in Beschriftungen und Folien.
+Vielleicht relevanter für dieses Video, werden wir unsere permissivere Metrik präsentieren, die paarweise Genauigkeit, die misst, ob die Bildsatzausrichtungsbewertung für das richtige Bildtextpaar größer ist als für sein Folienpaar.
+Weitere Metriken und Ergebnisse dazu finden Sie in unserer Arbeit.
+Die Ergebnisse mit paarweiser Genauigkeit werden hier gezeigt und stimmen mit den Ergebnissen überein, die wir aus den anderen Metriken erhalten haben. Die beste Nullschuss-Performance wird von ViLBERT zwölf in einem, gefolgt von ViLBERT, LXMert, CLIP und schließlich VisualBERT erreicht.
+Es ist bemerkenswert, wie Instrumente, die auf die einzelnen Objekte wie Existenz und Substantivphrasen ausgerichtet sind, fast von ViLBERT zwölf in einem gelöst werden, wobei hervorzuheben ist, dass Modelle in der Lage sind, benannte Objekte und ihre Präsenz in Bildern zu identifizieren.
+Keines der verbleibenden Teile kann jedoch in unseren gegnerischen Folieneinstellungen zuverlässig gelöst werden.
+Anhand der Pluralitäts- und Zählinstrumente sehen wir, dass Seh- und Sprachmodelle Schwierigkeiten haben, Verweise auf einzelne oder mehrere Objekte zu unterscheiden oder in einem Bild zu zählen.
+Das Relationsstück zeigt, dass sie Schwierigkeiten haben, eine genannte räumliche Beziehung zwischen Objekten in einem Bild korrekt zu klassifizieren.
+Sie haben auch Schwierigkeiten, Aktionen zu unterscheiden und ihre Teilnehmer zu identifizieren, auch wenn sie durch Plausibilitätsvorurteile unterstützt werden, wie wir im Aktionsabschnitt sehen.
+Aus dem Coreference-Stück erfahren wir, dass es auch für Seh- und Sprachmodelle schwierig ist, mehrere Verweise auf dasselbe Objekt in einem Bild mit Pronomen zu verfolgen.
+Als eine Überprüfung der Vernunft, und weil es ein interessantes Experiment ist, vergleichen wir auch zwei Nur-Text-Modelle, GPT eins und GPT zwei, um zu beurteilen, ob VALSE durch diese unimodalen Modelle lösbar ist, indem wir die Ratlosigkeit der richtigen und der gefälschten Beschriftung berechnen, kein Bild hier, und den Eintrag mit der geringsten Ratlosigkeit vorhersagen.
+Wenn die Ratlosigkeit für die Folie höher ist, nehmen wir dies als Hinweis darauf, dass die Folienbezeichnung unter Plausibilitätsvorurteilen oder anderen sprachlichen Vorurteilen leiden kann.
+Und es ist interessant zu sehen, dass in einigen Fällen der Text nur GPT-Modelle haben die Plausibilität der Welt besser als die Vision und Sprachmodelle erfasst.
+Zusammenfassend ist VALSE ein Maßstab, der die Linse sprachlicher Konstrukte verwendet, um der Gemeinschaft zu helfen, die Vision und Sprachmodelle zu verbessern, indem ihre visuellen Erdungsfähigkeiten hart getestet werden.
+Unsere Experimente zeigen, dass Visionen und Sprachmodelle benannte Objekte und ihre Präsenz in Bildern gut identifizieren, wie das Existenzstück zeigt, aber darum kämpfen, ihre wechselseitige Abhängigkeit und Beziehungen in visuellen Szenen zu verankern, wenn sie gezwungen werden, sprachliche Indikatoren zu respektieren.
+Wir möchten die Gemeinschaft wirklich ermutigen, VALSE zu verwenden, um die Fortschritte auf dem Weg zur Sprachgrundlegung mit Visionen und Sprachmodellen zu messen.
+Und noch mehr, VALSE könnte als indirekte Bewertung von Datensätzen verwendet werden, da Modelle vor und nach dem Training oder Finetuning bewertet werden könnten, um zu sehen, ob ein Datensatz dazu beiträgt, dass sich Modelle in Bezug auf einen der von VALSE getesteten Aspekte verbessern.
+Wenn Sie interessiert sind, überprüfen Sie die Valse-Daten AUF GitHub, und wenn Sie Fragen haben, zögern Sie nicht, uns zu kontaktieren.
+Hallo, mein Name ist Kamezawa von der Universität Tokio.
+Ich werde einen Artikel mit dem Titel RNSum: A Large-Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization vorstellen.
+Ich werde es in dieser Reihenfolge erklären.
+Zuerst werde ich die automatische Erstellung von Freigabescheinen vorstellen, an denen wir in dieser Forschung arbeiten.
+Ein Release-Hinweis ist ein technisches Dokument, das die mit jedem Release eines Softwareprodukts verteilten Änderungen zusammenfasst.
+Das Bild zeigt einen Release-Hinweis für die Version Two Point Six Point Four der vuejs Bibliothek.
+Versionshinweise spielen eine wichtige Rolle bei der Open-Source-Entwicklung, aber sie sind zeitaufwendig, um manuell vorbereitet zu werden.
+Daher wäre es sehr nützlich, in der Lage zu sein, automatisch Versionshinweise von hoher Qualität zu generieren.
+Ich werde auf zwei frühere Forschungen zur automatischen Erstellung von Freigabescheinen zurückkommen.
+Das erste ist ein System namens ARENA, das in vierundzwanzig Jahren veröffentlicht wurde.
+Es verwendet einen regelbasierten Ansatz, zum Beispiel den Change-Extraktor, um alle Unterschiede, Bibliotheksänderungen und Dokumentänderungen aus den Unterschieden zwischen Releases zu extrahieren und schließlich zu kombinieren.
+Das bemerkenswerteste Merkmal dieses Systems ist der Problem-Extraktor in der oberen rechten Ecke.
+Was Jira, dem Problem-Tracker-System, überlassen bleiben muss und nur auf Projekte angewendet werden kann, die Jira verwenden.
+Mit anderen Worten, es kann nicht für viele Projekte auf GitHub verwendet werden.
+Die zweite ist Glyphe, vor kurzem in zwanzig angekündigt.
+Es ist im Internet verfügbar und kann über Pip installiert werden.
+Dieses System verfügt über ein einfaches lernbasiertes Textklassifizierungsmodell und gibt eines von fünf Labels wie Features oder Bugfixes für jede Eingabe-Commit-Nachricht aus.
+Dieses Bild ist eine Beispielnutzung, die ein Korrektur- oder Fehlerbehebungsetikett zurückgibt.
+Die Trainingsdaten von Glyph sind ziemlich klein, etwa fünftausend, und werden in den unten beschriebenen Experimenten gezeigt.
+Die Leistung des Textklassifizierungsmodells ist nicht hoch.
+Ich stelle zwei diesbezügliche Untersuchungen vor, deren Probleme jedoch in der begrenzten Anwendbarkeit und der Knappheit der Datenressourcen bestehen.
+Unser Papier löst diese beiden Probleme und generiert automatisch hochwertige Versionshinweise.
+Mit einem begrenzten Anwendbarkeitsproblem schlagen wir eine qualitativ hochwertige klassifizierte Zusammenfassungsmethode vor, bei der nur Commit-Nachrichten als Eingabe verwendet werden.
+Diese vorgeschlagene Methode kann für alle englischen Repositories verwendet werden.
+Für das zweite Problem der knappen Datenressourcen haben wir unseren RNSum-Datensatz erstellt, der aus etwa achtzig zweitausend Datenstücken besteht, indem wir Daten aus öffentlichen GitHub-Repositories mithilfe der GitHub-API gesammelt haben.
+Als nächstes beschreibe ich unseren Datensatz.
+Hier ist ein Beispiel für Daten.
+Die linke Seite ist eine Commit-Nachricht und die rechte Seite sind die Versionshinweise.
+Versionshinweise werden als Verbesserungen oder Korrekturen usw. bezeichnet.
+Wir haben eine Aufgabe eingerichtet, die die Commit-Nachrichten als Eingabe nimmt und eine beschriftete Versionshinweise ausgibt.
+Dies kann als Verdichtungsaufgabe angesehen werden.
+Wir haben vier vordefinierte Labels: Funktionen, Verbesserungen, Fehlerbehebungen, Abschreibungen und Änderungen.
+Diese wurden auf der Grundlage früherer Untersuchungen und anderer Faktoren festgelegt.
+Der Versionshinweis unten rechts wird aus dem Versionshinweis unten links extrahiert.
+Zu diesem Zeitpunkt ist es notwendig, die vier vorab eingerichteten Etiketten zu erkennen.
+Aber die Labels sind nicht immer konsistent mit jedem Repository.
+Zum Beispiel enthält das Label für Verbesserungen Verbesserungen, Verbesserungen, Optimierungen und so weiter.
+Für jede dieser Notationsvarianten haben wir eine Vokabelliste mit etwa dreißig Labels erstellt.
+Dies dient der Erkennung der Release-Note-Klasse und sammelt den Text des Releases, der als Release-Note-Satz für die Klasse folgt.
+Als nächstes folgt eine Commit-Nachricht.
+Commit-Nachrichten sind nicht an jede Freigabe gebunden.
+Wie in der Abbildung unten gezeigt, müssen wir, wenn die aktuelle Version Version zwei Punkt fünf bis neunzehn ist, die vorherige Version zwei Punkt fünf bis achtzehn identifizieren und einen Diff erhalten.
+Das ist ein bisschen mühsam und es reicht nicht, nur eine Liste von Releases zu bekommen und sich das Vorher und Nachher anzusehen.
+Wir haben eine heuristische Matching-Regel erstellt, um die vorherige und die nächste Version zu erhalten.
+Datensatzanalyse.
+Am Ende wurden siebentausendzweihundert Repositorien und achtzigtausend zweitausend Daten gesammelt.
+Außerdem beträgt die durchschnittliche Anzahl der Release Notes Token dreiundsechzig, was für eine Zusammenfassungsaufgabe ziemlich hoch ist.
+Außerdem ist die Anzahl der einzigartigen Token mit achttausendachthundertdreißigtausend ziemlich groß.
+Dies ist auf die große Anzahl eindeutiger Klassen- oder Methodennamen im Projektarchiv zurückzuführen.
+Als nächstes werde ich die vorgeschlagene Methode erläutern.
+Das klassenweise extraktive und dann abstraktive Verdichtungsmodell besteht aus zwei neuronalen Modulen.
+Ein Klassifikator mit BERT oder CodeBERT und ein Generator mit BART.
+Zuerst verwendet GEAS einen Klassifizierer, um jede Commit-Nachricht in fünf Release Notes-Klassen zu klassifizieren, die Verbesserungen, Fehlerbehebungen, Abschreibungen und eine andere verwenden.
+Die als andere klassifizierten Commit-Nachrichten werden verworfen.
+Dann wendet GEAS den Generator unabhängig auf die vier gekennzeichneten Dokumente an und generiert Versionshinweise für jede Klasse.
+In dieser Aufgabe sind die direkten Entsprechungen zwischen Commit-Nachrichten und Release Notes nicht bekannt.
+Um den Klassifizierer zu trainieren, haben wir Umfragen daher jeder Eingangsübermittlungsnachricht unter Verwendung der ersten zehn Zeichen jeder Übermittlungsnachricht zugewiesen.
+Wir modellierten den klassenweise abstraktiven Zusammenfassungsansatz mit zwei verschiedenen Methoden.
+Das erste Modell, das wir CAS-Single nennen, besteht aus einem einzigen sechs bis sechs Netzwerken und erzeugt einen einzigen Release-Note-Text, der eine Verkettung von Eingangs-Commit-Nachrichten ergibt.
+Die Ausgabetexte lassen sich anhand spezieller klassenspezifischer Endpunktsymbole in klassenweise Segmente unterteilen.
+Die zweite Methode, die wir CAS-Multi nennen, besteht aus vier verschiedenen seq2seq Netzwerken, die jeweils einer der festen Release Note Klassen entsprechen.
+Okay, lass mich die Experimente erklären.
+Fünf Methoden wurden verglichen: CEAS, CAS-Single, CAS-Multi, Clustering und frühere Studie, Glyph.
+In Bezug auf die Bewertung werden Versionshinweise in einigen Fällen in mehreren Sätzen ausgegeben.
+Da es schwierig ist, die Anzahl der Sätze so zu berechnen, wie sie sind, werden sie mit Leerzeichen kombiniert und als ein langer Satz behandelt.
+Der BLEU wird bestraft, wenn das System einen kurzen Satz ausgibt.
+Diese Strafe führt zu einem niedrigeren BLEU-WERT in den als nächstes beschriebenen Versuchsergebnissen.
+Schließlich berechnen wir auch die Spezifität, da ROUGE und BLEU nicht berechnet werden können, wenn die Versionshinweise leer sind.
+Eine höhere Spezifität bedeutet, dass das Modell einen leeren Text korrekt ausgibt, wenn die Versionshinweise leer sind.
+Hier sind die Ergebnisse.
+Da der Datensatz E-Mail-Adressen, Hash-Werte usw. enthält, haben wir auch den bereinigten Datensatz ausgewertet, der sie ausschließt.
+CEAS und CAS erzielten ROUGE-L-Scores, die um mehr als zehn Punkte höher sind als die Ausgangswerte.
+Insbesondere beim Clean-Test-Set sprang die Bewertungslücke zwischen der vorgeschlagenen Methode und den Basislinien auf mehr als zwanzig Punkte.
+Diese Ergebnisse zeigen, dass GEAS und CAS erheblich betroffen sind.
+CEAS erhielt einen besseren ROUGE-L-Score als CAS, was darauf hindeutet, dass die Kombination eines Klassifikators und eines Generators beim Training des Klassifikators mit Pseudo-Etiketten effektiv ist.
+Eine hohe Abdeckung von GEAS kann wahrscheinlich dadurch erreicht werden, dass sich der Klassifikator auf die Auswahl relevanter Commit-Nachrichten für jede Klasse konzentrieren kann.
+CAS-Multi tendierte dazu, eine höhere ROUGE-L zu erzielen als CAS-Single.
+Hinweis darauf, dass es auch effektiv ist, für jede Release-Note-Klasse unabhängig voneinander unterschiedlich abstraktive Verdichtungsmodelle zu entwickeln.
+Hier ist eine Fehleranalyse.
+CAS-Methoden neigen dazu, kürzere Sätze als menschliche Referenzsätze auszugeben.
+In der Abbildung rechts hat der Referenzsatz drei oder vier Sätze, während CAS nur einen hat.
+Der Grund für die Zurückhaltung dieses Modells ist, dass in Trainingsdaten nur dreiunddreißig Prozent der Sätze im Feature-Label und vierzig Prozent im Improvement-Label vorhanden sind.
+Darüber hinaus können CAS-Methoden ohne zusätzliche Informationen keine genauen Versionshinweise generieren.
+Das obere Beispiel auf der rechten Seite ist ein Beispiel für eine sehr chaotische Commit-Nachricht, und der vollständige Satz kann nicht ohne Bezugnahme auf den entsprechenden Fortschritt oder das entsprechende Problem generiert werden.
+Das folgende Beispiel zeigt, dass die beiden Commit-Nachrichten in der Eingabe verwandt sind und in einem Satz zusammengefasst werden sollten, dies jedoch nicht tut.
+Endlich ein Fazit.
+Wir haben einen neuen Datensatz für die automatische Erstellung von Release Notes entwickelt.
+Wir haben auch die Aufgabe formuliert, Commit-Nachrichten einzugeben und sie so zusammenzufassen, dass sie für alle Projekte in englischer Sprache gelten.
+Unsere Experimente zeigen, dass die vorgeschlagene Methode weniger verrauschte Versionshinweise bei höherer Abdeckung als die Basislinien erzeugt.
+Bitte schauen Sie sich unseren Datensatz auf GitHub an.
+Vielen Dank.
+Hallo, mein Name ist Asaf Harari.
+Und ich werde unsere Arbeit vorstellen: Wenige Aufnahmen tabellarischer Datenanreicherung mit fein abgestimmten Transformatoren-Architekturen.
+Datenwissenschaftler analysieren Daten und konzentrieren sich hauptsächlich auf die Manipulation der vorhandenen Funktionen der Daten.
+Aber manchmal sind diese Funktionen begrenzt.
+Die Merkmalsgenerierung unter Verwendung einer anderen Datenquelle kann wesentliche Informationen hinzufügen.
+Unser Forschungsziel ist die automatische tabellarische Datenanreicherung mit dem Freitext externer Quellen.
+Angenommen, wir haben einen tabellarischen Datensatz und eine Wissensdatenbank.
+Wir brauchen einen automatischen Prozess, der die Verknüpfung von Entitäten und die Textanalyse beinhaltet, um neue Funktionen aus dem freien Text der Wissensdatenbank zu extrahieren.
+Unser Framework FeSTE ist genau dieser automatische Prozess.
+Sehen wir uns also ein Beispiel in einem Datensatz an, der in FeSTE eingespeist wurde.
+In diesem Beispiel ist der Datensatz ein Universitätsdatensatz.
+Wenn es darum geht, Universitäten in niedrigrangige und hochrangige Universitäten zu klassifizieren.
+Als Wissensdatenbank verwenden wir Wikipedia.
+Die erste Phase von FeSTE ist die Instanzverknüpfung.
+Wenn jede Entität, in diesem Beispiel der Universitätsname, mit einer Entität innerhalb der Wissensdatenbank verknüpft ist.
+Und der Text der Entitäten der Wissensdatenbank wird extrahiert und dem Datensatz hinzugefügt.
+In diesem Beispiel ist der Text die Zusammenfassung der Wikipedia-Seite.
+Jetzt müssen wir Funktionen aus dem abgerufenen Text generieren oder extrahieren.
+Wir müssen also eine Funktionsextraktionsphase durchführen, die eine Textanalyse beinhaltet.
+Und das ist die Hauptneuheit dieses Papiers, und ich werde in den nächsten Folien darauf eingehen.
+Nach der Feature-Extraktionsphase gibt es eine Feature-Generierungsphase, wenn wir die extrahierten Features verwenden, um eine kleine Anzahl neuer Features zu generieren.
+Erzeugen Sie zunächst ah Merkmale in der Anzahl der Klassen des Originaldatensatzes.
+In diesem Beispiel hat der Originaldatensatz zwei Klassen.
+FeSTE generiert also zwei neue Funktionen.
+Aber wenn der Datensatz fünf Klassen hat, generiert FeSTE fünf neue Funktionen.
+Jedes Merkmal stellt die Wahrscheinlichkeit für jede Klasse dar.
+Zur Analyse des Textes verwenden wir den aktuellen Stand der Textanalyse, bei dem es sich um transformatorbasierte Sprachmodelle wie BERT, GPT,  XLNet usw. handelt.
+Ist es, aber es ist unwahrscheinlich, dass wir Sprachmodelle mit den Eingabedatensätzen trainieren können.
+Ein naiver Ansatz wird also die Feinabstimmung der Zielaufgabe sein.
+In der Feature-Extraktionsphase können wir also vortrainierte Sprachmodelle herunterladen und das Sprachmodell über den Zieldatensatz abstimmen.
+In diesem Beispiel, um das Sprachmodell zu verfeinern, ah zu klassifizieren, um Text in Klassen zu klassifizieren, abstrakt in Klassen, niedrig oder hoch.
+Erhalten Sie die Sprachmodellausgabe, die die Wahrscheinlichkeit für jede Klasse ist, und verwenden Sie sie als neue Funktionen.
+Das Problem mit diesem Ansatz ist, dass Datensätze möglicherweise nur wenige verschiedene Entitäten / Texte haben.
+In unserem Experiment enthält fast die Hälfte der Datensätze weniger als vierhundert Proben und der kleinste Datensatz enthält fünfunddreißig Proben in einem Trainingssatz.
+Um also ein Sprachmodell über ah abzustimmen, wird dieser Datensatz unwirksam sein.
+Aber wir können Vorwissen über vorab analysierte Datensätze nutzen.
+Da FeSTE, wir FeSTE über einen mehrfachen Datensatz anwenden, können wir die n minus eins Datensätze verwenden, um Informationen über die n minus eins Datensätze zu sammeln, und diese Informationen verwenden, wenn wir den n-ten Datensatz analysieren.
+Was wir, was wir vorschlagen, ist hinzuzufügen, eine weitere Feinabstimmungsphase hinzuzufügen.
+Vorläufige Multitask-Finetuning-Phase.
+Wenn Sie das Sprachmodell über die n minus eins Datensätze verfeinern.
+Und dann führen wir eine weitere Feinabstimmungsphase durch, die eine Feinabstimmung der Zielaufgabe ist, wenn Sie Feinabstimmung des Sprachmodells über den n-ten Zieldatensatz vornehmen.
+Das hochmoderne Multitask-Ah-Multitask-Finetuning namens MTDNN.
+In MTDNN unterhält MTDNN ah Leiter in der Anzahl der Aufgaben im Trainingsset.
+In diesem Beispiel gibt es also vier Aufgaben im Trainingsset, so dass MTDNN vier Köpfe beibehält, wie Sie auf dem Bild sehen können.
+Und es probiert eine zufällige Charge aus dem Trainingsset.
+Und wenn sie zu einem zufälligen Batch gehören, zum Beispiel zu einer einzelnen Satzklassifizierungsaufgabe, führt es Vorwärts- und Rückwärtspfade durch den ersten Kopf aus.
+Und wenn das zufällige Batch zur paarweisen Ranking-Aufgabe gehört, führt es den Vorwärts- und Rückwärtsweg durch den letzten Kopf aus.
+In unserem Szenario variieren die tabellarischen Datensätze in der Anzahl der Klassen.
+Es gibt also viele Aufgaben.
+MTDNN behielt die Anzahl der Klassen, Köpfe und Ausgabeschichten bei.
+Und das zusätzliche, zusätzliche MTDNN muss neue Köpfe für einen neuen Datensatz mit einer neuen Aufgabe initialisieren.
+Unser Ansatz, der als Task Reformulation Finetuning bezeichnet wird, besteht darin, dass wir in unserem Ansatz zur Task Reformulation Finetuning anstelle mehrerer Köpfe jeden Datensatz in einen Satz pro Klassifizierungsproblem umformulieren, was zwei Klassen von Aufgaben entspricht.
+Lassen Sie uns ein Beispiel sehen.
+Hier ist unser Eingabedatensatz, der aus Entitäten, Merkmalen, Text und Klassen besteht.
+Und wir formulieren die Aufgabe von einer Klassifizierung des Textes in niedrig oder hoch, um den Text, die Zusammenfassung und die Klasse in wahr oder falsch zu klassifizieren.
+Oder mit anderen Worten, wir haben das Sprachmodell trainiert, um eine Abstraktion zu klassifizieren und Klasse ah zu abstrahieren und Klasse ah, wenn die Abstraktion zur Klasse gehört oder nicht.
+Der Labelvektor bleibt also in diesem Fall immer ah, der immer aus zwei Klassen besteht.
+Und das ist der ah-Algorithmus für unseren feinen, neu formulierten Finetuning-Ansatz.
+Schauen wir uns also den vollständigen Rahmen an.
+In FeSTE eingespeister Datensatz.
+Und dann führt ah FeSTE die Entity-Verknüpfungsphase aus.
+Es extrahiert den Text aus der Wissensdatenbank, die in diesem Beispiel die Zusammenfassung der Wikipedia-Seite ist.
+Dann formulierte er die Aufgabe in eine paarweise Satzklassifizierungsaufgabe um.
+Wendete das Sprachmodell auf die neue Aufgabe und die Ausgabewahrscheinlichkeit für jede Klasse an.
+Und jetzt, da das Sprachmodell bereits über n minus einem Datensatz mit einer vorläufigen Multitask-Finetuning feinabgestimmt ist.
+Dann verwenden wir den Ausgabevektor des Sprachmodells als neu generiertes Merkmal in der Anzahl der Klassen.
+Zur Bewertung unseres Frameworks verwenden wir ah siebzehn tabellarische Klassifizierungsdatensätze, die sich in Größe, Funktionen, Gleichgewicht, Domäne und Anfangsleistung unterscheiden.
+Und als Wissensdatenbank nutzen wir Wikipedia.
+Wir entwerfen unser Experiment so, dass wir eine ah-Bewertung auslassen, bei der wir FeSTe über sechzehn Datensätze trainieren und auf den siebzehnten Datensatz anwenden.
+Wir teilen auch jeden Datensatz in vier Falten auf und wenden eine Kreuzvalidierung mit vier Falten an.
+Dann generieren wir die neuen Features und werten sie mit fünf Bewertungsklassifizierern aus.
+Wir verwenden in unseren Experimenten Bert-Basisarchitektur.
+Hier sind die Ergebnisse unserer Experimente.
+Sie können sehen, dass wir unser Framework mit der Feinabstimmung von Zieldatensätzen, der Feinabstimmung von Aufgaben und einer MTDNN-Vorabstimmung vergleichen.
+Und unser neu formuliertes Finetuning erzielt das beste Ergebnis, die beste Leistung.
+Während MTDNN zwei Prozent Verbesserungen gegenüber dem Finetuning des Zieldatensatzes erzielte.
+Unser Ansatz erreichte eine Verbesserung um sechs Prozent.
+Wenn wir uns den kleinen ah-Datensatz ansehen, können wir sehen, dass die Leistung von MTDNN abnimmt und die Verbesserung des vorläufigen, die vorläufige Multitask-Finetuning-Phase auf einen Punkt fünf Prozent abnimmt.
+Aber unsere Leistung stieg auf elf Prozent im Vergleich zum alleinigen Finetuning der Zielaufgabe.
+Zur Summierung ermöglicht FeSTE in unseren Experimenten eine geringe Schussanreicherung aus 35 Proben.
+Es verwendet eine Architektur für alle Aufgaben und Datensätze.
+Und es behält den Kopf des Modells.
+Aber es fügt eine Umformulierungsphase hinzu.
+Es erweitert den Zugsatz und benötigt einen Zielwert mit semantischer Bedeutung, damit wir ihn in das Sprachmodell einspeisen und im Satzpaarklassifizierungsproblem verwenden können.
+Vielen Dank.
