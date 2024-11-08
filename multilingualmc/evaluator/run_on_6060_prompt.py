@@ -15,8 +15,6 @@ def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
 	print("Read key from", key_path)
 	openai.api_key = key.strip()
 	openai.organization = org_id.strip()
- 
-openai_setup()
 
 def openai_prompt(src_text, tgt_text, relevant_terms_dict, tgt_lang, model='gpt-4o'):
     src_lang = 'English'
@@ -41,12 +39,12 @@ Term dictionary:
 {tgt_lang} translation:
 {tgt_text}
 
-If multiple terms are nested or overlap with the context in {src_lang}, select the longest span that matches the context. Provided the updated translation only.
+If multiple terms are nested or overlap with the context in {src_lang}, select the longest span that matches the context. Additionally, if a term has multiple meanings, only replace the term if its original context is relevant to the AI field. Provided the updated translation only.
 """
     print(prompt)
     while True:
         try:
-            resp = openai.chat.completions.create(
+            resp = openai.ChatCompletion.create(
                 model = model,
                 messages = [{"role": "user", "content": prompt}],
                 temperature = 0,
@@ -60,31 +58,15 @@ If multiple terms are nested or overlap with the context in {src_lang}, select t
     # extract valid_term, explanation
     return resp
 
-def check_substring_in_string(string, substring):
-    # Construct the regular expression to look for the substring surrounded by non-alphabet characters or boundaries
-    pattern = r'(?<![a-zA-Z])' + re.escape(substring) + r'(?![a-zA-Z])'
-    
-    # Search for the pattern in the string
-    match = re.search(pattern, string)
-    
-    # Return True if a match is found, False otherwise
-    return bool(match)
-
-def get_relevant_term_list(en_text, term_dict):
-    en_text = en_text.lower()
-    relevant_term_dict = []
-    for key, item in term_dict.items():
-        if check_substring_in_string(en_text, key):
-            relevant_term_dict.append([key, item])
-        
-    print(relevant_term_dict)
-    return relevant_term_dict
 
 if __name__ == "__main__":
+    openai_setup()
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_file", type=str, default="home/ubuntu/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_seamless.jsonl")
     parser.add_argument("--out_file", type=str, default="/home/ubuntu/multilingual-model-card/multilingualmc/dictionary_collection/mturk/analysis/Japanese_validated.csv")
     parser.add_argument("--term_file_path", type=str, default=None, help="used only when the method is constrained_beam_search.")
+    parser.add_argument("--model", type=str, default='gpt-4o-mini')
     
     args = parser.parse_args()
     args.in_file = [json.loads(i) for i in open(args.in_file, 'r').readlines()]
@@ -115,7 +97,7 @@ if __name__ == "__main__":
                 line[f'text_{lang}'],
                 relevant_terms_dict = relevant_terms_dict,
                 tgt_lang = lang,
-                model='gpt-4o-mini'
+                model=args.model
             )
             if translation is None:
                 info[f"text_{lang}"] = line[f'text_{lang}']

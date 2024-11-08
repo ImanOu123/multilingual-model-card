@@ -341,7 +341,7 @@ Index,English,Chinese
 339,Good-Turing estimate,古德-图灵估计
 340,GoogLeNet,GoogLeNet
 341,Gram matrix,Gram 矩阵
-342,Graph Transformer,图转换器
+342,Graph Transformer,图变换器
 343,Gröbner basis,Gröbner 基
 344,Gumbel,甘贝尔分布
 345,Gumbel distribution,Gumbel 分布
@@ -757,13 +757,13 @@ Index,English,Chinese
 755,Tikhonov regularization,Tikhonov正则化
 756,Toeplitz matrix,Toeplitz矩阵
 757,Topic Detection and Tracking,主题检测与跟踪
-758,Transformer architecture,Transformer架构
-759,Transformer block,Transformer块
-760,Transformer decoder,Transformer解码器
-761,Transformer encoder,Transformer编码器
+758,Transformer architecture,变换器架构
+759,Transformer block,变换器块
+760,Transformer decoder,变换器解码器
+761,Transformer encoder,变换器编码器
 762,Transformer-based language model,基于变换器的语言模型
 763,Transformer-based model,基于变换器的模型
-764,Transformer-like,类Transformer的
+764,Transformer-like,类变换器的
 765,Traveling Salesman Problem,旅行商问题
 766,TreeDST,TreeDST
 767,Triggering Model,触发模型
@@ -1117,7 +1117,6 @@ Index,English,Chinese
 1115,bart-base,bart-base模型
 1116,bart-large,bart-large模型
 1117,barycentric coordinate,重心坐标
-1118,base,基
 1119,base classifier,基分类器
 1120,base distribution,基础分布
 1121,base learner,基学习器
@@ -1458,7 +1457,6 @@ Index,English,Chinese
 1456,coarse-to-fine approach,从粗到细方法
 1457,coarse-to-fine cascade,粗到细级联
 1458,coarse-to-fine strategy,粗到细策略
-1459,code,编码
 1460,code pipeline,代码流水线
 1461,codebook,码本
 1462,codebook learning,码书学习
@@ -6055,11 +6053,11 @@ Index,English,Chinese
 6053,transform,变换
 6054,transformation function,转换函数
 6055,transformation matrix,转换矩阵
-6056,transformer language model,Transformer语言模型
-6057,transformer layer,Transformer层
-6058,transformer model,Transformer模型
-6059,transformer variant,Transformer变体
-6060,transformer-based architecture,基于Transformer的架构
+6056,transformer language model,变换器语言模型
+6057,transformer layer,变换器层
+6058,transformer model,变换器模型
+6059,transformer variant,变换器变体
+6060,transformer-based architecture,基于变换器的架构
 6061,transition,转移
 6062,transition distribution,转移分布
 6063,transition dynamic,转移动态
@@ -6251,7 +6249,7 @@ Index,English,Chinese
 6249,value iteration algorithm,值迭代算法
 6250,value network,值网络
 6251,value-based reinforcement learning,基于值的强化学习
-6252,vanilla Transformer,原始Transformer
+6252,vanilla Transformer,原始变换器
 6253,vanishing and exploding gradient problem,梯度消失与爆炸问题
 6254,vanishing gradient,梯度消失
 6255,vanishing gradient problem,梯度消失问题

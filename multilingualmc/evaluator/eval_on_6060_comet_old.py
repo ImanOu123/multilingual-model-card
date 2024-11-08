@@ -6,8 +6,6 @@ import pandas as pd
 from collections import defaultdict
 from comet import download_model, load_from_checkpoint
 
-from eval_on_6060 import get_mean_std_dict
-
 os.environ['HUGGINGFACE_API_TOKEN'] = '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'
 
 class COMET:
@@ -83,25 +81,12 @@ class COMET:
         model_output = self.model.predict(data, batch_size=batch_size, gpus=gpus)
         return model_output
 
-# default model: Unbabel/wmt22-comet-da
-# python3 eval_on_6060_comet.py
-# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_comet.json
-# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_gpt4omini.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_gpt4omini_comet.json
-
-# reference-free model: Unbabel/wmt23-cometkiwi-da-xl
-# python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
-# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
-# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_gpt4omini.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_gpt4omini_comet_noref_xl.json --model_id Unbabel/wmt23-cometkiwi-da-xl
-
-# explanable comet model: Unbabel/XCOMET-XL
-# python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_xcomet_xl.json --model_id Unbabel/XCOMET-XL
-# python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_xcomet_xl.json --model_id Unbabel/XCOMET-XL
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_googletrans.jsonl")
-    parser.add_argument("--gt_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/2/acl_6060/dev/text/txt/ACL.6060.dev.en-xx.en.txt")
-    parser.add_argument("--out_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_comet.json")
+    parser.add_argument("--in_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_googletrans.jsonl")
+    parser.add_argument("--gt_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/2/acl_6060/dev/text/txt/ACL.6060.dev.en-xx.en.txt")
+    parser.add_argument("--out_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/predictions_dev_googletrans_comet.json")
     parser.add_argument("--model_id", type=str, default="Unbabel/wmt22-comet-da")
     args = parser.parse_args()
     
@@ -162,8 +147,8 @@ if __name__ == "__main__":
         
         # `Unbabel/wmt22-comet-da`:
         if "XCOMET" not in args.model_id:
-            scores_dict[f"{tgt_lang}_scores"] = scores.scores
-            scores_dict[f"{tgt_lang}_system_score"] = scores.system_score
+            scores_dict[f"{tgt_lang}_scores"] = scores.scores # type: ignore
+            scores_dict[f"{tgt_lang}_system_score"] = scores.system_score # type: ignore
         else:
             scores_dict[f"{tgt_lang}"] = scores.__dict__
 

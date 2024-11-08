@@ -36,16 +36,12 @@ class ChatVLLMOpenAI(ChatOpenAI):
 
 def get_llm(model, api_key=None, api_org=None, model_path=None):
     if 'gpt' in model:
-        api_key = os.environ.get('openai_api_key', None)
-        if isinstance(api_org, list):
-            api_org = random.choice(api_org)
-        api_org = os.environ.get(f"openai_api_org_{api_org}", None)
         import openai
-        openai.api_key = api_key
-        openai.organization = api_org
+        from multilingualmc.evaluator.run_on_6060_prompt import openai_setup
+        openai_setup()
         llm_model = ChatOpenAI
         llm = llm_model(
-            openai_api_key=api_key,
+            openai_api_key=openai.api_key,
             model=model,
         )
         return llm
