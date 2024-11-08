@@ -2,11 +2,8 @@ from tqdm import tqdm
 import json
 import os
 import argparse
-from utils import DocProcessor, split_paragraph
-
-import sys
-sys.path.append("../translator/")
-from term_extractor import LLAMATermExtractor
+from multilingualmc.utils import DocProcessor, split_paragraph
+from multilingualmc.translator.term_extractor import LLAMATermExtractor
 
         
 if __name__ == "__main__":
