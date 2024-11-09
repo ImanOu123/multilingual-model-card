@@ -18,13 +18,11 @@ class TermExtractor:
     
 class LLAMATermExtractor(TermExtractor):
     def prepare_model(self):
-        import sys
-        from llm_prompts import get_prompt
+        from multilingualmc.translator.llm_prompts import get_prompt
         self.get_prompt = get_prompt
 
-        sys.path.append("../")
-        from models.config import get_model_config
-        from models.llm import call
+        from multilingualmc.models.config import get_model_config
+        from multilingualmc.models.llm import call
         self.config = get_model_config(self.args.model_name)
         def llm_config_func(llm):
             llm.temperature = 0
