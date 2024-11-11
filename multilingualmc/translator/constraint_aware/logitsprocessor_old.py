@@ -19,10 +19,8 @@ class TerminologyAwareLogitsProcessor(LogitsProcessor):
         return list(set(tokens_set))
     
     def __call__(self, input_ids, scores, term_to_regenerate):
-        # get current index
-        # check if the current index is the start of some terms that need to regenerate (get feedbacks from previous runs)
-        # if true, then adjust the token logits for m next tokns
-        
+        terms = self.get_all_terms(term_to_regenerate)
+        tokens = self.get_token_ids_of_terms(terms)
         
         for idx in range(scores.shape[-1]):
             if idx in tokens:  # Penalize tokens not in the translation

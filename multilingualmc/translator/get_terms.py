@@ -111,3 +111,23 @@ class TermCollector:
                         matched_indices.update(range(i, i + term_length))  # Mark indices as matched
 
         return set(matched_terms)
+    
+    def find_terminology_with_indices(self, in_paragraph):
+        # Create a list to hold matched terms
+        matched_terms_with_indices = []
+        matched_indices = set()  # To track matched word positions
+        
+        words = word_tokenize(in_paragraph.lower())
+        for term in self.sorted_terms:
+            term_words = word_tokenize(term)
+            term_length = len(term_words)
+            # Iterate over the words in the paragraph
+            for i in range(len(words) - term_length + 1):
+                # Check if the segment of words matches the term
+                if words[i:i + term_length] == term_words:
+                    # Ensure none of the words have been matched before to avoid overlaps
+                    if all(idx not in matched_indices for idx in range(i, i + term_length)):
+                        matched_terms.append([term, [i, i+term_length]])
+                        matched_indices.update(range(i, i + term_length))  # Mark indices as matched
+
+        return matched_terms_with_indices
