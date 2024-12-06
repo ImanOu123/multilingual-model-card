@@ -1,10 +1,9 @@
-,word,annotation6060,label60
+Unnamed: 0,word,annotation6060,label6060
 1,classifying,分類,分類し
 10,FeSTE,パーティー,FeSTE
 11,OOV,語彙外,OOV
 12,PaLM,パルム,PaLM
 13,morphological,形態論的,形態的
-17,CONLL,CONLL,CoNLL
 23,GLUE,のり,GLUE
 28,syntactic,構文的,構文
 30,features,特徴,機能

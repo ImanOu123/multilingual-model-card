@@ -1,9 +1,8 @@
-,word,annotation6060,label60
+Unnamed: 0,word,annotation6060,label6060
 4,AI,IA,intelligence artificielle
 6,NLP,PNL,TAL traitement automatique du langage naturel
 7,spans,segments,étendage
 11,OOV,hors vocabulaire,OOV
-17,CONLL,CONLL,CoNLL
 21,newswire,fil d'actualités,fil d'actualité
 26,written,écrit,écrits
 27,Furthermore,De plus,en outre
@@ -17,11 +16,9 @@
 52,computational,computationnel,informatique
 54,motivated,motivé,motivés
 61,extractive,extractif,extraction
-66,Semantic,Sémantique,sémantique
 68,human,humain,civique
 70,unseen,non vu,invisible
 73,similarity,similarité,similitude
-78,Moreover,De plus,de plus
 90,FLR,réduction de latence finale,FLR
 93,embeddings,embeddings,intégration
 94,generalize,généraliser,généralise
@@ -38,8 +35,6 @@
 121,metrics,métriques,indicateurs
 123,augmented,augmenté,amélioré
 125,lexical,lexical,lexicale
-126,re,re,RE
-131,For,Pour,pour
 135,transformer,transformateur,conversion
 140,visual,visuel,visuelle
 141,multitask,multitâche,multi-tâches
@@ -56,22 +51,17 @@
 171,adversarial,adversarial,antagoniste
 172,sentiment,sentiment,émotionel
 176,Hence,Par conséquent,donc
-177,Wikipedia,Wikipédia,wikipédia
 179,predicates,prédicats,prédicat
 184,event,événement,activité
 185,simultaneous,simultané,simultanée
 188,semantics,sémantique,sémantiques
 192,research,recherche,recherches
 205,generated,généré,générés
-207,Therefore,Par conséquent,par conséquent
 208,baselines,références,bases
-212,Architectures,Architectures,architectures
 214,parsing,analyse,analyse syntaxique
 215,linguistics,linguistique,linguistiques
 216,previous,précédent,antérieur
-217,Dialogue,Dialogue,dialogue
 218,encode,encoder,encode
-220,Additionally,De plus,de plus
 221,finetuning,ajustement fin,raffinement
 228,propose,proposer,proposé
 234,linked,lié,liées
@@ -84,7 +74,5 @@
 254,labeled,étiqueté,étiquetés
 255,captions,légendes,captures
 260,Morphology,Morphologie,morphologique
-263,BLEU,BLEU,bleu
 264,utterances,énoncés,discours
 268,Detecting,Détection,détecter
-270,Modeling,Modélisation,modélisation
