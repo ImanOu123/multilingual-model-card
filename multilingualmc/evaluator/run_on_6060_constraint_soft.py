@@ -131,12 +131,12 @@ if __name__ == "__main__":
                 relevant_terms_dict = {}
                 for key in term_collector.find_terminology(item):
                     relevant_terms_dict[key] = term_collector.terms_dict[key]
-                    
+                
                 answer = translator.translate_constraint_soft( # type: ignore
                     item,
                     src_lang = 'English',
                     tgt_lang = tgt_lang,
-                    terms_dict = list(set([val[tgt_lang] for key, val in relevant_terms_dict[key].items()])),
+                    terms_dict = list(set([val[tgt_lang] for key, val in relevant_terms_dict.items() if tgt_lang in val])),
                     soft_penalty = args.soft_penalty,
                     **kwargs
                 )

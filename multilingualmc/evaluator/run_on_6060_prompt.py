@@ -8,13 +8,20 @@ import sys
 import argparse
 from multilingualmc.translator.get_terms import TermCollector
 
-def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
+# def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
+# 	with open(key_path) as f:
+# 		key, org_id = f.read().strip().split("\n")
+
+# 	print("Read key from", key_path)
+# 	openai.api_key = key.strip()
+# 	openai.organization = org_id.strip()
+
+def openai_setup(key_path='/home/jiaruil5/openai_key_ralf_misleading.txt'):
 	with open(key_path) as f:
-		key, org_id = f.read().strip().split("\n")
+		key = f.read().strip().split("\n")[0]
 
 	print("Read key from", key_path)
 	openai.api_key = key.strip()
-	openai.organization = org_id.strip()
 
 def openai_prompt(src_text, tgt_text, relevant_terms_dict, tgt_lang, model='gpt-4o'):
     src_lang = 'English'
