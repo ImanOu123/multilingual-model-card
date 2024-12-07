@@ -30,17 +30,24 @@ def google_translate(text, src_lang, tgt_lang):
     ).text
     return result
 
-def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
+def openai_setup(key_path='/home/jiaruil5/openai_key_ralf_misleading.txt'):
 	with open(key_path) as f:
-		key, org_id = f.read().strip().split("\n")
+		key = f.read().strip().split("\n")[0]
 
 	print("Read key from", key_path)
 	openai.api_key = key.strip()
-	openai.organization = org_id.strip()
- 
+
+# def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
+# 	with open(key_path) as f:
+# 		key, org_id = f.read().strip().split("\n")
+
+# 	print("Read key from", key_path)
+# 	openai.api_key = key.strip()
+# 	openai.organization = org_id.strip()
+
 openai_setup()
 
-context_df = pd.read_csv("/home/jiaruil5/multilingual/multilingual-model-card/src/dictionary_collection/mturk/mturk_with_6060.csv")
+context_df = pd.read_csv("/home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/dictionary_collection/mturk/mturk_with_6060.csv")
 
 def extract_response(response_text):
     # Regex pattern to capture the first part (ranked candidates) and the second part (explanation)
@@ -74,7 +81,7 @@ Output format:
 """
     while True:
         try:
-            resp = openai.chat.completions.create(
+            resp = openai.ChatCompletion.create(
                 model = model,
                 messages = [{"role": "user", "content": prompt}],
                 temperature = 0,
@@ -209,14 +216,16 @@ def validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_pa
     df.to_csv(out_csv_path)
     
 if __name__ == "__main__":
-    langs = ['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']
+    import sys
+    # langs = ['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']
+    langs = [sys.argv[1]]
     threshold = 0.5
-    sample_size = 200
+    sample_size = 10000
     
     for lang in langs:
         in_csv_path = f"annotation_results_crawled/{lang}.csv"
-        log_file_path = f"annotation_results_crawled/tmp_{lang}_gpt4o_>0.5_sample200.txt"
-        out_csv_path = in_csv_path.replace(".csv", "_validated_>0.5_sample200.csv")
+        log_file_path = f"annotation_results_crawled/tmp_{lang}_gpt4o_>0.5.txt"
+        out_csv_path = in_csv_path.replace(".csv", "_validated_>0.5.csv")
         split = "whole"
 
         validate_translation(lang, threshold, in_csv_path, log_file_path, out_csv_path, split, sample_size)

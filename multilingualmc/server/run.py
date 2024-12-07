@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from model import Translator, Args, ModelMT, ModelRefine, Mode
+from multilingualmc.server.model import Translator, Args, ModelMT, ModelRefine, Mode
 
 # Define the FastAPI app
 app = FastAPI()

@@ -98,11 +98,6 @@ if __name__ == "__main__":
     
     if args.method == 'constrained_beam_search':
         from multilingualmc.translator.get_terms import TermCollector
-        term_collector = TermCollector(args.term_file, tgt_langs)
-    
-    
-    if args.method == 'constrained_beam_search':
-        from multilingualmc.translator.get_terms import TermCollector
         term_collector = TermCollector(args.term_file_path, tgt_langs)
     
     

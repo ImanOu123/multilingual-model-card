@@ -3,6 +3,7 @@ import time
 import transformers
 import torch
 from transformers import PhrasalConstraint
+from transformers import LogitsProcessor
 
 class Translator:
     def __init__(self, args):
@@ -17,6 +18,26 @@ class Translator:
     def translate(self):
         """Translate text from source language to target language."""
         pass
+
+
+class TerminologyAwareLogitsProcessor(LogitsProcessor):
+    def __init__(self, tokenizer, en_text, lang, soft_penalty, lang_dict, tokens):
+        self.tokenizer = tokenizer
+        self.en_text = en_text
+        self.lang = lang
+        self.soft_penalty = soft_penalty
+        self.lang_dict = lang_dict
+        self.tokens = tokens
+
+    def __call__(self, input_ids, scores):
+        # print(scores)
+        for idx in range(scores.shape[-1]):
+            tokens = list({item for sublist in self.tokens for item in sublist})
+            if idx in tokens:  # Penalize tokens not in the translation
+                scores[:, idx] /= self.soft_penalty  # Apply soft penalty
+        # print(scores)
+        return scores
+
 
 class NLLBTranslator(Translator):
     """
@@ -77,6 +98,39 @@ class NLLBTranslator(Translator):
         )
         return translated_text
 
+    def translate_constraint_soft(self, text, src_lang, tgt_lang, terms_dict, soft_penalty=0.8):
+        self.tokenizer.src_lang = self.args.lang_dict[src_lang]
+        encoded_input = self.tokenizer(
+            text,
+            return_tensors="pt"
+        )
+        
+        tokens = []
+        for translation in terms_dict:
+            token = self.tokenizer(translation)['input_ids']
+            tokens.append(token)
+        
+        logits_processor = TerminologyAwareLogitsProcessor(
+            tokenizer=self.tokenizer,
+            en_text=text,
+            lang=tgt_lang,
+            soft_penalty=soft_penalty,
+            lang_dict=self.args.lang_dict,
+            tokens = tokens,
+        )
+        
+        output_tokens = self.model.generate(
+            **encoded_input.to(self.device),
+            forced_bos_token_id = self.tokenizer.lang_code_to_id[self.args.lang_dict[tgt_lang]],
+            logits_processor = [logits_processor],
+        )
+        translated_text = self.tokenizer.batch_decode(
+            output_tokens,
+            skip_special_tokens=True
+        )[0]
+        return translated_text
+        
+    
 class SeamlessTranslator(Translator):
     """
     args: an instance of M4TLarge from config.py.
@@ -134,6 +188,42 @@ class SeamlessTranslator(Translator):
             num_return_sequences=1,
             no_repeat_ngram_size=1,
             remove_invalid_values=True,
+        )
+        translated_text = self.processor.decode(
+            output_tokens[0].tolist()[0],
+            skip_special_tokens=True
+        )
+        return translated_text
+
+    def translate_constraint_soft(self, text, src_lang, tgt_lang, terms_dict, soft_penalty=0.8):
+        text_inputs = self.processor(
+            text = text,
+            src_lang = self.args.lang_dict[src_lang],
+            return_tensors="pt"
+        )
+        
+        tokens = []
+        for translation in terms_dict:
+            token = self.processor(
+                translation,
+                src_lang=self.args.lang_dict[tgt_lang]
+            )['input_ids']
+            tokens.append(token)
+        
+        logits_processor = TerminologyAwareLogitsProcessor(
+            tokenizer=self.processor,
+            en_text=text,
+            lang=tgt_lang,
+            soft_penalty=soft_penalty,
+            lang_dict=self.args.lang_dict,
+            tokens = tokens,
+        )
+        
+        output_tokens = self.model.generate(
+            **text_inputs.to(self.device),
+            tgt_lang=self.args.lang_dict[tgt_lang],
+            generate_speech=False,
+            logits_processor=[logits_processor]
         )
         translated_text = self.processor.decode(
             output_tokens[0].tolist()[0],

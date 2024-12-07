@@ -146,7 +146,7 @@ class Translator:
         ]
         
         self.set_model()
-        from translator import TermAwareRefiner
+        from multilingualmc.translator.refiner import TermAwareRefiner
         class RefinerArgs:
             model = self.args.model_refine
             openai_key_path = self.args.openai_key_path
@@ -155,7 +155,7 @@ class Translator:
     
     def set_model(self):
         if self.args.model_mt == ModelMT.seamless:
-            from translator import SeamlessTranslator
+            from multilingualmc.translator.translator import SeamlessTranslator
             class Config:
                 model_name = "facebook/hf-seamless-m4t-Large"
                 cache_dir = self.args.cache_dir
@@ -170,7 +170,7 @@ class Translator:
             config = Config
             self.model = SeamlessTranslator(config)
         elif self.args.model_mt == ModelMT.googletrans:
-            from translator import GoogleTranslator
+            from multilingualmc.translator.translator import GoogleTranslator
             from typing import Any
             import httpcore
             setattr(httpcore, 'SyncHTTPTransport', Any)
@@ -185,13 +185,6 @@ class Translator:
                 }
             config = Config
             self.model = GoogleTranslator(config)
-        elif "gpt" in str(self.args.model_mt).lower():
-            from translator import GPTTranslator
-            class Config:
-                model_name = self.args.model_mt
-                openai_key_path = self.args.openai_key_path
-            config = Config
-            self.model = GPTTranslator(config)
         
     def translate(self, text, src_lang, tgt_lang):
         result = self.model.translate(text, src_lang, tgt_lang)

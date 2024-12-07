@@ -1,0 +1,1551 @@
+,WorkerId,en_word,anno1_word,anno2_word,Answer.A,Answer.B,Answer.C,Answer.D,source
+0,A2FXDEKCCUT9OJ,classifying,分類,分類し,True,False,False,False,6060
+1,A2FXDEKCCUT9OJ,FeSTE,パーティー,FeSTE,False,False,True,False,6060
+2,A2FXDEKCCUT9OJ,OOV,語彙外,OOV,True,False,False,False,6060
+3,A2FXDEKCCUT9OJ,PaLM,パルム,PaLM,True,False,False,False,6060
+4,A2FXDEKCCUT9OJ,morphological,形態論的,形態的,False,True,False,False,6060
+5,A186ORPGIU3WNL,classifying,分類,分類し,False,True,False,False,6060
+6,A186ORPGIU3WNL,FeSTE,パーティー,FeSTE,True,False,False,False,6060
+7,A186ORPGIU3WNL,OOV,語彙外,OOV,False,True,False,False,6060
+8,A186ORPGIU3WNL,PaLM,パルム,PaLM,False,True,False,False,6060
+9,A186ORPGIU3WNL,morphological,形態論的,形態的,False,True,False,False,6060
+10,A2P8U65V6NL7B5,classifying,分類,分類し,True,False,False,False,6060
+11,A2P8U65V6NL7B5,FeSTE,パーティー,FeSTE,False,False,False,True,6060
+12,A2P8U65V6NL7B5,OOV,語彙外,OOV,True,False,False,False,6060
+13,A2P8U65V6NL7B5,PaLM,パルム,PaLM,True,False,False,False,6060
+14,A2P8U65V6NL7B5,morphological,形態論的,形態的,False,True,False,False,6060
+15,A13QHI6P2C910K,classifying,分類,分類し,False,True,False,False,6060
+16,A13QHI6P2C910K,FeSTE,パーティー,FeSTE,False,False,True,False,6060
+17,A13QHI6P2C910K,OOV,語彙外,OOV,False,True,False,False,6060
+18,A13QHI6P2C910K,PaLM,パルム,PaLM,True,False,False,False,6060
+19,A13QHI6P2C910K,morphological,形態論的,形態的,False,True,False,False,6060
+20,A2O4PW85X1GQA1,classifying,分類,分類し,True,False,False,False,6060
+21,A2O4PW85X1GQA1,FeSTE,パーティー,FeSTE,False,False,False,True,6060
+22,A2O4PW85X1GQA1,OOV,語彙外,OOV,True,False,False,False,6060
+23,A2O4PW85X1GQA1,PaLM,パルム,PaLM,True,False,False,False,6060
+24,A2O4PW85X1GQA1,morphological,形態論的,形態的,True,False,False,False,6060
+25,A3T0HNF8ITA98Y,GLUE,のり,GLUE,False,False,True,False,6060
+26,A3T0HNF8ITA98Y,syntactic,構文的,構文,False,True,False,False,6060
+27,A3T0HNF8ITA98Y,features,特徴,機能,False,False,False,True,6060
+28,A3T0HNF8ITA98Y,KinyaBERT,キンヤバート,KinyaBERT,False,True,False,False,6060
+29,A3T0HNF8ITA98Y,QED,は,QED,False,False,False,True,6060
+30,A1KYZPQ0T7WECC,GLUE,のり,GLUE,False,False,True,False,6060
+31,A1KYZPQ0T7WECC,syntactic,構文的,構文,False,True,False,False,6060
+32,A1KYZPQ0T7WECC,features,特徴,機能,True,False,False,False,6060
+33,A1KYZPQ0T7WECC,KinyaBERT,キンヤバート,KinyaBERT,True,False,False,False,6060
+34,A1KYZPQ0T7WECC,QED,は,QED,False,False,True,False,6060
+35,A3Q32FL0WWF4KZ,GLUE,のり,GLUE,False,True,False,False,6060
+36,A3Q32FL0WWF4KZ,syntactic,構文的,構文,True,False,False,False,6060
+37,A3Q32FL0WWF4KZ,features,特徴,機能,True,False,False,False,6060
+38,A3Q32FL0WWF4KZ,KinyaBERT,キンヤバート,KinyaBERT,True,False,False,False,6060
+39,A3Q32FL0WWF4KZ,QED,は,QED,False,False,False,True,6060
+40,A3OAFR48DADAOM,GLUE,のり,GLUE,False,False,True,False,6060
+41,A3OAFR48DADAOM,syntactic,構文的,構文,False,True,False,False,6060
+42,A3OAFR48DADAOM,features,特徴,機能,True,False,False,False,6060
+43,A3OAFR48DADAOM,KinyaBERT,キンヤバート,KinyaBERT,True,False,False,False,6060
+44,A3OAFR48DADAOM,QED,は,QED,False,False,True,False,6060
+45,A1U6UPXOFCXR24,GLUE,のり,GLUE,False,True,False,False,6060
+46,A1U6UPXOFCXR24,syntactic,構文的,構文,False,True,False,False,6060
+47,A1U6UPXOFCXR24,features,特徴,機能,True,False,False,False,6060
+48,A1U6UPXOFCXR24,KinyaBERT,キンヤバート,KinyaBERT,True,False,False,False,6060
+49,A1U6UPXOFCXR24,QED,は,QED,False,False,True,False,6060
+50,A3IG9HHR3NL9R0,grounding,グラウンディング,教育付け,False,True,False,False,6060
+51,A3IG9HHR3NL9R0,algorithms,アルゴリズム,アリゴリズム,False,True,False,False,6060
+52,A3IG9HHR3NL9R0,training,学習,訓練,True,False,False,False,6060
+53,A3IG9HHR3NL9R0,pretrained,事前学習済み,事前訓練された,True,False,False,False,6060
+54,A3IG9HHR3NL9R0,ViLBERT,ビルバート,ViLBERT,True,False,False,False,6060
+55,A2ML30H0T2HO1J,grounding,グラウンディング,教育付け,False,False,True,False,6060
+56,A2ML30H0T2HO1J,algorithms,アルゴリズム,アリゴリズム,False,False,False,True,6060
+57,A2ML30H0T2HO1J,training,学習,訓練,False,True,False,False,6060
+58,A2ML30H0T2HO1J,pretrained,事前学習済み,事前訓練された,True,False,False,False,6060
+59,A2ML30H0T2HO1J,ViLBERT,ビルバート,ViLBERT,False,True,False,False,6060
+60,A2O4PW85X1GQA1,grounding,グラウンディング,教育付け,False,True,False,False,6060
+61,A2O4PW85X1GQA1,algorithms,アルゴリズム,アリゴリズム,False,True,False,False,6060
+62,A2O4PW85X1GQA1,training,学習,訓練,True,False,False,False,6060
+63,A2O4PW85X1GQA1,pretrained,事前学習済み,事前訓練された,True,False,False,False,6060
+64,A2O4PW85X1GQA1,ViLBERT,ビルバート,ViLBERT,True,False,False,False,6060
+65,A42LJXMJ3CFRU,grounding,グラウンディング,教育付け,False,True,False,False,6060
+66,A42LJXMJ3CFRU,algorithms,アルゴリズム,アリゴリズム,False,True,False,False,6060
+67,A42LJXMJ3CFRU,training,学習,訓練,False,False,True,False,6060
+68,A42LJXMJ3CFRU,pretrained,事前学習済み,事前訓練された,False,True,False,False,6060
+69,A42LJXMJ3CFRU,ViLBERT,ビルバート,ViLBERT,False,False,False,True,6060
+70,ASML73P0NOOVV,grounding,グラウンディング,教育付け,False,False,False,False,6060
+71,ASML73P0NOOVV,algorithms,アルゴリズム,アリゴリズム,False,True,False,False,6060
+72,ASML73P0NOOVV,training,学習,訓練,True,False,False,False,6060
+73,ASML73P0NOOVV,pretrained,事前学習済み,事前訓練された,True,False,False,False,6060
+74,ASML73P0NOOVV,ViLBERT,ビルバート,ViLBERT,True,False,False,False,6060
+75,ASML73P0NOOVV,subword,サブワード,サブ単語,False,True,False,False,6060
+76,ASML73P0NOOVV,CodeBERT,コードBERT,CodeBERT,True,False,False,False,6060
+77,ASML73P0NOOVV,computational,計算的,計算,False,True,False,False,6060
+78,ASML73P0NOOVV,motivated,動機づけられた,動機づけられる,False,True,False,False,6060
+79,ASML73P0NOOVV,BART,バート,BART,True,False,False,False,6060
+80,AWPXR7XE6B8KD,subword,サブワード,サブ単語,True,False,False,False,6060
+81,AWPXR7XE6B8KD,CodeBERT,コードBERT,CodeBERT,True,False,False,False,6060
+82,AWPXR7XE6B8KD,computational,計算的,計算,False,True,False,False,6060
+83,AWPXR7XE6B8KD,motivated,動機づけられた,動機づけられる,False,True,False,False,6060
+84,AWPXR7XE6B8KD,BART,バート,BART,True,False,False,False,6060
+85,A186ORPGIU3WNL,subword,サブワード,サブ単語,True,False,False,False,6060
+86,A186ORPGIU3WNL,CodeBERT,コードBERT,CodeBERT,True,False,False,False,6060
+87,A186ORPGIU3WNL,computational,計算的,計算,False,True,False,False,6060
+88,A186ORPGIU3WNL,motivated,動機づけられた,動機づけられる,False,True,False,False,6060
+89,A186ORPGIU3WNL,BART,バート,BART,True,False,False,False,6060
+90,A9M8N3BOH6013,subword,サブワード,サブ単語,True,False,False,False,6060
+91,A9M8N3BOH6013,CodeBERT,コードBERT,CodeBERT,True,False,False,False,6060
+92,A9M8N3BOH6013,computational,計算的,計算,False,True,False,False,6060
+93,A9M8N3BOH6013,motivated,動機づけられた,動機づけられる,False,True,False,False,6060
+94,A9M8N3BOH6013,BART,バート,BART,True,False,False,False,6060
+95,A11JXYZDAUX0UP,subword,サブワード,サブ単語,True,False,False,False,6060
+96,A11JXYZDAUX0UP,CodeBERT,コードBERT,CodeBERT,True,False,False,False,6060
+97,A11JXYZDAUX0UP,computational,計算的,計算,False,True,False,False,6060
+98,A11JXYZDAUX0UP,motivated,動機づけられた,動機づけられる,False,True,False,False,6060
+99,A11JXYZDAUX0UP,BART,バート,BART,True,False,False,False,6060
+100,A3I1OLOTCWCIET,dependencies,依存関係,依存性,False,True,False,False,6060
+101,A3I1OLOTCWCIET,classifiers,分類器,類別詞,True,False,False,False,6060
+102,A3I1OLOTCWCIET,extractive,抽出的,抽出,False,True,False,False,6060
+103,A3I1OLOTCWCIET,documents,文書,文章,True,False,False,False,6060
+104,A3I1OLOTCWCIET,Semantic,セマンティック,意味論,False,False,True,False,6060
+105,A2FXDEKCCUT9OJ,dependencies,依存関係,依存性,True,False,False,False,6060
+106,A2FXDEKCCUT9OJ,classifiers,分類器,類別詞,False,True,False,False,6060
+107,A2FXDEKCCUT9OJ,extractive,抽出的,抽出,False,False,True,False,6060
+108,A2FXDEKCCUT9OJ,documents,文書,文章,False,True,False,False,6060
+109,A2FXDEKCCUT9OJ,Semantic,セマンティック,意味論,True,False,False,False,6060
+110,A39PWDRYNY2WM0,dependencies,依存関係,依存性,True,False,False,False,6060
+111,A39PWDRYNY2WM0,classifiers,分類器,類別詞,False,True,False,False,6060
+112,A39PWDRYNY2WM0,extractive,抽出的,抽出,False,False,True,False,6060
+113,A39PWDRYNY2WM0,documents,文書,文章,True,False,False,False,6060
+114,A39PWDRYNY2WM0,Semantic,セマンティック,意味論,True,False,False,False,6060
+115,A186ORPGIU3WNL,dependencies,依存関係,依存性,True,False,False,False,6060
+116,A186ORPGIU3WNL,classifiers,分類器,類別詞,False,True,False,False,6060
+117,A186ORPGIU3WNL,extractive,抽出的,抽出,False,False,True,False,6060
+118,A186ORPGIU3WNL,documents,文書,文章,False,True,False,False,6060
+119,A186ORPGIU3WNL,Semantic,セマンティック,意味論,True,False,False,False,6060
+120,A3MDTRJTDIDNX,dependencies,依存関係,依存性,True,False,False,False,6060
+121,A3MDTRJTDIDNX,classifiers,分類器,類別詞,False,True,False,False,6060
+122,A3MDTRJTDIDNX,extractive,抽出的,抽出,False,False,True,False,6060
+123,A3MDTRJTDIDNX,documents,文書,文章,True,False,False,False,6060
+124,A3MDTRJTDIDNX,Semantic,セマンティック,意味論,True,False,False,False,6060
+125,A2MZEUP2ECO1AI,human,人間,人間の,True,False,False,False,6060
+126,A2MZEUP2ECO1AI,unseen,未見の,見えない,False,True,False,False,6060
+127,A2MZEUP2ECO1AI,QUOREF,クオレフ,QUOREF,True,False,False,False,6060
+128,A2MZEUP2ECO1AI,queries,クエリ,質問,False,True,False,False,6060
+129,A2MZEUP2ECO1AI,structured,構造化された,構築された,False,True,False,False,6060
+130,A251BWQW2F81FT,human,人間,人間の,True,False,False,False,6060
+131,A251BWQW2F81FT,unseen,未見の,見えない,False,True,False,False,6060
+132,A251BWQW2F81FT,QUOREF,クオレフ,QUOREF,True,False,False,False,6060
+133,A251BWQW2F81FT,queries,クエリ,質問,False,True,False,False,6060
+134,A251BWQW2F81FT,structured,構造化された,構築された,True,False,False,False,6060
+135,A3IG9HHR3NL9R0,human,人間,人間の,False,True,False,False,6060
+136,A3IG9HHR3NL9R0,unseen,未見の,見えない,False,True,False,False,6060
+137,A3IG9HHR3NL9R0,QUOREF,クオレフ,QUOREF,True,False,False,False,6060
+138,A3IG9HHR3NL9R0,queries,クエリ,質問,False,True,False,False,6060
+139,A3IG9HHR3NL9R0,structured,構造化された,構築された,False,True,False,False,6060
+140,A2ML30H0T2HO1J,human,人間,人間の,False,False,False,True,6060
+141,A2ML30H0T2HO1J,unseen,未見の,見えない,False,False,True,False,6060
+142,A2ML30H0T2HO1J,QUOREF,クオレフ,QUOREF,False,True,False,False,6060
+143,A2ML30H0T2HO1J,queries,クエリ,質問,False,False,False,True,6060
+144,A2ML30H0T2HO1J,structured,構造化された,構築された,True,False,False,False,6060
+145,A19I2ZK220NTAE,human,人間,人間の,True,False,False,False,6060
+146,A19I2ZK220NTAE,unseen,未見の,見えない,False,True,False,False,6060
+147,A19I2ZK220NTAE,QUOREF,クオレフ,QUOREF,True,False,False,False,6060
+148,A19I2ZK220NTAE,queries,クエリ,質問,False,True,False,False,6060
+149,A19I2ZK220NTAE,structured,構造化された,構築された,True,False,False,False,6060
+150,AC4I7XU10MQXK,compared,比較された,比較して,False,True,False,False,6060
+151,AC4I7XU10MQXK,Moreover,さらに,また,True,False,False,False,6060
+152,AC4I7XU10MQXK,contextualized,文脈化された,文脈で理解できる,False,True,False,False,6060
+153,AC4I7XU10MQXK,sense,意味,感覚,True,False,False,False,6060
+154,AC4I7XU10MQXK,algorithm,アルゴリズム,アリゴリズム,False,True,False,False,6060
+155,A186ORPGIU3WNL,compared,比較された,比較して,False,True,False,False,6060
+156,A186ORPGIU3WNL,Moreover,さらに,また,True,False,False,False,6060
+157,A186ORPGIU3WNL,contextualized,文脈化された,文脈で理解できる,False,True,False,False,6060
+158,A186ORPGIU3WNL,sense,意味,感覚,False,True,False,False,6060
+159,A186ORPGIU3WNL,algorithm,アルゴリズム,アリゴリズム,False,True,False,False,6060
+160,A3SC8IBRLEFRUP,compared,比較された,比較して,False,True,False,False,6060
+161,A3SC8IBRLEFRUP,Moreover,さらに,また,True,False,False,False,6060
+162,A3SC8IBRLEFRUP,contextualized,文脈化された,文脈で理解できる,False,True,False,False,6060
+163,A3SC8IBRLEFRUP,sense,意味,感覚,False,False,True,False,6060
+164,A3SC8IBRLEFRUP,algorithm,アルゴリズム,アリゴリズム,True,False,False,False,6060
+165,A3IG9HHR3NL9R0,compared,比較された,比較して,False,True,False,False,6060
+166,A3IG9HHR3NL9R0,Moreover,さらに,また,True,False,False,False,6060
+167,A3IG9HHR3NL9R0,contextualized,文脈化された,文脈で理解できる,False,True,False,False,6060
+168,A3IG9HHR3NL9R0,sense,意味,感覚,False,True,False,False,6060
+169,A3IG9HHR3NL9R0,algorithm,アルゴリズム,アリゴリズム,True,False,False,False,6060
+170,A19I2ZK220NTAE,compared,比較された,比較して,False,True,False,False,6060
+171,A19I2ZK220NTAE,Moreover,さらに,また,True,False,False,False,6060
+172,A19I2ZK220NTAE,contextualized,文脈化された,文脈で理解できる,False,True,False,False,6060
+173,A19I2ZK220NTAE,sense,意味,感覚,True,False,False,False,6060
+174,A19I2ZK220NTAE,algorithm,アルゴリズム,アリゴリズム,False,True,False,False,6060
+175,A2P8U65V6NL7B5,embeddings,埋め込み,埋込み,True,False,False,False,6060
+176,A2P8U65V6NL7B5,gradient,勾配,傾度,False,True,False,False,6060
+177,A2P8U65V6NL7B5,named,名前付き,挙げられた,False,True,False,False,6060
+178,A2P8U65V6NL7B5,number,数,数字,False,True,False,False,6060
+179,A2P8U65V6NL7B5,pretraining,事前学習,事前訓練,True,False,False,False,6060
+180,A35H5DUMZH86PC,embeddings,埋め込み,埋込み,True,False,False,False,6060
+181,A35H5DUMZH86PC,gradient,勾配,傾度,False,True,False,False,6060
+182,A35H5DUMZH86PC,named,名前付き,挙げられた,False,True,False,False,6060
+183,A35H5DUMZH86PC,number,数,数字,True,False,False,False,6060
+184,A35H5DUMZH86PC,pretraining,事前学習,事前訓練,True,False,False,False,6060
+185,ASML73P0NOOVV,embeddings,埋め込み,埋込み,True,False,False,False,6060
+186,ASML73P0NOOVV,gradient,勾配,傾度,False,True,False,False,6060
+187,ASML73P0NOOVV,named,名前付き,挙げられた,False,True,False,False,6060
+188,ASML73P0NOOVV,number,数,数字,True,False,False,False,6060
+189,ASML73P0NOOVV,pretraining,事前学習,事前訓練,True,False,False,False,6060
+190,A3IG9HHR3NL9R0,embeddings,埋め込み,埋込み,True,False,False,False,6060
+191,A3IG9HHR3NL9R0,gradient,勾配,傾度,True,False,False,False,6060
+192,A3IG9HHR3NL9R0,named,名前付き,挙げられた,False,True,False,False,6060
+193,A3IG9HHR3NL9R0,number,数,数字,True,False,False,False,6060
+194,A3IG9HHR3NL9R0,pretraining,事前学習,事前訓練,True,False,False,False,6060
+195,A39PWDRYNY2WM0,embeddings,埋め込み,埋込み,True,False,False,False,6060
+196,A39PWDRYNY2WM0,gradient,勾配,傾度,False,True,False,False,6060
+197,A39PWDRYNY2WM0,named,名前付き,挙げられた,False,True,False,False,6060
+198,A39PWDRYNY2WM0,number,数,数字,True,False,False,False,6060
+199,A39PWDRYNY2WM0,pretraining,事前学習,事前訓練,True,False,False,False,6060
+200,A35H5DUMZH86PC,tagging,タギング,タグ付け,True,False,False,False,6060
+201,A35H5DUMZH86PC,identifying,特定する,識別,True,False,False,False,6060
+202,A35H5DUMZH86PC,conversational,会話型,会話的,True,False,False,False,6060
+203,A35H5DUMZH86PC,downstream,ダウンストリーム,下流,True,False,False,False,6060
+204,A35H5DUMZH86PC,relation,関係,リレーション,True,False,False,False,6060
+205,ASML73P0NOOVV,tagging,タギング,タグ付け,False,False,True,False,6060
+206,ASML73P0NOOVV,identifying,特定する,識別,True,False,False,False,6060
+207,ASML73P0NOOVV,conversational,会話型,会話的,False,True,False,False,6060
+208,ASML73P0NOOVV,downstream,ダウンストリーム,下流,True,False,False,False,6060
+209,ASML73P0NOOVV,relation,関係,リレーション,True,False,False,False,6060
+210,A13QHI6P2C910K,tagging,タギング,タグ付け,False,False,True,False,6060
+211,A13QHI6P2C910K,identifying,特定する,識別,True,False,False,False,6060
+212,A13QHI6P2C910K,conversational,会話型,会話的,True,False,False,False,6060
+213,A13QHI6P2C910K,downstream,ダウンストリーム,下流,True,False,False,False,6060
+214,A13QHI6P2C910K,relation,関係,リレーション,True,False,False,False,6060
+215,A2O4PW85X1GQA1,tagging,タギング,タグ付け,True,False,False,False,6060
+216,A2O4PW85X1GQA1,identifying,特定する,識別,False,True,False,False,6060
+217,A2O4PW85X1GQA1,conversational,会話型,会話的,True,False,False,False,6060
+218,A2O4PW85X1GQA1,downstream,ダウンストリーム,下流,True,False,False,False,6060
+219,A2O4PW85X1GQA1,relation,関係,リレーション,True,False,False,False,6060
+220,A2D6SB3TU1NYQ7,tagging,タギング,タグ付け,False,False,True,False,6060
+221,A2D6SB3TU1NYQ7,identifying,特定する,識別,True,False,False,False,6060
+222,A2D6SB3TU1NYQ7,conversational,会話型,会話的,True,False,False,False,6060
+223,A2D6SB3TU1NYQ7,downstream,ダウンストリーム,下流,False,True,False,False,6060
+224,A2D6SB3TU1NYQ7,relation,関係,リレーション,True,False,False,False,6060
+225,A1HSI7UUYP5PM3,counterfactual,反実仮想,非現実節,False,True,False,False,6060
+226,A1HSI7UUYP5PM3,metrics,メトリクス,メトリックス,True,False,False,False,6060
+227,A1HSI7UUYP5PM3,augmented,拡張された,強化された,False,False,False,True,6060
+228,A1HSI7UUYP5PM3,relations,関係,relations,False,True,False,False,6060
+229,A1HSI7UUYP5PM3,re,再,RE,False,True,False,False,6060
+230,AG9MLSV2QCVD4,counterfactual,反実仮想,非現実節,False,True,False,False,6060
+231,AG9MLSV2QCVD4,metrics,メトリクス,メトリックス,True,False,False,False,6060
+232,AG9MLSV2QCVD4,augmented,拡張された,強化された,False,True,False,False,6060
+233,AG9MLSV2QCVD4,relations,関係,relations,False,True,False,False,6060
+234,AG9MLSV2QCVD4,re,再,RE,False,True,False,False,6060
+235,A3SC8IBRLEFRUP,counterfactual,反実仮想,非現実節,False,True,False,False,6060
+236,A3SC8IBRLEFRUP,metrics,メトリクス,メトリックス,True,False,False,False,6060
+237,A3SC8IBRLEFRUP,augmented,拡張された,強化された,False,False,True,False,6060
+238,A3SC8IBRLEFRUP,relations,関係,relations,False,False,True,False,6060
+239,A3SC8IBRLEFRUP,re,再,RE,False,False,True,False,6060
+240,A35H5DUMZH86PC,counterfactual,反実仮想,非現実節,False,True,False,False,6060
+241,A35H5DUMZH86PC,metrics,メトリクス,メトリックス,True,False,False,False,6060
+242,A35H5DUMZH86PC,augmented,拡張された,強化された,True,False,False,False,6060
+243,A35H5DUMZH86PC,relations,関係,relations,False,True,False,False,6060
+244,A35H5DUMZH86PC,re,再,RE,False,True,False,False,6060
+245,AC4I7XU10MQXK,counterfactual,反実仮想,非現実節,False,True,False,False,6060
+246,AC4I7XU10MQXK,metrics,メトリクス,メトリックス,True,False,False,False,6060
+247,AC4I7XU10MQXK,augmented,拡張された,強化された,False,True,False,False,6060
+248,AC4I7XU10MQXK,relations,関係,relations,False,True,False,False,6060
+249,AC4I7XU10MQXK,re,再,RE,False,True,False,False,6060
+250,A3IG9HHR3NL9R0,CLIP,クリップ,CLIP,False,False,True,False,6060
+251,A3IG9HHR3NL9R0,answer,答え,応答,True,False,False,False,6060
+252,A3IG9HHR3NL9R0,For,例えば,の為,False,False,False,True,6060
+253,A3IG9HHR3NL9R0,TreeDST,ツリーDST,TreeDST,True,False,False,False,6060
+254,A3IG9HHR3NL9R0,spoken,話されている,音声,False,True,False,False,6060
+255,AG9MLSV2QCVD4,CLIP,クリップ,CLIP,True,False,False,False,6060
+256,AG9MLSV2QCVD4,answer,答え,応答,True,False,False,False,6060
+257,AG9MLSV2QCVD4,For,例えば,の為,True,False,False,False,6060
+258,AG9MLSV2QCVD4,TreeDST,ツリーDST,TreeDST,False,True,False,False,6060
+259,AG9MLSV2QCVD4,spoken,話されている,音声,False,True,False,False,6060
+260,A2E2FFMXS9F9KR,CLIP,クリップ,CLIP,True,False,False,False,6060
+261,A2E2FFMXS9F9KR,answer,答え,応答,True,False,False,False,6060
+262,A2E2FFMXS9F9KR,For,例えば,の為,False,False,False,True,6060
+263,A2E2FFMXS9F9KR,TreeDST,ツリーDST,TreeDST,True,False,False,False,6060
+264,A2E2FFMXS9F9KR,spoken,話されている,音声,False,True,False,False,6060
+265,ASML73P0NOOVV,CLIP,クリップ,CLIP,False,False,True,False,6060
+266,ASML73P0NOOVV,answer,答え,応答,True,False,False,False,6060
+267,ASML73P0NOOVV,For,例えば,の為,False,False,False,True,6060
+268,ASML73P0NOOVV,TreeDST,ツリーDST,TreeDST,True,False,False,False,6060
+269,ASML73P0NOOVV,spoken,話されている,音声,False,True,False,False,6060
+270,A2ML30H0T2HO1J,CLIP,クリップ,CLIP,True,False,False,False,6060
+271,A2ML30H0T2HO1J,answer,答え,応答,False,False,True,False,6060
+272,A2ML30H0T2HO1J,For,例えば,の為,False,False,False,True,6060
+273,A2ML30H0T2HO1J,TreeDST,ツリーDST,TreeDST,False,True,False,False,6060
+274,A2ML30H0T2HO1J,spoken,話されている,音声,False,False,True,False,6060
+275,A251BWQW2F81FT,embedding,埋め込み,埋込み,True,False,False,False,6060
+276,A251BWQW2F81FT,image,画像,イメージ,True,False,False,False,6060
+277,A251BWQW2F81FT,seq2seq,シーケンスツーシーケンス,seq2seq,False,True,False,False,6060
+278,A251BWQW2F81FT,structure,構造,構成,False,True,False,False,6060
+279,A251BWQW2F81FT,visual,視覚,視覚的,True,False,False,False,6060
+280,ASML73P0NOOVV,embedding,埋め込み,埋込み,True,False,False,False,6060
+281,ASML73P0NOOVV,image,画像,イメージ,True,False,False,False,6060
+282,ASML73P0NOOVV,seq2seq,シーケンスツーシーケンス,seq2seq,False,True,False,False,6060
+283,ASML73P0NOOVV,structure,構造,構成,True,False,False,False,6060
+284,ASML73P0NOOVV,visual,視覚,視覚的,True,False,False,False,6060
+285,A3IG9HHR3NL9R0,embedding,埋め込み,埋込み,True,False,False,False,6060
+286,A3IG9HHR3NL9R0,image,画像,イメージ,True,False,False,False,6060
+287,A3IG9HHR3NL9R0,seq2seq,シーケンスツーシーケンス,seq2seq,False,True,False,False,6060
+288,A3IG9HHR3NL9R0,structure,構造,構成,True,False,False,False,6060
+289,A3IG9HHR3NL9R0,visual,視覚,視覚的,True,False,False,False,6060
+290,A2ML30H0T2HO1J,embedding,埋め込み,埋込み,False,False,True,False,6060
+291,A2ML30H0T2HO1J,image,画像,イメージ,False,True,False,False,6060
+292,A2ML30H0T2HO1J,seq2seq,シーケンスツーシーケンス,seq2seq,True,False,False,False,6060
+293,A2ML30H0T2HO1J,structure,構造,構成,False,False,True,False,6060
+294,A2ML30H0T2HO1J,visual,視覚,視覚的,False,False,False,True,6060
+295,A1L8EGJ85A7DZR,embedding,埋め込み,埋込み,True,False,False,False,6060
+296,A1L8EGJ85A7DZR,image,画像,イメージ,True,False,False,False,6060
+297,A1L8EGJ85A7DZR,seq2seq,シーケンスツーシーケンス,seq2seq,False,True,False,False,6060
+298,A1L8EGJ85A7DZR,structure,構造,構成,True,False,False,False,6060
+299,A1L8EGJ85A7DZR,visual,視覚,視覚的,True,False,False,False,6060
+300,A2P8U65V6NL7B5,compositionality,構成性,構成の可能性,False,True,False,False,6060
+301,A2P8U65V6NL7B5,softmax,ソフトマックス,softmax,True,False,False,False,6060
+302,A2P8U65V6NL7B5,VALSE,,VALSE,True,False,False,False,6060
+303,A2P8U65V6NL7B5,speech,音声,スピーチ,True,False,False,False,6060
+304,A2P8U65V6NL7B5,classifier,分類器,類別詞,False,True,False,False,6060
+305,A39PWDRYNY2WM0,compositionality,構成性,構成の可能性,False,True,False,False,6060
+306,A39PWDRYNY2WM0,softmax,ソフトマックス,softmax,True,False,False,False,6060
+307,A39PWDRYNY2WM0,VALSE,,VALSE,True,False,False,False,6060
+308,A39PWDRYNY2WM0,speech,音声,スピーチ,True,False,False,False,6060
+309,A39PWDRYNY2WM0,classifier,分類器,類別詞,False,True,False,False,6060
+310,A1L8EGJ85A7DZR,compositionality,構成性,構成の可能性,False,True,False,False,6060
+311,A1L8EGJ85A7DZR,softmax,ソフトマックス,softmax,True,False,False,False,6060
+312,A1L8EGJ85A7DZR,VALSE,,VALSE,False,False,False,True,6060
+313,A1L8EGJ85A7DZR,speech,音声,スピーチ,False,True,False,False,6060
+314,A1L8EGJ85A7DZR,classifier,分類器,類別詞,False,True,False,False,6060
+315,A2ML30H0T2HO1J,compositionality,構成性,構成の可能性,False,True,False,False,6060
+316,A2ML30H0T2HO1J,softmax,ソフトマックス,softmax,False,False,False,True,6060
+317,A2ML30H0T2HO1J,VALSE,,VALSE,False,False,True,False,6060
+318,A2ML30H0T2HO1J,speech,音声,スピーチ,False,True,False,False,6060
+319,A2ML30H0T2HO1J,classifier,分類器,類別詞,True,False,False,False,6060
+320,AC4I7XU10MQXK,compositionality,構成性,構成の可能性,False,True,False,False,6060
+321,AC4I7XU10MQXK,softmax,ソフトマックス,softmax,True,False,False,False,6060
+322,AC4I7XU10MQXK,VALSE,,VALSE,False,False,False,True,6060
+323,AC4I7XU10MQXK,speech,音声,スピーチ,True,False,False,False,6060
+324,AC4I7XU10MQXK,classifier,分類器,類別詞,False,True,False,False,6060
+325,A1HSI7UUYP5PM3,ARENA,アリーナ,ARENA,False,True,False,False,6060
+326,A1HSI7UUYP5PM3,BERT,バート,BERT,False,True,False,False,6060
+327,A1HSI7UUYP5PM3,perplexity,パープレキシティ,困惑,False,True,False,False,6060
+328,A1HSI7UUYP5PM3,LXMert,LXマート,LXMert,False,True,False,False,6060
+329,A1HSI7UUYP5PM3,qualitative,定性的,質的,True,False,False,False,6060
+330,AC4I7XU10MQXK,ARENA,アリーナ,ARENA,True,False,False,False,6060
+331,AC4I7XU10MQXK,BERT,バート,BERT,True,False,False,False,6060
+332,AC4I7XU10MQXK,perplexity,パープレキシティ,困惑,False,True,False,False,6060
+333,AC4I7XU10MQXK,LXMert,LXマート,LXMert,True,False,False,False,6060
+334,AC4I7XU10MQXK,qualitative,定性的,質的,True,False,False,False,6060
+335,A2FXDEKCCUT9OJ,ARENA,アリーナ,ARENA,True,False,False,False,6060
+336,A2FXDEKCCUT9OJ,BERT,バート,BERT,True,False,False,False,6060
+337,A2FXDEKCCUT9OJ,perplexity,パープレキシティ,困惑,False,True,False,False,6060
+338,A2FXDEKCCUT9OJ,LXMert,LXマート,LXMert,True,False,False,False,6060
+339,A2FXDEKCCUT9OJ,qualitative,定性的,質的,True,False,False,False,6060
+340,A3Q32FL0WWF4KZ,ARENA,アリーナ,ARENA,True,False,False,False,6060
+341,A3Q32FL0WWF4KZ,BERT,バート,BERT,True,False,False,False,6060
+342,A3Q32FL0WWF4KZ,perplexity,パープレキシティ,困惑,False,True,False,False,6060
+343,A3Q32FL0WWF4KZ,LXMert,LXマート,LXMert,True,False,False,False,6060
+344,A3Q32FL0WWF4KZ,qualitative,定性的,質的,True,False,False,False,6060
+345,A38SYZRVLTMOFG,ARENA,アリーナ,ARENA,False,True,False,False,6060
+346,A38SYZRVLTMOFG,BERT,バート,BERT,True,False,False,False,6060
+347,A38SYZRVLTMOFG,perplexity,パープレキシティ,困惑,False,True,False,False,6060
+348,A38SYZRVLTMOFG,LXMert,LXマート,LXMert,True,False,False,False,6060
+349,A38SYZRVLTMOFG,qualitative,定性的,質的,True,False,False,False,6060
+350,ASML73P0NOOVV,retrieved,取得した,回収された,True,False,False,False,6060
+351,ASML73P0NOOVV,annotators,アノテーター,注釈者,True,False,False,False,6060
+352,ASML73P0NOOVV,contexts,コンテキスト,文脈,True,False,False,False,6060
+353,ASML73P0NOOVV,sentences,文,文章,True,False,False,False,6060
+354,ASML73P0NOOVV,Hence,したがって,よって,True,False,False,False,6060
+355,A39PWDRYNY2WM0,retrieved,取得した,回収された,False,True,False,False,6060
+356,A39PWDRYNY2WM0,annotators,アノテーター,注釈者,True,False,False,False,6060
+357,A39PWDRYNY2WM0,contexts,コンテキスト,文脈,False,False,True,False,6060
+358,A39PWDRYNY2WM0,sentences,文,文章,True,False,False,False,6060
+359,A39PWDRYNY2WM0,Hence,したがって,よって,True,False,False,False,6060
+360,A2E2FFMXS9F9KR,retrieved,取得した,回収された,False,True,False,False,6060
+361,A2E2FFMXS9F9KR,annotators,アノテーター,注釈者,True,False,False,False,6060
+362,A2E2FFMXS9F9KR,contexts,コンテキスト,文脈,False,False,True,False,6060
+363,A2E2FFMXS9F9KR,sentences,文,文章,False,True,False,False,6060
+364,A2E2FFMXS9F9KR,Hence,したがって,よって,True,False,False,False,6060
+365,A2MZEUP2ECO1AI,retrieved,取得した,回収された,True,False,False,False,6060
+366,A2MZEUP2ECO1AI,annotators,アノテーター,注釈者,True,False,False,False,6060
+367,A2MZEUP2ECO1AI,contexts,コンテキスト,文脈,True,False,False,False,6060
+368,A2MZEUP2ECO1AI,sentences,文,文章,False,True,False,False,6060
+369,A2MZEUP2ECO1AI,Hence,したがって,よって,True,False,False,False,6060
+370,A3EKM55NFX1H6B,retrieved,取得した,回収された,True,False,False,False,6060
+371,A3EKM55NFX1H6B,annotators,アノテーター,注釈者,True,False,False,False,6060
+372,A3EKM55NFX1H6B,contexts,コンテキスト,文脈,False,False,True,False,6060
+373,A3EKM55NFX1H6B,sentences,文,文章,True,False,False,False,6060
+374,A3EKM55NFX1H6B,Hence,したがって,よって,True,False,False,False,6060
+375,A251BWQW2F81FT,Wikipedia,ウィキペディア,wikipedia,True,False,False,False,6060
+376,A251BWQW2F81FT,spatial,空間的,空間的な,True,False,False,False,6060
+377,A251BWQW2F81FT,source,出典,ソース,True,False,False,False,6060
+378,A251BWQW2F81FT,XLNet,XLネット,XLNet,True,False,False,False,6060
+379,A251BWQW2F81FT,semantics,セマンティクス,意味論,True,False,False,False,6060
+380,A3OAFR48DADAOM,Wikipedia,ウィキペディア,wikipedia,True,False,False,False,6060
+381,A3OAFR48DADAOM,spatial,空間的,空間的な,True,False,False,False,6060
+382,A3OAFR48DADAOM,source,出典,ソース,True,False,False,False,6060
+383,A3OAFR48DADAOM,XLNet,XLネット,XLNet,True,False,False,False,6060
+384,A3OAFR48DADAOM,semantics,セマンティクス,意味論,True,False,False,False,6060
+385,A2E2FFMXS9F9KR,Wikipedia,ウィキペディア,wikipedia,True,False,False,False,6060
+386,A2E2FFMXS9F9KR,spatial,空間的,空間的な,True,False,False,False,6060
+387,A2E2FFMXS9F9KR,source,出典,ソース,True,False,False,False,6060
+388,A2E2FFMXS9F9KR,XLNet,XLネット,XLNet,True,False,False,False,6060
+389,A2E2FFMXS9F9KR,semantics,セマンティクス,意味論,True,False,False,False,6060
+390,A11B7MUC7UTFKN,Wikipedia,ウィキペディア,wikipedia,True,False,False,False,6060
+391,A11B7MUC7UTFKN,spatial,空間的,空間的な,True,False,False,False,6060
+392,A11B7MUC7UTFKN,source,出典,ソース,True,False,False,False,6060
+393,A11B7MUC7UTFKN,XLNet,XLネット,XLNet,True,False,False,False,6060
+394,A11B7MUC7UTFKN,semantics,セマンティクス,意味論,True,False,False,False,6060
+395,A11JXYZDAUX0UP,Wikipedia,ウィキペディア,wikipedia,True,False,False,False,6060
+396,A11JXYZDAUX0UP,spatial,空間的,空間的な,True,False,False,False,6060
+397,A11JXYZDAUX0UP,source,出典,ソース,True,False,False,False,6060
+398,A11JXYZDAUX0UP,XLNet,XLネット,XLNet,True,False,False,False,6060
+399,A11JXYZDAUX0UP,semantics,セマンティクス,意味論,True,False,False,False,6060
+400,AG9MLSV2QCVD4,REALM,レルム,REALM,False,True,False,False,6060
+401,AG9MLSV2QCVD4,sentence,文,文章,True,False,False,False,6060
+402,AG9MLSV2QCVD4,weights,重み,荷重,False,True,False,False,6060
+403,AG9MLSV2QCVD4,coreference,共参照,同一指示,False,True,False,False,6060
+404,AG9MLSV2QCVD4,monolingual,単言語,単一言語,True,False,False,False,6060
+405,A11B7MUC7UTFKN,REALM,レルム,REALM,True,False,False,False,6060
+406,A11B7MUC7UTFKN,sentence,文,文章,True,False,False,False,6060
+407,A11B7MUC7UTFKN,weights,重み,荷重,False,True,False,False,6060
+408,A11B7MUC7UTFKN,coreference,共参照,同一指示,True,False,False,False,6060
+409,A11B7MUC7UTFKN,monolingual,単言語,単一言語,True,False,False,False,6060
+410,A35H5DUMZH86PC,REALM,レルム,REALM,True,False,False,False,6060
+411,A35H5DUMZH86PC,sentence,文,文章,True,False,False,False,6060
+412,A35H5DUMZH86PC,weights,重み,荷重,True,False,False,False,6060
+413,A35H5DUMZH86PC,coreference,共参照,同一指示,False,True,False,False,6060
+414,A35H5DUMZH86PC,monolingual,単言語,単一言語,True,False,False,False,6060
+415,A38SYZRVLTMOFG,REALM,レルム,REALM,True,False,False,False,6060
+416,A38SYZRVLTMOFG,sentence,文,文章,True,False,False,False,6060
+417,A38SYZRVLTMOFG,weights,重み,荷重,False,True,False,False,6060
+418,A38SYZRVLTMOFG,coreference,共参照,同一指示,False,True,False,False,6060
+419,A38SYZRVLTMOFG,monolingual,単言語,単一言語,True,False,False,False,6060
+420,A19I2ZK220NTAE,REALM,レルム,REALM,True,False,False,False,6060
+421,A19I2ZK220NTAE,sentence,文,文章,True,False,False,False,6060
+422,A19I2ZK220NTAE,weights,重み,荷重,True,False,False,False,6060
+423,A19I2ZK220NTAE,coreference,共参照,同一指示,False,True,False,False,6060
+424,A19I2ZK220NTAE,monolingual,単言語,単一言語,True,False,False,False,6060
+425,ASML73P0NOOVV,BIO,バイオ,BIO,True,False,False,False,6060
+426,ASML73P0NOOVV,interpretable,解釈可能な,解釈可能,True,False,False,False,6060
+427,ASML73P0NOOVV,previous,前の,以前の,True,False,False,False,6060
+428,ASML73P0NOOVV,Dialogue,対話,ダイアログ,True,False,False,False,6060
+429,ASML73P0NOOVV,finetuning,ファインチューニング,微調整,True,False,False,False,6060
+430,A251BWQW2F81FT,BIO,バイオ,BIO,True,False,False,False,6060
+431,A251BWQW2F81FT,interpretable,解釈可能な,解釈可能,True,False,False,False,6060
+432,A251BWQW2F81FT,previous,前の,以前の,False,True,False,False,6060
+433,A251BWQW2F81FT,Dialogue,対話,ダイアログ,True,False,False,False,6060
+434,A251BWQW2F81FT,finetuning,ファインチューニング,微調整,True,False,False,False,6060
+435,A186ORPGIU3WNL,BIO,バイオ,BIO,True,False,False,False,6060
+436,A186ORPGIU3WNL,interpretable,解釈可能な,解釈可能,True,False,False,False,6060
+437,A186ORPGIU3WNL,previous,前の,以前の,True,False,False,False,6060
+438,A186ORPGIU3WNL,Dialogue,対話,ダイアログ,True,False,False,False,6060
+439,A186ORPGIU3WNL,finetuning,ファインチューニング,微調整,True,False,False,False,6060
+440,A30IGMGSC7G2HM,BIO,バイオ,BIO,True,False,False,False,6060
+441,A30IGMGSC7G2HM,interpretable,解釈可能な,解釈可能,True,False,False,False,6060
+442,A30IGMGSC7G2HM,previous,前の,以前の,True,False,False,False,6060
+443,A30IGMGSC7G2HM,Dialogue,対話,ダイアログ,True,False,False,False,6060
+444,A30IGMGSC7G2HM,finetuning,ファインチューニング,微調整,True,False,False,False,6060
+445,ASVJ75M0TNT6Z,BIO,バイオ,BIO,False,False,False,True,6060
+446,ASVJ75M0TNT6Z,interpretable,解釈可能な,解釈可能,False,False,True,False,6060
+447,ASVJ75M0TNT6Z,previous,前の,以前の,False,False,False,True,6060
+448,ASVJ75M0TNT6Z,Dialogue,対話,ダイアログ,False,False,True,False,6060
+449,ASVJ75M0TNT6Z,finetuning,ファインチューニング,微調整,False,False,False,True,6060
+450,A251BWQW2F81FT,propose,提案する,提案,True,False,False,False,6060
+451,A251BWQW2F81FT,ROUGE,ルージュ,ROUGE,True,False,False,False,6060
+452,A251BWQW2F81FT,MathQA,数学QA,MathQA,True,False,False,False,6060
+453,A251BWQW2F81FT,context,コンテキスト,文脈,True,False,False,False,6060
+454,A251BWQW2F81FT,word2vec,word2vec,単語2vec,True,False,False,False,6060
+455,A2E2FFMXS9F9KR,propose,提案する,提案,False,True,False,False,6060
+456,A2E2FFMXS9F9KR,ROUGE,ルージュ,ROUGE,True,False,False,False,6060
+457,A2E2FFMXS9F9KR,MathQA,数学QA,MathQA,True,False,False,False,6060
+458,A2E2FFMXS9F9KR,context,コンテキスト,文脈,True,False,False,False,6060
+459,A2E2FFMXS9F9KR,word2vec,word2vec,単語2vec,False,True,False,False,6060
+460,A1L8EGJ85A7DZR,propose,提案する,提案,True,False,False,False,6060
+461,A1L8EGJ85A7DZR,ROUGE,ルージュ,ROUGE,True,False,False,False,6060
+462,A1L8EGJ85A7DZR,MathQA,数学QA,MathQA,True,False,False,False,6060
+463,A1L8EGJ85A7DZR,context,コンテキスト,文脈,True,False,False,False,6060
+464,A1L8EGJ85A7DZR,word2vec,word2vec,単語2vec,False,True,False,False,6060
+465,A9M8N3BOH6013,propose,提案する,提案,False,True,False,False,6060
+466,A9M8N3BOH6013,ROUGE,ルージュ,ROUGE,True,False,False,False,6060
+467,A9M8N3BOH6013,MathQA,数学QA,MathQA,True,False,False,False,6060
+468,A9M8N3BOH6013,context,コンテキスト,文脈,True,False,False,False,6060
+469,A9M8N3BOH6013,word2vec,word2vec,単語2vec,False,True,False,False,6060
+470,A11B7MUC7UTFKN,propose,提案する,提案,True,False,False,False,6060
+471,A11B7MUC7UTFKN,ROUGE,ルージュ,ROUGE,True,False,False,False,6060
+472,A11B7MUC7UTFKN,MathQA,数学QA,MathQA,True,False,False,False,6060
+473,A11B7MUC7UTFKN,context,コンテキスト,文脈,True,False,False,False,6060
+474,A11B7MUC7UTFKN,word2vec,word2vec,単語2vec,False,True,False,False,6060
+475,A39PWDRYNY2WM0,multilingual,多言語,他言語,True,False,False,False,6060
+476,A39PWDRYNY2WM0,methods,手法,方法,True,False,False,False,6060
+477,A39PWDRYNY2WM0,labeled,ラベル付けされた,ラベル付き,True,False,False,False,6060
+478,A39PWDRYNY2WM0,unsupervised,教師なし,監視なし,False,True,False,False,6060
+479,A39PWDRYNY2WM0,Morphology,形態論,語形論,True,False,False,False,6060
+480,AG9MLSV2QCVD4,multilingual,多言語,他言語,True,False,False,False,6060
+481,AG9MLSV2QCVD4,methods,手法,方法,True,False,False,False,6060
+482,AG9MLSV2QCVD4,labeled,ラベル付けされた,ラベル付き,True,False,False,False,6060
+483,AG9MLSV2QCVD4,unsupervised,教師なし,監視なし,False,True,False,False,6060
+484,AG9MLSV2QCVD4,Morphology,形態論,語形論,False,True,False,False,6060
+485,A1U6UPXOFCXR24,multilingual,多言語,他言語,False,True,False,False,6060
+486,A1U6UPXOFCXR24,methods,手法,方法,True,False,False,False,6060
+487,A1U6UPXOFCXR24,labeled,ラベル付けされた,ラベル付き,True,False,False,False,6060
+488,A1U6UPXOFCXR24,unsupervised,教師なし,監視なし,False,True,False,False,6060
+489,A1U6UPXOFCXR24,Morphology,形態論,語形論,True,False,False,False,6060
+490,A2E2FFMXS9F9KR,multilingual,多言語,他言語,True,False,False,False,6060
+491,A2E2FFMXS9F9KR,methods,手法,方法,True,False,False,False,6060
+492,A2E2FFMXS9F9KR,labeled,ラベル付けされた,ラベル付き,True,False,False,False,6060
+493,A2E2FFMXS9F9KR,unsupervised,教師なし,監視なし,False,True,False,False,6060
+494,A2E2FFMXS9F9KR,Morphology,形態論,語形論,True,False,False,False,6060
+495,A2O4PW85X1GQA1,multilingual,多言語,他言語,True,False,False,False,6060
+496,A2O4PW85X1GQA1,methods,手法,方法,True,False,False,False,6060
+497,A2O4PW85X1GQA1,labeled,ラベル付けされた,ラベル付き,True,False,False,False,6060
+498,A2O4PW85X1GQA1,unsupervised,教師なし,監視なし,False,True,False,False,6060
+499,A2O4PW85X1GQA1,Morphology,形態論,語形論,True,False,False,False,6060
+500,A2H09EMKJHK5XT,semantically,意味的に,意味論的に,False,True,False,False,6060
+501,A2H09EMKJHK5XT,BLEU,ブルー,BLEU,True,False,False,False,6060
+502,A2H09EMKJHK5XT,BETO,ベト,BETO,False,True,False,False,6060
+503,A2H09EMKJHK5XT,2D-3D correspondence,2次元-3次元対応,2D-3D対応,False,True,False,False,threshold
+504,A2H09EMKJHK5XT,Attention,注意機構,注意,False,False,True,False,threshold
+505,A2P8U65V6NL7B5,semantically,意味的に,意味論的に,False,True,False,False,6060
+506,A2P8U65V6NL7B5,BLEU,ブルー,BLEU,True,False,False,False,6060
+507,A2P8U65V6NL7B5,BETO,ベト,BETO,True,False,False,False,6060
+508,A2P8U65V6NL7B5,2D-3D correspondence,2次元-3次元対応,2D-3D対応,True,False,False,False,threshold
+509,A2P8U65V6NL7B5,Attention,注意機構,注意,False,True,False,False,threshold
+510,AG9MLSV2QCVD4,semantically,意味的に,意味論的に,True,False,False,False,6060
+511,AG9MLSV2QCVD4,BLEU,ブルー,BLEU,True,False,False,False,6060
+512,AG9MLSV2QCVD4,BETO,ベト,BETO,True,False,False,False,6060
+513,AG9MLSV2QCVD4,2D-3D correspondence,2次元-3次元対応,2D-3D対応,False,True,False,False,threshold
+514,AG9MLSV2QCVD4,Attention,注意機構,注意,False,True,False,False,threshold
+515,A35H5DUMZH86PC,semantically,意味的に,意味論的に,True,False,False,False,6060
+516,A35H5DUMZH86PC,BLEU,ブルー,BLEU,True,False,False,False,6060
+517,A35H5DUMZH86PC,BETO,ベト,BETO,True,False,False,False,6060
+518,A35H5DUMZH86PC,2D-3D correspondence,2次元-3次元対応,2D-3D対応,True,False,False,False,threshold
+519,A35H5DUMZH86PC,Attention,注意機構,注意,False,True,False,False,threshold
+520,A2ML30H0T2HO1J,semantically,意味的に,意味論的に,False,False,True,False,6060
+521,A2ML30H0T2HO1J,BLEU,ブルー,BLEU,False,True,False,False,6060
+522,A2ML30H0T2HO1J,BETO,ベト,BETO,True,False,False,False,6060
+523,A2ML30H0T2HO1J,2D-3D correspondence,2次元-3次元対応,2D-3D対応,False,True,False,False,threshold
+524,A2ML30H0T2HO1J,Attention,注意機構,注意,False,True,False,False,threshold
+525,A35H5DUMZH86PC,Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,True,False,False,False,threshold
+526,A35H5DUMZH86PC,Euclidean,ユークリッド距離,ユークリッド,False,True,False,False,threshold
+527,A35H5DUMZH86PC,Fourier feature,フーリエ特徴量,フーリエ特徴,False,True,False,False,threshold
+528,A35H5DUMZH86PC,GoogLeNet,GoogLeNet,グーグルネット,True,False,False,False,threshold
+529,A35H5DUMZH86PC,Hadamard matrix,アダマール行列,ハダマード行列,True,False,False,False,threshold
+530,A39PWDRYNY2WM0,Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,True,False,False,False,threshold
+531,A39PWDRYNY2WM0,Euclidean,ユークリッド距離,ユークリッド,False,True,False,False,threshold
+532,A39PWDRYNY2WM0,Fourier feature,フーリエ特徴量,フーリエ特徴,True,False,False,False,threshold
+533,A39PWDRYNY2WM0,GoogLeNet,GoogLeNet,グーグルネット,True,False,False,False,threshold
+534,A39PWDRYNY2WM0,Hadamard matrix,アダマール行列,ハダマード行列,True,False,False,False,threshold
+535,A2ML30H0T2HO1J,Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,False,True,False,False,threshold
+536,A2ML30H0T2HO1J,Euclidean,ユークリッド距離,ユークリッド,False,False,False,True,threshold
+537,A2ML30H0T2HO1J,Fourier feature,フーリエ特徴量,フーリエ特徴,False,False,True,False,threshold
+538,A2ML30H0T2HO1J,GoogLeNet,GoogLeNet,グーグルネット,False,True,False,False,threshold
+539,A2ML30H0T2HO1J,Hadamard matrix,アダマール行列,ハダマード行列,True,False,False,False,threshold
+540,A2MZEUP2ECO1AI,Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,True,False,False,False,threshold
+541,A2MZEUP2ECO1AI,Euclidean,ユークリッド距離,ユークリッド,False,True,False,False,threshold
+542,A2MZEUP2ECO1AI,Fourier feature,フーリエ特徴量,フーリエ特徴,True,False,False,False,threshold
+543,A2MZEUP2ECO1AI,GoogLeNet,GoogLeNet,グーグルネット,True,False,False,False,threshold
+544,A2MZEUP2ECO1AI,Hadamard matrix,アダマール行列,ハダマード行列,True,False,False,False,threshold
+545,A3I1OLOTCWCIET,Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,False,False,True,False,threshold
+546,A3I1OLOTCWCIET,Euclidean,ユークリッド距離,ユークリッド,False,True,False,False,threshold
+547,A3I1OLOTCWCIET,Fourier feature,フーリエ特徴量,フーリエ特徴,True,False,False,False,threshold
+548,A3I1OLOTCWCIET,GoogLeNet,GoogLeNet,グーグルネット,True,False,False,False,threshold
+549,A3I1OLOTCWCIET,Hadamard matrix,アダマール行列,ハダマード行列,True,False,False,False,threshold
+550,ADLZLGHKOAEE6,Hiero system,ハイエロシステム,ヒエロシステム,False,True,False,False,threshold
+551,ADLZLGHKOAEE6,Homography,ホモグラフィー,ホモグラフィ,True,False,False,False,threshold
+552,ADLZLGHKOAEE6,HowTo100M,ハウツー100M,HowTo100M,False,False,True,False,threshold
+553,ADLZLGHKOAEE6,In-context Learning,インコンテキスト学習,コンテキスト内学習,False,True,False,False,threshold
+554,ADLZLGHKOAEE6,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,False,True,False,False,threshold
+555,AWPXR7XE6B8KD,Hiero system,ハイエロシステム,ヒエロシステム,True,False,False,False,threshold
+556,AWPXR7XE6B8KD,Homography,ホモグラフィー,ホモグラフィ,False,True,False,False,threshold
+557,AWPXR7XE6B8KD,HowTo100M,ハウツー100M,HowTo100M,True,False,False,False,threshold
+558,AWPXR7XE6B8KD,In-context Learning,インコンテキスト学習,コンテキスト内学習,False,False,True,False,threshold
+559,AWPXR7XE6B8KD,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,False,True,False,False,threshold
+560,A3HSZ9YLOBCCPR,Hiero system,ハイエロシステム,ヒエロシステム,False,True,False,False,threshold
+561,A3HSZ9YLOBCCPR,Homography,ホモグラフィー,ホモグラフィ,True,False,False,False,threshold
+562,A3HSZ9YLOBCCPR,HowTo100M,ハウツー100M,HowTo100M,True,False,False,False,threshold
+563,A3HSZ9YLOBCCPR,In-context Learning,インコンテキスト学習,コンテキスト内学習,False,False,True,False,threshold
+564,A3HSZ9YLOBCCPR,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,False,True,False,False,threshold
+565,A186ORPGIU3WNL,Hiero system,ハイエロシステム,ヒエロシステム,True,False,False,False,threshold
+566,A186ORPGIU3WNL,Homography,ホモグラフィー,ホモグラフィ,False,True,False,False,threshold
+567,A186ORPGIU3WNL,HowTo100M,ハウツー100M,HowTo100M,True,False,False,False,threshold
+568,A186ORPGIU3WNL,In-context Learning,インコンテキスト学習,コンテキスト内学習,False,False,True,False,threshold
+569,A186ORPGIU3WNL,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,False,True,False,False,threshold
+570,A42LJXMJ3CFRU,Hiero system,ハイエロシステム,ヒエロシステム,False,True,False,False,threshold
+571,A42LJXMJ3CFRU,Homography,ホモグラフィー,ホモグラフィ,False,True,False,False,threshold
+572,A42LJXMJ3CFRU,HowTo100M,ハウツー100M,HowTo100M,False,False,True,False,threshold
+573,A42LJXMJ3CFRU,In-context Learning,インコンテキスト学習,コンテキスト内学習,False,False,True,False,threshold
+574,A42LJXMJ3CFRU,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,False,False,True,False,threshold
+575,A3I1OLOTCWCIET,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,False,True,False,False,threshold
+576,A3I1OLOTCWCIET,Laplacian distribution,ラプラシアン分布,ラプラス分布,False,True,False,False,threshold
+577,A3I1OLOTCWCIET,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,False,True,False,False,threshold
+578,A3I1OLOTCWCIET,Maximum Likelihood,最尤法,最大尤度,True,False,False,False,threshold
+579,A3I1OLOTCWCIET,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,True,False,False,False,threshold
+580,A1HSI7UUYP5PM3,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,False,False,True,False,threshold
+581,A1HSI7UUYP5PM3,Laplacian distribution,ラプラシアン分布,ラプラス分布,False,True,False,False,threshold
+582,A1HSI7UUYP5PM3,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,False,False,True,False,threshold
+583,A1HSI7UUYP5PM3,Maximum Likelihood,最尤法,最大尤度,False,False,True,False,threshold
+584,A1HSI7UUYP5PM3,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,True,False,False,False,threshold
+585,A31QG91W08LBPZ,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+586,A31QG91W08LBPZ,Laplacian distribution,ラプラシアン分布,ラプラス分布,False,True,False,False,threshold
+587,A31QG91W08LBPZ,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,False,True,False,False,threshold
+588,A31QG91W08LBPZ,Maximum Likelihood,最尤法,最大尤度,False,True,False,False,threshold
+589,A31QG91W08LBPZ,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,False,True,False,False,threshold
+590,A1L8EGJ85A7DZR,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+591,A1L8EGJ85A7DZR,Laplacian distribution,ラプラシアン分布,ラプラス分布,True,False,False,False,threshold
+592,A1L8EGJ85A7DZR,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,False,True,False,False,threshold
+593,A1L8EGJ85A7DZR,Maximum Likelihood,最尤法,最大尤度,False,True,False,False,threshold
+594,A1L8EGJ85A7DZR,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,True,False,False,False,threshold
+595,A3IG9HHR3NL9R0,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+596,A3IG9HHR3NL9R0,Laplacian distribution,ラプラシアン分布,ラプラス分布,True,False,False,False,threshold
+597,A3IG9HHR3NL9R0,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,False,True,False,False,threshold
+598,A3IG9HHR3NL9R0,Maximum Likelihood,最尤法,最大尤度,False,True,False,False,threshold
+599,A3IG9HHR3NL9R0,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,True,False,False,False,threshold
+600,A2H09EMKJHK5XT,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,False,False,True,False,threshold
+601,A2H09EMKJHK5XT,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,False,False,True,False,threshold
+602,A2H09EMKJHK5XT,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,False,False,False,False,threshold
+603,A2H09EMKJHK5XT,Nyström approximation,ニーストローム近似,ニューストローム近似,False,True,False,False,threshold
+604,A2H09EMKJHK5XT,Object Localization,オブジェクトのローカリゼーション,物体位置特定,True,False,False,False,threshold
+605,A35H5DUMZH86PC,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,False,False,True,False,threshold
+606,A35H5DUMZH86PC,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+607,A35H5DUMZH86PC,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,False,True,False,False,threshold
+608,A35H5DUMZH86PC,Nyström approximation,ニーストローム近似,ニューストローム近似,False,True,False,False,threshold
+609,A35H5DUMZH86PC,Object Localization,オブジェクトのローカリゼーション,物体位置特定,False,False,True,False,threshold
+610,A3IG9HHR3NL9R0,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,False,True,False,False,threshold
+611,A3IG9HHR3NL9R0,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+612,A3IG9HHR3NL9R0,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,True,False,False,False,threshold
+613,A3IG9HHR3NL9R0,Nyström approximation,ニーストローム近似,ニューストローム近似,False,True,False,False,threshold
+614,A3IG9HHR3NL9R0,Object Localization,オブジェクトのローカリゼーション,物体位置特定,False,False,True,False,threshold
+615,A2D6SB3TU1NYQ7,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,False,False,True,False,threshold
+616,A2D6SB3TU1NYQ7,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+617,A2D6SB3TU1NYQ7,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,False,True,False,False,threshold
+618,A2D6SB3TU1NYQ7,Nyström approximation,ニーストローム近似,ニューストローム近似,True,False,False,False,threshold
+619,A2D6SB3TU1NYQ7,Object Localization,オブジェクトのローカリゼーション,物体位置特定,False,False,True,False,threshold
+620,A2GJB7TBZM91Z4,Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,False,False,True,False,threshold
+621,A2GJB7TBZM91Z4,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+622,A2GJB7TBZM91Z4,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,True,False,False,False,threshold
+623,A2GJB7TBZM91Z4,Nyström approximation,ニーストローム近似,ニューストローム近似,False,True,False,False,threshold
+624,A2GJB7TBZM91Z4,Object Localization,オブジェクトのローカリゼーション,物体位置特定,False,False,True,False,threshold
+625,A2FXDEKCCUT9OJ,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+626,A2FXDEKCCUT9OJ,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,True,False,False,False,threshold
+627,A2FXDEKCCUT9OJ,Sentiment Analysis,センチメント分析,感情分析,True,False,False,False,threshold
+628,A2FXDEKCCUT9OJ,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,False,True,False,False,threshold
+629,A2FXDEKCCUT9OJ,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,True,False,False,False,threshold
+630,A39PWDRYNY2WM0,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+631,A39PWDRYNY2WM0,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,True,False,False,False,threshold
+632,A39PWDRYNY2WM0,Sentiment Analysis,センチメント分析,感情分析,True,False,False,False,threshold
+633,A39PWDRYNY2WM0,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,False,True,False,False,threshold
+634,A39PWDRYNY2WM0,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,True,False,False,False,threshold
+635,A2D6SB3TU1NYQ7,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+636,A2D6SB3TU1NYQ7,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,True,False,False,False,threshold
+637,A2D6SB3TU1NYQ7,Sentiment Analysis,センチメント分析,感情分析,True,False,False,False,threshold
+638,A2D6SB3TU1NYQ7,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,False,True,False,False,threshold
+639,A2D6SB3TU1NYQ7,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,True,False,False,False,threshold
+640,A1U6UPXOFCXR24,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+641,A1U6UPXOFCXR24,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,True,False,False,False,threshold
+642,A1U6UPXOFCXR24,Sentiment Analysis,センチメント分析,感情分析,True,False,False,False,threshold
+643,A1U6UPXOFCXR24,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,True,False,False,False,threshold
+644,A1U6UPXOFCXR24,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,True,False,False,False,threshold
+645,A2E2FFMXS9F9KR,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+646,A2E2FFMXS9F9KR,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,True,False,False,False,threshold
+647,A2E2FFMXS9F9KR,Sentiment Analysis,センチメント分析,感情分析,True,False,False,False,threshold
+648,A2E2FFMXS9F9KR,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,False,True,False,False,threshold
+649,A2E2FFMXS9F9KR,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,True,False,False,False,threshold
+650,A2P8U65V6NL7B5,Viterbi,ビタービアルゴリズム,ビタビ,False,False,True,False,threshold
+651,A2P8U65V6NL7B5,acceptance function,受け入れ関数,受容関数,True,False,False,False,threshold
+652,A2P8U65V6NL7B5,acceptance probability,受け入れ確率,受容確率,True,False,False,False,threshold
+653,A2P8U65V6NL7B5,anaphora resolution,照応解決,指示詞解決,False,True,False,False,threshold
+654,A2P8U65V6NL7B5,annotation projection,アノテーション投影,注釈投影,True,False,False,False,threshold
+655,A2D6SB3TU1NYQ7,Viterbi,ビタービアルゴリズム,ビタビ,True,False,False,False,threshold
+656,A2D6SB3TU1NYQ7,acceptance function,受け入れ関数,受容関数,True,False,False,False,threshold
+657,A2D6SB3TU1NYQ7,acceptance probability,受け入れ確率,受容確率,True,False,False,False,threshold
+658,A2D6SB3TU1NYQ7,anaphora resolution,照応解決,指示詞解決,True,False,False,False,threshold
+659,A2D6SB3TU1NYQ7,annotation projection,アノテーション投影,注釈投影,True,False,False,False,threshold
+660,A2GJB7TBZM91Z4,Viterbi,ビタービアルゴリズム,ビタビ,False,True,False,False,threshold
+661,A2GJB7TBZM91Z4,acceptance function,受け入れ関数,受容関数,True,False,False,False,threshold
+662,A2GJB7TBZM91Z4,acceptance probability,受け入れ確率,受容確率,True,False,False,False,threshold
+663,A2GJB7TBZM91Z4,anaphora resolution,照応解決,指示詞解決,False,True,False,False,threshold
+664,A2GJB7TBZM91Z4,annotation projection,アノテーション投影,注釈投影,True,False,False,False,threshold
+665,A2ML30H0T2HO1J,Viterbi,ビタービアルゴリズム,ビタビ,True,False,False,False,threshold
+666,A2ML30H0T2HO1J,acceptance function,受け入れ関数,受容関数,False,False,True,False,threshold
+667,A2ML30H0T2HO1J,acceptance probability,受け入れ確率,受容確率,False,False,False,True,threshold
+668,A2ML30H0T2HO1J,anaphora resolution,照応解決,指示詞解決,False,False,True,False,threshold
+669,A2ML30H0T2HO1J,annotation projection,アノテーション投影,注釈投影,False,True,False,False,threshold
+670,A3HSZ9YLOBCCPR,Viterbi,ビタービアルゴリズム,ビタビ,False,False,True,False,threshold
+671,A3HSZ9YLOBCCPR,acceptance function,受け入れ関数,受容関数,True,False,False,False,threshold
+672,A3HSZ9YLOBCCPR,acceptance probability,受け入れ確率,受容確率,True,False,False,False,threshold
+673,A3HSZ9YLOBCCPR,anaphora resolution,照応解決,指示詞解決,True,False,False,False,threshold
+674,A3HSZ9YLOBCCPR,annotation projection,アノテーション投影,注釈投影,True,False,False,False,threshold
+675,A11B7MUC7UTFKN,averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,True,False,False,False,threshold
+676,A11B7MUC7UTFKN,background model,バックグラウンドモデル,背景モデル,True,False,False,False,threshold
+677,A11B7MUC7UTFKN,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+678,A11B7MUC7UTFKN,bigram language model,ビグラム言語モデル,バイグラム言語モデル,True,False,False,False,threshold
+679,A11B7MUC7UTFKN,bilinear model,双線形モデル,バイリニアモデル,False,True,False,False,threshold
+680,A2E2FFMXS9F9KR,averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,False,True,False,False,threshold
+681,A2E2FFMXS9F9KR,background model,バックグラウンドモデル,背景モデル,True,False,False,False,threshold
+682,A2E2FFMXS9F9KR,backprop,バックプロパゲーション,バックプロップ,True,False,False,False,threshold
+683,A2E2FFMXS9F9KR,bigram language model,ビグラム言語モデル,バイグラム言語モデル,True,False,False,False,threshold
+684,A2E2FFMXS9F9KR,bilinear model,双線形モデル,バイリニアモデル,True,False,False,False,threshold
+685,A3AHE81HVRXFCD,averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,False,True,False,False,threshold
+686,A3AHE81HVRXFCD,background model,バックグラウンドモデル,背景モデル,True,False,False,False,threshold
+687,A3AHE81HVRXFCD,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+688,A3AHE81HVRXFCD,bigram language model,ビグラム言語モデル,バイグラム言語モデル,True,False,False,False,threshold
+689,A3AHE81HVRXFCD,bilinear model,双線形モデル,バイリニアモデル,False,True,False,False,threshold
+690,A2ML30H0T2HO1J,averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,False,False,False,True,threshold
+691,A2ML30H0T2HO1J,background model,バックグラウンドモデル,背景モデル,False,False,True,False,threshold
+692,A2ML30H0T2HO1J,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+693,A2ML30H0T2HO1J,bigram language model,ビグラム言語モデル,バイグラム言語モデル,False,False,True,False,threshold
+694,A2ML30H0T2HO1J,bilinear model,双線形モデル,バイリニアモデル,True,False,False,False,threshold
+695,A3HSZ9YLOBCCPR,averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,True,False,False,False,threshold
+696,A3HSZ9YLOBCCPR,background model,バックグラウンドモデル,背景モデル,True,False,False,False,threshold
+697,A3HSZ9YLOBCCPR,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+698,A3HSZ9YLOBCCPR,bigram language model,ビグラム言語モデル,バイグラム言語モデル,True,False,False,False,threshold
+699,A3HSZ9YLOBCCPR,bilinear model,双線形モデル,バイリニアモデル,True,False,False,False,threshold
+700,A3I1OLOTCWCIET,binary classification,二値分類,バイナリ分類,False,True,False,False,threshold
+701,A3I1OLOTCWCIET,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,False,False,True,False,threshold
+702,A3I1OLOTCWCIET,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,False,False,True,False,threshold
+703,A3I1OLOTCWCIET,canonical form,正準形,標準形,True,False,False,False,threshold
+704,A3I1OLOTCWCIET,characteristic vector,特徴ベクトル,特性ベクトル,False,True,False,False,threshold
+705,A2E2FFMXS9F9KR,binary classification,二値分類,バイナリ分類,True,False,False,False,threshold
+706,A2E2FFMXS9F9KR,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,True,False,False,False,threshold
+707,A2E2FFMXS9F9KR,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,True,False,False,False,threshold
+708,A2E2FFMXS9F9KR,canonical form,正準形,標準形,True,False,False,False,threshold
+709,A2E2FFMXS9F9KR,characteristic vector,特徴ベクトル,特性ベクトル,False,True,False,False,threshold
+710,A1L8EGJ85A7DZR,binary classification,二値分類,バイナリ分類,True,False,False,False,threshold
+711,A1L8EGJ85A7DZR,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,True,False,False,False,threshold
+712,A1L8EGJ85A7DZR,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,False,True,False,False,threshold
+713,A1L8EGJ85A7DZR,canonical form,正準形,標準形,False,True,False,False,threshold
+714,A1L8EGJ85A7DZR,characteristic vector,特徴ベクトル,特性ベクトル,True,False,False,False,threshold
+715,A3Q32FL0WWF4KZ,binary classification,二値分類,バイナリ分類,True,False,False,False,threshold
+716,A3Q32FL0WWF4KZ,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,True,False,False,False,threshold
+717,A3Q32FL0WWF4KZ,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,True,False,False,False,threshold
+718,A3Q32FL0WWF4KZ,canonical form,正準形,標準形,True,False,False,False,threshold
+719,A3Q32FL0WWF4KZ,characteristic vector,特徴ベクトル,特性ベクトル,True,False,False,False,threshold
+720,A42LJXMJ3CFRU,binary classification,二値分類,バイナリ分類,False,False,True,False,threshold
+721,A42LJXMJ3CFRU,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,False,False,False,True,threshold
+722,A42LJXMJ3CFRU,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,False,False,True,False,threshold
+723,A42LJXMJ3CFRU,canonical form,正準形,標準形,False,False,False,True,threshold
+724,A42LJXMJ3CFRU,characteristic vector,特徴ベクトル,特性ベクトル,False,False,True,False,threshold
+725,A3R5K7A8US5PDE,closed-book model,クローズド・ブック・モデル,クローズドブックモデル,False,False,True,False,threshold
+726,A3R5K7A8US5PDE,cluster center,クラスター中心,クラスタ中心,True,False,False,False,threshold
+727,A3R5K7A8US5PDE,contextualized representation,文脈化された表現,コンテキスト化された表現,False,False,True,False,threshold
+728,A3R5K7A8US5PDE,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,False,False,False,True,threshold
+729,A3R5K7A8US5PDE,contingency table,分割表,クロス集計表,False,False,True,False,threshold
+730,A39PWDRYNY2WM0,closed-book model,クローズド・ブック・モデル,クローズドブックモデル,True,False,False,False,threshold
+731,A39PWDRYNY2WM0,cluster center,クラスター中心,クラスタ中心,False,True,False,False,threshold
+732,A39PWDRYNY2WM0,contextualized representation,文脈化された表現,コンテキスト化された表現,True,False,False,False,threshold
+733,A39PWDRYNY2WM0,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,True,False,False,False,threshold
+734,A39PWDRYNY2WM0,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+735,A1L8EGJ85A7DZR,closed-book model,クローズド・ブック・モデル,クローズドブックモデル,True,False,False,False,threshold
+736,A1L8EGJ85A7DZR,cluster center,クラスター中心,クラスタ中心,True,False,False,False,threshold
+737,A1L8EGJ85A7DZR,contextualized representation,文脈化された表現,コンテキスト化された表現,True,False,False,False,threshold
+738,A1L8EGJ85A7DZR,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,True,False,False,False,threshold
+739,A1L8EGJ85A7DZR,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+740,A2FXDEKCCUT9OJ,closed-book model,クローズド・ブック・モデル,クローズドブックモデル,True,False,False,False,threshold
+741,A2FXDEKCCUT9OJ,cluster center,クラスター中心,クラスタ中心,True,False,False,False,threshold
+742,A2FXDEKCCUT9OJ,contextualized representation,文脈化された表現,コンテキスト化された表現,True,False,False,False,threshold
+743,A2FXDEKCCUT9OJ,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,True,False,False,False,threshold
+744,A2FXDEKCCUT9OJ,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+745,A35H5DUMZH86PC,closed-book model,クローズド・ブック・モデル,クローズドブックモデル,True,False,False,False,threshold
+746,A35H5DUMZH86PC,cluster center,クラスター中心,クラスタ中心,True,False,False,False,threshold
+747,A35H5DUMZH86PC,contextualized representation,文脈化された表現,コンテキスト化された表現,True,False,False,False,threshold
+748,A35H5DUMZH86PC,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,True,False,False,False,threshold
+749,A35H5DUMZH86PC,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+750,A2H09EMKJHK5XT,continual learning,継続学習,継続的学習,True,False,False,False,threshold
+751,A2H09EMKJHK5XT,counterfactual datum,反事実データ,反実仮想データ,False,True,False,False,threshold
+752,A2H09EMKJHK5XT,credit assignment,報酬割り当て,クレジット割り当て,False,True,False,False,threshold
+753,A2H09EMKJHK5XT,decision space,意思決定空間,決定空間,False,True,False,False,threshold
+754,A2H09EMKJHK5XT,discounted cumulative reward,割引された累積報酬,割引累積報酬,True,False,False,False,threshold
+755,A3Q32FL0WWF4KZ,continual learning,継続学習,継続的学習,True,False,False,False,threshold
+756,A3Q32FL0WWF4KZ,counterfactual datum,反事実データ,反実仮想データ,False,True,False,False,threshold
+757,A3Q32FL0WWF4KZ,credit assignment,報酬割り当て,クレジット割り当て,False,True,False,False,threshold
+758,A3Q32FL0WWF4KZ,decision space,意思決定空間,決定空間,True,False,False,False,threshold
+759,A3Q32FL0WWF4KZ,discounted cumulative reward,割引された累積報酬,割引累積報酬,True,False,False,False,threshold
+760,A186ORPGIU3WNL,continual learning,継続学習,継続的学習,True,False,False,False,threshold
+761,A186ORPGIU3WNL,counterfactual datum,反事実データ,反実仮想データ,True,False,False,False,threshold
+762,A186ORPGIU3WNL,credit assignment,報酬割り当て,クレジット割り当て,False,True,False,False,threshold
+763,A186ORPGIU3WNL,decision space,意思決定空間,決定空間,True,False,False,False,threshold
+764,A186ORPGIU3WNL,discounted cumulative reward,割引された累積報酬,割引累積報酬,True,False,False,False,threshold
+765,A2MZEUP2ECO1AI,continual learning,継続学習,継続的学習,True,False,False,False,threshold
+766,A2MZEUP2ECO1AI,counterfactual datum,反事実データ,反実仮想データ,False,True,False,False,threshold
+767,A2MZEUP2ECO1AI,credit assignment,報酬割り当て,クレジット割り当て,False,True,False,False,threshold
+768,A2MZEUP2ECO1AI,decision space,意思決定空間,決定空間,True,False,False,False,threshold
+769,A2MZEUP2ECO1AI,discounted cumulative reward,割引された累積報酬,割引累積報酬,False,True,False,False,threshold
+770,A2GJB7TBZM91Z4,continual learning,継続学習,継続的学習,True,False,False,False,threshold
+771,A2GJB7TBZM91Z4,counterfactual datum,反事実データ,反実仮想データ,False,True,False,False,threshold
+772,A2GJB7TBZM91Z4,credit assignment,報酬割り当て,クレジット割り当て,True,False,False,False,threshold
+773,A2GJB7TBZM91Z4,decision space,意思決定空間,決定空間,True,False,False,False,threshold
+774,A2GJB7TBZM91Z4,discounted cumulative reward,割引された累積報酬,割引累積報酬,True,False,False,False,threshold
+775,ASML73P0NOOVV,distance metric,距離メトリック,距離尺度,True,False,False,False,threshold
+776,ASML73P0NOOVV,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+777,ASML73P0NOOVV,domain transfer,ドメイン移管,ドメイン転送,False,False,False,True,threshold
+778,ASML73P0NOOVV,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,True,False,False,False,threshold
+779,ASML73P0NOOVV,encoder network,エンコーダーネットワーク,エンコーダネットワーク,True,False,False,False,threshold
+780,AC4I7XU10MQXK,distance metric,距離メトリック,距離尺度,False,False,True,False,threshold
+781,AC4I7XU10MQXK,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+782,AC4I7XU10MQXK,domain transfer,ドメイン移管,ドメイン転送,False,True,False,False,threshold
+783,AC4I7XU10MQXK,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,True,False,False,False,threshold
+784,AC4I7XU10MQXK,encoder network,エンコーダーネットワーク,エンコーダネットワーク,True,False,False,False,threshold
+785,A3SC8IBRLEFRUP,distance metric,距離メトリック,距離尺度,False,True,False,False,threshold
+786,A3SC8IBRLEFRUP,domain mismatch,ドメイン不一致,ドメインミスマッチ,False,False,True,False,threshold
+787,A3SC8IBRLEFRUP,domain transfer,ドメイン移管,ドメイン転送,False,True,False,False,threshold
+788,A3SC8IBRLEFRUP,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,True,False,False,False,threshold
+789,A3SC8IBRLEFRUP,encoder network,エンコーダーネットワーク,エンコーダネットワーク,True,False,False,False,threshold
+790,AS0K8SAHI5SQD,distance metric,距離メトリック,距離尺度,True,False,False,False,threshold
+791,AS0K8SAHI5SQD,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+792,AS0K8SAHI5SQD,domain transfer,ドメイン移管,ドメイン転送,False,True,False,False,threshold
+793,AS0K8SAHI5SQD,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,True,False,False,False,threshold
+794,AS0K8SAHI5SQD,encoder network,エンコーダーネットワーク,エンコーダネットワーク,True,False,False,False,threshold
+795,A1L8EGJ85A7DZR,distance metric,距離メトリック,距離尺度,False,False,True,False,threshold
+796,A1L8EGJ85A7DZR,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+797,A1L8EGJ85A7DZR,domain transfer,ドメイン移管,ドメイン転送,False,False,False,True,threshold
+798,A1L8EGJ85A7DZR,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,True,False,False,False,threshold
+799,A1L8EGJ85A7DZR,encoder network,エンコーダーネットワーク,エンコーダネットワーク,False,True,False,False,threshold
+800,A39PWDRYNY2WM0,entity description,エンティティの説明,エンティティ記述,True,False,False,False,threshold
+801,A39PWDRYNY2WM0,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+802,A39PWDRYNY2WM0,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,False,True,False,False,threshold
+803,A39PWDRYNY2WM0,filter bank,フィルターバンク,フィルタバンク,True,False,False,False,threshold
+804,A39PWDRYNY2WM0,first order method,一階法,一次法,True,False,False,False,threshold
+805,A3HSZ9YLOBCCPR,entity description,エンティティの説明,エンティティ記述,False,True,False,False,threshold
+806,A3HSZ9YLOBCCPR,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+807,A3HSZ9YLOBCCPR,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,True,False,False,False,threshold
+808,A3HSZ9YLOBCCPR,filter bank,フィルターバンク,フィルタバンク,True,False,False,False,threshold
+809,A3HSZ9YLOBCCPR,first order method,一階法,一次法,True,False,False,False,threshold
+810,A3IG9HHR3NL9R0,entity description,エンティティの説明,エンティティ記述,True,False,False,False,threshold
+811,A3IG9HHR3NL9R0,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+812,A3IG9HHR3NL9R0,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,True,False,False,False,threshold
+813,A3IG9HHR3NL9R0,filter bank,フィルターバンク,フィルタバンク,True,False,False,False,threshold
+814,A3IG9HHR3NL9R0,first order method,一階法,一次法,False,True,False,False,threshold
+815,A19I2ZK220NTAE,entity description,エンティティの説明,エンティティ記述,True,False,False,False,threshold
+816,A19I2ZK220NTAE,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+817,A19I2ZK220NTAE,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,True,False,False,False,threshold
+818,A19I2ZK220NTAE,filter bank,フィルターバンク,フィルタバンク,True,False,False,False,threshold
+819,A19I2ZK220NTAE,first order method,一階法,一次法,False,True,False,False,threshold
+820,A13QHI6P2C910K,entity description,エンティティの説明,エンティティ記述,True,False,False,False,threshold
+821,A13QHI6P2C910K,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+822,A13QHI6P2C910K,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,True,False,False,False,threshold
+823,A13QHI6P2C910K,filter bank,フィルターバンク,フィルタバンク,True,False,False,False,threshold
+824,A13QHI6P2C910K,first order method,一階法,一次法,False,True,False,False,threshold
+825,A3I1OLOTCWCIET,float32,float32,フロート32,False,True,False,False,threshold
+826,A3I1OLOTCWCIET,flow field,フローフィールド,流れ場,False,True,False,False,threshold
+827,A3I1OLOTCWCIET,generalization ability,汎化能力,一般化能力,True,False,False,False,threshold
+828,A3I1OLOTCWCIET,geometry processing,ジオメトリ処理,幾何処理,False,False,True,False,threshold
+829,A3I1OLOTCWCIET,gist descriptor,ギスト記述子,ジスト記述子,True,False,False,False,threshold
+830,A3AHE81HVRXFCD,float32,float32,フロート32,True,False,False,False,threshold
+831,A3AHE81HVRXFCD,flow field,フローフィールド,流れ場,False,False,True,False,threshold
+832,A3AHE81HVRXFCD,generalization ability,汎化能力,一般化能力,False,True,False,False,threshold
+833,A3AHE81HVRXFCD,geometry processing,ジオメトリ処理,幾何処理,False,True,False,False,threshold
+834,A3AHE81HVRXFCD,gist descriptor,ギスト記述子,ジスト記述子,True,False,False,False,threshold
+835,A1XD6THGBT1T9T,float32,float32,フロート32,True,False,False,False,threshold
+836,A1XD6THGBT1T9T,flow field,フローフィールド,流れ場,False,False,True,False,threshold
+837,A1XD6THGBT1T9T,generalization ability,汎化能力,一般化能力,True,False,False,False,threshold
+838,A1XD6THGBT1T9T,geometry processing,ジオメトリ処理,幾何処理,False,False,True,False,threshold
+839,A1XD6THGBT1T9T,gist descriptor,ギスト記述子,ジスト記述子,False,True,False,False,threshold
+840,A9M8N3BOH6013,float32,float32,フロート32,True,False,False,False,threshold
+841,A9M8N3BOH6013,flow field,フローフィールド,流れ場,False,False,True,False,threshold
+842,A9M8N3BOH6013,generalization ability,汎化能力,一般化能力,True,False,False,False,threshold
+843,A9M8N3BOH6013,geometry processing,ジオメトリ処理,幾何処理,True,False,False,False,threshold
+844,A9M8N3BOH6013,gist descriptor,ギスト記述子,ジスト記述子,False,True,False,False,threshold
+845,A3MDTRJTDIDNX,float32,float32,フロート32,True,False,False,False,threshold
+846,A3MDTRJTDIDNX,flow field,フローフィールド,流れ場,False,False,True,False,threshold
+847,A3MDTRJTDIDNX,generalization ability,汎化能力,一般化能力,True,False,False,False,threshold
+848,A3MDTRJTDIDNX,geometry processing,ジオメトリ処理,幾何処理,True,False,False,False,threshold
+849,A3MDTRJTDIDNX,gist descriptor,ギスト記述子,ジスト記述子,True,False,False,False,threshold
+850,ASML73P0NOOVV,gold parse,正解構文,ゴールドパース,False,True,False,False,threshold
+851,ASML73P0NOOVV,gradient-based learning,勾配に基づく学習,勾配ベースの学習,True,False,False,False,threshold
+852,ASML73P0NOOVV,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+853,ASML73P0NOOVV,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,True,False,False,False,threshold
+854,ASML73P0NOOVV,hierarchical method,階層的方法,階層的手法,True,False,False,False,threshold
+855,A251BWQW2F81FT,gold parse,正解構文,ゴールドパース,True,False,False,False,threshold
+856,A251BWQW2F81FT,gradient-based learning,勾配に基づく学習,勾配ベースの学習,True,False,False,False,threshold
+857,A251BWQW2F81FT,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+858,A251BWQW2F81FT,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,True,False,False,False,threshold
+859,A251BWQW2F81FT,hierarchical method,階層的方法,階層的手法,True,False,False,False,threshold
+860,A19I2ZK220NTAE,gold parse,正解構文,ゴールドパース,False,True,False,False,threshold
+861,A19I2ZK220NTAE,gradient-based learning,勾配に基づく学習,勾配ベースの学習,True,False,False,False,threshold
+862,A19I2ZK220NTAE,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+863,A19I2ZK220NTAE,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,True,False,False,False,threshold
+864,A19I2ZK220NTAE,hierarchical method,階層的方法,階層的手法,True,False,False,False,threshold
+865,A13QHI6P2C910K,gold parse,正解構文,ゴールドパース,True,False,False,False,threshold
+866,A13QHI6P2C910K,gradient-based learning,勾配に基づく学習,勾配ベースの学習,True,False,False,False,threshold
+867,A13QHI6P2C910K,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+868,A13QHI6P2C910K,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,True,False,False,False,threshold
+869,A13QHI6P2C910K,hierarchical method,階層的方法,階層的手法,True,False,False,False,threshold
+870,A2ML30H0T2HO1J,gold parse,正解構文,ゴールドパース,False,True,False,False,threshold
+871,A2ML30H0T2HO1J,gradient-based learning,勾配に基づく学習,勾配ベースの学習,False,False,True,False,threshold
+872,A2ML30H0T2HO1J,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+873,A2ML30H0T2HO1J,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,False,False,False,True,threshold
+874,A2ML30H0T2HO1J,hierarchical method,階層的方法,階層的手法,False,True,False,False,threshold
+875,AWPXR7XE6B8KD,homographie,ホモグラフィー,ホモグラフィ,True,False,False,False,threshold
+876,AWPXR7XE6B8KD,human pose,人体姿勢,人間のポーズ,True,False,False,False,threshold
+877,AWPXR7XE6B8KD,identity transformation,恒等変換,同一変換,False,True,False,False,threshold
+878,AWPXR7XE6B8KD,influence diagram,インフルエンスダイアグラム,影響図,False,False,True,False,threshold
+879,AWPXR7XE6B8KD,input-output pair,入出力ペア,入力-出力ペア,True,False,False,False,threshold
+880,A251BWQW2F81FT,homographie,ホモグラフィー,ホモグラフィ,False,True,False,False,threshold
+881,A251BWQW2F81FT,human pose,人体姿勢,人間のポーズ,True,False,False,False,threshold
+882,A251BWQW2F81FT,identity transformation,恒等変換,同一変換,False,True,False,False,threshold
+883,A251BWQW2F81FT,influence diagram,インフルエンスダイアグラム,影響図,False,False,True,False,threshold
+884,A251BWQW2F81FT,input-output pair,入出力ペア,入力-出力ペア,True,False,False,False,threshold
+885,A11B7MUC7UTFKN,homographie,ホモグラフィー,ホモグラフィ,True,False,False,False,threshold
+886,A11B7MUC7UTFKN,human pose,人体姿勢,人間のポーズ,False,True,False,False,threshold
+887,A11B7MUC7UTFKN,identity transformation,恒等変換,同一変換,True,False,False,False,threshold
+888,A11B7MUC7UTFKN,influence diagram,インフルエンスダイアグラム,影響図,False,False,True,False,threshold
+889,A11B7MUC7UTFKN,input-output pair,入出力ペア,入力-出力ペア,True,False,False,False,threshold
+890,A9M8N3BOH6013,homographie,ホモグラフィー,ホモグラフィ,False,True,False,False,threshold
+891,A9M8N3BOH6013,human pose,人体姿勢,人間のポーズ,True,False,False,False,threshold
+892,A9M8N3BOH6013,identity transformation,恒等変換,同一変換,False,True,False,False,threshold
+893,A9M8N3BOH6013,influence diagram,インフルエンスダイアグラム,影響図,True,False,False,False,threshold
+894,A9M8N3BOH6013,input-output pair,入出力ペア,入力-出力ペア,True,False,False,False,threshold
+895,A2ML30H0T2HO1J,homographie,ホモグラフィー,ホモグラフィ,False,False,False,True,threshold
+896,A2ML30H0T2HO1J,human pose,人体姿勢,人間のポーズ,False,False,True,False,threshold
+897,A2ML30H0T2HO1J,identity transformation,恒等変換,同一変換,True,False,False,False,threshold
+898,A2ML30H0T2HO1J,influence diagram,インフルエンスダイアグラム,影響図,False,False,True,False,threshold
+899,A2ML30H0T2HO1J,input-output pair,入出力ペア,入力-出力ペア,False,False,False,True,threshold
+900,A1HSI7UUYP5PM3,intelligent agent,インテリジェントエージェント,知能エージェント,False,True,False,False,threshold
+901,A1HSI7UUYP5PM3,joint density,同時確率密度,同時密度,True,False,False,False,threshold
+902,A1HSI7UUYP5PM3,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,False,True,False,False,threshold
+903,A1HSI7UUYP5PM3,lazy grounding,遅延グラウンディング,レイジーグラウンディング,True,False,False,False,threshold
+904,A1HSI7UUYP5PM3,learned model,学習済みモデル,学習モデル,True,False,False,False,threshold
+905,A2MZEUP2ECO1AI,intelligent agent,インテリジェントエージェント,知能エージェント,False,True,False,False,threshold
+906,A2MZEUP2ECO1AI,joint density,同時確率密度,同時密度,True,False,False,False,threshold
+907,A2MZEUP2ECO1AI,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,False,True,False,False,threshold
+908,A2MZEUP2ECO1AI,lazy grounding,遅延グラウンディング,レイジーグラウンディング,True,False,False,False,threshold
+909,A2MZEUP2ECO1AI,learned model,学習済みモデル,学習モデル,True,False,False,False,threshold
+910,AC4I7XU10MQXK,intelligent agent,インテリジェントエージェント,知能エージェント,True,False,False,False,threshold
+911,AC4I7XU10MQXK,joint density,同時確率密度,同時密度,False,True,False,False,threshold
+912,AC4I7XU10MQXK,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,False,True,False,False,threshold
+913,AC4I7XU10MQXK,lazy grounding,遅延グラウンディング,レイジーグラウンディング,True,False,False,False,threshold
+914,AC4I7XU10MQXK,learned model,学習済みモデル,学習モデル,False,True,False,False,threshold
+915,A38SYZRVLTMOFG,intelligent agent,インテリジェントエージェント,知能エージェント,True,False,False,False,threshold
+916,A38SYZRVLTMOFG,joint density,同時確率密度,同時密度,True,False,False,False,threshold
+917,A38SYZRVLTMOFG,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,False,True,False,False,threshold
+918,A38SYZRVLTMOFG,lazy grounding,遅延グラウンディング,レイジーグラウンディング,True,False,False,False,threshold
+919,A38SYZRVLTMOFG,learned model,学習済みモデル,学習モデル,True,False,False,False,threshold
+920,A3HSZ9YLOBCCPR,intelligent agent,インテリジェントエージェント,知能エージェント,True,False,False,False,threshold
+921,A3HSZ9YLOBCCPR,joint density,同時確率密度,同時密度,False,True,False,False,threshold
+922,A3HSZ9YLOBCCPR,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,False,True,False,False,threshold
+923,A3HSZ9YLOBCCPR,lazy grounding,遅延グラウンディング,レイジーグラウンディング,True,False,False,False,threshold
+924,A3HSZ9YLOBCCPR,learned model,学習済みモデル,学習モデル,False,True,False,False,threshold
+925,A1XD6THGBT1T9T,lexicon induction,レキシコン導入,辞書誘導,True,False,False,False,threshold
+926,A1XD6THGBT1T9T,local basis function,局所基底関数,ローカル基底関数,True,False,False,False,threshold
+927,A1XD6THGBT1T9T,local feature,局所特徴,ローカル特徴,True,False,False,False,threshold
+928,A1XD6THGBT1T9T,local search,局所探索,ローカルサーチ,True,False,False,False,threshold
+929,A1XD6THGBT1T9T,log-log plot,対数対数プロット,対数-対数プロット,True,False,False,False,threshold
+930,A3IG9HHR3NL9R0,lexicon induction,レキシコン導入,辞書誘導,False,True,False,False,threshold
+931,A3IG9HHR3NL9R0,local basis function,局所基底関数,ローカル基底関数,True,False,False,False,threshold
+932,A3IG9HHR3NL9R0,local feature,局所特徴,ローカル特徴,True,False,False,False,threshold
+933,A3IG9HHR3NL9R0,local search,局所探索,ローカルサーチ,True,False,False,False,threshold
+934,A3IG9HHR3NL9R0,log-log plot,対数対数プロット,対数-対数プロット,True,False,False,False,threshold
+935,A39PWDRYNY2WM0,lexicon induction,レキシコン導入,辞書誘導,False,False,True,False,threshold
+936,A39PWDRYNY2WM0,local basis function,局所基底関数,ローカル基底関数,True,False,False,False,threshold
+937,A39PWDRYNY2WM0,local feature,局所特徴,ローカル特徴,True,False,False,False,threshold
+938,A39PWDRYNY2WM0,local search,局所探索,ローカルサーチ,True,False,False,False,threshold
+939,A39PWDRYNY2WM0,log-log plot,対数対数プロット,対数-対数プロット,True,False,False,False,threshold
+940,A3HSZ9YLOBCCPR,lexicon induction,レキシコン導入,辞書誘導,True,False,False,False,threshold
+941,A3HSZ9YLOBCCPR,local basis function,局所基底関数,ローカル基底関数,True,False,False,False,threshold
+942,A3HSZ9YLOBCCPR,local feature,局所特徴,ローカル特徴,True,False,False,False,threshold
+943,A3HSZ9YLOBCCPR,local search,局所探索,ローカルサーチ,False,True,False,False,threshold
+944,A3HSZ9YLOBCCPR,log-log plot,対数対数プロット,対数-対数プロット,True,False,False,False,threshold
+945,A2MZEUP2ECO1AI,lexicon induction,レキシコン導入,辞書誘導,True,False,False,False,threshold
+946,A2MZEUP2ECO1AI,local basis function,局所基底関数,ローカル基底関数,True,False,False,False,threshold
+947,A2MZEUP2ECO1AI,local feature,局所特徴,ローカル特徴,True,False,False,False,threshold
+948,A2MZEUP2ECO1AI,local search,局所探索,ローカルサーチ,True,False,False,False,threshold
+949,A2MZEUP2ECO1AI,log-log plot,対数対数プロット,対数-対数プロット,True,False,False,False,threshold
+950,ASML73P0NOOVV,logical connective,論理接続子,論理接続詞,False,True,False,False,threshold
+951,ASML73P0NOOVV,low-rank factorization,低ランク分解,低ランク因子分解,True,False,False,False,threshold
+952,ASML73P0NOOVV,machine vision,マシンビジョン,機械視覚,True,False,False,False,threshold
+953,ASML73P0NOOVV,machine-generated text,機械生成されたテキスト,機械生成テキスト,True,False,False,False,threshold
+954,ASML73P0NOOVV,marginal polytope,限界ポリトープ,周辺多面体,False,False,True,False,threshold
+955,A2D6SB3TU1NYQ7,logical connective,論理接続子,論理接続詞,True,False,False,False,threshold
+956,A2D6SB3TU1NYQ7,low-rank factorization,低ランク分解,低ランク因子分解,False,True,False,False,threshold
+957,A2D6SB3TU1NYQ7,machine vision,マシンビジョン,機械視覚,True,False,False,False,threshold
+958,A2D6SB3TU1NYQ7,machine-generated text,機械生成されたテキスト,機械生成テキスト,True,False,False,False,threshold
+959,A2D6SB3TU1NYQ7,marginal polytope,限界ポリトープ,周辺多面体,False,False,True,False,threshold
+960,A11B7MUC7UTFKN,logical connective,論理接続子,論理接続詞,True,False,False,False,threshold
+961,A11B7MUC7UTFKN,low-rank factorization,低ランク分解,低ランク因子分解,False,False,True,False,threshold
+962,A11B7MUC7UTFKN,machine vision,マシンビジョン,機械視覚,True,False,False,False,threshold
+963,A11B7MUC7UTFKN,machine-generated text,機械生成されたテキスト,機械生成テキスト,True,False,False,False,threshold
+964,A11B7MUC7UTFKN,marginal polytope,限界ポリトープ,周辺多面体,False,False,True,False,threshold
+965,A30IGMGSC7G2HM,logical connective,論理接続子,論理接続詞,True,False,False,False,threshold
+966,A30IGMGSC7G2HM,low-rank factorization,低ランク分解,低ランク因子分解,False,True,False,False,threshold
+967,A30IGMGSC7G2HM,machine vision,マシンビジョン,機械視覚,True,False,False,False,threshold
+968,A30IGMGSC7G2HM,machine-generated text,機械生成されたテキスト,機械生成テキスト,True,False,False,False,threshold
+969,A30IGMGSC7G2HM,marginal polytope,限界ポリトープ,周辺多面体,False,False,True,False,threshold
+970,A11JXYZDAUX0UP,logical connective,論理接続子,論理接続詞,False,True,False,False,threshold
+971,A11JXYZDAUX0UP,low-rank factorization,低ランク分解,低ランク因子分解,False,True,False,False,threshold
+972,A11JXYZDAUX0UP,machine vision,マシンビジョン,機械視覚,True,False,False,False,threshold
+973,A11JXYZDAUX0UP,machine-generated text,機械生成されたテキスト,機械生成テキスト,True,False,False,False,threshold
+974,A11JXYZDAUX0UP,marginal polytope,限界ポリトープ,周辺多面体,False,False,True,False,threshold
+975,A2MZEUP2ECO1AI,masked language model,マスクされた言語モデル,マスク言語モデル,False,True,False,False,threshold
+976,A2MZEUP2ECO1AI,maximum flow,最大フロー,最大流量,True,False,False,False,threshold
+977,A2MZEUP2ECO1AI,maximum likelihood estimate,最尤推定値,最尤推定,False,True,False,False,threshold
+978,A2MZEUP2ECO1AI,maximum likelihood estimation,最尤推定,最大尤度推定,True,False,False,False,threshold
+979,A2MZEUP2ECO1AI,measurement matrix,計測行列,測定行列,True,False,False,False,threshold
+980,A39PWDRYNY2WM0,masked language model,マスクされた言語モデル,マスク言語モデル,True,False,False,False,threshold
+981,A39PWDRYNY2WM0,maximum flow,最大フロー,最大流量,False,True,False,False,threshold
+982,A39PWDRYNY2WM0,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+983,A39PWDRYNY2WM0,maximum likelihood estimation,最尤推定,最大尤度推定,True,False,False,False,threshold
+984,A39PWDRYNY2WM0,measurement matrix,計測行列,測定行列,True,False,False,False,threshold
+985,A3HSZ9YLOBCCPR,masked language model,マスクされた言語モデル,マスク言語モデル,False,True,False,False,threshold
+986,A3HSZ9YLOBCCPR,maximum flow,最大フロー,最大流量,True,False,False,False,threshold
+987,A3HSZ9YLOBCCPR,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+988,A3HSZ9YLOBCCPR,maximum likelihood estimation,最尤推定,最大尤度推定,True,False,False,False,threshold
+989,A3HSZ9YLOBCCPR,measurement matrix,計測行列,測定行列,True,False,False,False,threshold
+990,A1L8EGJ85A7DZR,masked language model,マスクされた言語モデル,マスク言語モデル,True,False,False,False,threshold
+991,A1L8EGJ85A7DZR,maximum flow,最大フロー,最大流量,False,True,False,False,threshold
+992,A1L8EGJ85A7DZR,maximum likelihood estimate,最尤推定値,最尤推定,False,True,False,False,threshold
+993,A1L8EGJ85A7DZR,maximum likelihood estimation,最尤推定,最大尤度推定,True,False,False,False,threshold
+994,A1L8EGJ85A7DZR,measurement matrix,計測行列,測定行列,True,False,False,False,threshold
+995,A9M8N3BOH6013,masked language model,マスクされた言語モデル,マスク言語モデル,True,False,False,False,threshold
+996,A9M8N3BOH6013,maximum flow,最大フロー,最大流量,False,True,False,False,threshold
+997,A9M8N3BOH6013,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+998,A9M8N3BOH6013,maximum likelihood estimation,最尤推定,最大尤度推定,False,True,False,False,threshold
+999,A9M8N3BOH6013,measurement matrix,計測行列,測定行列,True,False,False,False,threshold
+1000,A3Q32FL0WWF4KZ,mixed-integer program,混合整数計画,混合整数プログラム,False,False,True,False,threshold
+1001,A3Q32FL0WWF4KZ,model M,モデルM,モデル M,True,False,False,False,threshold
+1002,A3Q32FL0WWF4KZ,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,True,False,False,False,threshold
+1003,A3Q32FL0WWF4KZ,modular,モジュラ,モジュラー,False,False,True,False,threshold
+1004,A3Q32FL0WWF4KZ,momentum,モメンタム,モーメンタム,True,False,False,False,threshold
+1005,A2D6SB3TU1NYQ7,mixed-integer program,混合整数計画,混合整数プログラム,True,False,False,False,threshold
+1006,A2D6SB3TU1NYQ7,model M,モデルM,モデル M,True,False,False,False,threshold
+1007,A2D6SB3TU1NYQ7,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,True,False,False,False,threshold
+1008,A2D6SB3TU1NYQ7,modular,モジュラ,モジュラー,False,False,True,False,threshold
+1009,A2D6SB3TU1NYQ7,momentum,モメンタム,モーメンタム,True,False,False,False,threshold
+1010,A3SC8IBRLEFRUP,mixed-integer program,混合整数計画,混合整数プログラム,True,False,False,False,threshold
+1011,A3SC8IBRLEFRUP,model M,モデルM,モデル M,False,False,False,False,threshold
+1012,A3SC8IBRLEFRUP,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,False,False,True,False,threshold
+1013,A3SC8IBRLEFRUP,modular,モジュラ,モジュラー,True,False,False,False,threshold
+1014,A3SC8IBRLEFRUP,momentum,モメンタム,モーメンタム,False,True,False,False,threshold
+1015,A35H5DUMZH86PC,mixed-integer program,混合整数計画,混合整数プログラム,False,False,True,False,threshold
+1016,A35H5DUMZH86PC,model M,モデルM,モデル M,True,False,False,False,threshold
+1017,A35H5DUMZH86PC,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,True,False,False,False,threshold
+1018,A35H5DUMZH86PC,modular,モジュラ,モジュラー,False,False,True,False,threshold
+1019,A35H5DUMZH86PC,momentum,モメンタム,モーメンタム,True,False,False,False,threshold
+1020,ASML73P0NOOVV,mixed-integer program,混合整数計画,混合整数プログラム,False,False,True,False,threshold
+1021,ASML73P0NOOVV,model M,モデルM,モデル M,True,False,False,False,threshold
+1022,ASML73P0NOOVV,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,True,False,False,False,threshold
+1023,ASML73P0NOOVV,modular,モジュラ,モジュラー,False,False,True,False,threshold
+1024,ASML73P0NOOVV,momentum,モメンタム,モーメンタム,True,False,False,False,threshold
+1025,AC4I7XU10MQXK,multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,False,True,False,False,threshold
+1026,AC4I7XU10MQXK,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,True,False,False,False,threshold
+1027,AC4I7XU10MQXK,non-maximal suppression,非極大抑制,非最大抑制,False,True,False,False,threshold
+1028,AC4I7XU10MQXK,normalize,正規化,正規化する,False,True,False,False,threshold
+1029,AC4I7XU10MQXK,normalized cross correlation,正規化相互相関,正規化相関,True,False,False,False,threshold
+1030,A3Q32FL0WWF4KZ,multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,True,False,False,False,threshold
+1031,A3Q32FL0WWF4KZ,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1032,A3Q32FL0WWF4KZ,non-maximal suppression,非極大抑制,非最大抑制,True,False,False,False,threshold
+1033,A3Q32FL0WWF4KZ,normalize,正規化,正規化する,False,True,False,False,threshold
+1034,A3Q32FL0WWF4KZ,normalized cross correlation,正規化相互相関,正規化相関,True,False,False,False,threshold
+1035,AG9MLSV2QCVD4,multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,True,False,False,False,threshold
+1036,AG9MLSV2QCVD4,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1037,AG9MLSV2QCVD4,non-maximal suppression,非極大抑制,非最大抑制,True,False,False,False,threshold
+1038,AG9MLSV2QCVD4,normalize,正規化,正規化する,False,True,False,False,threshold
+1039,AG9MLSV2QCVD4,normalized cross correlation,正規化相互相関,正規化相関,False,True,False,False,threshold
+1040,A3MDTRJTDIDNX,multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,False,True,False,False,threshold
+1041,A3MDTRJTDIDNX,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,True,False,False,False,threshold
+1042,A3MDTRJTDIDNX,non-maximal suppression,非極大抑制,非最大抑制,False,True,False,False,threshold
+1043,A3MDTRJTDIDNX,normalize,正規化,正規化する,True,False,False,False,threshold
+1044,A3MDTRJTDIDNX,normalized cross correlation,正規化相互相関,正規化相関,True,False,False,False,threshold
+1045,A19I2ZK220NTAE,multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,False,True,False,False,threshold
+1046,A19I2ZK220NTAE,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,True,False,False,False,threshold
+1047,A19I2ZK220NTAE,non-maximal suppression,非極大抑制,非最大抑制,True,False,False,False,threshold
+1048,A19I2ZK220NTAE,normalize,正規化,正規化する,False,True,False,False,threshold
+1049,A19I2ZK220NTAE,normalized cross correlation,正規化相互相関,正規化相関,False,True,False,False,threshold
+1050,A3Q32FL0WWF4KZ,null space,ヌルスペース,零空間,False,False,True,False,threshold
+1051,A3Q32FL0WWF4KZ,online learning method,オンライン学習法,オンライン学習手法,True,False,False,False,threshold
+1052,A3Q32FL0WWF4KZ,optimiser,オプティマイザー,最適化手法,False,True,False,False,threshold
+1053,A3Q32FL0WWF4KZ,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,True,False,False,False,threshold
+1054,A3Q32FL0WWF4KZ,parallel corpora,対訳コーパス,並列コーパス,True,False,False,False,threshold
+1055,A2E2FFMXS9F9KR,null space,ヌルスペース,零空間,False,False,True,False,threshold
+1056,A2E2FFMXS9F9KR,online learning method,オンライン学習法,オンライン学習手法,True,False,False,False,threshold
+1057,A2E2FFMXS9F9KR,optimiser,オプティマイザー,最適化手法,False,True,False,False,threshold
+1058,A2E2FFMXS9F9KR,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,True,False,False,False,threshold
+1059,A2E2FFMXS9F9KR,parallel corpora,対訳コーパス,並列コーパス,True,False,False,False,threshold
+1060,A2D6SB3TU1NYQ7,null space,ヌルスペース,零空間,True,False,False,False,threshold
+1061,A2D6SB3TU1NYQ7,online learning method,オンライン学習法,オンライン学習手法,True,False,False,False,threshold
+1062,A2D6SB3TU1NYQ7,optimiser,オプティマイザー,最適化手法,False,False,True,False,threshold
+1063,A2D6SB3TU1NYQ7,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,True,False,False,False,threshold
+1064,A2D6SB3TU1NYQ7,parallel corpora,対訳コーパス,並列コーパス,True,False,False,False,threshold
+1065,A39PWDRYNY2WM0,null space,ヌルスペース,零空間,True,False,False,False,threshold
+1066,A39PWDRYNY2WM0,online learning method,オンライン学習法,オンライン学習手法,True,False,False,False,threshold
+1067,A39PWDRYNY2WM0,optimiser,オプティマイザー,最適化手法,False,True,False,False,threshold
+1068,A39PWDRYNY2WM0,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,True,False,False,False,threshold
+1069,A39PWDRYNY2WM0,parallel corpora,対訳コーパス,並列コーパス,True,False,False,False,threshold
+1070,A2YVLMI4PRDECY,null space,ヌルスペース,零空間,True,False,False,False,threshold
+1071,A2YVLMI4PRDECY,online learning method,オンライン学習法,オンライン学習手法,True,False,False,False,threshold
+1072,A2YVLMI4PRDECY,optimiser,オプティマイザー,最適化手法,False,False,True,False,threshold
+1073,A2YVLMI4PRDECY,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,True,False,False,False,threshold
+1074,A2YVLMI4PRDECY,parallel corpora,対訳コーパス,並列コーパス,True,False,False,False,threshold
+1075,A3I1OLOTCWCIET,partition,パーティション,分割,False,True,False,False,threshold
+1076,A3I1OLOTCWCIET,pixel-wise,ピクセル単位で,ピクセル単位,False,True,False,False,threshold
+1077,A3I1OLOTCWCIET,point match,点一致,ポイントマッチ,False,False,True,False,threshold
+1078,A3I1OLOTCWCIET,policy evaluation,方策評価,ポリシー評価,True,False,False,False,threshold
+1079,A3I1OLOTCWCIET,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,True,False,False,False,threshold
+1080,A1KYZPQ0T7WECC,partition,パーティション,分割,True,False,False,False,threshold
+1081,A1KYZPQ0T7WECC,pixel-wise,ピクセル単位で,ピクセル単位,True,False,False,False,threshold
+1082,A1KYZPQ0T7WECC,point match,点一致,ポイントマッチ,True,False,False,False,threshold
+1083,A1KYZPQ0T7WECC,policy evaluation,方策評価,ポリシー評価,False,True,False,False,threshold
+1084,A1KYZPQ0T7WECC,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,False,True,False,False,threshold
+1085,A2E2FFMXS9F9KR,partition,パーティション,分割,True,False,False,False,threshold
+1086,A2E2FFMXS9F9KR,pixel-wise,ピクセル単位で,ピクセル単位,True,False,False,False,threshold
+1087,A2E2FFMXS9F9KR,point match,点一致,ポイントマッチ,True,False,False,False,threshold
+1088,A2E2FFMXS9F9KR,policy evaluation,方策評価,ポリシー評価,True,False,False,False,threshold
+1089,A2E2FFMXS9F9KR,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,True,False,False,False,threshold
+1090,A30IGMGSC7G2HM,partition,パーティション,分割,True,False,False,False,threshold
+1091,A30IGMGSC7G2HM,pixel-wise,ピクセル単位で,ピクセル単位,True,False,False,False,threshold
+1092,A30IGMGSC7G2HM,point match,点一致,ポイントマッチ,True,False,False,False,threshold
+1093,A30IGMGSC7G2HM,policy evaluation,方策評価,ポリシー評価,False,True,False,False,threshold
+1094,A30IGMGSC7G2HM,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,True,False,False,False,threshold
+1095,A3HSZ9YLOBCCPR,partition,パーティション,分割,True,False,False,False,threshold
+1096,A3HSZ9YLOBCCPR,pixel-wise,ピクセル単位で,ピクセル単位,True,False,False,False,threshold
+1097,A3HSZ9YLOBCCPR,point match,点一致,ポイントマッチ,True,False,False,False,threshold
+1098,A3HSZ9YLOBCCPR,policy evaluation,方策評価,ポリシー評価,False,True,False,False,threshold
+1099,A3HSZ9YLOBCCPR,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,False,True,False,False,threshold
+1100,A3MDTRJTDIDNX,policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,True,False,False,False,threshold
+1101,A3MDTRJTDIDNX,pre-training datum,プレトレーニングデータ,事前学習データ,True,False,False,False,threshold
+1102,A3MDTRJTDIDNX,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,True,False,False,False,threshold
+1103,A3MDTRJTDIDNX,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,False,True,False,False,threshold
+1104,A3MDTRJTDIDNX,protected attribute,プロテクト属性,保護属性,False,False,True,False,threshold
+1105,A3IG9HHR3NL9R0,policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,False,True,False,False,threshold
+1106,A3IG9HHR3NL9R0,pre-training datum,プレトレーニングデータ,事前学習データ,True,False,False,False,threshold
+1107,A3IG9HHR3NL9R0,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,False,False,True,False,threshold
+1108,A3IG9HHR3NL9R0,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,True,False,False,False,threshold
+1109,A3IG9HHR3NL9R0,protected attribute,プロテクト属性,保護属性,False,False,True,False,threshold
+1110,A39PWDRYNY2WM0,policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,False,True,False,False,threshold
+1111,A39PWDRYNY2WM0,pre-training datum,プレトレーニングデータ,事前学習データ,True,False,False,False,threshold
+1112,A39PWDRYNY2WM0,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,True,False,False,False,threshold
+1113,A39PWDRYNY2WM0,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,False,True,False,False,threshold
+1114,A39PWDRYNY2WM0,protected attribute,プロテクト属性,保護属性,False,False,True,False,threshold
+1115,A11B7MUC7UTFKN,policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,False,False,True,False,threshold
+1116,A11B7MUC7UTFKN,pre-training datum,プレトレーニングデータ,事前学習データ,True,False,False,False,threshold
+1117,A11B7MUC7UTFKN,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,True,False,False,False,threshold
+1118,A11B7MUC7UTFKN,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,False,True,False,False,threshold
+1119,A11B7MUC7UTFKN,protected attribute,プロテクト属性,保護属性,False,False,True,False,threshold
+1120,A1U6UPXOFCXR24,policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,False,True,False,False,threshold
+1121,A1U6UPXOFCXR24,pre-training datum,プレトレーニングデータ,事前学習データ,True,False,False,False,threshold
+1122,A1U6UPXOFCXR24,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,True,False,False,False,threshold
+1123,A1U6UPXOFCXR24,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,False,True,False,False,threshold
+1124,A1U6UPXOFCXR24,protected attribute,プロテクト属性,保護属性,False,False,True,False,threshold
+1125,A2FXDEKCCUT9OJ,pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,True,False,False,False,threshold
+1126,A2FXDEKCCUT9OJ,rank-one update,ランクワン更新,ランク1更新,True,False,False,False,threshold
+1127,A2FXDEKCCUT9OJ,rectified linear unit,整流線形単位,整流線形ユニット,False,False,True,False,threshold
+1128,A2FXDEKCCUT9OJ,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,True,False,False,False,threshold
+1129,A2FXDEKCCUT9OJ,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,True,False,False,False,threshold
+1130,A2E2FFMXS9F9KR,pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,False,True,False,False,threshold
+1131,A2E2FFMXS9F9KR,rank-one update,ランクワン更新,ランク1更新,True,False,False,False,threshold
+1132,A2E2FFMXS9F9KR,rectified linear unit,整流線形単位,整流線形ユニット,False,False,True,False,threshold
+1133,A2E2FFMXS9F9KR,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,False,True,False,False,threshold
+1134,A2E2FFMXS9F9KR,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,True,False,False,False,threshold
+1135,A3SC8IBRLEFRUP,pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,False,False,True,False,threshold
+1136,A3SC8IBRLEFRUP,rank-one update,ランクワン更新,ランク1更新,True,False,False,False,threshold
+1137,A3SC8IBRLEFRUP,rectified linear unit,整流線形単位,整流線形ユニット,False,False,True,False,threshold
+1138,A3SC8IBRLEFRUP,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,False,True,False,False,threshold
+1139,A3SC8IBRLEFRUP,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,False,True,False,False,threshold
+1140,A186ORPGIU3WNL,pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,True,False,False,False,threshold
+1141,A186ORPGIU3WNL,rank-one update,ランクワン更新,ランク1更新,False,True,False,False,threshold
+1142,A186ORPGIU3WNL,rectified linear unit,整流線形単位,整流線形ユニット,False,False,True,False,threshold
+1143,A186ORPGIU3WNL,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,True,False,False,False,threshold
+1144,A186ORPGIU3WNL,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,True,False,False,False,threshold
+1145,A2ML30H0T2HO1J,pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,False,False,True,False,threshold
+1146,A2ML30H0T2HO1J,rank-one update,ランクワン更新,ランク1更新,False,True,False,False,threshold
+1147,A2ML30H0T2HO1J,rectified linear unit,整流線形単位,整流線形ユニット,True,False,False,False,threshold
+1148,A2ML30H0T2HO1J,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,False,False,True,False,threshold
+1149,A2ML30H0T2HO1J,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,False,False,False,True,threshold
+1150,A2H09EMKJHK5XT,regularization path,正則化経路,正則化パス,False,True,False,False,threshold
+1151,A2H09EMKJHK5XT,regularization weight,正則化の重み,正則化重み,True,False,False,False,threshold
+1152,A2H09EMKJHK5XT,relational tuple,リレーショナルタプル,関係タプル,True,False,False,False,threshold
+1153,A2H09EMKJHK5XT,right-to-left model,右から左モデル,右から左へのモデル,False,False,True,False,threshold
+1154,A2H09EMKJHK5XT,roberta-large,RoBERTa-large,ロバータ・ラージ,False,True,False,False,threshold
+1155,A2FXDEKCCUT9OJ,regularization path,正則化経路,正則化パス,True,False,False,False,threshold
+1156,A2FXDEKCCUT9OJ,regularization weight,正則化の重み,正則化重み,True,False,False,False,threshold
+1157,A2FXDEKCCUT9OJ,relational tuple,リレーショナルタプル,関係タプル,False,False,True,False,threshold
+1158,A2FXDEKCCUT9OJ,right-to-left model,右から左モデル,右から左へのモデル,False,True,False,False,threshold
+1159,A2FXDEKCCUT9OJ,roberta-large,RoBERTa-large,ロバータ・ラージ,False,True,False,False,threshold
+1160,A3Q32FL0WWF4KZ,regularization path,正則化経路,正則化パス,False,False,True,False,threshold
+1161,A3Q32FL0WWF4KZ,regularization weight,正則化の重み,正則化重み,True,False,False,False,threshold
+1162,A3Q32FL0WWF4KZ,relational tuple,リレーショナルタプル,関係タプル,True,False,False,False,threshold
+1163,A3Q32FL0WWF4KZ,right-to-left model,右から左モデル,右から左へのモデル,True,False,False,False,threshold
+1164,A3Q32FL0WWF4KZ,roberta-large,RoBERTa-large,ロバータ・ラージ,True,False,False,False,threshold
+1165,A11B7MUC7UTFKN,regularization path,正則化経路,正則化パス,False,False,True,False,threshold
+1166,A11B7MUC7UTFKN,regularization weight,正則化の重み,正則化重み,True,False,False,False,threshold
+1167,A11B7MUC7UTFKN,relational tuple,リレーショナルタプル,関係タプル,True,False,False,False,threshold
+1168,A11B7MUC7UTFKN,right-to-left model,右から左モデル,右から左へのモデル,False,True,False,False,threshold
+1169,A11B7MUC7UTFKN,roberta-large,RoBERTa-large,ロバータ・ラージ,True,False,False,False,threshold
+1170,A2E2FFMXS9F9KR,regularization path,正則化経路,正則化パス,True,False,False,False,threshold
+1171,A2E2FFMXS9F9KR,regularization weight,正則化の重み,正則化重み,True,False,False,False,threshold
+1172,A2E2FFMXS9F9KR,relational tuple,リレーショナルタプル,関係タプル,True,False,False,False,threshold
+1173,A2E2FFMXS9F9KR,right-to-left model,右から左モデル,右から左へのモデル,False,True,False,False,threshold
+1174,A2E2FFMXS9F9KR,roberta-large,RoBERTa-large,ロバータ・ラージ,True,False,False,False,threshold
+1175,A11BQAB549UAEG,scaling factor,スケーリング係数,スケーリングファクター,False,True,False,False,threshold
+1176,A11BQAB549UAEG,self-attention layer,自己注意層,セルフアテンション層,False,False,True,False,threshold
+1177,A11BQAB549UAEG,self-attention model,自己注意モデル,セルフアテンションモデル,False,True,False,False,threshold
+1178,A11BQAB549UAEG,semantic information,意味情報,セマンティック情報,False,False,True,False,threshold
+1179,A11BQAB549UAEG,semantic role label,セマンティックロールラベル,意味役割ラベル,False,True,False,False,threshold
+1180,A3IG9HHR3NL9R0,scaling factor,スケーリング係数,スケーリングファクター,True,False,False,False,threshold
+1181,A3IG9HHR3NL9R0,self-attention layer,自己注意層,セルフアテンション層,True,False,False,False,threshold
+1182,A3IG9HHR3NL9R0,self-attention model,自己注意モデル,セルフアテンションモデル,False,False,False,False,threshold
+1183,A3IG9HHR3NL9R0,semantic information,意味情報,セマンティック情報,True,False,False,False,threshold
+1184,A3IG9HHR3NL9R0,semantic role label,セマンティックロールラベル,意味役割ラベル,True,False,False,False,threshold
+1185,A38SYZRVLTMOFG,scaling factor,スケーリング係数,スケーリングファクター,False,True,False,False,threshold
+1186,A38SYZRVLTMOFG,self-attention layer,自己注意層,セルフアテンション層,True,False,False,False,threshold
+1187,A38SYZRVLTMOFG,self-attention model,自己注意モデル,セルフアテンションモデル,True,False,False,False,threshold
+1188,A38SYZRVLTMOFG,semantic information,意味情報,セマンティック情報,True,False,False,False,threshold
+1189,A38SYZRVLTMOFG,semantic role label,セマンティックロールラベル,意味役割ラベル,True,False,False,False,threshold
+1190,A3OAFR48DADAOM,scaling factor,スケーリング係数,スケーリングファクター,True,False,False,False,threshold
+1191,A3OAFR48DADAOM,self-attention layer,自己注意層,セルフアテンション層,False,False,False,False,threshold
+1192,A3OAFR48DADAOM,self-attention model,自己注意モデル,セルフアテンションモデル,True,False,False,False,threshold
+1193,A3OAFR48DADAOM,semantic information,意味情報,セマンティック情報,True,False,False,False,threshold
+1194,A3OAFR48DADAOM,semantic role label,セマンティックロールラベル,意味役割ラベル,True,False,False,False,threshold
+1195,A3I1OLOTCWCIET,scaling factor,スケーリング係数,スケーリングファクター,False,True,False,False,threshold
+1196,A3I1OLOTCWCIET,self-attention layer,自己注意層,セルフアテンション層,True,False,False,False,threshold
+1197,A3I1OLOTCWCIET,self-attention model,自己注意モデル,セルフアテンションモデル,False,True,False,False,threshold
+1198,A3I1OLOTCWCIET,semantic information,意味情報,セマンティック情報,False,True,False,False,threshold
+1199,A3I1OLOTCWCIET,semantic role label,セマンティックロールラベル,意味役割ラベル,False,False,True,False,threshold
+1200,A3IG9HHR3NL9R0,semantic unit,セマンティック単位,意味単位,True,False,False,False,threshold
+1201,A3IG9HHR3NL9R0,semantic vector,セマンティックベクター,意味ベクトル,True,False,False,False,threshold
+1202,A3IG9HHR3NL9R0,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,True,False,False,False,threshold
+1203,A3IG9HHR3NL9R0,stochastic game,確率的ゲーム,確率ゲーム,True,False,False,False,threshold
+1204,A3IG9HHR3NL9R0,submatrix,部分行列,サブマトリックス,True,False,False,False,threshold
+1205,A2WPXOAESFQ5TS,semantic unit,セマンティック単位,意味単位,True,False,False,False,threshold
+1206,A2WPXOAESFQ5TS,semantic vector,セマンティックベクター,意味ベクトル,True,False,False,False,threshold
+1207,A2WPXOAESFQ5TS,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,False,True,False,False,threshold
+1208,A2WPXOAESFQ5TS,stochastic game,確率的ゲーム,確率ゲーム,False,True,False,False,threshold
+1209,A2WPXOAESFQ5TS,submatrix,部分行列,サブマトリックス,False,True,False,False,threshold
+1210,ASE8ADTSWOHDB,semantic unit,セマンティック単位,意味単位,False,True,False,False,threshold
+1211,ASE8ADTSWOHDB,semantic vector,セマンティックベクター,意味ベクトル,False,False,True,False,threshold
+1212,ASE8ADTSWOHDB,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,False,True,False,False,threshold
+1213,ASE8ADTSWOHDB,stochastic game,確率的ゲーム,確率ゲーム,False,True,False,False,threshold
+1214,ASE8ADTSWOHDB,submatrix,部分行列,サブマトリックス,True,False,False,False,threshold
+1215,A2FXDEKCCUT9OJ,semantic unit,セマンティック単位,意味単位,True,False,False,False,threshold
+1216,A2FXDEKCCUT9OJ,semantic vector,セマンティックベクター,意味ベクトル,True,False,False,False,threshold
+1217,A2FXDEKCCUT9OJ,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,True,False,False,False,threshold
+1218,A2FXDEKCCUT9OJ,stochastic game,確率的ゲーム,確率ゲーム,True,False,False,False,threshold
+1219,A2FXDEKCCUT9OJ,submatrix,部分行列,サブマトリックス,True,False,False,False,threshold
+1220,A13QHI6P2C910K,semantic unit,セマンティック単位,意味単位,True,False,False,False,threshold
+1221,A13QHI6P2C910K,semantic vector,セマンティックベクター,意味ベクトル,True,False,False,False,threshold
+1222,A13QHI6P2C910K,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,True,False,False,False,threshold
+1223,A13QHI6P2C910K,stochastic game,確率的ゲーム,確率ゲーム,False,True,False,False,threshold
+1224,A13QHI6P2C910K,submatrix,部分行列,サブマトリックス,True,False,False,False,threshold
+1225,A2D6SB3TU1NYQ7,submodular,サブモジュラ,サブモジュラー,False,False,True,False,threshold
+1226,A2D6SB3TU1NYQ7,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,True,False,False,False,threshold
+1227,A2D6SB3TU1NYQ7,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,True,False,False,False,threshold
+1228,A2D6SB3TU1NYQ7,support,支持度,サポート,False,False,True,False,threshold
+1229,A2D6SB3TU1NYQ7,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,True,False,False,False,threshold
+1230,A186ORPGIU3WNL,submodular,サブモジュラ,サブモジュラー,False,False,True,False,threshold
+1231,A186ORPGIU3WNL,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,True,False,False,False,threshold
+1232,A186ORPGIU3WNL,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,True,False,False,False,threshold
+1233,A186ORPGIU3WNL,support,支持度,サポート,False,False,True,False,threshold
+1234,A186ORPGIU3WNL,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,False,True,False,False,threshold
+1235,A1L8EGJ85A7DZR,submodular,サブモジュラ,サブモジュラー,False,False,True,False,threshold
+1236,A1L8EGJ85A7DZR,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,True,False,False,False,threshold
+1237,A1L8EGJ85A7DZR,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,True,False,False,False,threshold
+1238,A1L8EGJ85A7DZR,support,支持度,サポート,False,False,True,False,threshold
+1239,A1L8EGJ85A7DZR,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,False,True,False,False,threshold
+1240,A2ML30H0T2HO1J,submodular,サブモジュラ,サブモジュラー,False,False,False,True,threshold
+1241,A2ML30H0T2HO1J,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,False,False,True,False,threshold
+1242,A2ML30H0T2HO1J,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,False,True,False,False,threshold
+1243,A2ML30H0T2HO1J,support,支持度,サポート,True,False,False,False,threshold
+1244,A2ML30H0T2HO1J,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,False,False,True,False,threshold
+1245,A38SYZRVLTMOFG,submodular,サブモジュラ,サブモジュラー,False,False,True,False,threshold
+1246,A38SYZRVLTMOFG,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,True,False,False,False,threshold
+1247,A38SYZRVLTMOFG,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,False,False,True,False,threshold
+1248,A38SYZRVLTMOFG,support,支持度,サポート,False,False,True,False,threshold
+1249,A38SYZRVLTMOFG,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,False,True,False,False,threshold
+1250,A9M8N3BOH6013,top-1 accuracy,トップ-1精度,トップ1精度,True,False,False,False,threshold
+1251,A9M8N3BOH6013,topic proportion,トピック割合,トピック比率,True,False,False,False,threshold
+1252,A9M8N3BOH6013,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,True,False,False,False,threshold
+1253,A9M8N3BOH6013,training stability,学習安定性,トレーニングの安定性,True,False,False,False,threshold
+1254,A9M8N3BOH6013,tree width,木幅,ツリー幅,True,False,False,False,threshold
+1255,A1U6UPXOFCXR24,top-1 accuracy,トップ-1精度,トップ1精度,True,False,False,False,threshold
+1256,A1U6UPXOFCXR24,topic proportion,トピック割合,トピック比率,True,False,False,False,threshold
+1257,A1U6UPXOFCXR24,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,True,False,False,False,threshold
+1258,A1U6UPXOFCXR24,training stability,学習安定性,トレーニングの安定性,False,True,False,False,threshold
+1259,A1U6UPXOFCXR24,tree width,木幅,ツリー幅,False,False,True,False,threshold
+1260,A13QHI6P2C910K,top-1 accuracy,トップ-1精度,トップ1精度,True,False,False,False,threshold
+1261,A13QHI6P2C910K,topic proportion,トピック割合,トピック比率,True,False,False,False,threshold
+1262,A13QHI6P2C910K,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,True,False,False,False,threshold
+1263,A13QHI6P2C910K,training stability,学習安定性,トレーニングの安定性,True,False,False,False,threshold
+1264,A13QHI6P2C910K,tree width,木幅,ツリー幅,True,False,False,False,threshold
+1265,A2F06TCLNQ33LI,top-1 accuracy,トップ-1精度,トップ1精度,False,True,False,False,threshold
+1266,A2F06TCLNQ33LI,topic proportion,トピック割合,トピック比率,False,True,False,False,threshold
+1267,A2F06TCLNQ33LI,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,False,True,False,False,threshold
+1268,A2F06TCLNQ33LI,training stability,学習安定性,トレーニングの安定性,False,False,False,True,threshold
+1269,A2F06TCLNQ33LI,tree width,木幅,ツリー幅,False,False,False,True,threshold
+1270,A35H5DUMZH86PC,top-1 accuracy,トップ-1精度,トップ1精度,True,False,False,False,threshold
+1271,A35H5DUMZH86PC,topic proportion,トピック割合,トピック比率,True,False,False,False,threshold
+1272,A35H5DUMZH86PC,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,True,False,False,False,threshold
+1273,A35H5DUMZH86PC,training stability,学習安定性,トレーニングの安定性,True,False,False,False,threshold
+1274,A35H5DUMZH86PC,tree width,木幅,ツリー幅,False,True,False,False,threshold
+1275,A39PWDRYNY2WM0,trifocal tensor,三重焦点テンソル,三焦点テンソル,True,False,False,False,threshold
+1276,A39PWDRYNY2WM0,truth assignment,真理値割り当て,真理割り当て,False,True,False,False,threshold
+1277,A39PWDRYNY2WM0,union of conjunctive query,連言クエリの和,結合クエリの和,True,False,False,False,threshold
+1278,A39PWDRYNY2WM0,unit sphere,単位球面,単位球,True,False,False,False,threshold
+1279,A39PWDRYNY2WM0,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,True,False,False,False,threshold
+1280,A3IG9HHR3NL9R0,trifocal tensor,三重焦点テンソル,三焦点テンソル,True,False,False,False,threshold
+1281,A3IG9HHR3NL9R0,truth assignment,真理値割り当て,真理割り当て,False,True,False,False,threshold
+1282,A3IG9HHR3NL9R0,union of conjunctive query,連言クエリの和,結合クエリの和,True,False,False,False,threshold
+1283,A3IG9HHR3NL9R0,unit sphere,単位球面,単位球,True,False,False,False,threshold
+1284,A3IG9HHR3NL9R0,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,True,False,False,False,threshold
+1285,A3Q32FL0WWF4KZ,trifocal tensor,三重焦点テンソル,三焦点テンソル,False,True,False,False,threshold
+1286,A3Q32FL0WWF4KZ,truth assignment,真理値割り当て,真理割り当て,True,False,False,False,threshold
+1287,A3Q32FL0WWF4KZ,union of conjunctive query,連言クエリの和,結合クエリの和,True,False,False,False,threshold
+1288,A3Q32FL0WWF4KZ,unit sphere,単位球面,単位球,True,False,False,False,threshold
+1289,A3Q32FL0WWF4KZ,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,True,False,False,False,threshold
+1290,ASML73P0NOOVV,trifocal tensor,三重焦点テンソル,三焦点テンソル,True,False,False,False,threshold
+1291,ASML73P0NOOVV,truth assignment,真理値割り当て,真理割り当て,False,True,False,False,threshold
+1292,ASML73P0NOOVV,union of conjunctive query,連言クエリの和,結合クエリの和,False,True,False,False,threshold
+1293,ASML73P0NOOVV,unit sphere,単位球面,単位球,True,False,False,False,threshold
+1294,ASML73P0NOOVV,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,True,False,False,False,threshold
+1295,AC4I7XU10MQXK,trifocal tensor,三重焦点テンソル,三焦点テンソル,False,True,False,False,threshold
+1296,AC4I7XU10MQXK,truth assignment,真理値割り当て,真理割り当て,True,False,False,False,threshold
+1297,AC4I7XU10MQXK,union of conjunctive query,連言クエリの和,結合クエリの和,True,False,False,False,threshold
+1298,AC4I7XU10MQXK,unit sphere,単位球面,単位球,True,False,False,False,threshold
+1299,AC4I7XU10MQXK,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,True,False,False,False,threshold
+1300,AG9MLSV2QCVD4,vanishing gradient,勾配消失,消失勾配,True,False,False,False,threshold
+1301,AG9MLSV2QCVD4,vanishing gradient problem,勾配消失問題,消失勾配問題,True,False,False,False,threshold
+1302,AG9MLSV2QCVD4,weak learning,弱学習,弱い学習,False,True,False,False,threshold
+1303,AG9MLSV2QCVD4,weighted sum,重み付き和,加重和,True,False,False,False,threshold
+1304,AG9MLSV2QCVD4,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,True,False,False,False,threshold
+1305,A35H5DUMZH86PC,vanishing gradient,勾配消失,消失勾配,True,False,False,False,threshold
+1306,A35H5DUMZH86PC,vanishing gradient problem,勾配消失問題,消失勾配問題,True,False,False,False,threshold
+1307,A35H5DUMZH86PC,weak learning,弱学習,弱い学習,False,True,False,False,threshold
+1308,A35H5DUMZH86PC,weighted sum,重み付き和,加重和,True,False,False,False,threshold
+1309,A35H5DUMZH86PC,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,True,False,False,False,threshold
+1310,A3Q32FL0WWF4KZ,vanishing gradient,勾配消失,消失勾配,True,False,False,False,threshold
+1311,A3Q32FL0WWF4KZ,vanishing gradient problem,勾配消失問題,消失勾配問題,True,False,False,False,threshold
+1312,A3Q32FL0WWF4KZ,weak learning,弱学習,弱い学習,True,False,False,False,threshold
+1313,A3Q32FL0WWF4KZ,weighted sum,重み付き和,加重和,True,False,False,False,threshold
+1314,A3Q32FL0WWF4KZ,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,True,False,False,False,threshold
+1315,AC4I7XU10MQXK,vanishing gradient,勾配消失,消失勾配,True,False,False,False,threshold
+1316,AC4I7XU10MQXK,vanishing gradient problem,勾配消失問題,消失勾配問題,False,True,False,False,threshold
+1317,AC4I7XU10MQXK,weak learning,弱学習,弱い学習,False,True,False,False,threshold
+1318,AC4I7XU10MQXK,weighted sum,重み付き和,加重和,True,False,False,False,threshold
+1319,AC4I7XU10MQXK,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,True,False,False,False,threshold
+1320,AWGV35294HOYB,vanishing gradient,勾配消失,消失勾配,True,False,False,False,threshold
+1321,AWGV35294HOYB,vanishing gradient problem,勾配消失問題,消失勾配問題,True,False,False,False,threshold
+1322,AWGV35294HOYB,weak learning,弱学習,弱い学習,True,False,False,False,threshold
+1323,AWGV35294HOYB,weighted sum,重み付き和,加重和,True,False,False,False,threshold
+1324,AWGV35294HOYB,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,True,False,False,False,threshold
+1325,A3IG9HHR3NL9R0,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+1326,A3IG9HHR3NL9R0,Laplacian distribution,ラプラシアン分布,ラプラス分布,True,False,False,False,threshold
+1327,A3IG9HHR3NL9R0,Maximum Likelihood,最尤法,最大尤度,True,False,False,False,threshold
+1328,A3IG9HHR3NL9R0,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+1329,A3IG9HHR3NL9R0,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,False,True,False,False,threshold
+1330,A2E2FFMXS9F9KR,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+1331,A2E2FFMXS9F9KR,Laplacian distribution,ラプラシアン分布,ラプラス分布,True,False,False,False,threshold
+1332,A2E2FFMXS9F9KR,Maximum Likelihood,最尤法,最大尤度,False,True,False,False,threshold
+1333,A2E2FFMXS9F9KR,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+1334,A2E2FFMXS9F9KR,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,True,False,False,False,threshold
+1335,A2ML30H0T2HO1J,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,False,False,True,False,threshold
+1336,A2ML30H0T2HO1J,Laplacian distribution,ラプラシアン分布,ラプラス分布,False,True,False,False,threshold
+1337,A2ML30H0T2HO1J,Maximum Likelihood,最尤法,最大尤度,True,False,False,False,threshold
+1338,A2ML30H0T2HO1J,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,False,False,False,True,threshold
+1339,A2ML30H0T2HO1J,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,False,False,True,False,threshold
+1340,A2P8U65V6NL7B5,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,True,False,False,False,threshold
+1341,A2P8U65V6NL7B5,Laplacian distribution,ラプラシアン分布,ラプラス分布,True,False,False,False,threshold
+1342,A2P8U65V6NL7B5,Maximum Likelihood,最尤法,最大尤度,True,False,False,False,threshold
+1343,A2P8U65V6NL7B5,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,True,False,False,False,threshold
+1344,A2P8U65V6NL7B5,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,False,True,False,False,threshold
+1345,A37HUVGB6ZT2ET,K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,False,False,True,False,threshold
+1346,A37HUVGB6ZT2ET,Laplacian distribution,ラプラシアン分布,ラプラス分布,False,False,True,False,threshold
+1347,A37HUVGB6ZT2ET,Maximum Likelihood,最尤法,最大尤度,False,False,True,False,threshold
+1348,A37HUVGB6ZT2ET,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,False,False,False,True,threshold
+1349,A37HUVGB6ZT2ET,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,False,False,True,False,threshold
+1350,A11B7MUC7UTFKN,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+1351,A11B7MUC7UTFKN,automata,オートマタ,オートマトン,True,False,False,False,threshold
+1352,A11B7MUC7UTFKN,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,False,True,False,False,threshold
+1353,A11B7MUC7UTFKN,backprop,バックプロパゲーション,バックプロップ,True,False,False,False,threshold
+1354,A11B7MUC7UTFKN,blur kernel,ぼかしカーネル,ブラーカーネル,True,False,False,False,threshold
+1355,A35H5DUMZH86PC,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+1356,A35H5DUMZH86PC,automata,オートマタ,オートマトン,True,False,False,False,threshold
+1357,A35H5DUMZH86PC,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,False,True,False,False,threshold
+1358,A35H5DUMZH86PC,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+1359,A35H5DUMZH86PC,blur kernel,ぼかしカーネル,ブラーカーネル,True,False,False,False,threshold
+1360,A1L8EGJ85A7DZR,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+1361,A1L8EGJ85A7DZR,automata,オートマタ,オートマトン,True,False,False,False,threshold
+1362,A1L8EGJ85A7DZR,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,False,True,False,False,threshold
+1363,A1L8EGJ85A7DZR,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+1364,A1L8EGJ85A7DZR,blur kernel,ぼかしカーネル,ブラーカーネル,True,False,False,False,threshold
+1365,A2D6SB3TU1NYQ7,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,False,True,False,threshold
+1366,A2D6SB3TU1NYQ7,automata,オートマタ,オートマトン,True,False,False,False,threshold
+1367,A2D6SB3TU1NYQ7,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,False,True,False,False,threshold
+1368,A2D6SB3TU1NYQ7,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+1369,A2D6SB3TU1NYQ7,blur kernel,ぼかしカーネル,ブラーカーネル,True,False,False,False,threshold
+1370,A2QX81MMC8KN80,Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,False,True,False,False,threshold
+1371,A2QX81MMC8KN80,automata,オートマタ,オートマトン,False,False,True,False,threshold
+1372,A2QX81MMC8KN80,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,False,False,True,False,threshold
+1373,A2QX81MMC8KN80,backprop,バックプロパゲーション,バックプロップ,False,True,False,False,threshold
+1374,A2QX81MMC8KN80,blur kernel,ぼかしカーネル,ブラーカーネル,False,False,True,False,threshold
+1375,A13QHI6P2C910K,catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,False,False,True,False,threshold
+1376,A13QHI6P2C910K,computational argumentation,計算論的論証,計算的議論,True,False,False,False,threshold
+1377,A13QHI6P2C910K,context model,文脈モデル,コンテキストモデル,False,False,False,False,threshold
+1378,A13QHI6P2C910K,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+1379,A13QHI6P2C910K,contrastive approach,コントラストアプローチ,対照的アプローチ,False,True,False,False,threshold
+1380,AWGV35294HOYB,catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,False,False,True,False,threshold
+1381,AWGV35294HOYB,computational argumentation,計算論的論証,計算的議論,False,True,False,False,threshold
+1382,AWGV35294HOYB,context model,文脈モデル,コンテキストモデル,True,False,False,False,threshold
+1383,AWGV35294HOYB,contingency table,分割表,クロス集計表,True,False,False,False,threshold
+1384,AWGV35294HOYB,contrastive approach,コントラストアプローチ,対照的アプローチ,False,False,True,False,threshold
+1385,A186ORPGIU3WNL,catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,False,False,True,False,threshold
+1386,A186ORPGIU3WNL,computational argumentation,計算論的論証,計算的議論,True,False,False,False,threshold
+1387,A186ORPGIU3WNL,context model,文脈モデル,コンテキストモデル,True,False,False,False,threshold
+1388,A186ORPGIU3WNL,contingency table,分割表,クロス集計表,False,True,False,False,threshold
+1389,A186ORPGIU3WNL,contrastive approach,コントラストアプローチ,対照的アプローチ,False,False,True,False,threshold
+1390,A2MZEUP2ECO1AI,catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,False,False,True,False,threshold
+1391,A2MZEUP2ECO1AI,computational argumentation,計算論的論証,計算的議論,True,False,False,False,threshold
+1392,A2MZEUP2ECO1AI,context model,文脈モデル,コンテキストモデル,True,False,False,False,threshold
+1393,A2MZEUP2ECO1AI,contingency table,分割表,クロス集計表,False,False,True,False,threshold
+1394,A2MZEUP2ECO1AI,contrastive approach,コントラストアプローチ,対照的アプローチ,True,False,False,False,threshold
+1395,A2ML30H0T2HO1J,catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,False,True,False,False,threshold
+1396,A2ML30H0T2HO1J,computational argumentation,計算論的論証,計算的議論,False,False,False,True,threshold
+1397,A2ML30H0T2HO1J,context model,文脈モデル,コンテキストモデル,False,False,True,False,threshold
+1398,A2ML30H0T2HO1J,contingency table,分割表,クロス集計表,False,True,False,False,threshold
+1399,A2ML30H0T2HO1J,contrastive approach,コントラストアプローチ,対照的アプローチ,True,False,False,False,threshold
+1400,AC4I7XU10MQXK,copy mechanism,コピーメカニズム,コピー機構,True,False,False,False,threshold
+1401,AC4I7XU10MQXK,cosine decay,余弦減衰,コサイン減衰,True,False,False,False,threshold
+1402,AC4I7XU10MQXK,cost-sensitive learning,コスト感受性学習,コスト感度学習,False,True,False,False,threshold
+1403,AC4I7XU10MQXK,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,True,False,False,False,threshold
+1404,AC4I7XU10MQXK,distant supervision,遠隔指導,遠隔監視,False,False,False,True,threshold
+1405,AWGV35294HOYB,copy mechanism,コピーメカニズム,コピー機構,True,False,False,False,threshold
+1406,AWGV35294HOYB,cosine decay,余弦減衰,コサイン減衰,True,False,False,False,threshold
+1407,AWGV35294HOYB,cost-sensitive learning,コスト感受性学習,コスト感度学習,True,False,False,False,threshold
+1408,AWGV35294HOYB,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,True,False,False,False,threshold
+1409,AWGV35294HOYB,distant supervision,遠隔指導,遠隔監視,False,False,True,False,threshold
+1410,A11B7MUC7UTFKN,copy mechanism,コピーメカニズム,コピー機構,True,False,False,False,threshold
+1411,A11B7MUC7UTFKN,cosine decay,余弦減衰,コサイン減衰,True,False,False,False,threshold
+1412,A11B7MUC7UTFKN,cost-sensitive learning,コスト感受性学習,コスト感度学習,True,False,False,False,threshold
+1413,A11B7MUC7UTFKN,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,True,False,False,False,threshold
+1414,A11B7MUC7UTFKN,distant supervision,遠隔指導,遠隔監視,False,True,False,False,threshold
+1415,A42LJXMJ3CFRU,copy mechanism,コピーメカニズム,コピー機構,False,True,False,False,threshold
+1416,A42LJXMJ3CFRU,cosine decay,余弦減衰,コサイン減衰,False,False,False,True,threshold
+1417,A42LJXMJ3CFRU,cost-sensitive learning,コスト感受性学習,コスト感度学習,False,False,True,False,threshold
+1418,A42LJXMJ3CFRU,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,False,False,False,True,threshold
+1419,A42LJXMJ3CFRU,distant supervision,遠隔指導,遠隔監視,False,True,False,False,threshold
+1420,A2ML30H0T2HO1J,copy mechanism,コピーメカニズム,コピー機構,False,False,False,True,threshold
+1421,A2ML30H0T2HO1J,cosine decay,余弦減衰,コサイン減衰,False,True,False,False,threshold
+1422,A2ML30H0T2HO1J,cost-sensitive learning,コスト感受性学習,コスト感度学習,False,False,True,False,threshold
+1423,A2ML30H0T2HO1J,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,False,False,False,True,threshold
+1424,A2ML30H0T2HO1J,distant supervision,遠隔指導,遠隔監視,False,True,False,False,threshold
+1425,A11B7MUC7UTFKN,domain mismatch,ドメイン不一致,ドメインミスマッチ,False,False,True,False,threshold
+1426,A11B7MUC7UTFKN,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,True,False,False,False,threshold
+1427,A11B7MUC7UTFKN,early stopping,アーリーストッピング,早期停止,False,False,True,False,threshold
+1428,A11B7MUC7UTFKN,element-wise,要素ごとの,要素ごと,True,False,False,False,threshold
+1429,A11B7MUC7UTFKN,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+1430,A2D6SB3TU1NYQ7,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+1431,A2D6SB3TU1NYQ7,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,False,True,False,False,threshold
+1432,A2D6SB3TU1NYQ7,early stopping,アーリーストッピング,早期停止,False,False,True,False,threshold
+1433,A2D6SB3TU1NYQ7,element-wise,要素ごとの,要素ごと,True,False,False,False,threshold
+1434,A2D6SB3TU1NYQ7,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+1435,A2E2FFMXS9F9KR,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+1436,A2E2FFMXS9F9KR,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,True,False,False,False,threshold
+1437,A2E2FFMXS9F9KR,early stopping,アーリーストッピング,早期停止,False,False,True,False,threshold
+1438,A2E2FFMXS9F9KR,element-wise,要素ごとの,要素ごと,False,True,False,False,threshold
+1439,A2E2FFMXS9F9KR,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+1440,A2ML30H0T2HO1J,domain mismatch,ドメイン不一致,ドメインミスマッチ,False,True,False,False,threshold
+1441,A2ML30H0T2HO1J,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,False,False,False,True,threshold
+1442,A2ML30H0T2HO1J,early stopping,アーリーストッピング,早期停止,True,False,False,False,threshold
+1443,A2ML30H0T2HO1J,element-wise,要素ごとの,要素ごと,False,True,False,False,threshold
+1444,A2ML30H0T2HO1J,error tolerance,誤差許容度,誤差許容,False,False,True,False,threshold
+1445,A3I1OLOTCWCIET,domain mismatch,ドメイン不一致,ドメインミスマッチ,True,False,False,False,threshold
+1446,A3I1OLOTCWCIET,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,False,True,False,False,threshold
+1447,A3I1OLOTCWCIET,early stopping,アーリーストッピング,早期停止,False,False,True,False,threshold
+1448,A3I1OLOTCWCIET,element-wise,要素ごとの,要素ごと,True,False,False,False,threshold
+1449,A3I1OLOTCWCIET,error tolerance,誤差許容度,誤差許容,True,False,False,False,threshold
+1450,A2H09EMKJHK5XT,graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,True,False,False,False,threshold
+1451,A2H09EMKJHK5XT,grid cell,グリッドセル,グリッド細胞,False,True,False,False,threshold
+1452,A2H09EMKJHK5XT,landmark point,ランドマーク点,ランドマークポイント,False,True,False,False,threshold
+1453,A2H09EMKJHK5XT,max-product semiring,マックス積半環,最大積半環,False,False,True,False,threshold
+1454,A2H09EMKJHK5XT,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+1455,A3I1OLOTCWCIET,graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,True,False,False,False,threshold
+1456,A3I1OLOTCWCIET,grid cell,グリッドセル,グリッド細胞,False,True,False,False,threshold
+1457,A3I1OLOTCWCIET,landmark point,ランドマーク点,ランドマークポイント,False,True,False,False,threshold
+1458,A3I1OLOTCWCIET,max-product semiring,マックス積半環,最大積半環,True,False,False,False,threshold
+1459,A3I1OLOTCWCIET,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+1460,A30IGMGSC7G2HM,graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,False,False,True,False,threshold
+1461,A30IGMGSC7G2HM,grid cell,グリッドセル,グリッド細胞,True,False,False,False,threshold
+1462,A30IGMGSC7G2HM,landmark point,ランドマーク点,ランドマークポイント,True,False,False,False,threshold
+1463,A30IGMGSC7G2HM,max-product semiring,マックス積半環,最大積半環,True,False,False,False,threshold
+1464,A30IGMGSC7G2HM,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+1465,A3MDTRJTDIDNX,graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,True,False,False,False,threshold
+1466,A3MDTRJTDIDNX,grid cell,グリッドセル,グリッド細胞,False,False,True,False,threshold
+1467,A3MDTRJTDIDNX,landmark point,ランドマーク点,ランドマークポイント,True,False,False,False,threshold
+1468,A3MDTRJTDIDNX,max-product semiring,マックス積半環,最大積半環,True,False,False,False,threshold
+1469,A3MDTRJTDIDNX,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+1470,A2P8U65V6NL7B5,graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,False,False,True,False,threshold
+1471,A2P8U65V6NL7B5,grid cell,グリッドセル,グリッド細胞,True,False,False,False,threshold
+1472,A2P8U65V6NL7B5,landmark point,ランドマーク点,ランドマークポイント,True,False,False,False,threshold
+1473,A2P8U65V6NL7B5,max-product semiring,マックス積半環,最大積半環,True,False,False,False,threshold
+1474,A2P8U65V6NL7B5,maximum likelihood estimate,最尤推定値,最尤推定,True,False,False,False,threshold
+1475,ASML73P0NOOVV,model M,モデルM,モデル M,True,False,False,False,threshold
+1476,ASML73P0NOOVV,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1477,ASML73P0NOOVV,parallel corpora,パラレルコーパス,並列コーパス,True,False,False,False,threshold
+1478,ASML73P0NOOVV,parameterized model,パラメータ化されたモデル,パラメータ化モデル,True,False,False,False,threshold
+1479,ASML73P0NOOVV,paraphrase,言い換え,パラフレーズ,True,False,False,False,threshold
+1480,A35H5DUMZH86PC,model M,モデルM,モデル M,True,False,False,False,threshold
+1481,A35H5DUMZH86PC,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1482,A35H5DUMZH86PC,parallel corpora,パラレルコーパス,並列コーパス,True,False,False,False,threshold
+1483,A35H5DUMZH86PC,parameterized model,パラメータ化されたモデル,パラメータ化モデル,True,False,False,False,threshold
+1484,A35H5DUMZH86PC,paraphrase,言い換え,パラフレーズ,True,False,False,False,threshold
+1485,A186ORPGIU3WNL,model M,モデルM,モデル M,True,False,False,False,threshold
+1486,A186ORPGIU3WNL,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1487,A186ORPGIU3WNL,parallel corpora,パラレルコーパス,並列コーパス,True,False,False,False,threshold
+1488,A186ORPGIU3WNL,parameterized model,パラメータ化されたモデル,パラメータ化モデル,False,True,False,False,threshold
+1489,A186ORPGIU3WNL,paraphrase,言い換え,パラフレーズ,True,False,False,False,threshold
+1490,A30IGMGSC7G2HM,model M,モデルM,モデル M,True,False,False,False,threshold
+1491,A30IGMGSC7G2HM,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,True,False,False,threshold
+1492,A30IGMGSC7G2HM,parallel corpora,パラレルコーパス,並列コーパス,True,False,False,False,threshold
+1493,A30IGMGSC7G2HM,parameterized model,パラメータ化されたモデル,パラメータ化モデル,True,False,False,False,threshold
+1494,A30IGMGSC7G2HM,paraphrase,言い換え,パラフレーズ,True,False,False,False,threshold
+1495,A2ML30H0T2HO1J,model M,モデルM,モデル M,False,True,False,False,threshold
+1496,A2ML30H0T2HO1J,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,False,False,False,True,threshold
+1497,A2ML30H0T2HO1J,parallel corpora,パラレルコーパス,並列コーパス,False,False,True,False,threshold
+1498,A2ML30H0T2HO1J,parameterized model,パラメータ化されたモデル,パラメータ化モデル,False,True,False,False,threshold
+1499,A2ML30H0T2HO1J,paraphrase,言い換え,パラフレーズ,True,False,False,False,threshold
+1500,A3Q32FL0WWF4KZ,privacy budget,プライバシー予算,プライバシーバジェット,True,False,False,False,threshold
+1501,A3Q32FL0WWF4KZ,readout function,リードアウト関数,読み出し関数,True,False,False,False,threshold
+1502,A3Q32FL0WWF4KZ,sample-efficient,サンプル効率的,標本効率的,False,True,False,False,threshold
+1503,A3Q32FL0WWF4KZ,semantic vector,セマンティックベクトル,意味ベクトル,True,False,False,False,threshold
+1504,A3Q32FL0WWF4KZ,spatial domain,空間ドメイン,空間領域,True,False,False,False,threshold
+1505,A19I2ZK220NTAE,privacy budget,プライバシー予算,プライバシーバジェット,True,False,False,False,threshold
+1506,A19I2ZK220NTAE,readout function,リードアウト関数,読み出し関数,True,False,False,False,threshold
+1507,A19I2ZK220NTAE,sample-efficient,サンプル効率的,標本効率的,True,False,False,False,threshold
+1508,A19I2ZK220NTAE,semantic vector,セマンティックベクトル,意味ベクトル,True,False,False,False,threshold
+1509,A19I2ZK220NTAE,spatial domain,空間ドメイン,空間領域,True,False,False,False,threshold
+1510,A3HSZ9YLOBCCPR,privacy budget,プライバシー予算,プライバシーバジェット,True,False,False,False,threshold
+1511,A3HSZ9YLOBCCPR,readout function,リードアウト関数,読み出し関数,False,True,False,False,threshold
+1512,A3HSZ9YLOBCCPR,sample-efficient,サンプル効率的,標本効率的,True,False,False,False,threshold
+1513,A3HSZ9YLOBCCPR,semantic vector,セマンティックベクトル,意味ベクトル,True,False,False,False,threshold
+1514,A3HSZ9YLOBCCPR,spatial domain,空間ドメイン,空間領域,True,False,False,False,threshold
+1515,AWGV35294HOYB,privacy budget,プライバシー予算,プライバシーバジェット,False,True,False,False,threshold
+1516,AWGV35294HOYB,readout function,リードアウト関数,読み出し関数,True,False,False,False,threshold
+1517,AWGV35294HOYB,sample-efficient,サンプル効率的,標本効率的,True,False,False,False,threshold
+1518,AWGV35294HOYB,semantic vector,セマンティックベクトル,意味ベクトル,True,False,False,False,threshold
+1519,AWGV35294HOYB,spatial domain,空間ドメイン,空間領域,True,False,False,False,threshold
+1520,A2ML30H0T2HO1J,privacy budget,プライバシー予算,プライバシーバジェット,True,False,False,False,threshold
+1521,A2ML30H0T2HO1J,readout function,リードアウト関数,読み出し関数,False,False,True,False,threshold
+1522,A2ML30H0T2HO1J,sample-efficient,サンプル効率的,標本効率的,False,False,False,True,threshold
+1523,A2ML30H0T2HO1J,semantic vector,セマンティックベクトル,意味ベクトル,False,False,True,False,threshold
+1524,A2ML30H0T2HO1J,spatial domain,空間ドメイン,空間領域,False,True,False,False,threshold
+1525,A2ML30H0T2HO1J,support,支持度,サポート,False,False,True,False,threshold
+1526,A2ML30H0T2HO1J,type embedding,型埋め込み,タイプ埋め込み,True,False,False,False,threshold
+1527,A2ML30H0T2HO1J,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,False,False,False,False,threshold
+1528,A2ML30H0T2HO1J,value iteration,値反復法,価値反復,False,False,True,False,threshold
+1529,A2ML30H0T2HO1J,-,-,-,False,False,False,True,-
+1530,A13QHI6P2C910K,support,支持度,サポート,True,False,False,False,threshold
+1531,A13QHI6P2C910K,type embedding,型埋め込み,タイプ埋め込み,True,False,False,False,threshold
+1532,A13QHI6P2C910K,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,False,False,True,False,threshold
+1533,A13QHI6P2C910K,value iteration,値反復法,価値反復,False,True,False,False,threshold
+1534,A13QHI6P2C910K,-,-,-,True,False,False,False,-
+1535,A19I2ZK220NTAE,support,支持度,サポート,True,False,False,False,threshold
+1536,A19I2ZK220NTAE,type embedding,型埋め込み,タイプ埋め込み,True,False,False,False,threshold
+1537,A19I2ZK220NTAE,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,False,True,False,False,threshold
+1538,A19I2ZK220NTAE,value iteration,値反復法,価値反復,False,True,False,False,threshold
+1539,A19I2ZK220NTAE,-,-,-,True,False,False,False,-
+1540,A2O4PW85X1GQA1,support,支持度,サポート,False,False,True,False,threshold
+1541,A2O4PW85X1GQA1,type embedding,型埋め込み,タイプ埋め込み,True,False,False,False,threshold
+1542,A2O4PW85X1GQA1,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,True,False,False,False,threshold
+1543,A2O4PW85X1GQA1,value iteration,値反復法,価値反復,True,False,False,False,threshold
+1544,A2O4PW85X1GQA1,-,-,-,True,False,False,False,-
+1545,A37HUVGB6ZT2ET,support,支持度,サポート,False,False,True,False,threshold
+1546,A37HUVGB6ZT2ET,type embedding,型埋め込み,タイプ埋め込み,False,False,True,False,threshold
+1547,A37HUVGB6ZT2ET,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,False,False,True,False,threshold
+1548,A37HUVGB6ZT2ET,value iteration,値反復法,価値反復,False,False,False,True,threshold
+1549,A37HUVGB6ZT2ET,-,-,-,False,True,False,False,-

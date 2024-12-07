@@ -93,6 +93,27 @@ python3 eval_on_6060_gold.py --in_file /home/jiaruil5/multilingual/multilingual-
 python3 eval_on_6060_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_gpt4omini_prompt_gpt4omini.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_gpt4omini_prompt_gpt4omini.csv
 
 
+# Hard replacement
+
+## eval gold 6060
+python3 eval_on_6060_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_seamless_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_seamless_hard_replace.csv
+
+python3 eval_on_6060_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_nllb_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_nllb_hard_replace.csv
+
+python3 eval_on_6060_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_gpt4omini_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_gpt4omini_hard_replace.csv
+
+## eval comet 6060
+python3 eval_on_6060_comet_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_seamless_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_seamless_hard_replace_comet.csv
+
+python3 eval_on_6060_comet_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_nllb_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_nllb_hard_replace_comet.csv
+
+python3 eval_on_6060_comet_gold.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_gpt4omini_hard_replace.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/eval/gold_predictions_dev_gpt4omini_hard_replace_comet.csv
+
+## eval model card
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh seamless_hard_replace
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh nllb_hard_replace
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh gpt4omini_hard_replace
+
 # explanable comet model: Unbabel/XCOMET-XL
 # python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_xcomet_xl.json --model_id Unbabel/XCOMET-XL
 # python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_xcomet_xl.json --model_id Unbabel/XCOMET-XL

@@ -1,0 +1,1601 @@
+,WorkerId,en_word,anno1_word,anno2_word,Answer.A,Answer.B,Answer.C,Answer.D,source
+0,A27705JMG5A29P,decoder,декодер,дешифратор,False,False,True,False,6060
+1,A27705JMG5A29P,classifying,классификация,Классификации,False,True,False,False,6060
+2,A27705JMG5A29P,AI,ИИ,AI,True,False,False,False,6060
+3,A27705JMG5A29P,NLP,обработка естественного языка,NLP,False,True,False,False,6060
+4,A27705JMG5A29P,spans,фрагменты,пяди,True,False,False,False,6060
+5,A2D6SB3TU1NYQ7,decoder,декодер,дешифратор,True,False,False,False,6060
+6,A2D6SB3TU1NYQ7,classifying,классификация,Классификации,False,False,False,True,6060
+7,A2D6SB3TU1NYQ7,AI,ИИ,AI,False,True,False,False,6060
+8,A2D6SB3TU1NYQ7,NLP,обработка естественного языка,NLP,False,True,False,False,6060
+9,A2D6SB3TU1NYQ7,spans,фрагменты,пяди,False,False,False,True,6060
+10,A1L8EGJ85A7DZR,decoder,декодер,дешифратор,True,False,False,False,6060
+11,A1L8EGJ85A7DZR,classifying,классификация,Классификации,False,True,False,False,6060
+12,A1L8EGJ85A7DZR,AI,ИИ,AI,True,False,False,False,6060
+13,A1L8EGJ85A7DZR,NLP,обработка естественного языка,NLP,False,True,False,False,6060
+14,A1L8EGJ85A7DZR,spans,фрагменты,пяди,False,True,False,False,6060
+15,A186ORPGIU3WNL,decoder,декодер,дешифратор,True,False,False,False,6060
+16,A186ORPGIU3WNL,classifying,классификация,Классификации,False,True,False,False,6060
+17,A186ORPGIU3WNL,AI,ИИ,AI,True,False,False,False,6060
+18,A186ORPGIU3WNL,NLP,обработка естественного языка,NLP,False,True,False,False,6060
+19,A186ORPGIU3WNL,spans,фрагменты,пяди,True,False,False,False,6060
+20,A1U6UPXOFCXR24,decoder,декодер,дешифратор,True,False,False,False,6060
+21,A1U6UPXOFCXR24,classifying,классификация,Классификации,False,False,False,True,6060
+22,A1U6UPXOFCXR24,AI,ИИ,AI,True,False,False,False,6060
+23,A1U6UPXOFCXR24,NLP,обработка естественного языка,NLP,False,True,False,False,6060
+24,A1U6UPXOFCXR24,spans,фрагменты,пяди,False,True,False,False,6060
+25,A1KYZPQ0T7WECC,OOV,слово вне словаря,OOV,False,True,False,False,6060
+26,A1KYZPQ0T7WECC,PaLM,ПаЛМ,PaLM,True,False,False,False,6060
+27,A1KYZPQ0T7WECC,BERTs,BERT'ы,BERTs,True,False,False,False,6060
+28,A1KYZPQ0T7WECC,newswire,новостная лента,новостная лента новостей,False,True,False,False,6060
+29,A1KYZPQ0T7WECC,GLUE,КЛЕЙ,GLUE,False,True,False,False,6060
+30,A3OAFR48DADAOM,OOV,слово вне словаря,OOV,False,True,False,False,6060
+31,A3OAFR48DADAOM,PaLM,ПаЛМ,PaLM,True,False,False,False,6060
+32,A3OAFR48DADAOM,BERTs,BERT'ы,BERTs,True,False,False,False,6060
+33,A3OAFR48DADAOM,newswire,новостная лента,новостная лента новостей,False,True,False,False,6060
+34,A3OAFR48DADAOM,GLUE,КЛЕЙ,GLUE,True,False,False,False,6060
+35,A9M8N3BOH6013,OOV,слово вне словаря,OOV,False,True,False,False,6060
+36,A9M8N3BOH6013,PaLM,ПаЛМ,PaLM,True,False,False,False,6060
+37,A9M8N3BOH6013,BERTs,BERT'ы,BERTs,True,False,False,False,6060
+38,A9M8N3BOH6013,newswire,новостная лента,новостная лента новостей,False,True,False,False,6060
+39,A9M8N3BOH6013,GLUE,КЛЕЙ,GLUE,True,False,False,False,6060
+40,A3HSZ9YLOBCCPR,OOV,слово вне словаря,OOV,False,True,False,False,6060
+41,A3HSZ9YLOBCCPR,PaLM,ПаЛМ,PaLM,False,True,False,False,6060
+42,A3HSZ9YLOBCCPR,BERTs,BERT'ы,BERTs,True,False,False,False,6060
+43,A3HSZ9YLOBCCPR,newswire,новостная лента,новостная лента новостей,False,True,False,False,6060
+44,A3HSZ9YLOBCCPR,GLUE,КЛЕЙ,GLUE,True,False,False,False,6060
+45,A360EMC8G3DNEZ,OOV,слово вне словаря,OOV,False,True,False,False,6060
+46,A360EMC8G3DNEZ,PaLM,ПаЛМ,PaLM,False,False,True,False,6060
+47,A360EMC8G3DNEZ,BERTs,BERT'ы,BERTs,False,True,False,False,6060
+48,A360EMC8G3DNEZ,newswire,новостная лента,новостная лента новостей,False,False,True,False,6060
+49,A360EMC8G3DNEZ,GLUE,КЛЕЙ,GLUE,False,True,False,False,6060
+50,A19I2ZK220NTAE,written,написанный,письменный,False,True,False,False,6060
+51,A19I2ZK220NTAE,Furthermore,Более того,Кроме того,True,False,False,False,6060
+52,A19I2ZK220NTAE,features,признаки,Функции,False,True,False,False,6060
+53,A19I2ZK220NTAE,search,поиск,искать,True,False,False,False,6060
+54,A19I2ZK220NTAE,entities,сущности,Объекты,True,False,False,False,6060
+55,A1L8EGJ85A7DZR,written,написанный,письменный,False,True,False,False,6060
+56,A1L8EGJ85A7DZR,Furthermore,Более того,Кроме того,True,False,False,False,6060
+57,A1L8EGJ85A7DZR,features,признаки,Функции,False,True,False,False,6060
+58,A1L8EGJ85A7DZR,search,поиск,искать,True,False,False,False,6060
+59,A1L8EGJ85A7DZR,entities,сущности,Объекты,True,False,False,False,6060
+60,A2GJB7TBZM91Z4,written,написанный,письменный,False,True,False,False,6060
+61,A2GJB7TBZM91Z4,Furthermore,Более того,Кроме того,True,False,False,False,6060
+62,A2GJB7TBZM91Z4,features,признаки,Функции,False,True,False,False,6060
+63,A2GJB7TBZM91Z4,search,поиск,искать,False,True,False,False,6060
+64,A2GJB7TBZM91Z4,entities,сущности,Объекты,True,False,False,False,6060
+65,AWGV35294HOYB,written,написанный,письменный,False,True,False,False,6060
+66,AWGV35294HOYB,Furthermore,Более того,Кроме того,True,False,False,False,6060
+67,AWGV35294HOYB,features,признаки,Функции,False,True,False,False,6060
+68,AWGV35294HOYB,search,поиск,искать,True,False,False,False,6060
+69,AWGV35294HOYB,entities,сущности,Объекты,True,False,False,False,6060
+70,AC4I7XU10MQXK,written,написанный,письменный,False,True,False,False,6060
+71,AC4I7XU10MQXK,Furthermore,Более того,Кроме того,True,False,False,False,6060
+72,AC4I7XU10MQXK,features,признаки,Функции,False,True,False,False,6060
+73,AC4I7XU10MQXK,search,поиск,искать,True,False,False,False,6060
+74,AC4I7XU10MQXK,entities,сущности,Объекты,True,False,False,False,6060
+75,A2MZEUP2ECO1AI,grounding,привязка к контексту,обоснование,False,True,False,False,6060
+76,A2MZEUP2ECO1AI,pretrained,предобученный,предварительно обученный,True,False,False,False,6060
+77,A2MZEUP2ECO1AI,graph,граф,диаграммa,False,True,False,False,6060
+78,A2MZEUP2ECO1AI,subword,подслово,подсловие,False,False,False,True,6060
+79,A2MZEUP2ECO1AI,extractive,извлекательный,экстрактивное,False,False,False,True,6060
+80,A13QHI6P2C910K,grounding,привязка к контексту,обоснование,False,True,False,False,6060
+81,A13QHI6P2C910K,pretrained,предобученный,предварительно обученный,True,False,False,False,6060
+82,A13QHI6P2C910K,graph,граф,диаграммa,False,True,False,False,6060
+83,A13QHI6P2C910K,subword,подслово,подсловие,True,False,False,False,6060
+84,A13QHI6P2C910K,extractive,извлекательный,экстрактивное,False,False,False,True,6060
+85,A3AHE81HVRXFCD,grounding,привязка к контексту,обоснование,False,True,False,False,6060
+86,A3AHE81HVRXFCD,pretrained,предобученный,предварительно обученный,True,False,False,False,6060
+87,A3AHE81HVRXFCD,graph,граф,диаграммa,False,True,False,False,6060
+88,A3AHE81HVRXFCD,subword,подслово,подсловие,False,False,False,True,6060
+89,A3AHE81HVRXFCD,extractive,извлекательный,экстрактивное,False,False,False,True,6060
+90,A2YVLMI4PRDECY,grounding,привязка к контексту,обоснование,False,True,False,False,6060
+91,A2YVLMI4PRDECY,pretrained,предобученный,предварительно обученный,True,False,False,False,6060
+92,A2YVLMI4PRDECY,graph,граф,диаграммa,False,True,False,False,6060
+93,A2YVLMI4PRDECY,subword,подслово,подсловие,False,False,False,True,6060
+94,A2YVLMI4PRDECY,extractive,извлекательный,экстрактивное,False,False,False,True,6060
+95,A3TIEPB7AC1R0L,grounding,привязка к контексту,обоснование,False,True,False,False,6060
+96,A3TIEPB7AC1R0L,pretrained,предобученный,предварительно обученный,True,False,False,False,6060
+97,A3TIEPB7AC1R0L,graph,граф,диаграммa,False,True,False,False,6060
+98,A3TIEPB7AC1R0L,subword,подслово,подсловие,False,False,False,True,6060
+99,A3TIEPB7AC1R0L,extractive,извлекательный,экстрактивное,True,False,False,False,6060
+100,A16D21BZSXJOUB,domains,области,Домены,False,False,True,False,6060
+101,A16D21BZSXJOUB,compared,по сравнению,Сравнительный,False,True,False,False,6060
+102,A16D21BZSXJOUB,Moreover,Более того,Сверх того,False,True,False,False,6060
+103,A16D21BZSXJOUB,paper,статья,бумага,False,True,False,False,6060
+104,A16D21BZSXJOUB,binary,бинарный,двоичный,True,False,False,False,6060
+105,A2P8U65V6NL7B5,domains,области,Домены,False,False,True,False,6060
+106,A2P8U65V6NL7B5,compared,по сравнению,Сравнительный,False,True,False,False,6060
+107,A2P8U65V6NL7B5,Moreover,Более того,Сверх того,False,True,False,False,6060
+108,A2P8U65V6NL7B5,paper,статья,бумага,False,True,False,False,6060
+109,A2P8U65V6NL7B5,binary,бинарный,двоичный,True,False,False,False,6060
+110,A39PWDRYNY2WM0,domains,области,Домены,True,False,False,False,6060
+111,A39PWDRYNY2WM0,compared,по сравнению,Сравнительный,False,True,False,False,6060
+112,A39PWDRYNY2WM0,Moreover,Более того,Сверх того,False,True,False,False,6060
+113,A39PWDRYNY2WM0,paper,статья,бумага,False,True,False,False,6060
+114,A39PWDRYNY2WM0,binary,бинарный,двоичный,True,False,False,False,6060
+115,A3Q32FL0WWF4KZ,domains,области,Домены,True,False,False,False,6060
+116,A3Q32FL0WWF4KZ,compared,по сравнению,Сравнительный,False,True,False,False,6060
+117,A3Q32FL0WWF4KZ,Moreover,Более того,Сверх того,False,True,False,False,6060
+118,A3Q32FL0WWF4KZ,paper,статья,бумага,False,True,False,False,6060
+119,A3Q32FL0WWF4KZ,binary,бинарный,двоичный,True,False,False,False,6060
+120,A1U6UPXOFCXR24,domains,области,Домены,True,False,False,False,6060
+121,A1U6UPXOFCXR24,compared,по сравнению,Сравнительный,False,True,False,False,6060
+122,A1U6UPXOFCXR24,Moreover,Более того,Сверх того,False,True,False,False,6060
+123,A1U6UPXOFCXR24,paper,статья,бумага,False,True,False,False,6060
+124,A1U6UPXOFCXR24,binary,бинарный,двоичный,True,False,False,False,6060
+125,A3R5K7A8US5PDE,FLR,метрика FLR,FLR,False,True,False,False,6060
+126,A3R5K7A8US5PDE,generalize,обобщать,обобщить,False,True,False,False,6060
+127,A3R5K7A8US5PDE,assessing,оценка,проведение оценки,False,False,False,True,6060
+128,A3R5K7A8US5PDE,named,именованный,названный,False,True,False,False,6060
+129,A3R5K7A8US5PDE,social,социальный,общественный,False,False,True,False,6060
+130,A3DXRQLMYGDOFF,FLR,метрика FLR,FLR,False,False,True,False,6060
+131,A3DXRQLMYGDOFF,generalize,обобщать,обобщить,False,False,False,True,6060
+132,A3DXRQLMYGDOFF,assessing,оценка,проведение оценки,False,True,False,False,6060
+133,A3DXRQLMYGDOFF,named,именованный,названный,True,False,False,False,6060
+134,A3DXRQLMYGDOFF,social,социальный,общественный,True,False,False,False,6060
+135,A3Q32FL0WWF4KZ,FLR,метрика FLR,FLR,True,False,False,False,6060
+136,A3Q32FL0WWF4KZ,generalize,обобщать,обобщить,False,True,False,False,6060
+137,A3Q32FL0WWF4KZ,assessing,оценка,проведение оценки,True,False,False,False,6060
+138,A3Q32FL0WWF4KZ,named,именованный,названный,True,False,False,False,6060
+139,A3Q32FL0WWF4KZ,social,социальный,общественный,True,False,False,False,6060
+140,A13QHI6P2C910K,FLR,метрика FLR,FLR,True,False,False,False,6060
+141,A13QHI6P2C910K,generalize,обобщать,обобщить,False,True,False,False,6060
+142,A13QHI6P2C910K,assessing,оценка,проведение оценки,False,True,False,False,6060
+143,A13QHI6P2C910K,named,именованный,названный,True,False,False,False,6060
+144,A13QHI6P2C910K,social,социальный,общественный,True,False,False,False,6060
+145,A26FAIG4EODBI2,FLR,метрика FLR,FLR,False,True,False,False,6060
+146,A26FAIG4EODBI2,generalize,обобщать,обобщить,False,False,True,False,6060
+147,A26FAIG4EODBI2,assessing,оценка,проведение оценки,False,False,False,False,6060
+148,A26FAIG4EODBI2,named,именованный,названный,False,False,False,False,6060
+149,A26FAIG4EODBI2,social,социальный,общественный,True,False,False,False,6060
+150,A2P8U65V6NL7B5,pretraining,предобучение,предварительная подготовка,False,True,False,False,6060
+151,A2P8U65V6NL7B5,tagging,тегирование,Маркировка,True,False,False,False,6060
+152,A2P8U65V6NL7B5,identifying,идентификация,Определение,False,True,False,False,6060
+153,A2P8U65V6NL7B5,downstream,для последующих задач,подчиненная,False,True,False,False,6060
+154,A2P8U65V6NL7B5,LinCE,ЛИНЦЕ,LinCE,True,False,False,False,6060
+155,A13QHI6P2C910K,pretraining,предобучение,предварительная подготовка,False,True,False,False,6060
+156,A13QHI6P2C910K,tagging,тегирование,Маркировка,True,False,False,False,6060
+157,A13QHI6P2C910K,identifying,идентификация,Определение,True,False,False,False,6060
+158,A13QHI6P2C910K,downstream,для последующих задач,подчиненная,False,True,False,False,6060
+159,A13QHI6P2C910K,LinCE,ЛИНЦЕ,LinCE,True,False,False,False,6060
+160,A38SYZRVLTMOFG,pretraining,предобучение,предварительная подготовка,False,True,False,False,6060
+161,A38SYZRVLTMOFG,tagging,тегирование,Маркировка,True,False,False,False,6060
+162,A38SYZRVLTMOFG,identifying,идентификация,Определение,False,True,False,False,6060
+163,A38SYZRVLTMOFG,downstream,для последующих задач,подчиненная,False,True,False,False,6060
+164,A38SYZRVLTMOFG,LinCE,ЛИНЦЕ,LinCE,True,False,False,False,6060
+165,A2O4PW85X1GQA1,pretraining,предобучение,предварительная подготовка,False,True,False,False,6060
+166,A2O4PW85X1GQA1,tagging,тегирование,Маркировка,True,False,False,False,6060
+167,A2O4PW85X1GQA1,identifying,идентификация,Определение,False,True,False,False,6060
+168,A2O4PW85X1GQA1,downstream,для последующих задач,подчиненная,False,True,False,False,6060
+169,A2O4PW85X1GQA1,LinCE,ЛИНЦЕ,LinCE,True,False,False,False,6060
+170,A1L8EGJ85A7DZR,pretraining,предобучение,предварительная подготовка,False,True,False,False,6060
+171,A1L8EGJ85A7DZR,tagging,тегирование,Маркировка,False,True,False,False,6060
+172,A1L8EGJ85A7DZR,identifying,идентификация,Определение,True,False,False,False,6060
+173,A1L8EGJ85A7DZR,downstream,для последующих задач,подчиненная,False,False,True,False,6060
+174,A1L8EGJ85A7DZR,LinCE,ЛИНЦЕ,LinCE,False,True,False,False,6060
+175,A1MW1UNSOFPB4F,outputs,результаты,Выходы,False,True,False,False,6060
+176,A1MW1UNSOFPB4F,transformers,трансформеры,преобразователи,False,False,True,False,6060
+177,A1MW1UNSOFPB4F,graphs,графы,диаграммы,False,True,False,False,6060
+178,A1MW1UNSOFPB4F,vectors,векторы,векторa,False,False,True,False,6060
+179,A1MW1UNSOFPB4F,counterfactual,контрфактический,Противного,False,False,True,False,6060
+180,A2D6SB3TU1NYQ7,outputs,результаты,Выходы,False,True,False,False,6060
+181,A2D6SB3TU1NYQ7,transformers,трансформеры,преобразователи,False,False,True,False,6060
+182,A2D6SB3TU1NYQ7,graphs,графы,диаграммы,False,True,False,False,6060
+183,A2D6SB3TU1NYQ7,vectors,векторы,векторa,False,True,False,False,6060
+184,A2D6SB3TU1NYQ7,counterfactual,контрфактический,Противного,True,False,False,False,6060
+185,A3HSZ9YLOBCCPR,outputs,результаты,Выходы,False,True,False,False,6060
+186,A3HSZ9YLOBCCPR,transformers,трансформеры,преобразователи,False,False,True,False,6060
+187,A3HSZ9YLOBCCPR,graphs,графы,диаграммы,True,False,False,False,6060
+188,A3HSZ9YLOBCCPR,vectors,векторы,векторa,False,True,False,False,6060
+189,A3HSZ9YLOBCCPR,counterfactual,контрфактический,Противного,False,True,False,False,6060
+190,A186ORPGIU3WNL,outputs,результаты,Выходы,True,False,False,False,6060
+191,A186ORPGIU3WNL,transformers,трансформеры,преобразователи,False,True,False,False,6060
+192,A186ORPGIU3WNL,graphs,графы,диаграммы,False,True,False,False,6060
+193,A186ORPGIU3WNL,vectors,векторы,векторa,False,True,False,False,6060
+194,A186ORPGIU3WNL,counterfactual,контрфактический,Противного,False,True,False,False,6060
+195,A35H5DUMZH86PC,outputs,результаты,Выходы,False,True,False,False,6060
+196,A35H5DUMZH86PC,transformers,трансформеры,преобразователи,False,True,False,False,6060
+197,A35H5DUMZH86PC,graphs,графы,диаграммы,False,True,False,False,6060
+198,A35H5DUMZH86PC,vectors,векторы,векторa,False,True,False,False,6060
+199,A35H5DUMZH86PC,counterfactual,контрфактический,Противного,False,True,False,False,6060
+200,A262LU000U93SA,augmented,дополненный,увеличенный,True,False,False,False,6060
+201,A262LU000U93SA,lexical,лексический,словарный ,True,False,False,False,6060
+202,A262LU000U93SA,re,ре,RE,False,False,False,False,6060
+203,A262LU000U93SA,transformer,трансформер,преобразователь ,True,False,False,False,6060
+204,A262LU000U93SA,embedding,встраивание,внедрение,True,False,False,False,6060
+205,A3TXIZFRTA02Z7,augmented,дополненный,увеличенный,False,False,True,False,6060
+206,A3TXIZFRTA02Z7,lexical,лексический,словарный ,False,True,False,False,6060
+207,A3TXIZFRTA02Z7,re,ре,RE,False,False,False,True,6060
+208,A3TXIZFRTA02Z7,transformer,трансформер,преобразователь ,True,False,False,False,6060
+209,A3TXIZFRTA02Z7,embedding,встраивание,внедрение,False,False,False,True,6060
+210,A3OAFR48DADAOM,augmented,дополненный,увеличенный,False,True,False,False,6060
+211,A3OAFR48DADAOM,lexical,лексический,словарный ,False,True,False,False,6060
+212,A3OAFR48DADAOM,re,ре,RE,False,False,False,True,6060
+213,A3OAFR48DADAOM,transformer,трансформер,преобразователь ,True,False,False,False,6060
+214,A3OAFR48DADAOM,embedding,встраивание,внедрение,False,True,False,False,6060
+215,A2E2FFMXS9F9KR,augmented,дополненный,увеличенный,False,True,False,False,6060
+216,A2E2FFMXS9F9KR,lexical,лексический,словарный ,True,False,False,False,6060
+217,A2E2FFMXS9F9KR,re,ре,RE,False,False,False,True,6060
+218,A2E2FFMXS9F9KR,transformer,трансформер,преобразователь ,False,True,False,False,6060
+219,A2E2FFMXS9F9KR,embedding,встраивание,внедрение,True,False,False,False,6060
+220,AC4I7XU10MQXK,augmented,дополненный,увеличенный,False,True,False,False,6060
+221,AC4I7XU10MQXK,lexical,лексический,словарный ,False,True,False,False,6060
+222,AC4I7XU10MQXK,re,ре,RE,False,False,False,True,6060
+223,AC4I7XU10MQXK,transformer,трансформер,преобразователь ,True,False,False,False,6060
+224,AC4I7XU10MQXK,embedding,встраивание,внедрение,False,True,False,False,6060
+225,A1MW1UNSOFPB4F,image,изображение,изображениe,False,True,False,False,6060
+226,A1MW1UNSOFPB4F,visual,визуальный,визуальный ,False,True,False,False,6060
+227,A1MW1UNSOFPB4F,multitask,многозадачный,Многозадачность,False,False,True,False,6060
+228,A1MW1UNSOFPB4F,compositionality,композициональность,композиционность,False,False,True,False,6060
+229,A1MW1UNSOFPB4F,summarizing,резюмирование,суммирующая,False,True,False,False,6060
+230,AC4I7XU10MQXK,image,изображение,изображениe,True,False,False,False,6060
+231,AC4I7XU10MQXK,visual,визуальный,визуальный ,True,False,False,False,6060
+232,AC4I7XU10MQXK,multitask,многозадачный,Многозадачность,False,True,False,False,6060
+233,AC4I7XU10MQXK,compositionality,композициональность,композиционность,False,True,False,False,6060
+234,AC4I7XU10MQXK,summarizing,резюмирование,суммирующая,False,False,False,True,6060
+235,A13QHI6P2C910K,image,изображение,изображениe,True,False,False,False,6060
+236,A13QHI6P2C910K,visual,визуальный,визуальный ,True,False,False,False,6060
+237,A13QHI6P2C910K,multitask,многозадачный,Многозадачность,False,True,False,False,6060
+238,A13QHI6P2C910K,compositionality,композициональность,композиционность,False,True,False,False,6060
+239,A13QHI6P2C910K,summarizing,резюмирование,суммирующая,False,True,False,False,6060
+240,A2YVLMI4PRDECY,image,изображение,изображениe,True,False,False,False,6060
+241,A2YVLMI4PRDECY,visual,визуальный,визуальный ,True,False,False,False,6060
+242,A2YVLMI4PRDECY,multitask,многозадачный,Многозадачность,False,True,False,False,6060
+243,A2YVLMI4PRDECY,compositionality,композициональность,композиционность,True,False,False,False,6060
+244,A2YVLMI4PRDECY,summarizing,резюмирование,суммирующая,False,False,True,False,6060
+245,A2D6SB3TU1NYQ7,image,изображение,изображениe,True,False,False,False,6060
+246,A2D6SB3TU1NYQ7,visual,визуальный,визуальный ,True,False,False,False,6060
+247,A2D6SB3TU1NYQ7,multitask,многозадачный,Многозадачность,False,True,False,False,6060
+248,A2D6SB3TU1NYQ7,compositionality,композициональность,композиционность,False,False,True,False,6060
+249,A2D6SB3TU1NYQ7,summarizing,резюмирование,суммирующая,False,True,False,False,6060
+250,A1MW1UNSOFPB4F,ARENA,АРЕНА,ARENA,False,True,False,False,6060
+251,A1MW1UNSOFPB4F,decoding,декодирование,расшифровка,False,False,True,False,6060
+252,A1MW1UNSOFPB4F,perplexity,перплексия,растерянность,False,False,True,False,6060
+253,A1MW1UNSOFPB4F,shared,общий,Совместный,False,True,False,False,6060
+254,A1MW1UNSOFPB4F,retrieved,извлечённый,полученный,False,True,False,False,6060
+255,A251BWQW2F81FT,ARENA,АРЕНА,ARENA,True,False,False,False,6060
+256,A251BWQW2F81FT,decoding,декодирование,расшифровка,True,False,False,False,6060
+257,A251BWQW2F81FT,perplexity,перплексия,растерянность,False,True,False,False,6060
+258,A251BWQW2F81FT,shared,общий,Совместный,True,False,False,False,6060
+259,A251BWQW2F81FT,retrieved,извлечённый,полученный,True,False,False,False,6060
+260,AS0K8SAHI5SQD,ARENA,АРЕНА,ARENA,True,False,False,False,6060
+261,AS0K8SAHI5SQD,decoding,декодирование,расшифровка,False,True,False,False,6060
+262,AS0K8SAHI5SQD,perplexity,перплексия,растерянность,True,False,False,False,6060
+263,AS0K8SAHI5SQD,shared,общий,Совместный,False,True,False,False,6060
+264,AS0K8SAHI5SQD,retrieved,извлечённый,полученный,True,False,False,False,6060
+265,A30IGMGSC7G2HM,ARENA,АРЕНА,ARENA,True,False,False,False,6060
+266,A30IGMGSC7G2HM,decoding,декодирование,расшифровка,True,False,False,False,6060
+267,A30IGMGSC7G2HM,perplexity,перплексия,растерянность,False,True,False,False,6060
+268,A30IGMGSC7G2HM,shared,общий,Совместный,True,False,False,False,6060
+269,A30IGMGSC7G2HM,retrieved,извлечённый,полученный,True,False,False,False,6060
+270,A1XD6THGBT1T9T,ARENA,АРЕНА,ARENA,True,False,False,False,6060
+271,A1XD6THGBT1T9T,decoding,декодирование,расшифровка,True,False,False,False,6060
+272,A1XD6THGBT1T9T,perplexity,перплексия,растерянность,False,True,False,False,6060
+273,A1XD6THGBT1T9T,shared,общий,Совместный,True,False,False,False,6060
+274,A1XD6THGBT1T9T,retrieved,извлечённый,полученный,True,False,False,False,6060
+275,A2E2FFMXS9F9KR,tokens,токены,Маркеры,True,False,False,False,6060
+276,A2E2FFMXS9F9KR,edit,редактирование,редактировать,False,True,False,False,6060
+277,A2E2FFMXS9F9KR,adversarial,адверсариальный,Состязательной,False,False,False,True,6060
+278,A2E2FFMXS9F9KR,contexts,контексты,содержания,False,True,False,False,6060
+279,A2E2FFMXS9F9KR,learning,обучение,учение,True,False,False,False,6060
+280,A3MDTRJTDIDNX,tokens,токены,Маркеры,True,False,False,False,6060
+281,A3MDTRJTDIDNX,edit,редактирование,редактировать,False,True,False,False,6060
+282,A3MDTRJTDIDNX,adversarial,адверсариальный,Состязательной,False,False,False,True,6060
+283,A3MDTRJTDIDNX,contexts,контексты,содержания,False,True,False,False,6060
+284,A3MDTRJTDIDNX,learning,обучение,учение,True,False,False,False,6060
+285,AQWQPE8JO0M04,tokens,токены,Маркеры,False,False,False,False,6060
+286,AQWQPE8JO0M04,edit,редактирование,редактировать,True,False,False,False,6060
+287,AQWQPE8JO0M04,adversarial,адверсариальный,Состязательной,False,False,False,False,6060
+288,AQWQPE8JO0M04,contexts,контексты,содержания,False,True,False,False,6060
+289,AQWQPE8JO0M04,learning,обучение,учение,False,False,True,False,6060
+290,A3AHE81HVRXFCD,tokens,токены,Маркеры,True,False,False,False,6060
+291,A3AHE81HVRXFCD,edit,редактирование,редактировать,False,True,False,False,6060
+292,A3AHE81HVRXFCD,adversarial,адверсариальный,Состязательной,False,False,False,True,6060
+293,A3AHE81HVRXFCD,contexts,контексты,содержания,False,True,False,False,6060
+294,A3AHE81HVRXFCD,learning,обучение,учение,False,True,False,False,6060
+295,A11B7MUC7UTFKN,tokens,токены,Маркеры,False,True,False,False,6060
+296,A11B7MUC7UTFKN,edit,редактирование,редактировать,False,True,False,False,6060
+297,A11B7MUC7UTFKN,adversarial,адверсариальный,Состязательной,False,True,False,False,6060
+298,A11B7MUC7UTFKN,contexts,контексты,содержания,False,True,False,False,6060
+299,A11B7MUC7UTFKN,learning,обучение,учение,False,True,False,False,6060
+300,A1MW1UNSOFPB4F,parallel,параллельно,параллельный,False,False,True,False,6060
+301,A1MW1UNSOFPB4F,extracted,извлеченный,извлекаемый,False,True,False,False,6060
+302,A1MW1UNSOFPB4F,modalities,модальности,Условия,False,False,True,False,6060
+303,A1MW1UNSOFPB4F,encoders,кодировщики,Кодеры,False,True,False,False,6060
+304,A1MW1UNSOFPB4F,coreference,кореференция,корреляция,True,False,False,False,6060
+305,A2MZEUP2ECO1AI,parallel,параллельно,параллельный,False,False,True,False,6060
+306,A2MZEUP2ECO1AI,extracted,извлеченный,извлекаемый,False,True,False,False,6060
+307,A2MZEUP2ECO1AI,modalities,модальности,Условия,False,True,False,False,6060
+308,A2MZEUP2ECO1AI,encoders,кодировщики,Кодеры,True,False,False,False,6060
+309,A2MZEUP2ECO1AI,coreference,кореференция,корреляция,False,False,False,True,6060
+310,A2D6SB3TU1NYQ7,parallel,параллельно,параллельный,False,False,True,False,6060
+311,A2D6SB3TU1NYQ7,extracted,извлеченный,извлекаемый,False,True,False,False,6060
+312,A2D6SB3TU1NYQ7,modalities,модальности,Условия,False,True,False,False,6060
+313,A2D6SB3TU1NYQ7,encoders,кодировщики,Кодеры,False,True,False,False,6060
+314,A2D6SB3TU1NYQ7,coreference,кореференция,корреляция,False,True,False,False,6060
+315,A2E2FFMXS9F9KR,parallel,параллельно,параллельный,False,False,True,False,6060
+316,A2E2FFMXS9F9KR,extracted,извлеченный,извлекаемый,False,True,False,False,6060
+317,A2E2FFMXS9F9KR,modalities,модальности,Условия,False,True,False,False,6060
+318,A2E2FFMXS9F9KR,encoders,кодировщики,Кодеры,True,False,False,False,6060
+319,A2E2FFMXS9F9KR,coreference,кореференция,корреляция,False,False,False,True,6060
+320,A38SYZRVLTMOFG,parallel,параллельно,параллельный,False,False,True,False,6060
+321,A38SYZRVLTMOFG,extracted,извлеченный,извлекаемый,False,True,False,False,6060
+322,A38SYZRVLTMOFG,modalities,модальности,Условия,True,False,False,False,6060
+323,A38SYZRVLTMOFG,encoders,кодировщики,Кодеры,True,False,False,False,6060
+324,A38SYZRVLTMOFG,coreference,кореференция,корреляция,True,False,False,False,6060
+325,A262LU000U93SA,monolingual,монолингвальный,одноязычный,True,False,False,False,6060
+326,A262LU000U93SA,generated,сгенерированный,созданный,False,False,False,False,6060
+327,A262LU000U93SA,baselines,базовые модели,базовых линий,False,False,False,False,6060
+328,A262LU000U93SA,parsing,разбор,парсинг,True,False,False,False,6060
+329,A262LU000U93SA,linguistics,лингвистика,языкознания,True,False,False,False,6060
+330,A3R5K7A8US5PDE,monolingual,монолингвальный,одноязычный,False,False,True,False,6060
+331,A3R5K7A8US5PDE,generated,сгенерированный,созданный,False,False,True,False,6060
+332,A3R5K7A8US5PDE,baselines,базовые модели,базовых линий,False,False,True,False,6060
+333,A3R5K7A8US5PDE,parsing,разбор,парсинг,False,False,False,True,6060
+334,A3R5K7A8US5PDE,linguistics,лингвистика,языкознания,False,True,False,False,6060
+335,A35H5DUMZH86PC,monolingual,монолингвальный,одноязычный,True,False,False,False,6060
+336,A35H5DUMZH86PC,generated,сгенерированный,созданный,False,True,False,False,6060
+337,A35H5DUMZH86PC,baselines,базовые модели,базовых линий,False,True,False,False,6060
+338,A35H5DUMZH86PC,parsing,разбор,парсинг,True,False,False,False,6060
+339,A35H5DUMZH86PC,linguistics,лингвистика,языкознания,True,False,False,False,6060
+340,A2YVLMI4PRDECY,monolingual,монолингвальный,одноязычный,False,False,True,False,6060
+341,A2YVLMI4PRDECY,generated,сгенерированный,созданный,True,False,False,False,6060
+342,A2YVLMI4PRDECY,baselines,базовые модели,базовых линий,False,True,False,False,6060
+343,A2YVLMI4PRDECY,parsing,разбор,парсинг,True,False,False,False,6060
+344,A2YVLMI4PRDECY,linguistics,лингвистика,языкознания,True,False,False,False,6060
+345,AFYRAQ7N9RBMN,monolingual,монолингвальный,одноязычный,True,False,False,False,6060
+346,AFYRAQ7N9RBMN,generated,сгенерированный,созданный,True,False,False,False,6060
+347,AFYRAQ7N9RBMN,baselines,базовые модели,базовых линий,False,True,False,False,6060
+348,AFYRAQ7N9RBMN,parsing,разбор,парсинг,True,False,False,False,6060
+349,AFYRAQ7N9RBMN,linguistics,лингвистика,языкознания,True,False,False,False,6060
+350,A2P8U65V6NL7B5,QA,QA,Контроль качества,False,False,True,False,6060
+351,A2P8U65V6NL7B5,finetuning,дообучение,тонкая настройка,True,False,False,False,6060
+352,A2P8U65V6NL7B5,text,текст,текст ,True,False,False,False,6060
+353,A2P8U65V6NL7B5,biases,смещения,Предубеждения,False,True,False,False,6060
+354,A2P8U65V6NL7B5,propose,предложить,предлагать,False,True,False,False,6060
+355,AWGV35294HOYB,QA,QA,Контроль качества,False,False,True,False,6060
+356,AWGV35294HOYB,finetuning,дообучение,тонкая настройка,True,False,False,False,6060
+357,AWGV35294HOYB,text,текст,текст ,True,False,False,False,6060
+358,AWGV35294HOYB,biases,смещения,Предубеждения,True,False,False,False,6060
+359,AWGV35294HOYB,propose,предложить,предлагать,False,True,False,False,6060
+360,A2E2FFMXS9F9KR,QA,QA,Контроль качества,False,False,True,False,6060
+361,A2E2FFMXS9F9KR,finetuning,дообучение,тонкая настройка,False,True,False,False,6060
+362,A2E2FFMXS9F9KR,text,текст,текст ,True,False,False,False,6060
+363,A2E2FFMXS9F9KR,biases,смещения,Предубеждения,False,False,True,False,6060
+364,A2E2FFMXS9F9KR,propose,предложить,предлагать,False,True,False,False,6060
+365,A2D6SB3TU1NYQ7,QA,QA,Контроль качества,False,False,True,False,6060
+366,A2D6SB3TU1NYQ7,finetuning,дообучение,тонкая настройка,True,False,False,False,6060
+367,A2D6SB3TU1NYQ7,text,текст,текст ,True,False,False,False,6060
+368,A2D6SB3TU1NYQ7,biases,смещения,Предубеждения,True,False,False,False,6060
+369,A2D6SB3TU1NYQ7,propose,предложить,предлагать,False,True,False,False,6060
+370,A2MZEUP2ECO1AI,QA,QA,Контроль качества,False,False,True,False,6060
+371,A2MZEUP2ECO1AI,finetuning,дообучение,тонкая настройка,True,False,False,False,6060
+372,A2MZEUP2ECO1AI,text,текст,текст ,True,False,False,False,6060
+373,A2MZEUP2ECO1AI,biases,смещения,Предубеждения,False,True,False,False,6060
+374,A2MZEUP2ECO1AI,propose,предложить,предлагать,False,True,False,False,6060
+375,A3MDTRJTDIDNX,linked,связанный,Связан,True,False,False,False,6060
+376,A3MDTRJTDIDNX,context,контекст,содержание,False,True,False,False,6060
+377,A3MDTRJTDIDNX,morphemes,морфемы,Морфем,True,False,False,False,6060
+378,A3MDTRJTDIDNX,neural,нейронный,Невральный,True,False,False,False,6060
+379,A3MDTRJTDIDNX,encoding,кодирование,кодировка,True,False,False,False,6060
+380,A2E2FFMXS9F9KR,linked,связанный,Связан,True,False,False,False,6060
+381,A2E2FFMXS9F9KR,context,контекст,содержание,False,True,False,False,6060
+382,A2E2FFMXS9F9KR,morphemes,морфемы,Морфем,True,False,False,False,6060
+383,A2E2FFMXS9F9KR,neural,нейронный,Невральный,True,False,False,False,6060
+384,A2E2FFMXS9F9KR,encoding,кодирование,кодировка,True,False,False,False,6060
+385,A35H5DUMZH86PC,linked,связанный,Связан,True,False,False,False,6060
+386,A35H5DUMZH86PC,context,контекст,содержание,False,True,False,False,6060
+387,A35H5DUMZH86PC,morphemes,морфемы,Морфем,False,True,False,False,6060
+388,A35H5DUMZH86PC,neural,нейронный,Невральный,True,False,False,False,6060
+389,A35H5DUMZH86PC,encoding,кодирование,кодировка,True,False,False,False,6060
+390,A3Q32FL0WWF4KZ,linked,связанный,Связан,True,False,False,False,6060
+391,A3Q32FL0WWF4KZ,context,контекст,содержание,False,True,False,False,6060
+392,A3Q32FL0WWF4KZ,morphemes,морфемы,Морфем,False,True,False,False,6060
+393,A3Q32FL0WWF4KZ,neural,нейронный,Невральный,True,False,False,False,6060
+394,A3Q32FL0WWF4KZ,encoding,кодирование,кодировка,True,False,False,False,6060
+395,A2O4PW85X1GQA1,linked,связанный,Связан,True,False,False,False,6060
+396,A2O4PW85X1GQA1,context,контекст,содержание,False,True,False,False,6060
+397,A2O4PW85X1GQA1,morphemes,морфемы,Морфем,True,False,False,False,6060
+398,A2O4PW85X1GQA1,neural,нейронный,Невральный,True,False,False,False,6060
+399,A2O4PW85X1GQA1,encoding,кодирование,кодировка,True,False,False,False,6060
+400,A2WPXOAESFQ5TS,methods,методы,методика,False,True,False,False,6060
+401,A2WPXOAESFQ5TS,namely,а именно,именно,False,True,False,False,6060
+402,A2WPXOAESFQ5TS,token,токен,жетон,False,True,False,False,6060
+403,A2WPXOAESFQ5TS,PubMed,PubMed,ПабМед,False,True,False,False,6060
+404,A2WPXOAESFQ5TS,labeled,размеченный,обозначеный,False,True,False,False,6060
+405,A2D6SB3TU1NYQ7,methods,методы,методика,True,False,False,False,6060
+406,A2D6SB3TU1NYQ7,namely,а именно,именно,True,False,False,False,6060
+407,A2D6SB3TU1NYQ7,token,токен,жетон,False,True,False,False,6060
+408,A2D6SB3TU1NYQ7,PubMed,PubMed,ПабМед,True,False,False,False,6060
+409,A2D6SB3TU1NYQ7,labeled,размеченный,обозначеный,False,True,False,False,6060
+410,A3MDTRJTDIDNX,methods,методы,методика,True,False,False,False,6060
+411,A3MDTRJTDIDNX,namely,а именно,именно,True,False,False,False,6060
+412,A3MDTRJTDIDNX,token,токен,жетон,False,True,False,False,6060
+413,A3MDTRJTDIDNX,PubMed,PubMed,ПабМед,True,False,False,False,6060
+414,A3MDTRJTDIDNX,labeled,размеченный,обозначеный,False,True,False,False,6060
+415,A13QHI6P2C910K,methods,методы,методика,True,False,False,False,6060
+416,A13QHI6P2C910K,namely,а именно,именно,True,False,False,False,6060
+417,A13QHI6P2C910K,token,токен,жетон,False,True,False,False,6060
+418,A13QHI6P2C910K,PubMed,PubMed,ПабМед,True,False,False,False,6060
+419,A13QHI6P2C910K,labeled,размеченный,обозначеный,False,True,False,False,6060
+420,AWGV35294HOYB,methods,методы,методика,False,True,False,False,6060
+421,AWGV35294HOYB,namely,а именно,именно,False,True,False,False,6060
+422,AWGV35294HOYB,token,токен,жетон,False,True,False,False,6060
+423,AWGV35294HOYB,PubMed,PubMed,ПабМед,True,False,False,False,6060
+424,AWGV35294HOYB,labeled,размеченный,обозначеный,False,True,False,False,6060
+425,A3MDTRJTDIDNX,heuristic,эвристика,эвристический,False,True,False,False,6060
+426,A3MDTRJTDIDNX,unsupervised,неконтролируемый,Безнадзорный,True,False,False,False,6060
+427,A3MDTRJTDIDNX,utterances,высказывания,Высказываний,False,True,False,False,6060
+428,A3MDTRJTDIDNX,1D convolution,1D свёртка,1D свертка,True,False,False,False,threshold
+429,A3MDTRJTDIDNX,2D convolution,2D свёртка,2D свертка,True,False,False,False,threshold
+430,AC4I7XU10MQXK,heuristic,эвристика,эвристический,False,True,False,False,6060
+431,AC4I7XU10MQXK,unsupervised,неконтролируемый,Безнадзорный,False,True,False,False,6060
+432,AC4I7XU10MQXK,utterances,высказывания,Высказываний,False,True,False,False,6060
+433,AC4I7XU10MQXK,1D convolution,1D свёртка,1D свертка,True,False,False,False,threshold
+434,AC4I7XU10MQXK,2D convolution,2D свёртка,2D свертка,True,False,False,False,threshold
+435,A2E2FFMXS9F9KR,heuristic,эвристика,эвристический,False,True,False,False,6060
+436,A2E2FFMXS9F9KR,unsupervised,неконтролируемый,Безнадзорный,True,False,False,False,6060
+437,A2E2FFMXS9F9KR,utterances,высказывания,Высказываний,False,True,False,False,6060
+438,A2E2FFMXS9F9KR,1D convolution,1D свёртка,1D свертка,True,False,False,False,threshold
+439,A2E2FFMXS9F9KR,2D convolution,2D свёртка,2D свертка,True,False,False,False,threshold
+440,A38SYZRVLTMOFG,heuristic,эвристика,эвристический,False,True,False,False,6060
+441,A38SYZRVLTMOFG,unsupervised,неконтролируемый,Безнадзорный,False,True,False,False,6060
+442,A38SYZRVLTMOFG,utterances,высказывания,Высказываний,False,True,False,False,6060
+443,A38SYZRVLTMOFG,1D convolution,1D свёртка,1D свертка,True,False,False,False,threshold
+444,A38SYZRVLTMOFG,2D convolution,2D свёртка,2D свертка,True,False,False,False,threshold
+445,A19I2ZK220NTAE,heuristic,эвристика,эвристический,True,False,False,False,6060
+446,A19I2ZK220NTAE,unsupervised,неконтролируемый,Безнадзорный,False,True,False,False,6060
+447,A19I2ZK220NTAE,utterances,высказывания,Высказываний,False,True,False,False,6060
+448,A19I2ZK220NTAE,1D convolution,1D свёртка,1D свертка,True,False,False,False,threshold
+449,A19I2ZK220NTAE,2D convolution,2D свёртка,2D свертка,True,False,False,False,threshold
+450,A1MW1UNSOFPB4F,3D convolutional network,3D свёрточная сеть,3D-сверточная сеть,False,True,False,False,threshold
+451,A1MW1UNSOFPB4F,3D point cloud,3D-облако точек,3D-точечное облако,False,True,False,False,threshold
+452,A1MW1UNSOFPB4F,A/B test,А/Б-тестирование,A/B тест,False,False,True,False,threshold
+453,A1MW1UNSOFPB4F,Ablation study,исследование с абляцией,исследование абляции,False,True,False,False,threshold
+454,A1MW1UNSOFPB4F,Adam optimizer,оптимизатор Адам,оптимизатор Adam,False,False,True,False,threshold
+455,A2D6SB3TU1NYQ7,3D convolutional network,3D свёрточная сеть,3D-сверточная сеть,True,False,False,False,threshold
+456,A2D6SB3TU1NYQ7,3D point cloud,3D-облако точек,3D-точечное облако,True,False,False,False,threshold
+457,A2D6SB3TU1NYQ7,A/B test,А/Б-тестирование,A/B тест,True,False,False,False,threshold
+458,A2D6SB3TU1NYQ7,Ablation study,исследование с абляцией,исследование абляции,True,False,False,False,threshold
+459,A2D6SB3TU1NYQ7,Adam optimizer,оптимизатор Адам,оптимизатор Adam,True,False,False,False,threshold
+460,A2E2FFMXS9F9KR,3D convolutional network,3D свёрточная сеть,3D-сверточная сеть,True,False,False,False,threshold
+461,A2E2FFMXS9F9KR,3D point cloud,3D-облако точек,3D-точечное облако,True,False,False,False,threshold
+462,A2E2FFMXS9F9KR,A/B test,А/Б-тестирование,A/B тест,True,False,False,False,threshold
+463,A2E2FFMXS9F9KR,Ablation study,исследование с абляцией,исследование абляции,False,False,True,False,threshold
+464,A2E2FFMXS9F9KR,Adam optimizer,оптимизатор Адам,оптимизатор Adam,True,False,False,False,threshold
+465,A30IGMGSC7G2HM,3D convolutional network,3D свёрточная сеть,3D-сверточная сеть,True,False,False,False,threshold
+466,A30IGMGSC7G2HM,3D point cloud,3D-облако точек,3D-точечное облако,True,False,False,False,threshold
+467,A30IGMGSC7G2HM,A/B test,А/Б-тестирование,A/B тест,True,False,False,False,threshold
+468,A30IGMGSC7G2HM,Ablation study,исследование с абляцией,исследование абляции,True,False,False,False,threshold
+469,A30IGMGSC7G2HM,Adam optimizer,оптимизатор Адам,оптимизатор Adam,False,True,False,False,threshold
+470,A39PWDRYNY2WM0,3D convolutional network,3D свёрточная сеть,3D-сверточная сеть,True,False,False,False,threshold
+471,A39PWDRYNY2WM0,3D point cloud,3D-облако точек,3D-точечное облако,True,False,False,False,threshold
+472,A39PWDRYNY2WM0,A/B test,А/Б-тестирование,A/B тест,True,False,False,False,threshold
+473,A39PWDRYNY2WM0,Ablation study,исследование с абляцией,исследование абляции,False,True,False,False,threshold
+474,A39PWDRYNY2WM0,Adam optimizer,оптимизатор Адам,оптимизатор Adam,True,False,False,False,threshold
+475,A3OAFR48DADAOM,Bonferroni correction,Поправка Бонферрони,коррекция Бонферрони,True,False,False,False,threshold
+476,A3OAFR48DADAOM,Chamfer Distance,Расстояние Чамфера,расстояние Шамфера,False,True,False,False,threshold
+477,A3OAFR48DADAOM,Corpora,Корпора,корпуса,False,False,True,False,threshold
+478,A3OAFR48DADAOM,Fourier feature,характеристика Фурье,Признак Фурье,False,False,True,False,threshold
+479,A3OAFR48DADAOM,Gaussian elimination,гауссово исключение,метод Гаусса,True,False,False,False,threshold
+480,A2E2FFMXS9F9KR,Bonferroni correction,Поправка Бонферрони,коррекция Бонферрони,True,False,False,False,threshold
+481,A2E2FFMXS9F9KR,Chamfer Distance,Расстояние Чамфера,расстояние Шамфера,False,True,False,False,threshold
+482,A2E2FFMXS9F9KR,Corpora,Корпора,корпуса,False,False,True,False,threshold
+483,A2E2FFMXS9F9KR,Fourier feature,характеристика Фурье,Признак Фурье,False,False,True,False,threshold
+484,A2E2FFMXS9F9KR,Gaussian elimination,гауссово исключение,метод Гаусса,True,False,False,False,threshold
+485,AC4I7XU10MQXK,Bonferroni correction,Поправка Бонферрони,коррекция Бонферрони,True,False,False,False,threshold
+486,AC4I7XU10MQXK,Chamfer Distance,Расстояние Чамфера,расстояние Шамфера,False,True,False,False,threshold
+487,AC4I7XU10MQXK,Corpora,Корпора,корпуса,False,False,True,False,threshold
+488,AC4I7XU10MQXK,Fourier feature,характеристика Фурье,Признак Фурье,False,False,True,False,threshold
+489,AC4I7XU10MQXK,Gaussian elimination,гауссово исключение,метод Гаусса,True,False,False,False,threshold
+490,A2P8U65V6NL7B5,Bonferroni correction,Поправка Бонферрони,коррекция Бонферрони,True,False,False,False,threshold
+491,A2P8U65V6NL7B5,Chamfer Distance,Расстояние Чамфера,расстояние Шамфера,False,True,False,False,threshold
+492,A2P8U65V6NL7B5,Corpora,Корпора,корпуса,False,False,True,False,threshold
+493,A2P8U65V6NL7B5,Fourier feature,характеристика Фурье,Признак Фурье,True,False,False,False,threshold
+494,A2P8U65V6NL7B5,Gaussian elimination,гауссово исключение,метод Гаусса,False,True,False,False,threshold
+495,AQWQPE8JO0M04,Bonferroni correction,Поправка Бонферрони,коррекция Бонферрони,True,False,False,False,threshold
+496,AQWQPE8JO0M04,Chamfer Distance,Расстояние Чамфера,расстояние Шамфера,False,True,False,False,threshold
+497,AQWQPE8JO0M04,Corpora,Корпора,корпуса,False,False,False,False,threshold
+498,AQWQPE8JO0M04,Fourier feature,характеристика Фурье,Признак Фурье,False,False,True,False,threshold
+499,AQWQPE8JO0M04,Gaussian elimination,гауссово исключение,метод Гаусса,True,False,False,False,threshold
+500,AC4I7XU10MQXK,Hessian-vector product,Произведение гессиана и вектора,произведение Гессе-вектор,False,True,False,False,threshold
+501,AC4I7XU10MQXK,Information Retrieval,Поиск информации,Извлечение информации,True,False,False,False,threshold
+502,AC4I7XU10MQXK,K-Means,метод K-средних,K-средних,True,False,False,False,threshold
+503,AC4I7XU10MQXK,Laplace smoothing,Сглаживание по Лапласу,сглаживание Лапласа,True,False,False,False,threshold
+504,AC4I7XU10MQXK,Laplace-Beltrami operator,оператор Лапласа—Бельтрами,оператор Лапласа-Бельтрамми,False,True,False,False,threshold
+505,A11B7MUC7UTFKN,Hessian-vector product,Произведение гессиана и вектора,произведение Гессе-вектор,False,True,False,False,threshold
+506,A11B7MUC7UTFKN,Information Retrieval,Поиск информации,Извлечение информации,True,False,False,False,threshold
+507,A11B7MUC7UTFKN,K-Means,метод K-средних,K-средних,True,False,False,False,threshold
+508,A11B7MUC7UTFKN,Laplace smoothing,Сглаживание по Лапласу,сглаживание Лапласа,True,False,False,False,threshold
+509,A11B7MUC7UTFKN,Laplace-Beltrami operator,оператор Лапласа—Бельтрами,оператор Лапласа-Бельтрамми,False,True,False,False,threshold
+510,A35H5DUMZH86PC,Hessian-vector product,Произведение гессиана и вектора,произведение Гессе-вектор,False,True,False,False,threshold
+511,A35H5DUMZH86PC,Information Retrieval,Поиск информации,Извлечение информации,True,False,False,False,threshold
+512,A35H5DUMZH86PC,K-Means,метод K-средних,K-средних,False,True,False,False,threshold
+513,A35H5DUMZH86PC,Laplace smoothing,Сглаживание по Лапласу,сглаживание Лапласа,False,True,False,False,threshold
+514,A35H5DUMZH86PC,Laplace-Beltrami operator,оператор Лапласа—Бельтрами,оператор Лапласа-Бельтрамми,False,True,False,False,threshold
+515,A11JXYZDAUX0UP,Hessian-vector product,Произведение гессиана и вектора,произведение Гессе-вектор,False,True,False,False,threshold
+516,A11JXYZDAUX0UP,Information Retrieval,Поиск информации,Извлечение информации,True,False,False,False,threshold
+517,A11JXYZDAUX0UP,K-Means,метод K-средних,K-средних,False,True,False,False,threshold
+518,A11JXYZDAUX0UP,Laplace smoothing,Сглаживание по Лапласу,сглаживание Лапласа,True,False,False,False,threshold
+519,A11JXYZDAUX0UP,Laplace-Beltrami operator,оператор Лапласа—Бельтрами,оператор Лапласа-Бельтрамми,False,True,False,False,threshold
+520,A251BWQW2F81FT,Hessian-vector product,Произведение гессиана и вектора,произведение Гессе-вектор,False,True,False,False,threshold
+521,A251BWQW2F81FT,Information Retrieval,Поиск информации,Извлечение информации,True,False,False,False,threshold
+522,A251BWQW2F81FT,K-Means,метод K-средних,K-средних,True,False,False,False,threshold
+523,A251BWQW2F81FT,Laplace smoothing,Сглаживание по Лапласу,сглаживание Лапласа,True,False,False,False,threshold
+524,A251BWQW2F81FT,Laplace-Beltrami operator,оператор Лапласа—Бельтрами,оператор Лапласа-Бельтрамми,False,True,False,False,threshold
+525,A1MW1UNSOFPB4F,Laplacian matrix,лапласова матрица,матрица Лапласа,False,True,False,False,threshold
+526,A1MW1UNSOFPB4F,Linear Threshold Model,Линейная пороговая модель,модель линейного порога,False,False,True,False,threshold
+527,A1MW1UNSOFPB4F,Longformer,Лонгформер,Longformer,False,False,True,False,threshold
+528,A1MW1UNSOFPB4F,Markov assumption,марковское предположение,Предположение Маркова,False,True,False,False,threshold
+529,A1MW1UNSOFPB4F,Markov process,Марковский процесс,Процесс Маркова,False,True,False,False,threshold
+530,A2P8U65V6NL7B5,Laplacian matrix,лапласова матрица,матрица Лапласа,False,False,True,False,threshold
+531,A2P8U65V6NL7B5,Linear Threshold Model,Линейная пороговая модель,модель линейного порога,True,False,False,False,threshold
+532,A2P8U65V6NL7B5,Longformer,Лонгформер,Longformer,True,False,False,False,threshold
+533,A2P8U65V6NL7B5,Markov assumption,марковское предположение,Предположение Маркова,True,False,False,False,threshold
+534,A2P8U65V6NL7B5,Markov process,Марковский процесс,Процесс Маркова,True,False,False,False,threshold
+535,AWPXR7XE6B8KD,Laplacian matrix,лапласова матрица,матрица Лапласа,False,False,True,False,threshold
+536,AWPXR7XE6B8KD,Linear Threshold Model,Линейная пороговая модель,модель линейного порога,True,False,False,False,threshold
+537,AWPXR7XE6B8KD,Longformer,Лонгформер,Longformer,True,False,False,False,threshold
+538,AWPXR7XE6B8KD,Markov assumption,марковское предположение,Предположение Маркова,True,False,False,False,threshold
+539,AWPXR7XE6B8KD,Markov process,Марковский процесс,Процесс Маркова,True,False,False,False,threshold
+540,A19I2ZK220NTAE,Laplacian matrix,лапласова матрица,матрица Лапласа,False,False,True,False,threshold
+541,A19I2ZK220NTAE,Linear Threshold Model,Линейная пороговая модель,модель линейного порога,True,False,False,False,threshold
+542,A19I2ZK220NTAE,Longformer,Лонгформер,Longformer,False,True,False,False,threshold
+543,A19I2ZK220NTAE,Markov assumption,марковское предположение,Предположение Маркова,True,False,False,False,threshold
+544,A19I2ZK220NTAE,Markov process,Марковский процесс,Процесс Маркова,True,False,False,False,threshold
+545,A35H5DUMZH86PC,Laplacian matrix,лапласова матрица,матрица Лапласа,False,False,True,False,threshold
+546,A35H5DUMZH86PC,Linear Threshold Model,Линейная пороговая модель,модель линейного порога,True,False,False,False,threshold
+547,A35H5DUMZH86PC,Longformer,Лонгформер,Longformer,True,False,False,False,threshold
+548,A35H5DUMZH86PC,Markov assumption,марковское предположение,Предположение Маркова,True,False,False,False,threshold
+549,A35H5DUMZH86PC,Markov process,Марковский процесс,Процесс Маркова,True,False,False,False,threshold
+550,A11B7MUC7UTFKN,Metropolis Hastings,Метод Метрополиса-Гастингса,Метрополис-Гастингс,False,True,False,False,threshold
+551,A11B7MUC7UTFKN,Nearest Neighbor,Метод ближайшего соседа,Ближайший сосед,True,False,False,False,threshold
+552,A11B7MUC7UTFKN,Pearson correlation,коэффициент корреляции Пирсона,корреляция Пирсона,False,True,False,False,threshold
+553,A11B7MUC7UTFKN,Poisson matting,маттинг Пуассона,матирование Пуассона,False,True,False,False,threshold
+554,A11B7MUC7UTFKN,Set Cover,Задача покрытия множеств,Покрытие множеств,False,True,False,False,threshold
+555,A3MDTRJTDIDNX,Metropolis Hastings,Метод Метрополиса-Гастингса,Метрополис-Гастингс,True,False,False,False,threshold
+556,A3MDTRJTDIDNX,Nearest Neighbor,Метод ближайшего соседа,Ближайший сосед,True,False,False,False,threshold
+557,A3MDTRJTDIDNX,Pearson correlation,коэффициент корреляции Пирсона,корреляция Пирсона,False,True,False,False,threshold
+558,A3MDTRJTDIDNX,Poisson matting,маттинг Пуассона,матирование Пуассона,True,False,False,False,threshold
+559,A3MDTRJTDIDNX,Set Cover,Задача покрытия множеств,Покрытие множеств,False,True,False,False,threshold
+560,A3HSZ9YLOBCCPR,Metropolis Hastings,Метод Метрополиса-Гастингса,Метрополис-Гастингс,True,False,False,False,threshold
+561,A3HSZ9YLOBCCPR,Nearest Neighbor,Метод ближайшего соседа,Ближайший сосед,True,False,False,False,threshold
+562,A3HSZ9YLOBCCPR,Pearson correlation,коэффициент корреляции Пирсона,корреляция Пирсона,False,True,False,False,threshold
+563,A3HSZ9YLOBCCPR,Poisson matting,маттинг Пуассона,матирование Пуассона,False,True,False,False,threshold
+564,A3HSZ9YLOBCCPR,Set Cover,Задача покрытия множеств,Покрытие множеств,True,False,False,False,threshold
+565,A1PG4NZUVQMZUI,Metropolis Hastings,Метод Метрополиса-Гастингса,Метрополис-Гастингс,True,False,False,False,threshold
+566,A1PG4NZUVQMZUI,Nearest Neighbor,Метод ближайшего соседа,Ближайший сосед,True,False,False,False,threshold
+567,A1PG4NZUVQMZUI,Pearson correlation,коэффициент корреляции Пирсона,корреляция Пирсона,False,True,False,False,threshold
+568,A1PG4NZUVQMZUI,Poisson matting,маттинг Пуассона,матирование Пуассона,False,True,False,False,threshold
+569,A1PG4NZUVQMZUI,Set Cover,Задача покрытия множеств,Покрытие множеств,False,True,False,False,threshold
+570,A13QHI6P2C910K,Metropolis Hastings,Метод Метрополиса-Гастингса,Метрополис-Гастингс,True,False,False,False,threshold
+571,A13QHI6P2C910K,Nearest Neighbor,Метод ближайшего соседа,Ближайший сосед,True,False,False,False,threshold
+572,A13QHI6P2C910K,Pearson correlation,коэффициент корреляции Пирсона,корреляция Пирсона,False,True,False,False,threshold
+573,A13QHI6P2C910K,Poisson matting,маттинг Пуассона,матирование Пуассона,True,False,False,False,threshold
+574,A13QHI6P2C910K,Set Cover,Задача покрытия множеств,Покрытие множеств,True,False,False,False,threshold
+575,A1MW1UNSOFPB4F,Triggering Model,Модель триггеринга,Модель триггеров,False,True,False,False,threshold
+576,A1MW1UNSOFPB4F,Variational Autoencoder,Вариационный автоэнкодер,Вариационный автокодировщик,False,False,True,False,threshold
+577,A1MW1UNSOFPB4F,abstractive summarization,абстрактивное резюмирование,абстрактивное суммирование,False,True,False,False,threshold
+578,A1MW1UNSOFPB4F,action embedding,векторное представление действий,встраивание действий,False,True,False,False,threshold
+579,A1MW1UNSOFPB4F,annotation projection,проекция аннотаций,проекция аннотации,False,False,True,False,threshold
+580,A3R5K7A8US5PDE,Triggering Model,Модель триггеринга,Модель триггеров,False,False,True,False,threshold
+581,A3R5K7A8US5PDE,Variational Autoencoder,Вариационный автоэнкодер,Вариационный автокодировщик,False,False,False,True,threshold
+582,A3R5K7A8US5PDE,abstractive summarization,абстрактивное резюмирование,абстрактивное суммирование,False,False,False,True,threshold
+583,A3R5K7A8US5PDE,action embedding,векторное представление действий,встраивание действий,False,False,False,True,threshold
+584,A3R5K7A8US5PDE,annotation projection,проекция аннотаций,проекция аннотации,False,False,True,False,threshold
+585,AC4I7XU10MQXK,Triggering Model,Модель триггеринга,Модель триггеров,False,True,False,False,threshold
+586,AC4I7XU10MQXK,Variational Autoencoder,Вариационный автоэнкодер,Вариационный автокодировщик,True,False,False,False,threshold
+587,AC4I7XU10MQXK,abstractive summarization,абстрактивное резюмирование,абстрактивное суммирование,False,True,False,False,threshold
+588,AC4I7XU10MQXK,action embedding,векторное представление действий,встраивание действий,False,True,False,False,threshold
+589,AC4I7XU10MQXK,annotation projection,проекция аннотаций,проекция аннотации,True,False,False,False,threshold
+590,A13QHI6P2C910K,Triggering Model,Модель триггеринга,Модель триггеров,False,False,True,False,threshold
+591,A13QHI6P2C910K,Variational Autoencoder,Вариационный автоэнкодер,Вариационный автокодировщик,True,False,False,False,threshold
+592,A13QHI6P2C910K,abstractive summarization,абстрактивное резюмирование,абстрактивное суммирование,False,True,False,False,threshold
+593,A13QHI6P2C910K,action embedding,векторное представление действий,встраивание действий,False,True,False,False,threshold
+594,A13QHI6P2C910K,annotation projection,проекция аннотаций,проекция аннотации,True,False,False,False,threshold
+595,A38SYZRVLTMOFG,Triggering Model,Модель триггеринга,Модель триггеров,False,True,False,False,threshold
+596,A38SYZRVLTMOFG,Variational Autoencoder,Вариационный автоэнкодер,Вариационный автокодировщик,True,False,False,False,threshold
+597,A38SYZRVLTMOFG,abstractive summarization,абстрактивное резюмирование,абстрактивное суммирование,False,True,False,False,threshold
+598,A38SYZRVLTMOFG,action embedding,векторное представление действий,встраивание действий,False,True,False,False,threshold
+599,A38SYZRVLTMOFG,annotation projection,проекция аннотаций,проекция аннотации,True,False,False,False,threshold
+600,A2P8U65V6NL7B5,answer span,интервал ответа,диапазон ответа,False,True,False,False,threshold
+601,A2P8U65V6NL7B5,approximation algorithm,алгоритм аппроксимации,алгоритм приближения,True,False,False,False,threshold
+602,A2P8U65V6NL7B5,barycentric coordinate,барицентрические координаты,барицентрическая координата,False,True,False,False,threshold
+603,A2P8U65V6NL7B5,belief state,состояние убеждения,состояние веры,False,True,False,False,threshold
+604,A2P8U65V6NL7B5,bias parameter,параметр предвзятости,параметр смещения,False,True,False,False,threshold
+605,AC4I7XU10MQXK,answer span,интервал ответа,диапазон ответа,True,False,False,False,threshold
+606,AC4I7XU10MQXK,approximation algorithm,алгоритм аппроксимации,алгоритм приближения,True,False,False,False,threshold
+607,AC4I7XU10MQXK,barycentric coordinate,барицентрические координаты,барицентрическая координата,False,True,False,False,threshold
+608,AC4I7XU10MQXK,belief state,состояние убеждения,состояние веры,False,True,False,False,threshold
+609,AC4I7XU10MQXK,bias parameter,параметр предвзятости,параметр смещения,False,True,False,False,threshold
+610,A186ORPGIU3WNL,answer span,интервал ответа,диапазон ответа,False,False,True,False,threshold
+611,A186ORPGIU3WNL,approximation algorithm,алгоритм аппроксимации,алгоритм приближения,False,True,False,False,threshold
+612,A186ORPGIU3WNL,barycentric coordinate,барицентрические координаты,барицентрическая координата,False,True,False,False,threshold
+613,A186ORPGIU3WNL,belief state,состояние убеждения,состояние веры,False,True,False,False,threshold
+614,A186ORPGIU3WNL,bias parameter,параметр предвзятости,параметр смещения,False,True,False,False,threshold
+615,A251BWQW2F81FT,answer span,интервал ответа,диапазон ответа,False,False,True,False,threshold
+616,A251BWQW2F81FT,approximation algorithm,алгоритм аппроксимации,алгоритм приближения,True,False,False,False,threshold
+617,A251BWQW2F81FT,barycentric coordinate,барицентрические координаты,барицентрическая координата,False,True,False,False,threshold
+618,A251BWQW2F81FT,belief state,состояние убеждения,состояние веры,False,True,False,False,threshold
+619,A251BWQW2F81FT,bias parameter,параметр предвзятости,параметр смещения,True,False,False,False,threshold
+620,A11B7MUC7UTFKN,answer span,интервал ответа,диапазон ответа,False,True,False,False,threshold
+621,A11B7MUC7UTFKN,approximation algorithm,алгоритм аппроксимации,алгоритм приближения,True,False,False,False,threshold
+622,A11B7MUC7UTFKN,barycentric coordinate,барицентрические координаты,барицентрическая координата,False,True,False,False,threshold
+623,A11B7MUC7UTFKN,belief state,состояние убеждения,состояние веры,False,True,False,False,threshold
+624,A11B7MUC7UTFKN,bias parameter,параметр предвзятости,параметр смещения,False,True,False,False,threshold
+625,A1MW1UNSOFPB4F,black-box,чёрный ящик,черный ящик,False,True,False,False,threshold
+626,A1MW1UNSOFPB4F,canonical basis,каноническая основа,каноническое основание,False,False,True,False,threshold
+627,A1MW1UNSOFPB4F,canonicalization,каноникализация,канонизация,False,True,False,False,threshold
+628,A1MW1UNSOFPB4F,classification model,классификационная модель,модель классификации,False,False,True,False,threshold
+629,A1MW1UNSOFPB4F,classification network,классификационная сеть,сеть классификации,False,True,False,False,threshold
+630,AWPXR7XE6B8KD,black-box,чёрный ящик,черный ящик,True,False,False,False,threshold
+631,AWPXR7XE6B8KD,canonical basis,каноническая основа,каноническое основание,True,False,False,False,threshold
+632,AWPXR7XE6B8KD,canonicalization,каноникализация,канонизация,False,False,True,False,threshold
+633,AWPXR7XE6B8KD,classification model,классификационная модель,модель классификации,True,False,False,False,threshold
+634,AWPXR7XE6B8KD,classification network,классификационная сеть,сеть классификации,True,False,False,False,threshold
+635,A2D6SB3TU1NYQ7,black-box,чёрный ящик,черный ящик,True,False,False,False,threshold
+636,A2D6SB3TU1NYQ7,canonical basis,каноническая основа,каноническое основание,True,False,False,False,threshold
+637,A2D6SB3TU1NYQ7,canonicalization,каноникализация,канонизация,False,False,True,False,threshold
+638,A2D6SB3TU1NYQ7,classification model,классификационная модель,модель классификации,True,False,False,False,threshold
+639,A2D6SB3TU1NYQ7,classification network,классификационная сеть,сеть классификации,True,False,False,False,threshold
+640,A1XD6THGBT1T9T,black-box,чёрный ящик,черный ящик,True,False,False,False,threshold
+641,A1XD6THGBT1T9T,canonical basis,каноническая основа,каноническое основание,True,False,False,False,threshold
+642,A1XD6THGBT1T9T,canonicalization,каноникализация,канонизация,False,False,True,False,threshold
+643,A1XD6THGBT1T9T,classification model,классификационная модель,модель классификации,True,False,False,False,threshold
+644,A1XD6THGBT1T9T,classification network,классификационная сеть,сеть классификации,True,False,False,False,threshold
+645,A3MDTRJTDIDNX,black-box,чёрный ящик,черный ящик,True,False,False,False,threshold
+646,A3MDTRJTDIDNX,canonical basis,каноническая основа,каноническое основание,True,False,False,False,threshold
+647,A3MDTRJTDIDNX,canonicalization,каноникализация,канонизация,False,False,True,False,threshold
+648,A3MDTRJTDIDNX,classification model,классификационная модель,модель классификации,True,False,False,False,threshold
+649,A3MDTRJTDIDNX,classification network,классификационная сеть,сеть классификации,True,False,False,False,threshold
+650,A1PG4NZUVQMZUI,clip range,диапазон клипа,диапазон обрезки,False,True,False,False,threshold
+651,A1PG4NZUVQMZUI,clipping threshold,порог отсечения,порог обрезки,True,False,False,False,threshold
+652,A1PG4NZUVQMZUI,coarse-to-fine,от грубого к тонкому,грубый к тонкому,False,True,False,False,threshold
+653,A1PG4NZUVQMZUI,column vector,вектор-столбец,столбцовый вектор,True,False,False,False,threshold
+654,A1PG4NZUVQMZUI,conditional expectation,условное математическое ожидание,условное ожидание,True,False,False,False,threshold
+655,AWPXR7XE6B8KD,clip range,диапазон клипа,диапазон обрезки,False,False,True,False,threshold
+656,AWPXR7XE6B8KD,clipping threshold,порог отсечения,порог обрезки,True,False,False,False,threshold
+657,AWPXR7XE6B8KD,coarse-to-fine,от грубого к тонкому,грубый к тонкому,False,True,False,False,threshold
+658,AWPXR7XE6B8KD,column vector,вектор-столбец,столбцовый вектор,True,False,False,False,threshold
+659,AWPXR7XE6B8KD,conditional expectation,условное математическое ожидание,условное ожидание,True,False,False,False,threshold
+660,A251BWQW2F81FT,clip range,диапазон клипа,диапазон обрезки,False,True,False,False,threshold
+661,A251BWQW2F81FT,clipping threshold,порог отсечения,порог обрезки,True,False,False,False,threshold
+662,A251BWQW2F81FT,coarse-to-fine,от грубого к тонкому,грубый к тонкому,False,True,False,False,threshold
+663,A251BWQW2F81FT,column vector,вектор-столбец,столбцовый вектор,True,False,False,False,threshold
+664,A251BWQW2F81FT,conditional expectation,условное математическое ожидание,условное ожидание,True,False,False,False,threshold
+665,A3HSZ9YLOBCCPR,clip range,диапазон клипа,диапазон обрезки,False,False,True,False,threshold
+666,A3HSZ9YLOBCCPR,clipping threshold,порог отсечения,порог обрезки,True,False,False,False,threshold
+667,A3HSZ9YLOBCCPR,coarse-to-fine,от грубого к тонкому,грубый к тонкому,False,True,False,False,threshold
+668,A3HSZ9YLOBCCPR,column vector,вектор-столбец,столбцовый вектор,False,False,True,False,threshold
+669,A3HSZ9YLOBCCPR,conditional expectation,условное математическое ожидание,условное ожидание,False,True,False,False,threshold
+670,AC4I7XU10MQXK,clip range,диапазон клипа,диапазон обрезки,False,True,False,False,threshold
+671,AC4I7XU10MQXK,clipping threshold,порог отсечения,порог обрезки,True,False,False,False,threshold
+672,AC4I7XU10MQXK,coarse-to-fine,от грубого к тонкому,грубый к тонкому,False,True,False,False,threshold
+673,AC4I7XU10MQXK,column vector,вектор-столбец,столбцовый вектор,True,False,False,False,threshold
+674,AC4I7XU10MQXK,conditional expectation,условное математическое ожидание,условное ожидание,False,True,False,False,threshold
+675,A3MDTRJTDIDNX,conditional log likelihood,условное логарифмическое правдоподобие,условная логарифмическая вероятность,False,True,False,False,threshold
+676,A3MDTRJTDIDNX,confusion network,сеть неразберихи,сеть путаницы,True,False,False,False,threshold
+677,A3MDTRJTDIDNX,conjugate gradient,метод сопряжённых градиентов,сопряженный градиент,False,True,False,False,threshold
+678,A3MDTRJTDIDNX,contextual model,контекстуальная модель,контекстная модель,True,False,False,False,threshold
+679,A3MDTRJTDIDNX,contextual vector,контекстуальный вектор,контекстный вектор,True,False,False,False,threshold
+680,A2E2FFMXS9F9KR,conditional log likelihood,условное логарифмическое правдоподобие,условная логарифмическая вероятность,False,True,False,False,threshold
+681,A2E2FFMXS9F9KR,confusion network,сеть неразберихи,сеть путаницы,True,False,False,False,threshold
+682,A2E2FFMXS9F9KR,conjugate gradient,метод сопряжённых градиентов,сопряженный градиент,False,True,False,False,threshold
+683,A2E2FFMXS9F9KR,contextual model,контекстуальная модель,контекстная модель,True,False,False,False,threshold
+684,A2E2FFMXS9F9KR,contextual vector,контекстуальный вектор,контекстный вектор,True,False,False,False,threshold
+685,A9M8N3BOH6013,conditional log likelihood,условное логарифмическое правдоподобие,условная логарифмическая вероятность,False,True,False,False,threshold
+686,A9M8N3BOH6013,confusion network,сеть неразберихи,сеть путаницы,True,False,False,False,threshold
+687,A9M8N3BOH6013,conjugate gradient,метод сопряжённых градиентов,сопряженный градиент,False,True,False,False,threshold
+688,A9M8N3BOH6013,contextual model,контекстуальная модель,контекстная модель,True,False,False,False,threshold
+689,A9M8N3BOH6013,contextual vector,контекстуальный вектор,контекстный вектор,True,False,False,False,threshold
+690,A11B7MUC7UTFKN,conditional log likelihood,условное логарифмическое правдоподобие,условная логарифмическая вероятность,False,True,False,False,threshold
+691,A11B7MUC7UTFKN,confusion network,сеть неразберихи,сеть путаницы,True,False,False,False,threshold
+692,A11B7MUC7UTFKN,conjugate gradient,метод сопряжённых градиентов,сопряженный градиент,False,True,False,False,threshold
+693,A11B7MUC7UTFKN,contextual model,контекстуальная модель,контекстная модель,True,False,False,False,threshold
+694,A11B7MUC7UTFKN,contextual vector,контекстуальный вектор,контекстный вектор,True,False,False,False,threshold
+695,A2MZEUP2ECO1AI,conditional log likelihood,условное логарифмическое правдоподобие,условная логарифмическая вероятность,False,True,False,False,threshold
+696,A2MZEUP2ECO1AI,confusion network,сеть неразберихи,сеть путаницы,True,False,False,False,threshold
+697,A2MZEUP2ECO1AI,conjugate gradient,метод сопряжённых градиентов,сопряженный градиент,False,True,False,False,threshold
+698,A2MZEUP2ECO1AI,contextual model,контекстуальная модель,контекстная модель,True,False,False,False,threshold
+699,A2MZEUP2ECO1AI,contextual vector,контекстуальный вектор,контекстный вектор,True,False,False,False,threshold
+700,A27705JMG5A29P,contingency table,таблица сопряженности,контингентная таблица,True,False,False,False,threshold
+701,A27705JMG5A29P,contrastive objective,контрастивная цель,контрастная цель,False,True,False,False,threshold
+702,A27705JMG5A29P,convex conjugate,выпуклый сопряженный функционал,выпуклый сопряжённый,False,False,False,False,threshold
+703,A27705JMG5A29P,convex objective,выпуклая целевая функция,выпуклая цель,False,False,True,False,threshold
+704,A27705JMG5A29P,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+705,AS0K8SAHI5SQD,contingency table,таблица сопряженности,контингентная таблица,True,False,False,False,threshold
+706,AS0K8SAHI5SQD,contrastive objective,контрастивная цель,контрастная цель,False,True,False,False,threshold
+707,AS0K8SAHI5SQD,convex conjugate,выпуклый сопряженный функционал,выпуклый сопряжённый,False,True,False,False,threshold
+708,AS0K8SAHI5SQD,convex objective,выпуклая целевая функция,выпуклая цель,False,True,False,False,threshold
+709,AS0K8SAHI5SQD,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+710,A1L8EGJ85A7DZR,contingency table,таблица сопряженности,контингентная таблица,False,True,False,False,threshold
+711,A1L8EGJ85A7DZR,contrastive objective,контрастивная цель,контрастная цель,False,True,False,False,threshold
+712,A1L8EGJ85A7DZR,convex conjugate,выпуклый сопряженный функционал,выпуклый сопряжённый,False,True,False,False,threshold
+713,A1L8EGJ85A7DZR,convex objective,выпуклая целевая функция,выпуклая цель,False,True,False,False,threshold
+714,A1L8EGJ85A7DZR,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+715,A38SYZRVLTMOFG,contingency table,таблица сопряженности,контингентная таблица,True,False,False,False,threshold
+716,A38SYZRVLTMOFG,contrastive objective,контрастивная цель,контрастная цель,True,False,False,False,threshold
+717,A38SYZRVLTMOFG,convex conjugate,выпуклый сопряженный функционал,выпуклый сопряжённый,False,True,False,False,threshold
+718,A38SYZRVLTMOFG,convex objective,выпуклая целевая функция,выпуклая цель,True,False,False,False,threshold
+719,A38SYZRVLTMOFG,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+720,A2O4PW85X1GQA1,contingency table,таблица сопряженности,контингентная таблица,True,False,False,False,threshold
+721,A2O4PW85X1GQA1,contrastive objective,контрастивная цель,контрастная цель,True,False,False,False,threshold
+722,A2O4PW85X1GQA1,convex conjugate,выпуклый сопряженный функционал,выпуклый сопряжённый,False,True,False,False,threshold
+723,A2O4PW85X1GQA1,convex objective,выпуклая целевая функция,выпуклая цель,False,True,False,False,threshold
+724,A2O4PW85X1GQA1,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+725,A2E2FFMXS9F9KR,coordinate descent,координатный спуск,спуск по координатам,True,False,False,False,threshold
+726,A2E2FFMXS9F9KR,cost volume,объем затрат,объем стоимости,False,False,False,True,threshold
+727,A2E2FFMXS9F9KR,cumulative distribution function,функция накопленного распределения,кумулятивная функция распределения,True,False,False,False,threshold
+728,A2E2FFMXS9F9KR,data mining,интеллектуальный анализ данных,добыча данных,False,True,False,False,threshold
+729,A2E2FFMXS9F9KR,datum fidelity,достоверность данных,точность данных,True,False,False,False,threshold
+730,A11B7MUC7UTFKN,coordinate descent,координатный спуск,спуск по координатам,True,False,False,False,threshold
+731,A11B7MUC7UTFKN,cost volume,объем затрат,объем стоимости,False,False,False,True,threshold
+732,A11B7MUC7UTFKN,cumulative distribution function,функция накопленного распределения,кумулятивная функция распределения,True,False,False,False,threshold
+733,A11B7MUC7UTFKN,data mining,интеллектуальный анализ данных,добыча данных,True,False,False,False,threshold
+734,A11B7MUC7UTFKN,datum fidelity,достоверность данных,точность данных,False,True,False,False,threshold
+735,A3HSZ9YLOBCCPR,coordinate descent,координатный спуск,спуск по координатам,True,False,False,False,threshold
+736,A3HSZ9YLOBCCPR,cost volume,объем затрат,объем стоимости,False,True,False,False,threshold
+737,A3HSZ9YLOBCCPR,cumulative distribution function,функция накопленного распределения,кумулятивная функция распределения,True,False,False,False,threshold
+738,A3HSZ9YLOBCCPR,data mining,интеллектуальный анализ данных,добыча данных,False,True,False,False,threshold
+739,A3HSZ9YLOBCCPR,datum fidelity,достоверность данных,точность данных,False,True,False,False,threshold
+740,A13QHI6P2C910K,coordinate descent,координатный спуск,спуск по координатам,True,False,False,False,threshold
+741,A13QHI6P2C910K,cost volume,объем затрат,объем стоимости,False,True,False,False,threshold
+742,A13QHI6P2C910K,cumulative distribution function,функция накопленного распределения,кумулятивная функция распределения,True,False,False,False,threshold
+743,A13QHI6P2C910K,data mining,интеллектуальный анализ данных,добыча данных,True,False,False,False,threshold
+744,A13QHI6P2C910K,datum fidelity,достоверность данных,точность данных,True,False,False,False,threshold
+745,A38SYZRVLTMOFG,coordinate descent,координатный спуск,спуск по координатам,False,True,False,False,threshold
+746,A38SYZRVLTMOFG,cost volume,объем затрат,объем стоимости,False,False,False,True,threshold
+747,A38SYZRVLTMOFG,cumulative distribution function,функция накопленного распределения,кумулятивная функция распределения,True,False,False,False,threshold
+748,A38SYZRVLTMOFG,data mining,интеллектуальный анализ данных,добыча данных,False,True,False,False,threshold
+749,A38SYZRVLTMOFG,datum fidelity,достоверность данных,точность данных,False,True,False,False,threshold
+750,A1MW1UNSOFPB4F,decision boundary,граница принятия решения,граница решения,False,True,False,False,threshold
+751,A1MW1UNSOFPB4F,deep net,глубокая нейронная сеть,глубокая сеть,False,True,False,False,threshold
+752,A1MW1UNSOFPB4F,dependency path,путь зависимостей,путь зависимости,False,False,True,False,threshold
+753,A1MW1UNSOFPB4F,directed acyclic graph,ориентированный ациклический граф,направленный ациклический граф,True,False,False,False,threshold
+754,A1MW1UNSOFPB4F,distance transform,трансформация расстояния,преобразование расстояния,True,False,False,False,threshold
+755,A1U6UPXOFCXR24,decision boundary,граница принятия решения,граница решения,False,True,False,False,threshold
+756,A1U6UPXOFCXR24,deep net,глубокая нейронная сеть,глубокая сеть,True,False,False,False,threshold
+757,A1U6UPXOFCXR24,dependency path,путь зависимостей,путь зависимости,False,True,False,False,threshold
+758,A1U6UPXOFCXR24,directed acyclic graph,ориентированный ациклический граф,направленный ациклический граф,True,False,False,False,threshold
+759,A1U6UPXOFCXR24,distance transform,трансформация расстояния,преобразование расстояния,True,False,False,False,threshold
+760,A186ORPGIU3WNL,decision boundary,граница принятия решения,граница решения,False,True,False,False,threshold
+761,A186ORPGIU3WNL,deep net,глубокая нейронная сеть,глубокая сеть,True,False,False,False,threshold
+762,A186ORPGIU3WNL,dependency path,путь зависимостей,путь зависимости,False,True,False,False,threshold
+763,A186ORPGIU3WNL,directed acyclic graph,ориентированный ациклический граф,направленный ациклический граф,True,False,False,False,threshold
+764,A186ORPGIU3WNL,distance transform,трансформация расстояния,преобразование расстояния,True,False,False,False,threshold
+765,AWPXR7XE6B8KD,decision boundary,граница принятия решения,граница решения,False,True,False,False,threshold
+766,AWPXR7XE6B8KD,deep net,глубокая нейронная сеть,глубокая сеть,True,False,False,False,threshold
+767,AWPXR7XE6B8KD,dependency path,путь зависимостей,путь зависимости,False,True,False,False,threshold
+768,AWPXR7XE6B8KD,directed acyclic graph,ориентированный ациклический граф,направленный ациклический граф,True,False,False,False,threshold
+769,AWPXR7XE6B8KD,distance transform,трансформация расстояния,преобразование расстояния,True,False,False,False,threshold
+770,A13QHI6P2C910K,decision boundary,граница принятия решения,граница решения,False,True,False,False,threshold
+771,A13QHI6P2C910K,deep net,глубокая нейронная сеть,глубокая сеть,True,False,False,False,threshold
+772,A13QHI6P2C910K,dependency path,путь зависимостей,путь зависимости,False,True,False,False,threshold
+773,A13QHI6P2C910K,directed acyclic graph,ориентированный ациклический граф,направленный ациклический граф,True,False,False,False,threshold
+774,A13QHI6P2C910K,distance transform,трансформация расстояния,преобразование расстояния,True,False,False,False,threshold
+775,A251BWQW2F81FT,distributional model,модель распределения,распределительная модель,False,False,False,True,threshold
+776,A251BWQW2F81FT,domain knowledge,знание предметной области,предметные знания,True,False,False,False,threshold
+777,A251BWQW2F81FT,domain-specific,специфичный для домена,специфичный для области,True,False,False,False,threshold
+778,A251BWQW2F81FT,dual norm,двойственная норма,двойная норма,False,True,False,False,threshold
+779,A251BWQW2F81FT,dual program,двойственная задача,двойная программа,False,True,False,False,threshold
+780,A1U6UPXOFCXR24,distributional model,модель распределения,распределительная модель,False,True,False,False,threshold
+781,A1U6UPXOFCXR24,domain knowledge,знание предметной области,предметные знания,True,False,False,False,threshold
+782,A1U6UPXOFCXR24,domain-specific,специфичный для домена,специфичный для области,False,False,True,False,threshold
+783,A1U6UPXOFCXR24,dual norm,двойственная норма,двойная норма,True,False,False,False,threshold
+784,A1U6UPXOFCXR24,dual program,двойственная задача,двойная программа,True,False,False,False,threshold
+785,A2D6SB3TU1NYQ7,distributional model,модель распределения,распределительная модель,False,True,False,False,threshold
+786,A2D6SB3TU1NYQ7,domain knowledge,знание предметной области,предметные знания,True,False,False,False,threshold
+787,A2D6SB3TU1NYQ7,domain-specific,специфичный для домена,специфичный для области,False,True,False,False,threshold
+788,A2D6SB3TU1NYQ7,dual norm,двойственная норма,двойная норма,True,False,False,False,threshold
+789,A2D6SB3TU1NYQ7,dual program,двойственная задача,двойная программа,False,True,False,False,threshold
+790,A11B7MUC7UTFKN,distributional model,модель распределения,распределительная модель,False,False,True,False,threshold
+791,A11B7MUC7UTFKN,domain knowledge,знание предметной области,предметные знания,True,False,False,False,threshold
+792,A11B7MUC7UTFKN,domain-specific,специфичный для домена,специфичный для области,False,True,False,False,threshold
+793,A11B7MUC7UTFKN,dual norm,двойственная норма,двойная норма,True,False,False,False,threshold
+794,A11B7MUC7UTFKN,dual program,двойственная задача,двойная программа,False,True,False,False,threshold
+795,A3MDTRJTDIDNX,distributional model,модель распределения,распределительная модель,False,True,False,False,threshold
+796,A3MDTRJTDIDNX,domain knowledge,знание предметной области,предметные знания,True,False,False,False,threshold
+797,A3MDTRJTDIDNX,domain-specific,специфичный для домена,специфичный для области,False,False,True,False,threshold
+798,A3MDTRJTDIDNX,dual norm,двойственная норма,двойная норма,True,False,False,False,threshold
+799,A3MDTRJTDIDNX,dual program,двойственная задача,двойная программа,False,True,False,False,threshold
+800,A3TXIZFRTA02Z7,eigenspectrum,спектр собственных значений,собственный спектр,False,True,False,False,threshold
+801,A3TXIZFRTA02Z7,embedding model,модель эмбеддинга,модель встраивания,False,False,False,True,threshold
+802,A3TXIZFRTA02Z7,embedding space,пространство эмбеддингов,пространство встраивания,False,True,False,False,threshold
+803,A3TXIZFRTA02Z7,embedding vector,вектор эмбеддинга,вектор встраивания,True,False,False,False,threshold
+804,A3TXIZFRTA02Z7,encoder layer,слой энкодера,слой кодировщика,False,False,False,True,threshold
+805,A3MDTRJTDIDNX,eigenspectrum,спектр собственных значений,собственный спектр,True,False,False,False,threshold
+806,A3MDTRJTDIDNX,embedding model,модель эмбеддинга,модель встраивания,True,False,False,False,threshold
+807,A3MDTRJTDIDNX,embedding space,пространство эмбеддингов,пространство встраивания,True,False,False,False,threshold
+808,A3MDTRJTDIDNX,embedding vector,вектор эмбеддинга,вектор встраивания,True,False,False,False,threshold
+809,A3MDTRJTDIDNX,encoder layer,слой энкодера,слой кодировщика,True,False,False,False,threshold
+810,A2E2FFMXS9F9KR,eigenspectrum,спектр собственных значений,собственный спектр,True,False,False,False,threshold
+811,A2E2FFMXS9F9KR,embedding model,модель эмбеддинга,модель встраивания,True,False,False,False,threshold
+812,A2E2FFMXS9F9KR,embedding space,пространство эмбеддингов,пространство встраивания,True,False,False,False,threshold
+813,A2E2FFMXS9F9KR,embedding vector,вектор эмбеддинга,вектор встраивания,True,False,False,False,threshold
+814,A2E2FFMXS9F9KR,encoder layer,слой энкодера,слой кодировщика,True,False,False,False,threshold
+815,A2YVLMI4PRDECY,eigenspectrum,спектр собственных значений,собственный спектр,True,False,False,False,threshold
+816,A2YVLMI4PRDECY,embedding model,модель эмбеддинга,модель встраивания,False,True,False,False,threshold
+817,A2YVLMI4PRDECY,embedding space,пространство эмбеддингов,пространство встраивания,False,True,False,False,threshold
+818,A2YVLMI4PRDECY,embedding vector,вектор эмбеддинга,вектор встраивания,False,True,False,False,threshold
+819,A2YVLMI4PRDECY,encoder layer,слой энкодера,слой кодировщика,True,False,False,False,threshold
+820,A38SYZRVLTMOFG,eigenspectrum,спектр собственных значений,собственный спектр,True,False,False,False,threshold
+821,A38SYZRVLTMOFG,embedding model,модель эмбеддинга,модель встраивания,False,True,False,False,threshold
+822,A38SYZRVLTMOFG,embedding space,пространство эмбеддингов,пространство встраивания,False,True,False,False,threshold
+823,A38SYZRVLTMOFG,embedding vector,вектор эмбеддинга,вектор встраивания,False,True,False,False,threshold
+824,A38SYZRVLTMOFG,encoder layer,слой энкодера,слой кодировщика,True,False,False,False,threshold
+825,A10BDVOPZV1P1T,encoder model,модель энкодера,модель кодировщика,False,False,True,False,threshold
+826,A10BDVOPZV1P1T,equalized odd,уравненные шансы,уравновешенные шансы,False,False,True,False,threshold
+827,A10BDVOPZV1P1T,equivalence query,запрос эквивалентности,запрос на эквивалентность,False,True,False,False,threshold
+828,A10BDVOPZV1P1T,error tolerance,толерантность к ошибкам,допустимая ошибка,False,False,True,False,threshold
+829,A10BDVOPZV1P1T,evaluation set,оценочный набор,набор для оценки,False,False,True,False,threshold
+830,A1MW1UNSOFPB4F,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+831,A1MW1UNSOFPB4F,equalized odd,уравненные шансы,уравновешенные шансы,False,True,False,False,threshold
+832,A1MW1UNSOFPB4F,equivalence query,запрос эквивалентности,запрос на эквивалентность,False,False,True,False,threshold
+833,A1MW1UNSOFPB4F,error tolerance,толерантность к ошибкам,допустимая ошибка,False,False,True,False,threshold
+834,A1MW1UNSOFPB4F,evaluation set,оценочный набор,набор для оценки,True,False,False,False,threshold
+835,A2MZEUP2ECO1AI,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+836,A2MZEUP2ECO1AI,equalized odd,уравненные шансы,уравновешенные шансы,False,True,False,False,threshold
+837,A2MZEUP2ECO1AI,equivalence query,запрос эквивалентности,запрос на эквивалентность,True,False,False,False,threshold
+838,A2MZEUP2ECO1AI,error tolerance,толерантность к ошибкам,допустимая ошибка,False,True,False,False,threshold
+839,A2MZEUP2ECO1AI,evaluation set,оценочный набор,набор для оценки,True,False,False,False,threshold
+840,A13QHI6P2C910K,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+841,A13QHI6P2C910K,equalized odd,уравненные шансы,уравновешенные шансы,False,False,True,False,threshold
+842,A13QHI6P2C910K,equivalence query,запрос эквивалентности,запрос на эквивалентность,True,False,False,False,threshold
+843,A13QHI6P2C910K,error tolerance,толерантность к ошибкам,допустимая ошибка,False,True,False,False,threshold
+844,A13QHI6P2C910K,evaluation set,оценочный набор,набор для оценки,True,False,False,False,threshold
+845,A9M8N3BOH6013,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+846,A9M8N3BOH6013,equalized odd,уравненные шансы,уравновешенные шансы,False,False,True,False,threshold
+847,A9M8N3BOH6013,equivalence query,запрос эквивалентности,запрос на эквивалентность,True,False,False,False,threshold
+848,A9M8N3BOH6013,error tolerance,толерантность к ошибкам,допустимая ошибка,False,True,False,False,threshold
+849,A9M8N3BOH6013,evaluation set,оценочный набор,набор для оценки,True,False,False,False,threshold
+850,A1MW1UNSOFPB4F,feature matching,соответствие признаков,сопоставление признаков,False,True,False,False,threshold
+851,A1MW1UNSOFPB4F,feature representation learning,обучение представления признаков,обучение представлению признаков,False,False,True,False,threshold
+852,A1MW1UNSOFPB4F,fine-tune,дообучить,дообучение,False,True,False,False,threshold
+853,A1MW1UNSOFPB4F,functionality assertion,утверждение о функциональности,утверждение функциональности,False,False,True,False,threshold
+854,A1MW1UNSOFPB4F,generative pre-training,генеративное предобучение,генеративное предварительное обучение,False,True,False,False,threshold
+855,A3EP9GQ23H4QVD,feature matching,соответствие признаков,сопоставление признаков,True,False,False,False,threshold
+856,A3EP9GQ23H4QVD,feature representation learning,обучение представления признаков,обучение представлению признаков,False,False,False,True,threshold
+857,A3EP9GQ23H4QVD,fine-tune,дообучить,дообучение,False,False,False,True,threshold
+858,A3EP9GQ23H4QVD,functionality assertion,утверждение о функциональности,утверждение функциональности,True,False,False,False,threshold
+859,A3EP9GQ23H4QVD,generative pre-training,генеративное предобучение,генеративное предварительное обучение,True,False,False,False,threshold
+860,AC4I7XU10MQXK,feature matching,соответствие признаков,сопоставление признаков,True,False,False,False,threshold
+861,AC4I7XU10MQXK,feature representation learning,обучение представления признаков,обучение представлению признаков,False,True,False,False,threshold
+862,AC4I7XU10MQXK,fine-tune,дообучить,дообучение,True,False,False,False,threshold
+863,AC4I7XU10MQXK,functionality assertion,утверждение о функциональности,утверждение функциональности,False,True,False,False,threshold
+864,AC4I7XU10MQXK,generative pre-training,генеративное предобучение,генеративное предварительное обучение,True,False,False,False,threshold
+865,A2D6SB3TU1NYQ7,feature matching,соответствие признаков,сопоставление признаков,True,False,False,False,threshold
+866,A2D6SB3TU1NYQ7,feature representation learning,обучение представления признаков,обучение представлению признаков,False,True,False,False,threshold
+867,A2D6SB3TU1NYQ7,fine-tune,дообучить,дообучение,False,True,False,False,threshold
+868,A2D6SB3TU1NYQ7,functionality assertion,утверждение о функциональности,утверждение функциональности,True,False,False,False,threshold
+869,A2D6SB3TU1NYQ7,generative pre-training,генеративное предобучение,генеративное предварительное обучение,True,False,False,False,threshold
+870,A1L8EGJ85A7DZR,feature matching,соответствие признаков,сопоставление признаков,True,False,False,False,threshold
+871,A1L8EGJ85A7DZR,feature representation learning,обучение представления признаков,обучение представлению признаков,False,True,False,False,threshold
+872,A1L8EGJ85A7DZR,fine-tune,дообучить,дообучение,False,True,False,False,threshold
+873,A1L8EGJ85A7DZR,functionality assertion,утверждение о функциональности,утверждение функциональности,False,True,False,False,threshold
+874,A1L8EGJ85A7DZR,generative pre-training,генеративное предобучение,генеративное предварительное обучение,True,False,False,False,threshold
+875,A27705JMG5A29P,geodesic,геодезический,геодезическая,False,False,True,False,threshold
+876,A27705JMG5A29P,gradient vector,вектор градиента,градиентный вектор,False,False,False,False,threshold
+877,A27705JMG5A29P,graph attention,внимание к графу,внимание графа,False,True,False,False,threshold
+878,A27705JMG5A29P,hard attention,жёсткое внимание,жесткое внимание,False,False,False,False,threshold
+879,A27705JMG5A29P,human annotation,человеческие аннотации,человеческая аннотация,True,False,False,False,threshold
+880,AC4I7XU10MQXK,geodesic,геодезический,геодезическая,False,True,False,False,threshold
+881,AC4I7XU10MQXK,gradient vector,вектор градиента,градиентный вектор,True,False,False,False,threshold
+882,AC4I7XU10MQXK,graph attention,внимание к графу,внимание графа,False,True,False,False,threshold
+883,AC4I7XU10MQXK,hard attention,жёсткое внимание,жесткое внимание,True,False,False,False,threshold
+884,AC4I7XU10MQXK,human annotation,человеческие аннотации,человеческая аннотация,False,True,False,False,threshold
+885,A2O4PW85X1GQA1,geodesic,геодезический,геодезическая,True,False,False,False,threshold
+886,A2O4PW85X1GQA1,gradient vector,вектор градиента,градиентный вектор,True,False,False,False,threshold
+887,A2O4PW85X1GQA1,graph attention,внимание к графу,внимание графа,False,True,False,False,threshold
+888,A2O4PW85X1GQA1,hard attention,жёсткое внимание,жесткое внимание,True,False,False,False,threshold
+889,A2O4PW85X1GQA1,human annotation,человеческие аннотации,человеческая аннотация,True,False,False,False,threshold
+890,A2E2FFMXS9F9KR,geodesic,геодезический,геодезическая,True,False,False,False,threshold
+891,A2E2FFMXS9F9KR,gradient vector,вектор градиента,градиентный вектор,True,False,False,False,threshold
+892,A2E2FFMXS9F9KR,graph attention,внимание к графу,внимание графа,False,True,False,False,threshold
+893,A2E2FFMXS9F9KR,hard attention,жёсткое внимание,жесткое внимание,True,False,False,False,threshold
+894,A2E2FFMXS9F9KR,human annotation,человеческие аннотации,человеческая аннотация,True,False,False,False,threshold
+895,A3IG9HHR3NL9R0,geodesic,геодезический,геодезическая,True,False,False,False,threshold
+896,A3IG9HHR3NL9R0,gradient vector,вектор градиента,градиентный вектор,True,False,False,False,threshold
+897,A3IG9HHR3NL9R0,graph attention,внимание к графу,внимание графа,False,True,False,False,threshold
+898,A3IG9HHR3NL9R0,hard attention,жёсткое внимание,жесткое внимание,False,True,False,False,threshold
+899,A3IG9HHR3NL9R0,human annotation,человеческие аннотации,человеческая аннотация,True,False,False,False,threshold
+900,AC4I7XU10MQXK,image encoder,кодировщик изображений,кодировщик изображения,False,True,False,False,threshold
+901,AC4I7XU10MQXK,image pyramid,пирамида изображений,пирамидальная структура изображения,True,False,False,False,threshold
+902,AC4I7XU10MQXK,indicator matrix,Индикаторная матрица,матрица индикаторов,True,False,False,False,threshold
+903,AC4I7XU10MQXK,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+904,AC4I7XU10MQXK,inference machinery,механизм инференции,механизм вывода,False,True,False,False,threshold
+905,A3HSZ9YLOBCCPR,image encoder,кодировщик изображений,кодировщик изображения,False,True,False,False,threshold
+906,A3HSZ9YLOBCCPR,image pyramid,пирамида изображений,пирамидальная структура изображения,True,False,False,False,threshold
+907,A3HSZ9YLOBCCPR,indicator matrix,Индикаторная матрица,матрица индикаторов,True,False,False,False,threshold
+908,A3HSZ9YLOBCCPR,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+909,A3HSZ9YLOBCCPR,inference machinery,механизм инференции,механизм вывода,False,False,True,False,threshold
+910,A30IGMGSC7G2HM,image encoder,кодировщик изображений,кодировщик изображения,False,True,False,False,threshold
+911,A30IGMGSC7G2HM,image pyramid,пирамида изображений,пирамидальная структура изображения,True,False,False,False,threshold
+912,A30IGMGSC7G2HM,indicator matrix,Индикаторная матрица,матрица индикаторов,True,False,False,False,threshold
+913,A30IGMGSC7G2HM,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+914,A30IGMGSC7G2HM,inference machinery,механизм инференции,механизм вывода,False,False,True,False,threshold
+915,AS0K8SAHI5SQD,image encoder,кодировщик изображений,кодировщик изображения,True,False,False,False,threshold
+916,AS0K8SAHI5SQD,image pyramid,пирамида изображений,пирамидальная структура изображения,True,False,False,False,threshold
+917,AS0K8SAHI5SQD,indicator matrix,Индикаторная матрица,матрица индикаторов,True,False,False,False,threshold
+918,AS0K8SAHI5SQD,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+919,AS0K8SAHI5SQD,inference machinery,механизм инференции,механизм вывода,False,True,False,False,threshold
+920,A39PWDRYNY2WM0,image encoder,кодировщик изображений,кодировщик изображения,True,False,False,False,threshold
+921,A39PWDRYNY2WM0,image pyramid,пирамида изображений,пирамидальная структура изображения,False,True,False,False,threshold
+922,A39PWDRYNY2WM0,indicator matrix,Индикаторная матрица,матрица индикаторов,True,False,False,False,threshold
+923,A39PWDRYNY2WM0,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+924,A39PWDRYNY2WM0,inference machinery,механизм инференции,механизм вывода,False,True,False,False,threshold
+925,A1PG4NZUVQMZUI,information retrieval system,информационно-поисковая система,система поиска информации,True,False,False,False,threshold
+926,A1PG4NZUVQMZUI,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+927,A1PG4NZUVQMZUI,information theoretic measure,теоретико-информационная мера,информационно-теоретическая мера,True,False,False,False,threshold
+928,A1PG4NZUVQMZUI,input representation,представление входных данных,входное представление,False,True,False,False,threshold
+929,A1PG4NZUVQMZUI,interval estimate,оценка интервала,интервальная оценка,True,False,False,False,threshold
+930,A35H5DUMZH86PC,information retrieval system,информационно-поисковая система,система поиска информации,True,False,False,False,threshold
+931,A35H5DUMZH86PC,information theoretic,теоретико-информационный,информационно-теоретический,False,True,False,False,threshold
+932,A35H5DUMZH86PC,information theoretic measure,теоретико-информационная мера,информационно-теоретическая мера,False,True,False,False,threshold
+933,A35H5DUMZH86PC,input representation,представление входных данных,входное представление,True,False,False,False,threshold
+934,A35H5DUMZH86PC,interval estimate,оценка интервала,интервальная оценка,True,False,False,False,threshold
+935,A2D6SB3TU1NYQ7,information retrieval system,информационно-поисковая система,система поиска информации,True,False,False,False,threshold
+936,A2D6SB3TU1NYQ7,information theoretic,теоретико-информационный,информационно-теоретический,False,True,False,False,threshold
+937,A2D6SB3TU1NYQ7,information theoretic measure,теоретико-информационная мера,информационно-теоретическая мера,False,True,False,False,threshold
+938,A2D6SB3TU1NYQ7,input representation,представление входных данных,входное представление,False,True,False,False,threshold
+939,A2D6SB3TU1NYQ7,interval estimate,оценка интервала,интервальная оценка,False,True,False,False,threshold
+940,A11B7MUC7UTFKN,information retrieval system,информационно-поисковая система,система поиска информации,True,False,False,False,threshold
+941,A11B7MUC7UTFKN,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+942,A11B7MUC7UTFKN,information theoretic measure,теоретико-информационная мера,информационно-теоретическая мера,True,False,False,False,threshold
+943,A11B7MUC7UTFKN,input representation,представление входных данных,входное представление,True,False,False,False,threshold
+944,A11B7MUC7UTFKN,interval estimate,оценка интервала,интервальная оценка,True,False,False,False,threshold
+945,A2P8U65V6NL7B5,information retrieval system,информационно-поисковая система,система поиска информации,True,False,False,False,threshold
+946,A2P8U65V6NL7B5,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+947,A2P8U65V6NL7B5,information theoretic measure,теоретико-информационная мера,информационно-теоретическая мера,True,False,False,False,threshold
+948,A2P8U65V6NL7B5,input representation,представление входных данных,входное представление,True,False,False,False,threshold
+949,A2P8U65V6NL7B5,interval estimate,оценка интервала,интервальная оценка,True,False,False,False,threshold
+950,A3HSZ9YLOBCCPR,intrinsic image,внутренние изображения,внутреннее изображение,False,False,True,False,threshold
+951,A3HSZ9YLOBCCPR,joint embedding space,совместное пространство вложений,совместное пространство встраивания,True,False,False,False,threshold
+952,A3HSZ9YLOBCCPR,joint likelihood,совместная правдоподобие,совместная вероятность,False,False,True,False,threshold
+953,A3HSZ9YLOBCCPR,joint probability table,таблица совместной вероятности,таблица совместных вероятностей,True,False,False,False,threshold
+954,A3HSZ9YLOBCCPR,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+955,A1U6UPXOFCXR24,intrinsic image,внутренние изображения,внутреннее изображение,False,False,True,False,threshold
+956,A1U6UPXOFCXR24,joint embedding space,совместное пространство вложений,совместное пространство встраивания,True,False,False,False,threshold
+957,A1U6UPXOFCXR24,joint likelihood,совместная правдоподобие,совместная вероятность,False,False,True,False,threshold
+958,A1U6UPXOFCXR24,joint probability table,таблица совместной вероятности,таблица совместных вероятностей,True,False,False,False,threshold
+959,A1U6UPXOFCXR24,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+960,A19I2ZK220NTAE,intrinsic image,внутренние изображения,внутреннее изображение,False,False,True,False,threshold
+961,A19I2ZK220NTAE,joint embedding space,совместное пространство вложений,совместное пространство встраивания,True,False,False,False,threshold
+962,A19I2ZK220NTAE,joint likelihood,совместная правдоподобие,совместная вероятность,False,False,True,False,threshold
+963,A19I2ZK220NTAE,joint probability table,таблица совместной вероятности,таблица совместных вероятностей,True,False,False,False,threshold
+964,A19I2ZK220NTAE,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+965,A39PWDRYNY2WM0,intrinsic image,внутренние изображения,внутреннее изображение,False,False,True,False,threshold
+966,A39PWDRYNY2WM0,joint embedding space,совместное пространство вложений,совместное пространство встраивания,True,False,False,False,threshold
+967,A39PWDRYNY2WM0,joint likelihood,совместная правдоподобие,совместная вероятность,False,False,True,False,threshold
+968,A39PWDRYNY2WM0,joint probability table,таблица совместной вероятности,таблица совместных вероятностей,True,False,False,False,threshold
+969,A39PWDRYNY2WM0,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+970,AC4I7XU10MQXK,intrinsic image,внутренние изображения,внутреннее изображение,False,False,True,False,threshold
+971,AC4I7XU10MQXK,joint embedding space,совместное пространство вложений,совместное пространство встраивания,True,False,False,False,threshold
+972,AC4I7XU10MQXK,joint likelihood,совместная правдоподобие,совместная вероятность,False,False,True,False,threshold
+973,AC4I7XU10MQXK,joint probability table,таблица совместной вероятности,таблица совместных вероятностей,True,False,False,False,threshold
+974,AC4I7XU10MQXK,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+975,A3HSZ9YLOBCCPR,latent distribution,Латентное распределение,скрытое распределение,True,False,False,False,threshold
+976,A3HSZ9YLOBCCPR,latent semantic,латентная семантика,скрытая семантика,False,True,False,False,threshold
+977,A3HSZ9YLOBCCPR,latent topic,латентная тема,скрытая тема,True,False,False,False,threshold
+978,A3HSZ9YLOBCCPR,lazy grounding,ленивое заземление,ленивое связывание,False,True,False,False,threshold
+979,A3HSZ9YLOBCCPR,leaf node,узел-лист,листовой узел,True,False,False,False,threshold
+980,A19I2ZK220NTAE,latent distribution,Латентное распределение,скрытое распределение,True,False,False,False,threshold
+981,A19I2ZK220NTAE,latent semantic,латентная семантика,скрытая семантика,True,False,False,False,threshold
+982,A19I2ZK220NTAE,latent topic,латентная тема,скрытая тема,True,False,False,False,threshold
+983,A19I2ZK220NTAE,lazy grounding,ленивое заземление,ленивое связывание,False,False,True,False,threshold
+984,A19I2ZK220NTAE,leaf node,узел-лист,листовой узел,True,False,False,False,threshold
+985,AC4I7XU10MQXK,latent distribution,Латентное распределение,скрытое распределение,False,True,False,False,threshold
+986,AC4I7XU10MQXK,latent semantic,латентная семантика,скрытая семантика,True,False,False,False,threshold
+987,AC4I7XU10MQXK,latent topic,латентная тема,скрытая тема,True,False,False,False,threshold
+988,AC4I7XU10MQXK,lazy grounding,ленивое заземление,ленивое связывание,False,False,True,False,threshold
+989,AC4I7XU10MQXK,leaf node,узел-лист,листовой узел,True,False,False,False,threshold
+990,A35H5DUMZH86PC,latent distribution,Латентное распределение,скрытое распределение,True,False,False,False,threshold
+991,A35H5DUMZH86PC,latent semantic,латентная семантика,скрытая семантика,False,True,False,False,threshold
+992,A35H5DUMZH86PC,latent topic,латентная тема,скрытая тема,True,False,False,False,threshold
+993,A35H5DUMZH86PC,lazy grounding,ленивое заземление,ленивое связывание,False,False,True,False,threshold
+994,A35H5DUMZH86PC,leaf node,узел-лист,листовой узел,True,False,False,False,threshold
+995,A1XD6THGBT1T9T,latent distribution,Латентное распределение,скрытое распределение,True,False,False,False,threshold
+996,A1XD6THGBT1T9T,latent semantic,латентная семантика,скрытая семантика,False,True,False,False,threshold
+997,A1XD6THGBT1T9T,latent topic,латентная тема,скрытая тема,False,True,False,False,threshold
+998,A1XD6THGBT1T9T,lazy grounding,ленивое заземление,ленивое связывание,False,False,True,False,threshold
+999,A1XD6THGBT1T9T,leaf node,узел-лист,листовой узел,True,False,False,False,threshold
+1000,A1MW1UNSOFPB4F,learning agent,агент обучения,обучающий агент,False,True,False,False,threshold
+1001,A1MW1UNSOFPB4F,majority voting,голосование большинством,голосование большинства,False,False,True,False,threshold
+1002,A1MW1UNSOFPB4F,matrix vector product,умножение матрицы на вектор,произведение матрицы на вектор,False,False,True,False,threshold
+1003,A1MW1UNSOFPB4F,maximal clique,максимальная клика,максимальный клика,False,True,False,False,threshold
+1004,A1MW1UNSOFPB4F,maximum entropy,максимум энтропии,максимальная энтропия,False,True,False,False,threshold
+1005,A2E2FFMXS9F9KR,learning agent,агент обучения,обучающий агент,False,True,False,False,threshold
+1006,A2E2FFMXS9F9KR,majority voting,голосование большинством,голосование большинства,False,False,True,False,threshold
+1007,A2E2FFMXS9F9KR,matrix vector product,умножение матрицы на вектор,произведение матрицы на вектор,True,False,False,False,threshold
+1008,A2E2FFMXS9F9KR,maximal clique,максимальная клика,максимальный клика,True,False,False,False,threshold
+1009,A2E2FFMXS9F9KR,maximum entropy,максимум энтропии,максимальная энтропия,False,False,True,False,threshold
+1010,A11B7MUC7UTFKN,learning agent,агент обучения,обучающий агент,True,False,False,False,threshold
+1011,A11B7MUC7UTFKN,majority voting,голосование большинством,голосование большинства,False,False,True,False,threshold
+1012,A11B7MUC7UTFKN,matrix vector product,умножение матрицы на вектор,произведение матрицы на вектор,True,False,False,False,threshold
+1013,A11B7MUC7UTFKN,maximal clique,максимальная клика,максимальный клика,False,True,False,False,threshold
+1014,A11B7MUC7UTFKN,maximum entropy,максимум энтропии,максимальная энтропия,False,False,True,False,threshold
+1015,A2YVLMI4PRDECY,learning agent,агент обучения,обучающий агент,True,False,False,False,threshold
+1016,A2YVLMI4PRDECY,majority voting,голосование большинством,голосование большинства,False,False,True,False,threshold
+1017,A2YVLMI4PRDECY,matrix vector product,умножение матрицы на вектор,произведение матрицы на вектор,True,False,False,False,threshold
+1018,A2YVLMI4PRDECY,maximal clique,максимальная клика,максимальный клика,False,True,False,False,threshold
+1019,A2YVLMI4PRDECY,maximum entropy,максимум энтропии,максимальная энтропия,False,False,True,False,threshold
+1020,A2EH125FTLGJPP,learning agent,агент обучения,обучающий агент,True,False,False,False,threshold
+1021,A2EH125FTLGJPP,majority voting,голосование большинством,голосование большинства,False,False,False,True,threshold
+1022,A2EH125FTLGJPP,matrix vector product,умножение матрицы на вектор,произведение матрицы на вектор,False,True,False,False,threshold
+1023,A2EH125FTLGJPP,maximal clique,максимальная клика,максимальный клика,False,True,False,False,threshold
+1024,A2EH125FTLGJPP,maximum entropy,максимум энтропии,максимальная энтропия,True,False,False,False,threshold
+1025,AS0K8SAHI5SQD,meta-learn,метаобучение,мета-обучение,True,False,False,False,threshold
+1026,AS0K8SAHI5SQD,meta-parameter,метапараметр,мета-параметр,True,False,False,False,threshold
+1027,AS0K8SAHI5SQD,metric score,метрический балл,метрическая оценка,False,False,True,False,threshold
+1028,AS0K8SAHI5SQD,micro-average,микросредний,микро-среднее,False,True,False,False,threshold
+1029,AS0K8SAHI5SQD,misclassification error,ошибка неверной классификации,ошибка классификации,False,True,False,False,threshold
+1030,A186ORPGIU3WNL,meta-learn,метаобучение,мета-обучение,True,False,False,False,threshold
+1031,A186ORPGIU3WNL,meta-parameter,метапараметр,мета-параметр,True,False,False,False,threshold
+1032,A186ORPGIU3WNL,metric score,метрический балл,метрическая оценка,False,False,True,False,threshold
+1033,A186ORPGIU3WNL,micro-average,микросредний,микро-среднее,True,False,False,False,threshold
+1034,A186ORPGIU3WNL,misclassification error,ошибка неверной классификации,ошибка классификации,False,True,False,False,threshold
+1035,A2YVLMI4PRDECY,meta-learn,метаобучение,мета-обучение,True,False,False,False,threshold
+1036,A2YVLMI4PRDECY,meta-parameter,метапараметр,мета-параметр,True,False,False,False,threshold
+1037,A2YVLMI4PRDECY,metric score,метрический балл,метрическая оценка,False,False,True,False,threshold
+1038,A2YVLMI4PRDECY,micro-average,микросредний,микро-среднее,False,True,False,False,threshold
+1039,A2YVLMI4PRDECY,misclassification error,ошибка неверной классификации,ошибка классификации,False,True,False,False,threshold
+1040,A2P8U65V6NL7B5,meta-learn,метаобучение,мета-обучение,True,False,False,False,threshold
+1041,A2P8U65V6NL7B5,meta-parameter,метапараметр,мета-параметр,True,False,False,False,threshold
+1042,A2P8U65V6NL7B5,metric score,метрический балл,метрическая оценка,False,False,True,False,threshold
+1043,A2P8U65V6NL7B5,micro-average,микросредний,микро-среднее,False,False,False,True,threshold
+1044,A2P8U65V6NL7B5,misclassification error,ошибка неверной классификации,ошибка классификации,False,True,False,False,threshold
+1045,A3MDTRJTDIDNX,meta-learn,метаобучение,мета-обучение,True,False,False,False,threshold
+1046,A3MDTRJTDIDNX,meta-parameter,метапараметр,мета-параметр,True,False,False,False,threshold
+1047,A3MDTRJTDIDNX,metric score,метрический балл,метрическая оценка,False,False,True,False,threshold
+1048,A3MDTRJTDIDNX,micro-average,микросредний,микро-среднее,False,True,False,False,threshold
+1049,A3MDTRJTDIDNX,misclassification error,ошибка неверной классификации,ошибка классификации,True,False,False,False,threshold
+1050,A251BWQW2F81FT,mixed integer programming,задача смешанного целочисленного программирования,смешанное целочисленное программирование,True,False,False,False,threshold
+1051,A251BWQW2F81FT,model bias,Предвзятость модели,смещение модели,True,False,False,False,threshold
+1052,A251BWQW2F81FT,model distillation,Модельная дистилляция,дистилляция модели,True,False,False,False,threshold
+1053,A251BWQW2F81FT,model inference,инференс модели,вывод модели,False,True,False,False,threshold
+1054,A251BWQW2F81FT,multi-agent,мультиагентный,многоагентный,True,False,False,False,threshold
+1055,A2E2FFMXS9F9KR,mixed integer programming,задача смешанного целочисленного программирования,смешанное целочисленное программирование,True,False,False,False,threshold
+1056,A2E2FFMXS9F9KR,model bias,Предвзятость модели,смещение модели,True,False,False,False,threshold
+1057,A2E2FFMXS9F9KR,model distillation,Модельная дистилляция,дистилляция модели,True,False,False,False,threshold
+1058,A2E2FFMXS9F9KR,model inference,инференс модели,вывод модели,True,False,False,False,threshold
+1059,A2E2FFMXS9F9KR,multi-agent,мультиагентный,многоагентный,True,False,False,False,threshold
+1060,A3Q32FL0WWF4KZ,mixed integer programming,задача смешанного целочисленного программирования,смешанное целочисленное программирование,True,False,False,False,threshold
+1061,A3Q32FL0WWF4KZ,model bias,Предвзятость модели,смещение модели,True,False,False,False,threshold
+1062,A3Q32FL0WWF4KZ,model distillation,Модельная дистилляция,дистилляция модели,False,True,False,False,threshold
+1063,A3Q32FL0WWF4KZ,model inference,инференс модели,вывод модели,True,False,False,False,threshold
+1064,A3Q32FL0WWF4KZ,multi-agent,мультиагентный,многоагентный,True,False,False,False,threshold
+1065,A35H5DUMZH86PC,mixed integer programming,задача смешанного целочисленного программирования,смешанное целочисленное программирование,True,False,False,False,threshold
+1066,A35H5DUMZH86PC,model bias,Предвзятость модели,смещение модели,True,False,False,False,threshold
+1067,A35H5DUMZH86PC,model distillation,Модельная дистилляция,дистилляция модели,False,False,True,False,threshold
+1068,A35H5DUMZH86PC,model inference,инференс модели,вывод модели,True,False,False,False,threshold
+1069,A35H5DUMZH86PC,multi-agent,мультиагентный,многоагентный,True,False,False,False,threshold
+1070,A2O4PW85X1GQA1,mixed integer programming,задача смешанного целочисленного программирования,смешанное целочисленное программирование,True,False,False,False,threshold
+1071,A2O4PW85X1GQA1,model bias,Предвзятость модели,смещение модели,True,False,False,False,threshold
+1072,A2O4PW85X1GQA1,model distillation,Модельная дистилляция,дистилляция модели,False,False,True,False,threshold
+1073,A2O4PW85X1GQA1,model inference,инференс модели,вывод модели,True,False,False,False,threshold
+1074,A2O4PW85X1GQA1,multi-agent,мультиагентный,многоагентный,True,False,False,False,threshold
+1075,A1PG4NZUVQMZUI,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1076,A1PG4NZUVQMZUI,multi-scale,многомасштабный,многоуровневый,False,True,False,False,threshold
+1077,A1PG4NZUVQMZUI,n-step returns,n-шаговые возвраты,n-шаговые вознаграждения,False,True,False,False,threshold
+1078,A1PG4NZUVQMZUI,negative sample,отрицательный пример,отрицательный образец,True,False,False,False,threshold
+1079,A1PG4NZUVQMZUI,neighborhood function,функция окрестности,функция соседства,True,False,False,False,threshold
+1080,A13QHI6P2C910K,multi-modal learning,мультимодальное обучение,многомодальное обучение,False,True,False,False,threshold
+1081,A13QHI6P2C910K,multi-scale,многомасштабный,многоуровневый,True,False,False,False,threshold
+1082,A13QHI6P2C910K,n-step returns,n-шаговые возвраты,n-шаговые вознаграждения,True,False,False,False,threshold
+1083,A13QHI6P2C910K,negative sample,отрицательный пример,отрицательный образец,False,True,False,False,threshold
+1084,A13QHI6P2C910K,neighborhood function,функция окрестности,функция соседства,True,False,False,False,threshold
+1085,A186ORPGIU3WNL,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1086,A186ORPGIU3WNL,multi-scale,многомасштабный,многоуровневый,True,False,False,False,threshold
+1087,A186ORPGIU3WNL,n-step returns,n-шаговые возвраты,n-шаговые вознаграждения,False,True,False,False,threshold
+1088,A186ORPGIU3WNL,negative sample,отрицательный пример,отрицательный образец,True,False,False,False,threshold
+1089,A186ORPGIU3WNL,neighborhood function,функция окрестности,функция соседства,True,False,False,False,threshold
+1090,A35H5DUMZH86PC,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1091,A35H5DUMZH86PC,multi-scale,многомасштабный,многоуровневый,True,False,False,False,threshold
+1092,A35H5DUMZH86PC,n-step returns,n-шаговые возвраты,n-шаговые вознаграждения,False,True,False,False,threshold
+1093,A35H5DUMZH86PC,negative sample,отрицательный пример,отрицательный образец,True,False,False,False,threshold
+1094,A35H5DUMZH86PC,neighborhood function,функция окрестности,функция соседства,True,False,False,False,threshold
+1095,A38SYZRVLTMOFG,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1096,A38SYZRVLTMOFG,multi-scale,многомасштабный,многоуровневый,True,False,False,False,threshold
+1097,A38SYZRVLTMOFG,n-step returns,n-шаговые возвраты,n-шаговые вознаграждения,False,True,False,False,threshold
+1098,A38SYZRVLTMOFG,negative sample,отрицательный пример,отрицательный образец,True,False,False,False,threshold
+1099,A38SYZRVLTMOFG,neighborhood function,функция окрестности,функция соседства,True,False,False,False,threshold
+1100,A9M8N3BOH6013,node representation,представление узлов,представление узла,False,True,False,False,threshold
+1101,A9M8N3BOH6013,non-convex problem,невыпуклая задача,неконвексная задача,True,False,False,False,threshold
+1102,A9M8N3BOH6013,normal,нормали,нормаль,True,False,False,False,threshold
+1103,A9M8N3BOH6013,object domain,домен объектов,область объектов,True,False,False,False,threshold
+1104,A9M8N3BOH6013,open-ended text generation,генерация текста с открытым завершением,генерация текста с открытым концом,False,True,False,False,threshold
+1105,A2MZEUP2ECO1AI,node representation,представление узлов,представление узла,False,True,False,False,threshold
+1106,A2MZEUP2ECO1AI,non-convex problem,невыпуклая задача,неконвексная задача,True,False,False,False,threshold
+1107,A2MZEUP2ECO1AI,normal,нормали,нормаль,False,True,False,False,threshold
+1108,A2MZEUP2ECO1AI,object domain,домен объектов,область объектов,True,False,False,False,threshold
+1109,A2MZEUP2ECO1AI,open-ended text generation,генерация текста с открытым завершением,генерация текста с открытым концом,False,True,False,False,threshold
+1110,A1L8EGJ85A7DZR,node representation,представление узлов,представление узла,False,True,False,False,threshold
+1111,A1L8EGJ85A7DZR,non-convex problem,невыпуклая задача,неконвексная задача,True,False,False,False,threshold
+1112,A1L8EGJ85A7DZR,normal,нормали,нормаль,False,False,True,False,threshold
+1113,A1L8EGJ85A7DZR,object domain,домен объектов,область объектов,True,False,False,False,threshold
+1114,A1L8EGJ85A7DZR,open-ended text generation,генерация текста с открытым завершением,генерация текста с открытым концом,False,True,False,False,threshold
+1115,A186ORPGIU3WNL,node representation,представление узлов,представление узла,True,False,False,False,threshold
+1116,A186ORPGIU3WNL,non-convex problem,невыпуклая задача,неконвексная задача,True,False,False,False,threshold
+1117,A186ORPGIU3WNL,normal,нормали,нормаль,False,False,True,False,threshold
+1118,A186ORPGIU3WNL,object domain,домен объектов,область объектов,True,False,False,False,threshold
+1119,A186ORPGIU3WNL,open-ended text generation,генерация текста с открытым завершением,генерация текста с открытым концом,True,False,False,False,threshold
+1120,A13QHI6P2C910K,node representation,представление узлов,представление узла,False,True,False,False,threshold
+1121,A13QHI6P2C910K,non-convex problem,невыпуклая задача,неконвексная задача,True,False,False,False,threshold
+1122,A13QHI6P2C910K,normal,нормали,нормаль,False,False,True,False,threshold
+1123,A13QHI6P2C910K,object domain,домен объектов,область объектов,True,False,False,False,threshold
+1124,A13QHI6P2C910K,open-ended text generation,генерация текста с открытым завершением,генерация текста с открытым концом,False,True,False,False,threshold
+1125,A1MW1UNSOFPB4F,optimization objective,целевая функция оптимизации,цель оптимизации,False,True,False,False,threshold
+1126,A1MW1UNSOFPB4F,parsing model,модель синтаксического анализа,модель разбора,False,False,True,False,threshold
+1127,A1MW1UNSOFPB4F,perceptual loss,перцептивная потеря,перцептивные потери,False,True,False,False,threshold
+1128,A1MW1UNSOFPB4F,permutation test,пермутационный тест,тест на перестановки,False,False,True,False,threshold
+1129,A1MW1UNSOFPB4F,pipeline,трубопровод,конвейер,False,True,False,False,threshold
+1130,A11B7MUC7UTFKN,optimization objective,целевая функция оптимизации,цель оптимизации,False,True,False,False,threshold
+1131,A11B7MUC7UTFKN,parsing model,модель синтаксического анализа,модель разбора,True,False,False,False,threshold
+1132,A11B7MUC7UTFKN,perceptual loss,перцептивная потеря,перцептивные потери,False,False,True,False,threshold
+1133,A11B7MUC7UTFKN,permutation test,пермутационный тест,тест на перестановки,False,True,False,False,threshold
+1134,A11B7MUC7UTFKN,pipeline,трубопровод,конвейер,True,False,False,False,threshold
+1135,A3HSZ9YLOBCCPR,optimization objective,целевая функция оптимизации,цель оптимизации,False,True,False,False,threshold
+1136,A3HSZ9YLOBCCPR,parsing model,модель синтаксического анализа,модель разбора,True,False,False,False,threshold
+1137,A3HSZ9YLOBCCPR,perceptual loss,перцептивная потеря,перцептивные потери,False,False,True,False,threshold
+1138,A3HSZ9YLOBCCPR,permutation test,пермутационный тест,тест на перестановки,True,False,False,False,threshold
+1139,A3HSZ9YLOBCCPR,pipeline,трубопровод,конвейер,False,True,False,False,threshold
+1140,ASE8ADTSWOHDB,optimization objective,целевая функция оптимизации,цель оптимизации,False,False,True,False,threshold
+1141,ASE8ADTSWOHDB,parsing model,модель синтаксического анализа,модель разбора,False,False,False,True,threshold
+1142,ASE8ADTSWOHDB,perceptual loss,перцептивная потеря,перцептивные потери,True,False,False,False,threshold
+1143,ASE8ADTSWOHDB,permutation test,пермутационный тест,тест на перестановки,True,False,False,False,threshold
+1144,ASE8ADTSWOHDB,pipeline,трубопровод,конвейер,False,True,False,False,threshold
+1145,A11JXYZDAUX0UP,optimization objective,целевая функция оптимизации,цель оптимизации,False,True,False,False,threshold
+1146,A11JXYZDAUX0UP,parsing model,модель синтаксического анализа,модель разбора,True,False,False,False,threshold
+1147,A11JXYZDAUX0UP,perceptual loss,перцептивная потеря,перцептивные потери,True,False,False,False,threshold
+1148,A11JXYZDAUX0UP,permutation test,пермутационный тест,тест на перестановки,True,False,False,False,threshold
+1149,A11JXYZDAUX0UP,pipeline,трубопровод,конвейер,False,True,False,False,threshold
+1150,A9M8N3BOH6013,point match,сопоставление точек,соответствие точек,True,False,False,False,threshold
+1151,A9M8N3BOH6013,policy class,класс стратегий,класс политик,False,True,False,False,threshold
+1152,A9M8N3BOH6013,pooling layer,слой объединения,слой подвыборки,False,False,True,False,threshold
+1153,A9M8N3BOH6013,precision matrix,прецизионная матрица,матрица точности,True,False,False,False,threshold
+1154,A9M8N3BOH6013,precision-recall curve,кривая точность-полнота,кривая точности и полноты,True,False,False,False,threshold
+1155,A2MZEUP2ECO1AI,point match,сопоставление точек,соответствие точек,True,False,False,False,threshold
+1156,A2MZEUP2ECO1AI,policy class,класс стратегий,класс политик,True,False,False,False,threshold
+1157,A2MZEUP2ECO1AI,pooling layer,слой объединения,слой подвыборки,False,False,True,False,threshold
+1158,A2MZEUP2ECO1AI,precision matrix,прецизионная матрица,матрица точности,True,False,False,False,threshold
+1159,A2MZEUP2ECO1AI,precision-recall curve,кривая точность-полнота,кривая точности и полноты,True,False,False,False,threshold
+1160,A11B7MUC7UTFKN,point match,сопоставление точек,соответствие точек,True,False,False,False,threshold
+1161,A11B7MUC7UTFKN,policy class,класс стратегий,класс политик,True,False,False,False,threshold
+1162,A11B7MUC7UTFKN,pooling layer,слой объединения,слой подвыборки,False,False,True,False,threshold
+1163,A11B7MUC7UTFKN,precision matrix,прецизионная матрица,матрица точности,False,True,False,False,threshold
+1164,A11B7MUC7UTFKN,precision-recall curve,кривая точность-полнота,кривая точности и полноты,True,False,False,False,threshold
+1165,A2D6SB3TU1NYQ7,point match,сопоставление точек,соответствие точек,True,False,False,False,threshold
+1166,A2D6SB3TU1NYQ7,policy class,класс стратегий,класс политик,True,False,False,False,threshold
+1167,A2D6SB3TU1NYQ7,pooling layer,слой объединения,слой подвыборки,False,True,False,False,threshold
+1168,A2D6SB3TU1NYQ7,precision matrix,прецизионная матрица,матрица точности,True,False,False,False,threshold
+1169,A2D6SB3TU1NYQ7,precision-recall curve,кривая точность-полнота,кривая точности и полноты,True,False,False,False,threshold
+1170,AG9MLSV2QCVD4,point match,сопоставление точек,соответствие точек,True,False,False,False,threshold
+1171,AG9MLSV2QCVD4,policy class,класс стратегий,класс политик,False,True,False,False,threshold
+1172,AG9MLSV2QCVD4,pooling layer,слой объединения,слой подвыборки,False,True,False,False,threshold
+1173,AG9MLSV2QCVD4,precision matrix,прецизионная матрица,матрица точности,True,False,False,False,threshold
+1174,AG9MLSV2QCVD4,precision-recall curve,кривая точность-полнота,кривая точности и полноты,True,False,False,False,threshold
+1175,A27705JMG5A29P,predicate-argument relation,предикатно-аргументное отношение,отношение предикат-аргумент,True,False,False,False,threshold
+1176,A27705JMG5A29P,prediction head,головка предсказания,голова предсказания,False,True,False,False,threshold
+1177,A27705JMG5A29P,predictive model,прогностическая модель,предсказательная модель,False,False,True,False,threshold
+1178,A27705JMG5A29P,primal variable,Примальная переменная,первичная переменная,False,True,False,False,threshold
+1179,A27705JMG5A29P,proposal distribution,предлагаемое распределение,распределение предложений,True,False,False,False,threshold
+1180,A1MW1UNSOFPB4F,predicate-argument relation,предикатно-аргументное отношение,отношение предикат-аргумент,False,False,True,False,threshold
+1181,A1MW1UNSOFPB4F,prediction head,головка предсказания,голова предсказания,False,True,False,False,threshold
+1182,A1MW1UNSOFPB4F,predictive model,прогностическая модель,предсказательная модель,False,False,True,False,threshold
+1183,A1MW1UNSOFPB4F,primal variable,Примальная переменная,первичная переменная,False,True,False,False,threshold
+1184,A1MW1UNSOFPB4F,proposal distribution,предлагаемое распределение,распределение предложений,True,False,False,False,threshold
+1185,A251BWQW2F81FT,predicate-argument relation,предикатно-аргументное отношение,отношение предикат-аргумент,True,False,False,False,threshold
+1186,A251BWQW2F81FT,prediction head,головка предсказания,голова предсказания,False,True,False,False,threshold
+1187,A251BWQW2F81FT,predictive model,прогностическая модель,предсказательная модель,True,False,False,False,threshold
+1188,A251BWQW2F81FT,primal variable,Примальная переменная,первичная переменная,False,False,True,False,threshold
+1189,A251BWQW2F81FT,proposal distribution,предлагаемое распределение,распределение предложений,False,True,False,False,threshold
+1190,A2GJB7TBZM91Z4,predicate-argument relation,предикатно-аргументное отношение,отношение предикат-аргумент,True,False,False,False,threshold
+1191,A2GJB7TBZM91Z4,prediction head,головка предсказания,голова предсказания,False,True,False,False,threshold
+1192,A2GJB7TBZM91Z4,predictive model,прогностическая модель,предсказательная модель,True,False,False,False,threshold
+1193,A2GJB7TBZM91Z4,primal variable,Примальная переменная,первичная переменная,False,True,False,False,threshold
+1194,A2GJB7TBZM91Z4,proposal distribution,предлагаемое распределение,распределение предложений,False,True,False,False,threshold
+1195,A1OJVQNHQUWKUQ,predicate-argument relation,предикатно-аргументное отношение,отношение предикат-аргумент,False,True,False,False,threshold
+1196,A1OJVQNHQUWKUQ,prediction head,головка предсказания,голова предсказания,False,False,True,False,threshold
+1197,A1OJVQNHQUWKUQ,predictive model,прогностическая модель,предсказательная модель,False,True,False,False,threshold
+1198,A1OJVQNHQUWKUQ,primal variable,Примальная переменная,первичная переменная,False,False,True,False,threshold
+1199,A1OJVQNHQUWKUQ,proposal distribution,предлагаемое распределение,распределение предложений,False,True,False,False,threshold
+1200,AWPXR7XE6B8KD,pruning algorithm,алгоритм отсечения,алгоритм обрезки,True,False,False,False,threshold
+1201,AWPXR7XE6B8KD,random crop,случайная обрезка,случайное обрезание,True,False,False,False,threshold
+1202,AWPXR7XE6B8KD,recommendation model,рекомендательная модель,модель рекомендаций,True,False,False,False,threshold
+1203,AWPXR7XE6B8KD,regression task,регрессионная задача,задача регрессии,True,False,False,False,threshold
+1204,AWPXR7XE6B8KD,relative positional embedding,относительное позиционное вложение,относительное позиционное встраивание,False,True,False,False,threshold
+1205,A3Q32FL0WWF4KZ,pruning algorithm,алгоритм отсечения,алгоритм обрезки,True,False,False,False,threshold
+1206,A3Q32FL0WWF4KZ,random crop,случайная обрезка,случайное обрезание,False,True,False,False,threshold
+1207,A3Q32FL0WWF4KZ,recommendation model,рекомендательная модель,модель рекомендаций,True,False,False,False,threshold
+1208,A3Q32FL0WWF4KZ,regression task,регрессионная задача,задача регрессии,True,False,False,False,threshold
+1209,A3Q32FL0WWF4KZ,relative positional embedding,относительное позиционное вложение,относительное позиционное встраивание,False,False,True,False,threshold
+1210,A19I2ZK220NTAE,pruning algorithm,алгоритм отсечения,алгоритм обрезки,True,False,False,False,threshold
+1211,A19I2ZK220NTAE,random crop,случайная обрезка,случайное обрезание,False,True,False,False,threshold
+1212,A19I2ZK220NTAE,recommendation model,рекомендательная модель,модель рекомендаций,True,False,False,False,threshold
+1213,A19I2ZK220NTAE,regression task,регрессионная задача,задача регрессии,True,False,False,False,threshold
+1214,A19I2ZK220NTAE,relative positional embedding,относительное позиционное вложение,относительное позиционное встраивание,False,False,True,False,threshold
+1215,A13QHI6P2C910K,pruning algorithm,алгоритм отсечения,алгоритм обрезки,True,False,False,False,threshold
+1216,A13QHI6P2C910K,random crop,случайная обрезка,случайное обрезание,False,True,False,False,threshold
+1217,A13QHI6P2C910K,recommendation model,рекомендательная модель,модель рекомендаций,True,False,False,False,threshold
+1218,A13QHI6P2C910K,regression task,регрессионная задача,задача регрессии,True,False,False,False,threshold
+1219,A13QHI6P2C910K,relative positional embedding,относительное позиционное вложение,относительное позиционное встраивание,False,False,True,False,threshold
+1220,AWGV35294HOYB,pruning algorithm,алгоритм отсечения,алгоритм обрезки,True,False,False,False,threshold
+1221,AWGV35294HOYB,random crop,случайная обрезка,случайное обрезание,False,True,False,False,threshold
+1222,AWGV35294HOYB,recommendation model,рекомендательная модель,модель рекомендаций,True,False,False,False,threshold
+1223,AWGV35294HOYB,regression task,регрессионная задача,задача регрессии,True,False,False,False,threshold
+1224,AWGV35294HOYB,relative positional embedding,относительное позиционное вложение,относительное позиционное встраивание,False,False,True,False,threshold
+1225,A1MW1UNSOFPB4F,satisfiability problem,проблема удовлетворимости,задача удовлетворимости,True,False,False,False,threshold
+1226,A1MW1UNSOFPB4F,scene recognition,распознавание сцен,распознавание сцены,False,True,False,False,threshold
+1227,A1MW1UNSOFPB4F,semantic equivalence,семантическая эквивалентность,семантическое эквивалентность,False,False,True,False,threshold
+1228,A1MW1UNSOFPB4F,semantic feature,семантическая характеристика,семантическая особенность,True,False,False,False,threshold
+1229,A1MW1UNSOFPB4F,sentiment classification,классификация тональности,классификация настроений,True,False,False,False,threshold
+1230,A3AHE81HVRXFCD,satisfiability problem,проблема удовлетворимости,задача удовлетворимости,False,False,True,False,threshold
+1231,A3AHE81HVRXFCD,scene recognition,распознавание сцен,распознавание сцены,True,False,False,False,threshold
+1232,A3AHE81HVRXFCD,semantic equivalence,семантическая эквивалентность,семантическое эквивалентность,False,True,False,False,threshold
+1233,A3AHE81HVRXFCD,semantic feature,семантическая характеристика,семантическая особенность,True,False,False,False,threshold
+1234,A3AHE81HVRXFCD,sentiment classification,классификация тональности,классификация настроений,True,False,False,False,threshold
+1235,AS0K8SAHI5SQD,satisfiability problem,проблема удовлетворимости,задача удовлетворимости,True,False,False,False,threshold
+1236,AS0K8SAHI5SQD,scene recognition,распознавание сцен,распознавание сцены,True,False,False,False,threshold
+1237,AS0K8SAHI5SQD,semantic equivalence,семантическая эквивалентность,семантическое эквивалентность,False,True,False,False,threshold
+1238,AS0K8SAHI5SQD,semantic feature,семантическая характеристика,семантическая особенность,True,False,False,False,threshold
+1239,AS0K8SAHI5SQD,sentiment classification,классификация тональности,классификация настроений,False,True,False,False,threshold
+1240,A186ORPGIU3WNL,satisfiability problem,проблема удовлетворимости,задача удовлетворимости,True,False,False,False,threshold
+1241,A186ORPGIU3WNL,scene recognition,распознавание сцен,распознавание сцены,True,False,False,False,threshold
+1242,A186ORPGIU3WNL,semantic equivalence,семантическая эквивалентность,семантическое эквивалентность,False,True,False,False,threshold
+1243,A186ORPGIU3WNL,semantic feature,семантическая характеристика,семантическая особенность,True,False,False,False,threshold
+1244,A186ORPGIU3WNL,sentiment classification,классификация тональности,классификация настроений,True,False,False,False,threshold
+1245,A13QHI6P2C910K,satisfiability problem,проблема удовлетворимости,задача удовлетворимости,True,False,False,False,threshold
+1246,A13QHI6P2C910K,scene recognition,распознавание сцен,распознавание сцены,True,False,False,False,threshold
+1247,A13QHI6P2C910K,semantic equivalence,семантическая эквивалентность,семантическое эквивалентность,False,True,False,False,threshold
+1248,A13QHI6P2C910K,semantic feature,семантическая характеристика,семантическая особенность,True,False,False,False,threshold
+1249,A13QHI6P2C910K,sentiment classification,классификация тональности,классификация настроений,True,False,False,False,threshold
+1250,A1MW1UNSOFPB4F,source token,токен источника,исходный токен,False,True,False,False,threshold
+1251,A1MW1UNSOFPB4F,sparsification,разреживание,разрежение,False,False,True,False,threshold
+1252,A1MW1UNSOFPB4F,state transition probability,вероятность перехода состояний,вероятность перехода состояния,False,True,False,False,threshold
+1253,A1MW1UNSOFPB4F,steerable filter,направляемый фильтр,управляемый фильтр,False,False,True,False,threshold
+1254,A1MW1UNSOFPB4F,stochastic gradient method,метод стохастического градиента,стохастический градиентный метод,False,True,False,False,threshold
+1255,A27705JMG5A29P,source token,токен источника,исходный токен,True,False,False,False,threshold
+1256,A27705JMG5A29P,sparsification,разреживание,разрежение,False,False,False,False,threshold
+1257,A27705JMG5A29P,state transition probability,вероятность перехода состояний,вероятность перехода состояния,False,True,False,False,threshold
+1258,A27705JMG5A29P,steerable filter,направляемый фильтр,управляемый фильтр,False,False,False,False,threshold
+1259,A27705JMG5A29P,stochastic gradient method,метод стохастического градиента,стохастический градиентный метод,False,False,True,False,threshold
+1260,A2P8U65V6NL7B5,source token,токен источника,исходный токен,False,True,False,False,threshold
+1261,A2P8U65V6NL7B5,sparsification,разреживание,разрежение,True,False,False,False,threshold
+1262,A2P8U65V6NL7B5,state transition probability,вероятность перехода состояний,вероятность перехода состояния,False,True,False,False,threshold
+1263,A2P8U65V6NL7B5,steerable filter,направляемый фильтр,управляемый фильтр,True,False,False,False,threshold
+1264,A2P8U65V6NL7B5,stochastic gradient method,метод стохастического градиента,стохастический градиентный метод,True,False,False,False,threshold
+1265,A19I2ZK220NTAE,source token,токен источника,исходный токен,True,False,False,False,threshold
+1266,A19I2ZK220NTAE,sparsification,разреживание,разрежение,False,True,False,False,threshold
+1267,A19I2ZK220NTAE,state transition probability,вероятность перехода состояний,вероятность перехода состояния,False,True,False,False,threshold
+1268,A19I2ZK220NTAE,steerable filter,направляемый фильтр,управляемый фильтр,True,False,False,False,threshold
+1269,A19I2ZK220NTAE,stochastic gradient method,метод стохастического градиента,стохастический градиентный метод,True,False,False,False,threshold
+1270,A3HSZ9YLOBCCPR,source token,токен источника,исходный токен,True,False,False,False,threshold
+1271,A3HSZ9YLOBCCPR,sparsification,разреживание,разрежение,False,True,False,False,threshold
+1272,A3HSZ9YLOBCCPR,state transition probability,вероятность перехода состояний,вероятность перехода состояния,False,True,False,False,threshold
+1273,A3HSZ9YLOBCCPR,steerable filter,направляемый фильтр,управляемый фильтр,True,False,False,False,threshold
+1274,A3HSZ9YLOBCCPR,stochastic gradient method,метод стохастического градиента,стохастический градиентный метод,True,False,False,False,threshold
+1275,A3MDTRJTDIDNX,symmetric matrix,симметричная матрица,симметрическая матрица,True,False,False,False,threshold
+1276,A3MDTRJTDIDNX,temporal derivative,темпоральная производная,временная производная,False,False,True,False,threshold
+1277,A3MDTRJTDIDNX,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1278,A3MDTRJTDIDNX,term frequency,Частота термина,частотность термина,True,False,False,False,threshold
+1279,A3MDTRJTDIDNX,time-series datum,элемент временного ряда,данные временного ряда,True,False,False,False,threshold
+1280,AWPXR7XE6B8KD,symmetric matrix,симметричная матрица,симметрическая матрица,True,False,False,False,threshold
+1281,AWPXR7XE6B8KD,temporal derivative,темпоральная производная,временная производная,False,False,True,False,threshold
+1282,AWPXR7XE6B8KD,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1283,AWPXR7XE6B8KD,term frequency,Частота термина,частотность термина,True,False,False,False,threshold
+1284,AWPXR7XE6B8KD,time-series datum,элемент временного ряда,данные временного ряда,True,False,False,False,threshold
+1285,A3IG9HHR3NL9R0,symmetric matrix,симметричная матрица,симметрическая матрица,True,False,False,False,threshold
+1286,A3IG9HHR3NL9R0,temporal derivative,темпоральная производная,временная производная,False,False,True,False,threshold
+1287,A3IG9HHR3NL9R0,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1288,A3IG9HHR3NL9R0,term frequency,Частота термина,частотность термина,True,False,False,False,threshold
+1289,A3IG9HHR3NL9R0,time-series datum,элемент временного ряда,данные временного ряда,False,True,False,False,threshold
+1290,A1L8EGJ85A7DZR,symmetric matrix,симметричная матрица,симметрическая матрица,True,False,False,False,threshold
+1291,A1L8EGJ85A7DZR,temporal derivative,темпоральная производная,временная производная,False,False,True,False,threshold
+1292,A1L8EGJ85A7DZR,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1293,A1L8EGJ85A7DZR,term frequency,Частота термина,частотность термина,True,False,False,False,threshold
+1294,A1L8EGJ85A7DZR,time-series datum,элемент временного ряда,данные временного ряда,True,False,False,False,threshold
+1295,A2P8U65V6NL7B5,symmetric matrix,симметричная матрица,симметрическая матрица,True,False,False,False,threshold
+1296,A2P8U65V6NL7B5,temporal derivative,темпоральная производная,временная производная,False,False,True,False,threshold
+1297,A2P8U65V6NL7B5,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1298,A2P8U65V6NL7B5,term frequency,Частота термина,частотность термина,True,False,False,False,threshold
+1299,A2P8U65V6NL7B5,time-series datum,элемент временного ряда,данные временного ряда,False,True,False,False,threshold
+1300,A27705JMG5A29P,topic assignment,присвоение тем,назначение темы,False,False,False,False,threshold
+1301,A27705JMG5A29P,trainable parameter,обучаемый параметр,настраиваемый параметр,False,True,False,False,threshold
+1302,A27705JMG5A29P,training error,ошибка на обучающей выборке,ошибка обучения,True,False,False,False,threshold
+1303,A27705JMG5A29P,training example,пример обучения,обучающий пример,False,False,False,False,threshold
+1304,A27705JMG5A29P,training token,обучающий токен,токен обучения,False,False,True,False,threshold
+1305,A1MW1UNSOFPB4F,topic assignment,присвоение тем,назначение темы,True,False,False,False,threshold
+1306,A1MW1UNSOFPB4F,trainable parameter,обучаемый параметр,настраиваемый параметр,False,True,False,False,threshold
+1307,A1MW1UNSOFPB4F,training error,ошибка на обучающей выборке,ошибка обучения,False,True,False,False,threshold
+1308,A1MW1UNSOFPB4F,training example,пример обучения,обучающий пример,True,False,False,False,threshold
+1309,A1MW1UNSOFPB4F,training token,обучающий токен,токен обучения,False,True,False,False,threshold
+1310,AWGV35294HOYB,topic assignment,присвоение тем,назначение темы,True,False,False,False,threshold
+1311,AWGV35294HOYB,trainable parameter,обучаемый параметр,настраиваемый параметр,True,False,False,False,threshold
+1312,AWGV35294HOYB,training error,ошибка на обучающей выборке,ошибка обучения,True,False,False,False,threshold
+1313,AWGV35294HOYB,training example,пример обучения,обучающий пример,True,False,False,False,threshold
+1314,AWGV35294HOYB,training token,обучающий токен,токен обучения,True,False,False,False,threshold
+1315,A39PWDRYNY2WM0,topic assignment,присвоение тем,назначение темы,True,False,False,False,threshold
+1316,A39PWDRYNY2WM0,trainable parameter,обучаемый параметр,настраиваемый параметр,True,False,False,False,threshold
+1317,A39PWDRYNY2WM0,training error,ошибка на обучающей выборке,ошибка обучения,True,False,False,False,threshold
+1318,A39PWDRYNY2WM0,training example,пример обучения,обучающий пример,True,False,False,False,threshold
+1319,A39PWDRYNY2WM0,training token,обучающий токен,токен обучения,True,False,False,False,threshold
+1320,AQWQPE8JO0M04,topic assignment,присвоение тем,назначение темы,True,False,False,False,threshold
+1321,AQWQPE8JO0M04,trainable parameter,обучаемый параметр,настраиваемый параметр,False,False,False,False,threshold
+1322,AQWQPE8JO0M04,training error,ошибка на обучающей выборке,ошибка обучения,False,True,False,False,threshold
+1323,AQWQPE8JO0M04,training example,пример обучения,обучающий пример,False,False,False,False,threshold
+1324,AQWQPE8JO0M04,training token,обучающий токен,токен обучения,False,False,True,False,threshold
+1325,AWPXR7XE6B8KD,tree-based model,модель на основе деревьев,модель на основе дерева,True,False,False,False,threshold
+1326,AWPXR7XE6B8KD,treebank annotation,аннотация синтаксического дерева,аннотация дерева,False,True,False,False,threshold
+1327,AWPXR7XE6B8KD,uncertainty,неопределённость,неопределенность,True,False,False,False,threshold
+1328,AWPXR7XE6B8KD,unsupervised method,метод без учителя,неконтролируемый метод,False,False,True,False,threshold
+1329,AWPXR7XE6B8KD,user-item matrix,матрица пользователь-элемент,матрица пользователь-объект,False,True,False,False,threshold
+1330,A11B7MUC7UTFKN,tree-based model,модель на основе деревьев,модель на основе дерева,False,True,False,False,threshold
+1331,A11B7MUC7UTFKN,treebank annotation,аннотация синтаксического дерева,аннотация дерева,True,False,False,False,threshold
+1332,A11B7MUC7UTFKN,uncertainty,неопределённость,неопределенность,True,False,False,False,threshold
+1333,A11B7MUC7UTFKN,unsupervised method,метод без учителя,неконтролируемый метод,False,False,True,False,threshold
+1334,A11B7MUC7UTFKN,user-item matrix,матрица пользователь-элемент,матрица пользователь-объект,True,False,False,False,threshold
+1335,A1XD6THGBT1T9T,tree-based model,модель на основе деревьев,модель на основе дерева,False,True,False,False,threshold
+1336,A1XD6THGBT1T9T,treebank annotation,аннотация синтаксического дерева,аннотация дерева,False,True,False,False,threshold
+1337,A1XD6THGBT1T9T,uncertainty,неопределённость,неопределенность,True,False,False,False,threshold
+1338,A1XD6THGBT1T9T,unsupervised method,метод без учителя,неконтролируемый метод,False,True,False,False,threshold
+1339,A1XD6THGBT1T9T,user-item matrix,матрица пользователь-элемент,матрица пользователь-объект,True,False,False,False,threshold
+1340,A19I2ZK220NTAE,tree-based model,модель на основе деревьев,модель на основе дерева,False,True,False,False,threshold
+1341,A19I2ZK220NTAE,treebank annotation,аннотация синтаксического дерева,аннотация дерева,False,True,False,False,threshold
+1342,A19I2ZK220NTAE,uncertainty,неопределённость,неопределенность,True,False,False,False,threshold
+1343,A19I2ZK220NTAE,unsupervised method,метод без учителя,неконтролируемый метод,False,False,True,False,threshold
+1344,A19I2ZK220NTAE,user-item matrix,матрица пользователь-элемент,матрица пользователь-объект,True,False,False,False,threshold
+1345,AWGV35294HOYB,tree-based model,модель на основе деревьев,модель на основе дерева,False,True,False,False,threshold
+1346,AWGV35294HOYB,treebank annotation,аннотация синтаксического дерева,аннотация дерева,False,True,False,False,threshold
+1347,AWGV35294HOYB,uncertainty,неопределённость,неопределенность,True,False,False,False,threshold
+1348,AWGV35294HOYB,unsupervised method,метод без учителя,неконтролируемый метод,False,False,True,False,threshold
+1349,AWGV35294HOYB,user-item matrix,матрица пользователь-элемент,матрица пользователь-объект,True,False,False,False,threshold
+1350,A3DXRQLMYGDOFF,value network,ценностная сеть,сеть ценности,True,False,False,False,threshold
+1351,A3DXRQLMYGDOFF,value-based reinforcement learning,обучение с подкреплением на основе ценности,обучение с подкреплением на основе ценностей,False,False,True,False,threshold
+1352,A3DXRQLMYGDOFF,vanishing gradient,проблема исчезающего градиента,исчезающий градиент,True,False,False,False,threshold
+1353,A3DXRQLMYGDOFF,volume rendering,объемный рендеринг,объемная визуализация,True,False,False,False,threshold
+1354,A3DXRQLMYGDOFF,weight parameter,весовой параметр,параметр веса,True,False,False,False,threshold
+1355,A35H5DUMZH86PC,value network,ценностная сеть,сеть ценности,False,True,False,False,threshold
+1356,A35H5DUMZH86PC,value-based reinforcement learning,обучение с подкреплением на основе ценности,обучение с подкреплением на основе ценностей,False,True,False,False,threshold
+1357,A35H5DUMZH86PC,vanishing gradient,проблема исчезающего градиента,исчезающий градиент,True,False,False,False,threshold
+1358,A35H5DUMZH86PC,volume rendering,объемный рендеринг,объемная визуализация,True,False,False,False,threshold
+1359,A35H5DUMZH86PC,weight parameter,весовой параметр,параметр веса,True,False,False,False,threshold
+1360,A13QHI6P2C910K,value network,ценностная сеть,сеть ценности,False,True,False,False,threshold
+1361,A13QHI6P2C910K,value-based reinforcement learning,обучение с подкреплением на основе ценности,обучение с подкреплением на основе ценностей,True,False,False,False,threshold
+1362,A13QHI6P2C910K,vanishing gradient,проблема исчезающего градиента,исчезающий градиент,True,False,False,False,threshold
+1363,A13QHI6P2C910K,volume rendering,объемный рендеринг,объемная визуализация,False,True,False,False,threshold
+1364,A13QHI6P2C910K,weight parameter,весовой параметр,параметр веса,True,False,False,False,threshold
+1365,A2D6SB3TU1NYQ7,value network,ценностная сеть,сеть ценности,False,True,False,False,threshold
+1366,A2D6SB3TU1NYQ7,value-based reinforcement learning,обучение с подкреплением на основе ценности,обучение с подкреплением на основе ценностей,True,False,False,False,threshold
+1367,A2D6SB3TU1NYQ7,vanishing gradient,проблема исчезающего градиента,исчезающий градиент,True,False,False,False,threshold
+1368,A2D6SB3TU1NYQ7,volume rendering,объемный рендеринг,объемная визуализация,True,False,False,False,threshold
+1369,A2D6SB3TU1NYQ7,weight parameter,весовой параметр,параметр веса,True,False,False,False,threshold
+1370,A9M8N3BOH6013,value network,ценностная сеть,сеть ценности,False,True,False,False,threshold
+1371,A9M8N3BOH6013,value-based reinforcement learning,обучение с подкреплением на основе ценности,обучение с подкреплением на основе ценностей,False,True,False,False,threshold
+1372,A9M8N3BOH6013,vanishing gradient,проблема исчезающего градиента,исчезающий градиент,False,True,False,False,threshold
+1373,A9M8N3BOH6013,volume rendering,объемный рендеринг,объемная визуализация,False,True,False,False,threshold
+1374,A9M8N3BOH6013,weight parameter,весовой параметр,параметр веса,False,True,False,False,threshold
+1375,A1MW1UNSOFPB4F,weight vector,весовой вектор,вектор весов,False,True,False,False,threshold
+1376,A1MW1UNSOFPB4F,worst case,наихудший случай,худший случай,False,False,True,False,threshold
+1377,A1MW1UNSOFPB4F,2D-3D correspondence,соответствие 2D-3D,2D-3D соответствие,False,False,True,False,threshold
+1378,A1MW1UNSOFPB4F,3D mesh,3D модель,3D сетка,False,True,False,False,threshold
+1379,A1MW1UNSOFPB4F,Hedge algorithm,алгоритм Хеджа,алгоритм Hedge,True,False,False,False,threshold
+1380,A3MDTRJTDIDNX,weight vector,весовой вектор,вектор весов,True,False,False,False,threshold
+1381,A3MDTRJTDIDNX,worst case,наихудший случай,худший случай,True,False,False,False,threshold
+1382,A3MDTRJTDIDNX,2D-3D correspondence,соответствие 2D-3D,2D-3D соответствие,True,False,False,False,threshold
+1383,A3MDTRJTDIDNX,3D mesh,3D модель,3D сетка,False,False,True,False,threshold
+1384,A3MDTRJTDIDNX,Hedge algorithm,алгоритм Хеджа,алгоритм Hedge,True,False,False,False,threshold
+1385,A2E2FFMXS9F9KR,weight vector,весовой вектор,вектор весов,False,False,True,False,threshold
+1386,A2E2FFMXS9F9KR,worst case,наихудший случай,худший случай,True,False,False,False,threshold
+1387,A2E2FFMXS9F9KR,2D-3D correspondence,соответствие 2D-3D,2D-3D соответствие,True,False,False,False,threshold
+1388,A2E2FFMXS9F9KR,3D mesh,3D модель,3D сетка,False,False,True,False,threshold
+1389,A2E2FFMXS9F9KR,Hedge algorithm,алгоритм Хеджа,алгоритм Hedge,True,False,False,False,threshold
+1390,A3HSZ9YLOBCCPR,weight vector,весовой вектор,вектор весов,True,False,False,False,threshold
+1391,A3HSZ9YLOBCCPR,worst case,наихудший случай,худший случай,True,False,False,False,threshold
+1392,A3HSZ9YLOBCCPR,2D-3D correspondence,соответствие 2D-3D,2D-3D соответствие,True,False,False,False,threshold
+1393,A3HSZ9YLOBCCPR,3D mesh,3D модель,3D сетка,False,False,True,False,threshold
+1394,A3HSZ9YLOBCCPR,Hedge algorithm,алгоритм Хеджа,алгоритм Hedge,True,False,False,False,threshold
+1395,AC4I7XU10MQXK,weight vector,весовой вектор,вектор весов,False,False,True,False,threshold
+1396,AC4I7XU10MQXK,worst case,наихудший случай,худший случай,True,False,False,False,threshold
+1397,AC4I7XU10MQXK,2D-3D correspondence,соответствие 2D-3D,2D-3D соответствие,True,False,False,False,threshold
+1398,AC4I7XU10MQXK,3D mesh,3D модель,3D сетка,False,False,True,False,threshold
+1399,AC4I7XU10MQXK,Hedge algorithm,алгоритм Хеджа,алгоритм Hedge,True,False,False,False,threshold
+1400,AWPXR7XE6B8KD,Iverson bracket,Скобки Айверсона,скобка Айверсона,False,True,False,False,threshold
+1401,AWPXR7XE6B8KD,Lexical Functional Grammar,Лексическая функциональная грамматика,Лексико-функциональная грамматика,True,False,False,False,threshold
+1402,AWPXR7XE6B8KD,Libratus,Либратус,Libratus,True,False,False,False,threshold
+1403,AWPXR7XE6B8KD,Markov logic network,Марковская логическая сеть,Сеть логики Маркова,False,True,False,False,threshold
+1404,AWPXR7XE6B8KD,answer span,интервал ответа,диапазон ответа,False,False,True,False,threshold
+1405,A39PWDRYNY2WM0,Iverson bracket,Скобки Айверсона,скобка Айверсона,True,False,False,False,threshold
+1406,A39PWDRYNY2WM0,Lexical Functional Grammar,Лексическая функциональная грамматика,Лексико-функциональная грамматика,True,False,False,False,threshold
+1407,A39PWDRYNY2WM0,Libratus,Либратус,Libratus,False,True,False,False,threshold
+1408,A39PWDRYNY2WM0,Markov logic network,Марковская логическая сеть,Сеть логики Маркова,True,False,False,False,threshold
+1409,A39PWDRYNY2WM0,answer span,интервал ответа,диапазон ответа,True,False,False,False,threshold
+1410,A11B7MUC7UTFKN,Iverson bracket,Скобки Айверсона,скобка Айверсона,False,True,False,False,threshold
+1411,A11B7MUC7UTFKN,Lexical Functional Grammar,Лексическая функциональная грамматика,Лексико-функциональная грамматика,True,False,False,False,threshold
+1412,A11B7MUC7UTFKN,Libratus,Либратус,Libratus,True,False,False,False,threshold
+1413,A11B7MUC7UTFKN,Markov logic network,Марковская логическая сеть,Сеть логики Маркова,False,True,False,False,threshold
+1414,A11B7MUC7UTFKN,answer span,интервал ответа,диапазон ответа,True,False,False,False,threshold
+1415,A1L8EGJ85A7DZR,Iverson bracket,Скобки Айверсона,скобка Айверсона,True,False,False,False,threshold
+1416,A1L8EGJ85A7DZR,Lexical Functional Grammar,Лексическая функциональная грамматика,Лексико-функциональная грамматика,False,True,False,False,threshold
+1417,A1L8EGJ85A7DZR,Libratus,Либратус,Libratus,False,True,False,False,threshold
+1418,A1L8EGJ85A7DZR,Markov logic network,Марковская логическая сеть,Сеть логики Маркова,False,True,False,False,threshold
+1419,A1L8EGJ85A7DZR,answer span,интервал ответа,диапазон ответа,True,False,False,False,threshold
+1420,A186ORPGIU3WNL,Iverson bracket,Скобки Айверсона,скобка Айверсона,True,False,False,False,threshold
+1421,A186ORPGIU3WNL,Lexical Functional Grammar,Лексическая функциональная грамматика,Лексико-функциональная грамматика,True,False,False,False,threshold
+1422,A186ORPGIU3WNL,Libratus,Либратус,Libratus,True,False,False,False,threshold
+1423,A186ORPGIU3WNL,Markov logic network,Марковская логическая сеть,Сеть логики Маркова,True,False,False,False,threshold
+1424,A186ORPGIU3WNL,answer span,интервал ответа,диапазон ответа,False,True,False,False,threshold
+1425,A3HSZ9YLOBCCPR,autodiff,автоматическое дифференцирование,автодифференцирование,True,False,False,False,threshold
+1426,A3HSZ9YLOBCCPR,backbone network,магистральная сеть,основная сеть,False,False,True,False,threshold
+1427,A3HSZ9YLOBCCPR,big-O notation,нотация «большое О»,нотация большого O,True,False,False,False,threshold
+1428,A3HSZ9YLOBCCPR,constraint set,набор ограничений,множество ограничений,True,False,False,False,threshold
+1429,A3HSZ9YLOBCCPR,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+1430,A30IGMGSC7G2HM,autodiff,автоматическое дифференцирование,автодифференцирование,True,False,False,False,threshold
+1431,A30IGMGSC7G2HM,backbone network,магистральная сеть,основная сеть,False,False,True,False,threshold
+1432,A30IGMGSC7G2HM,big-O notation,нотация «большое О»,нотация большого O,True,False,False,False,threshold
+1433,A30IGMGSC7G2HM,constraint set,набор ограничений,множество ограничений,True,False,False,False,threshold
+1434,A30IGMGSC7G2HM,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+1435,A3MDTRJTDIDNX,autodiff,автоматическое дифференцирование,автодифференцирование,True,False,False,False,threshold
+1436,A3MDTRJTDIDNX,backbone network,магистральная сеть,основная сеть,False,False,True,False,threshold
+1437,A3MDTRJTDIDNX,big-O notation,нотация «большое О»,нотация большого O,True,False,False,False,threshold
+1438,A3MDTRJTDIDNX,constraint set,набор ограничений,множество ограничений,True,False,False,False,threshold
+1439,A3MDTRJTDIDNX,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+1440,A2O4PW85X1GQA1,autodiff,автоматическое дифференцирование,автодифференцирование,True,False,False,False,threshold
+1441,A2O4PW85X1GQA1,backbone network,магистральная сеть,основная сеть,False,False,True,False,threshold
+1442,A2O4PW85X1GQA1,big-O notation,нотация «большое О»,нотация большого O,True,False,False,False,threshold
+1443,A2O4PW85X1GQA1,constraint set,набор ограничений,множество ограничений,True,False,False,False,threshold
+1444,A2O4PW85X1GQA1,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+1445,A2GJB7TBZM91Z4,autodiff,автоматическое дифференцирование,автодифференцирование,True,False,False,False,threshold
+1446,A2GJB7TBZM91Z4,backbone network,магистральная сеть,основная сеть,False,False,True,False,threshold
+1447,A2GJB7TBZM91Z4,big-O notation,нотация «большое О»,нотация большого O,True,False,False,False,threshold
+1448,A2GJB7TBZM91Z4,constraint set,набор ограничений,множество ограничений,True,False,False,False,threshold
+1449,A2GJB7TBZM91Z4,convolution layer,свёрточный слой,сверточный слой,True,False,False,False,threshold
+1450,A262LU000U93SA,covariate shift,ковариатный сдвиг,смещение ковариат,False,False,False,False,threshold
+1451,A262LU000U93SA,cross entropy,перекрестная энтропия,кросс-энтропия,True,False,False,False,threshold
+1452,A262LU000U93SA,cycle inequality,неравенство цикла,циклическая неравенство,True,False,False,False,threshold
+1453,A262LU000U93SA,dialogue generation,генерация диалогов,генерация диалога,False,False,False,False,threshold
+1454,A262LU000U93SA,document-level,на уровне документа,уровень документа,True,False,False,False,threshold
+1455,A1KYZPQ0T7WECC,covariate shift,ковариатный сдвиг,смещение ковариат,True,False,False,False,threshold
+1456,A1KYZPQ0T7WECC,cross entropy,перекрестная энтропия,кросс-энтропия,True,False,False,False,threshold
+1457,A1KYZPQ0T7WECC,cycle inequality,неравенство цикла,циклическая неравенство,False,True,False,False,threshold
+1458,A1KYZPQ0T7WECC,dialogue generation,генерация диалогов,генерация диалога,False,True,False,False,threshold
+1459,A1KYZPQ0T7WECC,document-level,на уровне документа,уровень документа,False,True,False,False,threshold
+1460,A1XD6THGBT1T9T,covariate shift,ковариатный сдвиг,смещение ковариат,True,False,False,False,threshold
+1461,A1XD6THGBT1T9T,cross entropy,перекрестная энтропия,кросс-энтропия,True,False,False,False,threshold
+1462,A1XD6THGBT1T9T,cycle inequality,неравенство цикла,циклическая неравенство,False,True,False,False,threshold
+1463,A1XD6THGBT1T9T,dialogue generation,генерация диалогов,генерация диалога,False,True,False,False,threshold
+1464,A1XD6THGBT1T9T,document-level,на уровне документа,уровень документа,True,False,False,False,threshold
+1465,A2GJB7TBZM91Z4,covariate shift,ковариатный сдвиг,смещение ковариат,True,False,False,False,threshold
+1466,A2GJB7TBZM91Z4,cross entropy,перекрестная энтропия,кросс-энтропия,True,False,False,False,threshold
+1467,A2GJB7TBZM91Z4,cycle inequality,неравенство цикла,циклическая неравенство,False,True,False,False,threshold
+1468,A2GJB7TBZM91Z4,dialogue generation,генерация диалогов,генерация диалога,True,False,False,False,threshold
+1469,A2GJB7TBZM91Z4,document-level,на уровне документа,уровень документа,False,True,False,False,threshold
+1470,A35H5DUMZH86PC,covariate shift,ковариатный сдвиг,смещение ковариат,False,True,False,False,threshold
+1471,A35H5DUMZH86PC,cross entropy,перекрестная энтропия,кросс-энтропия,True,False,False,False,threshold
+1472,A35H5DUMZH86PC,cycle inequality,неравенство цикла,циклическая неравенство,False,True,False,False,threshold
+1473,A35H5DUMZH86PC,dialogue generation,генерация диалогов,генерация диалога,True,False,False,False,threshold
+1474,A35H5DUMZH86PC,document-level,на уровне документа,уровень документа,False,True,False,False,threshold
+1475,A1L8EGJ85A7DZR,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+1476,A1L8EGJ85A7DZR,image-text pre-training,предварительное обучение на основе изображений и текста,предварительное обучение на изображениях и текстах,False,True,False,False,threshold
+1477,A1L8EGJ85A7DZR,indicator vector,индикаторный вектор,вектор индикаторов,False,True,False,False,threshold
+1478,A1L8EGJ85A7DZR,inference algorithm,алгоритм инференции,алгоритм вывода,False,True,False,False,threshold
+1479,A1L8EGJ85A7DZR,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+1480,A19I2ZK220NTAE,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+1481,A19I2ZK220NTAE,image-text pre-training,предварительное обучение на основе изображений и текста,предварительное обучение на изображениях и текстах,False,True,False,False,threshold
+1482,A19I2ZK220NTAE,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+1483,A19I2ZK220NTAE,inference algorithm,алгоритм инференции,алгоритм вывода,False,True,False,False,threshold
+1484,A19I2ZK220NTAE,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+1485,A2P8U65V6NL7B5,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+1486,A2P8U65V6NL7B5,image-text pre-training,предварительное обучение на основе изображений и текста,предварительное обучение на изображениях и текстах,False,True,False,False,threshold
+1487,A2P8U65V6NL7B5,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+1488,A2P8U65V6NL7B5,inference algorithm,алгоритм инференции,алгоритм вывода,False,True,False,False,threshold
+1489,A2P8U65V6NL7B5,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+1490,A2E2FFMXS9F9KR,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+1491,A2E2FFMXS9F9KR,image-text pre-training,предварительное обучение на основе изображений и текста,предварительное обучение на изображениях и текстах,True,False,False,False,threshold
+1492,A2E2FFMXS9F9KR,indicator vector,индикаторный вектор,вектор индикаторов,False,True,False,False,threshold
+1493,A2E2FFMXS9F9KR,inference algorithm,алгоритм инференции,алгоритм вывода,True,False,False,False,threshold
+1494,A2E2FFMXS9F9KR,information theoretic,теоретико-информационный,информационно-теоретический,True,False,False,False,threshold
+1495,A1PG4NZUVQMZUI,encoder model,модель энкодера,модель кодировщика,True,False,False,False,threshold
+1496,A1PG4NZUVQMZUI,image-text pre-training,предварительное обучение на основе изображений и текста,предварительное обучение на изображениях и текстах,False,True,False,False,threshold
+1497,A1PG4NZUVQMZUI,indicator vector,индикаторный вектор,вектор индикаторов,True,False,False,False,threshold
+1498,A1PG4NZUVQMZUI,inference algorithm,алгоритм инференции,алгоритм вывода,False,True,False,False,threshold
+1499,A1PG4NZUVQMZUI,information theoretic,теоретико-информационный,информационно-теоретический,False,False,True,False,threshold
+1500,A30IGMGSC7G2HM,infoset,информационное множество,информационный набор,True,False,False,False,threshold
+1501,A30IGMGSC7G2HM,interaction matrix,матрица взаимодействий,матрица взаимодействия,False,True,False,False,threshold
+1502,A30IGMGSC7G2HM,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+1503,A30IGMGSC7G2HM,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1504,A30IGMGSC7G2HM,multivariate time series,многомерные временные ряды,многомерный временной ряд,False,True,False,False,threshold
+1505,A186ORPGIU3WNL,infoset,информационное множество,информационный набор,True,False,False,False,threshold
+1506,A186ORPGIU3WNL,interaction matrix,матрица взаимодействий,матрица взаимодействия,False,True,False,False,threshold
+1507,A186ORPGIU3WNL,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+1508,A186ORPGIU3WNL,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1509,A186ORPGIU3WNL,multivariate time series,многомерные временные ряды,многомерный временной ряд,False,True,False,False,threshold
+1510,A2P8U65V6NL7B5,infoset,информационное множество,информационный набор,True,False,False,False,threshold
+1511,A2P8U65V6NL7B5,interaction matrix,матрица взаимодействий,матрица взаимодействия,False,True,False,False,threshold
+1512,A2P8U65V6NL7B5,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+1513,A2P8U65V6NL7B5,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1514,A2P8U65V6NL7B5,multivariate time series,многомерные временные ряды,многомерный временной ряд,False,True,False,False,threshold
+1515,A13QHI6P2C910K,infoset,информационное множество,информационный набор,True,False,False,False,threshold
+1516,A13QHI6P2C910K,interaction matrix,матрица взаимодействий,матрица взаимодействия,True,False,False,False,threshold
+1517,A13QHI6P2C910K,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+1518,A13QHI6P2C910K,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1519,A13QHI6P2C910K,multivariate time series,многомерные временные ряды,многомерный временной ряд,False,True,False,False,threshold
+1520,A2O4PW85X1GQA1,infoset,информационное множество,информационный набор,False,True,False,False,threshold
+1521,A2O4PW85X1GQA1,interaction matrix,матрица взаимодействий,матрица взаимодействия,True,False,False,False,threshold
+1522,A2O4PW85X1GQA1,lambda calculus,лямбда-исчисление,λ-исчисление,True,False,False,False,threshold
+1523,A2O4PW85X1GQA1,multi-modal learning,мультимодальное обучение,многомодальное обучение,True,False,False,False,threshold
+1524,A2O4PW85X1GQA1,multivariate time series,многомерные временные ряды,многомерный временной ряд,False,True,False,False,threshold
+1525,A2YVLMI4PRDECY,orthographic camera model,ортографическая модель камеры,ортографическая камера,False,True,False,False,threshold
+1526,A2YVLMI4PRDECY,perceptual loss,перцептивная ошибка,перцептивные потери,False,False,True,False,threshold
+1527,A2YVLMI4PRDECY,pre-training task,задача предобучения,задача предварительного обучения,True,False,False,False,threshold
+1528,A2YVLMI4PRDECY,probabilistic inference,вероятностное выведение,вероятностное вывод,False,True,False,False,threshold
+1529,A2YVLMI4PRDECY,prototype embedding,встраивание прототипов,встраивание прототипа,True,False,False,False,threshold
+1530,AS0K8SAHI5SQD,orthographic camera model,ортографическая модель камеры,ортографическая камера,True,False,False,False,threshold
+1531,AS0K8SAHI5SQD,perceptual loss,перцептивная ошибка,перцептивные потери,False,False,True,False,threshold
+1532,AS0K8SAHI5SQD,pre-training task,задача предобучения,задача предварительного обучения,True,False,False,False,threshold
+1533,AS0K8SAHI5SQD,probabilistic inference,вероятностное выведение,вероятностное вывод,False,True,False,False,threshold
+1534,AS0K8SAHI5SQD,prototype embedding,встраивание прототипов,встраивание прототипа,False,True,False,False,threshold
+1535,A2D6SB3TU1NYQ7,orthographic camera model,ортографическая модель камеры,ортографическая камера,True,False,False,False,threshold
+1536,A2D6SB3TU1NYQ7,perceptual loss,перцептивная ошибка,перцептивные потери,False,False,True,False,threshold
+1537,A2D6SB3TU1NYQ7,pre-training task,задача предобучения,задача предварительного обучения,True,False,False,False,threshold
+1538,A2D6SB3TU1NYQ7,probabilistic inference,вероятностное выведение,вероятностное вывод,False,True,False,False,threshold
+1539,A2D6SB3TU1NYQ7,prototype embedding,встраивание прототипов,встраивание прототипа,True,False,False,False,threshold
+1540,A11B7MUC7UTFKN,orthographic camera model,ортографическая модель камеры,ортографическая камера,False,True,False,False,threshold
+1541,A11B7MUC7UTFKN,perceptual loss,перцептивная ошибка,перцептивные потери,False,False,True,False,threshold
+1542,A11B7MUC7UTFKN,pre-training task,задача предобучения,задача предварительного обучения,True,False,False,False,threshold
+1543,A11B7MUC7UTFKN,probabilistic inference,вероятностное выведение,вероятностное вывод,False,True,False,False,threshold
+1544,A11B7MUC7UTFKN,prototype embedding,встраивание прототипов,встраивание прототипа,False,True,False,False,threshold
+1545,A1XD6THGBT1T9T,orthographic camera model,ортографическая модель камеры,ортографическая камера,True,False,False,False,threshold
+1546,A1XD6THGBT1T9T,perceptual loss,перцептивная ошибка,перцептивные потери,False,False,True,False,threshold
+1547,A1XD6THGBT1T9T,pre-training task,задача предобучения,задача предварительного обучения,True,False,False,False,threshold
+1548,A1XD6THGBT1T9T,probabilistic inference,вероятностное выведение,вероятностное вывод,False,True,False,False,threshold
+1549,A1XD6THGBT1T9T,prototype embedding,встраивание прототипов,встраивание прототипа,False,True,False,False,threshold
+1550,A1MW1UNSOFPB4F,recommendation system,рекомендательная система,система рекомендаций,False,False,True,False,threshold
+1551,A1MW1UNSOFPB4F,softmax activation,активация softmax,активация софтмакс,False,True,False,False,threshold
+1552,A1MW1UNSOFPB4F,softmax activation function,Функция активации softmax,функция активации софтмакс,False,False,True,False,threshold
+1553,A1MW1UNSOFPB4F,super-resolution,сверхразрешение,суперразрешение,False,False,True,False,threshold
+1554,A1MW1UNSOFPB4F,temporal variable,темпоральная переменная,временная переменная,False,True,False,False,threshold
+1555,A13QHI6P2C910K,recommendation system,рекомендательная система,система рекомендаций,True,False,False,False,threshold
+1556,A13QHI6P2C910K,softmax activation,активация softmax,активация софтмакс,False,True,False,False,threshold
+1557,A13QHI6P2C910K,softmax activation function,Функция активации softmax,функция активации софтмакс,True,False,False,False,threshold
+1558,A13QHI6P2C910K,super-resolution,сверхразрешение,суперразрешение,True,False,False,False,threshold
+1559,A13QHI6P2C910K,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1560,AWPXR7XE6B8KD,recommendation system,рекомендательная система,система рекомендаций,True,False,False,False,threshold
+1561,AWPXR7XE6B8KD,softmax activation,активация softmax,активация софтмакс,True,False,False,False,threshold
+1562,AWPXR7XE6B8KD,softmax activation function,Функция активации softmax,функция активации софтмакс,True,False,False,False,threshold
+1563,AWPXR7XE6B8KD,super-resolution,сверхразрешение,суперразрешение,True,False,False,False,threshold
+1564,AWPXR7XE6B8KD,temporal variable,темпоральная переменная,временная переменная,False,True,False,False,threshold
+1565,A39PWDRYNY2WM0,recommendation system,рекомендательная система,система рекомендаций,True,False,False,False,threshold
+1566,A39PWDRYNY2WM0,softmax activation,активация softmax,активация софтмакс,True,False,False,False,threshold
+1567,A39PWDRYNY2WM0,softmax activation function,Функция активации softmax,функция активации софтмакс,True,False,False,False,threshold
+1568,A39PWDRYNY2WM0,super-resolution,сверхразрешение,суперразрешение,True,False,False,False,threshold
+1569,A39PWDRYNY2WM0,temporal variable,темпоральная переменная,временная переменная,False,False,True,False,threshold
+1570,A35H5DUMZH86PC,recommendation system,рекомендательная система,система рекомендаций,True,False,False,False,threshold
+1571,A35H5DUMZH86PC,softmax activation,активация softmax,активация софтмакс,True,False,False,False,threshold
+1572,A35H5DUMZH86PC,softmax activation function,Функция активации softmax,функция активации софтмакс,True,False,False,False,threshold
+1573,A35H5DUMZH86PC,super-resolution,сверхразрешение,суперразрешение,True,False,False,False,threshold
+1574,A35H5DUMZH86PC,temporal variable,темпоральная переменная,временная переменная,False,True,False,False,threshold
+1575,A2E2FFMXS9F9KR,test accuracy,точность на тестовых данных,точность тестирования,False,True,False,False,threshold
+1576,A2E2FFMXS9F9KR,test domain,тестовый домен,тестовая область,False,False,True,False,threshold
+1577,A2E2FFMXS9F9KR,unigram distribution,распределение униграмм,униграммное распределение,True,False,False,False,threshold
+1578,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1579,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1580,A9M8N3BOH6013,test accuracy,точность на тестовых данных,точность тестирования,False,True,False,False,threshold
+1581,A9M8N3BOH6013,test domain,тестовый домен,тестовая область,True,False,False,False,threshold
+1582,A9M8N3BOH6013,unigram distribution,распределение униграмм,униграммное распределение,True,False,False,False,threshold
+1583,A9M8N3BOH6013,-,-,-,False,False,False,True,-
+1584,A9M8N3BOH6013,-,-,-,False,False,False,True,-
+1585,A11B7MUC7UTFKN,test accuracy,точность на тестовых данных,точность тестирования,True,False,False,False,threshold
+1586,A11B7MUC7UTFKN,test domain,тестовый домен,тестовая область,False,False,True,False,threshold
+1587,A11B7MUC7UTFKN,unigram distribution,распределение униграмм,униграммное распределение,True,False,False,False,threshold
+1588,A11B7MUC7UTFKN,-,-,-,False,False,False,True,-
+1589,A11B7MUC7UTFKN,-,-,-,False,False,False,True,-
+1590,A186ORPGIU3WNL,test accuracy,точность на тестовых данных,точность тестирования,True,False,False,False,threshold
+1591,A186ORPGIU3WNL,test domain,тестовый домен,тестовая область,True,False,False,False,threshold
+1592,A186ORPGIU3WNL,unigram distribution,распределение униграмм,униграммное распределение,True,False,False,False,threshold
+1593,A186ORPGIU3WNL,-,-,-,False,False,False,True,-
+1594,A186ORPGIU3WNL,-,-,-,False,False,False,True,-
+1595,A38SYZRVLTMOFG,test accuracy,точность на тестовых данных,точность тестирования,True,False,False,False,threshold
+1596,A38SYZRVLTMOFG,test domain,тестовый домен,тестовая область,True,False,False,False,threshold
+1597,A38SYZRVLTMOFG,unigram distribution,распределение униграмм,униграммное распределение,True,False,False,False,threshold
+1598,A38SYZRVLTMOFG,-,-,-,True,False,False,False,-
+1599,A38SYZRVLTMOFG,-,-,-,True,False,False,False,-
