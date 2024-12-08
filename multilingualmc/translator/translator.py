@@ -231,6 +231,116 @@ class SeamlessTranslator(Translator):
         )
         return translated_text
 
+# class AyaTranslator(Translator):
+#     """
+#     - model_name: "CohereForAI/aya-101"
+#     - cache_dir: "/compute/babel-12-25/jiaruil5/.cache/"
+#     """
+#     def prepare_model(self):
+#         from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+#         self.tokenizer = AutoTokenizer.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir)
+#         self.model = AutoModelForSeq2SeqLM.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir).to(self.device)
+    
+#     def translate(self, text, src_lang, tgt_lang):
+#         encoded_input = self.tokenizer(
+#             f"Translate to {tgt_lang}: " + text,
+#             return_tensors="pt"
+#         )
+#         output_tokens = self.model.generate(
+#             encoded_input.to(self.device),
+#             max_new_tokens=256
+#         )
+#         translated_text = self.tokenizer.decode(
+#             output_tokens[0]
+#         )
+#         return translated_text
+    
+#     def translate_constraint_soft(self, text, src_lang, tgt_lang, terms_dict, soft_penalty=0.8):
+#         encoded_input = self.tokenizer(
+#             f"Translate to {tgt_lang}: " + text,
+#             return_tensors="pt"
+#         )
+        
+#         tokens = []
+#         for translation in terms_dict:
+#             token = self.tokenizer(translation)['input_ids']
+#             tokens.append(token)
+        
+#         logits_processor = TerminologyAwareLogitsProcessor(
+#             tokenizer=self.tokenizer,
+#             en_text=text,
+#             lang=tgt_lang,
+#             soft_penalty=soft_penalty,
+#             lang_dict=self.args.lang_dict,
+#             tokens = tokens,
+#         )
+        
+#         output_tokens = self.model.generate(
+#             encoded_input.to(self.device),
+#             max_new_tokens=256,
+#             logits_processor = [logits_processor],
+#         )
+#         translated_text = self.tokenizer.decode(
+#             output_tokens[0]
+#         )
+#         return translated_text
+
+class AyaTranslator(Translator):
+    """
+    - model_name: "CohereForAI/aya-expanse-8b"
+    - cache_dir: "/compute/babel-12-25/jiaruil5/.cache/"
+    """
+    def prepare_model(self):
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        self.tokenizer = AutoTokenizer.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir)
+        self.model = AutoModelForCausalLM.from_pretrained(self.args.model_name, cache_dir=self.args.cache_dir).to(self.device)
+    
+    def translate(self, text, src_lang, tgt_lang):
+        messages = [{"role": "user", "content": f"Translate to {tgt_lang}: " + text}]
+        
+        encoded_input = self.tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, return_tensors="pt")
+        
+        output_tokens = self.model.generate(
+            encoded_input.to(self.device),
+            max_new_tokens=256,
+            do_sample=False
+        )
+        translated_text = self.tokenizer.decode(
+            output_tokens[0][len(encoded_input[0]):], skip_special_tokens=True
+        )
+        return translated_text
+    
+    def translate_constraint_soft(self, text, src_lang, tgt_lang, terms_dict, soft_penalty=0.8):
+        messages = [{"role": "user", "content": f"Translate to {tgt_lang}: " + text}]
+        
+        encoded_input = self.tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, return_tensors="pt")
+        
+        tokens = []
+        for translation in terms_dict:
+            token = self.tokenizer(translation)['input_ids']
+            tokens.append(token)
+        
+        logits_processor = TerminologyAwareLogitsProcessor(
+            tokenizer=self.tokenizer,
+            en_text=text,
+            lang=tgt_lang,
+            soft_penalty=soft_penalty,
+            lang_dict=self.args.lang_dict,
+            tokens = tokens,
+        )
+        
+        output_tokens = self.model.generate(
+            encoded_input.to(self.device),
+            max_new_tokens=256,
+            logits_processor = [logits_processor],
+            do_sample=False
+        )
+        translated_text = self.tokenizer.decode(
+            output_tokens[0][len(encoded_input[0]):], skip_special_tokens=True
+        )
+        return translated_text
+
+
 class MaskedSeamlessTranslator(SeamlessTranslator):
     """
     Masked decoding Seamless Translator implementation

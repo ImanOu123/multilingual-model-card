@@ -68,6 +68,11 @@ class NLLBTranslatorConfig:
     cache_dir = "/data/user_data/jiaruil5/.cache/"
     lang_dict = nllb_lang_dict
 
+class AyaTranslatorConfig:
+    model_name = "CohereForAI/aya-expanse-8b"
+    cache_dir = "/compute/babel-12-25/jiaruil5/.cache/"
+    lang_dict = llm_lang_dict
+
 class GoogleTranslatorConfig:
     lang_dict = google_translator_lang_dict
 

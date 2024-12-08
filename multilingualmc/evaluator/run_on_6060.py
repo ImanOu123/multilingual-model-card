@@ -17,8 +17,6 @@ def choose_translator(args):
     elif args.model == 'seamless':
         from multilingualmc.translator.config import M4TLargeTranslatorConfig
         from multilingualmc.translator.translator import SeamlessTranslator
-        from multilingualmc.translator.config import M4TLargeTranslatorConfig
-        from multilingualmc.translator.translator import SeamlessTranslator
         trans_args = M4TLargeTranslatorConfig
         trans_args.method = args.method # type: ignore
         translator = SeamlessTranslator(trans_args)
@@ -30,27 +28,30 @@ def choose_translator(args):
         trans_args.method = args.method # type: ignore
         translator = NLLBTranslator(trans_args)
         return translator        
-        return translator
-    elif args.model == 'nllb':
-        from multilingualmc.translator.config import NLLBTranslatorConfig
-        from multilingualmc.translator.translator import NLLBTranslator
-        trans_args = NLLBTranslatorConfig
-        trans_args.method = args.method # type: ignore
-        translator = NLLBTranslator(trans_args)
-        return translator        
     elif 'gpt' in args.model:
-        from multilingualmc.translator.config import GPTTranslatorConfig
-        from multilingualmc.translator.translator import VLLMTranslator
         from multilingualmc.translator.config import GPTTranslatorConfig
         from multilingualmc.translator.translator import VLLMTranslator
         trans_args = GPTTranslatorConfig
         trans_args.model_name = args.model
         translator = VLLMTranslator(trans_args)
         return translator
+    elif args.model == 'aya':
+        from multilingualmc.translator.config import AyaTranslatorConfig
+        from multilingualmc.translator.translator import AyaTranslator
+        trans_args = AyaTranslatorConfig
+        trans_args.method = args.method # type: ignore
+        translator = AyaTranslator(trans_args)
+        return translator        
+    elif args.model == 'aya_old':
+        from multilingualmc.translator.config import AyaTranslatorConfig
+        from multilingualmc.translator.translator import AyaTranslator
+        trans_args = AyaTranslatorConfig
+        trans_args.model_name = "CohereForAI/aya-23-8B"
+        trans_args.method = args.method # type: ignore
+        translator = AyaTranslator(trans_args)
+        return translator        
     elif "llama3" in args.model:
         # llama3_8b, llama3_70b
-        from multilingualmc.translator.config import LLAMA3TranslatorConfig
-        from multilingualmc.translator.translator import LLAMATranslator
         from multilingualmc.translator.config import LLAMA3TranslatorConfig
         from multilingualmc.translator.translator import LLAMATranslator
         trans_args = LLAMA3TranslatorConfig
@@ -69,8 +70,6 @@ def choose_translator(args):
     elif "qwen" in args.model:
         from multilingualmc.translator.config import QWENTranslatorConfig
         from multilingualmc.translator.translator import QWENTranslator
-        from multilingualmc.translator.config import QWENTranslatorConfig
-        from multilingualmc.translator.translator import QWENTranslator
         trans_args = QWENTranslatorConfig
         if args.model == "qwen2_7b":
             trans_args.model_name = "/compute/babel-8-7/jiaruil5/.cache/models--Qwen--Qwen2-7B-Instruct/snapshots/f2826a00ceef68f0f2b946d945ecc0477ce4450c/" # type: ignore
@@ -83,7 +82,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/multilingualmc/data_eval_6060/2/acl_6060/dev/text/txt/ACL.6060.dev.en-xx.en.txt")
     parser.add_argument("--out_file", type=str, default="/home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_googletrans.jsonl")
-    parser.add_argument("--model", type=str, default='googletrans', choices=['googletrans', 'seamless', 'nllb', 'gpt-4o-mini', 'gpt-3.5-turbo', 'llama3_8b', 'llama31_8b', 'llama3_70b', 'llama31_70b', 'qwen2_7b'])
+    parser.add_argument("--model", type=str, default='googletrans', choices=['googletrans', 'seamless', 'nllb', 'gpt-4o-mini', 'gpt-3.5-turbo', 'llama3_8b', 'llama31_8b', 'llama3_70b', 'llama31_70b', 'qwen2_7b', 'aya', 'aya_old'])
     parser.add_argument("--method", type=str, default='none', choices=['none', 'constrained_beam_search'])
     parser.add_argument("--term_file_path", type=str, default=None, help="used only when the method is constrained_beam_search.")
     args = parser.parse_args()
