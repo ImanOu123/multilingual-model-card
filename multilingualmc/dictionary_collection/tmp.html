@@ -1,1 +1,110 @@
-<p>This is an example string with a <mark>highlighted</mark> word.</p>
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+     please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+    <h1>Multilingual Scientific Terminology Translation Quality Rating</h1>
+    <p>
+        <strong>
+            Task Overview:
+        </strong>
+        Evaluate the quality of translations for scientific terms.
+    </p>
+
+    <!-- <p><strong>Term (English):</strong> Transfer learning</p > -->
+    <p><strong>Term (English):</strong>${English}</p>
+    <p><strong>Context Paragraph:</strong> <br>${context}</p>
+
+    <p><strong>Instructions:</strong> Your task is to evaluate the translation quality of the scientific term based on
+        the provided context. Here are the steps to follow:
+    <ol>
+        <li>Read the Term and Context Paragraph: Understand the meaning and usage of the term within the context.</li>
+        <li>Review the Translation: Evaluate the provided translation of the term.</li>
+        <li>Judge the Translation Quality: Assess the quality of the translation based on its accuracy and
+            appropriateness within the context.</li>
+    </ol>
+    </p>
+
+    <p style="font-size: 15px;"><strong>Are you familiar with this terminology?</strong></p>
+
+    <p><strong>Source Terminology (English): </strong>${English}</p>
+
+    <crowd-radio-group name="term_familiarity" required>
+        <crowd-radio-button name="not_familiarity" value="0">No: Not familiar with this terminology</crowd-radio-button>
+        <crowd-radio-button name="is_familiarity" value="1">Yes: Familiar with this terminology</crowd-radio-button>
+    </crowd-radio-group>
+
+    <p><strong>Translated Terminology (Chinese): </strong>${Chinese}</p>
+
+
+    <crowd-radio-group name="translation_quality" required>
+        <crowd-radio-button name="low_quality" value="-1">No: The translation is incorrect.</crowd-radio-button>
+        <crowd-radio-button name="high_quality" value="1">Yes: The translation is correct.</crowd-radio-button>
+        <crowd-radio-button name="maybe" value="0">Maybe: The translation is possibly correct but you are
+            uncertain.</crowd-radio-button>
+    </crowd-radio-group>
+
+
+    <crowd-input name="corrected_translation" placeholder="Enter corrected translation if you selected 'No'"
+        required="false"></crowd-input>
+</crowd-form>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+   const termFamiliarityGroup = document.querySelector('crowd-radio-group[name="term_familiarity"]');
+   const translationQualityGroup = document.querySelector('crowd-radio-group[name="translation_quality"]');
+   const correctedTranslationInput = document.querySelector('crowd-input[name="corrected_translation"]');
+   const submitButton = document.querySelector('crowd-form button[type="submit"]');
+
+
+   // Initially disable translation quality and corrected translation
+   setElementsDisabled([translationQualityGroup, correctedTranslationInput], true);
+
+
+   termFamiliarityGroup.addEventListener('change', function(event) {
+       const isFamiliar = event.target.value === "1";
+       setElementsDisabled([translationQualityGroup], !isFamiliar);
+      
+       if (!isFamiliar) {
+           translationQualityGroup.value = null;
+           correctedTranslationInput.value = "";
+           setElementsDisabled([correctedTranslationInput], true);
+       }
+   });
+
+
+   translationQualityGroup.addEventListener('change', function(event) {
+       const isIncorrect = event.target.value === "-1";
+       setElementsDisabled([correctedTranslationInput], !isIncorrect);
+      
+       if (!isIncorrect) {
+           correctedTranslationInput.value = "";
+       }
+   });
+
+
+   function setElementsDisabled(elements, disabled) {
+       elements.forEach(element => {
+           if (element) {
+               element.disabled = disabled;
+               element.style.opacity = disabled ? "0.5" : "1";
+               element.style.pointerEvents = disabled ? "none" : "auto";
+           }
+       });
+   }
+
+
+   // Ensure submit button is always enabled
+   if (submitButton) {
+       submitButton.disabled = false;
+       submitButton.style.opacity = "1";
+       submitButton.style.pointerEvents = "auto";
+   }
+});
+</script>
