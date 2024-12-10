@@ -1,0 +1,416 @@
+Olá a todos. Hoje vou apresentar o nosso trabalho de [pesquisa] [Aprendizagem] para raciocinar dedutivamente: resolução de [math word problem] como [relation extraction] complexas.
+Sou o Allan do ByteDance [IA] Lab, e este é um trabalho conjunto com Jierui Li, da Universidade do Texas em Austin, e Wei Lu, da [SUTD].
+Primeiro, gostaria de falar sobre a nossa motivação [para] o [raciocínio].
+Mostramos aqui exemplos em que o [raciocínio] em vários passos é útil.
+Este número é retirado do [artigo] [PaLM], onde eles realizam solicitações para resolver o [problema] da rede no cenário de [aprendizagem] curta.
+Então, no lado esquerdo, podemos ver que, se dermos alguns exemplos com apenas [pergunta] e respostas, podemos não conseguir obter as respostas corretas.
+Mas se dermos uma descrição de [raciocínio], o [modelo] é capaz de prever a descrição de [raciocínio] e também fazer uma [previsão] correta aqui.
+É bom ter [raciocínio] [interpretável] multietapas como saída.
+E também achamos que [math world problem] é uma aplicação direta para avaliar tais capacidades de [raciocínio].
+Aqui na nossa configuração de [problema], damos as [perguntas] de precisamos para resolver essa [pergunta] e obter as respostas numéricas.
+Assim, nos nossos [conjuntos de dados], também recebemos a expressão matemática que leva a essa [resposta] em particular.
+Assim, certas suposições também se aplicam como no trabalho [anterior].
+Assumimos que a precisão das quantidades é conhecida.
+E consideramos apenas operadores básicos como adição, subtração, multiplicação, divisão e exponencial.
+[Além disso], os operadores complicados podem ser realmente decompostos nestes operadores básicos.
+Assim, o trabalho [anterior] em resolução de [math word problem] pode realmente ser categorizado em [sequência] para [sequência] e [sequência] para [modelo] de árvore.
+Assim, o [modelo] tradicional de [sequência] para [sequência] converte a expressão para uma [sequência] [para] [geração] específica.
+E é muito fácil de implementar e pode [generalizar] para muitos [problemas] complicados diferentes.
+Mas as desvantagens são que o desempenho geralmente não é melhor do que o [modelo] [estruturado] e a sua falta de [interpretabilidade] [para] [previsão].
+Mas, na verdade, esta direção ainda é bastante popular por causa do [modelo] [transformador].
+Então, em [modelos] baseados em árvore, nós realmente [estruturamos] estas expressões na forma de árvore e seguimos uma travessia preordenada em gerações de árvores.
+Então, aqui continuamos a [gerar] os operadores até chegarmos às folhas, que são as quantidades.
+O que é bom aqui é que realmente nos dá esta [estrutura] de árvore [binária], e é, mas na verdade é bastante contraintuitivo porque geramos o operador primeiro e depois, no final, geramos as quantidades.
+E a segunda coisa é que também contém alguns cálculos repetitivos.
+Aqui, se olharmos para esta expressão, oito vezes três mais três é realmente [gerado] duas vezes, mas na verdade devemos reutilizar os resultados.
+Então, na nossa [abordagem] proposta, queremos resolver estes problemas passo a passo e de formas [interpretáveis].
+Então [por] exemplo, aqui no segundo passo, podemos obter estes divisores, vinte e sete.
+E também podemos consultar de novo as [perguntas] originais para encontrar os conteúdos relevantes.
+E nestes passos obtemos os divisores.
+E então neste terceiro passo nós conseguimos obter o quociente.
+Certo. E após estes três passos, podemos mesmo reutilizar os resultados do segundo passo e, em seguida, obter os resultados do quarto passo e, finalmente, conseguimos obter os dividendos.
+Então, aqui geramos toda a expressão diretamente em vez de [gerar] um único operador ou quantidades.
+Isto torna o processo mais preciso.
+No nosso [sistema] dedutivo, primeiro começamos com algumas quantidades apresentadas nas [perguntas] e também incluímos alguma constante como o nosso estado inicial.
+Assim, a expressão é representada por e i j o p.
+Onde realizamos o operador de q_i a q_j, e tal expressão é realmente direcionada.
+Então, também temos a subtração com [palavras] aqui para representar a direção oposta.
+Isto é bastante [semelhante] a [relation extraction].
+Assim, num [sistema] dedutivo formal, num passo de tempo t, aplicamos o operador entre o par q_i e q_j, e então obtemos esta nova expressão.
+Adicionamo-la ao próximo estado para se tornar uma nova quantidade.
+É possível visualizar nestes diapositivos a evolução do estado em que continuamos a adicionar expressão ao estado atual.
+Nas nossas implementações de [modelo], primeiro usamos um [modelo] de [linguagem pré-treinada] que pode ser [BERTs] ou Robertas e depois [codificamos] a [frase] e então obtemos estas [representações] de quantidades.
+Assim que obtemos as [representações] de quantidade, podemos começar a fazer [inferência].
+Aqui mostramos um exemplo de q_1 para obter a [representação] [para] q_2 dividida por q_2 e depois vezes q_3.
+Primeiro obtemos a [representação] de par, que é basicamente apenas a [concatenação] entre q_1 e q_2, e então aplicamos uma rede de controlo por antecipação que é parametrizada pelo operador.
+E então, finalmente, obtemos a [representação] da expressão q_1 dividida por q_2.
+Mas, de facto, na prática, na fase de [inferência], podemos ser capazes de obter também a expressão incorreta.
+Aqui, toda a expressão possível é igual a três vezes o [número] de operadores.
+O que é bom aqui é que podemos facilmente adicionar restrições para controlar este espaço de [pesquisa].
+[Por] exemplo, se esta expressão não for permitida, podemos simplesmente remover esta expressão no nosso espaço de [pesquisa].
+Então, no segundo passo, fazemos a mesma coisa, mas a única diferença é que a única diferença é mais uma quantidade.
+Portanto, esta quantidade vem da expressão calculada [anterior].
+Então podemos finalmente obter esta expressão final q_3 vezes q_4.
+E também podemos ver que o [número] de todas as expressões possíveis é diferente do passo [anterior].
+Então, tal diferença torna difícil aplicar [beam search] porque a distribuição de probabilidade entre estes dois passos é desequilibrada.
+Assim, o procedimento de [treinamento] é [semelhante] ao [treinamento] de um [modelo] de [sequência] a [sequência], onde otimizamos a perda em cada passo de tempo.
+E aqui também usamos este tau para representar quando devemos encerrar este processo de [geração].
+E aqui o espaço é diferente de [sequência] a [sequência] porque o espaço é diferente em cada passo de tempo, enquanto que no [modelo] tradicional de [sequência] a [sequência], este é o [número] de [vocabulário].
+E também nos permite impor certas restrições do [conhecimento] anterior.
+Assim, realizamos experiências nos [conjuntos de dados] de [math word problems], [MAWPS], Math23K, [MathQA] e [SVAMP] tipicamente usados.
+E aqui mostramos brevemente os resultados [comparados] com as melhores abordagens [anteriores].
+Portanto, a nossa variante com melhor desempenho é Roberta-DeductiveReasoner.
+E, na verdade, não usamos [beam search], em contraste, todas as abordagens [anteriores] estão a usar [beam search].
+Muito bem. Assim, as melhores abordagens são muitas vezes baseadas no [modelo] em árvore.
+Então, no geral, o nosso raciocinador é capaz de superar significativamente este [modelo] baseado em árvore.
+Mas podemos ver que os números absolutos no [MathQA] ou [SVAMP] não são muito altos.
+Então, investigamos ainda mais os resultados no [SVAMP].
+E este [conjunto de dados] é desafiador porque o autor tentou [manualmente] adicionar algo para confundir o [modelo] [NLP], como adicionar [informações] irrelevantes e quantidades extra.
+Então, na nossa [previsão], descobrimos que alguns dos valores intermediários são realmente negativos.
+[Por exemplo], nestas [perguntas], perguntamos quantas maçãs tem o Jake?
+Mas temos algumas [informação] extra, como dezassete fotografias a menos, e o Steven tem oito fotografias, o que é totalmente irrelevante.
+O nosso [modelo] faz alguma [previsão] como esta que está a produzir valores negativos.
+E observamos que estas duas expressões realmente têm classificações [semelhantes].
+Então, podemos realmente limitar este espaço de [pesquisa] removendo os resultados negativos para que possamos criar uma [resposta] correta.
+Então, descobrimos ainda que esta [restrição] melhora muito [para] alguns [modelos].
+[Por] exemplo, [para] [BERT], melhoramos sete pontos e depois, [para] o [modelo] básico do Roberta, na verdade melhoramos dois pontos.
+Um melhor [modelo de linguagem] tem melhores capacidades de [language understanding] para que o [número] aqui seja maior [para] o Roberta e menor [para] o [BERT].
+Também tentamos analisar a dificuldade entre estes por trás de todos estes [conjuntos de dados].
+Assumimos que o [número] de quantidades não utilizadas pode ser considerado [informação] irrelevante aqui.
+Então, aqui podemos ver que temos a percentagem de amostras com quantidades não utilizadas, e o [conjunto de dados] [SVAMP] tem a maior porção.
+E aqui também mostramos o desempenho geral.
+[Para] essas amostras sem quantidades não utilizadas, o desempenho é maior do que o desempenho geral.
+Mas com essas amostras com quantidades não utilizadas é realmente muito pior do que o desempenho geral.
+[Para] [MAWPS], nós não temos muitos casos de teste, então eu simplesmente ignoro esta parte.
+Finalmente, queremos mostrar a [interpretabilidade] através de um exemplo de perturbação de [pergunta].
+Aqui, o nosso [modelo], na verdade, faz uma [previsão] errada no primeiro passo.
+Podemos realmente correlacionar esta expressão com a [frase] aqui. Certo.
+Então, achamos que esta [frase] pode estar a enganar o [modelo] para previsões incorretas.
+Aqui, plantar mais trinta e cinco faz o [modelo] pensar que deveria ser um operador de adição.
+Então tentamos rever a [frase] para ser algo como o [número] de pereiras são trinta e cinco menos do que as macieiras.
+Nós fazemos isto para transmitir uma [semântica] mais precisa, de modo a que o [modelo] seja capaz de fazer a [previsão] correta.
+Portanto, este estudo mostra como as previsões [interpretáveis] nos ajudam a perceber o comportamento do [modelo].
+Então, para concluir o nosso trabalho, primeiro, o nosso [modelo] é realmente muito eficiente.
+E somos capazes de fornecer um procedimento de resolução [interpretável].
+E podemos facilmente incorporar algum [conhecimento] prévio como [restrição] que pode ajudar a melhorar o desempenho.
+E a última coisa é que o mecanismo subjacente não se aplica apenas a [tarefas] de resolução de [problemas] de rede, mas também a outras [tarefas] que envolvem [raciocínio] de vários passos.
+Também temos certas limitações.
+Se tivermos um [grande] [número] de operadores ou constantes, o consumo de memória pode ser bastante alto.
+E a segunda coisa é que, como mencionado, porque a distribuição de probabilidade é desequilibrada entre diferentes passos de tempo, também é bastante desafiador aplicar a estratégia de [beam search].
+Este é o fim da palestra, e [perguntas] são bem-vindas. Obrigado.
+Olá, o meu nome é Antoine e sou da Universidade de Maastricht.
+Vou apresentar o meu trabalho conjunto com o Jerry, sobre um Novo [conjunto de dados] [para] [recuperação] de artigos estatutários.
+Questões legais são parte integrante da vida de muitas pessoas.
+Mas a maioria dos cidadãos tem pouco a nenhum [conhecimento] sobre os seus direitos e processos legais fundamentais.
+Como resultado, muitos cidadãos vulneráveis que não podem pagar a assistência dispendiosa de um especialista jurídico são deixados desprotegidos ou, pior, explorados.
+Todo o trabalho visa colmatar a lacuna entre as pessoas e a lei através do desenvolvimento de um [sistema] de [recuperação] eficaz [para] artigos estatutários.
+Tal [sistema] poderia fornecer um serviço de ajuda jurídica profissional gratuito [para] humanos não qualificados.
+Antes de mergulhar na principal contribuição deste trabalho, vamos primeiro descrever o [problema] da [recuperação] de artigos estatutários.
+Dada uma simples [pergunta] sobre uma questão legal, como, o que arrisco se violar o sigilo profissional?
+Um [modelo] é necessário para recuperar todos os artigos estatutários relevantes de um corpo [grande] de legislação.
+Esta [tarefa] de [recuperação de informações] vem com o seu próprio conjunto de desafios.
+Primeiro, lida com dois tipos de [linguagem].
+[Linguagem natural] comum [para] as [perguntas] e [linguagem] jurídica complexa [para] os estatutos.
+Esta diferença nas [distribuições] de [idioma] torna mais difícil [para] um [sistema] recuperar candidatos relevantes, pois requer indiretamente um [sistema] de interpretação inerente que possa traduzir uma [pergunta] [natural] para uma [pergunta] legal que corresponda à [terminologia] dos estatutos.
+Além disso, a lei estatutária não é uma pilha de artigos independentes que podem ser tratados como uma [fonte] completa de [informações] por conta própria, ao contrário de [notícias] ou receitas, [por] exemplo.
+Em vez disso, é uma coleção [estruturada] de disposições legais que têm todo um [significado] apenas quando consideradas no [contexto] geral, ou seja, juntamente com as [informações] suplementares dos artigos vizinhos, os campos e subcampos aos quais pertencem e seu lugar na [estrutura] da lei.
+Por fim, os artigos estatutários não são parágrafos pequenos, que geralmente são a unidade típica de [recuperação] na maioria dos trabalhos de [recuperação].
+Aqui, há [documentos] longos que podem chegar a seis mil [palavras].
+Os [avanços recentes] em [NLP] despertaram um enorme interesse em muitas [tarefas] legais, como [previsão] de julgamentos legais ou revisão automatizada de contratos de contacto.
+Mas a [recuperação] de artigos estatutários permaneceu praticamente intocada devido à falta de [conjuntos de dados] [rotulados] [grandes] de alta [qualidade].
+Neste trabalho, apresentamos um novo [conjunto de dados] centrado no cidadão nativo [francês] para estudar se [modelos] de [recuperação] se podem aproximar à eficiência e fiabilidade de um especialista jurídico [para] a [tarefa] de [recuperação] de artigos estatutários.
+O nosso [conjunto de dados] [BSARD] de [recuperação] de artigos estatutários belga consiste em mais de mil e cem [perguntas] legais feitas por cidadãos belgas.
+Estas [perguntas] abrangem uma [ampla gama] de tópicos, desde família, alojamento, dinheiro, trabalho e segurança [social].
+Cada um deles foi [rotulado] por juristas experientes com referências a artigos relevantes de um [corpus linguístico] de mais de vinte e dois mil e seiscentos artigos jurídicos de códigos de direito belgas.
+Vamos agora falar sobre como recolhemos este [conjunto de dados].
+Primeiro, começámos por compilar um [grande] [corpus linguístico] de artigos jurídicos.
+Considerámos trinta e dois códigos belgas publicamente disponíveis e [extraímos] todos os artigos, bem como os títulos das secções [correspondentes].
+Em seguida, reunimos [perguntas] legais com referências a estatutos relevantes.
+Para isso, fazemos parceria com o escritório de advocacia belga que recebe anualmente cerca de quatro mil e-mails de cidadãos belgas que pedem conselhos [para] uma questão jurídica pessoal.
+Tivemos a sorte de ter acesso aos seus sites, onde a sua equipa de juristas experientes aborda as questões jurídicas mais comuns dos belgas.
+Recolhemos milhares de [perguntas] [anotadas] com categorias, subcategorias e referências legais a estatutos relevantes.
+Por fim, passámos as referências legais e filtrámos as [perguntas] cujas referências não eram artigos em um dos códigos de direito que considerámos.
+As referências restantes foram combinadas e convertidas para os identificadores do artigo [correspondente] do nosso [corpus linguístico].
+Acabámos com mil cento e oito [perguntas], cada uma cuidadosamente [rotulada] com os identificadores dos artigos relevantes do nosso [grande] [corpus linguístico] de vinte e dois mil e seiscentos e trinta e três artigos estatutários.
+Além disso, cada [pergunta] vem com a categoria principal e uma [concatenação] de subcategorias.
+E cada artigo vem com uma [concatenação] do título de subsequência na [estrutura] da lei.
+Esta [informação] extra não é usada no presente trabalho, mas pode ser de interesse [para] futuras [pesquisas] sobre [recuperação de informação] legal ou [classificação de texto] legal.
+Vejamos algumas características do nosso [conjunto de dados].
+As [perguntas] têm entre cinco e quarenta e quatro [palavras] de comprimento com uma mediana de catorze [palavras].
+Os artigos são muito mais longos, com um comprimento médio de setenta e sete [palavras], com cento e quarenta e dois deles excedendo as mil [palavras].
+O mais longo sendo até cinco mil setecentos e noventa [palavras].
+Como mencionado anteriormente, as [perguntas] abrangem uma [ampla gama] de tópicos, com cerca de oitenta e cinco por cento deles sendo sobre família, alojamento, dinheiro ou justiça.
+Enquanto os restantes quinze por cento dizem respeito a segurança social, estrangeiros ou trabalho.
+O artigo também é muito diversificado, pois vêm de trinta e dois códigos belgas diferentes que cobrem um [grande] [número] de tópicos legais.
+Aqui está o [número] total de artigos recolhidos de cada um destes códigos belgas.
+Dos vinte e dois mil seiscentos e trinta e três artigos, apenas mil seiscentos e doze são referidos como relevantes para pelo menos uma [pergunta] no [conjunto de dados].
+E cerca de oitenta por cento destes artigos citados vêm do código civil, códigos judiciais, códigos de investigação criminal ou códigos penais.
+Enquanto isso, dezoito dos trinta e dois códigos têm menos de cinco artigos mencionados como relevantes para pelo menos uma [pergunta].
+O que pode ser explicado pelo facto de que esses códigos se concentraram menos em indivíduos e nas suas preocupações.
+No geral, o [número] mediano de citações [para] estes artigos citados é de dois, e menos de vinte e cinco por cento deles são citados mais de cinco vezes.
+Usando todos os [conjuntos de dados], comparámos várias abordagens de [recuperação], incluindo arquitetura [lexical] e densa.
+Dada uma [consulta] e um artigo, um [modelo] [lexical] atribui uma pontuação ao par de artigos de [consulta] calculando a soma sobre os termos de [consulta] dos [pesos] de cada um desses termos nesse artigo.
+Experimentamos as funções de classificação TF-[IDF] e BM25 padrão.
+O principal [problema] com estas abordagens é que só podem recuperar artigos que contenham palavras-chave presentes na [consulta].
+Para superar esta limitação, experimentamos uma arquitetura de base [neural] que pode capturar relações [semânticas] entre [consultas] e o artigo.
+Usamos um [modelo] bi-[codificador] que mapeia [consultas] e artigos em [representações] de [vetor] densas e calcula uma pontuação de relevância entre um par de artigos de [consulta] pela [similaridade] das suas [integrações].
+Estas [integrações] normalmente resultam de uma operação de acumulação na saída de um [modelo] de [integrações de palavras].
+Primeiro, estudamos a eficácia dos bi-[codificadores] siameses numa configuração de [avaliação] de tiro zero, num [significado] de que os [modelos] [pré-treinados] de [integração de palavras] são aplicados como estão sem qualquer [ajuste fino] adicional.
+Nós experimentamos com um [codificador] de [texto] de [contexto] independente, [ou seja], [word2vec] e fastText, e [modelos] de [integração] de [contexto] dependentes, [ou seja] Roberta e mais especificamente [CamemBERT] que é um [modelo] [francês] do Roberta.
+[Além disso], treinamos nosso próprio [CamemBERT] com base num [modelo] de bi-[codificadores] no nosso [conjunto de dados].
+Observe que [para] [treinamento], experimentamos os dois sabores da arquitetura de bi-[codificador].
+O siamês, que usa um [modelo] de [integração de palavras] exclusivo que mapeia a [consulta] e o artigo juntos num [espaço de vetor] [compartilhado] denso, e duas torres, que usa dois [modelos] de [integração de palavras] independentes que [codificam] a [consulta] e o artigo separadamente em diferentes espaços de [integração].
+Nós experimentamos com acumulação [CLS] média e máxima, bem como produto e [cosseno] [para] semelhanças de computação.
+Aqui está o resultado da nossa linha de base nos conjuntos de teste.
+Com os [métodos] [lexicais] acima, os bi-[codificadores] siameses avaliados numa configuração de tiro zero no meio e os bi-[codificadores] afinados abaixo.
+No geral, o bi-[codificador] ajustado supera significativamente todas as outras [linhas de referência].
+O [modelo] de duas torres melhora em relação às suas variantes siamesas na recuperação em cem, mas tem um desempenho semelhante nas outras [métricas].
+Embora o BM25 tenha tido um desempenho inferior ao do bi-[codificador] treinado significativamente, o seu desempenho indicou que ainda é uma linha de referência forte [para] [recuperação] específica de [domínio].
+Em relação à [avaliação] de tiro zero do bi-[codificador] siamês, descobrimos que usar diretamente as [integrações] de um [modelo] [CamemBERT] [pré-treinado] sem otimizar [para] a [tarefa] [recuperação de informações] dá resultados maus, o que é consistente com os resultados [anteriores].
+[Além disso], observamos que o bi- [codificador] baseado em [word2vec] superou significativamente os [modelos] baseados em fastText e [BERT], sugerindo que talvez as [integrações] ao nível da [palavra] [pré-treinada] seja mais apropriado [para] a [tarefa] do que o nível de caractere ou [integrações] ao nível de [subpalavra] quando usado como está.
+Embora promissores, estes resultados sugerem uma ampla oportunidade [para] melhoria [comparado] com um especialista jurídico qualificado que pode eventualmente recuperar todos os artigos relevantes para qualquer [pergunta] e, assim, obter pontuações perfeitas.
+Vamos concluir discutindo duas limitações do nosso [conjunto de dados].
+Em primeiro lugar, o [corpus linguístico] de artigos limita-se aos recolhidos a partir dos trinta e dois códigos belgas considerados, o que não abrange toda a lei belga, uma vez que faltam artigos de decretos, diretivas e portarias.
+Durante a construção do [conjunto de dados], todas as referências a estes artigos não recolhidos são ignoradas, o que faz com que algumas [perguntas] acabem com apenas uma fração do [número] inicial de artigos relevantes.
+Esta [informação], portanto, implica que a [resposta] contida nos artigos relevantes restantes pode estar incompleta, embora seja completamente apropriada.
+Em segundo lugar, devemos notar que não se pode responder a todas as [perguntas] legais apenas com estatutos.
+[Por] exemplo, a [pergunta], posso despejar os meus inquilinos se fizerem muito barulho?
+Pode não ter uma [resposta] detalhada dentro da lei estatutária que quantifique um limite de ruído específico a partir do qual o despejo é permitido.
+Em vez disso, o proprietário provavelmente deve confiar mais na jurisprudência e encontrar precedentes [semelhantes] à sua situação atual.
+[Por] exemplo, os inquilinos fazem duas festas por semana até às duas da manhã.
+[Consequentemente], algumas [perguntas] são mais adequadas do que outras para a [tarefa] de [recuperação] de artigos estatutários, e o [domínio] das menos adequadas continua indeterminado.
+Esperamos que o nosso trabalho desperte interesse no desenvolvimento de [modelos] de [recuperação] de artigos estatutários práticos e fiáveis.
+Isso pode ajudar a melhorar o acesso à justiça [para] todos.
+Podem ver o nosso [artigo], [conjunto de dados] e código nos links a seguir. Obrigado.
+Olá, estamos felizes em apresentar nosso trabalho em [VALSE]; um termo de comparação independente de [tarefas] feito [para] testar a visão e [modelos de linguagem] com fenómenos [linguísticos] específicos.
+Porque é que nos esforçámos para estabelecer este termo de comparação?
+Bem, durante os últimos anos, vimos uma explosão de visão baseada em [transformadores] e [modelos de linguagem] [pré-treinados] em [grandes] quantidades de pares [imagem]-[texto].
+Cada um destes [modelos] impulsiona a última geração em [tarefas] de visão e [idioma], como [visual question answering], [raciocínio] [visual] de [sentido] comum, [recuperação] de [imagem], [embasamento] de [frases].
+Então, recebemos uma mensagem, as precisões nestas [tarefas] e termos de comparação específicos estão a aumentar de forma constante.
+Mas sabemos o que os [modelos] realmente aprenderam?
+O que é que um [transformador] de visão e [idioma] compreendeu ao atribuir uma pontuação alta [para] esta [imagem] e esta [frase] para combinar?
+E a pontuação baixa [para] esta?
+Os [modelos de linguagem] e visão concentram-se na coisa certa?
+Ou concentram-se em [preconceitos] como mostrado pelo trabalho [anterior]?
+Para lançar mais luz sobre este [aspecto], [propomos] uma direção mais agnóstica à [tarefa] e introduzimos o [VALSE], que testa a sensibilidade de [modelos de linguagem] e visão a fenómenos [linguísticos] específicos que afetam as [modalidades] [linguísticas] e [visuais].
+Tomámos como [alvo] a existência, pluralidade, contagem, [relações] [espaciais], ações e [correferência] de [entidade].
+Mas como testamos se os [modelos de linguagem] e visão capturaram este fenómeno?
+Ao frustrar um [método] anteriormente aplicado [para] [modelos de linguagem] e visão apenas [para] frases com [substantivos] de Ravi Shekhar e colaboradores, e na contagem por nós em trabalhos [anteriores].
+Frustar basicamente significa que pegamos na legenda de uma [imagem] e produzimos um frustração que altera a legenda de modo a que deixe de descrever a [imagem].
+E fazemos estas alterações na [frase] concentrando-nos em seis peças específicas, como existência, pluralidade, contagem, [relações] [espaciais], ações e [correferência] de [entidade], onde cada peça pode consistir em um ou mais instrumentos, caso encontremos mais de uma forma interessante de criar instâncias de frustação.
+[Por] exemplo, no caso da peça de ações, temos dois instrumentos, um em que o [verbo] de ação é alterado com uma ação diferente e um em que os actantes são trocados.
+Contagem e [correferência] também são peças que possuem mais de um instrumento.
+E nós criámos estas frustação, certificando-se de que não descrevem a [imagem], mas que são [frases] válidas [gramaticalmente] e de outras formas.
+Isto não é fácil de fazer porque uma legenda frustrada pode ser menos provável do que a legenda original.
+[Por] exemplo, embora não seja impossível, é estatisticamente menos provável [que] as plantas cortem um homem do que um homem corte plantas, e [modelos de linguagem] e visão [grandes] podem captar isto.
+[Assim], para obter frustrações válidas, devemos agir.
+Primeiro, fazemos uso de [modelos de linguagem] fortes para [propor] frustrações.
+Em segundo lugar, usamos [natural language inference] ou [NLI] curtas para filtrar frustrações que ainda podem estar a descrevendo a [imagem], já que ao construir frustrações precisamos de garantir que não descrevem a [imagem].
+Para testar isto [automaticamente], aplicamos [natural language inference] com o seguinte raciocínio.
+Consideramos uma [imagem] como a premissa e a sua legenda como a sua hipótese implicada.
+Além disso, consideramos a legenda como a premissa, e a frustração é a sua hipótese.
+Se um [modelo] [NLI] prevê que a frustração contradiga ou seja neutra em relação à legenda, tomamos isto como um indicador de uma frustação válida.
+Se uma [NLI] prevê que a frustração seja implicada pela legenda, não pode ser uma boa frustração, uma vez que, por transitividade, dará uma descrição verdadeira da [imagem], e filtramos estas frustrações.
+Mas este procedimento não é perfeito, é apenas um indicador [para] frustrações válidas.
+[Assim], como uma terceira medida [para] [gerar] frustrações válidas, empregamos [anotadores] [humanos] para validar os [dados] usados no [VALSE].
+Assim, após a filtragem e [avaliação humana], temos tantas instâncias de teste como descrito nesta tabela.
+Pode observar-se que o [VALSE] não fornece nenhuns [dados de treinamento], apenas testa [dados].
+Uma vez que é apenas um termo de comparação de teste de tiro zero, é projetado para alavancar as capacidades [existentes] de [modelos de linguagem] e visão após [pré-treinamento].
+O [ajuste fino] só permitiria aos [modelos] explorar artefatos ou [preconceitos] [estatísticos] nos [dados].
+E todos nós sabemos que estes [modelos] gostam de fazer batota e usar atalhos.
+E, como dissemos, estamos interessados em [avaliar] quais as capacidades de [modelos de linguagem] e visão têm após o [pré-treinamento].
+Experimentamos cinco [modelos de linguagem] e visão no [VALSE], [ou seja] com [CLIP], [LXMert], [ViLBERT], [ViLBERT] doze em um e [VisualBERT].
+Duas das nossas mais importantes [métricas] de [avaliação] são a precisão dos [modelos] para [classificar] pares de [imagem]-[frase] em [legendas] e frustrações.
+Talvez mais relevante [para] este vídeo, mostraremos a nossa métrica mais permissiva, a precisão [par a par], que mede se a pontuação de [alinhamento de frases]-[imagem] é maior [para] o par [imagem]-[texto] correto do que [para] o seu par frustrado.
+[Para] mais [métricas] e resultados sobre eles, veja o nosso [artigo].
+Os resultados com precisão [par a par] são mostrados aqui e são consistentes com os resultados que obtivemos das outras [métricas] é que o melhor desempenho de tiro zero é alcançado pelo [ViLBERT] doze em um, seguido pelo [ViLBERT], [LXMert], [CLIP] e, finalmente, [VisualBERT].
+É notável como instrumentos centrados em objetos individuais como existência e frases com [substantivo] são quase resolvidos pelo [ViLBERT] doze em um, destacando que [modelos] são capazes de [identificar] objetos [nomeados] e a sua presença em imagens.
+No entanto, nenhuma das peças restantes pode ser resolvida de forma fiável nas nossas configurações de frustração [adversárias].
+Vemos a partir da pluralidade e dos instrumentos de contagem que os [modelos de linguagem] e visão têm dificuldade em distinguir referências a objetos únicos contra múltiplos, ou contá-los numa [imagem].
+A peça de [relação] mostra que têm dificuldades em [classificar] corretamente uma [relação] [espacial] [nomeada] entre objetos numa [imagem].
+Também têm dificuldade em distinguir ações e [identificar] os seus participantes, mesmo que apoiados por [preconceitos] de plausibilidade como vemos na peça de ações.
+A partir da peça de [correferência], descobrimos que traçar várias referências ao mesmo objeto numa [imagem] usando [pronomes] também é difícil [para] [modelos de linguagem] e visão.
+Como uma verificação de sanidade, e porque é uma experiência interessante, também comparamos dois [modelos] apenas de [texto], [GPT] um e [GPT] dois, para avaliar se o [VALSE] é solucionável por estes [modelos] unimodais calculando a [perplexidade] da legenda correta e frustrada, sem [imagem] aqui, e prevendo a entrada com a menor [perplexidade].
+Se a [perplexidade] é maior [para] a frustração, tomamos isto como uma indicação de que a legenda frustrada pode sofrer de [preconceitos] [linguísticos] de plausibilidade.
+E é interessante ver que, em alguns casos, os [modelos] [GPT] apenas com [texto] capturaram a plausibilidade do mundo melhor do que os [modelos de linguagem] e visão.
+Então, para resumir, o [VALSE] é uma referência que usa a lente de construções [linguísticas] para ajudar a comunidade a melhorar [modelos de linguagem] e visão testando duramente as suas capacidades [embasamento] [visuais].
+As nossas experiências mostram que os [modelos de linguagem] e visão identificam bem os objetos [nomeados] e sua presença nas imagens, como mostra a peça de existência, mas lutam para fundamentar a sua interdependência e relações em cenas [visuais] quando forçados a respeitar indicadores [linguísticos].
+Gostaríamos muito de encorajar a comunidade a usar o [VALSE] [para] medir o progresso em direção a [embasamento] de [idioma] com [modelos de linguagem] e visão.
+E além disso, o [VALSE] poderia ser usado como uma avaliação indireta de [conjuntos de dados], já que os [modelos] poderiam ser avaliados antes e depois do [treinamento] ou [ajuste fino] para ver se um [conjunto de dados] ajuda os [modelos] a melhorar em qualquer um dos aspectos testados pelo [VALSE].
+Se houver interesse, os [dados] do [VALSE] podem ser vistos no GitHub e, se houverem [perguntas], não hesitem em contactar-nos.
+Olá, o meu nome é Kamezawa da Universidade de Tóquio.
+Vou apresentar um [artigo] intitulado [RNSum]: um [conjunto de dados] de [grande] escala [para] [geração] [automática] de notas de lançamento através de [sumarização] de registos de confirmação.
+Vou explicar nesta ordem.
+Primeiro, apresentarei a [geração] [automática] de notas de lançamento em que estamos a trabalhar nesta [pesquisa].
+Uma nota de lançamento é um [documento] técnico que resume as mudanças distribuídas com cada lançamento de um produto de software.
+A [imagem] mostra uma nota de lançamento [para] a versão 2.6.4 da biblioteca vuejs.
+As notas de lançamento desempenham um papel importante no desenvolvimento de [código aberto], mas consomem tempo ao serem preparadas [manualmente].
+[Assim], seria muito útil ser capaz de gerar notas de lançamento de alta [qualidade] [automaticamente].
+Vou referir-me a duas pesquisas [anteriores] sobre a [geração] [automática] de notas de lançamento.
+O primeiro é um [sistema] chamado [ARENA] lançado em 2014.
+É precisa uma [abordagem] baseada em regras, [por] exemplo, usando o [extrator] de alterações para extrair todas as diferenças, alterações de biblioteca e alterações de [documento] das diferenças entre versões e, finalmente, combiná-las.
+A característica mais notável deste [sistema] é o [extrator] de problemas no canto superior direito.
+Que deve ser deixado para o Jira, o [sistema] monitorizador de problemas, e só pode ser aplicado a projetos que usam o Jira.
+Por outras [palavras], não pode ser usado [para] muitos projetos no GitHub.
+O segundo é Glyph, anunciado recentemente em 2020.
+Está disponível na [internet] e pode ser instalado através do pip.
+Este [sistema] tem uma [aprendizagem] simples baseada num [modelo] de [classificação de texto] e [cria] um de cinco rótulos, como [características] ou correções de erros [para] cada mensagem de confirmação de [entrada].
+Esta [imagem] é uma amostra de uso que devolve um rótulo corretivo ou de correções de erros.
+Os [dados de treinamento] do Glyph são bastante pequenos, cerca de cinco mil, e serão mostrados nas experiências descritas abaixo.
+O desempenho do [modelo] de [text classification] não é alto.
+Apresento duas pesquisas relacionadas, mas os seus problemas são de aplicabilidade limitada e escassos [recursos] de [dados].
+O nosso [artigo] resolve estes dois problemas e gera notas de lançamento de alta [qualidade] [automaticamente].
+Com um [problema] de aplicabilidade limitada, nós [propomos] um [método] de [sumarização] em termos de classe de alta [qualidade] usando apenas mensagens de confirmação como [entrada].
+Este [método] proposto pode ser usado [para] todos os repositórios em [inglês].
+[Para] o segundo [problema] de [recursos] de [dados] escassos, construímos o nosso [conjunto de dados] [RNSum] consistindo em cerca de oitenta e dois mil [dados] recolhendo [dados] de repositórios públicos do GitHub usando o [API] do GitHub.
+Em seguida, vou descrever o nosso [conjunto de dados].
+Aqui está um exemplo de [dados].
+O lado esquerdo é uma mensagem de confirmação e o lado direito são as notas de lançamento.
+As notas de lançamento são [rotuladas] como melhorias ou correções, etc.
+Configurámos uma [tarefa] que usa as mensagens de confirmação como [entrada] e [cria] notas de lançamento [rotuladas].
+Isto pode ser considerado como uma [tarefa] de [sumarização].
+Temos quatro rótulos predefinidos: [características], melhorias, correções de erros, remoções de desaprovações e alterações de interrupção.
+Estes foram definidos com base em [pesquisas] [anteriores] e outros fatores.
+A nota de lançamento no canto inferior direito é [extraída] da nota de lançamento no canto inferior esquerdo.
+Neste momento, é necessário detetar os quatro rótulos que foram configurados com antecedência.
+Mas os rótulos nem sempre são consistentes com cada repositório.
+[Por] exemplo, o rótulo de melhorias inclui melhorias, aperfeiçoamentos, otimizações e assim por diante.
+Preparamos uma lista de [vocabulário] de cerca de trinta rótulos [para] cada uma dessas variações notacionais.
+Isto serve para detetar a classe de notas de lançamento e recolhe o [texto] da versão que se segue como a [frase] da nota de lançamento [para] a classe.
+Em seguida, temos uma mensagem de confirmação.
+As mensagens de confirmação não estão vinculadas a cada lançamento.
+Como mostrado na [imagem] abaixo, se o lançamento atual é a versão 2.5.19, precisamos identificar a versão [anterior] 2.5.18 do lançamento e obter um diferencial.
+Isto é um pouco monótono e não é suficiente obter apenas uma lista de lançamentos e olhar para o antes e o depois.
+Criámos uma regra de correspondência [heurística] para obter as versões [anterior] e seguinte.
+[Análise] do [conjunto de dados].
+No final, foram recolhidos sete mil e duzentos repositórios e oitenta e dois mil peças de [dados].
+Além disso, o [número] médio de [tokens] de notas de lançamento é sessenta e três, o que é bastante alto [para] uma [tarefa] de [sumarização].
+Além disso, o [número] de [tokens] únicos é bastante [grande], oito mil oitocentos e trinta mil.
+Isto deve-se ao [grande] [número] de nomes de classe única ou [método] encontrados no repositório.
+Em seguida, explicarei o [método] proposto.
+O [extrativo] em termos de classe, seguido do [modelo] de [abstractive summarization] consiste em dois módulos [neurais].
+Um [classificador] que usa [BERT] ou [CodeBERT] e um gerador que usa [BART].
+Primeiro, o [CEAS] usa um [classificador] para classificar cada mensagem de confirmação em cinco classes de notas de lançamento, que usam melhorias, correções de bugs, desaprovações e outros.
+As mensagens de confirmação classificadas como outras são descartadas.
+Em seguida, o [CEAS] aplica o gerador aos quatro [documentos] [rotulados] de forma independente e gera notas de lançamento [para] cada classe.
+Nesta [tarefa], as correspondências diretas entre mensagens de confirmação e as notas de lançamento não são conhecidas.
+[Assim], para treinar o [classificador], é por isso que reatribuímos pesquisas para cada mensagem de confirmação na [entrada] usando os primeiros dez caracteres de casa mensagem de confirmação.
+Nós modelamos a [abordagem] de [abstractive summarization] por dois [métodos] diferentes.
+O primeiro [modelo], a que chamamos [CAS]-Single, consiste numa única rede de seis a seis e gera um único [texto] de nota de lançamento dá uma [concatenação] de mensagens de confirmação de [entrada].
+Os [textos] de saída podem ser divididos em segmentos de classe com base em símbolos de ponto de extremidade específicos de classe especiais.
+O segundo [método], a que chamamos [CAS]-Multi, consiste em quatro redes diferentes [seq2seq], cada uma das quais corresponde a uma das classes de notas de lançamento fixas.
+OK, deixe-me explicar as experiências.
+Foram [comparados] cinco [métodos]: [CEAS], [CAS]-Single, [CAS]-Multi, [Clustering] e o estudo [anterior], Glyph.
+Em relação à [avaliação], em alguns casos, as notas de versão são emitidas em várias [frases].
+Como é difícil calcular o [número] de [frases] como elas são, são combinadas com espaços e tratadas como uma [frase] longa.
+O [BLEU] é penalizado quando o [sistema] [emite] uma [frase] curta.
+Esta penalidade resulta num valor [BLEU] menor nos resultados do experiência descritos a seguir.
+Finalmente, também calculamos a especificidade porque [ROUGE] e [BLEU] não podem ser calculados se as notas de lançamento estiverem vazias.
+Uma maior especificidade significa que o [modelo] [cria] corretamente um [texto] vazio nos casos em que as notas de lançamento assumem vazio.
+Aqui estão os resultados.
+Como o [conjunto de dados] contém endereços de e-mail, valores em hash, etc., também avaliamos o [conjunto de dados] limpo, o que os exclui.
+[CEAS] e [CAS] alcançaram pontuações [ROUGE]-L mais de dez pontos acima das [linhas de referência].
+Em particular, no conjunto de testes limpo, a diferença de pontuação entre o [método] proposto e as [linhas de referência] saltou para mais de vinte pontos.
+Estes resultados indicam que [CEAS] e [CAS] são significativamente afetados.
+[CEAS] obteve uma pontuação [ROUGE]-L melhor do que [CAS], sugerindo que a combinação de um [classificador] e um gerador é eficaz para [treinar] o [classificador] usando rótulos [pseudo].
+A alta cobertura do [CEAS] pode ser alcançada provavelmente porque o [classificador] pode concentrar-se na seleção de mensagens de confirmação relevantes [para] cada classe.
+O [CAS]-Multi tinha tendência para produzir mais [ROUGE]-L do que o [CAS]-Single.
+Sugerindo que também é eficaz desenvolver de forma independente [modelos] [abstractive summarization] [para] cada classe de nota de lançamento.
+Aqui está uma [análise] de erro.
+Os [métodos] [CAS] têm tendência para produzir [frases] mais curtas do que [frases] de referência [humanas].
+Na figura à direita, a [frase] de referência tem três ou quatro [frases], enquanto que o [CAS] tem apenas uma.
+A razão [para] a relutância deste [modelo] é que em [dados de treinamento], apenas trinta e três por cento das [frases] estão presentes no rótulo de [características] e quarenta por cento no rótulo de melhorias.
+[Além disso], os [métodos] [CAS] não podem gerar notas de lançamento precisas sem [informações] adicionais.
+O exemplo superior à direita é um exemplo de uma mensagem de confirmação muito confusa, e a [frase] completa não pode ser [gerada] sem referência ao progresso ou problema [correspondente].
+O exemplo abaixo mostra que as duas mensagens de confirmação na [entrada] estão relacionadas e devem ser combinadas numa [frase], mas não o faz.
+Por fim, uma conclusão.
+Criámos um novo [conjunto de dados] [para] [geração] [automática] de notas de lançamento.
+Também formulámos uma [tarefa] para inserir mensagens de confirmação e [resumi-las] para que seja aplicável a todos os projetos [escritos] em [inglês].
+As nossas experiências mostram que o [método] proposto gera notas de lançamento menos ruidosas em maior cobertura do que as [linhas de referência].
+Podem consultar o nosso [conjunto de dados] no GitHub.
+Obrigado.
+Olá. Chamo-me Asaf Harari.
+E vou apresentar o nosso [artigo], Enriquecimento tabular de [dados] em poucos disparos que usam [arquiteturas] de [transformadores] com ajuste fino.
+Os cientistas de [dados] analisam [dados] e concentram-se principalmente na manipulação das [características] [existentes] dos [dados].
+Mas, por vezes, estas [características] são limitadas.
+A [geração] de características que usa outra [fonte] de [dados] pode adicionar [informação] substancial.
+o nosso objetivo de [pesquisa] é o enriquecimento de [dados] tabular [automático] usando [texto] livre de fontes externas.
+Suponhamos que temos um [conjunto de dados] tabular e uma [base de conhecimento].
+Precisamos de um processo [automático] que envolva [entity linking] e [análise] de [texto] para extrair novas [características] do [texto] livre da [base de conhecimento].
+A nossa estrutura [FeSTE] é exatamente esse processo [automático].
+Vamos ver um exemplo num [conjunto de dados] alimentado no [FeSTE].
+Neste exemplo, o [conjunto de dados] é um [conjunto de dados] universitário.
+Quando o seu objetivo é classificar as universidades em universidades de baixo escalão e universidades de alto escalão.
+Como [base de conhecimento], usamos a [Wikipédia].
+A primeira fase do [FeSTE] é [entity linking].
+Quando cada [entidade], neste exemplo, o nome da universidade, está [vinculado] a uma [entidade] dentro da [base de conhecimento].
+E o [texto] das [entidades] da [base de conhecimento] é [extraído] e adicionado ao [conjunto de dados].
+Neste exemplo, o [texto] é o resumo da página da [Wikipédia].
+Agora, precisamos de gerar ou extrair [características] do [texto] [recuperado].
+Então, precisamos da fase de [extração] de características que inclui [análise] de [texto].
+E esta é a principal novidade deste [artigo], e eu vou mergulhar a fundo nele nos próximos diapositivos.
+Após a fase de [extração] do características, há uma fase de [geração] de características quando usamos as [características] [extraídas] para gerar um pequeno [número] de novas [características].
+Primeiro gere [características] no [número] de classes do [conjunto de dados] original.
+Neste exemplo, o [conjunto de dados] original tem duas classes.
+Então, o [FeSTE] gera duas novas [características].
+Mas se o [conjunto de dados] tiver cinco classes, o [FeSTE] gera cinco novas [características].
+Cada característica representa a probabilidade [para] cada classe.
+Para analisar o [texto], usamos [análise] de [texto] de última geração, que são [modelos de linguagem] baseados em [transformadores] como [BERT], [GPT], [XLNet], etc.
+É, mas não é provável que possamos treinar [modelos de linguagem] usando os [conjuntos de dados] de [entrada].
+Portanto, uma [abordagem] ingénua será o [ajuste fino] da [tarefa] de [destino].
+Assim, na fase de [extração] de características, podemos transferir [modelos] de [linguagem pré-treinada], ajustar o [modelo de linguagem] sobre o [conjunto de dados] de [destino].
+Neste exemplo para ajustar o [modelo de linguagem], para classificar [texto] em classes, resumo em classes, baixo ou alto.
+Receba a saída do [modelo de linguagem], que é a probabilidade [para] cada classe e use como novas [características].
+O [problema] com esta [abordagem] é que o [conjuntos de dados] pode ter algumas [entidades]/[textos] distintos.
+Na nossa experiência, quase metade dos [conjuntos de dados] contém menos de quatrocentas amostras e o menor [conjunto de dados] contém trinta e cinco amostras num conjunto de [treinamento].
+Então, ajustar um [modelo de linguagem] sobre este [conjunto de dados] será ineficaz.
+Mas podemos usar [conhecimento] prévio sobre [conjuntos de dados] pré-analisados.
+Aplicamos o [FeSTE] sobre um [conjunto de dados] múltiplo, podemos usar n menos um [conjuntos de dados] para recolher [informações] sobre n menos um [conjuntos de dados] e usar esta [informação] quando analisamos o enésimo [conjunto de dados].
+O que nós sugerimos é adicionar outra fase de [ajuste fino].
+Uma fase preliminar de [ajuste fino] [multitarefa].
+Quando se afina o [modelo de linguagem] sobre n menos um [conjuntos de dados].
+E, em seguida, executamos outra fase de [ajuste fino] que é um [ajuste fino] de [tarefa] de [destino], quando se faz o ajuste fino do [modelo de linguagem] sobre o enésimo [conjunto de dados] de [destino].
+A última geração em [ajuste fino] de [multitarefa] chamado [MTDNN].
+O [MTDNN] mantém cabeçalhos no [número] de [tarefas] no conjunto de [treinamento].
+Neste exemplo, há quatro [tarefas] no conjunto de [treinamento], então o [MTDNN] mantenha quatro cabeçalhos como se pode ver na [imagem].
+E amostra um lote aleatório do conjunto de [treinamento].
+E se o lote aleatório pertence a, [por] exemplo, uma única [tarefa] [sentence classification], executa percursos para frente e para trás através do primeiro cabeçalho.
+E se o lote aleatório pertence à classificação de [tarefa] de [par a par], executa o percurso para frente e para trás através do último cabeçalho.
+No nosso cenário, os [conjuntos de dados] tabulares variam no [número] de classes.
+Há muitas [tarefas].
+O [MTDNN] manteve [número] de classes, cabeçalhos, camadas de saída.
+[Adicionalmente], o [MTDNN] precisa de inicializar novos cabeçalhos [para] um novo [conjunto de dados] com uma nova [tarefa].
+A nossa [abordagem], chamada [ajuste fino] de reformulação de [tarefas], é, em vez de manter várias cabeças, reformulamos cada [conjunto de dados] numa [frase] por [problema] de [classificação], que são [tarefas] de duas classes.
+Vamos ver um exemplo.
+Aqui está o nosso [conjunto de dados] de [entrada] que consiste em [entidades], [características], [texto] e classes.
+E, reformulamos a [tarefa] de uma [classificação] do [texto] em baixa ou alta para classificar o [texto], o resumo e a classe em verdadeira ou falsa.
+Ou, em outras [palavras], treinámos o [modelo de linguagem] para classificar um resumo e uma classe e se o resumo pertence à classe ou não.
+Assim, o [vetor] de rótulo neste caso consiste sempre em duas classes.
+E este é o [algoritmo] [para] a nossa [abordagem] de [ajuste fino].
+Então, vamos ver a estrutura completa.
+[Conjunto de dados] alimentado no [FeSTE].
+E então o [FeSTE] executa a fase de [entity linking].
+Extrai o [texto] da [base de conhecimento], que neste exemplo é o resumo da página da [Wikipédia].
+Em seguida, reformulou a [tarefa] numa [tarefa] de [sentence classification] [par a par].
+Aplicou o [modelo de linguagem] à nova [tarefa] e a probabilidade de saída [para] cada classe.
+E agora que o [modelo de linguagem] já está ajustado sobre n menos um [conjunto de dados] usando um [ajuste fino] [multitarefa] preliminar.
+Em seguida, usamos o [vetor] de saída do [modelo de linguagem] como um recurso recém [gerado] no [número] de classes.
+Para avaliar a nossa estrutura, usamos dezessete [conjuntos de dados] de [classificação] tabulares que variam em tamanho, [características], equilíbrio, [domínio] e desempenho inicial.
+E como [base de conhecimento], usamos a [Wikipédia].
+Projetamos a nossa experiência como uma [avaliação] de deixar um de fora, onde treinamos o [FeSTe] ao longo de dezasseis [conjuntos de dados] e aplicamo-lo ao décimo sétimo [conjunto de dados].
+Também dividimos cada [conjunto de dados] em quatro dobras e aplicamos a validação cruzada de quatro dobras.
+Em seguida, geramos as novas [características] e os avaliamo-las usando cinco [classificadores] de [avaliação].
+Usamos na nossa base de experiências da arquitetura básica do [BERT].
+Aqui estão os resultados [para] as nossas experiências.
+Pode ver-se que comparamos a nossa estrutura com [ajuste fino] de [conjunto de dados] de [destino] e [ajuste fino] preliminar de um [MTDNN].
+E o nosso [ajuste fino] reformulado [alcança] o melhor resultado, o melhor desempenho.
+Enquanto que o [MTDNN] alcançou 2% de melhoria em relação ao [ajuste fino] do [conjunto de dados] de [destino].
+A nossa [abordagem] alcançou uma melhoria de seis por cento.
+Quando olhamos para o pequeno [conjunto de dados], podemos ver que o desempenho do [MTDNN] diminui e a melhoria da fase de [ajuste fino] [multitarefa] preliminar diminui para 1,5%.
+Mas o nosso desempenho aumentou para onze por cento [comparado] com o [ajuste fino] da [tarefa] de [destino] sozinho.
+[Para] resumir, o [FeSTE] permite o enriquecimento de poucos tiros a partir de trinta e cinco amostras nas nossas experiências.
+Usa uma arquitetura [para] todas as [tarefas] e [conjuntos de dados].
+E mantém o cabeçalho do [modelo].
+Mas acrescenta uma fase de reformulação.
+Aumenta o conjunto de treino e precisa de um valor de [destino] com [significado] [semântico] para que possamos alimentá-lo no [modelo de linguagem] e usá-lo no [problema] de [classificação] do [sentence pair].
+Obrigado.

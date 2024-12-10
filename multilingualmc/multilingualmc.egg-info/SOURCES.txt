@@ -1,0 +1,10 @@
+README.md
+setup.py
+models/__init__.py
+models/config.py
+models/llm.py
+models/utils.py
+multilingualmc.egg-info/PKG-INFO
+multilingualmc.egg-info/SOURCES.txt
+multilingualmc.egg-info/dependency_links.txt
+multilingualmc.egg-info/top_level.txt

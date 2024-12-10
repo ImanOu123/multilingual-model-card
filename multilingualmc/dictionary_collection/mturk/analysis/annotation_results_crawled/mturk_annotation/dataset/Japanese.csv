@@ -1,0 +1,63 @@
+en_word1,anno1_word1,anno2_word1,source1,en_word2,anno1_word2,anno2_word2,source2,en_word3,anno1_word3,anno2_word3,source3,en_word4,anno1_word4,anno2_word4,source4,en_word5,anno1_word5,anno2_word5,source5
+classifying,分類,分類し,6060,FeSTE,パーティー,FeSTE,6060,OOV,語彙外,OOV,6060,PaLM,パルム,PaLM,6060,morphological,形態論的,形態的,6060
+GLUE,のり,GLUE,6060,syntactic,構文的,構文,6060,features,特徴,機能,6060,KinyaBERT,キンヤバート,KinyaBERT,6060,QED,は,QED,6060
+grounding,グラウンディング,教育付け,6060,algorithms,アルゴリズム,アリゴリズム,6060,training,学習,訓練,6060,pretrained,事前学習済み,事前訓練された,6060,ViLBERT,ビルバート,ViLBERT,6060
+subword,サブワード,サブ単語,6060,CodeBERT,コードBERT,CodeBERT,6060,computational,計算的,計算,6060,motivated,動機づけられた,動機づけられる,6060,BART,バート,BART,6060
+dependencies,依存関係,依存性,6060,classifiers,分類器,類別詞,6060,extractive,抽出的,抽出,6060,documents,文書,文章,6060,Semantic,セマンティック,意味論,6060
+human,人間,人間の,6060,unseen,未見の,見えない,6060,QUOREF,クオレフ,QUOREF,6060,queries,クエリ,質問,6060,structured,構造化された,構築された,6060
+compared,比較された,比較して,6060,Moreover,さらに,また,6060,contextualized,文脈化された,文脈で理解できる,6060,sense,意味,感覚,6060,algorithm,アルゴリズム,アリゴリズム,6060
+embeddings,埋め込み,埋込み,6060,gradient,勾配,傾度,6060,named,名前付き,挙げられた,6060,number,数,数字,6060,pretraining,事前学習,事前訓練,6060
+tagging,タギング,タグ付け,6060,identifying,特定する,識別,6060,conversational,会話型,会話的,6060,downstream,ダウンストリーム,下流,6060,relation,関係,リレーション,6060
+counterfactual,反実仮想,非現実節,6060,metrics,メトリクス,メトリックス,6060,augmented,拡張された,強化された,6060,relations,関係,relations,6060,re,再,RE,6060
+CLIP,クリップ,CLIP,6060,answer,答え,応答,6060,For,例えば,の為,6060,TreeDST,ツリーDST,TreeDST,6060,spoken,話されている,音声,6060
+embedding,埋め込み,埋込み,6060,image,画像,イメージ,6060,seq2seq,シーケンスツーシーケンス,seq2seq,6060,structure,構造,構成,6060,visual,視覚,視覚的,6060
+compositionality,構成性,構成の可能性,6060,softmax,ソフトマックス,softmax,6060,VALSE,,VALSE,6060,speech,音声,スピーチ,6060,classifier,分類器,類別詞,6060
+ARENA,アリーナ,ARENA,6060,BERT,バート,BERT,6060,perplexity,パープレキシティ,困惑,6060,LXMert,LXマート,LXMert,6060,qualitative,定性的,質的,6060
+retrieved,取得した,回収された,6060,annotators,アノテーター,注釈者,6060,contexts,コンテキスト,文脈,6060,sentences,文,文章,6060,Hence,したがって,よって,6060
+Wikipedia,ウィキペディア,wikipedia,6060,spatial,空間的,空間的な,6060,source,出典,ソース,6060,XLNet,XLネット,XLNet,6060,semantics,セマンティクス,意味論,6060
+REALM,レルム,REALM,6060,sentence,文,文章,6060,weights,重み,荷重,6060,coreference,共参照,同一指示,6060,monolingual,単言語,単一言語,6060
+BIO,バイオ,BIO,6060,interpretable,解釈可能な,解釈可能,6060,previous,前の,以前の,6060,Dialogue,対話,ダイアログ,6060,finetuning,ファインチューニング,微調整,6060
+propose,提案する,提案,6060,ROUGE,ルージュ,ROUGE,6060,MathQA,数学QA,MathQA,6060,context,コンテキスト,文脈,6060,word2vec,word2vec,単語2vec,6060
+multilingual,多言語,他言語,6060,methods,手法,方法,6060,labeled,ラベル付けされた,ラベル付き,6060,unsupervised,教師なし,監視なし,6060,Morphology,形態論,語形論,6060
+semantically,意味的に,意味論的に,6060,BLEU,ブルー,BLEU,6060,BETO,ベト,BETO,6060,2D-3D correspondence,2次元-3次元対応,2D-3D対応,threshold,Attention,注意機構,注意,threshold
+Bregman divergence,ブレグマン・ダイバージェンス,ブレグマン発散,threshold,Euclidean,ユークリッド距離,ユークリッド,threshold,Fourier feature,フーリエ特徴量,フーリエ特徴,threshold,GoogLeNet,GoogLeNet,グーグルネット,threshold,Hadamard matrix,アダマール行列,ハダマード行列,threshold
+Hiero system,ハイエロシステム,ヒエロシステム,threshold,Homography,ホモグラフィー,ホモグラフィ,threshold,HowTo100M,ハウツー100M,HowTo100M,threshold,In-context Learning,インコンテキスト学習,コンテキスト内学習,threshold,Jensen-Shannon Divergence,ジェンセン・シャノン・ダイバージェンス,ヤンセン・シャノン発散,threshold
+K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,threshold,Laplacian distribution,ラプラシアン分布,ラプラス分布,threshold,Machine Learning Repository,UCI機械学習リポジトリ,機械学習リポジトリ,threshold,Maximum Likelihood,最尤法,最大尤度,threshold,Metropolis algorithm,メトロポリス・アルゴリズム,メトロポリスアルゴリズム,threshold
+Metropolis-Hastings acceptance ratio,メトロポリス・ヘイスティングスのアクセプタンス比,メトロポリス・ヘイスティングス受容比,threshold,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,threshold,Monte Carlo estimator,モンテカルロ推定量,モンテカルロ推定器,threshold,Nyström approximation,ニーストローム近似,ニューストローム近似,threshold,Object Localization,オブジェクトのローカリゼーション,物体位置特定,threshold
+Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,threshold,Rao-Blackwellization,ラオ＝ブラックウェル化,ラオ-ブラックウェル化,threshold,Sentiment Analysis,センチメント分析,感情分析,threshold,Stanford Sentiment Treebank,スタンフォード・センチメント・ツリーバンク,スタンフォード感情ツリーバンク,threshold,Transformer architecture,トランスフォーマー・アーキテクチャ,トランスフォーマーアーキテクチャ,threshold
+Viterbi,ビタービアルゴリズム,ビタビ,threshold,acceptance function,受け入れ関数,受容関数,threshold,acceptance probability,受け入れ確率,受容確率,threshold,anaphora resolution,照応解決,指示詞解決,threshold,annotation projection,アノテーション投影,注釈投影,threshold
+averaged perceptron algorithm,平均化パーセプトロンアルゴリズム,平均パーセプトロンアルゴリズム,threshold,background model,バックグラウンドモデル,背景モデル,threshold,backprop,バックプロパゲーション,バックプロップ,threshold,bigram language model,ビグラム言語モデル,バイグラム言語モデル,threshold,bilinear model,双線形モデル,バイリニアモデル,threshold
+binary classification,二値分類,バイナリ分類,threshold,binary classification head,二値分類ヘッド,バイナリ分類ヘッド,threshold,camera pose estimation,カメラ姿勢推定,カメラポーズ推定,threshold,canonical form,正準形,標準形,threshold,characteristic vector,特徴ベクトル,特性ベクトル,threshold
+closed-book model,クローズド・ブック・モデル,クローズドブックモデル,threshold,cluster center,クラスター中心,クラスタ中心,threshold,contextualized representation,文脈化された表現,コンテキスト化された表現,threshold,contextualized word vector,文脈化された単語ベクトル,コンテキスト化された単語ベクトル,threshold,contingency table,分割表,クロス集計表,threshold
+continual learning,継続学習,継続的学習,threshold,counterfactual datum,反事実データ,反実仮想データ,threshold,credit assignment,報酬割り当て,クレジット割り当て,threshold,decision space,意思決定空間,決定空間,threshold,discounted cumulative reward,割引された累積報酬,割引累積報酬,threshold
+distance metric,距離メトリック,距離尺度,threshold,domain mismatch,ドメイン不一致,ドメインミスマッチ,threshold,domain transfer,ドメイン移管,ドメイン転送,threshold,dynamic programming algorithm,動的計画法アルゴリズム,動的プログラミングアルゴリズム,threshold,encoder network,エンコーダーネットワーク,エンコーダネットワーク,threshold
+entity description,エンティティの説明,エンティティ記述,threshold,error tolerance,誤差許容度,誤差許容,threshold,feature engineering,特徴量エンジニアリング,特徴エンジニアリング,threshold,filter bank,フィルターバンク,フィルタバンク,threshold,first order method,一階法,一次法,threshold
+float32,float32,フロート32,threshold,flow field,フローフィールド,流れ場,threshold,generalization ability,汎化能力,一般化能力,threshold,geometry processing,ジオメトリ処理,幾何処理,threshold,gist descriptor,ギスト記述子,ジスト記述子,threshold
+gold parse,正解構文,ゴールドパース,threshold,gradient-based learning,勾配に基づく学習,勾配ベースの学習,threshold,grid cell,グリッドセル,グリッド細胞,threshold,heuristic algorithm,発見的アルゴリズム,ヒューリスティックアルゴリズム,threshold,hierarchical method,階層的方法,階層的手法,threshold
+homographie,ホモグラフィー,ホモグラフィ,threshold,human pose,人体姿勢,人間のポーズ,threshold,identity transformation,恒等変換,同一変換,threshold,influence diagram,インフルエンスダイアグラム,影響図,threshold,input-output pair,入出力ペア,入力-出力ペア,threshold
+intelligent agent,インテリジェントエージェント,知能エージェント,threshold,joint density,同時確率密度,同時密度,threshold,kernel bandwidth,カーネル帯域幅,カーネルバンド幅,threshold,lazy grounding,遅延グラウンディング,レイジーグラウンディング,threshold,learned model,学習済みモデル,学習モデル,threshold
+lexicon induction,レキシコン導入,辞書誘導,threshold,local basis function,局所基底関数,ローカル基底関数,threshold,local feature,局所特徴,ローカル特徴,threshold,local search,局所探索,ローカルサーチ,threshold,log-log plot,対数対数プロット,対数-対数プロット,threshold
+logical connective,論理接続子,論理接続詞,threshold,low-rank factorization,低ランク分解,低ランク因子分解,threshold,machine vision,マシンビジョン,機械視覚,threshold,machine-generated text,機械生成されたテキスト,機械生成テキスト,threshold,marginal polytope,限界ポリトープ,周辺多面体,threshold
+masked language model,マスクされた言語モデル,マスク言語モデル,threshold,maximum flow,最大フロー,最大流量,threshold,maximum likelihood estimate,最尤推定値,最尤推定,threshold,maximum likelihood estimation,最尤推定,最大尤度推定,threshold,measurement matrix,計測行列,測定行列,threshold
+mixed-integer program,混合整数計画,混合整数プログラム,threshold,model M,モデルM,モデル M,threshold,model-based reinforcement learning,モデルベース強化学習,モデルベースの強化学習,threshold,modular,モジュラ,モジュラー,threshold,momentum,モメンタム,モーメンタム,threshold
+multi-headed self-attention,多頭自己注意機構,マルチヘッド自己注意,threshold,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,threshold,non-maximal suppression,非極大抑制,非最大抑制,threshold,normalize,正規化,正規化する,threshold,normalized cross correlation,正規化相互相関,正規化相関,threshold
+null space,ヌルスペース,零空間,threshold,online learning method,オンライン学習法,オンライン学習手法,threshold,optimiser,オプティマイザー,最適化手法,threshold,over-segmentation,オーバーセグメンテーション,過剰セグメンテーション,threshold,parallel corpora,対訳コーパス,並列コーパス,threshold
+partition,パーティション,分割,threshold,pixel-wise,ピクセル単位で,ピクセル単位,threshold,point match,点一致,ポイントマッチ,threshold,policy evaluation,方策評価,ポリシー評価,threshold,policy gradient algorithm,方策勾配アルゴリズム,ポリシー勾配アルゴリズム,threshold
+policy gradient estimator,方策勾配推定量,ポリシー勾配推定器,threshold,pre-training datum,プレトレーニングデータ,事前学習データ,threshold,precision-recall graph,適合率-再現率グラフ,精度-再現率グラフ,threshold,probabilistic topic modeling,確率的トピックモデリング,確率的トピックモデル,threshold,protected attribute,プロテクト属性,保護属性,threshold
+pruning algorithm,剪定アルゴリズム,プルーニングアルゴリズム,threshold,rank-one update,ランクワン更新,ランク1更新,threshold,rectified linear unit,整流線形単位,整流線形ユニット,threshold,recurrent architecture,リカレントアーキテクチャ,再帰的アーキテクチャ,threshold,recurrent autoencoder,リカレントオートエンコーダ,再帰的オートエンコーダ,threshold
+regularization path,正則化経路,正則化パス,threshold,regularization weight,正則化の重み,正則化重み,threshold,relational tuple,リレーショナルタプル,関係タプル,threshold,right-to-left model,右から左モデル,右から左へのモデル,threshold,roberta-large,RoBERTa-large,ロバータ・ラージ,threshold
+scaling factor,スケーリング係数,スケーリングファクター,threshold,self-attention layer,自己注意層,セルフアテンション層,threshold,self-attention model,自己注意モデル,セルフアテンションモデル,threshold,semantic information,意味情報,セマンティック情報,threshold,semantic role label,セマンティックロールラベル,意味役割ラベル,threshold
+semantic unit,セマンティック単位,意味単位,threshold,semantic vector,セマンティックベクター,意味ベクトル,threshold,state of the art algorithm,最先端のアルゴリズム,最先端アルゴリズム,threshold,stochastic game,確率的ゲーム,確率ゲーム,threshold,submatrix,部分行列,サブマトリックス,threshold
+submodular,サブモジュラ,サブモジュラー,threshold,submodular function optimization,サブモジュラ関数最適化,サブモジュラー関数最適化,threshold,supervised multi-task learning,教師あり多タスク学習,教師ありマルチタスク学習,threshold,support,支持度,サポート,threshold,text-to-image model,テキストから画像へのモデル,テキストから画像モデル,threshold
+top-1 accuracy,トップ-1精度,トップ1精度,threshold,topic proportion,トピック割合,トピック比率,threshold,tracking algorithm,追跡アルゴリズム,トラッキングアルゴリズム,threshold,training stability,学習安定性,トレーニングの安定性,threshold,tree width,木幅,ツリー幅,threshold
+trifocal tensor,三重焦点テンソル,三焦点テンソル,threshold,truth assignment,真理値割り当て,真理割り当て,threshold,union of conjunctive query,連言クエリの和,結合クエリの和,threshold,unit sphere,単位球面,単位球,threshold,vanilla Transformer,バニラ・トランスフォーマー,バニラトランスフォーマー,threshold
+vanishing gradient,勾配消失,消失勾配,threshold,vanishing gradient problem,勾配消失問題,消失勾配問題,threshold,weak learning,弱学習,弱い学習,threshold,weighted sum,重み付き和,加重和,threshold,Extended Kalman Filter,拡張カルマンフィルタ,拡張カルマンフィルター,threshold
+K-Means clustering,K-Means クラスタリング,K-平均クラスタリング,threshold,Laplacian distribution,ラプラシアン分布,ラプラス分布,threshold,Maximum Likelihood,最尤法,最大尤度,threshold,Monte Carlo algorithm,モンテカルロ・アルゴリズム,モンテカルロアルゴリズム,threshold,Pearson's r correlation,ピアソンの相関係数,ピアソンのr相関,threshold
+Pitman-Yor Process,ピットマン-ヨール過程,ピットマン・ヨール過程,threshold,automata,オートマタ,オートマトン,threshold,averaged perceptron,平均化パーセプトロン,平均パーセプトロン,threshold,backprop,バックプロパゲーション,バックプロップ,threshold,blur kernel,ぼかしカーネル,ブラーカーネル,threshold
+catastrophic forgetting,カタストロフィックフォゲッティング,壊滅的忘却,threshold,computational argumentation,計算論的論証,計算的議論,threshold,context model,文脈モデル,コンテキストモデル,threshold,contingency table,分割表,クロス集計表,threshold,contrastive approach,コントラストアプローチ,対照的アプローチ,threshold
+copy mechanism,コピーメカニズム,コピー機構,threshold,cosine decay,余弦減衰,コサイン減衰,threshold,cost-sensitive learning,コスト感受性学習,コスト感度学習,threshold,cross-entropy loss function,交差エントロピー損失関数,クロスエントロピー損失関数,threshold,distant supervision,遠隔指導,遠隔監視,threshold
+domain mismatch,ドメイン不一致,ドメインミスマッチ,threshold,dynamic Bayesian network,動的ベイズネットワーク,動的ベイジアンネットワーク,threshold,early stopping,アーリーストッピング,早期停止,threshold,element-wise,要素ごとの,要素ごと,threshold,error tolerance,誤差許容度,誤差許容,threshold
+graph attention mechanism,グラフアテンションメカニズム,グラフ注意機構,threshold,grid cell,グリッドセル,グリッド細胞,threshold,landmark point,ランドマーク点,ランドマークポイント,threshold,max-product semiring,マックス積半環,最大積半環,threshold,maximum likelihood estimate,最尤推定値,最尤推定,threshold
+model M,モデルM,モデル M,threshold,noise-contrastive estimation,ノイズコントラスト推定,ノイズ対比推定,threshold,parallel corpora,パラレルコーパス,並列コーパス,threshold,parameterized model,パラメータ化されたモデル,パラメータ化モデル,threshold,paraphrase,言い換え,パラフレーズ,threshold
+privacy budget,プライバシー予算,プライバシーバジェット,threshold,readout function,リードアウト関数,読み出し関数,threshold,sample-efficient,サンプル効率的,標本効率的,threshold,semantic vector,セマンティックベクトル,意味ベクトル,threshold,spatial domain,空間ドメイン,空間領域,threshold
+support,支持度,サポート,threshold,type embedding,型埋め込み,タイプ埋め込み,threshold,unsupervised morphological segmentation,教師なし形態学的セグメンテーション,教師なし形態素セグメンテーション,threshold,value iteration,値反復法,価値反復,threshold,-,-,-,-

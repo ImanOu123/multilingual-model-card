@@ -1,0 +1,163 @@
+Unnamed: 0,word,annotation6060,label6060
+0,decoder,المُفكِك,وحدة فك الترميز
+2,CamemBERT,كاميمبيرت,CamemBERT
+4,AI,الذكاء الاصطناعي,AI
+7,spans,الأقسام,امتدادات
+8,CRF,نموذج الحقول العشوائية المشروطة,CRF
+9,systems,الأنظمة,نظم
+11,OOV,خارج المفردات,OOV
+12,PaLM,بالم,PaLM
+13,morphological,المورفولوجي,مورفولوجي
+15,NLI,استنتاج اللغة الطبيعية,NLI
+16,BERTs,نماذج BERT,BERTs
+17,CONLL,تنسيق كونل,CoNLL
+18,VisualBERT,فيجوال بيرت,VisualBERT
+19,corresponding,المطابق,تطابق
+21,newswire,وكالة الأنباء,إخبارية
+24,knowledge,المعرفة,معرفة
+28,syntactic,نحوي,النحوي
+29,translation,ترجمة,الترجمة
+30,features,الميزات,ميزات
+31,KinyaBERT,كينيا بيرت,KinyaBERT
+34,search,بحث,البحث
+35,sequences,تسلسلات,تسلسل
+36,entities,الكيانات,كيانات
+39,grounding,التأسيس,تأسيس
+40,AmbigQA,أمبج كيو إيه,AmbigQA
+41,English,الإنجليزية,إنجليزي
+42,algorithms,الخوارزميات,خوارزميات
+45,languages,اللغات,لغات
+46,pretrained,مدرّب مسبقاً,مدرب مسبقًا
+47,graph,الرسم البياني,رسم بياني
+48,ViLBERT,فيلبرت,ViLBERT
+50,subword,وحدة صرفية,الكلمات الفرعية
+51,CodeBERT,كودبيرت,CodeBERT
+52,computational,الحوسبة,الحسابية
+53,regression,انحدار,تراجع
+54,motivated,مدفوع,بدافع منهم
+55,BART,بارت,BART
+56,IDF,التردد العكسي في المستندات,IDF
+57,VFL,دوري فيكتوريا لكرة القدم,VFL
+59,dependencies,التبعيات,تبعيات
+60,classifiers,المصنّفات,مصنفات
+62,grammar,القواعد,قواعد
+63,documents,الوثائق,مستندات
+64,domains,المجالات,مجالات
+65,annotations,التعليقات التوضيحية,تعليقات توضيحية
+66,Semantic,دلالي,الدلاليّة
+67,data,البيانات,بيانات
+69,attention,الانتباه,انتباه
+70,unseen,غير مرئي,غير المرئيي
+72,queries,استعلامات,استفسارات
+74,structured,منظم,منظمة
+78,Moreover,علاوة على ذلك,وفضلا عن ذلك
+81,contextualized,السياقي,السياقية
+82,reasoning,التفكير,المنطق
+83,sense,معنى,حسي
+84,computation,الحساب,حساب
+85,terminology,مصطلحات,مصطلح
+86,BPE,ترميز BPE,BPE
+88,binary,ثنائي,تصنيف ثنائي
+90,FLR,تقليل زمن التأخير النهائي (FLR,FLR
+91,Similar,مشابه,مماثلة
+92,corpora,مجموعات نصوص,المجاميع
+94,generalize,تعميم,التعميم
+95,gradient,التدرج,تدرج
+99,named,مسمى,مسماة
+101,representations,التمثيلات,تمثيلات
+104,tagging,الوسم,وضع علامات
+105,morphologically,صرفياً,مورفولوجيا
+108,ICLR,مؤتمر ICLR,ICLR
+109,conversational,محادثاتي,حواري
+110,downstream,المهام اللاحقة,البيانات المنخفضة
+111,nouns,الأسماء,أسماء
+113,LinCE,لينس,LinCE
+114,outputs,المخرجات,مخرجات
+115,transformers,المحولات,محولات
+116,annotated,مُعَلَّم,مشروحة
+117,graphs,الرسوم البيانية,نماذج
+118,existing,موجود,الحالي
+120,counterfactual,افتراض مغاير للواقع,counterfactual
+121,metrics,المقاييس,مقاييس
+122,verbs,الأفعال,أفعال
+123,augmented,مُعزز,معزز
+126,re,إعادة,RE
+131,For,على سبيل المثال,ل
+132,TreeDST,شجرةDST,TreeDST
+134,spoken,محكي,منطوق
+135,transformer,المحول,محول
+136,embedding,تضمين,التضمين
+138,seq2seq,نموذج تسلسل إلى تسلسل,seq2seq
+139,structure,الهيكل,بنية
+140,visual,بصري,مرئي
+141,multitask,متعدد المهام,متعددة المهام
+142,XLM,إكس إل إم,XLM
+143,compositionality,التركيبية,نمذجة التركيبة
+144,correlations,الارتباطات,ارتباطات
+145,softmax,سوفتماكس,softmax
+146,corpus,مجموعة نصوص,مجموعة
+147,VALSE,فالس,VALSE
+152,meaning,المعنى,معنى
+153,ARENA,أرينا,ARENA
+154,decoding,فك التشفير,فك تشفير
+156,datasets,مجموعات البيانات,مجموعة بيانات
+158,perplexity,الارتباك,حيرة
+162,BSARD,بي إس إيه آر دي,BSARD
+164,retrieved,المسترجع,مسترجع
+165,tokens,الرموز,رموز
+167,annotators,المُعَلِّقون,المعلقين
+168,edit,تعديل,تحرير
+169,news,أخبار,الأخبار
+171,adversarial,خصمي,عدائي
+172,sentiment,المشاعر,شعور
+174,contexts,السياقات,سياقات
+176,Hence,وبالتالي,ومن ثم
+179,predicates,المحمولات,الفرضيات
+180,learning,التعلم,تعلم
+183,ablation,دراسة الاجتثاث,استئصال
+187,XLNet,إكس إل نت,XLNet
+188,semantics,الدلالات,دلالات
+191,modalities,الأنماط,طرائق
+199,weights,الأوزان,أوزان
+200,Clustering,التجميع,تجميع
+201,language,لغة,اللغة
+202,encoders,المشفرات,مشفرو
+203,coreference,الإحالة المرجعية,مراجع مشترك
+204,monolingual,أحادي اللغة,أحاديّ اللغة
+205,generated,الذي تم توليده,الناشئة
+206,BIO,ترميز BIO,BIO
+211,interpretable,قابل للتفسير,قابلةٍ للتفسير
+212,Architectures,الهياكل,هياكل
+214,parsing,التحليل النحوي,تحليل
+215,linguistics,اللغويات,لغويات
+216,previous,سابق,السابق
+217,Dialogue,الحوار,حوار
+218,encode,ترميز,تشفير
+219,QA,الأسئلة والأجوبة,ضمان الجودة
+220,Additionally,بالإضافة إلى ذلك,وبالإضافة إلى ذلك
+222,text,نص,النص
+224,biases,التحيزات,biases
+228,propose,اقترح,نقترح
+231,approach,نهج,النهج
+236,context,السياق,context
+237,morphemes,المورفيمات,مورفيمات
+238,word2vec,وورد تو فيك,word2vec
+241,GPT,نموذج GPT,GPT
+242,encoding,ترميز,تشفير
+246,dataset,مجموعة البيانات,مجموعة بيانات
+249,methods,طرق,أساليب
+250,namely,أي,وهي
+251,tasks,المهام,مهام
+253,PubMed,بوبمد,PubMed
+254,labeled,مُعَلَّم,مصنف
+255,captions,التسميات التوضيحية,التعليقات
+258,noun,اسم,أسم
+259,unsupervised,غير خاضع للإشراف,غير الخاضع للإشراف
+260,Morphology,علم الصرف,مورفولوجيا
+262,semantically,دلاليًا,لغوياً
+263,BLEU,مقياس بليو,BLEU
+264,utterances,الكلام,اقوال
+267,BETO,بيتو,BETO
+268,Detecting,الكشف,كشف
+269,API,واجهة برمجة التطبيقات,API
+270,Modeling,النمذجة,نمذجة

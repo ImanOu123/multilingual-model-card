@@ -1,0 +1,1301 @@
+,WorkerId,en_word,anno1_word,anno2_word,Answer.A,Answer.B,Answer.C,Answer.D,source
+0,A2FXDEKCCUT9OJ,AI,IA,intelligence artificielle,True,False,False,False,6060
+1,A2FXDEKCCUT9OJ,NLP,PNL,TAL traitement automatique du langage naturel,True,False,False,False,6060
+2,A2FXDEKCCUT9OJ,spans,segments,étendage,False,True,False,False,6060
+3,A2FXDEKCCUT9OJ,OOV,hors vocabulaire,OOV,True,False,False,False,6060
+4,A2FXDEKCCUT9OJ,newswire,fil d'actualités,fil d'actualité,True,False,False,False,6060
+5,A3OAFR48DADAOM,AI,IA,intelligence artificielle,True,False,False,False,6060
+6,A3OAFR48DADAOM,NLP,PNL,TAL traitement automatique du langage naturel,False,False,True,False,6060
+7,A3OAFR48DADAOM,spans,segments,étendage,False,True,False,False,6060
+8,A3OAFR48DADAOM,OOV,hors vocabulaire,OOV,True,False,False,False,6060
+9,A3OAFR48DADAOM,newswire,fil d'actualités,fil d'actualité,True,False,False,False,6060
+10,A30IGMGSC7G2HM,AI,IA,intelligence artificielle,True,False,False,False,6060
+11,A30IGMGSC7G2HM,NLP,PNL,TAL traitement automatique du langage naturel,False,False,True,False,6060
+12,A30IGMGSC7G2HM,spans,segments,étendage,False,True,False,False,6060
+13,A30IGMGSC7G2HM,OOV,hors vocabulaire,OOV,True,False,False,False,6060
+14,A30IGMGSC7G2HM,newswire,fil d'actualités,fil d'actualité,True,False,False,False,6060
+15,A186ORPGIU3WNL,AI,IA,intelligence artificielle,True,False,False,False,6060
+16,A186ORPGIU3WNL,NLP,PNL,TAL traitement automatique du langage naturel,True,False,False,False,6060
+17,A186ORPGIU3WNL,spans,segments,étendage,False,True,False,False,6060
+18,A186ORPGIU3WNL,OOV,hors vocabulaire,OOV,False,True,False,False,6060
+19,A186ORPGIU3WNL,newswire,fil d'actualités,fil d'actualité,True,False,False,False,6060
+20,A2YVLMI4PRDECY,AI,IA,intelligence artificielle,True,False,False,False,6060
+21,A2YVLMI4PRDECY,NLP,PNL,TAL traitement automatique du langage naturel,False,False,True,False,6060
+22,A2YVLMI4PRDECY,spans,segments,étendage,False,True,False,False,6060
+23,A2YVLMI4PRDECY,OOV,hors vocabulaire,OOV,True,False,False,False,6060
+24,A2YVLMI4PRDECY,newswire,fil d'actualités,fil d'actualité,True,False,False,False,6060
+25,A3Q32FL0WWF4KZ,written,écrit,écrits,True,False,False,False,6060
+26,A3Q32FL0WWF4KZ,Furthermore,De plus,en outre,True,False,False,False,6060
+27,A3Q32FL0WWF4KZ,features,caractéristiques,fonctions,True,False,False,False,6060
+28,A3Q32FL0WWF4KZ,generating,génération,production,True,False,False,False,6060
+29,A3Q32FL0WWF4KZ,search,recherche,cherche,False,True,False,False,6060
+30,A1U6UPXOFCXR24,written,écrit,écrits,False,True,False,False,6060
+31,A1U6UPXOFCXR24,Furthermore,De plus,en outre,True,False,False,False,6060
+32,A1U6UPXOFCXR24,features,caractéristiques,fonctions,True,False,False,False,6060
+33,A1U6UPXOFCXR24,generating,génération,production,False,True,False,False,6060
+34,A1U6UPXOFCXR24,search,recherche,cherche,False,True,False,False,6060
+35,A2YVLMI4PRDECY,written,écrit,écrits,False,True,False,False,6060
+36,A2YVLMI4PRDECY,Furthermore,De plus,en outre,True,False,False,False,6060
+37,A2YVLMI4PRDECY,features,caractéristiques,fonctions,False,True,False,False,6060
+38,A2YVLMI4PRDECY,generating,génération,production,True,False,False,False,6060
+39,A2YVLMI4PRDECY,search,recherche,cherche,False,True,False,False,6060
+40,A2E2FFMXS9F9KR,written,écrit,écrits,True,False,False,False,6060
+41,A2E2FFMXS9F9KR,Furthermore,De plus,en outre,True,False,False,False,6060
+42,A2E2FFMXS9F9KR,features,caractéristiques,fonctions,False,True,False,False,6060
+43,A2E2FFMXS9F9KR,generating,génération,production,True,False,False,False,6060
+44,A2E2FFMXS9F9KR,search,recherche,cherche,False,True,False,False,6060
+45,A3HSZ9YLOBCCPR,written,écrit,écrits,True,False,False,False,6060
+46,A3HSZ9YLOBCCPR,Furthermore,De plus,en outre,True,False,False,False,6060
+47,A3HSZ9YLOBCCPR,features,caractéristiques,fonctions,False,True,False,False,6060
+48,A3HSZ9YLOBCCPR,generating,génération,production,True,False,False,False,6060
+49,A3HSZ9YLOBCCPR,search,recherche,cherche,False,True,False,False,6060
+50,A3IG9HHR3NL9R0,grounding,ancrage,bases,True,False,False,False,6060
+51,A3IG9HHR3NL9R0,training,entraînement,formation,True,False,False,False,6060
+52,A3IG9HHR3NL9R0,pretrained,préentraîné,pré-formation,False,True,False,False,6060
+53,A3IG9HHR3NL9R0,graph,graphe,"graphique, diagramme",True,False,False,False,6060
+54,A3IG9HHR3NL9R0,computational,computationnel,informatique,False,False,True,False,6060
+55,ASML73P0NOOVV,grounding,ancrage,bases,False,True,False,False,6060
+56,ASML73P0NOOVV,training,entraînement,formation,True,False,False,False,6060
+57,ASML73P0NOOVV,pretrained,préentraîné,pré-formation,False,True,False,False,6060
+58,ASML73P0NOOVV,graph,graphe,"graphique, diagramme",True,False,False,False,6060
+59,ASML73P0NOOVV,computational,computationnel,informatique,False,False,True,False,6060
+60,A2D6SB3TU1NYQ7,grounding,ancrage,bases,False,True,False,False,6060
+61,A2D6SB3TU1NYQ7,training,entraînement,formation,True,False,False,False,6060
+62,A2D6SB3TU1NYQ7,pretrained,préentraîné,pré-formation,False,True,False,False,6060
+63,A2D6SB3TU1NYQ7,graph,graphe,"graphique, diagramme",True,False,False,False,6060
+64,A2D6SB3TU1NYQ7,computational,computationnel,informatique,False,False,True,False,6060
+65,A1L8EGJ85A7DZR,grounding,ancrage,bases,False,True,False,False,6060
+66,A1L8EGJ85A7DZR,training,entraînement,formation,True,False,False,False,6060
+67,A1L8EGJ85A7DZR,pretrained,préentraîné,pré-formation,False,True,False,False,6060
+68,A1L8EGJ85A7DZR,graph,graphe,"graphique, diagramme",True,False,False,False,6060
+69,A1L8EGJ85A7DZR,computational,computationnel,informatique,False,False,True,False,6060
+70,A3MF0MGWJJZ794,grounding,ancrage,bases,False,False,True,False,6060
+71,A3MF0MGWJJZ794,training,entraînement,formation,False,False,False,True,6060
+72,A3MF0MGWJJZ794,pretrained,préentraîné,pré-formation,False,False,True,False,6060
+73,A3MF0MGWJJZ794,graph,graphe,"graphique, diagramme",False,False,False,True,6060
+74,A3MF0MGWJJZ794,computational,computationnel,informatique,False,False,True,False,6060
+75,AC4I7XU10MQXK,motivated,motivé,motivés,False,True,False,False,6060
+76,AC4I7XU10MQXK,extractive,extractif,extraction,False,True,False,False,6060
+77,AC4I7XU10MQXK,human,humain,civique,False,True,False,False,6060
+78,AC4I7XU10MQXK,unseen,non vu,invisible,False,False,True,False,6060
+79,AC4I7XU10MQXK,similarity,similarité,similitude,False,False,True,False,6060
+80,A1U6UPXOFCXR24,motivated,motivé,motivés,False,True,False,False,6060
+81,A1U6UPXOFCXR24,extractive,extractif,extraction,False,True,False,False,6060
+82,A1U6UPXOFCXR24,human,humain,civique,True,False,False,False,6060
+83,A1U6UPXOFCXR24,unseen,non vu,invisible,False,False,True,False,6060
+84,A1U6UPXOFCXR24,similarity,similarité,similitude,False,False,True,False,6060
+85,A3IG9HHR3NL9R0,motivated,motivé,motivés,False,True,False,False,6060
+86,A3IG9HHR3NL9R0,extractive,extractif,extraction,False,True,False,False,6060
+87,A3IG9HHR3NL9R0,human,humain,civique,False,True,False,False,6060
+88,A3IG9HHR3NL9R0,unseen,non vu,invisible,False,False,True,False,6060
+89,A3IG9HHR3NL9R0,similarity,similarité,similitude,False,False,True,False,6060
+90,A2D6SB3TU1NYQ7,motivated,motivé,motivés,False,True,False,False,6060
+91,A2D6SB3TU1NYQ7,extractive,extractif,extraction,False,True,False,False,6060
+92,A2D6SB3TU1NYQ7,human,humain,civique,False,True,False,False,6060
+93,A2D6SB3TU1NYQ7,unseen,non vu,invisible,False,False,True,False,6060
+94,A2D6SB3TU1NYQ7,similarity,similarité,similitude,False,False,True,False,6060
+95,A3Q32FL0WWF4KZ,motivated,motivé,motivés,False,True,False,False,6060
+96,A3Q32FL0WWF4KZ,extractive,extractif,extraction,False,True,False,False,6060
+97,A3Q32FL0WWF4KZ,human,humain,civique,False,True,False,False,6060
+98,A3Q32FL0WWF4KZ,unseen,non vu,invisible,False,False,True,False,6060
+99,A3Q32FL0WWF4KZ,similarity,similarité,similitude,False,False,True,False,6060
+100,A3IG9HHR3NL9R0,FLR,réduction de latence finale,FLR,False,False,True,False,6060
+101,A3IG9HHR3NL9R0,embeddings,embeddings,intégration,False,True,False,False,6060
+102,A3IG9HHR3NL9R0,generalize,généraliser,généralise,True,False,False,False,6060
+103,A3IG9HHR3NL9R0,gradient,gradient,pente,True,False,False,False,6060
+104,A3IG9HHR3NL9R0,assessing,évaluation,évalution,False,True,False,False,6060
+105,A251BWQW2F81FT,FLR,réduction de latence finale,FLR,False,False,True,False,6060
+106,A251BWQW2F81FT,embeddings,embeddings,intégration,False,True,False,False,6060
+107,A251BWQW2F81FT,generalize,généraliser,généralise,True,False,False,False,6060
+108,A251BWQW2F81FT,gradient,gradient,pente,False,True,False,False,6060
+109,A251BWQW2F81FT,assessing,évaluation,évalution,False,True,False,False,6060
+110,A1L8EGJ85A7DZR,FLR,réduction de latence finale,FLR,False,False,True,False,6060
+111,A1L8EGJ85A7DZR,embeddings,embeddings,intégration,False,True,False,False,6060
+112,A1L8EGJ85A7DZR,generalize,généraliser,généralise,False,True,False,False,6060
+113,A1L8EGJ85A7DZR,gradient,gradient,pente,False,True,False,False,6060
+114,A1L8EGJ85A7DZR,assessing,évaluation,évalution,False,True,False,False,6060
+115,A2E2FFMXS9F9KR,FLR,réduction de latence finale,FLR,False,False,True,False,6060
+116,A2E2FFMXS9F9KR,embeddings,embeddings,intégration,False,True,False,False,6060
+117,A2E2FFMXS9F9KR,generalize,généraliser,généralise,True,False,False,False,6060
+118,A2E2FFMXS9F9KR,gradient,gradient,pente,False,True,False,False,6060
+119,A2E2FFMXS9F9KR,assessing,évaluation,évalution,False,True,False,False,6060
+120,A2MZEUP2ECO1AI,FLR,réduction de latence finale,FLR,False,True,False,False,6060
+121,A2MZEUP2ECO1AI,embeddings,embeddings,intégration,False,True,False,False,6060
+122,A2MZEUP2ECO1AI,generalize,généraliser,généralise,True,False,False,False,6060
+123,A2MZEUP2ECO1AI,gradient,gradient,pente,False,True,False,False,6060
+124,A2MZEUP2ECO1AI,assessing,évaluation,évalution,False,True,False,False,6060
+125,A3IG9HHR3NL9R0,social,social,sociaux,True,False,False,False,6060
+126,A3IG9HHR3NL9R0,pretraining,préentraînement,pré-formation,False,True,False,False,6060
+127,A3IG9HHR3NL9R0,tagging,étiquetage,classification,False,True,False,False,6060
+128,A3IG9HHR3NL9R0,morphologically,morphologiquement,morphologie,False,True,False,False,6060
+129,A3IG9HHR3NL9R0,nodes,nœuds,nodules,False,True,False,False,6060
+130,AWGV35294HOYB,social,social,sociaux,True,False,False,False,6060
+131,AWGV35294HOYB,pretraining,préentraînement,pré-formation,False,True,False,False,6060
+132,AWGV35294HOYB,tagging,étiquetage,classification,True,False,False,False,6060
+133,AWGV35294HOYB,morphologically,morphologiquement,morphologie,False,True,False,False,6060
+134,AWGV35294HOYB,nodes,nœuds,nodules,False,True,False,False,6060
+135,A9M8N3BOH6013,social,social,sociaux,True,False,False,False,6060
+136,A9M8N3BOH6013,pretraining,préentraînement,pré-formation,False,True,False,False,6060
+137,A9M8N3BOH6013,tagging,étiquetage,classification,False,True,False,False,6060
+138,A9M8N3BOH6013,morphologically,morphologiquement,morphologie,False,True,False,False,6060
+139,A9M8N3BOH6013,nodes,nœuds,nodules,False,True,False,False,6060
+140,A11B7MUC7UTFKN,social,social,sociaux,True,False,False,False,6060
+141,A11B7MUC7UTFKN,pretraining,préentraînement,pré-formation,False,True,False,False,6060
+142,A11B7MUC7UTFKN,tagging,étiquetage,classification,True,False,False,False,6060
+143,A11B7MUC7UTFKN,morphologically,morphologiquement,morphologie,False,True,False,False,6060
+144,A11B7MUC7UTFKN,nodes,nœuds,nodules,False,True,False,False,6060
+145,A39PWDRYNY2WM0,social,social,sociaux,True,False,False,False,6060
+146,A39PWDRYNY2WM0,pretraining,préentraînement,pré-formation,False,True,False,False,6060
+147,A39PWDRYNY2WM0,tagging,étiquetage,classification,False,True,False,False,6060
+148,A39PWDRYNY2WM0,morphologically,morphologiquement,morphologie,False,True,False,False,6060
+149,A39PWDRYNY2WM0,nodes,nœuds,nodules,False,True,False,False,6060
+150,A1PG4NZUVQMZUI,downstream,en aval,downstream,False,True,False,False,6060
+151,A1PG4NZUVQMZUI,transformers,transformers,transformateurs,False,False,True,False,6060
+152,A1PG4NZUVQMZUI,graphs,graphes,diagrammes,True,False,False,False,6060
+153,A1PG4NZUVQMZUI,metrics,métriques,indicateurs,True,False,False,False,6060
+154,A1PG4NZUVQMZUI,augmented,augmenté,amélioré,False,True,False,False,6060
+155,A2GJB7TBZM91Z4,downstream,en aval,downstream,False,True,False,False,6060
+156,A2GJB7TBZM91Z4,transformers,transformers,transformateurs,True,False,False,False,6060
+157,A2GJB7TBZM91Z4,graphs,graphes,diagrammes,True,False,False,False,6060
+158,A2GJB7TBZM91Z4,metrics,métriques,indicateurs,True,False,False,False,6060
+159,A2GJB7TBZM91Z4,augmented,augmenté,amélioré,True,False,False,False,6060
+160,A3MDTRJTDIDNX,downstream,en aval,downstream,False,True,False,False,6060
+161,A3MDTRJTDIDNX,transformers,transformers,transformateurs,True,False,False,False,6060
+162,A3MDTRJTDIDNX,graphs,graphes,diagrammes,True,False,False,False,6060
+163,A3MDTRJTDIDNX,metrics,métriques,indicateurs,False,True,False,False,6060
+164,A3MDTRJTDIDNX,augmented,augmenté,amélioré,False,True,False,False,6060
+165,A2E2FFMXS9F9KR,downstream,en aval,downstream,False,True,False,False,6060
+166,A2E2FFMXS9F9KR,transformers,transformers,transformateurs,False,False,True,False,6060
+167,A2E2FFMXS9F9KR,graphs,graphes,diagrammes,True,False,False,False,6060
+168,A2E2FFMXS9F9KR,metrics,métriques,indicateurs,False,True,False,False,6060
+169,A2E2FFMXS9F9KR,augmented,augmenté,amélioré,True,False,False,False,6060
+170,A2IFN9328HNXWC,downstream,en aval,downstream,False,True,False,False,6060
+171,A2IFN9328HNXWC,transformers,transformers,transformateurs,False,False,True,False,6060
+172,A2IFN9328HNXWC,graphs,graphes,diagrammes,True,False,False,False,6060
+173,A2IFN9328HNXWC,metrics,métriques,indicateurs,True,False,False,False,6060
+174,A2IFN9328HNXWC,augmented,augmenté,amélioré,False,True,False,False,6060
+175,A3MDTRJTDIDNX,lexical,lexical,lexicale,True,False,False,False,6060
+176,A3MDTRJTDIDNX,transformer,transformateur,conversion,False,True,False,False,6060
+177,A3MDTRJTDIDNX,visual,visuel,visuelle,True,False,False,False,6060
+178,A3MDTRJTDIDNX,multitask,multitâche,multi-tâches,True,False,False,False,6060
+179,A3MDTRJTDIDNX,correlations,corrélations,corrélation,False,True,False,False,6060
+180,A3OAFR48DADAOM,lexical,lexical,lexicale,True,False,False,False,6060
+181,A3OAFR48DADAOM,transformer,transformateur,conversion,False,True,False,False,6060
+182,A3OAFR48DADAOM,visual,visuel,visuelle,True,False,False,False,6060
+183,A3OAFR48DADAOM,multitask,multitâche,multi-tâches,True,False,False,False,6060
+184,A3OAFR48DADAOM,correlations,corrélations,corrélation,False,True,False,False,6060
+185,A2FXDEKCCUT9OJ,lexical,lexical,lexicale,True,False,False,False,6060
+186,A2FXDEKCCUT9OJ,transformer,transformateur,conversion,False,True,False,False,6060
+187,A2FXDEKCCUT9OJ,visual,visuel,visuelle,True,False,False,False,6060
+188,A2FXDEKCCUT9OJ,multitask,multitâche,multi-tâches,True,False,False,False,6060
+189,A2FXDEKCCUT9OJ,correlations,corrélations,corrélation,True,False,False,False,6060
+190,A13QHI6P2C910K,lexical,lexical,lexicale,True,False,False,False,6060
+191,A13QHI6P2C910K,transformer,transformateur,conversion,False,True,False,False,6060
+192,A13QHI6P2C910K,visual,visuel,visuelle,True,False,False,False,6060
+193,A13QHI6P2C910K,multitask,multitâche,multi-tâches,True,False,False,False,6060
+194,A13QHI6P2C910K,correlations,corrélations,corrélation,True,False,False,False,6060
+195,A3MF0MGWJJZ794,lexical,lexical,lexicale,False,False,False,False,6060
+196,A3MF0MGWJJZ794,transformer,transformateur,conversion,False,False,False,True,6060
+197,A3MF0MGWJJZ794,visual,visuel,visuelle,False,False,True,False,6060
+198,A3MF0MGWJJZ794,multitask,multitâche,multi-tâches,False,False,False,True,6060
+199,A3MF0MGWJJZ794,correlations,corrélations,corrélation,False,False,True,False,6060
+200,A39PWDRYNY2WM0,speech,parole,dicours,False,True,False,False,6060
+201,A39PWDRYNY2WM0,phrase,phrase,phrases,True,False,False,False,6060
+202,A39PWDRYNY2WM0,datasets,jeux de données,données,False,True,False,False,6060
+203,A39PWDRYNY2WM0,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs,True,False,False,False,6060
+204,A39PWDRYNY2WM0,qualitative,qualitatif,qualitative,True,False,False,False,6060
+205,A251BWQW2F81FT,speech,parole,dicours,False,True,False,False,6060
+206,A251BWQW2F81FT,phrase,phrase,phrases,True,False,False,False,6060
+207,A251BWQW2F81FT,datasets,jeux de données,données,False,True,False,False,6060
+208,A251BWQW2F81FT,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs,False,True,False,False,6060
+209,A251BWQW2F81FT,qualitative,qualitatif,qualitative,True,False,False,False,6060
+210,A3Q32FL0WWF4KZ,speech,parole,dicours,False,True,False,False,6060
+211,A3Q32FL0WWF4KZ,phrase,phrase,phrases,True,False,False,False,6060
+212,A3Q32FL0WWF4KZ,datasets,jeux de données,données,False,True,False,False,6060
+213,A3Q32FL0WWF4KZ,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs,True,False,False,False,6060
+214,A3Q32FL0WWF4KZ,qualitative,qualitatif,qualitative,True,False,False,False,6060
+215,A3OAFR48DADAOM,speech,parole,dicours,True,False,False,False,6060
+216,A3OAFR48DADAOM,phrase,phrase,phrases,False,True,False,False,6060
+217,A3OAFR48DADAOM,datasets,jeux de données,données,False,True,False,False,6060
+218,A3OAFR48DADAOM,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs,False,False,True,False,6060
+219,A3OAFR48DADAOM,qualitative,qualitatif,qualitative,True,False,False,False,6060
+220,A2GJB7TBZM91Z4,speech,parole,dicours,False,True,False,False,6060
+221,A2GJB7TBZM91Z4,phrase,phrase,phrases,True,False,False,False,6060
+222,A2GJB7TBZM91Z4,datasets,jeux de données,données,False,True,False,False,6060
+223,A2GJB7TBZM91Z4,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs,False,True,False,False,6060
+224,A2GJB7TBZM91Z4,qualitative,qualitatif,qualitative,True,False,False,False,6060
+225,A1XD6THGBT1T9T,retrieved,récupéré,récupérés,True,False,False,False,6060
+226,A1XD6THGBT1T9T,tokens,tokens,gages,False,True,False,False,6060
+227,A1XD6THGBT1T9T,edit,modification,édition,True,False,False,False,6060
+228,A1XD6THGBT1T9T,news,actualités,nouvelles,True,False,False,False,6060
+229,A1XD6THGBT1T9T,adversarial,adversarial,antagoniste,False,False,True,False,6060
+230,A2FXDEKCCUT9OJ,retrieved,récupéré,récupérés,True,False,False,False,6060
+231,A2FXDEKCCUT9OJ,tokens,tokens,gages,False,True,False,False,6060
+232,A2FXDEKCCUT9OJ,edit,modification,édition,True,False,False,False,6060
+233,A2FXDEKCCUT9OJ,news,actualités,nouvelles,True,False,False,False,6060
+234,A2FXDEKCCUT9OJ,adversarial,adversarial,antagoniste,False,False,True,False,6060
+235,A3EKM55NFX1H6B,retrieved,récupéré,récupérés,False,True,False,False,6060
+236,A3EKM55NFX1H6B,tokens,tokens,gages,True,False,False,False,6060
+237,A3EKM55NFX1H6B,edit,modification,édition,True,False,False,False,6060
+238,A3EKM55NFX1H6B,news,actualités,nouvelles,True,False,False,False,6060
+239,A3EKM55NFX1H6B,adversarial,adversarial,antagoniste,False,False,True,False,6060
+240,A3MDTRJTDIDNX,retrieved,récupéré,récupérés,True,False,False,False,6060
+241,A3MDTRJTDIDNX,tokens,tokens,gages,False,True,False,False,6060
+242,A3MDTRJTDIDNX,edit,modification,édition,True,False,False,False,6060
+243,A3MDTRJTDIDNX,news,actualités,nouvelles,True,False,False,False,6060
+244,A3MDTRJTDIDNX,adversarial,adversarial,antagoniste,False,False,True,False,6060
+245,A2P8U65V6NL7B5,retrieved,récupéré,récupérés,False,True,False,False,6060
+246,A2P8U65V6NL7B5,tokens,tokens,gages,False,False,False,True,6060
+247,A2P8U65V6NL7B5,edit,modification,édition,True,False,False,False,6060
+248,A2P8U65V6NL7B5,news,actualités,nouvelles,True,False,False,False,6060
+249,A2P8U65V6NL7B5,adversarial,adversarial,antagoniste,False,False,True,False,6060
+250,A9M8N3BOH6013,sentiment,sentiment,émotionel,True,False,False,False,6060
+251,A9M8N3BOH6013,Hence,Par conséquent,donc,True,False,False,False,6060
+252,A9M8N3BOH6013,predicates,prédicats,prédicat,True,False,False,False,6060
+253,A9M8N3BOH6013,event,événement,activité,False,True,False,False,6060
+254,A9M8N3BOH6013,simultaneous,simultané,simultanée,True,False,False,False,6060
+255,A2FXDEKCCUT9OJ,sentiment,sentiment,émotionel,True,False,False,False,6060
+256,A2FXDEKCCUT9OJ,Hence,Par conséquent,donc,True,False,False,False,6060
+257,A2FXDEKCCUT9OJ,predicates,prédicats,prédicat,False,True,False,False,6060
+258,A2FXDEKCCUT9OJ,event,événement,activité,False,True,False,False,6060
+259,A2FXDEKCCUT9OJ,simultaneous,simultané,simultanée,True,False,False,False,6060
+260,A2GJB7TBZM91Z4,sentiment,sentiment,émotionel,True,False,False,False,6060
+261,A2GJB7TBZM91Z4,Hence,Par conséquent,donc,True,False,False,False,6060
+262,A2GJB7TBZM91Z4,predicates,prédicats,prédicat,False,True,False,False,6060
+263,A2GJB7TBZM91Z4,event,événement,activité,False,True,False,False,6060
+264,A2GJB7TBZM91Z4,simultaneous,simultané,simultanée,True,False,False,False,6060
+265,A186ORPGIU3WNL,sentiment,sentiment,émotionel,True,False,False,False,6060
+266,A186ORPGIU3WNL,Hence,Par conséquent,donc,True,False,False,False,6060
+267,A186ORPGIU3WNL,predicates,prédicats,prédicat,False,True,False,False,6060
+268,A186ORPGIU3WNL,event,événement,activité,True,False,False,False,6060
+269,A186ORPGIU3WNL,simultaneous,simultané,simultanée,False,True,False,False,6060
+270,A19I2ZK220NTAE,sentiment,sentiment,émotionel,True,False,False,False,6060
+271,A19I2ZK220NTAE,Hence,Par conséquent,donc,True,False,False,False,6060
+272,A19I2ZK220NTAE,predicates,prédicats,prédicat,False,True,False,False,6060
+273,A19I2ZK220NTAE,event,événement,activité,True,False,False,False,6060
+274,A19I2ZK220NTAE,simultaneous,simultané,simultanée,True,False,False,False,6060
+275,A1XD6THGBT1T9T,semantics,sémantique,sémantiques,True,False,False,False,6060
+276,A1XD6THGBT1T9T,research,recherche,recherches,False,False,False,False,6060
+277,A1XD6THGBT1T9T,generated,généré,générés,True,False,False,False,6060
+278,A1XD6THGBT1T9T,baselines,références,bases,True,False,False,False,6060
+279,A1XD6THGBT1T9T,parsing,analyse,analyse syntaxique,False,False,True,False,6060
+280,A19I2ZK220NTAE,semantics,sémantique,sémantiques,False,True,False,False,6060
+281,A19I2ZK220NTAE,research,recherche,recherches,True,False,False,False,6060
+282,A19I2ZK220NTAE,generated,généré,générés,False,True,False,False,6060
+283,A19I2ZK220NTAE,baselines,références,bases,False,False,True,False,6060
+284,A19I2ZK220NTAE,parsing,analyse,analyse syntaxique,False,False,True,False,6060
+285,A38SYZRVLTMOFG,semantics,sémantique,sémantiques,False,True,False,False,6060
+286,A38SYZRVLTMOFG,research,recherche,recherches,True,False,False,False,6060
+287,A38SYZRVLTMOFG,generated,généré,générés,False,True,False,False,6060
+288,A38SYZRVLTMOFG,baselines,références,bases,False,False,True,False,6060
+289,A38SYZRVLTMOFG,parsing,analyse,analyse syntaxique,False,False,True,False,6060
+290,A3HSZ9YLOBCCPR,semantics,sémantique,sémantiques,False,True,False,False,6060
+291,A3HSZ9YLOBCCPR,research,recherche,recherches,False,True,False,False,6060
+292,A3HSZ9YLOBCCPR,generated,généré,générés,False,True,False,False,6060
+293,A3HSZ9YLOBCCPR,baselines,références,bases,False,False,True,False,6060
+294,A3HSZ9YLOBCCPR,parsing,analyse,analyse syntaxique,False,False,True,False,6060
+295,AWPXR7XE6B8KD,semantics,sémantique,sémantiques,True,False,False,False,6060
+296,AWPXR7XE6B8KD,research,recherche,recherches,True,False,False,False,6060
+297,AWPXR7XE6B8KD,generated,généré,générés,True,False,False,False,6060
+298,AWPXR7XE6B8KD,baselines,références,bases,False,True,False,False,6060
+299,AWPXR7XE6B8KD,parsing,analyse,analyse syntaxique,False,False,True,False,6060
+300,A3R5K7A8US5PDE,linguistics,linguistique,linguistiques,False,True,False,False,6060
+301,A3R5K7A8US5PDE,previous,précédent,antérieur,False,False,True,False,6060
+302,A3R5K7A8US5PDE,encode,encoder,encode,False,False,True,False,6060
+303,A3R5K7A8US5PDE,finetuning,ajustement fin,raffinement,False,False,True,False,6060
+304,A3R5K7A8US5PDE,propose,proposer,proposé,False,False,True,False,6060
+305,ASML73P0NOOVV,linguistics,linguistique,linguistiques,True,False,False,False,6060
+306,ASML73P0NOOVV,previous,précédent,antérieur,True,False,False,False,6060
+307,ASML73P0NOOVV,encode,encoder,encode,False,True,False,False,6060
+308,ASML73P0NOOVV,finetuning,ajustement fin,raffinement,False,True,False,False,6060
+309,ASML73P0NOOVV,propose,proposer,proposé,False,True,False,False,6060
+310,A11B7MUC7UTFKN,linguistics,linguistique,linguistiques,False,True,False,False,6060
+311,A11B7MUC7UTFKN,previous,précédent,antérieur,True,False,False,False,6060
+312,A11B7MUC7UTFKN,encode,encoder,encode,False,True,False,False,6060
+313,A11B7MUC7UTFKN,finetuning,ajustement fin,raffinement,False,True,False,False,6060
+314,A11B7MUC7UTFKN,propose,proposer,proposé,False,True,False,False,6060
+315,A2MZEUP2ECO1AI,linguistics,linguistique,linguistiques,False,True,False,False,6060
+316,A2MZEUP2ECO1AI,previous,précédent,antérieur,True,False,False,False,6060
+317,A2MZEUP2ECO1AI,encode,encoder,encode,False,True,False,False,6060
+318,A2MZEUP2ECO1AI,finetuning,ajustement fin,raffinement,False,True,False,False,6060
+319,A2MZEUP2ECO1AI,propose,proposer,proposé,True,False,False,False,6060
+320,A9M8N3BOH6013,linguistics,linguistique,linguistiques,False,True,False,False,6060
+321,A9M8N3BOH6013,previous,précédent,antérieur,True,False,False,False,6060
+322,A9M8N3BOH6013,encode,encoder,encode,False,True,False,False,6060
+323,A9M8N3BOH6013,finetuning,ajustement fin,raffinement,True,False,False,False,6060
+324,A9M8N3BOH6013,propose,proposer,proposé,False,True,False,False,6060
+325,A3Q32FL0WWF4KZ,linked,lié,liées,True,False,False,False,6060
+326,A3Q32FL0WWF4KZ,neural,neural,neuronal,False,False,True,False,6060
+327,A3Q32FL0WWF4KZ,problem,problème,problèmes,True,False,False,False,6060
+328,A3Q32FL0WWF4KZ,dataset,ensemble de données,données,False,True,False,False,6060
+329,A3Q32FL0WWF4KZ,achieves,atteint,performance,False,False,False,True,6060
+330,A3SC8IBRLEFRUP,linked,lié,liées,False,True,False,False,6060
+331,A3SC8IBRLEFRUP,neural,neural,neuronal,False,True,False,False,6060
+332,A3SC8IBRLEFRUP,problem,problème,problèmes,False,False,True,False,6060
+333,A3SC8IBRLEFRUP,dataset,ensemble de données,données,False,True,False,False,6060
+334,A3SC8IBRLEFRUP,achieves,atteint,performance,False,True,False,False,6060
+335,A2FXDEKCCUT9OJ,linked,lié,liées,False,True,False,False,6060
+336,A2FXDEKCCUT9OJ,neural,neural,neuronal,False,False,True,False,6060
+337,A2FXDEKCCUT9OJ,problem,problème,problèmes,True,False,False,False,6060
+338,A2FXDEKCCUT9OJ,dataset,ensemble de données,données,False,True,False,False,6060
+339,A2FXDEKCCUT9OJ,achieves,atteint,performance,False,False,False,True,6060
+340,A2GJB7TBZM91Z4,linked,lié,liées,True,False,False,False,6060
+341,A2GJB7TBZM91Z4,neural,neural,neuronal,False,False,True,False,6060
+342,A2GJB7TBZM91Z4,problem,problème,problèmes,True,False,False,False,6060
+343,A2GJB7TBZM91Z4,dataset,ensemble de données,données,False,True,False,False,6060
+344,A2GJB7TBZM91Z4,achieves,atteint,performance,False,False,False,True,6060
+345,A3EKM55NFX1H6B,linked,lié,liées,False,True,False,False,6060
+346,A3EKM55NFX1H6B,neural,neural,neuronal,False,False,True,False,6060
+347,A3EKM55NFX1H6B,problem,problème,problèmes,True,False,False,False,6060
+348,A3EKM55NFX1H6B,dataset,ensemble de données,données,False,True,False,False,6060
+349,A3EKM55NFX1H6B,achieves,atteint,performance,False,False,False,True,6060
+350,ACW4ZKFBDFS32,distributions,distributions,distribution,False,False,True,False,6060
+351,ACW4ZKFBDFS32,token,jeton,gage,False,True,False,False,6060
+352,ACW4ZKFBDFS32,labeled,étiqueté,étiquetés,False,True,False,False,6060
+353,ACW4ZKFBDFS32,captions,légendes,captures,False,True,False,False,6060
+354,ACW4ZKFBDFS32,Morphology,Morphologie,morphologique,False,True,False,False,6060
+355,A3EKM55NFX1H6B,distributions,distributions,distribution,True,False,False,False,6060
+356,A3EKM55NFX1H6B,token,jeton,gage,False,False,False,True,6060
+357,A3EKM55NFX1H6B,labeled,étiqueté,étiquetés,True,False,False,False,6060
+358,A3EKM55NFX1H6B,captions,légendes,captures,False,True,False,False,6060
+359,A3EKM55NFX1H6B,Morphology,Morphologie,morphologique,False,True,False,False,6060
+360,A39PWDRYNY2WM0,distributions,distributions,distribution,True,False,False,False,6060
+361,A39PWDRYNY2WM0,token,jeton,gage,False,True,False,False,6060
+362,A39PWDRYNY2WM0,labeled,étiqueté,étiquetés,True,False,False,False,6060
+363,A39PWDRYNY2WM0,captions,légendes,captures,False,True,False,False,6060
+364,A39PWDRYNY2WM0,Morphology,Morphologie,morphologique,False,True,False,False,6060
+365,A3MDTRJTDIDNX,distributions,distributions,distribution,True,False,False,False,6060
+366,A3MDTRJTDIDNX,token,jeton,gage,False,True,False,False,6060
+367,A3MDTRJTDIDNX,labeled,étiqueté,étiquetés,True,False,False,False,6060
+368,A3MDTRJTDIDNX,captions,légendes,captures,False,True,False,False,6060
+369,A3MDTRJTDIDNX,Morphology,Morphologie,morphologique,False,True,False,False,6060
+370,AC4I7XU10MQXK,distributions,distributions,distribution,True,False,False,False,6060
+371,AC4I7XU10MQXK,token,jeton,gage,False,True,False,False,6060
+372,AC4I7XU10MQXK,labeled,étiqueté,étiquetés,False,True,False,False,6060
+373,AC4I7XU10MQXK,captions,légendes,captures,False,True,False,False,6060
+374,AC4I7XU10MQXK,Morphology,Morphologie,morphologique,False,True,False,False,6060
+375,A3IG9HHR3NL9R0,utterances,énoncés,discours,False,True,False,False,6060
+376,A3IG9HHR3NL9R0,Detecting,Détection,détecter,True,False,False,False,6060
+377,A3IG9HHR3NL9R0,Boltzmann exploration,Exploration Boltzmann,exploration de Boltzmann,False,False,True,False,threshold
+378,A3IG9HHR3NL9R0,Chamfer Distance,Distance du chanfrein,Distance de Chamfer,False,False,True,False,threshold
+379,A3IG9HHR3NL9R0,Charniak parser,parseur de Charniak,analyseur Charniak,True,False,False,False,threshold
+380,ASML73P0NOOVV,utterances,énoncés,discours,True,False,False,False,6060
+381,ASML73P0NOOVV,Detecting,Détection,détecter,False,True,False,False,6060
+382,ASML73P0NOOVV,Boltzmann exploration,Exploration Boltzmann,exploration de Boltzmann,False,False,True,False,threshold
+383,ASML73P0NOOVV,Chamfer Distance,Distance du chanfrein,Distance de Chamfer,False,False,True,False,threshold
+384,ASML73P0NOOVV,Charniak parser,parseur de Charniak,analyseur Charniak,True,False,False,False,threshold
+385,A39PWDRYNY2WM0,utterances,énoncés,discours,False,True,False,False,6060
+386,A39PWDRYNY2WM0,Detecting,Détection,détecter,False,True,False,False,6060
+387,A39PWDRYNY2WM0,Boltzmann exploration,Exploration Boltzmann,exploration de Boltzmann,False,False,True,False,threshold
+388,A39PWDRYNY2WM0,Chamfer Distance,Distance du chanfrein,Distance de Chamfer,False,False,True,False,threshold
+389,A39PWDRYNY2WM0,Charniak parser,parseur de Charniak,analyseur Charniak,True,False,False,False,threshold
+390,A30IGMGSC7G2HM,utterances,énoncés,discours,False,True,False,False,6060
+391,A30IGMGSC7G2HM,Detecting,Détection,détecter,False,True,False,False,6060
+392,A30IGMGSC7G2HM,Boltzmann exploration,Exploration Boltzmann,exploration de Boltzmann,False,False,True,False,threshold
+393,A30IGMGSC7G2HM,Chamfer Distance,Distance du chanfrein,Distance de Chamfer,False,False,True,False,threshold
+394,A30IGMGSC7G2HM,Charniak parser,parseur de Charniak,analyseur Charniak,True,False,False,False,threshold
+395,A9M8N3BOH6013,utterances,énoncés,discours,False,True,False,False,6060
+396,A9M8N3BOH6013,Detecting,Détection,détecter,True,False,False,False,6060
+397,A9M8N3BOH6013,Boltzmann exploration,Exploration Boltzmann,exploration de Boltzmann,False,False,True,False,threshold
+398,A9M8N3BOH6013,Chamfer Distance,Distance du chanfrein,Distance de Chamfer,False,False,True,False,threshold
+399,A9M8N3BOH6013,Charniak parser,parseur de Charniak,analyseur Charniak,True,False,False,False,threshold
+400,A1XD6THGBT1T9T,Expectation Maximization algorithm,algorithme d'estimation par maximisation,algorithme de maximisation des attentes,False,False,True,False,threshold
+401,A1XD6THGBT1T9T,Focal Loss,Perte focale,Focal Loss,False,True,False,False,threshold
+402,A1XD6THGBT1T9T,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+403,A1XD6THGBT1T9T,Information Retrieval,Récupération d'information,Recherche d'Information,True,False,False,False,threshold
+404,A1XD6THGBT1T9T,Jensen's inequality,L'inégalité de Jensen,inégalité de Jensen,True,False,False,False,threshold
+405,AG9MLSV2QCVD4,Expectation Maximization algorithm,algorithme d'estimation par maximisation,algorithme de maximisation des attentes,False,False,True,False,threshold
+406,AG9MLSV2QCVD4,Focal Loss,Perte focale,Focal Loss,False,True,False,False,threshold
+407,AG9MLSV2QCVD4,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+408,AG9MLSV2QCVD4,Information Retrieval,Récupération d'information,Recherche d'Information,True,False,False,False,threshold
+409,AG9MLSV2QCVD4,Jensen's inequality,L'inégalité de Jensen,inégalité de Jensen,True,False,False,False,threshold
+410,A324C5L6JIMN16,Expectation Maximization algorithm,algorithme d'estimation par maximisation,algorithme de maximisation des attentes,False,False,True,False,threshold
+411,A324C5L6JIMN16,Focal Loss,Perte focale,Focal Loss,False,True,False,False,threshold
+412,A324C5L6JIMN16,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+413,A324C5L6JIMN16,Information Retrieval,Récupération d'information,Recherche d'Information,True,False,False,False,threshold
+414,A324C5L6JIMN16,Jensen's inequality,L'inégalité de Jensen,inégalité de Jensen,True,False,False,False,threshold
+415,A2744LPDY86TJO,Expectation Maximization algorithm,algorithme d'estimation par maximisation,algorithme de maximisation des attentes,True,False,False,False,threshold
+416,A2744LPDY86TJO,Focal Loss,Perte focale,Focal Loss,False,False,False,False,threshold
+417,A2744LPDY86TJO,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+418,A2744LPDY86TJO,Information Retrieval,Récupération d'information,Recherche d'Information,True,False,False,False,threshold
+419,A2744LPDY86TJO,Jensen's inequality,L'inégalité de Jensen,inégalité de Jensen,True,False,False,False,threshold
+420,A3EKM55NFX1H6B,Expectation Maximization algorithm,algorithme d'estimation par maximisation,algorithme de maximisation des attentes,False,False,True,False,threshold
+421,A3EKM55NFX1H6B,Focal Loss,Perte focale,Focal Loss,False,True,False,False,threshold
+422,A3EKM55NFX1H6B,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+423,A3EKM55NFX1H6B,Information Retrieval,Récupération d'information,Recherche d'Information,True,False,False,False,threshold
+424,A3EKM55NFX1H6B,Jensen's inequality,L'inégalité de Jensen,inégalité de Jensen,True,False,False,False,threshold
+425,A324C5L6JIMN16,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,True,False,False,threshold
+426,A324C5L6JIMN16,L 2 distance,distance L2,distance L 2,True,False,False,False,threshold
+427,A324C5L6JIMN16,Markov's inequality,L'inégalité de Markov,inégalité de Markov,True,False,False,False,threshold
+428,A324C5L6JIMN16,Open Information Extraction,Extraction d'informations ouvertes,extraction d'information ouverte,False,True,False,False,threshold
+429,A324C5L6JIMN16,Routing Transformer,Transformateur de routage,Transformer de routage,True,False,False,False,threshold
+430,A38SYZRVLTMOFG,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,True,False,False,threshold
+431,A38SYZRVLTMOFG,L 2 distance,distance L2,distance L 2,True,False,False,False,threshold
+432,A38SYZRVLTMOFG,Markov's inequality,L'inégalité de Markov,inégalité de Markov,True,False,False,False,threshold
+433,A38SYZRVLTMOFG,Open Information Extraction,Extraction d'informations ouvertes,extraction d'information ouverte,False,True,False,False,threshold
+434,A38SYZRVLTMOFG,Routing Transformer,Transformateur de routage,Transformer de routage,False,False,True,False,threshold
+435,A13QHI6P2C910K,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,True,False,False,threshold
+436,A13QHI6P2C910K,L 2 distance,distance L2,distance L 2,True,False,False,False,threshold
+437,A13QHI6P2C910K,Markov's inequality,L'inégalité de Markov,inégalité de Markov,True,False,False,False,threshold
+438,A13QHI6P2C910K,Open Information Extraction,Extraction d'informations ouvertes,extraction d'information ouverte,True,False,False,False,threshold
+439,A13QHI6P2C910K,Routing Transformer,Transformateur de routage,Transformer de routage,True,False,False,False,threshold
+440,A3MF0MGWJJZ794,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,False,True,False,threshold
+441,A3MF0MGWJJZ794,L 2 distance,distance L2,distance L 2,False,False,False,True,threshold
+442,A3MF0MGWJJZ794,Markov's inequality,L'inégalité de Markov,inégalité de Markov,False,False,False,True,threshold
+443,A3MF0MGWJJZ794,Open Information Extraction,Extraction d'informations ouvertes,extraction d'information ouverte,False,False,True,False,threshold
+444,A3MF0MGWJJZ794,Routing Transformer,Transformateur de routage,Transformer de routage,False,False,False,True,threshold
+445,A3IG9HHR3NL9R0,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,True,False,False,threshold
+446,A3IG9HHR3NL9R0,L 2 distance,distance L2,distance L 2,True,False,False,False,threshold
+447,A3IG9HHR3NL9R0,Markov's inequality,L'inégalité de Markov,inégalité de Markov,True,False,False,False,threshold
+448,A3IG9HHR3NL9R0,Open Information Extraction,Extraction d'informations ouvertes,extraction d'information ouverte,True,False,False,False,threshold
+449,A3IG9HHR3NL9R0,Routing Transformer,Transformateur de routage,Transformer de routage,False,True,False,False,threshold
+450,A3IG9HHR3NL9R0,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+451,A3IG9HHR3NL9R0,Transformer-based language model,Modèle de langage basé sur les Transformers,modèle de langage basé sur Transformer,False,True,False,False,threshold
+452,A3IG9HHR3NL9R0,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+453,A3IG9HHR3NL9R0,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+454,A3IG9HHR3NL9R0,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,True,False,False,threshold
+455,A38SYZRVLTMOFG,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+456,A38SYZRVLTMOFG,Transformer-based language model,Modèle de langage basé sur les Transformers,modèle de langage basé sur Transformer,False,True,False,False,threshold
+457,A38SYZRVLTMOFG,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+458,A38SYZRVLTMOFG,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+459,A38SYZRVLTMOFG,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,True,False,False,threshold
+460,A3SC8IBRLEFRUP,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+461,A3SC8IBRLEFRUP,Transformer-based language model,Modèle de langage basé sur les Transformers,modèle de langage basé sur Transformer,False,False,True,False,threshold
+462,A3SC8IBRLEFRUP,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+463,A3SC8IBRLEFRUP,action sequence,séquence d'actions,séquence d'action,False,False,True,False,threshold
+464,A3SC8IBRLEFRUP,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,False,False,True,threshold
+465,A9M8N3BOH6013,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+466,A9M8N3BOH6013,Transformer-based language model,Modèle de langage basé sur les Transformers,modèle de langage basé sur Transformer,False,True,False,False,threshold
+467,A9M8N3BOH6013,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+468,A9M8N3BOH6013,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+469,A9M8N3BOH6013,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,True,False,False,False,threshold
+470,A13QHI6P2C910K,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+471,A13QHI6P2C910K,Transformer-based language model,Modèle de langage basé sur les Transformers,modèle de langage basé sur Transformer,False,True,False,False,threshold
+472,A13QHI6P2C910K,abstractive summarization,résumé abstractif,résumé abstrait,True,False,False,False,threshold
+473,A13QHI6P2C910K,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+474,A13QHI6P2C910K,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,True,False,False,threshold
+475,A2P8U65V6NL7B5,anaphora resolution,résolution des anaphores,résolution d'anaphore,True,False,False,False,threshold
+476,A2P8U65V6NL7B5,approximate posterior distribution,distribution postérieure approchée,distribution postérieure approximative,True,False,False,False,threshold
+477,A2P8U65V6NL7B5,augmented state space,espace d'états augmenté,espace d'état augmenté,False,True,False,False,threshold
+478,A2P8U65V6NL7B5,baseline system,système de base,système de référence,False,True,False,False,threshold
+479,A2P8U65V6NL7B5,batch optimization,optimisation par lots,optimisation par lot,True,False,False,False,threshold
+480,A3IG9HHR3NL9R0,anaphora resolution,résolution des anaphores,résolution d'anaphore,False,True,False,False,threshold
+481,A3IG9HHR3NL9R0,approximate posterior distribution,distribution postérieure approchée,distribution postérieure approximative,True,False,False,False,threshold
+482,A3IG9HHR3NL9R0,augmented state space,espace d'états augmenté,espace d'état augmenté,False,True,False,False,threshold
+483,A3IG9HHR3NL9R0,baseline system,système de base,système de référence,False,False,True,False,threshold
+484,A3IG9HHR3NL9R0,batch optimization,optimisation par lots,optimisation par lot,False,True,False,False,threshold
+485,AS0K8SAHI5SQD,anaphora resolution,résolution des anaphores,résolution d'anaphore,False,True,False,False,threshold
+486,AS0K8SAHI5SQD,approximate posterior distribution,distribution postérieure approchée,distribution postérieure approximative,True,False,False,False,threshold
+487,AS0K8SAHI5SQD,augmented state space,espace d'états augmenté,espace d'état augmenté,False,True,False,False,threshold
+488,AS0K8SAHI5SQD,baseline system,système de base,système de référence,True,False,False,False,threshold
+489,AS0K8SAHI5SQD,batch optimization,optimisation par lots,optimisation par lot,True,False,False,False,threshold
+490,A39PWDRYNY2WM0,anaphora resolution,résolution des anaphores,résolution d'anaphore,True,False,False,False,threshold
+491,A39PWDRYNY2WM0,approximate posterior distribution,distribution postérieure approchée,distribution postérieure approximative,True,False,False,False,threshold
+492,A39PWDRYNY2WM0,augmented state space,espace d'états augmenté,espace d'état augmenté,False,True,False,False,threshold
+493,A39PWDRYNY2WM0,baseline system,système de base,système de référence,True,False,False,False,threshold
+494,A39PWDRYNY2WM0,batch optimization,optimisation par lots,optimisation par lot,False,True,False,False,threshold
+495,A3Q32FL0WWF4KZ,anaphora resolution,résolution des anaphores,résolution d'anaphore,True,False,False,False,threshold
+496,A3Q32FL0WWF4KZ,approximate posterior distribution,distribution postérieure approchée,distribution postérieure approximative,True,False,False,False,threshold
+497,A3Q32FL0WWF4KZ,augmented state space,espace d'états augmenté,espace d'état augmenté,True,False,False,False,threshold
+498,A3Q32FL0WWF4KZ,baseline system,système de base,système de référence,True,False,False,False,threshold
+499,A3Q32FL0WWF4KZ,batch optimization,optimisation par lots,optimisation par lot,False,True,False,False,threshold
+500,A38SYZRVLTMOFG,batch processing,traitement par lots,traitement par lot,False,True,False,False,threshold
+501,A38SYZRVLTMOFG,bi-gram,bigramme,bi-gramme,True,False,False,False,threshold
+502,A38SYZRVLTMOFG,bounding box regression,régression de la boîte englobante,régression de boîte englobante,True,False,False,False,threshold
+503,A38SYZRVLTMOFG,chatbot,agent conversationnel,chatbot,True,False,False,False,threshold
+504,A38SYZRVLTMOFG,chi-square distribution,distribution du khi carré,distribution du chi carré,False,False,True,False,threshold
+505,A3HSZ9YLOBCCPR,batch processing,traitement par lots,traitement par lot,True,False,False,False,threshold
+506,A3HSZ9YLOBCCPR,bi-gram,bigramme,bi-gramme,False,True,False,False,threshold
+507,A3HSZ9YLOBCCPR,bounding box regression,régression de la boîte englobante,régression de boîte englobante,False,True,False,False,threshold
+508,A3HSZ9YLOBCCPR,chatbot,agent conversationnel,chatbot,True,False,False,False,threshold
+509,A3HSZ9YLOBCCPR,chi-square distribution,distribution du khi carré,distribution du chi carré,False,False,True,False,threshold
+510,AC4I7XU10MQXK,batch processing,traitement par lots,traitement par lot,True,False,False,False,threshold
+511,AC4I7XU10MQXK,bi-gram,bigramme,bi-gramme,False,False,True,False,threshold
+512,AC4I7XU10MQXK,bounding box regression,régression de la boîte englobante,régression de boîte englobante,True,False,False,False,threshold
+513,AC4I7XU10MQXK,chatbot,agent conversationnel,chatbot,False,True,False,False,threshold
+514,AC4I7XU10MQXK,chi-square distribution,distribution du khi carré,distribution du chi carré,False,False,True,False,threshold
+515,A3MF0MGWJJZ794,batch processing,traitement par lots,traitement par lot,False,False,True,False,threshold
+516,A3MF0MGWJJZ794,bi-gram,bigramme,bi-gramme,False,False,True,False,threshold
+517,A3MF0MGWJJZ794,bounding box regression,régression de la boîte englobante,régression de boîte englobante,False,False,False,True,threshold
+518,A3MF0MGWJJZ794,chatbot,agent conversationnel,chatbot,False,False,True,False,threshold
+519,A3MF0MGWJJZ794,chi-square distribution,distribution du khi carré,distribution du chi carré,False,False,False,True,threshold
+520,A2QX81MMC8KN80,batch processing,traitement par lots,traitement par lot,False,False,True,False,threshold
+521,A2QX81MMC8KN80,bi-gram,bigramme,bi-gramme,False,False,False,True,threshold
+522,A2QX81MMC8KN80,bounding box regression,régression de la boîte englobante,régression de boîte englobante,False,False,True,False,threshold
+523,A2QX81MMC8KN80,chatbot,agent conversationnel,chatbot,False,False,True,False,threshold
+524,A2QX81MMC8KN80,chi-square distribution,distribution du khi carré,distribution du chi carré,False,False,False,True,threshold
+525,A3EKM55NFX1H6B,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+526,A3EKM55NFX1H6B,clipping factor,facteur d'écrêtage,facteur de clipping,True,False,False,False,threshold
+527,A3EKM55NFX1H6B,cluster feature,caractéristiques de cluster,caractéristique de cluster,False,True,False,False,threshold
+528,A3EKM55NFX1H6B,clustering algorithm,algorithme de regroupement,algorithme de clustering,True,False,False,False,threshold
+529,A3EKM55NFX1H6B,clustering problem,problème de clustering,problème de regroupement,False,True,False,False,threshold
+530,A324C5L6JIMN16,chi-square test,test du khi-deux,test du chi carré,False,False,True,False,threshold
+531,A324C5L6JIMN16,clipping factor,facteur d'écrêtage,facteur de clipping,False,True,False,False,threshold
+532,A324C5L6JIMN16,cluster feature,caractéristiques de cluster,caractéristique de cluster,True,False,False,False,threshold
+533,A324C5L6JIMN16,clustering algorithm,algorithme de regroupement,algorithme de clustering,True,False,False,False,threshold
+534,A324C5L6JIMN16,clustering problem,problème de clustering,problème de regroupement,True,False,False,False,threshold
+535,A2E2FFMXS9F9KR,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+536,A2E2FFMXS9F9KR,clipping factor,facteur d'écrêtage,facteur de clipping,True,False,False,False,threshold
+537,A2E2FFMXS9F9KR,cluster feature,caractéristiques de cluster,caractéristique de cluster,True,False,False,False,threshold
+538,A2E2FFMXS9F9KR,clustering algorithm,algorithme de regroupement,algorithme de clustering,True,False,False,False,threshold
+539,A2E2FFMXS9F9KR,clustering problem,problème de clustering,problème de regroupement,True,False,False,False,threshold
+540,A38SYZRVLTMOFG,chi-square test,test du khi-deux,test du chi carré,False,False,True,False,threshold
+541,A38SYZRVLTMOFG,clipping factor,facteur d'écrêtage,facteur de clipping,True,False,False,False,threshold
+542,A38SYZRVLTMOFG,cluster feature,caractéristiques de cluster,caractéristique de cluster,False,False,True,False,threshold
+543,A38SYZRVLTMOFG,clustering algorithm,algorithme de regroupement,algorithme de clustering,True,False,False,False,threshold
+544,A38SYZRVLTMOFG,clustering problem,problème de clustering,problème de regroupement,True,False,False,False,threshold
+545,A2YVLMI4PRDECY,chi-square test,test du khi-deux,test du chi carré,False,True,False,False,threshold
+546,A2YVLMI4PRDECY,clipping factor,facteur d'écrêtage,facteur de clipping,True,False,False,False,threshold
+547,A2YVLMI4PRDECY,cluster feature,caractéristiques de cluster,caractéristique de cluster,False,False,True,False,threshold
+548,A2YVLMI4PRDECY,clustering algorithm,algorithme de regroupement,algorithme de clustering,True,False,False,False,threshold
+549,A2YVLMI4PRDECY,clustering problem,problème de clustering,problème de regroupement,True,False,False,False,threshold
+550,A324C5L6JIMN16,co-occurrence statistic,statistique de cooccurrence,statistique de co-occurrence,False,False,True,False,threshold
+551,A324C5L6JIMN16,constituency tree,arbre de constituants,arbre de constituance,False,True,False,False,threshold
+552,A324C5L6JIMN16,constrained optimization problem,problème d'optimisation contrainte,problème d'optimisation contraint,False,True,False,False,threshold
+553,A324C5L6JIMN16,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+554,A324C5L6JIMN16,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+555,A19I2ZK220NTAE,co-occurrence statistic,statistique de cooccurrence,statistique de co-occurrence,False,False,True,False,threshold
+556,A19I2ZK220NTAE,constituency tree,arbre de constituants,arbre de constituance,False,True,False,False,threshold
+557,A19I2ZK220NTAE,constrained optimization problem,problème d'optimisation contrainte,problème d'optimisation contraint,False,True,False,False,threshold
+558,A19I2ZK220NTAE,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+559,A19I2ZK220NTAE,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+560,A3IG9HHR3NL9R0,co-occurrence statistic,statistique de cooccurrence,statistique de co-occurrence,True,False,False,False,threshold
+561,A3IG9HHR3NL9R0,constituency tree,arbre de constituants,arbre de constituance,False,True,False,False,threshold
+562,A3IG9HHR3NL9R0,constrained optimization problem,problème d'optimisation contrainte,problème d'optimisation contraint,False,True,False,False,threshold
+563,A3IG9HHR3NL9R0,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+564,A3IG9HHR3NL9R0,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+565,A11B7MUC7UTFKN,co-occurrence statistic,statistique de cooccurrence,statistique de co-occurrence,False,False,True,False,threshold
+566,A11B7MUC7UTFKN,constituency tree,arbre de constituants,arbre de constituance,False,True,False,False,threshold
+567,A11B7MUC7UTFKN,constrained optimization problem,problème d'optimisation contrainte,problème d'optimisation contraint,False,True,False,False,threshold
+568,A11B7MUC7UTFKN,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+569,A11B7MUC7UTFKN,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+570,A13QHI6P2C910K,co-occurrence statistic,statistique de cooccurrence,statistique de co-occurrence,False,False,True,False,threshold
+571,A13QHI6P2C910K,constituency tree,arbre de constituants,arbre de constituance,False,True,False,False,threshold
+572,A13QHI6P2C910K,constrained optimization problem,problème d'optimisation contrainte,problème d'optimisation contraint,False,True,False,False,threshold
+573,A13QHI6P2C910K,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,True,False,False,False,threshold
+574,A13QHI6P2C910K,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+575,A324C5L6JIMN16,coordinate descent algorithm,algorithme de descente par coordonnées,algorithme de descente de coordonnées,False,True,False,False,threshold
+576,A324C5L6JIMN16,covariate,covariables,covariable,True,False,False,False,threshold
+577,A324C5L6JIMN16,critic network,réseau du critique,réseau critique,False,False,True,False,threshold
+578,A324C5L6JIMN16,cumulant generating function,fonction génératrice des cumulants,fonction génératrice de cumulants,True,False,False,False,threshold
+579,A324C5L6JIMN16,datum clustering,clustering des données,regroupement de données,True,False,False,False,threshold
+580,A1XD6THGBT1T9T,coordinate descent algorithm,algorithme de descente par coordonnées,algorithme de descente de coordonnées,True,False,False,False,threshold
+581,A1XD6THGBT1T9T,covariate,covariables,covariable,True,False,False,False,threshold
+582,A1XD6THGBT1T9T,critic network,réseau du critique,réseau critique,False,False,True,False,threshold
+583,A1XD6THGBT1T9T,cumulant generating function,fonction génératrice des cumulants,fonction génératrice de cumulants,True,False,False,False,threshold
+584,A1XD6THGBT1T9T,datum clustering,clustering des données,regroupement de données,True,False,False,False,threshold
+585,A3IG9HHR3NL9R0,coordinate descent algorithm,algorithme de descente par coordonnées,algorithme de descente de coordonnées,True,False,False,False,threshold
+586,A3IG9HHR3NL9R0,covariate,covariables,covariable,False,False,True,False,threshold
+587,A3IG9HHR3NL9R0,critic network,réseau du critique,réseau critique,False,True,False,False,threshold
+588,A3IG9HHR3NL9R0,cumulant generating function,fonction génératrice des cumulants,fonction génératrice de cumulants,True,False,False,False,threshold
+589,A3IG9HHR3NL9R0,datum clustering,clustering des données,regroupement de données,True,False,False,False,threshold
+590,AC4I7XU10MQXK,coordinate descent algorithm,algorithme de descente par coordonnées,algorithme de descente de coordonnées,False,True,False,False,threshold
+591,AC4I7XU10MQXK,covariate,covariables,covariable,True,False,False,False,threshold
+592,AC4I7XU10MQXK,critic network,réseau du critique,réseau critique,False,True,False,False,threshold
+593,AC4I7XU10MQXK,cumulant generating function,fonction génératrice des cumulants,fonction génératrice de cumulants,True,False,False,False,threshold
+594,AC4I7XU10MQXK,datum clustering,clustering des données,regroupement de données,True,False,False,False,threshold
+595,A30IGMGSC7G2HM,coordinate descent algorithm,algorithme de descente par coordonnées,algorithme de descente de coordonnées,True,False,False,False,threshold
+596,A30IGMGSC7G2HM,covariate,covariables,covariable,False,False,True,False,threshold
+597,A30IGMGSC7G2HM,critic network,réseau du critique,réseau critique,False,True,False,False,threshold
+598,A30IGMGSC7G2HM,cumulant generating function,fonction génératrice des cumulants,fonction génératrice de cumulants,True,False,False,False,threshold
+599,A30IGMGSC7G2HM,datum clustering,clustering des données,regroupement de données,True,False,False,False,threshold
+600,A3OAFR48DADAOM,dependency parse tree,arbre d'analyse des dépendances,arbre d'analyse de dépendance,True,False,False,False,threshold
+601,A3OAFR48DADAOM,directed graph,graphe orienté,graphe dirigé,True,False,False,False,threshold
+602,A3OAFR48DADAOM,document summarization,résumé de documents,résumé de document,False,True,False,False,threshold
+603,A3OAFR48DADAOM,edge feature,caractéristiques de bord,caractéristique de contour,True,False,False,False,threshold
+604,A3OAFR48DADAOM,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+605,ASE8ADTSWOHDB,dependency parse tree,arbre d'analyse des dépendances,arbre d'analyse de dépendance,False,True,False,False,threshold
+606,ASE8ADTSWOHDB,directed graph,graphe orienté,graphe dirigé,False,False,True,False,threshold
+607,ASE8ADTSWOHDB,document summarization,résumé de documents,résumé de document,False,True,False,False,threshold
+608,ASE8ADTSWOHDB,edge feature,caractéristiques de bord,caractéristique de contour,True,False,False,False,threshold
+609,ASE8ADTSWOHDB,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+610,A2YVLMI4PRDECY,dependency parse tree,arbre d'analyse des dépendances,arbre d'analyse de dépendance,False,True,False,False,threshold
+611,A2YVLMI4PRDECY,directed graph,graphe orienté,graphe dirigé,True,False,False,False,threshold
+612,A2YVLMI4PRDECY,document summarization,résumé de documents,résumé de document,False,True,False,False,threshold
+613,A2YVLMI4PRDECY,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+614,A2YVLMI4PRDECY,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+615,A2FXDEKCCUT9OJ,dependency parse tree,arbre d'analyse des dépendances,arbre d'analyse de dépendance,True,False,False,False,threshold
+616,A2FXDEKCCUT9OJ,directed graph,graphe orienté,graphe dirigé,True,False,False,False,threshold
+617,A2FXDEKCCUT9OJ,document summarization,résumé de documents,résumé de document,False,True,False,False,threshold
+618,A2FXDEKCCUT9OJ,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+619,A2FXDEKCCUT9OJ,event calculus,calcul d'événements,calcul des événements,False,False,True,False,threshold
+620,AC4I7XU10MQXK,dependency parse tree,arbre d'analyse des dépendances,arbre d'analyse de dépendance,True,False,False,False,threshold
+621,AC4I7XU10MQXK,directed graph,graphe orienté,graphe dirigé,True,False,False,False,threshold
+622,AC4I7XU10MQXK,document summarization,résumé de documents,résumé de document,False,True,False,False,threshold
+623,AC4I7XU10MQXK,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+624,AC4I7XU10MQXK,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+625,A3IG9HHR3NL9R0,expert demonstration,démonstration experte,démonstration d'expert,False,False,True,False,threshold
+626,A3IG9HHR3NL9R0,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+627,A3IG9HHR3NL9R0,feature dimensionality,dimensionnalité des caractéristiques,dimensionalité des caractéristiques,True,False,False,False,threshold
+628,A3IG9HHR3NL9R0,feature space,espace de caractéristiques,espace des caractéristiques,True,False,False,False,threshold
+629,A3IG9HHR3NL9R0,feed forward neural network,réseau de neurones à propagation directe,réseau de neurones à propagation avant,False,True,False,False,threshold
+630,A39PWDRYNY2WM0,expert demonstration,démonstration experte,démonstration d'expert,False,False,True,False,threshold
+631,A39PWDRYNY2WM0,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+632,A39PWDRYNY2WM0,feature dimensionality,dimensionnalité des caractéristiques,dimensionalité des caractéristiques,True,False,False,False,threshold
+633,A39PWDRYNY2WM0,feature space,espace de caractéristiques,espace des caractéristiques,True,False,False,False,threshold
+634,A39PWDRYNY2WM0,feed forward neural network,réseau de neurones à propagation directe,réseau de neurones à propagation avant,True,False,False,False,threshold
+635,A2P8U65V6NL7B5,expert demonstration,démonstration experte,démonstration d'expert,True,False,False,False,threshold
+636,A2P8U65V6NL7B5,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+637,A2P8U65V6NL7B5,feature dimensionality,dimensionnalité des caractéristiques,dimensionalité des caractéristiques,False,False,True,False,threshold
+638,A2P8U65V6NL7B5,feature space,espace de caractéristiques,espace des caractéristiques,True,False,False,False,threshold
+639,A2P8U65V6NL7B5,feed forward neural network,réseau de neurones à propagation directe,réseau de neurones à propagation avant,False,False,True,False,threshold
+640,A13QHI6P2C910K,expert demonstration,démonstration experte,démonstration d'expert,True,False,False,False,threshold
+641,A13QHI6P2C910K,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+642,A13QHI6P2C910K,feature dimensionality,dimensionnalité des caractéristiques,dimensionalité des caractéristiques,False,False,True,False,threshold
+643,A13QHI6P2C910K,feature space,espace de caractéristiques,espace des caractéristiques,True,False,False,False,threshold
+644,A13QHI6P2C910K,feed forward neural network,réseau de neurones à propagation directe,réseau de neurones à propagation avant,False,True,False,False,threshold
+645,AC4I7XU10MQXK,expert demonstration,démonstration experte,démonstration d'expert,False,False,True,False,threshold
+646,AC4I7XU10MQXK,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+647,AC4I7XU10MQXK,feature dimensionality,dimensionnalité des caractéristiques,dimensionalité des caractéristiques,False,False,True,False,threshold
+648,AC4I7XU10MQXK,feature space,espace de caractéristiques,espace des caractéristiques,True,False,False,False,threshold
+649,AC4I7XU10MQXK,feed forward neural network,réseau de neurones à propagation directe,réseau de neurones à propagation avant,False,False,True,False,threshold
+650,A3OAFR48DADAOM,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+651,A3OAFR48DADAOM,gating function,fonction de gating,fonction de porte,False,False,True,False,threshold
+652,A3OAFR48DADAOM,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+653,A3OAFR48DADAOM,grandparent dependency,dépendance de grand-parent,dépendance grand-parent,False,True,False,False,threshold
+654,A3OAFR48DADAOM,graph kernel,noyau de graphe,noyau de graphes,False,True,False,False,threshold
+655,AWGV35294HOYB,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+656,AWGV35294HOYB,gating function,fonction de gating,fonction de porte,False,True,False,False,threshold
+657,AWGV35294HOYB,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+658,AWGV35294HOYB,grandparent dependency,dépendance de grand-parent,dépendance grand-parent,False,True,False,False,threshold
+659,AWGV35294HOYB,graph kernel,noyau de graphe,noyau de graphes,True,False,False,False,threshold
+660,A39PWDRYNY2WM0,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+661,A39PWDRYNY2WM0,gating function,fonction de gating,fonction de porte,False,False,True,False,threshold
+662,A39PWDRYNY2WM0,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+663,A39PWDRYNY2WM0,grandparent dependency,dépendance de grand-parent,dépendance grand-parent,False,True,False,False,threshold
+664,A39PWDRYNY2WM0,graph kernel,noyau de graphe,noyau de graphes,False,True,False,False,threshold
+665,A35H5DUMZH86PC,first-order language,langage du premier ordre,langage de premier ordre,False,True,False,False,threshold
+666,A35H5DUMZH86PC,gating function,fonction de gating,fonction de porte,False,False,True,False,threshold
+667,A35H5DUMZH86PC,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+668,A35H5DUMZH86PC,grandparent dependency,dépendance de grand-parent,dépendance grand-parent,False,True,False,False,threshold
+669,A35H5DUMZH86PC,graph kernel,noyau de graphe,noyau de graphes,True,False,False,False,threshold
+670,A3EKM55NFX1H6B,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+671,A3EKM55NFX1H6B,gating function,fonction de gating,fonction de porte,False,False,True,False,threshold
+672,A3EKM55NFX1H6B,grammar induction,induction de grammaire,induction grammaticale,False,True,False,False,threshold
+673,A3EKM55NFX1H6B,grandparent dependency,dépendance de grand-parent,dépendance grand-parent,False,True,False,False,threshold
+674,A3EKM55NFX1H6B,graph kernel,noyau de graphe,noyau de graphes,True,False,False,False,threshold
+675,A1XD6THGBT1T9T,group sparsity,sparsité de groupe,parcimonie de groupe,True,False,False,False,threshold
+676,A1XD6THGBT1T9T,hidden dimensionality,dimensionnalité cachée,dimensionalité cachée,False,False,True,False,threshold
+677,A1XD6THGBT1T9T,image processing,traitement d'images,traitement d'image,True,False,False,False,threshold
+678,A1XD6THGBT1T9T,image-to-image translation,traduction d'image en image,traduction d'image à image,False,True,False,False,threshold
+679,A1XD6THGBT1T9T,inlier,point conforme,inlier,False,False,True,False,threshold
+680,A3IG9HHR3NL9R0,group sparsity,sparsité de groupe,parcimonie de groupe,False,False,True,False,threshold
+681,A3IG9HHR3NL9R0,hidden dimensionality,dimensionnalité cachée,dimensionalité cachée,False,True,False,False,threshold
+682,A3IG9HHR3NL9R0,image processing,traitement d'images,traitement d'image,True,False,False,False,threshold
+683,A3IG9HHR3NL9R0,image-to-image translation,traduction d'image en image,traduction d'image à image,False,True,False,False,threshold
+684,A3IG9HHR3NL9R0,inlier,point conforme,inlier,True,False,False,False,threshold
+685,A39PWDRYNY2WM0,group sparsity,sparsité de groupe,parcimonie de groupe,True,False,False,False,threshold
+686,A39PWDRYNY2WM0,hidden dimensionality,dimensionnalité cachée,dimensionalité cachée,False,False,True,False,threshold
+687,A39PWDRYNY2WM0,image processing,traitement d'images,traitement d'image,True,False,False,False,threshold
+688,A39PWDRYNY2WM0,image-to-image translation,traduction d'image en image,traduction d'image à image,False,True,False,False,threshold
+689,A39PWDRYNY2WM0,inlier,point conforme,inlier,False,True,False,False,threshold
+690,AC4I7XU10MQXK,group sparsity,sparsité de groupe,parcimonie de groupe,True,False,False,False,threshold
+691,AC4I7XU10MQXK,hidden dimensionality,dimensionnalité cachée,dimensionalité cachée,False,False,True,False,threshold
+692,AC4I7XU10MQXK,image processing,traitement d'images,traitement d'image,True,False,False,False,threshold
+693,AC4I7XU10MQXK,image-to-image translation,traduction d'image en image,traduction d'image à image,False,True,False,False,threshold
+694,AC4I7XU10MQXK,inlier,point conforme,inlier,False,False,True,False,threshold
+695,A2P8U65V6NL7B5,group sparsity,sparsité de groupe,parcimonie de groupe,True,False,False,False,threshold
+696,A2P8U65V6NL7B5,hidden dimensionality,dimensionnalité cachée,dimensionalité cachée,False,False,True,False,threshold
+697,A2P8U65V6NL7B5,image processing,traitement d'images,traitement d'image,True,False,False,False,threshold
+698,A2P8U65V6NL7B5,image-to-image translation,traduction d'image en image,traduction d'image à image,False,True,False,False,threshold
+699,A2P8U65V6NL7B5,inlier,point conforme,inlier,False,False,True,False,threshold
+700,A324C5L6JIMN16,instance selection,sélection d'instances,sélection d'instance,False,True,False,False,threshold
+701,A324C5L6JIMN16,inter-annotator agreement,accord entre annotateurs,accord inter-annotateurs,False,False,True,False,threshold
+702,A324C5L6JIMN16,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+703,A324C5L6JIMN16,junction tree algorithm,algorithme d'arbre de jonction,algorithme de l'arbre de jonction,True,False,False,False,threshold
+704,A324C5L6JIMN16,kernel-based classification,classification basée sur les noyaux,classification basée sur le noyau,True,False,False,False,threshold
+705,AWGV35294HOYB,instance selection,sélection d'instances,sélection d'instance,True,False,False,False,threshold
+706,AWGV35294HOYB,inter-annotator agreement,accord entre annotateurs,accord inter-annotateurs,False,True,False,False,threshold
+707,AWGV35294HOYB,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+708,AWGV35294HOYB,junction tree algorithm,algorithme d'arbre de jonction,algorithme de l'arbre de jonction,True,False,False,False,threshold
+709,AWGV35294HOYB,kernel-based classification,classification basée sur les noyaux,classification basée sur le noyau,False,True,False,False,threshold
+710,A13QHI6P2C910K,instance selection,sélection d'instances,sélection d'instance,True,False,False,False,threshold
+711,A13QHI6P2C910K,inter-annotator agreement,accord entre annotateurs,accord inter-annotateurs,True,False,False,False,threshold
+712,A13QHI6P2C910K,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+713,A13QHI6P2C910K,junction tree algorithm,algorithme d'arbre de jonction,algorithme de l'arbre de jonction,True,False,False,False,threshold
+714,A13QHI6P2C910K,kernel-based classification,classification basée sur les noyaux,classification basée sur le noyau,True,False,False,False,threshold
+715,A186ORPGIU3WNL,instance selection,sélection d'instances,sélection d'instance,True,False,False,False,threshold
+716,A186ORPGIU3WNL,inter-annotator agreement,accord entre annotateurs,accord inter-annotateurs,True,False,False,False,threshold
+717,A186ORPGIU3WNL,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+718,A186ORPGIU3WNL,junction tree algorithm,algorithme d'arbre de jonction,algorithme de l'arbre de jonction,True,False,False,False,threshold
+719,A186ORPGIU3WNL,kernel-based classification,classification basée sur les noyaux,classification basée sur le noyau,False,True,False,False,threshold
+720,A2YVLMI4PRDECY,instance selection,sélection d'instances,sélection d'instance,True,False,False,False,threshold
+721,A2YVLMI4PRDECY,inter-annotator agreement,accord entre annotateurs,accord inter-annotateurs,False,False,True,False,threshold
+722,A2YVLMI4PRDECY,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+723,A2YVLMI4PRDECY,junction tree algorithm,algorithme d'arbre de jonction,algorithme de l'arbre de jonction,False,True,False,False,threshold
+724,A2YVLMI4PRDECY,kernel-based classification,classification basée sur les noyaux,classification basée sur le noyau,True,False,False,False,threshold
+725,A3R5K7A8US5PDE,label token,jeton de label,jeton d'étiquette,False,False,True,False,threshold
+726,A3R5K7A8US5PDE,landmark point,point repère,point de repère,False,False,True,False,threshold
+727,A3R5K7A8US5PDE,large-margin learning,apprentissage à grande marge,apprentissage à marge large,False,False,True,False,threshold
+728,A3R5K7A8US5PDE,latent embedding,encodage latent,intégration latente,False,False,True,False,threshold
+729,A3R5K7A8US5PDE,lexical item,unité lexicale,élément lexical,False,False,True,False,threshold
+730,A3IG9HHR3NL9R0,label token,jeton de label,jeton d'étiquette,False,False,True,False,threshold
+731,A3IG9HHR3NL9R0,landmark point,point repère,point de repère,True,False,False,False,threshold
+732,A3IG9HHR3NL9R0,large-margin learning,apprentissage à grande marge,apprentissage à marge large,False,True,False,False,threshold
+733,A3IG9HHR3NL9R0,latent embedding,encodage latent,intégration latente,False,True,False,False,threshold
+734,A3IG9HHR3NL9R0,lexical item,unité lexicale,élément lexical,True,False,False,False,threshold
+735,ASML73P0NOOVV,label token,jeton de label,jeton d'étiquette,False,False,True,False,threshold
+736,ASML73P0NOOVV,landmark point,point repère,point de repère,True,False,False,False,threshold
+737,ASML73P0NOOVV,large-margin learning,apprentissage à grande marge,apprentissage à marge large,False,True,False,False,threshold
+738,ASML73P0NOOVV,latent embedding,encodage latent,intégration latente,False,True,False,False,threshold
+739,ASML73P0NOOVV,lexical item,unité lexicale,élément lexical,True,False,False,False,threshold
+740,A186ORPGIU3WNL,label token,jeton de label,jeton d'étiquette,False,False,True,False,threshold
+741,A186ORPGIU3WNL,landmark point,point repère,point de repère,True,False,False,False,threshold
+742,A186ORPGIU3WNL,large-margin learning,apprentissage à grande marge,apprentissage à marge large,False,True,False,False,threshold
+743,A186ORPGIU3WNL,latent embedding,encodage latent,intégration latente,False,True,False,False,threshold
+744,A186ORPGIU3WNL,lexical item,unité lexicale,élément lexical,True,False,False,False,threshold
+745,A38SYZRVLTMOFG,label token,jeton de label,jeton d'étiquette,False,False,True,False,threshold
+746,A38SYZRVLTMOFG,landmark point,point repère,point de repère,True,False,False,False,threshold
+747,A38SYZRVLTMOFG,large-margin learning,apprentissage à grande marge,apprentissage à marge large,False,True,False,False,threshold
+748,A38SYZRVLTMOFG,latent embedding,encodage latent,intégration latente,True,False,False,False,threshold
+749,A38SYZRVLTMOFG,lexical item,unité lexicale,élément lexical,True,False,False,False,threshold
+750,A38SYZRVLTMOFG,lexicon induction,induction lexicale,induction de lexique,False,True,False,False,threshold
+751,A38SYZRVLTMOFG,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+752,A38SYZRVLTMOFG,linear learning rate schedule,calendrier de taux d'apprentissage linéaire,plan de taux d'apprentissage linéaire,False,False,True,False,threshold
+753,A38SYZRVLTMOFG,local image feature,caractéristique locale d'image,caractéristique d'image locale,True,False,False,False,threshold
+754,A38SYZRVLTMOFG,log-likelihood ratio,rapport de vraisemblance logarithmique,rapport de log-vraisemblance,True,False,False,False,threshold
+755,A2744LPDY86TJO,lexicon induction,induction lexicale,induction de lexique,True,False,False,False,threshold
+756,A2744LPDY86TJO,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+757,A2744LPDY86TJO,linear learning rate schedule,calendrier de taux d'apprentissage linéaire,plan de taux d'apprentissage linéaire,True,False,False,False,threshold
+758,A2744LPDY86TJO,local image feature,caractéristique locale d'image,caractéristique d'image locale,True,False,False,False,threshold
+759,A2744LPDY86TJO,log-likelihood ratio,rapport de vraisemblance logarithmique,rapport de log-vraisemblance,True,False,False,False,threshold
+760,A39PWDRYNY2WM0,lexicon induction,induction lexicale,induction de lexique,True,False,False,False,threshold
+761,A39PWDRYNY2WM0,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+762,A39PWDRYNY2WM0,linear learning rate schedule,calendrier de taux d'apprentissage linéaire,plan de taux d'apprentissage linéaire,False,False,True,False,threshold
+763,A39PWDRYNY2WM0,local image feature,caractéristique locale d'image,caractéristique d'image locale,True,False,False,False,threshold
+764,A39PWDRYNY2WM0,log-likelihood ratio,rapport de vraisemblance logarithmique,rapport de log-vraisemblance,False,True,False,False,threshold
+765,A13QHI6P2C910K,lexicon induction,induction lexicale,induction de lexique,False,True,False,False,threshold
+766,A13QHI6P2C910K,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+767,A13QHI6P2C910K,linear learning rate schedule,calendrier de taux d'apprentissage linéaire,plan de taux d'apprentissage linéaire,False,True,False,False,threshold
+768,A13QHI6P2C910K,local image feature,caractéristique locale d'image,caractéristique d'image locale,True,False,False,False,threshold
+769,A13QHI6P2C910K,log-likelihood ratio,rapport de vraisemblance logarithmique,rapport de log-vraisemblance,True,False,False,False,threshold
+770,A3EKM55NFX1H6B,lexicon induction,induction lexicale,induction de lexique,True,False,False,False,threshold
+771,A3EKM55NFX1H6B,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,False,True,False,False,threshold
+772,A3EKM55NFX1H6B,linear learning rate schedule,calendrier de taux d'apprentissage linéaire,plan de taux d'apprentissage linéaire,False,False,True,False,threshold
+773,A3EKM55NFX1H6B,local image feature,caractéristique locale d'image,caractéristique d'image locale,True,False,False,False,threshold
+774,A3EKM55NFX1H6B,log-likelihood ratio,rapport de vraisemblance logarithmique,rapport de log-vraisemblance,False,False,True,False,threshold
+775,A3EP9GQ23H4QVD,log-sum-exp,log-somme-exp,log-sum-exp,False,False,True,False,threshold
+776,A3EP9GQ23H4QVD,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+777,A3EP9GQ23H4QVD,manifold structure,structure de variétés,structure de variété,False,False,False,True,threshold
+778,A3EP9GQ23H4QVD,matching algorithm,algorithme de correspondance,algorithme d'appariement,True,False,False,False,threshold
+779,A3EP9GQ23H4QVD,matrix approximation,approximation matricielle,approximation de matrice,True,False,False,False,threshold
+780,A2FXDEKCCUT9OJ,log-sum-exp,log-somme-exp,log-sum-exp,False,False,True,False,threshold
+781,A2FXDEKCCUT9OJ,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+782,A2FXDEKCCUT9OJ,manifold structure,structure de variétés,structure de variété,False,True,False,False,threshold
+783,A2FXDEKCCUT9OJ,matching algorithm,algorithme de correspondance,algorithme d'appariement,True,False,False,False,threshold
+784,A2FXDEKCCUT9OJ,matrix approximation,approximation matricielle,approximation de matrice,True,False,False,False,threshold
+785,A3EKM55NFX1H6B,log-sum-exp,log-somme-exp,log-sum-exp,False,False,True,False,threshold
+786,A3EKM55NFX1H6B,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+787,A3EKM55NFX1H6B,manifold structure,structure de variétés,structure de variété,True,False,False,False,threshold
+788,A3EKM55NFX1H6B,matching algorithm,algorithme de correspondance,algorithme d'appariement,True,False,False,False,threshold
+789,A3EKM55NFX1H6B,matrix approximation,approximation matricielle,approximation de matrice,True,False,False,False,threshold
+790,A186ORPGIU3WNL,log-sum-exp,log-somme-exp,log-sum-exp,False,False,True,False,threshold
+791,A186ORPGIU3WNL,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+792,A186ORPGIU3WNL,manifold structure,structure de variétés,structure de variété,True,False,False,False,threshold
+793,A186ORPGIU3WNL,matching algorithm,algorithme de correspondance,algorithme d'appariement,True,False,False,False,threshold
+794,A186ORPGIU3WNL,matrix approximation,approximation matricielle,approximation de matrice,True,False,False,False,threshold
+795,A19I2ZK220NTAE,log-sum-exp,log-somme-exp,log-sum-exp,True,False,False,False,threshold
+796,A19I2ZK220NTAE,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,False,True,False,False,threshold
+797,A19I2ZK220NTAE,manifold structure,structure de variétés,structure de variété,False,True,False,False,threshold
+798,A19I2ZK220NTAE,matching algorithm,algorithme de correspondance,algorithme d'appariement,True,False,False,False,threshold
+799,A19I2ZK220NTAE,matrix approximation,approximation matricielle,approximation de matrice,True,False,False,False,threshold
+800,A3MDTRJTDIDNX,misinformation detection,détection de la désinformation,détection de désinformation,True,False,False,False,threshold
+801,A3MDTRJTDIDNX,mixed-integer program,programme en nombres entiers mixtes,programme mixte en nombres entiers,False,True,False,False,threshold
+802,A3MDTRJTDIDNX,model development,développement de modèles,développement de modèle,False,True,False,False,threshold
+803,A3MDTRJTDIDNX,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+804,A3MDTRJTDIDNX,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+805,A38SYZRVLTMOFG,misinformation detection,détection de la désinformation,détection de désinformation,True,False,False,False,threshold
+806,A38SYZRVLTMOFG,mixed-integer program,programme en nombres entiers mixtes,programme mixte en nombres entiers,True,False,False,False,threshold
+807,A38SYZRVLTMOFG,model development,développement de modèles,développement de modèle,False,True,False,False,threshold
+808,A38SYZRVLTMOFG,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+809,A38SYZRVLTMOFG,model performance,performances du modèle,performance du modèle,False,True,False,False,threshold
+810,AC4I7XU10MQXK,misinformation detection,détection de la désinformation,détection de désinformation,True,False,False,False,threshold
+811,AC4I7XU10MQXK,mixed-integer program,programme en nombres entiers mixtes,programme mixte en nombres entiers,False,True,False,False,threshold
+812,AC4I7XU10MQXK,model development,développement de modèles,développement de modèle,False,True,False,False,threshold
+813,AC4I7XU10MQXK,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+814,AC4I7XU10MQXK,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+815,A39PWDRYNY2WM0,misinformation detection,détection de la désinformation,détection de désinformation,True,False,False,False,threshold
+816,A39PWDRYNY2WM0,mixed-integer program,programme en nombres entiers mixtes,programme mixte en nombres entiers,True,False,False,False,threshold
+817,A39PWDRYNY2WM0,model development,développement de modèles,développement de modèle,False,True,False,False,threshold
+818,A39PWDRYNY2WM0,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+819,A39PWDRYNY2WM0,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+820,A1XD6THGBT1T9T,misinformation detection,détection de la désinformation,détection de désinformation,True,False,False,False,threshold
+821,A1XD6THGBT1T9T,mixed-integer program,programme en nombres entiers mixtes,programme mixte en nombres entiers,False,True,False,False,threshold
+822,A1XD6THGBT1T9T,model development,développement de modèles,développement de modèle,False,True,False,False,threshold
+823,A1XD6THGBT1T9T,model distribution,distribution du modèle,distribution de modèle,True,False,False,False,threshold
+824,A1XD6THGBT1T9T,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+825,A3IG9HHR3NL9R0,model-based approach,approche basée sur un modèle,approche basée sur le modèle,True,False,False,False,threshold
+826,A3IG9HHR3NL9R0,multi-class classification,classification multiclasse,classification multi-classe,True,False,False,False,threshold
+827,A3IG9HHR3NL9R0,multi-modal input,entrée multimodale,entrée multi-modale,True,False,False,False,threshold
+828,A3IG9HHR3NL9R0,multi-modal learning,apprentissage multimodal,apprentissage multi-modal,True,False,False,False,threshold
+829,A3IG9HHR3NL9R0,multi-view,multi-vues,multi-vue,False,False,True,False,threshold
+830,A2FXDEKCCUT9OJ,model-based approach,approche basée sur un modèle,approche basée sur le modèle,False,True,False,False,threshold
+831,A2FXDEKCCUT9OJ,multi-class classification,classification multiclasse,classification multi-classe,True,False,False,False,threshold
+832,A2FXDEKCCUT9OJ,multi-modal input,entrée multimodale,entrée multi-modale,True,False,False,False,threshold
+833,A2FXDEKCCUT9OJ,multi-modal learning,apprentissage multimodal,apprentissage multi-modal,True,False,False,False,threshold
+834,A2FXDEKCCUT9OJ,multi-view,multi-vues,multi-vue,False,False,True,False,threshold
+835,A3Q32FL0WWF4KZ,model-based approach,approche basée sur un modèle,approche basée sur le modèle,True,False,False,False,threshold
+836,A3Q32FL0WWF4KZ,multi-class classification,classification multiclasse,classification multi-classe,False,True,False,False,threshold
+837,A3Q32FL0WWF4KZ,multi-modal input,entrée multimodale,entrée multi-modale,True,False,False,False,threshold
+838,A3Q32FL0WWF4KZ,multi-modal learning,apprentissage multimodal,apprentissage multi-modal,True,False,False,False,threshold
+839,A3Q32FL0WWF4KZ,multi-view,multi-vues,multi-vue,False,True,False,False,threshold
+840,A2O4PW85X1GQA1,model-based approach,approche basée sur un modèle,approche basée sur le modèle,True,False,False,False,threshold
+841,A2O4PW85X1GQA1,multi-class classification,classification multiclasse,classification multi-classe,False,True,False,False,threshold
+842,A2O4PW85X1GQA1,multi-modal input,entrée multimodale,entrée multi-modale,True,False,False,False,threshold
+843,A2O4PW85X1GQA1,multi-modal learning,apprentissage multimodal,apprentissage multi-modal,True,False,False,False,threshold
+844,A2O4PW85X1GQA1,multi-view,multi-vues,multi-vue,False,True,False,False,threshold
+845,A2QX81MMC8KN80,model-based approach,approche basée sur un modèle,approche basée sur le modèle,False,False,True,False,threshold
+846,A2QX81MMC8KN80,multi-class classification,classification multiclasse,classification multi-classe,False,False,True,False,threshold
+847,A2QX81MMC8KN80,multi-modal input,entrée multimodale,entrée multi-modale,False,False,True,False,threshold
+848,A2QX81MMC8KN80,multi-modal learning,apprentissage multimodal,apprentissage multi-modal,False,False,False,True,threshold
+849,A2QX81MMC8KN80,multi-view,multi-vues,multi-vue,False,False,True,False,threshold
+850,A3MDTRJTDIDNX,multiclass model,modèle multiclasse,modèle multiclasses,False,True,False,False,threshold
+851,A3MDTRJTDIDNX,nearest-neighbor algorithm,algorithme du plus proche voisin,algorithme des plus proches voisins,True,False,False,False,threshold
+852,A3MDTRJTDIDNX,neural scene representation,représentation neurale de scène,représentation de scène neuronale,False,True,False,False,threshold
+853,A3MDTRJTDIDNX,node feature,attribut de nœud,caractéristique de nœud,False,False,True,False,threshold
+854,A3MDTRJTDIDNX,noise distribution,distribution du bruit,distribution de bruit,True,False,False,False,threshold
+855,A39PWDRYNY2WM0,multiclass model,modèle multiclasse,modèle multiclasses,True,False,False,False,threshold
+856,A39PWDRYNY2WM0,nearest-neighbor algorithm,algorithme du plus proche voisin,algorithme des plus proches voisins,False,False,True,False,threshold
+857,A39PWDRYNY2WM0,neural scene representation,représentation neurale de scène,représentation de scène neuronale,False,True,False,False,threshold
+858,A39PWDRYNY2WM0,node feature,attribut de nœud,caractéristique de nœud,True,False,False,False,threshold
+859,A39PWDRYNY2WM0,noise distribution,distribution du bruit,distribution de bruit,True,False,False,False,threshold
+860,A38SYZRVLTMOFG,multiclass model,modèle multiclasse,modèle multiclasses,False,True,False,False,threshold
+861,A38SYZRVLTMOFG,nearest-neighbor algorithm,algorithme du plus proche voisin,algorithme des plus proches voisins,True,False,False,False,threshold
+862,A38SYZRVLTMOFG,neural scene representation,représentation neurale de scène,représentation de scène neuronale,True,False,False,False,threshold
+863,A38SYZRVLTMOFG,node feature,attribut de nœud,caractéristique de nœud,False,False,True,False,threshold
+864,A38SYZRVLTMOFG,noise distribution,distribution du bruit,distribution de bruit,True,False,False,False,threshold
+865,AC4I7XU10MQXK,multiclass model,modèle multiclasse,modèle multiclasses,False,True,False,False,threshold
+866,AC4I7XU10MQXK,nearest-neighbor algorithm,algorithme du plus proche voisin,algorithme des plus proches voisins,True,False,False,False,threshold
+867,AC4I7XU10MQXK,neural scene representation,représentation neurale de scène,représentation de scène neuronale,False,True,False,False,threshold
+868,AC4I7XU10MQXK,node feature,attribut de nœud,caractéristique de nœud,True,False,False,False,threshold
+869,AC4I7XU10MQXK,noise distribution,distribution du bruit,distribution de bruit,True,False,False,False,threshold
+870,A2E2FFMXS9F9KR,multiclass model,modèle multiclasse,modèle multiclasses,False,True,False,False,threshold
+871,A2E2FFMXS9F9KR,nearest-neighbor algorithm,algorithme du plus proche voisin,algorithme des plus proches voisins,True,False,False,False,threshold
+872,A2E2FFMXS9F9KR,neural scene representation,représentation neurale de scène,représentation de scène neuronale,True,False,False,False,threshold
+873,A2E2FFMXS9F9KR,node feature,attribut de nœud,caractéristique de nœud,True,False,False,False,threshold
+874,A2E2FFMXS9F9KR,noise distribution,distribution du bruit,distribution de bruit,True,False,False,False,threshold
+875,A1XD6THGBT1T9T,non-negative matrix factorization,factorisation matricielle non négative,factorisation de matrice non négative,True,False,False,False,threshold
+876,A1XD6THGBT1T9T,normalizing flow,flot de normalisation,flux de normalisation,False,False,True,False,threshold
+877,A1XD6THGBT1T9T,novel view synthesis,synthèse de nouvelles vues,synthèse de vues nouvelles,True,False,False,False,threshold
+878,A1XD6THGBT1T9T,parameter tuning,ajustement des paramètres,réglage des paramètres,True,False,False,False,threshold
+879,A1XD6THGBT1T9T,parse chart,tableau de syntaxe,tableau d'analyse,True,False,False,False,threshold
+880,A2MZEUP2ECO1AI,non-negative matrix factorization,factorisation matricielle non négative,factorisation de matrice non négative,False,False,True,False,threshold
+881,A2MZEUP2ECO1AI,normalizing flow,flot de normalisation,flux de normalisation,False,False,True,False,threshold
+882,A2MZEUP2ECO1AI,novel view synthesis,synthèse de nouvelles vues,synthèse de vues nouvelles,True,False,False,False,threshold
+883,A2MZEUP2ECO1AI,parameter tuning,ajustement des paramètres,réglage des paramètres,True,False,False,False,threshold
+884,A2MZEUP2ECO1AI,parse chart,tableau de syntaxe,tableau d'analyse,False,True,False,False,threshold
+885,A3EKM55NFX1H6B,non-negative matrix factorization,factorisation matricielle non négative,factorisation de matrice non négative,False,False,True,False,threshold
+886,A3EKM55NFX1H6B,normalizing flow,flot de normalisation,flux de normalisation,False,False,True,False,threshold
+887,A3EKM55NFX1H6B,novel view synthesis,synthèse de nouvelles vues,synthèse de vues nouvelles,True,False,False,False,threshold
+888,A3EKM55NFX1H6B,parameter tuning,ajustement des paramètres,réglage des paramètres,True,False,False,False,threshold
+889,A3EKM55NFX1H6B,parse chart,tableau de syntaxe,tableau d'analyse,False,True,False,False,threshold
+890,A3Q32FL0WWF4KZ,non-negative matrix factorization,factorisation matricielle non négative,factorisation de matrice non négative,True,False,False,False,threshold
+891,A3Q32FL0WWF4KZ,normalizing flow,flot de normalisation,flux de normalisation,False,False,True,False,threshold
+892,A3Q32FL0WWF4KZ,novel view synthesis,synthèse de nouvelles vues,synthèse de vues nouvelles,True,False,False,False,threshold
+893,A3Q32FL0WWF4KZ,parameter tuning,ajustement des paramètres,réglage des paramètres,True,False,False,False,threshold
+894,A3Q32FL0WWF4KZ,parse chart,tableau de syntaxe,tableau d'analyse,True,False,False,False,threshold
+895,A2IFN9328HNXWC,non-negative matrix factorization,factorisation matricielle non négative,factorisation de matrice non négative,False,False,True,False,threshold
+896,A2IFN9328HNXWC,normalizing flow,flot de normalisation,flux de normalisation,False,False,True,False,threshold
+897,A2IFN9328HNXWC,novel view synthesis,synthèse de nouvelles vues,synthèse de vues nouvelles,True,False,False,False,threshold
+898,A2IFN9328HNXWC,parameter tuning,ajustement des paramètres,réglage des paramètres,True,False,False,False,threshold
+899,A2IFN9328HNXWC,parse chart,tableau de syntaxe,tableau d'analyse,False,True,False,False,threshold
+900,A2YVLMI4PRDECY,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+901,A2YVLMI4PRDECY,phoneme segmentation,segmentation de phonèmes,segmentation des phonèmes,True,False,False,False,threshold
+902,A2YVLMI4PRDECY,piecewise planar,planaire par morceaux,plan par morceaux,False,True,False,False,threshold
+903,A2YVLMI4PRDECY,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+904,A2YVLMI4PRDECY,policy parameter,paramètre de stratégie,paramètre de politique,True,False,False,False,threshold
+905,A13QHI6P2C910K,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+906,A13QHI6P2C910K,phoneme segmentation,segmentation de phonèmes,segmentation des phonèmes,True,False,False,False,threshold
+907,A13QHI6P2C910K,piecewise planar,planaire par morceaux,plan par morceaux,False,True,False,False,threshold
+908,A13QHI6P2C910K,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+909,A13QHI6P2C910K,policy parameter,paramètre de stratégie,paramètre de politique,True,False,False,False,threshold
+910,A11JXYZDAUX0UP,payoff function,fonction de gain,fonction de paiement,True,False,False,False,threshold
+911,A11JXYZDAUX0UP,phoneme segmentation,segmentation de phonèmes,segmentation des phonèmes,True,False,False,False,threshold
+912,A11JXYZDAUX0UP,piecewise planar,planaire par morceaux,plan par morceaux,True,False,False,False,threshold
+913,A11JXYZDAUX0UP,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+914,A11JXYZDAUX0UP,policy parameter,paramètre de stratégie,paramètre de politique,True,False,False,False,threshold
+915,A3MF0MGWJJZ794,payoff function,fonction de gain,fonction de paiement,False,False,True,False,threshold
+916,A3MF0MGWJJZ794,phoneme segmentation,segmentation de phonèmes,segmentation des phonèmes,False,False,False,True,threshold
+917,A3MF0MGWJJZ794,piecewise planar,planaire par morceaux,plan par morceaux,False,False,True,False,threshold
+918,A3MF0MGWJJZ794,pixel-wise,au niveau des pixels,pixel par pixel,False,False,False,True,threshold
+919,A3MF0MGWJJZ794,policy parameter,paramètre de stratégie,paramètre de politique,False,False,True,False,threshold
+920,AC4I7XU10MQXK,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+921,AC4I7XU10MQXK,phoneme segmentation,segmentation de phonèmes,segmentation des phonèmes,True,False,False,False,threshold
+922,AC4I7XU10MQXK,piecewise planar,planaire par morceaux,plan par morceaux,False,True,False,False,threshold
+923,AC4I7XU10MQXK,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+924,AC4I7XU10MQXK,policy parameter,paramètre de stratégie,paramètre de politique,False,False,True,False,threshold
+925,A3MDTRJTDIDNX,pre-train,pré-entrainement,pré-entraînement,True,False,False,False,threshold
+926,A3MDTRJTDIDNX,query context,contexte de requête,contexte de la requête,True,False,False,False,threshold
+927,A3MDTRJTDIDNX,range query,requête par intervalle,requête de plage,False,True,False,False,threshold
+928,A3MDTRJTDIDNX,roll-out policy,politique de simulation,politique de déploiement,False,False,True,False,threshold
+929,A3MDTRJTDIDNX,rollout,déroulement,déploiement,False,False,True,False,threshold
+930,AC4I7XU10MQXK,pre-train,pré-entrainement,pré-entraînement,False,False,True,False,threshold
+931,AC4I7XU10MQXK,query context,contexte de requête,contexte de la requête,True,False,False,False,threshold
+932,AC4I7XU10MQXK,range query,requête par intervalle,requête de plage,True,False,False,False,threshold
+933,AC4I7XU10MQXK,roll-out policy,politique de simulation,politique de déploiement,False,False,True,False,threshold
+934,AC4I7XU10MQXK,rollout,déroulement,déploiement,False,False,True,False,threshold
+935,AG9MLSV2QCVD4,pre-train,pré-entrainement,pré-entraînement,False,True,False,False,threshold
+936,AG9MLSV2QCVD4,query context,contexte de requête,contexte de la requête,True,False,False,False,threshold
+937,AG9MLSV2QCVD4,range query,requête par intervalle,requête de plage,False,False,True,False,threshold
+938,AG9MLSV2QCVD4,roll-out policy,politique de simulation,politique de déploiement,False,False,True,False,threshold
+939,AG9MLSV2QCVD4,rollout,déroulement,déploiement,False,False,True,False,threshold
+940,A2D6SB3TU1NYQ7,pre-train,pré-entrainement,pré-entraînement,False,True,False,False,threshold
+941,A2D6SB3TU1NYQ7,query context,contexte de requête,contexte de la requête,True,False,False,False,threshold
+942,A2D6SB3TU1NYQ7,range query,requête par intervalle,requête de plage,False,False,True,False,threshold
+943,A2D6SB3TU1NYQ7,roll-out policy,politique de simulation,politique de déploiement,False,False,True,False,threshold
+944,A2D6SB3TU1NYQ7,rollout,déroulement,déploiement,False,False,True,False,threshold
+945,A35H5DUMZH86PC,pre-train,pré-entrainement,pré-entraînement,False,True,False,False,threshold
+946,A35H5DUMZH86PC,query context,contexte de requête,contexte de la requête,True,False,False,False,threshold
+947,A35H5DUMZH86PC,range query,requête par intervalle,requête de plage,False,False,True,False,threshold
+948,A35H5DUMZH86PC,roll-out policy,politique de simulation,politique de déploiement,False,False,True,False,threshold
+949,A35H5DUMZH86PC,rollout,déroulement,déploiement,False,True,False,False,threshold
+950,A2P8U65V6NL7B5,scaled dot-product,produit scalaire mis à l’échelle,produit scalaire mis à l'échelle,True,False,False,False,threshold
+951,A2P8U65V6NL7B5,scheduler,ordonnanceur,planificateur,True,False,False,False,threshold
+952,A2P8U65V6NL7B5,semantic parser,parser sémantique,analyseur sémantique,True,False,False,False,threshold
+953,A2P8U65V6NL7B5,sentiment detection,détection des sentiments,détection de sentiment,False,True,False,False,threshold
+954,A2P8U65V6NL7B5,shape prior,a priori de forme,prior de forme,True,False,False,False,threshold
+955,A13QHI6P2C910K,scaled dot-product,produit scalaire mis à l’échelle,produit scalaire mis à l'échelle,False,False,True,False,threshold
+956,A13QHI6P2C910K,scheduler,ordonnanceur,planificateur,True,False,False,False,threshold
+957,A13QHI6P2C910K,semantic parser,parser sémantique,analyseur sémantique,True,False,False,False,threshold
+958,A13QHI6P2C910K,sentiment detection,détection des sentiments,détection de sentiment,False,True,False,False,threshold
+959,A13QHI6P2C910K,shape prior,a priori de forme,prior de forme,True,False,False,False,threshold
+960,A2744LPDY86TJO,scaled dot-product,produit scalaire mis à l’échelle,produit scalaire mis à l'échelle,True,False,False,False,threshold
+961,A2744LPDY86TJO,scheduler,ordonnanceur,planificateur,False,True,False,False,threshold
+962,A2744LPDY86TJO,semantic parser,parser sémantique,analyseur sémantique,True,False,False,False,threshold
+963,A2744LPDY86TJO,sentiment detection,détection des sentiments,détection de sentiment,True,False,False,False,threshold
+964,A2744LPDY86TJO,shape prior,a priori de forme,prior de forme,True,False,False,False,threshold
+965,A3IG9HHR3NL9R0,scaled dot-product,produit scalaire mis à l’échelle,produit scalaire mis à l'échelle,True,False,False,False,threshold
+966,A3IG9HHR3NL9R0,scheduler,ordonnanceur,planificateur,True,False,False,False,threshold
+967,A3IG9HHR3NL9R0,semantic parser,parser sémantique,analyseur sémantique,False,False,True,False,threshold
+968,A3IG9HHR3NL9R0,sentiment detection,détection des sentiments,détection de sentiment,False,True,False,False,threshold
+969,A3IG9HHR3NL9R0,shape prior,a priori de forme,prior de forme,False,True,False,False,threshold
+970,A3EB77JAMXMNQO,scaled dot-product,produit scalaire mis à l’échelle,produit scalaire mis à l'échelle,False,False,True,False,threshold
+971,A3EB77JAMXMNQO,scheduler,ordonnanceur,planificateur,False,True,False,False,threshold
+972,A3EB77JAMXMNQO,semantic parser,parser sémantique,analyseur sémantique,False,False,True,False,threshold
+973,A3EB77JAMXMNQO,sentiment detection,détection des sentiments,détection de sentiment,False,True,False,False,threshold
+974,A3EB77JAMXMNQO,shape prior,a priori de forme,prior de forme,False,False,True,False,threshold
+975,A30IGMGSC7G2HM,shift reduce parser,analyseur shift-reduce,analyseur à réduction de décalage,True,False,False,False,threshold
+976,A30IGMGSC7G2HM,signal-to-noise ratio,rapport signal/bruit,rapport signal-sur-bruit,False,True,False,False,threshold
+977,A30IGMGSC7G2HM,smoothness term,terme de lissage,terme de régularisation,False,True,False,False,threshold
+978,A30IGMGSC7G2HM,social network analysis,analyse de réseaux sociaux,analyse des réseaux sociaux,True,False,False,False,threshold
+979,A30IGMGSC7G2HM,sparse model,modèle parcimonieux,modèle épars,False,True,False,False,threshold
+980,A2FXDEKCCUT9OJ,shift reduce parser,analyseur shift-reduce,analyseur à réduction de décalage,True,False,False,False,threshold
+981,A2FXDEKCCUT9OJ,signal-to-noise ratio,rapport signal/bruit,rapport signal-sur-bruit,True,False,False,False,threshold
+982,A2FXDEKCCUT9OJ,smoothness term,terme de lissage,terme de régularisation,False,True,False,False,threshold
+983,A2FXDEKCCUT9OJ,social network analysis,analyse de réseaux sociaux,analyse des réseaux sociaux,True,False,False,False,threshold
+984,A2FXDEKCCUT9OJ,sparse model,modèle parcimonieux,modèle épars,True,False,False,False,threshold
+985,A9M8N3BOH6013,shift reduce parser,analyseur shift-reduce,analyseur à réduction de décalage,True,False,False,False,threshold
+986,A9M8N3BOH6013,signal-to-noise ratio,rapport signal/bruit,rapport signal-sur-bruit,False,True,False,False,threshold
+987,A9M8N3BOH6013,smoothness term,terme de lissage,terme de régularisation,False,True,False,False,threshold
+988,A9M8N3BOH6013,social network analysis,analyse de réseaux sociaux,analyse des réseaux sociaux,True,False,False,False,threshold
+989,A9M8N3BOH6013,sparse model,modèle parcimonieux,modèle épars,True,False,False,False,threshold
+990,A19I2ZK220NTAE,shift reduce parser,analyseur shift-reduce,analyseur à réduction de décalage,True,False,False,False,threshold
+991,A19I2ZK220NTAE,signal-to-noise ratio,rapport signal/bruit,rapport signal-sur-bruit,True,False,False,False,threshold
+992,A19I2ZK220NTAE,smoothness term,terme de lissage,terme de régularisation,False,True,False,False,threshold
+993,A19I2ZK220NTAE,social network analysis,analyse de réseaux sociaux,analyse des réseaux sociaux,True,False,False,False,threshold
+994,A19I2ZK220NTAE,sparse model,modèle parcimonieux,modèle épars,True,False,False,False,threshold
+995,A2YVLMI4PRDECY,shift reduce parser,analyseur shift-reduce,analyseur à réduction de décalage,False,True,False,False,threshold
+996,A2YVLMI4PRDECY,signal-to-noise ratio,rapport signal/bruit,rapport signal-sur-bruit,True,False,False,False,threshold
+997,A2YVLMI4PRDECY,smoothness term,terme de lissage,terme de régularisation,False,True,False,False,threshold
+998,A2YVLMI4PRDECY,social network analysis,analyse de réseaux sociaux,analyse des réseaux sociaux,True,False,False,False,threshold
+999,A2YVLMI4PRDECY,sparse model,modèle parcimonieux,modèle épars,True,False,False,False,threshold
+1000,A1PG4NZUVQMZUI,sparse sampling,échantillonnage épars,échantillonnage sparse,False,True,False,False,threshold
+1001,A1PG4NZUVQMZUI,spectral matching,appariement spectral,correspondance spectrale,True,False,False,False,threshold
+1002,A1PG4NZUVQMZUI,spurious correlation,corrélation parasite,corrélation spurious,False,True,False,False,threshold
+1003,A1PG4NZUVQMZUI,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,True,False,False,False,threshold
+1004,A1PG4NZUVQMZUI,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1005,A2D6SB3TU1NYQ7,sparse sampling,échantillonnage épars,échantillonnage sparse,False,True,False,False,threshold
+1006,A2D6SB3TU1NYQ7,spectral matching,appariement spectral,correspondance spectrale,True,False,False,False,threshold
+1007,A2D6SB3TU1NYQ7,spurious correlation,corrélation parasite,corrélation spurious,False,True,False,False,threshold
+1008,A2D6SB3TU1NYQ7,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1009,A2D6SB3TU1NYQ7,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1010,A13QHI6P2C910K,sparse sampling,échantillonnage épars,échantillonnage sparse,False,True,False,False,threshold
+1011,A13QHI6P2C910K,spectral matching,appariement spectral,correspondance spectrale,True,False,False,False,threshold
+1012,A13QHI6P2C910K,spurious correlation,corrélation parasite,corrélation spurious,False,True,False,False,threshold
+1013,A13QHI6P2C910K,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1014,A13QHI6P2C910K,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1015,A251BWQW2F81FT,sparse sampling,échantillonnage épars,échantillonnage sparse,False,True,False,False,threshold
+1016,A251BWQW2F81FT,spectral matching,appariement spectral,correspondance spectrale,True,False,False,False,threshold
+1017,A251BWQW2F81FT,spurious correlation,corrélation parasite,corrélation spurious,False,True,False,False,threshold
+1018,A251BWQW2F81FT,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1019,A251BWQW2F81FT,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1020,A3EKM55NFX1H6B,sparse sampling,échantillonnage épars,échantillonnage sparse,False,True,False,False,threshold
+1021,A3EKM55NFX1H6B,spectral matching,appariement spectral,correspondance spectrale,True,False,False,False,threshold
+1022,A3EKM55NFX1H6B,spurious correlation,corrélation parasite,corrélation spurious,False,True,False,False,threshold
+1023,A3EKM55NFX1H6B,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1024,A3EKM55NFX1H6B,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1025,A3MDTRJTDIDNX,state-of-the-art baseline,référence de l'état de l'art,référence de pointe,True,False,False,False,threshold
+1026,A3MDTRJTDIDNX,stochastic gradient method,méthode du gradient stochastique,méthode de gradient stochastique,True,False,False,False,threshold
+1027,A3MDTRJTDIDNX,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1028,A3MDTRJTDIDNX,submodular function,fonction submodulaire,fonction sous-modulaire,True,False,False,False,threshold
+1029,A3MDTRJTDIDNX,successor state axiom,axiome de l'état successeur,axiome d'état successeur,False,True,False,False,threshold
+1030,A2MZEUP2ECO1AI,state-of-the-art baseline,référence de l'état de l'art,référence de pointe,False,True,False,False,threshold
+1031,A2MZEUP2ECO1AI,stochastic gradient method,méthode du gradient stochastique,méthode de gradient stochastique,True,False,False,False,threshold
+1032,A2MZEUP2ECO1AI,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1033,A2MZEUP2ECO1AI,submodular function,fonction submodulaire,fonction sous-modulaire,True,False,False,False,threshold
+1034,A2MZEUP2ECO1AI,successor state axiom,axiome de l'état successeur,axiome d'état successeur,True,False,False,False,threshold
+1035,A13QHI6P2C910K,state-of-the-art baseline,référence de l'état de l'art,référence de pointe,True,False,False,False,threshold
+1036,A13QHI6P2C910K,stochastic gradient method,méthode du gradient stochastique,méthode de gradient stochastique,True,False,False,False,threshold
+1037,A13QHI6P2C910K,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1038,A13QHI6P2C910K,submodular function,fonction submodulaire,fonction sous-modulaire,True,False,False,False,threshold
+1039,A13QHI6P2C910K,successor state axiom,axiome de l'état successeur,axiome d'état successeur,True,False,False,False,threshold
+1040,A3MF0MGWJJZ794,state-of-the-art baseline,référence de l'état de l'art,référence de pointe,False,False,True,False,threshold
+1041,A3MF0MGWJJZ794,stochastic gradient method,méthode du gradient stochastique,méthode de gradient stochastique,False,False,False,True,threshold
+1042,A3MF0MGWJJZ794,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,False,False,True,False,threshold
+1043,A3MF0MGWJJZ794,submodular function,fonction submodulaire,fonction sous-modulaire,False,False,True,False,threshold
+1044,A3MF0MGWJJZ794,successor state axiom,axiome de l'état successeur,axiome d'état successeur,False,False,False,True,threshold
+1045,A18KBCH5YKDG35,state-of-the-art baseline,référence de l'état de l'art,référence de pointe,False,False,True,False,threshold
+1046,A18KBCH5YKDG35,stochastic gradient method,méthode du gradient stochastique,méthode de gradient stochastique,False,False,False,True,threshold
+1047,A18KBCH5YKDG35,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,False,False,True,False,threshold
+1048,A18KBCH5YKDG35,submodular function,fonction submodulaire,fonction sous-modulaire,False,False,False,True,threshold
+1049,A18KBCH5YKDG35,successor state axiom,axiome de l'état successeur,axiome d'état successeur,False,False,True,False,threshold
+1050,A39PWDRYNY2WM0,syntactic dependency parsing,analyse des dépendances syntaxiques,analyse de dépendance syntaxique,True,False,False,False,threshold
+1051,A39PWDRYNY2WM0,syntactic information,informations syntaxiques,information syntaxique,True,False,False,False,threshold
+1052,A39PWDRYNY2WM0,test split,partition de test,ensemble de test,False,True,False,False,threshold
+1053,A39PWDRYNY2WM0,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1054,A39PWDRYNY2WM0,textual entailment,inférence textuelle,implication textuelle,False,False,True,False,threshold
+1055,A3Q32FL0WWF4KZ,syntactic dependency parsing,analyse des dépendances syntaxiques,analyse de dépendance syntaxique,True,False,False,False,threshold
+1056,A3Q32FL0WWF4KZ,syntactic information,informations syntaxiques,information syntaxique,True,False,False,False,threshold
+1057,A3Q32FL0WWF4KZ,test split,partition de test,ensemble de test,True,False,False,False,threshold
+1058,A3Q32FL0WWF4KZ,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1059,A3Q32FL0WWF4KZ,textual entailment,inférence textuelle,implication textuelle,False,True,False,False,threshold
+1060,A2AMC4HEKGHN8A,syntactic dependency parsing,analyse des dépendances syntaxiques,analyse de dépendance syntaxique,True,False,False,False,threshold
+1061,A2AMC4HEKGHN8A,syntactic information,informations syntaxiques,information syntaxique,True,False,False,False,threshold
+1062,A2AMC4HEKGHN8A,test split,partition de test,ensemble de test,True,False,False,False,threshold
+1063,A2AMC4HEKGHN8A,text embedding,plongement de texte,intégration de texte,True,False,False,False,threshold
+1064,A2AMC4HEKGHN8A,textual entailment,inférence textuelle,implication textuelle,True,False,False,False,threshold
+1065,A11B7MUC7UTFKN,syntactic dependency parsing,analyse des dépendances syntaxiques,analyse de dépendance syntaxique,True,False,False,False,threshold
+1066,A11B7MUC7UTFKN,syntactic information,informations syntaxiques,information syntaxique,True,False,False,False,threshold
+1067,A11B7MUC7UTFKN,test split,partition de test,ensemble de test,True,False,False,False,threshold
+1068,A11B7MUC7UTFKN,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1069,A11B7MUC7UTFKN,textual entailment,inférence textuelle,implication textuelle,False,False,True,False,threshold
+1070,A186ORPGIU3WNL,syntactic dependency parsing,analyse des dépendances syntaxiques,analyse de dépendance syntaxique,True,False,False,False,threshold
+1071,A186ORPGIU3WNL,syntactic information,informations syntaxiques,information syntaxique,True,False,False,False,threshold
+1072,A186ORPGIU3WNL,test split,partition de test,ensemble de test,True,False,False,False,threshold
+1073,A186ORPGIU3WNL,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1074,A186ORPGIU3WNL,textual entailment,inférence textuelle,implication textuelle,True,False,False,False,threshold
+1075,A3MF0MGWJJZ794,time-series datum,donnée de série temporelle,donnée de séries temporelles,False,True,False,False,threshold
+1076,A3MF0MGWJJZ794,token vector,vecteur de token,vecteur de jeton,False,False,True,False,threshold
+1077,A3MF0MGWJJZ794,transformer layer,couche transformeur,couche transformer,False,False,True,False,threshold
+1078,A3MF0MGWJJZ794,tree search,recherche arborescente,recherche d'arbre,False,True,False,False,threshold
+1079,A3MF0MGWJJZ794,tree-based model,modèle basé sur des arbres,modèle basé sur un arbre,False,False,False,True,threshold
+1080,A2P8U65V6NL7B5,time-series datum,donnée de série temporelle,donnée de séries temporelles,True,False,False,False,threshold
+1081,A2P8U65V6NL7B5,token vector,vecteur de token,vecteur de jeton,False,False,True,False,threshold
+1082,A2P8U65V6NL7B5,transformer layer,couche transformeur,couche transformer,True,False,False,False,threshold
+1083,A2P8U65V6NL7B5,tree search,recherche arborescente,recherche d'arbre,False,True,False,False,threshold
+1084,A2P8U65V6NL7B5,tree-based model,modèle basé sur des arbres,modèle basé sur un arbre,True,False,False,False,threshold
+1085,A39PWDRYNY2WM0,time-series datum,donnée de série temporelle,donnée de séries temporelles,False,True,False,False,threshold
+1086,A39PWDRYNY2WM0,token vector,vecteur de token,vecteur de jeton,False,False,True,False,threshold
+1087,A39PWDRYNY2WM0,transformer layer,couche transformeur,couche transformer,True,False,False,False,threshold
+1088,A39PWDRYNY2WM0,tree search,recherche arborescente,recherche d'arbre,False,True,False,False,threshold
+1089,A39PWDRYNY2WM0,tree-based model,modèle basé sur des arbres,modèle basé sur un arbre,False,True,False,False,threshold
+1090,A3IG9HHR3NL9R0,time-series datum,donnée de série temporelle,donnée de séries temporelles,False,False,True,False,threshold
+1091,A3IG9HHR3NL9R0,token vector,vecteur de token,vecteur de jeton,False,False,True,False,threshold
+1092,A3IG9HHR3NL9R0,transformer layer,couche transformeur,couche transformer,False,False,True,False,threshold
+1093,A3IG9HHR3NL9R0,tree search,recherche arborescente,recherche d'arbre,False,True,False,False,threshold
+1094,A3IG9HHR3NL9R0,tree-based model,modèle basé sur des arbres,modèle basé sur un arbre,False,True,False,False,threshold
+1095,A3MDTRJTDIDNX,time-series datum,donnée de série temporelle,donnée de séries temporelles,True,False,False,False,threshold
+1096,A3MDTRJTDIDNX,token vector,vecteur de token,vecteur de jeton,False,False,True,False,threshold
+1097,A3MDTRJTDIDNX,transformer layer,couche transformeur,couche transformer,True,False,False,False,threshold
+1098,A3MDTRJTDIDNX,tree search,recherche arborescente,recherche d'arbre,False,True,False,False,threshold
+1099,A3MDTRJTDIDNX,tree-based model,modèle basé sur des arbres,modèle basé sur un arbre,False,True,False,False,threshold
+1100,A2MZEUP2ECO1AI,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1101,A2MZEUP2ECO1AI,value iteration algorithm,algorithme d'itération de la valeur,algorithme d'itération de valeur,False,True,False,False,threshold
+1102,A2MZEUP2ECO1AI,volume rendering,rendu volumétrique,rendu volumique,True,False,False,False,threshold
+1103,A2MZEUP2ECO1AI,word alignment,alignement de mots,alignement des mots,False,True,False,False,threshold
+1104,A2MZEUP2ECO1AI,word dropout,dropout de mots,abandon de mots,False,False,True,False,threshold
+1105,AWPXR7XE6B8KD,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1106,AWPXR7XE6B8KD,value iteration algorithm,algorithme d'itération de la valeur,algorithme d'itération de valeur,True,False,False,False,threshold
+1107,AWPXR7XE6B8KD,volume rendering,rendu volumétrique,rendu volumique,True,False,False,False,threshold
+1108,AWPXR7XE6B8KD,word alignment,alignement de mots,alignement des mots,False,True,False,False,threshold
+1109,AWPXR7XE6B8KD,word dropout,dropout de mots,abandon de mots,False,True,False,False,threshold
+1110,A251BWQW2F81FT,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1111,A251BWQW2F81FT,value iteration algorithm,algorithme d'itération de la valeur,algorithme d'itération de valeur,False,True,False,False,threshold
+1112,A251BWQW2F81FT,volume rendering,rendu volumétrique,rendu volumique,True,False,False,False,threshold
+1113,A251BWQW2F81FT,word alignment,alignement de mots,alignement des mots,False,True,False,False,threshold
+1114,A251BWQW2F81FT,word dropout,dropout de mots,abandon de mots,False,False,True,False,threshold
+1115,AC4I7XU10MQXK,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1116,AC4I7XU10MQXK,value iteration algorithm,algorithme d'itération de la valeur,algorithme d'itération de valeur,False,True,False,False,threshold
+1117,AC4I7XU10MQXK,volume rendering,rendu volumétrique,rendu volumique,True,False,False,False,threshold
+1118,AC4I7XU10MQXK,word alignment,alignement de mots,alignement des mots,False,True,False,False,threshold
+1119,AC4I7XU10MQXK,word dropout,dropout de mots,abandon de mots,False,True,False,False,threshold
+1120,A3EKM55NFX1H6B,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1121,A3EKM55NFX1H6B,value iteration algorithm,algorithme d'itération de la valeur,algorithme d'itération de valeur,False,True,False,False,threshold
+1122,A3EKM55NFX1H6B,volume rendering,rendu volumétrique,rendu volumique,False,True,False,False,threshold
+1123,A3EKM55NFX1H6B,word alignment,alignement de mots,alignement des mots,True,False,False,False,threshold
+1124,A3EKM55NFX1H6B,word dropout,dropout de mots,abandon de mots,False,True,False,False,threshold
+1125,A10FSZLB75VZ14,Gaussian component,composante gaussienne,composant gaussien,False,True,False,False,threshold
+1126,A10FSZLB75VZ14,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,True,False,False,threshold
+1127,A10FSZLB75VZ14,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+1128,A10FSZLB75VZ14,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+1129,A10FSZLB75VZ14,action sequence,séquence d'actions,séquence d'action,False,True,False,False,threshold
+1130,A1XD6THGBT1T9T,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+1131,A1XD6THGBT1T9T,Kleene closure,Fermeture Kleene,fermeture de Kleene,False,False,True,False,threshold
+1132,A1XD6THGBT1T9T,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+1133,A1XD6THGBT1T9T,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+1134,A1XD6THGBT1T9T,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+1135,A39PWDRYNY2WM0,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+1136,A39PWDRYNY2WM0,Kleene closure,Fermeture Kleene,fermeture de Kleene,True,False,False,False,threshold
+1137,A39PWDRYNY2WM0,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+1138,A39PWDRYNY2WM0,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+1139,A39PWDRYNY2WM0,action sequence,séquence d'actions,séquence d'action,False,True,False,False,threshold
+1140,AG9MLSV2QCVD4,Gaussian component,composante gaussienne,composant gaussien,True,False,False,False,threshold
+1141,AG9MLSV2QCVD4,Kleene closure,Fermeture Kleene,fermeture de Kleene,True,False,False,False,threshold
+1142,AG9MLSV2QCVD4,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+1143,AG9MLSV2QCVD4,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+1144,AG9MLSV2QCVD4,action sequence,séquence d'actions,séquence d'action,False,True,False,False,threshold
+1145,A38SYZRVLTMOFG,Gaussian component,composante gaussienne,composant gaussien,False,True,False,False,threshold
+1146,A38SYZRVLTMOFG,Kleene closure,Fermeture Kleene,fermeture de Kleene,True,False,False,False,threshold
+1147,A38SYZRVLTMOFG,Sentence-Piece,SentencePiece,Sentence-Piece,True,False,False,False,threshold
+1148,A38SYZRVLTMOFG,abstractive summarization,résumé abstractif,résumé abstrait,False,True,False,False,threshold
+1149,A38SYZRVLTMOFG,action sequence,séquence d'actions,séquence d'action,True,False,False,False,threshold
+1150,ARMNBJQQTC3MN,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,True,False,False,False,threshold
+1151,ARMNBJQQTC3MN,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+1152,ARMNBJQQTC3MN,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,True,False,False,False,threshold
+1153,ARMNBJQQTC3MN,convex objective function,fonction objective convexe,fonction objectif convexe,False,True,False,False,threshold
+1154,ARMNBJQQTC3MN,critic network,réseau du critique,réseau critique,False,True,False,False,threshold
+1155,A2P8U65V6NL7B5,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,False,True,False,threshold
+1156,A2P8U65V6NL7B5,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+1157,A2P8U65V6NL7B5,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+1158,A2P8U65V6NL7B5,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+1159,A2P8U65V6NL7B5,critic network,réseau du critique,réseau critique,True,False,False,False,threshold
+1160,AWGV35294HOYB,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,False,True,False,threshold
+1161,AWGV35294HOYB,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+1162,AWGV35294HOYB,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+1163,AWGV35294HOYB,convex objective function,fonction objective convexe,fonction objectif convexe,False,True,False,False,threshold
+1164,AWGV35294HOYB,critic network,réseau du critique,réseau critique,False,True,False,False,threshold
+1165,A2D6SB3TU1NYQ7,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,False,True,False,threshold
+1166,A2D6SB3TU1NYQ7,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+1167,A2D6SB3TU1NYQ7,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+1168,A2D6SB3TU1NYQ7,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+1169,A2D6SB3TU1NYQ7,critic network,réseau du critique,réseau critique,True,False,False,False,threshold
+1170,A2YVLMI4PRDECY,adapter-based fine-tuning,ajustement fin basé sur des adaptateurs,ajustement basé sur des adaptateurs,False,False,True,False,threshold
+1171,A2YVLMI4PRDECY,chi-square test,test du khi-deux,test du chi carré,True,False,False,False,threshold
+1172,A2YVLMI4PRDECY,contextualized word vector,vecteur de mots contextualisé,vecteur de mot contextualisé,False,True,False,False,threshold
+1173,A2YVLMI4PRDECY,convex objective function,fonction objective convexe,fonction objectif convexe,False,False,True,False,threshold
+1174,A2YVLMI4PRDECY,critic network,réseau du critique,réseau critique,True,False,False,False,threshold
+1175,A1XD6THGBT1T9T,datum generative process,processus génératif des données,processus génératif de données,True,False,False,False,threshold
+1176,A1XD6THGBT1T9T,edge feature,caractéristiques de bord,caractéristique de contour,True,False,False,False,threshold
+1177,A1XD6THGBT1T9T,event calculus,calcul d'événements,calcul des événements,False,True,False,False,threshold
+1178,A1XD6THGBT1T9T,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+1179,A1XD6THGBT1T9T,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+1180,A3SC8IBRLEFRUP,datum generative process,processus génératif des données,processus génératif de données,False,True,False,False,threshold
+1181,A3SC8IBRLEFRUP,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+1182,A3SC8IBRLEFRUP,event calculus,calcul d'événements,calcul des événements,False,True,False,False,threshold
+1183,A3SC8IBRLEFRUP,feasible set,ensemble faisable,ensemble réalisable,False,False,True,False,threshold
+1184,A3SC8IBRLEFRUP,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+1185,A13QHI6P2C910K,datum generative process,processus génératif des données,processus génératif de données,False,True,False,False,threshold
+1186,A13QHI6P2C910K,edge feature,caractéristiques de bord,caractéristique de contour,True,False,False,False,threshold
+1187,A13QHI6P2C910K,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+1188,A13QHI6P2C910K,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+1189,A13QHI6P2C910K,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+1190,A2MZEUP2ECO1AI,datum generative process,processus génératif des données,processus génératif de données,True,False,False,False,threshold
+1191,A2MZEUP2ECO1AI,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+1192,A2MZEUP2ECO1AI,event calculus,calcul d'événements,calcul des événements,True,False,False,False,threshold
+1193,A2MZEUP2ECO1AI,feasible set,ensemble faisable,ensemble réalisable,True,False,False,False,threshold
+1194,A2MZEUP2ECO1AI,first-order language,langage du premier ordre,langage de premier ordre,True,False,False,False,threshold
+1195,A3EKM55NFX1H6B,datum generative process,processus génératif des données,processus génératif de données,True,False,False,False,threshold
+1196,A3EKM55NFX1H6B,edge feature,caractéristiques de bord,caractéristique de contour,False,True,False,False,threshold
+1197,A3EKM55NFX1H6B,event calculus,calcul d'événements,calcul des événements,False,True,False,False,threshold
+1198,A3EKM55NFX1H6B,feasible set,ensemble faisable,ensemble réalisable,False,True,False,False,threshold
+1199,A3EKM55NFX1H6B,first-order language,langage du premier ordre,langage de premier ordre,False,False,True,False,threshold
+1200,A324C5L6JIMN16,grammar induction,induction de grammaire,induction grammaticale,False,True,False,False,threshold
+1201,A324C5L6JIMN16,grid-world,monde-grille,monde en grille,False,False,True,False,threshold
+1202,A324C5L6JIMN16,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+1203,A324C5L6JIMN16,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+1204,A324C5L6JIMN16,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+1205,A3OAFR48DADAOM,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+1206,A3OAFR48DADAOM,grid-world,monde-grille,monde en grille,False,False,True,False,threshold
+1207,A3OAFR48DADAOM,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+1208,A3OAFR48DADAOM,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+1209,A3OAFR48DADAOM,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+1210,A19I2ZK220NTAE,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+1211,A19I2ZK220NTAE,grid-world,monde-grille,monde en grille,False,False,True,False,threshold
+1212,A19I2ZK220NTAE,joint semantic space,espace sémantique commun,espace sémantique joint,True,False,False,False,threshold
+1213,A19I2ZK220NTAE,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+1214,A19I2ZK220NTAE,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,False,True,False,False,threshold
+1215,A2O4PW85X1GQA1,grammar induction,induction de grammaire,induction grammaticale,False,True,False,False,threshold
+1216,A2O4PW85X1GQA1,grid-world,monde-grille,monde en grille,True,False,False,False,threshold
+1217,A2O4PW85X1GQA1,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+1218,A2O4PW85X1GQA1,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,False,True,False,False,threshold
+1219,A2O4PW85X1GQA1,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+1220,A1U6UPXOFCXR24,grammar induction,induction de grammaire,induction grammaticale,True,False,False,False,threshold
+1221,A1U6UPXOFCXR24,grid-world,monde-grille,monde en grille,False,False,True,False,threshold
+1222,A1U6UPXOFCXR24,joint semantic space,espace sémantique commun,espace sémantique joint,False,True,False,False,threshold
+1223,A1U6UPXOFCXR24,likelihood ratio test,test de rapport de vraisemblance,test du rapport de vraisemblance,True,False,False,False,threshold
+1224,A1U6UPXOFCXR24,low-rank matrix approximation,approximation de matrice de rang faible,approximation de matrice de faible rang,True,False,False,False,threshold
+1225,A1U44SXKBE5VWM,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+1226,A1U44SXKBE5VWM,model performance,performances du modèle,performance du modèle,False,False,True,False,threshold
+1227,A1U44SXKBE5VWM,neural scene representation,représentation neurale de scène,représentation de scène neuronale,False,True,False,False,threshold
+1228,A1U44SXKBE5VWM,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+1229,A1U44SXKBE5VWM,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+1230,A324C5L6JIMN16,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+1231,A324C5L6JIMN16,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+1232,A324C5L6JIMN16,neural scene representation,représentation neurale de scène,représentation de scène neuronale,False,True,False,False,threshold
+1233,A324C5L6JIMN16,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+1234,A324C5L6JIMN16,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+1235,A1XD6THGBT1T9T,model distribution,distribution du modèle,distribution de modèle,True,False,False,False,threshold
+1236,A1XD6THGBT1T9T,model performance,performances du modèle,performance du modèle,False,True,False,False,threshold
+1237,A1XD6THGBT1T9T,neural scene representation,représentation neurale de scène,représentation de scène neuronale,True,False,False,False,threshold
+1238,A1XD6THGBT1T9T,payoff function,fonction de gain,fonction de paiement,True,False,False,False,threshold
+1239,A1XD6THGBT1T9T,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+1240,A3IG9HHR3NL9R0,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+1241,A3IG9HHR3NL9R0,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+1242,A3IG9HHR3NL9R0,neural scene representation,représentation neurale de scène,représentation de scène neuronale,True,False,False,False,threshold
+1243,A3IG9HHR3NL9R0,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+1244,A3IG9HHR3NL9R0,pixel-wise,au niveau des pixels,pixel par pixel,False,False,True,False,threshold
+1245,A9M8N3BOH6013,model distribution,distribution du modèle,distribution de modèle,False,True,False,False,threshold
+1246,A9M8N3BOH6013,model performance,performances du modèle,performance du modèle,True,False,False,False,threshold
+1247,A9M8N3BOH6013,neural scene representation,représentation neurale de scène,représentation de scène neuronale,True,False,False,False,threshold
+1248,A9M8N3BOH6013,payoff function,fonction de gain,fonction de paiement,False,True,False,False,threshold
+1249,A9M8N3BOH6013,pixel-wise,au niveau des pixels,pixel par pixel,True,False,False,False,threshold
+1250,A1PG4NZUVQMZUI,rollout,déroulement,déploiement,False,False,True,False,threshold
+1251,A1PG4NZUVQMZUI,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1252,A1PG4NZUVQMZUI,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1253,A1PG4NZUVQMZUI,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1254,A1PG4NZUVQMZUI,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1255,A324C5L6JIMN16,rollout,déroulement,déploiement,False,False,True,False,threshold
+1256,A324C5L6JIMN16,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1257,A324C5L6JIMN16,state-action value,valeur d'état-action,valeur état-action,True,False,False,False,threshold
+1258,A324C5L6JIMN16,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1259,A324C5L6JIMN16,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1260,A2YVLMI4PRDECY,rollout,déroulement,déploiement,False,False,True,False,threshold
+1261,A2YVLMI4PRDECY,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1262,A2YVLMI4PRDECY,state-action value,valeur d'état-action,valeur état-action,False,True,False,False,threshold
+1263,A2YVLMI4PRDECY,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1264,A2YVLMI4PRDECY,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1265,A3VYRNRLL14SQW,rollout,déroulement,déploiement,False,True,False,False,threshold
+1266,A3VYRNRLL14SQW,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1267,A3VYRNRLL14SQW,state-action value,valeur d'état-action,valeur état-action,False,False,True,False,threshold
+1268,A3VYRNRLL14SQW,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,False,False,True,False,threshold
+1269,A3VYRNRLL14SQW,text embedding,plongement de texte,intégration de texte,False,False,True,False,threshold
+1270,A3IG9HHR3NL9R0,rollout,déroulement,déploiement,False,False,True,False,threshold
+1271,A3IG9HHR3NL9R0,squared error loss,perte d'erreur quadratique,perte d'erreur au carré,False,True,False,False,threshold
+1272,A3IG9HHR3NL9R0,state-action value,valeur d'état-action,valeur état-action,False,True,False,False,threshold
+1273,A3IG9HHR3NL9R0,sub-word tokenization,tokenisation en sous-mots,tokenisation par sous-mots,True,False,False,False,threshold
+1274,A3IG9HHR3NL9R0,text embedding,plongement de texte,intégration de texte,False,True,False,False,threshold
+1275,A1XD6THGBT1T9T,transformer layer,couche transformeur,couche transformer,False,False,True,False,threshold
+1276,A1XD6THGBT1T9T,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1277,A1XD6THGBT1T9T,-,-,-,False,False,False,True,-
+1278,A1XD6THGBT1T9T,-,-,-,False,False,False,True,-
+1279,A1XD6THGBT1T9T,-,-,-,False,False,False,True,-
+1280,A38SYZRVLTMOFG,transformer layer,couche transformeur,couche transformer,False,True,False,False,threshold
+1281,A38SYZRVLTMOFG,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1282,A38SYZRVLTMOFG,-,-,-,False,False,False,True,-
+1283,A38SYZRVLTMOFG,-,-,-,False,False,False,True,-
+1284,A38SYZRVLTMOFG,-,-,-,False,False,False,True,-
+1285,A3OAFR48DADAOM,transformer layer,couche transformeur,couche transformer,False,True,False,False,threshold
+1286,A3OAFR48DADAOM,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1287,A3OAFR48DADAOM,-,-,-,False,False,False,True,-
+1288,A3OAFR48DADAOM,-,-,-,False,False,False,True,-
+1289,A3OAFR48DADAOM,-,-,-,False,False,False,True,-
+1290,A30IGMGSC7G2HM,transformer layer,couche transformeur,couche transformer,False,True,False,False,threshold
+1291,A30IGMGSC7G2HM,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1292,A30IGMGSC7G2HM,-,-,-,False,False,False,True,-
+1293,A30IGMGSC7G2HM,-,-,-,False,False,False,True,-
+1294,A30IGMGSC7G2HM,-,-,-,False,False,False,True,-
+1295,A11JXYZDAUX0UP,transformer layer,couche transformeur,couche transformer,False,False,True,False,threshold
+1296,A11JXYZDAUX0UP,unbiased estimate,estimation non biaisée,estimation sans biais,True,False,False,False,threshold
+1297,A11JXYZDAUX0UP,-,-,-,False,False,False,True,-
+1298,A11JXYZDAUX0UP,-,-,-,False,False,False,True,-
+1299,A11JXYZDAUX0UP,-,-,-,False,False,False,True,-

@@ -1,0 +1,110 @@
+,english,chinese,arabic,french,russian,japanese,english_lemma
+0,modeling,造型,نمذجة,modélisation,моделирование,モデリング,modeling
+1,linguistics,语言学,لغويات,linguistiques,языкознания,言語学,linguistic
+2,source,来源,مصدر,source,источник,ソース,source
+3,NLP,自然语言处理,معالجة اللغة الطبيعية,TAL traitement automatique du langage naturel,NLP,自然言語処理,NLP
+4,vocabulary,词汇,مفردات,vocabulaire,словарь,語彙,vocabulary
+5,speech,语音,الكلام,dicours,речь,スピーチ,speech
+7,CRF,CRF,CRF,CRF,CRF,CRF,CRF
+8,training,训练,تدريب,formation,обучение,訓練,training
+9,OOV,OOV,OOV,OOV,OOV,OOV,OOV
+10,corpus,语料库,مجموعة,corpus,корпус,コーパス,corpus
+11,CONLL,CoNLL,CoNLL,CoNLL,CoNLL,CoNLL,CONLL
+12,BIO,BIO,BIO,BIO,BIO,BIO,BIO
+13,encoding,编码,تشفير,encodage,кодировка,エンコーディング,encoding
+14,encode,编码,تشفير,encode,кодировать,エンコード,encode
+16,BETO,BETO,BETO,BETO,BETO,BETO,BETO
+19,BERT,BERT,بيرت,Représentations d'encodeurs bidirectionnels à partir de transformateurs,BERT,BERT,BERT
+20,BPE,BPE,BPE,BPE,BPE,BPE,BPE
+21,LinCE,LinCE,LinCE,LinCE,LinCE,LinCE,LinCE
+22,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT,KinyaBERT
+23,morphology,形态学,مورفولوجيا,morphologique,морфология,語形論,morphology
+24,tokenization,标记化,الترميز,marquage,токенизация,トークン化,tokenization
+25,subword,子词,الكلمات الفرعية,sous-mot,подсловие,サブ単語,subword
+27,oracle,甲骨文,أوراكل,oracle,оракул,Oracle,oracle
+28,compositionality,组合性,نمذجة التركيبة,compositionnalité,композиционность,構成の可能性,compositionality
+29,tagger,标记器,علامة,marqueurs,теггер,タグ付け部,tagger
+30,inference,推理,استدلال,inférence,вывод,推論,inference
+31,decoding,解码,فك تشفير,décodage,расшифровка,デコーディング,decoding
+32,ICLR,ICLR,ICLR,ICLR,ICLR,ICLR,ICLR
+34,attention,注意力,انتباه,attention,внимание,アテンション,attention
+35,computation,计算,حساب,calcul,вычисление,計算,computation
+36,prediction,预测,تنبؤ,prévention,предсказание,予測,prediction
+37,classification,分类,لتصنيف,classification,классификация,分類,classification
+38,XLM,XLM,XLM,XLM,XLM,XLM,XLM
+39,corpora,语料库,المجاميع,corpus,корпуса,コーパス,corpora
+41,gradient,坡度,تدرج,pente,градиент,傾度,gradient
+42,GLUE,GLUE,GLUE,GLUE,GLUE,GLUE,GLUE
+43,finetuning,微调,الضبط الدقيق,raffinement,тонкая настройка,微調整,finetuning
+44,evaluation,评估,تقييم,évaluation,оценка,評価,evaluation
+45,regression,回归,تراجع,régression,регрессия,回帰,regression
+46,ablation,消融,استئصال,ablation,абляция,アブレーション,ablation
+47,AI,人工智能,AI,Intelligence artificielle,AI,AI,AI
+48,decoder,解码器,وحدة فك الترميز,décodeur,дешифратор,デコーダ,decoder
+49,target,目标,هدف,cible,цель,ターゲット,target
+51,softmax,softmax,softmax,softmax,софтмакс,softmax,softmax
+52,summarization,总结,تلخيص,synthèse,суммирования,要約,summarization
+53,PubMed,PubMed,PubMed,PubMed,ПабМед,PubMed,PubMed
+54,dialogue,对话,حوار,dialogue,диалог,ダイアログ,dialogue
+55,parallel,平行线,متوازي,parallèle,параллельный, 並列,parallel
+56,structure,结构体,بنية,structure,структура,構成,structure
+57,BART,BART,BART,BART,BART,BART,BART
+58,parser,解析器,محلل,analyseur,синтаксический анализатор,パーサー,parser
+59,FLR,FLR,FLR,FLR,FLR,FLR,FLR
+60,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow,SMCalFlow
+61,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST,TreeDST
+62,BLEU,BLEU,BLEU,Bleu,BLEU,BLEU,BLEU
+63,retrieval,恢复,استرجاع,extraction,возвращение,取得,retrieval
+64,sentiment,情绪,شعور,émotionel,настроение,感情,sentiment
+66,RGF,RGF,RGF,RGF,RGF,RGF,RGF
+67,REALM,REALM,REALM,REALM,REALM,REALM,REALM
+68,similarity,相似度,تشابه,similitude,сходство,類似性,similarity
+70,VFL,VFL,VFL,VFL,VFL,VFL,VFL
+71,QED,QED,QED,QED,QED,QED,QED
+72,augmentation,增强,زيادة,élargissement,увеличение,増大,augmentation
+73,generalization,泛化,تعميم,généralisation,обобщение,一般化,generalization
+74,reasoning,推理,المنطق,raisonnement,рассуждение,推論,reasoning
+75,CDA,CDA,CDA,CDA,CDA,CDA,CDA
+76,QA,问答,ضمان الجودة,QA,Контроль качества,QA,QA
+77,robustness,鲁棒性,متانة,robustesse,надежность,堅牢性,robustness
+78,AQA,AQA,AQA,AQA,AQA,AQA,AQA
+79,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA,AmbigQA
+80,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF,QUOREF
+81,SUTD,SUTD,SUTD,SUTD,SUTD,SUTD,SUTD
+82,PaLM,PaLM,PaLM,PaLM,PaLM,PaLM,PaLM
+83,interpretability,可解释性,إمكانية تفسير,interopérabilité,интерпретируемость,解釈度,interpretability
+84,BERTs,BERTs,BERTs,BERTs,BERTs,BERTs,bert
+85,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS,MAWPS,mawp
+86,MathQA,MathQA,MathQA,MathQA,MathQA,MathQA,MathQA
+87,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP,SVAMP
+88,constraint,约束,القيود,contraintes,ограничение,制約,constraint
+90,terminology,术语,مصطلح,terminologie,терминология,用語,terminology
+91,BSARD,BSARD,BSARD,BSARD,BSARD,BSARD,BSARD
+92,IDF,IDF,IDF,IDF,IDF,IDF,IDF
+93,word2vec,word2vec,word2vec,word2vec,word2vec,単語2vec,word2vec
+94,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT,CamemBERT
+95,CLS,CLS,CLS,CLS,CLS,CLS,cls
+96,cosine,余弦,جيب,cosinus,косинус,コサイン,cosine
+97,VALSE,VALSE,VALSE,VALSE,VALSE,VALSE,VALSE
+99,coreference,共指,مراجع مشترك,coréférence,корреляция,同一指示,coreference
+100,NLI,NLI,NLI,NLI,NLI,NLI,NLI
+101,CLIP,CLIP,CLIP,CLIP,CLIP,CLIP,clip
+102,LXMert,LXMert,LXMert,LXMert,LXMert,LXMert,LXMert
+103,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT,ViLBERT
+104,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT,VisualBERT
+105,GPT,GPT,GPT,GPT,GPT,GPT,GPT
+106,perplexity,混乱,حيرة,perplexité,растерянность,困惑,perplexity
+107,RNSum,RNSum,RNSum,RNSum,RNSum,RNSum,RNSum
+108,ARENA,ARENA,ARENA,ARENA,ARENA,ARENA,ARENA
+109,extractor,提取器,مستخرج,extracteur,экстрактор,抽出機,extractor
+110,API,API,API,API,API,API,API
+111,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT,CodeBERT
+112,CEAS,CEAS,CEAS,CEAS,CEAS,CEAS,CEAS
+113,CAS,CAS,CAS,CAS,CAS,CAS,CAS
+114,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq,seq2seq
+115,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE,ROUGE
+117,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE,FeSTE
+118,extraction,提取,استخراج,extraction,извлечение,抽出,extraction
+119,XLNet,XLNet,XLNet,XLNet,XLNet,XLNet,XLNet
+120,multitask,多任务,متعددة المهام,multi-tâches,многозадачность,マルチタスク,multitask
+121,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN,MTDNN

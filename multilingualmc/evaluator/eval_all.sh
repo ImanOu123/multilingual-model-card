@@ -1,0 +1,26 @@
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh aya_hard_replace
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh aya_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh aya_old_hard_replace
+CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh aya_old_prompt_gpt4omini
+
+
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh nllb_hard_replace
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh nllb_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh gpt4omini_hard_replace
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh gpt4omini_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh seamless_hard_replace
+CUDA_VISIBLE_DEVICES=1 bash eval_papers.sh seamless_prompt_gpt4omini
+
+
+CUDA_VISIBLE_DEVICES=2 bash eval_6060.sh aya_hard_replace
+CUDA_VISIBLE_DEVICES=2 bash eval_6060.sh aya_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=2 bash eval_6060.sh aya_old_hard_replace
+CUDA_VISIBLE_DEVICES=2 bash eval_6060.sh aya_old_prompt_gpt4omini
+
+
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh nllb_hard_replace
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh nllb_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh gpt4omini_hard_replace
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh gpt4omini_prompt_gpt4omini
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh seamless_hard_replace
+CUDA_VISIBLE_DEVICES=3 bash eval_6060.sh seamless_prompt_gpt4omini

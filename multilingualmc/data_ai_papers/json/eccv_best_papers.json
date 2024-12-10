@@ -1,0 +1,233 @@
+[
+    {
+        "title": "On the Versatile Uses of Partial Distance Correlation in Deep Learning",
+        "venue": "ECCV",
+        "year": "2022",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+        "venue": "ECCV",
+        "year": "2020",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Implicit 3D Orientation Learning for 6D Object Detection from RGB Images",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera",
+        "venue": "ECCV",
+        "year": "2016",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Large-Scale Object Classification using Label Relation Graphs",
+        "venue": "ECCV",
+        "year": "2014",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Scene Chronology",
+        "venue": "ECCV",
+        "year": "2014",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Segmentation Propagation in ImageNet",
+        "venue": "ECCV",
+        "year": "2012",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Graph Cut based Inference with Co-occurrence Statistics",
+        "venue": "ECCV",
+        "year": "2010",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Learning Spatial Context: Using Stuff to Find Things",
+        "venue": "ECCV",
+        "year": "2008",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Learning to Combine Bottom-up and Top-down Segmentation",
+        "venue": "ECCV",
+        "year": "2006",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "High Accuracy Optical Flow Estimation Based on a Theory for Warping",
+        "venue": "ECCV",
+        "year": "2004",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Increasing Space-Time Resolution in Video",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "3D Statistical Shape Models Using Direct Optimisation of Description Length",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Multi-camera Scene Reconstruction via Graph Cuts",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "What Energy Functions can be Minimized via Graph Cuts?",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A variational Approach to Recovering a Manifold from Sample Points",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Object Recognition as Machine Translation: Learning a Lexicon for a Fixed Image Vocabulary",
+        "venue": "ECCV",
+        "year": "2002",
+        "award": "Best Paper Award (Best Paper in Cognitive Vision)",
+        "link": null
+    },
+    {
+        "title": "Factorization with Uncertainty",
+        "venue": "ECCV",
+        "year": "2000",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Nonlinear Bayesian Image Modeling”",
+        "venue": "ECCV",
+        "year": "2000",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Homography Tensors: On Algebraic Entities That Represent Three Views of Static or Moving Planar Points",
+        "venue": "ECCV",
+        "year": "2000",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Minimal Set of Constraints for the Trifocal Tensor",
+        "venue": "ECCV",
+        "year": "2000",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Pose-NDF: Modelling Human Pose Manifolds with Neural Distance Fields",
+        "venue": "ECCV",
+        "year": "2022",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "A Level Set Theory for Neural Implicit Evolution under Explicit Flows",
+        "venue": "ECCV",
+        "year": "2022",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Towards Streaming Perception",
+        "venue": "ECCV",
+        "year": "2020",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+        "venue": "ECCV",
+        "year": "2020",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Group Normalization",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "GANimation: Anatomically-aware Facial Animation from a Single Image",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "The Fast Bilateral Solver",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Activity Forecasting",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Blocks World Revisited: Image Understanding Using Qualitative Geometry and Mechanics",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Confocal Stereo",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Simultaneous Object Pose and Velocity Computation Using a Single View from a Rolling Shutter Camera",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "A Unified Algebraic Approach to 2-D and 3-D Motion Segmentation",
+        "venue": "ECCV",
+        "year": "2018",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    }
+]

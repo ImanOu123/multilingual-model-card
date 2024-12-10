@@ -1,0 +1,1 @@
+Convert `check_agreement_on_6060` and `check>0.5new` into one single MTurk annotation task.

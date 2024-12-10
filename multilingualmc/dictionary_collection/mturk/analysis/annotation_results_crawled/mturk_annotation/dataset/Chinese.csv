@@ -1,0 +1,60 @@
+en_word1,anno1_word1,anno2_word1,source1,en_word2,anno1_word2,anno2_word2,source2,en_word3,anno1_word3,anno2_word3,source3,en_word4,anno1_word4,anno2_word4,source4,en_word5,anno1_word5,anno2_word5,source5
+statistical,统计的,统计类,6060,CRF,条件随机场,CRF,6060,OOV,超出词汇表,OOV,6060,morphological,形态学的,形态化,6060,NLI,自然语言推理,NLI,6060
+BERTs,BERT模型集,BERTs,6060,CONLL,会议自然语言处理与计算语言学,CoNLL,6060,corresponding,对应的,相应的,6060,newswire,新闻通讯,新闻专线,6060,CAS,具体含义需根据上下文确定,CAS,6060
+GLUE,GLUE基准,GLUE,6060,syntactic,句法的,句法,6060,QED,查询分解框架,QED,6060,grounding,实际场景联系,领域,6060,pretrained,预训练的,预训练,6060
+graph,图,图形,6060,words,词语,字,6060,computational,计算的,计算类,6060,motivated,如前所述动机,有动力,6060,IDF,逆文档频率,IDF,6060
+VFL,维多利亚足球联赛,VFL,6060,extractive,抽取式的,可提取,6060,documents,文档,文件,6060,domains,领域,域,6060,unseen,未见过的,未见,6060
+similarity,相似性,相似度,6060,compared,相比,已比较,6060,SUTD,新加坡科技设计大学,SUTD,6060,Moreover,此外,而且,6060,paper,论文,纸,6060
+contextualized,上下文化的,情境化,6060,sense,意义,感觉,6060,BPE,字节对编码,BPE,6060,binary,二元,二进制,6060,FLR,最终延迟减少,FLR,6060
+generalize,泛化,概括,6060,gradient,梯度,坡度,6060,linear,线性,线性的,6060,named,命名的,命名为,6060,social,社会的,社会类,6060
+representations,表示,陈述,6060,number,数量,数字,6060,tagging,标注,标记,6060,morphologically,形态学上,形态上,6060,ICLR,国际学习表征会议,ICLR,6060
+conversational,对话式的,会话式,6060,LinCE,LinCE代码切换数据集,LinCE,6060,transformers,Transformer模型,转换器,6060,annotated,注释的,带注释,6060,graphs,图,图表,6060
+existing,现有的,现存,6060,vectors,向量,矢量,6060,counterfactual,反事实,反事实的,6060,augmented,增强的,增强型,6060,relations,关系,relations,6060
+lexical,词汇的,词汇,6060,re,重新,关系提取,6060,CLIP,对比语言-图像预训练模型,CLIP,6060,answer,答案,回答,6060,For,例如,针对,6060
+spoken,口语的,口语,6060,transformer,变换器,转换器,6060,embedding,嵌入表示,嵌入,6060,image,图像,图片,6060,seq2seq,序列到序列,seq2seq,6060
+structure,结构,结构体,6060,visual,视觉,视觉类,6060,BERT,BERT模型,BERT,6060,perplexity,困惑度,混乱,6060,CEAS,认知情感分析系统,CEAS,6060
+qualitative,定性,定性的,6060,retrieved,检索到的,检索到,6060,tokens,词元,令牌,6060,grammatical,语法的,语法类,6060,annotators,标注者,注释者,6060
+news,新闻,消息,6060,sentiment,情感,情绪,6060,CDA,对比数据增强,CDA,6060,simultaneous,同时的,同时,6060,semantics,语义学,语义,6060
+parallel,并行,平行线,6060,modalities,模态,形态,6060,linguistic,语言学的,语言化,6060,generated,生成的,已生成,6060,BIO,BIO编码,BIO,6060
+Therefore,因此,所以,6060,generation,生成,一代,6060,interpretable,可解释的,可解释,6060,manually,手动地,手动,6060,previous,先前的,之前,6060
+biases,偏差,偏见,6060,natural,自然的,自然,6060,linked,链接的,链接,6060,MathQA,数学问答,MathQA,6060,context,上下文,语境,6060
+neural,神经的,神经,6060,large,大规模,大的,6060,multilingual,多语言的,多语言,6060,token,词元,令牌,6060,labeled,已标注的,标签化,6060
+unsupervised,无监督的,无监督,6060,automatic,自动的,自动类,6060,BLEU,BLEU评分,BLEU,6060,BETO,西班牙语BERT模型,BETO,6060,API,应用程序接口,API,6060
+Modeling,建模,造型,6060,3D convolutional network,3D卷积网络,三维卷积网络,threshold,3D point cloud,3D 点云,3D点云,threshold,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,threshold,Dirichlet prior,Dirichlet先验,狄利克雷先验,threshold
+Discriminator,鉴别器,判别器,threshold,Hadamard product,阿达玛积,哈达玛积,threshold,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,threshold,K-means algorithm,K-均值算法,K均值算法,threshold,L 2 distance,L2 距离,L₂距离,threshold
+L1 bound,L1界限,L1界,threshold,L2 weight decay,L2 权重衰减,L2权重衰减,threshold,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,threshold,Lasso penalty,Lasso惩罚项,套索惩罚,threshold,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,threshold
+Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,threshold,Q function,Q 函数,Q函数,threshold,Question Answering,问答系统,问答,threshold,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,threshold,T5-11B,T5-11B模型,T5-11B,threshold
+Upper Confidence Bound,上置信界限,上置信界,threshold,Viterbi,维特比算法,维特比,threshold,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,threshold,Word2Vec,词向量,Word2Vec,threshold,Z-score,Z-score,Z分数,threshold
+adversarial perturbation,对抗性扰动,对抗扰动,threshold,artificial agent,人工代理,人工智能体,threshold,asymptotic notation,渐近记号,渐近符号,threshold,attention score,注意力得分,注意力分数,threshold,backward pass,反向传播,反向传递,threshold
+bag-of-word,词袋,词袋模型,threshold,baseline algorithm,基线算法,基准算法,threshold,baseline method,基线方法,基准方法,threshold,binary classification head,二分类头,二元分类头,threshold,binary classification problem,二分类问题,二元分类问题,threshold
+binary classifier,二分类器,二元分类器,threshold,branch and bound algorithm,分支定界算法,分支限界算法,threshold,canonical basis,规范基,标准基,threshold,canonical form,规范形式,标准形式,threshold,chunk size,数据块大小,块大小,threshold
+cluster centroid,簇质心,聚类中心,threshold,cluster size,聚类规模,聚类大小,threshold,coarse-to-fine,从粗到细,粗到细,threshold,compatibility graph,兼容图,兼容性图,threshold,competitive ratio,竞争比,竞争比率,threshold
+constrained decoding,受约束解码,约束解码,threshold,contextualized word vector,语境化词向量,上下文化词向量,threshold,convergence bound,收敛界限,收敛界,threshold,convex,凸,凸的,threshold,convex quadratic program,凸二次规划问题,凸二次规划,threshold
+convolution operation,卷积运算,卷积操作,threshold,coreference resolution system,共指消解系统,共指解析系统,threshold,counterfactual fairness,反事实公平,反事实公平性,threshold,cycle inequality,环路不等式,循环不等式,threshold,davinci,davinci,达芬奇,threshold
+deep network,深度神经网络,深度网络,threshold,dependency tree,依存树,依赖树,threshold,deterministic baseline,确定性基线,确定性基准,threshold,dimensionality reduction,降维,维度减少,threshold,discriminator network,判别器网络,判别网络,threshold
+document-topic assignment,文档-主题分配,文档主题分配,threshold,dropout probability,Dropout概率,丢弃概率,threshold,dual objective,对偶目标函数,对偶目标,threshold,empirical minimizer,经验极小化器,经验最小化器,threshold,extractive question answering,抽取式问答,提取式问答,threshold
+factor of variation,变异因素,变化因子,threshold,gold label,金标,黄金标签,threshold,graphlet kernel,图小元核,图元核,threshold,greedy maximization,贪心最大化,贪婪最大化,threshold,greedy policy,贪心策略,贪婪策略,threshold
+heatmap,热力图,热图,threshold,hidden state representation,隐藏状态表示,隐状态表示,threshold,hierarchical reinforcement learning,分层强化学习,层次强化学习,threshold,hierarchical structure,分层结构,层次结构,threshold,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,threshold
+importance sampling estimator,重要性抽样估计器,重要性采样估计器,threshold,instruction tuning,指令调优,指令微调,threshold,interest point,特征点,兴趣点,threshold,internal regret,内部后悔,内部遗憾,threshold,intrinsic camera parameter,相机内参数,内在相机参数,threshold
+intrinsic image,本质图像,内在图像,threshold,k-d tree,k-d 树,k-d树,threshold,kernel bandwidth,内核带宽,核带宽,threshold,kernel evaluation,核函数计算,核评估,threshold,keypoint match,特征点匹配,关键点匹配,threshold
+language representation,语言表征,语言表示,threshold,latent representation,潜在表征,潜在表示,threshold,least square minimization,最小二乘法最小化,最小二乘最小化,threshold,linear function approximation,线性函数逼近,线性函数近似,threshold,linear probe,线性探针,线性探测器,threshold
+local optima,局部最优,局部最优解,threshold,log-odd score,对数几率得分,对数优势分数,threshold,macro-action,宏动作,宏观动作,threshold,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,threshold,model inference,模型推断,模型推理,threshold
+monotonic,单调性,单调的,threshold,multi-armed bandit,多臂老虎机问题,多臂赌博机,threshold,multi-class,多类,多类别,threshold,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,threshold,multiclass classifier,多类别分类器,多类分类器,threshold
+mutex,互斥量,互斥锁,threshold,normalized cut,归一化割,归一化切割,threshold,one-hot representation,独热编码表示,独热表示,threshold,ontology-mediated query,本体介导查询,本体中介查询,threshold,open set,开放集,开集,threshold
+paraphrase,同义改写,释义,threshold,pattern profile,模式特征,模式概况,threshold,pattern summarization,模式总结,模式摘要,threshold,payoff function,payoff函数,收益函数,threshold,perceptual feature,知觉特征,感知特征,threshold
+presence penalty,出现惩罚,存在惩罚,threshold,projective dependency parsing,投影依存句法分析,投影依赖解析,threshold,projective parsing,投射解析,投影解析,threshold,quantal response equilibrium,量子响应均衡,量子反应均衡,threshold,randomized algorithm,随机算法,随机化算法,threshold
+reparameterization trick,重参数化技巧,重新参数化技巧,threshold,reprojection error,重投影误差,重新投影误差,threshold,rule body,规则体,规则主体,threshold,semidefinite program,半正定规划,半正定程序,threshold,sentiment transfer,情感迁移,情感转移,threshold
+similarity measure,相似性度量,相似度度量,threshold,skip-gram model,跳词模型,跳字模型,threshold,softmax function,softmax 函数,softmax函数,threshold,softmax loss,softmax 损失,softmax损失,threshold,spectral embedding,光谱嵌入,谱嵌入,threshold
+spectral learning,光谱学习,谱学习,threshold,state of the art algorithm,最先进的算法,最先进算法,threshold,state transition,状态转换,状态转移,threshold,stereo pair,立体像对,立体对,threshold,stochastic gradient method,随机梯度法,随机梯度方法,threshold
+structured perceptron,结构化感知机,结构化感知器,threshold,surrogate function,代理函数,替代函数,threshold,syntactic category,句法范畴,句法类别,threshold,tagger,词性标注器,标注器,threshold,target token,目标词元,目标标记,threshold
+transformation function,变换函数,转换函数,threshold,value network,价值网络,值网络,threshold,zero-one loss,0-1损失,零一损失,threshold,A2C,优势-价值,A2C,threshold,Bernoulli,伯努利分布,伯努利,threshold
+Euclidean distance,欧氏距离,欧几里得距离,threshold,Hedge algorithm,Hedge算法,对冲算法,threshold,Hessian-vector product,海森矩阵-向量积,海森向量积,threshold,Machine Comprehension,机器阅读理解,机器理解,threshold,Routing Transformer,路由变压器,路由变换器,threshold
+Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,threshold,Token,词元,令牌,threshold,Transformer,Transformer,变换器,threshold,annotated corpus,标注语料库,注释语料库,threshold,answer span,答案跨度,答案范围,threshold
+averaged perceptron algorithm,平均感知机算法,平均感知器算法,threshold,back-off strategy,退避策略,回退策略,threshold,beam search algorithm,波束搜索算法,束搜索算法,threshold,big-O notation,大O表示法,大O符号,threshold,block matrix,分块矩阵,块矩阵,threshold
+brute force search,穷举搜索,暴力搜索,threshold,contextualized embedding,情境化嵌入,上下文化嵌入,threshold,credit assignment,奖励分配,信用分配,threshold,datum dependency,数据依赖,数据依赖性,threshold,dual program,对偶规划,对偶程序,threshold
+facial recognition,人脸识别,面部识别,threshold,few-shot classification,小样本分类,少样本分类,threshold,generative parser,生成式解析器,生成解析器,threshold,hidden size,隐藏层大小,隐藏大小,threshold,inference process,推断过程,推理过程,threshold
+leaf node,叶子节点,叶节点,threshold,max-product semiring,最大乘积半环,最大积半环,threshold,multi-classification,多类别分类,多分类,threshold,mutual entropy,互信息,互信息熵,threshold,nominal mention,名词性提及,名义提及,threshold
+object proposal,物体候选区域,物体提议,threshold,object tracking,目标跟踪,物体跟踪,threshold,part of speech tag,词性标签,词性标记,threshold,partial evaluation,部分求值,部分评估,threshold,primal-dual algorithm,原始对偶算法,原始-对偶算法,threshold
+recurrent dynamic,循环动力学,循环动态,threshold,regret bound,遗憾界限,遗憾界,threshold,regret minimization,后悔最小化,遗憾最小化,threshold,roll-out policy,回滚策略,展开策略,threshold,seq2seq model,seq2seq模型,序列到序列模型,threshold
+sequential decision making,序贯决策,序列决策,threshold,similarity function,相似度函数,相似性函数,threshold,span,生成子空间,张成,threshold,syntactic dependency parsing,句法依存解析,句法依赖解析,threshold,tangent space,切线空间,切空间,threshold
+word alignment,词对齐,单词对齐,threshold,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

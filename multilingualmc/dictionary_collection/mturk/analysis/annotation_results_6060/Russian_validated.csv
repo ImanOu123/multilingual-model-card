@@ -1,0 +1,327 @@
+,Unnamed: 0,word,gold,exact_match_ratio,prediction_count,prediction_ratio,validated_translation,reason,back_translations
+0,0,AI,AI,0.0,10,"[{'word': 'ИИ', 'ratio': 1.0}]",ИИ,{},[]
+1,1,API,API,1.0,10,"[{'word': 'API', 'ratio': 1.0}]",API,{},[]
+2,2,AQA,AQA,0.7,10,"[{'word': 'AQA', 'ratio': 0.7}, {'word': 'АКА', 'ratio': 0.2}, {'word': 'Академия качественной аналитики', 'ratio': 0.1}]",AQA,{},[]
+3,3,ARENA,ARENA,0.4,10,"[{'word': 'АРЕНА', 'ratio': 0.6}, {'word': 'ARENA', 'ratio': 0.4}]",АРЕНА,{},[]
+4,4,Additionally,Дополнительно,0.8,10,"[{'word': 'Дополнительно', 'ratio': 0.8}, {'word': 'дополнительно', 'ratio': 0.2}]",Дополнительно,{},[]
+5,5,AmbigQA,AmbigQA,0.6,10,"[{'word': 'AmbigQA', 'ratio': 0.6}, {'word': 'АмбигКА', 'ratio': 0.2}, {'word': 'АмбигQA', 'ratio': 0.2}]",AmbigQA,{},[]
+6,6,Architectures,Архитектуры,0.9,10,"[{'word': 'Архитектуры', 'ratio': 0.9}, {'word': 'разбиение графа', 'ratio': 0.1}]",Архитектуры,{},[]
+7,7,BART,BART,0.7,10,"[{'word': 'BART', 'ratio': 0.7}, {'word': 'БАРТ', 'ratio': 0.2}, {'word': 'BART BART', 'ratio': 0.1}]",BART,{},[]
+8,8,BERT,BERT,0.8,10,"[{'word': 'BERT', 'ratio': 0.8}, {'word': 'БЕРТ', 'ratio': 0.2}]",BERT,{},[]
+9,9,BERTs,BERTs,0.1,10,"[{'word': ""BERT'ы"", 'ratio': 0.5}, {'word': 'BERT-ы', 'ratio': 0.2}, {'word': 'BERT’ы', 'ratio': 0.1}, {'word': 'BERTs', 'ratio': 0.1}, {'word': 'БЕРТ', 'ratio': 0.1}]",BERT'ы,{},[]
+10,10,BETO,BETO,0.8,10,"[{'word': 'BETO', 'ratio': 0.8}, {'word': 'БЕТО', 'ratio': 0.2}]",BETO,{},[]
+11,11,BIO,BIO,0.8,10,"[{'word': 'BIO', 'ratio': 0.8}, {'word': 'ОРГАНИЧЕСКИЙ', 'ratio': 0.1}, {'word': 'БИО', 'ratio': 0.1}]",BIO,{},[]
+12,12,BLEU,BLEU,0.8,10,"[{'word': 'BLEU', 'ratio': 0.8}, {'word': 'СИНИЙ', 'ratio': 0.1}, {'word': 'БЛЕУ', 'ratio': 0.1}]",BLEU,{},[]
+13,13,BPE,BPE,0.6,10,"[{'word': 'BPE', 'ratio': 0.6}, {'word': 'БПЭ', 'ratio': 0.3}, {'word': 'BPE BPE', 'ratio': 0.1}]",BPE,{},[]
+14,14,BSARD,BSARD,0.6666666666666666,9,"[{'word': 'BSARD', 'ratio': 0.6666666666666666}, {'word': 'БСАРД', 'ratio': 0.2222222222222222}, {'word': 'BSARD BSARD', 'ratio': 0.1111111111111111}]",BSARD,{},[]
+15,15,CAS,CAS,0.6,10,"[{'word': 'CAS', 'ratio': 0.6}, {'word': 'КАС', 'ratio': 0.3}, {'word': 'CAS CAS', 'ratio': 0.1}]",CAS,{},[]
+16,16,CDA,CDA,0.8,10,"[{'word': 'CDA', 'ratio': 0.8}, {'word': 'АДА', 'ratio': 0.1}, {'word': 'CDA CDA', 'ratio': 0.1}]",CDA,{},[]
+17,17,CEAS,CEAS,0.5555555555555556,9,"[{'word': 'CEAS', 'ratio': 0.5555555555555556}, {'word': 'ОЕАС', 'ratio': 0.1111111111111111}, {'word': 'ЧАСЫ', 'ratio': 0.1111111111111111}, {'word': 'ЦЕАС', 'ratio': 0.1111111111111111}, {'word': 'СЕАС', 'ratio': 0.1111111111111111}]",CEAS,{},[]
+18,18,CLIP,CLIP,0.5555555555555556,9,"[{'word': 'CLIP', 'ratio': 0.5555555555555556}, {'word': 'КЛИП', 'ratio': 0.4444444444444444}]",CLIP,{},[]
+19,19,CLS,CLS,0.6666666666666666,9,"[{'word': 'CLS', 'ratio': 0.6666666666666666}, {'word': 'ЦЛС', 'ratio': 0.2222222222222222}, {'word': 'КЛС', 'ratio': 0.1111111111111111}]",CLS,{},[]
+20,20,CONLL,CoNLL,0.0,9,"[{'word': 'CONLL', 'ratio': 0.5555555555555556}, {'word': 'КОНЛЛ', 'ratio': 0.4444444444444444}]",CONLL,{},[]
+21,21,CRF,CRF,0.5555555555555556,9,"[{'word': 'CRF', 'ratio': 0.5555555555555556}, {'word': 'ОФД', 'ratio': 0.3333333333333333}, {'word': 'КРФ', 'ratio': 0.1111111111111111}]",CRF,{},[]
+22,22,CamemBERT,CamemBERT,0.7,10,"[{'word': 'CamemBERT', 'ratio': 0.7}, {'word': 'Камамбер', 'ratio': 0.3}]",CamemBERT,{},[]
+23,23,Clustering,кластеризация,0.5,8,"[{'word': 'кластеризация', 'ratio': 0.5}, {'word': 'Кластеризация', 'ratio': 0.375}, {'word': 'Clustering кластеризация', 'ratio': 0.125}]",кластеризация,{},[]
+24,24,CodeBERT,CodeBERT,0.75,8,"[{'word': 'CodeBERT', 'ratio': 0.75}, {'word': 'КодBERT', 'ratio': 0.125}, {'word': 'CodeBERT CodeBERT', 'ratio': 0.125}]",CodeBERT,{},[]
+25,25,Detecting,Обнаружение,1.0,9,"[{'word': 'Обнаружение', 'ratio': 1.0}]",Обнаружение,{},[]
+26,26,Dialogue,диалог,0.0,9,"[{'word': 'Диалог', 'ratio': 1.0}]",Диалог,{},[]
+27,27,English,Английский,0.6,10,"[{'word': 'Английский', 'ratio': 0.6}, {'word': 'английский', 'ratio': 0.3}, {'word': 'English Английский', 'ratio': 0.1}]",Английский,{},[]
+28,28,FLR,FLR,0.4,10,"[{'word': 'FLR', 'ratio': 0.4}, {'word': 'снижение задержки', 'ratio': 0.2}, {'word': 'метрика FLR', 'ratio': 0.2}, {'word': 'снижение задержки FLR', 'ratio': 0.1}, {'word': 'Снижение времени задержки', 'ratio': 0.1}]",метрика FLR,"```
+1. Candidate: ""метрика FLR""
+2. Explanation: The term ""метрика FLR"" is the best fit because it maintains the original acronym ""FLR"" while providing a clear indication that it is a metric, which is crucial for understanding in the AI domain. This choice preserves the technical specificity and context of the term as used in the original English text, ensuring that the meaning is accurately conveyed without losing the domain-specific nuance. The back translation as ""FLR metric"" confirms that the semantic integrity and contextual fit are maintained, making it the most appropriate choice for AI terminology translation.
+```","['FLR', 'FLR', 'FLR metric', 'reduced latency', 'Reduced latency', 'reduced FLR latency']"
+29,29,FeSTE,FeSTE,0.7777777777777778,9,"[{'word': 'FeSTE', 'ratio': 0.7777777777777778}, {'word': 'ФеСТЕ', 'ratio': 0.1111111111111111}, {'word': 'FeSTE FeSTE', 'ratio': 0.1111111111111111}]",FeSTE,{},[]
+30,30,For,для,0.1,10,"[{'word': 'Для', 'ratio': 0.7}, {'word': 'Например', 'ratio': 0.2}, {'word': 'для', 'ratio': 0.1}]",Для,{},[]
+31,31,French,французский,0.7,10,"[{'word': 'французский', 'ratio': 0.7}, {'word': 'Французский', 'ratio': 0.3}]",французский,{},[]
+32,32,Furthermore,Кроме того,0.4,10,"[{'word': 'Более того', 'ratio': 0.6}, {'word': 'Кроме того', 'ratio': 0.4}]",Более того,{},[]
+33,33,GLUE,GLUE,0.5,10,"[{'word': 'КЛЕЙ', 'ratio': 0.5}, {'word': 'GLUE', 'ratio': 0.5}]",КЛЕЙ,{},[]
+34,34,GPT,GPT,1.0,10,"[{'word': 'GPT', 'ratio': 1.0}]",GPT,{},[]
+35,35,Hence,Следовательно,0.5555555555555556,9,"[{'word': 'Следовательно', 'ratio': 0.5555555555555556}, {'word': 'следовательно', 'ratio': 0.3333333333333333}, {'word': 'Hence Следовательно', 'ratio': 0.1111111111111111}]",Следовательно,{},[]
+36,36,ICLR,ICLR,1.0,10,"[{'word': 'ICLR', 'ratio': 1.0}]",ICLR,{},[]
+37,37,IDF,IDF,0.7,10,"[{'word': 'IDF', 'ratio': 0.7}, {'word': 'ЦАХАЛ', 'ratio': 0.3}]",IDF,{},[]
+38,38,KinyaBERT,KinyaBERT,0.8,10,"[{'word': 'KinyaBERT', 'ratio': 0.8}, {'word': 'КиньяБЕРТ', 'ratio': 0.2}]",KinyaBERT,{},[]
+39,39,LXMert,LXMert,1.0,10,"[{'word': 'LXMert', 'ratio': 1.0}]",LXMert,{},[]
+40,40,LinCE,LinCE,0.4,10,"[{'word': 'ЛИНЦЕ', 'ratio': 0.6}, {'word': 'LinCE', 'ratio': 0.4}]",ЛИНЦЕ,{},[]
+41,41,MAWPS,MAWPS,0.8,10,"[{'word': 'MAWPS', 'ratio': 0.8}, {'word': 'МАВПС', 'ratio': 0.1}, {'word': 'MAWPS -', 'ratio': 0.1}]",MAWPS,{},[]
+42,42,MTDNN,MTDNN,0.8,10,"[{'word': 'MTDNN', 'ratio': 0.8}, {'word': 'МТДНН', 'ratio': 0.1}, {'word': 'MTDNN -', 'ratio': 0.1}]",MTDNN,{},[]
+43,43,MathQA,MathQA,0.8888888888888888,9,"[{'word': 'MathQA', 'ratio': 0.8888888888888888}, {'word': 'MathQA MathQA', 'ratio': 0.1111111111111111}]",MathQA,{},[]
+44,44,Modeling,моделирование,0.0,10,"[{'word': 'Моделирование', 'ratio': 1.0}]",Моделирование,{},[]
+45,45,Moreover,Сверх того,0.0,9,"[{'word': 'Более того', 'ratio': 0.6666666666666666}, {'word': 'более того', 'ratio': 0.3333333333333333}]",Более того,{},[]
+46,46,Morphology,морфология,0.0,10,"[{'word': 'Морфология', 'ratio': 1.0}]",Морфология,{},[]
+47,47,NLI,NLI,0.6,10,"[{'word': 'NLI', 'ratio': 0.6}, {'word': 'НЛИ', 'ratio': 0.3}, {'word': 'NLI - NLI', 'ratio': 0.1}]",NLI,{},[]
+48,48,NLP,NLP,0.1,10,"[{'word': 'НЛП', 'ratio': 0.4}, {'word': 'Обработка естественного языка', 'ratio': 0.2}, {'word': 'обработка естественного языка', 'ratio': 0.2}, {'word': 'NLP', 'ratio': 0.1}, {'word': 'NLP - НЛИ', 'ratio': 0.1}]",обработка естественного языка,"```
+1. Candidate: ""обработка естественного языка""
+2. Explanation: The term ""обработка естественного языка"" is the best translation for ""NLP"" in the context of AI and computational linguistics. This translation directly corresponds to ""Natural Language Processing,"" which is the full form of the acronym ""NLP."" It accurately conveys the meaning and scope of NLP as it is understood in the AI domain, encompassing tasks like parsing, text-to-speech synthesis, and machine translation. The back translation to ""natural language processing"" confirms its semantic accuracy and contextual fit, ensuring that the term is understood correctly in both English and Russian AI contexts.
+```","['NLP', 'Natural Language Processing', 'NLP - NLI', 'NLP', 'natural language processing']"
+49,49,OOV,OOV,0.2,10,"[{'word': 'OOV', 'ratio': 0.2}, {'word': 'неизвестное слово', 'ratio': 0.2}, {'word': 'OOV - неизвестные слова', 'ratio': 0.1}, {'word': 'OOV Вне словаря', 'ratio': 0.1}, {'word': 'Слово за пределами словаря', 'ratio': 0.1}, {'word': 'неизвестное слово в словаре', 'ratio': 0.1}, {'word': 'не встречается в обучающем наборе', 'ratio': 0.1}, {'word': 'слово вне словаря', 'ratio': 0.1}]",слово вне словаря,"```
+1. Candidate: ""слово вне словаря""
+2. Explanation: The term ""OOV"" stands for ""Out Of Vocabulary"" in the context of AI and natural language processing, referring to words that are not present in the model's vocabulary. The candidate ""слово вне словаря"" directly translates to ""word out of dictionary,"" which accurately captures the meaning of ""OOV"" in the AI domain. It maintains semantic accuracy and aligns well with the context of borrowings and vocabulary coverage in datasets, making it the best fit for the given context.
+```","['not found in the training set', 'word out of dictionary', 'unknown word', 'OOV Out of dictionary', 'OOV - unknown words', 'OOV', 'Word outside the dictionary', 'unknown word in the dictionary', 'OOO']"
+50,50,PaLM,PaLM,0.4,10,"[{'word': 'ПаЛМ', 'ratio': 0.4}, {'word': 'PaLM', 'ratio': 0.4}, {'word': 'Ладонь', 'ratio': 0.2}]",ПаЛМ,"```
+1. Candidate: ""ПаЛМ""
+2. Explanation: ""ПаЛМ"" is the best translation candidate because it maintains the original acronym of the AI model ""PaLM"" (Pathways Language Model) without altering its meaning or form. In the AI domain, preserving the original acronym is crucial for maintaining clarity and consistency, as acronyms often represent specific models or technologies that are recognized globally. The back translation to ""PaLM"" confirms that the semantic integrity of the term is preserved, making it the most contextually accurate choice.
+```","['PaLM', 'Palm', 'Palm']"
+51,51,PubMed,ПабМед,0.2,10,"[{'word': 'PubMed', 'ratio': 0.7}, {'word': 'ПабМед', 'ratio': 0.2}, {'word': 'PubMed PubMed', 'ratio': 0.1}]",PubMed,{},[]
+52,52,QA,Контроль качества,0.0,9,"[{'word': 'QA', 'ratio': 0.5555555555555556}, {'word': 'Вопрос-ответ', 'ratio': 0.2222222222222222}, {'word': 'ВО', 'ratio': 0.1111111111111111}, {'word': 'ВОП', 'ratio': 0.1111111111111111}]",QA,{},[]
+53,53,QED,QED,1.0,9,"[{'word': 'QED', 'ratio': 1.0}]",QED,{},[]
+54,54,QUOREF,QUOREF,1.0,9,"[{'word': 'QUOREF', 'ratio': 1.0}]",QUOREF,{},[]
+55,55,REALM,REALM,0.7,10,"[{'word': 'REALM', 'ratio': 0.7}, {'word': 'ОБЛАСТЬ', 'ratio': 0.3}]",REALM,{},[]
+56,56,RGF,RGF,0.7,10,"[{'word': 'RGF', 'ratio': 0.7}, {'word': 'РГФ', 'ratio': 0.3}]",RGF,{},[]
+57,57,RNSum,RNSum,1.0,10,"[{'word': 'RNSum', 'ratio': 1.0}]",RNSum,{},[]
+58,58,ROUGE,ROUGE,0.7,10,"[{'word': 'ROUGE', 'ratio': 0.7}, {'word': 'РУЖА', 'ratio': 0.3}]",ROUGE,{},[]
+59,59,SMCalFlow,SMCalFlow,1.0,10,"[{'word': 'SMCalFlow', 'ratio': 1.0}]",SMCalFlow,{},[]
+60,60,SUTD,SUTD,0.8,10,"[{'word': 'SUTD', 'ratio': 0.8}, {'word': 'СУТД', 'ratio': 0.2}]",SUTD,{},[]
+61,61,SVAMP,SVAMP,0.8,10,"[{'word': 'SVAMP', 'ratio': 0.8}, {'word': 'БОЛОТО', 'ratio': 0.1}, {'word': 'ГУБКА', 'ratio': 0.1}]",SVAMP,{},[]
+62,62,Semantic,семантический,0.1111111111111111,9,"[{'word': 'Семантический', 'ratio': 0.7777777777777778}, {'word': 'предсказание последовательностей', 'ratio': 0.1111111111111111}, {'word': 'семантический', 'ratio': 0.1111111111111111}]",Семантический,{},[]
+63,63,Similar,Похожий,0.6,10,"[{'word': 'Похожий', 'ratio': 0.6}, {'word': 'Похожие', 'ratio': 0.3}, {'word': 'похожий', 'ratio': 0.1}]",Похожий,{},[]
+64,64,Therefore,Следовательно,0.5,10,"[{'word': 'Следовательно', 'ratio': 0.5}, {'word': 'Поэтому', 'ratio': 0.4}, {'word': 'Therefore Следовательно', 'ratio': 0.1}]",Следовательно,{},[]
+65,65,TreeDST,TreeDST,0.6666666666666666,9,"[{'word': 'TreeDST', 'ratio': 0.6666666666666666}, {'word': 'ДеревоDST', 'ratio': 0.3333333333333333}]",TreeDST,{},[]
+66,66,VALSE,VALSE,0.8,10,"[{'word': 'VALSE', 'ratio': 0.8}, {'word': 'ВАЛЬСЕ', 'ratio': 0.1}, {'word': 'ВАЛСЕ', 'ratio': 0.1}]",VALSE,{},[]
+67,67,VFL,VFL,0.8,10,"[{'word': 'VFL', 'ratio': 0.8}, {'word': 'ВФЛ', 'ratio': 0.2}]",VFL,{},[]
+68,68,ViLBERT,ViLBERT,0.7,10,"[{'word': 'ViLBERT', 'ratio': 0.7}, {'word': 'ВИЛБЕРТ', 'ratio': 0.3}]",ViLBERT,{},[]
+69,69,VisualBERT,VisualBERT,0.6,10,"[{'word': 'VisualBERT', 'ratio': 0.6}, {'word': 'ВизуальныйBERT', 'ratio': 0.4}]",VisualBERT,{},[]
+70,70,Wikipedia,Википедия,1.0,10,"[{'word': 'Википедия', 'ratio': 1.0}]",Википедия,{},[]
+71,71,XLM,XLM,1.0,10,"[{'word': 'XLM', 'ratio': 1.0}]",XLM,{},[]
+72,72,XLNet,XLNet,1.0,10,"[{'word': 'XLNet', 'ratio': 1.0}]",XLNet,{},[]
+73,73,ablation,абляция,1.0,10,"[{'word': 'абляция', 'ratio': 1.0}]",абляция,{},[]
+74,74,achieves,Достигает,0.0,10,"[{'word': 'достигает', 'ratio': 1.0}]",достигает,{},[]
+75,75,adversarial,Состязательной,0.0,10,"[{'word': 'противостоящий', 'ratio': 0.3}, {'word': 'противодействующий', 'ratio': 0.3}, {'word': 'враждебный', 'ratio': 0.2}, {'word': 'адверсариальный', 'ratio': 0.1}, {'word': 'противоречивый', 'ratio': 0.1}]",адверсариальный,"```
+1. Candidate: ""адверсариальный""
+2. Explanation: The term ""адверсариальный"" is the best fit for translating ""adversarial"" in the context of AI because it directly corresponds to the English term without losing its specific meaning. In AI, ""adversarial"" often refers to techniques or models that involve adversarial processes, such as adversarial attacks or adversarial training. The term ""адверсариальный"" is a transliteration that maintains the technical specificity and is widely recognized in the Russian AI community, ensuring semantic accuracy and contextual fit.
+```","['adversarial', 'opposing', 'opposing', 'contradictory', 'hostile']"
+76,76,algorithm,алгоритм,0.9,10,"[{'word': 'алгоритм', 'ratio': 0.9}, {'word': 'Алгоритм', 'ratio': 0.1}]",алгоритм,{},[]
+77,77,algorithms,Алгоритмы,0.1,10,"[{'word': 'алгоритмы', 'ratio': 0.9}, {'word': 'Алгоритмы', 'ratio': 0.1}]",алгоритмы,{},[]
+78,78,analysis,анализ,0.9,10,"[{'word': 'анализ', 'ratio': 0.9}, {'word': 'analysis анализ', 'ratio': 0.1}]",анализ,{},[]
+79,79,annotated,аннотированный,1.0,10,"[{'word': 'аннотированный', 'ratio': 1.0}]",аннотированный,{},[]
+80,80,annotations,Аннотации,0.0,10,"[{'word': 'аннотации', 'ratio': 0.9}, {'word': 'annotations аннотации', 'ratio': 0.1}]",аннотации,{},[]
+81,81,annotators,аннотаторы,0.9,10,"[{'word': 'аннотаторы', 'ratio': 0.9}, {'word': 'Аннотаторы', 'ratio': 0.1}]",аннотаторы,{},[]
+82,82,answer,ответ,1.0,10,"[{'word': 'ответ', 'ratio': 1.0}]",ответ,{},[]
+83,83,approach,подход,0.9,10,"[{'word': 'подход', 'ratio': 0.9}, {'word': 'метод', 'ratio': 0.1}]",подход,{},[]
+84,84,aspect,аспект,1.0,10,"[{'word': 'аспект', 'ratio': 1.0}]",аспект,{},[]
+85,85,assessing,проведение оценки,0.0,10,"[{'word': 'оценка', 'ratio': 0.9}, {'word': 'Оценка', 'ratio': 0.1}]",оценка,{},[]
+86,86,attention,внимание,0.9,10,"[{'word': 'внимание', 'ratio': 0.9}, {'word': 'Внимание', 'ratio': 0.1}]",внимание,{},[]
+87,87,augmented,увеличенный,0.2,10,"[{'word': 'дополненный', 'ratio': 0.5}, {'word': 'увеличенный', 'ratio': 0.2}, {'word': 'расширенный', 'ratio': 0.2}, {'word': 'Увеличенный', 'ratio': 0.1}]",дополненный,{},[]
+88,88,automatic,Автоматический,0.0,10,"[{'word': 'автоматический', 'ratio': 0.8}, {'word': 'автоматическое', 'ratio': 0.1}, {'word': 'Автоматическое', 'ratio': 0.1}]",автоматический,{},[]
+89,89,automatically,автоматически,0.9,10,"[{'word': 'автоматически', 'ratio': 0.9}, {'word': 'Автоматически', 'ratio': 0.1}]",автоматически,{},[]
+90,90,baselines,базовых линий,0.0,10,"[{'word': 'базовые модели', 'ratio': 0.4}, {'word': 'базовые линии', 'ratio': 0.3}, {'word': 'эталоны', 'ratio': 0.2}, {'word': 'Опорные модели', 'ratio': 0.1}]",базовые модели,"```
+1. Candidate: ""базовые модели""
+2. Explanation: In the context of AI and machine learning, ""baselines"" often refer to models or methods used as a point of comparison to evaluate the performance of new models or techniques. The term ""базовые модели"" (basic models) accurately captures this meaning, as it implies foundational models used for comparison. This translation maintains semantic accuracy and aligns well with the AI domain-specific usage, where ""models"" are a central concept. The back translation to ""basic models"" also fits the context of AI, ensuring that the term is understood correctly in both languages.
+```","['standards', 'source data', 'Reference models', 'basic models', 'baselines']"
+91,91,biases,Предубеждения,0.0,10,"[{'word': 'смещения', 'ratio': 0.9}, {'word': 'бикубическая интерполяция', 'ratio': 0.1}]",смещения,{},[]
+92,92,binary,двоичный,0.2,10,"[{'word': 'бинарный', 'ratio': 0.7}, {'word': 'двоичный', 'ratio': 0.2}, {'word': 'Бинарный', 'ratio': 0.1}]",бинарный,{},[]
+93,93,captions,Подписи,0.1,10,"[{'word': 'подписи', 'ratio': 0.7}, {'word': 'заголовки', 'ratio': 0.2}, {'word': 'Подписи', 'ratio': 0.1}]",подписи,{},[]
+94,94,classifier,классификатор,0.9,10,"[{'word': 'классификатор', 'ratio': 0.9}, {'word': 'Классификатор', 'ratio': 0.1}]",классификатор,{},[]
+95,95,classifiers,Классификаторы,0.0,10,"[{'word': 'классификаторы', 'ratio': 1.0}]",классификаторы,{},[]
+96,96,classifying,Классификации,0.0,10,"[{'word': 'классификация', 'ratio': 1.0}]",классификация,{},[]
+97,97,compared,Сравнительный,0.0,10,"[{'word': 'по сравнению', 'ratio': 0.4}, {'word': 'сравнен', 'ratio': 0.2}, {'word': 'сравнивали', 'ratio': 0.1}, {'word': 'сравнены', 'ratio': 0.1}, {'word': 'сравнивался', 'ratio': 0.1}, {'word': 'сравнивается', 'ratio': 0.1}]",по сравнению,"```
+1. Candidate: ""по сравнению""
+2. Explanation: The term ""по сравнению"" is the best fit for the context provided because it accurately captures the comparative nature of the examples given. In the AI domain, especially when discussing model performance or linguistic phenomena, the phrase ""по сравнению"" is commonly used to denote a comparison between different results or scenarios. This candidate maintains semantic accuracy and provides a clear contextual fit when back-translated to English as ""compared to,"" which aligns well with the original English usage in the provided contexts.
+```","['compared', 'compared to', 'compared', 'compared', 'compared', 'compared']"
+98,98,compositionality,композиционность,0.1,10,"[{'word': 'композициональность', 'ratio': 0.8}, {'word': 'композитивность', 'ratio': 0.1}, {'word': 'композиционность', 'ratio': 0.1}]",композициональность,{},[]
+99,99,computation,вычисление,1.0,10,"[{'word': 'вычисление', 'ratio': 1.0}]",вычисление,{},[]
+100,100,computational,вычислительный,1.0,10,"[{'word': 'вычислительный', 'ratio': 1.0}]",вычислительный,{},[]
+101,101,context,содержание,0.0,10,"[{'word': 'контекст', 'ratio': 1.0}]",контекст,{},[]
+102,102,contexts,содержания,0.0,10,"[{'word': 'контексты', 'ratio': 1.0}]",контексты,{},[]
+103,103,contextualized,контекстуализированный,1.0,10,"[{'word': 'контекстуализированный', 'ratio': 1.0}]",контекстуализированный,{},[]
+104,104,conversational,разговорный,1.0,10,"[{'word': 'разговорный', 'ratio': 1.0}]",разговорный,{},[]
+105,105,coreference,корреляция,0.0,10,"[{'word': 'сопричастность', 'ratio': 0.1}, {'word': 'кореференция', 'ratio': 0.1}, {'word': 'сопоставление ссылок', 'ratio': 0.1}, {'word': 'анафора', 'ratio': 0.1}, {'word': 'сопределение', 'ratio': 0.1}, {'word': 'Ссылочная связь', 'ratio': 0.1}, {'word': 'котегоризация', 'ratio': 0.1}, {'word': 'соотношение ссылок', 'ratio': 0.1}, {'word': 'антецедентное соотношение', 'ratio': 0.1}, {'word': 'соотнесение', 'ratio': 0.1}]",кореференция,"```
+1. Candidate: ""кореференция""
+2. Explanation: The term ""кореференция"" is the direct transliteration of ""coreference"" and is widely used in the AI and computational linguistics fields in Russian. It accurately captures the concept of coreference, which refers to the relationship between two or more expressions in a text that refer to the same entity. This term maintains semantic accuracy and is commonly accepted in the domain-specific context, making it the best fit for translation.
+```","['categorization', 'definition', 'Link link', 'link ratio', 'involvement', 'antecedent relation', 'coreference', 'correlation', 'link matching', 'anaphora']"
+106,106,corpora,корпуса,1.0,10,"[{'word': 'корпуса', 'ratio': 1.0}]",корпуса,{},[]
+107,107,corpus,корпус,1.0,10,"[{'word': 'корпус', 'ratio': 1.0}]",корпус,{},[]
+108,108,correlations,Корреляции,0.1,10,"[{'word': 'корреляции', 'ratio': 0.9}, {'word': 'Корреляции', 'ratio': 0.1}]",корреляции,{},[]
+109,109,corresponding,соответствующий,0.9,10,"[{'word': 'соответствующий', 'ratio': 0.9}, {'word': 'Соответствующий', 'ratio': 0.1}]",соответствующий,{},[]
+110,110,counterfactual,Противного,0.0,10,"[{'word': 'контрфактический', 'ratio': 0.6}, {'word': 'контрафактический', 'ratio': 0.3}, {'word': 'контрфактуал', 'ratio': 0.1}]",контрфактический,{},[]
+111,111,data,данные,0.9,10,"[{'word': 'данные', 'ratio': 0.9}, {'word': 'Данные', 'ratio': 0.1}]",данные,{},[]
+112,112,dataset,набор данных,0.8,10,"[{'word': 'набор данных', 'ratio': 0.8}, {'word': 'датасет', 'ratio': 0.2}]",набор данных,{},[]
+113,113,datasets,наборы данных,1.0,10,"[{'word': 'наборы данных', 'ratio': 1.0}]",наборы данных,{},[]
+114,114,decoder,дешифратор,0.0,10,"[{'word': 'декодер', 'ratio': 1.0}]",декодер,{},[]
+115,115,decoding,расшифровка,0.0,10,"[{'word': 'декодирование', 'ratio': 1.0}]",декодирование,{},[]
+116,116,dependencies,Зависимости,0.0,10,"[{'word': 'зависимости', 'ratio': 1.0}]",зависимости,{},[]
+117,117,distributions,Распределения,0.1,10,"[{'word': 'распределения', 'ratio': 0.9}, {'word': 'Распределения', 'ratio': 0.1}]",распределения,{},[]
+118,118,documents,Документы,0.1,10,"[{'word': 'документы', 'ratio': 0.9}, {'word': 'Документы', 'ratio': 0.1}]",документы,{},[]
+119,119,domains,Домены,0.0,10,"[{'word': 'области', 'ratio': 0.9}, {'word': 'domains области', 'ratio': 0.1}]",области,{},[]
+120,120,downstream,подчиненная,0.0,10,"[{'word': 'последующая обработка', 'ratio': 0.2}, {'word': 'последующие задачи', 'ratio': 0.2}, {'word': 'последующий', 'ratio': 0.1}, {'word': 'низший уровень', 'ratio': 0.1}, {'word': 'для последующих задач', 'ratio': 0.1}, {'word': 'нижний уровень', 'ratio': 0.1}, {'word': 'распознавание', 'ratio': 0.1}, {'word': 'дальнейший', 'ratio': 0.1}]",для последующих задач,"```
+1. Candidate: ""для последующих задач""
+2. Explanation: The term ""downstream"" in the context of AI and NLP refers to tasks or processes that occur later in a sequence, building on the results of previous tasks. ""Для последующих задач"" translates to ""for subsequent tasks,"" which accurately captures the idea of tasks that follow and depend on earlier processes. This candidate maintains the semantic meaning and contextual fit within the AI domain, where tasks are often sequentially dependent.
+```","['further', 'for subsequent tasks', 'downstream', 'lower level', 'lowest level', 'recognition', 'follow-up tasks', 'post-processing', 'subsequent']"
+121,121,edit,редактировать,0.0,10,"[{'word': 'редактирование', 'ratio': 0.9}, {'word': 'правка', 'ratio': 0.1}]",редактирование,{},[]
+122,122,embedding,внедрение,0.0,10,"[{'word': 'встраивание', 'ratio': 0.7}, {'word': 'векторное представление', 'ratio': 0.2}, {'word': 'вложение', 'ratio': 0.1}]",встраивание,{},[]
+123,123,embeddings,встраивания,0.8,10,"[{'word': 'встраивания', 'ratio': 0.8}, {'word': 'Встраивания', 'ratio': 0.1}, {'word': 'вложенные представления', 'ratio': 0.1}]",встраивания,{},[]
+124,124,encode,кодировать,1.0,10,"[{'word': 'кодировать', 'ratio': 1.0}]",кодировать,{},[]
+125,125,encoder,кодировщик,0.8,10,"[{'word': 'кодировщик', 'ratio': 0.8}, {'word': 'энкодер', 'ratio': 0.2}]",кодировщик,{},[]
+126,126,encoders,Кодеры,0.0,10,"[{'word': 'кодировщики', 'ratio': 0.5}, {'word': 'энкодеры', 'ratio': 0.3}, {'word': 'кодеры', 'ratio': 0.1}, {'word': 'размер словаря', 'ratio': 0.1}]",кодировщики,{},[]
+127,127,encoding,кодировка,0.0,10,"[{'word': 'кодирование', 'ratio': 0.8}, {'word': 'Кодирование', 'ratio': 0.1}, {'word': 'encoding кодирование', 'ratio': 0.1}]",кодирование,{},[]
+128,128,entities,Объекты,0.0,10,"[{'word': 'сущности', 'ratio': 1.0}]",сущности,{},[]
+129,129,evaluation,оценка,1.0,9,"[{'word': 'оценка', 'ratio': 1.0}]",оценка,{},[]
+130,130,event,событие,1.0,9,"[{'word': 'событие', 'ratio': 1.0}]",событие,{},[]
+131,131,existing,Существующий,0.1,10,"[{'word': 'существующий', 'ratio': 0.8}, {'word': 'existing существующий', 'ratio': 0.1}, {'word': 'Существующий', 'ratio': 0.1}]",существующий,{},[]
+132,132,extracted,извлекаемый,0.0,9,"[{'word': 'извлеченный', 'ratio': 0.7777777777777778}, {'word': 'извлечённый', 'ratio': 0.2222222222222222}]",извлеченный,{},[]
+133,133,extracting,Извлечение,0.1111111111111111,9,"[{'word': 'извлечение', 'ratio': 0.8888888888888888}, {'word': 'Извлечение', 'ratio': 0.1111111111111111}]",извлечение,{},[]
+134,134,extraction,Извлечение,0.1111111111111111,9,"[{'word': 'извлечение', 'ratio': 0.8888888888888888}, {'word': 'Извлечение', 'ratio': 0.1111111111111111}]",извлечение,{},[]
+135,135,extractive,экстрактивное,0.0,9,"[{'word': 'извлекательный', 'ratio': 0.4444444444444444}, {'word': 'извлекающий', 'ratio': 0.3333333333333333}, {'word': 'экстрактивный', 'ratio': 0.1111111111111111}, {'word': 'Экстрактивный', 'ratio': 0.1111111111111111}]",извлекательный,"```
+1. Candidate: ""извлекательный""
+2. Explanation: The term ""извлекательный"" is the best fit for translating ""extractive"" in the context of AI, particularly when referring to extractive models or methods, such as extractive summarization. This term accurately conveys the process of extracting specific information from a larger dataset, which aligns with the AI domain's usage. The back translation to ""extractive"" confirms its semantic accuracy and contextual fit, making it the most appropriate choice among the candidates.
+```","['extractive', 'extractive', 'extractive', 'Extractive', 'retrieving']"
+136,136,features,Функции,0.0,9,"[{'word': 'признаки', 'ratio': 1.0}]",признаки,{},[]
+137,137,finetuning,тонкая настройка,0.0,10,"[{'word': 'дообучение', 'ratio': 0.5}, {'word': 'доработка', 'ratio': 0.3}, {'word': 'finetuning - дообучение', 'ratio': 0.1}, {'word': 'донастройка', 'ratio': 0.1}]",дообучение,{},[]
+138,138,generalize,обобщить,0.0,9,"[{'word': 'обобщать', 'ratio': 1.0}]",обобщать,{},[]
+139,139,generated,созданный,0.1,10,"[{'word': 'сгенерированный', 'ratio': 0.7}, {'word': 'созданный', 'ratio': 0.1}, {'word': 'генерируемый', 'ratio': 0.1}, {'word': 'generated сгенерированный', 'ratio': 0.1}]",сгенерированный,{},[]
+140,140,generating,генерация,0.5,10,"[{'word': 'генерация', 'ratio': 0.5}, {'word': 'генерирование', 'ratio': 0.4}, {'word': 'generating генерирование', 'ratio': 0.1}]",генерация,{},[]
+141,141,generation,генерация,0.7,10,"[{'word': 'генерация', 'ratio': 0.7}, {'word': 'порождение', 'ratio': 0.2}, {'word': 'generation генерация', 'ratio': 0.1}]",генерация,{},[]
+142,142,gradient,градиент,0.9,10,"[{'word': 'градиент', 'ratio': 0.9}, {'word': 'Градиент', 'ratio': 0.1}]",градиент,{},[]
+143,143,grammar,грамматика,0.8,10,"[{'word': 'грамматика', 'ratio': 0.8}, {'word': 'grammar грамматика', 'ratio': 0.1}, {'word': 'Грамматика', 'ratio': 0.1}]",грамматика,{},[]
+144,144,grammatical,грамматический,0.8888888888888888,9,"[{'word': 'грамматический', 'ratio': 0.8888888888888888}, {'word': 'Грамматический', 'ratio': 0.1111111111111111}]",грамматический,{},[]
+145,145,graph,диаграммa,0.0,10,"[{'word': 'граф', 'ratio': 1.0}]",граф,{},[]
+146,146,graphs,диаграммы,0.0,9,"[{'word': 'графы', 'ratio': 0.7777777777777778}, {'word': 'Графы', 'ratio': 0.2222222222222222}]",графы,{},[]
+147,147,grounding,обоснование,0.2,10,"[{'word': 'привязка', 'ratio': 0.4}, {'word': 'обоснование', 'ratio': 0.2}, {'word': 'основывание', 'ratio': 0.1}, {'word': 'grounding привязка к контексту', 'ratio': 0.1}, {'word': 'грунтование', 'ratio': 0.1}, {'word': 'обосновывание', 'ratio': 0.1}]",привязка к контексту,"```
+1. Candidate: ""привязка к контексту""
+2. Explanation: In the AI domain, ""grounding"" often refers to the process of linking or associating data or concepts with real-world context or meaning. The candidate ""привязка к контексту"" directly translates to ""context binding,"" which accurately captures the essence of grounding in AI, where the focus is on connecting abstract data to contextual information. This translation maintains semantic accuracy and aligns well with the intended meaning in AI applications.
+```","['grounding', 'grounding context binding', 'padding', 'foundation', 'binding', 'justification', 'justification']"
+148,148,heuristic,эвристический,0.0,10,"[{'word': 'эвристика', 'ratio': 0.9}, {'word': 'эвристический метод', 'ratio': 0.1}]",эвристика,{},[]
+149,149,human,человек,0.6666666666666666,9,"[{'word': 'человек', 'ratio': 0.6666666666666666}, {'word': 'human человек', 'ratio': 0.1111111111111111}, {'word': 'Человеческий', 'ratio': 0.1111111111111111}, {'word': 'Человек', 'ratio': 0.1111111111111111}]",человек,{},[]
+150,150,identifying,Определение,0.0,9,"[{'word': 'идентификация', 'ratio': 0.6666666666666666}, {'word': 'идентифицирующий', 'ratio': 0.3333333333333333}]",идентификация,{},[]
+151,151,image,изображениe,0.0,10,"[{'word': 'изображение', 'ratio': 0.8}, {'word': 'Изображение', 'ratio': 0.2}]",изображение,{},[]
+152,152,information,информация,1.0,10,"[{'word': 'информация', 'ratio': 1.0}]",информация,{},[]
+153,153,internet,интернет,1.0,9,"[{'word': 'интернет', 'ratio': 1.0}]",интернет,{},[]
+154,154,interpretable,интерпретируемый,1.0,10,"[{'word': 'интерпретируемый', 'ratio': 1.0}]",интерпретируемый,{},[]
+155,155,knowledge,знание,1.0,10,"[{'word': 'знание', 'ratio': 1.0}]",знание,{},[]
+156,156,labeled,обозначеный,0.0,10,"[{'word': 'помеченный', 'ratio': 0.3}, {'word': 'размеченный', 'ratio': 0.2}, {'word': 'метко заданный', 'ratio': 0.1}, {'word': 'Аннотированный', 'ratio': 0.1}, {'word': 'меткованный', 'ratio': 0.1}, {'word': 'Помеченный', 'ratio': 0.1}, {'word': 'маркированный', 'ratio': 0.1}]",размеченный,"```
+1. Candidate: ""размеченный""
+2. Explanation: In the context of AI and machine learning, the term ""labeled"" often refers to data that has been annotated or tagged with specific information, such as categories or classes, to be used in training models. The Russian term ""размеченный"" is commonly used in the AI domain to describe data that has been labeled or annotated for such purposes. It accurately conveys the idea of data being prepared with specific labels for tasks like classification or augmentation, making it the best fit for the given context. Additionally, the back translation ""marked"" aligns well with the original English term, ensuring semantic accuracy and contextual fit.
+```","['marked', 'Tagged', 'tagged', 'Annotated', 'marked', 'marked', 'well-defined']"
+157,157,language,Язык,0.0,10,"[{'word': 'язык', 'ratio': 1.0}]",язык,{},[]
+158,158,languages,Языки,0.0,10,"[{'word': 'языки', 'ratio': 0.9}, {'word': 'languages языки', 'ratio': 0.1}]",языки,{},[]
+159,159,large,большой,0.8,10,"[{'word': 'большой', 'ratio': 0.8}, {'word': 'значительный', 'ratio': 0.1}, {'word': 'large большой', 'ratio': 0.1}]",большой,{},[]
+160,160,learning,учение,0.0,10,"[{'word': 'обучение', 'ratio': 0.9}, {'word': 'Обучение', 'ratio': 0.1}]",обучение,{},[]
+161,161,lexical,словарный ,0.0,10,"[{'word': 'лексический', 'ratio': 0.9}, {'word': 'Лексический', 'ratio': 0.1}]",лексический,{},[]
+162,162,linear,линейный,0.9,10,"[{'word': 'линейный', 'ratio': 0.9}, {'word': 'инейный', 'ratio': 0.1}]",линейный,{},[]
+163,163,linguistic,лингвистический,0.8,10,"[{'word': 'лингвистический', 'ratio': 0.8}, {'word': 'Лингвистический', 'ratio': 0.1}, {'word': 'linguistic Лингвистический', 'ratio': 0.1}]",лингвистический,{},[]
+164,164,linguistics,языкознания,0.0,10,"[{'word': 'лингвистика', 'ratio': 0.8}, {'word': 'Лингвистика', 'ratio': 0.1}, {'word': 'linguistics Лингвистика', 'ratio': 0.1}]",лингвистика,{},[]
+165,165,linked,Связан,0.0,10,"[{'word': 'связанный', 'ratio': 1.0}]",связанный,{},[]
+166,166,manually,вручную,1.0,10,"[{'word': 'вручную', 'ratio': 1.0}]",вручную,{},[]
+167,167,meaning,значение,0.5,10,"[{'word': 'значение', 'ratio': 0.5}, {'word': 'смысл', 'ratio': 0.4}, {'word': 'Meaning - Значение', 'ratio': 0.1}]",значение,{},[]
+168,168,method,метод,0.9,10,"[{'word': 'метод', 'ratio': 0.9}, {'word': 'Метод', 'ratio': 0.1}]",метод,{},[]
+169,169,methods,методика,0.0,10,"[{'word': 'методы', 'ratio': 0.9}, {'word': 'Методы', 'ratio': 0.1}]",методы,{},[]
+170,170,metrics,метрики,0.8888888888888888,9,"[{'word': 'метрики', 'ratio': 0.8888888888888888}, {'word': 'Метрики', 'ratio': 0.1111111111111111}]",метрики,{},[]
+171,171,modalities,Условия,0.0,10,"[{'word': 'модальности', 'ratio': 0.8}, {'word': 'Модальности', 'ratio': 0.2}]",модальности,{},[]
+172,172,model,модель,0.9,10,"[{'word': 'модель', 'ratio': 0.9}, {'word': 'Модель', 'ratio': 0.1}]",модель,{},[]
+173,173,models,Модели,0.1,10,"[{'word': 'модели', 'ratio': 0.9}, {'word': 'Модели', 'ratio': 0.1}]",модели,{},[]
+174,174,monolingual,одноязычный,0.0,10,"[{'word': 'монолингвальный', 'ratio': 0.5}, {'word': 'монolingвальный', 'ratio': 0.4}, {'word': 'монолингвистический', 'ratio': 0.1}]",монолингвальный,{},[]
+175,175,morphemes,Морфем,0.0,10,"[{'word': 'морфемы', 'ratio': 0.8}, {'word': 'Морфемы', 'ratio': 0.2}]",морфемы,{},[]
+176,176,morphological,морфологический,0.8,10,"[{'word': 'морфологический', 'ratio': 0.8}, {'word': 'Морфологический', 'ratio': 0.2}]",морфологический,{},[]
+177,177,morphologically,морфологически,1.0,10,"[{'word': 'морфологически', 'ratio': 1.0}]",морфологически,{},[]
+178,178,motivated,Мотивированный,0.1,10,"[{'word': 'мотивированный', 'ratio': 0.7}, {'word': 'обоснованный', 'ratio': 0.2}, {'word': 'Мотивированный', 'ratio': 0.1}]",мотивированный,{},[]
+179,179,multilingual,многоязычный,0.7777777777777778,9,"[{'word': 'многоязычный', 'ratio': 0.7777777777777778}, {'word': 'multilingual многоязычный', 'ratio': 0.2222222222222222}]",многоязычный,{},[]
+180,180,multitask,Многозадачность,0.1,10,"[{'word': 'многозадачный', 'ratio': 0.8}, {'word': 'Мультизадачный', 'ratio': 0.1}, {'word': 'Многозадачность', 'ratio': 0.1}]",многозадачный,{},[]
+181,181,named,названный,0.4,10,"[{'word': 'именованный', 'ratio': 0.6}, {'word': 'названный', 'ratio': 0.4}]",именованный,{},[]
+182,182,namely,именно,0.0,10,"[{'word': 'а именно', 'ratio': 1.0}]",а именно,{},[]
+183,183,natural,естественный,1.0,10,"[{'word': 'естественный', 'ratio': 1.0}]",естественный,{},[]
+184,184,neural,Невральный,0.0,10,"[{'word': 'нейронный', 'ratio': 1.0}]",нейронный,{},[]
+185,185,news,новости,1.0,9,"[{'word': 'новости', 'ratio': 1.0}]",новости,{},[]
+186,186,newswire,новостная лента новостей,0.0,10,"[{'word': 'новостная лента', 'ratio': 0.4}, {'word': 'новостное агентство', 'ratio': 0.2}, {'word': 'новостной поток', 'ratio': 0.1}, {'word': 'новостной агентство', 'ratio': 0.1}, {'word': 'новостной агент', 'ratio': 0.1}, {'word': 'новостной источник', 'ratio': 0.1}]",новостная лента,"```
+1. Candidate: ""новостная лента""
+2. Explanation: The term ""новостная лента"" translates to ""news feed"" in English, which closely aligns with the concept of ""newswire"" in the context of AI and data processing. A newswire typically refers to a service that provides continuous updates of news stories, similar to a news feed. This candidate captures the idea of a stream of news content, which is essential for tasks like detecting lexical borrowings in datasets. The back translation maintains the semantic integrity, making it a suitable choice for the AI domain-specific usage.
+```","['news flow', 'news agency', 'news feed', 'news feed', 'news agency', 'news source', 'news agent']"
+187,187,nodes,узлы,1.0,10,"[{'word': 'узлы', 'ratio': 1.0}]",узлы,{},[]
+188,188,noun,существительное,0.8888888888888888,9,"[{'word': 'существительное', 'ratio': 0.8888888888888888}, {'word': 'Существительное', 'ratio': 0.1111111111111111}]",существительное,{},[]
+189,189,nouns,Существительные,0.0,9,"[{'word': 'существительные', 'ratio': 0.8888888888888888}, {'word': 'part of speech tagger теггер частей речи', 'ratio': 0.1111111111111111}]",существительные,{},[]
+190,190,number,число,0.5,10,"[{'word': 'число', 'ratio': 0.5}, {'word': 'количество', 'ratio': 0.3}, {'word': 'number число', 'ratio': 0.1}, {'word': 'number количество', 'ratio': 0.1}]",число,{},[]
+191,191,online,Онлайн,0.0,10,"[{'word': 'онлайн', 'ratio': 0.9}, {'word': 'Online - Онлайн', 'ratio': 0.1}]",онлайн,{},[]
+192,192,outputs,Выходы,0.2,10,"[{'word': 'выходные данные', 'ratio': 0.4}, {'word': 'выходы', 'ratio': 0.3}, {'word': 'Выходы', 'ratio': 0.2}, {'word': 'Выходные данные', 'ratio': 0.1}]",результаты,"```
+1. Candidate: ""результаты""
+2. Explanation: In the context of AI, ""outputs"" often refers to the results produced by a model or system after processing input data. The term ""результаты"" translates to ""results,"" which accurately captures the intended meaning of ""outputs"" in this context. It aligns well with the AI domain-specific usage, where the focus is on the outcomes or results generated by an AI system. The back translation as ""results"" also maintains the semantic accuracy, making it the best fit among the given candidates.
+```","['exits', 'Exits', 'output', 'results', 'Imprint']"
+193,193,paper,бумага,0.0,10,"[{'word': 'статья', 'ratio': 0.8}, {'word': 'документ', 'ratio': 0.1}, {'word': 'работа', 'ratio': 0.1}]",статья,{},[]
+194,194,parallel,параллельный,0.0,10,"[{'word': 'параллельно', 'ratio': 1.0}]",параллельно,{},[]
+195,195,parsing,парсинг,0.0,9,"[{'word': 'разбор', 'ratio': 0.6666666666666666}, {'word': 'анализ', 'ratio': 0.1111111111111111}, {'word': 'синтаксический анализ', 'ratio': 0.1111111111111111}, {'word': 'parsing разбор', 'ratio': 0.1111111111111111}]",разбор,{},[]
+196,196,perplexity,растерянность,0.0,10,"[{'word': 'перплексия', 'ratio': 0.7}, {'word': 'перплексность', 'ratio': 0.2}, {'word': 'Перплексность', 'ratio': 0.1}]",перплексия,{},[]
+197,197,phrase,фраза,1.0,10,"[{'word': 'фраза', 'ratio': 1.0}]",фраза,{},[]
+198,198,predicates,Предикаты,0.1,10,"[{'word': 'предикаты', 'ratio': 0.9}, {'word': 'Предикаты', 'ratio': 0.1}]",предикаты,{},[]
+199,199,pretrained,предварительно обученный,0.5,10,"[{'word': 'предобученный', 'ratio': 0.5}, {'word': 'предварительно обученный', 'ratio': 0.5}]",предобученный,{},[]
+200,200,pretraining,предварительная подготовка,0.2,10,"[{'word': 'предобучение', 'ratio': 0.4}, {'word': 'предварительное обучение', 'ratio': 0.3}, {'word': 'предварительная подготовка', 'ratio': 0.2}, {'word': 'предварительная тренировка', 'ratio': 0.1}]",предобучение,"```
+1. Candidate: ""предобучение""
+2. Explanation: The term ""предобучение"" is the best fit for translating ""pretraining"" in the context of AI. This term is widely used in the Russian AI community to refer specifically to the process of training a model on a large dataset before fine-tuning it on a specific task. It accurately captures the concept of ""pretraining"" as used in AI, where models are pretrained on large datasets to learn general features before being adapted to specific tasks. The back translation ""pre-training"" also aligns well with the original English term, ensuring semantic accuracy and contextual fit.
+```","['preliminary training', 'preliminary preparation', 'pre-training', 'pre-training']"
+201,201,previous,Предыдущий,0.0,10,"[{'word': 'предыдущий', 'ratio': 1.0}]",предыдущий,{},[]
+202,202,problem,проблема,0.8,10,"[{'word': 'проблема', 'ratio': 0.8}, {'word': 'задача', 'ratio': 0.1}, {'word': 'problem проблема', 'ratio': 0.1}]",проблема,{},[]
+203,203,pronouns,Местоимения,0.1,10,"[{'word': 'местоимения', 'ratio': 0.9}, {'word': 'Местоимения', 'ratio': 0.1}]",местоимения,{},[]
+204,204,propose,предлагать,0.3,10,"[{'word': 'предложить', 'ratio': 0.7}, {'word': 'предлагать', 'ratio': 0.3}]",предложить,{},[]
+205,205,pseudo,псевдо,1.0,10,"[{'word': 'псевдо', 'ratio': 1.0}]",псевдо,{},[]
+206,206,qualitative,качественный,0.9,10,"[{'word': 'качественный', 'ratio': 0.9}, {'word': 'qualitative Качественный', 'ratio': 0.1}]",качественный,{},[]
+207,207,quality,качество,0.9,10,"[{'word': 'качество', 'ratio': 0.9}, {'word': 'quality Качество', 'ratio': 0.1}]",качество,{},[]
+208,208,queries,Запросы,0.0,10,"[{'word': 'запросы', 'ratio': 0.9}, {'word': 'queries запросы', 'ratio': 0.1}]",запросы,{},[]
+209,209,question,вопрос,1.0,10,"[{'word': 'вопрос', 'ratio': 1.0}]",вопрос,{},[]
+210,210,questions,Вопросы,0.0,10,"[{'word': 'вопросы', 'ratio': 1.0}]",вопросы,{},[]
+211,211,re,RE,0.0,10,"[{'word': 'состояние', 'ratio': 0.2}, {'word': 're', 'ratio': 0.2}, {'word': 'ре', 'ratio': 0.2}, {'word': 'РЭ', 'ratio': 0.1}, {'word': 'пере', 'ratio': 0.1}, {'word': 'повторное', 'ratio': 0.1}, {'word': 'высокий уровень', 'ratio': 0.1}]",ре,"```
+1. Candidate: ""ре""
+2. Explanation: The term ""re"" in the context provided seems to be a shorthand or abbreviation related to AI models, possibly referring to ""recent"" or ""retain"" as indicated by the context. The candidate ""ре"" is a transliteration of ""re"" and maintains the ambiguity and brevity of the original term, which is often used in technical and AI contexts to refer to specific concepts or models without expanding into full words. This makes it the best fit for maintaining semantic accuracy and contextual relevance in the AI domain.
+```","['re', 're', 'RE', 're', 'high level', 'state', 'repeated']"
+212,212,reasoning,рассуждение,0.9,10,"[{'word': 'рассуждение', 'ratio': 0.9}, {'word': 'Рассуждение', 'ratio': 0.1}]",рассуждение,{},[]
+213,213,regression,регрессия,1.0,10,"[{'word': 'регрессия', 'ratio': 1.0}]",регрессия,{},[]
+214,214,relation,отношение,0.5,10,"[{'word': 'отношение', 'ratio': 0.5}, {'word': 'связь', 'ratio': 0.4}, {'word': 'Отношение', 'ratio': 0.1}]",отношение,{},[]
+215,215,relations,Отношения,0.0,10,"[{'word': 'отношения', 'ratio': 0.8}, {'word': 'связи', 'ratio': 0.2}]",отношения,{},[]
+216,216,representations,Представления,0.0,10,"[{'word': 'представления', 'ratio': 1.0}]",представления,{},[]
+217,217,research,исследование,1.0,9,"[{'word': 'исследование', 'ratio': 1.0}]",исследование,{},[]
+218,218,resources,ресурсы,0.8,10,"[{'word': 'ресурсы', 'ratio': 0.8}, {'word': 'Ресурсы', 'ratio': 0.2}]",ресурсы,{},[]
+219,219,retrieved,полученный,0.0,10,"[{'word': 'извлечённый', 'ratio': 0.6}, {'word': 'Извлеченный', 'ratio': 0.1}, {'word': 'Извлечённый', 'ratio': 0.1}, {'word': 'retrieved извлечённый', 'ratio': 0.1}, {'word': 'извлеченный', 'ratio': 0.1}]",извлечённый,{},[]
+220,220,search,искать,0.0,10,"[{'word': 'поиск', 'ratio': 1.0}]",поиск,{},[]
+221,221,semantically,Семантически,0.1111111111111111,9,"[{'word': 'семантически', 'ratio': 0.8888888888888888}, {'word': 'Семантически', 'ratio': 0.1111111111111111}]",семантически,{},[]
+222,222,semantics,семантика,0.8888888888888888,9,"[{'word': 'семантика', 'ratio': 0.8888888888888888}, {'word': 'Семантика', 'ratio': 0.1111111111111111}]",семантика,{},[]
+223,223,sense,смысл,1.0,10,"[{'word': 'смысл', 'ratio': 1.0}]",смысл,{},[]
+224,224,sentence,предложение,1.0,10,"[{'word': 'предложение', 'ratio': 1.0}]",предложение,{},[]
+225,225,sentences,Предложения,0.0,9,"[{'word': 'предложения', 'ratio': 1.0}]",предложения,{},[]
+226,226,sentiment,Настроение,0.0,9,"[{'word': 'настроение', 'ratio': 0.5555555555555556}, {'word': 'настрой', 'ratio': 0.2222222222222222}, {'word': 'тональность', 'ratio': 0.2222222222222222}]",настроение,{},[]
+227,227,seq2seq,seq2seq,0.9,10,"[{'word': 'seq2seq', 'ratio': 0.9}, {'word': 'последовательность к последовательности', 'ratio': 0.1}]",seq2seq,{},[]
+228,228,sequences,Последовательности,0.0,10,"[{'word': 'последовательности', 'ratio': 0.9}, {'word': 'sequences - последовательности', 'ratio': 0.1}]",последовательности,{},[]
+229,229,shared,Совместный,0.1111111111111111,9,"[{'word': 'общий', 'ratio': 0.7777777777777778}, {'word': 'Общий', 'ratio': 0.1111111111111111}, {'word': 'Совместный', 'ratio': 0.1111111111111111}]",общий,{},[]
+230,230,similarity,сходство,0.7,10,"[{'word': 'сходство', 'ratio': 0.7}, {'word': 'схожесть', 'ratio': 0.3}]",сходство,{},[]
+231,231,simultaneous,Одновременный,0.2,10,"[{'word': 'одновременный', 'ratio': 0.8}, {'word': 'Одновременный', 'ratio': 0.2}]",одновременный,{},[]
+232,232,social,общественный,0.0,10,"[{'word': 'социальный', 'ratio': 0.8}, {'word': 'Социальный', 'ratio': 0.2}]",социальный,{},[]
+233,233,softmax,софтмакс,0.7777777777777778,9,"[{'word': 'софтмакс', 'ratio': 0.7777777777777778}, {'word': 'Софтмакс', 'ratio': 0.2222222222222222}]",софтмакс,{},[]
+234,234,source,источник,0.8888888888888888,9,"[{'word': 'источник', 'ratio': 0.8888888888888888}, {'word': 'Источник', 'ratio': 0.1111111111111111}]",источник,{},[]
+235,235,spans,пяди,0.0,9,"[{'word': 'фрагменты', 'ratio': 0.3333333333333333}, {'word': 'охваты', 'ratio': 0.2222222222222222}, {'word': 'Интервалы', 'ratio': 0.1111111111111111}, {'word': 'области', 'ratio': 0.1111111111111111}, {'word': 'диапазоны', 'ratio': 0.1111111111111111}, {'word': 'Диапазоны', 'ratio': 0.1111111111111111}]",фрагменты,"```
+1. Candidate: ""фрагменты""
+2. Explanation: In the context of AI and natural language processing, ""spans"" often refers to specific segments or portions of text that are identified or extracted for analysis. The term ""фрагменты"" translates to ""fragments"" in English, which accurately captures the idea of distinct pieces or segments of text. This aligns well with the context provided, where ""spans"" are specific parts of text being detected and labeled. Other candidates like ""пролеты"" (which suggests physical spans or gaps) or ""диапазоны"" (which implies ranges) do not fit as well in the context of text segmentation and analysis. ""Фрагменты"" maintains both semantic accuracy and contextual fit in the AI domain, making it the best choice.
+```","['spans', 'fragments', 'ranges', 'Ranges', 'Intervals', 'region', 'coverage']"
+236,236,spatial,пространственный,0.9,10,"[{'word': 'пространственный', 'ratio': 0.9}, {'word': 'spatial Пространственный', 'ratio': 0.1}]",пространственный,{},[]
+237,237,speech,речь,0.9,10,"[{'word': 'речь', 'ratio': 0.9}, {'word': 'Речь', 'ratio': 0.1}]",речь,{},[]
+238,238,spoken,Разговорный,0.1,10,"[{'word': 'разговорный', 'ratio': 0.5}, {'word': 'Говоримый', 'ratio': 0.1}, {'word': 'устный', 'ratio': 0.1}, {'word': 'Разговорный', 'ratio': 0.1}, {'word': 'говоримый', 'ratio': 0.1}, {'word': 'Выговоренный', 'ratio': 0.1}]",разговорный,{},[]
+239,239,statistical,Статистический,0.0,9,"[{'word': 'статистический', 'ratio': 1.0}]",статистический,{},[]
+240,240,structure,структура,0.9,10,"[{'word': 'структура', 'ratio': 0.9}, {'word': 'structure - структура', 'ratio': 0.1}]",структура,{},[]
+241,241,structured,структурированный,1.0,9,"[{'word': 'структурированный', 'ratio': 1.0}]",структурированный,{},[]
+242,242,subword,подсловие,0.0,10,"[{'word': 'подслово', 'ratio': 0.7}, {'word': 'Подслово', 'ratio': 0.2}, {'word': 'субслово', 'ratio': 0.1}]",подслово,{},[]
+243,243,summarizing,суммирующая,0.0,10,"[{'word': 'суммирование', 'ratio': 0.3}, {'word': 'обобщение', 'ratio': 0.3}, {'word': 'резюмирование', 'ratio': 0.2}, {'word': 'summarizing - суммирование', 'ratio': 0.1}, {'word': 'Резюмирование', 'ratio': 0.1}]",резюмирование,"```
+1. Candidate: резюмирование
+2. Explanation: The term ""резюмирование"" is the best fit for translating ""summarizing"" in the context of AI. In AI, summarizing often refers to the process of condensing information while retaining its essential meaning, which aligns well with ""резюмирование."" This term is commonly used in Russian to describe the act of creating a summary or abstract, particularly in technical and academic contexts. The back translation ""summarizing"" also confirms its semantic accuracy and contextual fit, making it the most appropriate choice for AI-related discussions.
+```","['summarizing - summation', 'generalization', 'summation', 'Summary', 'summarizing', 'summing up']"
+244,244,syntactic,синтаксический,1.0,10,"[{'word': 'синтаксический', 'ratio': 1.0}]",синтаксический,{},[]
+245,245,system,система,0.9,10,"[{'word': 'система', 'ratio': 0.9}, {'word': 'system система', 'ratio': 0.1}]",система,{},[]
+246,246,systems,Системы,0.0,10,"[{'word': 'системы', 'ratio': 0.9}, {'word': 'systems системы', 'ratio': 0.1}]",системы,{},[]
+247,247,tagging,Маркировка,0.0,10,"[{'word': 'тегирование', 'ratio': 0.7}, {'word': 'разметка', 'ratio': 0.2}, {'word': 'аннотирование', 'ratio': 0.1}]",тегирование,{},[]
+248,248,tasks,Задачи,0.0,10,"[{'word': 'задачи', 'ratio': 1.0}]",задачи,{},[]
+249,249,terminology,терминология,0.8888888888888888,9,"[{'word': 'терминология', 'ratio': 0.8888888888888888}, {'word': 'Терминология', 'ratio': 0.1111111111111111}]",терминология,{},[]
+250,250,text,текст ,0.0,10,"[{'word': 'текст', 'ratio': 1.0}]",текст,{},[]
+251,251,texts,Тексты,0.0,10,"[{'word': 'тексты', 'ratio': 1.0}]",тексты,{},[]
+252,252,token,жетон,0.0,9,"[{'word': 'токен', 'ratio': 1.0}]",токен,{},[]
+253,253,tokens,Маркеры,0.0,10,"[{'word': 'токены', 'ratio': 0.9}, {'word': 'Токены', 'ratio': 0.1}]",токены,{},[]
+254,254,training,обучение,1.0,10,"[{'word': 'обучение', 'ratio': 1.0}]",обучение,{},[]
+255,255,transformer,преобразователь ,0.0,10,"[{'word': 'трансформер', 'ratio': 1.0}]",трансформер,{},[]
+256,256,transformers,преобразователи,0.0,10,"[{'word': 'трансформеры', 'ratio': 1.0}]",трансформеры,{},[]
+257,257,translation,перевод,1.0,10,"[{'word': 'перевод', 'ratio': 1.0}]",перевод,{},[]
+258,258,translations,Переводы,0.0,10,"[{'word': 'переводы', 'ratio': 1.0}]",переводы,{},[]
+259,259,unseen,невидимый,0.6,10,"[{'word': 'невидимый', 'ratio': 0.6}, {'word': 'неизвестный', 'ratio': 0.2}, {'word': 'не видимый', 'ratio': 0.1}, {'word': 'не видимые', 'ratio': 0.1}]",невидимый,{},[]
+260,260,unsupervised,Безнадзорный,0.0,10,"[{'word': 'неконтролируемый', 'ratio': 0.5}, {'word': 'непод supervision', 'ratio': 0.1}, {'word': 'без учителя', 'ratio': 0.1}, {'word': 'внесупервизорный', 'ratio': 0.1}, {'word': 'Без надзора', 'ratio': 0.1}, {'word': 'Без обучения', 'ratio': 0.1}]",неконтролируемый,{},[]
+261,261,user,пользователь,1.0,10,"[{'word': 'пользователь', 'ratio': 1.0}]",пользователь,{},[]
+262,262,utterances,Высказываний,0.0,10,"[{'word': 'высказывания', 'ratio': 0.9}, {'word': 'кодировщик высказываний', 'ratio': 0.1}]",высказывания,{},[]
+263,263,vectors,векторa,0.0,10,"[{'word': 'векторы', 'ratio': 1.0}]",векторы,{},[]
+264,264,verb,глагол,0.9,10,"[{'word': 'глагол', 'ratio': 0.9}, {'word': 'Глагол', 'ratio': 0.1}]",глагол,{},[]
+265,265,verbs,Глаголы,0.1,10,"[{'word': 'глаголы', 'ratio': 0.9}, {'word': 'Глаголы', 'ratio': 0.1}]",глаголы,{},[]
+266,266,visual,визуальный ,0.0,10,"[{'word': 'визуальный', 'ratio': 0.8}, {'word': 'visual визуальный', 'ratio': 0.1}, {'word': 'зрительный', 'ratio': 0.1}]",визуальный,{},[]
+267,267,weights,веса,1.0,10,"[{'word': 'веса', 'ratio': 1.0}]",веса,{},[]
+268,268,word,слово,1.0,10,"[{'word': 'слово', 'ratio': 1.0}]",слово,{},[]
+269,269,word2vec,word2vec,1.0,9,"[{'word': 'word2vec', 'ratio': 1.0}]",word2vec,{},[]
+270,270,words,слова,0.8888888888888888,9,"[{'word': 'слова', 'ratio': 0.8888888888888888}, {'word': 'words слова', 'ratio': 0.1111111111111111}]",слова,{},[]
+271,271,written,письменный,0.2,10,"[{'word': 'написанный', 'ratio': 0.5}, {'word': 'письменный', 'ratio': 0.2}, {'word': 'писанный', 'ratio': 0.1}, {'word': 'писемный', 'ratio': 0.1}, {'word': 'писаный', 'ratio': 0.1}]",написанный,{},[]

@@ -1,0 +1,1476 @@
+,WorkerId,en_word,anno1_word,anno2_word,Answer.A,Answer.B,Answer.C,Answer.D,source
+0,A3AHE81HVRXFCD,statistical,统计的,统计类,False,True,False,False,6060
+1,A3AHE81HVRXFCD,CRF,条件随机场,CRF,False,True,False,False,6060
+2,A3AHE81HVRXFCD,OOV,超出词汇表,OOV,False,True,False,False,6060
+3,A3AHE81HVRXFCD,morphological,形态学的,形态化,False,True,False,False,6060
+4,A3AHE81HVRXFCD,NLI,自然语言推理,NLI,False,True,False,False,6060
+5,AC4I7XU10MQXK,statistical,统计的,统计类,False,True,False,False,6060
+6,AC4I7XU10MQXK,CRF,条件随机场,CRF,False,True,False,False,6060
+7,AC4I7XU10MQXK,OOV,超出词汇表,OOV,False,True,False,False,6060
+8,AC4I7XU10MQXK,morphological,形态学的,形态化,False,True,False,False,6060
+9,AC4I7XU10MQXK,NLI,自然语言推理,NLI,False,True,False,False,6060
+10,A11B7MUC7UTFKN,statistical,统计的,统计类,False,True,False,False,6060
+11,A11B7MUC7UTFKN,CRF,条件随机场,CRF,True,False,False,False,6060
+12,A11B7MUC7UTFKN,OOV,超出词汇表,OOV,False,True,False,False,6060
+13,A11B7MUC7UTFKN,morphological,形态学的,形态化,False,True,False,False,6060
+14,A11B7MUC7UTFKN,NLI,自然语言推理,NLI,True,False,False,False,6060
+15,A30IGMGSC7G2HM,statistical,统计的,统计类,False,True,False,False,6060
+16,A30IGMGSC7G2HM,CRF,条件随机场,CRF,False,True,False,False,6060
+17,A30IGMGSC7G2HM,OOV,超出词汇表,OOV,False,True,False,False,6060
+18,A30IGMGSC7G2HM,morphological,形态学的,形态化,False,True,False,False,6060
+19,A30IGMGSC7G2HM,NLI,自然语言推理,NLI,False,True,False,False,6060
+20,A19I2ZK220NTAE,statistical,统计的,统计类,False,True,False,False,6060
+21,A19I2ZK220NTAE,CRF,条件随机场,CRF,False,True,False,False,6060
+22,A19I2ZK220NTAE,OOV,超出词汇表,OOV,False,True,False,False,6060
+23,A19I2ZK220NTAE,morphological,形态学的,形态化,False,True,False,False,6060
+24,A19I2ZK220NTAE,NLI,自然语言推理,NLI,False,True,False,False,6060
+25,A3MDTRJTDIDNX,BERTs,BERT模型集,BERTs,False,True,False,False,6060
+26,A3MDTRJTDIDNX,CONLL,会议自然语言处理与计算语言学,CoNLL,False,False,True,False,6060
+27,A3MDTRJTDIDNX,corresponding,对应的,相应的,True,False,False,False,6060
+28,A3MDTRJTDIDNX,newswire,新闻通讯,新闻专线,False,True,False,False,6060
+29,A3MDTRJTDIDNX,CAS,具体含义需根据上下文确定,CAS,False,False,True,False,6060
+30,A3IG9HHR3NL9R0,BERTs,BERT模型集,BERTs,False,True,False,False,6060
+31,A3IG9HHR3NL9R0,CONLL,会议自然语言处理与计算语言学,CoNLL,False,False,True,False,6060
+32,A3IG9HHR3NL9R0,corresponding,对应的,相应的,True,False,False,False,6060
+33,A3IG9HHR3NL9R0,newswire,新闻通讯,新闻专线,False,True,False,False,6060
+34,A3IG9HHR3NL9R0,CAS,具体含义需根据上下文确定,CAS,False,False,True,False,6060
+35,A1KYZPQ0T7WECC,BERTs,BERT模型集,BERTs,False,True,False,False,6060
+36,A1KYZPQ0T7WECC,CONLL,会议自然语言处理与计算语言学,CoNLL,False,False,True,False,6060
+37,A1KYZPQ0T7WECC,corresponding,对应的,相应的,True,False,False,False,6060
+38,A1KYZPQ0T7WECC,newswire,新闻通讯,新闻专线,False,True,False,False,6060
+39,A1KYZPQ0T7WECC,CAS,具体含义需根据上下文确定,CAS,False,False,True,False,6060
+40,A186ORPGIU3WNL,BERTs,BERT模型集,BERTs,False,True,False,False,6060
+41,A186ORPGIU3WNL,CONLL,会议自然语言处理与计算语言学,CoNLL,False,False,True,False,6060
+42,A186ORPGIU3WNL,corresponding,对应的,相应的,True,False,False,False,6060
+43,A186ORPGIU3WNL,newswire,新闻通讯,新闻专线,False,True,False,False,6060
+44,A186ORPGIU3WNL,CAS,具体含义需根据上下文确定,CAS,False,False,True,False,6060
+45,A3QIWEQXAGMGD,BERTs,BERT模型集,BERTs,False,True,False,False,6060
+46,A3QIWEQXAGMGD,CONLL,会议自然语言处理与计算语言学,CoNLL,False,False,True,False,6060
+47,A3QIWEQXAGMGD,corresponding,对应的,相应的,True,False,False,False,6060
+48,A3QIWEQXAGMGD,newswire,新闻通讯,新闻专线,False,True,False,False,6060
+49,A3QIWEQXAGMGD,CAS,具体含义需根据上下文确定,CAS,False,False,True,False,6060
+50,A1KYZPQ0T7WECC,GLUE,GLUE基准,GLUE,True,False,False,False,6060
+51,A1KYZPQ0T7WECC,syntactic,句法的,句法,False,True,False,False,6060
+52,A1KYZPQ0T7WECC,QED,查询分解框架,QED,False,False,True,False,6060
+53,A1KYZPQ0T7WECC,grounding,实际场景联系,领域,False,True,False,False,6060
+54,A1KYZPQ0T7WECC,pretrained,预训练的,预训练,True,False,False,False,6060
+55,AR0QMXHEA9P0M,GLUE,GLUE基准,GLUE,False,False,False,False,6060
+56,AR0QMXHEA9P0M,syntactic,句法的,句法,False,True,False,False,6060
+57,AR0QMXHEA9P0M,QED,查询分解框架,QED,False,False,True,False,6060
+58,AR0QMXHEA9P0M,grounding,实际场景联系,领域,False,True,False,False,6060
+59,AR0QMXHEA9P0M,pretrained,预训练的,预训练,False,False,True,False,6060
+60,AWPXR7XE6B8KD,GLUE,GLUE基准,GLUE,False,True,False,False,6060
+61,AWPXR7XE6B8KD,syntactic,句法的,句法,True,False,False,False,6060
+62,AWPXR7XE6B8KD,QED,查询分解框架,QED,False,False,True,False,6060
+63,AWPXR7XE6B8KD,grounding,实际场景联系,领域,False,True,False,False,6060
+64,AWPXR7XE6B8KD,pretrained,预训练的,预训练,True,False,False,False,6060
+65,A39PWDRYNY2WM0,GLUE,GLUE基准,GLUE,False,True,False,False,6060
+66,A39PWDRYNY2WM0,syntactic,句法的,句法,True,False,False,False,6060
+67,A39PWDRYNY2WM0,QED,查询分解框架,QED,False,False,True,False,6060
+68,A39PWDRYNY2WM0,grounding,实际场景联系,领域,False,True,False,False,6060
+69,A39PWDRYNY2WM0,pretrained,预训练的,预训练,True,False,False,False,6060
+70,A3MDTRJTDIDNX,GLUE,GLUE基准,GLUE,False,True,False,False,6060
+71,A3MDTRJTDIDNX,syntactic,句法的,句法,True,False,False,False,6060
+72,A3MDTRJTDIDNX,QED,查询分解框架,QED,False,False,True,False,6060
+73,A3MDTRJTDIDNX,grounding,实际场景联系,领域,False,True,False,False,6060
+74,A3MDTRJTDIDNX,pretrained,预训练的,预训练,True,False,False,False,6060
+75,AVCNC5TZ00ZJM,graph,图,图形,True,False,False,False,6060
+76,AVCNC5TZ00ZJM,words,词语,字,True,False,False,False,6060
+77,AVCNC5TZ00ZJM,computational,计算的,计算类,False,True,False,False,6060
+78,AVCNC5TZ00ZJM,motivated,如前所述动机,有动力,False,False,True,False,6060
+79,AVCNC5TZ00ZJM,IDF,逆文档频率,IDF,False,False,True,False,6060
+80,A3QIWEQXAGMGD,graph,图,图形,True,False,False,False,6060
+81,A3QIWEQXAGMGD,words,词语,字,False,True,False,False,6060
+82,A3QIWEQXAGMGD,computational,计算的,计算类,False,True,False,False,6060
+83,A3QIWEQXAGMGD,motivated,如前所述动机,有动力,False,False,False,True,6060
+84,A3QIWEQXAGMGD,IDF,逆文档频率,IDF,True,False,False,False,6060
+85,A11JXYZDAUX0UP,graph,图,图形,False,True,False,False,6060
+86,A11JXYZDAUX0UP,words,词语,字,True,False,False,False,6060
+87,A11JXYZDAUX0UP,computational,计算的,计算类,False,True,False,False,6060
+88,A11JXYZDAUX0UP,motivated,如前所述动机,有动力,False,False,False,True,6060
+89,A11JXYZDAUX0UP,IDF,逆文档频率,IDF,True,False,False,False,6060
+90,A2QX81MMC8KN80,graph,图,图形,False,True,False,False,6060
+91,A2QX81MMC8KN80,words,词语,字,False,False,True,False,6060
+92,A2QX81MMC8KN80,computational,计算的,计算类,False,False,True,False,6060
+93,A2QX81MMC8KN80,motivated,如前所述动机,有动力,False,False,True,False,6060
+94,A2QX81MMC8KN80,IDF,逆文档频率,IDF,False,False,True,False,6060
+95,A2ZLQZJD9I7NAL,graph,图,图形,False,False,False,False,6060
+96,A2ZLQZJD9I7NAL,words,词语,字,False,True,False,False,6060
+97,A2ZLQZJD9I7NAL,computational,计算的,计算类,False,True,False,False,6060
+98,A2ZLQZJD9I7NAL,motivated,如前所述动机,有动力,False,True,False,False,6060
+99,A2ZLQZJD9I7NAL,IDF,逆文档频率,IDF,True,False,False,False,6060
+100,A2MZEUP2ECO1AI,VFL,维多利亚足球联赛,VFL,False,False,True,False,6060
+101,A2MZEUP2ECO1AI,extractive,抽取式的,可提取,True,False,False,False,6060
+102,A2MZEUP2ECO1AI,documents,文档,文件,True,False,False,False,6060
+103,A2MZEUP2ECO1AI,domains,领域,域,False,True,False,False,6060
+104,A2MZEUP2ECO1AI,unseen,未见过的,未见,True,False,False,False,6060
+105,A3HSZ9YLOBCCPR,VFL,维多利亚足球联赛,VFL,False,True,False,False,6060
+106,A3HSZ9YLOBCCPR,extractive,抽取式的,可提取,True,False,False,False,6060
+107,A3HSZ9YLOBCCPR,documents,文档,文件,True,False,False,False,6060
+108,A3HSZ9YLOBCCPR,domains,领域,域,False,True,False,False,6060
+109,A3HSZ9YLOBCCPR,unseen,未见过的,未见,True,False,False,False,6060
+110,A186ORPGIU3WNL,VFL,维多利亚足球联赛,VFL,False,True,False,False,6060
+111,A186ORPGIU3WNL,extractive,抽取式的,可提取,False,False,True,False,6060
+112,A186ORPGIU3WNL,documents,文档,文件,True,False,False,False,6060
+113,A186ORPGIU3WNL,domains,领域,域,False,True,False,False,6060
+114,A186ORPGIU3WNL,unseen,未见过的,未见,True,False,False,False,6060
+115,A3MDTRJTDIDNX,VFL,维多利亚足球联赛,VFL,True,False,False,False,6060
+116,A3MDTRJTDIDNX,extractive,抽取式的,可提取,False,True,False,False,6060
+117,A3MDTRJTDIDNX,documents,文档,文件,True,False,False,False,6060
+118,A3MDTRJTDIDNX,domains,领域,域,True,False,False,False,6060
+119,A3MDTRJTDIDNX,unseen,未见过的,未见,True,False,False,False,6060
+120,A2P8U65V6NL7B5,VFL,维多利亚足球联赛,VFL,False,True,False,False,6060
+121,A2P8U65V6NL7B5,extractive,抽取式的,可提取,True,False,False,False,6060
+122,A2P8U65V6NL7B5,documents,文档,文件,True,False,False,False,6060
+123,A2P8U65V6NL7B5,domains,领域,域,True,False,False,False,6060
+124,A2P8U65V6NL7B5,unseen,未见过的,未见,True,False,False,False,6060
+125,A2FXDEKCCUT9OJ,similarity,相似性,相似度,True,False,False,False,6060
+126,A2FXDEKCCUT9OJ,compared,相比,已比较,True,False,False,False,6060
+127,A2FXDEKCCUT9OJ,SUTD,新加坡科技设计大学,SUTD,False,True,False,False,6060
+128,A2FXDEKCCUT9OJ,Moreover,此外,而且,True,False,False,False,6060
+129,A2FXDEKCCUT9OJ,paper,论文,纸,False,True,False,False,6060
+130,A1VTM2VA8HN848,similarity,相似性,相似度,True,False,False,False,6060
+131,A1VTM2VA8HN848,compared,相比,已比较,False,True,False,False,6060
+132,A1VTM2VA8HN848,SUTD,新加坡科技设计大学,SUTD,True,False,False,False,6060
+133,A1VTM2VA8HN848,Moreover,此外,而且,True,False,False,False,6060
+134,A1VTM2VA8HN848,paper,论文,纸,False,True,False,False,6060
+135,AC4I7XU10MQXK,similarity,相似性,相似度,True,False,False,False,6060
+136,AC4I7XU10MQXK,compared,相比,已比较,False,True,False,False,6060
+137,AC4I7XU10MQXK,SUTD,新加坡科技设计大学,SUTD,True,False,False,False,6060
+138,AC4I7XU10MQXK,Moreover,此外,而且,True,False,False,False,6060
+139,AC4I7XU10MQXK,paper,论文,纸,False,True,False,False,6060
+140,A2P8U65V6NL7B5,similarity,相似性,相似度,True,False,False,False,6060
+141,A2P8U65V6NL7B5,compared,相比,已比较,False,True,False,False,6060
+142,A2P8U65V6NL7B5,SUTD,新加坡科技设计大学,SUTD,False,True,False,False,6060
+143,A2P8U65V6NL7B5,Moreover,此外,而且,True,False,False,False,6060
+144,A2P8U65V6NL7B5,paper,论文,纸,False,True,False,False,6060
+145,A2ZLQZJD9I7NAL,similarity,相似性,相似度,True,False,False,False,6060
+146,A2ZLQZJD9I7NAL,compared,相比,已比较,False,True,False,False,6060
+147,A2ZLQZJD9I7NAL,SUTD,新加坡科技设计大学,SUTD,True,False,False,False,6060
+148,A2ZLQZJD9I7NAL,Moreover,此外,而且,True,False,False,False,6060
+149,A2ZLQZJD9I7NAL,paper,论文,纸,False,True,False,False,6060
+150,A2QX81MMC8KN80,contextualized,上下文化的,情境化,False,False,True,False,6060
+151,A2QX81MMC8KN80,sense,意义,感觉,False,False,False,True,6060
+152,A2QX81MMC8KN80,BPE,字节对编码,BPE,False,False,True,False,6060
+153,A2QX81MMC8KN80,binary,二元,二进制,False,False,False,True,6060
+154,A2QX81MMC8KN80,FLR,最终延迟减少,FLR,False,False,True,False,6060
+155,A39PWDRYNY2WM0,contextualized,上下文化的,情境化,True,False,False,False,6060
+156,A39PWDRYNY2WM0,sense,意义,感觉,False,True,False,False,6060
+157,A39PWDRYNY2WM0,BPE,字节对编码,BPE,False,False,True,False,6060
+158,A39PWDRYNY2WM0,binary,二元,二进制,False,False,True,False,6060
+159,A39PWDRYNY2WM0,FLR,最终延迟减少,FLR,False,False,True,False,6060
+160,A2GJB7TBZM91Z4,contextualized,上下文化的,情境化,False,True,False,False,6060
+161,A2GJB7TBZM91Z4,sense,意义,感觉,False,True,False,False,6060
+162,A2GJB7TBZM91Z4,BPE,字节对编码,BPE,False,True,False,False,6060
+163,A2GJB7TBZM91Z4,binary,二元,二进制,False,False,True,False,6060
+164,A2GJB7TBZM91Z4,FLR,最终延迟减少,FLR,False,True,False,False,6060
+165,A2MZEUP2ECO1AI,contextualized,上下文化的,情境化,False,True,False,False,6060
+166,A2MZEUP2ECO1AI,sense,意义,感觉,False,True,False,False,6060
+167,A2MZEUP2ECO1AI,BPE,字节对编码,BPE,False,False,True,False,6060
+168,A2MZEUP2ECO1AI,binary,二元,二进制,False,True,False,False,6060
+169,A2MZEUP2ECO1AI,FLR,最终延迟减少,FLR,False,False,True,False,6060
+170,AVW3ODRZWQ6WT,contextualized,上下文化的,情境化,False,True,False,False,6060
+171,AVW3ODRZWQ6WT,sense,意义,感觉,False,False,True,False,6060
+172,AVW3ODRZWQ6WT,BPE,字节对编码,BPE,False,True,False,False,6060
+173,AVW3ODRZWQ6WT,binary,二元,二进制,False,False,True,False,6060
+174,AVW3ODRZWQ6WT,FLR,最终延迟减少,FLR,False,True,False,False,6060
+175,A20OEK6BVW13NV,generalize,泛化,概括,False,True,False,False,6060
+176,A20OEK6BVW13NV,gradient,梯度,坡度,False,True,False,False,6060
+177,A20OEK6BVW13NV,linear,线性,线性的,True,False,False,False,6060
+178,A20OEK6BVW13NV,named,命名的,命名为,True,False,False,False,6060
+179,A20OEK6BVW13NV,social,社会的,社会类,False,True,False,False,6060
+180,ASML73P0NOOVV,generalize,泛化,概括,False,True,False,False,6060
+181,ASML73P0NOOVV,gradient,梯度,坡度,False,True,False,False,6060
+182,ASML73P0NOOVV,linear,线性,线性的,True,False,False,False,6060
+183,ASML73P0NOOVV,named,命名的,命名为,False,True,False,False,6060
+184,ASML73P0NOOVV,social,社会的,社会类,True,False,False,False,6060
+185,A3Q32FL0WWF4KZ,generalize,泛化,概括,False,True,False,False,6060
+186,A3Q32FL0WWF4KZ,gradient,梯度,坡度,False,True,False,False,6060
+187,A3Q32FL0WWF4KZ,linear,线性,线性的,True,False,False,False,6060
+188,A3Q32FL0WWF4KZ,named,命名的,命名为,False,True,False,False,6060
+189,A3Q32FL0WWF4KZ,social,社会的,社会类,True,False,False,False,6060
+190,A35H5DUMZH86PC,generalize,泛化,概括,False,True,False,False,6060
+191,A35H5DUMZH86PC,gradient,梯度,坡度,False,True,False,False,6060
+192,A35H5DUMZH86PC,linear,线性,线性的,True,False,False,False,6060
+193,A35H5DUMZH86PC,named,命名的,命名为,False,True,False,False,6060
+194,A35H5DUMZH86PC,social,社会的,社会类,True,False,False,False,6060
+195,A1L8EGJ85A7DZR,generalize,泛化,概括,True,False,False,False,6060
+196,A1L8EGJ85A7DZR,gradient,梯度,坡度,False,True,False,False,6060
+197,A1L8EGJ85A7DZR,linear,线性,线性的,True,False,False,False,6060
+198,A1L8EGJ85A7DZR,named,命名的,命名为,True,False,False,False,6060
+199,A1L8EGJ85A7DZR,social,社会的,社会类,False,True,False,False,6060
+200,A3AHE81HVRXFCD,representations,表示,陈述,False,True,False,False,6060
+201,A3AHE81HVRXFCD,number,数量,数字,False,True,False,False,6060
+202,A3AHE81HVRXFCD,tagging,标注,标记,True,False,False,False,6060
+203,A3AHE81HVRXFCD,morphologically,形态学上,形态上,False,True,False,False,6060
+204,A3AHE81HVRXFCD,ICLR,国际学习表征会议,ICLR,False,False,True,False,6060
+205,A30IGMGSC7G2HM,representations,表示,陈述,False,True,False,False,6060
+206,A30IGMGSC7G2HM,number,数量,数字,False,False,True,False,6060
+207,A30IGMGSC7G2HM,tagging,标注,标记,True,False,False,False,6060
+208,A30IGMGSC7G2HM,morphologically,形态学上,形态上,False,True,False,False,6060
+209,A30IGMGSC7G2HM,ICLR,国际学习表征会议,ICLR,True,False,False,False,6060
+210,A186ORPGIU3WNL,representations,表示,陈述,False,True,False,False,6060
+211,A186ORPGIU3WNL,number,数量,数字,False,False,True,False,6060
+212,A186ORPGIU3WNL,tagging,标注,标记,True,False,False,False,6060
+213,A186ORPGIU3WNL,morphologically,形态学上,形态上,False,True,False,False,6060
+214,A186ORPGIU3WNL,ICLR,国际学习表征会议,ICLR,True,False,False,False,6060
+215,A3QIWEQXAGMGD,representations,表示,陈述,False,True,False,False,6060
+216,A3QIWEQXAGMGD,number,数量,数字,False,False,True,False,6060
+217,A3QIWEQXAGMGD,tagging,标注,标记,True,False,False,False,6060
+218,A3QIWEQXAGMGD,morphologically,形态学上,形态上,False,True,False,False,6060
+219,A3QIWEQXAGMGD,ICLR,国际学习表征会议,ICLR,True,False,False,False,6060
+220,A11B7MUC7UTFKN,representations,表示,陈述,False,True,False,False,6060
+221,A11B7MUC7UTFKN,number,数量,数字,True,False,False,False,6060
+222,A11B7MUC7UTFKN,tagging,标注,标记,True,False,False,False,6060
+223,A11B7MUC7UTFKN,morphologically,形态学上,形态上,False,True,False,False,6060
+224,A11B7MUC7UTFKN,ICLR,国际学习表征会议,ICLR,False,False,True,False,6060
+225,A3AHE81HVRXFCD,conversational,对话式的,会话式,True,False,False,False,6060
+226,A3AHE81HVRXFCD,LinCE,LinCE代码切换数据集,LinCE,False,False,True,False,6060
+227,A3AHE81HVRXFCD,transformers,Transformer模型,转换器,False,True,False,False,6060
+228,A3AHE81HVRXFCD,annotated,注释的,带注释,False,False,True,False,6060
+229,A3AHE81HVRXFCD,graphs,图,图表,False,False,True,False,6060
+230,A3QIWEQXAGMGD,conversational,对话式的,会话式,True,False,False,False,6060
+231,A3QIWEQXAGMGD,LinCE,LinCE代码切换数据集,LinCE,False,True,False,False,6060
+232,A3QIWEQXAGMGD,transformers,Transformer模型,转换器,False,True,False,False,6060
+233,A3QIWEQXAGMGD,annotated,注释的,带注释,True,False,False,False,6060
+234,A3QIWEQXAGMGD,graphs,图,图表,False,True,False,False,6060
+235,A198MZX1B7ZOPY,conversational,对话式的,会话式,False,True,False,False,6060
+236,A198MZX1B7ZOPY,LinCE,LinCE代码切换数据集,LinCE,True,False,False,False,6060
+237,A198MZX1B7ZOPY,transformers,Transformer模型,转换器,False,True,False,False,6060
+238,A198MZX1B7ZOPY,annotated,注释的,带注释,True,False,False,False,6060
+239,A198MZX1B7ZOPY,graphs,图,图表,False,True,False,False,6060
+240,A39PWDRYNY2WM0,conversational,对话式的,会话式,True,False,False,False,6060
+241,A39PWDRYNY2WM0,LinCE,LinCE代码切换数据集,LinCE,False,False,True,False,6060
+242,A39PWDRYNY2WM0,transformers,Transformer模型,转换器,False,True,False,False,6060
+243,A39PWDRYNY2WM0,annotated,注释的,带注释,True,False,False,False,6060
+244,A39PWDRYNY2WM0,graphs,图,图表,True,False,False,False,6060
+245,A2QX81MMC8KN80,conversational,对话式的,会话式,False,False,True,False,6060
+246,A2QX81MMC8KN80,LinCE,LinCE代码切换数据集,LinCE,False,False,True,False,6060
+247,A2QX81MMC8KN80,transformers,Transformer模型,转换器,False,False,True,False,6060
+248,A2QX81MMC8KN80,annotated,注释的,带注释,False,False,True,False,6060
+249,A2QX81MMC8KN80,graphs,图,图表,False,False,True,False,6060
+250,A3AHE81HVRXFCD,existing,现有的,现存,True,False,False,False,6060
+251,A3AHE81HVRXFCD,vectors,向量,矢量,True,False,False,False,6060
+252,A3AHE81HVRXFCD,counterfactual,反事实,反事实的,False,True,False,False,6060
+253,A3AHE81HVRXFCD,augmented,增强的,增强型,False,True,False,False,6060
+254,A3AHE81HVRXFCD,relations,关系,relations,False,True,False,False,6060
+255,A3QIWEQXAGMGD,existing,现有的,现存,True,False,False,False,6060
+256,A3QIWEQXAGMGD,vectors,向量,矢量,True,False,False,False,6060
+257,A3QIWEQXAGMGD,counterfactual,反事实,反事实的,False,True,False,False,6060
+258,A3QIWEQXAGMGD,augmented,增强的,增强型,False,True,False,False,6060
+259,A3QIWEQXAGMGD,relations,关系,relations,False,True,False,False,6060
+260,A2FXDEKCCUT9OJ,existing,现有的,现存,True,False,False,False,6060
+261,A2FXDEKCCUT9OJ,vectors,向量,矢量,True,False,False,False,6060
+262,A2FXDEKCCUT9OJ,counterfactual,反事实,反事实的,True,False,False,False,6060
+263,A2FXDEKCCUT9OJ,augmented,增强的,增强型,True,False,False,False,6060
+264,A2FXDEKCCUT9OJ,relations,关系,relations,False,True,False,False,6060
+265,ASML73P0NOOVV,existing,现有的,现存,True,False,False,False,6060
+266,ASML73P0NOOVV,vectors,向量,矢量,True,False,False,False,6060
+267,ASML73P0NOOVV,counterfactual,反事实,反事实的,True,False,False,False,6060
+268,ASML73P0NOOVV,augmented,增强的,增强型,False,True,False,False,6060
+269,ASML73P0NOOVV,relations,关系,relations,False,True,False,False,6060
+270,A26FAIG4EODBI2,existing,现有的,现存,True,False,False,False,6060
+271,A26FAIG4EODBI2,vectors,向量,矢量,False,True,False,False,6060
+272,A26FAIG4EODBI2,counterfactual,反事实,反事实的,False,False,False,False,6060
+273,A26FAIG4EODBI2,augmented,增强的,增强型,False,False,True,False,6060
+274,A26FAIG4EODBI2,relations,关系,relations,True,False,False,False,6060
+275,A1KYZPQ0T7WECC,lexical,词汇的,词汇,True,False,False,False,6060
+276,A1KYZPQ0T7WECC,re,重新,关系提取,False,False,False,True,6060
+277,A1KYZPQ0T7WECC,CLIP,对比语言-图像预训练模型,CLIP,False,True,False,False,6060
+278,A1KYZPQ0T7WECC,answer,答案,回答,True,False,False,False,6060
+279,A1KYZPQ0T7WECC,For,例如,针对,False,False,True,False,6060
+280,AWGV35294HOYB,lexical,词汇的,词汇,False,True,False,False,6060
+281,AWGV35294HOYB,re,重新,关系提取,False,False,False,True,6060
+282,AWGV35294HOYB,CLIP,对比语言-图像预训练模型,CLIP,True,False,False,False,6060
+283,AWGV35294HOYB,answer,答案,回答,True,False,False,False,6060
+284,AWGV35294HOYB,For,例如,针对,False,False,True,False,6060
+285,A11B7MUC7UTFKN,lexical,词汇的,词汇,True,False,False,False,6060
+286,A11B7MUC7UTFKN,re,重新,关系提取,False,False,False,True,6060
+287,A11B7MUC7UTFKN,CLIP,对比语言-图像预训练模型,CLIP,False,True,False,False,6060
+288,A11B7MUC7UTFKN,answer,答案,回答,True,False,False,False,6060
+289,A11B7MUC7UTFKN,For,例如,针对,False,False,True,False,6060
+290,A2YVLMI4PRDECY,lexical,词汇的,词汇,False,True,False,False,6060
+291,A2YVLMI4PRDECY,re,重新,关系提取,False,False,False,True,6060
+292,A2YVLMI4PRDECY,CLIP,对比语言-图像预训练模型,CLIP,False,True,False,False,6060
+293,A2YVLMI4PRDECY,answer,答案,回答,True,False,False,False,6060
+294,A2YVLMI4PRDECY,For,例如,针对,False,False,True,False,6060
+295,A3MDTRJTDIDNX,lexical,词汇的,词汇,False,True,False,False,6060
+296,A3MDTRJTDIDNX,re,重新,关系提取,False,False,False,True,6060
+297,A3MDTRJTDIDNX,CLIP,对比语言-图像预训练模型,CLIP,False,True,False,False,6060
+298,A3MDTRJTDIDNX,answer,答案,回答,True,False,False,False,6060
+299,A3MDTRJTDIDNX,For,例如,针对,False,False,True,False,6060
+300,A1KYZPQ0T7WECC,spoken,口语的,口语,True,False,False,False,6060
+301,A1KYZPQ0T7WECC,transformer,变换器,转换器,False,True,False,False,6060
+302,A1KYZPQ0T7WECC,embedding,嵌入表示,嵌入,False,True,False,False,6060
+303,A1KYZPQ0T7WECC,image,图像,图片,True,False,False,False,6060
+304,A1KYZPQ0T7WECC,seq2seq,序列到序列,seq2seq,True,False,False,False,6060
+305,A9M8N3BOH6013,spoken,口语的,口语,True,False,False,False,6060
+306,A9M8N3BOH6013,transformer,变换器,转换器,False,False,True,False,6060
+307,A9M8N3BOH6013,embedding,嵌入表示,嵌入,True,False,False,False,6060
+308,A9M8N3BOH6013,image,图像,图片,True,False,False,False,6060
+309,A9M8N3BOH6013,seq2seq,序列到序列,seq2seq,True,False,False,False,6060
+310,A38SYZRVLTMOFG,spoken,口语的,口语,False,True,False,False,6060
+311,A38SYZRVLTMOFG,transformer,变换器,转换器,False,False,True,False,6060
+312,A38SYZRVLTMOFG,embedding,嵌入表示,嵌入,False,True,False,False,6060
+313,A38SYZRVLTMOFG,image,图像,图片,True,False,False,False,6060
+314,A38SYZRVLTMOFG,seq2seq,序列到序列,seq2seq,True,False,False,False,6060
+315,A11JXYZDAUX0UP,spoken,口语的,口语,True,False,False,False,6060
+316,A11JXYZDAUX0UP,transformer,变换器,转换器,False,False,True,False,6060
+317,A11JXYZDAUX0UP,embedding,嵌入表示,嵌入,False,True,False,False,6060
+318,A11JXYZDAUX0UP,image,图像,图片,True,False,False,False,6060
+319,A11JXYZDAUX0UP,seq2seq,序列到序列,seq2seq,False,True,False,False,6060
+320,A251BWQW2F81FT,spoken,口语的,口语,False,True,False,False,6060
+321,A251BWQW2F81FT,transformer,变换器,转换器,True,False,False,False,6060
+322,A251BWQW2F81FT,embedding,嵌入表示,嵌入,False,True,False,False,6060
+323,A251BWQW2F81FT,image,图像,图片,True,False,False,False,6060
+324,A251BWQW2F81FT,seq2seq,序列到序列,seq2seq,True,False,False,False,6060
+325,A1G4DX33KADZA3,structure,结构,结构体,False,False,False,True,6060
+326,A1G4DX33KADZA3,visual,视觉,视觉类,False,False,True,False,6060
+327,A1G4DX33KADZA3,BERT,BERT模型,BERT,False,False,False,True,6060
+328,A1G4DX33KADZA3,perplexity,困惑度,混乱,False,False,True,False,6060
+329,A1G4DX33KADZA3,CEAS,认知情感分析系统,CEAS,False,False,False,True,6060
+330,A2FXDEKCCUT9OJ,structure,结构,结构体,True,False,False,False,6060
+331,A2FXDEKCCUT9OJ,visual,视觉,视觉类,False,True,False,False,6060
+332,A2FXDEKCCUT9OJ,BERT,BERT模型,BERT,True,False,False,False,6060
+333,A2FXDEKCCUT9OJ,perplexity,困惑度,混乱,False,True,False,False,6060
+334,A2FXDEKCCUT9OJ,CEAS,认知情感分析系统,CEAS,False,True,False,False,6060
+335,A9M8N3BOH6013,structure,结构,结构体,True,False,False,False,6060
+336,A9M8N3BOH6013,visual,视觉,视觉类,False,True,False,False,6060
+337,A9M8N3BOH6013,BERT,BERT模型,BERT,False,True,False,False,6060
+338,A9M8N3BOH6013,perplexity,困惑度,混乱,False,True,False,False,6060
+339,A9M8N3BOH6013,CEAS,认知情感分析系统,CEAS,False,True,False,False,6060
+340,ASML73P0NOOVV,structure,结构,结构体,True,False,False,False,6060
+341,ASML73P0NOOVV,visual,视觉,视觉类,False,True,False,False,6060
+342,ASML73P0NOOVV,BERT,BERT模型,BERT,True,False,False,False,6060
+343,ASML73P0NOOVV,perplexity,困惑度,混乱,False,True,False,False,6060
+344,ASML73P0NOOVV,CEAS,认知情感分析系统,CEAS,False,True,False,False,6060
+345,A2D6SB3TU1NYQ7,structure,结构,结构体,True,False,False,False,6060
+346,A2D6SB3TU1NYQ7,visual,视觉,视觉类,False,True,False,False,6060
+347,A2D6SB3TU1NYQ7,BERT,BERT模型,BERT,False,True,False,False,6060
+348,A2D6SB3TU1NYQ7,perplexity,困惑度,混乱,False,True,False,False,6060
+349,A2D6SB3TU1NYQ7,CEAS,认知情感分析系统,CEAS,False,True,False,False,6060
+350,A2QX81MMC8KN80,qualitative,定性,定性的,False,False,True,False,6060
+351,A2QX81MMC8KN80,retrieved,检索到的,检索到,False,True,False,False,6060
+352,A2QX81MMC8KN80,tokens,词元,令牌,False,False,True,False,6060
+353,A2QX81MMC8KN80,grammatical,语法的,语法类,False,False,False,True,6060
+354,A2QX81MMC8KN80,annotators,标注者,注释者,False,False,True,False,6060
+355,AOK9OY3G5D6GX,qualitative,定性,定性的,False,True,False,False,6060
+356,AOK9OY3G5D6GX,retrieved,检索到的,检索到,False,True,False,False,6060
+357,AOK9OY3G5D6GX,tokens,词元,令牌,False,True,False,False,6060
+358,AOK9OY3G5D6GX,grammatical,语法的,语法类,False,True,False,False,6060
+359,AOK9OY3G5D6GX,annotators,标注者,注释者,False,True,False,False,6060
+360,A14ICQPNQ6RZXB,qualitative,定性,定性的,False,True,False,False,6060
+361,A14ICQPNQ6RZXB,retrieved,检索到的,检索到,False,False,True,False,6060
+362,A14ICQPNQ6RZXB,tokens,词元,令牌,False,False,True,False,6060
+363,A14ICQPNQ6RZXB,grammatical,语法的,语法类,False,True,False,False,6060
+364,A14ICQPNQ6RZXB,annotators,标注者,注释者,False,False,True,False,6060
+365,A3AHE81HVRXFCD,qualitative,定性,定性的,True,False,False,False,6060
+366,A3AHE81HVRXFCD,retrieved,检索到的,检索到,True,False,False,False,6060
+367,A3AHE81HVRXFCD,tokens,词元,令牌,False,True,False,False,6060
+368,A3AHE81HVRXFCD,grammatical,语法的,语法类,False,True,False,False,6060
+369,A3AHE81HVRXFCD,annotators,标注者,注释者,False,True,False,False,6060
+370,A35H5DUMZH86PC,qualitative,定性,定性的,True,False,False,False,6060
+371,A35H5DUMZH86PC,retrieved,检索到的,检索到,True,False,False,False,6060
+372,A35H5DUMZH86PC,tokens,词元,令牌,False,True,False,False,6060
+373,A35H5DUMZH86PC,grammatical,语法的,语法类,True,False,False,False,6060
+374,A35H5DUMZH86PC,annotators,标注者,注释者,False,True,False,False,6060
+375,A3QIWEQXAGMGD,news,新闻,消息,True,False,False,False,6060
+376,A3QIWEQXAGMGD,sentiment,情感,情绪,False,True,False,False,6060
+377,A3QIWEQXAGMGD,CDA,对比数据增强,CDA,False,True,False,False,6060
+378,A3QIWEQXAGMGD,simultaneous,同时的,同时,True,False,False,False,6060
+379,A3QIWEQXAGMGD,semantics,语义学,语义,True,False,False,False,6060
+380,A9M8N3BOH6013,news,新闻,消息,True,False,False,False,6060
+381,A9M8N3BOH6013,sentiment,情感,情绪,False,True,False,False,6060
+382,A9M8N3BOH6013,CDA,对比数据增强,CDA,False,False,True,False,6060
+383,A9M8N3BOH6013,simultaneous,同时的,同时,True,False,False,False,6060
+384,A9M8N3BOH6013,semantics,语义学,语义,True,False,False,False,6060
+385,A11B7MUC7UTFKN,news,新闻,消息,True,False,False,False,6060
+386,A11B7MUC7UTFKN,sentiment,情感,情绪,False,True,False,False,6060
+387,A11B7MUC7UTFKN,CDA,对比数据增强,CDA,False,False,True,False,6060
+388,A11B7MUC7UTFKN,simultaneous,同时的,同时,True,False,False,False,6060
+389,A11B7MUC7UTFKN,semantics,语义学,语义,True,False,False,False,6060
+390,A2ZLQZJD9I7NAL,news,新闻,消息,True,False,False,False,6060
+391,A2ZLQZJD9I7NAL,sentiment,情感,情绪,False,True,False,False,6060
+392,A2ZLQZJD9I7NAL,CDA,对比数据增强,CDA,False,True,False,False,6060
+393,A2ZLQZJD9I7NAL,simultaneous,同时的,同时,True,False,False,False,6060
+394,A2ZLQZJD9I7NAL,semantics,语义学,语义,False,True,False,False,6060
+395,A251BWQW2F81FT,news,新闻,消息,False,True,False,False,6060
+396,A251BWQW2F81FT,sentiment,情感,情绪,False,True,False,False,6060
+397,A251BWQW2F81FT,CDA,对比数据增强,CDA,False,True,False,False,6060
+398,A251BWQW2F81FT,simultaneous,同时的,同时,False,True,False,False,6060
+399,A251BWQW2F81FT,semantics,语义学,语义,False,False,True,False,6060
+400,A3AHE81HVRXFCD,parallel,并行,平行线,True,False,False,False,6060
+401,A3AHE81HVRXFCD,modalities,模态,形态,True,False,False,False,6060
+402,A3AHE81HVRXFCD,linguistic,语言学的,语言化,False,True,False,False,6060
+403,A3AHE81HVRXFCD,generated,生成的,已生成,True,False,False,False,6060
+404,A3AHE81HVRXFCD,BIO,BIO编码,BIO,True,False,False,False,6060
+405,A38SYZRVLTMOFG,parallel,并行,平行线,False,True,False,False,6060
+406,A38SYZRVLTMOFG,modalities,模态,形态,True,False,False,False,6060
+407,A38SYZRVLTMOFG,linguistic,语言学的,语言化,False,True,False,False,6060
+408,A38SYZRVLTMOFG,generated,生成的,已生成,True,False,False,False,6060
+409,A38SYZRVLTMOFG,BIO,BIO编码,BIO,True,False,False,False,6060
+410,AWGV35294HOYB,parallel,并行,平行线,False,True,False,False,6060
+411,AWGV35294HOYB,modalities,模态,形态,True,False,False,False,6060
+412,AWGV35294HOYB,linguistic,语言学的,语言化,False,True,False,False,6060
+413,AWGV35294HOYB,generated,生成的,已生成,False,True,False,False,6060
+414,AWGV35294HOYB,BIO,BIO编码,BIO,True,False,False,False,6060
+415,A2ZLQZJD9I7NAL,parallel,并行,平行线,False,True,False,False,6060
+416,A2ZLQZJD9I7NAL,modalities,模态,形态,False,True,False,False,6060
+417,A2ZLQZJD9I7NAL,linguistic,语言学的,语言化,False,True,False,False,6060
+418,A2ZLQZJD9I7NAL,generated,生成的,已生成,True,False,False,False,6060
+419,A2ZLQZJD9I7NAL,BIO,BIO编码,BIO,True,False,False,False,6060
+420,A9M8N3BOH6013,parallel,并行,平行线,False,True,False,False,6060
+421,A9M8N3BOH6013,modalities,模态,形态,False,True,False,False,6060
+422,A9M8N3BOH6013,linguistic,语言学的,语言化,False,True,False,False,6060
+423,A9M8N3BOH6013,generated,生成的,已生成,True,False,False,False,6060
+424,A9M8N3BOH6013,BIO,BIO编码,BIO,True,False,False,False,6060
+425,A39PWDRYNY2WM0,Therefore,因此,所以,True,False,False,False,6060
+426,A39PWDRYNY2WM0,generation,生成,一代,False,True,False,False,6060
+427,A39PWDRYNY2WM0,interpretable,可解释的,可解释,False,False,True,False,6060
+428,A39PWDRYNY2WM0,manually,手动地,手动,False,False,True,False,6060
+429,A39PWDRYNY2WM0,previous,先前的,之前,False,False,True,False,6060
+430,A30IGMGSC7G2HM,Therefore,因此,所以,True,False,False,False,6060
+431,A30IGMGSC7G2HM,generation,生成,一代,False,True,False,False,6060
+432,A30IGMGSC7G2HM,interpretable,可解释的,可解释,True,False,False,False,6060
+433,A30IGMGSC7G2HM,manually,手动地,手动,True,False,False,False,6060
+434,A30IGMGSC7G2HM,previous,先前的,之前,True,False,False,False,6060
+435,AC4I7XU10MQXK,Therefore,因此,所以,True,False,False,False,6060
+436,AC4I7XU10MQXK,generation,生成,一代,False,True,False,False,6060
+437,AC4I7XU10MQXK,interpretable,可解释的,可解释,True,False,False,False,6060
+438,AC4I7XU10MQXK,manually,手动地,手动,True,False,False,False,6060
+439,AC4I7XU10MQXK,previous,先前的,之前,True,False,False,False,6060
+440,A3OAFR48DADAOM,Therefore,因此,所以,True,False,False,False,6060
+441,A3OAFR48DADAOM,generation,生成,一代,False,True,False,False,6060
+442,A3OAFR48DADAOM,interpretable,可解释的,可解释,True,False,False,False,6060
+443,A3OAFR48DADAOM,manually,手动地,手动,True,False,False,False,6060
+444,A3OAFR48DADAOM,previous,先前的,之前,True,False,False,False,6060
+445,A1U6UPXOFCXR24,Therefore,因此,所以,True,False,False,False,6060
+446,A1U6UPXOFCXR24,generation,生成,一代,False,True,False,False,6060
+447,A1U6UPXOFCXR24,interpretable,可解释的,可解释,True,False,False,False,6060
+448,A1U6UPXOFCXR24,manually,手动地,手动,True,False,False,False,6060
+449,A1U6UPXOFCXR24,previous,先前的,之前,True,False,False,False,6060
+450,A1G4DX33KADZA3,biases,偏差,偏见,False,False,True,False,6060
+451,A1G4DX33KADZA3,natural,自然的,自然,False,False,False,True,6060
+452,A1G4DX33KADZA3,linked,链接的,链接,False,False,True,False,6060
+453,A1G4DX33KADZA3,MathQA,数学问答,MathQA,False,False,False,True,6060
+454,A1G4DX33KADZA3,context,上下文,语境,False,False,True,False,6060
+455,A2P8U65V6NL7B5,biases,偏差,偏见,False,True,False,False,6060
+456,A2P8U65V6NL7B5,natural,自然的,自然,True,False,False,False,6060
+457,A2P8U65V6NL7B5,linked,链接的,链接,False,True,False,False,6060
+458,A2P8U65V6NL7B5,MathQA,数学问答,MathQA,True,False,False,False,6060
+459,A2P8U65V6NL7B5,context,上下文,语境,True,False,False,False,6060
+460,AG9MLSV2QCVD4,biases,偏差,偏见,False,True,False,False,6060
+461,AG9MLSV2QCVD4,natural,自然的,自然,True,False,False,False,6060
+462,AG9MLSV2QCVD4,linked,链接的,链接,False,True,False,False,6060
+463,AG9MLSV2QCVD4,MathQA,数学问答,MathQA,False,True,False,False,6060
+464,AG9MLSV2QCVD4,context,上下文,语境,True,False,False,False,6060
+465,AC4I7XU10MQXK,biases,偏差,偏见,False,True,False,False,6060
+466,AC4I7XU10MQXK,natural,自然的,自然,True,False,False,False,6060
+467,AC4I7XU10MQXK,linked,链接的,链接,False,True,False,False,6060
+468,AC4I7XU10MQXK,MathQA,数学问答,MathQA,True,False,False,False,6060
+469,AC4I7XU10MQXK,context,上下文,语境,True,False,False,False,6060
+470,A2ZLQZJD9I7NAL,biases,偏差,偏见,False,True,False,False,6060
+471,A2ZLQZJD9I7NAL,natural,自然的,自然,True,False,False,False,6060
+472,A2ZLQZJD9I7NAL,linked,链接的,链接,False,True,False,False,6060
+473,A2ZLQZJD9I7NAL,MathQA,数学问答,MathQA,True,False,False,False,6060
+474,A2ZLQZJD9I7NAL,context,上下文,语境,True,False,False,False,6060
+475,A3QB50HW9PDXB9,neural,神经的,神经,False,True,False,False,6060
+476,A3QB50HW9PDXB9,large,大规模,大的,False,True,False,False,6060
+477,A3QB50HW9PDXB9,multilingual,多语言的,多语言,False,False,True,False,6060
+478,A3QB50HW9PDXB9,token,词元,令牌,False,True,False,False,6060
+479,A3QB50HW9PDXB9,labeled,已标注的,标签化,False,True,False,False,6060
+480,A3DXRQLMYGDOFF,neural,神经的,神经,False,False,False,True,6060
+481,A3DXRQLMYGDOFF,large,大规模,大的,False,True,False,False,6060
+482,A3DXRQLMYGDOFF,multilingual,多语言的,多语言,True,False,False,False,6060
+483,A3DXRQLMYGDOFF,token,词元,令牌,False,False,True,False,6060
+484,A3DXRQLMYGDOFF,labeled,已标注的,标签化,False,False,True,False,6060
+485,A1KYZPQ0T7WECC,neural,神经的,神经,True,False,False,False,6060
+486,A1KYZPQ0T7WECC,large,大规模,大的,False,True,False,False,6060
+487,A1KYZPQ0T7WECC,multilingual,多语言的,多语言,True,False,False,False,6060
+488,A1KYZPQ0T7WECC,token,词元,令牌,False,True,False,False,6060
+489,A1KYZPQ0T7WECC,labeled,已标注的,标签化,True,False,False,False,6060
+490,A2ZJ36LI5WNS1P,neural,神经的,神经,False,True,False,False,6060
+491,A2ZJ36LI5WNS1P,large,大规模,大的,False,False,True,False,6060
+492,A2ZJ36LI5WNS1P,multilingual,多语言的,多语言,False,True,False,False,6060
+493,A2ZJ36LI5WNS1P,token,词元,令牌,False,False,True,False,6060
+494,A2ZJ36LI5WNS1P,labeled,已标注的,标签化,False,True,False,False,6060
+495,A2QX81MMC8KN80,neural,神经的,神经,False,False,True,False,6060
+496,A2QX81MMC8KN80,large,大规模,大的,False,False,True,False,6060
+497,A2QX81MMC8KN80,multilingual,多语言的,多语言,False,False,False,True,6060
+498,A2QX81MMC8KN80,token,词元,令牌,False,False,True,False,6060
+499,A2QX81MMC8KN80,labeled,已标注的,标签化,False,False,True,False,6060
+500,A1XD6THGBT1T9T,unsupervised,无监督的,无监督,True,False,False,False,6060
+501,A1XD6THGBT1T9T,automatic,自动的,自动类,False,True,False,False,6060
+502,A1XD6THGBT1T9T,BLEU,BLEU评分,BLEU,False,True,False,False,6060
+503,A1XD6THGBT1T9T,BETO,西班牙语BERT模型,BETO,False,True,False,False,6060
+504,A1XD6THGBT1T9T,API,应用程序接口,API,True,False,False,False,6060
+505,A9M8N3BOH6013,unsupervised,无监督的,无监督,True,False,False,False,6060
+506,A9M8N3BOH6013,automatic,自动的,自动类,False,True,False,False,6060
+507,A9M8N3BOH6013,BLEU,BLEU评分,BLEU,False,True,False,False,6060
+508,A9M8N3BOH6013,BETO,西班牙语BERT模型,BETO,False,True,False,False,6060
+509,A9M8N3BOH6013,API,应用程序接口,API,True,False,False,False,6060
+510,AC4I7XU10MQXK,unsupervised,无监督的,无监督,True,False,False,False,6060
+511,AC4I7XU10MQXK,automatic,自动的,自动类,False,True,False,False,6060
+512,AC4I7XU10MQXK,BLEU,BLEU评分,BLEU,True,False,False,False,6060
+513,AC4I7XU10MQXK,BETO,西班牙语BERT模型,BETO,False,True,False,False,6060
+514,AC4I7XU10MQXK,API,应用程序接口,API,True,False,False,False,6060
+515,AWGV35294HOYB,unsupervised,无监督的,无监督,True,False,False,False,6060
+516,AWGV35294HOYB,automatic,自动的,自动类,False,True,False,False,6060
+517,AWGV35294HOYB,BLEU,BLEU评分,BLEU,True,False,False,False,6060
+518,AWGV35294HOYB,BETO,西班牙语BERT模型,BETO,False,True,False,False,6060
+519,AWGV35294HOYB,API,应用程序接口,API,True,False,False,False,6060
+520,A39PWDRYNY2WM0,unsupervised,无监督的,无监督,True,False,False,False,6060
+521,A39PWDRYNY2WM0,automatic,自动的,自动类,False,True,False,False,6060
+522,A39PWDRYNY2WM0,BLEU,BLEU评分,BLEU,True,False,False,False,6060
+523,A39PWDRYNY2WM0,BETO,西班牙语BERT模型,BETO,True,False,False,False,6060
+524,A39PWDRYNY2WM0,API,应用程序接口,API,True,False,False,False,6060
+525,A1G4DX33KADZA3,Modeling,建模,造型,False,True,False,False,6060
+526,A1G4DX33KADZA3,3D convolutional network,3D卷积网络,三维卷积网络,False,False,True,False,threshold
+527,A1G4DX33KADZA3,3D point cloud,3D 点云,3D点云,False,True,False,False,threshold
+528,A1G4DX33KADZA3,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,False,False,True,False,threshold
+529,A1G4DX33KADZA3,Dirichlet prior,Dirichlet先验,狄利克雷先验,False,True,False,False,threshold
+530,A2IFN9328HNXWC,Modeling,建模,造型,False,True,False,False,6060
+531,A2IFN9328HNXWC,3D convolutional network,3D卷积网络,三维卷积网络,True,False,False,False,threshold
+532,A2IFN9328HNXWC,3D point cloud,3D 点云,3D点云,True,False,False,False,threshold
+533,A2IFN9328HNXWC,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,True,False,False,False,threshold
+534,A2IFN9328HNXWC,Dirichlet prior,Dirichlet先验,狄利克雷先验,False,False,True,False,threshold
+535,A3MDTRJTDIDNX,Modeling,建模,造型,False,True,False,False,6060
+536,A3MDTRJTDIDNX,3D convolutional network,3D卷积网络,三维卷积网络,True,False,False,False,threshold
+537,A3MDTRJTDIDNX,3D point cloud,3D 点云,3D点云,True,False,False,False,threshold
+538,A3MDTRJTDIDNX,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,True,False,False,False,threshold
+539,A3MDTRJTDIDNX,Dirichlet prior,Dirichlet先验,狄利克雷先验,False,False,True,False,threshold
+540,A2QX81MMC8KN80,Modeling,建模,造型,False,False,True,False,6060
+541,A2QX81MMC8KN80,3D convolutional network,3D卷积网络,三维卷积网络,False,True,False,False,threshold
+542,A2QX81MMC8KN80,3D point cloud,3D 点云,3D点云,False,False,False,True,threshold
+543,A2QX81MMC8KN80,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,False,True,False,False,threshold
+544,A2QX81MMC8KN80,Dirichlet prior,Dirichlet先验,狄利克雷先验,False,False,True,False,threshold
+545,AWGV35294HOYB,Modeling,建模,造型,False,True,False,False,6060
+546,AWGV35294HOYB,3D convolutional network,3D卷积网络,三维卷积网络,True,False,False,False,threshold
+547,AWGV35294HOYB,3D point cloud,3D 点云,3D点云,True,False,False,False,threshold
+548,AWGV35294HOYB,Canny edge detector,Canny 边缘检测器,Canny边缘检测器,True,False,False,False,threshold
+549,AWGV35294HOYB,Dirichlet prior,Dirichlet先验,狄利克雷先验,False,False,True,False,threshold
+550,A3QB50HW9PDXB9,Discriminator,鉴别器,判别器,True,False,False,False,threshold
+551,A3QB50HW9PDXB9,Hadamard product,阿达玛积,哈达玛积,False,False,True,False,threshold
+552,A3QB50HW9PDXB9,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,False,False,True,False,threshold
+553,A3QB50HW9PDXB9,K-means algorithm,K-均值算法,K均值算法,False,True,False,False,threshold
+554,A3QB50HW9PDXB9,L 2 distance,L2 距离,L₂距离,True,False,False,False,threshold
+555,A2FXDEKCCUT9OJ,Discriminator,鉴别器,判别器,True,False,False,False,threshold
+556,A2FXDEKCCUT9OJ,Hadamard product,阿达玛积,哈达玛积,False,False,True,False,threshold
+557,A2FXDEKCCUT9OJ,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,False,True,False,False,threshold
+558,A2FXDEKCCUT9OJ,K-means algorithm,K-均值算法,K均值算法,True,False,False,False,threshold
+559,A2FXDEKCCUT9OJ,L 2 distance,L2 距离,L₂距离,False,False,True,False,threshold
+560,A251BWQW2F81FT,Discriminator,鉴别器,判别器,True,False,False,False,threshold
+561,A251BWQW2F81FT,Hadamard product,阿达玛积,哈达玛积,False,False,True,False,threshold
+562,A251BWQW2F81FT,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,True,False,False,False,threshold
+563,A251BWQW2F81FT,K-means algorithm,K-均值算法,K均值算法,True,False,False,False,threshold
+564,A251BWQW2F81FT,L 2 distance,L2 距离,L₂距离,True,False,False,False,threshold
+565,A30IGMGSC7G2HM,Discriminator,鉴别器,判别器,True,False,False,False,threshold
+566,A30IGMGSC7G2HM,Hadamard product,阿达玛积,哈达玛积,False,False,True,False,threshold
+567,A30IGMGSC7G2HM,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,True,False,False,False,threshold
+568,A30IGMGSC7G2HM,K-means algorithm,K-均值算法,K均值算法,True,False,False,False,threshold
+569,A30IGMGSC7G2HM,L 2 distance,L2 距离,L₂距离,True,False,False,False,threshold
+570,A19I2ZK220NTAE,Discriminator,鉴别器,判别器,True,False,False,False,threshold
+571,A19I2ZK220NTAE,Hadamard product,阿达玛积,哈达玛积,False,False,True,False,threshold
+572,A19I2ZK220NTAE,Hamiltonian Monte Carlo,哈密顿蒙特卡罗方法,哈密顿蒙特卡罗,False,True,False,False,threshold
+573,A19I2ZK220NTAE,K-means algorithm,K-均值算法,K均值算法,True,False,False,False,threshold
+574,A19I2ZK220NTAE,L 2 distance,L2 距离,L₂距离,True,False,False,False,threshold
+575,A2QX81MMC8KN80,L1 bound,L1界限,L1界,False,False,False,True,threshold
+576,A2QX81MMC8KN80,L2 weight decay,L2 权重衰减,L2权重衰减,False,False,True,False,threshold
+577,A2QX81MMC8KN80,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,False,False,False,True,threshold
+578,A2QX81MMC8KN80,Lasso penalty,Lasso惩罚项,套索惩罚,False,False,True,False,threshold
+579,A2QX81MMC8KN80,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,False,False,False,True,threshold
+580,A1XD6THGBT1T9T,L1 bound,L1界限,L1界,True,False,False,False,threshold
+581,A1XD6THGBT1T9T,L2 weight decay,L2 权重衰减,L2权重衰减,True,False,False,False,threshold
+582,A1XD6THGBT1T9T,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,True,False,False,False,threshold
+583,A1XD6THGBT1T9T,Lasso penalty,Lasso惩罚项,套索惩罚,True,False,False,False,threshold
+584,A1XD6THGBT1T9T,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,False,True,False,False,threshold
+585,A30IGMGSC7G2HM,L1 bound,L1界限,L1界,False,True,False,False,threshold
+586,A30IGMGSC7G2HM,L2 weight decay,L2 权重衰减,L2权重衰减,True,False,False,False,threshold
+587,A30IGMGSC7G2HM,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,True,False,False,False,threshold
+588,A30IGMGSC7G2HM,Lasso penalty,Lasso惩罚项,套索惩罚,True,False,False,False,threshold
+589,A30IGMGSC7G2HM,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,True,False,False,False,threshold
+590,AWGV35294HOYB,L1 bound,L1界限,L1界,True,False,False,False,threshold
+591,AWGV35294HOYB,L2 weight decay,L2 权重衰减,L2权重衰减,True,False,False,False,threshold
+592,AWGV35294HOYB,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,True,False,False,False,threshold
+593,AWGV35294HOYB,Lasso penalty,Lasso惩罚项,套索惩罚,True,False,False,False,threshold
+594,AWGV35294HOYB,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,False,True,False,False,threshold
+595,A186ORPGIU3WNL,L1 bound,L1界限,L1界,True,False,False,False,threshold
+596,A186ORPGIU3WNL,L2 weight decay,L2 权重衰减,L2权重衰减,True,False,False,False,threshold
+597,A186ORPGIU3WNL,Lagrange multiplier,拉格朗日乘数,拉格朗日乘子,True,False,False,False,threshold
+598,A186ORPGIU3WNL,Lasso penalty,Lasso惩罚项,套索惩罚,True,False,False,False,threshold
+599,A186ORPGIU3WNL,Lyapunov function,李亚普诺夫函数,李雅普诺夫函数,True,False,False,False,threshold
+600,A2FK6782M09EBO,Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,True,False,False,False,threshold
+601,A2FK6782M09EBO,Q function,Q 函数,Q函数,True,False,False,False,threshold
+602,A2FK6782M09EBO,Question Answering,问答系统,问答,False,True,False,False,threshold
+603,A2FK6782M09EBO,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,True,False,False,False,threshold
+604,A2FK6782M09EBO,T5-11B,T5-11B模型,T5-11B,False,True,False,False,threshold
+605,A1G4DX33KADZA3,Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,False,False,True,False,threshold
+606,A1G4DX33KADZA3,Q function,Q 函数,Q函数,False,False,False,True,threshold
+607,A1G4DX33KADZA3,Question Answering,问答系统,问答,False,False,True,False,threshold
+608,A1G4DX33KADZA3,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,False,False,True,False,threshold
+609,A1G4DX33KADZA3,T5-11B,T5-11B模型,T5-11B,False,False,True,False,threshold
+610,A2IFN9328HNXWC,Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,False,False,True,False,threshold
+611,A2IFN9328HNXWC,Q function,Q 函数,Q函数,True,False,False,False,threshold
+612,A2IFN9328HNXWC,Question Answering,问答系统,问答,True,False,False,False,threshold
+613,A2IFN9328HNXWC,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,True,False,False,False,threshold
+614,A2IFN9328HNXWC,T5-11B,T5-11B模型,T5-11B,True,False,False,False,threshold
+615,A2YVLMI4PRDECY,Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,False,False,True,False,threshold
+616,A2YVLMI4PRDECY,Q function,Q 函数,Q函数,True,False,False,False,threshold
+617,A2YVLMI4PRDECY,Question Answering,问答系统,问答,True,False,False,False,threshold
+618,A2YVLMI4PRDECY,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,True,False,False,False,threshold
+619,A2YVLMI4PRDECY,T5-11B,T5-11B模型,T5-11B,True,False,False,False,threshold
+620,A1U6UPXOFCXR24,Monte-Carlo return,蒙特卡洛回报,蒙特卡罗回报,False,False,True,False,threshold
+621,A1U6UPXOFCXR24,Q function,Q 函数,Q函数,True,False,False,False,threshold
+622,A1U6UPXOFCXR24,Question Answering,问答系统,问答,True,False,False,False,threshold
+623,A1U6UPXOFCXR24,Runge-Kutta method,龙格-库塔法,龙格-库塔方法,True,False,False,False,threshold
+624,A1U6UPXOFCXR24,T5-11B,T5-11B模型,T5-11B,True,False,False,False,threshold
+625,A1461W8G7G53ZF,Upper Confidence Bound,上置信界限,上置信界,True,False,False,False,threshold
+626,A1461W8G7G53ZF,Viterbi,维特比算法,维特比,False,True,False,False,threshold
+627,A1461W8G7G53ZF,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,True,False,False,False,threshold
+628,A1461W8G7G53ZF,Word2Vec,词向量,Word2Vec,True,False,False,False,threshold
+629,A1461W8G7G53ZF,Z-score,Z-score,Z分数,True,False,False,False,threshold
+630,AE40AO3NYRW6H,Upper Confidence Bound,上置信界限,上置信界,False,False,True,False,threshold
+631,AE40AO3NYRW6H,Viterbi,维特比算法,维特比,False,True,False,False,threshold
+632,AE40AO3NYRW6H,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,False,False,True,False,threshold
+633,AE40AO3NYRW6H,Word2Vec,词向量,Word2Vec,False,True,False,False,threshold
+634,AE40AO3NYRW6H,Z-score,Z-score,Z分数,False,False,False,True,threshold
+635,A3QIWEQXAGMGD,Upper Confidence Bound,上置信界限,上置信界,True,False,False,False,threshold
+636,A3QIWEQXAGMGD,Viterbi,维特比算法,维特比,False,True,False,False,threshold
+637,A3QIWEQXAGMGD,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,True,False,False,False,threshold
+638,A3QIWEQXAGMGD,Word2Vec,词向量,Word2Vec,True,False,False,False,threshold
+639,A3QIWEQXAGMGD,Z-score,Z-score,Z分数,False,False,True,False,threshold
+640,A2D6SB3TU1NYQ7,Upper Confidence Bound,上置信界限,上置信界,False,True,False,False,threshold
+641,A2D6SB3TU1NYQ7,Viterbi,维特比算法,维特比,True,False,False,False,threshold
+642,A2D6SB3TU1NYQ7,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,True,False,False,False,threshold
+643,A2D6SB3TU1NYQ7,Word2Vec,词向量,Word2Vec,True,False,False,False,threshold
+644,A2D6SB3TU1NYQ7,Z-score,Z-score,Z分数,True,False,False,False,threshold
+645,A3HSZ9YLOBCCPR,Upper Confidence Bound,上置信界限,上置信界,True,False,False,False,threshold
+646,A3HSZ9YLOBCCPR,Viterbi,维特比算法,维特比,True,False,False,False,threshold
+647,A3HSZ9YLOBCCPR,Woodbury matrix identity,Woodbury 矩阵恒等式,Woodbury矩阵恒等式,True,False,False,False,threshold
+648,A3HSZ9YLOBCCPR,Word2Vec,词向量,Word2Vec,True,False,False,False,threshold
+649,A3HSZ9YLOBCCPR,Z-score,Z-score,Z分数,False,False,True,False,threshold
+650,A3DXRQLMYGDOFF,adversarial perturbation,对抗性扰动,对抗扰动,False,True,False,False,threshold
+651,A3DXRQLMYGDOFF,artificial agent,人工代理,人工智能体,False,True,False,False,threshold
+652,A3DXRQLMYGDOFF,asymptotic notation,渐近记号,渐近符号,False,True,False,False,threshold
+653,A3DXRQLMYGDOFF,attention score,注意力得分,注意力分数,True,False,False,False,threshold
+654,A3DXRQLMYGDOFF,backward pass,反向传播,反向传递,False,False,True,False,threshold
+655,A21X87H2GCSME0,adversarial perturbation,对抗性扰动,对抗扰动,False,False,True,False,threshold
+656,A21X87H2GCSME0,artificial agent,人工代理,人工智能体,False,False,False,False,threshold
+657,A21X87H2GCSME0,asymptotic notation,渐近记号,渐近符号,False,False,True,False,threshold
+658,A21X87H2GCSME0,attention score,注意力得分,注意力分数,False,False,True,False,threshold
+659,A21X87H2GCSME0,backward pass,反向传播,反向传递,False,False,False,True,threshold
+660,A3IG9HHR3NL9R0,adversarial perturbation,对抗性扰动,对抗扰动,True,False,False,False,threshold
+661,A3IG9HHR3NL9R0,artificial agent,人工代理,人工智能体,False,True,False,False,threshold
+662,A3IG9HHR3NL9R0,asymptotic notation,渐近记号,渐近符号,True,False,False,False,threshold
+663,A3IG9HHR3NL9R0,attention score,注意力得分,注意力分数,True,False,False,False,threshold
+664,A3IG9HHR3NL9R0,backward pass,反向传播,反向传递,False,True,False,False,threshold
+665,A1PG4NZUVQMZUI,adversarial perturbation,对抗性扰动,对抗扰动,True,False,False,False,threshold
+666,A1PG4NZUVQMZUI,artificial agent,人工代理,人工智能体,False,False,True,False,threshold
+667,A1PG4NZUVQMZUI,asymptotic notation,渐近记号,渐近符号,True,False,False,False,threshold
+668,A1PG4NZUVQMZUI,attention score,注意力得分,注意力分数,True,False,False,False,threshold
+669,A1PG4NZUVQMZUI,backward pass,反向传播,反向传递,False,True,False,False,threshold
+670,A2ZLQZJD9I7NAL,adversarial perturbation,对抗性扰动,对抗扰动,True,False,False,False,threshold
+671,A2ZLQZJD9I7NAL,artificial agent,人工代理,人工智能体,False,False,True,False,threshold
+672,A2ZLQZJD9I7NAL,asymptotic notation,渐近记号,渐近符号,True,False,False,False,threshold
+673,A2ZLQZJD9I7NAL,attention score,注意力得分,注意力分数,True,False,False,False,threshold
+674,A2ZLQZJD9I7NAL,backward pass,反向传播,反向传递,False,True,False,False,threshold
+675,A14ICQPNQ6RZXB,bag-of-word,词袋,词袋模型,False,True,False,False,threshold
+676,A14ICQPNQ6RZXB,baseline algorithm,基线算法,基准算法,False,False,True,False,threshold
+677,A14ICQPNQ6RZXB,baseline method,基线方法,基准方法,True,False,False,False,threshold
+678,A14ICQPNQ6RZXB,binary classification head,二分类头,二元分类头,True,False,False,False,threshold
+679,A14ICQPNQ6RZXB,binary classification problem,二分类问题,二元分类问题,False,False,False,True,threshold
+680,A1XD6THGBT1T9T,bag-of-word,词袋,词袋模型,True,False,False,False,threshold
+681,A1XD6THGBT1T9T,baseline algorithm,基线算法,基准算法,True,False,False,False,threshold
+682,A1XD6THGBT1T9T,baseline method,基线方法,基准方法,True,False,False,False,threshold
+683,A1XD6THGBT1T9T,binary classification head,二分类头,二元分类头,False,True,False,False,threshold
+684,A1XD6THGBT1T9T,binary classification problem,二分类问题,二元分类问题,True,False,False,False,threshold
+685,A3DXRQLMYGDOFF,bag-of-word,词袋,词袋模型,True,False,False,False,threshold
+686,A3DXRQLMYGDOFF,baseline algorithm,基线算法,基准算法,True,False,False,False,threshold
+687,A3DXRQLMYGDOFF,baseline method,基线方法,基准方法,True,False,False,False,threshold
+688,A3DXRQLMYGDOFF,binary classification head,二分类头,二元分类头,True,False,False,False,threshold
+689,A3DXRQLMYGDOFF,binary classification problem,二分类问题,二元分类问题,True,False,False,False,threshold
+690,A2MZEUP2ECO1AI,bag-of-word,词袋,词袋模型,True,False,False,False,threshold
+691,A2MZEUP2ECO1AI,baseline algorithm,基线算法,基准算法,True,False,False,False,threshold
+692,A2MZEUP2ECO1AI,baseline method,基线方法,基准方法,True,False,False,False,threshold
+693,A2MZEUP2ECO1AI,binary classification head,二分类头,二元分类头,False,True,False,False,threshold
+694,A2MZEUP2ECO1AI,binary classification problem,二分类问题,二元分类问题,True,False,False,False,threshold
+695,A2QX81MMC8KN80,bag-of-word,词袋,词袋模型,False,False,True,False,threshold
+696,A2QX81MMC8KN80,baseline algorithm,基线算法,基准算法,False,True,False,False,threshold
+697,A2QX81MMC8KN80,baseline method,基线方法,基准方法,False,False,False,True,threshold
+698,A2QX81MMC8KN80,binary classification head,二分类头,二元分类头,False,False,True,False,threshold
+699,A2QX81MMC8KN80,binary classification problem,二分类问题,二元分类问题,False,True,False,False,threshold
+700,A3MDTRJTDIDNX,binary classifier,二分类器,二元分类器,True,False,False,False,threshold
+701,A3MDTRJTDIDNX,branch and bound algorithm,分支定界算法,分支限界算法,True,False,False,False,threshold
+702,A3MDTRJTDIDNX,canonical basis,规范基,标准基,False,False,True,False,threshold
+703,A3MDTRJTDIDNX,canonical form,规范形式,标准形式,True,False,False,False,threshold
+704,A3MDTRJTDIDNX,chunk size,数据块大小,块大小,False,True,False,False,threshold
+705,A3EKM55NFX1H6B,binary classifier,二分类器,二元分类器,True,False,False,False,threshold
+706,A3EKM55NFX1H6B,branch and bound algorithm,分支定界算法,分支限界算法,True,False,False,False,threshold
+707,A3EKM55NFX1H6B,canonical basis,规范基,标准基,False,False,True,False,threshold
+708,A3EKM55NFX1H6B,canonical form,规范形式,标准形式,False,False,True,False,threshold
+709,A3EKM55NFX1H6B,chunk size,数据块大小,块大小,True,False,False,False,threshold
+710,A11B7MUC7UTFKN,binary classifier,二分类器,二元分类器,True,False,False,False,threshold
+711,A11B7MUC7UTFKN,branch and bound algorithm,分支定界算法,分支限界算法,True,False,False,False,threshold
+712,A11B7MUC7UTFKN,canonical basis,规范基,标准基,False,False,True,False,threshold
+713,A11B7MUC7UTFKN,canonical form,规范形式,标准形式,False,False,True,False,threshold
+714,A11B7MUC7UTFKN,chunk size,数据块大小,块大小,True,False,False,False,threshold
+715,A9M8N3BOH6013,binary classifier,二分类器,二元分类器,True,False,False,False,threshold
+716,A9M8N3BOH6013,branch and bound algorithm,分支定界算法,分支限界算法,True,False,False,False,threshold
+717,A9M8N3BOH6013,canonical basis,规范基,标准基,False,False,True,False,threshold
+718,A9M8N3BOH6013,canonical form,规范形式,标准形式,True,False,False,False,threshold
+719,A9M8N3BOH6013,chunk size,数据块大小,块大小,False,True,False,False,threshold
+720,A1APMHC90Z98RE,binary classifier,二分类器,二元分类器,True,False,False,False,threshold
+721,A1APMHC90Z98RE,branch and bound algorithm,分支定界算法,分支限界算法,False,False,False,False,threshold
+722,A1APMHC90Z98RE,canonical basis,规范基,标准基,True,False,False,False,threshold
+723,A1APMHC90Z98RE,canonical form,规范形式,标准形式,False,True,False,False,threshold
+724,A1APMHC90Z98RE,chunk size,数据块大小,块大小,False,True,False,False,threshold
+725,A1KYZPQ0T7WECC,cluster centroid,簇质心,聚类中心,False,False,True,False,threshold
+726,A1KYZPQ0T7WECC,cluster size,聚类规模,聚类大小,True,False,False,False,threshold
+727,A1KYZPQ0T7WECC,coarse-to-fine,从粗到细,粗到细,True,False,False,False,threshold
+728,A1KYZPQ0T7WECC,compatibility graph,兼容图,兼容性图,False,True,False,False,threshold
+729,A1KYZPQ0T7WECC,competitive ratio,竞争比,竞争比率,True,False,False,False,threshold
+730,ASML73P0NOOVV,cluster centroid,簇质心,聚类中心,False,False,True,False,threshold
+731,ASML73P0NOOVV,cluster size,聚类规模,聚类大小,True,False,False,False,threshold
+732,ASML73P0NOOVV,coarse-to-fine,从粗到细,粗到细,True,False,False,False,threshold
+733,ASML73P0NOOVV,compatibility graph,兼容图,兼容性图,True,False,False,False,threshold
+734,ASML73P0NOOVV,competitive ratio,竞争比,竞争比率,True,False,False,False,threshold
+735,A3Q32FL0WWF4KZ,cluster centroid,簇质心,聚类中心,True,False,False,False,threshold
+736,A3Q32FL0WWF4KZ,cluster size,聚类规模,聚类大小,False,True,False,False,threshold
+737,A3Q32FL0WWF4KZ,coarse-to-fine,从粗到细,粗到细,True,False,False,False,threshold
+738,A3Q32FL0WWF4KZ,compatibility graph,兼容图,兼容性图,False,True,False,False,threshold
+739,A3Q32FL0WWF4KZ,competitive ratio,竞争比,竞争比率,True,False,False,False,threshold
+740,A3MDTRJTDIDNX,cluster centroid,簇质心,聚类中心,False,False,True,False,threshold
+741,A3MDTRJTDIDNX,cluster size,聚类规模,聚类大小,True,False,False,False,threshold
+742,A3MDTRJTDIDNX,coarse-to-fine,从粗到细,粗到细,True,False,False,False,threshold
+743,A3MDTRJTDIDNX,compatibility graph,兼容图,兼容性图,True,False,False,False,threshold
+744,A3MDTRJTDIDNX,competitive ratio,竞争比,竞争比率,True,False,False,False,threshold
+745,A19I2ZK220NTAE,cluster centroid,簇质心,聚类中心,False,False,True,False,threshold
+746,A19I2ZK220NTAE,cluster size,聚类规模,聚类大小,True,False,False,False,threshold
+747,A19I2ZK220NTAE,coarse-to-fine,从粗到细,粗到细,True,False,False,False,threshold
+748,A19I2ZK220NTAE,compatibility graph,兼容图,兼容性图,False,True,False,False,threshold
+749,A19I2ZK220NTAE,competitive ratio,竞争比,竞争比率,True,False,False,False,threshold
+750,A2E2FFMXS9F9KR,constrained decoding,受约束解码,约束解码,False,True,False,False,threshold
+751,A2E2FFMXS9F9KR,contextualized word vector,语境化词向量,上下文化词向量,True,False,False,False,threshold
+752,A2E2FFMXS9F9KR,convergence bound,收敛界限,收敛界,False,True,False,False,threshold
+753,A2E2FFMXS9F9KR,convex,凸,凸的,True,False,False,False,threshold
+754,A2E2FFMXS9F9KR,convex quadratic program,凸二次规划问题,凸二次规划,True,False,False,False,threshold
+755,AWGV35294HOYB,constrained decoding,受约束解码,约束解码,True,False,False,False,threshold
+756,AWGV35294HOYB,contextualized word vector,语境化词向量,上下文化词向量,False,True,False,False,threshold
+757,AWGV35294HOYB,convergence bound,收敛界限,收敛界,True,False,False,False,threshold
+758,AWGV35294HOYB,convex,凸,凸的,True,False,False,False,threshold
+759,AWGV35294HOYB,convex quadratic program,凸二次规划问题,凸二次规划,False,True,False,False,threshold
+760,A2D6SB3TU1NYQ7,constrained decoding,受约束解码,约束解码,True,False,False,False,threshold
+761,A2D6SB3TU1NYQ7,contextualized word vector,语境化词向量,上下文化词向量,True,False,False,False,threshold
+762,A2D6SB3TU1NYQ7,convergence bound,收敛界限,收敛界,True,False,False,False,threshold
+763,A2D6SB3TU1NYQ7,convex,凸,凸的,True,False,False,False,threshold
+764,A2D6SB3TU1NYQ7,convex quadratic program,凸二次规划问题,凸二次规划,True,False,False,False,threshold
+765,AVW3ODRZWQ6WT,constrained decoding,受约束解码,约束解码,False,True,False,False,threshold
+766,AVW3ODRZWQ6WT,contextualized word vector,语境化词向量,上下文化词向量,False,False,True,False,threshold
+767,AVW3ODRZWQ6WT,convergence bound,收敛界限,收敛界,False,True,False,False,threshold
+768,AVW3ODRZWQ6WT,convex,凸,凸的,False,False,False,True,threshold
+769,AVW3ODRZWQ6WT,convex quadratic program,凸二次规划问题,凸二次规划,False,True,False,False,threshold
+770,AC4I7XU10MQXK,constrained decoding,受约束解码,约束解码,False,False,True,False,threshold
+771,AC4I7XU10MQXK,contextualized word vector,语境化词向量,上下文化词向量,True,False,False,False,threshold
+772,AC4I7XU10MQXK,convergence bound,收敛界限,收敛界,False,True,False,False,threshold
+773,AC4I7XU10MQXK,convex,凸,凸的,True,False,False,False,threshold
+774,AC4I7XU10MQXK,convex quadratic program,凸二次规划问题,凸二次规划,True,False,False,False,threshold
+775,A1XD6THGBT1T9T,convolution operation,卷积运算,卷积操作,True,False,False,False,threshold
+776,A1XD6THGBT1T9T,coreference resolution system,共指消解系统,共指解析系统,False,True,False,False,threshold
+777,A1XD6THGBT1T9T,counterfactual fairness,反事实公平,反事实公平性,False,True,False,False,threshold
+778,A1XD6THGBT1T9T,cycle inequality,环路不等式,循环不等式,False,False,True,False,threshold
+779,A1XD6THGBT1T9T,davinci,davinci,达芬奇,True,False,False,False,threshold
+780,A3QIWEQXAGMGD,convolution operation,卷积运算,卷积操作,True,False,False,False,threshold
+781,A3QIWEQXAGMGD,coreference resolution system,共指消解系统,共指解析系统,False,True,False,False,threshold
+782,A3QIWEQXAGMGD,counterfactual fairness,反事实公平,反事实公平性,True,False,False,False,threshold
+783,A3QIWEQXAGMGD,cycle inequality,环路不等式,循环不等式,False,False,True,False,threshold
+784,A3QIWEQXAGMGD,davinci,davinci,达芬奇,False,False,True,False,threshold
+785,A2ZLQZJD9I7NAL,convolution operation,卷积运算,卷积操作,True,False,False,False,threshold
+786,A2ZLQZJD9I7NAL,coreference resolution system,共指消解系统,共指解析系统,True,False,False,False,threshold
+787,A2ZLQZJD9I7NAL,counterfactual fairness,反事实公平,反事实公平性,False,False,True,False,threshold
+788,A2ZLQZJD9I7NAL,cycle inequality,环路不等式,循环不等式,True,False,False,False,threshold
+789,A2ZLQZJD9I7NAL,davinci,davinci,达芬奇,False,False,True,False,threshold
+790,AWGV35294HOYB,convolution operation,卷积运算,卷积操作,True,False,False,False,threshold
+791,AWGV35294HOYB,coreference resolution system,共指消解系统,共指解析系统,False,True,False,False,threshold
+792,AWGV35294HOYB,counterfactual fairness,反事实公平,反事实公平性,True,False,False,False,threshold
+793,AWGV35294HOYB,cycle inequality,环路不等式,循环不等式,False,True,False,False,threshold
+794,AWGV35294HOYB,davinci,davinci,达芬奇,False,False,True,False,threshold
+795,A2E2FFMXS9F9KR,convolution operation,卷积运算,卷积操作,False,True,False,False,threshold
+796,A2E2FFMXS9F9KR,coreference resolution system,共指消解系统,共指解析系统,False,False,True,False,threshold
+797,A2E2FFMXS9F9KR,counterfactual fairness,反事实公平,反事实公平性,False,True,False,False,threshold
+798,A2E2FFMXS9F9KR,cycle inequality,环路不等式,循环不等式,False,True,False,False,threshold
+799,A2E2FFMXS9F9KR,davinci,davinci,达芬奇,False,True,False,False,threshold
+800,A3JKQCOJNMDZKD,deep network,深度神经网络,深度网络,False,True,False,False,threshold
+801,A3JKQCOJNMDZKD,dependency tree,依存树,依赖树,False,False,True,False,threshold
+802,A3JKQCOJNMDZKD,deterministic baseline,确定性基线,确定性基准,True,False,False,False,threshold
+803,A3JKQCOJNMDZKD,dimensionality reduction,降维,维度减少,False,False,True,False,threshold
+804,A3JKQCOJNMDZKD,discriminator network,判别器网络,判别网络,False,False,True,False,threshold
+805,A186ORPGIU3WNL,deep network,深度神经网络,深度网络,True,False,False,False,threshold
+806,A186ORPGIU3WNL,dependency tree,依存树,依赖树,False,False,True,False,threshold
+807,A186ORPGIU3WNL,deterministic baseline,确定性基线,确定性基准,True,False,False,False,threshold
+808,A186ORPGIU3WNL,dimensionality reduction,降维,维度减少,False,True,False,False,threshold
+809,A186ORPGIU3WNL,discriminator network,判别器网络,判别网络,True,False,False,False,threshold
+810,A2FXDEKCCUT9OJ,deep network,深度神经网络,深度网络,True,False,False,False,threshold
+811,A2FXDEKCCUT9OJ,dependency tree,依存树,依赖树,False,False,True,False,threshold
+812,A2FXDEKCCUT9OJ,deterministic baseline,确定性基线,确定性基准,True,False,False,False,threshold
+813,A2FXDEKCCUT9OJ,dimensionality reduction,降维,维度减少,False,True,False,False,threshold
+814,A2FXDEKCCUT9OJ,discriminator network,判别器网络,判别网络,True,False,False,False,threshold
+815,A251BWQW2F81FT,deep network,深度神经网络,深度网络,True,False,False,False,threshold
+816,A251BWQW2F81FT,dependency tree,依存树,依赖树,True,False,False,False,threshold
+817,A251BWQW2F81FT,deterministic baseline,确定性基线,确定性基准,False,True,False,False,threshold
+818,A251BWQW2F81FT,dimensionality reduction,降维,维度减少,False,True,False,False,threshold
+819,A251BWQW2F81FT,discriminator network,判别器网络,判别网络,True,False,False,False,threshold
+820,A11JXYZDAUX0UP,deep network,深度神经网络,深度网络,True,False,False,False,threshold
+821,A11JXYZDAUX0UP,dependency tree,依存树,依赖树,True,False,False,False,threshold
+822,A11JXYZDAUX0UP,deterministic baseline,确定性基线,确定性基准,True,False,False,False,threshold
+823,A11JXYZDAUX0UP,dimensionality reduction,降维,维度减少,False,True,False,False,threshold
+824,A11JXYZDAUX0UP,discriminator network,判别器网络,判别网络,True,False,False,False,threshold
+825,A198MZX1B7ZOPY,document-topic assignment,文档-主题分配,文档主题分配,False,True,False,False,threshold
+826,A198MZX1B7ZOPY,dropout probability,Dropout概率,丢弃概率,True,False,False,False,threshold
+827,A198MZX1B7ZOPY,dual objective,对偶目标函数,对偶目标,False,True,False,False,threshold
+828,A198MZX1B7ZOPY,empirical minimizer,经验极小化器,经验最小化器,True,False,False,False,threshold
+829,A198MZX1B7ZOPY,extractive question answering,抽取式问答,提取式问答,False,True,False,False,threshold
+830,A3QIWEQXAGMGD,document-topic assignment,文档-主题分配,文档主题分配,True,False,False,False,threshold
+831,A3QIWEQXAGMGD,dropout probability,Dropout概率,丢弃概率,False,True,False,False,threshold
+832,A3QIWEQXAGMGD,dual objective,对偶目标函数,对偶目标,True,False,False,False,threshold
+833,A3QIWEQXAGMGD,empirical minimizer,经验极小化器,经验最小化器,False,True,False,False,threshold
+834,A3QIWEQXAGMGD,extractive question answering,抽取式问答,提取式问答,True,False,False,False,threshold
+835,A2MZEUP2ECO1AI,document-topic assignment,文档-主题分配,文档主题分配,True,False,False,False,threshold
+836,A2MZEUP2ECO1AI,dropout probability,Dropout概率,丢弃概率,False,False,True,False,threshold
+837,A2MZEUP2ECO1AI,dual objective,对偶目标函数,对偶目标,True,False,False,False,threshold
+838,A2MZEUP2ECO1AI,empirical minimizer,经验极小化器,经验最小化器,False,False,True,False,threshold
+839,A2MZEUP2ECO1AI,extractive question answering,抽取式问答,提取式问答,True,False,False,False,threshold
+840,A35H5DUMZH86PC,document-topic assignment,文档-主题分配,文档主题分配,True,False,False,False,threshold
+841,A35H5DUMZH86PC,dropout probability,Dropout概率,丢弃概率,False,False,True,False,threshold
+842,A35H5DUMZH86PC,dual objective,对偶目标函数,对偶目标,True,False,False,False,threshold
+843,A35H5DUMZH86PC,empirical minimizer,经验极小化器,经验最小化器,False,False,True,False,threshold
+844,A35H5DUMZH86PC,extractive question answering,抽取式问答,提取式问答,True,False,False,False,threshold
+845,A2ZLQZJD9I7NAL,document-topic assignment,文档-主题分配,文档主题分配,True,False,False,False,threshold
+846,A2ZLQZJD9I7NAL,dropout probability,Dropout概率,丢弃概率,False,False,True,False,threshold
+847,A2ZLQZJD9I7NAL,dual objective,对偶目标函数,对偶目标,False,True,False,False,threshold
+848,A2ZLQZJD9I7NAL,empirical minimizer,经验极小化器,经验最小化器,False,False,True,False,threshold
+849,A2ZLQZJD9I7NAL,extractive question answering,抽取式问答,提取式问答,True,False,False,False,threshold
+850,A14ICQPNQ6RZXB,factor of variation,变异因素,变化因子,False,True,False,False,threshold
+851,A14ICQPNQ6RZXB,gold label,金标,黄金标签,False,False,True,False,threshold
+852,A14ICQPNQ6RZXB,graphlet kernel,图小元核,图元核,False,False,False,True,threshold
+853,A14ICQPNQ6RZXB,greedy maximization,贪心最大化,贪婪最大化,False,False,True,False,threshold
+854,A14ICQPNQ6RZXB,greedy policy,贪心策略,贪婪策略,False,True,False,False,threshold
+855,A2P8U65V6NL7B5,factor of variation,变异因素,变化因子,True,False,False,False,threshold
+856,A2P8U65V6NL7B5,gold label,金标,黄金标签,True,False,False,False,threshold
+857,A2P8U65V6NL7B5,graphlet kernel,图小元核,图元核,False,False,True,False,threshold
+858,A2P8U65V6NL7B5,greedy maximization,贪心最大化,贪婪最大化,True,False,False,False,threshold
+859,A2P8U65V6NL7B5,greedy policy,贪心策略,贪婪策略,True,False,False,False,threshold
+860,A1PG4NZUVQMZUI,factor of variation,变异因素,变化因子,True,False,False,False,threshold
+861,A1PG4NZUVQMZUI,gold label,金标,黄金标签,False,True,False,False,threshold
+862,A1PG4NZUVQMZUI,graphlet kernel,图小元核,图元核,True,False,False,False,threshold
+863,A1PG4NZUVQMZUI,greedy maximization,贪心最大化,贪婪最大化,True,False,False,False,threshold
+864,A1PG4NZUVQMZUI,greedy policy,贪心策略,贪婪策略,True,False,False,False,threshold
+865,AC4I7XU10MQXK,factor of variation,变异因素,变化因子,True,False,False,False,threshold
+866,AC4I7XU10MQXK,gold label,金标,黄金标签,True,False,False,False,threshold
+867,AC4I7XU10MQXK,graphlet kernel,图小元核,图元核,False,False,True,False,threshold
+868,AC4I7XU10MQXK,greedy maximization,贪心最大化,贪婪最大化,True,False,False,False,threshold
+869,AC4I7XU10MQXK,greedy policy,贪心策略,贪婪策略,True,False,False,False,threshold
+870,AOK9OY3G5D6GX,factor of variation,变异因素,变化因子,True,False,False,False,threshold
+871,AOK9OY3G5D6GX,gold label,金标,黄金标签,False,True,False,False,threshold
+872,AOK9OY3G5D6GX,graphlet kernel,图小元核,图元核,False,True,False,False,threshold
+873,AOK9OY3G5D6GX,greedy maximization,贪心最大化,贪婪最大化,False,True,False,False,threshold
+874,AOK9OY3G5D6GX,greedy policy,贪心策略,贪婪策略,False,True,False,False,threshold
+875,A2FFCQ9WU6R764,heatmap,热力图,热图,True,False,False,False,threshold
+876,A2FFCQ9WU6R764,hidden state representation,隐藏状态表示,隐状态表示,True,False,False,False,threshold
+877,A2FFCQ9WU6R764,hierarchical reinforcement learning,分层强化学习,层次强化学习,True,False,False,False,threshold
+878,A2FFCQ9WU6R764,hierarchical structure,分层结构,层次结构,False,True,False,False,threshold
+879,A2FFCQ9WU6R764,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,True,False,False,False,threshold
+880,A2FXDEKCCUT9OJ,heatmap,热力图,热图,True,False,False,False,threshold
+881,A2FXDEKCCUT9OJ,hidden state representation,隐藏状态表示,隐状态表示,False,True,False,False,threshold
+882,A2FXDEKCCUT9OJ,hierarchical reinforcement learning,分层强化学习,层次强化学习,True,False,False,False,threshold
+883,A2FXDEKCCUT9OJ,hierarchical structure,分层结构,层次结构,True,False,False,False,threshold
+884,A2FXDEKCCUT9OJ,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,False,True,False,False,threshold
+885,A38SYZRVLTMOFG,heatmap,热力图,热图,True,False,False,False,threshold
+886,A38SYZRVLTMOFG,hidden state representation,隐藏状态表示,隐状态表示,False,True,False,False,threshold
+887,A38SYZRVLTMOFG,hierarchical reinforcement learning,分层强化学习,层次强化学习,True,False,False,False,threshold
+888,A38SYZRVLTMOFG,hierarchical structure,分层结构,层次结构,True,False,False,False,threshold
+889,A38SYZRVLTMOFG,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,False,True,False,False,threshold
+890,A39PWDRYNY2WM0,heatmap,热力图,热图,False,True,False,False,threshold
+891,A39PWDRYNY2WM0,hidden state representation,隐藏状态表示,隐状态表示,False,True,False,False,threshold
+892,A39PWDRYNY2WM0,hierarchical reinforcement learning,分层强化学习,层次强化学习,False,True,False,False,threshold
+893,A39PWDRYNY2WM0,hierarchical structure,分层结构,层次结构,True,False,False,False,threshold
+894,A39PWDRYNY2WM0,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,True,False,False,False,threshold
+895,A3Q32FL0WWF4KZ,heatmap,热力图,热图,True,False,False,False,threshold
+896,A3Q32FL0WWF4KZ,hidden state representation,隐藏状态表示,隐状态表示,False,True,False,False,threshold
+897,A3Q32FL0WWF4KZ,hierarchical reinforcement learning,分层强化学习,层次强化学习,True,False,False,False,threshold
+898,A3Q32FL0WWF4KZ,hierarchical structure,分层结构,层次结构,True,False,False,False,threshold
+899,A3Q32FL0WWF4KZ,histogram of oriented gradient,定向梯度直方图,方向梯度直方图,False,True,False,False,threshold
+900,A2QX81MMC8KN80,importance sampling estimator,重要性抽样估计器,重要性采样估计器,False,False,True,False,threshold
+901,A2QX81MMC8KN80,instruction tuning,指令调优,指令微调,False,False,False,True,threshold
+902,A2QX81MMC8KN80,interest point,特征点,兴趣点,False,False,False,True,threshold
+903,A2QX81MMC8KN80,internal regret,内部后悔,内部遗憾,False,False,True,False,threshold
+904,A2QX81MMC8KN80,intrinsic camera parameter,相机内参数,内在相机参数,False,False,True,False,threshold
+905,A3QIWEQXAGMGD,importance sampling estimator,重要性抽样估计器,重要性采样估计器,True,False,False,False,threshold
+906,A3QIWEQXAGMGD,instruction tuning,指令调优,指令微调,False,True,False,False,threshold
+907,A3QIWEQXAGMGD,interest point,特征点,兴趣点,False,True,False,False,threshold
+908,A3QIWEQXAGMGD,internal regret,内部后悔,内部遗憾,False,True,False,False,threshold
+909,A3QIWEQXAGMGD,intrinsic camera parameter,相机内参数,内在相机参数,False,True,False,False,threshold
+910,A2P8U65V6NL7B5,importance sampling estimator,重要性抽样估计器,重要性采样估计器,True,False,False,False,threshold
+911,A2P8U65V6NL7B5,instruction tuning,指令调优,指令微调,False,True,False,False,threshold
+912,A2P8U65V6NL7B5,interest point,特征点,兴趣点,True,False,False,False,threshold
+913,A2P8U65V6NL7B5,internal regret,内部后悔,内部遗憾,False,True,False,False,threshold
+914,A2P8U65V6NL7B5,intrinsic camera parameter,相机内参数,内在相机参数,False,True,False,False,threshold
+915,A2E2FFMXS9F9KR,importance sampling estimator,重要性抽样估计器,重要性采样估计器,True,False,False,False,threshold
+916,A2E2FFMXS9F9KR,instruction tuning,指令调优,指令微调,False,True,False,False,threshold
+917,A2E2FFMXS9F9KR,interest point,特征点,兴趣点,True,False,False,False,threshold
+918,A2E2FFMXS9F9KR,internal regret,内部后悔,内部遗憾,False,True,False,False,threshold
+919,A2E2FFMXS9F9KR,intrinsic camera parameter,相机内参数,内在相机参数,False,True,False,False,threshold
+920,A3HSZ9YLOBCCPR,importance sampling estimator,重要性抽样估计器,重要性采样估计器,True,False,False,False,threshold
+921,A3HSZ9YLOBCCPR,instruction tuning,指令调优,指令微调,False,False,True,False,threshold
+922,A3HSZ9YLOBCCPR,interest point,特征点,兴趣点,True,False,False,False,threshold
+923,A3HSZ9YLOBCCPR,internal regret,内部后悔,内部遗憾,False,False,True,False,threshold
+924,A3HSZ9YLOBCCPR,intrinsic camera parameter,相机内参数,内在相机参数,False,True,False,False,threshold
+925,A13FFFR71ONY8U,intrinsic image,本质图像,内在图像,False,False,True,False,threshold
+926,A13FFFR71ONY8U,k-d tree,k-d 树,k-d树,True,False,False,False,threshold
+927,A13FFFR71ONY8U,kernel bandwidth,内核带宽,核带宽,False,True,False,False,threshold
+928,A13FFFR71ONY8U,kernel evaluation,核函数计算,核评估,False,True,False,False,threshold
+929,A13FFFR71ONY8U,keypoint match,特征点匹配,关键点匹配,False,True,False,False,threshold
+930,A30IGMGSC7G2HM,intrinsic image,本质图像,内在图像,False,False,True,False,threshold
+931,A30IGMGSC7G2HM,k-d tree,k-d 树,k-d树,True,False,False,False,threshold
+932,A30IGMGSC7G2HM,kernel bandwidth,内核带宽,核带宽,True,False,False,False,threshold
+933,A30IGMGSC7G2HM,kernel evaluation,核函数计算,核评估,False,True,False,False,threshold
+934,A30IGMGSC7G2HM,keypoint match,特征点匹配,关键点匹配,True,False,False,False,threshold
+935,A2FXDEKCCUT9OJ,intrinsic image,本质图像,内在图像,False,False,True,False,threshold
+936,A2FXDEKCCUT9OJ,k-d tree,k-d 树,k-d树,True,False,False,False,threshold
+937,A2FXDEKCCUT9OJ,kernel bandwidth,内核带宽,核带宽,False,False,True,False,threshold
+938,A2FXDEKCCUT9OJ,kernel evaluation,核函数计算,核评估,False,True,False,False,threshold
+939,A2FXDEKCCUT9OJ,keypoint match,特征点匹配,关键点匹配,True,False,False,False,threshold
+940,AVW3ODRZWQ6WT,intrinsic image,本质图像,内在图像,False,True,False,False,threshold
+941,AVW3ODRZWQ6WT,k-d tree,k-d 树,k-d树,False,False,True,False,threshold
+942,AVW3ODRZWQ6WT,kernel bandwidth,内核带宽,核带宽,False,True,False,False,threshold
+943,AVW3ODRZWQ6WT,kernel evaluation,核函数计算,核评估,False,False,True,False,threshold
+944,AVW3ODRZWQ6WT,keypoint match,特征点匹配,关键点匹配,False,False,False,True,threshold
+945,A2ZLQZJD9I7NAL,intrinsic image,本质图像,内在图像,False,False,True,False,threshold
+946,A2ZLQZJD9I7NAL,k-d tree,k-d 树,k-d树,False,False,True,False,threshold
+947,A2ZLQZJD9I7NAL,kernel bandwidth,内核带宽,核带宽,False,False,True,False,threshold
+948,A2ZLQZJD9I7NAL,kernel evaluation,核函数计算,核评估,False,True,False,False,threshold
+949,A2ZLQZJD9I7NAL,keypoint match,特征点匹配,关键点匹配,True,False,False,False,threshold
+950,A14ICQPNQ6RZXB,language representation,语言表征,语言表示,False,True,False,False,threshold
+951,A14ICQPNQ6RZXB,latent representation,潜在表征,潜在表示,False,False,True,False,threshold
+952,A14ICQPNQ6RZXB,least square minimization,最小二乘法最小化,最小二乘最小化,False,True,False,False,threshold
+953,A14ICQPNQ6RZXB,linear function approximation,线性函数逼近,线性函数近似,False,False,False,True,threshold
+954,A14ICQPNQ6RZXB,linear probe,线性探针,线性探测器,True,False,False,False,threshold
+955,A1XD6THGBT1T9T,language representation,语言表征,语言表示,True,False,False,False,threshold
+956,A1XD6THGBT1T9T,latent representation,潜在表征,潜在表示,True,False,False,False,threshold
+957,A1XD6THGBT1T9T,least square minimization,最小二乘法最小化,最小二乘最小化,False,True,False,False,threshold
+958,A1XD6THGBT1T9T,linear function approximation,线性函数逼近,线性函数近似,True,False,False,False,threshold
+959,A1XD6THGBT1T9T,linear probe,线性探针,线性探测器,False,True,False,False,threshold
+960,A3MDTRJTDIDNX,language representation,语言表征,语言表示,True,False,False,False,threshold
+961,A3MDTRJTDIDNX,latent representation,潜在表征,潜在表示,True,False,False,False,threshold
+962,A3MDTRJTDIDNX,least square minimization,最小二乘法最小化,最小二乘最小化,False,True,False,False,threshold
+963,A3MDTRJTDIDNX,linear function approximation,线性函数逼近,线性函数近似,True,False,False,False,threshold
+964,A3MDTRJTDIDNX,linear probe,线性探针,线性探测器,True,False,False,False,threshold
+965,AWPXR7XE6B8KD,language representation,语言表征,语言表示,True,False,False,False,threshold
+966,AWPXR7XE6B8KD,latent representation,潜在表征,潜在表示,True,False,False,False,threshold
+967,AWPXR7XE6B8KD,least square minimization,最小二乘法最小化,最小二乘最小化,False,True,False,False,threshold
+968,AWPXR7XE6B8KD,linear function approximation,线性函数逼近,线性函数近似,True,False,False,False,threshold
+969,AWPXR7XE6B8KD,linear probe,线性探针,线性探测器,False,True,False,False,threshold
+970,AR0QMXHEA9P0M,language representation,语言表征,语言表示,False,False,True,False,threshold
+971,AR0QMXHEA9P0M,latent representation,潜在表征,潜在表示,False,True,False,False,threshold
+972,AR0QMXHEA9P0M,least square minimization,最小二乘法最小化,最小二乘最小化,False,False,True,False,threshold
+973,AR0QMXHEA9P0M,linear function approximation,线性函数逼近,线性函数近似,False,True,False,False,threshold
+974,AR0QMXHEA9P0M,linear probe,线性探针,线性探测器,False,False,True,False,threshold
+975,A2FK6782M09EBO,local optima,局部最优,局部最优解,False,False,True,False,threshold
+976,A2FK6782M09EBO,log-odd score,对数几率得分,对数优势分数,False,True,False,False,threshold
+977,A2FK6782M09EBO,macro-action,宏动作,宏观动作,False,True,False,False,threshold
+978,A2FK6782M09EBO,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,True,False,False,False,threshold
+979,A2FK6782M09EBO,model inference,模型推断,模型推理,False,True,False,False,threshold
+980,A2QX81MMC8KN80,local optima,局部最优,局部最优解,False,False,True,False,threshold
+981,A2QX81MMC8KN80,log-odd score,对数几率得分,对数优势分数,False,False,False,True,threshold
+982,A2QX81MMC8KN80,macro-action,宏动作,宏观动作,False,False,True,False,threshold
+983,A2QX81MMC8KN80,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,False,True,False,False,threshold
+984,A2QX81MMC8KN80,model inference,模型推断,模型推理,False,False,True,False,threshold
+985,A2D6SB3TU1NYQ7,local optima,局部最优,局部最优解,True,False,False,False,threshold
+986,A2D6SB3TU1NYQ7,log-odd score,对数几率得分,对数优势分数,False,True,False,False,threshold
+987,A2D6SB3TU1NYQ7,macro-action,宏动作,宏观动作,False,True,False,False,threshold
+988,A2D6SB3TU1NYQ7,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,True,False,False,False,threshold
+989,A2D6SB3TU1NYQ7,model inference,模型推断,模型推理,True,False,False,False,threshold
+990,AR0QMXHEA9P0M,local optima,局部最优,局部最优解,False,True,False,False,threshold
+991,AR0QMXHEA9P0M,log-odd score,对数几率得分,对数优势分数,False,False,True,False,threshold
+992,AR0QMXHEA9P0M,macro-action,宏动作,宏观动作,False,True,False,False,threshold
+993,AR0QMXHEA9P0M,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,False,False,True,False,threshold
+994,AR0QMXHEA9P0M,model inference,模型推断,模型推理,False,True,False,False,threshold
+995,AWGV35294HOYB,local optima,局部最优,局部最优解,True,False,False,False,threshold
+996,AWGV35294HOYB,log-odd score,对数几率得分,对数优势分数,True,False,False,False,threshold
+997,AWGV35294HOYB,macro-action,宏动作,宏观动作,True,False,False,False,threshold
+998,AWGV35294HOYB,matrix-vector multiplication,矩阵向量乘法,矩阵-向量乘法,True,False,False,False,threshold
+999,AWGV35294HOYB,model inference,模型推断,模型推理,True,False,False,False,threshold
+1000,A3MDTRJTDIDNX,monotonic,单调性,单调的,False,True,False,False,threshold
+1001,A3MDTRJTDIDNX,multi-armed bandit,多臂老虎机问题,多臂赌博机,True,False,False,False,threshold
+1002,A3MDTRJTDIDNX,multi-class,多类,多类别,False,True,False,False,threshold
+1003,A3MDTRJTDIDNX,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,True,False,False,False,threshold
+1004,A3MDTRJTDIDNX,multiclass classifier,多类别分类器,多类分类器,True,False,False,False,threshold
+1005,A3IG9HHR3NL9R0,monotonic,单调性,单调的,False,True,False,False,threshold
+1006,A3IG9HHR3NL9R0,multi-armed bandit,多臂老虎机问题,多臂赌博机,True,False,False,False,threshold
+1007,A3IG9HHR3NL9R0,multi-class,多类,多类别,True,False,False,False,threshold
+1008,A3IG9HHR3NL9R0,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,True,False,False,False,threshold
+1009,A3IG9HHR3NL9R0,multiclass classifier,多类别分类器,多类分类器,True,False,False,False,threshold
+1010,A2FXDEKCCUT9OJ,monotonic,单调性,单调的,False,True,False,False,threshold
+1011,A2FXDEKCCUT9OJ,multi-armed bandit,多臂老虎机问题,多臂赌博机,True,False,False,False,threshold
+1012,A2FXDEKCCUT9OJ,multi-class,多类,多类别,False,True,False,False,threshold
+1013,A2FXDEKCCUT9OJ,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,True,False,False,False,threshold
+1014,A2FXDEKCCUT9OJ,multiclass classifier,多类别分类器,多类分类器,True,False,False,False,threshold
+1015,A1VTM2VA8HN848,monotonic,单调性,单调的,False,True,False,False,threshold
+1016,A1VTM2VA8HN848,multi-armed bandit,多臂老虎机问题,多臂赌博机,False,True,False,False,threshold
+1017,A1VTM2VA8HN848,multi-class,多类,多类别,True,False,False,False,threshold
+1018,A1VTM2VA8HN848,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,True,False,False,False,threshold
+1019,A1VTM2VA8HN848,multiclass classifier,多类别分类器,多类分类器,True,False,False,False,threshold
+1020,A3OAFR48DADAOM,monotonic,单调性,单调的,False,True,False,False,threshold
+1021,A3OAFR48DADAOM,multi-armed bandit,多臂老虎机问题,多臂赌博机,True,False,False,False,threshold
+1022,A3OAFR48DADAOM,multi-class,多类,多类别,True,False,False,False,threshold
+1023,A3OAFR48DADAOM,multi-class logistic regression,多类逻辑回归,多类别逻辑回归,True,False,False,False,threshold
+1024,A3OAFR48DADAOM,multiclass classifier,多类别分类器,多类分类器,True,False,False,False,threshold
+1025,A38SYZRVLTMOFG,mutex,互斥量,互斥锁,False,True,False,False,threshold
+1026,A38SYZRVLTMOFG,normalized cut,归一化割,归一化切割,True,False,False,False,threshold
+1027,A38SYZRVLTMOFG,one-hot representation,独热编码表示,独热表示,False,True,False,False,threshold
+1028,A38SYZRVLTMOFG,ontology-mediated query,本体介导查询,本体中介查询,True,False,False,False,threshold
+1029,A38SYZRVLTMOFG,open set,开放集,开集,True,False,False,False,threshold
+1030,A3MDTRJTDIDNX,mutex,互斥量,互斥锁,False,False,True,False,threshold
+1031,A3MDTRJTDIDNX,normalized cut,归一化割,归一化切割,True,False,False,False,threshold
+1032,A3MDTRJTDIDNX,one-hot representation,独热编码表示,独热表示,False,True,False,False,threshold
+1033,A3MDTRJTDIDNX,ontology-mediated query,本体介导查询,本体中介查询,False,True,False,False,threshold
+1034,A3MDTRJTDIDNX,open set,开放集,开集,True,False,False,False,threshold
+1035,A3OAFR48DADAOM,mutex,互斥量,互斥锁,False,False,True,False,threshold
+1036,A3OAFR48DADAOM,normalized cut,归一化割,归一化切割,True,False,False,False,threshold
+1037,A3OAFR48DADAOM,one-hot representation,独热编码表示,独热表示,False,True,False,False,threshold
+1038,A3OAFR48DADAOM,ontology-mediated query,本体介导查询,本体中介查询,False,True,False,False,threshold
+1039,A3OAFR48DADAOM,open set,开放集,开集,True,False,False,False,threshold
+1040,AVW3ODRZWQ6WT,mutex,互斥量,互斥锁,False,True,False,False,threshold
+1041,AVW3ODRZWQ6WT,normalized cut,归一化割,归一化切割,False,False,True,False,threshold
+1042,AVW3ODRZWQ6WT,one-hot representation,独热编码表示,独热表示,False,False,False,True,threshold
+1043,AVW3ODRZWQ6WT,ontology-mediated query,本体介导查询,本体中介查询,False,True,False,False,threshold
+1044,AVW3ODRZWQ6WT,open set,开放集,开集,False,False,True,False,threshold
+1045,A186ORPGIU3WNL,mutex,互斥量,互斥锁,False,False,True,False,threshold
+1046,A186ORPGIU3WNL,normalized cut,归一化割,归一化切割,False,True,False,False,threshold
+1047,A186ORPGIU3WNL,one-hot representation,独热编码表示,独热表示,True,False,False,False,threshold
+1048,A186ORPGIU3WNL,ontology-mediated query,本体介导查询,本体中介查询,False,True,False,False,threshold
+1049,A186ORPGIU3WNL,open set,开放集,开集,True,False,False,False,threshold
+1050,A2BQ0VBP0USWO,paraphrase,同义改写,释义,False,True,False,False,threshold
+1051,A2BQ0VBP0USWO,pattern profile,模式特征,模式概况,False,True,False,False,threshold
+1052,A2BQ0VBP0USWO,pattern summarization,模式总结,模式摘要,True,False,False,False,threshold
+1053,A2BQ0VBP0USWO,payoff function,payoff函数,收益函数,False,False,True,False,threshold
+1054,A2BQ0VBP0USWO,perceptual feature,知觉特征,感知特征,True,False,False,False,threshold
+1055,A3IG9HHR3NL9R0,paraphrase,同义改写,释义,False,True,False,False,threshold
+1056,A3IG9HHR3NL9R0,pattern profile,模式特征,模式概况,True,False,False,False,threshold
+1057,A3IG9HHR3NL9R0,pattern summarization,模式总结,模式摘要,True,False,False,False,threshold
+1058,A3IG9HHR3NL9R0,payoff function,payoff函数,收益函数,False,False,True,False,threshold
+1059,A3IG9HHR3NL9R0,perceptual feature,知觉特征,感知特征,True,False,False,False,threshold
+1060,A2E2FFMXS9F9KR,paraphrase,同义改写,释义,False,True,False,False,threshold
+1061,A2E2FFMXS9F9KR,pattern profile,模式特征,模式概况,True,False,False,False,threshold
+1062,A2E2FFMXS9F9KR,pattern summarization,模式总结,模式摘要,True,False,False,False,threshold
+1063,A2E2FFMXS9F9KR,payoff function,payoff函数,收益函数,False,False,True,False,threshold
+1064,A2E2FFMXS9F9KR,perceptual feature,知觉特征,感知特征,True,False,False,False,threshold
+1065,A251BWQW2F81FT,paraphrase,同义改写,释义,False,True,False,False,threshold
+1066,A251BWQW2F81FT,pattern profile,模式特征,模式概况,True,False,False,False,threshold
+1067,A251BWQW2F81FT,pattern summarization,模式总结,模式摘要,True,False,False,False,threshold
+1068,A251BWQW2F81FT,payoff function,payoff函数,收益函数,False,False,True,False,threshold
+1069,A251BWQW2F81FT,perceptual feature,知觉特征,感知特征,True,False,False,False,threshold
+1070,A3MDTRJTDIDNX,paraphrase,同义改写,释义,False,True,False,False,threshold
+1071,A3MDTRJTDIDNX,pattern profile,模式特征,模式概况,True,False,False,False,threshold
+1072,A3MDTRJTDIDNX,pattern summarization,模式总结,模式摘要,True,False,False,False,threshold
+1073,A3MDTRJTDIDNX,payoff function,payoff函数,收益函数,False,False,True,False,threshold
+1074,A3MDTRJTDIDNX,perceptual feature,知觉特征,感知特征,True,False,False,False,threshold
+1075,A35H5DUMZH86PC,presence penalty,出现惩罚,存在惩罚,False,False,True,False,threshold
+1076,A35H5DUMZH86PC,projective dependency parsing,投影依存句法分析,投影依赖解析,True,False,False,False,threshold
+1077,A35H5DUMZH86PC,projective parsing,投射解析,投影解析,True,False,False,False,threshold
+1078,A35H5DUMZH86PC,quantal response equilibrium,量子响应均衡,量子反应均衡,True,False,False,False,threshold
+1079,A35H5DUMZH86PC,randomized algorithm,随机算法,随机化算法,True,False,False,False,threshold
+1080,A2GJB7TBZM91Z4,presence penalty,出现惩罚,存在惩罚,False,False,True,False,threshold
+1081,A2GJB7TBZM91Z4,projective dependency parsing,投影依存句法分析,投影依赖解析,True,False,False,False,threshold
+1082,A2GJB7TBZM91Z4,projective parsing,投射解析,投影解析,False,False,True,False,threshold
+1083,A2GJB7TBZM91Z4,quantal response equilibrium,量子响应均衡,量子反应均衡,True,False,False,False,threshold
+1084,A2GJB7TBZM91Z4,randomized algorithm,随机算法,随机化算法,True,False,False,False,threshold
+1085,A39PWDRYNY2WM0,presence penalty,出现惩罚,存在惩罚,False,False,True,False,threshold
+1086,A39PWDRYNY2WM0,projective dependency parsing,投影依存句法分析,投影依赖解析,True,False,False,False,threshold
+1087,A39PWDRYNY2WM0,projective parsing,投射解析,投影解析,False,False,True,False,threshold
+1088,A39PWDRYNY2WM0,quantal response equilibrium,量子响应均衡,量子反应均衡,True,False,False,False,threshold
+1089,A39PWDRYNY2WM0,randomized algorithm,随机算法,随机化算法,True,False,False,False,threshold
+1090,A2QX81MMC8KN80,presence penalty,出现惩罚,存在惩罚,False,False,True,False,threshold
+1091,A2QX81MMC8KN80,projective dependency parsing,投影依存句法分析,投影依赖解析,False,False,True,False,threshold
+1092,A2QX81MMC8KN80,projective parsing,投射解析,投影解析,False,False,True,False,threshold
+1093,A2QX81MMC8KN80,quantal response equilibrium,量子响应均衡,量子反应均衡,False,False,True,False,threshold
+1094,A2QX81MMC8KN80,randomized algorithm,随机算法,随机化算法,False,False,True,False,threshold
+1095,A3OAFR48DADAOM,presence penalty,出现惩罚,存在惩罚,False,False,True,False,threshold
+1096,A3OAFR48DADAOM,projective dependency parsing,投影依存句法分析,投影依赖解析,True,False,False,False,threshold
+1097,A3OAFR48DADAOM,projective parsing,投射解析,投影解析,False,False,True,False,threshold
+1098,A3OAFR48DADAOM,quantal response equilibrium,量子响应均衡,量子反应均衡,True,False,False,False,threshold
+1099,A3OAFR48DADAOM,randomized algorithm,随机算法,随机化算法,True,False,False,False,threshold
+1100,A1G4DX33KADZA3,reparameterization trick,重参数化技巧,重新参数化技巧,False,False,True,False,threshold
+1101,A1G4DX33KADZA3,reprojection error,重投影误差,重新投影误差,False,False,False,True,threshold
+1102,A1G4DX33KADZA3,rule body,规则体,规则主体,False,False,True,False,threshold
+1103,A1G4DX33KADZA3,semidefinite program,半正定规划,半正定程序,False,False,True,False,threshold
+1104,A1G4DX33KADZA3,sentiment transfer,情感迁移,情感转移,False,False,True,False,threshold
+1105,A2P8U65V6NL7B5,reparameterization trick,重参数化技巧,重新参数化技巧,True,False,False,False,threshold
+1106,A2P8U65V6NL7B5,reprojection error,重投影误差,重新投影误差,True,False,False,False,threshold
+1107,A2P8U65V6NL7B5,rule body,规则体,规则主体,False,True,False,False,threshold
+1108,A2P8U65V6NL7B5,semidefinite program,半正定规划,半正定程序,True,False,False,False,threshold
+1109,A2P8U65V6NL7B5,sentiment transfer,情感迁移,情感转移,True,False,False,False,threshold
+1110,A3EKM55NFX1H6B,reparameterization trick,重参数化技巧,重新参数化技巧,True,False,False,False,threshold
+1111,A3EKM55NFX1H6B,reprojection error,重投影误差,重新投影误差,True,False,False,False,threshold
+1112,A3EKM55NFX1H6B,rule body,规则体,规则主体,False,True,False,False,threshold
+1113,A3EKM55NFX1H6B,semidefinite program,半正定规划,半正定程序,True,False,False,False,threshold
+1114,A3EKM55NFX1H6B,sentiment transfer,情感迁移,情感转移,True,False,False,False,threshold
+1115,ASML73P0NOOVV,reparameterization trick,重参数化技巧,重新参数化技巧,True,False,False,False,threshold
+1116,ASML73P0NOOVV,reprojection error,重投影误差,重新投影误差,True,False,False,False,threshold
+1117,ASML73P0NOOVV,rule body,规则体,规则主体,False,True,False,False,threshold
+1118,ASML73P0NOOVV,semidefinite program,半正定规划,半正定程序,True,False,False,False,threshold
+1119,ASML73P0NOOVV,sentiment transfer,情感迁移,情感转移,True,False,False,False,threshold
+1120,A186ORPGIU3WNL,reparameterization trick,重参数化技巧,重新参数化技巧,True,False,False,False,threshold
+1121,A186ORPGIU3WNL,reprojection error,重投影误差,重新投影误差,True,False,False,False,threshold
+1122,A186ORPGIU3WNL,rule body,规则体,规则主体,False,True,False,False,threshold
+1123,A186ORPGIU3WNL,semidefinite program,半正定规划,半正定程序,True,False,False,False,threshold
+1124,A186ORPGIU3WNL,sentiment transfer,情感迁移,情感转移,True,False,False,False,threshold
+1125,AWULBUF1OMXQ5,similarity measure,相似性度量,相似度度量,False,True,False,False,threshold
+1126,AWULBUF1OMXQ5,skip-gram model,跳词模型,跳字模型,False,False,True,False,threshold
+1127,AWULBUF1OMXQ5,softmax function,softmax 函数,softmax函数,False,True,False,False,threshold
+1128,AWULBUF1OMXQ5,softmax loss,softmax 损失,softmax损失,False,False,True,False,threshold
+1129,AWULBUF1OMXQ5,spectral embedding,光谱嵌入,谱嵌入,False,True,False,False,threshold
+1130,A9M8N3BOH6013,similarity measure,相似性度量,相似度度量,True,False,False,False,threshold
+1131,A9M8N3BOH6013,skip-gram model,跳词模型,跳字模型,False,True,False,False,threshold
+1132,A9M8N3BOH6013,softmax function,softmax 函数,softmax函数,True,False,False,False,threshold
+1133,A9M8N3BOH6013,softmax loss,softmax 损失,softmax损失,True,False,False,False,threshold
+1134,A9M8N3BOH6013,spectral embedding,光谱嵌入,谱嵌入,True,False,False,False,threshold
+1135,A3HSZ9YLOBCCPR,similarity measure,相似性度量,相似度度量,True,False,False,False,threshold
+1136,A3HSZ9YLOBCCPR,skip-gram model,跳词模型,跳字模型,False,True,False,False,threshold
+1137,A3HSZ9YLOBCCPR,softmax function,softmax 函数,softmax函数,False,False,True,False,threshold
+1138,A3HSZ9YLOBCCPR,softmax loss,softmax 损失,softmax损失,False,False,True,False,threshold
+1139,A3HSZ9YLOBCCPR,spectral embedding,光谱嵌入,谱嵌入,True,False,False,False,threshold
+1140,A3Q32FL0WWF4KZ,similarity measure,相似性度量,相似度度量,False,True,False,False,threshold
+1141,A3Q32FL0WWF4KZ,skip-gram model,跳词模型,跳字模型,False,True,False,False,threshold
+1142,A3Q32FL0WWF4KZ,softmax function,softmax 函数,softmax函数,True,False,False,False,threshold
+1143,A3Q32FL0WWF4KZ,softmax loss,softmax 损失,softmax损失,True,False,False,False,threshold
+1144,A3Q32FL0WWF4KZ,spectral embedding,光谱嵌入,谱嵌入,True,False,False,False,threshold
+1145,A39PWDRYNY2WM0,similarity measure,相似性度量,相似度度量,True,False,False,False,threshold
+1146,A39PWDRYNY2WM0,skip-gram model,跳词模型,跳字模型,False,True,False,False,threshold
+1147,A39PWDRYNY2WM0,softmax function,softmax 函数,softmax函数,True,False,False,False,threshold
+1148,A39PWDRYNY2WM0,softmax loss,softmax 损失,softmax损失,True,False,False,False,threshold
+1149,A39PWDRYNY2WM0,spectral embedding,光谱嵌入,谱嵌入,True,False,False,False,threshold
+1150,A3AHE81HVRXFCD,spectral learning,光谱学习,谱学习,False,True,False,False,threshold
+1151,A3AHE81HVRXFCD,state of the art algorithm,最先进的算法,最先进算法,True,False,False,False,threshold
+1152,A3AHE81HVRXFCD,state transition,状态转换,状态转移,True,False,False,False,threshold
+1153,A3AHE81HVRXFCD,stereo pair,立体像对,立体对,False,True,False,False,threshold
+1154,A3AHE81HVRXFCD,stochastic gradient method,随机梯度法,随机梯度方法,True,False,False,False,threshold
+1155,A2WPXOAESFQ5TS,spectral learning,光谱学习,谱学习,False,True,False,False,threshold
+1156,A2WPXOAESFQ5TS,state of the art algorithm,最先进的算法,最先进算法,False,True,False,False,threshold
+1157,A2WPXOAESFQ5TS,state transition,状态转换,状态转移,True,False,False,False,threshold
+1158,A2WPXOAESFQ5TS,stereo pair,立体像对,立体对,False,True,False,False,threshold
+1159,A2WPXOAESFQ5TS,stochastic gradient method,随机梯度法,随机梯度方法,False,True,False,False,threshold
+1160,A35H5DUMZH86PC,spectral learning,光谱学习,谱学习,True,False,False,False,threshold
+1161,A35H5DUMZH86PC,state of the art algorithm,最先进的算法,最先进算法,True,False,False,False,threshold
+1162,A35H5DUMZH86PC,state transition,状态转换,状态转移,True,False,False,False,threshold
+1163,A35H5DUMZH86PC,stereo pair,立体像对,立体对,True,False,False,False,threshold
+1164,A35H5DUMZH86PC,stochastic gradient method,随机梯度法,随机梯度方法,True,False,False,False,threshold
+1165,A2GJB7TBZM91Z4,spectral learning,光谱学习,谱学习,True,False,False,False,threshold
+1166,A2GJB7TBZM91Z4,state of the art algorithm,最先进的算法,最先进算法,False,True,False,False,threshold
+1167,A2GJB7TBZM91Z4,state transition,状态转换,状态转移,True,False,False,False,threshold
+1168,A2GJB7TBZM91Z4,stereo pair,立体像对,立体对,False,True,False,False,threshold
+1169,A2GJB7TBZM91Z4,stochastic gradient method,随机梯度法,随机梯度方法,True,False,False,False,threshold
+1170,AWGV35294HOYB,spectral learning,光谱学习,谱学习,False,True,False,False,threshold
+1171,AWGV35294HOYB,state of the art algorithm,最先进的算法,最先进算法,False,True,False,False,threshold
+1172,AWGV35294HOYB,state transition,状态转换,状态转移,True,False,False,False,threshold
+1173,AWGV35294HOYB,stereo pair,立体像对,立体对,False,True,False,False,threshold
+1174,AWGV35294HOYB,stochastic gradient method,随机梯度法,随机梯度方法,False,True,False,False,threshold
+1175,AJWAJUWSKH1FO,structured perceptron,结构化感知机,结构化感知器,True,False,False,False,threshold
+1176,AJWAJUWSKH1FO,surrogate function,代理函数,替代函数,True,False,False,False,threshold
+1177,AJWAJUWSKH1FO,syntactic category,句法范畴,句法类别,True,False,False,False,threshold
+1178,AJWAJUWSKH1FO,tagger,词性标注器,标注器,False,True,False,False,threshold
+1179,AJWAJUWSKH1FO,target token,目标词元,目标标记,True,False,False,False,threshold
+1180,AWPXR7XE6B8KD,structured perceptron,结构化感知机,结构化感知器,True,False,False,False,threshold
+1181,AWPXR7XE6B8KD,surrogate function,代理函数,替代函数,True,False,False,False,threshold
+1182,AWPXR7XE6B8KD,syntactic category,句法范畴,句法类别,True,False,False,False,threshold
+1183,AWPXR7XE6B8KD,tagger,词性标注器,标注器,False,True,False,False,threshold
+1184,AWPXR7XE6B8KD,target token,目标词元,目标标记,False,True,False,False,threshold
+1185,A2E2FFMXS9F9KR,structured perceptron,结构化感知机,结构化感知器,False,True,False,False,threshold
+1186,A2E2FFMXS9F9KR,surrogate function,代理函数,替代函数,True,False,False,False,threshold
+1187,A2E2FFMXS9F9KR,syntactic category,句法范畴,句法类别,True,False,False,False,threshold
+1188,A2E2FFMXS9F9KR,tagger,词性标注器,标注器,False,True,False,False,threshold
+1189,A2E2FFMXS9F9KR,target token,目标词元,目标标记,False,True,False,False,threshold
+1190,A38SYZRVLTMOFG,structured perceptron,结构化感知机,结构化感知器,True,False,False,False,threshold
+1191,A38SYZRVLTMOFG,surrogate function,代理函数,替代函数,True,False,False,False,threshold
+1192,A38SYZRVLTMOFG,syntactic category,句法范畴,句法类别,True,False,False,False,threshold
+1193,A38SYZRVLTMOFG,tagger,词性标注器,标注器,False,True,False,False,threshold
+1194,A38SYZRVLTMOFG,target token,目标词元,目标标记,True,False,False,False,threshold
+1195,A2P8U65V6NL7B5,structured perceptron,结构化感知机,结构化感知器,False,True,False,False,threshold
+1196,A2P8U65V6NL7B5,surrogate function,代理函数,替代函数,True,False,False,False,threshold
+1197,A2P8U65V6NL7B5,syntactic category,句法范畴,句法类别,True,False,False,False,threshold
+1198,A2P8U65V6NL7B5,tagger,词性标注器,标注器,False,True,False,False,threshold
+1199,A2P8U65V6NL7B5,target token,目标词元,目标标记,True,False,False,False,threshold
+1200,A14ICQPNQ6RZXB,transformation function,变换函数,转换函数,False,False,True,False,threshold
+1201,A14ICQPNQ6RZXB,value network,价值网络,值网络,False,True,False,False,threshold
+1202,A14ICQPNQ6RZXB,zero-one loss,0-1损失,零一损失,True,False,False,False,threshold
+1203,A14ICQPNQ6RZXB,A2C,优势-价值,A2C,False,True,False,False,threshold
+1204,A14ICQPNQ6RZXB,Bernoulli,伯努利分布,伯努利,True,False,False,False,threshold
+1205,A2P8U65V6NL7B5,transformation function,变换函数,转换函数,True,False,False,False,threshold
+1206,A2P8U65V6NL7B5,value network,价值网络,值网络,False,True,False,False,threshold
+1207,A2P8U65V6NL7B5,zero-one loss,0-1损失,零一损失,True,False,False,False,threshold
+1208,A2P8U65V6NL7B5,A2C,优势-价值,A2C,False,False,True,False,threshold
+1209,A2P8U65V6NL7B5,Bernoulli,伯努利分布,伯努利,True,False,False,False,threshold
+1210,A30IGMGSC7G2HM,transformation function,变换函数,转换函数,False,True,False,False,threshold
+1211,A30IGMGSC7G2HM,value network,价值网络,值网络,True,False,False,False,threshold
+1212,A30IGMGSC7G2HM,zero-one loss,0-1损失,零一损失,True,False,False,False,threshold
+1213,A30IGMGSC7G2HM,A2C,优势-价值,A2C,False,False,True,False,threshold
+1214,A30IGMGSC7G2HM,Bernoulli,伯努利分布,伯努利,True,False,False,False,threshold
+1215,AWGV35294HOYB,transformation function,变换函数,转换函数,False,True,False,False,threshold
+1216,AWGV35294HOYB,value network,价值网络,值网络,True,False,False,False,threshold
+1217,AWGV35294HOYB,zero-one loss,0-1损失,零一损失,True,False,False,False,threshold
+1218,AWGV35294HOYB,A2C,优势-价值,A2C,False,True,False,False,threshold
+1219,AWGV35294HOYB,Bernoulli,伯努利分布,伯努利,True,False,False,False,threshold
+1220,A2YVLMI4PRDECY,transformation function,变换函数,转换函数,True,False,False,False,threshold
+1221,A2YVLMI4PRDECY,value network,价值网络,值网络,False,True,False,False,threshold
+1222,A2YVLMI4PRDECY,zero-one loss,0-1损失,零一损失,True,False,False,False,threshold
+1223,A2YVLMI4PRDECY,A2C,优势-价值,A2C,False,False,True,False,threshold
+1224,A2YVLMI4PRDECY,Bernoulli,伯努利分布,伯努利,True,False,False,False,threshold
+1225,AG9MLSV2QCVD4,Euclidean distance,欧氏距离,欧几里得距离,True,False,False,False,threshold
+1226,AG9MLSV2QCVD4,Hedge algorithm,Hedge算法,对冲算法,False,False,True,False,threshold
+1227,AG9MLSV2QCVD4,Hessian-vector product,海森矩阵-向量积,海森向量积,False,True,False,False,threshold
+1228,AG9MLSV2QCVD4,Machine Comprehension,机器阅读理解,机器理解,False,True,False,False,threshold
+1229,AG9MLSV2QCVD4,Routing Transformer,路由变压器,路由变换器,False,True,False,False,threshold
+1230,A2GJB7TBZM91Z4,Euclidean distance,欧氏距离,欧几里得距离,True,False,False,False,threshold
+1231,A2GJB7TBZM91Z4,Hedge algorithm,Hedge算法,对冲算法,False,True,False,False,threshold
+1232,A2GJB7TBZM91Z4,Hessian-vector product,海森矩阵-向量积,海森向量积,False,True,False,False,threshold
+1233,A2GJB7TBZM91Z4,Machine Comprehension,机器阅读理解,机器理解,True,False,False,False,threshold
+1234,A2GJB7TBZM91Z4,Routing Transformer,路由变压器,路由变换器,True,False,False,False,threshold
+1235,A2D6SB3TU1NYQ7,Euclidean distance,欧氏距离,欧几里得距离,True,False,False,False,threshold
+1236,A2D6SB3TU1NYQ7,Hedge algorithm,Hedge算法,对冲算法,False,True,False,False,threshold
+1237,A2D6SB3TU1NYQ7,Hessian-vector product,海森矩阵-向量积,海森向量积,False,True,False,False,threshold
+1238,A2D6SB3TU1NYQ7,Machine Comprehension,机器阅读理解,机器理解,False,True,False,False,threshold
+1239,A2D6SB3TU1NYQ7,Routing Transformer,路由变压器,路由变换器,False,True,False,False,threshold
+1240,A2YVLMI4PRDECY,Euclidean distance,欧氏距离,欧几里得距离,True,False,False,False,threshold
+1241,A2YVLMI4PRDECY,Hedge algorithm,Hedge算法,对冲算法,True,False,False,False,threshold
+1242,A2YVLMI4PRDECY,Hessian-vector product,海森矩阵-向量积,海森向量积,False,True,False,False,threshold
+1243,A2YVLMI4PRDECY,Machine Comprehension,机器阅读理解,机器理解,False,True,False,False,threshold
+1244,A2YVLMI4PRDECY,Routing Transformer,路由变压器,路由变换器,True,False,False,False,threshold
+1245,A3OAFR48DADAOM,Euclidean distance,欧氏距离,欧几里得距离,True,False,False,False,threshold
+1246,A3OAFR48DADAOM,Hedge algorithm,Hedge算法,对冲算法,False,True,False,False,threshold
+1247,A3OAFR48DADAOM,Hessian-vector product,海森矩阵-向量积,海森向量积,False,True,False,False,threshold
+1248,A3OAFR48DADAOM,Machine Comprehension,机器阅读理解,机器理解,False,True,False,False,threshold
+1249,A3OAFR48DADAOM,Routing Transformer,路由变压器,路由变换器,False,True,False,False,threshold
+1250,A3MDTRJTDIDNX,Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,True,False,False,False,threshold
+1251,A3MDTRJTDIDNX,Token,词元,令牌,False,True,False,False,threshold
+1252,A3MDTRJTDIDNX,Transformer,Transformer,变换器,False,True,False,False,threshold
+1253,A3MDTRJTDIDNX,annotated corpus,标注语料库,注释语料库,True,False,False,False,threshold
+1254,A3MDTRJTDIDNX,answer span,答案跨度,答案范围,False,True,False,False,threshold
+1255,A2GJB7TBZM91Z4,Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,True,False,False,False,threshold
+1256,A2GJB7TBZM91Z4,Token,词元,令牌,False,True,False,False,threshold
+1257,A2GJB7TBZM91Z4,Transformer,Transformer,变换器,False,True,False,False,threshold
+1258,A2GJB7TBZM91Z4,annotated corpus,标注语料库,注释语料库,False,True,False,False,threshold
+1259,A2GJB7TBZM91Z4,answer span,答案跨度,答案范围,False,True,False,False,threshold
+1260,A9M8N3BOH6013,Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,True,False,False,False,threshold
+1261,A9M8N3BOH6013,Token,词元,令牌,False,True,False,False,threshold
+1262,A9M8N3BOH6013,Transformer,Transformer,变换器,False,True,False,False,threshold
+1263,A9M8N3BOH6013,annotated corpus,标注语料库,注释语料库,True,False,False,False,threshold
+1264,A9M8N3BOH6013,answer span,答案跨度,答案范围,False,False,True,False,threshold
+1265,A2QX81MMC8KN80,Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,False,True,False,False,threshold
+1266,A2QX81MMC8KN80,Token,词元,令牌,False,False,True,False,threshold
+1267,A2QX81MMC8KN80,Transformer,Transformer,变换器,False,False,True,False,threshold
+1268,A2QX81MMC8KN80,annotated corpus,标注语料库,注释语料库,False,False,True,False,threshold
+1269,A2QX81MMC8KN80,answer span,答案跨度,答案范围,False,False,True,False,threshold
+1270,A2MZEUP2ECO1AI,Spearman rank correlation,斯皮尔曼秩相关,斯皮尔曼等级相关,True,False,False,False,threshold
+1271,A2MZEUP2ECO1AI,Token,词元,令牌,True,False,False,False,threshold
+1272,A2MZEUP2ECO1AI,Transformer,Transformer,变换器,False,True,False,False,threshold
+1273,A2MZEUP2ECO1AI,annotated corpus,标注语料库,注释语料库,True,False,False,False,threshold
+1274,A2MZEUP2ECO1AI,answer span,答案跨度,答案范围,False,True,False,False,threshold
+1275,A3MDTRJTDIDNX,averaged perceptron algorithm,平均感知机算法,平均感知器算法,True,False,False,False,threshold
+1276,A3MDTRJTDIDNX,back-off strategy,退避策略,回退策略,True,False,False,False,threshold
+1277,A3MDTRJTDIDNX,beam search algorithm,波束搜索算法,束搜索算法,False,True,False,False,threshold
+1278,A3MDTRJTDIDNX,big-O notation,大O表示法,大O符号,True,False,False,False,threshold
+1279,A3MDTRJTDIDNX,block matrix,分块矩阵,块矩阵,True,False,False,False,threshold
+1280,ASML73P0NOOVV,averaged perceptron algorithm,平均感知机算法,平均感知器算法,True,False,False,False,threshold
+1281,ASML73P0NOOVV,back-off strategy,退避策略,回退策略,True,False,False,False,threshold
+1282,ASML73P0NOOVV,beam search algorithm,波束搜索算法,束搜索算法,True,False,False,False,threshold
+1283,ASML73P0NOOVV,big-O notation,大O表示法,大O符号,True,False,False,False,threshold
+1284,ASML73P0NOOVV,block matrix,分块矩阵,块矩阵,True,False,False,False,threshold
+1285,A2ZLQZJD9I7NAL,averaged perceptron algorithm,平均感知机算法,平均感知器算法,True,False,False,False,threshold
+1286,A2ZLQZJD9I7NAL,back-off strategy,退避策略,回退策略,False,False,True,False,threshold
+1287,A2ZLQZJD9I7NAL,beam search algorithm,波束搜索算法,束搜索算法,False,True,False,False,threshold
+1288,A2ZLQZJD9I7NAL,big-O notation,大O表示法,大O符号,True,False,False,False,threshold
+1289,A2ZLQZJD9I7NAL,block matrix,分块矩阵,块矩阵,False,True,False,False,threshold
+1290,A3HSZ9YLOBCCPR,averaged perceptron algorithm,平均感知机算法,平均感知器算法,True,False,False,False,threshold
+1291,A3HSZ9YLOBCCPR,back-off strategy,退避策略,回退策略,True,False,False,False,threshold
+1292,A3HSZ9YLOBCCPR,beam search algorithm,波束搜索算法,束搜索算法,True,False,False,False,threshold
+1293,A3HSZ9YLOBCCPR,big-O notation,大O表示法,大O符号,True,False,False,False,threshold
+1294,A3HSZ9YLOBCCPR,block matrix,分块矩阵,块矩阵,True,False,False,False,threshold
+1295,A3OAFR48DADAOM,averaged perceptron algorithm,平均感知机算法,平均感知器算法,True,False,False,False,threshold
+1296,A3OAFR48DADAOM,back-off strategy,退避策略,回退策略,True,False,False,False,threshold
+1297,A3OAFR48DADAOM,beam search algorithm,波束搜索算法,束搜索算法,False,True,False,False,threshold
+1298,A3OAFR48DADAOM,big-O notation,大O表示法,大O符号,True,False,False,False,threshold
+1299,A3OAFR48DADAOM,block matrix,分块矩阵,块矩阵,True,False,False,False,threshold
+1300,A251BWQW2F81FT,brute force search,穷举搜索,暴力搜索,True,False,False,False,threshold
+1301,A251BWQW2F81FT,contextualized embedding,情境化嵌入,上下文化嵌入,False,False,True,False,threshold
+1302,A251BWQW2F81FT,credit assignment,奖励分配,信用分配,False,True,False,False,threshold
+1303,A251BWQW2F81FT,datum dependency,数据依赖,数据依赖性,True,False,False,False,threshold
+1304,A251BWQW2F81FT,dual program,对偶规划,对偶程序,True,False,False,False,threshold
+1305,A11B7MUC7UTFKN,brute force search,穷举搜索,暴力搜索,True,False,False,False,threshold
+1306,A11B7MUC7UTFKN,contextualized embedding,情境化嵌入,上下文化嵌入,False,False,True,False,threshold
+1307,A11B7MUC7UTFKN,credit assignment,奖励分配,信用分配,False,True,False,False,threshold
+1308,A11B7MUC7UTFKN,datum dependency,数据依赖,数据依赖性,True,False,False,False,threshold
+1309,A11B7MUC7UTFKN,dual program,对偶规划,对偶程序,True,False,False,False,threshold
+1310,AG9MLSV2QCVD4,brute force search,穷举搜索,暴力搜索,True,False,False,False,threshold
+1311,AG9MLSV2QCVD4,contextualized embedding,情境化嵌入,上下文化嵌入,False,False,True,False,threshold
+1312,AG9MLSV2QCVD4,credit assignment,奖励分配,信用分配,False,True,False,False,threshold
+1313,AG9MLSV2QCVD4,datum dependency,数据依赖,数据依赖性,True,False,False,False,threshold
+1314,AG9MLSV2QCVD4,dual program,对偶规划,对偶程序,False,True,False,False,threshold
+1315,A186ORPGIU3WNL,brute force search,穷举搜索,暴力搜索,True,False,False,False,threshold
+1316,A186ORPGIU3WNL,contextualized embedding,情境化嵌入,上下文化嵌入,False,False,True,False,threshold
+1317,A186ORPGIU3WNL,credit assignment,奖励分配,信用分配,False,True,False,False,threshold
+1318,A186ORPGIU3WNL,datum dependency,数据依赖,数据依赖性,True,False,False,False,threshold
+1319,A186ORPGIU3WNL,dual program,对偶规划,对偶程序,False,True,False,False,threshold
+1320,A9M8N3BOH6013,brute force search,穷举搜索,暴力搜索,True,False,False,False,threshold
+1321,A9M8N3BOH6013,contextualized embedding,情境化嵌入,上下文化嵌入,False,False,True,False,threshold
+1322,A9M8N3BOH6013,credit assignment,奖励分配,信用分配,True,False,False,False,threshold
+1323,A9M8N3BOH6013,datum dependency,数据依赖,数据依赖性,True,False,False,False,threshold
+1324,A9M8N3BOH6013,dual program,对偶规划,对偶程序,False,True,False,False,threshold
+1325,A2FXDEKCCUT9OJ,facial recognition,人脸识别,面部识别,True,False,False,False,threshold
+1326,A2FXDEKCCUT9OJ,few-shot classification,小样本分类,少样本分类,True,False,False,False,threshold
+1327,A2FXDEKCCUT9OJ,generative parser,生成式解析器,生成解析器,True,False,False,False,threshold
+1328,A2FXDEKCCUT9OJ,hidden size,隐藏层大小,隐藏大小,False,True,False,False,threshold
+1329,A2FXDEKCCUT9OJ,inference process,推断过程,推理过程,False,True,False,False,threshold
+1330,AS0K8SAHI5SQD,facial recognition,人脸识别,面部识别,True,False,False,False,threshold
+1331,AS0K8SAHI5SQD,few-shot classification,小样本分类,少样本分类,True,False,False,False,threshold
+1332,AS0K8SAHI5SQD,generative parser,生成式解析器,生成解析器,False,True,False,False,threshold
+1333,AS0K8SAHI5SQD,hidden size,隐藏层大小,隐藏大小,False,True,False,False,threshold
+1334,AS0K8SAHI5SQD,inference process,推断过程,推理过程,True,False,False,False,threshold
+1335,A3QIWEQXAGMGD,facial recognition,人脸识别,面部识别,True,False,False,False,threshold
+1336,A3QIWEQXAGMGD,few-shot classification,小样本分类,少样本分类,True,False,False,False,threshold
+1337,A3QIWEQXAGMGD,generative parser,生成式解析器,生成解析器,False,True,False,False,threshold
+1338,A3QIWEQXAGMGD,hidden size,隐藏层大小,隐藏大小,False,True,False,False,threshold
+1339,A3QIWEQXAGMGD,inference process,推断过程,推理过程,True,False,False,False,threshold
+1340,AWGV35294HOYB,facial recognition,人脸识别,面部识别,True,False,False,False,threshold
+1341,AWGV35294HOYB,few-shot classification,小样本分类,少样本分类,True,False,False,False,threshold
+1342,AWGV35294HOYB,generative parser,生成式解析器,生成解析器,False,True,False,False,threshold
+1343,AWGV35294HOYB,hidden size,隐藏层大小,隐藏大小,False,True,False,False,threshold
+1344,AWGV35294HOYB,inference process,推断过程,推理过程,True,False,False,False,threshold
+1345,A3OAFR48DADAOM,facial recognition,人脸识别,面部识别,True,False,False,False,threshold
+1346,A3OAFR48DADAOM,few-shot classification,小样本分类,少样本分类,False,True,False,False,threshold
+1347,A3OAFR48DADAOM,generative parser,生成式解析器,生成解析器,False,True,False,False,threshold
+1348,A3OAFR48DADAOM,hidden size,隐藏层大小,隐藏大小,False,True,False,False,threshold
+1349,A3OAFR48DADAOM,inference process,推断过程,推理过程,False,True,False,False,threshold
+1350,A3IG9HHR3NL9R0,leaf node,叶子节点,叶节点,True,False,False,False,threshold
+1351,A3IG9HHR3NL9R0,max-product semiring,最大乘积半环,最大积半环,False,True,False,False,threshold
+1352,A3IG9HHR3NL9R0,multi-classification,多类别分类,多分类,True,False,False,False,threshold
+1353,A3IG9HHR3NL9R0,mutual entropy,互信息,互信息熵,True,False,False,False,threshold
+1354,A3IG9HHR3NL9R0,nominal mention,名词性提及,名义提及,False,True,False,False,threshold
+1355,A1KYZPQ0T7WECC,leaf node,叶子节点,叶节点,True,False,False,False,threshold
+1356,A1KYZPQ0T7WECC,max-product semiring,最大乘积半环,最大积半环,False,True,False,False,threshold
+1357,A1KYZPQ0T7WECC,multi-classification,多类别分类,多分类,True,False,False,False,threshold
+1358,A1KYZPQ0T7WECC,mutual entropy,互信息,互信息熵,False,True,False,False,threshold
+1359,A1KYZPQ0T7WECC,nominal mention,名词性提及,名义提及,False,True,False,False,threshold
+1360,AG9MLSV2QCVD4,leaf node,叶子节点,叶节点,False,True,False,False,threshold
+1361,AG9MLSV2QCVD4,max-product semiring,最大乘积半环,最大积半环,True,False,False,False,threshold
+1362,AG9MLSV2QCVD4,multi-classification,多类别分类,多分类,True,False,False,False,threshold
+1363,AG9MLSV2QCVD4,mutual entropy,互信息,互信息熵,True,False,False,False,threshold
+1364,AG9MLSV2QCVD4,nominal mention,名词性提及,名义提及,False,True,False,False,threshold
+1365,A1L8C30Q9880MH,leaf node,叶子节点,叶节点,False,False,True,False,threshold
+1366,A1L8C30Q9880MH,max-product semiring,最大乘积半环,最大积半环,False,False,True,False,threshold
+1367,A1L8C30Q9880MH,multi-classification,多类别分类,多分类,False,False,True,False,threshold
+1368,A1L8C30Q9880MH,mutual entropy,互信息,互信息熵,False,False,True,False,threshold
+1369,A1L8C30Q9880MH,nominal mention,名词性提及,名义提及,False,False,True,False,threshold
+1370,AVW3ODRZWQ6WT,leaf node,叶子节点,叶节点,False,False,True,False,threshold
+1371,AVW3ODRZWQ6WT,max-product semiring,最大乘积半环,最大积半环,False,True,False,False,threshold
+1372,AVW3ODRZWQ6WT,multi-classification,多类别分类,多分类,False,False,True,False,threshold
+1373,AVW3ODRZWQ6WT,mutual entropy,互信息,互信息熵,False,False,False,True,threshold
+1374,AVW3ODRZWQ6WT,nominal mention,名词性提及,名义提及,False,True,False,False,threshold
+1375,A1G4DX33KADZA3,object proposal,物体候选区域,物体提议,False,False,True,False,threshold
+1376,A1G4DX33KADZA3,object tracking,目标跟踪,物体跟踪,False,False,True,False,threshold
+1377,A1G4DX33KADZA3,part of speech tag,词性标签,词性标记,False,False,False,True,threshold
+1378,A1G4DX33KADZA3,partial evaluation,部分求值,部分评估,False,False,False,False,threshold
+1379,A1G4DX33KADZA3,primal-dual algorithm,原始对偶算法,原始-对偶算法,False,False,True,False,threshold
+1380,A3MDTRJTDIDNX,object proposal,物体候选区域,物体提议,False,True,False,False,threshold
+1381,A3MDTRJTDIDNX,object tracking,目标跟踪,物体跟踪,True,False,False,False,threshold
+1382,A3MDTRJTDIDNX,part of speech tag,词性标签,词性标记,True,False,False,False,threshold
+1383,A3MDTRJTDIDNX,partial evaluation,部分求值,部分评估,False,True,False,False,threshold
+1384,A3MDTRJTDIDNX,primal-dual algorithm,原始对偶算法,原始-对偶算法,True,False,False,False,threshold
+1385,A3QIWEQXAGMGD,object proposal,物体候选区域,物体提议,False,True,False,False,threshold
+1386,A3QIWEQXAGMGD,object tracking,目标跟踪,物体跟踪,True,False,False,False,threshold
+1387,A3QIWEQXAGMGD,part of speech tag,词性标签,词性标记,True,False,False,False,threshold
+1388,A3QIWEQXAGMGD,partial evaluation,部分求值,部分评估,False,True,False,False,threshold
+1389,A3QIWEQXAGMGD,primal-dual algorithm,原始对偶算法,原始-对偶算法,True,False,False,False,threshold
+1390,A2QX81MMC8KN80,object proposal,物体候选区域,物体提议,False,False,True,False,threshold
+1391,A2QX81MMC8KN80,object tracking,目标跟踪,物体跟踪,False,False,False,True,threshold
+1392,A2QX81MMC8KN80,part of speech tag,词性标签,词性标记,False,True,False,False,threshold
+1393,A2QX81MMC8KN80,partial evaluation,部分求值,部分评估,False,False,False,True,threshold
+1394,A2QX81MMC8KN80,primal-dual algorithm,原始对偶算法,原始-对偶算法,False,False,True,False,threshold
+1395,A2YVLMI4PRDECY,object proposal,物体候选区域,物体提议,True,False,False,False,threshold
+1396,A2YVLMI4PRDECY,object tracking,目标跟踪,物体跟踪,True,False,False,False,threshold
+1397,A2YVLMI4PRDECY,part of speech tag,词性标签,词性标记,False,True,False,False,threshold
+1398,A2YVLMI4PRDECY,partial evaluation,部分求值,部分评估,True,False,False,False,threshold
+1399,A2YVLMI4PRDECY,primal-dual algorithm,原始对偶算法,原始-对偶算法,False,False,True,False,threshold
+1400,A2QX81MMC8KN80,recurrent dynamic,循环动力学,循环动态,False,True,False,False,threshold
+1401,A2QX81MMC8KN80,regret bound,遗憾界限,遗憾界,True,False,False,False,threshold
+1402,A2QX81MMC8KN80,regret minimization,后悔最小化,遗憾最小化,False,False,True,False,threshold
+1403,A2QX81MMC8KN80,roll-out policy,回滚策略,展开策略,False,True,False,False,threshold
+1404,A2QX81MMC8KN80,seq2seq model,seq2seq模型,序列到序列模型,False,False,True,False,threshold
+1405,A14ICQPNQ6RZXB,recurrent dynamic,循环动力学,循环动态,False,True,False,False,threshold
+1406,A14ICQPNQ6RZXB,regret bound,遗憾界限,遗憾界,True,False,False,False,threshold
+1407,A14ICQPNQ6RZXB,regret minimization,后悔最小化,遗憾最小化,False,False,True,False,threshold
+1408,A14ICQPNQ6RZXB,roll-out policy,回滚策略,展开策略,False,False,False,True,threshold
+1409,A14ICQPNQ6RZXB,seq2seq model,seq2seq模型,序列到序列模型,False,True,False,False,threshold
+1410,A198MZX1B7ZOPY,recurrent dynamic,循环动力学,循环动态,True,False,False,False,threshold
+1411,A198MZX1B7ZOPY,regret bound,遗憾界限,遗憾界,False,True,False,False,threshold
+1412,A198MZX1B7ZOPY,regret minimization,后悔最小化,遗憾最小化,True,False,False,False,threshold
+1413,A198MZX1B7ZOPY,roll-out policy,回滚策略,展开策略,False,True,False,False,threshold
+1414,A198MZX1B7ZOPY,seq2seq model,seq2seq模型,序列到序列模型,True,False,False,False,threshold
+1415,A3AHE81HVRXFCD,recurrent dynamic,循环动力学,循环动态,False,True,False,False,threshold
+1416,A3AHE81HVRXFCD,regret bound,遗憾界限,遗憾界,False,True,False,False,threshold
+1417,A3AHE81HVRXFCD,regret minimization,后悔最小化,遗憾最小化,True,False,False,False,threshold
+1418,A3AHE81HVRXFCD,roll-out policy,回滚策略,展开策略,False,False,True,False,threshold
+1419,A3AHE81HVRXFCD,seq2seq model,seq2seq模型,序列到序列模型,True,False,False,False,threshold
+1420,A186ORPGIU3WNL,recurrent dynamic,循环动力学,循环动态,False,True,False,False,threshold
+1421,A186ORPGIU3WNL,regret bound,遗憾界限,遗憾界,True,False,False,False,threshold
+1422,A186ORPGIU3WNL,regret minimization,后悔最小化,遗憾最小化,True,False,False,False,threshold
+1423,A186ORPGIU3WNL,roll-out policy,回滚策略,展开策略,False,False,True,False,threshold
+1424,A186ORPGIU3WNL,seq2seq model,seq2seq模型,序列到序列模型,True,False,False,False,threshold
+1425,A2FK6782M09EBO,sequential decision making,序贯决策,序列决策,True,False,False,False,threshold
+1426,A2FK6782M09EBO,similarity function,相似度函数,相似性函数,True,False,False,False,threshold
+1427,A2FK6782M09EBO,span,生成子空间,张成,False,False,True,False,threshold
+1428,A2FK6782M09EBO,syntactic dependency parsing,句法依存解析,句法依赖解析,True,False,False,False,threshold
+1429,A2FK6782M09EBO,tangent space,切线空间,切空间,False,False,True,False,threshold
+1430,A3AHE81HVRXFCD,sequential decision making,序贯决策,序列决策,False,True,False,False,threshold
+1431,A3AHE81HVRXFCD,similarity function,相似度函数,相似性函数,True,False,False,False,threshold
+1432,A3AHE81HVRXFCD,span,生成子空间,张成,False,False,False,True,threshold
+1433,A3AHE81HVRXFCD,syntactic dependency parsing,句法依存解析,句法依赖解析,True,False,False,False,threshold
+1434,A3AHE81HVRXFCD,tangent space,切线空间,切空间,False,True,False,False,threshold
+1435,A1TXP43LIUV140,sequential decision making,序贯决策,序列决策,True,False,False,False,threshold
+1436,A1TXP43LIUV140,similarity function,相似度函数,相似性函数,True,False,False,False,threshold
+1437,A1TXP43LIUV140,span,生成子空间,张成,False,True,False,False,threshold
+1438,A1TXP43LIUV140,syntactic dependency parsing,句法依存解析,句法依赖解析,True,False,False,False,threshold
+1439,A1TXP43LIUV140,tangent space,切线空间,切空间,True,False,False,False,threshold
+1440,A3EKM55NFX1H6B,sequential decision making,序贯决策,序列决策,False,True,False,False,threshold
+1441,A3EKM55NFX1H6B,similarity function,相似度函数,相似性函数,True,False,False,False,threshold
+1442,A3EKM55NFX1H6B,span,生成子空间,张成,False,False,False,True,threshold
+1443,A3EKM55NFX1H6B,syntactic dependency parsing,句法依存解析,句法依赖解析,True,False,False,False,threshold
+1444,A3EKM55NFX1H6B,tangent space,切线空间,切空间,True,False,False,False,threshold
+1445,AR0QMXHEA9P0M,sequential decision making,序贯决策,序列决策,False,True,False,False,threshold
+1446,AR0QMXHEA9P0M,similarity function,相似度函数,相似性函数,False,False,True,False,threshold
+1447,AR0QMXHEA9P0M,span,生成子空间,张成,False,False,True,False,threshold
+1448,AR0QMXHEA9P0M,syntactic dependency parsing,句法依存解析,句法依赖解析,False,True,False,False,threshold
+1449,AR0QMXHEA9P0M,tangent space,切线空间,切空间,False,False,True,False,threshold
+1450,A2QX81MMC8KN80,word alignment,词对齐,单词对齐,False,True,False,False,threshold
+1451,A2QX81MMC8KN80,-,-,-,False,False,True,False,-
+1452,A2QX81MMC8KN80,-,-,-,False,False,False,True,-
+1453,A2QX81MMC8KN80,-,-,-,False,True,False,False,-
+1454,A2QX81MMC8KN80,-,-,-,False,False,True,False,-
+1455,A2E2FFMXS9F9KR,word alignment,词对齐,单词对齐,True,False,False,False,threshold
+1456,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1457,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1458,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1459,A2E2FFMXS9F9KR,-,-,-,False,False,False,True,-
+1460,A2FXDEKCCUT9OJ,word alignment,词对齐,单词对齐,False,False,True,False,threshold
+1461,A2FXDEKCCUT9OJ,-,-,-,True,False,False,False,-
+1462,A2FXDEKCCUT9OJ,-,-,-,True,False,False,False,-
+1463,A2FXDEKCCUT9OJ,-,-,-,True,False,False,False,-
+1464,A2FXDEKCCUT9OJ,-,-,-,True,False,False,False,-
+1465,A3QIWEQXAGMGD,word alignment,词对齐,单词对齐,True,False,False,False,threshold
+1466,A3QIWEQXAGMGD,-,-,-,False,False,False,True,-
+1467,A3QIWEQXAGMGD,-,-,-,False,False,False,True,-
+1468,A3QIWEQXAGMGD,-,-,-,False,False,False,True,-
+1469,A3QIWEQXAGMGD,-,-,-,False,False,False,True,-
+1470,AWGV35294HOYB,word alignment,词对齐,单词对齐,False,True,False,False,threshold
+1471,AWGV35294HOYB,-,-,-,False,False,False,True,-
+1472,AWGV35294HOYB,-,-,-,False,False,False,True,-
+1473,AWGV35294HOYB,-,-,-,False,False,False,True,-
+1474,AWGV35294HOYB,-,-,-,False,False,False,True,-

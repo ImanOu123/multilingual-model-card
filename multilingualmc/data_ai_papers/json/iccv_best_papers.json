@@ -1,0 +1,303 @@
+[
+    {
+        "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+        "venue": "ICCV",
+        "year": "2023",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Passive Ultra-Wideband Single-Photon Imaging",
+        "venue": "ICCV",
+        "year": "2023",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "SinGAN: Learning a Generative Model from a Single Natural Image",
+        "venue": "ICCV",
+        "year": "2019",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Mask R-CNN",
+        "venue": "ICCV",
+        "year": "2017",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Deep Neural Decision Forests",
+        "venue": "ICCV",
+        "year": "2015",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "From Large Scale Image Categorization to Entry-Level Categories",
+        "venue": "ICCV",
+        "year": "2013",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Relative Attributes",
+        "venue": "ICCV",
+        "year": "2011",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Discriminative models for multi-class object layout",
+        "venue": "ICCV",
+        "year": "2009",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Population Shape Regression From Random Design Data",
+        "venue": "ICCV",
+        "year": "2007",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Globally Optimal Estimates for Geometric Reconstruction Problems",
+        "venue": "ICCV",
+        "year": "2005",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Image-based Rendering using Image-based Priors",
+        "venue": "ICCV",
+        "year": "2003",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Image Parsing: Unifying Segmentation, Detection and Recognition",
+        "venue": "ICCV",
+        "year": "2003",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Detecting Pedestrians using Patterns of Motion and Appearance",
+        "venue": "ICCV",
+        "year": "2003",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Probabilistic Tracking with Exemplars in a Metric Space",
+        "venue": "ICCV",
+        "year": "2001",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "The Space of All Stereo Images",
+        "venue": "ICCV",
+        "year": "2001",
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Tracking Everything Everywhere All at Once",
+        "venue": "ICCV",
+        "year": "2023",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Pixel-Perfect Structure-from-Motion with Featuremetric Refinement",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "PLMP - Point-Line Minimal Problems in Complete Multi-View Visibility",
+        "venue": "ICCV",
+        "year": "2019",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Focal Loss for Dense Object Detection",
+        "venue": "ICCV",
+        "year": "2017",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Close the Loop: Joint Blind Image Restoration and Recognition with Sparse Representation Prior",
+        "venue": "ICCV",
+        "year": "2011",
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Segment Anything",
+        "venue": "ICCV",
+        "year": "2023",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "OpenGAN: Open-Set Recognition via Open Data Generation",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Viewing Graph Solvability via Cycle Consistency",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Common Objects in 3D: LargeScale Learning and Evaluation of Real-life 3D Category Reconstruction",
+        "venue": "ICCV",
+        "year": "2021",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Asynchronous Single-Photon 3D Imaging",
+        "venue": "ICCV",
+        "year": "2019",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Specifying Object Attributes and Relations in Interactive Scene Generation",
+        "venue": "ICCV",
+        "year": "2019",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "First Person Activity Forecasting with Online Inverse Reinforcement Learning",
+        "venue": "ICCV",
+        "year": "2017",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Open Set Domain Adaptation",
+        "venue": "ICCV",
+        "year": "2017",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Globally-Optimal Inlier Set Maximisation for Simultaneous Camera Pose and Feature Correspondence",
+        "venue": "ICCV",
+        "year": "2017",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Holistically-Nested Edge Detection",
+        "venue": "ICCV",
+        "year": "2015",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Hierarchical Data-driven Descent for Efficient Optimal Deformation Estimation",
+        "venue": "ICCV",
+        "year": "2013",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Piecewise Rigid Scene Flow",
+        "venue": "ICCV",
+        "year": "2013",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Looking Around the Corner Using Transient Imaging",
+        "venue": "ICCV",
+        "year": "2009",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Deformable Template As Active Basis",
+        "venue": "ICCV",
+        "year": "2007",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "BRDF Acquisition with Basis Illumination",
+        "venue": "ICCV",
+        "year": "2007",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Globally Optimal Affine and Metric Upgrades in Stratified Autocalibration",
+        "venue": "ICCV",
+        "year": "2007",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "A Theory of Refractive and Specular Shape by Light-Path Triangulation",
+        "venue": "ICCV",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Detecting Irregularities in Images and in Video",
+        "venue": "ICCV",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "On the Spatial Statistics of Optical Flow",
+        "venue": "ICCV",
+        "year": "2005",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "Alignment of Non-Overlapping Sequences",
+        "venue": "ICCV",
+        "year": "2001",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    },
+    {
+        "title": "On Projection Matrices and their Applications in Computer Vision",
+        "venue": "ICCV",
+        "year": "2001",
+        "award": "Best Paper Honorable Mention Award",
+        "link": null
+    }
+]

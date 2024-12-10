@@ -1,0 +1,6430 @@
+Index,English,Chinese
+0,0-1 loss function,0-1损失函数
+1,10-fold cross validation,10折交叉验证
+2,1D convolution,一维卷积
+3,2 norm,二范数
+4,2D QSAR models,二维定量构效关系模型
+5,2D convolution,二维卷积
+6,2D image,二维图像
+7,2D image synthesis,二维图像合成
+8,2D-3D correspondence,二维-三维对应关系
+9,3D Cartesian,三维笛卡尔
+10,3D QSAR models,三维定量构效关系模型
+11,3D bounding box,三维边界框
+12,3D computer vision,三维计算机视觉
+13,3D conformation,三维构象
+14,3D convolutional network,三维卷积网络
+15,3D geometry,三维几何
+16,3D grids,三维网格
+17,3D human pose estimation,三维人体姿态估计
+18,3D localization,三维定位
+19,3D mesh,三维网格
+20,3D model,三维模型
+21,3D object detection,3D物体检测
+22,3D point,3D点
+23,3D point cloud,3D点云
+24,3D pose,3D姿态
+25,3D reconstruction,3D重建
+26,3D scene,三维场景
+27,3D scene geometry,三维场景几何
+28,3D structure,三维结构
+29,5-fold cross validation,5折交叉验证
+30,A * algorithm,A*算法
+31,A/B test,A/B 测试
+32,A2C,A2C
+33,ADMET evaluation,毒性评估
+34,AI,人工智能
+35,API,API
+36,AQA,AQA
+37,ARENA,ARENA
+38,Ablation study,消融研究
+39,Adafactor,Adafactor
+40,Adam,Adam
+41,Adam algorithm,Adam算法
+42,Adam optimiser,Adam优化器
+43,Adam optimization,Adam优化
+44,Adam optimization algorithm,Adam优化算法
+45,Adam optimizer,Adam优化器
+46,Adapter,适配器
+47,AlexNet,AlexNet
+48,Alpha-beta pruning,α-β修剪法
+49,AlphaGo,阿尔法狗
+50,AmbigQA,AmbigQA
+51,Answer Set Programming,答案集编程
+52,Apriori,先验算法
+53,Apriori algorithm,Apriori算法
+54,Arcade Learning Environment,街机学习环境
+55,Autonomous Systems,自主系统
+56,Average Pool,平均池化
+57,Average Precision,平均精度
+58,Azuma-Hoeffding inequality,Azuma-Hoeffding不等式
+59,B-clustering algorithms,B树聚类算法
+60,B-spline,B样条
+61,BART,BART
+62,BERT,BERT
+63,BERTs,BERTs
+64,BETO,BETO
+65,BFGS,BFGS
+66,BIO,BIO
+67,BLEU,BLEU
+68,BPE,BPE
+69,BSARD,BSARD
+70,Backbone,主干网络
+71,Backpropagation,反向传播
+72,Basis Pursuit,基追踪
+73,Baum-Welch algorithm,Baum-Welch算法
+74,Bayes,贝叶斯
+75,Bayes classifier,贝叶斯分类器
+76,Bayes decision rule,贝叶斯决策准则
+77,Bayes error,贝叶斯误差
+78,Bayes factor,贝叶斯因子
+79,Bayes formula,贝叶斯公式
+80,Bayes model averaging,贝叶斯模型平均
+81,Bayes net,贝叶斯网络
+82,Bayes optimal classifier,贝叶斯最优分类器
+83,Bayes risk,贝叶斯风险
+84,Bayes risk decoding,贝叶斯风险解码
+85,Bayes rule,贝叶斯规则
+86,Bayes theorem,贝叶斯定理
+87,Bayes' rule,贝叶斯规则
+88,Bayes' theorem,贝叶斯定理
+89,Bayes-Nash equilibrium,贝叶斯-纳什均衡
+90,Bayesian Information Criterion,贝叶斯信息准则
+91,Bayesian MCMC methods,贝叶斯马尔可夫链蒙特卡洛方法
+92,Bayesian active learning,贝叶斯主动学习
+93,Bayesian analysis,贝叶斯分析
+94,Bayesian approach,贝叶斯方法
+95,Bayesian clustering,贝叶斯聚类
+96,Bayesian decision,贝叶斯决策
+97,Bayesian decision theory,贝叶斯决策理论
+98,Bayesian deep learning,贝叶斯深度学习
+99,Bayesian estimation,贝叶斯估计
+100,Bayesian evidence,贝叶斯证据
+101,Bayesian framework,贝叶斯框架
+102,Bayesian game,贝叶斯博弈
+103,Bayesian induction,贝叶斯归纳
+104,Bayesian inference,贝叶斯推断
+105,Bayesian learning,贝叶斯学习
+106,Bayesian linear regression,贝叶斯线性回归
+107,Bayesian method,贝叶斯方法
+108,Bayesian methods,贝叶斯方法
+109,Bayesian model,贝叶斯模型
+110,Bayesian molecular,贝叶斯分子
+111,Bayesian network,贝叶斯网
+112,Bayesian optimization,贝叶斯优化
+113,Bayesian perspective,贝叶斯视角
+114,Bayesian prior,贝叶斯先验
+115,Bayesian probabilistic model,贝叶斯概率模型
+116,Bayesian probability,贝叶斯概率
+117,Bayesian program learning,贝叶斯程序学习
+118,Bayesian regularized neural network,贝叶斯正则化神经网络
+119,Bayesian statistics,贝叶斯统计
+120,Bayesian update,贝叶斯更新
+121,Bellman,贝尔曼
+122,Bellman backup,贝尔曼回溯
+123,Bellman equation,贝尔曼方程
+124,Bellman error,贝尔曼误差
+125,Bellman operator,贝尔曼算子
+126,Bellman optimality equation,贝尔曼最优方程
+127,Berkeley parser,伯克利解析器
+128,Berkeley segmentation dataset,伯克利分割数据集
+129,Bernoulli,伯努利
+130,Bernoulli distribution,伯努利分布
+131,Bernoulli likelihood,伯努利似然
+132,Bernoulli output distribution,伯努利输出分布
+133,Bernoulli random variable,伯努利随机变量
+134,Bernoulli sampling,伯努利采样
+135,Bernoulli trial,伯努利试验
+136,Bernoulli variable,伯努利变量
+137,Bernstein's inequality,伯恩斯坦不等式
+138,Bethe approximation,贝特近似
+139,Bhattacharyya coefficient,巴塔查里亚系数
+140,Bloom filter,布隆过滤器
+141,Boltzmann,玻尔兹曼
+142,Boltzmann distribution,玻尔兹曼分布
+143,Boltzmann exploration,玻尔兹曼探索
+144,Boltzmann factor,玻尔兹曼因子
+145,Boltzmann machine,玻尔兹曼机
+146,Bonferroni correction,邦弗朗尼校正
+147,Boolean formula,布尔公式
+148,Boolean function,布尔函数
+149,Boolean variable,布尔变量
+150,Borda scores,博尔达得分
+151,Bradley-Terry Model,布拉德利-特里模型
+152,Branch and Bound,分支定界法
+153,Bregman divergence,布雷格曼散度
+154,Bregman's method,布雷格曼方法
+155,Broyden's algorithm,Broyden类算法
+156,Broyden–Fletcher–Goldfarb–Shanno,BFGS
+157,Buchwald−Hartwig cross-coupling,Buchwald–Hartwig 偶联
+158,Bundle adjustment,光束法平差
+159,Byte-Pair Encoding,字节对编码
+160,C4.5 algorithm,C4.5 算法
+161,CAS,CAS
+162,CASP,国际蛋白质结构预测竞赛
+163,CDA,CDA
+164,CEAS,CEAS
+165,CLIP,CLIP
+166,CLS,CLS
+167,COLT,国际学习理论会议
+168,CONLL,CoNLL
+169,CRF,CRF
+170,Caltech-101,Caltech-101数据集
+171,CamemBERT,CamemBERT
+172,Canny detector,Canny检测器
+173,Canny edge detector,Canny边缘检测器
+174,Cartesian coordinate,笛卡尔坐标
+175,Cartesian distance vector,笛卡尔距离向量
+176,Cascade-Correlation,级联相关
+177,Chamfer Distance,倒角距离
+178,Charniak parser,Charniak解析器
+179,Chebyshev acceleration,切比雪夫加速
+180,Chebyshev distance,切比雪夫距离
+181,Chebyshev polynomial,切比雪夫多项式
+182,ChemDataExtractor,化学数据提取器
+183,Chernoff bound,切尔诺夫界
+184,Cholesky decomposition,Cholesky 分解
+185,Cholesky factor,Cholesky 因子
+186,Cholesky factorization,Cholesky 分解法
+187,Chomsky normal form,乔姆斯基范式
+188,Chu-Liu-Edmonds algorithm,Chu-Liu-Edmonds 算法
+189,Chung-Lu model,Chung-Lu模型
+190,CodeBERT,CodeBERT
+191,Cohen's kappa,科恩卡帕系数
+192,Cohen's kappa coefficient,Cohen's kappa系数
+193,Cohen's κ,科恩κ系数
+194,Combinatory Categorial Grammar,组合范畴语法
+195,Commonsense Reasoning,常识推理
+196,Compressed sensing,压缩感知
+197,Computational linguistic,计算语言学
+198,Condition 1,条件1
+199,Conditional Generation,条件生成
+200,Condorcet winner,孔多塞赢家
+201,Contrastive Learning,对比学习
+202,Coreference Resolution,共指消解
+203,Coreset,核心集
+204,Corpora,语料库
+205,Cosine distance,余弦距离
+206,Coulomb matrix,库仑矩阵
+207,Counterfactual Regret Minimization,反事实遗憾最小化
+208,Coupled-cluster predictions,耦合簇预测
+209,Cross Entropy Loss,交叉熵损失
+210,DE algorithm,差分进化算法
+211,DFT calculations,DFT计算
+212,Datalog,数据逻辑
+213,Datalog program,Datalog 程序
+214,Dataset,数据集
+215,Davidon-Fletcher-Powell,DFP
+216,Decentralized optimization,分布式优化
+217,Decision Transformer,决策变换器
+218,Decomposable Attention,可分解注意力
+219,Decomposable Attention Model,可分解注意力模型
+220,Delta-bar-delta,Delta-Bar-Delta
+221,Demographic Parity,人口统计平等
+222,Detectron,Detectron
+223,Determinantal Point process,行列式点过程
+224,Dialogue State Tracking,对话状态跟踪
+225,Dice coefficient,Dice系数
+226,Dice loss,Dice损失
+227,Dice similarity,戴斯相似度
+228,Dijkstra's algorithm,Dijkstra算法
+229,Dirac delta function,Dirac Delta函数
+230,Dirac distribution,Dirac分布
+231,Dirac measure,狄拉克测度
+232,Dirichlet,狄利克雷
+233,Dirichlet Process,狄利克雷过程
+234,Dirichlet distribution,狄利克雷分布
+235,Dirichlet prior,狄利克雷先验
+236,Disentanglement,解缠结
+237,Dropout distribution,Dropout分布
+238,E-step,E步
+239,Earth-mover's distance,推土机距离
+240,Edge,边
+241,Elastic Net,弹性网络
+242,Electra,Electra
+243,Elman,埃尔曼
+244,Entity Linking,实体链接
+245,Epanechnikov kernel,Epanechnikov核函数
+246,Euclidean,欧几里得
+247,Euclidean distance,欧氏距离
+248,Euclidean distances,欧几里得距离
+249,Euclidean divergence,欧几里得散度
+250,Euclidean loss,欧几里得损失
+251,Euclidean norm,欧几里得范数
+252,Euclidean plane,欧几里得平面
+253,Euclidean projection,欧几里得投影
+254,Euclidean space,欧氏空间
+255,Euclidean transformation,欧几里得变换
+256,Euler angle,欧拉角
+257,Euler step,欧拉步
+258,Euler-Lagrange equation,欧拉-拉格朗日方程
+259,Exact Match,精确匹配
+260,Extended Kalman Filter,扩展卡尔曼滤波器
+261,F-measure,F值
+262,F-score,F分数
+263,F1 measure,F1值
+264,F1 metric,F1指标
+265,F1 score,F1分数
+266,FAIR data principles,FAIR数据原则
+267,FLR,FLR
+268,Faber-Christensen-Huang-Lilienfeld,Faber-Christensen-Huang-Lilienfeld
+269,Fairseq,Fairseq
+270,Fano's inequality,法诺不等式
+271,Fast Fourier Transform,快速傅里叶变换
+272,Fchl representation,Fchl 表示
+273,FeSTE,FeSTE
+274,Feature Pyramid Network,特征金字塔网络
+275,Federated Learning,联邦学习
+276,Fisher information matrix,Fisher信息矩阵
+277,Fisher score,费舍尔得分
+278,Fleiss' kappa,弗莱斯κ系数
+279,Floyd-Warshall algorithm,弗洛伊德-沃肖尔算法
+280,Focal Loss,焦点损失
+281,Fokker-Planck equation,福克-普朗克方程
+282,Fourier basis function,傅里叶基函数
+283,Fourier coefficient,傅里叶系数
+284,Fourier feature,傅里叶特征
+285,Fourier frequency,傅里叶频率
+286,Fourier transform,傅立叶变换
+287,Frobenius inner product,弗罗贝尼乌斯内积
+288,Frobenius norm,Frobenius 范数
+289,Fréchet,弗雷歇
+290,GLUE,GLUE
+291,GPT,GPT
+292,Ga-based approaches,基于遗传算法的方法
+293,Gabor function,Gabor函数
+294,Gamma prior,伽马先验
+295,Gauss-Newton algorithm,高斯-牛顿算法
+296,Gauss-Seidel method,高斯-赛德尔方法
+297,Gaussian RBM,高斯RBM
+298,Gaussian blur,高斯模糊
+299,Gaussian complexity,高斯复杂度
+300,Gaussian component,高斯成分
+301,Gaussian conditional random field,高斯条件随机场
+302,Gaussian density,高斯密度
+303,Gaussian distribution,高斯分布
+304,Gaussian elimination,高斯消元法
+305,Gaussian error linear unit,高斯误差线性单元
+306,Gaussian filter,高斯滤波器
+307,Gaussian function,高斯函数
+308,Gaussian initialization,高斯初始化
+309,Gaussian kernel,高斯核
+310,Gaussian kernel function,高斯核函数
+311,Gaussian kernels,高斯核
+312,Gaussian likelihood,高斯似然
+313,Gaussian matrix,高斯矩阵
+314,Gaussian mixture,高斯混合
+315,Gaussian mixture model,高斯混合模型
+316,Gaussian mixtures,高斯混合
+317,Gaussian model,高斯模型
+318,Gaussian noise,高斯噪声
+319,Gaussian output distribution,高斯输出分布
+320,Gaussian prior,高斯先验
+321,Gaussian process,高斯过程
+322,Gaussian process model,高斯过程模型
+323,Gaussian process regression,高斯过程回归
+324,Gaussian random variable,高斯随机变量
+325,Gaussian smoothing,高斯平滑
+326,Gaussian variable,高斯变量
+327,Gaussian weight,高斯权重
+328,Gaussian-Bernoulli RBM,高斯-伯努利RBM
+329,Gaussian-type structure descriptors,高斯型结构描述符
+330,Gene Ontology,基因本体
+331,Gensim,Gensim
+332,Gibbs distribution,吉布斯分布
+333,Gibbs iteration,吉布斯迭代
+334,Gibbs sampler,吉布斯采样器
+335,Gibbs sampling,吉布斯采样
+336,Gibbs steps,吉布斯步数
+337,Gini coefficient,基尼系数
+338,Gini index,基尼指数
+339,Good-Turing estimate,古德-图灵估计
+340,GoogLeNet,GoogLeNet
+341,Gram matrix,Gram 矩阵
+342,Graph Transformer,图转换器
+343,Gröbner basis,Gröbner 基
+344,Gumbel,甘贝尔分布
+345,Gumbel distribution,Gumbel 分布
+346,Gumbel noise,古姆贝尔噪声
+347,Gumbel-softmax distribution,古姆贝尔-softmax分布
+348,Haar wavelet,哈尔小波
+349,Hadamard matrix,哈达玛矩阵
+350,Hadamard product,Hadamard积
+351,Hamiltonian Monte Carlo,哈密顿蒙特卡罗
+352,Hamiltonian matrix,哈密顿矩阵
+353,Hamiltonian operator,哈密顿算符
+354,Hamming distance,汉明距离
+355,Hamming loss,汉明损失
+356,Hankel matrix,汉克尔矩阵
+357,Harris chain,哈里斯链
+358,Hausdorff distance,豪斯多夫距离
+359,Hebbian rule,赫布法则
+360,Hebbian theory,赫布理论
+361,Hedge algorithm,对冲算法
+362,Hellinger distance,Hellinger距离
+363,Helmholtz machine,Helmholtz机
+364,Hesse matrix,海赛矩阵
+365,Hessian,Hessian
+366,Hessian matrix,黑塞矩阵
+367,Hessian-vector product,海森向量积
+368,Hiero system,Hiero系统
+369,Hilbert space,希尔伯特空间
+370,Hodge decomposition,霍奇分解
+371,Hoeffding's inequality,霍夫丁不等式
+372,Homography,单应性
+373,Hopfield network,Hopfield网络
+374,Horn theory,霍恩理论
+375,HowTo100M,HowTo100M
+376,Huber loss,Huber 损失
+377,Huber norm,胡贝尔范数
+378,Huffman coding,霍夫曼编码
+379,Hungarian loss,匈牙利损失
+380,Hybrid-neural model,混合神经模型
+381,Hyper-parameter,超参数
+382,Hyperband,Hyperband算法
+383,Hyperparameter search,超参数搜索
+384,ICLR,ICLR
+385,IDF,IDF
+386,Id3 algorithm,Id3 算法
+387,In-context Learning,上下文学习
+388,Inception network,Inception网络
+389,Independent Cascade,独立级联模型
+390,Independent Cascade Model,独立级联模型
+391,Influence Maximization,影响力最大化
+392,Information Extraction,信息提取
+393,Informer model,Informer模型
+394,Inside-Outside algorithm,内外算法
+395,Instance Normalization,实例归一化
+396,Ising model,伊辛模型
+397,Iverson bracket,艾弗森括号
+398,Jaccard,杰卡德
+399,Jaccard index,杰卡德指数
+400,Jaccard similarity,杰卡德相似度
+401,Jaccard similarity coefficient,杰卡德相似系数
+402,Jacobian,雅克比
+403,Jacobian matrix,雅可比矩阵
+404,Jensen inequality,Jensen不等式
+405,Jensen's inequality,詹森不等式
+406,Jensen-Shannon,詹森-香农
+407,Jensen-Shannon divergence,JS散度
+408,Jordan-Elman neural networks,Jordan-Elman 神经网络
+409,K-1 folds,K-1 折
+410,K-L divergence,K-L散度
+411,K-armed bandit problem,k-摇臂老虎机
+412,K-edge,K-边缘
+413,K-means,K-均值
+414,K-means algorithm,K均值算法
+415,K-means clustering,k-均值聚类
+416,KL divergence,KL散度
+417,KNN model,K 近邻模型
+418,Kalman filter,卡尔曼滤波器
+419,Karush-Kuhn-Tucker condition,KKT条件
+420,Karush–Kuhn–Tucker,Karush–Kuhn–Tucker
+421,Kd tree,Kd 树
+422,Kendall's τ,肯德尔秩相关系数
+423,Kendall’s tau,肯德尔等级相关系数
+424,Keras,Keras
+425,Kernel,核函数
+426,KinyaBERT,KinyaBERT
+427,Kleene closure,克林闭包
+428,Kneser-Ney smoothing,Kneser-Ney平滑
+429,Kolmogorov-Smirnov test,科尔莫戈罗夫-斯米尔诺夫检验
+430,Krippendorff's α,克里彭多夫 α 系数
+431,Kronecker delta,克罗内克δ函数
+432,Kronecker product,Kronecker积
+433,Krylov method,Krylov方法
+434,Kullback Leibler divergence,库尔贝克-莱布勒散度
+435,L 1 -norm,L₁范数
+436,L 1 distance,L₁距离
+437,L 2 -norm,L₂范数
+438,L 2 distance,L₂距离
+439,L 2 loss,L₂损失
+440,L 2 regularization,L2正则化
+441,L ∞ norm,L∞范数
+442,L-BFGS,L-BFGS
+443,L1 and L2 regularization,L1与L2正则化
+444,L1 bound,L1界
+445,L1 difference,L1差异
+446,L1 loss,L1损失
+447,L1 penalty,L1惩罚
+448,L1 regularization,L1正则化
+449,L1 term,L1项
+450,L2 error,L2误差
+451,L2 regularisation,L2正则化
+452,L2 regularizer,L2 正则化器
+453,L2 weight decay,L2权重衰减
+454,L2-normalization,L2归一化
+455,LBP,局部二值模式
+456,LXMert,LXMert
+457,Lagrange dual problem,拉格朗日对偶问题
+458,Lagrange duality,拉格朗日对偶性
+459,Lagrange function,拉格朗日函数
+460,Lagrange multiplier,拉格朗日乘子
+461,Lagrangian duality,拉格朗日对偶性
+462,Lagrangian multiplier,拉格朗日乘子
+463,Lagrangian relaxation,拉格朗日松弛
+464,Lambertian reflectance,朗伯反射
+465,Lanczos iteration,兰佐斯迭代
+466,Langevin dynamic,Langevin 动力学
+467,Language Modeling Toolkit,语言建模工具包
+468,Laplace approximation,拉普拉斯近似
+469,Laplace distribution,Laplace分布
+470,Laplace noise,拉普拉斯噪声
+471,Laplace smoothing,拉普拉斯平滑
+472,Laplace-Beltrami operator,拉普拉斯-贝尔特拉米算子
+473,Laplacian correction,拉普拉斯修正
+474,Laplacian distribution,拉普拉斯分布
+475,Laplacian matrix,拉普拉斯矩阵
+476,Laplacian prior,拉普拉斯先验
+477,Laplacian smoothing,拉普拉斯平滑
+478,Las Vegas method,拉斯维加斯方法
+479,Lasso,套索回归
+480,Lasso penalty,套索惩罚
+481,Lebesgue-integrable,勒贝格可积
+482,Leibniz's rule,莱布尼兹法则
+483,Lemma,引理
+484,Levenberg-Marquardt algorithm,列文伯格-马夸特算法
+485,Levenshtein distance,莱文斯坦距离
+486,Levenshtein edit distance,莱文斯坦编辑距离
+487,Lexical Functional Grammar,词汇功能语法
+488,Libratus,Libratus
+489,Lie algebra,李代数
+490,Likert scale,李克特量表
+491,LinCE,LinCE
+492,Linear Threshold,线性阈值
+493,Linear Threshold Model,线性阈值模型
+494,Linear Transformer,线性变换器
+495,Linformer,Linformer
+496,Lipschitz,Lipschitz
+497,Lipschitz constant,Lipschitz常数
+498,Lipschitz continuity,利普希茨连续性
+499,Lipschitz continuous,Lipschitz连续
+500,Lipschitz function,利普希茨函数
+501,Lipschitzness,利普希茨性
+502,Local Consistency,局部一致性
+503,Log Gaussian Cox Process,对数高斯考克斯过程
+504,Longformer,Longformer
+505,Lp distance,Lp距离
+506,Lucene,Lucene
+507,Lyapunov function,李雅普诺夫函数
+508,M-estimation,M估计
+509,M-step,M步
+510,MAWPS,MAWPS
+511,MCTS method,蒙特卡洛树搜索方法
+512,ML algorithm,机器学习算法
+513,ML potentials,机器学习势能
+514,ML-driven,机器学习驱动的
+515,ML-driven optimization,机器学习驱动的最优化
+516,MLP neural model,多层感知机神经模型
+517,MTDNN,MTDNN
+518,Machine Comprehension,机器理解
+519,Machine Learning Repository,机器学习库
+520,Machine Reading Comprehension,机器阅读理解
+521,Macron-R,宏查全率
+522,Mahalanobis distance,马哈拉诺比斯距离
+523,Mahalanobis distance function,马哈拉诺比斯距离函数
+524,Mahalanobis distances,马氏距离
+525,Mahalanobis matrix,马哈拉诺比斯矩阵
+526,Mahalanobis metric,马哈拉诺比斯度量
+527,Manhattan distance,曼哈顿距离
+528,Marching Cubes,行进立方体算法
+529,Markov,马尔可夫
+530,Markov assumption,马尔可夫假设
+531,Markov blanket,马尔可夫毯
+532,Markov chain,马尔可夫链
+533,Markov chain Monte Carlo,马尔可夫链蒙特卡罗
+534,Markov chain model,马尔可夫链模型
+535,Markov decision process,马尔可夫决策过程
+536,Markov game,马尔可夫博弈
+537,Markov kernel,马尔可夫核
+538,Markov logic,马尔可夫逻辑
+539,Markov logic network,马尔可夫逻辑网络
+540,Markov model,马尔可夫模型
+541,Markov network,马尔可夫网络
+542,Markov process,马尔可夫过程
+543,Markov property,马尔可夫性质
+544,Markov random field,马尔可夫随机场
+545,Markov state,马尔可夫状态
+546,Markov transition,马尔可夫转移
+547,Markov transition matrix,马尔可夫转移矩阵
+548,Markov's inequality,马尔可夫不等式
+549,MatConvNet,MatConvNet
+550,Matching Network,匹配网络
+551,MathQA,MathQA
+552,Matrix factorization,矩阵分解
+553,Matthews correlation coefficient,马修斯相关系数
+554,Matérn kernel,Matérn 核函数
+555,Maximum Satisfiability,最大可满足性
+556,Mechanical Turk,机械土耳其人
+557,Mercer kernel,Mercer 核
+558,Metropolis Hastings,梅特罗波利斯-黑斯廷斯算法
+559,Metropolis algorithm,梅特罗波利斯算法
+560,Metropolis method,Metropolis方法
+561,Metropolis-Hasting,梅特罗波利斯-哈斯廷斯
+562,Metropolis-Hastings acceptance ratio,梅特罗波利斯-哈斯廷斯接受比率
+563,Metropolis-Hastings algorithm,梅特罗波利斯-哈斯廷斯算法
+564,Metropolis-Hastings sampler,Metropolis-Hastings采样器
+565,Micro-P,微査准率
+566,Minkowski distance,闵可夫斯基距离
+567,Mixup,混合数据增强
+568,Monotonicity,单调性
+569,Monte Carlo,蒙特卡罗
+570,Monte Carlo Dropout,蒙特卡罗丢弃法
+571,Monte Carlo algorithm,蒙特卡罗算法
+572,Monte Carlo approximation,蒙特卡罗近似
+573,Monte Carlo estimate,蒙特卡罗估计
+574,Monte Carlo estimation,蒙特卡罗估计
+575,Monte Carlo estimator,蒙特卡罗估计器
+576,Monte Carlo integration,蒙特卡罗积分
+577,Monte Carlo method,蒙特卡罗方法
+578,Monte Carlo sample,蒙特卡罗样本
+579,Monte Carlo search,蒙特卡罗搜索
+580,Monte Carlo simulation,蒙特卡罗模拟
+581,Monte Carlo tree search,蒙特卡洛树搜索
+582,Monte-Carlo return,蒙特卡罗回报
+583,Moore's law,摩尔定律
+584,Moore-Penrose pseudo-inverse,摩尔-彭罗斯伪逆
+585,Moore-Penrose pseudoinverse,Moore-Penrose 伪逆
+586,Moore’s law,摩尔定律
+587,Morfessor,Morfessor形态分析器
+588,Multi-Task Learning,多任务学习
+589,Multidimensional Quality metric,多维质量指标
+590,Multidimensional Scaling,多维尺度分析
+591,Multiple Choice,多项选择
+592,NLI,NLI
+593,NLP,自然语言处理
+594,Nadaraya-Watson estimator,Nadaraya-Watson估计量
+595,Nash equilibria,纳什均衡
+596,Nash equilibrium,纳什均衡
+597,Nash reversion,纳什回归
+598,Nash welfare,纳什福利
+599,Natural Language Inference,自然语言推理
+600,Natural Language Understanding,自然语言理解
+601,Natural question,自然问题
+602,Naïve Bayes,朴素贝叶斯
+603,Nesterov accelerated gradient,Nesterov加速梯度
+604,Nesterov momentum,Nesterov动量法
+605,Neural Information Processing Systems,神经信息处理系统
+606,Neural Radiance field,神经辐射场
+607,Neural volume,神经体积
+608,Newton method,牛顿法
+609,Newton's method,牛顿法
+610,Nom-Bank,名词库
+611,Non-maximum suppression,非极大值抑制
+612,Nucleus Sampling,核采样
+613,Nyström approximation,Nyström 近似
+614,OOV,OOV
+615,Object Localization,目标定位
+616,Occam's razor,奥卡姆剃刀
+617,Open Information Extraction,开放信息抽取
+618,Optimization Problem,优化问题
+619,Ornstein-Uhlenbeck,奥恩斯坦-乌伦贝克
+620,PAC learning,PAC学习
+621,PAC-learnable,PAC可学习
+622,PR curve,P-R曲线
+623,PaLM,PaLM
+624,Pareto dominated,帕累托支配
+625,Pareto frontier,帕累托前沿
+626,Pareto optimal,帕累托最优
+627,Pareto optimality,帕累托最优性
+628,Pareto-efficient,帕累托有效
+629,Partially Observable Markov Decision Process,部分可观测马尔可夫决策过程
+630,Parzen window,帕尔岑窗口
+631,Pearson correlation,皮尔逊相关系数
+632,Pearson correlation coefficient,皮尔逊相关系数
+633,Pearson's correlation,皮尔逊相关
+634,Pearson's correlation coefficient,皮尔逊相关系数
+635,Pearson's r,皮尔逊r
+636,Pearson's r correlation,皮尔逊相关系数
+637,Penn English Treebank,宾州英语树库
+638,Penn Treebank corpus,宾州树库语料库
+639,Perron-Frobenius theorem,佩龙-弗罗贝尼乌斯定理
+640,Pinsker's inequality,平斯克不等式
+641,Pitman-Yor Process,皮特曼-约尔过程
+642,Platt scaling,普拉特缩放
+643,Pointwise Mutual Information,逐点互信息
+644,Poisson distribution,泊松分布
+645,Poisson matting,泊松抠图
+646,Poisson model,泊松模型
+647,Poisson point process,泊松点过程
+648,Poisson process,泊松过程
+649,Poisson random variable,泊松随机变量
+650,Poisson rate,泊松率
+651,Poisson regression,泊松回归
+652,Poisson sampling,泊松采样
+653,Potts model,波茨模型
+654,Prop-Bank,语义角色标注库
+655,Proposition,命题
+656,Proximal Policy Optimization,近端策略优化
+657,PubMed,PubMed
+658,Py-Torch,PyTorch
+659,Q function,Q函数
+660,Q value,Q值
+661,Q-learning,Q学习
+662,Q-network,Q网络
+663,QA,问答
+664,QED,QED
+665,QUOREF,QUOREF
+666,Quality Estimation,质量估计
+667,Query expansion,查询扩展
+668,Question Answering,问答
+669,R-Precision,R-精确率
+670,REALM,REALM
+671,RGF,RGF
+672,RNSum,RNSum
+673,ROUGE,ROUGE
+674,Rademacher average,拉德马赫平均
+675,Rademacher complexity,拉德马赫复杂度
+676,Radon-Nikodym derivative,拉东-尼科迪姆导数
+677,Random Forest classifier,随机森林分类器
+678,Rao-Blackwellization,Rao-Blackwell化
+679,Reading Comprehension,阅读理解
+680,Receiver Operating Characteristic Curve,接收者操作特征曲线
+681,Recognizing Textual Entailment,识别文本蕴含
+682,Recurrent layer,循环层
+683,Reformer,Reformer
+684,Regressor,回归器
+685,ResNeXt,ResNeXt
+686,Retrieval-Augmented Generation,检索增强生成
+687,Rhetorical Structure Theory,修辞结构理论
+688,Riemann integral,黎曼积分
+689,Riemannian geometry,黎曼几何
+690,Riemannian gradient,黎曼梯度
+691,Riemannian manifold,黎曼流形
+692,Robertson-Webb model,罗伯逊-韦布模型
+693,Routing Transformer,路由变换器
+694,Runge-Kutta,龙格-库塔
+695,Runge-Kutta method,龙格-库塔方法
+696,Rényi entropy,雷尼熵
+697,S node,S节点
+698,S-expression,S表达式
+699,SMCalFlow,SMCalFlow
+700,SUTD,SUTD
+701,SVAMP,SVAMP
+702,Schur complement,舒尔补
+703,Scikit-learn,Scikit-learn
+704,Self-supervised learning,自监督学习
+705,Semantic Scholar,语义学者
+706,Semantic Web,语义网
+707,Sentence-Piece,SentencePiece
+708,Seq2Seq,序列到序列
+709,Set Cover,集合覆盖
+710,Shannon entropy,香农熵
+711,Shannons,香农
+712,Sherman-Morrison formula,谢尔曼-莫里森公式
+713,Sherman-Morrison-Woodbury formula,谢尔曼-莫里森-伍德伯里公式
+714,Siamese architecture,孪生架构
+715,Siamese network,孪生网络
+716,Sinkhorn algorithm,Sinkhorn算法
+717,Softmax layer,Softmax层
+718,Sparse Transformer,稀疏变换器
+719,Sparse reconstruction,稀疏重建
+720,Sparsemax,稀疏最大化
+721,Spearman correlation,斯皮尔曼相关系数
+722,Spearman rank correlation,斯皮尔曼等级相关
+723,Spearman's correlation,斯皮尔曼相关
+724,Spearman's correlation coefficient,斯皮尔曼相关系数
+725,Spearman's rank correlation coefficient,斯皮尔曼等级相关系数
+726,Squared Exponential kernel,平方指数核
+727,Stanford Parser,斯坦福解析器
+728,Stanford Question Answering Dataset,斯坦福问答数据集
+729,Stanford Sentiment Treebank,斯坦福情感树库
+730,Stanford dependency,斯坦福依存关系
+731,Stanford dependency framework,斯坦福依存关系框架
+732,Stanford dependency parser,斯坦福依存句法分析器
+733,State-of-the-art,最先进的
+734,Statistical Machine Translation,统计机器翻译
+735,Story Cloze Test,故事完形测试
+736,Structure from motion,从运动中重建结构
+737,Subgraph,子图
+738,Submodularity,次模性
+739,Swin-S,Swin-S
+740,T5 model,T5模型
+741,T5-11B,T5-11B
+742,T5-11B model,T5-11B模型
+743,T5-Large,T5-Large
+744,T5-base,T5-base
+745,T5-base model,T5-base模型
+746,T5-large model,T5-large模型
+747,Tanh,双曲正切
+748,Taylor,泰勒
+749,Taylor approximation,泰勒近似
+750,Taylor's formula,泰勒公式
+751,Text Classification,文本分类
+752,Text Summarization,文本摘要
+753,Text-to-Text Transfer Transformer,文本到文本的迁移变换器
+754,Theano,Theano
+755,Tikhonov regularization,Tikhonov正则化
+756,Toeplitz matrix,Toeplitz矩阵
+757,Topic Detection and Tracking,主题检测与跟踪
+758,Transformer architecture,Transformer架构
+759,Transformer block,Transformer块
+760,Transformer decoder,Transformer解码器
+761,Transformer encoder,Transformer编码器
+762,Transformer-based language model,基于变换器的语言模型
+763,Transformer-based model,基于变换器的模型
+764,Transformer-like,类Transformer的
+765,Traveling Salesman Problem,旅行商问题
+766,TreeDST,TreeDST
+767,Triggering Model,触发模型
+768,Tucker decomposition,塔克分解
+769,Turing completeness,图灵完备
+770,Turing machine,图灵机
+771,Turing reduction,图灵归约
+772,Turing test,图灵测试
+773,U-statistic,U统计量
+774,Universal dependency,通用依存关系
+775,Upper Confidence Bound,上置信界
+776,V-structure,V型结构
+777,VALSE,VALSE
+778,VFL,VFL
+779,Vandermonde matrix,范德蒙德矩阵
+780,Vapnik-Chervonenkis dimension,VC维
+781,Vertex Cover,顶点覆盖
+782,ViLBERT,ViLBERT
+783,Vision Transformer,视觉变换器
+784,Visual Question Answering,视觉问答
+785,VisualBERT,VisualBERT
+786,Viterbi,维特比
+787,Viterbi algorithm,维特比算法
+788,Viterbi decoding,维特比解码
+789,Von Neumann architecture,冯 · 诺伊曼架构
+790,Wasserstein GAN,Wasserstein生成对抗网络
+791,Wasserstein distance,Wasserstein距离
+792,Weibull,韦布尔
+793,Weisfeiler-Lehman test,韦斯费勒-莱曼测试
+794,Wiener process,维纳过程
+795,Wilcoxon signed-rank test,威尔科克森符号秩检验
+796,Winograd Schema,维诺格拉德模式
+797,Winograd Schema Challenge,维诺格拉德模式挑战
+798,Winogrande,Winogrande
+799,Woodbury matrix identity,Woodbury矩阵恒等式
+800,Word Mover's Distance,词移动距离
+801,Word2Vec,Word2Vec
+802,XLM,XLM
+803,XLNet,XLNet
+804,Z-score,Z分数
+805,Zipf,齐普夫
+806,Zipf distribution,齐普夫分布
+807,Zipf's law,齐普夫定律
+808,abductive explanation,溯因解释
+809,aberration-corrected,像差矫正
+810,ablation,消融
+811,ablation analysis,消融分析
+812,ablation experiment,消融实验
+813,absolute loss function,绝对损失函数
+814,absolute value rectification,绝对值整流
+815,abstraction,抽象
+816,abstraction heuristic,抽象启发式
+817,abstractive summarization,生成式摘要
+818,accelerated gradient descent,加速梯度下降
+819,accept-reject sampling method,接受-拒绝抽样法
+820,acceptance distribution,接受分布
+821,acceptance function,接受函数
+822,acceptance probability,接受概率
+823,access parameters,访问参数
+824,accumulated error,累积误差
+825,accumulated error backpropagation,累积误差反向传播
+826,accuracy,准确率
+827,acoustic,声学
+828,acoustic feature,声学特征
+829,acoustic model,声学模型
+830,acoustic modeling,声学建模
+831,acquisition function,采集函数
+832,action,动作
+833,action classification,动作分类
+834,action embedding,动作嵌入
+835,action recognition,动作识别
+836,action sequence,动作序列
+837,action set,动作集合
+838,action space,动作空间
+839,action value function,动作价值函数
+840,action-value function,动作价值函数
+841,actionability,可操作性
+842,actionism,行为主义
+843,activation,活性值
+844,activation function,激活函数
+845,activation matrix,激活矩阵
+846,activation vector,激活向量
+847,active learning,主动学习
+848,active learning loop,主动学习循环
+849,active machine learning,主动机器学习
+850,active set,活跃集
+851,activity detection,活动检测
+852,activity recognition,活动识别
+853,actor,演员
+854,actor critic algorithm,行动者-评论家算法
+855,actor network,行动者网络
+856,actor-critic algorithm,演员-评论员算法
+857,actor-critic framework,行动者-评论家框架
+858,actor-critic method,演员-评论员法
+859,adapter-based fine-tuning,基于适配器的微调
+860,adaptive bitrate algorithm,自适应比特率算法
+861,adaptive boosting,AdaBoost
+862,adaptive boosting algorithm,自适应提升算法
+863,adaptive fuzzy neural network,自适应模糊神经网络
+864,adaptive gradient algorithm,AdaGrad
+865,adaptive moment estimation algorithm,Adam算法
+866,adaptive neuro fuzzy inference system,自适应神经模糊推理系统
+867,adaptive resonance theory,自适应谐振理论
+868,adaptive sampling,自适应采样
+869,adaptive thresholding,自适应阈值处理
+870,additive Gaussian noise,加性高斯噪声
+871,additive model,加性模型
+872,additive noise,加性噪声
+873,adjacency,邻接
+874,adjacency matrix,邻接矩阵
+875,advantage function,优势函数
+876,advcl,状语从句
+877,adversarial attack,对抗攻击
+878,adversarial dataset,对抗数据集
+879,adversarial example,对抗样本
+880,adversarial filtering,对抗性过滤
+881,adversarial input,对抗性输入
+882,adversarial learning,对抗学习
+883,adversarial loss,对抗损失
+884,adversarial network,对抗网络
+885,adversarial networks,对抗网络
+886,adversarial perturbation,对抗扰动
+887,adversarial prompt,对抗性提示
+888,adversarial robustness,对抗鲁棒性
+889,adversarial training,对抗训练
+890,adversary,对手
+891,advmod,状语修饰语
+892,affine,仿射
+893,affine layer,仿射层
+894,affine subspace,仿射子空间
+895,affine transform,仿射变换
+896,affine transformation,仿射变换
+897,affinity matrix,亲和矩阵
+898,affinity measure,亲和度度量
+899,agent,智能体
+900,agent architecture,智能体架构
+901,agent learning,智能体学习
+902,agent policy,智能体策略
+903,agent's policy,智能体的策略
+904,agent-based model,基于代理的模型
+905,agglomerative,聚合
+906,aggregate function,聚合函数
+907,aggregation,聚合
+908,aggregation function,聚合函数
+909,agnostic PAC learnable,不可知PAC可学习
+910,aleatoric uncertainty,随机不确定性
+911,algorithm class,算法类
+912,algorithm design,算法设计
+913,algorithmic approach,算法方法
+914,algorithmic bias,算法偏见
+915,algorithmic fairness,算法公平性
+916,algorithmic stability,算法稳定性
+917,alias table,别名表
+918,alignment algorithm,对齐算法
+919,alignment model,对齐模型
+920,almost everywhere,几乎处处
+921,almost sure,几乎必然
+922,almost sure convergence,几乎必然收敛
+923,alpha compositing,α合成
+924,alphabet size,字母表大小
+925,alternating least square,交替最小二乘法
+926,alternating minimization,交替最小化
+927,alternative splicing dataset,选择性剪接数据集
+928,ambient space,环境空间
+929,ambiguity,分歧
+930,analytic gradient,解析梯度
+931,anaphora resolution,指代消解
+932,anaphoric reference,指代引用
+933,ancestral sampling,原始采样
+934,anchor,锚点
+935,anchor box,锚框
+936,annealed importance sampling,退火重要采样
+937,annotated corpus,注释语料库
+938,annotated datum,注释数据
+939,annotation artifact,注释伪影
+940,annotation projection,注释投影
+941,annotator,标注者
+942,annotator bias,标注者偏差
+943,anomaly detection,异常检测
+944,anomaly score,异常分数
+945,answer set,答案集
+946,answer set solver,答案集求解器
+947,answer span,答案范围
+948,answer variable,答案变量
+949,antecedent,前件
+950,antithetic sampling,对偶采样
+951,anytime algorithm,随时算法
+952,aperiodic,非周期的
+953,aperiodic graph,非周期性图
+954,aperture problem,光圈问题
+955,appearance model,外观模型
+956,application-specific integrated circuit,专用集成电路
+957,apprenticeship learning,学徒学习
+958,approximate Bayesian computation,近似贝叶斯计算
+959,approximate dynamic programming,近似动态规划
+960,approximate inference,近似推断
+961,approximate inference algorithm,近似推断算法
+962,approximate posterior,近似后验
+963,approximate posterior distribution,近似后验分布
+964,approximate probabilistic models,近似概率模型
+965,approximate similarity search,近似相似性搜索
+966,approximation,近似
+967,approximation algorithm,近似算法
+968,approximation bound,近似界限
+969,approximation error,近似误差
+970,approximation factor,近似因子
+971,approximation guarantee,近似保证
+972,approximation ratio,近似比率
+973,approximator,近似器
+974,arc-factored model,弧因子模型
+975,architectural modification,架构修改
+976,architecture,架构
+977,architecture search,架构搜索
+978,area under ROC curve,AUC
+979,arg max,最优解
+980,arg min,取最小值
+981,argument,论元
+982,argument identification,论元识别
+983,argument relation,论元关系
+984,argument structure,论元结构
+985,arithmetic coding,算术编码
+986,arity,元数
+987,artificial agent,人工智能体
+988,artificial general intelligence,通用人工智能
+989,artificial intelligence,人工智能
+990,artificial intelligence system,人工智能系统
+991,artificial neural network,人工神经网络
+992,artificial neuron,人工神经元
+993,artificial neurons,人工神经元
+994,artificial synapses,人工突触
+995,assignment problem,指派问题
+996,association analysis,关联分析
+997,association rule,关联规则
+998,association rule mining,关联规则挖掘
+999,associative memory,联想记忆
+1000,associative memory model,联想记忆模型
+1001,asymmetric transformation,非对称变换
+1002,asymptotic bias,渐近偏差
+1003,asymptotic notation,渐近符号
+1004,asymptotic variance,渐近方差
+1005,asymptotically unbiased,渐近无偏
+1006,asynchronous,异步
+1007,asynchronous stochastic gradient descent,异步随机梯度下降
+1008,atrous convolution,空洞卷积
+1009,attack success rate,攻击成功率
+1010,attention,注意力
+1011,attention cue,注意力提示
+1012,attention distribution,注意力分布
+1013,attention function,注意力函数
+1014,attention head,注意力头
+1015,attention layer,注意力层
+1016,attention map,注意力图
+1017,attention mask,注意力掩码
+1018,attention matrix,注意力矩阵
+1019,attention mechanism,注意力机制
+1020,attention model,注意力模型
+1021,attention module,注意力模块
+1022,attention operation,注意力操作
+1023,attention pattern,注意力模式
+1024,attention score,注意力分数
+1025,attention value,注意力值
+1026,attention weight,注意力权重
+1027,attention-based,基于注意力的
+1028,attention-based model,基于注意力的模型
+1029,attractor,吸引点
+1030,attribute,属性
+1031,attribute conditional independence assumption,属性条件独立性假设
+1032,attribute space,属性空间
+1033,attribute value,属性值
+1034,attribution,归因
+1035,augmentation,增强
+1036,augmented Lagrangian,增广拉格朗日法
+1037,augmented state space,增强状态空间
+1038,auto-regressive language model,自回归语言模型
+1039,auto-regressive model,自回归模型
+1040,auto-regressive network,自回归网络
+1041,auto-regressive process,自回归过程
+1042,autocalibration,自校准
+1043,autocorrelation,自相关
+1044,autodiff,自动微分
+1045,autoencoder,自编码器
+1046,automata,自动机
+1047,automated mechanism design,自动化机制设计
+1048,automatic differentiation,自动微分
+1049,automatic evaluation,自动评估
+1050,automatic post-editing,自动后编辑
+1051,automatic speech recognition,自动语音识别
+1052,automatic summarization,自动摘要
+1053,automating synthetic planning,自动化综合规划
+1054,automation,自动化
+1055,automorphism,自同构
+1056,autonomous agent,自主智能体
+1057,autonomous decision-making,自主决策
+1058,autonomous vehicle,自动驾驶汽车
+1059,autoregressive decoder,自回归解码器
+1060,autoregressive generation,自回归生成
+1061,autoregressive generative model,自回归生成模型
+1062,autoregressive model,自回归模型
+1063,autoregressive process,自回归过程
+1064,auxiliary classifier,辅助分类器
+1065,auxiliary loss,辅助损失
+1066,auxiliary task,辅助任务
+1067,auxiliary variable,辅助变量
+1068,auxillary loss,辅助损失
+1069,average gradient,平均梯度
+1070,average loss,平均损失
+1071,average pooling layer,平均汇聚层
+1072,average-pooling,平均汇聚
+1073,averaged perceptron,平均感知器
+1074,averaged perceptron algorithm,平均感知器算法
+1075,axis-aligned rectangle,轴对齐矩形
+1076,back propagation,反向传播
+1077,back propagation algorithm,反向传播算法
+1078,back propagation through time,随时间反向传播
+1079,back-off,回退
+1080,back-off strategy,回退策略
+1081,back-propagate,反向传播
+1082,back-propagated gradient,反向传播梯度
+1083,back-propagation algorithm,反向传播算法
+1084,back-translation,反向翻译
+1085,backbone model,主干模型
+1086,backbone network,主干网络
+1087,backdoor,后门
+1088,backdoor adjustment,后门调整
+1089,backdoor attack,后门攻击
+1090,backdoor sample,后门样本
+1091,background model,背景模型
+1092,background subtraction,背景减除
+1093,backoff model,回退模型
+1094,backpointer,回溯指针
+1095,backprojection,反投影
+1096,backprop,反向传播
+1097,backtracking line search,回溯线搜索
+1098,backward,后向
+1099,backward induction,反向归纳
+1100,backward pass,反向传递
+1101,backward search,反向搜索
+1102,bag of feature,特征袋
+1103,bag of words,词袋
+1104,bag-of-word,词袋模型
+1105,bag-of-word model,词袋模型
+1106,bag-of-word representation,词袋表示
+1107,bagging,袋装
+1108,balanced accuracy,平衡精度
+1109,bandgap energy,带隙能量
+1110,bandit,赌博机
+1111,bandit feedback,多臂老虎机反馈
+1112,bandit learning,多臂老虎机学习
+1113,bandpass filter,带通滤波器
+1114,bandwidth parameter,带宽参数
+1115,bart-base,bart-base模型
+1116,bart-large,bart-large模型
+1117,barycentric coordinate,重心坐标
+1118,base,基
+1119,base classifier,基分类器
+1120,base distribution,基础分布
+1121,base learner,基学习器
+1122,base learning algorithm,基学习算法
+1123,base model,基础模型
+1124,base vector,基向量
+1125,baseline,基准
+1126,baseline algorithm,基准算法
+1127,baseline method,基准方法
+1128,baseline model,基线模型
+1129,baseline parser,基线解析器
+1130,baseline policy,基线策略
+1131,baseline system,基线系统
+1132,baseline test,基准测试
+1133,basin hopping,盆地跳跃
+1134,basin of attraction,吸引域
+1135,basis function,基函数
+1136,basis vector,基向量
+1137,batch,批量
+1138,batch algorithm,批处理算法
+1139,batch dimension,批次维度
+1140,batch element,批次元素
+1141,batch gradient descent,批量梯度下降法
+1142,batch learning,批量学习
+1143,batch mode,批量模式
+1144,batch normalization,批量规范化
+1145,batch optimization,批量优化
+1146,batch processing,批处理
+1147,batch setting,批量设置
+1148,batch size,批量大小
+1149,batch training,批量训练
+1150,beam search,束搜索
+1151,beam search algorithm,束搜索算法
+1152,beam search decoding,束搜索解码
+1153,beam search decoding algorithm,束搜索解码算法
+1154,beam size,波束大小
+1155,beam width,束宽
+1156,beam-scanning,波束扫描
+1157,behavior cloning,行为克隆
+1158,behavior policy,行为策略
+1159,belief network,信念网
+1160,belief propagation,信念传播
+1161,belief state,信念状态
+1162,benchmark,基准
+1163,benchmark dataset,基准数据集
+1164,benchmark task,基准任务
+1165,best separates,最优分离
+1166,best-arm problem,最优臂问题
+1167,best-first search,最佳优先搜索
+1168,best-first search algorithm,最佳优先搜索算法
+1169,beta distribution,贝塔分布
+1170,beta1,β1
+1171,between-class scatter matrix,类间散度矩阵
+1172,between-class variance,类间方差
+1173,betweenness,中介中心性
+1174,bi-directional long-short term memory,双向长短期记忆
+1175,bi-gram,二元组
+1176,bi-level optimization,双层优化
+1177,bi-partition,二分法
+1178,bias,偏差
+1179,bias in affine function,偏置
+1180,bias in statistics,偏差
+1181,bias mitigation,偏见缓解
+1182,bias parameter,偏置参数
+1183,bias shift,偏置偏移
+1184,bias term,偏置项
+1185,bias vector,偏置向量
+1186,bias-variance decomposition,偏差 - 方差分解
+1187,bias-variance dilemma,偏差 - 方差困境
+1188,bias-variance tradeoff,偏差-方差权衡
+1189,biased,有偏
+1190,biased dataset,有偏数据集
+1191,biased estimator,有偏估计量
+1192,biased importance sampling,有偏重要采样
+1193,bibliographic coupling,文献耦合
+1194,bicubic interpolation,双三次插值
+1195,bidirectional Transformer,双向变换器
+1196,bidirectional encoder,双向编码器
+1197,bidirectional heuristic search,双向启发式搜索
+1198,bidirectional language model,双向语言模型
+1199,bidirectional model,双向模型
+1200,bidirectional recurrent neural network,双向循环神经网络
+1201,bidirectional search,双向搜索
+1202,bidirectionality,双向性
+1203,big-O notation,大O符号
+1204,bigram,二元语法
+1205,bigram count,二元组计数
+1206,bigram language model,二元语言模型
+1207,bijective function,双射函数
+1208,bijective mapping,双射映射
+1209,bilateral filtering,双边滤波
+1210,bilinear,双线性
+1211,bilinear form,双线性形式
+1212,bilinear interpolation,双线性插值
+1213,bilinear model,双线性模型
+1214,bilingual evaluation understudy,BLEU
+1215,bilingual model,双语模型
+1216,binarization,二值化
+1217,binary atom,二元原子
+1218,binary classification,二分类
+1219,binary classification head,二元分类头
+1220,binary classification problem,二元分类问题
+1221,binary classification task,二元分类任务
+1222,binary classifier,二元分类器
+1223,binary constraint,二元约束
+1224,binary cross entropy,二元交叉熵
+1225,binary cross-entropy loss,二元交叉熵损失
+1226,binary decision tree,二叉决策树
+1227,binary feature,二元特征
+1228,binary label,二元标签
+1229,binary matrix,二元矩阵
+1230,binary predicate,二元谓词
+1231,binary relation,二元关系
+1232,binary search,二分查找
+1233,binary segmentation,二值分割
+1234,binary sparse coding,二值稀疏编码
+1235,binary tree,二叉树
+1236,binary variable,二元变量
+1237,binary vector,二进制向量
+1238,binomial distribution,二项分布
+1239,binomial logistic regression model,二项对数几率回归
+1240,binomial test,二项检验
+1241,bioinformatic,生物信息学
+1242,biological neural network,生物神经网络
+1243,biological plausibility,生物学合理性
+1244,bipartite,二分的
+1245,bipartite graph,二分图
+1246,bipartite matching,二分匹配
+1247,bipartite structure,二分结构
+1248,birth-death process,出生-死亡过程
+1249,bisection method,二分法
+1250,bisimulation,双模拟
+1251,bit,比特
+1252,bit collisions,字节碰撞
+1253,bitext,双语文本
+1254,bitvector,位向量
+1255,black box,黑盒子
+1256,black-box,黑箱
+1257,black-box attack,黑盒攻击
+1258,black-box model,黑箱模型
+1259,block,块
+1260,block Gibbs sampling,块吉布斯采样
+1261,block coordinate descent,块坐标下降
+1262,block matrix,块矩阵
+1263,block-diagonal matrix,块对角矩阵
+1264,blur kernel,模糊核
+1265,boilerplate code,样板代码
+1266,bonding environments,成键环境
+1267,boosting,Boosting
+1268,boosting algorithm,提升算法
+1269,boosting approach,提升方法
+1270,boosting tree,提升树
+1271,bootstrap aggregating,Bagging
+1272,bootstrap aggregation,引导聚合
+1273,bootstrap learning,自助学习
+1274,bootstrap resampling,自助法重采样
+1275,bootstrap sample,自助样本
+1276,bootstrap sampling,自助采样法
+1277,bootstrapping,自助法
+1278,bottleneck,瓶颈
+1279,bottleneck layer,瓶颈层
+1280,bottom-up,自下而上
+1281,bottom-up learning,自下而上学习
+1282,bottom-up module,自下而上模块
+1283,bottom-up parsing,自下而上解析
+1284,bound variable,约束变量
+1285,bounded rationality,有限理性
+1286,bounding box,边界框
+1287,bounding box detection,边界框检测
+1288,bounding box regression,边界框回归
+1289,bounding box regressor,边界框回归器
+1290,bounding boxes,边界框
+1291,branch and bound algorithm,分支限界算法
+1292,branching factor,分支因子
+1293,breadth-first order,广度优先顺序
+1294,breadth-first search,广度优先搜索
+1295,break-event point,平衡点
+1296,bridge sampling,桥式采样
+1297,broadcasting,广播
+1298,brute force search,暴力搜索
+1299,bucketing,分桶
+1300,burn-in,预热期
+1301,burn-in period,预烧期
+1302,burning-in,磨合
+1303,calculation uncertainties,计算不确定性
+1304,calculus,微积分
+1305,calculus of variation,变分法
+1306,calculus of variations,变分法
+1307,calibration,校准
+1308,calibration method,校准方法
+1309,camera calibration,相机标定
+1310,camera intrinsic,相机内参
+1311,camera matrix,相机矩阵
+1312,camera parameter,相机参数
+1313,camera pose estimation,相机姿态估计
+1314,candidate generation,候选生成
+1315,candidate set,候选集
+1316,canonical,正则的
+1317,canonical ML methods,经典机器学习方法
+1318,canonical basis,标准基
+1319,canonical correlation analysis,典型相关分析
+1320,canonical form,标准形式
+1321,canonical frame,标准框架
+1322,canonical space,标准空间
+1323,canonicalization,规范化
+1324,capacity,容量
+1325,capsule network,胶囊网络
+1326,cardinality,基数
+1327,cardinality constraint,基数约束
+1328,cascade,级联
+1329,cascade model,级联模型
+1330,catastrophic forgetting,灾难性遗忘
+1331,categorial grammar,范畴语法
+1332,categorical attribute,分类属性
+1333,categorical cross-entropy,分类交叉熵
+1334,categorical data,分类数据
+1335,categorical distribution,类别分布
+1336,categorical feature,类别特征
+1337,categorization algorithms,分类算法
+1338,causal effect,因果效应
+1339,causal effect estimation,因果效应估计
+1340,causal entropy,因果熵
+1341,causal factor,因果因子
+1342,causal graph,因果图
+1343,causal inference,因果推断
+1344,causal intervention,因果干预
+1345,causal language model,因果语言模型
+1346,causal model,因果模型
+1347,causal modeling,因果模型
+1348,causal reasoning,因果推理
+1349,causal rule,因果规则
+1350,causal theory,因果理论
+1351,cell,单元
+1352,cell state,单元状态
+1353,center crop,中心裁剪
+1354,center of projection,投影中心
+1355,centered difference,中心差分
+1356,central limit theorem,中心极限定理
+1357,centrality measure,中心性度量
+1358,centroid,质心
+1359,chain rule,链式法则
+1360,change of basis,基变换
+1361,channel,通道
+1362,chaos,混沌
+1363,character embedding,字符嵌入
+1364,character n-gram,字符n-gram
+1365,characteristic function,特征函数
+1366,characteristic polynomial,特征多项式
+1367,characteristic vector,特征向量
+1368,chart parser,图表解析器
+1369,chart parsing,图表解析
+1370,chatbot,聊天机器人
+1371,checkpoint,检查点
+1372,chemoinformatic,化学信息学
+1373,chi-square distribution,卡方分布
+1374,chi-square test,卡方检验
+1375,chi-squared,卡方
+1376,child node,子节点
+1377,chord,弦
+1378,chordal graph,弦图
+1379,chromosome,染色体
+1380,chunk size,块大小
+1381,citation network,引用网络
+1382,city block distance,街区距离
+1383,class,类别
+1384,class balance,类别平衡
+1385,class distribution,类别分布
+1386,class imbalance,类别不平衡
+1387,class label,类标记
+1388,class prior,类别先验
+1389,class-conditional probability,类条件概率
+1390,class-imbalance,类别不平衡
+1391,classical planning,经典规划
+1392,classification,分类
+1393,classification accuracy,分类准确率
+1394,classification algorithm,分类算法
+1395,classification and regression tree,分类与回归树
+1396,classification approach,分类方法
+1397,classification error,分类错误
+1398,classification head,分类头
+1399,classification loss,分类损失
+1400,classification margin,分类边界
+1401,classification method,分类方法
+1402,classification metric,分类指标
+1403,classification model,分类模型
+1404,classification network,分类网络
+1405,classification objective,分类目标
+1406,classification problem,分类问题
+1407,classification score,分类得分
+1408,classification task,分类任务
+1409,classification token,分类标记
+1410,clause learning,子句学习
+1411,click model,点击模型
+1412,clip gradient,梯度截断
+1413,clip range,裁剪范围
+1414,clipping factor,裁剪因子
+1415,clipping the gradient,截断梯度
+1416,clipping threshold,裁剪阈值
+1417,clique,团
+1418,clique potential,团势能
+1419,clockwork RNN,时钟循环神经网络
+1420,closed form solution,闭式解
+1421,closed frequent itemset,闭合频繁项集
+1422,closed-book model,闭卷模型
+1423,closed-form,闭式
+1424,closed-world,封闭世界
+1425,cloze prompt,完形填空提示
+1426,cloze task,完形填空任务
+1427,cluster,簇
+1428,cluster analysis,聚类分析
+1429,cluster assignment,聚类分配
+1430,cluster assumption,聚类假设
+1431,cluster center,聚类中心
+1432,cluster centroid,聚类中心
+1433,cluster feature,聚类特征
+1434,cluster label,聚类标签
+1435,cluster resolution feature selection,聚类分辨率特征选择
+1436,cluster size,聚类大小
+1437,cluster-based splitting,基于聚类的分离方法
+1438,clustering,聚类
+1439,clustering algorithm,聚类算法
+1440,clustering criterion,聚类准则
+1441,clustering ensemble,聚类集成
+1442,clustering method,聚类方法
+1443,clustering methods,聚类方法
+1444,clustering problem,聚类问题
+1445,co-adapting,共适应
+1446,co-occurrence,共现
+1447,co-occurrence frequency,共现词频
+1448,co-occurrence matrix,共现矩阵
+1449,co-occurrence statistic,共现统计
+1450,co-reference,共指
+1451,co-training,协同训练
+1452,coarse correlated equilibria,粗相关均衡
+1453,coarse correlated equilibrium,粗相关均衡
+1454,coarse layer,粗层
+1455,coarse-to-fine,粗到细
+1456,coarse-to-fine approach,从粗到细方法
+1457,coarse-to-fine cascade,粗到细级联
+1458,coarse-to-fine strategy,粗到细策略
+1459,code,编码
+1460,code pipeline,代码流水线
+1461,codebook,码本
+1462,codebook learning,码书学习
+1463,coding matrix,编码矩阵
+1464,codomain,值域
+1465,coefficient matrix,系数矩阵
+1466,coefficient of determination,决定系数
+1467,cognitive model,认知模型
+1468,cognitive science,认知科学
+1469,cold start,冷启动
+1470,collaborative filtering,协同过滤
+1471,collaborative learning,协作学习
+1472,collapsed Gibbs sampling,收缩的吉布斯抽样
+1473,collective inference,集体推理
+1474,collinearity,共线性
+1475,color channel,颜色通道
+1476,color constancy,色彩恒常性
+1477,colorization,上色
+1478,column,列
+1479,column space,列空间
+1480,column vector,列向量
+1481,combinator,组合子
+1482,combinatorial explosion,组合爆炸
+1483,combinatorial optimization,组合优化
+1484,combinatorial optimization problem,组合优化问题
+1485,combined gradient,组合梯度
+1486,committee-based learning,基于委员会的学习
+1487,common cause,共因
+1488,common parent,同父
+1489,commonsense inference,常识推理
+1490,commonsense knowledge,常识知识
+1491,commonsense knowledge graph,常识知识图谱
+1492,communication complexity,通信复杂度
+1493,communication graph,通信图
+1494,compact singular value decomposition,紧奇异值分解
+1495,compatibility function,兼容性函数
+1496,compatibility graph,兼容性图
+1497,competitive learning,竞争型学习
+1498,competitive ratio,竞争比率
+1499,complementary slackness,互补松弛
+1500,complete graph,完全图
+1501,complete linkage,完全连接
+1502,complete-data,完全数据
+1503,complex cell,复杂细胞
+1504,complex data,复合数据
+1505,component learner,组件学习器
+1506,composition function,组合函数
+1507,compositional generalization,组合泛化
+1508,compositional semantic,组合语义
+1509,compositionality,组合性
+1510,comprehensibility,可解释性
+1511,compressive sensing,压缩感知
+1512,computation,计算
+1513,computation complexity,计算复杂度
+1514,computation cost,计算代价
+1515,computation graph,计算图
+1516,computational argumentation,计算论证
+1517,computational budget,计算预算
+1518,computational complexity,计算复杂度
+1519,computational cost,计算成本
+1520,computational experiment,计算实验
+1521,computational graph,计算图
+1522,computational learning theory,计算学习理论
+1523,computational linguistics,计算语言学
+1524,computational model,计算模型
+1525,computational optimisation,计算优化
+1526,computational science,计算科学
+1527,computational toxicology,计算毒理学
+1528,compute budget,计算预算
+1529,computer science,计算机科学
+1530,computer simulations,计算机模拟
+1531,computer vision,计算机视觉
+1532,computer vision model,计算机视觉模型
+1533,computer-aided,计算机辅助
+1534,concatenate,连结
+1535,concatenation operation,连接操作
+1536,concentration inequality,集中不等式
+1537,concentration parameter,集中参数
+1538,concept,概念
+1539,concept assertion,概念断言
+1540,concept atom,概念原子
+1541,concept class,概念类
+1542,concept drift,概念漂移
+1543,concept inclusion,概念包含
+1544,concept learning system,概念学习系统
+1545,concept name,概念名称
+1546,concept shift,概念偏移
+1547,condition number,条件数
+1548,conditional computation,条件计算
+1549,conditional density,条件密度
+1550,conditional distribution,条件分布
+1551,conditional effect,条件效应
+1552,conditional entropy,条件熵
+1553,conditional expectation,条件期望
+1554,conditional gradient,条件梯度
+1555,conditional independence,条件独立
+1556,conditional independency,条件独立性
+1557,conditional language model,条件语言模型
+1558,conditional likelihood,条件似然
+1559,conditional log likelihood,条件对数似然
+1560,conditional log probability,条件对数概率
+1561,conditional maximum entropy,条件最大熵
+1562,conditional model,条件模型
+1563,conditional mutual information,条件互信息
+1564,conditional probability,条件概率
+1565,conditional probability density function,条件概率密度函数
+1566,conditional probability distribution,条件概率分布
+1567,conditional probability table,条件概率表
+1568,conditional random field,条件随机场
+1569,conditional risk,条件风险
+1570,conditional sampling,条件采样
+1571,conditional text generation,条件文本生成
+1572,conditionally independent,条件独立的
+1573,conditioning,条件化
+1574,conditioning vector,条件向量
+1575,conference on neural information processing systems,国际神经信息处理系统会议
+1576,confidence,置信度
+1577,confidence bound,置信界限
+1578,confidence interval,置信区间
+1579,confidence map,置信度图
+1580,confidence score,置信度分数
+1581,confidence threshold,置信度阈值
+1582,configuration,配置
+1583,conflict resolution,冲突消解
+1584,confusion matrix,混淆矩阵
+1585,confusion network,混淆网络
+1586,conjugate,共轭
+1587,conjugate directions,共轭方向
+1588,conjugate distribution,共轭分布
+1589,conjugate gradient,共轭梯度
+1590,conjugate gradient descent,共轭梯度下降
+1591,conjugate gradient method,共轭梯度法
+1592,conjugate prior,共轭先验
+1593,conjunct,连接词
+1594,conjunctive normal form,合取范式
+1595,conjunctive query,合取查询
+1596,connected component,连通分量
+1597,connection weight,连接权
+1598,connectionism,连接主义
+1599,connectionist model,连接主义模型
+1600,connectivity matrix,连接矩阵
+1601,consensus network decoding,共识网络解码
+1602,consequent,结果
+1603,consistency,一致性
+1604,consistency convergence,一致性收敛
+1605,consistent estimator,一致估计量
+1606,constellation model,星座模型
+1607,constituency parser,成分句法分析器
+1608,constituency parsing,短语结构分析
+1609,constituency tree,成分树
+1610,constituent parsing,短语结构分析
+1611,constituent structure,成分结构
+1612,constrained beam search,约束束搜索
+1613,constrained decoding,约束解码
+1614,constrained optimization,约束优化
+1615,constrained optimization problem,约束优化问题
+1616,constraint,约束
+1617,constraint generation,约束生成
+1618,constraint programming,约束编程
+1619,constraint propagation,约束传播
+1620,constraint satisfaction,约束满足
+1621,constraint satisfaction problem,约束满足问题
+1622,constraint set,约束集合
+1623,content model,内容模型
+1624,content selection,内容选择
+1625,content-addressable memory,基于内容寻址的存储
+1626,context encoder,上下文编码器
+1627,context free grammar,上下文无关文法
+1628,context model,上下文模型
+1629,context variable,上下文变量
+1630,context vector,上下文向量
+1631,context window,上下文窗口
+1632,context word,上下文词
+1633,context-free language,上下文无关语言
+1634,context-specific independences,特定上下文独立
+1635,contextual bandit,上下文赌博机
+1636,contextual embedding,上下文嵌入
+1637,contextual feature,上下文特征
+1638,contextual information,上下文信息
+1639,contextual model,上下文模型
+1640,contextual representation,上下文表示
+1641,contextual vector,上下文向量
+1642,contextual word embedding,上下文词嵌入
+1643,contextualized embedding,上下文化嵌入
+1644,contextualized representation,基于上下文的表示
+1645,contextualized word vector,上下文化词向量
+1646,contingency table,列联表
+1647,continual learning,持续学习
+1648,continuation method,延拓法
+1649,continuing task,持续式任务
+1650,continuous attribute,连续属性
+1651,continuous bag-of-words model,连续词袋模型
+1652,continuous learning,持续学习
+1653,continuous normalizing flow,连续归一化流
+1654,continuous optimization,连续优化
+1655,contractive,收缩
+1656,contractive autoencoder,收缩自编码器
+1657,contractive neural network,收缩神经网络
+1658,contrastive approach,对比方法
+1659,contrastive divergence,对比散度
+1660,contrastive fine-tuning,对比微调
+1661,contrastive loss,对比损失
+1662,contrastive objective,对比目标
+1663,control variate,控制变量
+1664,controllable text generation,可控文本生成
+1665,controller,控制器
+1666,conv layer,卷积层
+1667,convergence,收敛
+1668,convergence analysis,收敛性分析
+1669,convergence bound,收敛界
+1670,convergence criterion,收敛准则
+1671,convergence rate,收敛速率
+1672,convergence time,收敛时间
+1673,conversation history,对话历史
+1674,conversational agent,会话智能体
+1675,conversational dialogue system,对话系统
+1676,convex,凸的
+1677,convex combination,凸组合
+1678,convex conjugate,凸共轭
+1679,convex constraint,凸约束
+1680,convex decomposition,凸分解
+1681,convex function,凸函数
+1682,convex hull,凸包
+1683,convex loss,凸损失
+1684,convex objective,凸目标
+1685,convex objective function,凸目标函数
+1686,convex optimization,凸优化
+1687,convex optimization problem,凸优化问题
+1688,convex problem,凸问题
+1689,convex program,凸优化问题
+1690,convex proxy,凸代理
+1691,convex quadratic program,凸二次规划
+1692,convex quadratic programming,凸二次规划
+1693,convex relaxation,凸松弛
+1694,convex risk minimization,凸风险最小化
+1695,convex set,凸集
+1696,convex surrogate,凸替代
+1697,convex-concave,凸凹
+1698,convexity,凸性
+1699,convolution,卷积
+1700,convolution kernel,卷积核
+1701,convolution layer,卷积层
+1702,convolution neural network,卷积神经网络
+1703,convolution operation,卷积操作
+1704,convolution operator,卷积算子
+1705,convolutional,卷积的
+1706,convolutional Boltzmann machine,卷积玻尔兹曼机
+1707,convolutional architecture,卷积架构
+1708,convolutional block,卷积块
+1709,convolutional decoder,卷积解码器
+1710,convolutional deep belief network,卷积深度信念网络
+1711,convolutional encoder,卷积编码器
+1712,convolutional feature,卷积特征
+1713,convolutional filter,卷积滤波器
+1714,convolutional kernel,卷积核
+1715,convolutional layer,卷积层
+1716,convolutional network,卷积网络
+1717,convolutional neural net,卷积神经网络
+1718,convolutional neural network,卷积神经网络
+1719,convolutional representation,卷积表示
+1720,cooling schedule,冷却计划
+1721,coordinate,坐标
+1722,coordinate ascent,坐标上升
+1723,coordinate descent,坐标下降
+1724,coordinate descent algorithm,坐标下降算法
+1725,coordinate frame,坐标框架
+1726,coparent,共父
+1727,copy mechanism,复制机制
+1728,core tensor,核张量
+1729,core-loss spectrum,高能区域
+1730,coreference,共指
+1731,coreference annotation,共指标注
+1732,coreference chain,共指链
+1733,coreference resolution model,共指解析模型
+1734,coreference resolution system,共指解析系统
+1735,coreferent,共指实体
+1736,corpora,语料库
+1737,corpus,语料库
+1738,correlated equilibria,相关均衡
+1739,correlated equilibrium,相关均衡
+1740,correlation,相关系数
+1741,correlation coefficient,相关系数
+1742,correspondence matrix,对应矩阵
+1743,cosine,余弦
+1744,cosine decay,余弦衰减
+1745,cosine decay schedule,余弦衰减计划
+1746,cosine learning rate schedule,余弦学习率计划
+1747,cosine measure,余弦度量
+1748,cosine schedule,余弦调度
+1749,cosine similarity,余弦相似度
+1750,cosine similarity measure,余弦相似度度量
+1751,cost,代价
+1752,cost curve,代价曲线
+1753,cost function,代价函数
+1754,cost matrix,代价矩阵
+1755,cost vector,代价向量
+1756,cost volume,代价体积
+1757,cost-sensitive,代价敏感
+1758,cost-sensitive learning,成本敏感学习
+1759,counterexample,反例
+1760,counterfactual datum,反事实数据
+1761,counterfactual example,反事实示例
+1762,counterfactual fairness,反事实公平性
+1763,counterfactual reasoning,反事实推理
+1764,covariance,协方差
+1765,covariance RBM,协方差RBM
+1766,covariance function,协方差函数
+1767,covariance kernel,协方差核
+1768,covariance matrix,协方差矩阵
+1769,covariance model,协方差模型
+1770,covariance operator,协方差算子
+1771,covariance parameter,协方差参数
+1772,covariance structure,协方差结构
+1773,covariant derivative,协变导数
+1774,covariate,协变量
+1775,covariate shift,协变量偏移
+1776,coverage,覆盖
+1777,credit assignment,信用分配
+1778,credit assignment problem,贡献度分配问题
+1779,criterion,准则
+1780,critic,评论员
+1781,critic loss,评论家损失
+1782,critic network,评价网络
+1783,critical point,临界点
+1784,critical temperatures,临界温度
+1785,cross attention,交叉注意力
+1786,cross correlation,互相关
+1787,cross entropy,交叉熵
+1788,cross entropy error,交叉熵误差
+1789,cross validation,交叉验证
+1790,cross-attention layer,交叉注意力层
+1791,cross-attention module,交叉注意力模块
+1792,cross-correlation,互相关
+1793,cross-entropy loss function,交叉熵损失函数
+1794,cross-entropy objective,交叉熵目标
+1795,cross-lingual benchmark,跨语言基准
+1796,cross-lingual embedding,跨语言嵌入
+1797,cross-lingual feature,跨语言特征
+1798,cross-lingual knowledge transfer,跨语言知识迁移
+1799,cross-lingual model,跨语言模型
+1800,cross-lingual representation,跨语言表示
+1801,cross-lingual transfer,跨语言迁移
+1802,cross-modal,跨模态
+1803,cross-validated coefficient of determination,交叉验证的决定系数
+1804,cross-validating,交叉验证
+1805,cross-validation,交叉验证
+1806,crowd-sourcing,众包
+1807,crowdsourcing,众包
+1808,cumulant generating function,累积量生成函数
+1809,cumulative density function,累积分布函数
+1810,cumulative distribution function,累积分布函数
+1811,cumulative function,累积函数
+1812,cumulative regret,累积遗憾
+1813,cumulative reward,累积奖励
+1814,curriculum learning,课程学习
+1815,curse of dimensionality,维数灾难
+1816,curvature,曲率
+1817,curve-fitting,曲线拟合
+1818,cut point,截断点
+1819,cut-points,切点
+1820,cutoff radial function,截断径向函数
+1821,cutting plane,割平面
+1822,cutting plane algorithm,割平面法
+1823,cutting plane method,割平面法
+1824,cybernetics,控制论
+1825,cycle consistency,循环一致性
+1826,cycle consistency loss,循环一致性损失
+1827,cycle inequality,循环不等式
+1828,cyclic learning rate,循环学习率
+1829,d-separation,d-分离
+1830,d_model,d_model
+1831,damping,衰减
+1832,damping factor,阻尼因子
+1833,data augmentation,数据增强
+1834,data availability,数据可用性
+1835,data cleaning,数据清洗
+1836,data collection,数据采集
+1837,data considerations,数据注意事项
+1838,data curation,数据监管
+1839,data disparity,数据差异
+1840,data distribution,数据分布
+1841,data dredging,数据挖掘
+1842,data generating distribution,数据生成分布
+1843,data generating process,数据生成过程
+1844,data imbalance,数据不平衡
+1845,data imputation,数据填补
+1846,data instance,数据样本
+1847,data labels,数据标签
+1848,data leakage,数据泄露
+1849,data manifold,数据流形
+1850,data mining,数据挖掘
+1851,data parallelism,数据并行
+1852,data point,数据点
+1853,data pre-processing,数据预处理
+1854,data preprocessing,数据预处理
+1855,data processing,数据处理
+1856,data processing inequality,数据处理不等式
+1857,data quality,数据质量
+1858,data reduction,数据缩减
+1859,data representation,数据表示
+1860,data selection,数据选择
+1861,data set,数据集
+1862,data sources,数据源
+1863,data sparseness,数据稀疏性
+1864,data sparsity,数据稀疏性
+1865,data splitting,数据拆分
+1866,data structure,数据结构
+1867,data transformation,数据转换
+1868,data vector,数据向量
+1869,data wrangling,数据整理
+1870,data-driven,数据驱动
+1871,data-driven decision-making,数据驱动的决策
+1872,data-driven methods,数据驱动的方法
+1873,data-driven spectral analysis,数据驱动的光谱分析
+1874,data-mining,数据挖掘
+1875,data-to-text generation,数据到文本生成
+1876,database,数据库
+1877,dataset augmentation,数据集增强
+1878,dataset bias,数据集偏差
+1879,dataset size,数据集大小
+1880,datasheet,数据表
+1881,datum bias,数据偏差
+1882,datum clustering,数据聚类
+1883,datum contamination,数据污染
+1884,datum dependency,数据依赖性
+1885,datum fidelity,数据保真度
+1886,datum filtering,数据过滤
+1887,datum generative process,数据生成过程
+1888,datum matrix,数据矩阵
+1889,datum mining algorithm,数据挖掘算法
+1890,datum parallelism,数据并行性
+1891,datum perturbation,数据扰动
+1892,davinci,达芬奇
+1893,debugging strategy,调试策略
+1894,decay parameter,衰减参数
+1895,decentralized algorithm,去中心化算法
+1896,decision boundary,决策边界
+1897,decision function,决策函数
+1898,decision node,决策节点
+1899,decision policy,决策策略
+1900,decision problem,决策问题
+1901,decision rule,决策规则
+1902,decision space,决策空间
+1903,decision stump,决策树桩
+1904,decision stumps,决策树桩
+1905,decision surface,决策平面
+1906,decision theory,决策理论
+1907,decision tree,决策树
+1908,decision variable,决策变量
+1909,decoder,解码器
+1910,decoder hidden state,解码器隐藏状态
+1911,decoder layer,解码器层
+1912,decoder network,解码器网络
+1913,decoder output,解码器输出
+1914,decoder state,解码器状态
+1915,decoder-only transformer,仅解码器变换器
+1916,decoding,解码
+1917,decoding algorithm,解码算法
+1918,decoding problem,解码问题
+1919,decoding step,解码步骤
+1920,decoding strategy,解码策略
+1921,decompose,分解
+1922,decomposition,分解
+1923,decomposition method,分解方法
+1924,deconvolution,反卷积
+1925,deconvolution layer,反卷积层
+1926,deconvolutional layer,反卷积层
+1927,deconvolutional network,反卷积网络
+1928,deduction,演绎
+1929,deep Boltzmann machine,深度玻尔兹曼机
+1930,deep Q-learning,深度 Q 学习
+1931,deep Q-network,深度Q网络
+1932,deep architecture,深度架构
+1933,deep belief network,深度信念网络
+1934,deep circuit,深度回路
+1935,deep convolutional generative adversarial network,深度卷积生成对抗网络
+1936,deep convolutional network,深度卷积网络
+1937,deep convolutional neural network,深度卷积神经网络
+1938,deep feature,深度特征
+1939,deep feedforward network,深度前馈网络
+1940,deep generative model,深度生成模型
+1941,deep layer,深层
+1942,deep learning,深度学习
+1943,deep learning architecture,深度学习架构
+1944,deep learning framework,深度学习框架
+1945,deep learning model,深度学习模型
+1946,deep learning system,深度学习系统
+1947,deep model,深度模型
+1948,deep net,深度网络
+1949,deep network,深度网络
+1950,deep network architecture,深度网络架构
+1951,deep neural model,深度神经模型
+1952,deep neural net,深度神经网络
+1953,deep neural network,深度神经网络
+1954,deep reinforcement learning,深度强化学习
+1955,deep sequence model,深度序列模型
+1956,deep supervision,深度监督
+1957,deeplift,DeepLift模型
+1958,deeply-supervised net,深度监督网络
+1959,default logic,默认逻辑
+1960,default rule,默认规则
+1961,definite integral,定积分
+1962,deformable template,可变形模板
+1963,deformation field,变形场
+1964,degree distribution,度分布
+1965,degree of belief,信任度
+1966,delayed reward,延迟奖励
+1967,delexicalization,去词汇化
+1968,delta kernel,δ核
+1969,dendrogram,树状图
+1970,denoiser,去噪器
+1971,denoising,去噪
+1972,denoising autoencoder,去噪自编码器
+1973,denoising diffusion probabilistic model,去噪扩散概率模型
+1974,denoising network,去噪网络
+1975,denoising objective,去噪目标
+1976,denoising process,去噪过程
+1977,denoising score matching,去躁分数匹配
+1978,denoising score matching loss,去噪分数匹配损失
+1979,denominator layout,分母布局
+1980,denotation,指称
+1981,dense,稠密
+1982,dense attention,密集注意力
+1983,dense depth map,密集深度图
+1984,dense feature,密集特征
+1985,dense layer,全连接层
+1986,dense matrix,密集矩阵
+1987,dense network,密集网络
+1988,dense prediction,密集预测
+1989,dense representation,密集表示
+1990,dense vector,密集向量
+1991,density estimate,密度估计
+1992,density estimation,密度估计
+1993,density estimator,密度估计器
+1994,density field,密度场
+1995,density function,密度函数
+1996,density functional theory,密度泛函理论
+1997,density gradient,密度梯度
+1998,density ratio,密度比
+1999,density-based clustering,密度聚类
+2000,density-based spatial clustering of applications with noise,DBSCAN密度聚类
+2001,dependency arc,依赖弧
+2002,dependency feature,依赖特征
+2003,dependency graph,依赖图
+2004,dependency label,依赖标签
+2005,dependency model,依赖模型
+2006,dependency parse,依存分析
+2007,dependency parse tree,依存分析树
+2008,dependency parser,依存句法分析器
+2009,dependency parsing model,依存句法分析模型
+2010,dependency path,依存路径
+2011,dependency relation,依存关系
+2012,dependency representation,依存表示
+2013,dependency structure,依赖结构
+2014,dependency tree,依赖树
+2015,dependency treebank,依赖树库
+2016,dependent variable,因变量
+2017,depth,深度
+2018,depth estimation,深度估计
+2019,depth estimator,深度估计器
+2020,depth image,深度图像
+2021,depth map,深度图
+2022,depth prediction,深度预测
+2023,depth-first search,深度优先搜索
+2024,derivative,导数
+2025,description,描述
+2026,description logic,描述逻辑
+2027,descriptor,描述符
+2028,design matrix,设计矩阵
+2029,design space,设计空间
+2030,det,行列式
+2031,detailed balance,细致平衡
+2032,detailed balance equation,细致平衡方程
+2033,detection algorithm,检测算法
+2034,detection model,检测模型
+2035,detection score,检测得分
+2036,detection window,检测窗口
+2037,detector,检测器
+2038,detector stage,探测级
+2039,determinant,行列式
+2040,deterministic,确定性
+2041,deterministic algorithm,确定性算法
+2042,deterministic annealing,确定性退火
+2043,deterministic automaton,确定性自动机
+2044,deterministic baseline,确定性基准
+2045,deterministic finite automaton,确定性有限自动机
+2046,deterministic model,确定性模型
+2047,deterministic policy,确定性策略
+2048,deterministic rule,确定性规则
+2049,dev set,开发集
+2050,development set,开发集
+2051,diagonal matrix,对角矩阵
+2052,dialog system,对话系统
+2053,dialogue act,对话行为
+2054,dialogue context,对话上下文
+2055,dialogue generation,对话生成
+2056,dialogue history,对话历史
+2057,dialogue management,对话管理
+2058,dialogue state,对话状态
+2059,dialogue state tracker,对话状态跟踪器
+2060,dialogue system,对话系统
+2061,dialogue turn,对话轮次
+2062,diameter,直径
+2063,dictionary,字典
+2064,dictionary learning,字典学习
+2065,dictionary matrix,字典矩阵
+2066,diffeomorphism,微分同胚
+2067,differentiable function,可微函数
+2068,differentiable neural computer,可微分神经计算机
+2069,differentiable renderer,可微渲染器
+2070,differentiable rendering,可微渲染
+2071,differentiable rendering function,可微渲染函数
+2072,differential entropy,微分熵
+2073,differential equation,微分方程
+2074,differential evolution,差分进化
+2075,differential privacy,差分隐私
+2076,differentiation,微分
+2077,diffusion matrix,扩散矩阵
+2078,diffusion model,扩散模型
+2079,diffusion tensor,扩散张量
+2080,digamma function,伽玛函数的对数导数
+2081,digit classification,数字分类
+2082,dilated convolution,膨胀卷积
+2083,dilation,膨胀
+2084,dim,维数
+2085,dimension,维度
+2086,dimension reduction,降维
+2087,dimensional vector,维向量
+2088,dimensionality,维度
+2089,dimensionality reduction,降维
+2090,dimensionality reduction algorithm,降维算法
+2091,direct neural network modeling,正向神经网络建模
+2092,directed,有向
+2093,directed acyclic graph,有向非循环图
+2094,directed edge,有向边
+2095,directed graph,有向图
+2096,directed graphical model,有向图模型
+2097,directed model,有向模型
+2098,directed separation,有向分离
+2099,directed tree,有向树
+2100,directional derivative,方向导数
+2101,disagreement measure,不合度量
+2102,disagreement-based methods,基于分歧的方法
+2103,disambiguation,消歧义
+2104,discount factor,衰减系数
+2105,discount parameter,折扣参数
+2106,discounted cumulative reward,折扣累积奖励
+2107,discounted return,折扣回报
+2108,discounted reward,折扣奖励
+2109,discounted state distribution,折扣状态分布
+2110,discrete distribution,离散分布
+2111,discrete graphical model,离散图模型
+2112,discrete manner,离散方式
+2113,discrete optimization,离散优化
+2114,discrete quanta,离散量子
+2115,discrete random variable,离散随机变量
+2116,discretization,离散化
+2117,discriminant analysis,判别分析
+2118,discriminant function,判别函数
+2119,discriminative,判别性
+2120,discriminative RBM,判别RBM
+2121,discriminative approach,判别方法
+2122,discriminative feature,判别特征
+2123,discriminative method,判别方法
+2124,discriminative model,判别式模型
+2125,discriminative training,判别训练
+2126,discriminator,判别器
+2127,discriminator network,判别网络
+2128,disentangle,解耦
+2129,disentangled representation,解耦表示
+2130,disparity estimation,差异估计
+2131,disparity map,差异图
+2132,distance,距离
+2133,distance function,距离函数
+2134,distance matrix,距离矩阵
+2135,distance measure,距离度量
+2136,distance metric,距离度量
+2137,distance metric learning,距离度量学习
+2138,distance transform,距离变换
+2139,distant supervision,远程监督
+2140,distillation,蒸馏
+2141,distributed information retrieval,分布式信息检索
+2142,distributed learning,分布式学习
+2143,distributed learning system,分布式学习系统
+2144,distributed representation,分布式表示
+2145,distribution,分布
+2146,distribution shift,分布偏移
+2147,distribution vector,分布向量
+2148,distributional,分布式的
+2149,distributional feature,分布式特征
+2150,distributional hypothesis,分布假设
+2151,distributional model,分布式模型
+2152,distributional representation,分布式表示
+2153,distributional semantic,分布式语义
+2154,distributional semantic model,分布式语义模型
+2155,distributional similarity,分布相似性
+2156,distributional word representation,分布式词表示
+2157,distributionally robust optimization,分布鲁棒优化
+2158,diverge,发散
+2159,divergence,散度
+2160,divergence operator,发散算子
+2161,diversity,多样性
+2162,diversity measure,多样性度量
+2163,diversity score,多样性得分
+2164,divide-and-conquer,分而治之
+2165,divisive,分裂
+2166,do-calculus,干预演算
+2167,document classification,文档分类
+2168,document clustering,文档聚类
+2169,document corpus,文档语料库
+2170,document retrieval,文档检索
+2171,document summarization,文档摘要
+2172,document vector,文档向量
+2173,document-level,文档级
+2174,document-topic assignment,文档主题分配
+2175,domain adaptation,领域自适应
+2176,domain element,域元素
+2177,domain gap,领域差距
+2178,domain generalization,领域泛化
+2179,domain knowledge,领域知识
+2180,domain mismatch,领域不匹配
+2181,domain ontology,领域本体
+2182,domain shift,领域偏移
+2183,domain transfer,领域迁移
+2184,domain-specific,领域特定的
+2185,dominant eigenvalue,主特征值
+2186,dominant eigenvector,主特征向量
+2187,dominant strategy,占优策略
+2188,dot product,点积
+2189,dot-product attention,点积注意力
+2190,double backprop,双反向传播
+2191,doubly block circulant matrix,双重分块循环矩阵
+2192,down sampling,下采样
+2193,down-sampling,下采样
+2194,down-sampling layer,下采样层
+2195,downsampling block,下采样块
+2196,downsampling factor,下采样因子
+2197,downsampling layer,下采样层
+2198,downstream dataset,下游数据集
+2199,downstream model,下游模型
+2200,downstream performance,下游性能
+2201,downstream task,下游任务
+2202,dropout,暂退法
+2203,dropout boosting,暂退Boosting
+2204,dropout layer,Dropout层
+2205,dropout mask,暂退掩码
+2206,dropout method,暂退法
+2207,dropout probability,丢弃概率
+2208,dropout rate,丢弃率
+2209,dropout ratio,丢弃比率
+2210,dual algorithm,对偶算法
+2211,dual decomposition,对偶分解
+2212,dual encoder model,双编码器模型
+2213,dual norm,对偶范数
+2214,dual objective,对偶目标
+2215,dual optimization problem,对偶优化问题
+2216,dual parameter,对偶参数
+2217,dual problem,对偶问题
+2218,dual program,对偶程序
+2219,dual solution,对偶解
+2220,dual variable,对偶变量
+2221,duality gap,对偶间隙
+2222,dummy node,哑结点
+2223,dying ReLU problem,死亡ReLU问题
+2224,dynamic Bayesian network,动态贝叶斯网络
+2225,dynamic computational graph,动态计算图
+2226,dynamic datasets,动态数据集
+2227,dynamic filter networks,动态过滤网络
+2228,dynamic fusion,动态融合
+2229,dynamic model,动态模型
+2230,dynamic programming,动态规划
+2231,dynamic programming algorithm,动态规划算法
+2232,dynamic sampling,动态采样
+2233,dynamic structure,动态结构
+2234,dynamic time warping,动态时间规整
+2235,dynamical model,动力学模型
+2236,dynamical system,动力系统
+2237,dynamics simulations,动力学模拟
+2238,eager learning,急切学习
+2239,early fusion,早期融合
+2240,early stopping,早停
+2241,earth-mover distance,地球搬运工距离
+2242,echo state network,回声状态网络
+2243,edge detection,边缘检测
+2244,edge device,边缘设备
+2245,edge feature,边缘特征
+2246,edge label,边标签
+2247,edge prediction,边预测
+2248,edge set,边集
+2249,edge weight,边权重
+2250,edit distance,编辑距离
+2251,effective capacity,有效容量
+2252,effective receptive field,有效感受野
+2253,ego-motion,自我运动
+2254,eigen-decomposition,特征分解
+2255,eigenbasis,特征基
+2256,eigendecay,特征衰减
+2257,eigendecomposition,特征分解
+2258,eigenfunction,特征函数
+2259,eigenspace,特征空间
+2260,eigenspectrum,特征谱
+2261,eigenvalue,特征值
+2262,eigenvalue decomposition,特征值分解
+2263,eigenvector,特征向量
+2264,elastic net regularization,弹性网络正则化
+2265,elastic weight consolidation,弹性权重巩固
+2266,electronegativity,电负性
+2267,element-wise,元素级
+2268,element-wise multiplication,元素级乘法
+2269,element-wise product,逐元素积
+2270,elementary basis vectors,基本单位向量
+2271,elementary tree,基本树
+2272,eligibility trace,资格迹
+2273,ellipsoid method,椭球法
+2274,embedded deformation graph,嵌入式变形图
+2275,embedding dimension,嵌入维度
+2276,embedding dimensionality,嵌入维数
+2277,embedding feature,嵌入特征
+2278,embedding layer,嵌入层
+2279,embedding lookup table,嵌入表
+2280,embedding matrix,嵌入矩阵
+2281,embedding model,嵌入模型
+2282,embedding parameter,嵌入参数
+2283,embedding size,嵌入维度
+2284,embedding space,嵌入空间
+2285,embedding vector,嵌入向量
+2286,embedding-based metric,基于嵌入的度量
+2287,embodied agent,具身智能体
+2288,emission probability,发射概率
+2289,emotion classification,情感分类
+2290,emotional analysis,情绪分析
+2291,empirical Bayes,经验贝叶斯
+2292,empirical conditional entropy,经验条件熵
+2293,empirical distribution,经验分布
+2294,empirical entropy,经验熵
+2295,empirical error,经验误差
+2296,empirical estimate,经验估计
+2297,empirical estimator,经验估计量
+2298,empirical frequency,经验频率
+2299,empirical loss,经验损失
+2300,empirical mean,经验均值
+2301,empirical measure,经验测度
+2302,empirical minimizer,经验最小化器
+2303,empirical models,经验模型
+2304,empirical process theory,经验过程理论
+2305,empirical risk,经验风险
+2306,empirical risk minimization,经验风险最小化
+2307,empirical risk minimizer,经验风险最小化器
+2308,empirical variance,经验方差
+2309,emulator,模拟器
+2310,encode,编码
+2311,encoder layer,编码器层
+2312,encoder model,编码器模型
+2313,encoder network,编码器网络
+2314,encoder states,编码器状态
+2315,encoder-decoder,编码器-解码器
+2316,encoder-decoder architecture,编码器-解码器架构
+2317,encoder-decoder framework,编码器-解码器框架
+2318,encoder-decoder model,编码器-解码器模型
+2319,encoding,编码
+2320,end-of-sequence token,序列结束标记
+2321,end-to-end,端到端
+2322,end-to-end learning,端到端学习
+2323,end-to-end memory network,端到端记忆网络
+2324,end-to-end model,端到端模型
+2325,end-to-end neural model,端到端神经模型
+2326,end-to-end pipeline,端到端流程
+2327,end-to-end system,端到端系统
+2328,end-to-end training,端到端训练
+2329,energy derivatives,能源衍生品
+2330,energy function,能量函数
+2331,energy gap,能量差异
+2332,energy minimization,能量最小化
+2333,energy minimization framework,能量最小化框架
+2334,energy minimization problem,能量最小化问题
+2335,energy potentials,能量潜力
+2336,energy-based model,基于能量的模型
+2337,ensemble,集成
+2338,ensemble classification,集成分类
+2339,ensemble classifier,集成分类器
+2340,ensemble learning,集成学习
+2341,ensemble method,集成方法
+2342,ensemble methods,集成方法
+2343,ensemble model,集成模型
+2344,ensemble of classifier,分类器集成
+2345,ensemble pruning,集成修剪
+2346,ensemble size,集成规模
+2347,entail,蕴含
+2348,entailment,蕴涵
+2349,entailment detection,蕴涵检测
+2350,entity coreference,实体共指
+2351,entity description,实体描述
+2352,entity detection,实体检测
+2353,entity embedding,实体嵌入
+2354,entity extraction,实体提取
+2355,entity linker,实体链接器
+2356,entity mention,实体提及
+2357,entity normalisation,实体规范化
+2358,entity recognition,实体识别
+2359,entity representation,实体表示
+2360,entity resolution,实体解析
+2361,entity set,实体集
+2362,entity type,实体类型
+2363,entropy,熵
+2364,entropy encoding,熵编码
+2365,entropy estimation,熵估计
+2366,entropy function,熵函数
+2367,entropy loss,熵损失
+2368,entropy regularization,熵正则化
+2369,enumeration algorithm,枚举算法
+2370,environment,环境
+2371,envy-freeness,无嫉妒性
+2372,eos,结束标记
+2373,epipolar constraint,极线约束
+2374,epipolar geometry,对极几何
+2375,epipolar line,极线
+2376,epipole,极点
+2377,episode,回合
+2378,episodic return,回合回报
+2379,episodic task,回合式任务
+2380,epistemic uncertainty,认知不确定性
+2381,epoch,轮
+2382,equal-width convolution,等宽卷积
+2383,equality constraint,等式约束
+2384,equalized odd,均衡赔率
+2385,equilibrium distribution,均衡分布
+2386,equivalence class,等价类
+2387,equivalence query,等价查询
+2388,equivariance,等变
+2389,equivariant,等变的
+2390,equivariant representations,等变表示
+2391,error,误差
+2392,error analysis,误差分析
+2393,error backpropagation,误差反向传播
+2394,error backpropagation algorithm,误差反向传播算法
+2395,error bar,误差条
+2396,error bound,误差界
+2397,error correcting output codes,纠错输出编码
+2398,error function,误差函数
+2399,error metric,误差度量
+2400,error probability,错误概率
+2401,error rate,错误率
+2402,error tolerance,错误容忍度
+2403,error-ambiguity decomposition,误差－分歧分解
+2404,estimation error,估计误差
+2405,estimation of mathematical expectation,数学期望估计
+2406,estimator,估计
+2407,ethical considerations,道德考虑
+2408,evaluation,评估
+2409,evaluation criterion,评价准则
+2410,evaluation function,评估函数
+2411,evaluation metric,评估指标
+2412,evaluation set,评估集
+2413,event calculus,事件演算
+2414,event coreference,事件共指
+2415,event detection,事件检测
+2416,event extraction,事件抽取
+2417,evidence,证据
+2418,evidence lower bound,证据下界
+2419,evidence maximization,证据最大化
+2420,evolution,演化
+2421,evolutionary algorithms,进化算法
+2422,evolutionary computation,演化计算
+2423,evolutionary method,进化方法
+2424,exact,确切的
+2425,exact inference,精确推断
+2426,example,样例
+2427,excess error,额外误差
+2428,excess loss,超额损失
+2429,exchangeability,可交换性
+2430,exchangeable,可交换的
+2431,exchange–correlation,交换关联
+2432,excited-state potentials,激发态能量
+2433,existential quantifier,存在量词
+2434,expectation,期望
+2435,expectation maximization,期望最大化
+2436,expectation maximization algorithm,期望极大算法
+2437,expectation step,E步
+2438,expected error,期望错误
+2439,expected loss,期望损失
+2440,expected reduction in distortion,符合预期的失真减少
+2441,expected return,期望回报
+2442,expected reward,期望奖励
+2443,expected risk,期望风险
+2444,expected utility,期望效用
+2445,expected value,期望值
+2446,experience,经验
+2447,experience replay,经验回放
+2448,experimental validation data,实验验证数据
+2449,expert demonstration,专家示范
+2450,expert network,专家网络
+2451,expert system,专家系统
+2452,expert systems,专家系统
+2453,explaining away,相消解释
+2454,explaining away effect,相消解释作用
+2455,explanatory factort,解释因子
+2456,explicit density model,显式密度模型
+2457,explicit-state search,显式状态搜索
+2458,exploding gradient,梯度爆炸
+2459,exploitability,可利用性
+2460,exploitation,利用
+2461,exploration,探索
+2462,exploration rate,探索率
+2463,exploration-exploitation dilemma,探索-利用窘境
+2464,exploratory data analysis,探索性数据分析
+2465,exponential complexity,指数复杂度
+2466,exponential decay,指数衰减
+2467,exponential distribution,指数分布
+2468,exponential family,指数族
+2469,exponential linear unit,指数线性单元
+2470,exponential loss,指数损失
+2471,exponential loss function,指数损失函数
+2472,exponential map,指数映射
+2473,exponential moving average,指数移动平均
+2474,exponentially weighted moving average,指数加权移动平均
+2475,exposure bias,曝光偏差
+2476,extended-connectivity circular fingerprint,扩展连接环形指纹
+2477,extensive-form game,广泛形式博弈
+2478,external memory,外部记忆
+2479,extraction,提取
+2480,extraction techniques,提取技术
+2481,extractive question answering,提取式问答
+2482,extractive summarization,提取式摘要
+2483,extractor,提取器
+2484,extreme learning machine,超限学习机
+2485,f measure,F值
+2486,f-divergence,f-散度
+2487,face detection,人脸检测
+2488,face detector,人脸检测器
+2489,face recognition,人脸识别
+2490,facial landmark,面部特征点
+2491,facial recognition,面部识别
+2492,fact verification,事实验证
+2493,factor,因子
+2494,factor analysis,因子分析
+2495,factor graph,因子图
+2496,factor loading,因子负荷量
+2497,factor matrix,因子矩阵
+2498,factor of variation,变化因子
+2499,factorization,因子分解
+2500,factorization algorithm,分解算法
+2501,factorization method,分解方法
+2502,factorized,分解的
+2503,factors of variation,变差因素
+2504,failure probability,失败概率
+2505,fairness criterion,公平性准则
+2506,fairness loss,公平性损失
+2507,fairness notion,公平性概念
+2508,faithfulness score,忠实度评分
+2509,false negative,假负例
+2510,false negative rate,假阴性率
+2511,false negatives,假阴性
+2512,false positive,假正例
+2513,false positive rate,假正例率
+2514,false positives,假阳性
+2515,fanout,分支因子
+2516,fast dropout,快速暂退法
+2517,fast persistent contrastive divergence,快速持续性对比散度
+2518,fault-tolerant asynchronous training,容错异步训练
+2519,fc layer,全连接层
+2520,feasible,可行
+2521,feasible set,可行集合
+2522,feature,特征
+2523,feature binarization,特征二值化
+2524,feature channel,特征通道
+2525,feature correspondence,特征对应
+2526,feature count,特征计数
+2527,feature descriptor,特征描述符
+2528,feature detection,特征检测
+2529,feature detector,特征检测器
+2530,feature dimension,特征维度
+2531,feature dimensionality,特征维度
+2532,feature embedding,特征嵌入
+2533,feature encoder,特征编码器
+2534,feature engineering,特征工程
+2535,feature extraction,特征抽取
+2536,feature extractor,特征提取器
+2537,feature function,特征函数
+2538,feature hashing,特征哈希
+2539,feature hierarchy,特征层次结构
+2540,feature map,特征图
+2541,feature mapping function,特征映射函数
+2542,feature matching,特征匹配
+2543,feature matrix,特征矩阵
+2544,feature model,特征模型
+2545,feature normalization,特征归一化
+2546,feature point,特征点
+2547,feature pyramid,特征金字塔
+2548,feature representation,特征表示
+2549,feature representation learning,特征表示学习
+2550,feature scaling transform,特征尺度变换
+2551,feature selection,特征选择
+2552,feature selector,特征选择器
+2553,feature set,特征集
+2554,feature space,特征空间
+2555,feature template,特征模板
+2556,feature transform,特征变换
+2557,feature vector,特征向量
+2558,feature vectors,特征向量
+2559,feature weight,特征权重
+2560,featured learning,特征学习
+2561,featurization,特征化
+2562,featurized representation,特征化表示
+2563,feed back,反馈
+2564,feed forward,前馈
+2565,feed forward network,前馈网络
+2566,feed forward neural network,前馈神经网络
+2567,feed-forward layer,前馈层
+2568,feed-forward neural networks,前馈神经网络
+2569,feedback,反馈
+2570,feedback loop,反馈循环
+2571,feedback structure,反馈结构
+2572,feedforward,前馈
+2573,feedforward classifier,前馈分类器
+2574,feedforward network,前馈网络
+2575,feedforward neural network,前馈神经网络
+2576,few shot learning,少样本学习
+2577,few-shot classification,少样本分类
+2578,few-shot example,少样本示例
+2579,few-shot fine-tuning,少样本微调
+2580,few-shot in-context learning,少样本上下文学习
+2581,few-shot learning,少试学习
+2582,few-shot prompting,少样本提示
+2583,few-shot setting,少样本设置
+2584,fidelity,逼真度
+2585,field programmable gated array,现场可编程门阵列
+2586,filter,滤波器
+2587,filter bank,滤波器组
+2588,filter method,过滤式方法
+2589,filter weight,滤波器权重
+2590,final evaluation,最终评估
+2591,"findable, accessible, interoperable, reusable",可查找、可访问、可互操作、可重用
+2592,fine-grained sentiment classification,细粒度情感分类
+2593,fine-tune,微调
+2594,fine-tuned model,微调模型
+2595,fine-tuning,微调
+2596,finetuning,微调
+2597,finite difference,有限差分
+2598,finite horizon,有限时间范围
+2599,finite-state automata,有限状态自动机
+2600,first layer,第一层
+2601,first order method,一阶方法
+2602,first-order,一阶
+2603,first-order language,一阶语言
+2604,first-order logic,一阶逻辑
+2605,first-order method,一阶方法
+2606,first-order model,一阶模型
+2607,first-order parsing,一阶解析
+2608,first-order rule,一阶规则
+2609,first-principles,第一性原理
+2610,fitness function,适应度函数
+2611,five-fold cross-validation,五折交叉验证
+2612,fixed point,不动点
+2613,fixed point equation,不动点方程
+2614,fixed-parameter tractable,固定参数可解
+2615,fixed-point arithmetic,不动点运算
+2616,fixed-point iteration,不动点迭代
+2617,fixpoint,不动点
+2618,flat minima,平坦最小值
+2619,flip,翻转
+2620,flipping output,翻转法
+2621,float-point arithmetic,浮点运算
+2622,float16,float16
+2623,float32,float32
+2624,flow field,流场
+2625,flow model,流模型
+2626,flow rate,流速
+2627,fluctuation,振荡
+2628,focus attention,聚焦式注意力
+2629,folk theorem,无名氏定理
+2630,forall,∀
+2631,forecasting,预测
+2632,foreground segmentation,前景分割
+2633,forget gate,遗忘门
+2634,forward,前向
+2635,forward KL divergence,前向KL散度
+2636,forward algorithm,前向算法
+2637,forward cross-validation,前向交叉验证
+2638,forward mode accumulation,前向模式累加
+2639,forward model,前向模型
+2640,forward pass,前向传播
+2641,forward prediction,前向预测
+2642,forward process,前向过程
+2643,forward propagation,前向传播
+2644,forward reaction prediction,前向反应预测
+2645,forward search,前向搜索
+2646,forward stagewise algorithm,前向分步算法
+2647,forward-backward algorithm,前向-后向算法
+2648,foundation model,基础模型
+2649,fovea,中央凹
+2650,fp,帧率
+2651,fp16,16位浮点数
+2652,fp32,32位浮点数
+2653,fractional program,分数规划
+2654,fractionally strided convolution,微步卷积
+2655,frame,帧
+2656,free energy,自由能
+2657,free variable,自由变量
+2658,frequency penalty,频率惩罚
+2659,frequency vector,频率向量
+2660,frequent closed itemset,频繁闭合项集
+2661,frequent item set,频繁项集
+2662,frequent pattern,频繁模式
+2663,frequent pattern mining,频繁模式挖掘
+2664,frequentist,频率主义学派
+2665,frequentist probability,频率派概率
+2666,frequentist statistics,频率派统计
+2667,full,全
+2668,full conditional distribution,满条件分布
+2669,full conditional probability,全条件概率
+2670,full padding,全填充
+2671,full singular value decomposition,完全奇异值分解
+2672,full-rank matrix,满秩矩阵
+2673,fully connected graph,完全连接图
+2674,fully connected layer,全连接层
+2675,fully connected network,全连接网络
+2676,fully connected neural network,全连接神经网络
+2677,fully convolutional network,全卷积网络
+2678,fully convolutional neural network,全卷积神经网络
+2679,fully-supervised model,全监督模型
+2680,function,函数
+2681,function approximation,函数逼近
+2682,function approximator,函数逼近器
+2683,function class,函数类
+2684,function space,函数空间
+2685,functional,泛函
+2686,functional derivative,泛函导数
+2687,functional margin,函数间隔
+2688,functional neuron,功能神经元
+2689,functionality assertion,功能性断言
+2690,fundamental matrix,基本矩阵
+2691,fusion module,融合模块
+2692,fuzzy logic,模糊逻辑
+2693,fuzzy matching,模糊匹配
+2694,fuzzy neural networks,模糊神经网络
+2695,g-value,g值
+2696,gain ratio,増益率
+2697,game payoff,博弈效用
+2698,game theory,博弈论
+2699,game tree,博弈树
+2700,game-theoretic analysis,博弈论分析
+2701,gamma distribution,Gamma分布
+2702,"garbage in, garbage out",无用数据入、无用数据出
+2703,gas-phase networks,气相网络
+2704,gate,门
+2705,gate controlled RNN,门控循环神经网络
+2706,gated,门控
+2707,gated RNN,门控RNN
+2708,gated control,门控
+2709,gated recurrent net,门控循环网络
+2710,gated recurrent unit,门控循环单元
+2711,gater,选通器
+2712,gating function,门控函数
+2713,gating mechanism,门控机制
+2714,general intelligence,通用智能
+2715,general problem solving,通用问题求解
+2716,general purpose GPU,通用GPU
+2717,generalisation,泛化
+2718,generalization,泛化
+2719,generalization ability,泛化能力
+2720,generalization bound,泛化界限
+2721,generalization error,泛化误差
+2722,generalization error bound,泛化误差上界
+2723,generalization gap,泛化差距
+2724,generalization guarantee,泛化保证
+2725,generalization performance,泛化性能
+2726,generalized Bregman divergence,一般化 Bregman 散度
+2727,generalized Lagrange function,广义拉格朗日函数
+2728,generalized Lagrangian,广义拉格朗日
+2729,generalized Rayleigh quotient,广义瑞利商
+2730,generalized eigenvector,广义特征向量
+2731,generalized expectation maximization,广义期望极大
+2732,generalized function,广义函数
+2733,generalized gradient approximation,广义梯度近似
+2734,generalized linear mixed model,广义线性混合模型
+2735,generalized linear model,广义线性模型
+2736,generalized pseudolikelihood,广义伪似然
+2737,generalized pseudolikelihood estimator,广义伪似然估计
+2738,generalized score matching,广义得分匹配
+2739,generation model,生成模型
+2740,generative,生成的
+2741,generative adversarial framework,生成式对抗框架
+2742,generative adversarial network,生成对抗网络
+2743,generative adversarial networks,生成对抗网络
+2744,generative approach,生成方法
+2745,generative model,生成式模型
+2746,generative modeling,生成式建模
+2747,generative moment matching network,生成矩匹配网络
+2748,generative network,生成网络
+2749,generative parser,生成解析器
+2750,generative pre-training,生成式预训练
+2751,generative probabilistic model,生成式概率模型
+2752,generative process,生成过程
+2753,generative stochastic network,生成随机网络
+2754,generative weight,生成权重
+2755,generator,生成器
+2756,generator architecture,生成器架构
+2757,generator network,生成器网络
+2758,genetic algorithm,遗传算法
+2759,geodesic,测地线
+2760,geodesic distance,测地距离
+2761,geometric consistency,几何一致性
+2762,geometric distribution,几何分布
+2763,geometric invariant,几何不变量
+2764,geometric margin,几何间隔
+2765,geometric transformation,几何变换
+2766,geometry processing,几何处理
+2767,giant magnetoresistance,巨磁阻
+2768,gibb distribution,吉布斯分布
+2769,gist descriptor,要旨描述符
+2770,global Markov property,全局马尔可夫性
+2771,global average pooling,全局平均池化
+2772,global average pooling layer,全局平均池化层
+2773,global contrast normalization,全局对比度规范化
+2774,global coordinate frame,全局坐标系
+2775,global illumination,全局光照
+2776,global minima,全局极小值
+2777,global minimizer,全局极小解
+2778,global minimum,全局最小
+2779,global model,全局模型
+2780,global objective,全局目标
+2781,global optima,全局最优解
+2782,global optimization,全局优化
+2783,global optimum,全局最优
+2784,global pooling,全局池化
+2785,global reward,全局奖励
+2786,goal state,目标状态
+2787,gold label,黄金标签
+2788,gold parse,黄金解析
+2789,gossip algorithm,谣言算法
+2790,gradient,梯度
+2791,gradient accumulation,梯度累积
+2792,gradient accumulation step,梯度累积步骤
+2793,gradient ascent,梯度上升
+2794,gradient ascent method,梯度上升法
+2795,gradient boosted tree,梯度提升树
+2796,gradient boosting,梯度提升
+2797,gradient boosting decision tree,梯度提升决策树
+2798,gradient boosting tree,梯度提升树
+2799,gradient clipping,梯度截断
+2800,gradient computation,梯度计算
+2801,gradient descent,梯度下降
+2802,gradient descent algorithm,梯度下降算法
+2803,gradient descent in one-dimensional space,一维梯度下降
+2804,gradient descent method,梯度下降法
+2805,gradient energy distribution,梯度能量分布
+2806,gradient estimate,梯度估计
+2807,gradient estimation,梯度估计
+2808,gradient estimator,梯度估计器
+2809,gradient exploding problem,梯度爆炸问题
+2810,gradient explosion,梯度爆炸
+2811,gradient field,梯度场
+2812,gradient flow,梯度流
+2813,gradient information,梯度信息
+2814,gradient method,梯度方法
+2815,gradient norm,梯度范数
+2816,gradient operator,梯度算子
+2817,gradient penalty,梯度惩罚
+2818,gradient signal,梯度信号
+2819,gradient step,梯度步长
+2820,gradient term,梯度项
+2821,gradient update,梯度更新
+2822,gradient variance,梯度方差
+2823,gradient vector,梯度向量
+2824,gradient-based,基于梯度的
+2825,gradient-based approach,基于梯度的方法
+2826,gradient-based learning,基于梯度的学习
+2827,gradient-based method,基于梯度的方法
+2828,gradient-based optimization,基于梯度的优化
+2829,gradual warmup,逐渐预热
+2830,grain-surface networks,粒面网络
+2831,grammar inducer,语法诱导器
+2832,grammar induction,语法归纳
+2833,grammatical error detection,语法错误检测
+2834,grandparent dependency,祖父母依赖关系
+2835,graph Laplacian,图拉普拉斯算子
+2836,graph Laplacian matrix,图拉普拉斯矩阵
+2837,graph adjacency matrix,图邻接矩阵
+2838,graph analytics,图分析
+2839,graph attention,图注意力
+2840,graph attention mechanism,图注意力机制
+2841,graph attention network,图注意力网络
+2842,graph classification,图分类
+2843,graph clustering,图聚类
+2844,graph construction,图构建
+2845,graph contrastive learning,图对比学习
+2846,graph convolution,图卷积
+2847,graph convolution network,图卷积网络
+2848,graph convolutional,图卷积
+2849,graph convolutional network,图卷积神经网络
+2850,graph cut,图切割
+2851,graph cut algorithm,图割算法
+2852,graph dataset,图数据集
+2853,graph datum,图数据
+2854,graph diameter,图直径
+2855,graph embedding,图嵌入
+2856,graph generator,图生成器
+2857,graph isomorphism,图同构
+2858,graph kernel,图核
+2859,graph learning,图学习
+2860,graph matching,图匹配
+2861,graph mining,图挖掘
+2862,graph model,图模型
+2863,graph models,图模型
+2864,graph neural network,图神经网络
+2865,graph neural networks,图神经网络
+2866,graph node,图节点
+2867,graph partitioning,图划分
+2868,graph pattern,图模式
+2869,graph representation,图表示
+2870,graph sampling,图采样
+2871,graph structure,图结构
+2872,graph theory,图论
+2873,graph topology,图拓扑
+2874,graph traversal,图遍历
+2875,graph-based,基于图形
+2876,graph-based approach,基于图的方法
+2877,graph-based dependency parsing,基于图的依存句法分析
+2878,graph-based learning,基于图的学习
+2879,graph-based method,基于图的方法
+2880,graph-based model,基于图的模型
+2881,graph-based models,基于图的模型
+2882,graph-based neural networks,基于图的神经网络
+2883,graph-based representation,基于图的表示
+2884,graph-convolutional neural network,图卷积神经网络
+2885,graph-level task,图级任务
+2886,graphical model,图模型
+2887,graphics processing unit,图形处理器
+2888,graphics processing units,图形处理器
+2889,graphlet,图元
+2890,graphlet kernel,图元核
+2891,gravimetric polymerization degree,比重聚合度
+2892,greedy,贪心
+2893,greedy algorithm,贪心算法
+2894,greedy approach,贪心方法
+2895,greedy decoding,贪婪解码
+2896,greedy inference,贪婪推断
+2897,greedy layer-wise pretraining,贪心逐层预训练
+2898,greedy layer-wise training,贪心逐层训练
+2899,greedy layer-wise unsupervised pretraining,贪心逐层无监督预训练
+2900,greedy maximization,贪婪最大化
+2901,greedy method,贪婪方法
+2902,greedy optimization,贪婪优化
+2903,greedy policy,贪婪策略
+2904,greedy search,贪心搜索
+2905,greedy strategy,贪婪策略
+2906,greedy supervised pretraining,贪心监督预训练
+2907,greedy unsupervised pretraining,贪心无监督预训练
+2908,grid cell,网格细胞
+2909,grid search,网格搜索
+2910,grid world,网格世界
+2911,grid-world,网格世界
+2912,ground atom,具体原子
+2913,ground set,基础集
+2914,ground truth,真实值
+2915,ground truth label,真实标签
+2916,ground-truth box,真实框
+2917,grounded language learning,基于实际环境的语言学习
+2918,grounded supervision,基于实际环境的监督
+2919,group normalization,组归一化
+2920,group sparsity,组稀疏性
+2921,growth function,增长函数
+2922,half-space,半空间
+2923,hand pose estimation,手部姿态估计
+2924,hard attention,硬性注意力
+2925,hard clustering,硬聚类
+2926,hard margin,硬间隔
+2927,hard margin maximization,硬间隔最大化
+2928,hard mixture of experts,硬专家混合体
+2929,hard tanh,硬双曲正切函数
+2930,hard target,硬目标
+2931,hard voting,硬投票
+2932,harmonic mean,调和平均
+2933,harmonium,簧风琴
+2934,harmony,Harmony
+2935,hash,哈希
+2936,hash function,哈希函数
+2937,hash table,哈希表
+2938,hashing algorithm,哈希算法
+2939,hate speech classifier,仇恨言论分类器
+2940,hate speech detection,仇恨言论检测
+2941,head entity,头实体
+2942,head word,中心词
+2943,heap structure,堆结构
+2944,heatmap,热图
+2945,held-out data,保留数据
+2946,heterogeneous data,异构数据
+2947,heterogeneous information network,异质信息网络
+2948,heteroscedastic,异方差
+2949,heuristic algorithm,启发式算法
+2950,heuristic function,启发式函数
+2951,heuristic search,启发式搜索
+2952,heuristic search algorithm,启发式搜索算法
+2953,heuristic value,启发式值
+2954,hidden Markov model,隐马尔可夫模型
+2955,hidden dimension,隐藏维度
+2956,hidden dimension size,隐藏维度大小
+2957,hidden dimensionality,隐藏维度
+2958,hidden dynamic model,隐动态模型
+2959,hidden embedding,隐藏嵌入
+2960,hidden feature,隐藏特征
+2961,hidden layer,隐藏层
+2962,hidden layers,隐藏层
+2963,hidden representation,隐藏表示
+2964,hidden size,隐藏大小
+2965,hidden state,隐状态
+2966,hidden state dimension,隐藏状态维度
+2967,hidden state representation,隐状态表示
+2968,hidden state vector,隐状态向量
+2969,hidden unit,隐藏单元
+2970,hidden variable,隐变量
+2971,hierarchical agglomerative clustering,层次聚合聚类
+2972,hierarchical clustering,层次聚类
+2973,hierarchical decoder,层次解码器
+2974,hierarchical feature,层次特征
+2975,hierarchical inference,层次推断
+2976,hierarchical method,层次方法
+2977,hierarchical model,层次模型
+2978,hierarchical reinforcement learning,分层强化学习
+2979,hierarchical representation,层次表示
+2980,hierarchical softmax,层序Softmax
+2981,hierarchical structure,层次结构
+2982,hierarchical topic model,层次主题模型
+2983,hierarchy,层次结构
+2984,high data throughput,高数据吞吐量
+2985,high throughput,高通量
+2986,high throughput screening,高通量筛选
+2987,high variance models,高方差模型
+2988,high-dimensional NN,高维神经网络
+2989,high-dimensional data,高维数据
+2990,high-dimensional datum,高维数据
+2991,high-dimensional objects,高维对象
+2992,high-dimensional space,高维空间
+2993,high-dimensionality,高维性
+2994,high-throughput,高通量
+2995,higher-dimensional space,高维空间
+2996,higher-dimensional spectral space,高维光谱空间
+2997,higher-order feature,高阶特征
+2998,higher-order model,高阶模型
+2999,hill climbing,爬山
+3000,hill-climbing,爬山算法
+3001,hinge loss,合页损失
+3002,hinge loss function,合页损失函数
+3003,histogram method,直方图方法
+3004,histogram of oriented gradient,方向梯度直方图
+3005,hold-out,留出法
+3006,homogeneous,同质
+3007,homogeneous coordinate,齐次坐标
+3008,homogenization,同质化
+3009,homographie,单应性
+3010,homography matrix,单应矩阵
+3011,homomorphic encryption,同态加密
+3012,homomorphism,同态
+3013,human annotation,人工标注
+3014,human face recognition,人脸识别
+3015,human pose,人体姿态
+3016,human pose estimation,人体姿态估计
+3017,human-computer interaction,人机交互
+3018,human-encoded,人工编码的
+3019,human-in-the-loop,人在回路中
+3020,human-machine interaction,人机交互
+3021,hybrid computing,混合计算
+3022,hybrid model,混合模型
+3023,hybrid technique,混合技术
+3024,hyper-graph,超图
+3025,hyper-parameter tuning,超参数调优
+3026,hyperbolic space,双曲空间
+3027,hyperbolic tangent function,双曲正切函数
+3028,hyperedge,超边
+3029,hypernym,上位词
+3030,hypernymy,上位关系
+3031,hyperparameter,超参数
+3032,hyperparameter optimization,超参数优化
+3033,hyperparameter selection,超参数选择
+3034,hyperparameter setting,超参数设置
+3035,hyperparameter space,超参数空间
+3036,hyperparameters,超参数
+3037,hyperplane,超平面
+3038,hyperplanes separate,超平面分离
+3039,hyperprior,超先验
+3040,hyponym,下位词
+3041,hyponymy,下位词关系
+3042,hypothesis,假设
+3043,hypothesis class,假设类
+3044,hypothesis set,假设集
+3045,hypothesis space,假设空间
+3046,hypothesis test,假设检验
+3047,i.i.d,独立同分布
+3048,i.i.d. assumption,独立同分布假设
+3049,i.i.d. sample,独立同分布样本
+3050,idempotent,幂等
+3051,identically distributed,同分布的
+3052,identifiable,可辨认的
+3053,identity function,恒等函数
+3054,identity mapping,恒等映射
+3055,identity matrix,单位矩阵
+3056,identity transformation,恒等变换
+3057,ill conditioning,病态
+3058,ill-formed problem,病态问题
+3059,image analysis,图像分析
+3060,image and speech recognition,图像和语音识别
+3061,image captioning,图像描述
+3062,image classification,图像分类
+3063,image classifier,图像分类器
+3064,image compression,图像压缩
+3065,image denoising,图像去噪
+3066,image diffusion model,图像扩散模型
+3067,image embedding,图像嵌入
+3068,image encoder,图像编码器
+3069,image feature,图像特征
+3070,image generation,图像生成
+3071,image inpainting,图像修复
+3072,image patch,图像块
+3073,image plane,图像平面
+3074,image processing,图像处理
+3075,image pyramid,图像金字塔
+3076,image recognition,图像识别
+3077,image representation,图像表示
+3078,image restoration,图像还原
+3079,image segmentation,图像分割
+3080,image super-resolution,图像超分辨率
+3081,image synthesis,图像合成
+3082,image translation,图像翻译
+3083,image-based rendering,基于图像的渲染
+3084,image-text pre-training,图像-文本预训练
+3085,image-to-image translation,图像到图像翻译
+3086,imitation learning,模仿学习
+3087,immediate consequence operator,直接后果算子
+3088,immorality,不道德
+3089,imperfect information,不完美信息
+3090,implicit density model,隐式密度模型
+3091,implicit differentiation,隐式微分
+3092,implicit function,隐函数
+3093,implicit representation,隐式表示
+3094,implicit surface,隐式曲面
+3095,import,导入
+3096,importance sampling,重要性采样
+3097,importance sampling estimator,重要性采样估计器
+3098,importance weight,重要性权重
+3099,improved iterative scaling,改进的迭代尺度法
+3100,in-context demonstration,上下文示例
+3101,in-context example,上下文示例
+3102,in-context learner,上下文学习者
+3103,in-degree distribution,入度分布
+3104,in-distribution,分布内
+3105,in-domain,域内
+3106,in-domain text,领域内文本
+3107,in-neighbor,内邻居
+3108,in-order traversal,中序遍历
+3109,inception score,创新评分
+3110,incomplete-data,不完全数据
+3111,incremental learning,增量学习
+3112,incremental parsing,增量解析
+3113,indefinite integral,不定积分
+3114,independence,独立
+3115,independent,相互独立的
+3116,independent and identically distributed,独立同分布
+3117,independent component analysis,独立成分分析
+3118,independent set,独立集
+3119,independent subspace analysis,独立子空间分析
+3120,independent variable,自变量
+3121,index of matrix,索引
+3122,indicator function,指示函数
+3123,indicator matrix,指示矩阵
+3124,indicator variable,指示变量
+3125,indicator vector,指示向量
+3126,individual learner,个体学习器
+3127,induced subgraph,诱导子图
+3128,inducing variable,诱导变量
+3129,induction,归纳
+3130,induction hypothesis,归纳假设
+3131,inductive bias,归纳偏好
+3132,inductive learning,归纳学习
+3133,inductive logic programming,归纳逻辑程序设计
+3134,inductive transfer learning,归纳迁移学习
+3135,inequality constraint,不等式约束
+3136,inf,下确界
+3137,inference,推断
+3138,inference algorithm,推理算法
+3139,inference machinery,推理机制
+3140,inference method,推理方法
+3141,inference problem,推理问题
+3142,inference procedure,推理过程
+3143,inference process,推理过程
+3144,inference rule,推理规则
+3145,inference stage,推理阶段
+3146,inference task,推理任务
+3147,inference time,推理时间
+3148,infinite,无限
+3149,infinite-horizon,无限时域
+3150,infinitely exchangeable,无限可交换
+3151,influence diagram,影响图
+3152,influence function,影响函数
+3153,information bottleneck,信息瓶颈
+3154,information content,信息内容
+3155,information divergence,信息散度
+3156,information entropy,信息熵
+3157,information gain,信息增益
+3158,information gain ratio,信息增益比
+3159,information retrieval,信息检索
+3160,information retrieval system,信息检索系统
+3161,information set,信息集
+3162,information theoretic,信息论的
+3163,information theoretic measure,信息论度量
+3164,information theory,信息论
+3165,informative priors,信息先验
+3166,infoset,信息集
+3167,inhomogeneous Poisson process,非齐次泊松过程
+3168,initial distribution,初始分布
+3169,initial state,初始状态
+3170,initial state distribution,初始状态分布
+3171,initialization,初始化
+3172,injective function,单射函数
+3173,inlier,内点
+3174,inner layer,内层
+3175,inner loop,内部循环
+3176,inner node,内部节点
+3177,inner product,内积
+3178,input context,输入上下文
+3179,input datum,输入数据
+3180,input distribution,输入分布
+3181,input embedding,输入嵌入
+3182,input feature,输入特征
+3183,input feature vector,输入特征向量
+3184,input filter,输入过滤器
+3185,input formula,输入公式
+3186,input gate,输入门
+3187,input graph,输入图
+3188,input image,输入图像
+3189,input layer,输入层
+3190,input length,输入长度
+3191,input matrix,输入矩阵
+3192,input point,输入点
+3193,input position,输入位置
+3194,input representation,输入表示
+3195,input resolution,输入分辨率
+3196,input sequence,输入序列
+3197,input space,输入空间
+3198,input tensor,输入张量
+3199,input text,输入文本
+3200,input token,输入标记
+3201,input vector,输入向量
+3202,input-output pair,输入输出对
+3203,input-output pairs,输入输出对
+3204,insensitive loss,不敏感损失
+3205,instance,示例
+3206,instance level,实例级别
+3207,instance segmentation,实例分割
+3208,instance selection,实例选择
+3209,instance space,实例空间
+3210,instance-based,基于实例的
+3211,instruction tuning,指令微调
+3212,integer linear program,整数线性规划
+3213,integer linear programming,整数线性规划
+3214,integer program,整数规划
+3215,integer programming,整数规划
+3216,integral image,积分图像
+3217,integral operator,积分算子
+3218,integral probability metric,积分概率度量
+3219,integration,积分
+3220,integrity constraint,完整性约束
+3221,intelligent agent,智能体
+3222,intelligent machine,智能机器
+3223,intensity function,强度函数
+3224,intent,意图
+3225,inter-annotator agreement,标注者间一致性
+3226,inter-cluster similarity,簇间相似度
+3227,interaction matrix,交互矩阵
+3228,interest point,兴趣点
+3229,interior point method,内点法
+3230,intermediate layer,中间层
+3231,intermediate neurons,中间神经元
+3232,intermediate representation,中间表示
+3233,internal covariate shift,内部协变量偏移
+3234,internal edge,内部边
+3235,internal node,内部结点
+3236,internal regret,内部遗憾
+3237,internal representation,内部表示
+3238,internal state,内部状态
+3239,international conference for machine learning,国际机器学习大会
+3240,internet of things,物联网
+3241,interpolation,插值
+3242,interpolation coordinate,插值坐标
+3243,interpretability,可解释性
+3244,interpretation function,解释函数
+3245,intersection-over-union,交并比
+3246,interval estimate,区间估计
+3247,intervention query,干预查询
+3248,intra-attention,内部注意力
+3249,intra-cluster similarity,簇内相似度
+3250,intractability,不可处理性
+3251,intrinsic,内在的
+3252,intrinsic camera parameter,内在相机参数
+3253,intrinsic dimension subspace,内在维度子空间
+3254,intrinsic dimensionality,内在维度
+3255,intrinsic evaluation,内在评估
+3256,intrinsic image,内在图像
+3257,intrinsic parameter,内参
+3258,intrinsic value,固有值
+3259,invariance,不变性
+3260,invariant,不变
+3261,inverse document frequency,逆文档频率
+3262,inverse dynamic model,逆动态模型
+3263,inverse matrix,逆矩阵
+3264,inverse neural modeling,逆神经建模
+3265,inverse neural network modeling,逆神经网络建模
+3266,inverse problem,逆问题
+3267,inverse reinforcement learning,逆强化学习
+3268,inverse rendering,逆向渲染
+3269,inverse resolution,逆归结
+3270,inverse role,逆角色
+3271,inverse square root learning rate schedule,逆平方根学习率调度
+3272,inverse square root learning rate scheduler,逆平方根学习率调度器
+3273,inverse time decay,逆时衰减
+3274,inverse transform sampling,逆变换采样
+3275,invert,求逆
+3276,inverted index,倒排索引
+3277,inverted list,倒排列表
+3278,invertible map,可逆映射
+3279,invertible matrix,可逆矩阵
+3280,iobj,间接宾语
+3281,irreducible,不可约的
+3282,irrelevant feature,无关特征
+3283,iso-surface extraction,等值面提取
+3284,isometric mapping,等度量映射
+3285,isotonic regression,等分回归
+3286,isotropic,各向同性
+3287,isotropic Gaussian distribution,各向同性高斯分布
+3288,isotropic Gaussians,各向同性高斯分布
+3289,itemset,项集
+3290,iterate,迭代
+3291,iterated conditional mode,迭代条件模式
+3292,iteration,迭代
+3293,iteration complexity,迭代复杂度
+3294,iteration counter,迭代计数器
+3295,iterative algorithm,迭代算法
+3296,iterative deepening,迭代加深
+3297,iterative dichotomiser,迭代二分器
+3298,iterative learning,迭代学习
+3299,iterative optimization,迭代优化
+3300,iterative optimization algorithm,迭代优化算法
+3301,iterative training algorithm,迭代训练算法
+3302,iteratively reweighted least square,迭代重加权最小二乘法
+3303,joint density,联合密度
+3304,joint distribution,联合分布
+3305,joint embedding space,联合嵌入空间
+3306,joint encoding,联合编码
+3307,joint entropy,联合熵
+3308,joint inference,联合推断
+3309,joint learning,联合学习
+3310,joint learning algorithm,联合学习算法
+3311,joint likelihood,联合似然
+3312,joint model,联合模型
+3313,joint policy,联合策略
+3314,joint probability,联合概率
+3315,joint probability density function,联合概率密度函数
+3316,joint probability distribution,联合概率分布
+3317,joint probability matrix,联合概率矩阵
+3318,joint probability table,联合概率表
+3319,joint semantic space,联合语义空间
+3320,junction tree,连接树
+3321,junction tree algorithm,联合树算法
+3322,k clusters,K聚类
+3323,k nearest neighbor,k 最近邻
+3324,k nearest points,K 最近点
+3325,k-Center,k-中心问题
+3326,k-best list,k-best 列表
+3327,k-best parsing,k-最佳解析
+3328,k-d tree,k-d树
+3329,k-fold cross validation,k 折交叉验证
+3330,k-hop neighbor,k-hop邻居
+3331,k-means clustering algorithm,k-means 聚类算法
+3332,k-nearest neighbor,k-最近邻
+3333,k-nearest neighbor classifier,k-近邻分类器
+3334,k-nearest neighbor graph,k-最近邻图
+3335,k-nearest neighbor method,k-近邻
+3336,kernel approximation,核近似
+3337,kernel bandwidth,核带宽
+3338,kernel classifier,核分类器
+3339,kernel density,核密度
+3340,kernel density estimate,核密度估计
+3341,kernel density estimation,核密度估计
+3342,kernel evaluation,核评估
+3343,kernel function,核函数
+3344,kernel learning,核学习
+3345,kernel learning problem,核学习问题
+3346,kernel machine,核机器
+3347,kernel matrix,核矩阵
+3348,kernel method,核方法
+3349,kernel operation,核操作
+3350,kernel operator,核算子
+3351,kernel parameter,核参数
+3352,kernel regression,核回归
+3353,kernel ridge regression,核岭回归
+3354,kernel size,核大小
+3355,kernel smoothing,核平滑
+3356,kernel space,核空间
+3357,kernel spectrum,核谱
+3358,kernel trick,核技巧
+3359,kernel value,核值
+3360,kernel weight,核权重
+3361,kernel width,核宽度
+3362,kernel-based classification,基于核的分类
+3363,kernelized,核化
+3364,kernelized PCA,核主成分分析
+3365,kernelized linear discriminant analysis,核线性判别分析
+3366,kernels,内核
+3367,key,键
+3368,key-value store,键-值数据库
+3369,keypoint,关键点
+3370,keypoint detection,关键点检测
+3371,keypoint detector,关键点检测器
+3372,keypoint location,关键点位置
+3373,keypoint match,关键点匹配
+3374,kinetic curve,动力学曲线
+3375,knapsack problem,背包问题
+3376,knowledge base,知识库
+3377,knowledge compilation,知识编译
+3378,knowledge distillation,知识蒸馏
+3379,knowledge element,知识元素
+3380,knowledge engineering,知识工程
+3381,knowledge extraction,知识提取
+3382,knowledge gradient,知识梯度
+3383,knowledge graph,知识图谱
+3384,knowledge graph completion,知识图谱补全
+3385,knowledge representation,知识表征
+3386,knowledge transfer,知识迁移
+3387,label,标签
+3388,label distribution,标签分布
+3389,label embedding,标签嵌入
+3390,label noise,标签噪声
+3391,label propagation,标记传播
+3392,label sequence,标签序列
+3393,label smoothing,标签平滑
+3394,label space,标记空间
+3395,label token,标签令牌
+3396,label vector,标签向量
+3397,labeled datum,标记数据
+3398,labeled example,已标注示例
+3399,labeled graph,标记图
+3400,labeled training datum,带标签的训练数据
+3401,laboratory level,实验室级别
+3402,lambda calculus,λ演算
+3403,landmark,地标
+3404,landmark point,地标点
+3405,language drift,语言漂移
+3406,language encoder,语言编码器
+3407,language generation,语言生成
+3408,language generation model,语言生成模型
+3409,language identification,语言识别
+3410,language model,语言模型
+3411,language model pre-training,语言模型预训练
+3412,language modeling,语言模型化
+3413,language pair,语言对
+3414,language processing,语言处理
+3415,language representation,语言表示
+3416,language transfer,语言迁移
+3417,language understanding,语言理解
+3418,large language model,大型语言模型
+3419,large learning step,大学习步骤
+3420,large-margin learning,大间隔学习
+3421,large-scale data storage,大规模数据存储
+3422,lasers,激光器
+3423,lasso regression,拉索回归
+3424,latent,潜在
+3425,latent Dirichlet allocation,潜在狄利克雷分配
+3426,latent code,潜在编码
+3427,latent dimension,潜在维度
+3428,latent distribution,潜在分布
+3429,latent dynamic model,潜在动态模型
+3430,latent embedding,潜在嵌入
+3431,latent factor,潜在因子
+3432,latent feature,潜在特征
+3433,latent function,潜在函数
+3434,latent group,潜在群体
+3435,latent layer,潜层
+3436,latent parameter,潜在参数
+3437,latent representation,潜在表示
+3438,latent reward function,潜在奖励函数
+3439,latent semantic,潜在语义
+3440,latent semantic analysis,潜在语义分析
+3441,latent semantic indexing,潜在语义索引
+3442,latent space,潜在空间
+3443,latent state,潜在状态
+3444,latent topic,潜在主题
+3445,latent variable,潜变量
+3446,latent variable model,潜变量模型
+3447,latent vector,潜向量
+3448,law of large numbers,大数定律
+3449,layer,层
+3450,layer activation,层激活
+3451,layer normalization,层规范化
+3452,layer-wise,逐层的
+3453,layer-wise adaptive rate scaling,逐层适应率缩放
+3454,layer-wise learning rate decay,逐层学习率衰减
+3455,layer-wise normalization,逐层规范化
+3456,layer-wise pretraining,逐层预训练
+3457,layer-wise training,逐层训练
+3458,lazy grounding,懒惰实例化
+3459,lazy learning,懒惰学习
+3460,leaf node,叶结点
+3461,leaky ReLU,泄漏修正线性单元
+3462,leaky lelu function,泄漏线性整流函数
+3463,leaky unit,渗漏单元
+3464,learnability,可学习性
+3465,learnable parameter,可学习参数
+3466,learnable vector,可学习向量
+3467,learned,学成
+3468,learned approximate inference,学习近似推断
+3469,learned model,学习得到的模型
+3470,learned representation,学习得到的表示
+3471,learner,学习器
+3472,learning agent,学习代理
+3473,learning algorithm,学习算法
+3474,learning by analogy,类比学习
+3475,learning method,学习方法
+3476,learning paradigm,学习范式
+3477,learning problem,学习问题
+3478,learning rate,学习率
+3479,learning rate annealing,学习率退火
+3480,learning rate decay,学习率衰减
+3481,learning rate decay schedule,学习率衰减计划
+3482,learning rate schedule,学习率计划
+3483,learning rate scheduler,学习率调度器
+3484,learning rate warmup,学习率预热
+3485,learning to learn,学习的学习
+3486,learning vector quantization,学习向量量化
+3487,learning-to-rank algorithm,学习排序算法
+3488,least absolute shrinkage and selection operator,Lasso回归
+3489,least general generalization,最小一般泛化
+3490,least mean squares,最小均方
+3491,least square,最小二乘法
+3492,least square criterion,最小二乘准则
+3493,least square method,最小二乘法
+3494,least square minimization,最小二乘最小化
+3495,least square problem,最小二乘问题
+3496,least square regression,最小二乘回归
+3497,least square solution,最小二乘解
+3498,least square support vector machine,最小二乘支持向量机
+3499,least squares regression tree,最小二乘回归树
+3500,leave-one-out,留一法
+3501,leave-one-out cross validation,留一交叉验证
+3502,left eigenvector,左特征向量
+3503,left singular vector,左奇异向量
+3504,left-to-right model,从左到右模型
+3505,lemmatization,词形还原
+3506,length normalization,长度归一化
+3507,length penalty,长度惩罚
+3508,lexeme,词位
+3509,lexical acquisition,词汇获取
+3510,lexical acquisition algorithm,词汇获取算法
+3511,lexical ambiguity,词汇歧义
+3512,lexical entry,词汇条目
+3513,lexical exposure,词汇暴露
+3514,lexical feature,词汇特征
+3515,lexical head,词汇中心语
+3516,lexical item,词汇项
+3517,lexical knowledge,词汇知识
+3518,lexical model,词汇模型
+3519,lexical overlap,词汇重叠
+3520,lexicalization,词汇化
+3521,lexicalized grammar,词汇化语法
+3522,lexicalized parsing model,词汇化解析模型
+3523,lexicon,词典
+3524,lexicon induction,词典归纳
+3525,lifelong learning,终身学习
+3526,ligand-field,配位场
+3527,light field,光场
+3528,light field interpolation,光场插值
+3529,likelihood,似然
+3530,likelihood function,似然函数
+3531,likelihood ratio test,似然比检验
+3532,likelihood score,似然得分
+3533,line search,线搜索
+3534,linear activation function,线性激活函数
+3535,linear algebra,线性代数
+3536,linear auto-regressive network,线性自回归网络
+3537,linear chain,线性链
+3538,linear chain conditional random field,线性链条件随机场
+3539,linear classification,线性分类
+3540,linear classification layer,线性分类层
+3541,linear classification model,线性分类模型
+3542,linear classifier,线性分类器
+3543,linear combination,线性组合
+3544,linear complexity,线性复杂度
+3545,linear constraint,线性约束
+3546,linear decay,线性衰减
+3547,linear decoder,线性解码器
+3548,linear dependence,线性相关
+3549,linear dimension reduction methods,线性降维方法
+3550,linear discriminant analysis,线性判别分析
+3551,linear equation,线性方程
+3552,linear evaluation,线性评估
+3553,linear factor model,线性因子模型
+3554,linear function,线性函数
+3555,linear function approximation,线性函数近似
+3556,linear inequality,线性不等式
+3557,linear interpolation,线性插值
+3558,linear kernel,线性核
+3559,linear layer,线性层
+3560,linear learning rate decay,线性学习率衰减
+3561,linear learning rate schedule,线性学习率调度
+3562,linear map,线性映射
+3563,linear mapping,线性映射
+3564,linear model,线性模型
+3565,linear predictor,线性预测器
+3566,linear probe,线性探测器
+3567,linear program,线性规划
+3568,linear programming,线性规划
+3569,linear programming relaxation,线性规划松弛
+3570,linear projection,线性投影
+3571,linear regression,线性回归
+3572,linear regression model,线性回归模型
+3573,linear regressor,线性回归器
+3574,linear scaling,线性缩放
+3575,linear scaling rule,线性缩放规则
+3576,linear scan,线性扫描
+3577,linear scheduler,线性调度器
+3578,linear separability,线性可分性
+3579,linear space,线性空间
+3580,linear support vector machine,线性支持向量机
+3581,linear support vector machine in linearly separable case,线性可分支持向量机
+3582,linear system,线性系统
+3583,linear threshold units,线性阈值单元
+3584,linear transform,线性变换
+3585,linear transformation,线性变换
+3586,linear transformation matrix,线性变换矩阵
+3587,linear vibronic coupling model,线性振子耦合模型
+3588,linear warm-up,线性预热
+3589,linear-chain,线性链
+3590,linear-quadratic regulator,线性二次调节器
+3591,linearization,线性化
+3592,linearly independent,线性无关
+3593,linearly separable,线性可分
+3594,linearly separable data set,线性可分数据集
+3595,linguistics,语言学
+3596,link analysis,链接分析
+3597,link function,联系函数
+3598,link prediction,链接预测
+3599,link table,连接表
+3600,linkage,连接
+3601,linked importance sampling,链接重要采样
+3602,liquid state machine,流体状态机
+3603,local Markov property,局部马尔可夫性
+3604,local basis function,局部基函数
+3605,local coherence,局部连贯性
+3606,local conditional probability distribution,局部条件概率分布
+3607,local constancy prior,局部不变性先验
+3608,local context,局部上下文
+3609,local contrast normalization,局部对比度规范化
+3610,local coordinate frame,局部坐标系
+3611,local curvature,局部曲率
+3612,local descent,局部下降
+3613,local feature,局部特征
+3614,local geometry,局部几何
+3615,local image feature,局部图像特征
+3616,local invariances,局部不变性
+3617,local kernel,局部核
+3618,local maxima,局部极大值
+3619,local maximum,局部极大点
+3620,local minima,局部极小
+3621,local minimizer,局部最小解
+3622,local minimum,局部极小
+3623,local model,局部模型
+3624,local optima,局部最优解
+3625,local optimum,局部最优
+3626,local parameter,局部参数
+3627,local recurrent,本地卷积
+3628,local representation,局部式表示
+3629,local response normalization,局部响应规范化
+3630,local search,局部搜索
+3631,local search method,局部搜索方法
+3632,local variable,局部变量
+3633,local window,局部窗口
+3634,locality-sensitive hashing,局部敏感哈希
+3635,localization,定位
+3636,locally linear embedding,局部线性嵌入
+3637,location parameter,位置参数
+3638,log,对数
+3639,log likelihood,对数似然函数
+3640,log linear model,对数线性模型
+3641,log loss,对数损失
+3642,log marginal likelihood,对数边际似然
+3643,log p,对数概率
+3644,log partition function,对数配分函数
+3645,log perplexity,对数困惑度
+3646,log probability,对数概率
+3647,log-likelihood,对数似然
+3648,log-likelihood function,对数似然函数
+3649,log-likelihood loss,对数似然损失
+3650,log-likelihood loss function,对数似然损失函数
+3651,log-likelihood ratio,对数似然比
+3652,log-linear model,对数线性模型
+3653,log-linear regression,对数线性回归
+3654,log-linear translation model,对数线性翻译模型
+3655,log-log plot,对数-对数图
+3656,log-normal distribution,对数正态分布
+3657,log-odd score,对数优势分数
+3658,log-prob,对数概率
+3659,log-sum-exp,对数和指数
+3660,logarithmic loss function,对数损失函数
+3661,logarithmic scale,对数尺度
+3662,logic and heuristics applied to synthetic analysis,LHASA 程序
+3663,logical connective,逻辑连接词
+3664,logical form,逻辑形式
+3665,logistic distribution,对数几率分布
+3666,logistic function,对数几率函数
+3667,logistic loss,对率损失
+3668,logistic regression,对数几率回归
+3669,logistic regression classifier,逻辑回归分类器
+3670,logistic regression model,逻辑回归模型
+3671,logistic sigmoid,对数几率Sigmoid
+3672,logit,对数几率
+3673,logit model,对数几率模型
+3674,long short term memory,长短期记忆
+3675,long short-term memory network,长短期记忆网络
+3676,long-range dependency,长程依赖
+3677,long-range prediction,长期预测
+3678,long-range prediction models,长期预测模型
+3679,long-term dependencies problem,长程依赖问题
+3680,long-term dependency,长期依赖
+3681,long-term memory,长期记忆
+3682,long-term planning,长期规划
+3683,long-term reward,长期回报
+3684,lookup table,查找表
+3685,loop,环
+3686,loop closure,回环闭合
+3687,loopy belief propagation,环状信念传播
+3688,loss,损失
+3689,loss distribution,损失分布
+3690,loss function,损失函数
+3691,loss landscape,损失景观
+3692,loss minimization,损失最小化
+3693,loss term,损失项
+3694,lossy compression,有损压缩
+3695,lottery ticket hypothesis,彩票假说
+3696,low rank,低秩
+3697,low rank approximation,低秩近似
+3698,low rank matrix approximation,低秩矩阵近似
+3699,low-data regime,低数据环境
+3700,low-dimensional embedding,低维嵌入
+3701,low-dimensional representation,低维表示
+3702,low-pass filter,低通滤波器
+3703,low-rank factorization,低秩分解
+3704,low-rank matrix approximation,低秩矩阵近似
+3705,lower bound,下界
+3706,mIoU,平均交并比
+3707,mT5,mT5
+3708,machine learning,机器学习
+3709,machine learning algorithm,机器学习算法
+3710,machine learning classifier,机器学习分类器
+3711,machine learning model,机器学习模型
+3712,machine learning system,机器学习系统
+3713,machine reading,机器阅读
+3714,machine translation,机器翻译
+3715,machine translation model,机器翻译模型
+3716,machine translation system,机器翻译系统
+3717,machine vision,机器视觉
+3718,machine-generated text,机器生成文本
+3719,machine-in-the-loop,人机协作
+3720,machine-readable data,机器可读的数据
+3721,macro average,宏平均
+3722,macro-F1,宏F1
+3723,macro-P,宏查准率
+3724,macro-action,宏观动作
+3725,macro-average,宏观平均
+3726,mae,平均绝对误差
+3727,main diagonal,主对角线
+3728,majority voting,绝对多数投票
+3729,majority voting rule,多数表决规则
+3730,manifold,流形
+3731,manifold assumption,流形假设
+3732,manifold hypothesis,流形假设
+3733,manifold learning,流形学习
+3734,manifold projection,流形投影
+3735,manifold structure,流形结构
+3736,manifold tangent classifier,流形正切分类器
+3737,manifold-valued datum,流形值数据
+3738,margin,间隔
+3739,margin parameter,边际参数
+3740,margin theory,间隔理论
+3741,marginal density,边际密度
+3742,marginal distribution,边缘分布
+3743,marginal independence,边缘独立性
+3744,marginal inference,边际推断
+3745,marginal likelihood,边缘似然函数
+3746,marginal log-likelihood,边际对数似然
+3747,marginal polytope,边际多面体
+3748,marginal probability,边际概率
+3749,marginal probability distribution,边缘概率分布
+3750,marginalization,边缘化
+3751,mask,掩码
+3752,mask language modeling,掩码语言模型化
+3753,mask token,掩码标记
+3754,mask vector,掩码向量
+3755,masked input,掩码输入
+3756,masked language model,掩码语言模型
+3757,masked self-attention,掩蔽自注意力
+3758,masked token,掩码标记
+3759,masking function,掩蔽函数
+3760,matching algorithm,匹配算法
+3761,matching loss,匹配损失
+3762,mathematical optimization,数学优化
+3763,matrices,矩阵
+3764,matrix,矩阵
+3765,matrix approximation,矩阵近似
+3766,matrix calculus,矩阵微积分
+3767,matrix completion,矩阵补全
+3768,matrix decomposition,矩阵分解
+3769,matrix form,矩阵形式
+3770,matrix inversion,逆矩阵
+3771,matrix multiplication,矩阵乘法
+3772,matrix norm,矩阵范数
+3773,matrix product,矩阵乘积
+3774,matrix sketching,矩阵草图
+3775,matrix vector product,矩阵向量乘积
+3776,matrix-vector multiplication,矩阵-向量乘法
+3777,matroid,拟阵
+3778,matroid constraint,拟阵约束
+3779,max norm,最大范数
+3780,max pooling,最大汇聚
+3781,max-margin,最大间隔
+3782,max-margin learning,最大间隔学习
+3783,max-pool,最大池化
+3784,max-pooling layer,最大池化层
+3785,max-product semiring,最大积半环
+3786,maxima,极大值
+3787,maximal clique,最大团
+3788,maximal frequent itemset,最大频繁项集
+3789,maximal frequent pattern,最大频繁模式
+3790,maximization,极大
+3791,maximization problem,最大化问题
+3792,maximization step,M步
+3793,maximization-maximization algorithm,极大-极大算法
+3794,maximum a posteriori,最大后验
+3795,maximum a posteriori estimation,最大后验估计
+3796,maximum clique,最大团
+3797,maximum entropy,最大熵
+3798,maximum entropy model,最大熵模型
+3799,maximum entropy principle,最大熵原理
+3800,maximum flow,最大流
+3801,maximum likelihood,极大似然
+3802,maximum likelihood estimate,最大似然估计
+3803,maximum likelihood estimation,极大似然估计
+3804,maximum likelihood estimator,最大似然估计量
+3805,maximum likelihood learning,最大似然学习
+3806,maximum likelihood method,极大似然法
+3807,maximum likelihood methods,最大似然法
+3808,maximum likelihood procedures,最大似然估计法
+3809,maximum margin,最大间隔
+3810,maximum mean discrepancy,最大平均偏差
+3811,maximum posterior probability estimation,最大后验概率估计
+3812,maximum weighted spanning tree,最大带权生成树
+3813,maxout,Maxout
+3814,maxout unit,Maxout单元
+3815,mean,均值
+3816,mean absolute error,平均绝对误差
+3817,mean and covariance RBM,均值和协方差RBM
+3818,mean average precision,平均精度均值
+3819,mean field,平均场
+3820,mean filed,平均场
+3821,mean filter,均值滤波
+3822,mean function,均值函数
+3823,mean pooling,平均汇聚
+3824,mean product of Student t-distribution,学生 t 分布均值乘积
+3825,mean reciprocal rank,均值倒排秩
+3826,mean shape,平均形状
+3827,mean square error,均方误差
+3828,mean squared error,均方误差
+3829,mean vector,均值向量
+3830,mean-covariance restricted Boltzmann machine,均值-协方差受限玻尔兹曼机
+3831,mean-field,平均场
+3832,mean-field approximation,平均场近似
+3833,mean-squared error,均方误差
+3834,meanfield,均匀场
+3835,measurable space,可测空间
+3836,measure theory,测度论
+3837,measure zero,零测度
+3838,measurement matrix,测量矩阵
+3839,measurement noise,测量噪声
+3840,mechanical sympathy,机械同感，软硬件协同编程
+3841,median,中位数
+3842,medical imaging,医学成像
+3843,medoid,中心文档
+3844,membership inference attack,成员推断攻击
+3845,membership query,成员查询
+3846,memory,记忆
+3847,memory augmented neural network,记忆增强神经网络
+3848,memory bank,内存库
+3849,memory capacity,记忆容量
+3850,memory cell,记忆元
+3851,memory complexity,内存复杂度
+3852,memory network,记忆网络
+3853,memory segment,记忆片段
+3854,mention detection,提及检测
+3855,merging,合并
+3856,meronymy,部分关系
+3857,message,消息
+3858,message passing,消息传递
+3859,message passing algorithm,消息传递算法
+3860,message passing neural network,消息传递神经网络
+3861,message passing neural networks,消息传递神经网络
+3862,meta,元
+3863,meta-algorithm,元算法
+3864,meta-classifier,元分类器
+3865,meta-dataset,元数据集
+3866,meta-evaluation,元评估
+3867,meta-learn,元学习
+3868,meta-learner,元学习器
+3869,meta-learning,元学习
+3870,meta-loss,元损失
+3871,meta-optimization,元优化
+3872,meta-parameter,元参数
+3873,meta-rule,元规则
+3874,meta-testing,元测试
+3875,meta-training,元训练
+3876,metadata,元数据
+3877,metric,指标
+3878,metric learning,度量学习
+3879,metric learning algorithm,度量学习算法
+3880,metric score,度量分数
+3881,metric space,度量空间
+3882,micro average,微平均
+3883,micro-F1,微F1
+3884,micro-R,微查全率
+3885,micro-average,微平均
+3886,microarray data,微阵列数据
+3887,microarray datum,微阵列数据
+3888,min-max normalization,最小最大值规范化
+3889,mini batch,小批次
+3890,mini-batch,小批量
+3891,mini-batch SGD,小批次随机梯度下降
+3892,mini-batch gradient,小批量梯度
+3893,mini-batch gradient descent,小批量梯度下降法
+3894,mini-batch size,小批量大小
+3895,mini-batch training,小批量训练
+3896,minibatch,小批量
+3897,minibatch stochastic,小批量随机
+3898,minima,极小值
+3899,minimal description length,最小描述长度
+3900,minimax,极小极大
+3901,minimax game,极小极大博弈
+3902,minimax optimization problem,极小极大优化问题
+3903,minimax problem,极小极大问题
+3904,minimization problem,最小化问题
+3905,minimizer,最小化器
+3906,minimum,极小点
+3907,minimum baye risk decoding,最小贝叶斯风险解码
+3908,minimum cut,最小割
+3909,minimum description length,最小描述长度
+3910,minimum support,最小支持度
+3911,mining,挖掘
+3912,mining out,挖掘
+3913,mirror descent,镜像下降
+3914,misclassification cost,误分类代价
+3915,misclassification error,错分类误差
+3916,misclassification loss,误分类损失
+3917,misinformation detection,虚假信息检测
+3918,missing values,缺失值
+3919,mixed integer programming,混合整数规划
+3920,mixed precision,混合精度
+3921,mixed precision training,混合精度训练
+3922,mixed strategy,混合策略
+3923,mixed-integer program,混合整数规划
+3924,mixing,混合
+3925,mixing matrix,混合矩阵
+3926,mixing time,混合时间
+3927,mixing weight,混合权重
+3928,mixture component,混合成分
+3929,mixture density network,混合密度网络
+3930,mixture distribution,混合分布
+3931,mixture model,混合模型
+3932,mixture of Gaussians,高斯混合模型
+3933,mixture of experts,混合专家模型
+3934,mixture weight,混合权重
+3935,mixture-of-Gaussian,高斯混合
+3936,ml modelling,机器学习建模
+3937,mocap,动作捕捉
+3938,modality,模态
+3939,mode,峰值
+3940,mode collapse,模式崩溃
+3941,model M,模型 M
+3942,model accuracy,模型准确率
+3943,model architecture,模型架构
+3944,model averaging,模型平均
+3945,model bias,模型偏差
+3946,model capacity,模型容量
+3947,model card,模型卡
+3948,model checking,模型检查
+3949,model class,模型类
+3950,model collapse,模型坍塌
+3951,model comparison,模型比较
+3952,model complexity,模型复杂度
+3953,model compression,模型压缩
+3954,model construction,模型构建
+3955,model convergence,模型收敛
+3956,model development,模型开发
+3957,model distillation,模型蒸馏
+3958,model distribution,模型分布
+3959,model estimation,模型估计
+3960,model evaluation,模型评估
+3961,model family,模型家族
+3962,model fine-tuning,模型微调
+3963,model generalization,模型泛化
+3964,model hyperparameter,模型超参数
+3965,model identifiability,模型可辨识性
+3966,model inference,模型推理
+3967,model initialization,模型初始化
+3968,model interpretability,模型可解释性
+3969,model interpretation,模型解释
+3970,model layer,模型层
+3971,model output,模型输出
+3972,model parallelism,模型并行
+3973,model parameter,模型参数
+3974,model performance,模型性能
+3975,model precision,模型精度
+3976,model prediction,模型预测
+3977,model predictive control,模型预测控制
+3978,model representation,模型表示
+3979,model robustness,模型鲁棒性
+3980,model score,模型得分
+3981,model selection,模型选择
+3982,model size,模型规模
+3983,model specification,模型规范
+3984,model statistics,模型统计
+3985,model structure,模型结构
+3986,model training,模型训练
+3987,model update,模型更新
+3988,model validation,模型验证
+3989,model variant,模型变体
+3990,model weight,模型权重
+3991,model's parameter,模型参数
+3992,model-agnostic meta-learning,模型无关的元学习
+3993,model-based approach,基于模型的方法
+3994,model-based iterative reconstruction,基于模型的迭代重建
+3995,model-based learning,有模型学习
+3996,model-based reinforcement learning,基于模型的强化学习
+3997,model-construction,模型构建
+3998,model-free approach,无模型方法
+3999,model-free learning,免模型学习
+4000,model-free reinforcement learning,模型无关的强化学习
+4001,modelling scenario,建模场景
+4002,modular,模块化的
+4003,modular architecture,模块化架构
+4004,module,模块
+4005,molecular graph theory,分子图论
+4006,molecular modelling,分子建模
+4007,moment,矩
+4008,moment matching,矩匹配
+4009,momentum,动量
+4010,momentum coefficient,动量系数
+4011,momentum encoder,动量编码器
+4012,momentum method,动量法
+4013,momentum term,动量项
+4014,monocular,单目
+4015,monocular reconstruction,单目重建
+4016,monolingual baseline,单语基线
+4017,monolingual corpora,单语语料库
+4018,monolingual corpus,单语语料库
+4019,monolingual dataset,单语数据集
+4020,monolingual datum,单语数据
+4021,monolingual embedding,单语嵌入
+4022,monolingual model,单语模型
+4023,monolingual training,单语训练
+4024,monotone,单调
+4025,monotonic,单调的
+4026,moral graph,端正图
+4027,moralization,道德化
+4028,morphological analysis,形态分析
+4029,morphological analyzer,形态分析器
+4030,morphological feature,形态特征
+4031,morphological information,形态信息
+4032,morphological operation,形态操作
+4033,morphological segmentation,形态学分割
+4034,morphology,形态学
+4035,most general unifier,最一般合一置换
+4036,motion analysis,运动分析
+4037,motion estimation,运动估计
+4038,motion matrix,运动矩阵
+4039,motion planning,运动规划
+4040,motion segmentation,运动分割
+4041,moving average,移动平均
+4042,ms-QSBER-EL model,基于人工神经网络组合的结构生物学效应定量关系多尺度模型
+4043,multi-agent,多智能体
+4044,multi-agent control system,多智能体控制系统
+4045,multi-agent interaction,多智能体交互
+4046,multi-agent learning,多智能体学习
+4047,multi-agent reinforcement learning,多智能体强化学习
+4048,multi-agent system,多智能体系统
+4049,multi-armed bandit,多臂赌博机
+4050,multi-armed bandit problem,多臂赌博机问题
+4051,multi-class,多类别
+4052,multi-class classification,多分类
+4053,multi-class logistic regression,多类别逻辑回归
+4054,multi-class problem,多类问题
+4055,multi-classification,多分类
+4056,multi-classifier system,多分类器系统
+4057,multi-core desktop computer,多核台式计算机
+4058,multi-dimensional big data analysis,多维度大数据分析
+4059,multi-document summarization,多文档摘要
+4060,multi-domain,多领域
+4061,multi-head,多头
+4062,multi-head attention,多头注意力
+4063,multi-head attention layer,多头注意力层
+4064,multi-head self-attention,多头自注意力
+4065,multi-head self-attention mechanism,多头自注意力机制
+4066,multi-head self-attention module,多头自注意力模块
+4067,multi-headed self-attention,多头自注意力
+4068,multi-hop,多跳
+4069,multi-kernel learning,多核学习
+4070,multi-label,多标签
+4071,multi-label classification,多标签分类
+4072,multi-label classification loss,多标签分类损失
+4073,multi-label classifier,多标签分类器
+4074,multi-label datum,多标签数据
+4075,multi-label learning,多标记学习
+4076,multi-label text classification,多标签文本分类
+4077,multi-layer feed-forward,多层前馈
+4078,multi-layer feedforward neural networks,多层前馈神经网络
+4079,multi-layer neural network,多层神经网络
+4080,multi-layer perceptron,多层感知机
+4081,multi-modal,多模态
+4082,multi-modal input,多模态输入
+4083,multi-modal learning,多模态学习
+4084,multi-modal model,多模态模型
+4085,multi-nominal logistic regression model,多项对数几率回归模型
+4086,multi-object detection,多目标检测
+4087,multi-objective genetic algorithm,多目标遗传算法
+4088,multi-objective optimization,多目标优化
+4089,multi-prediction deep Boltzmann machine,多预测深度玻尔兹曼机
+4090,multi-reaction synthesis,多反应合成
+4091,multi-response linear regression,多响应线性回归
+4092,multi-scale,多尺度
+4093,multi-scale architecture,多尺度架构
+4094,multi-scale training,多尺度训练
+4095,multi-task,多任务
+4096,multi-task fine-tuning,多任务微调
+4097,multi-task model,多任务模型
+4098,multi-task regression,多任务回归
+4099,multi-task setting,多任务设置
+4100,multi-view,多视角
+4101,multi-view datum,多视图数据
+4102,multi-view geometry,多视图几何
+4103,multi-view learning,多视图学习
+4104,multi-view stereo,多视图立体
+4105,multi-view system,多视图系统
+4106,multiclass classifier,多类分类器
+4107,multiclass hinge loss,多类别铰链损失
+4108,multiclass model,多类模型
+4109,multiclass object detection,多类目标检测
+4110,multicollinearity,多重共线性
+4111,multilayer perceptron,多层感知机
+4112,multilingual embedding,多语言嵌入
+4113,multilingual language model,多语言模型
+4114,multilingual model,多语言模型
+4115,multilingual representation,多语言表示
+4116,multilingual training,多语言训练
+4117,multilinguality,多语言性
+4118,multimodal,多峰值
+4119,multimodal learning,多模态学习
+4120,multimodal task,多模态任务
+4121,multinomial distribution,多项分布
+4122,multinomial model,多项式模型
+4123,multinoulli distribution,Multinoulli分布
+4124,multinoulli output distribution,Multinoulli输出分布
+4125,multiple dimensional scaling,多维缩放
+4126,multiple kernel learning,多核学习
+4127,multiple linear regression,多元线性回归
+4128,multiscale modeling,多尺度建模
+4129,multiset,多重集
+4130,multitask,多任务
+4131,multitask learning,多任务学习
+4132,multitask training,多任务训练
+4133,multivariate,多变量
+4134,multivariate Gaussian,多元高斯
+4135,multivariate Gaussian distribution,多元高斯分布
+4136,multivariate decision tree,多变量决策树
+4137,multivariate normal,多元正态
+4138,multivariate normal distribution,多元正态分布
+4139,multivariate regression,多变量回归
+4140,multivariate time series,多变量时间序列
+4141,mutex,互斥锁
+4142,mutexe,互斥量
+4143,mutual entropy,互信息熵
+4144,mutual information,互信息
+4145,n-best list,n-best 列表
+4146,n-dimensional space,N维空间
+4147,n-gram,N元
+4148,n-gram feature,N元特征
+4149,n-gram language model,n-gram语言模型
+4150,n-gram model,N元模型
+4151,n-step returns,n步回报
+4152,naive Bayes,朴素贝叶斯
+4153,naive Bayes algorithm,朴素贝叶斯算法
+4154,naive Bayes classifier,朴素贝叶斯分类器
+4155,naive Bayes model,朴素贝叶斯模型
+4156,naive Bayesian,朴素贝叶斯
+4157,naive Bayesian methods,朴素贝叶斯方法
+4158,named entity,命名实体
+4159,named entity recognition,命名实体识别
+4160,"named entity recognition, NER",命名实体识别
+4161,named entity recognizer,命名实体识别器
+4162,narrow convolution,窄卷积
+4163,nats,奈特
+4164,natural exponential decay,自然指数衰减
+4165,natural image statistic,自然图像统计
+4166,natural language,自然语言
+4167,natural language generation,自然语言生成
+4168,natural language processing,自然语言处理
+4169,natural language query,自然语言查询
+4170,natural logic,自然逻辑
+4171,natural logic inference,自然逻辑推理
+4172,natural parameter,自然参数
+4173,near-optimality,近似最优性
+4174,nearest neighbor,最近邻
+4175,nearest neighbor classifier,最近邻分类器
+4176,nearest neighbor graph,最近邻图
+4177,nearest neighbor regression,最近邻回归
+4178,nearest neighbor search,最近邻搜索
+4179,nearest neighbors,近邻
+4180,nearest neighbour model,近邻模型
+4181,nearest-neighbor algorithm,最近邻算法
+4182,nearest-neighbor search,最近邻搜索
+4183,negation,否定
+4184,negative class,负类
+4185,negative correlation,负相关法
+4186,negative definite,负定
+4187,negative log likelihood,负对数似然函数
+4188,negative log-likelihood,负对数似然
+4189,negative pair,负样本对
+4190,negative part function,负部函数
+4191,negative phase,负相
+4192,negative predictive value,阴性预测值
+4193,negative sample,负例
+4194,negative sampling,负采样
+4195,negative semidefinite,半负定
+4196,negative transfer,负迁移
+4197,neighborhood function,邻域函数
+4198,neighborhood system,邻域系统
+4199,neighbourhood component analysis,近邻成分分析
+4200,net,网络
+4201,net activation,净活性值
+4202,net input,净输入
+4203,network,网络
+4204,network architecture,网络结构
+4205,network capacity,网络容量
+4206,network feature,网络特征
+4207,network geometry,网络几何
+4208,network parameter,网络参数
+4209,network structure,网络结构
+4210,network topology,网络拓扑
+4211,network weight,网络权重
+4212,neural Turing machine,神经图灵机
+4213,neural Turing machines,神经图灵机
+4214,neural activity,神经活动
+4215,neural approach,神经方法
+4216,neural architecture,神经架构
+4217,neural architecture search,神经架构搜索
+4218,neural auto-regressive density estimator,神经自回归密度估计器
+4219,neural auto-regressive network,神经自回归网络
+4220,neural embedding,神经嵌入
+4221,neural generation model,神经生成模型
+4222,neural implicit representation,神经隐式表示
+4223,neural language model,神经语言模型
+4224,neural machine translation,神经机器翻译
+4225,neural machinery,神经机制
+4226,neural mapping,神经映射
+4227,neural method,神经方法
+4228,neural model,神经模型
+4229,neural module,神经模块
+4230,neural net,神经网络
+4231,neural network,神经网络
+4232,neural network architecture,神经网络架构
+4233,neural network classifier,神经网络分类器
+4234,neural network language model,神经网络语言模型
+4235,neural network layer,神经网络层
+4236,neural network model,神经网络模型
+4237,neural operator,神经算子
+4238,neural parser,神经解析器
+4239,neural renderer,神经渲染器
+4240,neural rendering,神经渲染
+4241,neural representation,神经表示
+4242,neural retrieval,神经检索
+4243,neural scaling law,神经网络缩放定律
+4244,neural scene representation,神经场景表示
+4245,neural sequence model,神经序列模型
+4246,neural text generation,神经文本生成
+4247,neural volumetric representation,神经体积表示
+4248,neural word embedding,神经词嵌入
+4249,neural-network-based function,基于神经网络的函数
+4250,neuro-symbolic system,神经符号系统
+4251,neurodynamics,神经动力学
+4252,neuromorphic computing,神经形态计算
+4253,neuron,神经元
+4254,neurons,神经元
+4255,next sentence prediction,下一句预测
+4256,next token prediction,下一个标记预测
+4257,nmod,名词修饰语
+4258,no free lunch theorem,没有免费午餐定理
+4259,no-regret algorithm,无悔算法
+4260,no-regret dynamic,无悔动态
+4261,no-regret learning algorithm,无悔学习算法
+4262,node,结点
+4263,node attribute,节点属性
+4264,node classification,节点分类
+4265,node degree,节点度
+4266,node embedding,节点嵌入
+4267,node feature,节点特征
+4268,node feature matrix,节点特征矩阵
+4269,node label,节点标签
+4270,node representation,节点表示
+4271,node set,节点集
+4272,node-disjoint path,节点不相交路径
+4273,noise,噪声
+4274,noise distribution,噪声分布
+4275,noise filters,噪声过滤器
+4276,noise level,噪声水平
+4277,noise model,噪声模型
+4278,noise schedule,噪声调度
+4279,noise-contrastive estimation,噪声对比估计
+4280,noise-free,无噪的
+4281,noisy channel,噪声信道
+4282,nominal attribute,列名属性
+4283,nominal mention,名义提及
+4284,non-Euclidean space,非欧几里得空间
+4285,non-Markov process,非马尔可夫过程
+4286,non-autoregressive process,非自回归过程
+4287,non-convex objective,非凸目标
+4288,non-convex optimization,非凸优化
+4289,non-convex problem,非凸问题
+4290,non-convexity,非凸性
+4291,non-informative prior,无信息先验
+4292,non-linear,非线性
+4293,non-linear correlation,非线性相关
+4294,non-linear least square,非线性最小二乘
+4295,non-linear model,非线性模型
+4296,non-linear optimization,非线性优化
+4297,non-linear oscillation,非线性振荡
+4298,non-linear support vector machine,非线性支持向量机
+4299,non-linearity,非线性
+4300,non-local feature,非局部特征
+4301,non-max suppression,非极大值抑制
+4302,non-maxima suppression,非极大值抑制
+4303,non-maximal suppression,非极大抑制
+4304,non-metric distance,非度量距离
+4305,non-negative matrix factorization,非负矩阵分解
+4306,non-ordinal attribute,无序属性
+4307,non-parametric,非参数
+4308,non-parametric algorithm,非参数化学习算法
+4309,non-parametric model,非参数化模型
+4310,non-parametric setting,非参数设置
+4311,non-probabilistic model,非概率模型
+4312,non-projective parsing,非投影解析
+4313,non-safety-critical applications,非安全关键型应用
+4314,non-saturating game,非饱和博弈
+4315,non-separable,不可分
+4316,non-steady-state,非稳态
+4317,non-stochastic,非随机的
+4318,non-submodular energy,非次模能量
+4319,non-template,非模板
+4320,non-template methods,非模板方法
+4321,non-tree model,非树模型
+4322,non-zero weight,非零权重
+4323,nonconvex,非凸
+4324,nonconvex function,非凸函数
+4325,nondistributed,非分布式
+4326,nondistributed representation,非分布式表示
+4327,nonlinear autoregressive with exogenous inputs model,有外部输入的非线性自回归模型
+4328,nonlinear conjugate gradients,非线性共轭梯度
+4329,nonlinear independent components estimation,非线性独立成分估计
+4330,nonlinear optimisation,非线性优化
+4331,nonlinear programming,非线性规划
+4332,nonmonotonic reasoning,非单调推理
+4333,nonparametric density estimation,非参数密度估计
+4334,nonterminal symbol,非终结符
+4335,norm,范数
+4336,norm-preserving,范数保持性
+4337,normal,法线
+4338,normal distribution,正态分布
+4339,normal equation,正规方程
+4340,normal form,标准形式
+4341,normal vector,法向量
+4342,normal-form game,标准形式博弈
+4343,normalisation,归一化
+4344,normalization,规范化
+4345,normalization constant,归一化常数
+4346,normalization factor,规范化因子
+4347,normalization function,归一化函数
+4348,normalization layer,归一化层
+4349,normalization method,归一化方法
+4350,normalization strategy,归一化策略
+4351,normalize,归一化
+4352,normalized,规范化的
+4353,normalized cross correlation,归一化互相关
+4354,normalized cut,归一化切割
+4355,normalized cut algorithm,归一化切割算法
+4356,normalized edit distance,归一化编辑距离
+4357,normalized initialization,标准初始化
+4358,normalizing factor,归一化因子
+4359,normalizing flow,归一化流
+4360,noun phrase,名词短语
+4361,novel view synthesis,新视角合成
+4362,nsubj,主语
+4363,nsubjpass,被动主语
+4364,nuclear magnetic resonance,核磁共振
+4365,nuclear norm,核范数
+4366,nuclear norm relaxation,核范数松弛
+4367,null distribution,零分布
+4368,null space,零空间
+4369,number of epochs,轮数
+4370,numerator layout,分子布局
+4371,numeric value,数值
+4372,numerical attribute,数值属性
+4373,numerical differentiation,数值微分
+4374,numerical linear algebra,数值线性代数
+4375,numerical method,数值方法
+4376,numerical optimization,数值优化
+4377,object bounding box,目标边界框
+4378,object categorization,目标分类
+4379,object category,目标类别
+4380,object category recognition,目标类别识别
+4381,object class,目标类别
+4382,object classification,物体分类
+4383,object detection,目标检测
+4384,object detector,物体检测器
+4385,object domain,对象域
+4386,object embedding,物体嵌入
+4387,object instance segmentation,物体实例分割
+4388,object model,物体模型
+4389,object proposal,物体提议
+4390,object recognition,对象识别
+4391,object segmentation,物体分割
+4392,object tracking,物体跟踪
+4393,objective,目标
+4394,objective function,目标函数
+4395,objective value,目标值
+4396,objectness,物体性
+4397,oblique decision tree,斜决策树
+4398,observable variable,观测变量
+4399,observation function,观测函数
+4400,observation model,观测模型
+4401,observation sequence,观测序列
+4402,observation space,观测空间
+4403,observational datum,观测数据
+4404,occlusion handling,遮挡处理
+4405,occlusion reasoning,遮挡推理
+4406,occupancy grid,占用栅格
+4407,occupancy map,占用图
+4408,occupancy measure,占用度量
+4409,odds,几率
+4410,odometry,里程计
+4411,off-diagonal element,非对角元素
+4412,off-policy,异策略
+4413,offline algorithm,离线算法
+4414,offline inference,离线推断
+4415,offline learning,离线学习
+4416,offset,偏移量
+4417,offset vector,偏移向量
+4418,on-policy,同策略
+4419,on-the-fly optimization,运行中优化
+4420,one-against-all reduction,一对全体降维
+4421,one-dependent estimator,独依赖估计
+4422,one-hot,独热
+4423,one-hot encoded,独热编码
+4424,one-hot representation,独热表示
+4425,one-hot vector,独热向量
+4426,one-shot learning,单试学习
+4427,one-shot setting,单样本设置
+4428,one-stage detector,单阶段检测器
+4429,one-versus-all,一对多
+4430,online algorithm,在线算法
+4431,online convex optimization,在线凸优化
+4432,online gradient descent,在线梯度下降
+4433,online inference,在线推断
+4434,online learning,在线学习
+4435,online learning algorithm,在线学习算法
+4436,online learning method,在线学习方法
+4437,online learning theory,在线学习理论
+4438,ontology,本体
+4439,ontology language,本体语言
+4440,ontology-mediated query,本体中介查询
+4441,open set,开集
+4442,open-ended text generation,开放式文本生成
+4443,open-loop,开环
+4444,open-source,开源
+4445,open-source dataset,开源数据集
+4446,operation,操作
+4447,operator,运算符
+4448,operator norm,算子范数
+4449,operator sequence,算子序列
+4450,optical character recognition,光学字符识别
+4451,optical flow,光流
+4452,optical flow estimation,光流估计
+4453,optimal capacity,最佳容量
+4454,optimal control theory,最优控制理论
+4455,optimal experimental design,最优实验设计
+4456,optimal policy,最优策略
+4457,optimal solution,最优解
+4458,optimality,最优性
+4459,optimality condition,最优性条件
+4460,optimisation,优化
+4461,optimisation problem,优化问题
+4462,optimiser,优化器
+4463,optimization,最优化
+4464,optimization algorithm,优化算法
+4465,optimization framework,优化框架
+4466,optimization function,优化函数
+4467,optimization landscape,优化地形
+4468,optimization method,优化方法
+4469,optimization objective,优化目标
+4470,optimization procedure,优化过程
+4471,optimization step,优化步骤
+4472,optimization theory,优化理论
+4473,optimizer,优化器
+4474,option,选项
+4475,oracle,神谕
+4476,oracle policy,神谕策略
+4477,ordered rule,带序规则
+4478,ordinal attribute,有序属性
+4479,ordinal embedding,序数嵌入
+4480,ordinal regression,序数回归
+4481,orientation loss,方向损失
+4482,origin,原点
+4483,orthogonal,正交
+4484,orthogonal basis,正交基
+4485,orthogonal initialization,正交初始化
+4486,orthogonal matrix,正交矩阵
+4487,orthogonal projection matrix,正交投影矩阵
+4488,orthographic camera model,正交相机模型
+4489,orthographic projection,正交投影
+4490,orthonormal,标准正交
+4491,orthonormal decomposition,正交分解
+4492,orthonormal matrix,正交矩阵
+4493,orthonormal row,正交归一行
+4494,orthonormality,正交性
+4495,out-of-bag estimate,包外估计
+4496,out-of-distribution,分布外
+4497,out-of-domain,领域外
+4498,out-of-domain evaluation,领域外评估
+4499,outer product,外积
+4500,outlier,异常点
+4501,outlier detection,异常值检测
+4502,outlier exposure,异常值暴露
+4503,outlier rejection,离群点剔除
+4504,output,输出
+4505,output gate,输出门
+4506,output layer,输出层
+4507,output smearing,输出调制法
+4508,output space,输出空间
+4509,output token,输出标记
+4510,output vector,输出向量
+4511,output vocabulary,输出词汇表
+4512,over-fitting,过拟合
+4513,over-parameterized,过度参数化
+4514,over-segmentation,过度分割
+4515,over-smoothing,过平滑
+4516,overcomplete,过完备
+4517,overestimation,过估计
+4518,overfitting,过拟合
+4519,overfitting regime,过拟合机制
+4520,overflow,上溢
+4521,oversampling,过采样
+4522,padding,填充
+4523,paired t-test,成对 t 检验
+4524,pairwise Markov property,成对马尔可夫性
+4525,pairwise classifier,成对分类器
+4526,pairwise clique,成对团
+4527,pairwise comparison,成对比较
+4528,pairwise constraint,成对约束
+4529,pairwise flow,成对流
+4530,pairwise learning,成对学习
+4531,pairwise potential,成对势能
+4532,pairwise word similarity,成对词相似度
+4533,panoptic segmentation,全景分割
+4534,parallel,平行线
+4535,parallel corpora,平行语料库
+4536,parallel corpus,平行语料
+4537,parallel datum,平行数据
+4538,parallel distributed processing,分布式并行处理
+4539,parallel tempering,并行回火
+4540,parameter count,参数数量
+4541,parameter estimation,参数估计
+4542,parameter learning,参数学习
+4543,parameter matrix,参数矩阵
+4544,parameter model,参数模型
+4545,parameter regularization,参数正则化
+4546,parameter server,参数服务器
+4547,parameter sharing,参数共享
+4548,parameter size,参数大小
+4549,parameter space,参数空间
+4550,parameter tuning,调参
+4551,parameter tying,参数绑定
+4552,parameter update,参数更新
+4553,parameter vector,参数向量
+4554,parameter-efficient fine-tuning,参数高效微调
+4555,parameterisation,参数化
+4556,parameterization,参数化
+4557,parameterized model,参数化模型
+4558,parametric,参数化的
+4559,parametric ReLU,参数化修正线性单元
+4560,parametric case,有参情况
+4561,parametric density estimation,参数密度估计
+4562,parametric family,参数族
+4563,parametric knowledge,参数知识
+4564,parametric model,参数化模型
+4565,parametrization,参数化
+4566,paraphrase,释义
+4567,paraphrase generation,释义生成
+4568,paraphrase generator,释义生成器
+4569,paraphrase identification,释义识别
+4570,paraphrase model,释义模型
+4571,parent node,父节点
+4572,parse,解析
+4573,parse chart,解析图
+4574,parse forest,解析森林
+4575,parse score,解析得分
+4576,parse structure,解析结构
+4577,parse tree,解析树
+4578,parser,解析器
+4579,parsing accuracy,解析准确率
+4580,parsing algorithm,解析算法
+4581,parsing model,解析模型
+4582,parsing performance,解析性能
+4583,part of speech,词性
+4584,part of speech tag,词性标记
+4585,part of speech tagger,词性标注器
+4586,part-of-speech tagging,词性标注
+4587,partial assignment,部分赋值
+4588,partial derivation,部分推导
+4589,partial derivative,偏导数
+4590,partial evaluation,部分评估
+4591,partial observability,部分可观测性
+4592,partial order,偏序
+4593,partially observable Markov decision processes,部分可观测马尔可夫决策过程
+4594,particle filter,粒子滤波器
+4595,particle swarm optimization,粒子群优化算法
+4596,partition,划分
+4597,partition function,配分函数
+4598,patch,补丁
+4599,path,路径
+4600,path integration,路径积分
+4601,path planning,路径规划
+4602,pattern,模式
+4603,pattern profile,模式概况
+4604,pattern recognition,模式识别
+4605,pattern summarization,模式摘要
+4606,pattern-verbalizer pair,模式-语言化对
+4607,payoff function,收益函数
+4608,payoff matrix,收益矩阵
+4609,pedestrian detection,行人检测
+4610,penalty function,惩罚函数
+4611,penalty parameter,惩罚参数
+4612,penalty term,罚项
+4613,per-pixel,每像素
+4614,perception,感知
+4615,perceptron,感知机
+4616,perceptron algorithm,感知器算法
+4617,perceptual feature,感知特征
+4618,perceptual loss,感知损失
+4619,perfect matching,完美匹配
+4620,performance difference lemma,性能差异引理
+4621,performance measure,性能度量
+4622,periodic,周期的
+4623,permutation,排列
+4624,permutation invariance,置换不变性
+4625,permutation invariant,置换不变性
+4626,permutation matrix,置换矩阵
+4627,permutation test,置换检验
+4628,permutohedral lattice,置换多面体格子
+4629,perplexity,困惑度
+4630,perplexity score,困惑度分数
+4631,persistent contrastive divergence,持续性对比散度
+4632,perspective projection,透视投影
+4633,perspective projection matrix,透视投影矩阵
+4634,perturbation,扰动
+4635,perturbation analysis,扰动分析
+4636,perturbation variance,扰动方差
+4637,phase retrieval,相位恢复
+4638,phoneme,音素
+4639,phoneme segmentation,音素分割
+4640,phonetic,语音
+4641,photoconsistency,光度一致性
+4642,photometric consistency,光度一致性
+4643,photometric error,光度误差
+4644,photometric loss,光度损失
+4645,photometric stereo,光度立体
+4646,phrase structure tree,短语结构树
+4647,phrase table,短语表
+4648,pictorial structure,图形结构
+4649,piecewise,分段
+4650,piecewise constant decay,分段常数衰减
+4651,piecewise linear,分段线性
+4652,piecewise planar,分段平面
+4653,pipeline,流水线
+4654,pixel,像素
+4655,pixel labeling,像素标注
+4656,pixel-level,像素级
+4657,pixel-wise,逐像素
+4658,place recognition,地点识别
+4659,placeholder,占位符
+4660,planning,规划
+4661,planning problem,规划问题
+4662,planning task,规划任务
+4663,plate notation,板块表示
+4664,plug and play generative network,即插即用生成网络
+4665,plug-in estimator,插入式估计器
+4666,plurality voting,相对多数投票
+4667,pobj,介词宾语
+4668,point cloud,点云
+4669,point correspondence,点对应
+4670,point estimate,点估计
+4671,point estimator,点估计
+4672,point match,点匹配
+4673,pointer network,指针网络
+4674,pointwise,点对点
+4675,pointwise multiplication,逐点乘法
+4676,polarity detection,极性检测
+4677,policy,策略
+4678,policy class,策略类
+4679,policy distribution,策略分布
+4680,policy entropy,策略熵
+4681,policy evaluation,策略评估
+4682,policy gradient,策略梯度
+4683,policy gradient algorithm,策略梯度算法
+4684,policy gradient estimator,策略梯度估计器
+4685,policy gradient method,策略梯度方法
+4686,policy gradient theorem,策略梯度定理
+4687,policy improvement,策略改进
+4688,policy iteration,策略迭代
+4689,policy learning,策略学习
+4690,policy network,策略网络
+4691,policy optimization,策略优化
+4692,policy parameter,策略参数
+4693,policy representation,策略表示
+4694,policy search,策略搜索
+4695,policy sketch,策略草图
+4696,policy space,策略空间
+4697,polygon mesh,多边形网格
+4698,polylog,多对数
+4699,polylogarithmic,多对数的
+4700,polynomial,多项式
+4701,polynomial basis function,多项式基函数
+4702,polynomial delay,多项式延迟
+4703,polynomial kernel,多项式核
+4704,polynomial kernel function,多项式核函数
+4705,polynomial time,多项式时间
+4706,polynomial time algorithm,多项式时间算法
+4707,polysemy,一词多义性
+4708,pool,汇聚
+4709,pool-based active learning,基于池的主动学习
+4710,pooling,汇聚
+4711,pooling function,汇聚函数
+4712,pooling layer,汇聚层
+4713,pooling operation,池化操作
+4714,poor conditioning,病态条件
+4715,pose estimation,姿态估计
+4716,pose parameter,姿态参数
+4717,pose prior,姿态先验
+4718,pose space,姿态空间
+4719,position bias,位置偏差
+4720,position embedding,位置嵌入
+4721,positional bias,位置性偏差
+4722,positional embedding,位置嵌入
+4723,positional encoding,位置编码
+4724,positive class,正类
+4725,positive definite,正定
+4726,positive definite kernel function,正定核函数
+4727,positive definite matrix,正定矩阵
+4728,positive pair,正样本对
+4729,positive part function,正部函数
+4730,positive phase,正相
+4731,positive recurrent,正常返的
+4732,positive sample,正例
+4733,positive semidefinite,半正定
+4734,positive semidefinite kernel,半正定核
+4735,positive semidefinite matrix,正半定矩阵
+4736,positive-semidefinite matrix,半正定矩阵
+4737,post-editing,后期编辑
+4738,post-hoc,事后
+4739,post-hoc analysis,事后分析
+4740,post-hoc test,后续检验
+4741,post-processing,后处理
+4742,post-pruning,后剪枝
+4743,posterior,后验
+4744,posterior approximation,后验近似
+4745,posterior density,后验密度
+4746,posterior distribution,后验分布
+4747,posterior entropy,后验熵
+4748,posterior estimation,后验估计
+4749,posterior inference,后验推断
+4750,posterior mean,后验均值
+4751,posterior mean function,后验均值函数
+4752,posterior probability,后验概率
+4753,posterior probability distribution,后验概率分布
+4754,posterior sample,后验样本
+4755,posterior variance,后验方差
+4756,potential function,势函数
+4757,potential heuristic,势启发式
+4758,power iteration method,幂迭代法
+4759,power law distribution,幂律分布
+4760,power method,幂法
+4761,pre-logit,预-logit
+4762,pre-processing,预处理
+4763,pre-terminals,前终结符
+4764,pre-train,预训练
+4765,pre-trained checkpoint,预训练检查点
+4766,pre-trained embedding,预训练嵌入
+4767,pre-trained initialization,预训练初始化
+4768,pre-trained language model,预训练语言模型
+4769,pre-trained model,预训练模型
+4770,pre-trained parameter,预训练参数
+4771,pre-trained weight,预训练权重
+4772,pre-training,预训练
+4773,pre-training corpus,预训练语料库
+4774,pre-training datum,预训练数据
+4775,pre-training objective,预训练目标
+4776,pre-training task,预训练任务
+4777,precision,查准率
+4778,precision matrix,精度矩阵
+4779,precision-at-10,精度@10
+4780,precision-recall curve,精度-召回曲线
+4781,precision-recall graph,精确率-召回率图
+4782,precondition,前提条件
+4783,preconditioner,预处理器
+4784,predicate logic,谓词逻辑
+4785,predicate symbol,谓词符号
+4786,predicate-argument relation,谓词-论元关系
+4787,predicate-argument structure,谓词-论元结构
+4788,predicted label,预测值
+4789,prediction,预测
+4790,prediction accuracy,预测准确率
+4791,prediction entropy,预测熵
+4792,prediction error,预测误差
+4793,prediction head,预测头
+4794,prediction invariance,预测不变性
+4795,prediction model,预测模型
+4796,prediction network,预测网络
+4797,prediction variance,预测方差
+4798,predictive coding,预测编码
+4799,predictive distribution,预测分布
+4800,predictive likelihood,预测似然
+4801,predictive model,预测模型
+4802,predictive performance,预测性能
+4803,predictive sparse decomposition,预测稀疏分解
+4804,predictor,预测器
+4805,prefix,前缀
+4806,prefix sum,前缀和
+4807,prefix tree,前缀树
+4808,preimage,原像
+4809,prepositional phrase,介词短语
+4810,preprocessing phase,预处理阶段
+4811,prepruning,预剪枝
+4812,presence penalty,存在惩罚
+4813,pretrained language model,预训练语言模型
+4814,pretrained multilingual model,预训练多语言模型
+4815,primal objective function,原始目标函数
+4816,primal optimization,原始优化
+4817,primal problem,主问题
+4818,primal variable,原始变量
+4819,primal-dual algorithm,原始-对偶算法
+4820,primal-dual method,原始-对偶方法
+4821,primary visual cortex,初级视觉皮层
+4822,primitive,基元
+4823,principal component,主成分
+4824,principal component analysis,主成分分析
+4825,principle of multiple explanations,多释原则
+4826,prior,先验
+4827,prior distribution,先验分布
+4828,prior hyperparameter,先验超参数
+4829,prior knowledge,先验知识
+4830,prior mean,先验均值
+4831,prior probability,先验概率
+4832,prior probability distribution,先验概率分布
+4833,prior pseudo-counts,伪计数
+4834,prior shift,先验偏移
+4835,prior variance,先验方差
+4836,priority queue,优先队列
+4837,priority rule,优先级规则
+4838,privacy budget,隐私预算
+4839,privacy-preserving data mining,隐私保护数据挖掘
+4840,probabilistic PCA,概率PCA
+4841,probabilistic context-free grammar,概率上下文无关文法
+4842,probabilistic density estimation,概率密度估计
+4843,probabilistic distribution,概率分布
+4844,probabilistic formulation,概率表述
+4845,probabilistic framework,概率框架
+4846,probabilistic generative model,概率生成模型
+4847,probabilistic graphical model,概率图模型
+4848,probabilistic inference,概率推理
+4849,probabilistic latent semantic analysis,概率潜在语义分析
+4850,probabilistic latent semantic indexing,概率潜在语义索引
+4851,probabilistic logic,概率逻辑
+4852,probabilistic method,概率方法
+4853,probabilistic model,概率模型
+4854,probabilistic relational model,概率关系模型
+4855,probabilistic representation,概率表示
+4856,probabilistic semantic,概率语义
+4857,probabilistic topic modeling,概率主题建模
+4858,probabilistic tree,概率树
+4859,probabilistic undirected graphical model,概率无向图模型
+4860,probability,概率
+4861,probability density,概率密度
+4862,probability density function,概率密度函数
+4863,probability distribution,概率分布
+4864,probability flow,概率流
+4865,probability map,概率图
+4866,probability mass,概率质量
+4867,probability mass function,概率质量函数
+4868,probability matrix,概率矩阵
+4869,probability measure,概率测度
+4870,probability model,概率模型
+4871,probability model estimation,概率模型估计
+4872,probability multiset,概率多重集
+4873,probability simplex,概率单纯形
+4874,probability space,概率空间
+4875,probability threshold,概率阈值
+4876,probability transition matrix,概率转移矩阵
+4877,probability vector,概率向量
+4878,probably approximately correct,概率近似正确
+4879,probing classifier,探测分类器
+4880,problem space,问题空间
+4881,product distribution,乘积分布
+4882,product of expert,专家之积
+4883,product rule,乘法法则
+4884,product-of-expert,专家乘积模型
+4885,program induction,程序归纳
+4886,projection algorithm,投影算法
+4887,projection layer,投影层
+4888,projection matrix,投影矩阵
+4889,projection operator,投影算子
+4890,projection step,投影步骤
+4891,projective camera,投影相机
+4892,projective dependency parsing,投影依赖解析
+4893,projective dependency tree,投影依存树
+4894,projective parsing,投影解析
+4895,projective transformation,投影变换
+4896,prompt,提示
+4897,prompt engineering,提示工程
+4898,prompt learning,提示学习
+4899,prompt tuning,提示调优
+4900,pronoun resolution,代词消解
+4901,proof complexity,证明复杂性
+4902,proof number,证明数
+4903,proof tree,证明树
+4904,propensity score,倾向得分
+4905,properly PAC learnable,恰PAC可学习
+4906,proportional,成比例
+4907,proposal distribution,提议分布
+4908,proposal probability,提议概率
+4909,propositional,命题的
+4910,propositional atom,原子命题
+4911,propositional formula,命题公式
+4912,propositional language,命题语言
+4913,propositional logic,命题逻辑
+4914,propositional rule,命题规则
+4915,propositional variable,命题变量
+4916,protected attribute,受保护属性
+4917,protein folding,蛋白折叠
+4918,prototype embedding,原型嵌入
+4919,prototype-based clustering,原型聚类
+4920,proximal gradient descent,近端梯度下降
+4921,proximal operator,近端算子
+4922,pruning,剪枝
+4923,pruning algorithm,剪枝算法
+4924,pseudo-inverse,伪逆
+4925,pseudo-label,伪标记
+4926,pseudolikelihood,伪似然
+4927,pure strategy,纯策略
+4928,pyramid level,金字塔层级
+4929,quadratic assignment problem,二次分配问题
+4930,quadratic loss,二次损失
+4931,quadratic loss function,平方损失函数
+4932,quadratic program,二次规划
+4933,quadratic programming,二次规划
+4934,quadratic regularizer,二次正则化项
+4935,quadrature pair,象限对
+4936,quantal response equilibrium,量子反应均衡
+4937,quantified variable,量化变量
+4938,quantifier,量词
+4939,quantile,分位数
+4940,quantization,量化
+4941,quantization function,量化函数
+4942,quantized neural network,量子化神经网络
+4943,quantizer,量化器
+4944,quantum chemistry,量子化学
+4945,quantum computer,量子计算机
+4946,quantum computing,量子计算
+4947,quantum machine learning,量子机器学习
+4948,quantum mechanics,量子力学
+4949,quantum theory,量子理论
+4950,quasi Newton method,拟牛顿法
+4951,quasi-Newton method,拟牛顿法
+4952,quasi-concave,拟凹
+4953,quaternion,四元数
+4954,query answering,查询回答
+4955,query complexity,查询复杂度
+4956,query context,查询上下文
+4957,query embedding,查询嵌入
+4958,query image,查询图像
+4959,query language,查询语言
+4960,query phase,查询阶段
+4961,query point,查询点
+4962,query processing,查询处理
+4963,query reformulation,查询重构
+4964,query representation,查询表示
+4965,query strategy,查询策略
+4966,query time,查询时间
+4967,query vector,查询向量
+4968,query-document pair,查询-文档对
+4969,query-key-value,查询-键-值
+4970,radial basis function,径向基函数
+4971,radiance field,辐射场
+4972,random access memory,随机访问存储
+4973,random crop,随机裁剪
+4974,random feature,随机特征
+4975,random field,随机场
+4976,random forest,随机森林
+4977,random forest algorithm,随机森林算法
+4978,random initialization,随机初始化
+4979,random matrix theory,随机矩阵理论
+4980,random policy,随机策略
+4981,random projection,随机投影
+4982,random projection algorithm,随机投影算法
+4983,random sampling,随机采样
+4984,random search,随机搜索
+4985,random seed,随机种子
+4986,random selection,随机选择
+4987,random subspace,随机子空间
+4988,random variable,随机变量
+4989,random vector,随机向量
+4990,random walk,随机游走
+4991,random walk model,随机游走模型
+4992,randomization,随机化
+4993,randomized algorithm,随机化算法
+4994,randomized smoothing,随机平滑
+4995,range,值域
+4996,range query,范围查询
+4997,rank,秩
+4998,rank-one update,一阶更新
+4999,ranking algorithm,排名算法
+5000,ranking function,排名函数
+5001,ranking model,排名模型
+5002,ratio matching,比率匹配
+5003,raw datasets,原始数据集
+5004,raw feature,原始特征
+5005,re-balance,再平衡
+5006,re-sampling,重采样
+5007,re-weighting,重赋权
+5008,reachable state,可达状态
+5009,readout function,读出函数
+5010,real-time recurrent learning,实时循环学习
+5011,reasoning,推理
+5012,recall,查全率
+5013,recall-oriented understudy for gisting evaluation,ROUGE
+5014,receiver operating characteristic,受试者工作特征
+5015,receptive field,感受野
+5016,recirculation,再循环
+5017,recognition,识别
+5018,recognition model,识别模型
+5019,recognition weight,认知权重
+5020,recommendation algorithm,推荐算法
+5021,recommendation model,推荐模型
+5022,recommendation system,推荐系统
+5023,recommender,推荐者
+5024,recommender system,推荐系统
+5025,reconstruction,重构
+5026,reconstruction algorithm,重建算法
+5027,reconstruction error,重构误差
+5028,reconstruction loss,重建损失
+5029,recovery algorithm,恢复算法
+5030,rectangular diagonal matrix,矩形对角矩阵
+5031,rectified linear,整流线性
+5032,rectified linear transformation,整流线性变换
+5033,rectified linear unit,修正线性单元
+5034,rectified stereo pair,修正立体对
+5035,rectifier network,整流网络
+5036,recurrence,循环
+5037,recurrent,循环的
+5038,recurrent architecture,循环架构
+5039,recurrent autoencoder,循环自编码器
+5040,recurrent connection,循环连接
+5041,recurrent convolutional network,循环卷积网络
+5042,recurrent dynamic,循环动态
+5043,recurrent model,循环模型
+5044,recurrent multi-layer perceptron,循环多层感知器
+5045,recurrent network,循环网络
+5046,recurrent neural network,循环神经网络
+5047,recurrent state,循环状态
+5048,recursion,递归
+5049,recursive call,递归调用
+5050,recursive neural model,递归神经模型
+5051,recursive neural network,递归神经网络
+5052,reducible,可约的
+5053,redundant feature,冗余特征
+5054,reference distribution,参考分布
+5055,reference model,参考模型
+5056,reference resolution,参考解析
+5057,reference text,参考文本
+5058,reference-based metric,基于参考的度量
+5059,refinement network,精细化网络
+5060,region,区域
+5061,regression,回归
+5062,regression analysis,回归分析
+5063,regression coefficient,回归系数
+5064,regression function,回归函数
+5065,regression model,回归模型
+5066,regression problem,回归问题
+5067,regression task,回归任务
+5068,regression tree,回归树
+5069,regret bound,遗憾界
+5070,regret matching,遗憾匹配
+5071,regret minimization,遗憾最小化
+5072,regret minimization algorithm,后悔最小化算法
+5073,regret minimizer,后悔最小化器
+5074,regular expression,正则表达式
+5075,regularisation,正则化
+5076,regularization,正则化
+5077,regularization constant,正则化常数
+5078,regularization function,正则化函数
+5079,regularization loss,正则化损失
+5080,regularization parameter,正则化参数
+5081,regularization path,正则化路径
+5082,regularization penalty,正则化惩罚
+5083,regularization strength,正则化强度
+5084,regularization term,正则化项
+5085,regularization weight,正则化权重
+5086,regularization-based method,基于正则化的方法
+5087,regularizer,正则化项
+5088,reinforcement learning,强化学习
+5089,reinforcement learning algorithm,强化学习算法
+5090,rejection sampling,拒绝采样
+5091,relation extraction,关系抽取
+5092,relation type,关系类型
+5093,relational database,关系型数据库
+5094,relational tuple,关系元组
+5095,relative entropy,相对熵
+5096,relative positional embedding,相对位置嵌入
+5097,relevance score,相关性得分
+5098,relevant feature,相关特征
+5099,rendering network,渲染网络
+5100,renormalization,重新归一化
+5101,reparameterization,再参数化
+5102,reparameterization trick,重新参数化技巧
+5103,reparametrization trick,重参数化技巧
+5104,replay buffer,经验池
+5105,replay memory,经验回放
+5106,representation learning,表示学习
+5107,representation matrix,表示矩阵
+5108,representation space,表示空间
+5109,representation vector,表示向量
+5110,representational capacity,表示容量
+5111,representer theorem,表示定理
+5112,reproducing kernel Hilbert space,再生核希尔伯特空间
+5113,reproducing property,再生性质
+5114,reprojection,重新投影
+5115,reprojection error,重新投影误差
+5116,reranker,重新排序器
+5117,reranking model,重新排序模型
+5118,reranking parser,重新排序解析器
+5119,rescaling,再缩放
+5120,reservoir computing,储层计算
+5121,reservoir sampling,蓄水池抽样
+5122,reset gate,重置门
+5123,residual block,残差块
+5124,residual blocks,残差块
+5125,residual branch,残差分支
+5126,residual connection,残差连接
+5127,residual error,残差误差
+5128,residual function,残差函数
+5129,residual graph,残差图
+5130,residual learning,残差学习
+5131,residual mapping,残差映射
+5132,residual network,残差网络
+5133,residual unit,残差单元
+5134,residue function,残差函数
+5135,resolution quotient,归结商
+5136,restricted Boltzmann machine,受限玻尔兹曼机
+5137,restricted isometry property,限定等距性
+5138,retrieval,检索
+5139,retrieval function,检索函数
+5140,retrieval method,检索方法
+5141,retrieval model,检索模型
+5142,retrieval system,检索系统
+5143,return,总回报
+5144,reverse KL divergence,逆向KL散度
+5145,reverse correlation,反向相关
+5146,reverse mode accumulation,反向模式累加
+5147,reverse-mode,反向模式
+5148,reversible Markov chain,可逆马尔可夫链
+5149,reward,奖励
+5150,reward function,奖励函数
+5151,reward model,奖励模型
+5152,reward shaping,奖励塑造
+5153,reward signal,奖励信号
+5154,reward-maximizing policy,奖励最大化策略
+5155,ridge regression,岭回归
+5156,ridge regularization,岭回归正则化
+5157,right eigenvector,右特征向量
+5158,right singular vector,右奇异向量
+5159,right-to-left model,右到左模型
+5160,rigid body transformation,刚体变换
+5161,rigid transformation,刚性变换
+5162,risk,风险
+5163,risk function,风险函数
+5164,risk minimization,风险最小化
+5165,roberta-large,RoBERTa大型模型
+5166,robotic,机器人技术的
+5167,robust optimization,鲁棒优化
+5168,robust risk,鲁棒风险
+5169,robustness,稳健性
+5170,role assertion,角色断言
+5171,role atom,角色原子
+5172,role classification,角色分类
+5173,role name,角色名称
+5174,roll-out policy,展开策略
+5175,rollout,执行过程
+5176,rollout length,展开长度
+5177,root mean square error,均方根误差
+5178,root mean square errors,均方根
+5179,root node,根结点
+5180,rotation angle,旋转角度
+5181,rotation invariance,旋转不变性
+5182,rotation matrix,旋转矩阵
+5183,round-off error,舍入误差
+5184,row,行
+5185,row vector,行向量
+5186,rule body,规则主体
+5187,rule engine,规则引擎
+5188,rule learning,规则学习
+5189,runtime complexity,运行时复杂度
+5190,s-fold cross validation,S 折交叉验证
+5191,saccade,扫视
+5192,saddle point,鞍点
+5193,saddle-free Newton method,无鞍牛顿法
+5194,saddle-point problem,鞍点问题
+5195,saliency,显著性
+5196,saliency map,显著图
+5197,saliency-based attention,基于显著性的注意力
+5198,same,相同
+5199,sample,样本
+5200,sample complexity,样本复杂度
+5201,sample complexity bound,样本复杂度界
+5202,sample covariance matrix,样本协方差矩阵
+5203,sample efficiency,样本效率
+5204,sample mean,样本均值
+5205,sample selection,样本选择
+5206,sample space,样本空间
+5207,sample variance,样本方差
+5208,sample-efficient,样本高效
+5209,sampler,采样器
+5210,sampling,采样
+5211,sampling algorithm,采样算法
+5212,sampling method,采样法
+5213,sampling-based inference,基于采样的推断
+5214,satisfiability,可满足性
+5215,satisfiability problem,可满足性问题
+5216,saturate,饱和
+5217,saturating function,饱和函数
+5218,scalability,可扩展性
+5219,scalar,标量
+5220,scalar product,标量积
+5221,scalarization,标量化
+5222,scale invariance,尺度不变性
+5223,scale parameter,尺度参数
+5224,scaled dot-product,缩放点积
+5225,scaled dot-product attention,缩放点积注意力
+5226,scaling,缩放
+5227,scaling factor,缩放因子
+5228,scanning window detector,扫描窗口检测器
+5229,scatter matrix,散布矩阵
+5230,scene category,场景类别
+5231,scene classification,场景分类
+5232,scene classifier,场景分类器
+5233,scene flow,场景流
+5234,scene flow estimation,场景流估计
+5235,scene geometry,场景几何
+5236,scene graph,场景图
+5237,scene parsing,场景解析
+5238,scene recognition,场景识别
+5239,scene reconstruction,场景重建
+5240,scene representation,场景表示
+5241,scene understanding,场景理解
+5242,scheduled sampling,计划采样
+5243,scheduler,调度器
+5244,schema item,模式项
+5245,score,得分
+5246,score function,评分函数
+5247,score matching,分数匹配
+5248,score vector,得分向量
+5249,score-based model,基于得分的模型
+5250,scoring function,评分函数
+5251,search algorithm,搜索算法
+5252,search problem,搜索问题
+5253,search procedure,搜索过程
+5254,search space,搜索空间
+5255,search tree,搜索树
+5256,second derivative,二阶导数
+5257,second derivative test,二阶导数测试
+5258,second layer,第二层
+5259,second order,二阶
+5260,second order statistic,二阶统计量
+5261,second-order method,二阶方法
+5262,second-order optimization,二阶优化
+5263,second-order potential,二阶势
+5264,segmentation,分割
+5265,segmentation algorithm,分割算法
+5266,segmentation map,分割图
+5267,segmentation mask,分割掩码
+5268,selection bias,选择偏差
+5269,selectional preference,选择偏好
+5270,selective attention,选择性注意力
+5271,selective ensemble,选择性集成
+5272,self information,自信息
+5273,self-attention,自注意力
+5274,self-attention head,自注意力头
+5275,self-attention layer,自注意力层
+5276,self-attention matrix,自注意力矩阵
+5277,self-attention mechanism,自注意力机制
+5278,self-attention model,自注意力模型
+5279,self-attention module,自注意力模块
+5280,self-contrastive estimation,自对比估计
+5281,self-driving,自动驾驶
+5282,self-gated,自门控
+5283,self-learning,自学习
+5284,self-loop,自环
+5285,self-organizing map,自组织映射网
+5286,self-play,自我对弈
+5287,self-supervised method,自监督方法
+5288,self-supervised model,自监督模型
+5289,self-supervised representation learning,自监督表示学习
+5290,self-supervised signal,自监督信号
+5291,self-supervised training,自监督训练
+5292,self-supervision,自监督
+5293,self-taught learning,自学习
+5294,self-training,自训练
+5295,semantic alignment,语义对齐
+5296,semantic analysis,语义分析
+5297,semantic annotation,语义标注
+5298,semantic category,语义类别
+5299,semantic class,语义类
+5300,semantic constraint,语义约束
+5301,semantic distance,语义距离
+5302,semantic encoder,语义编码器
+5303,semantic equivalence,语义等价
+5304,semantic feature,语义特征
+5305,semantic gap,语义鸿沟
+5306,semantic graph,语义图
+5307,semantic hashing,语义哈希
+5308,semantic information,语义信息
+5309,semantic interpretation,语义解释
+5310,semantic label,语义标签
+5311,semantic memory,语义记忆
+5312,semantic model,语义模型
+5313,semantic network,语义网络
+5314,semantic object,语义对象
+5315,semantic operator,语义算子
+5316,semantic parse,语义解析
+5317,semantic parser,语义解析器
+5318,semantic priming,语义启动
+5319,semantic relation,语义关系
+5320,semantic representation,语义表示
+5321,semantic role,语义角色
+5322,semantic role label,语义角色标签
+5323,semantic search,语义搜索
+5324,semantic segmentation,语义分割
+5325,semantic similarity,语义相似度
+5326,semantic similarity measure,语义相似性度量
+5327,semantic space,语义空间
+5328,semantic structure,语义结构
+5329,semantic symbol,语义符号
+5330,semantic textual similarity,语义文本相似度
+5331,semantic unit,语义单元
+5332,semantic vector,语义向量
+5333,semantic vector space,语义向量空间
+5334,semi-Markov,半马尔可夫
+5335,semi-definite programming,半正定规划
+5336,semi-naive Bayes classifiers,半朴素贝叶斯分类器
+5337,semi-restricted Boltzmann machine,半受限玻尔兹曼机
+5338,semi-supervised,半监督
+5339,semi-supervised clustering,半监督聚类
+5340,semi-supervised learning,半监督学习
+5341,semi-supervised support vector machine,半监督支持向量机
+5342,semi-supervision,半监督
+5343,semidefinite program,半正定程序
+5344,sense disambiguation,词义消歧
+5345,sensitive attribute,敏感属性
+5346,sensitivity analysis,敏感性分析
+5347,sentence classification,句子分类
+5348,sentence compression,句子压缩
+5349,sentence embedding,句子嵌入
+5350,sentence encoder,句子编码器
+5351,sentence representation,句子表示
+5352,sentence segmentation,句子分割
+5353,sentence vector,句子向量
+5354,sentence-level,句子级别
+5355,sentence-level classification,句子级别分类
+5356,sentence-level representation,句子级别表示
+5357,sentiment,情绪
+5358,sentiment analysis,情感分析
+5359,sentiment analysis model,情感分析模型
+5360,sentiment classification,情感分类
+5361,sentiment classifier,情感分类器
+5362,sentiment detection,情感检测
+5363,sentiment transfer,情感转移
+5364,separable,可分离的
+5365,separate,分离的
+5366,separating hyperplane,分离超平面
+5367,separation,分离
+5368,separation oracle,分离预言机
+5369,separation parameter,分离参数
+5370,separator token,分隔符令牌
+5371,seq2seq,seq2seq
+5372,seq2seq model,序列到序列模型
+5373,sequence alignment,序列对齐
+5374,sequence classification,序列分类
+5375,sequence database,序列数据库
+5376,sequence generation,序列生成
+5377,sequence labeling,序列标注
+5378,sequence labeling model,序列标注模型
+5379,sequence length,序列长度
+5380,sequence model,序列模型
+5381,sequence prediction,序列预测
+5382,sequence tagging,序列标注
+5383,sequence to sequence learning,序列到序列学习
+5384,sequence transduction,序列转导
+5385,sequence-function,序列-功能
+5386,sequence-to-sequence,序列到序列
+5387,sequence-to-sequence architecture,序列到序列架构
+5388,sequence-to-sequence generation,序列到序列生成
+5389,sequence-to-sequence model,序列到序列模型
+5390,sequence-to-sequence transduction,序列到序列转换
+5391,sequential covering,序贯覆盖
+5392,sequential datum,序列数据
+5393,sequential decision making,序列决策
+5394,sequential decision-making process,序列决策过程
+5395,sequential minimal optimization,序列最小最优化
+5396,sequential model-based optimization,时序模型优化
+5397,sequential partitioning,顺序分区
+5398,sequential sampler,序列采样器
+5399,sequential tagging,序列标注
+5400,set cover problem,集合覆盖问题
+5401,set function,集合函数
+5402,setting,情景
+5403,shadow circuit,浅度回路
+5404,shallow learning,浅层学习
+5405,shallow network,浅层网络
+5406,shape matching,形状匹配
+5407,shape prior,形状先验
+5408,shaping,塑造
+5409,sharp minima,尖锐最小值
+5410,shattering,打散
+5411,shift invariance,平移不变性
+5412,shift invariant,平移不变
+5413,shift reduce parser,移位归约解析器
+5414,short-term memory,短期记忆
+5415,shortcut connection,直连边
+5416,shortest path,最短路径
+5417,shortest path algorithm,最短路径算法
+5418,shortest path kernel,最短路径核
+5419,shortest path length,最短路径长度
+5420,shortlist,短列表
+5421,sibling model,兄弟模型
+5422,sigmoid,Sigmoid
+5423,sigmoid activation,sigmoid激活函数
+5424,sigmoid activation function,sigmoid 激活函数
+5425,sigmoid belief network,Sigmoid信念网络
+5426,sigmoid curve,S 形曲线
+5427,sigmoid function,Sigmoid函数
+5428,sign function,符号函数
+5429,signal-to-noise ratio,信噪比
+5430,signed distance,带符号距离
+5431,sim,相似度
+5432,similarity,相似度
+5433,similarity function,相似性函数
+5434,similarity graph,相似度图
+5435,similarity matrix,相似度矩阵
+5436,similarity measure,相似度度量
+5437,similarity metric,相似度量
+5438,similarity score,相似度得分
+5439,similarity search,相似性搜索
+5440,simple cell,简单细胞
+5441,simple recurrent network,简单循环网络
+5442,simple recurrent neural network,简单循环神经网络
+5443,simplex,单纯形
+5444,simplicial complex,单纯复形
+5445,simulated annealing,模拟退火
+5446,simulation,仿真
+5447,simultaneous localization and mapping,即时定位与地图构建
+5448,single component Metropolis-Hastings,单分量Metropolis-Hastings
+5449,single linkage,单连接
+5450,single task learning,单任务学习
+5451,single-label classification,单标签分类
+5452,single-view data,单视图数据
+5453,singleton,单例
+5454,singular,奇异的
+5455,singular value,奇异值
+5456,singular value decomposition,奇异值分解
+5457,singular vector,奇异向量
+5458,size,大小
+5459,skip connection,跳跃连接
+5460,skip-gram,跳词模型
+5461,skip-gram model,跳元模型
+5462,skip-gram model with negative sampling,跳元模型加负采样
+5463,slack variable,松弛变量
+5464,sliding window,滑动窗口
+5465,sliding window classifier,滑动窗口分类器
+5466,slot,槽位
+5467,slot filling,槽位填充
+5468,slot value,槽位值
+5469,slot-value pair,槽-值对
+5470,slow feature analysis,慢特征分析
+5471,slowness principle,慢性原则
+5472,smoothing,平滑
+5473,smoothing parameter,平滑参数
+5474,smoothness prior,平滑先验
+5475,smoothness term,平滑项
+5476,social bias,社会偏见
+5477,social network analysis,社交网络分析
+5478,soft attention mechanism,软性注意力机制
+5479,soft clustering,软聚类
+5480,soft margin,软间隔
+5481,soft margin maximization,软间隔最大化
+5482,soft target,软目标
+5483,soft voting,软投票
+5484,softmax,Softmax
+5485,softmax activation,softmax 激活
+5486,softmax activation function,softmax激活函数
+5487,softmax classifier,softmax分类器
+5488,softmax distribution,softmax分布
+5489,softmax function,Softmax函数
+5490,softmax loss,softmax损失
+5491,softmax regression,Softmax回归
+5492,softmax unit,Softmax单元
+5493,softplus,Softplus
+5494,softplus activation,softplus激活
+5495,softplus function,Softplus函数
+5496,solution space,解空间
+5497,solver,求解器
+5498,source,来源
+5499,source domain,源领域
+5500,source model,源模型
+5501,source node,源节点
+5502,source sequence,源序列
+5503,source token,源标记
+5504,source word,源词
+5505,space carving,空间雕刻
+5506,space complexity,空间复杂度
+5507,space partitioning,空间划分
+5508,spam detection,垃圾信息检测
+5509,spam filtering,垃圾信息过滤
+5510,span,张成子空间
+5511,sparse,稀疏
+5512,sparse activation,稀疏激活
+5513,sparse approximation,稀疏近似
+5514,sparse attention,稀疏注意力
+5515,sparse attention pattern,稀疏注意力模式
+5516,sparse auto-encoder,稀疏自编码器
+5517,sparse coding,稀疏编码
+5518,sparse connectivity,稀疏连接
+5519,sparse graph,稀疏图
+5520,sparse initialization,稀疏初始化
+5521,sparse interactions,稀疏交互
+5522,sparse matrix,稀疏矩阵
+5523,sparse model,稀疏模型
+5524,sparse recovery,稀疏恢复
+5525,sparse representation,稀疏表示
+5526,sparse sampling,稀疏采样
+5527,sparse vector,稀疏向量
+5528,sparse weights,稀疏权重
+5529,sparsification,稀疏化
+5530,sparsity,稀疏性
+5531,sparsity level,稀疏度水平
+5532,sparsity regularization,稀疏正则化
+5533,spatial domain,空间域
+5534,spatial gradient,空间梯度
+5535,spatial pooling,空间池化
+5536,spatial pyramid,空间金字塔
+5537,special token,特殊标记
+5538,specialization,特化
+5539,spectral algorithm,谱算法
+5540,spectral clustering,谱聚类
+5541,spectral decomposition,谱分解
+5542,spectral embedding,谱嵌入
+5543,spectral gap,谱间隙
+5544,spectral learning,谱学习
+5545,spectral matching,谱匹配
+5546,spectral method,谱方法
+5547,spectral norm,谱范数
+5548,spectral property,谱性质
+5549,spectral radius,谱半径
+5550,spectrogram,声谱图
+5551,speech,语音
+5552,speech recognition,语音识别
+5553,speech recognizer,语音识别器
+5554,speech synthesis model,语音合成模型
+5555,speech synthesizer,语音合成器
+5556,sphering,Sphering
+5557,spike and slab,尖峰和平板
+5558,spike and slab RBM,尖峰和平板RBM
+5559,spiking neural nets,脉冲神经网络
+5560,splitting point,切分点
+5561,splitting variable,切分变量
+5562,spoken dialogue system,口语对话系统
+5563,spurious correlation,虚假相关
+5564,spurious modes,虚假模态
+5565,square,方阵
+5566,square loss,平方损失
+5567,squared Euclidean distance,欧氏距离平方
+5568,squared error loss,平方误差损失
+5569,squared exponential,平方指数
+5570,squashing function,挤压函数
+5571,stability,稳定性
+5572,stability-plasticity dilemma,可塑性-稳定性窘境
+5573,stable base learner,稳定基学习器
+5574,stable model,稳定模型
+5575,stable model semantic,稳定模型语义
+5576,stacked auto-encoder,堆叠自编码器
+5577,stacked deconvolutional network,堆叠解卷积网络
+5578,stacked recurrent neural network,堆叠循环神经网络
+5579,stance detection,立场检测
+5580,standard basis,标准基
+5581,standard deviation,标准差
+5582,standard error,标准差
+5583,standard normal distribution,标准正态分布
+5584,standardization,标准化
+5585,start token,起始标记
+5586,state,状态
+5587,state action pair,状态-动作对
+5588,state action reward state action,SARSA算法
+5589,state distribution,状态分布
+5590,state estimation,状态估计
+5591,state machine,状态机
+5592,state matrix,状态矩阵
+5593,state of the art algorithm,最先进算法
+5594,state representation,状态表示
+5595,state sequence,状态序列
+5596,state space,状态空间
+5597,state trajectory,状态轨迹
+5598,state transition,状态转移
+5599,state transition function,状态转移函数
+5600,state transition matrix,状态转移矩阵
+5601,state transition model,状态转移模型
+5602,state transition probability,状态转移概率
+5603,state value function,状态值函数
+5604,state variable,状态变量
+5605,state vector,状态向量
+5606,state-action distribution,状态-动作分布
+5607,state-action space,状态-动作空间
+5608,state-action value,状态-动作值
+5609,state-action value function,状态-动作值函数
+5610,state-of-the-art baseline,最先进的基准
+5611,state-of-the-art method,最先进的方法
+5612,state-of-the-art model,最先进的模型
+5613,state-of-the-art system,最先进的系统
+5614,statement,声明
+5615,static analysis,静态分析
+5616,static computational graph,静态计算图
+5617,static game,静态博弈
+5618,stationarity,平稳性
+5619,stationary,平稳的
+5620,stationary distribution,平稳分布
+5621,stationary kernel,平稳核
+5622,stationary point,驻点
+5623,stationary policy,平稳策略
+5624,statistic efficiency,统计效率
+5625,statistical analysis,统计分析
+5626,statistical independence,统计独立性
+5627,statistical learning,统计学习
+5628,statistical learning algorithm,统计学习算法
+5629,statistical learning theory,统计学习理论
+5630,statistical machine learning,统计机器学习
+5631,statistical machine translation system,统计机器翻译系统
+5632,statistical measure,统计度量
+5633,statistical model,统计模型
+5634,statistical relational learning,统计关系学习
+5635,statistical simulation method,统计模拟方法
+5636,statistical translation model,统计翻译模型
+5637,statistics,统计量
+5638,status feature function,状态特征函数
+5639,steepest descent,最速下降法
+5640,steerable filter,可操控滤波器
+5641,stemmer,词干提取器
+5642,step decay,阶梯衰减
+5643,stereo algorithm,立体算法
+5644,stereo benchmark,立体基准测试
+5645,stereo disparity,立体视差
+5646,stereo image,立体图像
+5647,stereo matching,立体匹配
+5648,stereo pair,立体对
+5649,stereo reconstruction,立体重建
+5650,stereo vision,立体视觉
+5651,stochastic,随机
+5652,stochastic algorithm,随机算法
+5653,stochastic approximation,随机逼近
+5654,stochastic curriculum,随机课程
+5655,stochastic depth,随机深度
+5656,stochastic differential equation,随机微分方程
+5657,stochastic dynamic,随机动态
+5658,stochastic dynamical system,随机动力系统
+5659,stochastic environment,随机环境
+5660,stochastic game,随机博弈
+5661,stochastic gradient,随机梯度
+5662,stochastic gradient algorithm,随机梯度算法
+5663,stochastic gradient ascent,随机梯度上升
+5664,stochastic gradient descent,随机梯度下降
+5665,stochastic gradient descent with warm restarts,带热重启的随机梯度下降
+5666,stochastic gradient method,随机梯度方法
+5667,stochastic grammar,随机文法
+5668,stochastic matrix,随机矩阵
+5669,stochastic maximum likelihood,随机最大似然
+5670,stochastic model,随机模型
+5671,stochastic neighbor embedding,随机近邻嵌入
+5672,stochastic neural network,随机神经网络
+5673,stochastic objective,随机目标
+5674,stochastic optimization,随机优化
+5675,stochastic policy,随机性策略
+5676,stochastic process,随机过程
+5677,stochastic sampling,随机采样
+5678,stochastic search algorithm,随机搜索算法
+5679,stochastic subgradient descent,随机次梯度下降
+5680,stochastic transition matrix,随机转移矩阵
+5681,stochastic variational inference,随机变分推断
+5682,stochasticity,随机性
+5683,stop word,停用词
+5684,stop words,停用词
+5685,stop-gradient,停止梯度
+5686,stop-gradient operation,停止梯度操作
+5687,stopping condition,停止条件
+5688,stopping criterion,停止准则
+5689,stratified sampling,分层采样
+5690,stream,流
+5691,streaming algorithm,流式算法
+5692,streaming datum,流式数据
+5693,streaming model,流式模型
+5694,stride,步幅
+5695,string kernel function,字符串核函数
+5696,string kernel metric,字符串核度量
+5697,strong classifier,强分类器
+5698,strong duality,强对偶性
+5699,strongly connected graph,强连通图
+5700,strongly learnable,强可学习
+5701,structural learning,结构学习
+5702,structural risk,结构风险
+5703,structural risk minimization,结构风险最小化
+5704,structure,结构体
+5705,structure learning,结构学习
+5706,structured datum,结构化数据
+5707,structured learning,结构化学习
+5708,structured output,结构化输出
+5709,structured perceptron,结构化感知器
+5710,structured prediction,结构化预测
+5711,structured prediction model,结构化预测模型
+5712,structured prediction problem,结构化预测问题
+5713,structured probabilistic model,结构化概率模型
+5714,structured support vector machine,结构化支持向量机
+5715,structured variational inference,结构化变分推断
+5716,student model,学生模型
+5717,student network,学生网络
+5718,style transfer,风格迁移
+5719,sub-gradient,次梯度
+5720,sub-gradient descent,次梯度下降
+5721,sub-networks,子网络
+5722,sub-optimal,次最优
+5723,sub-population,子群体
+5724,sub-word,子词
+5725,sub-word tokenization,子词分词
+5726,subatomic,亚原子
+5727,subgame,子博弈
+5728,subgradient method,次梯度法
+5729,subgraph isomorphism,子图同构
+5730,subgraph selection,子图选择
+5731,submatrice,子矩阵
+5732,submatrix,子矩阵
+5733,submodular,次模的
+5734,submodular function,次模函数
+5735,submodular function optimization,次模函数优化
+5736,submodular influence function,次模影响函数
+5737,submodular optimization,次模优化
+5738,submodular polyhedron,次模多面体
+5739,submodular set function,次模集合函数
+5740,subnetwork,子网络
+5741,suboptimal,次优
+5742,subpixel,亚像素
+5743,subsample,子采样
+5744,subsampling,下采样
+5745,subsampling factor,子采样因子
+5746,subsampling layer,子采样层
+5747,subset evaluation,子集评价
+5748,subset search,子集搜索
+5749,subspace,子空间
+5750,subspace learning,子空间学习
+5751,subspace method,子空间方法
+5752,subspace projection,子空间投影
+5753,substitution,置换
+5754,subsumption,包含关系
+5755,subsumption relation,包含关系
+5756,subtree,子树
+5757,subwindow,子窗口
+5758,subword,子词
+5759,subword token,子词标记
+5760,subword unit,子词单元
+5761,successive halving,逐次减半
+5762,successor function,后继函数
+5763,successor state,后继状态
+5764,successor state axiom,后继状态公理
+5765,sufficient statistic,充分统计量
+5766,suffix tree,后缀树
+5767,sum rule,求和法则
+5768,sum-product,和积
+5769,sum-product network,和-积网络
+5770,summarization,摘要生成
+5771,summarization algorithm,摘要生成算法
+5772,summarization model,摘要生成模型
+5773,summarization system,摘要生成系统
+5774,super-parent,超父
+5775,super-pixel,超像素
+5776,super-resolution,超分辨率
+5777,supergradient,超梯度
+5778,supertag,超标签
+5779,supervised,监督
+5780,supervised classification,监督分类
+5781,supervised classification model,监督分类模型
+5782,supervised classifier,监督分类器
+5783,supervised contrastive learning,监督对比学习
+5784,supervised datum,监督数据
+5785,supervised finetuning,有监督微调
+5786,supervised learning,监督学习
+5787,supervised learning algorithm,监督学习算法
+5788,supervised manner,有监督方式
+5789,supervised method,有监督方法
+5790,supervised model,监督模型
+5791,supervised multi-task learning,监督多任务学习
+5792,supervised pretraining,监督预训练
+5793,supervised setting,监督设置
+5794,supervised system,监督系统
+5795,supervised training,监督训练
+5796,support,支持度
+5797,support set,支持集
+5798,support threshold,支持阈值
+5799,support vector,支持向量
+5800,support vector expansion,支持向量展式
+5801,support vector machine,支持向量机
+5802,support vector regression,支持向量回归
+5803,surface normal,表面法线
+5804,surface normal estimator,表面法线估计器
+5805,surface normal prediction,表面法线预测
+5806,surface realization,表面实现
+5807,surrogat loss,替代损失
+5808,surrogate,代理
+5809,surrogate function,替代函数
+5810,surrogate loss,替代损失
+5811,surrogate loss function,代理损失函数
+5812,surrogate model,代理模型
+5813,symbol,符号
+5814,symbol grounding problem,符号扎根问题
+5815,symbolic differentiation,符号微分
+5816,symbolic learning,符号学习
+5817,symbolic representation,符号表示
+5818,symbolism,符号主义
+5819,symmetric,对称
+5820,symmetric matrix,对称矩阵
+5821,symmetric positive semidefinite matrix,对称半正定矩阵
+5822,symmetrization,对称化
+5823,synchronous context-free grammar,同步上下文无关文法
+5824,synonymy,多词一义性
+5825,synset,同义词集
+5826,syntactic analysis,句法分析
+5827,syntactic category,句法类别
+5828,syntactic constraint,句法约束
+5829,syntactic dependency,句法依赖
+5830,syntactic dependency parsing,句法依赖解析
+5831,syntactic dependency tree,句法依存树
+5832,syntactic feature,句法特征
+5833,syntactic information,句法信息
+5834,syntactic parse,句法分析
+5835,syntactic parser,句法解析器
+5836,syntactic regularity,句法规律
+5837,syntactic representation,句法表示
+5838,syntactic similarity,句法相似性
+5839,syntactic structure,句法结构
+5840,syntactic tree,句法树
+5841,syntax tree,句法树
+5842,synthetic dataset,合成数据集
+5843,synthetic feature,合成特征
+5844,system identification,系统辨识
+5845,t-distribution stochastic neighbour embedding,T分布随机近邻嵌入
+5846,t-test,t检验
+5847,tabular value function,表格值函数
+5848,tag recommendation,标签推荐
+5849,tag sequence,标签序列
+5850,tagger,标注器
+5851,tagset,标签集
+5852,tail entity,尾实体
+5853,tangent distance,切面距离
+5854,tangent plane,切平面
+5855,tangent propagation,正切传播
+5856,tangent space,切空间
+5857,tanh activation function,tanh激活函数
+5858,target,目标
+5859,target classifier,目标分类器
+5860,target distribution,目标分布
+5861,target domain,目标领域
+5862,target function,目标函数
+5863,target instance,目标实例
+5864,target model,目标模型
+5865,target network,目标网络
+5866,target node,目标节点
+5867,target policy,目标策略
+5868,target sentence,目标句子
+5869,target sequence,目标序列
+5870,target task,目标任务
+5871,target token,目标标记
+5872,target variable,目标变量
+5873,target vector,目标向量
+5874,target vocabulary,目标词汇
+5875,target word,目标词
+5876,target-to-source model,目标到源模型
+5877,task adaptation,任务适应
+5878,task model,任务模型
+5879,task-oriented dialog system,任务导向对话系统
+5880,task-oriented dialogue system,任务导向对话系统
+5881,task-specific model,任务特定模型
+5882,taxonomy,分类法
+5883,teacher forcing,强制教学
+5884,teacher network,教师网络
+5885,temperature,温度
+5886,temperature parameter,温度参数
+5887,temperature scaling,温度缩放
+5888,tempered transition,回火转移
+5889,tempering,回火
+5890,template,模板
+5891,template model,模板模型
+5892,template-matching,模板匹配
+5893,temporal derivative,时间导数
+5894,temporal difference,时间差分
+5895,temporal difference learning,时间差分学习
+5896,temporal drift,时间漂移
+5897,temporal fusion,时间融合
+5898,temporal locality,时间局部性
+5899,temporal logic,时序逻辑
+5900,temporal reasoning,时序推理
+5901,temporal variable,时间变量
+5902,temporal-difference learning,时序差分学习
+5903,tensor,张量
+5904,tensor decomposition,张量分解
+5905,tensor factorization,张量分解
+5906,tensor field,张量场
+5907,tensor processing units,张量处理单元
+5908,tensor product,张量积
+5909,term frequency,词频
+5910,term frequency-inverse document frequency,单词频率-逆文本频率
+5911,terminal node,终端节点
+5912,terminal state,终止状态
+5913,termination condition,终止条件
+5914,termination criterion,终止标准
+5915,terminology,术语
+5916,test accuracy,测试准确率
+5917,test data,测试数据
+5918,test dataset,测试数据集
+5919,test datum,测试数据
+5920,test domain,测试域
+5921,test error,测试误差
+5922,test loss,测试损失
+5923,test sample,测试样本
+5924,test set,测试集
+5925,test split,测试集划分
+5926,test time,测试时
+5927,testing set,测试集
+5928,text categorization,文本分类
+5929,text corpus,文本语料库
+5930,text embedding,文本嵌入
+5931,text encoder,文本编码器
+5932,text generation,文本生成
+5933,text generation model,文本生成模型
+5934,text mining,文本挖掘
+5935,text segmentation,文本分割
+5936,text simplification,文本简化
+5937,text-davinci-002,text-davinci-002
+5938,text-davinci-003,text-davinci-003
+5939,text-to-image diffusion model,文本到图像扩散模型
+5940,text-to-image generation,文本到图像生成
+5941,text-to-image model,文本到图像模型
+5942,text-to-image synthesis,文本到图像合成
+5943,textual entailment,文本蕴含
+5944,tf-idf,词频-逆文档频率
+5945,the collider case,碰撞情况
+5946,the global minimum,全局最小值
+5947,threat model,威胁模型
+5948,threshold,阈值
+5949,threshold function,阈值函数
+5950,threshold logic unit,阈值逻辑单元
+5951,threshold parameter,阈值参数
+5952,threshold policy,阈值策略
+5953,threshold-moving,阈值移动
+5954,tied weight,捆绑权重
+5955,tiled convolution,平铺卷积
+5956,time complexity,时间复杂度
+5957,time delay neural network,时延神经网络
+5958,time homogenous Markov chain,时间齐次马尔可夫链
+5959,time series,时间序列
+5960,time series analysis,时间序列分析
+5961,time series forecasting,时间序列预测
+5962,time step,时间步
+5963,time-series datum,时间序列数据
+5964,time-series model,时间序列模型
+5965,time/space complexity,时间/空间复杂度
+5966,token classification,词元分类
+5967,token embedding,词元嵌入
+5968,token frequency,词元频率
+5969,token length,词元长度
+5970,token representation,词元表示
+5971,token sequence,词元序列
+5972,token space,词元空间
+5973,token vector,词元向量
+5974,token vocabulary,词元词汇表
+5975,token-level,词元级
+5976,token-level attention,词符级注意力
+5977,token-level feature,令牌级特征
+5978,tokenisation,分词
+5979,tokenization,词元化
+5980,tokenization scheme,分词方案
+5981,tokenize,词元化
+5982,tokenizer,词元分析器
+5983,tolerance,容差
+5984,top-1 accuracy,Top-1 准确率
+5985,top-down,自顶向下
+5986,top-down segmentation,自上而下的分割
+5987,top-k,前k个
+5988,top-k sampling,前k个采样
+5989,top-p sampling,前p概率采样
+5990,topic,话题
+5991,topic assignment,主题分配
+5992,topic classification,主题分类
+5993,topic distribution,主题分布
+5994,topic model,话题模型
+5995,topic modeling,话题分析
+5996,topic proportion,主题比例
+5997,topic vector space,话题向量空间
+5998,topic vector space model,话题向量空间模型
+5999,topic weight,主题权重
+6000,topic-document matrix,话题-文本矩阵
+6001,topographic ICA,地质ICA
+6002,total cost,总体代价
+6003,total variation,总变差
+6004,total variation distance,总变差距离
+6005,toxicity detection,毒性检测
+6006,trace,迹
+6007,trace norm,迹范数
+6008,tracking algorithm,跟踪算法
+6009,tractable,易处理的
+6010,train,训练
+6011,train / test / dev split,训练/测试/验证集划分
+6012,train set,训练集
+6013,train-test split,训练-测试集划分
+6014,train/test,训练/测试
+6015,trainable parameter,可训练参数
+6016,trainable weight,可训练权重
+6017,training,训练
+6018,training accuracy,训练准确率
+6019,training algorithm,训练算法
+6020,training batch,训练批次
+6021,training corpora,训练语料库
+6022,training corpus,训练语料
+6023,training data,训练数据
+6024,training dataset,训练数据集
+6025,training datum,训练数据
+6026,training distribution,训练分布
+6027,training dynamic,训练动态
+6028,training epoch,训练轮次
+6029,training error,训练误差
+6030,training example,训练样本
+6031,training instance,训练实例
+6032,training loss,训练损失
+6033,training objective,训练目标
+6034,training phase,训练阶段
+6035,training procedure,训练过程
+6036,training process,训练过程
+6037,training sample,训练样本
+6038,training set,训练集
+6039,training stability,训练稳定性
+6040,training step,训练步骤
+6041,training task,训练任务
+6042,training time,训练时间
+6043,training token,训练标记
+6044,trajectory,轨迹
+6045,trajectory forecasting,轨迹预测
+6046,trajectory optimization,轨迹优化
+6047,transaction database,事务数据库
+6048,transcribe,转录
+6049,transcription system,转录系统
+6050,transductive learning,直推学习
+6051,transductive transfer learning,直推迁移学习
+6052,transfer function,传递函数
+6053,transfer learning,迁移学习
+6054,transform,变换
+6055,transformation function,转换函数
+6056,transformation matrix,转换矩阵
+6057,transformer language model,Transformer语言模型
+6058,transformer layer,Transformer层
+6059,transformer model,Transformer模型
+6060,transformer variant,Transformer变体
+6061,transformer-based architecture,基于Transformer的架构
+6062,transition,转移
+6063,transition distribution,转移分布
+6064,transition dynamic,转移动态
+6065,transition function,转移函数
+6066,transition graph,转移图
+6067,transition kernel,转移核
+6068,transition matrix,状态转移矩阵
+6069,transition model,转移模型
+6070,transition probability,转移概率
+6071,transition probability model,转移概率模型
+6072,transition system,转移系统
+6073,transition-based dependency parsing,基于转移的依存句法分析
+6074,transition-based model,基于转移的模型
+6075,transition-based parser,基于转移的解析器
+6076,transition-based parsing,基于转移的句法分析
+6077,transitive closure,传递闭包
+6078,transitive relation,传递关系
+6079,translation invariance,翻译不变性
+6080,translation model,翻译模型
+6081,translation system,翻译系统
+6082,translation vector,平移向量
+6083,transliteration,音译
+6084,transpose,转置
+6085,transposed convolution,转置卷积
+6086,transposition table,置换表
+6087,tree data structure,树数据结构
+6088,tree decomposition,树分解
+6089,tree depth,树深度
+6090,tree ensemble,树集成
+6091,tree search,树搜索
+6092,tree structure,树结构
+6093,tree width,树宽
+6094,tree-based model,基于树的模型
+6095,tree-structured LSTM,树结构的长短期记忆模型
+6096,treebank,树库
+6097,treebank annotation,树库标注
+6098,tri-gram,三元组
+6099,trial,试验
+6100,trial and error,试错
+6101,triangle inequality,三角不等式
+6102,triangular cyclic learning rate,三角循环学习率
+6103,triangulate,三角形化
+6104,triangulated graph,三角形化图
+6105,trifocal tensor,三焦张量
+6106,trigram,三元语法
+6107,trigram language model,三元语言模型
+6108,trigram model,三元模型
+6109,trilinear interpolation,三线性插值
+6110,trimap,三分图
+6111,triple,三元组
+6112,triplet,三元组
+6113,triplet loss,三元组损失
+6114,true negative,真负例
+6115,true positive,真正例
+6116,true positive rate,真正例率
+6117,truncated singular value decomposition,截断奇异值分解
+6118,truncation error,截断误差
+6119,truth assignment,真值赋值
+6120,tuple,元组
+6121,tuplex,元组x
+6122,twice-learning,二次学习
+6123,two-class classification,二分类
+6124,two-dimensional array,二维数组
+6125,two-player zero-sum game,双人零和博弈
+6126,type embedding,类型嵌入
+6127,ugly duckling theorem,丑小鸭定理
+6128,unary atom,一元原子
+6129,unary constraint,一元约束
+6130,unary feature,一元特征
+6131,unary potential,一元势能
+6132,unary predicate,一元谓词
+6133,unary production,一元产生式
+6134,unbiased,无偏
+6135,unbiased estimate,无偏估计
+6136,unbiased estimator,无偏估计量
+6137,unbiased sample variance,无偏样本方差
+6138,uncertainty,不确定性
+6139,uncertainty measure,不确定性度量
+6140,uncertainty modeling,不确定性建模
+6141,uncertainty sampling,不确定性采样
+6142,unconstrained optimization,无约束优化
+6143,undercomplete,欠完备
+6144,underdetermined,欠定的
+6145,underestimation,欠估计
+6146,underfitting,欠拟合
+6147,underfitting regime,欠拟合机制
+6148,underflow,下溢
+6149,underlying,潜在
+6150,underlying cause,潜在成因
+6151,undersampling,欠采样
+6152,understandability,可理解性
+6153,undirected,无向
+6154,undirected graph,无向图
+6155,undirected graphical model,无向图模型
+6156,undirected model,无向模型
+6157,unequal cost,非均等代价
+6158,unfolded graph,展开图
+6159,unfolding,展开
+6160,unidirectional language model,单向语言模型
+6161,unification,合一
+6162,uniform convergence,一致收敛
+6163,uniform distribution,均匀分布
+6164,uniform information density hypothesis,均匀信息密度假说
+6165,uniform sampling,均匀采样
+6166,uniform stability,均匀稳定性
+6167,unigram,一元语法
+6168,unigram counts,一元语法计数
+6169,unigram distribution,一元分布
+6170,unigram language model,一元语言模型
+6171,unigram model,一元模型
+6172,unimodal,单峰值
+6173,union bound,并界
+6174,union of conjunctive query,合取查询的并集
+6175,unit,单元
+6176,unit norm,单位范数
+6177,unit propagation,单元传播
+6178,unit sphere,单位球面
+6179,unit test,单元测试
+6180,unit variance,单位方差
+6181,unit vector,单位向量
+6182,unit-step function,单位阶跃函数
+6183,unitary matrix,酉矩阵
+6184,univariate decision tree,单变量决策树
+6185,universal approximation,通用逼近
+6186,universal approximation theorem,通用近似定理
+6187,universal approximator,通用近似器
+6188,universal function approximator,通用函数近似器
+6189,universal model,通用模型
+6190,unknown token,未知词元
+6191,unlabeled,未标记
+6192,unlabeled datum,未标记数据
+6193,unlexicalized grammar,非词汇化语法
+6194,unnormalized probability,未归一化概率
+6195,unnormalized probability function,未规范化概率函数
+6196,unprojection,反投影
+6197,unshared convolution,非共享卷积
+6198,unsolvability,不可解性
+6199,unsupervised algorithm,无监督算法
+6200,unsupervised approach,无监督方法
+6201,unsupervised classification,无监督分类
+6202,unsupervised clustering,无监督聚类
+6203,unsupervised datum,无监督数据
+6204,unsupervised discovery,无监督发现
+6205,unsupervised disentanglement,无监督解缠结
+6206,unsupervised domain adaptation,无监督领域适应
+6207,unsupervised feature learning,无监督特征学习
+6208,unsupervised image segmentation,无监督图像分割
+6209,unsupervised layer-wise training,无监督逐层训练
+6210,unsupervised learning,无监督学习
+6211,unsupervised learning algorithm,无监督学习算法
+6212,unsupervised method,无监督方法
+6213,unsupervised model,无监督模型
+6214,unsupervised morphological segmentation,无监督形态分割
+6215,unsupervised parsing,无监督解析
+6216,unsupervised pre-training,无监督预训练
+6217,unsupervised pretraining,无监督预训练
+6218,unsupervised representation,无监督表示
+6219,unsupervised representation learning,无监督表示学习
+6220,unsupervised segmentation,无监督分割
+6221,unsupervised system,无监督系统
+6222,unsupervised word clustering,无监督词聚类
+6223,unweighted graph,无权图
+6224,update function,更新函数
+6225,update gate,更新门
+6226,update model parameter,迭代模型参数
+6227,update rule,更新规则
+6228,upper confidence bounds,上置信界限
+6229,upsampling,上采样
+6230,user embedding,用户嵌入
+6231,user utterance,用户话语
+6232,user-item matrix,用户-物品矩阵
+6233,utility,效用
+6234,utility function,效用函数
+6235,utterance encoder,发话编码器
+6236,valid,有效
+6237,validation,验证
+6238,validation accuracy,验证准确率
+6239,validation dataset,验证数据集
+6240,validation datum,验证数据
+6241,validation loss,验证损失
+6242,validation performance,验证性能
+6243,validation set,验证集
+6244,validation split,验证划分
+6245,validity index,有效性指标
+6246,value estimate,价值估计
+6247,value function,价值函数
+6248,value function approximation,值函数近似
+6249,value iteration,值迭代
+6250,value iteration algorithm,值迭代算法
+6251,value network,值网络
+6252,value-based reinforcement learning,基于值的强化学习
+6253,vanilla Transformer,原始Transformer
+6254,vanishing and exploding gradient problem,梯度消失与爆炸问题
+6255,vanishing gradient,梯度消失
+6256,vanishing gradient problem,梯度消失问题
+6257,variable assignment,变量赋值
+6258,variable elimination,变量消去
+6259,variable selection,变量选择
+6260,variance,方差
+6261,variance reduction,方差减小
+6262,variance regularization,方差正则化
+6263,variance scaling,方差缩放
+6264,variational Bayes,变分贝叶斯
+6265,variational Bayesian,变分贝叶斯
+6266,variational EM algorithm,变分EM算法
+6267,variational approach,变分方法
+6268,variational approximation,变分近似
+6269,variational autoencoder,变分自编码器
+6270,variational bound,变分界限
+6271,variational derivative,变分导数
+6272,variational distribution,变分分布
+6273,variational dropout,变分暂退法
+6274,variational formulation,变分公式
+6275,variational framework,变分框架
+6276,variational free energy,变分自由能
+6277,variational inference,变分推断
+6278,variational lower bound,变分下界
+6279,variational method,变分方法
+6280,variational model,变分模型
+6281,variational objective,变分目标
+6282,variational parameter,变分参数
+6283,variational posterior,变分后验
+6284,vector arithmetic,向量运算
+6285,vector concatenation,向量拼接
+6286,vector embedding,向量嵌入
+6287,vector field,向量场
+6288,vector graphic,矢量图形
+6289,vector normalization,向量归一化
+6290,vector quantization,向量量化
+6291,vector representation,向量表示
+6292,vector space,向量空间
+6293,vector space embedding,向量空间嵌入
+6294,vector space model,向量空间模型
+6295,vector space representation,向量空间表示
+6296,vector-valued function,向量值函数
+6297,vectorization,向量化
+6298,vectorization operator,向量化算子
+6299,vectorize,向量化
+6300,verbalizer,词语化器
+6301,version control,版本控制
+6302,version space,版本空间
+6303,vertex label,顶点标签
+6304,vertex set,顶点集
+6305,victim model,受害者模型
+6306,view synthesis,视图合成
+6307,virtual adversarial example,虚拟对抗样本
+6308,virtual adversarial training,虚拟对抗训练
+6309,virtual camera,虚拟相机
+6310,visible layer,可见层
+6311,visible variable,可见变量
+6312,vision model,视觉模型
+6313,vision system,视觉系统
+6314,vision-language model,视觉-语言模型
+6315,visual attention,视觉注意力
+6316,visual attribute,视觉属性
+6317,visual context,视觉上下文
+6318,visual cortex,视觉皮层
+6319,visual feature,视觉特征
+6320,visual grounding,视觉定位
+6321,visual hull,视觉外壳
+6322,visual localization,视觉定位
+6323,visual odometry,视觉里程计
+6324,visual recognition system,视觉识别系统
+6325,vocabulary,词表
+6326,vocabulary size,词汇大小
+6327,vocoder,声码器
+6328,volume rendering,体积渲染
+6329,von Mises-Fisher distribution,冯·米塞斯-费舍尔分布
+6330,voted perceptron,投票感知器
+6331,voting rule,投票规则
+6332,voxel,体素
+6333,voxel grid,体素网格
+6334,voxel grid representation,体素网格表示
+6335,voxel occupancy,体素占用
+6336,voxel representation,体素表示
+6337,voxel-based representation,基于体素的表示
+6338,wake sleep,醒眠
+6339,warp,线程束
+6340,warp function,变形函数
+6341,wav2vec,wav2vec
+6342,wavelet,小波
+6343,wavelet transform,小波变换
+6344,weak classifier,弱分类器
+6345,weak duality,弱对偶性
+6346,weak learner,弱学习器
+6347,weak learning,弱学习
+6348,weak learning assumption,弱学习假设
+6349,weak supervision,弱监督
+6350,weakly learnable,弱可学习
+6351,weakly supervised,弱监督的
+6352,weakly supervised learning,弱监督学习
+6353,web graph,网络图
+6354,weight,权重
+6355,weight decay,权重衰减
+6356,weight initialization,权重初始化
+6357,weight matrix,权重矩阵
+6358,weight normalization,权重规范化
+6359,weight parameter,权重参数
+6360,weight regularization,权重正则化
+6361,weight scaling inference rule,权重比例推断规则
+6362,weight sharing,权共享
+6363,weight space symmetry,权重空间对称性
+6364,weight tensor,权重张量
+6365,weight update,权重更新
+6366,weight vector,权值向量
+6367,weight-sharing,权重共享
+6368,weighted adjacency matrix,加权邻接矩阵
+6369,weighted average,加权平均
+6370,weighted directed graph,加权有向图
+6371,weighted distance,加权距离
+6372,weighted graph,加权图
+6373,weighted sum,加权和
+6374,weighted voting,加权投票
+6375,weighting function,权重函数
+6376,white-box,白盒
+6377,white-box attack,白盒攻击
+6378,whitening,白化
+6379,wide convolution,宽卷积
+6380,width,宽度
+6381,window size,窗口大小
+6382,winner-take-all,胜者通吃
+6383,within-class scatter matrix,类内散度矩阵
+6384,within-class variance,类内方差
+6385,word alignment,单词对齐
+6386,word dropout,词丢弃
+6387,word embedding,词嵌入
+6388,word embedding model,词嵌入模型
+6389,word representation,词表示
+6390,word segmentation,分词
+6391,word sense disambiguation,词义消歧
+6392,word similarity,词语相似度
+6393,word surprisal,词语意外性
+6394,word token,词元
+6395,word vector,词向量
+6396,word vector representation,词向量表示
+6397,word vector space model,单词向量空间模型
+6398,word-aligned corpus,词对齐语料库
+6399,word-document matrix,单词-文本矩阵
+6400,word-level,词级别
+6401,word-level vocabulary,单词级词汇表
+6402,word-topic matrix,单词-话题矩阵
+6403,word2vec,word2vec
+6404,word2vec embedding,word2vec 嵌入
+6405,workflow,工作流
+6406,working memory,工作记忆
+6407,world state,世界状态
+6408,worst case,最坏情况
+6409,worst-case regret,最坏情况遗憾
+6410,wrapper method,包裹式方法
+6411,z-score normalization,Z值规范化
+6412,zero mean,零均值
+6413,zero padding,零填充
+6414,zero tensor,零张量
+6415,zero-centered,零中心化的
+6416,zero-data learning,零数据学习
+6417,zero-one loss,零一损失
+6418,zero-shot classification,零样本分类
+6419,zero-shot cross-lingual setting,零样本跨语言设置
+6420,zero-shot generalization,零样本泛化
+6421,zero-shot learning,零试学习
+6422,zero-shot prediction,零样本预测
+6423,zero-shot prompting,零样本提示
+6424,zero-shot reasoning,零样本推理
+6425,zero-shot setting,零样本设置
+6426,zero-shot transfer,零样本迁移
+6427,zero-shot transfer learning,零样本迁移学习
+6428,ε-greedy method,ε-贪心法

@@ -1,0 +1,254 @@
+[
+    {
+        "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Emergence of Maps in the Memories of Blind Navigation Agents",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Rethinking the Expressive Power of GNNs via Graph Biconnectivity",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Conditional Antibody Design as 3D Equivariant Graph Translation",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "On the duality between contrastive and non-contrastive self-supervised learning",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Disentanglement with Biological Constraints: A Theory of Functional Cell Types",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Mastering the Game of No-Press Diplomacy via Human-Regularized Reinforcement Learning and Planning",
+        "venue": "ICLR",
+        "year": 2023,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Hyperparameter Tuning with Renyi Differential Privacy",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Learning Strides in Convolutional Neural Networks",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Expressiveness and Approximation Properties of Graph Neural Networks",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Comparing Distributions by Measuring Differences that Affect Decision Making",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Bootstrapped Meta-Learning",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "PiCO: Contrastive Label Disambiguation for Partial Label Learning",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Understanding over-squashing and bottlenecks on graphs via curvature",
+        "venue": "ICLR",
+        "year": 2022,
+        "award": "Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks",
+        "venue": "ICLR",
+        "year": 2019,
+        "award": "Best Paper Awards",
+        "link": "https://iclr.cc/Conferences/2019/Schedule?q=Ordered+Neurons%3A+Integrating+Tree+Structures+into+Recurrent+Neural+Networks"
+    },
+    {
+        "title": "The Lottery Ticket Hypothesis: \u00a0Finding Sparse, Trainable Neural Networks",
+        "venue": "ICLR",
+        "year": 2019,
+        "award": "Best Paper Awards",
+        "link": "https://iclr.cc/Conferences/2019/Schedule?q=The+Lottery+Ticket+Hypothesis%3A+%C2%A0Finding+Sparse%2C+Trainable+Neural+Networks"
+    },
+    {
+        "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Best Paper Awards",
+        "link": null
+    },
+    {
+        "title": "Delayed Impact of Fair Machine Learning",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Best Paper Awards",
+        "link": null
+    },
+    {
+        "title": "The Mechanics of n-Player Differentiable Games",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "Fairness Without Demographics in Repeated Loss Minimization",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning",
+        "venue": "ICLR",
+        "year": 2018,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Combining Online and Offline Knowledge in UCT",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Pegasos: Primal estimated sub-gradient solver for SVM",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Honorable Mentions",
+        "link": null
+    },
+    {
+        "title": "A Bound on the Label Complexity of Agnostic Active Learning",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Honorable Mentions",
+        "link": null
+    },
+    {
+        "title": "Understanding Black-box Predictions via Influence Functions",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Lost Relatives of the Gumbel Trick",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Honorable Mentions",
+        "link": null
+    },
+    {
+        "title": "Modular Multitask Reinforcement Learning with Policy Sketches",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Honorable Mentions",
+        "link": null
+    },
+    {
+        "title": "A Unified Maximum Likelihood Approach for Estimating Symmetric Properties of Discrete Distributions",
+        "venue": "ICLR",
+        "year": 2017,
+        "award": "Honorable Mentions",
+        "link": null
+    },
+    {
+        "title": "Neural Programmer-Interpreters",
+        "venue": "ICLR",
+        "year": 2016,
+        "award": "Best Paper Awards",
+        "link": "http://arxiv.org/abs/1511.06279"
+    },
+    {
+        "title": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding",
+        "venue": "ICLR",
+        "year": 2016,
+        "award": "Best Paper Awards",
+        "link": "http://arxiv.org/abs/1510.00149"
+    }
+]

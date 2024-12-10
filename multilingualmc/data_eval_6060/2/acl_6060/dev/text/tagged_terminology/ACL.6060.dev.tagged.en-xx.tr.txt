@@ -1,0 +1,468 @@
+Merhaba, ben Elena. Size adlı "İspanyolcada Asimile Olmamış Ödünçlemeleri [Algılama]: [Açıklamalı Derlem] ve [Modelleme] Yaklaşımları" adlı çalışmamızı sunacağım.
+Bu kapsamda [sözcük temelli] ödünçlemenin ne olduğunu, önerdiğimiz [görevi], yayımladığımız [veri kümelerini] ve araştırdığımız bazı [modelleri] ele alacağız.
+Ama öncelikle [sözcük temelli] ödünçlemenin ne olduğuna ve [Doğal Dil İşleme görevi] olarak önemine değinelim.
+Öncelikle [sözcük temelli] ödünçleme temelde [sözcüklerin] bir [dilden] başka bir [dile] dâhil edilmesidir.
+Örneğin, İspanyolcada [İngilizceden] gelen [sözcükler] kullanıyoruz.
+Podcast, app ve [çevrim içi] crowdfunding gibi [sözcükler] bunlara birkaç örnektir. Hepsi de İspanyolcada zaman zaman kullandığımız [İngilizce] [sözcüklerdir].
+[Sözcük temelli] ödünçleme temel olarak bir [dilde] diğer [dillerin] örüntüsünü yeniden üretildiği [dil bilimsel] ödünçleme türüdür.
+Ayrıca ödünçleme ve dil değiştirme bazen bir bütün olarak [karşılaştırılmış] ve açıklanmıştır. Dil değiştirme, iki dillilerin aynı anda iki [dili] kullandıklarında ortaya çıkan şeydir.
+Ancak [sözcük temelli] ödünçleme ve dil değiştirme arasında bazı farklılıklar vardır.
+Biz [sözcük temelli] ödünçleme konusuna odaklanacağız.
+Dil değiştirme, iki dilli kişiler tarafından yapılan bir şeydir ve tanımı gereği dil değiştirme eylemleri kullanılan [dillerin] hiçbirine dâhil edilmemiştir. Ancak [sözcük temelli] ödünçleme, tek dilli kişiler tarafından da yapılan bir şeydir.
+Ödünçlemeler, alıcı [dilin] [dil bilgisi] ile uyumlu olacaktır.
+Ayrıca ödünçlemeler en nihayetinde alıcı [dile] dâhil edilebilir.
+Öyleyse ödünçleme neden ilginç bir olaydır?
+Şöyle ki [dil bilim] açısından ödünçleme, [dillerin] nasıl değiştiğinin ve nasıl etkileşime girdiğinin bir göstergesidir.
+[Sözcük temelli] ödünçlemeler de yeni [sözcüklerin] [kaynağıdır].
+İspanyolca [diline] yeni [sözcükler] olarak dâhil edilen bazı [sözcük temelli] ödünçleme örneklerine aşağıda yer verilmiştir.
+[Doğal Dil İşleme] açısından ödünçlemeler, [kelime haznesi] dışındaki [sözcüklerin] ortak bir [kaynağıdır].
+Esasında [sözcük temelli] ödünçlemeleri [otomatik olarak] [algılamanın]; [ayrıştırma], [metinden] [konuşma] sentezleme veya [makine çevirisi] gibi [aşağı yönlü] [Doğal Dil İşleme] görevleri açısından yararlı olduğu kanıtlanmıştır.
+[İngilizcenin] diğer [diller] üzerinde özellikle de [İngilizce] [sözcük temelli] ödünçlemelerle ilgili yarattığı ve bazen Anglisizm olarak adlandırılabilen etkisi gittikçe artmaktadır.
+İşte bu [dillerden] bazılarındaki ödünçlemelerin [otomatik] [algılanması] ile ilgili çalışmalara birkaç örnek.
+Dolayısıyla [önerdiğimiz] [görev], İspanyolca [online gazetelerde] asimile olmamış [sözcük temelli] ödünçlemeleri tespit etmektir.
+Yani İspanyolca gazetelerde kullanılan ancak alıcı [dile] dâhil edilmemiş veya asimile olmamış, diğer [dillerden] ödünç alınan [sözcükleri] [ayıklamak] ile ilgileniyoruz.
+Yani henüz İspanyolcaya dâhil edilmemiş olanlar.
+İşte size bir örnek.
+Bu İspanyolca bir [cümle]: Las prendas bestsellers se estampan con motivos florales, animal print o retales tipo patchwork.
+Gördüğünüz gibi cümlede bestseller, animal print ve patchwork gibi aslında [İngilizce] [sözcüklerden] oluşan üç [metin] [aralığı] bulunmaktadır.
+Bunlar, [ayıklamak] ve [algılamak] istediğimiz [aralık] türleridir.
+Anglisizm [tespiti] üzerine [geçmişte] [çalışma] yapılmıştır. Bu çalışmaya İspanyolca [online gazetedeki] Anglisizm [tespiti] [için] [CRF] [modeli] dâhil edilmiştir.
+Bu [model] seksen altı F1 puanı aldı.
+Ancak hem [veri kümesi] hem de [modelleme] [yaklaşımında] bazı sınırlamalar vardı.
+Bu nedenle, [veri kümesi] yalnızca başlıklardan oluşan tek bir [haber kaynağı] üzerine odaklandı.
+Ve ayrıca [eğitim] setinde ve test setinde görülen ödünçlemelerle de bir örtüşme vardı.
+Bu, [modelleme] [yaklaşımının] daha önce [görülmemiş] ödünçlemeleri [genelleştirmenin] esasında mümkün olup olmadığını değerlendirmeyi engelledi.
+Bizim amacımız, bu sınırlamaların bazılarını [görev] içerisinde çözüme kavuşturmaktır.
+Dolayısıyla başlangıç olarak yeni bir [veri kümesi] oluşturduk.
+[Sözcük temelli] ödünçlemelerle [ek açıklama eklenmiş] yeni bir [veri kümesinin] amacı, mümkün olduğunca zor bir test seti oluşturmaktı.
+Böylece [eğitim] seti ve test seti arasında [sözcüklerde] ve konularda örtüşme asgari olacaktı.
+Sonuç olarak test seti; [eğitim] setinde görmediğimiz kaynaklardan ve verilerden geliyor.
+Burada zaman içerisinde çakışma olmadığını görebilirsiniz.
+Ayrıca test seti ödünçleme açısından yoğundur.
+Rakamlarla ifade etmek gerekirse, eğer [eğitim] seti, her bin [belirteç] başına altı ödünçleme içeriyorsa, test seti her bin [belirteç] başına yirmi ödünçleme içeriyordu.
+Test seti mümkün olduğunca çok [kelime haznesi] dışı [sözcük] içeriyordu.
+Esasında test setindeki ödünçlemelerin yüzde doksan ikisi [OOV]'dir.
+Çünkü bunlar, [eğitim] sırasında görülmemiştir.
+Ayrıca [derlem] temel olarak farklı İspanyolca gazete kaynaklarından alınan [metin] koleksiyonundan oluşuyordu.
+Derleme iki etiket kullanılarak elle [ek açıklama eklenmiştir].
+Biri İspanyolcadaki [sözcük temelli] ödünçlemelerin büyük kısmını oluşturan [İngilizce] [sözcük temelli] ödünçlemeler [için], diğer etiket ise diğer [dillerden] alınan [ödünçlemeler] [için] kullanılmıştır.
+[CoNLL] formatlarını ve [BIO] [şifrelemesini] kullandık. Böylece app gibi tek [belirteçli] ödünçlemeleri veya [machine learning] gibi çok [belirteçli] ödünçlemeleri [şifreleyebildik].
+İşte [derlemeden] rakamlar.
+Gördüğünüz üzere kabaca üç yüz yetmiş bin [belirtece] denk gelmektedir.
+[İngilizce] olarak [etiketlenen] [aralıklar] ile diğer ödünçlemeler olarak [etiketlenen] [aralıkların] [sayısına] ve bunların kaçının eşsiz olduğuna burada yer verilmiştir.
+İşte [veri kümesi] setine birkaç örnek.
+Örneğin burada gördüğünüz gibi, ilk örnekte çok [sözcüklü] bir ödünçleme olan batch cooking yer almaktadır.
+Ve biz bu ödünçlemeye [BIO] [şifrelemesini] kullanarak [ek açıklama ekledik].
+Yani [BIO], İspanyolcadaki [sözcükler] [için] kullanılmıştır, ödünç alınmayan [sözcükler] için değil.
+Şimdi gördüğünüz ikinci örnekte [İngilizceden] ödünçleme olarak [etiketlenen] benching ve crash var.
+Dolayısıyla [veri kümesi] elimizde olduğunda bu [sözcük temelli] ödünçlemeleri [ayıklama] ve [tespit etme] [görevi] [için] çeşitli [modeller] araştırdık.
+İlk olarak koşullu rastgele alan [modelini] denedik.
+Bu [model] [önceki] çalışmada da kullanılmıştır.
+Ve biz de bu işteki özel olarak hazırlanmış [özelliklerin] aynısını kullandık.
+Gördüğünüz gibi bunlar [özellikler].
+Bunlar [ikili] [özelliklerdir]. Örneğin [sözcük] veya [belirteç] büyük harfle mi yazılmış?
+Sadece ilk harfleri mi büyük?
+Tırnak işareti mi?
+Bunun gibi şeyler. Yani bir [named entity recognition] [görevinde] bekleyebileceğiniz [özellik] çeşidi.
+Elde ettiğimiz sonuçlar bunlar.
+Özel olarak hazırlanmış [özelliklere] sahip [CRF] [modelini] kullanarak elli beş F1 puanı elde ediyoruz.
+İspanyolca [sözcük temelli] ödünçleme [tespiti] [için] aynı [CRF] [modeli], aynı [özellikler] ancak farklı bir [veri kümesi] ile elde edildiği söylenen seksen altı F1 puanı ile [karşılaştırıldığında] aradaki bu fark oldukça fazladır.
+Bu, yarattığımız [veri kümesinin] daha zor olduğunu ve bu [görevler] [için] daha sofistike [modeller] araştırmamız gerektiğini kanıtlıyor.
+Böylece iki adet [dönüştürücü] tabanlı [model] test ettik.
+İspanyolca [için] eğitilmiş [tek dilli] [BERT modeli] olan [BETO]'yu ve aynı zamanda [çok dilli BERT]'i kullandık.
+Her iki [modeli] de HuggingFace'in [dönüştürücü] kütüphanesi aracılığıyla kullanıyoruz.
+Elde ettiğimiz sonuçlar bunlar.
+Gördüğünüz üzere [çok dilli BERT], hem gelişim setinde hem de test setinde ve tüm [metriklerde] [BETO]'dan daha iyi performans gösteriyor.
+Böylelikle karşılaştıracak bir fikrimiz var; [CRF] [modeli] seksen iki aldı.
+[CRF] [model], elli beş F1 puanı elde ederken, [çok dilli BERT] seksen iki puan aldı. Bu da büyük bir fark.
+Dolayısıyla bu sonuçlara ulaştıktan sonra kendimize başka bir [soru] sorduk: [BiLSTM - CRF] [modeli] bulabilir miyiz, bu modeli, farklı [dil bilimsel] [bilgi] türleriyle [şifreleyen] farklı [ekleme] çeşitleriyle besleyebilir miyiz ve [dönüştürücü] tabanlı [modeller] tarafından elde edilen sonuçlardan daha iyi performans gösterebilir miyiz?
+Bunu yapabilmek için bazı ön deneyler gerçekleştirdik ve deneyleri Flare kütüphanesini kullanarak [BiLSTM-CRF] [modeli] ile yürüttük.
+[Dönüştürücü] tabanlı olanların yanı sıra hızlı [metin], karakter [eklemeleri] gibi ve daha pek çok farklı [ekleme] türünü denedik.
+[Dönüştürücü] tabanlı [eklemelerin] [bağlam kazandırılmamış] [eklemelere] kıyasla daha iyi performans gösterdiğini ve [İngilizce] [BERT] ve İspanyolca [BETO] eklemeleri bir araya geldiğinde [çok dilli BERT] [eklemelerine] kıyasla daha iyi performans gösterdiğini bulduk.
+[BPE] [eklemelerinin] daha iyi F1 ürettiğini ve karakter [eklemelerinin] daha iyi hatırlama sağladığını tespit ettik.
+Bunlar akılda tutulduğunda bu sonuçlar, elde ettiğimiz en iyi performanslı sonuçlardı.
+Her iki model de Flare kullanan [BiLSTM - CRF] [modelleriydi].
+Biri [BETO] ve [BERT] [eklemeleri] ve [BPE] ile beslenirken, diğeri [BETO] ve [BERT] eklemeleri, [BPE] ve ayrıca karakter [eklemeleri] ile beslenmiştir.
+Sonuncusu, test setinde en yüksek F1 puanını elde etmiştir; ancak gelişim setindeki en yüksek puanı, karakteri [eklemeleri] olmayan model almıştır.
+[Çok dilli BERT] ile elde ettiğimiz en iyi sonucun, gelişim setinde yetmiş altı, test setinde ise seksen iki F1 puanı olduğunu unutmamak gerekir.
+İlgili sonuçlarla karşılaştırıldığında bu bir gelişmedir.
+Son olarak kendimize başka bir [soru] sorduk: [Sözcük temelli] ödünçleme [tespiti], kod değiştirmedeki [dil tanımlamasından] [transfer learning] olarak şekillendirilebilir mi?
+Bu yüzden, Flare kullanarak çalıştırdığımız [BiLSTM - CRF] [modelinin] aynısını çalıştırdık; ancak bu uyarlanmamış [dönüştürücü] tabanlı [BETO] ve [BERT] [eklemelerini] kullanmak yerine dil değiştirme [eklemelerini] kullandık.
+Dil değiştirme [eklemeleri] nedir?
+Bunlar, [LinCE] dil değiştirme [veri kümesinin] İspanyolca [İngilizce] bölümünde [dil tanımlaması] [için] [önceden eğitilmiş], hassas ayar yapılmış [dönüştürücü] tabanlı [eklemelerdir].
+[LinCE], İspanyolca [İngilizce] dil değiştirme ile ilgili bölümü bulunan dil değiştirme [veri kümesidir].
+Bu nedenle [BiLSTM - CRF] modelimizi dil değiştirme [eklemeleri] ve isteğe bağlı olarak karakter [eklemeleri], [BPE] [eklemeleri] ve benzerleriyle besledik.
+Elde ettiğimiz en iyi sonuç seksen dört virgül yirmi ikiydi; bu da test setinde denediğimiz tüm [modellerde] alınan en yüksek sonuçtu.
+Gelişim setinde yetmiş dokuz ile aldığımız en iyi F1 puanı, uyarlanmamış [eklemeler] ile beslenen [BiLSTM-CRF] tarafından alınan en iyi sonuçtan daha düşüktü.
+Çalışmamızdan elde ettiğimiz sonuçların bazıları.
+Asimile olmamış [sözcük temelli] ödünçlemelerle [ek açıklama eklenmiş] yeni bir İspanyolca [online gazete] [veri kümesi] ürettik.
+Bu [veri kümesi], [önceki] [kaynaklara] kıyasla ödünçleme açısından daha yoğun ve [OOV] açısından zengindir.
+[Sözcük temelli] ödünçleme [tespiti] [için] dört tür [model] araştırdık.
+Hmm. Hata [analizi] açısından bakıldığında geri çağırma tüm [modellerin] zayıf noktasıdır.
+Burada görebileceğiniz üzere bazı sık görülen yanlış negatif örnekleri arasında büyük harfle yazılmış ödünçlemeler, hem [İngilizce] hem de İspanyolcada bulunan [sözcükler] yer almaktadır.
+Ayrıca ilginç bir şekilde [BPE] [eklemelerinin] F1 puanı artırdığı görülmektedir.
+Karakter [eklemeleri] ise hatırlamayı iyileştiriyor gibi görünmektedir.
+Bu ilginç bulguyu gelecekteki çalışmalarımızda araştırabiliriz.
+Hmm. Evet. Anlatacaklarımın hepsi bu kadar.
+Dinlediğiniz [için] çok teşekkür ederim.
+Ben Antoine.
+Massachusetts Amherst Üniversitesi'nde doktora öğrencisiyim.
+Sizlere "[KinyaBERT]: [Morfoloji] bilincine sahip Kinyarwanda [Dil Modeli]" adlı makalemizi sunacağım.
+Bugün bu [araştırma] [için] motivasyonumuzun ne olduğundan bahsedeceğim.
+Daha sonra [KinyaBERT] [modeli] mimarisini ayrıntılı olarak anlatacağım.
+Daha sonra da deney sonuçlarımız hakkında konuşup bazı sonuçlara değinerek sözlerimi sonlandıracağım.
+Hepimiz son zamanlarda [doğal dil işleme] alanındaki ilerlemelerinin [BERT] gibi [önceden eğitilmiş dil] [modellerinin] kullanılmasıyla mümkün hâle geldiğini biliyoruz.
+Bununla birlikte hâlâ [birkaç] sınırlama söz konusudur.
+[Morfolojik olarak] zengin birçok [dil] tarafından ifade edilen karmaşık [morfoloji] nedeniyle yaygın olarak her yerde bulunan [byte pair encoding] [belirteç hâline getirme] [algoritması], etkili [temsil] [için] gerekli olan [sözcük temelli] [alt sözcük] birimlerini, yani [biçimbirimleri] tam olarak ayıklayamaz.
+Örneğin burada içinde birkaç [biçimbirim] bulunan üç Kinyarwanda [sözcüğümüz] var ancak [BPE] [algoritmaları] bunları ayıklayamaz.
+Çünkü bazı [morfolojik] kurallar, [sözcük temelli] [bilginin] tamamını gizleyen farklı yüzey formları üretir ve yalnızca yüzey formlarını esas alan [BPE]'nin bu [sözcük temelli] [modele] erişimi yoktur.
+İkinci zorluk, kişinin [Oracle] [morfolojik analyzer] erişimi olsa bile, [BPE] [belirteçlerini] [biçimbirimler] ile değiştirmek, [morfolojik] [tümlemeyi] ifade etmek için yeterli değildir.
+[Araştırmadaki] üçüncü boşluk, yeni [önceden eğitilmiş dil] [modellerinin] sıklıkla yüksek kaynaklı [diller] üzerinden değerlendirilmesidir.
+Bizim de bu modelleri düşük [kaynaklı] ve muhtelif [diller] üzerinde uygulanabilirliklerini değerlendirmemiz gerekiyor.
+[Dolayısıyla] [morfolojik olarak] zengin [dilleri] daha etkili bir şekilde kavraması amaçlanan [BERT] mimarisinin basit ama etkili bir uyarlaması olan [KinyaBERT]'i sunuyoruz.
+[KinyaBERT]'i Doğu ve Orta Afrika'da on iki milyondan fazla insan tarafından [konuşulan] [düşük kaynaklı] [morfolojik olarak] zengin bir [dil] olan Kinyarwanda üzerinde değerlendiriyoruz.
+[Modele], [cümle] ya da bir [belge] şeklinde [giriş] yapılmaktadır.
+Örneğin burada "John'u orada bulduğumuza şaşırdık" anlamına gelen "John twarahamubonye biradutangaza" cümlesi var.
+Gördüğünüz üzere Kinyarwanda [sözcükleri] farklı [bilgiler] içeren birkaç [biçimbirimler] barındırır.
+[Bu nedenle] [modelimizde] bu [cümleyi] veya bir [belgeyi], [morfolojik analyzer]'na aktarırız.
+Daha sonra her bir [sözcüğün] içindeki [biçimbirimler] ortaya çıkar.
+[Biçimbirimler] genellikle kök ve sıfır veya daha fazla ekten meydana gelir.
+Ekler; [fiillerde] zaman, [özellik], özne veya nesneye işaret edebilir ve daha sıklıkla özneler ve nesneler [için] Bantu [isim] sınıfıyla ilişkilidir.
+[Morfolojik analyzer] ayrıca her [sözcük] [için] bir sözcük türü etiketi üretir.
+Bu adımdan sonra sözcük türü etiketleri [için] [eklemeler] yaparız.
+Ekler [için] [eklemeler].
+Ve kök [için] [eklemeler].
+Bunlar [morfoloji] seviyesindeki [eklemelerdir].
+Daha sonra [eklemeleri]; her [sözcüğe] bağımsız olarak uygulanan küçük bir [dönüştürücü kodlayıcısı] olan [morfoloji] [kodlayıcısından] geçiririz.
+Çıktılar; her [sözcükteki] [morfolojik] [bilgiler] ile [bağlam kazandırılmış] [vektörlerdir].
+Şimdi sözcük türüne ve köke [karşılık gelen] [morfolojik] [eklemelerin] bir araya getirildiği derlemeyi gerçekleştiririz.
+Ayrıca bunları onları [cümle] düzeyinde başka bir kök [eklemesi] ile birleştiririz.
+Daha sonra ana [cümle] veya [belge] [kodlayıcı] için bir [girdi] oluştururuz.
+Nihai çıktı, [aşağı yönlü] [Doğal Dil İşleme] [görevleri] [için] kullanılabilen [bağlam kazandırılmış][eklemeler] şeklindedir.
+[Morfolojik analyzer] [için] Kinyarwanda [diline] göre uyarlanmış özel uygulama ile sonlu iki seviye [morfoloji] ilkelerini kullanırız.
+Fiilimsiler, [isimler], işaret ve iyelik [zamirleri], sayılar ve diğer birimler de dâhil olmak üzere tüm Kinyarwanda [sözcüklerinin] [morfolojisini] etkili bir şekilde [modelleriz].
+[Konuşma] [etiketleme] [algoritmasının] [denetimsiz] kısmını kullanırız.
+Temel olarak [morfolojik analyzer] tarafından atanan olasılık olan [morfoloji] olasılığını hesaba katmak [için]birinci dereceden değişkenlere ayrılmış bir [model] kullanılır.
+Ayrıca, [giriş] [sözcüklerindeki] [söz dizimsel] uyumlulukların yanı sıra sözcük türü etiketinin öncelik sıralamasını de dikkate alırız.
+Sözcük türü [etiketleyicisi], Viterbi [algoritmasının]  [kod çözme] [için] daha sık kullanılmasıyla daha da iyileşen bir iki yönlü [iki yönlü] [çıkarım] kullanır.
+Bu noktada [positional şifreleme] [için] birkaç açıklama yapılmıştır.
+Birincisi, [morfoloji] [kodlayıcısı] herhangi bir [positional kodlama] kullanmaz.
+Çünkü [biçimbirimlerin] her biri, [morfolojik] [modelde] bilinen yapısal bir boşluğu doldurur.
+[Bu nedenle] [biçimbirimler] verildiğinde konum [bilgisi] kendiliğinden var olur.
+İkincisi, [cümle] [kodlayıcı], yakın zamanda [ICLR] konferansında yayımlanan ve bağsız göreli konumlu olarak adlandırılan [eklemeleri] kullanır.
+Bu konumsal [eklemeler], aslında [belirteçten] [belirtece] [dikkat] [hesaplamasından] konumsal [korelasyonları] çıkarır.
+[BERT]'e [benzer] şekilde bir [maskelenmiş dil modeli] [ön eğitim] hedefi kullanırız.
+Esasında hem kökü hem de [sözcükler] ile ilişkili ekleri tahmin etmemiz gerekir.
+[Ön eğitim] sırasında tüm [sözcüklerin] yüzde on beşi [tahmin] [için] kullanılır; bunların yüzde sekseni maskelenir, yüzde onu rastgele [sözcüklerle] değiştirilir ve yüzde onu değişmeden kalır.
+Ek [tahminine] [yönelik] çok etiketli [sınıflandırma] [sorunu] ile karşılaşıyoruz.
+[Bunun için] ekleri sabit [sayıda] setler içerisinde gruplandırıyoruz ve seti bir sınıf etiketi olarak tahmin ederiz.
+Diğer seçenek, ekleme olasılığı [vektörünü] tahmin etmektir.
+Bu yaklaşımların her ikisini de deneylerimizde değerlendiriyoruz.
+[KinyaBERT]'i yaklaşık iki buçuk gigabayt büyüklüğünde Kinyarwanda [metin] üzerinden önceden eğitiyor ve üç temel modelle karşılaştırıyoruz.
+Bunlardan biri, [XLM]- R adı verilen [çok dilli] [modeldir] ve birden fazla [dilden] oluşan [büyük] [metin] [derlemleri] üzerine eğitilmiştir.
+Diğer iki [taban çizgisi], iki katmanlı [dönüştürücü kodlayıcı] mimarisini kullanmadan ya [byte pair encoding] [algoritması] ya da [morfolojik analiz] kullanılarak aynı Kinyarwanda [metin] üzerine [önceden eğitilmiştir].
+Tüm [modeller], yüz ile yüz on milyon parametre arasında olan temel mimaride, [KinyaBERT]'in en az [sayıda] parametre kullandığı koşullar altında Kinyarwanda ile yapılandırılmıştır.
+[Çok dilli] dışındaki tüm [modeller], her bir partide parti büyüklüğü iki bin beş yüz altmış [dizi] olan otuz iki bin [gradyan] güncellemesi [için] [önceden eğitilmiştir].
+[Önceden eğitilmiş] [modelleri] üç takımdan oluşan [görevler] hâlinde değerlendiriyoruz.
+Bunlardan biri, [önceden eğitilmiş dil] [modellerinin] etkinliğini değerlendirmek [için] sıklıkla kullanılan [GLUE] ölçütüdür.
+[GLUE] ölçütü [verilerimizi], orijinal ölçüt [verilerini] Google Translate aracılığıyla Kinyarwandaya çevirerek elde ettik.
+İkinci [görev], eğitimli anadil konuşmacıları tarafından [ek açıklama eklenmiş] yüksek [kalitede] [veri kümesi] olan Kinyarwanda [named entity recognition] ölçütüdür.
+Üçüncüsü ise [haber] kategorizasyonu görevidir. Bu kapsamda birkaç web sitesinden [haber] makaleleri çekeriz, yazarlar tarafından atanan kategorizasyon etiketlerini toplarız ve daha sonra esasında aynı kategoriyi tahmin etmeye çalışırız.
+Ve şimdi sonuçlara geçiyoruz.
+[GLUE] ölçütü [açısından] [KinyaBERT]'in temel [modellerden] sürekli olarak daha iyi performans gösterdiğini görüyoruz.
+Burada on adet [hassas ayar yapma] çalışması [için] ortalama performansı gösteriyoruz.
+Ayrıca Google Translate tarafından üretilen [çevirilerin] [kullanıcı] [değerlendirmesini] de yürütüyoruz.
+Esasında [kullanıcılar], bir ila dört arası ölçekte puanlar vererek yaklaşık altı bin örneği derecelendirmiş ve [çevirilerin] kalitesini [değerlendirmiştir].
+Sonuç olarak birçok [çeviri] anlamsızdı.
+Ancak, tüm [modeller] aynı [çeviri] anlamsızlığı ile başa çıkmak zorunda kaldı ve [modeller] arasındaki göreceli performansın fark edilmesi hâlâ önem arz etmektedir.
+[Named entity recognition] [görevi] [için], [KinyaBERT]' in en iyi performansı sergilediğini, ek dağılımı [gerileme] varyantının en iyi performansa sahip olduğunu görüyoruz.
+Bu sonuçlar aynı zamanda on [hassas ayar yapma] çalışmasının ortalamalarıdır.
+[Haber] kategorizasyonu [görev] [için] karışık sonuçlar elde ettik.
+Kinyarwanda [için] [metin sınıflandırması] hakkındaki [önceki] çalışma, bu spesifik [görevi] çözmek [için] basit anahtar sözcük [tespitinin] çoğunlukla yeterli olduğunu ortaya koymuştur.
+Bu nedenle [önceden eğitilmiş dil] [modelleri] kullanıldığında daha az kazanım elde edilmiştir.
+Bu durum, özellikle [haber] kategorizasyonu görevi için geçerlidir.
+Ayrıca performansı artıran alternatif yapılar olup olmadığını görmek için bir [ablasyon] çalışması yaptık.
+[GLUE] ölçütü [açısından], ek setleri kullanmanın tutarlı bir şekilde daha iyi performansla sonuçlandığını, ek [gerileme] hedefinin [named entity recognition] bağlamında en iyi performansı ortaya koyduğunu görüyoruz.
+Ayrıca [hassas ayar yapma] [ile ilgili] düşük puanlara bakıldığında [KinyaBERT]'in yakınsamasının çoğu durumda daha iyi olduğunu görüyoruz.
+Sonuç olarak, bu çalışma [önceden eğitilmiş dil] [modellerinde] [morfolojik] [bilgileri] açıkça kullanmanın etkinliğini ortaya koymuştur.
+Önerilen iki katmanlı [dönüştürücü kodlayıcı] mimarisi, [morfolojik] karmaşıklığın [morfolojik] [tümlemenin] yakalanmasını sağlar; bu da [morfolojik olarak] zengin [dillerin] önemli bir [özelliğidir].
+Bu bulgular, [morfoloji] bilincine sahip dili, [önceden eğitilmiş dil] [modelleri] konusunda daha fazla [araştırma] yapmaya motive etmelidir.
+Merhaba, adım Michał Pietruszka. Size "Eğitilebilir [Temsil] Birleştirme ile [Dönüştürücü] [Modellerini] Seyrekleştirme" başlıklı makaleyi sunmaktan mutluluk duyuyorum.
+Bu çalışma, Applica'da [yapay zeka] Lukasz Borchmann ve Lukasz Garncarek ile iş birliği içinde yapılmıştır.
+Çalışmamızın hedefindeki sorunlarla başlamak istiyorum.
+[Yöntemimiz] uzun girdilerin dikkate alındığı durumlarda iyi çalışmaktadır.
+Kabaca söylemek gerekirse, [görev] sıralamaları ve iki binden fazla [belirteç] [girdisi] [için] amaçlanmıştır ve hedefler verilen girdilerden daha kısadır.
+Bunun [Doğal Dil İşleme]'de bazı özel uygulamaları vardır.
+Örneğin uzun bir [belge] söz konusu olduğuna, onu özetlemeye, sınıflandırmaya, hakkındaki [soruyu] [yanıtlamaya], [bilgi] veya bazı anahtar ifadeleri ayıklamaya ihtiyaç duyulduğunu tahmin edersiniz.
+Sizlere vanilya [dönüştürücüyü] ve [girdi] çizgisinin karesine bağlı olan [dikkat] karmaşıklığı ilgili bizim ve kendisinin yaşadığı sorunu hatırlatmak isterim.
+Vanilya [dönüştürücüde], eksiksiz [dikkat] bağlayıcılığı ile her bir [belirtecin] diğer [belirteçler] ile olan [bağıntıları] hesaplanmalıdır.
+[Dikkatin] [hesaplamalı] karmaşıklığı, katman [sayısına], [dizi] uzunluğundan, başka bir [dizi] uzunluğuna ve [temsillerin] boyutluluğuna bağlıdır.
+Benzer şekilde, [kod çözücünün] çapraz [dikkatinde] (bu resimde sağ tarafta), burada tek fark, bu durumda [hedef] [belirteçlerin] [girdi] [belirteçlerine] iştirak ediyor olmasıdır.
+Bu formülde de görülebilir.
+[BLEU score] hesaplanması gereken [bağıntıları] temsil eder.
+Tam [dikkat] durumunda, [girdi] [dizisi] içindeki her [bağıntıyı] hesaplamamız gerekir.
+Şimdi, yalnızca yakındaki diğer [belirteçleri] görebilmeleri için [belirteçlerin] bağlayıcılığını sınırlayarak çalışan blok yönünde [kodlayıcımız] olduğunda ne olduğunu görüyoruz.
+[Metin], [kodlayıcı] tarafındaki hesaplamaların [sayısını] büyük ölçüde azaltabilen, ancak her [girdi] [belirteç] her hâlükârda [kod çözücüden] geçtiği için [kod çözücünün] çapraz [dikkatini] iyileştirmeyen parçalar hâlinde okunur.
+Bu yöntem genellikle [kod çözücüde] füzyon olarak adlandırılır.
+Buradaki gelişme, n'nin [bağımlılıklarından] birinin blok boyutunu temsil eden başka bir sabit m'ye değiştirilmesi olarak yorumlanabilir.
+Temel gözlemimiz; çoğu [belirtecin] çok çeşitli [görevler] [için] alakasız olduğu ve neredeyse tamamen göz ardı edilebileceği yönündedir. Bu durum, slaytta örneklenmiştir.
+Girdilerin sadece parçaları istenen çıktıyla ilgilidir.
+Örneğin:
+Kişi bir makaleyi, en önemli kısımlarını fosforlu kalemle işaretleyerek bir kez okuyabilir ve daha sonra ancak orta aşamadan sadece bu bölüme dayalı bir özet üretebilir.
+Fosforlu kalemle işaretlemenin ve mevcut [belirtecin] özeti üretmek için gerekli olup olmadığına karar vermenin maliyeti bu nedenle düşüktür ve yalnızca [belirtecin] [temsiline] bağlıdır.
+İşaretlenen [belirteçlerin] birleştirilmesi mümkündür.
+Top-k operatörümüz sayesinde maliyeti göz ardı edilebilir düzeydedir.
+Kısaltılmış bir [girdiden] özet çıkarmanın maliyeti, [girdinin] tamamı dikkate alındığında vanilya [modelinde] olduğundan çok daha düşüktür.
+Ancak burada bir [soru] var.
+Önemli belirteçler nasıl seçilir ve bu seçime gradyanların geri yayılımı nasıl sağlanır?
+Temelde yatan ve çözdüğümüz ana [sorun], eğitilebilir seçim mekanizmasını önermektir.
+Ağın en önemli [belirteçleri] seçmeyi öğrenebilmesi için [eğitim] sırasında [gradyanın] geri yayılmasına izin verebilen bir mekanizmadır.
+Daha açık olmak gerekirse
+Basit bir [doğrusal] katmandan elde edilen bazı [eklemelerin] düşük puanlar aldığı düşünüldüğünde, [görev] en yüksek puanlı [eklemeleri] geri getirmektir. İlk olarak, [dizi] değiştirilir ve çiftler hazırlanır; böylece daha yüksek puanlı [vektör] daha düşük puanlıyla birlikte alınır.
+Daha sonra, puanlar üzerinden artırılmış [softmax] kullanılarak [ağırlıklar] hesaplanır.
+Her turnuva turundan sonra yeni [vektörler] ve puanlar; bu çiftlerin elde edilen [ağırlıklar] ile [doğrusal] kombinasyonu olarak oluşturulur.
+Kısacası, puanları üzerinden [softmax] gerçekleştirerek onları doğrusal olarak birleştiriyoruz.
+Ve iki [belirteci] birleştirilirken bir miktar gürültü ortaya çıkabiliyor.
+Fakat aynı zamanda gradyanların tüm [girdi] [eklemelerine] geri yayılmasına da izin verir.
+Kısacası [önerdiğimiz] eğitilebilir bir top-k, her adımda turnuva benzeri yumuşak bir seçim yapmayı esas almaktadır.
+Ve farklı bir bakış açısından bakıldığında, [temsil] birleştirme, [kodlayıcı] katmanını takip eder.
+İlk olarak her [temsil] puanlanır ve daha sonra sadece en yüksek puanlara sahip olanlar bir sonraki katmana geçirilir.
+[Kodlama], standart [dönüştürücü] mimarisinde olduğu gibi tam uzunluktaki [girdi] üzerinde gerçekleştirilebilir.
+Bununla birlikte [metni] sabit uzunluktaki bloklar hâlinde işlemek ve küresel olarak en iyi [temsili] seçmek de mümkündür.
+İşte [kodlayıcıdan] sonra tanıtılan [temsil] birleştirmenin bir örneği.
+Bu; [girdi] uzunluğu N'ye değil, birleştirilen uzunluğu temsil eden sabit K'ya bağlı olan çapraz [dikkatin] nedenini doğrudan etkilemiştir.
+Bu sabit, kaç [temsilin] seçildiğini ve [kod çözücüye] iletildiğini bildirir.
+Daha kısa bir [metinden] özet çıkarmak, [önceki] çözüme kıyasla önemli ölçüde daha ucuzdur.
+[Dizi] uzunluğu [büyük] bir faktörle kısaltılabilir.
+Örneğin deneylerimizde on altı, hatta altmış çarpı dört, hatta n'nin değerinden altmış dört kat daha küçük k'yı başarıyla kullandık.
+Blok yönünde [kodlamanın] ve öz [dikkatin] yararlı etkisinin sürdürüldüğünü lütfen unutmayın.
+[Dikkatin] [hesaplamalı] maliyetinin, [girdi] uzunluğunun karesine bağlı olduğunu unutmayın.
+[Şifreleme] işlemi sırasında [girdinin] ilk başlarda kısaltılması, maliyetleri önemli ölçüde azaltabilir.
+Piramit [modeli] [için] seçilen her katmanın çıktısındaki [temsil] boyutunu daralttık; bu da [şifreleme] ilerledikçe [hesaplama] maliyetinin üstel olarak azalmasına yol açtı.
+Gördüğünüz üzere burada tam bir [kodlayıcının] toplam [hesaplama] maliyeti, tam boyutlu ilk katmanın maliyetinin iki katından azdır.
+Birleştirme daha önce uygulamaya koyulduğunda tüm mor karelerin toplamı, katmanların [sayısına] (l) bağlı olmaksızın bir sabite bağlanır.
+Ancak birleştirme katmanlarının ağa içerisine yerleştirilmesinden etkilenebilecek sabit c'ye bağlıdır.
+İyileştirmelerimiz, sekiz bin [belirteç] uzunluğundaki girdiyle karşılaştırıldı.
+Ve şekil; birleştirme devreye girdiğinde ağın derinliği [için] en iyi ölçeklenebilirliğin elde edildiğini göstermektedir.
+Bu tür uzun girdilerde yirmi dört katmandan oluşan piramidin [eğitiminin], iki katmanlı vanilya [dönüştürücüyü] [eğitmekten] daha ucuz olabileceğini söylemek mümkündür.
+Bu kadar uzun bir girdide vanilya [dönüştürücünün] belleğinin ne kadar kolay tükeneceğini belirtmeye gerek bile yok.
+Eğilim piramidimizin diğer taban çizgisiyle [nitel] karşılaştırması, uzun bir [belgeyi] [özetleme] [görev] üzerinden gerçekleştirilir veya arXiv veya [PubMed]'den bir makalenin gövdesi göz önünde bulundurulduğunda [görev], belgenin özetini çıkarmaktır.
+Böylece, taban çizgimiz olan blok yönündeki modelin, son teknoloji [modeller] düzeyinde performans gösterirken, piramidin bu rekabetçi taban çizgi performansını koruduğu veya geliştirdiği görülebilir.
+Aynı zamanda [modelimiz], blok yönünde taban çizgisiyle kıyaslandığında eğitim konusunda yüzde seksen daha hızlıdır ve [çıkarım] konusunda yüzde dört yüz ellinin üzerinde daha hızlıdır.
+Her iki model de çok daha düşük [parametre] sayılarına sahiptir ve seçilen [görevlerde] sıfırdan eğitilmiştir.
+[Benzer] bir performans elde etmek amaçlı [önceki] yaklaşımlar daha fazla parametre kullanmak ve [benzer] performans elde etmek için [önceden eğitilmiş] başlangıç düzeyi [modellerden] ve ek [dil] [ön eğitim] hedefinden yararlanmak zorundaydı.
+Sizi [makalemizin] tamamını okumaya ve GitHub kodumuzu kullanmaya davet ediyoruz.
+İzlediğiniz [için] teşekkür ederiz.
+Merhaba, ben Harvard Üniversitesi'nden Jiawei Zhou.
+"[Görev] Odaklı [Diyalogda] Gecikme Süresini Azaltmak [için] [Çevrim içi] [Anlamsal Ayrıştırma]" başlıklı çalışmamızı sunmaktan memnuniyet duyarım.
+Bu çalışma Microsoft [Semantic] Machines'ten Jason, Michael, Anthony ve Sam ile birlikte yürütülmüştür.
+[Görev] odaklı [diyalogda] bir [kullanıcı], genellikle konuşmadaki [kullanıcı] [ifadelerinden] gelen istekleri işleyen [sistem] ile etkileşime girer.
+[Kullanıcı] [ifadesinin] bitiminden [sistem] yanıtına kadar genellikle gözle görülür bir gecikme yaşanır.
+Perdenin arkasında [kullanıcı] [ifadesi] yürütülebilir bir programa dönüştürülür.
+Daha sonra [sistemin] düzgün bir şekilde yanıt verebilmesi için yürütülür.
+Çünkü program; düğümün bir işlev çağrısını temsil ettiği ve alt öğelerinin bağımsız değişkenler olduğu [hesaplamayı] özetleyen [anlamsal] bir [grafik] olarak temsil edilir.
+Büyük [düğümler] anlık işlemleri işaretler; ancak diğerleri yürütmek için yavaştır.
+Burada gösterdiğimiz basit örneğe göre bu programlar, genellikle ağaç yapılarının ötesinde daha karmaşık [grafikler] olabilir.
+Bu konuşmada şu [soruyu] soruyoruz: [Kullanıcı] [ifadesini] daha bitirmeden önce programı [oluşturmaya] ve çalıştırmaya başlayarak [sistemin] daha hızlı yanıt vermesini sağlayabilir miyiz?
+Bu [çevrim içi] [tahmin] ve karar verme [sorunudur].
+Başka pek çok sorun daha mevcuttur.
+Örnekler arasında gerçek bir tercümanın bir [dili] gerçek zamanlı olarak diğerine çevirdiği [eş zamanlı] [çeviri], [kullanıcının] niyeti tahmin etmek için akıllı otomatik [metin] tamamlama ve sürücülerin tahmin edilen talebe göre ihtiyaç duyulabilecekleri yere gönderildiği Uber havuzu yer almaktadır.
+Tüm bu senaryoların tek ortak bir noktası var.
+O da tüm [girdileri] görmeden önce karar vermek vermenin faydalı olduğudur.
+Bizim durumumuzda [kullanıcının] ne söyleyebileceğini tahmin etmek zorunda olduğumuz için zor olması beklenen [çevrim içi] [anlamsal ayrıştırma] ile ilgileneceğiz.
+Ayrıca resmi bir [değerlendirme] metriği olmadan yeterince araştırılmamıştır.
+İlk olarak sıradan bir sistemin nasıl çalıştığına bakalım.
+Sadece [kullanıcı] [ifadesinin] sonunda programa [ayrıştırma] yaparak çevrim dışı olarak çalışıyor.
+Burada karakter [grafiği] tüm [bilgiler] görüldükten sonra tahmin edilir.
+Buna karşılık her [ifade] önekinde karşılaştıran bir [çevrim içi] [sistem] öneriyoruz.
+Örneğin, gördüğümüz her yeni [belirteçte] yeni bir [grafik] tahmin ederiz.
+Hatalar olabileceğine dikkat edin.
+Barack Obama ile havuz partisinde yaşanan durumda kişi ve [olay] konusuna ilişkin doğru [düğümlere] sahip ancak zamanlama bilgilerini yanlış tahmin eden bir grafik elde ettik.
+Bu süreç, [kullanıcı] [ifadesinin] tamamını alana kadar devam eder.
+Bu, çevrim dışı [sistemdeki] yürütme zaman çizelgesini nasıl etkiler?
+Program [grafiğini] sonda alacağız; böylece [sistem] bu noktada yürütmeye başlayabilir.
+Büyük [düğümlerin] hızlı işlemler olduğunu unutmayın; bu nedenle yalnızca renkli yavaş işlevlerin yürütme zaman çizelgesini dikkate alırız.
+İlk olarak bu kişi bulma işlevlerinin ikisi, diğer işlevlere [bağımlılığı] olmadığı için pembe kutudan beyazla vurgulanmış şekilde birbirine [paralel] olarak yürütülebilir.
+Daha sonra, düğüm oluşturma [olayı], alt seviye [düğümlerden] ve sonrasında da en üst fonksiyondan sonuçlar elde edildikten sonra yürütülebilir; böylece tüm program tamamlanır.
+Yürütme süreci katıdır; gözle görülür gecikmeye neden olduğu için bazı işlemlerin paralel hâle getirilemediği program [bağımlılık] [yapısı] ile sınırlıdır.
+İlerledikçe tahminde bulunduğumuz [çevrim içi] [sistemimizde], programın yürütülmesi daha erken başlayabilir.
+Burada Obama'dan sonraki önekte, kişi bulma işlevinin programda olması gerektiğini kendimizden emin bir şekilde tahmin ediyoruz; ancak geri kalanı silikleştiği için hatalar içerebilir.
+Düğümün yürütülmesi bir adım olarak hemen başlatılabilir.
+Daha sonra daha fazla [belirteçler] ile tamamen yeni ancak bir kısmı hâlihazırda yürütülmüş bir [grafik] tahmin ediyoruz.
+Bu nedenle kendimize güvendiğimiz [düğümlerin] geri kalanını da dikkate almamız gerekir.
+Burada, başka bir kişi bulma işlevi [paralel] olarak yürütülebilir.
+Yine, yanlış tahminlerimiz olabilir.
+Daha fazla [metin] ile, bunu doğru şekilde yapma becerisine sahip oluruz.
+Burada AM'nin de doğru bir şekilde öngörüldüğü [olay] zamanı da örnek gösterilebilir.
+Ardından geri kalanını program [bağımlılık] [yapısını] izleyerek çalıştırmaya başlayabiliriz.
+Yürütme zaman çizelgesini [ifade] zaman çizelgesiyle örtüştürerek büyük miktarda zaman tasarrufu sağlarız.
+Bu yüzden [çevrim içi] [semantik ayrıştırma] [görevini] önerdik.
+Altta yatan bir varsayım da yürütme süresinin [model] [tahmin] süresinden baskın olduğu yönündedir.
+Bu yüzden sadece daha önce tahmin ederek zaman kazanabiliriz.
+Başka bir varsayım da [tahmin] ve yürütme işlemleri arka planda gerçekleştiğinden kullanıcılar tarafından görülemediği şeklindedir.
+Tutarlı bir [ayrıştırma] geçmişi sürdürmek gerekli değildir.
+Her [belirteçten] sonra en baştan tekrar ayrıştırırız.
+Özellikle iki adımlı bir yaklaşım öneriyoruz.
+Eksiksiz [yapıda] [grafik] tahmini yapan bir önerilen adım ve ilgili anda yürütülmeye değer [düğümleri] seçen bir seçim adımı.
+Önerilen [yöntemin] iki çeşidi vardı.
+İlk [yaklaşım], [dil modeli] tamamlamayı tam [ifadeden] [grafiğe] [ayrıştırma] ile birleştirmektedir.
+Özellikle, Obama'dan sonraki önek ilk önce hassas ayar yapılmış [BART] [dil modeli] ile tamamlanır ve daha sonra eksiksiz çevrim dışı [ayrıştırıcılı] bir programa dönüştürülür.
+İkinci [yaklaşım], programı [kullanıcı] [ifade] öneklerinden doğrudan tahmin eder.
+Bu, tek bir [çevrim içi] [ayrıştırıcı], her bir önekten hedef [grafik] çıkaracak şekilde eğitildiğinde gerçekleşir.
+Bu, [modelin] doğru beklentiyi öğrenmesini kolaylaştırır.
+Biraz daha ayrıntılı olmak gerekirse bu [grafikleri] nasıl oluşturacağız?
+[Sorunu], [grafiğin] seri bir versiyonunu [oluşturarak] formüle ediyoruz.
+Her düğüm veya kenar bir eylemle temsil edilir.
+Burada ilk düğümden başlıyoruz.
+Aşağıdaki [sayı] eylem geçmişindeki mutlak dizini kaydeder.
+Sonra ikinci düğümü elde ettik.
+Sonra, aralarındaki kenar.
+[Önceki] düğümün dizininin işaretçisini ve kenar etiketini içerir.
+Burada sıfır, en son düğümü sıfırıncı eylem tarafından oluşturulan düğüme ve bir sonraki düğümün bir sonraki kenarına bağlamak anlamına gelir.
+Bu süreç biz tam [grafiği] oluşturana kadar devam eder.
+Altta yatan [model], [önceki] geçiş tabanlı [ayrıştırıcıya] [benzer] bir öz işaret mekanizmasına sahip [dönüştürücüyü] esas almaktadır.
+Eksiksiz bir [grafik] [oluşturduktan] sonra [grafiğin] farklı bölümlerine karşılık gelen eylem seviyesi olasılıklarını elde ettik.
+Yürütülecek eşikleme [buluşsal] işlemi temelinde güven alt grafiklerini seçiyoruz.
+Daha sonra, gecikme azaltma ve yürütme maliyeti arasında farklı ödünleşimler elde etmek için eşiği değiştireceğiz.
+[Çevrim içi] [yöntemlerin] biçimsel [değerlendirmesi] [için], nihai gecikme süresini azaltma veya [FLR] metriğini [öneriyoruz].
+İşte çevrim dışı bir [sistemin] yürütme zaman çizelgesini nasıl sona erdirdiğine dair bir özet.
+[Çevrim içi] [sistemlerde] yürütme, [ifade] zaman çizelgesiyle örtüşür ve böylece daha erken sona erer.
+[FLR], yürütmenin sona ermesiyle belirlenen, çevrim dışı [sistem] ile [karşılaştırıldığında] zamanda azalma olarak tanımlanır.
+İki [büyük] [konuşmayla ilgili] [anlamsal ayrıştırma] [veri kümesi] üzerinde deneyler gerçekleştiriyoruz: [SMCalFlow] ve [TreeDST].
+Çevrim dışı çalışırken [grafik] tabanlı [ayrıştırıcımız], her iki [veri kümesinde] de [ayrıştırma] konusunda en gelişmiş performansı [elde eder].
+LM eksiksiz [modeli] ayrıca düğüm tamamlamanın basit taban çizgisi ile [karşılaştırıldığında] önemsiz olmayan [BLEU] kazanımı [elde eder].
+Şimdi, önekten [grafik] [ayrıştırıcımızın] [tahmin] doğruluğuna bakalım.
+Yüzdelerle temsil edilen x eksenindeki her bir ön ek uzunluğu için y eksenindeki doğrulama [verilerinde], [oluşturma] ve go [grafiği] arasındaki [grafik] dizileriyle eşleşme F1 puanını test ediyoruz.
+Bu eğrilerin her biri, [eğitim verilerindeki] tek farkla farklı bir [modeli] temsil eder.
+Alttaki eğri çevrim dışı [ayrıştırıcıdır] ve [modeli] [çevrim içi] [ayrıştırıcıya] geçirmek için önek [verilerini] farklı uzunluklarda karıştırıyoruz.
+Örneğin, gösterge öneki artı yüzde seksen, [modelin] öneki [verileri] ile eğitildiği ve önek uzunluğunun tam [ifade] uzunluğunun yüzde sekseninden daha büyük olduğu anlamına gelir.
+Sol üst köşe istenen alandır.
+Gördüğümüz üzere siyah eğrideki çevrim dışı [ayrıştırıcı], önek [verileriyle] iyi çalışmıyor.
+[Eğitimde] daha fazla öneki karıştırdığımız için eğri yukarı ve sola doğru yükseliyor ve tüm önek uzunluklarında daha iyi performans gösteriyor.
+Bununla birlikte [ifade] [ayrıştırma] performansı sağ üst noktada etkilenmiyor.
+Bu güçlü sonuçlar esas alındığında gecikme süresini ne kadar azaltıyoruz?
+Zamanı [kaynak] [belirteç] [sayısıyla] ölçüyoruz ve farklı işlev yürütme sürelerini canlandırıyoruz.
+Eğriler, doğru olmayan aşırı işlev maliyetlerinin [sayısı] ile ölçülen, [FLR] metriği ile yürütme maliyeti arasındaki ödünleşimi gösterir.
+Bu, alt grafik seçim eşiğinin değiştirilmesiyle elde edilir.
+Daha yüksek bir eşik daha az hata fonksiyonu seçer, ancak daha küçük bir [FLR] elde ederken; öte yandan daha düşük eşik programları daha agresif bir şekilde seçer ve yürütür.
+Önerdiğimiz iki yaklaşımı ve [çevrim içi] kullanım [için] çevrim dışı [ayrıştırıcıyı] doğrudan uygulamaktan başka bir şey yapmayan bir taban çizgiyi karşılaştırıyoruz.
+Sol üst bölge en iyi [FLR] ve maliyet ödünleşimine sahiptir.
+İki [yöntemimizin] de taban çizgiyi [büyük] bir farkla yendiğini ve [TreeDST] üzerinden daha benzer performans gösterdiklerini görüyoruz.
+Bireysel işlev yürütme daha hızlı olsa da, daha fazla çalıştırma yürütmesine ve gecikme süresini azaltma için daha düşük alana sahip olma eğilimindedir.
+Bireysel işlev yürütme daha yavaş olduğunda, [FLR]'nin iyileşmesi için daha fazla alan vardır.
+İki yaklaşımımız farklı maliyet bölgelerinde daha iyi performans elde etmektedir.
+Genel olarak, yürütme süresine ve izin verilen maliyete bağlı olarak yüzde otuz ila altmış üç nispi gecikme azalması elde ediyoruz.
+Son olarak izin verilen maliyet üç çalıştırma yürütmesi olduğunda işlev düğümünün her türü [için] [belirteçlerde] ortalama gecikme süresi azalmasının dökümü elimizde mevcut.
+Gördüğümüz gibi her açıdan kazanımlar elde ediliyor.
+Kırmızı çubuğun çok daha uzun olduğu durumlarda, yönetici ve alıcı bulma gibi gecikme süresini etkileyici şekilde azaltarak kazanım elde ettiğimiz bazı işlevler de vardır.
+Bunlar, diğerlerine fazla [bağımlılığı] olmayan düşük seviyeli işlevlerdir.
+Sonuç olarak, titiz gecikme azaltma metriğiyle araştırılacak yeni [görev] olarak [çevrim içi] [anlamsal ayrıştırmayı] önerdik.
+Güçlü bir [grafik] tabanlı [anlamsal] [ayrıştırıcı] sayesinde ya LM tamamlama ve tam [ayrıştırıcı] özelliğine sahip boru hattı [yaklaşımımız] aracılığıyla ya da doğrudan önekler hakkında öğrenilmiş bir [ayrıştırıcı] aracılığıyla nispeten iyi gecikme süresi azaltımı elde ederiz.
+[Dahası] [yaklaşımımız], genel bir çerçeve olabilir ve farklı [etki alanlarındaki] diğer yürütülebilir [anlamsal] [temsillere] uygulanabilir.
+Gelecekteki çalışmalar [tahmin] ve yürütme entegrasyonu için daha akıllı bir [yöntem] keşfedebilir.
+Dinlediğiniz [için] teşekkür ederim.
+Merhaba.
+[Soru] [yanıtlama] [görevleri] [için] [geri almayla] [çoğaltılmış] karşı olgular oluşturma hakkında çalışmamızdan bahsedeceğim.
+Bu çalışma, mentorluğumu Matthew Lamm ve Ian Tenney'in yaptığı Google [Research]'teki stajım sırasında yapılmıştır.
+[Göreve] dikkat çekmek için önce [karşı olgunun] ne olduğunu tanımlayarak başlayayım.
+Bu çalışmada [karşı olguyu], orijinal [metinden] anlamlı ve kontrollü bir şekilde farklılık gösteren [girdi] [metninin] pertürbasyonu olarak tanımlıyoruz.
+Karşı olgu, elde edilen sonuçtaki veya [görev] etiketindeki değişiklikler hakkında akıl yürütmemizi sağlar.
+Örneğin, cezbedici [sözcüğünü] büyüleyici veya beklenen sözcüğünü sıkıcı olarak değiştirmek, bu film incelemesine [yönelik] [duyguyu] değiştirir.
+Benzer şekilde, "kadınların" niteleyicisinin [soruya] eklenmesi, aşağıdaki örnekte [soruya] verilen [yanıtı] da değiştirir.
+İnsanlar, [görev] konusunda eğitilmiş [Doğal Dil İşleme] [modeller] ile [karşılaştırıldığında] tipik olarak bu tür pertürbasyonlara karşı daha sağlamdır.
+Bunun nedeni nedir?
+[Veri kümesi], [karşı olgu] tarafından ihlal edilen basit bir karar sınırına yol açan sistematik [önyargılar] ile örneklenebilir.
+Bu 2D [sınıflandırma] [sorununda] gösterildiği gibi.
+Çalışmamda [eğitim verilerine] [karşı olgusal] örnekler eklemenin [modeli] bu tür pertürbasyonlara karşı dayanıklı hâle getirebileceğini bulunmuştur.
+Dolayısıyla eğer karşı olgular değerliyse, onları nasıl üretebiliriz?
+Bu [görev] özellikle [Doğal Dil İşleme] için zordur; çünkü burada üç farklı [Doğal Dil İşleme] [görevinden] üç örnek verilmiştir.
+Gördüğünüz üzere sonuçlar arasındaki karar sınırını ihlal eden örneklerin, burada altı çizilen [menin] bazı özelliklerini bozarak çok dikkatli bir şekilde hazırlanması gerekir.
+Bu [insan] tarafından [açıklama] eklenmesiyle yapılabilir; ancak bu pahalı ve önyargılı bir işlemdir.
+Önceki bazı çalışmalar [söz dizimi] ağaçları veya [anlamsal rol etiketlemesi] kullanmaya odaklanmıştır.
+Ancak bu teknikler tarafından [oluşturulan] pertürbasyonlar [anlamsal] çerçeve ile sınırlıdır.
+Daha yeni çalışmalarda etiketleri değiştirmek için [metnin] maskelenen kısımlarını doldurmak için maskelenmiş [dil modelleri] kullanılmıştır.
+Ancak [metnin] hangi bölümlerinin bozulacağını bulmak zor olabilir.
+Özellikle [soru yanıtlama] [için] karşı olgular [oluşturma] konusunda daha fazla zorluk vardır.
+Bu [görev] arka plan [bilgi] gerektirir.
+Örneğin, "Indiana Jones: Kamçılı Adam tanıtıcı bir giriş mi?" sorusunun orijinalini bozmak için bilgi gerekir.
+"Indiana Jones: Kutsal Hazine Avcıları tanıtıcı bir giriş mi?" gibi bir soruya ulaşmak için ayrıcalık hakkı kapsamındaki diğer filmlerin farkında olmamız gerekiyor.
+[Ayrıca], rastgele pertürbasyonlar, mevcut kanıtlarla cevaplanamayan veya hatalı öncüllere sahip [sorulara] yol açabilir.
+[Dahası], bazı [soru] pertürbasyonları, orijinal [girdiden] önemli [anlamsal] sapmaya yol açabilir.
+Örneğin, bu [soru]: Indiana Jones: Kamçılı Adam'da çocuk köleliği yaptırılıyor mu?
+[Soruların] [karşı olgusal] pertürbasyonlarını ele almak için geri al, oluştur, filtrele veya [RGF] adı verilen çok basit ama etkili bir teknik [öneriyoruz] ve bu teknikle anılan diğer tüm zorlukların da üstesinden gelmeyi amaçlıyoruz.
+[RGF]'nin arkasındaki temel sezgi, pertürbasyonlar oluşturmak için gerekli arka plan [bilginin], bir [soru yanıtlama] [modeli] tarafından kıl payı kaçırılan olaylarda mevcut olabileceğidir.
+Örneğin son teknoloji ürünü [model] [REALM]; "Richmond Futbol Kulübü'nün kaptanı kimdir?" [sorusuna] aşağıdaki top-k yanıtları üretmektedir.
+Orijinal referans pasajını kurtarırken en iyi seçenek olarak Trent Cotchin [yanıtını] verir.
+Ayrıca [soru] pertürbasyonuna rehberlik etmede kullanılabilecek ek pasajlar ve yanıtları da geri alır.
+Örneğin aynı kulübün yedek takımın ve kadınlar takımının kaptanlarına [karşılık gelen] iki yanıtı daha kurtarır ve bu, ilginç düzenlemelere yol açabilir.
+Özetlemek gerekirse, [RGF] ilk önce [bağlam] içindeki referans [yanıt] ile eşleşmeyen top-k en alakalı yanıtları ve [bağlamları] geri alır.
+Bu adımdan sonra [yanıt oluşturma] modeli, bu alternatif yanıtları ilgili yanıtlara karşılık gelecek [soruyu] oluşturacak şekilde uygun hâle getirir.
+Ve son olarak, [oluşturulan] [soruları], minimaliteye veya tanıtmakla ilgilendiğimiz [anlamsal] pertürbasyon türüne göre filtreleyebiliriz.
+[Geri alma] [için] her adımı daha ayrıntılı olarak gözden geçirirken [girdiyi] orijinal [soru] olarak alan [REALM] gibi geri-al-sonra-oku [modeli] ve [Wikipedia] gibi [büyük] bir [derlem] kullanıyoruz.
+İki modülden oluşur.
+Geri alma modülü, [soruya] top-k en uygun pasajları geri almak için yoğun bir pasaj dizini üzerinde [benzerlik] [araması] gerçekleştirir.
+Daha sonra okuyucu modülü, potansiyel bir [yanıt] olarak her pasajdan bir aralık ayıklar.
+[REALM] çoğu zaman altın pasajı ve [yanıtı] geri alır.
+Ancak bu çalışmada, tümüyle geri aldığı yanıtlar ve [bağlam] ile daha fazla ilgileniyoruz.
+Bir sonraki adım olan [soru oluşturmada], bu alternatif yanıtları ve [bağlamları], bu alternatiflere karşılık gelen yeni [soruları] tekrar oluşturmak için kullanıyoruz.
+[Soru oluşturma] [model], [bağlam] içinde işaretlenmiş bir [yanıt] [için] [soru] oluşturmak üzere NQ [verileri] üzerinden hassas ayar yapılmış önceden eğitimli [metinden] [metne] [dönüştürücüdür].
+[Çıkarım] sırasında [soru oluşturma] [modelini], alternatif [yanıtları] ve [önceki] adımda [geri aldığımız] [bağlamı] sunuyoruz.
+Örneğin sorgu şu: Richmond Futbol Kulübü'nün kaptanı kimdir? [REALM] kulübün, Jess Kennedy'nin kaptanlığını yaptığı kadın takımı hakkındaki pasajları geri alır ve [soru oluşturma] [modeli], "Richmond Futbol Kulübü'nün kadın takımının kaptanlığını ilk kim yaptı?" [sorgusunu] oluşturur.
+Burada belirli bir [anlamsal] pertürbasyon vardır.
+[Benzer] şekilde, Richmond'ın [VFL] Yedek takımına kimin kaptanlık ettiği gibi [sorgular] da alıyoruz.
+Ya da "Graham geçen yılki büyük finalde kimi reddetti?" gibi sorgular.
+Son olarak istenen bazı özellikleri esas alarak [oluşturulan] [sorguların] bir alt kümesini filtreliyoruz.
+Daha önce [açıklandığı] üzere, yeni [sorunun] hâlâ [anlamsal olarak] orijinaline yakın olduğundan emin olmak istiyoruz.
+Ek denetim gerektirmeyen filtreleme tekniklerinde orijinal [sorudan] küçük bir [belirteç] etiketi [düzenleme] mesafesinde olan yeni [soruları] koruyoruz.
+Örneğin, "Graham geçen yılki büyük finalde kimi reddetti?" [sorusunu] kaldırıyoruz.
+Çünkü bu soru, orijinal [sorudan] daha uzun bir [düzenle] mesafesindedir.
+Deneylerimizde, bu basit [buluşun] [eğitim verilerini] çoğaltmak ve sıraya koymak için kullanılabileceğini kanıtlıyoruz.
+Ayrıca, [anlamsal] pertürbasyon türüne dayanan bir filtreleme stratejisini de deniyoruz.
+Bu amaçla [QED] adı verilen genel amaçlı bir [sorgu] ayrıştırma çerçevesi kullanıyoruz.
+[QED], [sorunun] iki bölümünü tanımlar: bir [yüklem] ve bir referans.
+Referanslar, [soruda] [bağlamdaki] [varlıklara] karşılık gelen [isim] öbekleridir.
+[Yüklem] temel olarak [sorunun] geri kalan kısmıdır.
+Örneğin "Richmond'un kadın takımının kaptanlığını ilk kim yaptı?" sorgusunu iki referansa ayrıştırabiliriz: Richmond Futbol Kulübü'nün kadın takımı ve X'e kaptanlık yapan [yüklem].
+NQ [için] referans [yüklem] [ek açıklamaları] hakkında eğitilmiş bir model, bu [soru] ayrıştırmasını bize sağlar.
+[QED]'yi esas alarak hem orijinali hem de [oluşturulan] [soruyu] ayrıştırmak, [oluşturulan] karşı olgularımızı [değerlendirme] [için] kategorize etmemizi sağlar.
+Özellikle iki grup [soru] elde ediyoruz.
+[Yüklemleri] korurken bir referans değişikliğine uğrayanlar ve [yüklem] değişikliğine uğrayıp isteğe bağlı olarak referans ekleyenler.
+Örneğin Richmond'ın [VFL] Yedek takımına kimin kaptanlık ettiği bir referans değişikliğidir.
+"Kulüpte dokuz [numaralı] formayı kim giyer?" sorusu ise [yüklem] değişikliğidir.
+Şimdi [eğitim verilerine] artırıldığında [RGF] pertürbasyonlarının etkinliğini değerlendiriyoruz.
+Bu nedenle, özellikle [karşı olgu] [çoğaltmanın] etkinliğini etkili bir şekilde değerlendirmek için iki güçlü [veri çoğaltma] [taban çizgisi] ile denemeler yapıyoruz.
+Rastgele [yanıt] ve [soru oluşturma] olarak adlandırılan ilk taban çizgi, orijinal [soru] ile hiçbir [bağıntısı] olmayan [veriler] ekler.
+Yani pasajlar ve cevaplar [Wikipedia]' dan rastgele örneklenir.
+Bu taban çizgisi temel olarak NQ gibi görünen daha fazla [veri] ekler.
+İkinci taban çizgisi olan altın [yanıt] ve [soru oluşturma] ile [yöntemimizin] [geri alma] bölümünü özellikle güncelliyoruz.
+Burada, alternatif cevaplar sadece altın [yanıtı] içeren aynı pasajdan seçilir.
+[Taban çizgileri] ve [RGF] [çoğaltma], [modelin] [soru] ve [bağlama] erişimi olduğu durumlarda [okuduğunu anlama] konusunda nasıl performans gösterir?
+Altı adet [etki alanı] dışı [veri kümesini] deniyoruz ve sonuçları burada sunuyoruz. Buradaki [veriler] [çoğaltma] ile iki katına çıkarılmış [eğitim verileridir].
+Her iki [veri çoğaltma] [taban çizgisinin] de [etki alanı] [genelleştirmemizi] iyileştiremediğini tespit ettik.
+Aslında, orijinal [veriler] üzerinde eğitilmiş altı [model] topluluğu en rekabetçi taban çizgisi gibi görünmektedir.
+Bu taban çizgisiyle karşılaştırıldığında [RGF] karşı olgularının [etki alanı] performansını korurken [etki alanı] dışı performansını iyileştirebildiğini görüyoruz.
+Bu, [modelin] [gerekçelendirme] boşluklarını [karşı olgu] [çoğaltma] yoluyla doldurmanın, [eğitim] dağılımından daha fazla [veri] eklemeye kıyasla daha etkili olduğunu göstermektedir.
+[Ayrıca], alternatif sonuçları veya yanıtları örneklemek için [geri alma] kullanmanın etkili [CDA] [için] önemli olduğunu görüyoruz.
+[Modelin] yalnızca [soruyu] gördüğü [etki alanı] [Kalite Güvencesi] ayarı açık hâlde de deneme yapıyoruz ve bir kez daha dört adet [etki alanı] dışı [veri kümesinde] değerlendiriyoruz.
+Taban çizgisi [modellerinin] [etki alanı] dışı [genelleme] [için] etkili olmadığını görüyoruz.
+Bununla birlikte [RGF] ile [veri çoğaltma] daha önemli iyileştirmeler göstermektedir.
+[Etki alanı] içi NQ [veri kümesini] bile iyileştiriyoruz.
+[Karşı olgusal] [veri çoğaltmanın], [modelin] çok [benzer] [sorgular] söz konusu olduğunda [sorgu] şifrelemelerini daha iyi [öğrenmesine] yardımcı olduğu varsayımını ortaya koyduk.
+Son olarak [modelin] orijinal [sorunun] etrafında tutarlılığı iyileştirme yeteneğini de değerlendiriyoruz.
+Tutarlılık; hem orijinalin hem de [karşı olgusal] [sorgunun] doğru yanıtlandığı bir ortamda [model] tarafından doğru yanıtlanan [soruların] oranını ölçer.
+Bu bize orijinal [girdinin] etrafındaki küçük pertürbasyonlara karşı [sağlamlığını] ölçme konusunda açıkça yardımcı olmaktadır.
+Birbirine [anlamsal] olarak yakın soru çiftleri içeren beş [veri kümesi] ile deneyler yapıyoruz.
+Hâlihazırda mevcut olan üç [veri kümesine] -[AQA], [AmbigQA] ve [QUOREF]- karşıt kümelerin yanı sıra [yüklem] değişikliğine mi yoksa referans değişikliğine mi uğradığına bağlı olarak orijinal NQ [sorularıyla] eşleştirilmiş [RGF] karşı olgularını da değerlendiriyoruz.
+Bu alt kümeler, anlamsızlığı ortadan kaldırmak için kurum içinde [ek açıklama ekleme] işlemine tabi tutulur ve kaynak olarak sağlanır.
+Tüm [taban çizgileri], küçük bir marjla tutarlılığı artıran topluluk [modeli] ile tutarlılığı önemli ölçüde iyileştirememiştir.
+Ancak, [RGF] [karşı olgusal] [çoğaltma], hem önceki [veri kümelerinde] hem de referans ve [yüklem] pertürbasyonları [için] düzenlediğimiz iki alt kümede tutarlılık açısından etkileyici kazanımlara sahiptir.
+[Çoğaltılmış] [RGF] [verilerinin] pertürbasyon tipine göre önyargılı olmadığını, sadece [değerlendirme] kümelerinin önyargılı olduğunu unutmayın.
+Esasında [oluşturulan] karşı olgu türlerinin [nitel] incelemesi, [oluşturulan] [soruların] birkaç farklı pertürbasyon içerdiğini göstermektedir.
+Örneğin Minnesota'daki Walnut Grove'un nüfusu hakkındaki bu orijinal [soru]; kasaba, eyalet, ülke gibi farklı boyutlarda ve konum, yoksulluk, okul [sayısı] gibi farklı [yüklemler] ile ilgili bozulmaktadır.
+Pertürbasyonların sesi [bağlama] özgüdür.
+Örneğin Wimbledon tekler turnuvası hakkındaki bu diğer [soru] için pertürbasyon oyun türü, turnuva türü veya oyun sonucu ile ilgilidir.
+Son çıkarımlarda bulunmak gerekirse biz, [bilgi] arayışındaki [sorgular] [için] [karşı olgusal] [veri çoğaltma] ve pertürbasyon [görevleri] ile ilgileniyoruz. Ayrıca [oluşturma] [yaklaşımının] geri alınması suretiyle oluşturmada karşılaşılan eşsiz zorlukları, modelin kıl payı kaçırdıklarını ve pertürbasyon türünü ya da minimaliteyi esas alan filtreyi kullanarak aşıyoruz.
+Bu tekniğin ek bir denetim gerektirmediğini ve örneklerin [çoğaltma] [için] [etiketlendiğini] tespit ettik.
+[Çoğaltma], [etki alanı] dışı [genellemeyi] ve yakın çevre tutarlılığını iyileştirir.
+Ve [RGF] karşı olgularının, [çoğaltma] esnasında önyargıya neden olmadan [anlamsal olarak] çeşitli olduğunu görüyoruz.
+Teşekkür ederim.

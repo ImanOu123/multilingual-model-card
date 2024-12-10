@@ -1,0 +1,78 @@
+Unnamed: 0,word,annotation6060,label6060
+4,AI,IA,intelligence artificielle
+6,NLP,PNL,TAL traitement automatique du langage naturel
+7,spans,segments,étendage
+11,OOV,hors vocabulaire,OOV
+21,newswire,fil d'actualités,fil d'actualité
+26,written,écrit,écrits
+27,Furthermore,De plus,en outre
+30,features,caractéristiques,fonctions
+32,generating,génération,production
+34,search,recherche,cherche
+39,grounding,ancrage,bases
+44,training,entraînement,formation
+46,pretrained,préentraîné,pré-formation
+47,graph,graphe,"graphique, diagramme"
+52,computational,computationnel,informatique
+54,motivated,motivé,motivés
+61,extractive,extractif,extraction
+68,human,humain,civique
+70,unseen,non vu,invisible
+73,similarity,similarité,similitude
+90,FLR,réduction de latence finale,FLR
+93,embeddings,embeddings,intégration
+94,generalize,généraliser,généralise
+95,gradient,gradient,pente
+96,assessing,évaluation,évalution
+100,social,social,sociaux
+103,pretraining,préentraînement,pré-formation
+104,tagging,étiquetage,classification
+105,morphologically,morphologiquement,morphologie
+106,nodes,nœuds,nodules
+110,downstream,en aval,downstream
+115,transformers,transformers,transformateurs
+117,graphs,graphes,diagrammes
+121,metrics,métriques,indicateurs
+123,augmented,augmenté,amélioré
+125,lexical,lexical,lexicale
+135,transformer,transformateur,conversion
+140,visual,visuel,visuelle
+141,multitask,multitâche,multi-tâches
+144,correlations,corrélations,corrélation
+148,speech,parole,dicours
+155,phrase,phrase,phrases
+156,datasets,jeux de données,données
+157,BERT,BERT,Représentations d'encodeurs bidirectionnels à partir de transformateurs
+163,qualitative,qualitatif,qualitative
+164,retrieved,récupéré,récupérés
+165,tokens,tokens,gages
+168,edit,modification,édition
+169,news,actualités,nouvelles
+171,adversarial,adversarial,antagoniste
+172,sentiment,sentiment,émotionel
+176,Hence,Par conséquent,donc
+179,predicates,prédicats,prédicat
+184,event,événement,activité
+185,simultaneous,simultané,simultanée
+188,semantics,sémantique,sémantiques
+192,research,recherche,recherches
+205,generated,généré,générés
+208,baselines,références,bases
+214,parsing,analyse,analyse syntaxique
+215,linguistics,linguistique,linguistiques
+216,previous,précédent,antérieur
+218,encode,encoder,encode
+221,finetuning,ajustement fin,raffinement
+228,propose,proposer,proposé
+234,linked,lié,liées
+239,neural,neural,neuronal
+245,problem,problème,problèmes
+246,dataset,ensemble de données,données
+247,achieves,atteint,performance
+248,distributions,distributions,distribution
+252,token,jeton,gage
+254,labeled,étiqueté,étiquetés
+255,captions,légendes,captures
+260,Morphology,Morphologie,morphologique
+264,utterances,énoncés,discours
+268,Detecting,Détection,détecter

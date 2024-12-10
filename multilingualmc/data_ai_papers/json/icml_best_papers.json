@@ -1,0 +1,562 @@
+[
+    {
+        "title": "Learning-Rate-Free Learning by D-Adaptation",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=GXZ6cT5cvY"
+    },
+    {
+        "title": "A Watermark for Large Language Models",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=aX8ig9X2a7"
+    },
+    {
+        "title": "Generalization on the Unseen, Logic Reasoning and Degree Curriculum",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=3dqwXb1te4"
+    },
+    {
+        "title": "Adapting to game trees in zero-sum imperfect information games",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=O1j4uFuSVW"
+    },
+    {
+        "title": "Self-Repellent Random Walks on General Graphs - Achieving Minimal Sampling Variance via Nonlinear Markov Chains",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=450iImFM4U"
+    },
+    {
+        "title": "Bayesian Design Principles for Frequentist Sequential Learning",
+        "venue": "ICML",
+        "year": 2023,
+        "award": "Outstanding Paper",
+        "link": "https://openreview.net/forum?id=tRhQsHnoFw"
+    },
+    {
+        "title": "The Importance of Non-Markovianity in Maximum State Entropy Exploration",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Understanding Dataset Difficulty with $\\mathcal{V}$-Usable Information",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Stable Conformal Prediction Sets",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Do Differentiable Simulators Give Better Policy Gradients?",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Privacy for Free: How does Dataset Condensation Help Privacy?",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Causal Conceptions of Fairness and their Consequences",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "G-Mixup: Graph Data Augmentation for Graph Classification",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Bayesian Model Selection, the Marginal Likelihood, and Generalization",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Solving Stackelberg Prediction Game with Least Squares Loss via Spherically Constrained Least Squares Reformulation",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Learning Mixtures of Linear Dynamical Systems",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Active fairness auditing",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Learning inverse folding from millions of predicted structures",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Adversarially Trained Actor Critic for Offline Reinforcement Learning",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Monarch: Expressive Structured Matrices for Efficient and Accurate Training",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Minimum Cost Intervention Design for Causal Effect Identification",
+        "venue": "ICML",
+        "year": 2022,
+        "award": "Outstanding Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies",
+        "venue": "ICML",
+        "year": 2021,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Understanding self-supervised learning dynamics without contrastive pairs",
+        "venue": "ICML",
+        "year": 2021,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Oops I Took A Gradient: Scalable Sampling for Discrete Distributions",
+        "venue": "ICML",
+        "year": 2021,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Solving high-dimensional parabolic PDEs using the tensor train format",
+        "venue": "ICML",
+        "year": 2021,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Optimal Complexity in Decentralized Training",
+        "venue": "ICML",
+        "year": 2021,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Gaussian Process Optimization in the Bandit Settings: No Regret and Experimental Design",
+        "venue": "ICML",
+        "year": 2020,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems",
+        "venue": "ICML",
+        "year": 2020,
+        "award": "Outstanding Paper Awards",
+        "link": null
+    },
+    {
+        "title": "On Learning Sets of Symmetric Elements",
+        "venue": "ICML",
+        "year": 2020,
+        "award": "Outstanding Paper Awards",
+        "link": null
+    },
+    {
+        "title": "Generative Pretraining From Pixels",
+        "venue": "ICML",
+        "year": 2020,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Efficiently sampling functions from Gaussian process posteriors",
+        "venue": "ICML",
+        "year": 2020,
+        "award": "Outstanding Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Online Dictionary Learning for Sparse Coding",
+        "venue": "ICML",
+        "year": 2019,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Rates of Convergence for Sparse Variational Gaussian Process Regression",
+        "venue": "ICML",
+        "year": 2019,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
+        "venue": "ICML",
+        "year": 2019,
+        "award": "Outstanding Paper",
+        "link": null
+    },
+    {
+        "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Best Paper Awards",
+        "link": null
+    },
+    {
+        "title": "Delayed Impact of Fair Machine Learning",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Best Paper Awards",
+        "link": null
+    },
+    {
+        "title": "The Mechanics of n-Player Differentiable Games",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "Fairness Without Demographics in Repeated Loss Minimization",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Best Paper Runner Up Awards",
+        "link": null
+    },
+    {
+        "title": "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning",
+        "venue": "ICML",
+        "year": 2018,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Combining Online and Offline Knowledge in UCT",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Pegasos: Primal estimated sub-gradient solver for SVM",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Honorable Mention for Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "A Bound on the Label Complexity of Agnostic Active Learning",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Honorable Mention for Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Understanding Black-box Predictions via Influence Functions",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Lost Relatives of the Gumbel Trick",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Honorable Mention for Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Modular Multitask Reinforcement Learning with Policy Sketches",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Honorable Mention for Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Unified Maximum Likelihood Approach for Estimating Symmetric Properties of Discrete Distributions",
+        "venue": "ICML",
+        "year": 2017,
+        "award": "Honorable Mention for Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Dynamic Topic Models",
+        "venue": "ICML",
+        "year": 2016,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Dueling Network Architectures for Deep Reinforcement Learning",
+        "venue": "ICML",
+        "year": 2016,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Pixel Recurrent Neural Networks",
+        "venue": "ICML",
+        "year": 2016,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling",
+        "venue": "ICML",
+        "year": 2016,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Optimal and Adaptive Algorithms for Online Boosting",
+        "venue": "ICML",
+        "year": 2015,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "A Nearly-Linear Time Framework for Graph-Structured Sparsity",
+        "venue": "ICML",
+        "year": 2015,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Learning to Rank Using Gradient Descent",
+        "venue": "ICML",
+        "year": 2015,
+        "award": "Test of Time Award",
+        "link": null
+    },
+    {
+        "title": "Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis",
+        "venue": "ICML",
+        "year": 2014,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Multiple kernel learning, conic duality, and the SMO algorithm",
+        "venue": "ICML",
+        "year": 2014,
+        "award": "10 Year Paper",
+        "link": null
+    },
+    {
+        "title": "Discrete Chebyshev Classifiers",
+        "venue": "ICML",
+        "year": 2014,
+        "award": "Best Paper Runner Up Award",
+        "link": null
+    },
+    {
+        "title": "Compositional Morphology for Word Representations and Language Modelling",
+        "venue": "ICML",
+        "year": 2014,
+        "award": "Application Paper",
+        "link": null
+    },
+    {
+        "title": "Fast Semidifferential-based Submodular Function Optimization",
+        "venue": "ICML",
+        "year": 2013,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Vanishing Component Analysis",
+        "venue": "ICML",
+        "year": 2013,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Smooth Sparse Coding via Marginal Regression for Learning Sparse Representations",
+        "venue": "ICML",
+        "year": 2013,
+        "award": "Best Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Sparse coding for multitask and transfer learning",
+        "venue": "ICML",
+        "year": 2013,
+        "award": "Best Paper Runner Up",
+        "link": null
+    },
+    {
+        "title": "Computational Rationalization: The Inverse Equilibrium Problem",
+        "venue": "ICML",
+        "year": 2011,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "Hilbert Space Embeddings of Hidden Markov Models",
+        "venue": "ICML",
+        "year": 2010,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "The Translation-invariantWishart-Dirichlet Process for Clustering Distance Data",
+        "venue": "ICML",
+        "year": 2010,
+        "award": "Best Paper Award",
+        "link": null
+    },
+    {
+        "title": "On the Consistency of Ranking Algorithms",
+        "venue": "ICML",
+        "year": 2010,
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Modeling Interaction via the Principle of Maximum Causal Entropy",
+        "venue": "ICML",
+        "year": 2010,
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Archipelago: Nonparametric Bayesian Semi-Supervised Learning",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Overall Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Structure Preserving Embedding",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Overall Paper",
+        "link": null
+    },
+    {
+        "title": "Optimal Reverse Prediction: A Unified Perspective on Supervised, Unsupervised and Semi-supervised Learning",
+        "venue": "ICML",
+        "year": 2009,
+        "award": null,
+        "link": null
+    },
+    {
+        "title": "Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Application Paper",
+        "link": null
+    },
+    {
+        "title": "Tractable Nonparametric Bayesian Inference in Poisson Processes with Gaussian Process Intensities",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Student Paper",
+        "link": null
+    },
+    {
+        "title": "Large Margin Training for Hidden Markov Models with Partially Observed States",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Student Paper",
+        "link": null
+    },
+    {
+        "title": "A Scalable Framework for Discovering Coherent Co-clusters in Noisy Data",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Student Paper",
+        "link": null
+    },
+    {
+        "title": "BoltzRank: Learning to Maximize Expected Ranking Gain",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Student Paper",
+        "link": null
+    },
+    {
+        "title": "Blockwise Coordinate Descent Procedures for the Multi-task Lasso, with Applications to Neural Semantic Basis Discovery",
+        "venue": "ICML",
+        "year": 2009,
+        "award": "Best Student Paper & Best Overall Paper Honorable Mention",
+        "link": null
+    },
+    {
+        "title": "Solving MultiClass Support Vector Machines with LaRank",
+        "venue": "ICML",
+        "year": 2007,
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Information-Theoretic Metric Learning",
+        "venue": "ICML",
+        "year": 2007,
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Supervised Clustering of Streaming Data for Email Batch Detection",
+        "venue": "ICML",
+        "year": 2007,
+        "award": "Best Student Paper Award",
+        "link": null
+    },
+    {
+        "title": "Conditional Random Fields for Multi-agent Reinforcement Learning",
+        "venue": "ICML",
+        "year": 2007,
+        "award": "Best Student Paper Award",
+        "link": null
+    }
+]

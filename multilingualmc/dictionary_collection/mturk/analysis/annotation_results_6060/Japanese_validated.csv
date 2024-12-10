@@ -1,0 +1,336 @@
+,Unnamed: 0,word,gold,exact_match_ratio,prediction_count,prediction_ratio,validated_translation,reason,back_translations
+0,0,AI,AI,0.7,10,"[{'word': 'AI', 'ratio': 0.7}, {'word': '人工知能', 'ratio': 0.2}, {'word': 'エーアイ', 'ratio': 0.1}]",AI,{},[]
+1,1,API,API,0.8,10,"[{'word': 'API', 'ratio': 0.8}, {'word': 'エーピーアイ', 'ratio': 0.2}]",API,{},[]
+2,2,AQA,AQA,0.6,10,"[{'word': 'AQA', 'ratio': 0.6}, {'word': 'アクア', 'ratio': 0.4}]",AQA,{},[]
+3,3,ARENA,ARENA,0.1,10,"[{'word': 'アリーナ', 'ratio': 0.9}, {'word': 'ARENA', 'ratio': 0.1}]",アリーナ,{},[]
+4,4,Additionally,さらに,1.0,10,"[{'word': 'さらに', 'ratio': 1.0}]",さらに,{},[]
+5,5,AmbigQA,AmbigQA,0.9,10,"[{'word': 'AmbigQA', 'ratio': 0.9}, {'word': 'アンビッグQA', 'ratio': 0.1}]",AmbigQA,{},[]
+6,6,Architectures,アーキテクチャ,0.9,10,"[{'word': 'アーキテクチャ', 'ratio': 0.9}, {'word': '建築', 'ratio': 0.1}]",アーキテクチャ,{},[]
+7,7,BART,BART,0.2,10,"[{'word': 'バート', 'ratio': 0.8}, {'word': 'BART', 'ratio': 0.2}]",バート,{},[]
+8,8,BERT,BERT,0.3,10,"[{'word': 'バート', 'ratio': 0.7}, {'word': 'BERT', 'ratio': 0.3}]",バート,{},[]
+9,9,BERTs,BERTs,0.3,10,"[{'word': 'バートさん', 'ratio': 0.4}, {'word': 'BERTs', 'ratio': 0.3}, {'word': 'バート', 'ratio': 0.2}, {'word': 'BERT', 'ratio': 0.1}]",BERTs,"```
+1. Candidate: BERTs
+2. Explanation: The term ""BERTs"" in the context of AI refers to multiple instances or variations of the BERT (Bidirectional Encoder Representations from Transformers) model, which is a well-known language representation model in natural language processing. The candidate ""BERTs"" retains the original English term, which is often used in Japanese AI literature without translation due to its specificity and recognition in the field. This ensures semantic accuracy and maintains the technical integrity of the term, making it the best fit for domain-specific usage.
+```","['Be RT', 'Mr. Bart', 'Be RTs', 'bart']"
+10,10,BETO,BETO,0.2,10,"[{'word': 'ベト', 'ratio': 0.8}, {'word': 'BETO', 'ratio': 0.2}]",ベト,{},[]
+11,11,BIO,BIO,0.2,10,"[{'word': 'バイオ', 'ratio': 0.7}, {'word': 'BIO', 'ratio': 0.2}, {'word': 'オーガニック', 'ratio': 0.1}]",バイオ,{},[]
+12,12,BLEU,BLEU,0.2,10,"[{'word': 'ブルー', 'ratio': 0.8}, {'word': 'BLEU', 'ratio': 0.2}]",ブルー,{},[]
+13,13,BPE,BPE,0.7,10,"[{'word': 'BPE', 'ratio': 0.7}, {'word': 'ブートピア', 'ratio': 0.2}, {'word': 'BPEの埋め込み', 'ratio': 0.1}]",BPE,{},[]
+14,14,BSARD,BSARD,0.8,10,"[{'word': 'BSARD', 'ratio': 0.8}, {'word': 'ビーエスエーディー', 'ratio': 0.2}]",BSARD,{},[]
+15,15,CAS,CAS,0.8,10,"[{'word': 'CAS', 'ratio': 0.8}, {'word': 'キャス', 'ratio': 0.1}, {'word': '場合', 'ratio': 0.1}]",CAS,{},[]
+16,16,CDA,CDA,0.8,10,"[{'word': 'CDA', 'ratio': 0.8}, {'word': '通信品位法', 'ratio': 0.2}]",CDA,{},[]
+17,17,CEAS,CEAS,0.5,10,"[{'word': 'CEAS', 'ratio': 0.5}, {'word': 'クロック', 'ratio': 0.3}, {'word': 'シーアス', 'ratio': 0.2}]",CEAS,{},[]
+18,18,CLIP,CLIP,0.3,10,"[{'word': 'クリップ', 'ratio': 0.7}, {'word': 'CLIP', 'ratio': 0.3}]",クリップ,{},[]
+19,19,CLS,CLS,0.9,10,"[{'word': 'CLS', 'ratio': 0.9}, {'word': 'セルロース誘導体', 'ratio': 0.1}]",CLS,{},[]
+20,20,CONLL,CoNLL,0.0,10,"[{'word': 'CONLL', 'ratio': 0.5}, {'word': 'コンレル', 'ratio': 0.3}, {'word': 'コンル', 'ratio': 0.1}, {'word': 'コンエル', 'ratio': 0.1}]",CONLL,{},[]
+21,21,CRF,CRF,0.8,10,"[{'word': 'CRF', 'ratio': 0.8}, {'word': 'シーアールエフ', 'ratio': 0.2}]",CRF,{},[]
+22,22,CamemBERT,CamemBERT,0.3,10,"[{'word': 'カマンベール', 'ratio': 0.4}, {'word': 'CamemBERT', 'ratio': 0.3}, {'word': 'カメンバート', 'ratio': 0.3}]",CamemBERT,"```
+1. Candidate: CamemBERT
+2. Explanation: The term ""CamemBERT"" is a specific AI model name derived from the French cheese ""Camembert"" and the BERT model architecture. In the AI domain, it is crucial to maintain the original model name for clarity and recognition. Translating it to ""カマンベール"" or ""カメンバート"" would lose the connection to the BERT architecture, which is essential for understanding its function and purpose. Therefore, using ""CamemBERT"" in Japanese preserves the model's identity and ensures accurate communication within the AI community.
+```","['Camembert', 'Kamen Mart', 'Kamembe RT']"
+23,23,Clustering,クラスタリング,1.0,10,"[{'word': 'クラスタリング', 'ratio': 1.0}]",クラスタリング,{},[]
+24,24,CodeBERT,CodeBERT,0.2,10,"[{'word': 'コードBERT', 'ratio': 0.7}, {'word': 'CodeBERT', 'ratio': 0.2}, {'word': 'コードバート', 'ratio': 0.1}]",コードBERT,{},[]
+25,25,Detecting,検出,0.8,10,"[{'word': '検出', 'ratio': 0.8}, {'word': '検出中', 'ratio': 0.2}]",検出,{},[]
+26,26,Dialogue,ダイアログ,0.0,10,"[{'word': '対話', 'ratio': 0.9}, {'word': '会話', 'ratio': 0.1}]",対話,{},[]
+27,27,English,英語,1.0,10,"[{'word': '英語', 'ratio': 1.0}]",英語,{},[]
+28,28,FLR,FLR,0.7,10,"[{'word': 'FLR', 'ratio': 0.7}, {'word': '最終レイテンシ削減', 'ratio': 0.2}, {'word': 'フラー', 'ratio': 0.1}]",FLR,{},[]
+29,29,FeSTE,FeSTE,0.3,10,"[{'word': 'パーティー', 'ratio': 0.5}, {'word': 'FeSTE', 'ratio': 0.3}, {'word': 'フェステ', 'ratio': 0.2}]",パーティー,{},[]
+30,30,For,の為,0.0,10,"[{'word': '例えば', 'ratio': 0.3}, {'word': 'のために', 'ratio': 0.3}, {'word': 'のため', 'ratio': 0.3}, {'word': 'について', 'ratio': 0.1}]",例えば,"```
+1. Candidate: ""例えば""
+2. Explanation: The term ""for"" in the given context is used to introduce examples, as seen in phrases like ""For instance"" and ""For example."" The Japanese translation ""例えば"" directly translates to ""for example,"" which accurately captures the intended meaning in the context of providing examples. This makes it the best fit for AI domain-specific usage, where clarity and precision in conveying examples are crucial.
+```","['for', 'for', 'About', 'for example']"
+31,31,French,フランス語,1.0,10,"[{'word': 'フランス語', 'ratio': 1.0}]",フランス語,{},[]
+32,32,Furthermore,さらに,1.0,10,"[{'word': 'さらに', 'ratio': 1.0}]",さらに,{},[]
+33,33,GLUE,GLUE,0.2,10,"[{'word': 'のり', 'ratio': 0.6}, {'word': 'GLUE', 'ratio': 0.2}, {'word': 'グルー', 'ratio': 0.2}]",のり,{},[]
+34,34,GPT,GPT,0.8,10,"[{'word': 'GPT', 'ratio': 0.8}, {'word': 'ジーピーティー', 'ratio': 0.2}]",GPT,{},[]
+35,35,Hence,よって,0.1,10,"[{'word': 'したがって', 'ratio': 0.7}, {'word': 'それゆえ', 'ratio': 0.2}, {'word': 'よって', 'ratio': 0.1}]",したがって,{},[]
+36,36,ICLR,ICLR,0.8,10,"[{'word': 'ICLR', 'ratio': 0.8}, {'word': 'アイシーアールエル', 'ratio': 0.1}, {'word': '国際学習表現会議', 'ratio': 0.1}]",ICLR,{},[]
+37,37,IDF,IDF,0.6,10,"[{'word': 'IDF', 'ratio': 0.6}, {'word': '逆文書頻度', 'ratio': 0.2}, {'word': '中間配線盤', 'ratio': 0.2}]",IDF,{},[]
+38,38,KinyaBERT,KinyaBERT,0.1,10,"[{'word': 'キンヤバート', 'ratio': 0.7}, {'word': 'インヤバート', 'ratio': 0.1}, {'word': 'キニャベルテ', 'ratio': 0.1}, {'word': 'KinyaBERT', 'ratio': 0.1}]",キンヤバート,{},[]
+39,39,LXMert,LXMert,0.4,10,"[{'word': 'LXマート', 'ratio': 0.5}, {'word': 'LXMert', 'ratio': 0.4}, {'word': 'LXマートt', 'ratio': 0.1}]",LXマート,{},[]
+40,40,LinCE,LinCE,1.0,10,"[{'word': 'LinCE', 'ratio': 1.0}]",LinCE,{},[]
+41,41,MAWPS,MAWPS,0.8,10,"[{'word': 'MAWPS', 'ratio': 0.8}, {'word': 'ＭＡＷＰＳ', 'ratio': 0.1}, {'word': 'モープス', 'ratio': 0.1}]",MAWPS,{},[]
+42,42,MTDNN,MTDNN,1.0,10,"[{'word': 'MTDNN', 'ratio': 1.0}]",MTDNN,{},[]
+43,43,MathQA,MathQA,0.3,10,"[{'word': '数学QA', 'ratio': 0.6}, {'word': 'MathQA', 'ratio': 0.3}, {'word': '数学検定協会', 'ratio': 0.1}]",数学QA,{},[]
+44,44,Modeling,モデリング,1.0,10,"[{'word': 'モデリング', 'ratio': 1.0}]",モデリング,{},[]
+45,45,Moreover,また,0.1,10,"[{'word': 'さらに', 'ratio': 0.9}, {'word': 'また', 'ratio': 0.1}]",さらに,{},[]
+46,46,Morphology,語形論,0.0,10,"[{'word': '形態論', 'ratio': 0.6}, {'word': '形態学', 'ratio': 0.4}]",形態論,{},[]
+47,47,NLI,NLI,0.7777777777777778,9,"[{'word': 'NLI', 'ratio': 0.7777777777777778}, {'word': '自然言語推論', 'ratio': 0.1111111111111111}, {'word': 'エヌエルアイ', 'ratio': 0.1111111111111111}]",NLI,{},[]
+48,48,NLP,自然言語処理,0.7,10,"[{'word': '自然言語処理', 'ratio': 0.7}, {'word': 'NLP', 'ratio': 0.3}]",自然言語処理,{},[]
+49,49,OOV,OOV,0.1,10,"[{'word': 'PTA', 'ratio': 0.4}, {'word': '語彙外', 'ratio': 0.3}, {'word': 'オーヴ', 'ratio': 0.2}, {'word': 'OOV', 'ratio': 0.1}]",語彙外,"```
+1. Candidate: 語彙外
+2. Explanation: The term ""OOV"" stands for ""Out Of Vocabulary,"" which is a common term in natural language processing (NLP) and AI, referring to words that are not present in the training vocabulary of a model. The translation ""語彙外"" directly translates to ""out of vocabulary"" in Japanese, maintaining both the semantic meaning and the domain-specific usage. This makes it the most accurate and contextually appropriate translation for AI terminology, as it conveys the intended meaning without introducing ambiguity or misinterpretation.
+```","['Large V', 'out of vocabulary', 'Ove', 'P']"
+50,50,PaLM,PaLM,0.2,10,"[{'word': 'パルム', 'ratio': 0.6}, {'word': 'PaLM', 'ratio': 0.2}, {'word': 'パーム', 'ratio': 0.2}]",パルム,{},[]
+51,51,PubMed,PubMed,0.5,10,"[{'word': 'PubMed', 'ratio': 0.5}, {'word': 'パブメッド', 'ratio': 0.2}, {'word': 'パブコメ', 'ratio': 0.2}, {'word': 'プブメド', 'ratio': 0.1}]",PubMed,{},[]
+52,52,QA,QA,0.8,10,"[{'word': 'QA', 'ratio': 0.8}, {'word': '品質保証', 'ratio': 0.2}]",QA,{},[]
+53,53,QED,QED,0.3,10,"[{'word': 'は', 'ratio': 0.5}, {'word': 'QED', 'ratio': 0.3}, {'word': '量子電磁力学', 'ratio': 0.2}]",は,{},[]
+54,54,QUOREF,QUOREF,0.2,10,"[{'word': 'クオレフ', 'ratio': 0.8}, {'word': 'QUOREF', 'ratio': 0.2}]",クオレフ,{},[]
+55,55,REALM,REALM,0.4,10,"[{'word': 'REALM', 'ratio': 0.4}, {'word': 'レルム', 'ratio': 0.4}, {'word': 'リアルム', 'ratio': 0.2}]",レルム,"```
+1. Candidate: レルム
+2. Explanation: The term ""レルム"" is the best translation candidate for ""REALM"" in the context of AI and machine learning. This is because ""レルム"" is a phonetic transliteration that closely matches the pronunciation of ""realm"" in English, ensuring semantic accuracy. Additionally, the back translation ""realm"" accurately reflects the original term, maintaining contextual fit. The other candidates, ""リアルム"" and ""REALM,"" either do not accurately represent the pronunciation or introduce confusion with unrelated terms like ""realme"" or ""Rare LM,"" which are not relevant in the AI domain-specific context of retrieval models.
+```","['realme', 'Rare LM', 'realm']"
+56,56,RGF,RGF,0.8,10,"[{'word': 'RGF', 'ratio': 0.8}, {'word': 'アールジーエフ', 'ratio': 0.2}]",RGF,{},[]
+57,57,RNSum,RNSum,1.0,10,"[{'word': 'RNSum', 'ratio': 1.0}]",RNSum,{},[]
+58,58,ROUGE,ROUGE,0.4,10,"[{'word': 'ルージュ', 'ratio': 0.6}, {'word': 'ROUGE', 'ratio': 0.4}]",ルージュ,{},[]
+59,59,SMCalFlow,SMCalFlow,1.0,10,"[{'word': 'SMCalFlow', 'ratio': 1.0}]",SMCalFlow,{},[]
+60,60,SUTD,SUTD,0.9,10,"[{'word': 'SUTD', 'ratio': 0.9}, {'word': 'しけんたいしょうシステム', 'ratio': 0.1}]",SUTD,{},[]
+61,61,SVAMP,SVAMP,0.6,10,"[{'word': 'SVAMP', 'ratio': 0.6}, {'word': 'スポンジ', 'ratio': 0.3}, {'word': 'スヴァンプ', 'ratio': 0.1}]",SVAMP,{},[]
+62,62,Semantic,意味論,0.0,10,"[{'word': 'セマンティック', 'ratio': 0.7}, {'word': '意味的', 'ratio': 0.2}, {'word': '意味論的', 'ratio': 0.1}]",セマンティック,{},[]
+63,63,Similar,類似,0.8,10,"[{'word': '類似', 'ratio': 0.8}, {'word': '同様', 'ratio': 0.1}, {'word': '似ている', 'ratio': 0.1}]",類似,{},[]
+64,64,Therefore,したがって,0.8,10,"[{'word': 'したがって', 'ratio': 0.8}, {'word': '従って', 'ratio': 0.2}]",したがって,{},[]
+65,65,TreeDST,TreeDST,0.1,10,"[{'word': 'ツリーDST', 'ratio': 0.8}, {'word': 'ツリーダイレクトストレージシステム', 'ratio': 0.1}, {'word': 'TreeDST', 'ratio': 0.1}]",ツリーDST,{},[]
+66,66,VALSE,VALSE,0.2,10,"[{'word': '間違い', 'ratio': 0.3}, {'word': 'バリュー', 'ratio': 0.2}, {'word': 'VALSE', 'ratio': 0.2}, {'word': 'ヴァルス', 'ratio': 0.1}, {'word': '偽物', 'ratio': 0.1}, {'word': 'バルス', 'ratio': 0.1}]",,"I'm sorry, but the term ""VALSE"" does not appear to be a standard AI terminology that I am familiar with. Could you provide more context or clarify the term?","['Vals', 'error', 'Va L', 'fake', 'Barth', 'value']"
+67,67,VFL,VFL,0.7,10,"[{'word': 'VFL', 'ratio': 0.7}, {'word': 'ブイエフエル', 'ratio': 0.2}, {'word': 'ＶＦＬ', 'ratio': 0.1}]",VFL,{},[]
+68,68,ViLBERT,ViLBERT,0.3,10,"[{'word': 'ビルバート', 'ratio': 0.5}, {'word': 'ViLBERT', 'ratio': 0.3}, {'word': 'ヴィルバート', 'ratio': 0.2}]",ビルバート,{},[]
+69,69,VisualBERT,VisualBERT,0.8,10,"[{'word': 'VisualBERT', 'ratio': 0.8}, {'word': 'ビジュアルバート', 'ratio': 0.2}]",VisualBERT,{},[]
+70,70,Wikipedia,wikipedia,0.0,10,"[{'word': 'ウィキペディア', 'ratio': 1.0}]",ウィキペディア,{},[]
+71,71,XLM,XLM,1.0,10,"[{'word': 'XLM', 'ratio': 1.0}]",XLM,{},[]
+72,72,XLNet,XLNet,0.2,10,"[{'word': 'XLネット', 'ratio': 0.8}, {'word': 'XLNet', 'ratio': 0.2}]",XLネット,{},[]
+73,73,ablation,アブレーション,0.8,10,"[{'word': 'アブレーション', 'ratio': 0.8}, {'word': '切除', 'ratio': 0.2}]",アブレーション,{},[]
+74,74,achieves,達成する,0.8,10,"[{'word': '達成する', 'ratio': 0.8}, {'word': '達成', 'ratio': 0.2}]",達成する,{},[]
+75,75,adversarial,敵対的,0.8,10,"[{'word': '敵対的', 'ratio': 0.8}, {'word': '敵対的な', 'ratio': 0.2}]",敵対的,{},[]
+76,76,algorithm,アリゴリズム,0.0,10,"[{'word': 'アルゴリズム', 'ratio': 1.0}]",アルゴリズム,{},[]
+77,77,algorithms,アリゴリズム,0.0,10,"[{'word': 'アルゴリズム', 'ratio': 1.0}]",アルゴリズム,{},[]
+78,78,analysis,分析,1.0,10,"[{'word': '分析', 'ratio': 1.0}]",分析,{},[]
+79,79,annotated,注釈付き,0.9,10,"[{'word': '注釈付き', 'ratio': 0.9}, {'word': 'アノテーション済み', 'ratio': 0.1}]",注釈付き,{},[]
+80,80,annotations,注釈,0.7,10,"[{'word': '注釈', 'ratio': 0.7}, {'word': 'アノテーション', 'ratio': 0.2}, {'word': 'コンメンタール', 'ratio': 0.1}]",注釈,{},[]
+81,81,annotators,注釈者,0.2,10,"[{'word': 'アノテーター', 'ratio': 0.6}, {'word': '注釈者', 'ratio': 0.2}, {'word': 'annotators', 'ratio': 0.1}, {'word': 'アノテーターたち', 'ratio': 0.1}]",アノテーター,{},[]
+82,82,answer,応答,0.0,10,"[{'word': '答え', 'ratio': 0.6}, {'word': '回答', 'ratio': 0.3}, {'word': '解答', 'ratio': 0.1}]",答え,{},[]
+83,83,approach,アプローチ,1.0,10,"[{'word': 'アプローチ', 'ratio': 1.0}]",アプローチ,{},[]
+84,84,aspect,アスペクト,0.7,10,"[{'word': 'アスペクト', 'ratio': 0.7}, {'word': '側面', 'ratio': 0.3}]",アスペクト,{},[]
+85,85,assessing,評価,0.9,10,"[{'word': '評価', 'ratio': 0.9}, {'word': '評価する', 'ratio': 0.1}]",評価,{},[]
+86,86,attention,アテンション,0.7,10,"[{'word': 'アテンション', 'ratio': 0.7}, {'word': '注意', 'ratio': 0.3}]",アテンション,{},[]
+87,87,augmented,強化された,0.0,10,"[{'word': '拡張された', 'ratio': 0.6}, {'word': '拡張', 'ratio': 0.3}, {'word': '増強された', 'ratio': 0.1}]",拡張された,{},[]
+88,88,automatic,自動,1.0,10,"[{'word': '自動', 'ratio': 1.0}]",自動,{},[]
+89,89,automatically,自動的に,1.0,10,"[{'word': '自動的に', 'ratio': 1.0}]",自動的に,{},[]
+90,90,baselines,ベースライン,1.0,9,"[{'word': 'ベースライン', 'ratio': 1.0}]",ベースライン,{},[]
+91,91,biases,バイアス,0.7777777777777778,9,"[{'word': 'バイアス', 'ratio': 0.7777777777777778}, {'word': '偏見', 'ratio': 0.2222222222222222}]",バイアス,{},[]
+92,92,binary,バイナリ,0.6666666666666666,9,"[{'word': 'バイナリ', 'ratio': 0.6666666666666666}, {'word': '二進数', 'ratio': 0.1111111111111111}, {'word': 'ビナリゼーション', 'ratio': 0.1111111111111111}, {'word': '二項', 'ratio': 0.1111111111111111}]",バイナリ,{},[]
+93,93,captions,キャプション,0.9,10,"[{'word': 'キャプション', 'ratio': 0.9}, {'word': 'Shashin-bun', 'ratio': 0.1}]",キャプション,{},[]
+94,94,classifier,類別詞,0.0,9,"[{'word': '分類器', 'ratio': 0.6666666666666666}, {'word': 'クラシファイア', 'ratio': 0.1111111111111111}, {'word': '分類子', 'ratio': 0.1111111111111111}, {'word': 'クラスファイア', 'ratio': 0.1111111111111111}]",分類器,{},[]
+95,95,classifiers,類別詞,0.0,10,"[{'word': '分類器', 'ratio': 0.7}, {'word': 'クラシファイア', 'ratio': 0.1}, {'word': '分類子', 'ratio': 0.1}, {'word': 'クラスファイア', 'ratio': 0.1}]",分類器,{},[]
+96,96,classifying,分類し,0.0,10,"[{'word': '分類', 'ratio': 0.9}, {'word': 'クラスフィリング', 'ratio': 0.1}]",分類,{},[]
+97,97,compared,比較して,0.0,9,"[{'word': '比較された', 'ratio': 0.6666666666666666}, {'word': '比較すると', 'ratio': 0.1111111111111111}, {'word': '比較した', 'ratio': 0.1111111111111111}, {'word': '比較', 'ratio': 0.1111111111111111}]",比較された,{},[]
+98,98,compositionality,構成の可能性,0.0,9,"[{'word': '構成性', 'ratio': 0.6666666666666666}, {'word': 'コンポジション', 'ratio': 0.1111111111111111}, {'word': '構成的性質', 'ratio': 0.1111111111111111}, {'word': '合成性', 'ratio': 0.1111111111111111}]",構成性,{},[]
+99,99,computation,計算,1.0,9,"[{'word': '計算', 'ratio': 1.0}]",計算,{},[]
+100,100,computational,計算,0.2,10,"[{'word': '計算的', 'ratio': 0.6}, {'word': '計算', 'ratio': 0.2}, {'word': 'コンピュテーショナル', 'ratio': 0.2}]",計算的,{},[]
+101,101,context,文脈,0.0,10,"[{'word': 'コンテキスト', 'ratio': 0.8}, {'word': 'コンテクスト', 'ratio': 0.1}, {'word': 'コンテンツ選択', 'ratio': 0.1}]",コンテキスト,{},[]
+102,102,contexts,文脈,0.4444444444444444,9,"[{'word': 'コンテキスト', 'ratio': 0.5555555555555556}, {'word': '文脈', 'ratio': 0.4444444444444444}]",コンテキスト,{},[]
+103,103,contextualized,文脈で理解できる,0.0,9,"[{'word': 'コンテキスト化された', 'ratio': 0.3333333333333333}, {'word': '文脈化された', 'ratio': 0.2222222222222222}, {'word': 'コンテクスト化された', 'ratio': 0.2222222222222222}, {'word': '文脈的', 'ratio': 0.2222222222222222}]",文脈化された,"```
+1. Candidate: ""文脈化された""
+2. Explanation: ""文脈化された"" is the best fit for translating ""contextualized"" in the AI domain. This term accurately conveys the process of embedding words with context-specific information, which is crucial in transformer-based models. The term ""文脈"" (bunmyaku) directly translates to ""context,"" and ""化された"" (ka sareta) indicates the transformation or adaptation process, aligning well with the concept of embeddings being adjusted based on surrounding text. This choice maintains semantic accuracy and ensures that the technical nuance of contextual embeddings is preserved in Japanese.
+```","['contextualized', 'contextualized', 'contextualized', 'contextual']"
+104,104,conversational,会話的,0.0,10,"[{'word': '会話型', 'ratio': 0.6}, {'word': '会話の', 'ratio': 0.2}, {'word': '会話的な', 'ratio': 0.1}, {'word': 'Kaidan-teki', 'ratio': 0.1}]",会話型,{},[]
+105,105,coreference,同一指示,0.0,10,"[{'word': '共参照', 'ratio': 0.4}, {'word': 'コアレファレンス', 'ratio': 0.2}, {'word': '指示対象同定', 'ratio': 0.1}, {'word': '照応', 'ratio': 0.1}, {'word': 'Koa Shūhen', 'ratio': 0.1}, {'word': 'コアフェレンス', 'ratio': 0.1}]",共参照,"```
+1. Candidate: 共参照
+2. Explanation: The term ""共参照"" is the best fit for translating ""coreference"" in the context of AI and natural language processing. ""共参照"" directly translates to ""coreference"" and is commonly used in the field to describe the relationship between different expressions in a text that refer to the same entity. This term accurately captures the semantic meaning of ""coreference"" and is widely recognized in Japanese linguistic and AI literature, ensuring both semantic accuracy and contextual fit.
+```","['core reference', 'anaphora', 'Koa Shūhen', 'coreference', 'referent identification', 'coreference']"
+106,106,corpora,コーパス,0.9,10,"[{'word': 'コーパス', 'ratio': 0.9}, {'word': 'Korida', 'ratio': 0.1}]",コーパス,{},[]
+107,107,corpus,コーパス,0.9,10,"[{'word': 'コーパス', 'ratio': 0.9}, {'word': 'Korida', 'ratio': 0.1}]",コーパス,{},[]
+108,108,correlations,相関,0.8,10,"[{'word': '相関', 'ratio': 0.8}, {'word': '相関関係', 'ratio': 0.2}]",相関,{},[]
+109,109,corresponding,対応する,0.9,10,"[{'word': '対応する', 'ratio': 0.9}, {'word': '対応', 'ratio': 0.1}]",対応する,{},[]
+110,110,counterfactual,非現実節,0.0,10,"[{'word': '反実仮想', 'ratio': 0.6}, {'word': '反事実', 'ratio': 0.3}, {'word': '偽事実', 'ratio': 0.1}]",反実仮想,{},[]
+111,111,data,データ,1.0,10,"[{'word': 'データ', 'ratio': 1.0}]",データ,{},[]
+112,112,dataset,データセット,1.0,10,"[{'word': 'データセット', 'ratio': 1.0}]",データセット,{},[]
+113,113,datasets,データセット,1.0,10,"[{'word': 'データセット', 'ratio': 1.0}]",データセット,{},[]
+114,114,decoder,デコーダ,0.6,10,"[{'word': 'デコーダ', 'ratio': 0.6}, {'word': 'デコーダー', 'ratio': 0.4}]",デコーダ,{},[]
+115,115,decoding,デコーディング,0.8,10,"[{'word': 'デコーディング', 'ratio': 0.8}, {'word': 'デコード', 'ratio': 0.1}, {'word': '認識', 'ratio': 0.1}]",デコーディング,{},[]
+116,116,dependencies,依存性,0.0,10,"[{'word': '依存関係', 'ratio': 1.0}]",依存関係,{},[]
+117,117,distributions,分布,0.9,10,"[{'word': '分布', 'ratio': 0.9}, {'word': '分配金', 'ratio': 0.1}]",分布,{},[]
+118,118,documents,文章,0.0,10,"[{'word': '文書', 'ratio': 0.6}, {'word': 'ドキュメント', 'ratio': 0.3}, {'word': '書類', 'ratio': 0.1}]",文書,{},[]
+119,119,domains,ドメイン,1.0,10,"[{'word': 'ドメイン', 'ratio': 1.0}]",ドメイン,{},[]
+120,120,downstream,下流,0.5,10,"[{'word': 'ダウンストリーム', 'ratio': 0.5}, {'word': '下流', 'ratio': 0.5}]",ダウンストリーム,{},[]
+121,121,edit,編集,0.9,10,"[{'word': '編集', 'ratio': 0.9}, {'word': 'エディット', 'ratio': 0.1}]",編集,{},[]
+122,122,embedding,埋込み,0.0,10,"[{'word': '埋め込み', 'ratio': 1.0}]",埋め込み,{},[]
+123,123,embeddings,埋込み,0.0,10,"[{'word': '埋め込み', 'ratio': 1.0}]",埋め込み,{},[]
+124,124,encode,エンコード,0.9,10,"[{'word': 'エンコード', 'ratio': 0.9}, {'word': 'コーディング', 'ratio': 0.1}]",エンコード,{},[]
+125,125,encoder,エンコーダ,0.9,10,"[{'word': 'エンコーダ', 'ratio': 0.9}, {'word': 'エンコーダー', 'ratio': 0.1}]",エンコーダ,{},[]
+126,126,encoders,エンコーダ,1.0,10,"[{'word': 'エンコーダ', 'ratio': 1.0}]",エンコーダ,{},[]
+127,127,encoding,エンコーディング,1.0,10,"[{'word': 'エンコーディング', 'ratio': 1.0}]",エンコーディング,{},[]
+128,128,entities,エンティティ,1.0,10,"[{'word': 'エンティティ', 'ratio': 1.0}]",エンティティ,{},[]
+129,129,evaluation,評価,1.0,10,"[{'word': '評価', 'ratio': 1.0}]",評価,{},[]
+130,130,event,イベント,1.0,10,"[{'word': 'イベント', 'ratio': 1.0}]",イベント,{},[]
+131,131,existing,既存の,0.7777777777777778,9,"[{'word': '既存の', 'ratio': 0.7777777777777778}, {'word': '既存', 'ratio': 0.2222222222222222}]",既存の,{},[]
+132,132,extracted,抽出された,0.7777777777777778,9,"[{'word': '抽出された', 'ratio': 0.7777777777777778}, {'word': '抜粋', 'ratio': 0.2222222222222222}]",抽出された,{},[]
+133,133,extracting,抽出,0.8,10,"[{'word': '抽出', 'ratio': 0.8}, {'word': '抽出する', 'ratio': 0.2}]",抽出,{},[]
+134,134,extraction,抽出,1.0,10,"[{'word': '抽出', 'ratio': 1.0}]",抽出,{},[]
+135,135,extractive,抽出,0.0,10,"[{'word': '抽出的', 'ratio': 0.7}, {'word': '抽出的な', 'ratio': 0.2}, {'word': '抽出型', 'ratio': 0.1}]",抽出的,{},[]
+136,136,features,機能,0.0,10,"[{'word': '特徴', 'ratio': 0.7}, {'word': '特徴量', 'ratio': 0.3}]",特徴,{},[]
+137,137,finetuning,微調整,0.3333333333333333,9,"[{'word': 'ファインチューニング', 'ratio': 0.5555555555555556}, {'word': '微調整', 'ratio': 0.3333333333333333}, {'word': 'フィナルトゥーニング', 'ratio': 0.1111111111111111}]",ファインチューニング,{},[]
+138,138,generalize,一般化する,0.9,10,"[{'word': '一般化する', 'ratio': 0.9}, {'word': '総括', 'ratio': 0.1}]",一般化する,{},[]
+139,139,generated,生成された,1.0,10,"[{'word': '生成された', 'ratio': 1.0}]",生成された,{},[]
+140,140,generating,生成,0.6,10,"[{'word': '生成', 'ratio': 0.6}, {'word': '生成する', 'ratio': 0.3}, {'word': '生成している', 'ratio': 0.1}]",生成,{},[]
+141,141,generation,生成,0.8,10,"[{'word': '生成', 'ratio': 0.8}, {'word': '世代', 'ratio': 0.2}]",生成,{},[]
+142,142,gradient,傾度,0.0,9,"[{'word': '勾配', 'ratio': 1.0}]",勾配,{},[]
+143,143,grammar,文法,1.0,10,"[{'word': '文法', 'ratio': 1.0}]",文法,{},[]
+144,144,grammatical,文法的,0.6666666666666666,9,"[{'word': '文法的', 'ratio': 0.6666666666666666}, {'word': '文法的な', 'ratio': 0.3333333333333333}]",文法的,{},[]
+145,145,graph,グラフ,1.0,9,"[{'word': 'グラフ', 'ratio': 1.0}]",グラフ,{},[]
+146,146,graphs,グラフ,1.0,9,"[{'word': 'グラフ', 'ratio': 1.0}]",グラフ,{},[]
+147,147,grounding,教育付け,0.0,9,"[{'word': 'グラウンディング', 'ratio': 0.5555555555555556}, {'word': '接地', 'ratio': 0.2222222222222222}, {'word': '基盤化', 'ratio': 0.1111111111111111}, {'word': 'Chikaku', 'ratio': 0.1111111111111111}]",グラウンディング,{},[]
+148,148,heuristic,ヒューリスティック,0.9,10,"[{'word': 'ヒューリスティック', 'ratio': 0.9}, {'word': '(Heurisutikku', 'ratio': 0.1}]",ヒューリスティック,{},[]
+149,149,human,人間の,0.0,10,"[{'word': '人間', 'ratio': 0.9}, {'word': '人間的', 'ratio': 0.1}]",人間,{},[]
+150,150,identifying,識別,0.1,10,"[{'word': '同定', 'ratio': 0.4}, {'word': '特定する', 'ratio': 0.2}, {'word': '判明', 'ratio': 0.2}, {'word': '識別', 'ratio': 0.1}, {'word': 'データセットの拡張', 'ratio': 0.1}]",特定する,"```
+1. Candidate: 特定する
+2. Explanation: ""特定する"" is the best translation for ""identifying"" in the context of AI terminology. It directly translates to ""identify"" in English, which aligns well with the action of determining or recognizing specific data points or patterns within datasets, a common task in AI. The other candidates either imply a different action or are more abstract, such as ""識別"" and ""同定,"" which translate to ""identification"" and may not convey the active process of identifying. ""特定する"" maintains both semantic accuracy and contextual fit for AI-related tasks.
+```","['Extending the dataset', 'Turns out', 'identify', 'identification', 'identification']"
+151,151,image,イメージ,0.2,10,"[{'word': '画像', 'ratio': 0.8}, {'word': 'イメージ', 'ratio': 0.2}]",画像,{},[]
+152,152,information,情報,0.9,10,"[{'word': '情報', 'ratio': 0.9}, {'word': 'インフォメーション', 'ratio': 0.1}]",情報,{},[]
+153,153,internet,インターネット,0.8888888888888888,9,"[{'word': 'インターネット', 'ratio': 0.8888888888888888}, {'word': 'internet', 'ratio': 0.1111111111111111}]",インターネット,{},[]
+154,154,interpretable,解釈可能,0.1,10,"[{'word': '解釈可能な', 'ratio': 0.7}, {'word': '可解釈', 'ratio': 0.2}, {'word': '解釈可能', 'ratio': 0.1}]",解釈可能な,{},[]
+155,155,knowledge,知識,1.0,10,"[{'word': '知識', 'ratio': 1.0}]",知識,{},[]
+156,156,labeled,ラベル付き,0.4,10,"[{'word': 'ラベル付けされた', 'ratio': 0.5}, {'word': 'ラベル付き', 'ratio': 0.4}, {'word': 'ラベルが貼られた', 'ratio': 0.1}]",ラベル付けされた,{},[]
+157,157,language,言語,1.0,10,"[{'word': '言語', 'ratio': 1.0}]",言語,{},[]
+158,158,languages,言語,1.0,10,"[{'word': '言語', 'ratio': 1.0}]",言語,{},[]
+159,159,large,大規模な,0.2,10,"[{'word': '大きな', 'ratio': 0.4}, {'word': '大きい', 'ratio': 0.2}, {'word': '大規模', 'ratio': 0.2}, {'word': '大規模な', 'ratio': 0.2}]",大規模な,"```
+1. Candidate: 大規模な
+2. Explanation: The term ""大規模な"" is the best fit for translating ""large"" in the context of AI and machine learning. In this domain, ""large"" often refers to the scale or size of datasets, models, or computational resources. ""大規模な"" accurately conveys the idea of a significant scale or magnitude, which is crucial when discussing multilingual models, factors affecting sequence length, and datasets in AI. The back translation ""massive"" aligns well with the intended meaning, emphasizing the substantial size or extent, which is more contextually appropriate than simply ""big"" or ""large scale"" in this technical context.
+```","['massive', 'big', 'large scale', 'big']"
+160,160,learning,学習,1.0,10,"[{'word': '学習', 'ratio': 1.0}]",学習,{},[]
+161,161,lexical,語彙的,0.5,10,"[{'word': '語彙的', 'ratio': 0.5}, {'word': 'レキシカル', 'ratio': 0.2}, {'word': '語彙の', 'ratio': 0.2}, {'word': '語彙的な', 'ratio': 0.1}]",語彙的,{},[]
+162,162,linear,線形,0.8,10,"[{'word': '線形', 'ratio': 0.8}, {'word': 'リニア', 'ratio': 0.2}]",線形,{},[]
+163,163,linguistic,言語的,0.7,10,"[{'word': '言語的', 'ratio': 0.7}, {'word': '言語的な', 'ratio': 0.1}, {'word': '言語学的', 'ratio': 0.1}, {'word': '言語の', 'ratio': 0.1}]",言語的,{},[]
+164,164,linguistics,言語学,1.0,10,"[{'word': '言語学', 'ratio': 1.0}]",言語学,{},[]
+165,165,linked,リンクされた,0.9,10,"[{'word': 'リンクされた', 'ratio': 0.9}, {'word': '連動', 'ratio': 0.1}]",リンクされた,{},[]
+166,166,manually,手動で,0.8,10,"[{'word': '手動で', 'ratio': 0.8}, {'word': 'マニュアル', 'ratio': 0.1}, {'word': '手動', 'ratio': 0.1}]",手動で,{},[]
+167,167,meaning,意味,1.0,10,"[{'word': '意味', 'ratio': 1.0}]",意味,{},[]
+168,168,method,方法,0.6666666666666666,9,"[{'word': '方法', 'ratio': 0.6666666666666666}, {'word': '手法', 'ratio': 0.3333333333333333}]",方法,{},[]
+169,169,methods,方法,0.4444444444444444,9,"[{'word': '手法', 'ratio': 0.4444444444444444}, {'word': '方法', 'ratio': 0.4444444444444444}, {'word': 'メソッド', 'ratio': 0.1111111111111111}]",手法,"```
+1. Candidate: 手法
+2. Explanation: In the context of AI and technical fields, ""手法"" is often used to refer to specific techniques or approaches used in research and development. It conveys a sense of methodology or strategy, which aligns well with the usage in the provided sentences where different methods are being evaluated and compared. ""方法"" is a more general term for ""method"" and might not capture the technical nuance as effectively, while ""メソッド"" is typically used in programming to refer to functions or procedures, which doesn't fit the context here.
+```","['method', 'method', 'method']"
+170,170,metrics,メトリックス,0.0,10,"[{'word': 'メトリクス', 'ratio': 0.4}, {'word': 'メトリック', 'ratio': 0.4}, {'word': 'Metricsu', 'ratio': 0.1}, {'word': '指標', 'ratio': 0.1}]",メトリクス,"```
+1. Candidate: ""メトリクス""
+2. Explanation: ""メトリクス"" is the best fit for translating ""metrics"" in the context of AI and machine learning. This term is commonly used in the Japanese AI community to refer to performance measures or evaluation criteria, aligning closely with the English usage. It maintains semantic accuracy and is widely understood in technical contexts, ensuring that the intended meaning is preserved in translation. The back translation as ""metrics"" also confirms its appropriateness and contextual fit.
+```","['index', 'Metrics', 'metric', 'metrics']"
+171,171,modalities,モダリティ,1.0,10,"[{'word': 'モダリティ', 'ratio': 1.0}]",モダリティ,{},[]
+172,172,model,モデル,1.0,10,"[{'word': 'モデル', 'ratio': 1.0}]",モデル,{},[]
+173,173,models,モデル,0.8888888888888888,9,"[{'word': 'モデル', 'ratio': 0.8888888888888888}, {'word': 'Mōdoru', 'ratio': 0.1111111111111111}]",モデル,{},[]
+174,174,monolingual,単一言語,0.0,9,"[{'word': '単言語', 'ratio': 0.4444444444444444}, {'word': 'モノリンガル', 'ratio': 0.3333333333333333}, {'word': '単言語の', 'ratio': 0.2222222222222222}]",単言語,"```
+1. Candidate: 単言語
+2. Explanation: ""単言語"" is the best fit for translating ""monolingual"" in the context of AI and language models. It directly translates to ""monolingual"" and is commonly used in technical and academic contexts to describe models or systems that operate in a single language. This term is precise and widely understood in the AI community, ensuring semantic accuracy and contextual fit.
+```","['monolingual', 'monolingual', 'monolingual']"
+175,175,morphemes,形態素,0.9,10,"[{'word': '形態素', 'ratio': 0.9}, {'word': 'morpheme', 'ratio': 0.1}]",形態素,{},[]
+176,176,morphological,形態的,0.3,10,"[{'word': '形態論的', 'ratio': 0.3}, {'word': '形態的', 'ratio': 0.3}, {'word': '形態学的', 'ratio': 0.3}, {'word': '形態的な', 'ratio': 0.1}]",形態論的,"```
+1. Candidate: 形態論的
+2. Explanation: The term ""morphological"" in the context of AI and natural language processing refers to the study and analysis of the structure and form of words, including their inflections and derivations. ""形態論的"" is the most appropriate translation as it directly relates to ""morphology"" in the linguistic sense, which is crucial for understanding the compositionality and structure of words in AI models. This term accurately captures the domain-specific usage of ""morphological"" in the context of analyzing and processing language data, making it the best fit for the given context.
+```","['morphological', 'morphological', 'morphological', 'morphological']"
+177,177,morphologically,形態的に,0.7,10,"[{'word': '形態的に', 'ratio': 0.7}, {'word': '形態学的に', 'ratio': 0.2}, {'word': '形態論的に', 'ratio': 0.1}]",形態的に,{},[]
+178,178,motivated,動機づけられる,0.0,9,"[{'word': '動機付けられた', 'ratio': 0.4444444444444444}, {'word': '動機づけられた', 'ratio': 0.2222222222222222}, {'word': '意欲的', 'ratio': 0.1111111111111111}, {'word': 'やる気のある', 'ratio': 0.1111111111111111}, {'word': 'katsuryoku sareru', 'ratio': 0.1111111111111111}]",動機づけられた,"```
+1. Candidate: 動機づけられた
+2. Explanation: The term ""motivated"" in the given context refers to the reasoning or rationale behind ensuring semantic closeness between questions. ""動機づけられた"" directly translates to ""motivated"" and accurately captures the intended meaning of providing a rationale or basis for an action, which is crucial in AI-related discussions where logical reasoning and justification are important. This candidate maintains semantic accuracy and aligns well with the AI domain-specific usage.
+```","['ambitious', 'motivated', 'be energized', 'motivated', 'motivated']"
+179,179,multilingual,他言語,0.0,10,"[{'word': '多言語', 'ratio': 1.0}]",多言語,{},[]
+180,180,multitask,マルチタスク,1.0,9,"[{'word': 'マルチタスク', 'ratio': 1.0}]",マルチタスク,{},[]
+181,181,named,挙げられた,0.0,10,"[{'word': '名前付き', 'ratio': 0.6}, {'word': '名付けられた', 'ratio': 0.3}, {'word': '名称付き', 'ratio': 0.1}]",名前付き,{},[]
+182,182,namely,すなわち,0.9,10,"[{'word': 'すなわち', 'ratio': 0.9}, {'word': 'namely', 'ratio': 0.1}]",すなわち,{},[]
+183,183,natural,自然な,0.4,10,"[{'word': '自然な', 'ratio': 0.4}, {'word': '自然', 'ratio': 0.4}, {'word': 'ナチュラル', 'ratio': 0.2}]",自然な,"```
+1. Candidate: 自然な
+2. Explanation: The term ""自然な"" is the best fit for translating ""natural"" in the context of AI terminology. In AI, ""natural"" often refers to something that is intuitive, seamless, or mimics human-like behavior, such as in ""natural language processing."" The translation ""自然な"" captures this nuance by conveying the idea of something being natural or intuitive in a human-like sense. The back translation to ""natural"" confirms its semantic accuracy and contextual fit, making it the most appropriate choice for AI-related contexts.
+```","['nature', 'natural', 'natural']"
+184,184,neural,ニューラル,0.6,10,"[{'word': 'ニューラル', 'ratio': 0.6}, {'word': '神経の', 'ratio': 0.3}, {'word': '神経', 'ratio': 0.1}]",ニューラル,{},[]
+185,185,news,ニュース,1.0,10,"[{'word': 'ニュース', 'ratio': 1.0}]",ニュース,{},[]
+186,186,newswire,ニュースワイヤー,0.5555555555555556,9,"[{'word': 'ニュースワイヤー', 'ratio': 0.5555555555555556}, {'word': 'ニュースワイヤ', 'ratio': 0.4444444444444444}]",ニュースワイヤー,{},[]
+187,187,nodes,ノード,1.0,10,"[{'word': 'ノード', 'ratio': 1.0}]",ノード,{},[]
+188,188,noun,名詞,1.0,10,"[{'word': '名詞', 'ratio': 1.0}]",名詞,{},[]
+189,189,nouns,名詞,1.0,10,"[{'word': '名詞', 'ratio': 1.0}]",名詞,{},[]
+190,190,number,数字,0.0,9,"[{'word': '数', 'ratio': 0.5555555555555556}, {'word': '番号', 'ratio': 0.2222222222222222}, {'word': '数量', 'ratio': 0.2222222222222222}]",数,{},[]
+191,191,online,オンライン,1.0,10,"[{'word': 'オンライン', 'ratio': 1.0}]",オンライン,{},[]
+192,192,outputs,出力,0.8,10,"[{'word': '出力', 'ratio': 0.8}, {'word': 'アウトプット', 'ratio': 0.2}]",出力,{},[]
+193,193,paper,論文,0.8,10,"[{'word': '論文', 'ratio': 0.8}, {'word': 'ペーパー', 'ratio': 0.2}]",論文,{},[]
+194,194,parallel,並列,0.5,10,"[{'word': '並列', 'ratio': 0.5}, {'word': '並行', 'ratio': 0.3}, {'word': 'パラレル', 'ratio': 0.2}]",並列,{},[]
+195,195,parsing,構文解析,0.6,10,"[{'word': '構文解析', 'ratio': 0.6}, {'word': '解析', 'ratio': 0.3}, {'word': 'パース', 'ratio': 0.1}]",構文解析,{},[]
+196,196,perplexity,困惑,0.2,10,"[{'word': 'パープレキシティ', 'ratio': 0.4}, {'word': '困惑', 'ratio': 0.2}, {'word': '困惑度', 'ratio': 0.2}, {'word': '混乱度', 'ratio': 0.1}, {'word': '不一致度', 'ratio': 0.1}]",パープレキシティ,"```
+1. Candidate: パープレキシティ
+2. Explanation: The term ""perplexity"" in the context of AI, particularly in natural language processing, refers to a measurement of how well a probability model predicts a sample. It is a technical term that is often used in its original English form in Japanese AI literature to maintain precision and avoid ambiguity. The candidate ""パープレキシティ"" is a direct transliteration of ""perplexity,"" which preserves the technical meaning and is commonly understood by professionals in the field. Other candidates like ""困惑度"" or ""混乱度"" introduce interpretations that could imply confusion or discrepancy, which are not accurate in the AI context.
+```","['perplexity', 'Perplexity level', 'degree of discrepancy', 'puzzled', 'Confusion level']"
+197,197,phrase,フレーズ,1.0,10,"[{'word': 'フレーズ', 'ratio': 1.0}]",フレーズ,{},[]
+198,198,predicates,述語,0.5,10,"[{'word': '述語', 'ratio': 0.5}, {'word': '命題', 'ratio': 0.5}]",述語,{},[]
+199,199,pretrained,事前訓練された,0.1,10,"[{'word': '事前学習済み', 'ratio': 0.8}, {'word': 'じゅくれんした', 'ratio': 0.1}, {'word': '事前訓練された', 'ratio': 0.1}]",事前学習済み,{},[]
+200,200,pretraining,事前訓練,0.0,10,"[{'word': '事前学習', 'ratio': 0.5}, {'word': 'プレトレーニング', 'ratio': 0.2}, {'word': '事前トレーニング', 'ratio': 0.2}, {'word': 'プリトレーニング', 'ratio': 0.1}]",事前学習,{},[]
+201,201,previous,以前の,0.1,10,"[{'word': '前の', 'ratio': 0.9}, {'word': '以前の', 'ratio': 0.1}]",前の,{},[]
+202,202,problem,問題,1.0,10,"[{'word': '問題', 'ratio': 1.0}]",問題,{},[]
+203,203,pronouns,代名詞,1.0,10,"[{'word': '代名詞', 'ratio': 1.0}]",代名詞,{},[]
+204,204,propose,提案,0.0,10,"[{'word': '提案する', 'ratio': 1.0}]",提案する,{},[]
+205,205,pseudo,擬似,0.6,10,"[{'word': '擬似', 'ratio': 0.6}, {'word': '疑似', 'ratio': 0.3}, {'word': '偽', 'ratio': 0.1}]",擬似,{},[]
+206,206,qualitative,質的,0.4,10,"[{'word': '定性的', 'ratio': 0.5}, {'word': '質的', 'ratio': 0.4}, {'word': '定性', 'ratio': 0.1}]",定性的,{},[]
+207,207,quality,品質,0.7,10,"[{'word': '品質', 'ratio': 0.7}, {'word': '質', 'ratio': 0.3}]",品質,{},[]
+208,208,queries,質問,0.0,10,"[{'word': 'クエリ', 'ratio': 1.0}]",クエリ,{},[]
+209,209,question,質問,1.0,10,"[{'word': '質問', 'ratio': 1.0}]",質問,{},[]
+210,210,questions,質問,0.8,10,"[{'word': '質問', 'ratio': 0.8}, {'word': '質問群', 'ratio': 0.1}, {'word': '質問放射場', 'ratio': 0.1}]",質問,{},[]
+211,211,re,RE,0.0,10,"[{'word': '再', 'ratio': 0.6}, {'word': '再評価', 'ratio': 0.2}, {'word': 'レ', 'ratio': 0.1}, {'word': 'リターン', 'ratio': 0.1}]",再,{},[]
+212,212,reasoning,推論,1.0,10,"[{'word': '推論', 'ratio': 1.0}]",推論,{},[]
+213,213,regression,回帰,0.9,10,"[{'word': '回帰', 'ratio': 0.9}, {'word': '退行', 'ratio': 0.1}]",回帰,{},[]
+214,214,relation,リレーション,0.0,10,"[{'word': '関係', 'ratio': 1.0}]",関係,{},[]
+215,215,relations,relations,0.0,10,"[{'word': '関係', 'ratio': 1.0}]",関係,{},[]
+216,216,representations,表現,1.0,10,"[{'word': '表現', 'ratio': 1.0}]",表現,{},[]
+217,217,research,研究,0.8,10,"[{'word': '研究', 'ratio': 0.8}, {'word': 'リサーチ', 'ratio': 0.2}]",研究,{},[]
+218,218,resources,リソース,1.0,10,"[{'word': 'リソース', 'ratio': 1.0}]",リソース,{},[]
+219,219,retrieved,回収された,0.0,10,"[{'word': '取得された', 'ratio': 0.4}, {'word': '取得した', 'ratio': 0.3}, {'word': '検索された', 'ratio': 0.2}, {'word': '検索済み', 'ratio': 0.1}]",取得した,"```
+1. Candidate: 取得した
+2. Explanation: In the context of AI, particularly in tasks involving information retrieval and processing, ""取得した"" (obtained) is the most semantically accurate translation for ""retrieved."" It implies that the data or information has been successfully acquired and is ready for use in subsequent processes, such as inference. This aligns well with the AI domain where retrieval often involves fetching relevant data from a database or dataset. The back translation ""obtained"" also fits well contextually, maintaining the intended meaning of having accessed and prepared the necessary information for the next step.
+```","['Searched', 'searched', 'obtained', 'obtained']"
+220,220,search,検索,0.8,10,"[{'word': '検索', 'ratio': 0.8}, {'word': '探索', 'ratio': 0.1}, {'word': 'Sāchi', 'ratio': 0.1}]",検索,{},[]
+221,221,semantically,意味論的に,0.0,10,"[{'word': '意味的に', 'ratio': 0.7}, {'word': 'セマンティックに', 'ratio': 0.3}]",意味的に,{},[]
+222,222,semantics,意味論,0.5,10,"[{'word': 'セマンティクス', 'ratio': 0.5}, {'word': '意味論', 'ratio': 0.5}]",セマンティクス,{},[]
+223,223,sense,感覚,0.1,10,"[{'word': '意味', 'ratio': 0.8}, {'word': '感覚', 'ratio': 0.1}, {'word': 'センス', 'ratio': 0.1}]",意味,{},[]
+224,224,sentence,文章,0.0,10,"[{'word': '文', 'ratio': 0.9}, {'word': 'センテンス', 'ratio': 0.1}]",文,{},[]
+225,225,sentences,文章,0.0,9,"[{'word': '文', 'ratio': 0.8888888888888888}, {'word': '文節', 'ratio': 0.1111111111111111}]",文,{},[]
+226,226,sentiment,感情,0.8888888888888888,9,"[{'word': '感情', 'ratio': 0.8888888888888888}, {'word': 'センチメント', 'ratio': 0.1111111111111111}]",感情,{},[]
+227,227,seq2seq,seq2seq,0.4444444444444444,9,"[{'word': 'seq2seq', 'ratio': 0.4444444444444444}, {'word': 'シーケンス2シーケンス', 'ratio': 0.3333333333333333}, {'word': 'セックツーセック', 'ratio': 0.1111111111111111}, {'word': 'シーケンスツーシーケンス', 'ratio': 0.1111111111111111}]",シーケンスツーシーケンス,"```
+1. Candidate: シーケンスツーシーケンス
+2. Explanation: The term ""seq2seq"" in the AI domain refers to ""sequence to sequence"" models, which are used in tasks like machine translation and text summarization. The candidate ""シーケンスツーシーケンス"" directly translates to ""sequence to sequence,"" maintaining the semantic meaning and technical accuracy. This translation is widely recognized and used in Japanese AI literature, ensuring contextual fit and understanding among professionals in the field.
+```","['sec to sec', 'back q2 back q', 'sequence to sequence', 'sequence 2 sequence']"
+228,228,sequences,シーケンス,1.0,9,"[{'word': 'シーケンス', 'ratio': 1.0}]",シーケンス,{},[]
+229,229,shared,共有,0.8,10,"[{'word': '共有', 'ratio': 0.8}, {'word': 'シェアード', 'ratio': 0.2}]",共有,{},[]
+230,230,similarity,類似性,0.7,10,"[{'word': '類似性', 'ratio': 0.7}, {'word': '類似度', 'ratio': 0.3}]",類似性,{},[]
+231,231,simultaneous,同時,1.0,9,"[{'word': '同時', 'ratio': 1.0}]",同時,{},[]
+232,232,social,社会的,0.7777777777777778,9,"[{'word': '社会的', 'ratio': 0.7777777777777778}, {'word': 'ソーシャル', 'ratio': 0.2222222222222222}]",社会的,{},[]
+233,233,softmax,softmax,0.0,9,"[{'word': 'ソフトマックス', 'ratio': 1.0}]",ソフトマックス,{},[]
+234,234,source,ソース,0.3333333333333333,9,"[{'word': 'ソース', 'ratio': 0.3333333333333333}, {'word': '出典', 'ratio': 0.2222222222222222}, {'word': '源', 'ratio': 0.2222222222222222}, {'word': '出所', 'ratio': 0.1111111111111111}, {'word': 'Sāsu', 'ratio': 0.1111111111111111}]",出典,"```
+1. Candidate: ""出典""
+2. Explanation: ""出典"" is the best translation candidate for ""source"" in the given context because it accurately conveys the idea of an origin or reference point, which is crucial in the AI domain, especially in NLP where the source of data or words is often discussed. ""出典"" is commonly used in Japanese to refer to the origin of information or data, making it semantically accurate and contextually appropriate for the examples provided. Other candidates like ""出所"" and ""源"" are also translations for ""source,"" but ""出典"" is more specific to the context of information and data sources, which aligns well with the AI domain-specific usage.
+```","['source', 'Sāsu', 'sauce', 'source', 'source']"
+235,235,spans,スパン,0.6666666666666666,9,"[{'word': 'スパン', 'ratio': 0.6666666666666666}, {'word': '範囲', 'ratio': 0.3333333333333333}]",スパン,{},[]
+236,236,spatial,空間的な,0.2,10,"[{'word': '空間的', 'ratio': 0.7}, {'word': '空間的な', 'ratio': 0.2}, {'word': '空間', 'ratio': 0.1}]",空間的,{},[]
+237,237,speech,スピーチ,0.3,10,"[{'word': '音声', 'ratio': 0.6}, {'word': 'スピーチ', 'ratio': 0.3}, {'word': '証話', 'ratio': 0.1}]",音声,{},[]
+238,238,spoken,音声,0.0,10,"[{'word': '話されている', 'ratio': 0.4}, {'word': '話し言葉', 'ratio': 0.3}, {'word': '話される', 'ratio': 0.2}, {'word': '話された', 'ratio': 0.1}]",話されている,"```
+1. Candidate: ""話されている""
+2. Explanation: The term ""話されている"" translates to ""being talked about"" in English, which accurately captures the ongoing and widespread nature of the language being spoken by people. In the context of AI and language evaluation, it is important to convey that Kinyarwanda is actively used by a large population, which aligns with the continuous aspect of ""話されている."" This choice reflects the dynamic and living nature of the language, making it the best fit for the context provided.
+```","['spoken words', 'being talked about', 'spoken', 'spoken']"
+239,239,statistical,統計的,1.0,10,"[{'word': '統計的', 'ratio': 1.0}]",統計的,{},[]
+240,240,structure,構成,0.0,10,"[{'word': '構造', 'ratio': 1.0}]",構造,{},[]
+241,241,structured,構築された,0.0,10,"[{'word': '構造化された', 'ratio': 0.9}, {'word': '構造化', 'ratio': 0.1}]",構造化された,{},[]
+242,242,subword,サブ単語,0.0,9,"[{'word': 'サブワード', 'ratio': 1.0}]",サブワード,{},[]
+243,243,summarizing,要約,0.8,10,"[{'word': '要約', 'ratio': 0.8}, {'word': '集約', 'ratio': 0.1}, {'word': '要約する', 'ratio': 0.1}]",要約,{},[]
+244,244,syntactic,構文,0.0,9,"[{'word': '構文的', 'ratio': 0.5555555555555556}, {'word': '統語', 'ratio': 0.2222222222222222}, {'word': '統語的', 'ratio': 0.1111111111111111}, {'word': 'Sintakutikku', 'ratio': 0.1111111111111111}]",構文的,{},[]
+245,245,system,システム,0.8888888888888888,9,"[{'word': 'システム', 'ratio': 0.8888888888888888}, {'word': 'オブジェクト分類', 'ratio': 0.1111111111111111}]",システム,{},[]
+246,246,systems,システム,0.8888888888888888,9,"[{'word': 'システム', 'ratio': 0.8888888888888888}, {'word': 'オブジェクトドメイン', 'ratio': 0.1111111111111111}]",システム,{},[]
+247,247,tagging,タグ付け,0.2,10,"[{'word': 'タギング', 'ratio': 0.8}, {'word': 'タグ付け', 'ratio': 0.2}]",タギング,{},[]
+248,248,tasks,タスク,0.8888888888888888,9,"[{'word': 'タスク', 'ratio': 0.8888888888888888}, {'word': '業務内容', 'ratio': 0.1111111111111111}]",タスク,{},[]
+249,249,terminology,用語,1.0,9,"[{'word': '用語', 'ratio': 1.0}]",用語,{},[]
+250,250,text,テキスト,0.9,10,"[{'word': 'テキスト', 'ratio': 0.9}, {'word': '文章', 'ratio': 0.1}]",テキスト,{},[]
+251,251,texts,テキスト,1.0,10,"[{'word': 'テキスト', 'ratio': 1.0}]",テキスト,{},[]
+252,252,token,トークン,1.0,10,"[{'word': 'トークン', 'ratio': 1.0}]",トークン,{},[]
+253,253,tokens,トークン,1.0,10,"[{'word': 'トークン', 'ratio': 1.0}]",トークン,{},[]
+254,254,training,訓練,0.0,9,"[{'word': '学習', 'ratio': 0.6666666666666666}, {'word': 'トレーニング', 'ratio': 0.3333333333333333}]",学習,{},[]
+255,255,transformer,トランスフォーマー,0.8,10,"[{'word': 'トランスフォーマー', 'ratio': 0.8}, {'word': '変身', 'ratio': 0.1}, {'word': 'トランス', 'ratio': 0.1}]",トランスフォーマー,{},[]
+256,256,transformers,トランスフォーマー,0.8,10,"[{'word': 'トランスフォーマー', 'ratio': 0.8}, {'word': '変圧器', 'ratio': 0.2}]",トランスフォーマー,{},[]
+257,257,translation,翻訳,1.0,10,"[{'word': '翻訳', 'ratio': 1.0}]",翻訳,{},[]
+258,258,translations,翻訳,1.0,10,"[{'word': '翻訳', 'ratio': 1.0}]",翻訳,{},[]
+259,259,unseen,見えない,0.1,10,"[{'word': '未知の', 'ratio': 0.4}, {'word': '未見', 'ratio': 0.2}, {'word': '人知れず', 'ratio': 0.1}, {'word': '見えない', 'ratio': 0.1}, {'word': '未確認の', 'ratio': 0.1}, {'word': '未見の', 'ratio': 0.1}]",未見の,"```
+1. Candidate: 未見の
+2. Explanation: ""未見の"" directly translates to ""unseen,"" which aligns well with the context of AI and machine learning, where ""unseen"" typically refers to data or instances that the model has not encountered during training. This term accurately captures the notion of data that has not been previously observed, which is crucial for evaluating a model's ability to generalize. The back translation also returns ""unseen,"" indicating a strong semantic match and contextual fit within the AI domain.
+```","['Unseen', 'unconfirmed', 'unseen', 'unknown', 'unknown', ""can't see""]"
+260,260,unsupervised,監視なし,0.2,10,"[{'word': '教師なし', 'ratio': 0.7}, {'word': '監視なし', 'ratio': 0.2}, {'word': '非監視', 'ratio': 0.1}]",教師なし,{},[]
+261,261,user,ユーザー,1.0,10,"[{'word': 'ユーザー', 'ratio': 1.0}]",ユーザー,{},[]
+262,262,utterances,発話,0.8,10,"[{'word': '発話', 'ratio': 0.8}, {'word': '発言', 'ratio': 0.1}, {'word': 'utterances', 'ratio': 0.1}]",発話,{},[]
+263,263,vectors,ベクトル,1.0,10,"[{'word': 'ベクトル', 'ratio': 1.0}]",ベクトル,{},[]
+264,264,verb,動詞,1.0,10,"[{'word': '動詞', 'ratio': 1.0}]",動詞,{},[]
+265,265,verbs,動詞,1.0,10,"[{'word': '動詞', 'ratio': 1.0}]",動詞,{},[]
+266,266,visual,視覚的,0.1,10,"[{'word': '視覚', 'ratio': 0.7}, {'word': 'ビジュアル', 'ratio': 0.2}, {'word': '視覚的', 'ratio': 0.1}]",視覚,{},[]
+267,267,weights,荷重,0.0,10,"[{'word': '重み', 'ratio': 1.0}]",重み,{},[]
+268,268,word,単語,0.8,10,"[{'word': '単語', 'ratio': 0.8}, {'word': '言葉', 'ratio': 0.2}]",単語,{},[]
+269,269,word2vec,単語2vec,0.0,10,"[{'word': 'word2vec', 'ratio': 0.8}, {'word': 'ワードツーベック', 'ratio': 0.1}, {'word': 'Word2vec', 'ratio': 0.1}]",word2vec,{},[]
+270,270,words,単語,0.7777777777777778,9,"[{'word': '単語', 'ratio': 0.7777777777777778}, {'word': '言葉', 'ratio': 0.2222222222222222}]",単語,{},[]
+271,271,written,書かれた,0.6,10,"[{'word': '書かれた', 'ratio': 0.6}, {'word': '書いてある', 'ratio': 0.1}, {'word': '書', 'ratio': 0.1}, {'word': '書き', 'ratio': 0.1}, {'word': '記述された', 'ratio': 0.1}]",書かれた,{},[]

@@ -1,0 +1,468 @@
+Hallo, dit is Elena en ik ga ons werk presenteren, Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling.
+Dus we gaan het hebben over wat lexicale lenen is, de taak die we hebben voorgesteld, de dataset die we hebben vrijgegeven en enkele modellen die we hebben onderzocht.
+Maar om te beginnen, wat is lexicaal lenen en waarom is het belangrijk als een NLP-taak?
+Welnu, lexicaal lenen is in feite het opnemen van woorden uit de ene taal in een andere taal.
+In het Spaans gebruiken we bijvoorbeeld woorden die uit het Engels komen.
+En hier heb je een paar voorbeelden, woorden zoals podcast, app en online crowdfunding, dit zijn allemaal Engelse woorden die we soms in het Spaans gebruiken.
+Lexicaal lenen is een vorm van taalkundig lenen die zich in principe in een taalpatroon van andere talen reproduceert.
+En lenen en codeswitching zijn soms vergeleken en beschreven als een continuüm, codeswitching is ah het ding dat tweetaligen doen waarbij ze twee talen tegelijkertijd mengen.
+Er zijn echter enkele verschillen tussen lexicale lenen en code-switching.
+We gaan ons richten op lexicale leningen.
+Code switching is iets dat wordt gedaan door tweetaligen en per definitie de code switches zijn niet geïntegreerd in een van de gebruikte talen, terwijl lexicale lenen is iets dat ook wordt gedaan door eentaligen.
+De leningen zullen voldoen aan de grammatica van de taal van de ontvanger.
+En leningen kunnen uiteindelijk worden geïntegreerd in de taal van de ontvanger.
+Waarom is lenen een interessant fenomeen?
+Welnu, vanuit het oogpunt van de taalkunde is lenen een manifestatie van hoe talen veranderen en hoe ze op elkaar inwerken.
+En ook lexicale leningen zijn een bron van nieuwe woorden.
+Hier heb je enkele voorbeelden van lexicale leningen die als nieuwe woorden in de Spaanse taal zijn opgenomen.
+In termen van NLP ah leningen zijn een veel voorkomende bron van woordenschat woorden.
+En in feite is het automatisch detecteren van lexicale leningen ah nuttig gebleken voor NLP downstream-taken zoals parseren, tekst-naar-spraaksynthese of machinevertaling.
+Er is een groeiende belangstelling voor de invloed van het Engels op andere talen ah in het bijzonder ah gerelateerd aan Engels lexicale leningen, leningen die soms zijn genoemd Anglicismen.
+En hier heb je enkele voorbeelden van ah werk op automatische detectie van leningen in ah een aantal van deze talen.
+Dus de taak die we voorstellen is om niet-geassimileerde lexicale leningen in de Spaanse nieuwsdraad te detecteren.
+Wat betekent dat we geïnteresseerd zijn in het extraheren van ah woorden geleend uit andere talen die worden gebruikt in Spaanse kranten, maar die niet zijn geïntegreerd of geassimileerd in de ontvangende taal.
+Dus nog niet geïntegreerd in het Spaans.
+Hier heb je een voorbeeld.
+Dit is een zin in het Spaans: Las prendas bestsellers se estampan con motivos florales, animal print o retales tipo patchwork.
+Zoals je kunt zien, zijn er drie overspanningen van teksten die eigenlijk Engelse woorden zijn zoals bestseller, dierenprint en patchwork.
+Dit zijn de soorten overspanningen die we willen extraheren en detecteren.
+Er is een eerder woord geweest over Anglicism-detectie ah dat bestond uit een CRF-model voor Anglicism-detectie op Spanish Newswire.
+Dit model behaalde een F1-score van zesentachtig.
+Maar er waren enkele beperkingen in zowel de dataset als de modelleringsaanpak.
+Dus de dataset richtte zich uitsluitend op één nieuwsbron, bestond alleen uit krantenkoppen.
+En ook was er een overlap in de leningen die verschijnen in de trainingsset en de testset.
+Dit verhinderde de beoordeling of de modelleringsbenadering daadwerkelijk kon generaliseren naar voorheen ongeziene leningen.
+Dus wat we proberen te doen is een aantal van deze beperkingen in de taak aan te pakken.
+Dus om te beginnen hebben we een nieuwe dataset gemaakt.
+Ah het streven naar een nieuwe dataset die werd geannoteerd met lexicale leningen en het doel was om een testset te maken die zo moeilijk mogelijk was.
+Er zou dus minimale overlap zijn in woorden en onderwerpen tussen de trainingsset en de testset.
+En als gevolg daarvan komt de testset uit bronnen en datums die we niet zien in de trainingsset.
+Hier zie je dat er geen overlap is in de tijd.
+Het is ook zo dat de testset ook erg leendicht is.
+Om je wat cijfers te geven, als de trainingsset zes leningen per duizend tokens bevat, bevatte de testset twintig leningen per duizend tokens.
+De testset bevatte zoveel mogelijk woorden uit het vocabulaire.
+In feite is 92 procent van de leningen in de testset OOV.
+Ze werden dus niet gezien tijdens de training.
+En het corpus bestond in principe uit een verzameling teksten die afkomstig waren uit verschillende bronnen van Spaanse kranten.
+En ah het werd geannoteerd met de hand ah met behulp van twee tags.
+Een voor Engelse lexicale leningen, wat de meerderheid van de lexicale leningen in het Spaans is, en vervolgens het label andere voor leningen uit andere talen.
+We gebruiken CONLL-indelingen en we gebruikten bio-codering zodat we ah enkele token-leningen zoals app- of multi token-leningen zoals machine learning konden coderen.
+Dit zijn de nummers van het corpus.
+Zoals je kunt zien, bedraagt het ongeveer driehonderdzeventigduizend tokens.
+En hier heb je het aantal overspanningen die werden gelabeld als Engels en de overspanningen die werden gelabeld als andere leningen en hoeveel van hen waren uniek.
+En hier heb je een paar voorbeelden van de van de set van de dataset.
+Zoals je hier bijvoorbeeld kunt zien, hebben we ah in het eerste voorbeeld, we hebben de ontlenen batch koken dat is een multi-woord lenen.
+En we hebben het geannoteerd met behulp van de BIO um-encode.
+Dus de BIO werd gebruikt voor woorden in het Spaans, dus niet voor woorden die niet geleend waren.
+En hier in dit tweede voorbeeld heb je benching en crash die ook worden bestempeld als leningen van het Engels.
+Dus toen we eenmaal de dataset hadden, onderzochten we verschillende modellen voor de taak om deze lexicale leningen te extraheren en te detecteren.
+De eerste die we probeerden was het voorwaardelijke willekeurige veldmodel.
+Dit was het model dat gebruikt werd bij eerder werk.
+En we gebruikten dezelfde handgemaakte functies van die van dat werk.
+Zoals je kunt zien, zijn dit de kenmerken.
+Dit zijn binaire functies zoals het woord of het token in hoofdletters?
+Is het een titlecase?
+Is het een aanhalingsteken?
+Zulke dingen, die het soort functies zijn dat je zou verwachten in een taak voor het herkennen van een benoemde entiteit.
+Dit zijn de resultaten die we hebben.
+We behalen vijfenvijftig F1-scores met behulp van het CRF-model met handgemaakte functies.
+Dat is een enorm ander verschil um in vergelijking met de gerapporteerde F1-score van zesentachtig, wat het resultaat was dat werd verkregen met hetzelfde CRF-model, dezelfde functies maar op een andere dataset ook voor Spaanse lexicale leendetectie.
+Dit bewijst dus dat de dataset die we hebben gemaakt moeilijker is en dat we meer geavanceerde modellen voor deze taken moesten verkennen.
+Dus testten we twee op transformatoren gebaseerde modellen.
+We gebruikten BETO, een eentalig Bert-model dat is opgeleid voor het Spaans en ook meertalig BERT.
+Beide modellen gebruiken we via de transformatorenbibliotheek van HuggingFace.
+Dit zijn de resultaten die we hebben.
+Zoals u kunt zien, presteert meertalig BERT beter dan BETO, zowel op de ontwikkelset als op de testset en in alle statistieken.
+Zodat we een idee hebben om te vergelijken, het CRF-model kreeg een tweeëntachtig.
+Het CRF-model behaalde een vijfenvijftig F1-score, terwijl het meertalige BERT tweeëntachtig behaalde, wat een groot verschil is.
+Dus toen we eenmaal die resultaten hadden, stelden we onszelf een andere vraag: kunnen we een BiLSTM-CRF-model vinden, het voeden met verschillende soorten insluitingen, insluitingen die verschillende soorten taalkundige informatie coderen en beter presteren dan de resultaten die worden verkregen door op transformatoren gebaseerde modellen?
+Dus om dit te doen, voerden we een aantal voorlopige experimenten uit, we voeren dit uit volgens het BiLSTM-CRF-model met behulp van de flare-bibliotheek.
+En we probeerden te experimenteren met verschillende soorten inbeddingen, zoals transformatorgebaseerde, maar ook snelle tekst, personage-inbeddingen, enzovoort.
+Wat we ontdekten was dat op transformatoren gebaseerde inbeddingen beter presteerden dan niet-gecontextualiseerde inbeddingen, dat de combinatie van Engelse BERT en Spaanse BETO-INBEDDINGEN beter presteerde dan meertalige Bert-inbeddingen.
+En dat BPE-inbeddingen betere F1- en personage-inbeddingen produceerden, zorgt voor een betere herinnering.
+Met dat in gedachten waren dit de best presterende resultaten die we kregen.
+Beide modellen waren BiLSTM-CRF-modellen met flare.
+Een werd gevoed met BETO en BERT inbeddingen en BPE, en de andere één BETO en BERT inbeddingen en BPE en ook karakter inbeddingen.
+Deze laatste was degene die de hoogste F1-score op de testset opleverde, hoewel de hoogste score op de ontwikkelingsset werd behaald door degene zonder karakterbevestigingen.
+Alleen al om in gedachten te houden dat het beste resultaat dat we kregen met meertalige BERT een F1 van zesenzeventig behaalde op de ontwikkelset en tweeëntachtig op de testset.
+Dit is dus een verbetering ten opzichte van deze resultaten.
+Tot slot stelden we onszelf een andere vraag: kan lexicale leendetectie worden ingelijst als overdrachtsonderwijs van taalidentificatie bij het omschakelen van codes?
+Dus we gebruiken hetzelfde BiLSTM-CRF-model dat we hadden uitgevoerd met behulp van flare, maar in plaats van deze niet-aangepaste op transformatoren gebaseerde BETO- en BERT-INBEDDINGEN te gebruiken, gebruikten we code switch-inbeddingen.
+Wat zijn code switch embeddings?
+Nou, dit zijn um insluitingen die zijn verfijnd transformator-gebaseerde insluitingen die zijn voorbereid voor taalidentificatie op het Spaans Engels gedeelte van de LinCE code switching dataset.
+LinCE is een dataset over code switching met een sectie over Spaans Engels, Spaans Engels code switching.
+Dus we voedden onze BiLSTM-CRF met code switch insluitingen en optioneel karakter insluitingen, BPE insluitingen en ga zo maar door.
+Het beste resultaat dat we kregen was vierentachtig punt tweeëntwintig, wat het hoogste is van alle modellen die we op de testset hebben geprobeerd.
+Hoewel het beste resultaat F1-score die we kregen op de ontwikkelingsset, die negenenzeventig was, lager was dan het beste resultaat verkregen door de BiLSTM-CRF gevoed met niet-aangepaste inbeddingen.
+Enkele conclusies uit ons werk.
+We hebben ah we hebben een nieuwe dataset van Spaanse nieuwsdraad geproduceerd die is geannoteerd met niet-geassimileerde lexicale leningen.
+Deze dataset is meer lenen dicht en OOV-rijk dan eerdere middelen.
+We hebben vier soorten modellen onderzocht voor lexicale leendetectie.
+In termen van foutanalyse, nou, recall was een zwak punt voor alle modellen.
+Ah, zoals je hier kunt zien, bevatten sommige frequente valse negatieven hoofdletters leningen, woorden die bijvoorbeeld zowel in het Engels als in het Spaans bestaan.
+Ook interessant is dat BPE-insluitingen de F1-score lijken te verbeteren.
+En karakter inbedding lijken terugroepactie te verbeteren.
+Wat is het een interessante vondst die we misschien kunnen onderzoeken over toekomstig werk.
+Dit is alles wat ik heb.
+Heel erg bedankt voor het luisteren.
+Mijn naam is Antoine.
+Ik ben een doctoraatsstudent aan de Universiteit van Massachusetts Amherst.
+Ik presenteer ons artikel KinyaBERT: a Morphology-aware Kinyarwanda Language Model.
+Vandaag zal ik het hebben over de motivatie voor dit onderzoek.
+Dan zal ik KinyaBERT modelarchitectuur in detail presenteren.
+Ik zal dan praten over onze experimentele resultaten, dan eindigen met een aantal conclusies.
+We weten allemaal dat recente vooruitgang op het gebied van natuurlijke taalverwerking mogelijk is gemaakt door het gebruik van voorgetrainde taalmodellen zoals BERT.
+Er zijn echter nog een aantal beperkingen.
+Vanwege de complexe morfologie die wordt uitgedrukt door de meeste morfologisch rijke talen, kan het alomtegenwoordige bytepaar dat het tokenisatie-algoritme codeert dat ik gebruikte niet het exacte subwoord lexicale eenheden extraheren, wat de morfemen betekent, die nodig zijn voor effectieve representatie.
+Hier hebben we bijvoorbeeld drie Kinyarwanda-woorden met verschillende morfemen erin, maar de BPE-algoritmen kunnen ze niet extraheren.
+Dit komt omdat sommige morfologische regels verschillende oppervlaktevormen produceren die de exacte lexicale informatie verbergen, en BPE, die uitsluitend gebaseerd is op de oppervlaktevormen, heeft geen toegang tot dit lexicale model.
+De tweede uitdaging is dat zelfs als men toegang had tot een orakel morfologische analysator, het vervangen van BPE-tokens door morfemen niet voldoende is om de morfologische compositie uit te drukken.
+Een derde lacune in het onderzoek is dat nieuwe voorgetrainde taalmodellen het vaakst worden geëvalueerd op talen met hoge hulpbronnen.
+En we moeten ook de toepasbaarheid ervan op lage middelen en verschillende talen beoordelen.
+Daarom presenteren we KinyaBERT, een eenvoudige maar effectieve aanpassing van de Bert-architectuur die bedoeld is om morfologisch rijke talen effectiever te behandelen.
+We evalueren KinyaBERT op Kinyarwanda, een morfologisch rijke taal met weinig hulpbronnen, die door meer dan twaalf miljoen mensen in Oost- en Centraal-Afrika wordt gesproken.
+De input voor het model is een zin of een document.
+Hier hebben we bijvoorbeeld John twarahamubonye biradutangaza, wat betekent dat we verrast waren om John daar te vinden.
+Zoals je kunt zien, bevatten Kinyarwanda-woorden verschillende morfemen die verschillende informatie bevatten.
+Daarom geven we in ons model deze zin of een document door aan een morfologische analyzer.
+Die vervolgens morfemen genereert die in elk van de woorden zijn opgenomen.
+De morfemen zijn meestal gemaakt van de stengel en nul of meer affixen.
+De affixen kunnen duiden op spanning, aspect, onderwerp of object in werkwoorden, en heeft vaker betrekking op de Bantu zelfstandig naamwoord klasse voor onderwerpen en objecten.
+De morfologische analyser produceert ook een deel van de spraak tag voor elk van de woorden.
+Na deze stap maken we inbeddingen voor de spee- voor het deel van de spraak tags.
+Embedding voor de affixen.
+En inbedding voor de stem.
+Dit is het morfologieniveau, dit zijn de morfologieniveau-inbeddingen.
+Vervolgens passeren we deze inbeddingen door een morfologie-encoder, een kleine transformator-encoder die onafhankelijk op elk woord wordt toegepast.
+De output van de zijn de vectoren die worden gecontextualiseerd met de morfologische informatie bij elk woord.
+Nu voeren we compositie uit waarbij de morfologische inbeddingen die overeenkomen met een deel van spraak en stengel aan elkaar worden gekoppeld.
+We voegen ze verder samen met een andere stengel inbedding op zinsniveau.
+Vervolgens vormen we een input voor de hoofdzin of document encoder.
+De uiteindelijke output zijn gecontextualiseerde inbeddingen die kunnen worden gebruikt voor downstream NLP-taken.
+Voor een morfologische analysator gebruiken we eindige toestand twee niveau morfologie principes met aangepaste implementatie die is afgestemd op de Kinyarwanda taal.
+We modelleren effectief de morfologie van alle Kinyarwanda-woorden, inclusief verbalen, zelfstandige naamwoorden, demonstratieve en bezittelijke voornaamwoorden, cijfers en anderen.
+We gebruiken een ongecontroleerd deel van het algoritme voor spraakmarkering.
+Een eerste orde factor model wordt gebruikt om rekening te houden met morfologie waarschijnlijkheid, in principe de waarschijnlijkheid die wordt toegewezen door de morfologische analyzer.
+We houden ook rekening met het deel van de prevalentie van spraaktags en de syntactische overeenkomsten die aanwezig zijn in de in de invoerwoorden.
+Het deel van spraak tagger maakt gebruik van een bidi bidirectionele gevolgtrekking die verbetert op de vaker gebruikte Viterbi algoritme voor het decoderen.
+Een paar opmerkingen hier voor positionele codering.
+Ten eerste gebruikt de morfologie-encoder geen positionele codering.
+Dit komt omdat elk van de morfemen een bekende sleuf in het morfologische model inneemt.
+Daarom is positionele informatie inherent wanneer de morfemen worden gegeven.
+Ten tweede maakt de zin-encoder gebruik van de zogenaamde losstaande relatieve positionele inbeddingen, die onlangs zijn gepubliceerd op ICLR-conferentie.
+Deze positionele inbedding ontwart in wezen positionele correlaties van token tot token aandachtsberekening.
+Net als BERT gebruiken we een gemaskerde taalmodel pre-training doelstelling.
+In wezen moeten we zowel de stengel als de affixen voorspellen die met de woorden worden geassocieerd.
+Tijdens de pre-training wordt vijftien procent van alle woorden in aanmerking genomen voor voorspelling, waarvan tachtig procent wordt gemaskeerd, tien procent wordt geruild met willekeurige woorden en tien procent blijft ongewijzigd.
+Voor affixvoorspelling worden we geconfronteerd met een aantal multi label classificatie probleem.
+Hiervoor groeperen we de affixen in een vast aantal sets en voorspellen we de set als een klasse label.
+De andere optie is om de affixwaarschijnlijkheidsvector te voorspellen.
+We evalueren beide benaderingen in onze experimenten.
+We trainen KinyaBERT op ongeveer twee en een halve gigabyte aan Kinyarwanda-tekst en vergelijken het met drie basismodellen.
+Een daarvan is een meertalig model genaamd XLM-R, dat is getraind op een grote tekstcorpora die is gemaakt van meerdere talen.
+De andere twee basislijnen zijn voorgetraind op dezelfde Kinyarwanda-tekst met behulp van het algoritme voor het coderen van bytesparen of met behulp van morfologische analyse zonder gebruik te maken van de two-tier transformator encoder-architectuur.
+Alle modellen zijn geconfigureerd in de basisarchitectuur, die ongeveer tussen de honderd en tien miljoen parameters ligt, waarbij Kinyarwanda met KinyaBERT het minste aantal parameters gebruikt.
+Alle modellen, behalve de meertalige, zijn voorbereid op 32.000 gradiëntupdates met een batchgrootte van tweeduizend vijfhonderdzestig sequenties in elke batch.
+We evalueren de voorgetrainde modellen op drie reeksen taken.
+Een daarvan is de lijmbenchmark die vaak is gebruikt voor het evalueren van de effectiviteit van voorgetrainde taalmodellen.
+We verkrijgen onze LIJMBENCHMARKGEGEVENS door de oorspronkelijke benchmarkgegevens te vertalen naar Kinyarwanda met behulp van Google Translate.
+De tweede taak is Kinyarwanda genaamd entiteit erkenning benchmark, dat is een hoge kwaliteit dataset die werd geannoteerd door getrainde moedertaalsprekers.
+De derde is een taak voor nieuwscategorisatie waarbij we nieuwsartikelen van verschillende websites halen en hun categorisatietags verzamelen die door de auteurs zijn toegewezen en vervolgens in wezen proberen hetzelfde te voorspellen, dezelfde categorieën.
+En nu gaan we naar de resultaten.
+Voor de LIJMBENCHMARK vinden we dat KinyaBERT consequent beter presteert dan basismodellen.
+Hier tonen we de gemiddelde prestaties voor tien finetuning runs.
+We voeren ook een gebruikersevaluatie uit van de vertalingen die worden geproduceerd door Google Translate.
+In wezen beoordeelden gebruikers ongeveer zesduizend voorbeelden, waarbij scores op een schaal van één tot vier werden toegekend en de kwaliteit van de vertalingen werd beoordeeld.
+Het resultaat is dat veel vertalingen luidruchtig waren.
+Maar alle modellen hadden te maken met dezelfde vertaalruis en de relatieve prestaties tussen de modellen zijn nog steeds belangrijk om op te merken.
+Voor de benoemde entiteitherkenningstaak vinden we ook dat KinyaBERT de beste prestaties levert met de affixdistributie regressievariant die het beste presteert.
+Deze resultaten zijn ook gemiddelden van tien finetuning runs.
+Voor de taak voor het categoriseren van nieuws vinden we gemengde resultaten.
+Eerder werk aan tekstclassificatie voor Kinyarwanda had aangetoond dat eenvoudige zoekwoorddetectie meestal voldoende is om deze specifieke taak op te lossen.
+Daarom is er minder baat bij het gebruik van voorgetrainde taalmodellen.
+Over deze specifieke taak van nieuwscategorisatie.
+We hebben ook een ablatieonderzoek uitgevoerd om te zien of er alternatieve structuren zijn die de prestaties verbeteren.
+Voor de lijmbenchmark vinden we dat het gebruik van affix-sets consequent beter presteert, terwijl affix-waarschijnlijkheidsregressiedoelstelling de beste prestaties oplevert bij benoemde entiteitherkenning.
+Ook door te kijken naar de lage scores voor finetuning, vinden we dat KinyaBERT in de meeste gevallen een betere convergentie heeft.
+Tot slot heeft dit werk de effectiviteit aangetoond van het expliciet gebruiken van morfologische informatie in voorgetrainde taalmodellen.
+De voorgestelde twee-tier transformator encoder architectuur maakt het vastleggen van morfologische complexiteit morfologische compositie, dat is een belangrijk aspect van morfologisch rijke talen.
+Deze bevindingen zouden verder onderzoek naar morfologiebewuste taalvoorgetrainde taalmodellen moeten motiveren.
+Hallo, mijn naam is Michał Pietruszka en het is mij een genoegen om u het artikel te presenteren met de titel Sparsifying Transformer Models with Trainable Representation Pooling.
+Een werk gedaan bij Applica AI in samenwerking met Lukasz Borchmann en Lukasz Garncarek.
+Laat ik beginnen met de problemen die onze werkdoelen zijn.
+Onze methode werkt goed voor de gevallen waarin lange ingangen worden overwogen.
+Grofweg is het bedoeld voor de taakorders en invoer van meer dan tweeduizend tokens en de doelen zijn korter dan de verstrekte inputs.
+Dit heeft een aantal specifieke toepassingen in NLP.
+Men kan zich bijvoorbeeld voorstellen dat er, gegeven een lang document, behoefte is om het samen te vatten, te classificeren, de vraag erover te beantwoorden, informatie of enkele sleutelzinnen te extraheren.
+Laat me herinneren aan de vanille transformator en onze en de kwestie van de complexiteit van de aandacht die afhankelijk is van het vierkant van de invoerlijn.
+In de vanilletransformator, met volledige aandachtsconnectiviteit, moeten de relaties van elk token met elk ander token worden berekend.
+De computationele complexiteit van aandacht, dit hangt af van het aantal lagen l, sequentie lengte n, een andere sequentie lengte en de dimensionaliteit van representaties.
+Evenzo, in de kruisbestuiving van de decoder, naar deze afbeelding aan de rechterkant, is het enige verschil hier dat de doel-tokens in dit geval de invoer-tokens volgen.
+Dat zie je ook terug in deze formule.
+De BLU-SCORE vertegenwoordigt relaties die moeten worden berekend.
+In het geval van de volledige aandacht, moeten we elke relatie binnen de invoerreeks berekenen.
+Nu zien we wat er gebeurt als we een blockwise encoder hebben die werkt door de tokens-connectiviteit te beperken, zodat ze alleen andere tokens in de buurt kunnen zien.
+De tekst wordt in stukken gelezen, wat het aantal berekeningen aan de encoderzijde drastisch kan verminderen, maar verbetert de cross-aandacht van de decoder niet, omdat elk invoertoken toch aan de decoder wordt doorgegeven.
+Deze methode wordt vaak aangeduid als fusie in decoder.
+De verbetering hier kan worden geïnterpreteerd als het veranderen van een van de afhankelijkheden van n naar een andere constante m die de blokgrootte vertegenwoordigt.
+Onze belangrijkste observatie is dat de meeste tokens niet relevant zijn voor een breed scala aan taken en bijna volledig kunnen worden genegeerd. Dit wordt geïllustreerd op de slide.
+De enige onderdelen van de ingangen zijn relevant voor de gewenste output.
+Bijvoorbeeld.
+Men kan een artikel lezen zodra het markeren van de belangrijkste onderdelen met een markeerstift, en vervolgens produceren een samenvatting op basis van dit deel van alleen de middenfase.
+De kosten van het markeren en beslissen of het huidige token essentieel is om de samenvatting te produceren, zijn dus goedkoop en zijn alleen afhankelijk van de weergave van het token.
+Het poolen van de gemarkeerde tokens is mogelijk.
+Dankzij onze top k operator en de kosten is verwaarloosbaar.
+De kosten van het produceren van een samenvatting van een ingekorte input zijn ook veel lager dan in het vanillemodel wanneer de hele input wordt beschouwd.
+Maar hier is een vraag.
+Hoe selecteert u belangrijke tokens en backpropagate gradients voor die selectie?
+Het essentiële onderliggende probleem dat we oplossen is om het trainbare selectiemechanisme voor te stellen.
+Een die ervoor kan zorgen dat gradiënt tijdens de training terug wordt gepropageerd, zodat het netwerk kan leren om de belangrijkste tokens te selecteren.
+Nauwkeuriger
+Aangezien sommige inbeddingen worden onderstreept door een eenvoudige lineaire laag, is het de taak om de hoogst scorende inbeddingen terug te geven. Ten eerste wordt de reeks gepermuteerd en worden paren voorbereid zodat de hoger scorende vector wordt genomen met de lager scorende.
+Vervolgens worden gewichten berekend met behulp van verhoogde softmax over scores.
+Na elke toernooironde worden nieuwe vectoren en scores samengesteld als een lineaire combinatie van die paren met de verkregen gewichten.
+Kortom, we combineren ze lineair door een softmax over hun scores uit te voeren.
+En terwijl het combineren van twee tokens, kan sommige ruis worden geproduceerd.
+Maar het maakt het ook mogelijk om de gradiënten te verspreiden naar alle input-inbeddingen.
+Kortom, een trainbare top k die we voorstellen is gebaseerd op het uitvoeren van een toernooi zoals zachte selectie bij elke stap.
+En vanuit een ander perspectief volgt de representatiepooling de encoderlaag.
+Eerst wordt elke representatie gescoord en vervolgens worden alleen degenen met de hoogste scores doorgegeven aan de volgende laag.
+Codering kan worden uitgevoerd zoals in standaard transformatorarchitectuur op de invoer over de volledige lengte.
+Het is echter mogelijk om tekst te verwerken in blokken met een vaste lengte van vaste lengte en globaal de beste weergave te selecteren.
+Hier is een voorbeeld van de weergave pooling geïntroduceerd na de encoder.
+Dit had direct invloed op de oorzaak van kruisaandacht, die niet afhangt van de ingangslengte N, maar van de constante K, die de samengevoegde lengte weergeeft.
+Deze constante geeft aan hoeveel representaties worden geselecteerd en doorgegeven aan de decoder.
+Het produceren van een samenvatting van een kortere tekst is aanzienlijk goedkoper dan de vorige oplossing.
+Omdat de lengte van de reeks met een grote factor kan worden ingekort.
+We hebben bijvoorbeeld met succes k van zestien of zelfs zestig keer vier of zelfs vierenzestig keer kleiner gebruikt dan de waarde van n in onze experimenten.
+Houd er rekening mee dat de gunstige impact van blokgewijze codering en zelfaandacht wordt gehandhaafd.
+Vergeet niet dat de computationele kosten van aandacht afhankelijk zijn van het kwadraat van de invoerlengte.
+Het verminderen van de invoer eerder tijdens het coderingsproces kan de kosten aanzienlijk verlagen.
+Voor het piramidemodel hebben we de grootte van de weergave op de uitvoer van elke gekozen laag verkleind, wat leidde tot de exponentiële vermindering van de computerkosten naarmate de codering vordert.
+Zoals u kunt zien, zijn de totale berekeningskosten van een volledige encoder hier minder dan twee keer de kosten van de volledige eerste laag.
+Wanneer pooling eerder wordt geïntroduceerd, wordt de som van alle paarse vierkanten dus begrensd tot een constante, niet afhankelijk van het aantal lagen l.
+Maar op de constante c, die beïnvloed kan worden door het plaatsen van de poollagen binnen het netwerk.
+Onze verbeteringen werden gebenchmarkt op achtduizend tokens lange inputs.
+En de figuur laat zien dat wanneer pooling wordt ingeschakeld, de beste schaalbaarheid voor de diepte van het netwerk wordt bereikt.
+Hier kan men opmerken dat het trainen van de pyramidion van vierentwintig lagen goedkoper kan zijn dan het trainen van een twee lagen vanille transformator op dergelijke lange ingangen.
+Om nog maar te zwijgen over hoe gemakkelijk de vanille-transformator uit het geheugen kan gaan voor zo 'n lange invoer.
+De kwalitatieve kwalitatieve kwalitatieve vergelijking van onze trendpiramidion met andere baseline wordt uitgevoerd op de lange samenvattingstaak van het document, of gezien de hoofdtekst van een artikel van arXiv of PubMed, is het de taak om zijn samenvatting te genereren.
+Zo kan men blockwise zien, wat onze baseline is, presteert op het niveau van de re, recente state-of-the-art modellen, terwijl het piramidion de prestaties van deze competitieve baseline behoudt of verbetert.
+Tegelijkertijd is ons model tachtig procent sneller om te trainen en meer dan vierhonderdvijftig procent sneller bij inferentie in vergelijking met de blockwise baseline.
+Beide modellen hebben veel lagere parameteraantallen en zijn vanaf nul getraind op de gekozen taken.
+Eerdere benaderingen om een vergelijkbare prestatie te bereiken, moesten meer parameters gebruiken en gebruikmaken van voorgetrainde basismodellen en aanvullende taalvooropleiding om vergelijkbare prestaties te bereiken.
+We nodigen je uit om onze volledige paper te lezen en onze GitHub-code te gebruiken.
+Bedankt voor het kijken.
+Hallo, dit is Jiawei Zhou van Harvard University.
+Ik ben erg blij om ons werk te presenteren over online semantische parsing voor latentievermindering in taakgerichte dialoog.
+Dit is een samenwerking met Jason, Michael, Anthony en Sam van Microsoft Semantic Machines.
+In taakgerichte dialoog communiceert een gebruiker met het systeem dat verzoeken van gebruikersuitingen behandelt, meestal in het spreken.
+Vanaf het einde van de gebruikersuitspraak tot de systeemreactie is er vaak een merkbare vertraging.
+Onder de motorkap wordt de gebruikersuitspraak vertaald in een uitvoerbaar programma.
+Die wordt vervolgens uitgevoerd zodat het systeem goed kan reageren.
+Omdat het programma wordt weergegeven als een semantische grafiek die de berekening schetst, waarbij knooppunt een functieaanroep vertegenwoordigt en de kinderen de argumenten zijn.
+De grote knooppunten markeren ogenblikkelijke operaties, maar de andere zijn traag uit te voeren.
+Het eenvoudige voorbeeld dat we hier laten zien, deze programma 's kunnen vaak ingewikkelder grafieken zijn dan de boomstructuren.
+In deze talk stellen we de vraag, kunnen we beginnen met het genereren van het programma en het uitvoeren ervan voordat de gebruiker de uitspraak zelfs maar afmaakt, zodat het snellere antwoord door het systeem kan worden bereikt?
+Dit is het online voorspelling- en beslissingsprobleem.
+Er zijn veel anderen in dit rijk.
+Voorbeelden zijn gelijktijdige vertaling waarbij een live tolk de ene taal in realtime naar de andere vertaalt, automatische voltooiing van slimme tekst om de intentie van de gebruiker te raden en Uber-pool waar de chauffeurs naartoe worden gestuurd waar ze mogelijk nodig zijn op basis van de voorspelde vraag.
+Al deze scenario 's hebben één ding gemeen.
+Dat wil zeggen, het is nuttig om beslissingen te nemen voordat je alle input ziet.
+In ons geval gaan we te maken krijgen met online semantisch parsen, waarvan kan worden verwacht dat het een uitdaging is, omdat we moeten raden wat de gebruiker zou kunnen zeggen.
+En het is ook ondergewaardeerd zonder formele evaluatiemaatstaf.
+Laten we eerst eens kijken hoe een normaal systeem werkt.
+Het werkt offline door alleen aan het einde van de gebruikersuitspraak naar het programma te parsen.
+Hier wordt de karaktergrafiek voorspeld na het zien van alle informatie.
+Daarentegen stellen we een online systeem voor dat bij elke uitspraakprefix vergelijkt.
+Elke keer dat we bijvoorbeeld een nieuwe token zien, voorspellen we een nieuwe grafiek.
+Merk op dat er fouten kunnen zijn.
+Op de positie van op het zwembadfeest met Barack Obama kregen we een grafiek met de juiste knooppunten op de persoon en het evenementonderwerp, maar raad de verkeerde timinginformatie.
+Dit proces gaat door totdat we de volledige gebruikersuitspraak ontvangen.
+Hoe zou dit van invloed zijn op de uitvoeringstijdlijn in het offline systeem?
+We krijgen de programmagrafiek aan het einde zodat het systeem op dit punt met de uitvoering kan beginnen.
+Vergeet niet dat de grote knooppunten snelle bewerkingen zijn, dus we houden alleen rekening met de uitvoeringstijdlijn van de gekleurde langzame functies.
+Ten eerste kunnen deze twee functies parallel worden uitgevoerd, wit gemarkeerd vanuit het roze vak, omdat ze niet afhankelijk zijn van andere functies.
+Vervolgens kan de node create-gebeurtenis vervolgens worden uitgevoerd na het verkrijgen van resultaten van knooppunten op een lager niveau en vervolgens de opbrengst van de topfunctie, zodat het hele programma is voltooid.
+Het uitvoeringsproces is strikt, beperkt tot de programma-afhankelijkheidsstructuur waar sommige bewerkingen niet kunnen worden geparallelliseerd, wat een merkbare vertraging veroorzaakt.
+In ons online systeem, waar we voorspellen als we gaan, kan de uitvoering van het programma eerder beginnen.
+Hier, bij het voorvoegsel na Obama, voorspellen we vol vertrouwen dat de zoekpersoonfunctie in het programma zou moeten staan, maar de rest kan fouten bevatten omdat ze grijs zijn.
+De uitvoering van het knooppunt kan onmiddellijk worden gestart als een stap.
+Dan, met meer tokens, voorspellen we een totaal nieuwe grafiek, maar een deel ervan is al uitgevoerd.
+We hoeven dus alleen maar de rest van de knooppunten te overwegen waar we ook vertrouwen in hebben.
+Hier kan een andere vondstpersoon parallel worden uitgevoerd.
+Nogmaals, we kunnen verkeerde voorspellingen hebben.
+Met meer tekst hebben we meer mogelijkheden om het goed te maken.
+Zoals de evenemententijd hier waar AM ook correct wordt geanticipeerd.
+Vervolgens kunnen we beginnen met het uitvoeren van de rest volgens de programma-afhankelijkheidsstructuur.
+Door de uitvoeringstijdlijn te overlappen met de tijdlijn van de uitspraak, besparen we een grote hoeveelheid tijd.
+Dus stelden we de taak van online semantische parsing voor.
+Een onderliggende veronderstelling is dat de uitvoeringstijd de modelvoorspellingstijd domineert.
+Dus we konden alleen tijd winnen door eerder te voorspellen.
+Een andere veronderstelling is dat als de voorspelling en uitvoering gebeuren op de achtergrond, dat het niet zichtbaar is voor gebruikers.
+Het is niet nodig om een consistente parseergeschiedenis te behouden.
+Dus, we repareren vanaf nul na elke token.
+In het bijzonder stellen wij een aanpak in twee stappen voor.
+Een voorgestelde stap die een grafiek met volledige structuur voorspelt en een geselecteerde stap die de knooppunten selecteert die op dit moment de moeite waard zijn om uit te voeren.
+We hadden twee varianten van de voorgestelde methode.
+De eerste benadering combineert een taalmodelaanvulling met volledige uitingen tot het parseren van grafieken.
+Met name het voorvoegsel na Obama wordt eerst ingevuld door middel van een verfijnde BART taalmodel en vervolgens vertaald in een programma met volledige offline parser.
+De tweede benadering voorspelt direct het programma van gebruikersuitdrukking voorvoegsels.
+Dit wordt bereikt door een enkele online parser te trainen om te vertalen naar de doeldiagram van elk voorvoegsel.
+Dit vergemakkelijkt het model om de juiste anticipatie te leren.
+Hoe genereren we deze grafieken in meer detail?
+We formuleren het probleem door een seriële versie van de grafiek te genereren.
+Elk knooppunt of elke rand wordt vertegenwoordigd door een actie.
+We beginnen bij de eerste node.
+Het onderstaande getal registreert de absolute index in de actiegeschiedenis.
+Toen kregen we het tweede knooppunt.
+En dan is er nog de grens tussen hen.
+Het bevat de aanwijzer naar de index van het vorige knooppunt en het randlabel.
+Nul betekent hier het verbinden van het meest recente knooppunt met het knooppunt gegenereerd door de nulactie en het volgende knooppunt naast de rand.
+Dit proces gaat door totdat we de volledige grafiek genereren.
+Het onderliggende model is gebaseerd op een transformator met een zelfaanwijzend mechanisme vergelijkbaar met een eerdere op overgang gebaseerde parser.
+Na het genereren van een volledige grafiek verkregen we de kansen op actieniveau die overeenkomen met verschillende delen van de grafiek.
+We selecteren vertrouwenssubgrafieken op basis van de uit te voeren drempelheuristiek.
+Later gaan we de drempel variëren om verschillende afwegingen te maken tussen de latentiereductie en de uitvoeringskosten.
+Voor de formele evaluatie van de online methoden stellen we een definitieve latentiereductie of FLR-metriek voor.
+Hier is een samenvatting van hoe een offline systeem de uitvoeringstijdlijn voltooit.
+In online systemen overlapt de uitvoering met de tijdlijn van de uiting, dus het eindigt eerder.
+FLR wordt gedefinieerd als de reductie tijd ten opzichte van het offline systeem, gemarkeerd door het einde van de uitvoering.
+We voeren experimenten uit op twee grote conversatie semantische parsing datasets, SMCalFlow en TreeDST.
+Onze op grafieken gebaseerde parser wanneer u offline werkt, bereikt state-of-the-art prestaties bij het parseren van beide datasets.
+Het complete LM-model behaalt ook EEN NIET-TRIVIALE BLEU-VERSTERKING in vergelijking met de eenvoudige basislijn van knooppuntvoltooiing.
+Laten we nu eens kijken naar de voorspellingsnauwkeurigheid van ons voorvoegsel voor grafiekparser.
+We testen de match F1-score van grafiektupels tussen de generatie en de go-grafiek in validatiegegevens in y-as voor elke prefixlengte in x-as vertegenwoordigd door percentages.
+Elk van deze curves vertegenwoordigt een ander model met het enige verschil in trainingsgegevens.
+De onderste curve is de offline parser en we mengen prefixgegevens in verschillende lengtes om het model over te zetten naar een online parser.
+Bijvoorbeeld, de legenda prefix tachtig procent plus betekent dat het model is getraind met prefix gegevens met prefix lengte groter dan tachtig procent van de volledige lengte van de uitspraak.
+De linkerbovenhoek is het gewenste gebied.
+Zoals we kunnen zien, doet de offline parser in zwarte curve het niet goed op de prefixgegevens.
+Naarmate we meer voorvoegsels in de training mengen, tilt de curve boven en links op en presteert beter op alle voorvoegsels.
+De parseringsprestaties van de volledige uitspraak worden echter niet beïnvloed in de stip rechtsboven.
+Op basis van deze sterke resultaten, hoeveel latency verminderen we?
+We meten de tijd aan de hand van het aantal source tokens en simuleren verschillende uitvoeringstijden van functies.
+De curves tonen de afweging tussen de FLR metriek en de uitvoeringskosten, gemeten aan de hand van het aantal excessieve functiekosten dat niet correct is.
+Dit wordt bereikt door de subgraafselectiedrempel te variëren.
+Een hogere drempel selecteert minder foutfuncties, maar verkrijgt een kleinere FLR, terwijl de lagere drempel agressiever programma 's selecteert en uitvoert.
+We vergelijken de twee benaderingen die we voorstellen met een baseline die niets anders doet dan de offline parser direct toepassen voor online gebruik.
+De regio linksboven heeft de beste FLR en kostenafweging.
+We zien dat onze beide methoden de basislijn met een grote marge verslaan en ze presteren meer op dezelfde manier op TreeDST.
+Hoewel de uitvoering van individuele functies sneller is, zijn er meestal meer uitvoeringen en een lagere latentiereductieruimte.
+Wanneer de individuele functie-uitvoering langzamer is, is er meer ruimte voor FLR-verbetering.
+Onze twee benaderingen zorgen voor betere prestaties in verschillende kostenregio 's.
+Over het algemeen bereiken we een relatieve latentievermindering van dertig tot drieënzestig procent, afhankelijk van de uitvoeringstijd en de toegestane kosten.
+Ten slotte hebben we een uitsplitsing van de gemiddelde latentievermindering in tokens voor elk type functieknooppunt wanneer de toegestane kosten drie runuitvoeringen zijn.
+Zoals we kunnen zien, zijn er over de hele linie winsten.
+Er zijn ook enkele functies waarop we een indrukwekkende latentievermindering krijgen waar de rode balk veel langer is, zoals find manager en ontvanger.
+Dit zijn functies op laag niveau die niet veel afhankelijk zijn van anderen.
+Concluderend stelden we online semantische parsing voor als nieuwe taak om te verkennen met de rigoureuze latentiereductiemetriek.
+Met een sterke semantische parser op basis van grafieken bereiken we een relatief goede latentievermindering, hetzij door onze pijplijnbenadering met LM-voltooiing en een volledige parser, hetzij rechtstreeks via een aangeleerde parser op de voorvoegsels.
+Bovendien kan onze aanpak een algemeen kader zijn en kan deze worden toegepast op andere uitvoerbare semantische representaties in verschillende domeinen.
+Toekomstige werken zouden slimmere voorspellings- en uitvoeringsintegratiemethoden kunnen onderzoeken.
+Bedankt voor het luisteren.
+Hoi.
+Ik ga ons werk bespreken over het genereren van augmented counterfactuals voor het beantwoorden van vragen.
+Dit is werk gedaan tijdens mijn stage bij Google Research, waar ik werd begeleid door Matthew Lamm en Ian Tenney.
+Om de taak te motiveren, laat ik beginnen met het definiëren van een counterfactual.
+In dit werk definiëren we een counterfactual als een verstoring van de invoertekst die op een betekenisvolle gecontroleerde manier verschilt van de oorspronkelijke tekst.
+En stelt ons in staat om te redeneren over de veranderingen in de uitkomst of het taaklabel.
+Bijvoorbeeld, het veranderen van de woorden fascinerend om boeiend of naar verwachting geestdodend verandert het sentiment voor deze film review.
+Op dezelfde manier verandert het toevoegen van de kwalificerende vrouwen aan de vraag het antwoord op de vraag in het onderstaande voorbeeld.
+Mensen zijn doorgaans robuust tegen dergelijke verstoringen in vergelijking met NLP-modellen die op de taak zijn getraind.
+Waarom is dat?
+De dataset kan worden bemonsterd met systematische vooroordelen die leiden tot een eenvoudige beslissingsgrens die wordt geschonden door de counterfactual.
+Zoals blijkt uit dit 2D classificatieprobleem.
+Mijn werk heeft uitgewezen dat het toevoegen van tegenfeitelijke voorbeelden aan de trainingsgegevens het model robuust kan maken voor dergelijke verstoringen.
+Dus, als counterfactuals waardevol zijn, hoe kunnen we ze genereren?
+Deze taak is vooral moeilijk voor NLP omdat hier drie voorbeelden zijn van drie verschillende NLP-taken.
+Zoals u kunt zien, moeten voorbeelden die de beslissingsgrens tussen uitkomsten schenden, zeer zorgvuldig worden gemaakt door enkele kenmerken van de tekst die hier worden onderstreept, te verstoren.
+Dit kan worden gedaan door menselijke annotatie, maar dit is duur en bevooroordeeld.
+Sommige eerdere werk heeft zich gericht op het gebruik van syntax bomen of semantische rol labeling.
+Maar de reeks verstoringen die door deze technieken worden gegenereerd, wordt beperkt door het semantische kader.
+Recenter werk heeft gemaskerde taalmodellen gebruikt om gemaskerde delen van de tekst in te vullen om labels te wijzigen.
+Maar het vinden van welke delen van de tekst te verstoren kan een uitdaging zijn.
+Er zijn meer uitdagingen om counterfactuals te genereren voor het specifiek beantwoorden van vragen.
+Deze taak vereist achtergrondkennis.
+Bijvoorbeeld, om de oorspronkelijke vraag te verstoren is Indiana Jones Temple of Doom een prequel?
+We moeten ons bewust zijn van de andere films in de franchise om tot een vraag te komen, zoals is Indiana Jones Raiders of the Lost Ark een prequel?
+Bovendien kunnen willekeurige verstoringen leiden tot vragen die niet te beantwoorden zijn met het beschikbare bewijs of valse vooronderstellingen hebben.
+Bovendien kunnen sommige verstoringen van de vraag leiden tot een significante semantische afwijking van de oorspronkelijke invoer.
+Bijvoorbeeld, deze vraag is Indiana Jones het beoefenen van kinderslavernij in Temple of Doom?
+We stellen een zeer eenvoudige maar effectieve techniek voor, genaamd retrieve-generate filter of RGF, om contrafeitelijke verstoringen van vragen aan te pakken, en hebben ook tot doel alle andere bovengenoemde uitdagingen aan te pakken.
+De kernintuïtie achter RGF is dat de nodige achtergrondinformatie die nodig is om verstoringen te genereren aanwezig kan zijn in de bijna-ongevallen van een vraagbeantwoordingsmodel.
+Bijvoorbeeld, het state-of-the-art model REALM produceert de volgende top k antwoorden op de vraag wie is de kapitein van de Richmond Football Club?
+Hoewel het de originele referentiepassage herstelt en Trent Cotchin als de beste keuze beantwoordt.
+Het haalt ook extra passages en antwoorden op die kunnen worden gebruikt om verstoring van de vraag te begeleiden.
+Zo herstelt het twee antwoorden die overeenkomen met de aanvoerders van de reserveploeg en de vrouwenteam van dezelfde club, en dit kan leiden tot interessante bewerkingen.
+Om samen te vatten, RGF haalt eerst top k meest relevante antwoorden en contexten die niet overeenkomen met de referentie antwoord in context.
+Na deze stap bepaalt het model voor het genereren van vragen op deze alternatieve antwoorden om een vraag te genereren die overeenkomt met hen.
+En ten slotte kunnen we de gegenereerde vragen filteren op basis van minimaliteit of op basis van het type semantische verstoring dat we willen introduceren.
+Als we elke stap in meer detail bekijken voor het ophalen, gebruiken we een retrieve en lezen dan een model zoals REALM dat de oorspronkelijke vraag als input neemt, en een groot corpus zoals Wikipedia.
+Het bestaat uit twee modules.
+De retriever module voert gelijkenis zoeken over een dichte index van passages om de top k meest relevante passages aan de vraag op te halen.
+En een reader module haalt vervolgens een spanwijdte uit elke passage als een potentieel antwoord.
+REALM haalt de gouden passage op en antwoordt in de meeste gevallen.
+In dit werk zijn we echter meer geïnteresseerd in de antwoorden en context die het verderop ophaalt.
+In de volgende stap, het genereren van vragen, gebruiken we deze alternatieve antwoorden en contexten om nieuwe vragen te genereren die overeenkomen met deze alternatieven.
+Vraaggeneratiemodel is een vooraf opgeleide tekst-naar-tekst-transformator die is afgestemd op de NQ-gegevens om een vraag te genereren voor een antwoord dat in de context is gemarkeerd.
+Tijdens de inferentie leveren we het vraaggeneratiemodel, het alternatieve antwoord en de context die we in de vorige stap hebben opgehaald.
+Bijvoorbeeld, voor de vraag wie is de kapitein van de Richmond Football Club? REALM haalt passages op over het vrouwenteam van de club, aangevoerd door Jess Kennedy, en het vraaggeneratiemodel genereert de vraag wie het eerste vrouwenteam van Richmond Football Club aanvoerde?
+Die een specifieke semantische verstoring heeft.
+Op dezelfde manier krijgen we ook vragen zoals wie het VFL Reserve-team VAN Richmond aanvoerde?
+Of wie ontkende Graham vorig jaar in de grote finale?
+Ten slotte filteren we een subset van de gegenereerde query 's op basis van enkele gewenste kenmerken.
+Zoals eerder gemotiveerd, willen we ervoor zorgen dat de nieuwe vraag nog steeds semantisch dicht bij het origineel ligt.
+Voor filtertechnieken die geen extra toezicht vereisen, behouden we eenvoudig nieuwe vragen met een kleine bewerkingsafstand van het tokenlabel van de oorspronkelijke vraag.
+Bijvoorbeeld, we verwijderen de vraag wie Graham ontkende in de grote finale vorig jaar?
+Omdat het een langere bewerkafstand heeft van de oorspronkelijke vraag.
+In onze experimenten laten we zien dat deze eenvoudige heuristiek kan worden gebruikt om trainingsgegevens te vergroten en in de wachtrij te plaatsen.
+We experimenteren ook met een filterstrategie die gebaseerd is op het type semantische verstoring.
+Hiervoor maken we gebruik van een algemeen query decomposition framework genaamd QED.
+QED identificeert twee delen van de vraag, een predicaat en een verwijzing.
+Referenties zijn zelfstandige naamwoordzinnen in de vraag die overeenkomen met entiteiten in de context.
+Een predicaat is eigenlijk het resterende deel van de vraag.
+We zijn bijvoorbeeld in staat om de vraag te ontleden die Richmond 's allereerste vrouwenteam aanvoerde in twee referenties: Richmond Football Club vrouwenteam en het predicaat dat X aanvoerde.
+Een model getraind op basis van referentiepredikaat annotaties voor NQ geeft ons deze vraag ontbinding.
+Door zowel de oorspronkelijke als de gegenereerde vraag op basis van QED te ontleden, kunnen we onze gegenereerde counterfactuals categoriseren voor evaluatie.
+Concreet krijgen we twee groepen vragen.
+Degenen die een referentiewijziging ondergaan met behoud van predikaten, en degenen die een predikaatwijziging ondergaan en optioneel referenties toevoegen.
+Bijvoorbeeld, wie aanvoerder van Richmond 's VFL reserve team is een referentie verandering?
+Terwijl, wie nummer negen draagt voor de club is een predicaat verandering.
+We evalueren nu de effectiviteit van RGF-verstoringen wanneer deze worden aangevuld met trainingsgegevens.
+Om met name de effectiviteit van contrafeitelijke augmentatie effectief te evalueren, experimenteren we met twee sterke basislijnen voor gegevensverbetering.
+De eerste baseline, random answer en question generation genoemd, voegt data toe die geen relatie heeft met de oorspronkelijke vraag.
+Dat wil zeggen, passages en antwoorden worden gewoon willekeurig gesampled uit wikipedia.
+Deze basislijn voegt in principe meer gegevens toe die op NQ lijken.
+Met de tweede baseline gouden antwoord en vraag generatie, we specifiek het ophalen deel van onze methode bij te werken.
+Hier worden alternatieve antwoorden gekozen uit dezelfde passage die het gouden antwoord bevatte.
+Hoe baseren de baselines en RGF ah augmentation zich op begrijpend lezen waar het model toegang heeft tot vraag en context?
+We experimenteren met zes out of domain datasets en presenteren hier resultaten, waarbij data de trainingsdata verdubbelt in augmentatie.
+We vinden dat beide baselines voor gegevensvergroting onze domeingeneralisatie niet kunnen verbeteren.
+In feite lijkt een ensemble van zes modellen getraind op de oorspronkelijke gegevens de meest concurrerende basislijn te zijn.
+Vergeleken met die basislijn, vinden we dat RGF counterfactuals in staat zijn om de prestaties buiten het domein te verbeteren met behoud van domeinprestaties.
+Dit suggereert dat het invullen van de redeneringslacunes van het model via contrafeitelijke augmentatie effectiever is dan het toevoegen van meer gegevens uit de trainingsdistributie.
+Bovendien vinden we dat het gebruik van retrieval om alternatieve uitkomsten of antwoorden te bemonsteren belangrijk is voor effectieve CDA.
+We experimenteren ook met open domein QA-instelling waarbij het model alleen de vraag ziet en we evalueren opnieuw op vier uit domein datasets.
+We vinden dat basismodellen niet zo effectief zijn voor generalisatie buiten het domein.
+Gegevensuitbreiding met RGF laat echter meer significante verbeteringen zien.
+We verbeteren zelfs in de in-domein NQ dataset.
+We veronderstelden dat de contrafeitelijke gegevensvergroting het model helpt bij het leren van betere querycoderingen voor zeer vergelijkbare zoekopdrachten.
+Ten slotte evalueren we ook het vermogen van het model om de consistentie in de lokale buurt van de oorspronkelijke vraag te verbeteren.
+Consistentie meet het deel van de vragen dat correct wordt beantwoord door het model, waarbij zowel de originele als de contrafeitelijke vraag correct worden beantwoord.
+Dit helpt ons expliciet om de robuustheid van het model te meten aan kleine verstoringen in de buurt van de oorspronkelijke input.
+We experimenteren met vijf datasets die vragenparen bevatten die semantisch dicht bij elkaar staan.
+Afgezien van de drie datasets AQA, AmbigQA en QUOREF-Contrast die al beschikbaar zijn, evalueren we ook op tegenfacturen van RGF die zijn gekoppeld aan originele NQ-vragen op basis van de vraag of ze een predikaatwijziging of referentiewijziging hebben ondergaan.
+Deze subsets werden intern geannoteerd om ruis te elimineren en worden als hulpbron geleverd.
+Alle basislijnen zijn niet in staat om de consistentie met het ensemblemodel aanzienlijk te verbeteren, waardoor de consistentie met een kleine marge wordt verbeterd.
+Echter, RGF contrafeitelijke augmentatie heeft indrukwekkende winsten in consistentie, zowel op eerdere datasets als de twee subsets die we hebben samengesteld voor referentie- en predikaatverstoringen.
+Merk op dat de uitgebreide RGF-gegevens niet worden beïnvloed door het type verstoring, alleen de evaluatiesets zijn.
+In feite toont een kwalitatieve inspectie van de soorten gegenereerde tegenfeiten aan dat de gegenereerde vragen verschillende uiteenlopende verstoringen bevatten.
+Bijvoorbeeld, deze oorspronkelijke vraag over de bevolking van Walnut Grove, Minnesota is verstoord langs verschillende dimensies zoals stad, staat, land, en langs verschillende predicaten zoals locatie, armoede, aantal scholen.
+Audio van verstoringen zijn contextspecifiek.
+Bijvoorbeeld, voor deze andere vraag over de Wimbledon ah singles toernooi, de verstoring is langs het type spel, het type toernooi, of de uitkomst van het spel.
+Laatste afhaalpunten; we pakken de taak aan van contrafeitelijke gegevensvergroting en verstoringen voor informatie die vragen zoekt en pakken de unieke uitdagingen aan via een omkering van de generatiebenadering, over het genereren van bijna-ongevallen van het model en filter op basis van verstoringstype of minimaliteit.
+We vinden dat deze techniek geen extra toezicht vereist en de voorbeelden zijn gelabeld voor augmentatie.
+Augmentatie verbetert uit domein generalisatie en buurt consistentie.
+En we vinden dat RGF counterfactuals semantisch divers zijn zonder bias te introduceren tijdens augmentatie.
+Dank je wel.
