@@ -7,9 +7,9 @@ app = FastAPI()
 
 args = Args()
 args.model_mt = ModelMT.googletrans
-args.cache_dir = "/data/user_data/jiaruil5/.cache/"
-args.openai_key_path = "/home/jiaruil5/openai_key.txt"
-args.term_path = "/home/jiaruil5/multilingual/multilingual-model-card/src/dictionary_collection/growing_dict/mturk.json"
+# args.cache_dir = "/data/user_data/jiaruil5/.cache/"
+# args.openai_key_path = "/home/jiaruil5/openai_key.txt"
+# args.term_path = "/home/jiaruil5/multilingual/multilingual-model-card/src/dictionary_collection/growing_dict/mturk.json"
 
 src_lang = "English"
 tgt_lang = "Chinese"

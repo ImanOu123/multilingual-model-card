@@ -7,6 +7,7 @@ from tqdm import tqdm
 import sys
 import argparse
 from multilingualmc.translator.get_terms import TermCollector
+import os
 
 # def openai_setup(key_path='/home/jiaruil5/openai_key_r3lit.txt'):
 # 	with open(key_path) as f:
@@ -16,12 +17,15 @@ from multilingualmc.translator.get_terms import TermCollector
 # 	openai.api_key = key.strip()
 # 	openai.organization = org_id.strip()
 
-def openai_setup(key_path='/home/jiaruil5/openai_key_ralf_misleading.txt'):
-	with open(key_path) as f:
-		key = f.read().strip().split("\n")[0]
-
-	print("Read key from", key_path)
-	openai.api_key = key.strip()
+def openai_setup(key_path=''):
+    if (key_path == ""):
+        key = os.environ["openai_api_key"]
+    else:
+        with open(key_path) as f:
+            key = f.read().strip().split("\n")[0]
+    
+    print("Read key from", key_path)
+    openai.api_key = key.strip()
 
 def openai_prompt(src_text, tgt_text, relevant_terms_dict, tgt_lang, model='gpt-4o'):
     src_lang = 'English'
@@ -70,8 +74,8 @@ if __name__ == "__main__":
     openai_setup()
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_file", type=str, default="home/ubuntu/multilingual-model-card/multilingualmc/data_eval_6060/output/predictions_dev_seamless.jsonl")
-    parser.add_argument("--out_file", type=str, default="/home/ubuntu/multilingual-model-card/multilingualmc/dictionary_collection/mturk/analysis/Japanese_validated.csv")
+    parser.add_argument("--in_file", type=str, default="/home/iouzzani/research/multilingual_model_cards/multilingualmc/data_eval_6060/output/predictions_dev_seamless.jsonl")
+    parser.add_argument("--out_file", type=str, default="/home/iouzzani/research/multilingual_model_cards/multilingualmc/dictionary_collection/mturk/analysis/Japanese_validated.csv")
     parser.add_argument("--term_file_path", type=str, default=None, help="used only when the method is constrained_beam_search.")
     parser.add_argument("--model", type=str, default='gpt-4o-mini')
     

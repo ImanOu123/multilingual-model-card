@@ -2,7 +2,7 @@ import json
 from fuzzywuzzy import fuzz
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-from multilingualmc.translator import Translator
+from .translator import Translator
 
 
 class TermAwareRefiner:

@@ -60,17 +60,17 @@ llama_lang_dict = {
 
 class M4TLargeTranslatorConfig:
     model_name = "facebook/hf-seamless-m4t-Large"
-    cache_dir = "/data/user_data/jiaruil5/.cache/"
+    cache_dir = "/home/iouzzani/.cache/"
     lang_dict = seamless_lang_dict
 
 class NLLBTranslatorConfig:
     model_name = "facebook/nllb-200-3.3B"
-    cache_dir = "/data/user_data/jiaruil5/.cache/"
+    cache_dir = "/home/iouzzani/.cache/"
     lang_dict = nllb_lang_dict
 
 class AyaTranslatorConfig:
     model_name = "CohereForAI/aya-expanse-8b"
-    cache_dir = "/compute/babel-12-25/jiaruil5/.cache/"
+    cache_dir = "/home/iouzzani/.cache/"
     lang_dict = llm_lang_dict
 
 class GoogleTranslatorConfig:
