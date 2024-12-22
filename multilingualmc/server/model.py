@@ -2,6 +2,7 @@ import json
 from nltk import word_tokenize, sent_tokenize
 from dataclasses import dataclass
 from enum import Enum
+from multilingualmc.server.acl_antho_translator.prompt_refine import AnthoPromptRefine
 
 class DocProcessor():
     def __init__(self, paper_path):
@@ -128,10 +129,10 @@ class Mode(Enum):
 class Args:
     model_mt: ModelMT = ModelMT.default
     model_refine: ModelRefine = ModelRefine.default
-    mode: Mode = Mode.default
+    # mode: Mode = Mode.default
     cache_dir: str = None
     openai_key_path: str = None
-    term_path: str = "../dictionary_collection/growing_dict/mturk.json"
+    term_path: str = "./multilingualmc/dictionary_collection/growing_dict/mturk.json"
 
 class Translator:
     def __init__(self, args: Args):
@@ -186,10 +187,12 @@ class Translator:
             config = Config
             self.model = GoogleTranslator(config)
         
-    def translate(self, text, src_lang, tgt_lang):
+    def translate(self, text, src_lang, tgt_lang, mode):
         result = self.model.translate(text, src_lang, tgt_lang)
         
-        if self.args.mode == Mode.direct:
+        if mode == "direct":
             return result
-        elif self.args.mode == Mode.term_aware:
-            return self.refiner.refine_translation(result, text, src_lang, tgt_lang)
+        elif mode == "term_aware":
+            # return self.refiner.refine_translation(result, text, src_lang, tgt_lang)
+            refiner = AnthoPromptRefine("gpt-4o-mini", "./multilingualmc/dictionary_collection/mturk/analysis/annotation_final/")
+            return refiner.translate(text, result, src_lang, tgt_lang)
