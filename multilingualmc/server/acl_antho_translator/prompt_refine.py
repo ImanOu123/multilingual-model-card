@@ -77,7 +77,7 @@ class AnthoPromptRefine():
         term_collector = TermCollector(self.term_file_path, [self.tgt_lang])
         
         relevant_terms_dict = {}
-        for key in term_collector.find_terminology(self.src_text): # need to split by sentence?
+        for key in term_collector.find_terminology(self.src_text):
             relevant_terms_dict[key] = term_collector.terms_dict[key] 
 
         translation = openai_prompt(

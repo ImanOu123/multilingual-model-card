@@ -1,7 +1,0 @@
-Using the cached checkpoint of seamlessM4T_v2_large. Set `force` to `True` to download again.
-Using the cached tokenizer of seamlessM4T_v2_large. Set `force` to `True` to download again.
-Using the cached tokenizer of seamlessM4T_v2_large. Set `force` to `True` to download again.
-Using the cached tokenizer of seamlessM4T_v2_large. Set `force` to `True` to download again.
-Using the cached checkpoint of vocoder_v2. Set `force` to `True` to download again.
-/home/iouzzani/anaconda3/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:28: UserWarning: torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.
-  warnings.warn("torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.")

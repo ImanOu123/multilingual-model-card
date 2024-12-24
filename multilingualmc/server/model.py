@@ -3,6 +3,8 @@ from nltk import word_tokenize, sent_tokenize
 from dataclasses import dataclass
 from enum import Enum
 from multilingualmc.server.acl_antho_translator.prompt_refine import AnthoPromptRefine
+import re
+from nltk.tokenize import sent_tokenize
 
 class DocProcessor():
     def __init__(self, paper_path):
@@ -187,12 +189,20 @@ class Translator:
             config = Config
             self.model = GoogleTranslator(config)
         
-    def translate(self, text, src_lang, tgt_lang, mode):
-        result = self.model.translate(text, src_lang, tgt_lang)
-        
-        if mode == "direct":
-            return result
-        elif mode == "term_aware":
-            # return self.refiner.refine_translation(result, text, src_lang, tgt_lang)
+    def translate(self, text, src_lang, tgt_lang, mode, seamless=""):
+        if seamless != "" and mode == "term_aware":
             refiner = AnthoPromptRefine("gpt-4o-mini", "./multilingualmc/dictionary_collection/mturk/analysis/annotation_final/")
-            return refiner.translate(text, result, src_lang, tgt_lang)
+            return refiner.translate(text, seamless, src_lang, tgt_lang)
+        else:
+            splitTxt = split_paragraph(text)
+            result = ""
+            for txt in splitTxt:
+                result += " " + self.model.translate(txt, src_lang, tgt_lang)
+                
+            if mode == "direct":
+                return result.strip()
+            elif mode == "term_aware":
+                # return self.refiner.refine_translation(result, text, src_lang, tgt_lang)
+                refiner = AnthoPromptRefine("gpt-4o-mini", "./multilingualmc/dictionary_collection/mturk/analysis/annotation_final/")
+                return refiner.translate(text, result.strip(), src_lang, tgt_lang)
+        

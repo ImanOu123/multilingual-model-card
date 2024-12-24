@@ -2,6 +2,9 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from multilingualmc.server.model import Translator, Args, ModelMT, ModelRefine, Mode
 from fastapi.middleware.cors import CORSMiddleware
+import difflib
+from nltk.tokenize import sent_tokenize
+import nltk
 
 # Define the FastAPI app
 app = FastAPI()
@@ -14,7 +17,6 @@ app.add_middleware(
 )
 
 args = Args()
-print(args)
 args.model_mt = ModelMT.seamless
 # args.cache_dir = "/data/user_data/jiaruil5/.cache/"
 # args.openai_key_path = "/home/jiaruil5/openai_key.txt"
@@ -23,6 +25,13 @@ args.model_mt = ModelMT.seamless
 # src_lang = "English"
 # tgt_lang = "Chinese"
 
+def word_lst(txt):
+    sents = sent_tokenize(txt)
+    lst = []
+    for sent in sents:
+        tok = nltk.word_tokenize(sent)
+        lst += list(map(lambda x: x[0], nltk.pos_tag(tok)))
+    return lst
 
 translator = Translator(args)
 
@@ -32,7 +41,18 @@ class TranslationRequest(BaseModel):
     src_lang: str
     tgt_lang: str 
     mode: str
+    seamless : str = ""
 
+# Define the request body structure
+class MarkRequest(BaseModel):
+    seamless : str
+    prompt : str
+    lang : str
+
+# Define the response structure
+class MarkResponse(BaseModel):
+    marked_translations: list[str]
+    
 # Define the response structure
 class TranslationResponse(BaseModel):
     translated_text: str
@@ -42,8 +62,75 @@ class TranslationResponse(BaseModel):
 async def translate_text(request: TranslationRequest):
     try:
         # Perform the translation
-        translated_text = translator.translate(request.text, request.src_lang, request.tgt_lang, request.mode)
+        translated_text = translator.translate(request.text, request.src_lang, request.tgt_lang, request.mode, request.seamless)
         return TranslationResponse(translated_text=translated_text)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+# API endpoint for marking translations
+@app.post("/mark", response_model=MarkResponse)
+async def mark_text(request: MarkRequest):
+    try:
+        d = difflib.Differ()
+        # for chinese and japanese compare character by character
+        if (request.lang == "zh" or request.lang == "ja"):
+            seamlessWords = list(request.seamless.replace("  ", " "))
+            promptWords = list(request.prompt.replace("。", ".").replace("、", ",").replace("，", ",").replace("  ", " "))
+
+            space = ""
+        # for other languages compare word by word
+        else:
+            seamlessWords = request.seamless.replace(" ،", "،").replace("  ", " ").split()
+            promptWords = request.prompt.replace(" ،", "،").replace("  ", " ").split()
+            space = " "
+            
+        diff = d.compare(seamlessWords, promptWords)
+           
+        wordLst = []
+        for d in diff:
+            wordLst.append(d)
+            
+        # create final marked texts
+        markedSeamless = ""
+        markedPrompt = ""
+        
+        i = 0
+        while (i < len(wordLst)):
+            word = wordLst[i]
+
+            # if question mark ignore
+            if word[0] == "?":
+                i = i + 1
+                
+            # if space automatically add
+            elif word[0] == " ":
+                markedSeamless += space + word[2:]
+                markedPrompt += space + word[2:]
+                i = i + 1
+                
+            # if -, mark and add to seamless translation
+            elif word[0] == "-":
+                j = i
+                marked = "<mark style='background-color: #FFCCCB'>"
+                while (j < len(wordLst) and wordLst[j][0] == "-"):
+                    marked += space + wordLst[j][2:]
+                    j += 1
+                
+                i = j
+                markedSeamless += space + marked + "</mark>"
+
+            # if +, mark and add to prompt translation
+            elif word[0] == "+":
+                j = i
+                marked = "<mark style='background-color: #90EE90'>"
+                while (j < len(wordLst) and wordLst[j][0] == "+"):
+                    marked += space + wordLst[j][2:]
+                    j += 1
+                i = j
+                markedPrompt += space + marked + "</mark>"
+
+        return MarkResponse(marked_translations=[markedSeamless.replace("  ", " "), markedPrompt.replace("  ", " ")])
+    
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
