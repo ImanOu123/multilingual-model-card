@@ -1,3 +1,5 @@
+# Translation Server (used alongside [ACL Antho Mod](https://github.com/ImanOu123/acl-anthology-mod))
+
 From the multilingual-model-card directory, run 
 ```
 python3 -m multilingualmc.server.run
