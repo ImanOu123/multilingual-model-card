@@ -22,7 +22,8 @@ There are two main POST requests that can be made on this server:
 
 ## Translate
 
-This is to translate a text using Seamless or the prompt refinement method. <br/>
+This is to translate a text using Seamless (the default direct translation method)
+or the prompt refinement method. <br/>
 
 This POST request takes in the following arguments: 
 + text: the text to translate
