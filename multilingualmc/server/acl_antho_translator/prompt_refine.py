@@ -9,6 +9,7 @@ import argparse
 from multilingualmc.translator.get_terms import TermCollector
 import os
 
+# to set up the openai model 
 def openai_setup(key_path=''):
     if (key_path == ""):
         key = os.environ["openai_api_key"]
@@ -19,6 +20,7 @@ def openai_setup(key_path=''):
     print("Read key from", key_path)
     openai.api_key = key.strip()
 
+# to prompt openai model to translate using prompt refinement 
 def openai_prompt(src_text, tgt_text, relevant_terms_dict, tgt_lang, model='gpt-4o'):
     src_lang = 'English'
     
@@ -33,17 +35,18 @@ def openai_prompt(src_text, tgt_text, relevant_terms_dict, tgt_lang, model='gpt-
     
     prompt = f"""For the following translation into {tgt_lang}, please use the specified {tgt_lang} terms for the corresponding {src_lang} terms, while keeping the other content unchanged.
 
-Term dictionary:
-{terms}
+        Term dictionary:
+        {terms}
 
-{src_lang} text:
-{src_text}
+        {src_lang} text:
+        {src_text}
 
-{tgt_lang} translation:
-{tgt_text}
+        {tgt_lang} translation:
+        {tgt_text}
 
-If multiple terms are nested or overlap with the context in {src_lang}, select the longest span that matches the context. Additionally, if a term has multiple meanings, only replace the term if its original context is relevant to the AI field. Provided the updated translation only.
-"""
+        If multiple terms are nested or overlap with the context in {src_lang}, select the longest span that matches the context. Additionally, if a term has multiple meanings, only replace the term if its original context is relevant to the AI field. Provided the updated translation only.
+     """
+     
     print(prompt)
     while True:
         try:
@@ -61,7 +64,6 @@ If multiple terms are nested or overlap with the context in {src_lang}, select t
     # extract valid_term, explanation
     return resp
 
-
 class AnthoPromptRefine():
     def __init__(self, model, term_file_path):
         openai_setup()
@@ -76,9 +78,12 @@ class AnthoPromptRefine():
         
         term_collector = TermCollector(self.term_file_path, [self.tgt_lang])
         
+        # extract the relevant terms in the dictionary 
         relevant_terms_dict = {}
         for key in term_collector.find_terminology(self.src_text):
             relevant_terms_dict[key] = term_collector.terms_dict[key] 
+            
+        # translate using prompting
         translation = openai_prompt(
             self.src_text,
             self.seamless_trans,

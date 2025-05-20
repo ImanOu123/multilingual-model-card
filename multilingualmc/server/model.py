@@ -189,20 +189,24 @@ class Translator:
             config = Config
             self.model = GoogleTranslator(config)
         
+    # used in the server to translate a text directly or using prompt refinement
     def translate(self, text, src_lang, tgt_lang, mode, seamless=""):
+        
+        # if the default translation is provided and the mode is set to use prompt refinement
         if seamless != "" and mode == "term_aware":
             refiner = AnthoPromptRefine("gpt-4o-mini", "./multilingualmc/dictionary_collection/mturk/analysis/annotation_final/")
             return refiner.translate(text, seamless, src_lang, tgt_lang)
         else:
+            # if the default translation is not provided, translate first
             splitTxt = split_paragraph(text)
             result = ""
             for txt in splitTxt:
                 result += " " + self.model.translate(txt, src_lang, tgt_lang)
             
+            # then return if "direct" or run the prompt refinement if not
             if mode == "direct":
                 return result.strip()
             elif mode == "term_aware":
-                # return self.refiner.refine_translation(result, text, src_lang, tgt_lang)
                 refiner = AnthoPromptRefine("gpt-4o-mini", "./multilingualmc/dictionary_collection/mturk/analysis/annotation_final/")
                 return refiner.translate(text, result.strip(), src_lang, tgt_lang)
         

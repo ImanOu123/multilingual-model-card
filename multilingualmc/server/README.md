@@ -1,6 +1,10 @@
-To run the server to translate, you need an OpenAPI API key in 
-your environment (for the prompt refinement translation feature)
-and the following requirements:
+From the multilingual-model-card directory, run 
+```
+python3 -m multilingualmc.server.run
+```
+
+You need an OpenAPI API key in your environment (for the prompt refinement 
+translation feature) and the following requirements:
 
 ```
 fastapi==0.115.12
