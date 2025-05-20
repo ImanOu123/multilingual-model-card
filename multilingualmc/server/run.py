@@ -18,12 +18,6 @@ app.add_middleware(
 
 args = Args()
 args.model_mt = ModelMT.seamless
-# args.cache_dir = "/data/user_data/jiaruil5/.cache/"
-# args.openai_key_path = "/home/jiaruil5/openai_key.txt"
-# args.term_path = "/home/jiaruil5/multilingual/multilingual-model-card/src/dictionary_collection/growing_dict/mturk.json"
-
-# src_lang = "English"
-# tgt_lang = "Chinese"
 
 def word_lst(txt):
     sents = sent_tokenize(txt)
@@ -110,24 +104,34 @@ async def mark_text(request: MarkRequest):
                 
             # if -, mark and add to seamless translation
             elif word[0] == "-":
-                j = i
-                marked = "<mark style='background-color: #FFCCCB'>"
-                while (j < len(wordLst) and wordLst[j][0] == "-"):
-                    marked += space + wordLst[j][2:]
-                    j += 1
-                
-                i = j
-                markedSeamless += space + marked + "</mark>"
+                # fix to prevent highlighting of non alphanumeric characters
+                if not word[2:].isalnum():
+                    markedSeamless += space + word[2:]
+                    i=i+1
+                else:
+                    j = i
+                    marked = "<mark style='background-color: #FFCCCB'>"
+                    while (j < len(wordLst) and wordLst[j][0] == "-"):
+                        marked += space + wordLst[j][2:]
+                        j += 1
+                    
+                    i = j
+                    markedSeamless += space + marked + "</mark>"
 
             # if +, mark and add to prompt translation
             elif word[0] == "+":
-                j = i
-                marked = "<mark style='background-color: #90EE90'>"
-                while (j < len(wordLst) and wordLst[j][0] == "+"):
-                    marked += space + wordLst[j][2:]
-                    j += 1
-                i = j
-                markedPrompt += space + marked + "</mark>"
+                # fix to prevent highlighting of non alphanumeric characters
+                if not word[2:].isalnum():
+                    markedPrompt += space + word[2:]
+                    i = i+1
+                else:
+                    j = i
+                    marked = "<mark style='background-color: #90EE90'>"
+                    while (j < len(wordLst) and wordLst[j][0] == "+"):
+                        marked += space + wordLst[j][2:]
+                        j += 1
+                    i = j
+                    markedPrompt += space + marked + "</mark>"
 
         return MarkResponse(marked_translations=[markedSeamless.replace("  ", " "), markedPrompt.replace("  ", " ")])
     

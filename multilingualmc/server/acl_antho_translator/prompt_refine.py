@@ -79,7 +79,6 @@ class AnthoPromptRefine():
         relevant_terms_dict = {}
         for key in term_collector.find_terminology(self.src_text):
             relevant_terms_dict[key] = term_collector.terms_dict[key] 
-
         translation = openai_prompt(
             self.src_text,
             self.seamless_trans,

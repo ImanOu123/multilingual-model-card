@@ -198,7 +198,7 @@ class Translator:
             result = ""
             for txt in splitTxt:
                 result += " " + self.model.translate(txt, src_lang, tgt_lang)
-                
+            
             if mode == "direct":
                 return result.strip()
             elif mode == "term_aware":
