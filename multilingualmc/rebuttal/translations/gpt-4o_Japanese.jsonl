@@ -1,0 +1,500 @@
+{"English": "activity recognition", "tgt_lang": "Japanese", "translation": "行動認識"}
+{"English": "deterministic annealing", "tgt_lang": "Japanese", "translation": "決定論的焼きなまし"}
+{"English": "data processing inequality", "tgt_lang": "Japanese", "translation": "データ処理不等式"}
+{"English": "conditional density", "tgt_lang": "Japanese", "translation": "条件付き密度"}
+{"English": "asymmetric transformation", "tgt_lang": "Japanese", "translation": "非対称変換"}
+{"English": "sibling model", "tgt_lang": "Japanese", "translation": "シブリングモデル"}
+{"English": "initial state", "tgt_lang": "Japanese", "translation": "初期状態"}
+{"English": "kernel density estimate", "tgt_lang": "Japanese", "translation": "カーネル密度推定"}
+{"English": "local basis function", "tgt_lang": "Japanese", "translation": "局所基底関数"}
+{"English": "transliteration", "tgt_lang": "Japanese", "translation": "転写"}
+{"English": "optimization function", "tgt_lang": "Japanese", "translation": "最適化関数"}
+{"English": "quality estimation", "tgt_lang": "Japanese", "translation": "品質推定"}
+{"English": "unigram language model", "tgt_lang": "Japanese", "translation": "ユニグラム言語モデル"}
+{"English": "i.i.d. sample", "tgt_lang": "Japanese", "translation": "i.i.d. sample"}
+{"English": "semantic feature", "tgt_lang": "Japanese", "translation": "セマンティック特徴"}
+{"English": "recurrent layer", "tgt_lang": "Japanese", "translation": "再帰層"}
+{"English": "scene recognition", "tgt_lang": "Japanese", "translation": "シーン認識"}
+{"English": "dropout layer", "tgt_lang": "Japanese", "translation": "ドロップアウト層"}
+{"English": "architecture search", "tgt_lang": "Japanese", "translation": "アーキテクチャ探索"}
+{"English": "detection score", "tgt_lang": "Japanese", "translation": "検出スコア"}
+{"English": "tree search", "tgt_lang": "Japanese", "translation": "木探索"}
+{"English": "learning rate scheduler", "tgt_lang": "Japanese", "translation": "学習率スケジューラ"}
+{"English": "primal optimization", "tgt_lang": "Japanese", "translation": "プライマル最適化"}
+{"English": "dependency representation", "tgt_lang": "Japanese", "translation": "依存表現"}
+{"English": "utility", "tgt_lang": "Japanese", "translation": "効用"}
+{"English": "machine comprehension", "tgt_lang": "Japanese", "translation": "マシン理解"}
+{"English": "tensor field", "tgt_lang": "Japanese", "translation": "テンソル場"}
+{"English": "first-order logic", "tgt_lang": "Japanese", "translation": "一階述語論理"}
+{"English": "featurized representation", "tgt_lang": "Japanese", "translation": "特徴表現"}
+{"English": "language representation", "tgt_lang": "Japanese", "translation": "言語表現"}
+{"English": "fine-tune", "tgt_lang": "Japanese", "translation": "微調整する"}
+{"English": "parameterisation", "tgt_lang": "Japanese", "translation": "パラメトリゼーション"}
+{"English": "gaussian likelihood", "tgt_lang": "Japanese", "translation": "ガウス尤度"}
+{"English": "statistical learning algorithm", "tgt_lang": "Japanese", "translation": "統計学習アルゴリズム"}
+{"English": "surface normal", "tgt_lang": "Japanese", "translation": "法線ベクトル"}
+{"English": "feed forward", "tgt_lang": "Japanese", "translation": "フィードフォワード"}
+{"English": "sentence compression", "tgt_lang": "Japanese", "translation": "文圧縮"}
+{"English": "minimum support", "tgt_lang": "Japanese", "translation": "最小支持度"}
+{"English": "regression task", "tgt_lang": "Japanese", "translation": "回帰タスク"}
+{"English": "causal graph", "tgt_lang": "Japanese", "translation": "因果グラフ"}
+{"English": "partial derivation", "tgt_lang": "Japanese", "translation": "部分導出"}
+{"English": "multi-modal input", "tgt_lang": "Japanese", "translation": "マルチモーダル入力"}
+{"English": "3d pose", "tgt_lang": "Japanese", "translation": "3Dポーズ"}
+{"English": "conjunctive normal form", "tgt_lang": "Japanese", "translation": "論理積標準形"}
+{"English": "f-measure", "tgt_lang": "Japanese", "translation": "F-measure"}
+{"English": "precondition", "tgt_lang": "Japanese", "translation": "前提条件"}
+{"English": "rollout length", "tgt_lang": "Japanese", "translation": "ロールアウト長"}
+{"English": "log p", "tgt_lang": "Japanese", "translation": "対数 p"}
+{"English": "training epoch", "tgt_lang": "Japanese", "translation": "トレーニングエポック"}
+{"English": "hyponym", "tgt_lang": "Japanese", "translation": "下位語"}
+{"English": "reprojection", "tgt_lang": "Japanese", "translation": "再投影"}
+{"English": "primal-dual method", "tgt_lang": "Japanese", "translation": "プライマルデュアル法"}
+{"English": "conditional sampling", "tgt_lang": "Japanese", "translation": "条件付きサンプリング"}
+{"English": "instance space", "tgt_lang": "Japanese", "translation": "インスタンス空間"}
+{"English": "convex objective function", "tgt_lang": "Japanese", "translation": "凸目的関数"}
+{"English": "successor state axiom", "tgt_lang": "Japanese", "translation": "後続状態公理"}
+{"English": "datum bias", "tgt_lang": "Japanese", "translation": "データバイアス"}
+{"English": "unsupervised model", "tgt_lang": "Japanese", "translation": "教師なしモデル"}
+{"English": "answer set programming", "tgt_lang": "Japanese", "translation": "アンサンブルプログラミング"}
+{"English": "probability flow", "tgt_lang": "Japanese", "translation": "確率フロー"}
+{"English": "distance metric", "tgt_lang": "Japanese", "translation": "距離尺度"}
+{"English": "training task", "tgt_lang": "Japanese", "translation": "トレーニングタスク"}
+{"English": "causal rule", "tgt_lang": "Japanese", "translation": "因果ルール"}
+{"English": "reward signal", "tgt_lang": "Japanese", "translation": "報酬信号"}
+{"English": "classification problem", "tgt_lang": "Japanese", "translation": "分類問題"}
+{"English": "edge feature", "tgt_lang": "Japanese", "translation": "エッジ特徴量"}
+{"English": "syntactic dependency parsing", "tgt_lang": "Japanese", "translation": "構文依存解析"}
+{"English": "graph attention network", "tgt_lang": "Japanese", "translation": "グラフアテンションネットワーク"}
+{"English": "decision tree", "tgt_lang": "Japanese", "translation": "決定木"}
+{"English": "web graph", "tgt_lang": "Japanese", "translation": "ウェブグラフ"}
+{"English": "model inference", "tgt_lang": "Japanese", "translation": "モデル推論"}
+{"English": "datum fidelity", "tgt_lang": "Japanese", "translation": "データ忠実度"}
+{"English": "equivalence query", "tgt_lang": "Japanese", "translation": "同値性クエリ"}
+{"English": "self-attention layer", "tgt_lang": "Japanese", "translation": "自己注意層"}
+{"English": "model fine-tuning", "tgt_lang": "Japanese", "translation": "モデルファインチューニング"}
+{"English": "utility function", "tgt_lang": "Japanese", "translation": "効用関数"}
+{"English": "approximation ratio", "tgt_lang": "Japanese", "translation": "近似比率"}
+{"English": "bipartite matching", "tgt_lang": "Japanese", "translation": "二部マッチング"}
+{"English": "query embedding", "tgt_lang": "Japanese", "translation": "クエリエンベッディング"}
+{"English": "ensemble method", "tgt_lang": "Japanese", "translation": "アンサンブル法"}
+{"English": "neural machinery", "tgt_lang": "Japanese", "translation": "ニューラルマシナリー"}
+{"English": "bicubic interpolation", "tgt_lang": "Japanese", "translation": "バイキュービック補間"}
+{"English": "dimensionality reduction", "tgt_lang": "Japanese", "translation": "次元削減"}
+{"English": "bilinear form", "tgt_lang": "Japanese", "translation": "双線形形式"}
+{"English": "semantic priming", "tgt_lang": "Japanese", "translation": "語義プライミング"}
+{"English": "target network", "tgt_lang": "Japanese", "translation": "ターゲットネットワーク"}
+{"English": "input matrix", "tgt_lang": "Japanese", "translation": "入力行列"}
+{"English": "maximum a posteriori estimation", "tgt_lang": "Japanese", "translation": "最尤事後推定"}
+{"English": "multidimensional quality metric", "tgt_lang": "Japanese", "translation": "Multidimensional Quality Metrics"}
+{"English": "spam detection", "tgt_lang": "Japanese", "translation": "スパム検出"}
+{"English": "diffeomorphism", "tgt_lang": "Japanese", "translation": "微分同相写像"}
+{"English": "model hyperparameter", "tgt_lang": "Japanese", "translation": "モデルハイパーパラメータ"}
+{"English": "visual grounding", "tgt_lang": "Japanese", "translation": "視覚基盤"}
+{"English": "constrained optimization problem", "tgt_lang": "Japanese", "translation": "制約付き最適化問題"}
+{"English": "input graph", "tgt_lang": "Japanese", "translation": "入力グラフ"}
+{"English": "mean function", "tgt_lang": "Japanese", "translation": "平均関数"}
+{"English": "hyperparameter search", "tgt_lang": "Japanese", "translation": "ハイパーパラメータ探索"}
+{"English": "deformable template", "tgt_lang": "Japanese", "translation": "変形テンプレート"}
+{"English": "mocap", "tgt_lang": "Japanese", "translation": "モーションキャプチャー"}
+{"English": "deep net", "tgt_lang": "Japanese", "translation": "ディープネット"}
+{"English": "transformer block", "tgt_lang": "Japanese", "translation": "トランスフォーマーブロック"}
+{"English": "bias-variance tradeoff", "tgt_lang": "Japanese", "translation": "バイアス・バリアンスのトレードオフ"}
+{"English": "topic classification", "tgt_lang": "Japanese", "translation": "トピック分類"}
+{"English": "adversarial loss", "tgt_lang": "Japanese", "translation": "敵対的損失"}
+{"English": "local consistency", "tgt_lang": "Japanese", "translation": "局所整合性"}
+{"English": "emotion classification", "tgt_lang": "Japanese", "translation": "感情分類"}
+{"English": "model-free approach", "tgt_lang": "Japanese", "translation": "モデルフリー手法"}
+{"English": "nsubj", "tgt_lang": "Japanese", "translation": "nsubj"}
+{"English": "convex set", "tgt_lang": "Japanese", "translation": "凸集合"}
+{"English": "context vector", "tgt_lang": "Japanese", "translation": "コンテキストベクトル"}
+{"English": "euclidean norm", "tgt_lang": "Japanese", "translation": "ユークリッドノルム"}
+{"English": "linear transformation", "tgt_lang": "Japanese", "translation": "線形変換"}
+{"English": "dependency arc", "tgt_lang": "Japanese", "translation": "依存アーク"}
+{"English": "clip range", "tgt_lang": "Japanese", "translation": "クリップ範囲"}
+{"English": "riemannian gradient", "tgt_lang": "Japanese", "translation": "リーマン勾配"}
+{"English": "projective dependency parsing", "tgt_lang": "Japanese", "translation": "射影依存構文解析"}
+{"English": "generative probabilistic model", "tgt_lang": "Japanese", "translation": "生成確率モデル"}
+{"English": "global objective", "tgt_lang": "Japanese", "translation": "グローバル目的"}
+{"English": "calculus of variation", "tgt_lang": "Japanese", "translation": "変分法"}
+{"English": "semi-definite programming", "tgt_lang": "Japanese", "translation": "半定計画"}
+{"English": "scene flow estimation", "tgt_lang": "Japanese", "translation": "シーンフロー推定"}
+{"English": "prefix tree", "tgt_lang": "Japanese", "translation": "接頭辞木"}
+{"English": "structural learning", "tgt_lang": "Japanese", "translation": "構造学習"}
+{"English": "neural module", "tgt_lang": "Japanese", "translation": "ニューラルモジュール"}
+{"English": "iteration", "tgt_lang": "Japanese", "translation": "反復"}
+{"English": "kernel", "tgt_lang": "Japanese", "translation": "カーネル"}
+{"English": "minimizer", "tgt_lang": "Japanese", "translation": "最小化子"}
+{"English": "solution space", "tgt_lang": "Japanese", "translation": "解空間"}
+{"English": "coarse-to-fine approach", "tgt_lang": "Japanese", "translation": "粗から細へのアプローチ"}
+{"English": "query language", "tgt_lang": "Japanese", "translation": "クエリ言語"}
+{"English": "convolutional kernel", "tgt_lang": "Japanese", "translation": "畳み込みカーネル"}
+{"English": "spatial pyramid", "tgt_lang": "Japanese", "translation": "空間ピラミッド"}
+{"English": "joint semantic space", "tgt_lang": "Japanese", "translation": "共通意味空間"}
+{"English": "segmentation algorithm", "tgt_lang": "Japanese", "translation": "セグメンテーションアルゴリズム"}
+{"English": "network", "tgt_lang": "Japanese", "translation": "ネットワーク"}
+{"English": "linear map", "tgt_lang": "Japanese", "translation": "線形写像"}
+{"English": "nonmonotonic reasoning", "tgt_lang": "Japanese", "translation": "非単調推論"}
+{"English": "token length", "tgt_lang": "Japanese", "translation": "トークン長"}
+{"English": "caltech-101", "tgt_lang": "Japanese", "translation": "Caltech-101"}
+{"English": "convolution operator", "tgt_lang": "Japanese", "translation": "畳み込み演算子"}
+{"English": "agent policy", "tgt_lang": "Japanese", "translation": "エージェントポリシー"}
+{"English": "batch mode", "tgt_lang": "Japanese", "translation": "バッチモード"}
+{"English": "back-off strategy", "tgt_lang": "Japanese", "translation": "バックオフ戦略"}
+{"English": "bayesian learning", "tgt_lang": "Japanese", "translation": "ベイズ学習"}
+{"English": "batch setting", "tgt_lang": "Japanese", "translation": "バッチ設定"}
+{"English": "intrinsic parameter", "tgt_lang": "Japanese", "translation": "内部パラメータ"}
+{"English": "root mean square error", "tgt_lang": "Japanese", "translation": "二乗平均平方根誤差"}
+{"English": "convolution kernel", "tgt_lang": "Japanese", "translation": "畳み込みカーネル"}
+{"English": "3d scene geometry", "tgt_lang": "Japanese", "translation": "3Dシーンジオメトリ"}
+{"English": "training example", "tgt_lang": "Japanese", "translation": "訓練例"}
+{"English": "recommender", "tgt_lang": "Japanese", "translation": "レコメンダー"}
+{"English": "regularization penalty", "tgt_lang": "Japanese", "translation": "正則化ペナルティ"}
+{"English": "default logic", "tgt_lang": "Japanese", "translation": "デフォルト論理"}
+{"English": "self-supervision", "tgt_lang": "Japanese", "translation": "自己監督"}
+{"English": "column vector", "tgt_lang": "Japanese", "translation": "列ベクトル"}
+{"English": "training accuracy", "tgt_lang": "Japanese", "translation": "トレーニング精度"}
+{"English": "stochastic model", "tgt_lang": "Japanese", "translation": "確率モデル"}
+{"English": "cross-attention layer", "tgt_lang": "Japanese", "translation": "クロスアテンション層"}
+{"English": "pre-training datum", "tgt_lang": "Japanese", "translation": "事前学習データ"}
+{"English": "goal state", "tgt_lang": "Japanese", "translation": "ゴール状態"}
+{"English": "parameter regularization", "tgt_lang": "Japanese", "translation": "パラメータ正則化"}
+{"English": "test datum", "tgt_lang": "Japanese", "translation": "テストデータ"}
+{"English": "image plane", "tgt_lang": "Japanese", "translation": "画像平面"}
+{"English": "sequence model", "tgt_lang": "Japanese", "translation": "シーケンスモデル"}
+{"English": "dense prediction", "tgt_lang": "Japanese", "translation": "密集予測"}
+{"English": "action classification", "tgt_lang": "Japanese", "translation": "行動分類"}
+{"English": "target variable", "tgt_lang": "Japanese", "translation": "目的変数"}
+{"English": "length penalty", "tgt_lang": "Japanese", "translation": "長さペナルティ"}
+{"English": "neural mapping", "tgt_lang": "Japanese", "translation": "ニューラルマッピング"}
+{"English": "synthetic dataset", "tgt_lang": "Japanese", "translation": "合成データセット"}
+{"English": "conditional computation", "tgt_lang": "Japanese", "translation": "条件付き計算"}
+{"English": "information bottleneck", "tgt_lang": "Japanese", "translation": "情報ボトルネック"}
+{"English": "graph structure", "tgt_lang": "Japanese", "translation": "グラフ構造"}
+{"English": "deep feature", "tgt_lang": "Japanese", "translation": "ディープ特徴"}
+{"English": "conversation history", "tgt_lang": "Japanese", "translation": "会話履歴"}
+{"English": "machine-in-the-loop", "tgt_lang": "Japanese", "translation": "機械インザループ"}
+{"English": "hungarian loss", "tgt_lang": "Japanese", "translation": "ハンガリアン損失"}
+{"English": "neural approach", "tgt_lang": "Japanese", "translation": "ニューラルアプローチ"}
+{"English": "attribute", "tgt_lang": "Japanese", "translation": "属性"}
+{"English": "attention value", "tgt_lang": "Japanese", "translation": "アテンション値"}
+{"English": "regret minimization", "tgt_lang": "Japanese", "translation": "後悔最小化"}
+{"English": "conjunctive query", "tgt_lang": "Japanese", "translation": "結合クエリ"}
+{"English": "vanishing gradient", "tgt_lang": "Japanese", "translation": "勾配消失"}
+{"English": "membership inference attack", "tgt_lang": "Japanese", "translation": "メンバーシップ推論攻撃"}
+{"English": "distance measure", "tgt_lang": "Japanese", "translation": "距離尺度"}
+{"English": "detection window", "tgt_lang": "Japanese", "translation": "検出ウィンドウ"}
+{"English": "causal inference", "tgt_lang": "Japanese", "translation": "因果推論"}
+{"English": "pre-logit", "tgt_lang": "Japanese", "translation": "プレロジット"}
+{"English": "multi-classification", "tgt_lang": "Japanese", "translation": "多クラス分類"}
+{"English": "meta-algorithm", "tgt_lang": "Japanese", "translation": "メタアルゴリズム"}
+{"English": "one-stage detector", "tgt_lang": "Japanese", "translation": "ワンステージ検出器"}
+{"English": "source sequence", "tgt_lang": "Japanese", "translation": "ソースシーケンス"}
+{"English": "beam search decoding algorithm", "tgt_lang": "Japanese", "translation": "ビームサーチデコーディングアルゴリズム"}
+{"English": "constraint generation", "tgt_lang": "Japanese", "translation": "制約生成"}
+{"English": "residual block", "tgt_lang": "Japanese", "translation": "残差ブロック"}
+{"English": "reprojection error", "tgt_lang": "Japanese", "translation": "再投影誤差"}
+{"English": "transition system", "tgt_lang": "Japanese", "translation": "遷移システム"}
+{"English": "causal language model", "tgt_lang": "Japanese", "translation": "因果言語モデル"}
+{"English": "word token", "tgt_lang": "Japanese", "translation": "単語トークン"}
+{"English": "syntactic tree", "tgt_lang": "Japanese", "translation": "構文木"}
+{"English": "near-optimality", "tgt_lang": "Japanese", "translation": "ニア・オプティマリティー"}
+{"English": "feature hashing", "tgt_lang": "Japanese", "translation": "特徴ハッシング"}
+{"English": "tensor", "tgt_lang": "Japanese", "translation": "テンソル"}
+{"English": "computer vision", "tgt_lang": "Japanese", "translation": "コンピュータビジョン"}
+{"English": "multi-scale architecture", "tgt_lang": "Japanese", "translation": "マルチスケールアーキテクチャ"}
+{"English": "linear predictor", "tgt_lang": "Japanese", "translation": "線形予測器"}
+{"English": "subsampling factor", "tgt_lang": "Japanese", "translation": "サブサンプリングファクター"}
+{"English": "vector representation", "tgt_lang": "Japanese", "translation": "ベクトル表現"}
+{"English": "prior distribution", "tgt_lang": "Japanese", "translation": "事前分布"}
+{"English": "validation loss", "tgt_lang": "Japanese", "translation": "検証損失"}
+{"English": "transfer learning", "tgt_lang": "Japanese", "translation": "転移学習"}
+{"English": "monolingual dataset", "tgt_lang": "Japanese", "translation": "単言語データセット"}
+{"English": "perfect matching", "tgt_lang": "Japanese", "translation": "完全マッチング"}
+{"English": "label distribution", "tgt_lang": "Japanese", "translation": "ラベル分布"}
+{"English": "point match", "tgt_lang": "Japanese", "translation": "ポイントマッチ"}
+{"English": "target token", "tgt_lang": "Japanese", "translation": "ターゲットトークン"}
+{"English": "bootstrap learning", "tgt_lang": "Japanese", "translation": "ブートストラップ学習"}
+{"English": "scene graph", "tgt_lang": "Japanese", "translation": "シーングラフ"}
+{"English": "ranking algorithm", "tgt_lang": "Japanese", "translation": "ランキングアルゴリズム"}
+{"English": "log partition function", "tgt_lang": "Japanese", "translation": "対数分配関数"}
+{"English": "model initialization", "tgt_lang": "Japanese", "translation": "モデル初期化"}
+{"English": "latent vector", "tgt_lang": "Japanese", "translation": "潜在ベクトル"}
+{"English": "vector arithmetic", "tgt_lang": "Japanese", "translation": "ベクトル算術"}
+{"English": "empirical risk minimization", "tgt_lang": "Japanese", "translation": "経験的リスク最小化"}
+{"English": "decision policy", "tgt_lang": "Japanese", "translation": "意思決定方針"}
+{"English": "visual odometry", "tgt_lang": "Japanese", "translation": "ビジュアルオドメトリ"}
+{"English": "multi-label text classification", "tgt_lang": "Japanese", "translation": "マルチラベルテキスト分類"}
+{"English": "sub-population", "tgt_lang": "Japanese", "translation": "サブポピュレーション"}
+{"English": "block-diagonal matrix", "tgt_lang": "Japanese", "translation": "ブロック対角行列"}
+{"English": "prior probability distribution", "tgt_lang": "Japanese", "translation": "事前確率分布"}
+{"English": "algorithmic approach", "tgt_lang": "Japanese", "translation": "アルゴリズム的アプローチ"}
+{"English": "pareto optimality", "tgt_lang": "Japanese", "translation": "パレート最適性"}
+{"English": "gating function", "tgt_lang": "Japanese", "translation": "ゲーティング関数"}
+{"English": "regularization", "tgt_lang": "Japanese", "translation": "正則化"}
+{"English": "dependency relation", "tgt_lang": "Japanese", "translation": "依存関係"}
+{"English": "white-box", "tgt_lang": "Japanese", "translation": "ホワイトボックス"}
+{"English": "motion analysis", "tgt_lang": "Japanese", "translation": "動作解析"}
+{"English": "pre-trained embedding", "tgt_lang": "Japanese", "translation": "事前学習済み埋め込み"}
+{"English": "orthographic projection", "tgt_lang": "Japanese", "translation": "正投影"}
+{"English": "bound variable", "tgt_lang": "Japanese", "translation": "束縛変数"}
+{"English": "controllable text generation", "tgt_lang": "Japanese", "translation": "制御可能なテキスト生成"}
+{"English": "topic distribution", "tgt_lang": "Japanese", "translation": "トピック分布"}
+{"English": "object bounding box", "tgt_lang": "Japanese", "translation": "オブジェクトバウンディングボックス"}
+{"English": "proposal probability", "tgt_lang": "Japanese", "translation": "提案確率"}
+{"English": "self-learning", "tgt_lang": "Japanese", "translation": "自己学習"}
+{"English": "top-p sampling", "tgt_lang": "Japanese", "translation": "トップ-pサンプリング"}
+{"English": "generator", "tgt_lang": "Japanese", "translation": "ジェネレーター"}
+{"English": "feature dimension", "tgt_lang": "Japanese", "translation": "特徴次元"}
+{"English": "data sparseness", "tgt_lang": "Japanese", "translation": "データスパースネス"}
+{"English": "convergence analysis", "tgt_lang": "Japanese", "translation": "収束解析"}
+{"English": "stationary kernel", "tgt_lang": "Japanese", "translation": "定常カーネル"}
+{"English": "dictionary matrix", "tgt_lang": "Japanese", "translation": "辞書行列"}
+{"English": "sub-networks", "tgt_lang": "Japanese", "translation": "サブネットワーク"}
+{"English": "factorization", "tgt_lang": "Japanese", "translation": "因数分解"}
+{"English": "context free grammar", "tgt_lang": "Japanese", "translation": "無矯正文法"}
+{"English": "graph matching", "tgt_lang": "Japanese", "translation": "グラフマッチング"}
+{"English": "autonomous agent", "tgt_lang": "Japanese", "translation": "自律エージェント"}
+{"English": "unary production", "tgt_lang": "Japanese", "translation": "単項生成"}
+{"English": "online learning theory", "tgt_lang": "Japanese", "translation": "オンライン学習理論"}
+{"English": "2d image", "tgt_lang": "Japanese", "translation": "2D画像"}
+{"English": "domain element", "tgt_lang": "Japanese", "translation": "領域要素"}
+{"English": "knowledge transfer", "tgt_lang": "Japanese", "translation": "知識伝達"}
+{"English": "orthonormality", "tgt_lang": "Japanese", "translation": "直交性"}
+{"English": "bayesian inference", "tgt_lang": "Japanese", "translation": "ベイズ推論"}
+{"English": "feature point", "tgt_lang": "Japanese", "translation": "特徴点"}
+{"English": "posterior probability", "tgt_lang": "Japanese", "translation": "事後確率"}
+{"English": "graph convolutional network", "tgt_lang": "Japanese", "translation": "グラフ畳み込みネットワーク"}
+{"English": "foundation model", "tgt_lang": "Japanese", "translation": "基盤モデル"}
+{"English": "bandit learning", "tgt_lang": "Japanese", "translation": "バンディット学習"}
+{"English": "computational model", "tgt_lang": "Japanese", "translation": "計算モデル"}
+{"English": "subgame", "tgt_lang": "Japanese", "translation": "サブゲーム"}
+{"English": "belief state", "tgt_lang": "Japanese", "translation": "信念状態"}
+{"English": "off-diagonal element", "tgt_lang": "Japanese", "translation": "非対角要素"}
+{"English": "matroid", "tgt_lang": "Japanese", "translation": "マトロイド"}
+{"English": "binary atom", "tgt_lang": "Japanese", "translation": "二項アトム"}
+{"English": "semantic class", "tgt_lang": "Japanese", "translation": "意味クラス"}
+{"English": "hash", "tgt_lang": "Japanese", "translation": "ハッシュ"}
+{"English": "observational datum", "tgt_lang": "Japanese", "translation": "観測データ"}
+{"English": "localization", "tgt_lang": "Japanese", "translation": "ローカライゼーション"}
+{"English": "dialogue system", "tgt_lang": "Japanese", "translation": "対話システム"}
+{"English": "categorial grammar", "tgt_lang": "Japanese", "translation": "カテゴリー文法"}
+{"English": "semantic category", "tgt_lang": "Japanese", "translation": "セマンティックカテゴリ"}
+{"English": "statistical machine translation system", "tgt_lang": "Japanese", "translation": "統計的機械翻訳システム"}
+{"English": "data augmentation", "tgt_lang": "Japanese", "translation": "データ拡張"}
+{"English": "float32", "tgt_lang": "Japanese", "translation": "float32"}
+{"English": "weight initialization", "tgt_lang": "Japanese", "translation": "重み初期化"}
+{"English": "invertible matrix", "tgt_lang": "Japanese", "translation": "可逆行列"}
+{"English": "behavior policy", "tgt_lang": "Japanese", "translation": "行動方策"}
+{"English": "linear decoder", "tgt_lang": "Japanese", "translation": "線形デコーダー"}
+{"English": "automated mechanism design", "tgt_lang": "Japanese", "translation": "自動メカニズム設計"}
+{"English": "probability mass function", "tgt_lang": "Japanese", "translation": "確率質量関数"}
+{"English": "hyper-parameter tuning", "tgt_lang": "Japanese", "translation": "ハイパーパラメータチューニング"}
+{"English": "inference time", "tgt_lang": "Japanese", "translation": "推論時刻"}
+{"English": "gaussian random variable", "tgt_lang": "Japanese", "translation": "ガウス確率変数"}
+{"English": "advantage function", "tgt_lang": "Japanese", "translation": "アドバンテージ関数"}
+{"English": "linear regression", "tgt_lang": "Japanese", "translation": "線形回帰"}
+{"English": "image classification", "tgt_lang": "Japanese", "translation": "画像分類"}
+{"English": "maximal frequent pattern", "tgt_lang": "Japanese", "translation": "極大頻出パターン"}
+{"English": "approximation guarantee", "tgt_lang": "Japanese", "translation": "近似保証"}
+{"English": "bottom-up learning", "tgt_lang": "Japanese", "translation": "ボトムアップ学習"}
+{"English": "few-shot prompting", "tgt_lang": "Japanese", "translation": "数ショットプロンプティング"}
+{"English": "gradient descent", "tgt_lang": "Japanese", "translation": "勾配降下"}
+{"English": "t5 model", "tgt_lang": "Japanese", "translation": "T5モデル"}
+{"English": "baseline model", "tgt_lang": "Japanese", "translation": "ベースラインモデル"}
+{"English": "minimax optimization problem", "tgt_lang": "Japanese", "translation": "ミニマックス最適化問題"}
+{"English": "neural network language model", "tgt_lang": "Japanese", "translation": "ニューラルネットワーク言語モデル"}
+{"English": "attribution", "tgt_lang": "Japanese", "translation": "帰属"}
+{"English": "input filter", "tgt_lang": "Japanese", "translation": "インプットフィルター"}
+{"English": "forward algorithm", "tgt_lang": "Japanese", "translation": "フォワードアルゴリズム"}
+{"English": "empirical variance", "tgt_lang": "Japanese", "translation": "経験的分散"}
+{"English": "distance function", "tgt_lang": "Japanese", "translation": "距離関数"}
+{"English": "lagrange multiplier", "tgt_lang": "Japanese", "translation": "ラグランジュ乗数"}
+{"English": "cross-lingual knowledge transfer", "tgt_lang": "Japanese", "translation": "クロスリンガル知識移転"}
+{"English": "time/space complexity", "tgt_lang": "Japanese", "translation": "時間・空間計算量"}
+{"English": "state transition model", "tgt_lang": "Japanese", "translation": "状態遷移モデル"}
+{"English": "stochastic search algorithm", "tgt_lang": "Japanese", "translation": "確率的探索アルゴリズム"}
+{"English": "semantic space", "tgt_lang": "Japanese", "translation": "セマンティック空間"}
+{"English": "generative adversarial network", "tgt_lang": "Japanese", "translation": "生成的敵対的ネットワーク"}
+{"English": "junction tree", "tgt_lang": "Japanese", "translation": "接合木"}
+{"English": "bisimulation", "tgt_lang": "Japanese", "translation": "シミュレーション同値"}
+{"English": "residual error", "tgt_lang": "Japanese", "translation": "残差誤差"}
+{"English": "hill-climbing", "tgt_lang": "Japanese", "translation": "ヒルクライミング"}
+{"English": "perception", "tgt_lang": "Japanese", "translation": "認識"}
+{"English": "multi-head self-attention module", "tgt_lang": "Japanese", "translation": "マルチヘッド・セルフアテンションモジュール"}
+{"English": "self-attention matrix", "tgt_lang": "Japanese", "translation": "自己注意行列"}
+{"English": "l 2 -norm", "tgt_lang": "Japanese", "translation": "L2ノルム"}
+{"English": "cost-sensitive learning", "tgt_lang": "Japanese", "translation": "コストセンシティブ学習"}
+{"English": "vision model", "tgt_lang": "Japanese", "translation": "ビジョンモデル"}
+{"English": "multi-class classification", "tgt_lang": "Japanese", "translation": "多クラス分類"}
+{"English": "uniform convergence", "tgt_lang": "Japanese", "translation": "一様収束"}
+{"English": "target policy", "tgt_lang": "Japanese", "translation": "ターゲットポリシー"}
+{"English": "node", "tgt_lang": "Japanese", "translation": "ノード"}
+{"English": "hierarchical model", "tgt_lang": "Japanese", "translation": "階層モデル"}
+{"English": "pose space", "tgt_lang": "Japanese", "translation": "ポーズ空間"}
+{"English": "cross entropy error", "tgt_lang": "Japanese", "translation": "交差エントロピー誤差"}
+{"English": "metric learning algorithm", "tgt_lang": "Japanese", "translation": "距離学習アルゴリズム"}
+{"English": "l1 regularization", "tgt_lang": "Japanese", "translation": "L1正則化"}
+{"English": "occupancy map", "tgt_lang": "Japanese", "translation": "占有マップ"}
+{"English": "query time", "tgt_lang": "Japanese", "translation": "クエリ時間"}
+{"English": "a * algorithm", "tgt_lang": "Japanese", "translation": "A*アルゴリズム"}
+{"English": "sequential decision making", "tgt_lang": "Japanese", "translation": "逐次意思決定"}
+{"English": "feature selection", "tgt_lang": "Japanese", "translation": "特徴選択"}
+{"English": "graph isomorphism", "tgt_lang": "Japanese", "translation": "グラフ同型問題"}
+{"English": "l2 weight decay", "tgt_lang": "Japanese", "translation": "L2正則化"}
+{"English": "critic loss", "tgt_lang": "Japanese", "translation": "クリティック損失"}
+{"English": "coarse-to-fine", "tgt_lang": "Japanese", "translation": "粗から細へ"}
+{"English": "optimiser", "tgt_lang": "Japanese", "translation": "オプティマイザ "}
+{"English": "iterative algorithm", "tgt_lang": "Japanese", "translation": "反復アルゴリズム"}
+{"English": "unsupervised classification", "tgt_lang": "Japanese", "translation": "教師なし分類"}
+{"English": "semantic alignment", "tgt_lang": "Japanese", "translation": "意味整合"}
+{"English": "hierarchical decoder", "tgt_lang": "Japanese", "translation": "階層デコーダー"}
+{"English": "lexical model", "tgt_lang": "Japanese", "translation": "語彙モデル"}
+{"English": "local minima", "tgt_lang": "Japanese", "translation": "局所的極小値"}
+{"English": "excess loss", "tgt_lang": "Japanese", "translation": "過剰損失"}
+{"English": "second order", "tgt_lang": "Japanese", "translation": "2次"}
+{"English": "binary label", "tgt_lang": "Japanese", "translation": "バイナリラベル"}
+{"English": "minimum description length", "tgt_lang": "Japanese", "translation": "最小記述長"}
+{"English": "human-in-the-loop", "tgt_lang": "Japanese", "translation": "人間参加型"}
+{"English": "deterministic baseline", "tgt_lang": "Japanese", "translation": "決定論的ベースライン"}
+{"English": "greedy approach", "tgt_lang": "Japanese", "translation": "貪欲法"}
+{"English": "temporal logic", "tgt_lang": "Japanese", "translation": "時相論理"}
+{"English": "multi-head attention layer", "tgt_lang": "Japanese", "translation": "マルチヘッドアテンション層"}
+{"English": "intractability", "tgt_lang": "Japanese", "translation": "非解決性"}
+{"English": "unlexicalized grammar", "tgt_lang": "Japanese", "translation": "非語彙化文法"}
+{"English": "image synthesis", "tgt_lang": "Japanese", "translation": "画像合成"}
+{"English": "loss term", "tgt_lang": "Japanese", "translation": "損失項"}
+{"English": "datum parallelism", "tgt_lang": "Japanese", "translation": "データ並列性"}
+{"English": "generalization ability", "tgt_lang": "Japanese", "translation": "汎化能力"}
+{"English": "energy minimization", "tgt_lang": "Japanese", "translation": "エネルギー最小化"}
+{"English": "free variable", "tgt_lang": "Japanese", "translation": "自由変数"}
+{"English": "rollout", "tgt_lang": "Japanese", "translation": "ロールアウト"}
+{"English": "weight decay", "tgt_lang": "Japanese", "translation": "重み減衰"}
+{"English": "document clustering", "tgt_lang": "Japanese", "translation": "ドキュメントクラスタリング"}
+{"English": "bilateral filtering", "tgt_lang": "Japanese", "translation": "バイラテラルフィルタリング"}
+{"English": "predictor", "tgt_lang": "Japanese", "translation": "予測子"}
+{"English": "sequence labeling", "tgt_lang": "Japanese", "translation": "系列ラベリング"}
+{"English": "coarse correlated equilibrium", "tgt_lang": "Japanese", "translation": "粗相関均衡"}
+{"English": "deep q-learning", "tgt_lang": "Japanese", "translation": "Deep Q-learning"}
+{"English": "communication graph", "tgt_lang": "Japanese", "translation": "通信グラフ"}
+{"English": "reservoir sampling", "tgt_lang": "Japanese", "translation": "リザーバーサンプリング"}
+{"English": "hybrid model", "tgt_lang": "Japanese", "translation": "ハイブリッドモデル"}
+{"English": "classification margin", "tgt_lang": "Japanese", "translation": "分類マージン"}
+{"English": "end-of-sequence token", "tgt_lang": "Japanese", "translation": "シーケンス終了トークン"}
+{"English": "gradient variance", "tgt_lang": "Japanese", "translation": "勾配分散"}
+{"English": "model development", "tgt_lang": "Japanese", "translation": "モデル開発"}
+{"English": "conditional entropy", "tgt_lang": "Japanese", "translation": "条件付きエントロピー"}
+{"English": "transition probability", "tgt_lang": "Japanese", "translation": "遷移確率"}
+{"English": "uncertainty sampling", "tgt_lang": "Japanese", "translation": "不確実性サンプリング"}
+{"English": "probabilistic topic modeling", "tgt_lang": "Japanese", "translation": "確率的トピックモデリング"}
+{"English": "hyperprior", "tgt_lang": "Japanese", "translation": "ハイパープライヤー"}
+{"English": "recurrent architecture", "tgt_lang": "Japanese", "translation": "再帰的アーキテクチャ"}
+{"English": "neural text generation", "tgt_lang": "Japanese", "translation": "ニューラルテキスト生成"}
+{"English": "piecewise linear", "tgt_lang": "Japanese", "translation": "区分線形"}
+{"English": "policy gradient theorem", "tgt_lang": "Japanese", "translation": "ポリシー勾配定理"}
+{"English": "slot", "tgt_lang": "Japanese", "translation": "スロット"}
+{"English": "hamming loss", "tgt_lang": "Japanese", "translation": "ハミング損失"}
+{"English": "class", "tgt_lang": "Japanese", "translation": "クラス"}
+{"English": "3d localization", "tgt_lang": "Japanese", "translation": "3Dローカライゼーション"}
+{"English": "joint likelihood", "tgt_lang": "Japanese", "translation": "結合尤度"}
+{"English": "parameter tying", "tgt_lang": "Japanese", "translation": "パラメータ共有"}
+{"English": "vector space representation", "tgt_lang": "Japanese", "translation": "ベクトル空間表現"}
+{"English": "second-order optimization", "tgt_lang": "Japanese", "translation": "二次最適化"}
+{"English": "ridge regression", "tgt_lang": "Japanese", "translation": "リッジ回帰"}
+{"English": "binary classification task", "tgt_lang": "Japanese", "translation": "バイナリ分類タスク"}
+{"English": "projection operator", "tgt_lang": "Japanese", "translation": "射影演算子"}
+{"English": "text mining", "tgt_lang": "Japanese", "translation": "テキストマイニング"}
+{"English": "feature matrix", "tgt_lang": "Japanese", "translation": "特徴行列"}
+{"English": "rigid body transformation", "tgt_lang": "Japanese", "translation": "剛体変換"}
+{"English": "probabilistic inference", "tgt_lang": "Japanese", "translation": "確率的推論"}
+{"English": "identity transformation", "tgt_lang": "Japanese", "translation": "恒等変換"}
+{"English": "kernel learning problem", "tgt_lang": "Japanese", "translation": "カーネル学習問題"}
+{"English": "jaccard similarity coefficient", "tgt_lang": "Japanese", "translation": "ジャカード類似係数"}
+{"English": "reward", "tgt_lang": "Japanese", "translation": "報酬"}
+{"English": "cosine", "tgt_lang": "Japanese", "translation": "余弦"}
+{"English": "pretrained multilingual model", "tgt_lang": "Japanese", "translation": "事前学習済み多言語モデル"}
+{"English": "empirical loss", "tgt_lang": "Japanese", "translation": "経験損失"}
+{"English": "inference algorithm", "tgt_lang": "Japanese", "translation": "推論アルゴリズム"}
+{"English": "representation matrix", "tgt_lang": "Japanese", "translation": "表現行列"}
+{"English": "i.i.d", "tgt_lang": "Japanese", "translation": "i.i.d."}
+{"English": "performance difference lemma", "tgt_lang": "Japanese", "translation": "パフォーマンス差補題"}
+{"English": "spectrogram", "tgt_lang": "Japanese", "translation": "スペクトログラム"}
+{"English": "macro-average", "tgt_lang": "Japanese", "translation": "マクロ平均"}
+{"English": "masked token", "tgt_lang": "Japanese", "translation": "マスクトークン"}
+{"English": "weak learning assumption", "tgt_lang": "Japanese", "translation": "弱学習仮定"}
+{"English": "grammar inducer", "tgt_lang": "Japanese", "translation": "文法誘導器"}
+{"English": "power law distribution", "tgt_lang": "Japanese", "translation": "べき分布"}
+{"English": "convolutional neural network", "tgt_lang": "Japanese", "translation": "畳み込みニューラルネットワーク"}
+{"English": "correlated equilibria", "tgt_lang": "Japanese", "translation": "相関均衡"}
+{"English": "scale invariance", "tgt_lang": "Japanese", "translation": "スケール不変性"}
+{"English": "teacher network", "tgt_lang": "Japanese", "translation": "ティーチャーネットワーク"}
+{"English": "entailment", "tgt_lang": "Japanese", "translation": "含意関係"}
+{"English": "pairwise learning", "tgt_lang": "Japanese", "translation": "ペアワイズ学習"}
+{"English": "distributionally robust optimization", "tgt_lang": "Japanese", "translation": "分布的にロバストな最適化"}
+{"English": "bibliographic coupling", "tgt_lang": "Japanese", "translation": "書誌結合"}
+{"English": "unit sphere", "tgt_lang": "Japanese", "translation": "単位球"}
+{"English": "social bias", "tgt_lang": "Japanese", "translation": "社会的バイアス"}
+{"English": "zero-shot cross-lingual setting", "tgt_lang": "Japanese", "translation": "ゼロショットクロスリンガルセッティング"}
+{"English": "submodular influence function", "tgt_lang": "Japanese", "translation": "サブモジュラー影響関数"}
+{"English": "lexical entry", "tgt_lang": "Japanese", "translation": "語彙項目"}
+{"English": "quadratic loss", "tgt_lang": "Japanese", "translation": "二乗損失"}
+{"English": "multi-head attention", "tgt_lang": "Japanese", "translation": "マルチヘッドアテンション"}
+{"English": "keypoint detection", "tgt_lang": "Japanese", "translation": "キーポイント検出"}
+{"English": "counterfactual fairness", "tgt_lang": "Japanese", "translation": "反事実的公正性"}
+{"English": "poisson point process", "tgt_lang": "Japanese", "translation": "ポアソン点過程"}
+{"English": "language generation", "tgt_lang": "Japanese", "translation": "言語生成"}
+{"English": "knowledge graph", "tgt_lang": "Japanese", "translation": "ナレッジグラフ"}
+{"English": "regularization term", "tgt_lang": "Japanese", "translation": "正則化項"}
+{"English": "greedy policy", "tgt_lang": "Japanese", "translation": "グリーディ方策"}
+{"English": "degree distribution", "tgt_lang": "Japanese", "translation": "次数分布"}
+{"English": "gaussian function", "tgt_lang": "Japanese", "translation": "ガウス関数"}
+{"English": "decoder state", "tgt_lang": "Japanese", "translation": "デコーダー状態"}
+{"English": "cycle consistency loss", "tgt_lang": "Japanese", "translation": "サイクル整合性損失"}
+{"English": "mean reciprocal rank", "tgt_lang": "Japanese", "translation": "MRR"}
+{"English": "n-gram", "tgt_lang": "Japanese", "translation": "N-グラム"}
+{"English": "hard attention", "tgt_lang": "Japanese", "translation": "ハードアテンション"}
+{"English": "convex objective", "tgt_lang": "Japanese", "translation": "凸目的"}
+{"English": "geometric distribution", "tgt_lang": "Japanese", "translation": "幾何分布"}
+{"English": "fractional program", "tgt_lang": "Japanese", "translation": "分数計画"}
+{"English": "data-to-text generation", "tgt_lang": "Japanese", "translation": "データからテキスト生成"}
+{"English": "lambda calculus", "tgt_lang": "Japanese", "translation": "ラムダ計算"}
+{"English": "global coordinate frame", "tgt_lang": "Japanese", "translation": "グローバル座標系"}
+{"English": "permutation invariance", "tgt_lang": "Japanese", "translation": "順列不変性"}
+{"English": "input feature", "tgt_lang": "Japanese", "translation": "入力特徴"}
+{"English": "decomposition method", "tgt_lang": "Japanese", "translation": "分解法"}
+{"English": "global minima", "tgt_lang": "Japanese", "translation": "大域的極小値"}
+{"English": "kernel parameter", "tgt_lang": "Japanese", "translation": "カーネルパラメータ"}
+{"English": "word segmentation", "tgt_lang": "Japanese", "translation": "単語分割"}
+{"English": "graph pattern", "tgt_lang": "Japanese", "translation": "グラフパターン"}
+{"English": "light field interpolation", "tgt_lang": "Japanese", "translation": "ライトフィールド補間"}
+{"English": "low rank approximation", "tgt_lang": "Japanese", "translation": "低ランク近似"}
+{"English": "representer theorem", "tgt_lang": "Japanese", "translation": "表現定理"}
+{"English": "local maximum", "tgt_lang": "Japanese", "translation": "局所最大値"}
+{"English": "auxiliary variable", "tgt_lang": "Japanese", "translation": "補助変数"}
+{"English": "decoder hidden state", "tgt_lang": "Japanese", "translation": "デコーダー隠れ状態"}
+{"English": "graphlet", "tgt_lang": "Japanese", "translation": "グラフレット"}
+{"English": "intersection-over-union", "tgt_lang": "Japanese", "translation": "交差部分面積比"}
+{"English": "multilingual training", "tgt_lang": "Japanese", "translation": "多言語学習"}
+{"English": "scene representation", "tgt_lang": "Japanese", "translation": "シーン表現"}
+{"English": "linear system", "tgt_lang": "Japanese", "translation": "線形システム"}
+{"English": "bregman divergence", "tgt_lang": "Japanese", "translation": "ブレグマンダイバージェンス"}
+{"English": "keypoint detector", "tgt_lang": "Japanese", "translation": "キーポイント検出器"}
+{"English": "measurement noise", "tgt_lang": "Japanese", "translation": "測定ノイズ"}
+{"English": "information content", "tgt_lang": "Japanese", "translation": "情報量"}
+{"English": "distant supervision", "tgt_lang": "Japanese", "translation": "遠隔監視"}
+{"English": "subgraph isomorphism", "tgt_lang": "Japanese", "translation": "部分グラフ同型性"}
+{"English": "camera matrix", "tgt_lang": "Japanese", "translation": "カメラ行列"}
+{"English": "annotator bias", "tgt_lang": "Japanese", "translation": "アノテーターバイアス"}
+{"English": "alignment algorithm", "tgt_lang": "Japanese", "translation": "アライメントアルゴリズム"}
+{"English": "knapsack problem", "tgt_lang": "Japanese", "translation": "ナップサック問題"}
+{"English": "query phase", "tgt_lang": "Japanese", "translation": "クエリフェーズ"}
+{"English": "linear program", "tgt_lang": "Japanese", "translation": "線形計画問題"}
+{"English": "multi-modal", "tgt_lang": "Japanese", "translation": "マルチモーダル"}
+{"English": "nonconvex function", "tgt_lang": "Japanese", "translation": "非凸関数"}
+{"English": "pooling operation", "tgt_lang": "Japanese", "translation": "プーリング操作"}
+{"English": "consequent", "tgt_lang": "Japanese", "translation": "帰結"}
+{"English": "transition model", "tgt_lang": "Japanese", "translation": "遷移モデル"}
+{"English": "pre-trained weight", "tgt_lang": "Japanese", "translation": "事前学習済みの重み"}
+{"English": "post-processing", "tgt_lang": "Japanese", "translation": "ポストプロセッシング"}
+{"English": "joint inference", "tgt_lang": "Japanese", "translation": "共同推論"}
+{"English": "token-level attention", "tgt_lang": "Japanese", "translation": "トークンレベルのアテンション"}

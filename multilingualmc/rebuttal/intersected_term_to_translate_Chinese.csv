@@ -1,0 +1,4094 @@
+,English,English_human
+0,10-fold cross validation,10-fold cross validation
+1,1d convolution,1D convolution
+2,2 norm,2 norm
+3,2d convolution,2D convolution
+4,2d image,2D image
+5,2d image synthesis,2D image synthesis
+6,2d-3d correspondence,2D-3D correspondence
+7,3d bounding box,3D bounding box
+8,3d computer vision,3D computer vision
+9,3d convolutional network,3D convolutional network
+10,3d geometry,3D geometry
+11,3d human pose estimation,3D human pose estimation
+12,3d localization,3D localization
+13,3d mesh,3D mesh
+14,3d model,3D model
+15,3d object detection,3D object detection
+16,3d point,3D point
+17,3d point cloud,3D point cloud
+18,3d pose,3D pose
+19,3d reconstruction,3D reconstruction
+20,3d scene,3D scene
+21,3d scene geometry,3D scene geometry
+22,3d structure,3D structure
+23,5-fold cross validation,5-fold cross validation
+24,a * algorithm,A * algorithm
+25,a/b test,A/B test
+26,a2c,A2C
+27,abductive explanation,abductive explanation
+28,ablation analysis,ablation analysis
+29,ablation experiment,ablation experiment
+30,ablation study,Ablation study
+31,abstraction,abstraction
+32,abstraction heuristic,abstraction heuristic
+33,abstractive summarization,abstractive summarization
+34,acceptance function,acceptance function
+35,acceptance probability,acceptance probability
+36,accuracy,accuracy
+37,acoustic feature,acoustic feature
+38,acoustic model,acoustic model
+39,acquisition function,acquisition function
+40,action classification,action classification
+41,action embedding,action embedding
+42,action recognition,action recognition
+43,action sequence,action sequence
+44,action set,action set
+45,action space,action space
+46,action-value function,action-value function
+47,actionability,actionability
+48,activation,activation
+49,activation function,activation function
+50,activation matrix,activation matrix
+51,activation vector,activation vector
+52,active learning,active learning
+53,active learning loop,active learning loop
+54,active set,active set
+55,activity detection,activity detection
+56,activity recognition,activity recognition
+57,actor,actor
+58,actor critic algorithm,actor critic algorithm
+59,actor network,actor network
+60,actor-critic framework,actor-critic framework
+61,actor-critic method,actor-critic method
+62,adapter,Adapter
+63,adaptive boosting algorithm,adaptive boosting algorithm
+64,adaptive thresholding,adaptive thresholding
+65,additive gaussian noise,additive Gaussian noise
+66,additive noise,additive noise
+67,adjacency,adjacency
+68,adjacency matrix,adjacency matrix
+69,advantage function,advantage function
+70,advcl,advcl
+71,adversarial attack,adversarial attack
+72,adversarial dataset,adversarial dataset
+73,adversarial example,adversarial example
+74,adversarial filtering,adversarial filtering
+75,adversarial input,adversarial input
+76,adversarial learning,adversarial learning
+77,adversarial loss,adversarial loss
+78,adversarial network,adversarial network
+79,adversarial perturbation,adversarial perturbation
+80,adversarial prompt,adversarial prompt
+81,adversarial robustness,adversarial robustness
+82,adversarial training,adversarial training
+83,adversary,adversary
+84,advmod,advmod
+85,affine,affine
+86,affine subspace,affine subspace
+87,affine transform,affine transform
+88,affine transformation,affine transformation
+89,affinity matrix,affinity matrix
+90,affinity measure,affinity measure
+91,agent architecture,agent architecture
+92,agent learning,agent learning
+93,agent policy,agent policy
+94,agent's policy,agent's policy
+95,aggregate function,aggregate function
+96,aggregation,aggregation
+97,aggregation function,aggregation function
+98,aleatoric uncertainty,aleatoric uncertainty
+99,algorithm class,algorithm class
+100,algorithm design,algorithm design
+101,algorithmic approach,algorithmic approach
+102,algorithmic bias,algorithmic bias
+103,algorithmic fairness,algorithmic fairness
+104,algorithmic stability,algorithmic stability
+105,alias table,alias table
+106,alignment algorithm,alignment algorithm
+107,alignment model,alignment model
+108,alpha compositing,alpha compositing
+109,alphabet size,alphabet size
+110,ambient space,ambient space
+111,anaphora resolution,anaphora resolution
+112,anaphoric reference,anaphoric reference
+113,ancestral sampling,ancestral sampling
+114,anchor,anchor
+115,anchor box,anchor box
+116,annotated corpus,annotated corpus
+117,annotated datum,annotated datum
+118,annotation artifact,annotation artifact
+119,annotation projection,annotation projection
+120,annotator,annotator
+121,annotator bias,annotator bias
+122,anomaly detection,anomaly detection
+123,anomaly score,anomaly score
+124,answer set,answer set
+125,answer set programming,Answer Set Programming
+126,answer set solver,answer set solver
+127,answer span,answer span
+128,answer variable,answer variable
+129,antecedent,antecedent
+130,antithetic sampling,antithetic sampling
+131,anytime algorithm,anytime algorithm
+132,aperture problem,aperture problem
+133,appearance model,appearance model
+134,apprenticeship learning,apprenticeship learning
+135,approximate inference,approximate inference
+136,approximate inference algorithm,approximate inference algorithm
+137,approximate posterior,approximate posterior
+138,approximate posterior distribution,approximate posterior distribution
+139,approximate similarity search,approximate similarity search
+140,approximation,approximation
+141,approximation algorithm,approximation algorithm
+142,approximation error,approximation error
+143,approximation factor,approximation factor
+144,approximation guarantee,approximation guarantee
+145,approximation ratio,approximation ratio
+146,approximator,approximator
+147,apriori algorithm,Apriori algorithm
+148,arcade learning environment,Arcade Learning Environment
+149,architectural modification,architectural modification
+150,architecture,architecture
+151,architecture search,architecture search
+152,arg max,arg max
+153,arg min,arg min
+154,argument,argument
+155,argument identification,argument identification
+156,argument relation,argument relation
+157,argument structure,argument structure
+158,arity,arity
+159,artificial agent,artificial agent
+160,artificial intelligence system,artificial intelligence system
+161,artificial neural network,artificial neural network
+162,assignment problem,assignment problem
+163,association rule,association rule
+164,association rule mining,association rule mining
+165,asymmetric transformation,asymmetric transformation
+166,asymptotic bias,asymptotic bias
+167,asymptotic notation,asymptotic notation
+168,asymptotic variance,asymptotic variance
+169,attack success rate,attack success rate
+170,attention,attention
+171,attention distribution,attention distribution
+172,attention function,attention function
+173,attention head,attention head
+174,attention layer,attention layer
+175,attention map,attention map
+176,attention mask,attention mask
+177,attention matrix,attention matrix
+178,attention mechanism,attention mechanism
+179,attention model,attention model
+180,attention module,attention module
+181,attention operation,attention operation
+182,attention pattern,attention pattern
+183,attention score,attention score
+184,attention value,attention value
+185,attention weight,attention weight
+186,attribute,attribute
+187,attribution,attribution
+188,augmentation,augmentation
+189,augmented state space,augmented state space
+190,auto-regressive language model,auto-regressive language model
+191,auto-regressive model,auto-regressive model
+192,auto-regressive process,auto-regressive process
+193,autocalibration,autocalibration
+194,autocorrelation,autocorrelation
+195,autodiff,autodiff
+196,automata,automata
+197,automated mechanism design,automated mechanism design
+198,automatic differentiation,automatic differentiation
+199,automatic evaluation,automatic evaluation
+200,automatic post-editing,automatic post-editing
+201,automatic speech recognition,automatic speech recognition
+202,automorphism,automorphism
+203,autonomous agent,autonomous agent
+204,autonomous vehicle,autonomous vehicle
+205,autoregressive decoder,autoregressive decoder
+206,autoregressive generation,autoregressive generation
+207,auxiliary classifier,auxiliary classifier
+208,auxiliary loss,auxiliary loss
+209,auxiliary task,auxiliary task
+210,auxiliary variable,auxiliary variable
+211,auxillary loss,auxillary loss
+212,average loss,average loss
+213,average pool,Average Pool
+214,average precision,Average Precision
+215,averaged perceptron,averaged perceptron
+216,averaged perceptron algorithm,averaged perceptron algorithm
+217,back-off strategy,back-off strategy
+218,back-propagate,back-propagate
+219,back-propagation algorithm,back-propagation algorithm
+220,back-translation,back-translation
+221,backbone,Backbone
+222,backbone model,backbone model
+223,backbone network,backbone network
+224,backdoor,backdoor
+225,backdoor adjustment,backdoor adjustment
+226,backdoor attack,backdoor attack
+227,backdoor sample,backdoor sample
+228,background model,background model
+229,background subtraction,background subtraction
+230,backoff model,backoff model
+231,backpointer,backpointer
+232,backprojection,backprojection
+233,backprop,backprop
+234,backpropagation,Backpropagation
+235,backtracking line search,backtracking line search
+236,backward pass,backward pass
+237,bag of feature,bag of feature
+238,bag-of-word,bag-of-word
+239,bag-of-word model,bag-of-word model
+240,bag-of-word representation,bag-of-word representation
+241,bandit,bandit
+242,bandit feedback,bandit feedback
+243,bandit learning,bandit learning
+244,bandwidth parameter,bandwidth parameter
+245,bart-base,bart-base
+246,bart-large,bart-large
+247,barycentric coordinate,barycentric coordinate
+248,base classifier,base classifier
+249,base distribution,base distribution
+250,base learner,base learner
+251,base model,base model
+252,baseline algorithm,baseline algorithm
+253,baseline method,baseline method
+254,baseline model,baseline model
+255,baseline parser,baseline parser
+256,baseline policy,baseline policy
+257,baseline system,baseline system
+258,basis function,basis function
+259,basis vector,basis vector
+260,batch algorithm,batch algorithm
+261,batch dimension,batch dimension
+262,batch element,batch element
+263,batch learning,batch learning
+264,batch mode,batch mode
+265,batch normalization,batch normalization
+266,batch optimization,batch optimization
+267,batch processing,batch processing
+268,batch setting,batch setting
+269,batch training,batch training
+270,bayesian active learning,Bayesian active learning
+271,bayesian analysis,Bayesian analysis
+272,bayesian approach,Bayesian approach
+273,bayesian clustering,Bayesian clustering
+274,bayesian decision,Bayesian decision
+275,bayesian deep learning,Bayesian deep learning
+276,bayesian evidence,Bayesian evidence
+277,bayesian framework,Bayesian framework
+278,bayesian game,Bayesian game
+279,bayesian inference,Bayesian inference
+280,bayesian learning,Bayesian learning
+281,bayesian method,Bayesian method
+282,bayesian model,Bayesian model
+283,bayesian optimization,Bayesian optimization
+284,bayesian perspective,Bayesian perspective
+285,bayesian probabilistic model,Bayesian probabilistic model
+286,bayesian update,Bayesian update
+287,beam search algorithm,beam search algorithm
+288,beam search decoding,beam search decoding
+289,beam search decoding algorithm,beam search decoding algorithm
+290,beam size,beam size
+291,beam width,beam width
+292,behavior cloning,behavior cloning
+293,behavior policy,behavior policy
+294,belief propagation,belief propagation
+295,belief state,belief state
+296,benchmark,benchmark
+297,benchmark dataset,benchmark dataset
+298,benchmark task,benchmark task
+299,beta distribution,beta distribution
+300,beta1,beta1
+301,between-class variance,between-class variance
+302,betweenness,betweenness
+303,bi-gram,bi-gram
+304,bi-level optimization,bi-level optimization
+305,bias,bias
+306,bias mitigation,bias mitigation
+307,bias parameter,bias parameter
+308,bias term,bias term
+309,bias vector,bias vector
+310,bias-variance tradeoff,bias-variance tradeoff
+311,biased estimator,biased estimator
+312,bibliographic coupling,bibliographic coupling
+313,bicubic interpolation,bicubic interpolation
+314,bidirectional encoder,bidirectional encoder
+315,bidirectional heuristic search,bidirectional heuristic search
+316,bidirectional model,bidirectional model
+317,bidirectional search,bidirectional search
+318,bidirectionality,bidirectionality
+319,big-o notation,big-O notation
+320,bigram count,bigram count
+321,bigram language model,bigram language model
+322,bijective function,bijective function
+323,bijective mapping,bijective mapping
+324,bilateral filtering,bilateral filtering
+325,bilinear,bilinear
+326,bilinear form,bilinear form
+327,bilinear interpolation,bilinear interpolation
+328,bilinear model,bilinear model
+329,bilingual model,bilingual model
+330,binarization,binarization
+331,binary atom,binary atom
+332,binary classification,binary classification
+333,binary classification head,binary classification head
+334,binary classification problem,binary classification problem
+335,binary classification task,binary classification task
+336,binary classifier,binary classifier
+337,binary constraint,binary constraint
+338,binary cross entropy,binary cross entropy
+339,binary cross-entropy loss,binary cross-entropy loss
+340,binary decision tree,binary decision tree
+341,binary feature,binary feature
+342,binary label,binary label
+343,binary matrix,binary matrix
+344,binary predicate,binary predicate
+345,binary relation,binary relation
+346,binary search,binary search
+347,binary segmentation,binary segmentation
+348,binary tree,binary tree
+349,binary variable,binary variable
+350,binary vector,binary vector
+351,binomial distribution,binomial distribution
+352,bioinformatic,bioinformatic
+353,biological neural network,biological neural network
+354,bipartite,bipartite
+355,bipartite graph,bipartite graph
+356,bipartite matching,bipartite matching
+357,bipartite structure,bipartite structure
+358,birth-death process,birth-death process
+359,bisection method,bisection method
+360,bisimulation,bisimulation
+361,bitext,bitext
+362,bitvector,bitvector
+363,black-box,black-box
+364,black-box model,black-box model
+365,block coordinate descent,block coordinate descent
+366,block matrix,block matrix
+367,block-diagonal matrix,block-diagonal matrix
+368,bloom filter,Bloom filter
+369,blur kernel,blur kernel
+370,boolean formula,Boolean formula
+371,boolean function,Boolean function
+372,boolean variable,Boolean variable
+373,bootstrap learning,bootstrap learning
+374,bootstrap resampling,bootstrap resampling
+375,bootstrap sample,bootstrap sample
+376,bottleneck,bottleneck
+377,bottleneck layer,bottleneck layer
+378,bottom-up,bottom-up
+379,bottom-up learning,bottom-up learning
+380,bottom-up module,bottom-up module
+381,bottom-up parsing,bottom-up parsing
+382,bound variable,bound variable
+383,bounding box detection,bounding box detection
+384,bounding box regression,bounding box regression
+385,bounding box regressor,bounding box regressor
+386,breadth-first order,breadth-first order
+387,breadth-first search,breadth-first search
+388,bregman divergence,Bregman divergence
+389,brute force search,brute force search
+390,bundle adjustment,Bundle adjustment
+391,burn-in,burn-in
+392,byte-pair encoding,Byte-Pair Encoding
+393,calculus of variation,calculus of variation
+394,calibration,calibration
+395,calibration method,calibration method
+396,caltech-101,Caltech-101
+397,camera calibration,camera calibration
+398,camera intrinsic,camera intrinsic
+399,camera matrix,camera matrix
+400,camera parameter,camera parameter
+401,camera pose estimation,camera pose estimation
+402,candidate generation,candidate generation
+403,candidate set,candidate set
+404,canny detector,Canny detector
+405,canny edge detector,Canny edge detector
+406,canonical basis,canonical basis
+407,canonical correlation analysis,canonical correlation analysis
+408,canonical form,canonical form
+409,canonical frame,canonical frame
+410,canonical space,canonical space
+411,canonicalization,canonicalization
+412,capsule network,capsule network
+413,cardinality,cardinality
+414,cardinality constraint,cardinality constraint
+415,cascade model,cascade model
+416,catastrophic forgetting,catastrophic forgetting
+417,categorial grammar,categorial grammar
+418,categorical cross-entropy,categorical cross-entropy
+419,categorical distribution,categorical distribution
+420,categorical feature,categorical feature
+421,causal effect,causal effect
+422,causal effect estimation,causal effect estimation
+423,causal entropy,causal entropy
+424,causal graph,causal graph
+425,causal inference,causal inference
+426,causal intervention,causal intervention
+427,causal language model,causal language model
+428,causal model,causal model
+429,causal reasoning,causal reasoning
+430,causal rule,causal rule
+431,causal theory,causal theory
+432,cell state,cell state
+433,center crop,center crop
+434,center of projection,center of projection
+435,centrality measure,centrality measure
+436,centroid,centroid
+437,chain rule,chain rule
+438,change of basis,change of basis
+439,character embedding,character embedding
+440,character n-gram,character n-gram
+441,characteristic function,characteristic function
+442,characteristic polynomial,characteristic polynomial
+443,characteristic vector,characteristic vector
+444,chart parser,chart parser
+445,chart parsing,chart parsing
+446,chatbot,chatbot
+447,checkpoint,checkpoint
+448,chemoinformatic,chemoinformatic
+449,chi-square distribution,chi-square distribution
+450,chi-square test,chi-square test
+451,child node,child node
+452,cholesky decomposition,Cholesky decomposition
+453,cholesky factor,Cholesky factor
+454,cholesky factorization,Cholesky factorization
+455,chromosome,chromosome
+456,chunk size,chunk size
+457,citation network,citation network
+458,class,class
+459,class balance,class balance
+460,class distribution,class distribution
+461,class imbalance,class imbalance
+462,class label,class label
+463,class prior,class prior
+464,classical planning,classical planning
+465,classification,classification
+466,classification accuracy,classification accuracy
+467,classification algorithm,classification algorithm
+468,classification approach,classification approach
+469,classification error,classification error
+470,classification head,classification head
+471,classification loss,classification loss
+472,classification margin,classification margin
+473,classification method,classification method
+474,classification metric,classification metric
+475,classification model,classification model
+476,classification network,classification network
+477,classification objective,classification objective
+478,classification problem,classification problem
+479,classification score,classification score
+480,classification task,classification task
+481,classification token,classification token
+482,clause learning,clause learning
+483,click model,click model
+484,clip range,clip range
+485,clipping factor,clipping factor
+486,clipping threshold,clipping threshold
+487,clique potential,clique potential
+488,cloze prompt,cloze prompt
+489,cloze task,cloze task
+490,cluster assignment,cluster assignment
+491,cluster center,cluster center
+492,cluster centroid,cluster centroid
+493,cluster feature,cluster feature
+494,cluster label,cluster label
+495,cluster size,cluster size
+496,co-occurrence,co-occurrence
+497,co-occurrence matrix,co-occurrence matrix
+498,co-occurrence statistic,co-occurrence statistic
+499,co-reference,co-reference
+500,co-training,co-training
+501,coarse correlated equilibria,coarse correlated equilibria
+502,coarse correlated equilibrium,coarse correlated equilibrium
+503,coarse layer,coarse layer
+504,coarse-to-fine,coarse-to-fine
+505,coarse-to-fine approach,coarse-to-fine approach
+506,coarse-to-fine cascade,coarse-to-fine cascade
+507,coarse-to-fine strategy,coarse-to-fine strategy
+508,codebook,codebook
+509,codomain,codomain
+510,coefficient matrix,coefficient matrix
+511,cognitive model,cognitive model
+512,cognitive science,cognitive science
+513,cold start,cold start
+514,collaborative filtering,collaborative filtering
+515,collaborative learning,collaborative learning
+516,collective inference,collective inference
+517,color channel,color channel
+518,color constancy,color constancy
+519,colorization,colorization
+520,column space,column space
+521,column vector,column vector
+522,combinator,combinator
+523,combinatorial explosion,combinatorial explosion
+524,combinatorial optimization,combinatorial optimization
+525,combinatorial optimization problem,combinatorial optimization problem
+526,combinatory categorial grammar,Combinatory Categorial Grammar
+527,commonsense inference,commonsense inference
+528,commonsense knowledge,commonsense knowledge
+529,commonsense knowledge graph,commonsense knowledge graph
+530,commonsense reasoning,Commonsense Reasoning
+531,communication complexity,communication complexity
+532,communication graph,communication graph
+533,compatibility function,compatibility function
+534,compatibility graph,compatibility graph
+535,competitive ratio,competitive ratio
+536,composition function,composition function
+537,compositional generalization,compositional generalization
+538,compositional semantic,compositional semantic
+539,compositionality,compositionality
+540,compressed sensing,Compressed sensing
+541,compressive sensing,compressive sensing
+542,computation complexity,computation complexity
+543,computation graph,computation graph
+544,computational argumentation,computational argumentation
+545,computational budget,computational budget
+546,computational complexity,computational complexity
+547,computational experiment,computational experiment
+548,computational graph,computational graph
+549,computational linguistic,Computational linguistic
+550,computational model,computational model
+551,compute budget,compute budget
+552,computer vision,computer vision
+553,computer vision model,computer vision model
+554,concatenation operation,concatenation operation
+555,concentration inequality,concentration inequality
+556,concentration parameter,concentration parameter
+557,concept,concept
+558,concept assertion,concept assertion
+559,concept atom,concept atom
+560,concept class,concept class
+561,concept drift,concept drift
+562,concept inclusion,concept inclusion
+563,concept name,concept name
+564,condition 1,Condition 1
+565,condition number,condition number
+566,conditional computation,conditional computation
+567,conditional density,conditional density
+568,conditional distribution,conditional distribution
+569,conditional effect,conditional effect
+570,conditional entropy,conditional entropy
+571,conditional expectation,conditional expectation
+572,conditional generation,Conditional Generation
+573,conditional gradient,conditional gradient
+574,conditional independence,conditional independence
+575,conditional independency,conditional independency
+576,conditional likelihood,conditional likelihood
+577,conditional log likelihood,conditional log likelihood
+578,conditional log probability,conditional log probability
+579,conditional maximum entropy,conditional maximum entropy
+580,conditional model,conditional model
+581,conditional probability,conditional probability
+582,conditional probability distribution,conditional probability distribution
+583,conditional sampling,conditional sampling
+584,conditional text generation,conditional text generation
+585,conditioning,conditioning
+586,conditioning vector,conditioning vector
+587,confidence,confidence
+588,confidence interval,confidence interval
+589,confidence map,confidence map
+590,confidence score,confidence score
+591,confidence threshold,confidence threshold
+592,configuration,configuration
+593,confusion matrix,confusion matrix
+594,confusion network,confusion network
+595,conjugate gradient,conjugate gradient
+596,conjugate gradient descent,conjugate gradient descent
+597,conjugate gradient method,conjugate gradient method
+598,conjunct,conjunct
+599,conjunctive normal form,conjunctive normal form
+600,conjunctive query,conjunctive query
+601,connected component,connected component
+602,connectionist model,connectionist model
+603,connectivity matrix,connectivity matrix
+604,consensus network decoding,consensus network decoding
+605,consequent,consequent
+606,consistent estimator,consistent estimator
+607,constellation model,constellation model
+608,constituency parser,constituency parser
+609,constituency parsing,constituency parsing
+610,constituency tree,constituency tree
+611,constituent parsing,constituent parsing
+612,constituent structure,constituent structure
+613,constrained beam search,constrained beam search
+614,constrained decoding,constrained decoding
+615,constrained optimization,constrained optimization
+616,constrained optimization problem,constrained optimization problem
+617,constraint,constraint
+618,constraint generation,constraint generation
+619,constraint programming,constraint programming
+620,constraint propagation,constraint propagation
+621,constraint satisfaction,constraint satisfaction
+622,constraint satisfaction problem,constraint satisfaction problem
+623,constraint set,constraint set
+624,content model,content model
+625,content selection,content selection
+626,context encoder,context encoder
+627,context free grammar,context free grammar
+628,context model,context model
+629,context vector,context vector
+630,context window,context window
+631,context-free language,context-free language
+632,contextual embedding,contextual embedding
+633,contextual feature,contextual feature
+634,contextual information,contextual information
+635,contextual model,contextual model
+636,contextual representation,contextual representation
+637,contextual vector,contextual vector
+638,contextual word embedding,contextual word embedding
+639,contingency table,contingency table
+640,continual learning,continual learning
+641,contrastive approach,contrastive approach
+642,contrastive fine-tuning,contrastive fine-tuning
+643,contrastive loss,contrastive loss
+644,contrastive objective,contrastive objective
+645,control variate,control variate
+646,controllable text generation,controllable text generation
+647,conv layer,conv layer
+648,convergence,convergence
+649,convergence analysis,convergence analysis
+650,convergence bound,convergence bound
+651,convergence criterion,convergence criterion
+652,convergence rate,convergence rate
+653,convergence time,convergence time
+654,conversation history,conversation history
+655,conversational agent,conversational agent
+656,conversational dialogue system,conversational dialogue system
+657,convex,convex
+658,convex combination,convex combination
+659,convex conjugate,convex conjugate
+660,convex constraint,convex constraint
+661,convex decomposition,convex decomposition
+662,convex function,convex function
+663,convex hull,convex hull
+664,convex loss,convex loss
+665,convex objective,convex objective
+666,convex objective function,convex objective function
+667,convex optimization,convex optimization
+668,convex optimization problem,convex optimization problem
+669,convex problem,convex problem
+670,convex program,convex program
+671,convex proxy,convex proxy
+672,convex quadratic program,convex quadratic program
+673,convex relaxation,convex relaxation
+674,convex risk minimization,convex risk minimization
+675,convex set,convex set
+676,convex surrogate,convex surrogate
+677,convex-concave,convex-concave
+678,convexity,convexity
+679,convolution,convolution
+680,convolution kernel,convolution kernel
+681,convolution layer,convolution layer
+682,convolution neural network,convolution neural network
+683,convolution operation,convolution operation
+684,convolution operator,convolution operator
+685,convolutional,convolutional
+686,convolutional architecture,convolutional architecture
+687,convolutional block,convolutional block
+688,convolutional decoder,convolutional decoder
+689,convolutional encoder,convolutional encoder
+690,convolutional feature,convolutional feature
+691,convolutional filter,convolutional filter
+692,convolutional kernel,convolutional kernel
+693,convolutional layer,convolutional layer
+694,convolutional network,convolutional network
+695,convolutional neural net,convolutional neural net
+696,convolutional neural network,convolutional neural network
+697,convolutional representation,convolutional representation
+698,cooling schedule,cooling schedule
+699,coordinate ascent,coordinate ascent
+700,coordinate descent,coordinate descent
+701,coordinate descent algorithm,coordinate descent algorithm
+702,coordinate frame,coordinate frame
+703,copy mechanism,copy mechanism
+704,core tensor,core tensor
+705,coreference annotation,coreference annotation
+706,coreference chain,coreference chain
+707,coreference resolution,Coreference Resolution
+708,coreference resolution model,coreference resolution model
+709,coreference resolution system,coreference resolution system
+710,coreferent,coreferent
+711,correlated equilibria,correlated equilibria
+712,correlation coefficient,correlation coefficient
+713,correspondence matrix,correspondence matrix
+714,cosine,cosine
+715,cosine decay,cosine decay
+716,cosine decay schedule,cosine decay schedule
+717,cosine learning rate schedule,cosine learning rate schedule
+718,cosine measure,cosine measure
+719,cosine schedule,cosine schedule
+720,cosine similarity measure,cosine similarity measure
+721,cost function,cost function
+722,cost vector,cost vector
+723,cost volume,cost volume
+724,cost-sensitive learning,cost-sensitive learning
+725,counterexample,counterexample
+726,counterfactual datum,counterfactual datum
+727,counterfactual example,counterfactual example
+728,counterfactual fairness,counterfactual fairness
+729,counterfactual reasoning,counterfactual reasoning
+730,counterfactual regret minimization,Counterfactual Regret Minimization
+731,covariance function,covariance function
+732,covariance kernel,covariance kernel
+733,covariance matrix,covariance matrix
+734,covariance model,covariance model
+735,covariance operator,covariance operator
+736,covariance parameter,covariance parameter
+737,covariance structure,covariance structure
+738,covariant derivative,covariant derivative
+739,covariate,covariate
+740,covariate shift,covariate shift
+741,credit assignment,credit assignment
+742,credit assignment problem,credit assignment problem
+743,criterion,criterion
+744,critic,critic
+745,critic loss,critic loss
+746,critic network,critic network
+747,cross attention,cross attention
+748,cross entropy,cross entropy
+749,cross entropy error,cross entropy error
+750,cross entropy loss,Cross Entropy Loss
+751,cross validation,cross validation
+752,cross-attention layer,cross-attention layer
+753,cross-attention module,cross-attention module
+754,cross-correlation,cross-correlation
+755,cross-entropy loss function,cross-entropy loss function
+756,cross-entropy objective,cross-entropy objective
+757,cross-lingual benchmark,cross-lingual benchmark
+758,cross-lingual embedding,cross-lingual embedding
+759,cross-lingual feature,cross-lingual feature
+760,cross-lingual knowledge transfer,cross-lingual knowledge transfer
+761,cross-lingual model,cross-lingual model
+762,cross-lingual representation,cross-lingual representation
+763,cross-lingual transfer,cross-lingual transfer
+764,cross-modal,cross-modal
+765,cumulant generating function,cumulant generating function
+766,cumulative density function,cumulative density function
+767,cumulative distribution function,cumulative distribution function
+768,cumulative regret,cumulative regret
+769,cumulative reward,cumulative reward
+770,curriculum learning,curriculum learning
+771,curse of dimensionality,curse of dimensionality
+772,cycle consistency,cycle consistency
+773,cycle consistency loss,cycle consistency loss
+774,cycle inequality,cycle inequality
+775,d-separation,d-separation
+776,d_model,d_model
+777,data augmentation,data augmentation
+778,data distribution,data distribution
+779,data imbalance,data imbalance
+780,data manifold,data manifold
+781,data mining,data mining
+782,data point,data point
+783,data processing inequality,data processing inequality
+784,data sparseness,data sparseness
+785,data sparsity,data sparsity
+786,data structure,data structure
+787,data vector,data vector
+788,data-to-text generation,data-to-text generation
+789,datalog program,Datalog program
+790,dataset augmentation,dataset augmentation
+791,dataset bias,dataset bias
+792,dataset size,dataset size
+793,datasheet,datasheet
+794,datum bias,datum bias
+795,datum clustering,datum clustering
+796,datum contamination,datum contamination
+797,datum dependency,datum dependency
+798,datum fidelity,datum fidelity
+799,datum filtering,datum filtering
+800,datum generative process,datum generative process
+801,datum matrix,datum matrix
+802,datum mining algorithm,datum mining algorithm
+803,datum parallelism,datum parallelism
+804,datum perturbation,datum perturbation
+805,davinci,davinci
+806,decay parameter,decay parameter
+807,decentralized algorithm,decentralized algorithm
+808,decentralized optimization,Decentralized optimization
+809,decision boundary,decision boundary
+810,decision function,decision function
+811,decision node,decision node
+812,decision policy,decision policy
+813,decision problem,decision problem
+814,decision rule,decision rule
+815,decision space,decision space
+816,decision stump,decision stump
+817,decision theory,decision theory
+818,decision tree,decision tree
+819,decision variable,decision variable
+820,decoder hidden state,decoder hidden state
+821,decoder layer,decoder layer
+822,decoder network,decoder network
+823,decoder output,decoder output
+824,decoder state,decoder state
+825,decoder-only transformer,decoder-only transformer
+826,decoding problem,decoding problem
+827,decoding step,decoding step
+828,decomposable attention,Decomposable Attention
+829,decomposable attention model,Decomposable Attention Model
+830,decomposition,decomposition
+831,decomposition method,decomposition method
+832,deconvolution,deconvolution
+833,deconvolution layer,deconvolution layer
+834,deconvolutional layer,deconvolutional layer
+835,deep architecture,deep architecture
+836,deep convolutional network,deep convolutional network
+837,deep convolutional neural network,deep convolutional neural network
+838,deep feature,deep feature
+839,deep generative model,deep generative model
+840,deep layer,deep layer
+841,deep learning architecture,deep learning architecture
+842,deep learning framework,deep learning framework
+843,deep learning model,deep learning model
+844,deep learning system,deep learning system
+845,deep model,deep model
+846,deep net,deep net
+847,deep network,deep network
+848,deep network architecture,deep network architecture
+849,deep neural model,deep neural model
+850,deep neural net,deep neural net
+851,deep neural network,deep neural network
+852,deep q-learning,deep Q-learning
+853,deep q-network,deep Q-network
+854,deep reinforcement learning,deep reinforcement learning
+855,deep supervision,deep supervision
+856,default logic,default logic
+857,deformable template,deformable template
+858,deformation field,deformation field
+859,degree distribution,degree distribution
+860,delexicalization,delexicalization
+861,delta kernel,delta kernel
+862,demographic parity,Demographic Parity
+863,dendrogram,dendrogram
+864,denoiser,denoiser
+865,denotation,denotation
+866,dense,dense
+867,dense attention,dense attention
+868,dense depth map,dense depth map
+869,dense feature,dense feature
+870,dense layer,dense layer
+871,dense matrix,dense matrix
+872,dense network,dense network
+873,dense prediction,dense prediction
+874,dense representation,dense representation
+875,dense vector,dense vector
+876,density estimate,density estimate
+877,density estimation,density estimation
+878,density estimator,density estimator
+879,density field,density field
+880,density function,density function
+881,density gradient,density gradient
+882,density ratio,density ratio
+883,dependency arc,dependency arc
+884,dependency feature,dependency feature
+885,dependency graph,dependency graph
+886,dependency label,dependency label
+887,dependency model,dependency model
+888,dependency parse,dependency parse
+889,dependency parse tree,dependency parse tree
+890,dependency parser,dependency parser
+891,dependency parsing model,dependency parsing model
+892,dependency path,dependency path
+893,dependency relation,dependency relation
+894,dependency representation,dependency representation
+895,dependency structure,dependency structure
+896,dependency tree,dependency tree
+897,dependency treebank,dependency treebank
+898,dependent variable,dependent variable
+899,depth estimation,depth estimation
+900,depth estimator,depth estimator
+901,depth image,depth image
+902,depth map,depth map
+903,depth prediction,depth prediction
+904,depth-first search,depth-first search
+905,description logic,description logic
+906,descriptor,descriptor
+907,design matrix,design matrix
+908,design space,design space
+909,det,det
+910,detection algorithm,detection algorithm
+911,detection model,detection model
+912,detection score,detection score
+913,detection window,detection window
+914,detector,detector
+915,determinantal point process,Determinantal Point process
+916,deterministic algorithm,deterministic algorithm
+917,deterministic annealing,deterministic annealing
+918,deterministic automaton,deterministic automaton
+919,deterministic baseline,deterministic baseline
+920,deterministic finite automaton,deterministic finite automaton
+921,deterministic policy,deterministic policy
+922,deterministic rule,deterministic rule
+923,dev set,dev set
+924,development set,development set
+925,diagonal matrix,diagonal matrix
+926,dialog system,dialog system
+927,dialogue act,dialogue act
+928,dialogue context,dialogue context
+929,dialogue generation,dialogue generation
+930,dialogue history,dialogue history
+931,dialogue management,dialogue management
+932,dialogue state,dialogue state
+933,dialogue state tracker,dialogue state tracker
+934,dialogue state tracking,Dialogue State Tracking
+935,dialogue system,dialogue system
+936,dialogue turn,dialogue turn
+937,dice coefficient,Dice coefficient
+938,dice loss,Dice loss
+939,dictionary learning,dictionary learning
+940,dictionary matrix,dictionary matrix
+941,diffeomorphism,diffeomorphism
+942,differentiable function,differentiable function
+943,differentiable renderer,differentiable renderer
+944,differentiable rendering,differentiable rendering
+945,differentiable rendering function,differentiable rendering function
+946,differential entropy,differential entropy
+947,differential privacy,differential privacy
+948,diffusion matrix,diffusion matrix
+949,diffusion model,diffusion model
+950,diffusion tensor,diffusion tensor
+951,digamma function,digamma function
+952,digit classification,digit classification
+953,dilation,dilation
+954,dim,dim
+955,dimension,dimension
+956,dimension reduction,dimension reduction
+957,dimensional vector,dimensional vector
+958,dimensionality,dimensionality
+959,dimensionality reduction,dimensionality reduction
+960,dirac distribution,Dirac distribution
+961,dirichlet distribution,Dirichlet distribution
+962,dirichlet process,Dirichlet Process
+963,disambiguation,disambiguation
+964,discount factor,discount factor
+965,discount parameter,discount parameter
+966,discrete distribution,discrete distribution
+967,discrete graphical model,discrete graphical model
+968,discrete random variable,discrete random variable
+969,discretization,discretization
+970,discriminant analysis,discriminant analysis
+971,discriminant function,discriminant function
+972,discriminative,discriminative
+973,discriminative approach,discriminative approach
+974,discriminative feature,discriminative feature
+975,discriminative method,discriminative method
+976,discriminative model,discriminative model
+977,discriminative training,discriminative training
+978,discriminator,discriminator
+979,discriminator network,discriminator network
+980,disentangle,disentangle
+981,disentangled representation,disentangled representation
+982,disentanglement,Disentanglement
+983,disparity estimation,disparity estimation
+984,disparity map,disparity map
+985,distance function,distance function
+986,distance matrix,distance matrix
+987,distance measure,distance measure
+988,distance metric,distance metric
+989,distance transform,distance transform
+990,distant supervision,distant supervision
+991,distillation,distillation
+992,distributed information retrieval,distributed information retrieval
+993,distribution shift,distribution shift
+994,distribution vector,distribution vector
+995,distributional,distributional
+996,distributional feature,distributional feature
+997,distributional hypothesis,distributional hypothesis
+998,distributional model,distributional model
+999,distributional representation,distributional representation
+1000,distributional semantic,distributional semantic
+1001,distributional semantic model,distributional semantic model
+1002,distributional similarity,distributional similarity
+1003,distributional word representation,distributional word representation
+1004,distributionally robust optimization,distributionally robust optimization
+1005,divergence operator,divergence operator
+1006,diversity score,diversity score
+1007,do-calculus,do-calculus
+1008,document classification,document classification
+1009,document clustering,document clustering
+1010,document corpus,document corpus
+1011,document retrieval,document retrieval
+1012,document summarization,document summarization
+1013,document vector,document vector
+1014,document-level,document-level
+1015,document-topic assignment,document-topic assignment
+1016,domain adaptation,domain adaptation
+1017,domain element,domain element
+1018,domain gap,domain gap
+1019,domain generalization,domain generalization
+1020,domain knowledge,domain knowledge
+1021,domain mismatch,domain mismatch
+1022,domain ontology,domain ontology
+1023,domain shift,domain shift
+1024,domain transfer,domain transfer
+1025,domain-specific,domain-specific
+1026,dot product,dot product
+1027,dot-product attention,dot-product attention
+1028,down-sampling,down-sampling
+1029,downsampling block,downsampling block
+1030,downsampling factor,downsampling factor
+1031,downsampling layer,downsampling layer
+1032,downstream dataset,downstream dataset
+1033,downstream model,downstream model
+1034,downstream performance,downstream performance
+1035,downstream task,downstream task
+1036,dropout distribution,Dropout distribution
+1037,dropout layer,dropout layer
+1038,dropout probability,dropout probability
+1039,dropout rate,dropout rate
+1040,dropout ratio,dropout ratio
+1041,dual decomposition,dual decomposition
+1042,dual encoder model,dual encoder model
+1043,dual norm,dual norm
+1044,dual objective,dual objective
+1045,dual optimization problem,dual optimization problem
+1046,dual parameter,dual parameter
+1047,dual problem,dual problem
+1048,dual program,dual program
+1049,dual solution,dual solution
+1050,dual variable,dual variable
+1051,duality gap,duality gap
+1052,dynamic bayesian network,dynamic Bayesian network
+1053,dynamic model,dynamic model
+1054,dynamic programming algorithm,dynamic programming algorithm
+1055,dynamical model,dynamical model
+1056,dynamical system,dynamical system
+1057,e-step,E-step
+1058,early fusion,early fusion
+1059,earth-mover distance,earth-mover distance
+1060,edge detection,edge detection
+1061,edge feature,edge feature
+1062,edge label,edge label
+1063,edge prediction,edge prediction
+1064,edge set,edge set
+1065,edge weight,edge weight
+1066,edit distance,edit distance
+1067,effective receptive field,effective receptive field
+1068,ego-motion,ego-motion
+1069,eigen-decomposition,eigen-decomposition
+1070,eigenbasis,eigenbasis
+1071,eigendecay,eigendecay
+1072,eigenfunction,eigenfunction
+1073,eigenspace,eigenspace
+1074,eigenspectrum,eigenspectrum
+1075,eigenvalue,eigenvalue
+1076,eigenvalue decomposition,eigenvalue decomposition
+1077,eigenvector,eigenvector
+1078,elastic net regularization,elastic net regularization
+1079,element-wise,element-wise
+1080,element-wise multiplication,element-wise multiplication
+1081,element-wise product,element-wise product
+1082,elementary tree,elementary tree
+1083,eligibility trace,eligibility trace
+1084,embedded deformation graph,embedded deformation graph
+1085,embedding dimension,embedding dimension
+1086,embedding dimensionality,embedding dimensionality
+1087,embedding feature,embedding feature
+1088,embedding layer,embedding layer
+1089,embedding matrix,embedding matrix
+1090,embedding model,embedding model
+1091,embedding parameter,embedding parameter
+1092,embedding size,embedding size
+1093,embedding space,embedding space
+1094,embedding vector,embedding vector
+1095,embodied agent,embodied agent
+1096,emission probability,emission probability
+1097,emotion classification,emotion classification
+1098,empirical distribution,empirical distribution
+1099,empirical estimate,empirical estimate
+1100,empirical estimator,empirical estimator
+1101,empirical frequency,empirical frequency
+1102,empirical loss,empirical loss
+1103,empirical mean,empirical mean
+1104,empirical measure,empirical measure
+1105,empirical minimizer,empirical minimizer
+1106,empirical process theory,empirical process theory
+1107,empirical risk,empirical risk
+1108,empirical risk minimization,empirical risk minimization
+1109,empirical risk minimizer,empirical risk minimizer
+1110,empirical variance,empirical variance
+1111,emulator,emulator
+1112,encoder layer,encoder layer
+1113,encoder model,encoder model
+1114,encoder network,encoder network
+1115,encoder-decoder architecture,encoder-decoder architecture
+1116,encoder-decoder framework,encoder-decoder framework
+1117,encoder-decoder model,encoder-decoder model
+1118,end-of-sequence token,end-of-sequence token
+1119,end-to-end learning,end-to-end learning
+1120,end-to-end model,end-to-end model
+1121,end-to-end neural model,end-to-end neural model
+1122,end-to-end pipeline,end-to-end pipeline
+1123,end-to-end system,end-to-end system
+1124,end-to-end training,end-to-end training
+1125,energy function,energy function
+1126,energy minimization,energy minimization
+1127,energy minimization framework,energy minimization framework
+1128,energy minimization problem,energy minimization problem
+1129,ensemble classification,ensemble classification
+1130,ensemble classifier,ensemble classifier
+1131,ensemble learning,ensemble learning
+1132,ensemble method,ensemble method
+1133,ensemble model,ensemble model
+1134,ensemble of classifier,ensemble of classifier
+1135,ensemble size,ensemble size
+1136,entail,entail
+1137,entailment,entailment
+1138,entailment detection,entailment detection
+1139,entity coreference,entity coreference
+1140,entity description,entity description
+1141,entity detection,entity detection
+1142,entity embedding,entity embedding
+1143,entity extraction,entity extraction
+1144,entity linker,entity linker
+1145,entity linking,Entity Linking
+1146,entity mention,entity mention
+1147,entity recognition,entity recognition
+1148,entity representation,entity representation
+1149,entity resolution,entity resolution
+1150,entity set,entity set
+1151,entity type,entity type
+1152,entropy,entropy
+1153,entropy estimation,entropy estimation
+1154,entropy function,entropy function
+1155,entropy loss,entropy loss
+1156,entropy regularization,entropy regularization
+1157,enumeration algorithm,enumeration algorithm
+1158,envy-freeness,envy-freeness
+1159,eos,eos
+1160,epipolar constraint,epipolar constraint
+1161,epipolar geometry,epipolar geometry
+1162,epipolar line,epipolar line
+1163,epipole,epipole
+1164,episodic return,episodic return
+1165,epistemic uncertainty,epistemic uncertainty
+1166,epoch,epoch
+1167,equivalence class,equivalence class
+1168,equivalence query,equivalence query
+1169,equivariance,equivariance
+1170,equivariant,equivariant
+1171,error,error
+1172,error analysis,error analysis
+1173,error function,error function
+1174,error probability,error probability
+1175,error rate,error rate
+1176,error tolerance,error tolerance
+1177,estimation error,estimation error
+1178,estimator,estimator
+1179,euclidean distance,Euclidean distance
+1180,euclidean divergence,Euclidean divergence
+1181,euclidean loss,Euclidean loss
+1182,euclidean norm,Euclidean norm
+1183,euclidean plane,Euclidean plane
+1184,euclidean projection,Euclidean projection
+1185,euclidean space,Euclidean space
+1186,euclidean transformation,Euclidean transformation
+1187,euler angle,Euler angle
+1188,evaluation function,evaluation function
+1189,evaluation metric,evaluation metric
+1190,evaluation set,evaluation set
+1191,event calculus,event calculus
+1192,event coreference,event coreference
+1193,event detection,event detection
+1194,event extraction,event extraction
+1195,evidence maximization,evidence maximization
+1196,exact inference,exact inference
+1197,exact match,Exact Match
+1198,excess loss,excess loss
+1199,exchangeability,exchangeability
+1200,existential quantifier,existential quantifier
+1201,expectation maximization,expectation maximization
+1202,expectation maximization algorithm,expectation maximization algorithm
+1203,experience replay,experience replay
+1204,expert demonstration,expert demonstration
+1205,explicit-state search,explicit-state search
+1206,exploitability,exploitability
+1207,exploration rate,exploration rate
+1208,exploratory data analysis,exploratory data analysis
+1209,exponential complexity,exponential complexity
+1210,exponential decay,exponential decay
+1211,exponential distribution,exponential distribution
+1212,exponential family,exponential family
+1213,exponential loss,exponential loss
+1214,exponential map,exponential map
+1215,exposure bias,exposure bias
+1216,extensive-form game,extensive-form game
+1217,extractive summarization,extractive summarization
+1218,extractor,extractor
+1219,f-divergence,f-divergence
+1220,f-measure,F-measure
+1221,f-score,F-score
+1222,f1 measure,F1 measure
+1223,f1 metric,F1 metric
+1224,f1 score,F1 score
+1225,face detection,face detection
+1226,face detector,face detector
+1227,face recognition,face recognition
+1228,facial landmark,facial landmark
+1229,facial recognition,facial recognition
+1230,fact verification,fact verification
+1231,factor analysis,factor analysis
+1232,factor graph,factor graph
+1233,factor matrix,factor matrix
+1234,factor of variation,factor of variation
+1235,factorization,factorization
+1236,factorization algorithm,factorization algorithm
+1237,factorization method,factorization method
+1238,failure probability,failure probability
+1239,fairness criterion,fairness criterion
+1240,fairness loss,fairness loss
+1241,fairness notion,fairness notion
+1242,faithfulness score,faithfulness score
+1243,false negative,false negative
+1244,false negative rate,false negative rate
+1245,false positive rate,false positive rate
+1246,fanout,fanout
+1247,fast fourier transform,Fast Fourier Transform
+1248,fc layer,fc layer
+1249,feasible set,feasible set
+1250,feature,feature
+1251,feature channel,feature channel
+1252,feature correspondence,feature correspondence
+1253,feature count,feature count
+1254,feature descriptor,feature descriptor
+1255,feature detection,feature detection
+1256,feature detector,feature detector
+1257,feature dimension,feature dimension
+1258,feature dimensionality,feature dimensionality
+1259,feature embedding,feature embedding
+1260,feature encoder,feature encoder
+1261,feature engineering,feature engineering
+1262,feature extraction,feature extraction
+1263,feature extractor,feature extractor
+1264,feature function,feature function
+1265,feature hashing,feature hashing
+1266,feature hierarchy,feature hierarchy
+1267,feature map,feature map
+1268,feature mapping function,feature mapping function
+1269,feature matching,feature matching
+1270,feature matrix,feature matrix
+1271,feature model,feature model
+1272,feature normalization,feature normalization
+1273,feature point,feature point
+1274,feature pyramid,feature pyramid
+1275,feature representation,feature representation
+1276,feature representation learning,feature representation learning
+1277,feature selection,feature selection
+1278,feature selector,feature selector
+1279,feature set,feature set
+1280,feature space,feature space
+1281,feature template,feature template
+1282,feature vector,feature vector
+1283,feature weight,feature weight
+1284,featurization,featurization
+1285,featurized representation,featurized representation
+1286,feed forward,feed forward
+1287,feed forward network,feed forward network
+1288,feed forward neural network,feed forward neural network
+1289,feed-forward layer,feed-forward layer
+1290,feedback loop,feedback loop
+1291,few shot learning,few shot learning
+1292,few-shot classification,few-shot classification
+1293,few-shot example,few-shot example
+1294,few-shot fine-tuning,few-shot fine-tuning
+1295,few-shot in-context learning,few-shot in-context learning
+1296,few-shot prompting,few-shot prompting
+1297,few-shot setting,few-shot setting
+1298,filter bank,filter bank
+1299,filter weight,filter weight
+1300,fine-grained sentiment classification,fine-grained sentiment classification
+1301,fine-tune,fine-tune
+1302,finite horizon,finite horizon
+1303,finite-state automata,finite-state automata
+1304,first order method,first order method
+1305,first-order,first-order
+1306,first-order language,first-order language
+1307,first-order logic,first-order logic
+1308,first-order model,first-order model
+1309,first-order parsing,first-order parsing
+1310,fisher information matrix,Fisher information matrix
+1311,fisher score,Fisher score
+1312,fitness function,fitness function
+1313,five-fold cross-validation,five-fold cross-validation
+1314,fixed point,fixed point
+1315,fixed-parameter tractable,fixed-parameter tractable
+1316,fixed-point iteration,fixed-point iteration
+1317,fixpoint,fixpoint
+1318,float16,float16
+1319,float32,float32
+1320,flow field,flow field
+1321,flow model,flow model
+1322,focal loss,Focal Loss
+1323,forall,forall
+1324,forecasting,forecasting
+1325,foreground segmentation,foreground segmentation
+1326,forget gate,forget gate
+1327,forward algorithm,forward algorithm
+1328,forward model,forward model
+1329,forward pass,forward pass
+1330,forward process,forward process
+1331,forward propagation,forward propagation
+1332,forward-backward algorithm,forward-backward algorithm
+1333,foundation model,foundation model
+1334,fourier coefficient,Fourier coefficient
+1335,fourier feature,Fourier feature
+1336,fourier frequency,Fourier frequency
+1337,fp,fp
+1338,fp16,fp16
+1339,fp32,fp32
+1340,fractional program,fractional program
+1341,frame,frame
+1342,free variable,free variable
+1343,frequency penalty,frequency penalty
+1344,frequency vector,frequency vector
+1345,frequent item set,frequent item set
+1346,frequent pattern,frequent pattern
+1347,frequent pattern mining,frequent pattern mining
+1348,fully connected network,fully connected network
+1349,fully convolutional network,fully convolutional network
+1350,fully convolutional neural network,fully convolutional neural network
+1351,function approximation,function approximation
+1352,function approximator,function approximator
+1353,function class,function class
+1354,function space,function space
+1355,functionality assertion,functionality assertion
+1356,fundamental matrix,fundamental matrix
+1357,fusion module,fusion module
+1358,fuzzy matching,fuzzy matching
+1359,g-value,g-value
+1360,game tree,game tree
+1361,game-theoretic analysis,game-theoretic analysis
+1362,gamma distribution,gamma distribution
+1363,gate,gate
+1364,gating function,gating function
+1365,gaussian blur,Gaussian blur
+1366,gaussian complexity,Gaussian complexity
+1367,gaussian component,Gaussian component
+1368,gaussian conditional random field,Gaussian conditional random field
+1369,gaussian density,Gaussian density
+1370,gaussian distribution,Gaussian distribution
+1371,gaussian elimination,Gaussian elimination
+1372,gaussian filter,Gaussian filter
+1373,gaussian function,Gaussian function
+1374,gaussian initialization,Gaussian initialization
+1375,gaussian kernel,Gaussian kernel
+1376,gaussian likelihood,Gaussian likelihood
+1377,gaussian matrix,Gaussian matrix
+1378,gaussian mixture,Gaussian mixture
+1379,gaussian model,Gaussian model
+1380,gaussian noise,Gaussian noise
+1381,gaussian prior,Gaussian prior
+1382,gaussian process,Gaussian process
+1383,gaussian process model,Gaussian process model
+1384,gaussian process regression,Gaussian process regression
+1385,gaussian random variable,Gaussian random variable
+1386,gaussian smoothing,Gaussian smoothing
+1387,gaussian variable,Gaussian variable
+1388,gaussian weight,Gaussian weight
+1389,gene ontology,Gene Ontology
+1390,generalisation,generalisation
+1391,generalization,generalization
+1392,generalization ability,generalization ability
+1393,generalization error,generalization error
+1394,generalization gap,generalization gap
+1395,generalization guarantee,generalization guarantee
+1396,generalization performance,generalization performance
+1397,generalized eigenvector,generalized eigenvector
+1398,generalized linear mixed model,generalized linear mixed model
+1399,generalized linear model,generalized linear model
+1400,generation model,generation model
+1401,generative,generative
+1402,generative adversarial network,generative adversarial network
+1403,generative approach,generative approach
+1404,generative network,generative network
+1405,generative parser,generative parser
+1406,generative pre-training,generative pre-training
+1407,generative probabilistic model,generative probabilistic model
+1408,generative process,generative process
+1409,generator,generator
+1410,generator architecture,generator architecture
+1411,generator network,generator network
+1412,genetic algorithm,genetic algorithm
+1413,geodesic,geodesic
+1414,geodesic distance,geodesic distance
+1415,geometric consistency,geometric consistency
+1416,geometric distribution,geometric distribution
+1417,geometric invariant,geometric invariant
+1418,geometric transformation,geometric transformation
+1419,geometry processing,geometry processing
+1420,gibb distribution,gibb distribution
+1421,gini coefficient,Gini coefficient
+1422,gist descriptor,gist descriptor
+1423,global average pooling,global average pooling
+1424,global average pooling layer,global average pooling layer
+1425,global coordinate frame,global coordinate frame
+1426,global illumination,global illumination
+1427,global minima,global minima
+1428,global minimum,global minimum
+1429,global model,global model
+1430,global objective,global objective
+1431,global optima,global optima
+1432,global optimization,global optimization
+1433,global optimum,global optimum
+1434,global pooling,global pooling
+1435,global reward,global reward
+1436,goal state,goal state
+1437,gold label,gold label
+1438,gold parse,gold parse
+1439,good-turing estimate,Good-Turing estimate
+1440,gossip algorithm,gossip algorithm
+1441,gradient accumulation,gradient accumulation
+1442,gradient accumulation step,gradient accumulation step
+1443,gradient ascent,gradient ascent
+1444,gradient clipping,gradient clipping
+1445,gradient computation,gradient computation
+1446,gradient descent,gradient descent
+1447,gradient descent algorithm,gradient descent algorithm
+1448,gradient estimate,gradient estimate
+1449,gradient estimation,gradient estimation
+1450,gradient estimator,gradient estimator
+1451,gradient explosion,gradient explosion
+1452,gradient flow,gradient flow
+1453,gradient information,gradient information
+1454,gradient method,gradient method
+1455,gradient norm,gradient norm
+1456,gradient operator,gradient operator
+1457,gradient penalty,gradient penalty
+1458,gradient signal,gradient signal
+1459,gradient step,gradient step
+1460,gradient term,gradient term
+1461,gradient update,gradient update
+1462,gradient variance,gradient variance
+1463,gradient vector,gradient vector
+1464,gram matrix,Gram matrix
+1465,grammar inducer,grammar inducer
+1466,grammar induction,grammar induction
+1467,grammatical error detection,grammatical error detection
+1468,grandparent dependency,grandparent dependency
+1469,graph adjacency matrix,graph adjacency matrix
+1470,graph attention,graph attention
+1471,graph attention mechanism,graph attention mechanism
+1472,graph attention network,graph attention network
+1473,graph classification,graph classification
+1474,graph clustering,graph clustering
+1475,graph construction,graph construction
+1476,graph contrastive learning,graph contrastive learning
+1477,graph convolution,graph convolution
+1478,graph convolution network,graph convolution network
+1479,graph convolutional network,graph convolutional network
+1480,graph cut,graph cut
+1481,graph cut algorithm,graph cut algorithm
+1482,graph dataset,graph dataset
+1483,graph datum,graph datum
+1484,graph diameter,graph diameter
+1485,graph embedding,graph embedding
+1486,graph generator,graph generator
+1487,graph isomorphism,graph isomorphism
+1488,graph kernel,graph kernel
+1489,graph laplacian matrix,graph Laplacian matrix
+1490,graph learning,graph learning
+1491,graph matching,graph matching
+1492,graph mining,graph mining
+1493,graph model,graph model
+1494,graph neural network,graph neural network
+1495,graph node,graph node
+1496,graph partitioning,graph partitioning
+1497,graph pattern,graph pattern
+1498,graph representation,graph representation
+1499,graph sampling,graph sampling
+1500,graph structure,graph structure
+1501,graph theory,graph theory
+1502,graph topology,graph topology
+1503,graph traversal,graph traversal
+1504,graph-level task,graph-level task
+1505,graphical model,graphical model
+1506,graphlet,graphlet
+1507,graphlet kernel,graphlet kernel
+1508,greedy,greedy
+1509,greedy algorithm,greedy algorithm
+1510,greedy approach,greedy approach
+1511,greedy decoding,greedy decoding
+1512,greedy inference,greedy inference
+1513,greedy maximization,greedy maximization
+1514,greedy method,greedy method
+1515,greedy optimization,greedy optimization
+1516,greedy policy,greedy policy
+1517,greedy search,greedy search
+1518,greedy strategy,greedy strategy
+1519,grid cell,grid cell
+1520,grid search,grid search
+1521,grid-world,grid-world
+1522,ground atom,ground atom
+1523,ground set,ground set
+1524,ground truth label,ground truth label
+1525,ground-truth box,ground-truth box
+1526,grounded language learning,grounded language learning
+1527,grounded supervision,grounded supervision
+1528,group normalization,group normalization
+1529,group sparsity,group sparsity
+1530,gumbel noise,Gumbel noise
+1531,half-space,half-space
+1532,hamming distance,Hamming distance
+1533,hamming loss,Hamming loss
+1534,hand pose estimation,hand pose estimation
+1535,hard attention,hard attention
+1536,hash,hash
+1537,hash function,hash function
+1538,hash table,hash table
+1539,hashing algorithm,hashing algorithm
+1540,hate speech classifier,hate speech classifier
+1541,hate speech detection,hate speech detection
+1542,head entity,head entity
+1543,head word,head word
+1544,heap structure,heap structure
+1545,heatmap,heatmap
+1546,hedge algorithm,Hedge algorithm
+1547,hessian matrix,Hessian matrix
+1548,hessian-vector product,Hessian-vector product
+1549,heuristic algorithm,heuristic algorithm
+1550,heuristic function,heuristic function
+1551,heuristic search,heuristic search
+1552,heuristic search algorithm,heuristic search algorithm
+1553,heuristic value,heuristic value
+1554,hidden dimension,hidden dimension
+1555,hidden dimension size,hidden dimension size
+1556,hidden dimensionality,hidden dimensionality
+1557,hidden embedding,hidden embedding
+1558,hidden feature,hidden feature
+1559,hidden layer,hidden layer
+1560,hidden representation,hidden representation
+1561,hidden size,hidden size
+1562,hidden state,hidden state
+1563,hidden state dimension,hidden state dimension
+1564,hidden state representation,hidden state representation
+1565,hidden state vector,hidden state vector
+1566,hidden unit,hidden unit
+1567,hidden variable,hidden variable
+1568,hierarchical agglomerative clustering,hierarchical agglomerative clustering
+1569,hierarchical clustering,hierarchical clustering
+1570,hierarchical decoder,hierarchical decoder
+1571,hierarchical feature,hierarchical feature
+1572,hierarchical inference,hierarchical inference
+1573,hierarchical method,hierarchical method
+1574,hierarchical model,hierarchical model
+1575,hierarchical reinforcement learning,hierarchical reinforcement learning
+1576,hierarchical representation,hierarchical representation
+1577,hierarchical structure,hierarchical structure
+1578,hierarchical topic model,hierarchical topic model
+1579,hierarchy,hierarchy
+1580,high-dimensional datum,high-dimensional datum
+1581,high-dimensional space,high-dimensional space
+1582,high-dimensionality,high-dimensionality
+1583,hill-climbing,hill-climbing
+1584,hinge loss,hinge loss
+1585,hinge loss function,hinge loss function
+1586,homogeneous coordinate,homogeneous coordinate
+1587,homographie,homographie
+1588,homography,Homography
+1589,homography matrix,homography matrix
+1590,homomorphism,homomorphism
+1591,horn theory,Horn theory
+1592,huber loss,Huber loss
+1593,human annotation,human annotation
+1594,human pose,human pose
+1595,human pose estimation,human pose estimation
+1596,human-computer interaction,human-computer interaction
+1597,human-in-the-loop,human-in-the-loop
+1598,human-machine interaction,human-machine interaction
+1599,hungarian loss,Hungarian loss
+1600,hybrid model,hybrid model
+1601,hyper-graph,hyper-graph
+1602,hyper-parameter tuning,hyper-parameter tuning
+1603,hyperband,Hyperband
+1604,hyperbolic space,hyperbolic space
+1605,hyperedge,hyperedge
+1606,hypernym,hypernym
+1607,hypernymy,hypernymy
+1608,hyperparameter optimization,hyperparameter optimization
+1609,hyperparameter search,Hyperparameter search
+1610,hyperparameter selection,hyperparameter selection
+1611,hyperparameter setting,hyperparameter setting
+1612,hyperparameter space,hyperparameter space
+1613,hyperplane,hyperplane
+1614,hyperprior,hyperprior
+1615,hyponym,hyponym
+1616,hyponymy,hyponymy
+1617,hypothesis class,hypothesis class
+1618,hypothesis set,hypothesis set
+1619,hypothesis space,hypothesis space
+1620,hypothesis test,hypothesis test
+1621,i.i.d,i.i.d
+1622,i.i.d. sample,i.i.d. sample
+1623,idempotent,idempotent
+1624,identity function,identity function
+1625,identity mapping,identity mapping
+1626,identity matrix,identity matrix
+1627,identity transformation,identity transformation
+1628,image analysis,image analysis
+1629,image captioning,image captioning
+1630,image classification,image classification
+1631,image compression,image compression
+1632,image diffusion model,image diffusion model
+1633,image embedding,image embedding
+1634,image encoder,image encoder
+1635,image feature,image feature
+1636,image generation,image generation
+1637,image inpainting,image inpainting
+1638,image patch,image patch
+1639,image plane,image plane
+1640,image processing,image processing
+1641,image pyramid,image pyramid
+1642,image recognition,image recognition
+1643,image representation,image representation
+1644,image restoration,image restoration
+1645,image segmentation,image segmentation
+1646,image super-resolution,image super-resolution
+1647,image synthesis,image synthesis
+1648,image translation,image translation
+1649,image-text pre-training,image-text pre-training
+1650,image-to-image translation,image-to-image translation
+1651,imitation learning,imitation learning
+1652,immediate consequence operator,immediate consequence operator
+1653,imperfect information,imperfect information
+1654,implicit differentiation,implicit differentiation
+1655,implicit function,implicit function
+1656,implicit representation,implicit representation
+1657,implicit surface,implicit surface
+1658,importance sampling,importance sampling
+1659,importance sampling estimator,importance sampling estimator
+1660,importance weight,importance weight
+1661,in-context demonstration,in-context demonstration
+1662,in-context example,in-context example
+1663,in-context learner,in-context learner
+1664,in-context learning,In-context Learning
+1665,in-degree distribution,in-degree distribution
+1666,in-distribution,in-distribution
+1667,in-domain,in-domain
+1668,in-domain text,in-domain text
+1669,in-neighbor,in-neighbor
+1670,in-order traversal,in-order traversal
+1671,inception score,inception score
+1672,incremental learning,incremental learning
+1673,incremental parsing,incremental parsing
+1674,independent component analysis,independent component analysis
+1675,independent set,independent set
+1676,independent variable,independent variable
+1677,indicator matrix,indicator matrix
+1678,indicator variable,indicator variable
+1679,indicator vector,indicator vector
+1680,induction hypothesis,induction hypothesis
+1681,inductive bias,inductive bias
+1682,inductive learning,inductive learning
+1683,inf,inf
+1684,inference,inference
+1685,inference algorithm,inference algorithm
+1686,inference machinery,inference machinery
+1687,inference method,inference method
+1688,inference problem,inference problem
+1689,inference procedure,inference procedure
+1690,inference process,inference process
+1691,inference rule,inference rule
+1692,inference stage,inference stage
+1693,inference task,inference task
+1694,inference time,inference time
+1695,infinite-horizon,infinite-horizon
+1696,influence diagram,influence diagram
+1697,influence function,influence function
+1698,influence maximization,Influence Maximization
+1699,information bottleneck,information bottleneck
+1700,information content,information content
+1701,information extraction,Information Extraction
+1702,information gain,information gain
+1703,information retrieval system,information retrieval system
+1704,information set,information set
+1705,information theoretic,information theoretic
+1706,information theoretic measure,information theoretic measure
+1707,informer model,Informer model
+1708,infoset,infoset
+1709,initial distribution,initial distribution
+1710,initial state,initial state
+1711,initial state distribution,initial state distribution
+1712,initialization,initialization
+1713,injective function,injective function
+1714,inlier,inlier
+1715,inner layer,inner layer
+1716,inner loop,inner loop
+1717,inner node,inner node
+1718,inner product,inner product
+1719,input context,input context
+1720,input datum,input datum
+1721,input embedding,input embedding
+1722,input feature,input feature
+1723,input feature vector,input feature vector
+1724,input filter,input filter
+1725,input formula,input formula
+1726,input gate,input gate
+1727,input graph,input graph
+1728,input image,input image
+1729,input layer,input layer
+1730,input length,input length
+1731,input matrix,input matrix
+1732,input point,input point
+1733,input position,input position
+1734,input representation,input representation
+1735,input resolution,input resolution
+1736,input sequence,input sequence
+1737,input space,input space
+1738,input tensor,input tensor
+1739,input text,input text
+1740,input token,input token
+1741,input vector,input vector
+1742,input-output pair,input-output pair
+1743,instance,instance
+1744,instance level,instance level
+1745,instance normalization,Instance Normalization
+1746,instance segmentation,instance segmentation
+1747,instance selection,instance selection
+1748,instance space,instance space
+1749,instruction tuning,instruction tuning
+1750,integer linear program,integer linear program
+1751,integer program,integer program
+1752,integral image,integral image
+1753,integral operator,integral operator
+1754,integral probability metric,integral probability metric
+1755,integrity constraint,integrity constraint
+1756,intelligent agent,intelligent agent
+1757,intensity function,intensity function
+1758,intent,intent
+1759,inter-annotator agreement,inter-annotator agreement
+1760,interaction matrix,interaction matrix
+1761,interest point,interest point
+1762,interior point method,interior point method
+1763,intermediate layer,intermediate layer
+1764,intermediate representation,intermediate representation
+1765,internal edge,internal edge
+1766,internal node,internal node
+1767,internal regret,internal regret
+1768,internal representation,internal representation
+1769,internal state,internal state
+1770,interpolation,interpolation
+1771,interpretability,interpretability
+1772,interpretation function,interpretation function
+1773,intersection-over-union,intersection-over-union
+1774,interval estimate,interval estimate
+1775,intractability,intractability
+1776,intrinsic,intrinsic
+1777,intrinsic camera parameter,intrinsic camera parameter
+1778,intrinsic dimension subspace,intrinsic dimension subspace
+1779,intrinsic dimensionality,intrinsic dimensionality
+1780,intrinsic evaluation,intrinsic evaluation
+1781,intrinsic image,intrinsic image
+1782,intrinsic parameter,intrinsic parameter
+1783,inverse document frequency,inverse document frequency
+1784,inverse dynamic model,inverse dynamic model
+1785,inverse problem,inverse problem
+1786,inverse reinforcement learning,inverse reinforcement learning
+1787,inverse rendering,inverse rendering
+1788,inverse role,inverse role
+1789,inverse square root learning rate schedule,inverse square root learning rate schedule
+1790,inverse square root learning rate scheduler,inverse square root learning rate scheduler
+1791,inverse transform sampling,inverse transform sampling
+1792,invertible map,invertible map
+1793,invertible matrix,invertible matrix
+1794,iobj,iobj
+1795,iso-surface extraction,iso-surface extraction
+1796,itemset,itemset
+1797,iterate,iterate
+1798,iteration,iteration
+1799,iteration complexity,iteration complexity
+1800,iteration counter,iteration counter
+1801,iterative algorithm,iterative algorithm
+1802,iterative deepening,iterative deepening
+1803,iterative optimization,iterative optimization
+1804,iterative optimization algorithm,iterative optimization algorithm
+1805,iterative training algorithm,iterative training algorithm
+1806,jaccard similarity,Jaccard similarity
+1807,jaccard similarity coefficient,Jaccard similarity coefficient
+1808,jacobian matrix,Jacobian matrix
+1809,joint density,joint density
+1810,joint distribution,joint distribution
+1811,joint embedding space,joint embedding space
+1812,joint encoding,joint encoding
+1813,joint entropy,joint entropy
+1814,joint inference,joint inference
+1815,joint learning,joint learning
+1816,joint learning algorithm,joint learning algorithm
+1817,joint likelihood,joint likelihood
+1818,joint model,joint model
+1819,joint policy,joint policy
+1820,joint probability,joint probability
+1821,joint probability distribution,joint probability distribution
+1822,joint probability matrix,joint probability matrix
+1823,joint probability table,joint probability table
+1824,joint semantic space,joint semantic space
+1825,junction tree,junction tree
+1826,junction tree algorithm,junction tree algorithm
+1827,k-center,k-Center
+1828,k-d tree,k-d tree
+1829,k-hop neighbor,k-hop neighbor
+1830,k-l divergence,K-L divergence
+1831,k-means clustering algorithm,k-means clustering algorithm
+1832,k-nearest neighbor,k-nearest neighbor
+1833,k-nearest neighbor classifier,k-nearest neighbor classifier
+1834,k-nearest neighbor graph,k-nearest neighbor graph
+1835,kernel,Kernel
+1836,kernel approximation,kernel approximation
+1837,kernel bandwidth,kernel bandwidth
+1838,kernel classifier,kernel classifier
+1839,kernel density,kernel density
+1840,kernel density estimate,kernel density estimate
+1841,kernel density estimation,kernel density estimation
+1842,kernel evaluation,kernel evaluation
+1843,kernel function,kernel function
+1844,kernel learning,kernel learning
+1845,kernel learning problem,kernel learning problem
+1846,kernel machine,kernel machine
+1847,kernel matrix,kernel matrix
+1848,kernel method,kernel method
+1849,kernel operation,kernel operation
+1850,kernel operator,kernel operator
+1851,kernel parameter,kernel parameter
+1852,kernel regression,kernel regression
+1853,kernel ridge regression,kernel ridge regression
+1854,kernel size,kernel size
+1855,kernel smoothing,kernel smoothing
+1856,kernel space,kernel space
+1857,kernel spectrum,kernel spectrum
+1858,kernel trick,kernel trick
+1859,kernel value,kernel value
+1860,kernel weight,kernel weight
+1861,kernel width,kernel width
+1862,key,key
+1863,keypoint,keypoint
+1864,keypoint detection,keypoint detection
+1865,keypoint detector,keypoint detector
+1866,keypoint location,keypoint location
+1867,keypoint match,keypoint match
+1868,knapsack problem,knapsack problem
+1869,knowledge compilation,knowledge compilation
+1870,knowledge distillation,knowledge distillation
+1871,knowledge element,knowledge element
+1872,knowledge graph,knowledge graph
+1873,knowledge graph completion,knowledge graph completion
+1874,knowledge representation,knowledge representation
+1875,knowledge transfer,knowledge transfer
+1876,l 1 -norm,L 1 -norm
+1877,l 1 distance,L 1 distance
+1878,l 2 -norm,L 2 -norm
+1879,l 2 distance,L 2 distance
+1880,l 2 loss,L 2 loss
+1881,l 2 regularization,L 2 regularization
+1882,l ∞ norm,L ∞ norm
+1883,l1 difference,L1 difference
+1884,l1 loss,L1 loss
+1885,l1 penalty,L1 penalty
+1886,l1 regularization,L1 regularization
+1887,l1 term,L1 term
+1888,l2 error,L2 error
+1889,l2 regularisation,L2 regularisation
+1890,l2 regularizer,L2 regularizer
+1891,l2 weight decay,L2 weight decay
+1892,l2-normalization,L2-normalization
+1893,label,label
+1894,label distribution,label distribution
+1895,label embedding,label embedding
+1896,label noise,label noise
+1897,label sequence,label sequence
+1898,label smoothing,label smoothing
+1899,label space,label space
+1900,label token,label token
+1901,label vector,label vector
+1902,lagrange multiplier,Lagrange multiplier
+1903,lagrangian duality,Lagrangian duality
+1904,lagrangian multiplier,Lagrangian multiplier
+1905,lagrangian relaxation,Lagrangian relaxation
+1906,lambda calculus,lambda calculus
+1907,lambertian reflectance,Lambertian reflectance
+1908,landmark,landmark
+1909,landmark point,landmark point
+1910,language drift,language drift
+1911,language encoder,language encoder
+1912,language generation,language generation
+1913,language generation model,language generation model
+1914,language identification,language identification
+1915,language model,language model
+1916,language model pre-training,language model pre-training
+1917,language modeling toolkit,Language Modeling Toolkit
+1918,language pair,language pair
+1919,language representation,language representation
+1920,language transfer,language transfer
+1921,language understanding,language understanding
+1922,laplace approximation,Laplace approximation
+1923,laplace distribution,Laplace distribution
+1924,laplace noise,Laplace noise
+1925,laplacian distribution,Laplacian distribution
+1926,laplacian matrix,Laplacian matrix
+1927,laplacian smoothing,Laplacian smoothing
+1928,large language model,large language model
+1929,large-margin learning,large-margin learning
+1930,latent code,latent code
+1931,latent dimension,latent dimension
+1932,latent dirichlet allocation,latent Dirichlet allocation
+1933,latent distribution,latent distribution
+1934,latent dynamic model,latent dynamic model
+1935,latent embedding,latent embedding
+1936,latent factor,latent factor
+1937,latent feature,latent feature
+1938,latent function,latent function
+1939,latent group,latent group
+1940,latent parameter,latent parameter
+1941,latent representation,latent representation
+1942,latent reward function,latent reward function
+1943,latent semantic,latent semantic
+1944,latent semantic analysis,latent semantic analysis
+1945,latent space,latent space
+1946,latent state,latent state
+1947,latent topic,latent topic
+1948,latent variable,latent variable
+1949,latent variable model,latent variable model
+1950,latent vector,latent vector
+1951,layer,layer
+1952,layer activation,layer activation
+1953,layer normalization,layer normalization
+1954,layer-wise learning rate decay,layer-wise learning rate decay
+1955,lazy grounding,lazy grounding
+1956,leaf node,leaf node
+1957,learnability,learnability
+1958,learnable parameter,learnable parameter
+1959,learnable vector,learnable vector
+1960,learner,learner
+1961,learning rate,learning rate
+1962,learning rate decay,learning rate decay
+1963,learning rate decay schedule,learning rate decay schedule
+1964,learning rate schedule,learning rate schedule
+1965,learning rate scheduler,learning rate scheduler
+1966,learning rate warmup,learning rate warmup
+1967,least square,least square
+1968,least square criterion,least square criterion
+1969,least square minimization,least square minimization
+1970,least square problem,least square problem
+1971,least square regression,least square regression
+1972,least square solution,least square solution
+1973,leave-one-out,leave-one-out
+1974,left-to-right model,left-to-right model
+1975,lemmatization,lemmatization
+1976,length normalization,length normalization
+1977,length penalty,length penalty
+1978,lexeme,lexeme
+1979,lexical acquisition,lexical acquisition
+1980,lexical acquisition algorithm,lexical acquisition algorithm
+1981,lexical ambiguity,lexical ambiguity
+1982,lexical entry,lexical entry
+1983,lexical exposure,lexical exposure
+1984,lexical feature,lexical feature
+1985,lexical functional grammar,Lexical Functional Grammar
+1986,lexical head,lexical head
+1987,lexical item,lexical item
+1988,lexical knowledge,lexical knowledge
+1989,lexical model,lexical model
+1990,lexical overlap,lexical overlap
+1991,lexicalization,lexicalization
+1992,lexicalized grammar,lexicalized grammar
+1993,lexicalized parsing model,lexicalized parsing model
+1994,lexicon,lexicon
+1995,lexicon induction,lexicon induction
+1996,lie algebra,Lie algebra
+1997,lifelong learning,lifelong learning
+1998,light field,light field
+1999,light field interpolation,light field interpolation
+2000,likelihood function,likelihood function
+2001,likelihood ratio test,likelihood ratio test
+2002,likelihood score,likelihood score
+2003,likert scale,Likert scale
+2004,line search,line search
+2005,linear activation function,linear activation function
+2006,linear algebra,linear algebra
+2007,linear classification,linear classification
+2008,linear classification layer,linear classification layer
+2009,linear classifier,linear classifier
+2010,linear combination,linear combination
+2011,linear complexity,linear complexity
+2012,linear constraint,linear constraint
+2013,linear decay,linear decay
+2014,linear decoder,linear decoder
+2015,linear discriminant analysis,linear discriminant analysis
+2016,linear equation,linear equation
+2017,linear evaluation,linear evaluation
+2018,linear function,linear function
+2019,linear function approximation,linear function approximation
+2020,linear inequality,linear inequality
+2021,linear interpolation,linear interpolation
+2022,linear kernel,linear kernel
+2023,linear layer,linear layer
+2024,linear learning rate decay,linear learning rate decay
+2025,linear learning rate schedule,linear learning rate schedule
+2026,linear map,linear map
+2027,linear model,linear model
+2028,linear predictor,linear predictor
+2029,linear probe,linear probe
+2030,linear program,linear program
+2031,linear programming relaxation,linear programming relaxation
+2032,linear projection,linear projection
+2033,linear regression,linear regression
+2034,linear regression model,linear regression model
+2035,linear regressor,linear regressor
+2036,linear scaling,linear scaling
+2037,linear scheduler,linear scheduler
+2038,linear separability,linear separability
+2039,linear system,linear system
+2040,linear threshold,Linear Threshold
+2041,linear threshold model,Linear Threshold Model
+2042,linear transform,linear transform
+2043,linear transformation,linear transformation
+2044,linear transformation matrix,linear transformation matrix
+2045,linear warm-up,linear warm-up
+2046,linear-chain,linear-chain
+2047,linear-quadratic regulator,linear-quadratic regulator
+2048,linearization,linearization
+2049,link function,link function
+2050,link prediction,link prediction
+2051,local basis function,local basis function
+2052,local coherence,local coherence
+2053,local consistency,Local Consistency
+2054,local context,local context
+2055,local coordinate frame,local coordinate frame
+2056,local feature,local feature
+2057,local geometry,local geometry
+2058,local image feature,local image feature
+2059,local maxima,local maxima
+2060,local maximum,local maximum
+2061,local minima,local minima
+2062,local minimizer,local minimizer
+2063,local minimum,local minimum
+2064,local model,local model
+2065,local optima,local optima
+2066,local optimum,local optimum
+2067,local parameter,local parameter
+2068,local search,local search
+2069,local search method,local search method
+2070,local variable,local variable
+2071,local window,local window
+2072,locality-sensitive hashing,locality-sensitive hashing
+2073,localization,localization
+2074,location parameter,location parameter
+2075,log,log
+2076,log likelihood,log likelihood
+2077,log loss,log loss
+2078,log marginal likelihood,log marginal likelihood
+2079,log p,log p
+2080,log partition function,log partition function
+2081,log perplexity,log perplexity
+2082,log probability,log probability
+2083,log-likelihood function,log-likelihood function
+2084,log-likelihood loss,log-likelihood loss
+2085,log-likelihood ratio,log-likelihood ratio
+2086,log-linear model,log-linear model
+2087,log-linear translation model,log-linear translation model
+2088,log-log plot,log-log plot
+2089,log-normal distribution,log-normal distribution
+2090,log-odd score,log-odd score
+2091,log-prob,log-prob
+2092,log-sum-exp,log-sum-exp
+2093,logical connective,logical connective
+2094,logical form,logical form
+2095,logistic function,logistic function
+2096,logistic loss,logistic loss
+2097,logistic regression,logistic regression
+2098,logistic regression classifier,logistic regression classifier
+2099,logistic regression model,logistic regression model
+2100,logit,logit
+2101,logit model,logit model
+2102,long-range dependency,long-range dependency
+2103,lookup table,lookup table
+2104,loop closure,loop closure
+2105,loopy belief propagation,loopy belief propagation
+2106,loss,loss
+2107,loss distribution,loss distribution
+2108,loss function,loss function
+2109,loss landscape,loss landscape
+2110,loss minimization,loss minimization
+2111,loss term,loss term
+2112,lossy compression,lossy compression
+2113,lottery ticket hypothesis,lottery ticket hypothesis
+2114,low rank,low rank
+2115,low rank approximation,low rank approximation
+2116,low-data regime,low-data regime
+2117,low-dimensional embedding,low-dimensional embedding
+2118,low-dimensional representation,low-dimensional representation
+2119,low-pass filter,low-pass filter
+2120,low-rank factorization,low-rank factorization
+2121,low-rank matrix approximation,low-rank matrix approximation
+2122,m-estimation,M-estimation
+2123,m-step,M-step
+2124,machine comprehension,Machine Comprehension
+2125,machine learning,machine learning
+2126,machine learning algorithm,machine learning algorithm
+2127,machine learning classifier,machine learning classifier
+2128,machine learning model,machine learning model
+2129,machine learning repository,Machine Learning Repository
+2130,machine learning system,machine learning system
+2131,machine reading,machine reading
+2132,machine reading comprehension,Machine Reading Comprehension
+2133,machine translation,machine translation
+2134,machine translation model,machine translation model
+2135,machine translation system,machine translation system
+2136,machine vision,machine vision
+2137,machine-in-the-loop,machine-in-the-loop
+2138,macro-action,macro-action
+2139,macro-average,macro-average
+2140,majority voting,majority voting
+2141,manifold,manifold
+2142,manifold hypothesis,manifold hypothesis
+2143,manifold projection,manifold projection
+2144,manifold structure,manifold structure
+2145,margin parameter,margin parameter
+2146,marginal density,marginal density
+2147,marginal distribution,marginal distribution
+2148,marginal inference,marginal inference
+2149,marginal likelihood,marginal likelihood
+2150,marginal log-likelihood,marginal log-likelihood
+2151,marginal polytope,marginal polytope
+2152,marginal probability,marginal probability
+2153,marginalization,marginalization
+2154,mask,mask
+2155,mask token,mask token
+2156,mask vector,mask vector
+2157,masked input,masked input
+2158,masked language model,masked language model
+2159,masked token,masked token
+2160,masking function,masking function
+2161,matching loss,matching loss
+2162,matrix,matrix
+2163,matrix approximation,matrix approximation
+2164,matrix decomposition,matrix decomposition
+2165,matrix factorization,Matrix factorization
+2166,matrix form,matrix form
+2167,matrix inversion,matrix inversion
+2168,matrix multiplication,matrix multiplication
+2169,matrix norm,matrix norm
+2170,matrix sketching,matrix sketching
+2171,matrix vector product,matrix vector product
+2172,matrix-vector multiplication,matrix-vector multiplication
+2173,matroid,matroid
+2174,matroid constraint,matroid constraint
+2175,max norm,max norm
+2176,max pooling,max pooling
+2177,max-margin,max-margin
+2178,max-margin learning,max-margin learning
+2179,max-pool,max-pool
+2180,max-pooling layer,max-pooling layer
+2181,max-product semiring,max-product semiring
+2182,maximal clique,maximal clique
+2183,maximal frequent itemset,maximal frequent itemset
+2184,maximal frequent pattern,maximal frequent pattern
+2185,maximization problem,maximization problem
+2186,maximum a posteriori,maximum a posteriori
+2187,maximum a posteriori estimation,maximum a posteriori estimation
+2188,maximum clique,maximum clique
+2189,maximum entropy,maximum entropy
+2190,maximum entropy model,maximum entropy model
+2191,maximum entropy principle,maximum entropy principle
+2192,maximum flow,maximum flow
+2193,maximum likelihood,maximum likelihood
+2194,maximum likelihood estimate,maximum likelihood estimate
+2195,maximum likelihood estimation,maximum likelihood estimation
+2196,maximum likelihood estimator,maximum likelihood estimator
+2197,maximum likelihood learning,maximum likelihood learning
+2198,maximum mean discrepancy,maximum mean discrepancy
+2199,mean average precision,mean average precision
+2200,mean field,mean field
+2201,mean function,mean function
+2202,mean pooling,mean pooling
+2203,mean reciprocal rank,mean reciprocal rank
+2204,mean shape,mean shape
+2205,mean square error,mean square error
+2206,mean vector,mean vector
+2207,mean-field approximation,mean-field approximation
+2208,measurable space,measurable space
+2209,measurement matrix,measurement matrix
+2210,measurement noise,measurement noise
+2211,medical imaging,medical imaging
+2212,medoid,medoid
+2213,membership inference attack,membership inference attack
+2214,membership query,membership query
+2215,memory bank,memory bank
+2216,memory capacity,memory capacity
+2217,memory cell,memory cell
+2218,memory complexity,memory complexity
+2219,mention detection,mention detection
+2220,meronymy,meronymy
+2221,message passing,message passing
+2222,message passing algorithm,message passing algorithm
+2223,meta,meta
+2224,meta-algorithm,meta-algorithm
+2225,meta-classifier,meta-classifier
+2226,meta-dataset,meta-dataset
+2227,meta-evaluation,meta-evaluation
+2228,meta-learn,meta-learn
+2229,meta-learner,meta-learner
+2230,meta-learning,meta-learning
+2231,meta-loss,meta-loss
+2232,meta-parameter,meta-parameter
+2233,meta-testing,meta-testing
+2234,meta-training,meta-training
+2235,metadata,metadata
+2236,metric learning,metric learning
+2237,metric learning algorithm,metric learning algorithm
+2238,metric score,metric score
+2239,metric space,metric space
+2240,metropolis-hasting,Metropolis-Hasting
+2241,micro-average,micro-average
+2242,microarray datum,microarray datum
+2243,mini-batch,mini-batch
+2244,mini-batch size,mini-batch size
+2245,mini-batch training,mini-batch training
+2246,minima,minima
+2247,minimax,minimax
+2248,minimax game,minimax game
+2249,minimax optimization problem,minimax optimization problem
+2250,minimax problem,minimax problem
+2251,minimization problem,minimization problem
+2252,minimizer,minimizer
+2253,minimum baye risk decoding,minimum baye risk decoding
+2254,minimum cut,minimum cut
+2255,minimum description length,minimum description length
+2256,minimum support,minimum support
+2257,mirror descent,mirror descent
+2258,misclassification error,misclassification error
+2259,misclassification loss,misclassification loss
+2260,misinformation detection,misinformation detection
+2261,mixed integer programming,mixed integer programming
+2262,mixed precision,mixed precision
+2263,mixed precision training,mixed precision training
+2264,mixed strategy,mixed strategy
+2265,mixed-integer program,mixed-integer program
+2266,mixing matrix,mixing matrix
+2267,mixing time,mixing time
+2268,mixture component,mixture component
+2269,mixture distribution,mixture distribution
+2270,mixture model,mixture model
+2271,mixture weight,mixture weight
+2272,mixup,Mixup
+2273,mocap,mocap
+2274,modality,modality
+2275,mode,mode
+2276,mode collapse,mode collapse
+2277,model accuracy,model accuracy
+2278,model architecture,model architecture
+2279,model averaging,model averaging
+2280,model bias,model bias
+2281,model capacity,model capacity
+2282,model card,model card
+2283,model checking,model checking
+2284,model class,model class
+2285,model comparison,model comparison
+2286,model complexity,model complexity
+2287,model compression,model compression
+2288,model convergence,model convergence
+2289,model development,model development
+2290,model distillation,model distillation
+2291,model distribution,model distribution
+2292,model estimation,model estimation
+2293,model evaluation,model evaluation
+2294,model family,model family
+2295,model fine-tuning,model fine-tuning
+2296,model generalization,model generalization
+2297,model hyperparameter,model hyperparameter
+2298,model inference,model inference
+2299,model initialization,model initialization
+2300,model interpretability,model interpretability
+2301,model interpretation,model interpretation
+2302,model layer,model layer
+2303,model m,model M
+2304,model output,model output
+2305,model parallelism,model parallelism
+2306,model parameter,model parameter
+2307,model performance,model performance
+2308,model precision,model precision
+2309,model prediction,model prediction
+2310,model predictive control,model predictive control
+2311,model representation,model representation
+2312,model robustness,model robustness
+2313,model score,model score
+2314,model selection,model selection
+2315,model size,model size
+2316,model specification,model specification
+2317,model structure,model structure
+2318,model training,model training
+2319,model update,model update
+2320,model variant,model variant
+2321,model weight,model weight
+2322,model's parameter,model's parameter
+2323,model-free approach,model-free approach
+2324,modular,modular
+2325,modular architecture,modular architecture
+2326,module,module
+2327,moment matching,moment matching
+2328,momentum,momentum
+2329,momentum coefficient,momentum coefficient
+2330,momentum encoder,momentum encoder
+2331,momentum term,momentum term
+2332,monocular,monocular
+2333,monocular reconstruction,monocular reconstruction
+2334,monolingual baseline,monolingual baseline
+2335,monolingual corpora,monolingual corpora
+2336,monolingual corpus,monolingual corpus
+2337,monolingual dataset,monolingual dataset
+2338,monolingual datum,monolingual datum
+2339,monolingual embedding,monolingual embedding
+2340,monolingual model,monolingual model
+2341,monolingual training,monolingual training
+2342,monotone,monotone
+2343,monotonic,monotonic
+2344,monotonicity,Monotonicity
+2345,morphological analysis,morphological analysis
+2346,morphological analyzer,morphological analyzer
+2347,morphological feature,morphological feature
+2348,morphological information,morphological information
+2349,morphological operation,morphological operation
+2350,morphological segmentation,morphological segmentation
+2351,morphology,morphology
+2352,motion analysis,motion analysis
+2353,motion estimation,motion estimation
+2354,motion matrix,motion matrix
+2355,motion planning,motion planning
+2356,motion segmentation,motion segmentation
+2357,multi-agent,multi-agent
+2358,multi-agent interaction,multi-agent interaction
+2359,multi-agent learning,multi-agent learning
+2360,multi-agent reinforcement learning,multi-agent reinforcement learning
+2361,multi-agent system,multi-agent system
+2362,multi-armed bandit,multi-armed bandit
+2363,multi-armed bandit problem,multi-armed bandit problem
+2364,multi-class,multi-class
+2365,multi-class classification,multi-class classification
+2366,multi-class logistic regression,multi-class logistic regression
+2367,multi-class problem,multi-class problem
+2368,multi-classification,multi-classification
+2369,multi-document summarization,multi-document summarization
+2370,multi-domain,multi-domain
+2371,multi-head,multi-head
+2372,multi-head attention,multi-head attention
+2373,multi-head attention layer,multi-head attention layer
+2374,multi-head self-attention,multi-head self-attention
+2375,multi-head self-attention mechanism,multi-head self-attention mechanism
+2376,multi-head self-attention module,multi-head self-attention module
+2377,multi-headed self-attention,multi-headed self-attention
+2378,multi-label,multi-label
+2379,multi-label classification,multi-label classification
+2380,multi-label classification loss,multi-label classification loss
+2381,multi-label classifier,multi-label classifier
+2382,multi-label datum,multi-label datum
+2383,multi-label learning,multi-label learning
+2384,multi-label text classification,multi-label text classification
+2385,multi-layer neural network,multi-layer neural network
+2386,multi-layer perceptron,multi-layer perceptron
+2387,multi-modal,multi-modal
+2388,multi-modal input,multi-modal input
+2389,multi-modal learning,multi-modal learning
+2390,multi-modal model,multi-modal model
+2391,multi-object detection,multi-object detection
+2392,multi-objective optimization,multi-objective optimization
+2393,multi-scale,multi-scale
+2394,multi-scale architecture,multi-scale architecture
+2395,multi-scale training,multi-scale training
+2396,multi-task,multi-task
+2397,multi-task fine-tuning,multi-task fine-tuning
+2398,multi-task learning,Multi-Task Learning
+2399,multi-task model,multi-task model
+2400,multi-task regression,multi-task regression
+2401,multi-task setting,multi-task setting
+2402,multi-view,multi-view
+2403,multi-view datum,multi-view datum
+2404,multi-view geometry,multi-view geometry
+2405,multi-view learning,multi-view learning
+2406,multi-view stereo,multi-view stereo
+2407,multi-view system,multi-view system
+2408,multiclass classifier,multiclass classifier
+2409,multiclass hinge loss,multiclass hinge loss
+2410,multiclass model,multiclass model
+2411,multiclass object detection,multiclass object detection
+2412,multidimensional quality metric,Multidimensional Quality metric
+2413,multidimensional scaling,Multidimensional Scaling
+2414,multilingual embedding,multilingual embedding
+2415,multilingual language model,multilingual language model
+2416,multilingual model,multilingual model
+2417,multilingual representation,multilingual representation
+2418,multilingual training,multilingual training
+2419,multilinguality,multilinguality
+2420,multimodal task,multimodal task
+2421,multinomial distribution,multinomial distribution
+2422,multinomial model,multinomial model
+2423,multiple kernel learning,multiple kernel learning
+2424,multiple linear regression,multiple linear regression
+2425,multiscale modeling,multiscale modeling
+2426,multiset,multiset
+2427,multitask training,multitask training
+2428,multivariate,multivariate
+2429,multivariate gaussian distribution,multivariate Gaussian distribution
+2430,multivariate normal,multivariate normal
+2431,multivariate normal distribution,multivariate normal distribution
+2432,multivariate time series,multivariate time series
+2433,mutex,mutex
+2434,mutexe,mutexe
+2435,mutual entropy,mutual entropy
+2436,n-gram,n-gram
+2437,n-gram feature,n-gram feature
+2438,n-gram language model,n-gram language model
+2439,n-gram model,n-gram model
+2440,natural image statistic,natural image statistic
+2441,natural language,natural language
+2442,natural language generation,natural language generation
+2443,natural language inference,Natural Language Inference
+2444,natural language processing,natural language processing
+2445,natural language query,natural language query
+2446,natural language understanding,Natural Language Understanding
+2447,natural logic,natural logic
+2448,natural logic inference,natural logic inference
+2449,natural parameter,natural parameter
+2450,natural question,Natural question
+2451,near-optimality,near-optimality
+2452,nearest neighbor classifier,nearest neighbor classifier
+2453,nearest neighbor search,nearest neighbor search
+2454,nearest-neighbor algorithm,nearest-neighbor algorithm
+2455,negation,negation
+2456,negative log-likelihood,negative log-likelihood
+2457,negative pair,negative pair
+2458,negative sample,negative sample
+2459,negative transfer,negative transfer
+2460,neighborhood function,neighborhood function
+2461,neighborhood system,neighborhood system
+2462,net,net
+2463,network,network
+2464,network architecture,network architecture
+2465,network feature,network feature
+2466,network parameter,network parameter
+2467,network structure,network structure
+2468,network topology,network topology
+2469,network weight,network weight
+2470,neural activity,neural activity
+2471,neural approach,neural approach
+2472,neural architecture,neural architecture
+2473,neural architecture search,neural architecture search
+2474,neural embedding,neural embedding
+2475,neural generation model,neural generation model
+2476,neural implicit representation,neural implicit representation
+2477,neural language model,neural language model
+2478,neural machine translation,neural machine translation
+2479,neural machinery,neural machinery
+2480,neural mapping,neural mapping
+2481,neural method,neural method
+2482,neural model,neural model
+2483,neural module,neural module
+2484,neural net,neural net
+2485,neural network architecture,neural network architecture
+2486,neural network classifier,neural network classifier
+2487,neural network language model,neural network language model
+2488,neural network layer,neural network layer
+2489,neural network model,neural network model
+2490,neural operator,neural operator
+2491,neural parser,neural parser
+2492,neural radiance field,Neural Radiance field
+2493,neural renderer,neural renderer
+2494,neural rendering,neural rendering
+2495,neural representation,neural representation
+2496,neural retrieval,neural retrieval
+2497,neural scaling law,neural scaling law
+2498,neural scene representation,neural scene representation
+2499,neural sequence model,neural sequence model
+2500,neural text generation,neural text generation
+2501,neural volume,Neural volume
+2502,neural volumetric representation,neural volumetric representation
+2503,neural word embedding,neural word embedding
+2504,neuro-symbolic system,neuro-symbolic system
+2505,neuron,neuron
+2506,next sentence prediction,next sentence prediction
+2507,next token prediction,next token prediction
+2508,nmod,nmod
+2509,no-regret algorithm,no-regret algorithm
+2510,no-regret dynamic,no-regret dynamic
+2511,no-regret learning algorithm,no-regret learning algorithm
+2512,node,node
+2513,node attribute,node attribute
+2514,node classification,node classification
+2515,node degree,node degree
+2516,node embedding,node embedding
+2517,node feature,node feature
+2518,node feature matrix,node feature matrix
+2519,node label,node label
+2520,node representation,node representation
+2521,node set,node set
+2522,node-disjoint path,node-disjoint path
+2523,noise distribution,noise distribution
+2524,noise level,noise level
+2525,noise model,noise model
+2526,noise schedule,noise schedule
+2527,noise-contrastive estimation,noise-contrastive estimation
+2528,noisy channel,noisy channel
+2529,nominal mention,nominal mention
+2530,non-convex objective,non-convex objective
+2531,non-convex optimization,non-convex optimization
+2532,non-convex problem,non-convex problem
+2533,non-convexity,non-convexity
+2534,non-euclidean space,non-Euclidean space
+2535,non-linear least square,non-linear least square
+2536,non-linear optimization,non-linear optimization
+2537,non-linearity,non-linearity
+2538,non-local feature,non-local feature
+2539,non-markov process,non-Markov process
+2540,non-max suppression,non-max suppression
+2541,non-maxima suppression,non-maxima suppression
+2542,non-maximal suppression,non-maximal suppression
+2543,non-maximum suppression,Non-maximum suppression
+2544,non-negative matrix factorization,non-negative matrix factorization
+2545,non-parametric setting,non-parametric setting
+2546,non-projective parsing,non-projective parsing
+2547,non-submodular energy,non-submodular energy
+2548,non-tree model,non-tree model
+2549,nonconvex function,nonconvex function
+2550,nonlinear optimisation,nonlinear optimisation
+2551,nonmonotonic reasoning,nonmonotonic reasoning
+2552,nonterminal symbol,nonterminal symbol
+2553,norm,norm
+2554,normal,normal
+2555,normal distribution,normal distribution
+2556,normal form,normal form
+2557,normal vector,normal vector
+2558,normal-form game,normal-form game
+2559,normalisation,normalisation
+2560,normalization,normalization
+2561,normalization constant,normalization constant
+2562,normalization factor,normalization factor
+2563,normalization function,normalization function
+2564,normalization layer,normalization layer
+2565,normalization method,normalization method
+2566,normalization strategy,normalization strategy
+2567,normalize,normalize
+2568,noun phrase,noun phrase
+2569,novel view synthesis,novel view synthesis
+2570,nsubj,nsubj
+2571,nsubjpass,nsubjpass
+2572,nuclear norm,nuclear norm
+2573,nuclear norm relaxation,nuclear norm relaxation
+2574,nucleus sampling,Nucleus Sampling
+2575,null distribution,null distribution
+2576,null space,null space
+2577,numerical linear algebra,numerical linear algebra
+2578,object bounding box,object bounding box
+2579,object categorization,object categorization
+2580,object category,object category
+2581,object category recognition,object category recognition
+2582,object class,object class
+2583,object classification,object classification
+2584,object detection,object detection
+2585,object detector,object detector
+2586,object domain,object domain
+2587,object embedding,object embedding
+2588,object instance segmentation,object instance segmentation
+2589,object localization,Object Localization
+2590,object model,object model
+2591,object proposal,object proposal
+2592,object recognition,object recognition
+2593,object segmentation,object segmentation
+2594,object tracking,object tracking
+2595,objective function,objective function
+2596,objective value,objective value
+2597,objectness,objectness
+2598,observation function,observation function
+2599,observation model,observation model
+2600,observation space,observation space
+2601,observational datum,observational datum
+2602,occlusion handling,occlusion handling
+2603,occlusion reasoning,occlusion reasoning
+2604,occupancy grid,occupancy grid
+2605,occupancy map,occupancy map
+2606,occupancy measure,occupancy measure
+2607,odometry,odometry
+2608,off-diagonal element,off-diagonal element
+2609,off-policy,off-policy
+2610,offline algorithm,offline algorithm
+2611,offline learning,offline learning
+2612,on-policy,on-policy
+2613,one-against-all reduction,one-against-all reduction
+2614,one-hot representation,one-hot representation
+2615,one-hot vector,one-hot vector
+2616,one-shot learning,one-shot learning
+2617,one-shot setting,one-shot setting
+2618,one-stage detector,one-stage detector
+2619,one-versus-all,one-versus-all
+2620,online algorithm,online algorithm
+2621,online convex optimization,online convex optimization
+2622,online gradient descent,online gradient descent
+2623,online learning,online learning
+2624,online learning algorithm,online learning algorithm
+2625,online learning method,online learning method
+2626,online learning theory,online learning theory
+2627,ontology,ontology
+2628,ontology language,ontology language
+2629,open information extraction,Open Information Extraction
+2630,open set,open set
+2631,open-ended text generation,open-ended text generation
+2632,open-loop,open-loop
+2633,operator norm,operator norm
+2634,operator sequence,operator sequence
+2635,optical character recognition,optical character recognition
+2636,optical flow,optical flow
+2637,optical flow estimation,optical flow estimation
+2638,optimal control theory,optimal control theory
+2639,optimal experimental design,optimal experimental design
+2640,optimal policy,optimal policy
+2641,optimal solution,optimal solution
+2642,optimality,optimality
+2643,optimality condition,optimality condition
+2644,optimisation,optimisation
+2645,optimisation problem,optimisation problem
+2646,optimiser,optimiser
+2647,optimization,optimization
+2648,optimization algorithm,optimization algorithm
+2649,optimization framework,optimization framework
+2650,optimization function,optimization function
+2651,optimization method,optimization method
+2652,optimization objective,optimization objective
+2653,optimization problem,Optimization Problem
+2654,optimization procedure,optimization procedure
+2655,optimization step,optimization step
+2656,optimization theory,optimization theory
+2657,optimizer,optimizer
+2658,option,option
+2659,oracle,oracle
+2660,oracle policy,oracle policy
+2661,ordinal embedding,ordinal embedding
+2662,ordinal regression,ordinal regression
+2663,orientation loss,orientation loss
+2664,orthogonal basis,orthogonal basis
+2665,orthogonal matrix,orthogonal matrix
+2666,orthogonal projection matrix,orthogonal projection matrix
+2667,orthographic camera model,orthographic camera model
+2668,orthographic projection,orthographic projection
+2669,orthonormal decomposition,orthonormal decomposition
+2670,orthonormal matrix,orthonormal matrix
+2671,orthonormal row,orthonormal row
+2672,orthonormality,orthonormality
+2673,out-of-distribution,out-of-distribution
+2674,out-of-domain,out-of-domain
+2675,out-of-domain evaluation,out-of-domain evaluation
+2676,outlier,outlier
+2677,outlier detection,outlier detection
+2678,output,output
+2679,output gate,output gate
+2680,output layer,output layer
+2681,output space,output space
+2682,output token,output token
+2683,output vector,output vector
+2684,output vocabulary,output vocabulary
+2685,over-segmentation,over-segmentation
+2686,paired t-test,paired t-test
+2687,pairwise classifier,pairwise classifier
+2688,pairwise clique,pairwise clique
+2689,pairwise comparison,pairwise comparison
+2690,pairwise constraint,pairwise constraint
+2691,pairwise flow,pairwise flow
+2692,pairwise learning,pairwise learning
+2693,pairwise potential,pairwise potential
+2694,pairwise word similarity,pairwise word similarity
+2695,panoptic segmentation,panoptic segmentation
+2696,parallel corpora,parallel corpora
+2697,parallel corpus,parallel corpus
+2698,parallel datum,parallel datum
+2699,parameter count,parameter count
+2700,parameter estimation,parameter estimation
+2701,parameter learning,parameter learning
+2702,parameter matrix,parameter matrix
+2703,parameter model,parameter model
+2704,parameter regularization,parameter regularization
+2705,parameter sharing,parameter sharing
+2706,parameter size,parameter size
+2707,parameter space,parameter space
+2708,parameter tuning,parameter tuning
+2709,parameter tying,parameter tying
+2710,parameter update,parameter update
+2711,parameter vector,parameter vector
+2712,parameter-efficient fine-tuning,parameter-efficient fine-tuning
+2713,parameterisation,parameterisation
+2714,parameterization,parameterization
+2715,parametric,parametric
+2716,parametric family,parametric family
+2717,parametric knowledge,parametric knowledge
+2718,parametric model,parametric model
+2719,parametrization,parametrization
+2720,paraphrase,paraphrase
+2721,paraphrase generation,paraphrase generation
+2722,paraphrase generator,paraphrase generator
+2723,paraphrase identification,paraphrase identification
+2724,paraphrase model,paraphrase model
+2725,parent node,parent node
+2726,pareto optimal,Pareto optimal
+2727,pareto optimality,Pareto optimality
+2728,pareto-efficient,Pareto-efficient
+2729,parse,parse
+2730,parse chart,parse chart
+2731,parse forest,parse forest
+2732,parse score,parse score
+2733,parse structure,parse structure
+2734,parse tree,parse tree
+2735,parser,parser
+2736,part of speech,part of speech
+2737,part of speech tag,part of speech tag
+2738,part of speech tagger,part of speech tagger
+2739,partial assignment,partial assignment
+2740,partial derivation,partial derivation
+2741,partial evaluation,partial evaluation
+2742,partial observability,partial observability
+2743,partial order,partial order
+2744,particle filter,particle filter
+2745,partition,partition
+2746,partition function,partition function
+2747,parzen window,Parzen window
+2748,patch,patch
+2749,path integration,path integration
+2750,path planning,path planning
+2751,pattern profile,pattern profile
+2752,pattern recognition,pattern recognition
+2753,pattern summarization,pattern summarization
+2754,pattern-verbalizer pair,pattern-verbalizer pair
+2755,payoff function,payoff function
+2756,payoff matrix,payoff matrix
+2757,pedestrian detection,pedestrian detection
+2758,penalty function,penalty function
+2759,penalty parameter,penalty parameter
+2760,penalty term,penalty term
+2761,per-pixel,per-pixel
+2762,perception,perception
+2763,perceptron algorithm,perceptron algorithm
+2764,perceptual feature,perceptual feature
+2765,perceptual loss,perceptual loss
+2766,perfect matching,perfect matching
+2767,performance difference lemma,performance difference lemma
+2768,permutation,permutation
+2769,permutation invariance,permutation invariance
+2770,permutation matrix,permutation matrix
+2771,permutation test,permutation test
+2772,permutohedral lattice,permutohedral lattice
+2773,perplexity,perplexity
+2774,perplexity score,perplexity score
+2775,perspective projection,perspective projection
+2776,perspective projection matrix,perspective projection matrix
+2777,perturbation,perturbation
+2778,perturbation analysis,perturbation analysis
+2779,perturbation variance,perturbation variance
+2780,phase retrieval,phase retrieval
+2781,phoneme,phoneme
+2782,phoneme segmentation,phoneme segmentation
+2783,photoconsistency,photoconsistency
+2784,photometric consistency,photometric consistency
+2785,photometric error,photometric error
+2786,photometric loss,photometric loss
+2787,photometric stereo,photometric stereo
+2788,phrase structure tree,phrase structure tree
+2789,phrase table,phrase table
+2790,piecewise linear,piecewise linear
+2791,piecewise planar,piecewise planar
+2792,pipeline,pipeline
+2793,pixel,pixel
+2794,pixel labeling,pixel labeling
+2795,pixel-level,pixel-level
+2796,pixel-wise,pixel-wise
+2797,place recognition,place recognition
+2798,placeholder,placeholder
+2799,planning,planning
+2800,planning problem,planning problem
+2801,planning task,planning task
+2802,platt scaling,Platt scaling
+2803,plug-in estimator,plug-in estimator
+2804,pobj,pobj
+2805,point cloud,point cloud
+2806,point correspondence,point correspondence
+2807,point estimate,point estimate
+2808,point match,point match
+2809,pointwise,pointwise
+2810,pointwise multiplication,pointwise multiplication
+2811,poisson distribution,Poisson distribution
+2812,poisson point process,Poisson point process
+2813,poisson random variable,Poisson random variable
+2814,poisson rate,Poisson rate
+2815,policy,policy
+2816,policy class,policy class
+2817,policy distribution,policy distribution
+2818,policy entropy,policy entropy
+2819,policy evaluation,policy evaluation
+2820,policy gradient,policy gradient
+2821,policy gradient algorithm,policy gradient algorithm
+2822,policy gradient estimator,policy gradient estimator
+2823,policy gradient method,policy gradient method
+2824,policy gradient theorem,policy gradient theorem
+2825,policy improvement,policy improvement
+2826,policy iteration,policy iteration
+2827,policy learning,policy learning
+2828,policy network,policy network
+2829,policy optimization,policy optimization
+2830,policy parameter,policy parameter
+2831,policy representation,policy representation
+2832,policy sketch,policy sketch
+2833,policy space,policy space
+2834,polygon mesh,polygon mesh
+2835,polylog,polylog
+2836,polylogarithmic,polylogarithmic
+2837,polynomial,polynomial
+2838,polynomial delay,polynomial delay
+2839,polynomial kernel,polynomial kernel
+2840,polynomial time,polynomial time
+2841,polynomial time algorithm,polynomial time algorithm
+2842,pooling layer,pooling layer
+2843,pooling operation,pooling operation
+2844,pose estimation,pose estimation
+2845,pose parameter,pose parameter
+2846,pose prior,pose prior
+2847,pose space,pose space
+2848,position bias,position bias
+2849,position embedding,position embedding
+2850,positional bias,positional bias
+2851,positional embedding,positional embedding
+2852,positional encoding,positional encoding
+2853,positive definite,positive definite
+2854,positive pair,positive pair
+2855,positive semidefinite,positive semidefinite
+2856,positive semidefinite kernel,positive semidefinite kernel
+2857,positive semidefinite matrix,positive semidefinite matrix
+2858,post-editing,post-editing
+2859,post-hoc,post-hoc
+2860,post-hoc analysis,post-hoc analysis
+2861,post-processing,post-processing
+2862,posterior,posterior
+2863,posterior approximation,posterior approximation
+2864,posterior density,posterior density
+2865,posterior distribution,posterior distribution
+2866,posterior entropy,posterior entropy
+2867,posterior estimation,posterior estimation
+2868,posterior inference,posterior inference
+2869,posterior mean,posterior mean
+2870,posterior mean function,posterior mean function
+2871,posterior probability,posterior probability
+2872,posterior probability distribution,posterior probability distribution
+2873,posterior sample,posterior sample
+2874,posterior variance,posterior variance
+2875,potential function,potential function
+2876,potential heuristic,potential heuristic
+2877,power iteration method,power iteration method
+2878,power law distribution,power law distribution
+2879,power method,power method
+2880,pre-logit,pre-logit
+2881,pre-processing,pre-processing
+2882,pre-terminals,pre-terminals
+2883,pre-train,pre-train
+2884,pre-trained checkpoint,pre-trained checkpoint
+2885,pre-trained embedding,pre-trained embedding
+2886,pre-trained language model,pre-trained language model
+2887,pre-trained model,pre-trained model
+2888,pre-trained weight,pre-trained weight
+2889,pre-training corpus,pre-training corpus
+2890,pre-training datum,pre-training datum
+2891,pre-training objective,pre-training objective
+2892,pre-training task,pre-training task
+2893,precision,precision
+2894,precision matrix,precision matrix
+2895,precision-at-10,precision-at-10
+2896,precision-recall curve,precision-recall curve
+2897,precision-recall graph,precision-recall graph
+2898,precondition,precondition
+2899,preconditioner,preconditioner
+2900,predicate logic,predicate logic
+2901,predicate symbol,predicate symbol
+2902,predicate-argument relation,predicate-argument relation
+2903,predicate-argument structure,predicate-argument structure
+2904,prediction,prediction
+2905,prediction accuracy,prediction accuracy
+2906,prediction entropy,prediction entropy
+2907,prediction error,prediction error
+2908,prediction head,prediction head
+2909,prediction invariance,prediction invariance
+2910,prediction model,prediction model
+2911,prediction network,prediction network
+2912,prediction variance,prediction variance
+2913,predictive coding,predictive coding
+2914,predictive distribution,predictive distribution
+2915,predictive likelihood,predictive likelihood
+2916,predictive model,predictive model
+2917,predictive performance,predictive performance
+2918,predictor,predictor
+2919,prefix,prefix
+2920,prefix sum,prefix sum
+2921,prefix tree,prefix tree
+2922,preimage,preimage
+2923,prepositional phrase,prepositional phrase
+2924,preprocessing phase,preprocessing phase
+2925,presence penalty,presence penalty
+2926,pretrained multilingual model,pretrained multilingual model
+2927,primal objective function,primal objective function
+2928,primal optimization,primal optimization
+2929,primal problem,primal problem
+2930,primal variable,primal variable
+2931,primal-dual algorithm,primal-dual algorithm
+2932,primal-dual method,primal-dual method
+2933,primitive,primitive
+2934,principal component,principal component
+2935,principal component analysis,principal component analysis
+2936,prior distribution,prior distribution
+2937,prior hyperparameter,prior hyperparameter
+2938,prior knowledge,prior knowledge
+2939,prior mean,prior mean
+2940,prior probability,prior probability
+2941,prior probability distribution,prior probability distribution
+2942,prior variance,prior variance
+2943,priority queue,priority queue
+2944,privacy budget,privacy budget
+2945,probabilistic context-free grammar,probabilistic context-free grammar
+2946,probabilistic distribution,probabilistic distribution
+2947,probabilistic formulation,probabilistic formulation
+2948,probabilistic framework,probabilistic framework
+2949,probabilistic generative model,probabilistic generative model
+2950,probabilistic graphical model,probabilistic graphical model
+2951,probabilistic inference,probabilistic inference
+2952,probabilistic logic,probabilistic logic
+2953,probabilistic method,probabilistic method
+2954,probabilistic model,probabilistic model
+2955,probabilistic relational model,probabilistic relational model
+2956,probabilistic representation,probabilistic representation
+2957,probabilistic semantic,probabilistic semantic
+2958,probabilistic topic modeling,probabilistic topic modeling
+2959,probabilistic tree,probabilistic tree
+2960,probability density,probability density
+2961,probability density function,probability density function
+2962,probability distribution,probability distribution
+2963,probability flow,probability flow
+2964,probability map,probability map
+2965,probability mass,probability mass
+2966,probability mass function,probability mass function
+2967,probability matrix,probability matrix
+2968,probability measure,probability measure
+2969,probability model,probability model
+2970,probability multiset,probability multiset
+2971,probability simplex,probability simplex
+2972,probability space,probability space
+2973,probability threshold,probability threshold
+2974,probability transition matrix,probability transition matrix
+2975,probability vector,probability vector
+2976,problem space,problem space
+2977,product distribution,product distribution
+2978,product-of-expert,product-of-expert
+2979,program induction,program induction
+2980,projection algorithm,projection algorithm
+2981,projection layer,projection layer
+2982,projection matrix,projection matrix
+2983,projection operator,projection operator
+2984,projection step,projection step
+2985,projective camera,projective camera
+2986,projective dependency parsing,projective dependency parsing
+2987,projective dependency tree,projective dependency tree
+2988,projective parsing,projective parsing
+2989,projective transformation,projective transformation
+2990,prompt,prompt
+2991,prompt engineering,prompt engineering
+2992,prompt learning,prompt learning
+2993,prompt tuning,prompt tuning
+2994,pronoun resolution,pronoun resolution
+2995,proof complexity,proof complexity
+2996,proof number,proof number
+2997,proof tree,proof tree
+2998,propensity score,propensity score
+2999,proposal distribution,proposal distribution
+3000,proposal probability,proposal probability
+3001,proposition,Proposition
+3002,propositional,propositional
+3003,propositional formula,propositional formula
+3004,propositional language,propositional language
+3005,propositional logic,propositional logic
+3006,propositional variable,propositional variable
+3007,protected attribute,protected attribute
+3008,protein folding,protein folding
+3009,prototype embedding,prototype embedding
+3010,proximal operator,proximal operator
+3011,proximal policy optimization,Proximal Policy Optimization
+3012,pruning algorithm,pruning algorithm
+3013,pseudo-inverse,pseudo-inverse
+3014,pure strategy,pure strategy
+3015,pyramid level,pyramid level
+3016,q function,Q function
+3017,q value,Q value
+3018,q-learning,Q-learning
+3019,q-network,Q-network
+3020,quadratic assignment problem,quadratic assignment problem
+3021,quadratic loss,quadratic loss
+3022,quadratic program,quadratic program
+3023,quadratic regularizer,quadratic regularizer
+3024,quality estimation,Quality Estimation
+3025,quantal response equilibrium,quantal response equilibrium
+3026,quantified variable,quantified variable
+3027,quantifier,quantifier
+3028,quantile,quantile
+3029,quantization,quantization
+3030,quantization function,quantization function
+3031,quantizer,quantizer
+3032,quaternion,quaternion
+3033,query complexity,query complexity
+3034,query context,query context
+3035,query embedding,query embedding
+3036,query expansion,Query expansion
+3037,query image,query image
+3038,query language,query language
+3039,query phase,query phase
+3040,query point,query point
+3041,query processing,query processing
+3042,query reformulation,query reformulation
+3043,query representation,query representation
+3044,query strategy,query strategy
+3045,query time,query time
+3046,query vector,query vector
+3047,query-document pair,query-document pair
+3048,r-precision,R-Precision
+3049,rademacher complexity,Rademacher complexity
+3050,radiance field,radiance field
+3051,random crop,random crop
+3052,random feature,random feature
+3053,random forest classifier,Random Forest classifier
+3054,random matrix theory,random matrix theory
+3055,random policy,random policy
+3056,random projection,random projection
+3057,random projection algorithm,random projection algorithm
+3058,random sampling,random sampling
+3059,random seed,random seed
+3060,random variable,random variable
+3061,random vector,random vector
+3062,random walk model,random walk model
+3063,randomization,randomization
+3064,randomized algorithm,randomized algorithm
+3065,randomized smoothing,randomized smoothing
+3066,range query,range query
+3067,rank,rank
+3068,rank-one update,rank-one update
+3069,ranking algorithm,ranking algorithm
+3070,ranking function,ranking function
+3071,reachable state,reachable state
+3072,reading comprehension,Reading Comprehension
+3073,readout function,readout function
+3074,recall,recall
+3075,receiver operating characteristic curve,Receiver Operating Characteristic Curve
+3076,receptive field,receptive field
+3077,recognition,recognition
+3078,recognition model,recognition model
+3079,recommendation algorithm,recommendation algorithm
+3080,recommendation model,recommendation model
+3081,recommendation system,recommendation system
+3082,recommender,recommender
+3083,recommender system,recommender system
+3084,reconstruction algorithm,reconstruction algorithm
+3085,reconstruction error,reconstruction error
+3086,reconstruction loss,reconstruction loss
+3087,recovery algorithm,recovery algorithm
+3088,recurrent,recurrent
+3089,recurrent architecture,recurrent architecture
+3090,recurrent autoencoder,recurrent autoencoder
+3091,recurrent connection,recurrent connection
+3092,recurrent dynamic,recurrent dynamic
+3093,recurrent layer,Recurrent layer
+3094,recurrent model,recurrent model
+3095,recurrent network,recurrent network
+3096,recurrent state,recurrent state
+3097,recursion,recursion
+3098,recursive call,recursive call
+3099,recursive neural model,recursive neural model
+3100,recursive neural network,recursive neural network
+3101,reference distribution,reference distribution
+3102,reference resolution,reference resolution
+3103,reference text,reference text
+3104,refinement network,refinement network
+3105,regression,regression
+3106,regression analysis,regression analysis
+3107,regression coefficient,regression coefficient
+3108,regression function,regression function
+3109,regression model,regression model
+3110,regression problem,regression problem
+3111,regression task,regression task
+3112,regression tree,regression tree
+3113,regressor,Regressor
+3114,regret matching,regret matching
+3115,regret minimization,regret minimization
+3116,regret minimization algorithm,regret minimization algorithm
+3117,regret minimizer,regret minimizer
+3118,regular expression,regular expression
+3119,regularisation,regularisation
+3120,regularization,regularization
+3121,regularization constant,regularization constant
+3122,regularization function,regularization function
+3123,regularization loss,regularization loss
+3124,regularization parameter,regularization parameter
+3125,regularization path,regularization path
+3126,regularization penalty,regularization penalty
+3127,regularization strength,regularization strength
+3128,regularization term,regularization term
+3129,regularization weight,regularization weight
+3130,regularizer,regularizer
+3131,reinforcement learning algorithm,reinforcement learning algorithm
+3132,rejection sampling,rejection sampling
+3133,relation extraction,relation extraction
+3134,relation type,relation type
+3135,relational tuple,relational tuple
+3136,relative entropy,relative entropy
+3137,relative positional embedding,relative positional embedding
+3138,relevance score,relevance score
+3139,renormalization,renormalization
+3140,reparameterization,reparameterization
+3141,reparameterization trick,reparameterization trick
+3142,replay buffer,replay buffer
+3143,replay memory,replay memory
+3144,representation learning,representation learning
+3145,representation matrix,representation matrix
+3146,representation space,representation space
+3147,representation vector,representation vector
+3148,representer theorem,representer theorem
+3149,reprojection,reprojection
+3150,reprojection error,reprojection error
+3151,reranker,reranker
+3152,reranking model,reranking model
+3153,reranking parser,reranking parser
+3154,reservoir sampling,reservoir sampling
+3155,residual block,residual block
+3156,residual branch,residual branch
+3157,residual connection,residual connection
+3158,residual error,residual error
+3159,residual function,residual function
+3160,residual graph,residual graph
+3161,residual learning,residual learning
+3162,residual network,residual network
+3163,restricted isometry property,restricted isometry property
+3164,retrieval,retrieval
+3165,retrieval function,retrieval function
+3166,retrieval method,retrieval method
+3167,retrieval model,retrieval model
+3168,retrieval system,retrieval system
+3169,reverse-mode,reverse-mode
+3170,reward,reward
+3171,reward function,reward function
+3172,reward model,reward model
+3173,reward shaping,reward shaping
+3174,reward signal,reward signal
+3175,rhetorical structure theory,Rhetorical Structure Theory
+3176,ridge regression,ridge regression
+3177,ridge regularization,ridge regularization
+3178,riemannian geometry,Riemannian geometry
+3179,riemannian gradient,Riemannian gradient
+3180,riemannian manifold,Riemannian manifold
+3181,right-to-left model,right-to-left model
+3182,rigid body transformation,rigid body transformation
+3183,rigid transformation,rigid transformation
+3184,risk minimization,risk minimization
+3185,roberta-large,roberta-large
+3186,robotic,robotic
+3187,robust optimization,robust optimization
+3188,robust risk,robust risk
+3189,robustness,robustness
+3190,role assertion,role assertion
+3191,role atom,role atom
+3192,role classification,role classification
+3193,role name,role name
+3194,roll-out policy,roll-out policy
+3195,rollout,rollout
+3196,rollout length,rollout length
+3197,root mean square error,root mean square error
+3198,root node,root node
+3199,rotation angle,rotation angle
+3200,rotation invariance,rotation invariance
+3201,rotation matrix,rotation matrix
+3202,row vector,row vector
+3203,rule body,rule body
+3204,runtime complexity,runtime complexity
+3205,s node,S node
+3206,saddle-point problem,saddle-point problem
+3207,saliency,saliency
+3208,saliency map,saliency map
+3209,sample complexity,sample complexity
+3210,sample covariance matrix,sample covariance matrix
+3211,sample efficiency,sample efficiency
+3212,sample selection,sample selection
+3213,sample space,sample space
+3214,sample variance,sample variance
+3215,sample-efficient,sample-efficient
+3216,sampler,sampler
+3217,sampling algorithm,sampling algorithm
+3218,satisfiability,satisfiability
+3219,satisfiability problem,satisfiability problem
+3220,scalability,scalability
+3221,scalar,scalar
+3222,scalar product,scalar product
+3223,scalarization,scalarization
+3224,scale invariance,scale invariance
+3225,scale parameter,scale parameter
+3226,scaled dot-product,scaled dot-product
+3227,scene category,scene category
+3228,scene classification,scene classification
+3229,scene classifier,scene classifier
+3230,scene flow,scene flow
+3231,scene flow estimation,scene flow estimation
+3232,scene geometry,scene geometry
+3233,scene graph,scene graph
+3234,scene parsing,scene parsing
+3235,scene recognition,scene recognition
+3236,scene reconstruction,scene reconstruction
+3237,scene representation,scene representation
+3238,scene understanding,scene understanding
+3239,scheduler,scheduler
+3240,schema item,schema item
+3241,score function,score function
+3242,score matching,score matching
+3243,score vector,score vector
+3244,scoring function,scoring function
+3245,search algorithm,search algorithm
+3246,search problem,search problem
+3247,search procedure,search procedure
+3248,search space,search space
+3249,search tree,search tree
+3250,second order,second order
+3251,second order statistic,second order statistic
+3252,second-order optimization,second-order optimization
+3253,second-order potential,second-order potential
+3254,segmentation,segmentation
+3255,segmentation algorithm,segmentation algorithm
+3256,segmentation map,segmentation map
+3257,segmentation mask,segmentation mask
+3258,selection bias,selection bias
+3259,selectional preference,selectional preference
+3260,self-attention,self-attention
+3261,self-attention head,self-attention head
+3262,self-attention layer,self-attention layer
+3263,self-attention matrix,self-attention matrix
+3264,self-attention mechanism,self-attention mechanism
+3265,self-attention model,self-attention model
+3266,self-attention module,self-attention module
+3267,self-learning,self-learning
+3268,self-loop,self-loop
+3269,self-play,self-play
+3270,self-supervision,self-supervision
+3271,self-training,self-training
+3272,semantic alignment,semantic alignment
+3273,semantic analysis,semantic analysis
+3274,semantic annotation,semantic annotation
+3275,semantic category,semantic category
+3276,semantic class,semantic class
+3277,semantic constraint,semantic constraint
+3278,semantic distance,semantic distance
+3279,semantic encoder,semantic encoder
+3280,semantic equivalence,semantic equivalence
+3281,semantic feature,semantic feature
+3282,semantic graph,semantic graph
+3283,semantic information,semantic information
+3284,semantic interpretation,semantic interpretation
+3285,semantic label,semantic label
+3286,semantic memory,semantic memory
+3287,semantic model,semantic model
+3288,semantic network,semantic network
+3289,semantic object,semantic object
+3290,semantic operator,semantic operator
+3291,semantic parse,semantic parse
+3292,semantic parser,semantic parser
+3293,semantic priming,semantic priming
+3294,semantic relation,semantic relation
+3295,semantic representation,semantic representation
+3296,semantic role,semantic role
+3297,semantic role label,semantic role label
+3298,semantic search,semantic search
+3299,semantic segmentation,semantic segmentation
+3300,semantic similarity,semantic similarity
+3301,semantic similarity measure,semantic similarity measure
+3302,semantic space,semantic space
+3303,semantic structure,semantic structure
+3304,semantic symbol,semantic symbol
+3305,semantic textual similarity,semantic textual similarity
+3306,semantic unit,semantic unit
+3307,semantic vector,semantic vector
+3308,semantic vector space,semantic vector space
+3309,semi-definite programming,semi-definite programming
+3310,semi-supervised clustering,semi-supervised clustering
+3311,semi-supervised learning,semi-supervised learning
+3312,semi-supervision,semi-supervision
+3313,semidefinite program,semidefinite program
+3314,sense disambiguation,sense disambiguation
+3315,sensitive attribute,sensitive attribute
+3316,sensitivity analysis,sensitivity analysis
+3317,sentence classification,sentence classification
+3318,sentence compression,sentence compression
+3319,sentence embedding,sentence embedding
+3320,sentence encoder,sentence encoder
+3321,sentence representation,sentence representation
+3322,sentence segmentation,sentence segmentation
+3323,sentence vector,sentence vector
+3324,sentence-level,sentence-level
+3325,sentence-level classification,sentence-level classification
+3326,sentence-level representation,sentence-level representation
+3327,sentence-piece,Sentence-Piece
+3328,sentiment analysis,sentiment analysis
+3329,sentiment analysis model,sentiment analysis model
+3330,sentiment classification,sentiment classification
+3331,sentiment classifier,sentiment classifier
+3332,sentiment detection,sentiment detection
+3333,sentiment transfer,sentiment transfer
+3334,separation oracle,separation oracle
+3335,separation parameter,separation parameter
+3336,separator token,separator token
+3337,seq2seq model,seq2seq model
+3338,sequence alignment,sequence alignment
+3339,sequence classification,sequence classification
+3340,sequence database,sequence database
+3341,sequence generation,sequence generation
+3342,sequence labeling,sequence labeling
+3343,sequence labeling model,sequence labeling model
+3344,sequence length,sequence length
+3345,sequence model,sequence model
+3346,sequence prediction,sequence prediction
+3347,sequence tagging,sequence tagging
+3348,sequence transduction,sequence transduction
+3349,sequence-to-sequence,sequence-to-sequence
+3350,sequence-to-sequence architecture,sequence-to-sequence architecture
+3351,sequence-to-sequence generation,sequence-to-sequence generation
+3352,sequence-to-sequence model,sequence-to-sequence model
+3353,sequence-to-sequence transduction,sequence-to-sequence transduction
+3354,sequential datum,sequential datum
+3355,sequential decision making,sequential decision making
+3356,sequential decision-making process,sequential decision-making process
+3357,sequential sampler,sequential sampler
+3358,sequential tagging,sequential tagging
+3359,set cover problem,set cover problem
+3360,set function,set function
+3361,shallow network,shallow network
+3362,shape matching,shape matching
+3363,shape prior,shape prior
+3364,shift invariant,shift invariant
+3365,shift reduce parser,shift reduce parser
+3366,siamese architecture,Siamese architecture
+3367,siamese network,Siamese network
+3368,sibling model,sibling model
+3369,sigmoid,sigmoid
+3370,sigmoid activation,sigmoid activation
+3371,sigmoid activation function,sigmoid activation function
+3372,sigmoid function,sigmoid function
+3373,signal-to-noise ratio,signal-to-noise ratio
+3374,sim,sim
+3375,similarity function,similarity function
+3376,similarity graph,similarity graph
+3377,similarity matrix,similarity matrix
+3378,similarity measure,similarity measure
+3379,similarity metric,similarity metric
+3380,similarity score,similarity score
+3381,similarity search,similarity search
+3382,simplicial complex,simplicial complex
+3383,simulated annealing,simulated annealing
+3384,single task learning,single task learning
+3385,single-label classification,single-label classification
+3386,single-view data,single-view data
+3387,singleton,singleton
+3388,singular value,singular value
+3389,singular value decomposition,singular value decomposition
+3390,singular vector,singular vector
+3391,skip connection,skip connection
+3392,skip-gram,skip-gram
+3393,skip-gram model,skip-gram model
+3394,slack variable,slack variable
+3395,slot,slot
+3396,slot filling,slot filling
+3397,slot value,slot value
+3398,slot-value pair,slot-value pair
+3399,smoothing parameter,smoothing parameter
+3400,smoothness term,smoothness term
+3401,social bias,social bias
+3402,social network analysis,social network analysis
+3403,soft margin,soft margin
+3404,softmax activation,softmax activation
+3405,softmax activation function,softmax activation function
+3406,softmax classifier,softmax classifier
+3407,softmax distribution,softmax distribution
+3408,softmax function,softmax function
+3409,softmax layer,Softmax layer
+3410,softmax loss,softmax loss
+3411,softplus,softplus
+3412,softplus activation,softplus activation
+3413,softplus function,softplus function
+3414,solution space,solution space
+3415,solver,solver
+3416,source domain,source domain
+3417,source model,source model
+3418,source node,source node
+3419,source sequence,source sequence
+3420,source token,source token
+3421,source word,source word
+3422,space carving,space carving
+3423,space complexity,space complexity
+3424,space partitioning,space partitioning
+3425,spam detection,spam detection
+3426,spam filtering,spam filtering
+3427,span,span
+3428,sparse,sparse
+3429,sparse approximation,sparse approximation
+3430,sparse attention,sparse attention
+3431,sparse attention pattern,sparse attention pattern
+3432,sparse graph,sparse graph
+3433,sparse matrix,sparse matrix
+3434,sparse model,sparse model
+3435,sparse reconstruction,Sparse reconstruction
+3436,sparse recovery,sparse recovery
+3437,sparse representation,sparse representation
+3438,sparse sampling,sparse sampling
+3439,sparse vector,sparse vector
+3440,sparsification,sparsification
+3441,sparsity,sparsity
+3442,sparsity level,sparsity level
+3443,sparsity regularization,sparsity regularization
+3444,spatial domain,spatial domain
+3445,spatial gradient,spatial gradient
+3446,spatial pooling,spatial pooling
+3447,spatial pyramid,spatial pyramid
+3448,spearman correlation,Spearman correlation
+3449,spearman rank correlation,Spearman rank correlation
+3450,special token,special token
+3451,spectral algorithm,spectral algorithm
+3452,spectral clustering,spectral clustering
+3453,spectral decomposition,spectral decomposition
+3454,spectral embedding,spectral embedding
+3455,spectral gap,spectral gap
+3456,spectral learning,spectral learning
+3457,spectral matching,spectral matching
+3458,spectral method,spectral method
+3459,spectral norm,spectral norm
+3460,spectral property,spectral property
+3461,spectrogram,spectrogram
+3462,speech recognition,speech recognition
+3463,speech recognizer,speech recognizer
+3464,speech synthesis model,speech synthesis model
+3465,speech synthesizer,speech synthesizer
+3466,spurious correlation,spurious correlation
+3467,squared error loss,squared error loss
+3468,stable model,stable model
+3469,stable model semantic,stable model semantic
+3470,stance detection,stance detection
+3471,standard normal distribution,standard normal distribution
+3472,start token,start token
+3473,state,state
+3474,state action pair,state action pair
+3475,state distribution,state distribution
+3476,state estimation,state estimation
+3477,state machine,state machine
+3478,state matrix,state matrix
+3479,state of the art algorithm,state of the art algorithm
+3480,state representation,state representation
+3481,state sequence,state sequence
+3482,state space,state space
+3483,state trajectory,state trajectory
+3484,state transition,state transition
+3485,state transition function,state transition function
+3486,state transition matrix,state transition matrix
+3487,state transition model,state transition model
+3488,state transition probability,state transition probability
+3489,state value function,state value function
+3490,state variable,state variable
+3491,state vector,state vector
+3492,state-action distribution,state-action distribution
+3493,state-action space,state-action space
+3494,state-action value,state-action value
+3495,state-action value function,state-action value function
+3496,state-of-the-art,State-of-the-art
+3497,state-of-the-art baseline,state-of-the-art baseline
+3498,state-of-the-art method,state-of-the-art method
+3499,state-of-the-art model,state-of-the-art model
+3500,state-of-the-art system,state-of-the-art system
+3501,static analysis,static analysis
+3502,stationarity,stationarity
+3503,stationary distribution,stationary distribution
+3504,stationary kernel,stationary kernel
+3505,stationary policy,stationary policy
+3506,statistical analysis,statistical analysis
+3507,statistical independence,statistical independence
+3508,statistical learning,statistical learning
+3509,statistical learning algorithm,statistical learning algorithm
+3510,statistical learning theory,statistical learning theory
+3511,statistical machine translation,Statistical Machine Translation
+3512,statistical machine translation system,statistical machine translation system
+3513,statistical measure,statistical measure
+3514,statistical model,statistical model
+3515,statistical translation model,statistical translation model
+3516,steerable filter,steerable filter
+3517,stemmer,stemmer
+3518,stereo algorithm,stereo algorithm
+3519,stereo benchmark,stereo benchmark
+3520,stereo disparity,stereo disparity
+3521,stereo image,stereo image
+3522,stereo matching,stereo matching
+3523,stereo pair,stereo pair
+3524,stereo reconstruction,stereo reconstruction
+3525,stereo vision,stereo vision
+3526,stochastic algorithm,stochastic algorithm
+3527,stochastic approximation,stochastic approximation
+3528,stochastic depth,stochastic depth
+3529,stochastic differential equation,stochastic differential equation
+3530,stochastic dynamic,stochastic dynamic
+3531,stochastic environment,stochastic environment
+3532,stochastic game,stochastic game
+3533,stochastic gradient,stochastic gradient
+3534,stochastic gradient algorithm,stochastic gradient algorithm
+3535,stochastic gradient ascent,stochastic gradient ascent
+3536,stochastic gradient descent,stochastic gradient descent
+3537,stochastic gradient method,stochastic gradient method
+3538,stochastic grammar,stochastic grammar
+3539,stochastic matrix,stochastic matrix
+3540,stochastic model,stochastic model
+3541,stochastic objective,stochastic objective
+3542,stochastic optimization,stochastic optimization
+3543,stochastic policy,stochastic policy
+3544,stochastic process,stochastic process
+3545,stochastic sampling,stochastic sampling
+3546,stochastic search algorithm,stochastic search algorithm
+3547,stochastic subgradient descent,stochastic subgradient descent
+3548,stochastic transition matrix,stochastic transition matrix
+3549,stochastic variational inference,stochastic variational inference
+3550,stochasticity,stochasticity
+3551,stop word,stop word
+3552,stop-gradient,stop-gradient
+3553,stop-gradient operation,stop-gradient operation
+3554,stopping condition,stopping condition
+3555,stopping criterion,stopping criterion
+3556,story cloze test,Story Cloze Test
+3557,stratified sampling,stratified sampling
+3558,streaming algorithm,streaming algorithm
+3559,streaming datum,streaming datum
+3560,streaming model,streaming model
+3561,stride,stride
+3562,string kernel metric,string kernel metric
+3563,structural learning,structural learning
+3564,structural risk minimization,structural risk minimization
+3565,structure from motion,Structure from motion
+3566,structure learning,structure learning
+3567,structured datum,structured datum
+3568,structured output,structured output
+3569,structured perceptron,structured perceptron
+3570,structured prediction,structured prediction
+3571,structured prediction model,structured prediction model
+3572,structured prediction problem,structured prediction problem
+3573,structured support vector machine,structured support vector machine
+3574,student model,student model
+3575,style transfer,style transfer
+3576,sub-gradient,sub-gradient
+3577,sub-gradient descent,sub-gradient descent
+3578,sub-networks,sub-networks
+3579,sub-population,sub-population
+3580,sub-word,sub-word
+3581,sub-word tokenization,sub-word tokenization
+3582,subgame,subgame
+3583,subgradient method,subgradient method
+3584,subgraph isomorphism,subgraph isomorphism
+3585,subgraph selection,subgraph selection
+3586,submatrice,submatrice
+3587,submatrix,submatrix
+3588,submodular,submodular
+3589,submodular function,submodular function
+3590,submodular function optimization,submodular function optimization
+3591,submodular influence function,submodular influence function
+3592,submodular optimization,submodular optimization
+3593,submodular polyhedron,submodular polyhedron
+3594,submodular set function,submodular set function
+3595,submodularity,Submodularity
+3596,subnetwork,subnetwork
+3597,suboptimal,suboptimal
+3598,subpixel,subpixel
+3599,subsample,subsample
+3600,subsampling factor,subsampling factor
+3601,subspace learning,subspace learning
+3602,subspace method,subspace method
+3603,subspace projection,subspace projection
+3604,substitution,substitution
+3605,subsumption,subsumption
+3606,subsumption relation,subsumption relation
+3607,subtree,subtree
+3608,subwindow,subwindow
+3609,subword token,subword token
+3610,subword unit,subword unit
+3611,successor function,successor function
+3612,successor state,successor state
+3613,successor state axiom,successor state axiom
+3614,sufficient statistic,sufficient statistic
+3615,suffix tree,suffix tree
+3616,summarization,summarization
+3617,summarization algorithm,summarization algorithm
+3618,summarization model,summarization model
+3619,summarization system,summarization system
+3620,super-pixel,super-pixel
+3621,super-resolution,super-resolution
+3622,supergradient,supergradient
+3623,supertag,supertag
+3624,support,support
+3625,support set,support set
+3626,support threshold,support threshold
+3627,support vector,support vector
+3628,surface normal,surface normal
+3629,surface normal estimator,surface normal estimator
+3630,surface normal prediction,surface normal prediction
+3631,surface realization,surface realization
+3632,surrogate,surrogate
+3633,surrogate function,surrogate function
+3634,surrogate loss,surrogate loss
+3635,surrogate loss function,surrogate loss function
+3636,surrogate model,surrogate model
+3637,symbol grounding problem,symbol grounding problem
+3638,symbolic representation,symbolic representation
+3639,symmetric matrix,symmetric matrix
+3640,symmetric positive semidefinite matrix,symmetric positive semidefinite matrix
+3641,symmetrization,symmetrization
+3642,synchronous context-free grammar,synchronous context-free grammar
+3643,synonymy,synonymy
+3644,synset,synset
+3645,syntactic analysis,syntactic analysis
+3646,syntactic category,syntactic category
+3647,syntactic constraint,syntactic constraint
+3648,syntactic dependency,syntactic dependency
+3649,syntactic dependency parsing,syntactic dependency parsing
+3650,syntactic dependency tree,syntactic dependency tree
+3651,syntactic feature,syntactic feature
+3652,syntactic information,syntactic information
+3653,syntactic parse,syntactic parse
+3654,syntactic parser,syntactic parser
+3655,syntactic regularity,syntactic regularity
+3656,syntactic representation,syntactic representation
+3657,syntactic similarity,syntactic similarity
+3658,syntactic structure,syntactic structure
+3659,syntactic tree,syntactic tree
+3660,syntax tree,syntax tree
+3661,synthetic dataset,synthetic dataset
+3662,system identification,system identification
+3663,t-test,t-test
+3664,t5 model,T5 model
+3665,t5-base,T5-base
+3666,t5-base model,T5-base model
+3667,t5-large model,T5-large model
+3668,tag recommendation,tag recommendation
+3669,tag sequence,tag sequence
+3670,tagger,tagger
+3671,tagset,tagset
+3672,tail entity,tail entity
+3673,tangent space,tangent space
+3674,tanh activation function,tanh activation function
+3675,target,target
+3676,target classifier,target classifier
+3677,target distribution,target distribution
+3678,target domain,target domain
+3679,target function,target function
+3680,target instance,target instance
+3681,target model,target model
+3682,target network,target network
+3683,target node,target node
+3684,target policy,target policy
+3685,target sentence,target sentence
+3686,target sequence,target sequence
+3687,target task,target task
+3688,target token,target token
+3689,target variable,target variable
+3690,target vector,target vector
+3691,target vocabulary,target vocabulary
+3692,target word,target word
+3693,target-to-source model,target-to-source model
+3694,task adaptation,task adaptation
+3695,task model,task model
+3696,task-specific model,task-specific model
+3697,taxonomy,taxonomy
+3698,teacher forcing,teacher forcing
+3699,teacher network,teacher network
+3700,temperature parameter,temperature parameter
+3701,temperature scaling,temperature scaling
+3702,template,template
+3703,template model,template model
+3704,template-matching,template-matching
+3705,temporal derivative,temporal derivative
+3706,temporal difference,temporal difference
+3707,temporal difference learning,temporal difference learning
+3708,temporal drift,temporal drift
+3709,temporal fusion,temporal fusion
+3710,temporal locality,temporal locality
+3711,temporal logic,temporal logic
+3712,temporal reasoning,temporal reasoning
+3713,temporal variable,temporal variable
+3714,tensor,tensor
+3715,tensor decomposition,tensor decomposition
+3716,tensor factorization,tensor factorization
+3717,tensor field,tensor field
+3718,tensor product,tensor product
+3719,term frequency,term frequency
+3720,terminal node,terminal node
+3721,terminal state,terminal state
+3722,termination condition,termination condition
+3723,termination criterion,termination criterion
+3724,test accuracy,test accuracy
+3725,test dataset,test dataset
+3726,test datum,test datum
+3727,test domain,test domain
+3728,test error,test error
+3729,test loss,test loss
+3730,test set,test set
+3731,test split,test split
+3732,test time,test time
+3733,testing set,testing set
+3734,text categorization,text categorization
+3735,text classification,Text Classification
+3736,text corpus,text corpus
+3737,text embedding,text embedding
+3738,text encoder,text encoder
+3739,text generation,text generation
+3740,text generation model,text generation model
+3741,text mining,text mining
+3742,text segmentation,text segmentation
+3743,text simplification,text simplification
+3744,text summarization,Text Summarization
+3745,text-davinci-002,text-davinci-002
+3746,text-davinci-003,text-davinci-003
+3747,text-to-image diffusion model,text-to-image diffusion model
+3748,text-to-image generation,text-to-image generation
+3749,text-to-image model,text-to-image model
+3750,text-to-image synthesis,text-to-image synthesis
+3751,text-to-text transfer transformer,Text-to-Text Transfer Transformer
+3752,textual entailment,textual entailment
+3753,tf-idf,tf-idf
+3754,threat model,threat model
+3755,threshold,threshold
+3756,threshold function,threshold function
+3757,threshold parameter,threshold parameter
+3758,threshold policy,threshold policy
+3759,time complexity,time complexity
+3760,time series,time series
+3761,time series analysis,time series analysis
+3762,time series forecasting,time series forecasting
+3763,time step,time step
+3764,time-series datum,time-series datum
+3765,time-series model,time-series model
+3766,time/space complexity,time/space complexity
+3767,token classification,token classification
+3768,token embedding,token embedding
+3769,token frequency,token frequency
+3770,token length,token length
+3771,token representation,token representation
+3772,token sequence,token sequence
+3773,token space,token space
+3774,token vector,token vector
+3775,token vocabulary,token vocabulary
+3776,token-level,token-level
+3777,token-level attention,token-level attention
+3778,token-level feature,token-level feature
+3779,tokenisation,tokenisation
+3780,tokenization,tokenization
+3781,tokenization scheme,tokenization scheme
+3782,tokenizer,tokenizer
+3783,top-1 accuracy,top-1 accuracy
+3784,top-down segmentation,top-down segmentation
+3785,top-k,top-k
+3786,top-k sampling,top-k sampling
+3787,top-p sampling,top-p sampling
+3788,topic assignment,topic assignment
+3789,topic classification,topic classification
+3790,topic detection and tracking,Topic Detection and Tracking
+3791,topic distribution,topic distribution
+3792,topic model,topic model
+3793,topic proportion,topic proportion
+3794,topic weight,topic weight
+3795,total variation,total variation
+3796,total variation distance,total variation distance
+3797,toxicity detection,toxicity detection
+3798,trace norm,trace norm
+3799,tracking algorithm,tracking algorithm
+3800,train,train
+3801,train / test / dev split,train / test / dev split
+3802,train set,train set
+3803,train-test split,train-test split
+3804,train/test,train/test
+3805,trainable parameter,trainable parameter
+3806,trainable weight,trainable weight
+3807,training accuracy,training accuracy
+3808,training algorithm,training algorithm
+3809,training batch,training batch
+3810,training corpora,training corpora
+3811,training corpus,training corpus
+3812,training dataset,training dataset
+3813,training datum,training datum
+3814,training distribution,training distribution
+3815,training dynamic,training dynamic
+3816,training epoch,training epoch
+3817,training error,training error
+3818,training example,training example
+3819,training loss,training loss
+3820,training objective,training objective
+3821,training phase,training phase
+3822,training procedure,training procedure
+3823,training process,training process
+3824,training sample,training sample
+3825,training set,training set
+3826,training stability,training stability
+3827,training step,training step
+3828,training task,training task
+3829,training time,training time
+3830,training token,training token
+3831,trajectory forecasting,trajectory forecasting
+3832,trajectory optimization,trajectory optimization
+3833,transaction database,transaction database
+3834,transductive learning,transductive learning
+3835,transfer function,transfer function
+3836,transfer learning,transfer learning
+3837,transformation function,transformation function
+3838,transformation matrix,transformation matrix
+3839,transformer architecture,Transformer architecture
+3840,transformer block,Transformer block
+3841,transformer decoder,Transformer decoder
+3842,transformer encoder,Transformer encoder
+3843,transformer language model,transformer language model
+3844,transformer layer,transformer layer
+3845,transformer model,transformer model
+3846,transformer variant,transformer variant
+3847,transformer-like,Transformer-like
+3848,transition distribution,transition distribution
+3849,transition dynamic,transition dynamic
+3850,transition function,transition function
+3851,transition graph,transition graph
+3852,transition kernel,transition kernel
+3853,transition matrix,transition matrix
+3854,transition model,transition model
+3855,transition probability,transition probability
+3856,transition probability model,transition probability model
+3857,transition system,transition system
+3858,transitive closure,transitive closure
+3859,transitive relation,transitive relation
+3860,translation invariance,translation invariance
+3861,translation model,translation model
+3862,translation system,translation system
+3863,translation vector,translation vector
+3864,transliteration,transliteration
+3865,transpose,transpose
+3866,transposition table,transposition table
+3867,tree data structure,tree data structure
+3868,tree decomposition,tree decomposition
+3869,tree depth,tree depth
+3870,tree ensemble,tree ensemble
+3871,tree search,tree search
+3872,tree structure,tree structure
+3873,tree width,tree width
+3874,treebank annotation,treebank annotation
+3875,tri-gram,tri-gram
+3876,triangle inequality,triangle inequality
+3877,trifocal tensor,trifocal tensor
+3878,trigram language model,trigram language model
+3879,trigram model,trigram model
+3880,trilinear interpolation,trilinear interpolation
+3881,trimap,trimap
+3882,triple,triple
+3883,triplet,triplet
+3884,triplet loss,triplet loss
+3885,true positive rate,true positive rate
+3886,truth assignment,truth assignment
+3887,tuple,tuple
+3888,tuplex,tuplex
+3889,turing reduction,Turing reduction
+3890,turing test,Turing test
+3891,two-class classification,two-class classification
+3892,two-player zero-sum game,two-player zero-sum game
+3893,type embedding,type embedding
+3894,u-statistic,U-statistic
+3895,unary atom,unary atom
+3896,unary constraint,unary constraint
+3897,unary feature,unary feature
+3898,unary potential,unary potential
+3899,unary predicate,unary predicate
+3900,unary production,unary production
+3901,unbiased estimate,unbiased estimate
+3902,unbiased estimator,unbiased estimator
+3903,uncertainty,uncertainty
+3904,uncertainty measure,uncertainty measure
+3905,uncertainty modeling,uncertainty modeling
+3906,uncertainty sampling,uncertainty sampling
+3907,undirected graph,undirected graph
+3908,undirected graphical model,undirected graphical model
+3909,uniform convergence,uniform convergence
+3910,uniform distribution,uniform distribution
+3911,uniform information density hypothesis,uniform information density hypothesis
+3912,uniform sampling,uniform sampling
+3913,unigram distribution,unigram distribution
+3914,unigram language model,unigram language model
+3915,unigram model,unigram model
+3916,union of conjunctive query,union of conjunctive query
+3917,unit propagation,unit propagation
+3918,unit sphere,unit sphere
+3919,universal approximation,universal approximation
+3920,universal approximator,universal approximator
+3921,universal model,universal model
+3922,unlabeled datum,unlabeled datum
+3923,unlexicalized grammar,unlexicalized grammar
+3924,unnormalized probability,unnormalized probability
+3925,unsolvability,unsolvability
+3926,unsupervised algorithm,unsupervised algorithm
+3927,unsupervised approach,unsupervised approach
+3928,unsupervised classification,unsupervised classification
+3929,unsupervised clustering,unsupervised clustering
+3930,unsupervised datum,unsupervised datum
+3931,unsupervised discovery,unsupervised discovery
+3932,unsupervised disentanglement,unsupervised disentanglement
+3933,unsupervised domain adaptation,unsupervised domain adaptation
+3934,unsupervised feature learning,unsupervised feature learning
+3935,unsupervised image segmentation,unsupervised image segmentation
+3936,unsupervised learning,unsupervised learning
+3937,unsupervised method,unsupervised method
+3938,unsupervised model,unsupervised model
+3939,unsupervised morphological segmentation,unsupervised morphological segmentation
+3940,unsupervised parsing,unsupervised parsing
+3941,unsupervised pre-training,unsupervised pre-training
+3942,unsupervised representation,unsupervised representation
+3943,unsupervised representation learning,unsupervised representation learning
+3944,unsupervised segmentation,unsupervised segmentation
+3945,unsupervised system,unsupervised system
+3946,unsupervised word clustering,unsupervised word clustering
+3947,unweighted graph,unweighted graph
+3948,update function,update function
+3949,update rule,update rule
+3950,user embedding,user embedding
+3951,user utterance,user utterance
+3952,user-item matrix,user-item matrix
+3953,utility,utility
+3954,utility function,utility function
+3955,utterance encoder,utterance encoder
+3956,validation,validation
+3957,validation accuracy,validation accuracy
+3958,validation dataset,validation dataset
+3959,validation datum,validation datum
+3960,validation loss,validation loss
+3961,validation performance,validation performance
+3962,validation set,validation set
+3963,validation split,validation split
+3964,value estimate,value estimate
+3965,value function,value function
+3966,value function approximation,value function approximation
+3967,value iteration,value iteration
+3968,value iteration algorithm,value iteration algorithm
+3969,value network,value network
+3970,vanishing gradient,vanishing gradient
+3971,vanishing gradient problem,vanishing gradient problem
+3972,variable assignment,variable assignment
+3973,variable selection,variable selection
+3974,variance reduction,variance reduction
+3975,variance regularization,variance regularization
+3976,variational approach,variational approach
+3977,variational approximation,variational approximation
+3978,variational autoencoder,variational autoencoder
+3979,variational distribution,variational distribution
+3980,variational formulation,variational formulation
+3981,variational framework,variational framework
+3982,variational inference,variational inference
+3983,variational method,variational method
+3984,variational model,variational model
+3985,variational objective,variational objective
+3986,variational parameter,variational parameter
+3987,variational posterior,variational posterior
+3988,vector arithmetic,vector arithmetic
+3989,vector concatenation,vector concatenation
+3990,vector embedding,vector embedding
+3991,vector field,vector field
+3992,vector graphic,vector graphic
+3993,vector normalization,vector normalization
+3994,vector quantization,vector quantization
+3995,vector representation,vector representation
+3996,vector space,vector space
+3997,vector space embedding,vector space embedding
+3998,vector space model,vector space model
+3999,vector space representation,vector space representation
+4000,vector-valued function,vector-valued function
+4001,vectorization,vectorization
+4002,vectorization operator,vectorization operator
+4003,vectorize,vectorize
+4004,verbalizer,verbalizer
+4005,vertex label,vertex label
+4006,vertex set,vertex set
+4007,victim model,victim model
+4008,view synthesis,view synthesis
+4009,virtual camera,virtual camera
+4010,vision model,vision model
+4011,vision system,vision system
+4012,vision-language model,vision-language model
+4013,visual attention,visual attention
+4014,visual attribute,visual attribute
+4015,visual context,visual context
+4016,visual cortex,visual cortex
+4017,visual feature,visual feature
+4018,visual grounding,visual grounding
+4019,visual hull,visual hull
+4020,visual localization,visual localization
+4021,visual odometry,visual odometry
+4022,visual question answering,Visual Question Answering
+4023,visual recognition system,visual recognition system
+4024,viterbi decoding,Viterbi decoding
+4025,vocabulary,vocabulary
+4026,vocabulary size,vocabulary size
+4027,vocoder,vocoder
+4028,volume rendering,volume rendering
+4029,voting rule,voting rule
+4030,voxel,voxel
+4031,voxel grid,voxel grid
+4032,voxel grid representation,voxel grid representation
+4033,voxel occupancy,voxel occupancy
+4034,voxel representation,voxel representation
+4035,warp function,warp function
+4036,wav2vec,wav2vec
+4037,wavelet,wavelet
+4038,wavelet transform,wavelet transform
+4039,weak classifier,weak classifier
+4040,weak learner,weak learner
+4041,weak learning,weak learning
+4042,weak learning assumption,weak learning assumption
+4043,weak supervision,weak supervision
+4044,web graph,web graph
+4045,weight,weight
+4046,weight decay,weight decay
+4047,weight initialization,weight initialization
+4048,weight matrix,weight matrix
+4049,weight parameter,weight parameter
+4050,weight regularization,weight regularization
+4051,weight tensor,weight tensor
+4052,weight update,weight update
+4053,weight vector,weight vector
+4054,weight-sharing,weight-sharing
+4055,weighted adjacency matrix,weighted adjacency matrix
+4056,weighting function,weighting function
+4057,white-box,white-box
+4058,white-box attack,white-box attack
+4059,window size,window size
+4060,within-class variance,within-class variance
+4061,word alignment,word alignment
+4062,word dropout,word dropout
+4063,word embedding,word embedding
+4064,word embedding model,word embedding model
+4065,word mover's distance,Word Mover's Distance
+4066,word representation,word representation
+4067,word segmentation,word segmentation
+4068,word sense disambiguation,word sense disambiguation
+4069,word similarity,word similarity
+4070,word surprisal,word surprisal
+4071,word token,word token
+4072,word vector,word vector
+4073,word vector representation,word vector representation
+4074,word-level,word-level
+4075,word-level vocabulary,word-level vocabulary
+4076,word2vec embedding,word2vec embedding
+4077,world state,world state
+4078,z-score,Z-score
+4079,zero-one loss,zero-one loss
+4080,zero-shot classification,zero-shot classification
+4081,zero-shot cross-lingual setting,zero-shot cross-lingual setting
+4082,zero-shot generalization,zero-shot generalization
+4083,zero-shot learning,zero-shot learning
+4084,zero-shot prediction,zero-shot prediction
+4085,zero-shot prompting,zero-shot prompting
+4086,zero-shot reasoning,zero-shot reasoning
+4087,zero-shot setting,zero-shot setting
+4088,zero-shot transfer,zero-shot transfer
+4089,zero-shot transfer learning,zero-shot transfer learning
+4090,zipf,Zipf
+4091,zipf distribution,Zipf distribution
+4092,zipf's law,Zipf's law

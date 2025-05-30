@@ -1,0 +1,500 @@
+{"English": "activity recognition", "tgt_lang": "Russian", "translation": "распознавание активности"}
+{"English": "deterministic annealing", "tgt_lang": "Russian", "translation": "детерминированный отжиг"}
+{"English": "data processing inequality", "tgt_lang": "Russian", "translation": "неравенство обработки данных"}
+{"English": "conditional density", "tgt_lang": "Russian", "translation": "условная плотность"}
+{"English": "asymmetric transformation", "tgt_lang": "Russian", "translation": "асимметричное преобразование"}
+{"English": "sibling model", "tgt_lang": "Russian", "translation": "сиблинговая модель"}
+{"English": "initial state", "tgt_lang": "Russian", "translation": "начальное состояние"}
+{"English": "kernel density estimate", "tgt_lang": "Russian", "translation": "оценка плотности ядра"}
+{"English": "local basis function", "tgt_lang": "Russian", "translation": "локальная базисная функция"}
+{"English": "transliteration", "tgt_lang": "Russian", "translation": "транслитерация"}
+{"English": "optimization function", "tgt_lang": "Russian", "translation": "функция оптимизации"}
+{"English": "quality estimation", "tgt_lang": "Russian", "translation": "Quality Estimation"}
+{"English": "unigram language model", "tgt_lang": "Russian", "translation": "униграммная языковая модель"}
+{"English": "i.i.d. sample", "tgt_lang": "Russian", "translation": "i.i.d. sample"}
+{"English": "semantic feature", "tgt_lang": "Russian", "translation": "семантические признаки"}
+{"English": "recurrent layer", "tgt_lang": "Russian", "translation": "Рекуррентный слой"}
+{"English": "scene recognition", "tgt_lang": "Russian", "translation": "распознавание сцены"}
+{"English": "dropout layer", "tgt_lang": "Russian", "translation": "слой исключения"}
+{"English": "architecture search", "tgt_lang": "Russian", "translation": "поиск архитектуры"}
+{"English": "detection score", "tgt_lang": "Russian", "translation": "оценка обнаружения"}
+{"English": "tree search", "tgt_lang": "Russian", "translation": "поиск в дереве"}
+{"English": "learning rate scheduler", "tgt_lang": "Russian", "translation": "планировщик скорости обучения"}
+{"English": "primal optimization", "tgt_lang": "Russian", "translation": "прямое оптимизирование"}
+{"English": "dependency representation", "tgt_lang": "Russian", "translation": "представление зависимостей"}
+{"English": "utility", "tgt_lang": "Russian", "translation": "полезность"}
+{"English": "machine comprehension", "tgt_lang": "Russian", "translation": "Машинное понимание"}
+{"English": "tensor field", "tgt_lang": "Russian", "translation": "тензорное поле"}
+{"English": "first-order logic", "tgt_lang": "Russian", "translation": "логика первого порядка"}
+{"English": "featurized representation", "tgt_lang": "Russian", "translation": "признаковое представление"}
+{"English": "language representation", "tgt_lang": "Russian", "translation": "языковое представление"}
+{"English": "fine-tune", "tgt_lang": "Russian", "translation": "дообучать"}
+{"English": "parameterisation", "tgt_lang": "Russian", "translation": "параметризация"}
+{"English": "gaussian likelihood", "tgt_lang": "Russian", "translation": "Гауссовская вероятность"}
+{"English": "statistical learning algorithm", "tgt_lang": "Russian", "translation": "статистический алгоритм обучения"}
+{"English": "surface normal", "tgt_lang": "Russian", "translation": "Нормаль поверхности"}
+{"English": "feed forward", "tgt_lang": "Russian", "translation": "feed forward"}
+{"English": "sentence compression", "tgt_lang": "Russian", "translation": "Сжатие предложений"}
+{"English": "minimum support", "tgt_lang": "Russian", "translation": "минимальная поддержка"}
+{"English": "regression task", "tgt_lang": "Russian", "translation": "Задача регрессии"}
+{"English": "causal graph", "tgt_lang": "Russian", "translation": "каузальный граф"}
+{"English": "partial derivation", "tgt_lang": "Russian", "translation": "частичная производная"}
+{"English": "multi-modal input", "tgt_lang": "Russian", "translation": "мультимодальные данные"}
+{"English": "3d pose", "tgt_lang": "Russian", "translation": "3D поза"}
+{"English": "conjunctive normal form", "tgt_lang": "Russian", "translation": "конъюнктивная нормальная форма"}
+{"English": "f-measure", "tgt_lang": "Russian", "translation": "F-мера"}
+{"English": "precondition", "tgt_lang": "Russian", "translation": "предусловие"}
+{"English": "rollout length", "tgt_lang": "Russian", "translation": "длина развертывания"}
+{"English": "log p", "tgt_lang": "Russian", "translation": "log p"}
+{"English": "training epoch", "tgt_lang": "Russian", "translation": "эпоха обучения"}
+{"English": "hyponym", "tgt_lang": "Russian", "translation": "гипоним"}
+{"English": "reprojection", "tgt_lang": "Russian", "translation": "репроекция"}
+{"English": "primal-dual method", "tgt_lang": "Russian", "translation": "метод прималь-дуаль"}
+{"English": "conditional sampling", "tgt_lang": "Russian", "translation": "условная выборка"}
+{"English": "instance space", "tgt_lang": "Russian", "translation": "пространство экземпляров"}
+{"English": "convex objective function", "tgt_lang": "Russian", "translation": "выпуклая целевая функция"}
+{"English": "successor state axiom", "tgt_lang": "Russian", "translation": "Аксиома преемственного состояния"}
+{"English": "datum bias", "tgt_lang": "Russian", "translation": "дата смещения"}
+{"English": "unsupervised model", "tgt_lang": "Russian", "translation": "несупервизируемая модель"}
+{"English": "answer set programming", "tgt_lang": "Russian", "translation": "Программирование на основе множеств ответов"}
+{"English": "probability flow", "tgt_lang": "Russian", "translation": "вероятностный поток"}
+{"English": "distance metric", "tgt_lang": "Russian", "translation": "метрика расстояния"}
+{"English": "training task", "tgt_lang": "Russian", "translation": "Задача обучения"}
+{"English": "causal rule", "tgt_lang": "Russian", "translation": "каузальное правило"}
+{"English": "reward signal", "tgt_lang": "Russian", "translation": "сигнал вознаграждения"}
+{"English": "classification problem", "tgt_lang": "Russian", "translation": "задача классификации"}
+{"English": "edge feature", "tgt_lang": "Russian", "translation": "признак ребра"}
+{"English": "syntactic dependency parsing", "tgt_lang": "Russian", "translation": "разбор синтаксических зависимостей"}
+{"English": "graph attention network", "tgt_lang": "Russian", "translation": "графовая сеть внимания"}
+{"English": "decision tree", "tgt_lang": "Russian", "translation": "дерево решений"}
+{"English": "web graph", "tgt_lang": "Russian", "translation": "веб-граф"}
+{"English": "model inference", "tgt_lang": "Russian", "translation": "Модельная инференция"}
+{"English": "datum fidelity", "tgt_lang": "Russian", "translation": "точность данных"}
+{"English": "equivalence query", "tgt_lang": "Russian", "translation": "эквивалентный запрос"}
+{"English": "self-attention layer", "tgt_lang": "Russian", "translation": "слой самовнимания"}
+{"English": "model fine-tuning", "tgt_lang": "Russian", "translation": "Тонкая настройка модели"}
+{"English": "utility function", "tgt_lang": "Russian", "translation": "функция полезности"}
+{"English": "approximation ratio", "tgt_lang": "Russian", "translation": "коэффициент аппроксимации"}
+{"English": "bipartite matching", "tgt_lang": "Russian", "translation": "двудольное соответствие"}
+{"English": "query embedding", "tgt_lang": "Russian", "translation": "векторное представление запроса"}
+{"English": "ensemble method", "tgt_lang": "Russian", "translation": "ансамблевый метод"}
+{"English": "neural machinery", "tgt_lang": "Russian", "translation": "нейронная архитектура"}
+{"English": "bicubic interpolation", "tgt_lang": "Russian", "translation": "бикубическая интерполяция"}
+{"English": "dimensionality reduction", "tgt_lang": "Russian", "translation": "Снижение размерности"}
+{"English": "bilinear form", "tgt_lang": "Russian", "translation": "билинейная форма"}
+{"English": "semantic priming", "tgt_lang": "Russian", "translation": "семантическое прайминг"}
+{"English": "target network", "tgt_lang": "Russian", "translation": "целевая сеть"}
+{"English": "input matrix", "tgt_lang": "Russian", "translation": "входная матрица"}
+{"English": "maximum a posteriori estimation", "tgt_lang": "Russian", "translation": "оценка максимального апостериори"}
+{"English": "multidimensional quality metric", "tgt_lang": "Russian", "translation": "Multidimensional Quality Metrics"}
+{"English": "spam detection", "tgt_lang": "Russian", "translation": "обнаружение спама"}
+{"English": "diffeomorphism", "tgt_lang": "Russian", "translation": "диффеоморфизм"}
+{"English": "model hyperparameter", "tgt_lang": "Russian", "translation": "гиперпараметр модели"}
+{"English": "visual grounding", "tgt_lang": "Russian", "translation": "визуальная привязка"}
+{"English": "constrained optimization problem", "tgt_lang": "Russian", "translation": "задача условной оптимизации"}
+{"English": "input graph", "tgt_lang": "Russian", "translation": "входной граф"}
+{"English": "mean function", "tgt_lang": "Russian", "translation": "Функция среднего значения"}
+{"English": "hyperparameter search", "tgt_lang": "Russian", "translation": "Поиск гиперпараметров"}
+{"English": "deformable template", "tgt_lang": "Russian", "translation": "деформируемый шаблон"}
+{"English": "mocap", "tgt_lang": "Russian", "translation": "мокап"}
+{"English": "deep net", "tgt_lang": "Russian", "translation": "глубокая сеть"}
+{"English": "transformer block", "tgt_lang": "Russian", "translation": "Блок трансформера"}
+{"English": "bias-variance tradeoff", "tgt_lang": "Russian", "translation": "компромисс между смещением и разбросом"}
+{"English": "topic classification", "tgt_lang": "Russian", "translation": "классификация тем"}
+{"English": "adversarial loss", "tgt_lang": "Russian", "translation": "адверсариальная потеря"}
+{"English": "local consistency", "tgt_lang": "Russian", "translation": "Локальная согласованность"}
+{"English": "emotion classification", "tgt_lang": "Russian", "translation": "классификация эмоций"}
+{"English": "model-free approach", "tgt_lang": "Russian", "translation": "метод без модели"}
+{"English": "nsubj", "tgt_lang": "Russian", "translation": "nsubj"}
+{"English": "convex set", "tgt_lang": "Russian", "translation": "выпуклое множество"}
+{"English": "context vector", "tgt_lang": "Russian", "translation": "вектор-контекста"}
+{"English": "euclidean norm", "tgt_lang": "Russian", "translation": "Евклидова норма"}
+{"English": "linear transformation", "tgt_lang": "Russian", "translation": "линейное преобразование"}
+{"English": "dependency arc", "tgt_lang": "Russian", "translation": "дуга зависимости"}
+{"English": "clip range", "tgt_lang": "Russian", "translation": "предел обрезки"}
+{"English": "riemannian gradient", "tgt_lang": "Russian", "translation": "Риманова градиент"}
+{"English": "projective dependency parsing", "tgt_lang": "Russian", "translation": "проективный синтаксический разбор зависимостей"}
+{"English": "generative probabilistic model", "tgt_lang": "Russian", "translation": "генеративная вероятностная модель"}
+{"English": "global objective", "tgt_lang": "Russian", "translation": "глобальная цель"}
+{"English": "calculus of variation", "tgt_lang": "Russian", "translation": "Вариационное исчисление"}
+{"English": "semi-definite programming", "tgt_lang": "Russian", "translation": "семидефинитное программирование"}
+{"English": "scene flow estimation", "tgt_lang": "Russian", "translation": "оценка потока сцены"}
+{"English": "prefix tree", "tgt_lang": "Russian", "translation": "Префиксное дерево"}
+{"English": "structural learning", "tgt_lang": "Russian", "translation": "структурное обучение"}
+{"English": "neural module", "tgt_lang": "Russian", "translation": "нейронные модули"}
+{"English": "iteration", "tgt_lang": "Russian", "translation": "итерация"}
+{"English": "kernel", "tgt_lang": "Russian", "translation": "Ядро"}
+{"English": "minimizer", "tgt_lang": "Russian", "translation": "минимизатор"}
+{"English": "solution space", "tgt_lang": "Russian", "translation": "пространство решений"}
+{"English": "coarse-to-fine approach", "tgt_lang": "Russian", "translation": "пошаговый подход"}
+{"English": "query language", "tgt_lang": "Russian", "translation": "язык запросов"}
+{"English": "convolutional kernel", "tgt_lang": "Russian", "translation": "сверточное ядро"}
+{"English": "spatial pyramid", "tgt_lang": "Russian", "translation": "пространственная пирамида"}
+{"English": "joint semantic space", "tgt_lang": "Russian", "translation": "совместное семантическое пространство"}
+{"English": "segmentation algorithm", "tgt_lang": "Russian", "translation": "алгоритм сегментации"}
+{"English": "network", "tgt_lang": "Russian", "translation": "сеть"}
+{"English": "linear map", "tgt_lang": "Russian", "translation": "линейное отображение"}
+{"English": "nonmonotonic reasoning", "tgt_lang": "Russian", "translation": "Немонатонное рассуждение"}
+{"English": "token length", "tgt_lang": "Russian", "translation": "длина токена"}
+{"English": "caltech-101", "tgt_lang": "Russian", "translation": "Caltech-101"}
+{"English": "convolution operator", "tgt_lang": "Russian", "translation": "оператор свертки"}
+{"English": "agent policy", "tgt_lang": "Russian", "translation": "стратегия агента"}
+{"English": "batch mode", "tgt_lang": "Russian", "translation": "пакетный режим"}
+{"English": "back-off strategy", "tgt_lang": "Russian", "translation": "стратегия отката"}
+{"English": "bayesian learning", "tgt_lang": "Russian", "translation": "Баесовское обучение"}
+{"English": "batch setting", "tgt_lang": "Russian", "translation": "пакетная настройка"}
+{"English": "intrinsic parameter", "tgt_lang": "Russian", "translation": "внутренний параметр"}
+{"English": "root mean square error", "tgt_lang": "Russian", "translation": "среднеквадратичная ошибка"}
+{"English": "convolution kernel", "tgt_lang": "Russian", "translation": "сверточное ядро"}
+{"English": "3d scene geometry", "tgt_lang": "Russian", "translation": "3D геометрия сцены"}
+{"English": "training example", "tgt_lang": "Russian", "translation": "учебный пример"}
+{"English": "recommender", "tgt_lang": "Russian", "translation": "рекомендатель"}
+{"English": "regularization penalty", "tgt_lang": "Russian", "translation": "штраф за регуляризацию"}
+{"English": "default logic", "tgt_lang": "Russian", "translation": "логика по умолчанию"}
+{"English": "self-supervision", "tgt_lang": "Russian", "translation": "самосупервизия"}
+{"English": "column vector", "tgt_lang": "Russian", "translation": "столбец-вектор"}
+{"English": "training accuracy", "tgt_lang": "Russian", "translation": "точность на обучающей выборке"}
+{"English": "stochastic model", "tgt_lang": "Russian", "translation": "Стохастическая модель"}
+{"English": "cross-attention layer", "tgt_lang": "Russian", "translation": "слой перекрестного внимания"}
+{"English": "pre-training datum", "tgt_lang": "Russian", "translation": "данные предобучения"}
+{"English": "goal state", "tgt_lang": "Russian", "translation": "целевая вершина"}
+{"English": "parameter regularization", "tgt_lang": "Russian", "translation": "регуляризация параметров"}
+{"English": "test datum", "tgt_lang": "Russian", "translation": "тестовые данные"}
+{"English": "image plane", "tgt_lang": "Russian", "translation": "плоскость изображения"}
+{"English": "sequence model", "tgt_lang": "Russian", "translation": "модель последовательности"}
+{"English": "dense prediction", "tgt_lang": "Russian", "translation": "плотное предсказание"}
+{"English": "action classification", "tgt_lang": "Russian", "translation": "классификация действий"}
+{"English": "target variable", "tgt_lang": "Russian", "translation": "Целевая переменная"}
+{"English": "length penalty", "tgt_lang": "Russian", "translation": "штраф за длину"}
+{"English": "neural mapping", "tgt_lang": "Russian", "translation": "нейронное отображение"}
+{"English": "synthetic dataset", "tgt_lang": "Russian", "translation": "синтетический датасет"}
+{"English": "conditional computation", "tgt_lang": "Russian", "translation": "условные вычисления"}
+{"English": "information bottleneck", "tgt_lang": "Russian", "translation": "информационное бутылочное горлышко"}
+{"English": "graph structure", "tgt_lang": "Russian", "translation": "графовая структура"}
+{"English": "deep feature", "tgt_lang": "Russian", "translation": "глубокая признаковая характеристика"}
+{"English": "conversation history", "tgt_lang": "Russian", "translation": "история общения"}
+{"English": "machine-in-the-loop", "tgt_lang": "Russian", "translation": "машина-в-контуре"}
+{"English": "hungarian loss", "tgt_lang": "Russian", "translation": "Hungarian loss"}
+{"English": "neural approach", "tgt_lang": "Russian", "translation": "нейронные подходы"}
+{"English": "attribute", "tgt_lang": "Russian", "translation": "атрибут"}
+{"English": "attention value", "tgt_lang": "Russian", "translation": "значения внимания"}
+{"English": "regret minimization", "tgt_lang": "Russian", "translation": "минимизация сожалений"}
+{"English": "conjunctive query", "tgt_lang": "Russian", "translation": "конъюнктивный запрос"}
+{"English": "vanishing gradient", "tgt_lang": "Russian", "translation": "исчезающий градиент"}
+{"English": "membership inference attack", "tgt_lang": "Russian", "translation": "атака на раскрытие членства"}
+{"English": "distance measure", "tgt_lang": "Russian", "translation": "мера расстояния"}
+{"English": "detection window", "tgt_lang": "Russian", "translation": "окно обнаружения"}
+{"English": "causal inference", "tgt_lang": "Russian", "translation": "каузальное заключение"}
+{"English": "pre-logit", "tgt_lang": "Russian", "translation": "предлогиты"}
+{"English": "multi-classification", "tgt_lang": "Russian", "translation": "многоклассификация"}
+{"English": "meta-algorithm", "tgt_lang": "Russian", "translation": "мета-алгоритм"}
+{"English": "one-stage detector", "tgt_lang": "Russian", "translation": "одноступенчатый детектор"}
+{"English": "source sequence", "tgt_lang": "Russian", "translation": "исходная последовательность"}
+{"English": "beam search decoding algorithm", "tgt_lang": "Russian", "translation": "алгоритм декодирования методом лучевого поиска"}
+{"English": "constraint generation", "tgt_lang": "Russian", "translation": "построение ограничений"}
+{"English": "residual block", "tgt_lang": "Russian", "translation": "резидуальный блок"}
+{"English": "reprojection error", "tgt_lang": "Russian", "translation": "ошибка перепроецирования"}
+{"English": "transition system", "tgt_lang": "Russian", "translation": "система переходов"}
+{"English": "causal language model", "tgt_lang": "Russian", "translation": "каузальная языковая модель"}
+{"English": "word token", "tgt_lang": "Russian", "translation": "токен слова"}
+{"English": "syntactic tree", "tgt_lang": "Russian", "translation": "синтаксическое дерево"}
+{"English": "near-optimality", "tgt_lang": "Russian", "translation": "близко к оптимальности"}
+{"English": "feature hashing", "tgt_lang": "Russian", "translation": "хэширование признаков"}
+{"English": "tensor", "tgt_lang": "Russian", "translation": "тензор"}
+{"English": "computer vision", "tgt_lang": "Russian", "translation": "компьютерное зрение"}
+{"English": "multi-scale architecture", "tgt_lang": "Russian", "translation": "многоуровневая архитектура"}
+{"English": "linear predictor", "tgt_lang": "Russian", "translation": "линейный предсказатель"}
+{"English": "subsampling factor", "tgt_lang": "Russian", "translation": "коэффициент прореживания"}
+{"English": "vector representation", "tgt_lang": "Russian", "translation": "векторное представление"}
+{"English": "prior distribution", "tgt_lang": "Russian", "translation": "априорное распределение"}
+{"English": "validation loss", "tgt_lang": "Russian", "translation": "Ошибка на валидации"}
+{"English": "transfer learning", "tgt_lang": "Russian", "translation": "обучение переносу"}
+{"English": "monolingual dataset", "tgt_lang": "Russian", "translation": "монолингвальный датасет"}
+{"English": "perfect matching", "tgt_lang": "Russian", "translation": "совершенное паросочетание"}
+{"English": "label distribution", "tgt_lang": "Russian", "translation": "распределение меток"}
+{"English": "point match", "tgt_lang": "Russian", "translation": "соответствие точек"}
+{"English": "target token", "tgt_lang": "Russian", "translation": "целевой токен"}
+{"English": "bootstrap learning", "tgt_lang": "Russian", "translation": "обучение с начальной подвыборкой"}
+{"English": "scene graph", "tgt_lang": "Russian", "translation": "граф сцены"}
+{"English": "ranking algorithm", "tgt_lang": "Russian", "translation": "алгоритм ранжирования"}
+{"English": "log partition function", "tgt_lang": "Russian", "translation": "логарифм партиционной функции"}
+{"English": "model initialization", "tgt_lang": "Russian", "translation": "инициализация модели"}
+{"English": "latent vector", "tgt_lang": "Russian", "translation": "латентный вектор"}
+{"English": "vector arithmetic", "tgt_lang": "Russian", "translation": "векторная арифметика"}
+{"English": "empirical risk minimization", "tgt_lang": "Russian", "translation": "минимизация эмпирического риска"}
+{"English": "decision policy", "tgt_lang": "Russian", "translation": "политика принятия решений"}
+{"English": "visual odometry", "tgt_lang": "Russian", "translation": "визуальная одометрия"}
+{"English": "multi-label text classification", "tgt_lang": "Russian", "translation": "многометочная классификация текста"}
+{"English": "sub-population", "tgt_lang": "Russian", "translation": "субпопуляции"}
+{"English": "block-diagonal matrix", "tgt_lang": "Russian", "translation": "блочно-диагональная матрица"}
+{"English": "prior probability distribution", "tgt_lang": "Russian", "translation": "априорное распределение вероятностей"}
+{"English": "algorithmic approach", "tgt_lang": "Russian", "translation": "алгоритмический подход"}
+{"English": "pareto optimality", "tgt_lang": "Russian", "translation": "Парето-оптимальность"}
+{"English": "gating function", "tgt_lang": "Russian", "translation": "функция управления"}
+{"English": "regularization", "tgt_lang": "Russian", "translation": "регуляризация"}
+{"English": "dependency relation", "tgt_lang": "Russian", "translation": "отношение зависимости"}
+{"English": "white-box", "tgt_lang": "Russian", "translation": "white-box"}
+{"English": "motion analysis", "tgt_lang": "Russian", "translation": "анализ движения"}
+{"English": "pre-trained embedding", "tgt_lang": "Russian", "translation": "предобученные встраивания"}
+{"English": "orthographic projection", "tgt_lang": "Russian", "translation": "ортографическая проекция"}
+{"English": "bound variable", "tgt_lang": "Russian", "translation": "связанная переменная"}
+{"English": "controllable text generation", "tgt_lang": "Russian", "translation": "генерация управляемого текста"}
+{"English": "topic distribution", "tgt_lang": "Russian", "translation": "распределение тем"}
+{"English": "object bounding box", "tgt_lang": "Russian", "translation": "рамка ограничивающая объект"}
+{"English": "proposal probability", "tgt_lang": "Russian", "translation": "вероятность предложения"}
+{"English": "self-learning", "tgt_lang": "Russian", "translation": "self-learning"}
+{"English": "top-p sampling", "tgt_lang": "Russian", "translation": "top-p sampling"}
+{"English": "generator", "tgt_lang": "Russian", "translation": "генератор"}
+{"English": "feature dimension", "tgt_lang": "Russian", "translation": "размерность признака"}
+{"English": "data sparseness", "tgt_lang": "Russian", "translation": "разреженность данных"}
+{"English": "convergence analysis", "tgt_lang": "Russian", "translation": "анализ сходимости"}
+{"English": "stationary kernel", "tgt_lang": "Russian", "translation": "стационарное ядро"}
+{"English": "dictionary matrix", "tgt_lang": "Russian", "translation": "матрица словаря"}
+{"English": "sub-networks", "tgt_lang": "Russian", "translation": "подсети"}
+{"English": "factorization", "tgt_lang": "Russian", "translation": "факторизация"}
+{"English": "context free grammar", "tgt_lang": "Russian", "translation": "контекстно-свободная грамматика"}
+{"English": "graph matching", "tgt_lang": "Russian", "translation": "сопоставление графов"}
+{"English": "autonomous agent", "tgt_lang": "Russian", "translation": "автономный агент"}
+{"English": "unary production", "tgt_lang": "Russian", "translation": "унарное правило"}
+{"English": "online learning theory", "tgt_lang": "Russian", "translation": "теория онлайн-обучения"}
+{"English": "2d image", "tgt_lang": "Russian", "translation": "2D изображения"}
+{"English": "domain element", "tgt_lang": "Russian", "translation": "элемент домена"}
+{"English": "knowledge transfer", "tgt_lang": "Russian", "translation": "Передача знаний"}
+{"English": "orthonormality", "tgt_lang": "Russian", "translation": "ортонормальность"}
+{"English": "bayesian inference", "tgt_lang": "Russian", "translation": "Байесовский вывод"}
+{"English": "feature point", "tgt_lang": "Russian", "translation": "ключевая точка"}
+{"English": "posterior probability", "tgt_lang": "Russian", "translation": "апостериорная вероятность"}
+{"English": "graph convolutional network", "tgt_lang": "Russian", "translation": "графовая сверточная сеть"}
+{"English": "foundation model", "tgt_lang": "Russian", "translation": "базовая модель"}
+{"English": "bandit learning", "tgt_lang": "Russian", "translation": "обучение с бандитами"}
+{"English": "computational model", "tgt_lang": "Russian", "translation": "вычислительная модель"}
+{"English": "subgame", "tgt_lang": "Russian", "translation": "подигра"}
+{"English": "belief state", "tgt_lang": "Russian", "translation": "состояние убеждений"}
+{"English": "off-diagonal element", "tgt_lang": "Russian", "translation": "вне диагонали элемент"}
+{"English": "matroid", "tgt_lang": "Russian", "translation": "матроид"}
+{"English": "binary atom", "tgt_lang": "Russian", "translation": "бинарный атом"}
+{"English": "semantic class", "tgt_lang": "Russian", "translation": "семантические классы"}
+{"English": "hash", "tgt_lang": "Russian", "translation": "хеш"}
+{"English": "observational datum", "tgt_lang": "Russian", "translation": "наблюдательные данные"}
+{"English": "localization", "tgt_lang": "Russian", "translation": "локализация"}
+{"English": "dialogue system", "tgt_lang": "Russian", "translation": "диалоговая система"}
+{"English": "categorial grammar", "tgt_lang": "Russian", "translation": "категориальная грамматика"}
+{"English": "semantic category", "tgt_lang": "Russian", "translation": "семантические категории"}
+{"English": "statistical machine translation system", "tgt_lang": "Russian", "translation": "система статистического машинного перевода"}
+{"English": "data augmentation", "tgt_lang": "Russian", "translation": "аугментация данных"}
+{"English": "float32", "tgt_lang": "Russian", "translation": "float32"}
+{"English": "weight initialization", "tgt_lang": "Russian", "translation": "инициализация весов"}
+{"English": "invertible matrix", "tgt_lang": "Russian", "translation": "невырожденная матрица"}
+{"English": "behavior policy", "tgt_lang": "Russian", "translation": "поведенческая политика"}
+{"English": "linear decoder", "tgt_lang": "Russian", "translation": "линейный декодер"}
+{"English": "automated mechanism design", "tgt_lang": "Russian", "translation": "автоматизированное проектирование механизмов"}
+{"English": "probability mass function", "tgt_lang": "Russian", "translation": "функция распределения вероятностей"}
+{"English": "hyper-parameter tuning", "tgt_lang": "Russian", "translation": "настройка гиперпараметров"}
+{"English": "inference time", "tgt_lang": "Russian", "translation": "время вывода"}
+{"English": "gaussian random variable", "tgt_lang": "Russian", "translation": "Гауссовская случайная величина"}
+{"English": "advantage function", "tgt_lang": "Russian", "translation": "функция преимущества"}
+{"English": "linear regression", "tgt_lang": "Russian", "translation": "линейная регрессия"}
+{"English": "image classification", "tgt_lang": "Russian", "translation": "классификация изображений"}
+{"English": "maximal frequent pattern", "tgt_lang": "Russian", "translation": "максимально частый шаблон"}
+{"English": "approximation guarantee", "tgt_lang": "Russian", "translation": "гарантия аппроксимации"}
+{"English": "bottom-up learning", "tgt_lang": "Russian", "translation": "Обучение снизу вверх"}
+{"English": "few-shot prompting", "tgt_lang": "Russian", "translation": "few-shot prompting"}
+{"English": "gradient descent", "tgt_lang": "Russian", "translation": "Градиентный спуск"}
+{"English": "t5 model", "tgt_lang": "Russian", "translation": "T5 model"}
+{"English": "baseline model", "tgt_lang": "Russian", "translation": "базовая модель"}
+{"English": "minimax optimization problem", "tgt_lang": "Russian", "translation": "задача минимаксной оптимизации"}
+{"English": "neural network language model", "tgt_lang": "Russian", "translation": "языковая модель на основе нейронной сети"}
+{"English": "attribution", "tgt_lang": "Russian", "translation": "атрибуция"}
+{"English": "input filter", "tgt_lang": "Russian", "translation": "входной фильтр"}
+{"English": "forward algorithm", "tgt_lang": "Russian", "translation": "алгоритм прямого прохода"}
+{"English": "empirical variance", "tgt_lang": "Russian", "translation": "эмпирическая дисперсия"}
+{"English": "distance function", "tgt_lang": "Russian", "translation": "Функция расстояния"}
+{"English": "lagrange multiplier", "tgt_lang": "Russian", "translation": "Множитель Лагранжа"}
+{"English": "cross-lingual knowledge transfer", "tgt_lang": "Russian", "translation": "межъязычный перенос знаний"}
+{"English": "time/space complexity", "tgt_lang": "Russian", "translation": "временная/пространственная сложность"}
+{"English": "state transition model", "tgt_lang": "Russian", "translation": "модель перехода состояний"}
+{"English": "stochastic search algorithm", "tgt_lang": "Russian", "translation": "стохастический алгоритм поиска"}
+{"English": "semantic space", "tgt_lang": "Russian", "translation": "семантическое пространство"}
+{"English": "generative adversarial network", "tgt_lang": "Russian", "translation": "генеративно-состязательная сеть"}
+{"English": "junction tree", "tgt_lang": "Russian", "translation": "соединительное дерево"}
+{"English": "bisimulation", "tgt_lang": "Russian", "translation": "бисимуляция"}
+{"English": "residual error", "tgt_lang": "Russian", "translation": "остаточная ошибка"}
+{"English": "hill-climbing", "tgt_lang": "Russian", "translation": "поиск по градиенту"}
+{"English": "perception", "tgt_lang": "Russian", "translation": "восприятие"}
+{"English": "multi-head self-attention module", "tgt_lang": "Russian", "translation": "модуль многоголового самовнимания"}
+{"English": "self-attention matrix", "tgt_lang": "Russian", "translation": "матрица самовнимания"}
+{"English": "l 2 -norm", "tgt_lang": "Russian", "translation": "L2-норма"}
+{"English": "cost-sensitive learning", "tgt_lang": "Russian", "translation": "обучение с учетом стоимости"}
+{"English": "vision model", "tgt_lang": "Russian", "translation": "модель зрения"}
+{"English": "multi-class classification", "tgt_lang": "Russian", "translation": "многоклассовая классификация"}
+{"English": "uniform convergence", "tgt_lang": "Russian", "translation": "равномерная сходимость"}
+{"English": "target policy", "tgt_lang": "Russian", "translation": "целевая политика"}
+{"English": "node", "tgt_lang": "Russian", "translation": "узел"}
+{"English": "hierarchical model", "tgt_lang": "Russian", "translation": "иерархическая модель"}
+{"English": "pose space", "tgt_lang": "Russian", "translation": "пространство поз"}
+{"English": "cross entropy error", "tgt_lang": "Russian", "translation": "Ошибка перекрестной энтропии"}
+{"English": "metric learning algorithm", "tgt_lang": "Russian", "translation": "алгоритм обучения метрикам"}
+{"English": "l1 regularization", "tgt_lang": "Russian", "translation": "L1-регуляризация"}
+{"English": "occupancy map", "tgt_lang": "Russian", "translation": "карта занятости"}
+{"English": "query time", "tgt_lang": "Russian", "translation": "время запроса"}
+{"English": "a * algorithm", "tgt_lang": "Russian", "translation": "A* алгоритм"}
+{"English": "sequential decision making", "tgt_lang": "Russian", "translation": "последовательное принятие решений"}
+{"English": "feature selection", "tgt_lang": "Russian", "translation": "отбор признаков"}
+{"English": "graph isomorphism", "tgt_lang": "Russian", "translation": "изоморфизм графов"}
+{"English": "l2 weight decay", "tgt_lang": "Russian", "translation": "L2 регуляризация весов"}
+{"English": "critic loss", "tgt_lang": "Russian", "translation": "функция потерь критика"}
+{"English": "coarse-to-fine", "tgt_lang": "Russian", "translation": "от грубого к тонкому"}
+{"English": "optimiser", "tgt_lang": "Russian", "translation": "оптимизатор"}
+{"English": "iterative algorithm", "tgt_lang": "Russian", "translation": "итерационный алгоритм"}
+{"English": "unsupervised classification", "tgt_lang": "Russian", "translation": "неконтролируемая классификация"}
+{"English": "semantic alignment", "tgt_lang": "Russian", "translation": "семантическое согласование"}
+{"English": "hierarchical decoder", "tgt_lang": "Russian", "translation": "иерархический декодер"}
+{"English": "lexical model", "tgt_lang": "Russian", "translation": "лексическая модель"}
+{"English": "local minima", "tgt_lang": "Russian", "translation": "локальные минимумы"}
+{"English": "excess loss", "tgt_lang": "Russian", "translation": "избыточные потери"}
+{"English": "second order", "tgt_lang": "Russian", "translation": "второго порядка"}
+{"English": "binary label", "tgt_lang": "Russian", "translation": "Бинарная метка"}
+{"English": "minimum description length", "tgt_lang": "Russian", "translation": "минимальная длина описания"}
+{"English": "human-in-the-loop", "tgt_lang": "Russian", "translation": "человек в контуре"}
+{"English": "deterministic baseline", "tgt_lang": "Russian", "translation": "детерминированные базовые линии"}
+{"English": "greedy approach", "tgt_lang": "Russian", "translation": "жадный подход"}
+{"English": "temporal logic", "tgt_lang": "Russian", "translation": "временная логика"}
+{"English": "multi-head attention layer", "tgt_lang": "Russian", "translation": "multi-head attention layer"}
+{"English": "intractability", "tgt_lang": "Russian", "translation": "неразрешимость"}
+{"English": "unlexicalized grammar", "tgt_lang": "Russian", "translation": "нелексикализованная грамматика"}
+{"English": "image synthesis", "tgt_lang": "Russian", "translation": "синтез изображений"}
+{"English": "loss term", "tgt_lang": "Russian", "translation": "член потерь"}
+{"English": "datum parallelism", "tgt_lang": "Russian", "translation": "параллелизм данных"}
+{"English": "generalization ability", "tgt_lang": "Russian", "translation": "способность к обобщению"}
+{"English": "energy minimization", "tgt_lang": "Russian", "translation": "минимизация энергии"}
+{"English": "free variable", "tgt_lang": "Russian", "translation": "свободная переменная"}
+{"English": "rollout", "tgt_lang": "Russian", "translation": "прогон"}
+{"English": "weight decay", "tgt_lang": "Russian", "translation": "снижение весов"}
+{"English": "document clustering", "tgt_lang": "Russian", "translation": "кластеризация документов"}
+{"English": "bilateral filtering", "tgt_lang": "Russian", "translation": "двусторонняя фильтрация"}
+{"English": "predictor", "tgt_lang": "Russian", "translation": "предсказатель"}
+{"English": "sequence labeling", "tgt_lang": "Russian", "translation": "последовательная разметка"}
+{"English": "coarse correlated equilibrium", "tgt_lang": "Russian", "translation": "грубое коррелированное равновесие"}
+{"English": "deep q-learning", "tgt_lang": "Russian", "translation": "глубокое Q-обучение"}
+{"English": "communication graph", "tgt_lang": "Russian", "translation": "граф коммуникации"}
+{"English": "reservoir sampling", "tgt_lang": "Russian", "translation": "отбор резервуара"}
+{"English": "hybrid model", "tgt_lang": "Russian", "translation": "гибридная модель"}
+{"English": "classification margin", "tgt_lang": "Russian", "translation": "классификационный запас"}
+{"English": "end-of-sequence token", "tgt_lang": "Russian", "translation": "токен конца последовательности"}
+{"English": "gradient variance", "tgt_lang": "Russian", "translation": "дисперсия градиента"}
+{"English": "model development", "tgt_lang": "Russian", "translation": "разработка модели"}
+{"English": "conditional entropy", "tgt_lang": "Russian", "translation": "Условная энтропия"}
+{"English": "transition probability", "tgt_lang": "Russian", "translation": "вероятность перехода"}
+{"English": "uncertainty sampling", "tgt_lang": "Russian", "translation": "неопределённая выборка"}
+{"English": "probabilistic topic modeling", "tgt_lang": "Russian", "translation": "вероятностное тематическое моделирование"}
+{"English": "hyperprior", "tgt_lang": "Russian", "translation": "гиперпараметр"}
+{"English": "recurrent architecture", "tgt_lang": "Russian", "translation": "рекурсивная архитектура"}
+{"English": "neural text generation", "tgt_lang": "Russian", "translation": "нейронная генерация текста"}
+{"English": "piecewise linear", "tgt_lang": "Russian", "translation": "Частично-линейный"}
+{"English": "policy gradient theorem", "tgt_lang": "Russian", "translation": "Теорема градиента политики"}
+{"English": "slot", "tgt_lang": "Russian", "translation": "слот"}
+{"English": "hamming loss", "tgt_lang": "Russian", "translation": "Hamming loss"}
+{"English": "class", "tgt_lang": "Russian", "translation": "класс"}
+{"English": "3d localization", "tgt_lang": "Russian", "translation": "3D локализация"}
+{"English": "joint likelihood", "tgt_lang": "Russian", "translation": "совместная вероятность"}
+{"English": "parameter tying", "tgt_lang": "Russian", "translation": "связывание параметров"}
+{"English": "vector space representation", "tgt_lang": "Russian", "translation": "векторное пространственное представление"}
+{"English": "second-order optimization", "tgt_lang": "Russian", "translation": "оптимизация второго порядка"}
+{"English": "ridge regression", "tgt_lang": "Russian", "translation": "Гребневая регрессия"}
+{"English": "binary classification task", "tgt_lang": "Russian", "translation": "задача бинарной классификации"}
+{"English": "projection operator", "tgt_lang": "Russian", "translation": "оператор проекции"}
+{"English": "text mining", "tgt_lang": "Russian", "translation": "Текстовый анализ"}
+{"English": "feature matrix", "tgt_lang": "Russian", "translation": "матрица признаков"}
+{"English": "rigid body transformation", "tgt_lang": "Russian", "translation": "жесткое телесное преобразование"}
+{"English": "probabilistic inference", "tgt_lang": "Russian", "translation": "вероятностное выводирование"}
+{"English": "identity transformation", "tgt_lang": "Russian", "translation": "тождественное преобразование"}
+{"English": "kernel learning problem", "tgt_lang": "Russian", "translation": "задача обучения ядра"}
+{"English": "jaccard similarity coefficient", "tgt_lang": "Russian", "translation": "Коэффициент подобия Жаккара"}
+{"English": "reward", "tgt_lang": "Russian", "translation": "вознаграждение"}
+{"English": "cosine", "tgt_lang": "Russian", "translation": "косинус"}
+{"English": "pretrained multilingual model", "tgt_lang": "Russian", "translation": "предварительно обученная многоязычная модель"}
+{"English": "empirical loss", "tgt_lang": "Russian", "translation": "эмпирическая потеря"}
+{"English": "inference algorithm", "tgt_lang": "Russian", "translation": "алгоритм вывода"}
+{"English": "representation matrix", "tgt_lang": "Russian", "translation": "матрица представления"}
+{"English": "i.i.d", "tgt_lang": "Russian", "translation": "i.i.d"}
+{"English": "performance difference lemma", "tgt_lang": "Russian", "translation": "лемма о разнице в производительности"}
+{"English": "spectrogram", "tgt_lang": "Russian", "translation": "спектрограмма"}
+{"English": "macro-average", "tgt_lang": "Russian", "translation": "макро-усреднение"}
+{"English": "masked token", "tgt_lang": "Russian", "translation": "маскированный токен"}
+{"English": "weak learning assumption", "tgt_lang": "Russian", "translation": "гипотеза слабого обучения"}
+{"English": "grammar inducer", "tgt_lang": "Russian", "translation": "индуктор грамматики"}
+{"English": "power law distribution", "tgt_lang": "Russian", "translation": "степенной закон распределения"}
+{"English": "convolutional neural network", "tgt_lang": "Russian", "translation": "сверточная нейронная сеть"}
+{"English": "correlated equilibria", "tgt_lang": "Russian", "translation": "коррелированные равновесия"}
+{"English": "scale invariance", "tgt_lang": "Russian", "translation": "масштабная инвариантность"}
+{"English": "teacher network", "tgt_lang": "Russian", "translation": "teacher network"}
+{"English": "entailment", "tgt_lang": "Russian", "translation": "следование"}
+{"English": "pairwise learning", "tgt_lang": "Russian", "translation": "парное обучение"}
+{"English": "distributionally robust optimization", "tgt_lang": "Russian", "translation": "распределительно-устойчивая оптимизация"}
+{"English": "bibliographic coupling", "tgt_lang": "Russian", "translation": "библиографическая связь"}
+{"English": "unit sphere", "tgt_lang": "Russian", "translation": "единичная сфера"}
+{"English": "social bias", "tgt_lang": "Russian", "translation": "социальное предубеждение"}
+{"English": "zero-shot cross-lingual setting", "tgt_lang": "Russian", "translation": "zero-shot cross-lingual setting"}
+{"English": "submodular influence function", "tgt_lang": "Russian", "translation": "субмодулируемая функция влияния"}
+{"English": "lexical entry", "tgt_lang": "Russian", "translation": "лексическая единица"}
+{"English": "quadratic loss", "tgt_lang": "Russian", "translation": "квадратичная потеря"}
+{"English": "multi-head attention", "tgt_lang": "Russian", "translation": "многоголовое внимание"}
+{"English": "keypoint detection", "tgt_lang": "Russian", "translation": "детекция ключевых точек"}
+{"English": "counterfactual fairness", "tgt_lang": "Russian", "translation": "контрфактуальная справедливость"}
+{"English": "poisson point process", "tgt_lang": "Russian", "translation": "Поиссоновский точечный процесс"}
+{"English": "language generation", "tgt_lang": "Russian", "translation": "генерация текста"}
+{"English": "knowledge graph", "tgt_lang": "Russian", "translation": "граф знаний"}
+{"English": "regularization term", "tgt_lang": "Russian", "translation": "регуляризационный член"}
+{"English": "greedy policy", "tgt_lang": "Russian", "translation": "жадная стратегия"}
+{"English": "degree distribution", "tgt_lang": "Russian", "translation": "распределение степеней"}
+{"English": "gaussian function", "tgt_lang": "Russian", "translation": "Гауссова функция"}
+{"English": "decoder state", "tgt_lang": "Russian", "translation": "состояние декодера"}
+{"English": "cycle consistency loss", "tgt_lang": "Russian", "translation": "функция потерь циклической согласованности"}
+{"English": "mean reciprocal rank", "tgt_lang": "Russian", "translation": "Средний обратный ранг"}
+{"English": "n-gram", "tgt_lang": "Russian", "translation": "n-грамма"}
+{"English": "hard attention", "tgt_lang": "Russian", "translation": "жёсткое внимание"}
+{"English": "convex objective", "tgt_lang": "Russian", "translation": "выпуклая функция цели"}
+{"English": "geometric distribution", "tgt_lang": "Russian", "translation": "геометрическое распределение"}
+{"English": "fractional program", "tgt_lang": "Russian", "translation": "дробная программа"}
+{"English": "data-to-text generation", "tgt_lang": "Russian", "translation": "генерация данных в текст"}
+{"English": "lambda calculus", "tgt_lang": "Russian", "translation": "лямбда-исчисление"}
+{"English": "global coordinate frame", "tgt_lang": "Russian", "translation": "глобальная система координат"}
+{"English": "permutation invariance", "tgt_lang": "Russian", "translation": "перестановочная инвариантность"}
+{"English": "input feature", "tgt_lang": "Russian", "translation": "входной признак"}
+{"English": "decomposition method", "tgt_lang": "Russian", "translation": "методы декомпозиции"}
+{"English": "global minima", "tgt_lang": "Russian", "translation": "глобальный минимум"}
+{"English": "kernel parameter", "tgt_lang": "Russian", "translation": "параметр ядра"}
+{"English": "word segmentation", "tgt_lang": "Russian", "translation": "сегментация слов"}
+{"English": "graph pattern", "tgt_lang": "Russian", "translation": "графовый шаблон"}
+{"English": "light field interpolation", "tgt_lang": "Russian", "translation": "интерполяция светового поля"}
+{"English": "low rank approximation", "tgt_lang": "Russian", "translation": "аппроксимация малым рангом"}
+{"English": "representer theorem", "tgt_lang": "Russian", "translation": "теорема представителя"}
+{"English": "local maximum", "tgt_lang": "Russian", "translation": "локальный максимум"}
+{"English": "auxiliary variable", "tgt_lang": "Russian", "translation": "вспомогательная переменная"}
+{"English": "decoder hidden state", "tgt_lang": "Russian", "translation": "состояние скрытого слоя декодера"}
+{"English": "graphlet", "tgt_lang": "Russian", "translation": "графлет"}
+{"English": "intersection-over-union", "tgt_lang": "Russian", "translation": "перекрытие-на-пересечении"}
+{"English": "multilingual training", "tgt_lang": "Russian", "translation": "мультиязычное обучение"}
+{"English": "scene representation", "tgt_lang": "Russian", "translation": "представление сцены"}
+{"English": "linear system", "tgt_lang": "Russian", "translation": "линейная система"}
+{"English": "bregman divergence", "tgt_lang": "Russian", "translation": "Расхождение Брэгмана"}
+{"English": "keypoint detector", "tgt_lang": "Russian", "translation": "детектор ключевых точек"}
+{"English": "measurement noise", "tgt_lang": "Russian", "translation": "измерительный шум"}
+{"English": "information content", "tgt_lang": "Russian", "translation": "информационное содержание"}
+{"English": "distant supervision", "tgt_lang": "Russian", "translation": "дистанционное обучение"}
+{"English": "subgraph isomorphism", "tgt_lang": "Russian", "translation": "изоморфизм подграфов"}
+{"English": "camera matrix", "tgt_lang": "Russian", "translation": "матрица камеры"}
+{"English": "annotator bias", "tgt_lang": "Russian", "translation": "смещение аннотатора"}
+{"English": "alignment algorithm", "tgt_lang": "Russian", "translation": "алгоритм выравнивания"}
+{"English": "knapsack problem", "tgt_lang": "Russian", "translation": "задача о рюкзаке"}
+{"English": "query phase", "tgt_lang": "Russian", "translation": "этап запроса"}
+{"English": "linear program", "tgt_lang": "Russian", "translation": "линейная программа"}
+{"English": "multi-modal", "tgt_lang": "Russian", "translation": "мультимодальный"}
+{"English": "nonconvex function", "tgt_lang": "Russian", "translation": "невыпуклая функция"}
+{"English": "pooling operation", "tgt_lang": "Russian", "translation": "операция объединения"}
+{"English": "consequent", "tgt_lang": "Russian", "translation": "следствие"}
+{"English": "transition model", "tgt_lang": "Russian", "translation": "модель переходов"}
+{"English": "pre-trained weight", "tgt_lang": "Russian", "translation": "предобученные веса"}
+{"English": "post-processing", "tgt_lang": "Russian", "translation": "постобработка"}
+{"English": "joint inference", "tgt_lang": "Russian", "translation": "совместное заключение"}
+{"English": "token-level attention", "tgt_lang": "Russian", "translation": "внимание на уровне токенов"}

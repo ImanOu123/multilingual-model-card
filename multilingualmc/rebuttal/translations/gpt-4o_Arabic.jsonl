@@ -1,0 +1,500 @@
+{"English": "activity recognition", "tgt_lang": "Arabic", "translation": "التعرف على النشاط"}
+{"English": "deterministic annealing", "tgt_lang": "Arabic", "translation": "التلدين الحتمي"}
+{"English": "data processing inequality", "tgt_lang": "Arabic", "translation": "لامساواة معالجة البيانات"}
+{"English": "conditional density", "tgt_lang": "Arabic", "translation": "الكثافة الشرطية"}
+{"English": "asymmetric transformation", "tgt_lang": "Arabic", "translation": "التحويل غير المتماثل"}
+{"English": "sibling model", "tgt_lang": "Arabic", "translation": "نماذج الشقيق"}
+{"English": "initial state", "tgt_lang": "Arabic", "translation": "الحالة الابتدائية"}
+{"English": "kernel density estimate", "tgt_lang": "Arabic", "translation": "تقدير كثافة النواة"}
+{"English": "local basis function", "tgt_lang": "Arabic", "translation": "دالة الأساس المحلية"}
+{"English": "transliteration", "tgt_lang": "Arabic", "translation": "النقل الحرفي"}
+{"English": "optimization function", "tgt_lang": "Arabic", "translation": "دالة التحسين"}
+{"English": "quality estimation", "tgt_lang": "Arabic", "translation": "تقدير الجودة"}
+{"English": "unigram language model", "tgt_lang": "Arabic", "translation": "نموذج لغوي أحادي اللفظة"}
+{"English": "i.i.d. sample", "tgt_lang": "Arabic", "translation": "عينات مستقلة ومتماثلة التوزيع"}
+{"English": "semantic feature", "tgt_lang": "Arabic", "translation": "الميزات الدلالية"}
+{"English": "recurrent layer", "tgt_lang": "Arabic", "translation": "الطبقة العودية"}
+{"English": "scene recognition", "tgt_lang": "Arabic", "translation": "التعرف على المشهد"}
+{"English": "dropout layer", "tgt_lang": "Arabic", "translation": "طبقة الإسقاط"}
+{"English": "architecture search", "tgt_lang": "Arabic", "translation": "البحث في البنية"}
+{"English": "detection score", "tgt_lang": "Arabic", "translation": "درجة الكشف"}
+{"English": "tree search", "tgt_lang": "Arabic", "translation": "البحث الشجري"}
+{"English": "learning rate scheduler", "tgt_lang": "Arabic", "translation": "مجدول معدل التعلم"}
+{"English": "primal optimization", "tgt_lang": "Arabic", "translation": "التحسين الأوّلي"}
+{"English": "dependency representation", "tgt_lang": "Arabic", "translation": "تمثيل التبعية"}
+{"English": "utility", "tgt_lang": "Arabic", "translation": "المنفعة"}
+{"English": "machine comprehension", "tgt_lang": "Arabic", "translation": "الفهم الآلي"}
+{"English": "tensor field", "tgt_lang": "Arabic", "translation": "حقل الموتر"}
+{"English": "first-order logic", "tgt_lang": "Arabic", "translation": "المنطق من الدرجة الأولى"}
+{"English": "featurized representation", "tgt_lang": "Arabic", "translation": "تمثيل معلماتي"}
+{"English": "language representation", "tgt_lang": "Arabic", "translation": "تمثيل اللغة"}
+{"English": "fine-tune", "tgt_lang": "Arabic", "translation": "التخصيص الدقيق"}
+{"English": "parameterisation", "tgt_lang": "Arabic", "translation": "التمثيل الدالّ"}
+{"English": "gaussian likelihood", "tgt_lang": "Arabic", "translation": "احتمال غاوسي"}
+{"English": "statistical learning algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية التعلم الإحصائي"}
+{"English": "surface normal", "tgt_lang": "Arabic", "translation": "السطح العمودي"}
+{"English": "feed forward", "tgt_lang": "Arabic", "translation": "التغذية الأمامية"}
+{"English": "sentence compression", "tgt_lang": "Arabic", "translation": "ضغط الجملة"}
+{"English": "minimum support", "tgt_lang": "Arabic", "translation": "الدعم الأدنى"}
+{"English": "regression task", "tgt_lang": "Arabic", "translation": "مهمة الانحدار"}
+{"English": "causal graph", "tgt_lang": "Arabic", "translation": "الرسم السببي"}
+{"English": "partial derivation", "tgt_lang": "Arabic", "translation": "اشتقاق جزئي"}
+{"English": "multi-modal input", "tgt_lang": "Arabic", "translation": "المدخلات متعددة الأنماط"}
+{"English": "3d pose", "tgt_lang": "Arabic", "translation": "الوضع ثلاثي الأبعاد"}
+{"English": "conjunctive normal form", "tgt_lang": "Arabic", "translation": "صيغة طبيعية اقترانية"}
+{"English": "f-measure", "tgt_lang": "Arabic", "translation": "القياس-F"}
+{"English": "precondition", "tgt_lang": "Arabic", "translation": "شرط مسبق"}
+{"English": "rollout length", "tgt_lang": "Arabic", "translation": "طول التنفيذ"}
+{"English": "log p", "tgt_lang": "Arabic", "translation": "لوغاريتم p"}
+{"English": "training epoch", "tgt_lang": "Arabic", "translation": "عصر التدريب"}
+{"English": "hyponym", "tgt_lang": "Arabic", "translation": "فرع"}
+{"English": "reprojection", "tgt_lang": "Arabic", "translation": "إعادة الإسقاط"}
+{"English": "primal-dual method", "tgt_lang": "Arabic", "translation": "طريقة بدائية-ثنائية"}
+{"English": "conditional sampling", "tgt_lang": "Arabic", "translation": "أخذ العينات الشرطي"}
+{"English": "instance space", "tgt_lang": "Arabic", "translation": "فضاء العينات"}
+{"English": "convex objective function", "tgt_lang": "Arabic", "translation": "دالة الهدف المحدبة"}
+{"English": "successor state axiom", "tgt_lang": "Arabic", "translation": "مسلمات حالة الخَلَف"}
+{"English": "datum bias", "tgt_lang": "Arabic", "translation": "التحيز في البيانات"}
+{"English": "unsupervised model", "tgt_lang": "Arabic", "translation": "نموذج غير خاضع للإشراف"}
+{"English": "answer set programming", "tgt_lang": "Arabic", "translation": "برمجة مجموعات الإجابات"}
+{"English": "probability flow", "tgt_lang": "Arabic", "translation": "تدفق الاحتمالات"}
+{"English": "distance metric", "tgt_lang": "Arabic", "translation": "مقياس المسافة"}
+{"English": "training task", "tgt_lang": "Arabic", "translation": "مهام التدريب"}
+{"English": "causal rule", "tgt_lang": "Arabic", "translation": "قاعدة سببية"}
+{"English": "reward signal", "tgt_lang": "Arabic", "translation": "إشارة المكافأة"}
+{"English": "classification problem", "tgt_lang": "Arabic", "translation": "مشكلة التصنيف"}
+{"English": "edge feature", "tgt_lang": "Arabic", "translation": "ميزات الحافة"}
+{"English": "syntactic dependency parsing", "tgt_lang": "Arabic", "translation": "تحليل التبعية النحوية"}
+{"English": "graph attention network", "tgt_lang": "Arabic", "translation": "شبكة انتباه الرسم البياني"}
+{"English": "decision tree", "tgt_lang": "Arabic", "translation": "شجرة القرار"}
+{"English": "web graph", "tgt_lang": "Arabic", "translation": "رسم بياني للويب"}
+{"English": "model inference", "tgt_lang": "Arabic", "translation": "استدلال النموذج"}
+{"English": "datum fidelity", "tgt_lang": "Arabic", "translation": "الوفاء بالبيانات"}
+{"English": "equivalence query", "tgt_lang": "Arabic", "translation": "استعلام التكافؤ"}
+{"English": "self-attention layer", "tgt_lang": "Arabic", "translation": "طبقة الانتباه الذاتي"}
+{"English": "model fine-tuning", "tgt_lang": "Arabic", "translation": "ضبط النموذج"}
+{"English": "utility function", "tgt_lang": "Arabic", "translation": "دالة المنفعة"}
+{"English": "approximation ratio", "tgt_lang": "Arabic", "translation": "نسبة التقريب"}
+{"English": "bipartite matching", "tgt_lang": "Arabic", "translation": "مطابقة ثنائية الأطراف"}
+{"English": "query embedding", "tgt_lang": "Arabic", "translation": "تمثيل الاستعلام"}
+{"English": "ensemble method", "tgt_lang": "Arabic", "translation": "طريقة التجميع"}
+{"English": "neural machinery", "tgt_lang": "Arabic", "translation": "الآليات العصبية"}
+{"English": "bicubic interpolation", "tgt_lang": "Arabic", "translation": "الاستيفاء ثنائي التكعيب"}
+{"English": "dimensionality reduction", "tgt_lang": "Arabic", "translation": "خفض الأبعاد"}
+{"English": "bilinear form", "tgt_lang": "Arabic", "translation": "نموذج ثنائي الخطية"}
+{"English": "semantic priming", "tgt_lang": "Arabic", "translation": "التنشيط الدلالي"}
+{"English": "target network", "tgt_lang": "Arabic", "translation": "الشبكة المستهدفة"}
+{"English": "input matrix", "tgt_lang": "Arabic", "translation": "مصفوفة الإدخال"}
+{"English": "maximum a posteriori estimation", "tgt_lang": "Arabic", "translation": "تقدير الاحتمالية اللاحقة القصوى"}
+{"English": "multidimensional quality metric", "tgt_lang": "Arabic", "translation": "Multidimensional Quality metric"}
+{"English": "spam detection", "tgt_lang": "Arabic", "translation": "اكتشاف البريد العشوائي"}
+{"English": "diffeomorphism", "tgt_lang": "Arabic", "translation": "التشابه التفاضلي"}
+{"English": "model hyperparameter", "tgt_lang": "Arabic", "translation": "معامل ضبط النموذج"}
+{"English": "visual grounding", "tgt_lang": "Arabic", "translation": "الارتكاز البصري"}
+{"English": "constrained optimization problem", "tgt_lang": "Arabic", "translation": "مسألة تحسين مقيدة"}
+{"English": "input graph", "tgt_lang": "Arabic", "translation": "الرسم البياني المدخل"}
+{"English": "mean function", "tgt_lang": "Arabic", "translation": "دالة المتوسط"}
+{"English": "hyperparameter search", "tgt_lang": "Arabic", "translation": "البحث عن فرط المعلمات"}
+{"English": "deformable template", "tgt_lang": "Arabic", "translation": "قالب قابل للتشوه"}
+{"English": "mocap", "tgt_lang": "Arabic", "translation": "التقاط الحركة"}
+{"English": "deep net", "tgt_lang": "Arabic", "translation": "شبكة عميقة"}
+{"English": "transformer block", "tgt_lang": "Arabic", "translation": "كتلة المحول"}
+{"English": "bias-variance tradeoff", "tgt_lang": "Arabic", "translation": "الموازنة بين التحيز والتباين"}
+{"English": "topic classification", "tgt_lang": "Arabic", "translation": "تصنيف الموضوعات"}
+{"English": "adversarial loss", "tgt_lang": "Arabic", "translation": "خسارة الخصومة"}
+{"English": "local consistency", "tgt_lang": "Arabic", "translation": "الاتساق المحلي"}
+{"English": "emotion classification", "tgt_lang": "Arabic", "translation": "تصنيف العواطف"}
+{"English": "model-free approach", "tgt_lang": "Arabic", "translation": "نهج خالٍ من النموذج"}
+{"English": "nsubj", "tgt_lang": "Arabic", "translation": "nsubj"}
+{"English": "convex set", "tgt_lang": "Arabic", "translation": "مجموعة محدبة"}
+{"English": "context vector", "tgt_lang": "Arabic", "translation": "متجه السياق"}
+{"English": "euclidean norm", "tgt_lang": "Arabic", "translation": "المعيار الإقليدي"}
+{"English": "linear transformation", "tgt_lang": "Arabic", "translation": "تحويل خطي"}
+{"English": "dependency arc", "tgt_lang": "Arabic", "translation": "قوس التبعية"}
+{"English": "clip range", "tgt_lang": "Arabic", "translation": "نطاق القص"}
+{"English": "riemannian gradient", "tgt_lang": "Arabic", "translation": "تدرج ريمان"}
+{"English": "projective dependency parsing", "tgt_lang": "Arabic", "translation": "تحليل التبعية الإسقاطي"}
+{"English": "generative probabilistic model", "tgt_lang": "Arabic", "translation": "نموذج احتمالي توليدي"}
+{"English": "global objective", "tgt_lang": "Arabic", "translation": "الهدف العالمي"}
+{"English": "calculus of variation", "tgt_lang": "Arabic", "translation": "حساب التغاير"}
+{"English": "semi-definite programming", "tgt_lang": "Arabic", "translation": "البرمجة شبه المحددة"}
+{"English": "scene flow estimation", "tgt_lang": "Arabic", "translation": "تقدير تدفق المشهد"}
+{"English": "prefix tree", "tgt_lang": "Arabic", "translation": "شجرة بادئة"}
+{"English": "structural learning", "tgt_lang": "Arabic", "translation": "التعلم الهيكلي"}
+{"English": "neural module", "tgt_lang": "Arabic", "translation": "الوحدة العصبية"}
+{"English": "iteration", "tgt_lang": "Arabic", "translation": "تكرار"}
+{"English": "kernel", "tgt_lang": "Arabic", "translation": "النواة"}
+{"English": "minimizer", "tgt_lang": "Arabic", "translation": "المصغر"}
+{"English": "solution space", "tgt_lang": "Arabic", "translation": "فضاء الحلول"}
+{"English": "coarse-to-fine approach", "tgt_lang": "Arabic", "translation": "النهج من الخشن إلى الدقيق"}
+{"English": "query language", "tgt_lang": "Arabic", "translation": "لغة الاستعلام"}
+{"English": "convolutional kernel", "tgt_lang": "Arabic", "translation": "نواة التفاف"}
+{"English": "spatial pyramid", "tgt_lang": "Arabic", "translation": "هرم مكاني"}
+{"English": "joint semantic space", "tgt_lang": "Arabic", "translation": "فضاء دلالي مشترك"}
+{"English": "segmentation algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية التقسيم"}
+{"English": "network", "tgt_lang": "Arabic", "translation": "الشبكة"}
+{"English": "linear map", "tgt_lang": "Arabic", "translation": "تحويل خطي"}
+{"English": "nonmonotonic reasoning", "tgt_lang": "Arabic", "translation": "الاستدلال غير الرتيب"}
+{"English": "token length", "tgt_lang": "Arabic", "translation": "طول الرمز"}
+{"English": "caltech-101", "tgt_lang": "Arabic", "translation": "Caltech-101"}
+{"English": "convolution operator", "tgt_lang": "Arabic", "translation": "مؤثر الالتفاف"}
+{"English": "agent policy", "tgt_lang": "Arabic", "translation": "سياسة الوكيل"}
+{"English": "batch mode", "tgt_lang": "Arabic", "translation": "وضع الدفعة"}
+{"English": "back-off strategy", "tgt_lang": "Arabic", "translation": "استراتيجية التراجع"}
+{"English": "bayesian learning", "tgt_lang": "Arabic", "translation": "التعلم البايزي"}
+{"English": "batch setting", "tgt_lang": "Arabic", "translation": "الإعداد الدفعي"}
+{"English": "intrinsic parameter", "tgt_lang": "Arabic", "translation": "المعلمات الداخلية"}
+{"English": "root mean square error", "tgt_lang": "Arabic", "translation": "خطأ الجذر التربيعي المتوسط"}
+{"English": "convolution kernel", "tgt_lang": "Arabic", "translation": "نواة الالتفاف"}
+{"English": "3d scene geometry", "tgt_lang": "Arabic", "translation": "هندسة المشهد ثلاثي الأبعاد"}
+{"English": "training example", "tgt_lang": "Arabic", "translation": "مثال تدريبي"}
+{"English": "recommender", "tgt_lang": "Arabic", "translation": "الموصي"}
+{"English": "regularization penalty", "tgt_lang": "Arabic", "translation": "عقوبة التنظيم"}
+{"English": "default logic", "tgt_lang": "Arabic", "translation": "منطق الافتراضات"}
+{"English": "self-supervision", "tgt_lang": "Arabic", "translation": "التوجيه الذاتي"}
+{"English": "column vector", "tgt_lang": "Arabic", "translation": "متجه عمودي"}
+{"English": "training accuracy", "tgt_lang": "Arabic", "translation": "دقة التدريب"}
+{"English": "stochastic model", "tgt_lang": "Arabic", "translation": "نموذج احتمالي"}
+{"English": "cross-attention layer", "tgt_lang": "Arabic", "translation": "طبقة الانتباه المتقاطع"}
+{"English": "pre-training datum", "tgt_lang": "Arabic", "translation": "بيانات ما قبل التدريب"}
+{"English": "goal state", "tgt_lang": "Arabic", "translation": "حالة الهدف"}
+{"English": "parameter regularization", "tgt_lang": "Arabic", "translation": "تنظيم المعلمات"}
+{"English": "test datum", "tgt_lang": "Arabic", "translation": "بيانات الاختبار"}
+{"English": "image plane", "tgt_lang": "Arabic", "translation": "مستوى الصورة"}
+{"English": "sequence model", "tgt_lang": "Arabic", "translation": "نموذج التسلسل"}
+{"English": "dense prediction", "tgt_lang": "Arabic", "translation": "التنبؤ الكثيف"}
+{"English": "action classification", "tgt_lang": "Arabic", "translation": "تصنيف الأفعال"}
+{"English": "target variable", "tgt_lang": "Arabic", "translation": "المتغير المستهدف"}
+{"English": "length penalty", "tgt_lang": "Arabic", "translation": "عقوبة الطول"}
+{"English": "neural mapping", "tgt_lang": "Arabic", "translation": "التخطيط العصبي"}
+{"English": "synthetic dataset", "tgt_lang": "Arabic", "translation": "مجموعة بيانات اصطناعية"}
+{"English": "conditional computation", "tgt_lang": "Arabic", "translation": "الحساب الشرطي"}
+{"English": "information bottleneck", "tgt_lang": "Arabic", "translation": "عنق زجاجة المعلومات"}
+{"English": "graph structure", "tgt_lang": "Arabic", "translation": "بنية الرسم البياني"}
+{"English": "deep feature", "tgt_lang": "Arabic", "translation": "الميزات العميقة"}
+{"English": "conversation history", "tgt_lang": "Arabic", "translation": "سجل المحادثات"}
+{"English": "machine-in-the-loop", "tgt_lang": "Arabic", "translation": "آلة في الحلقة"}
+{"English": "hungarian loss", "tgt_lang": "Arabic", "translation": "خسارة المجرية"}
+{"English": "neural approach", "tgt_lang": "Arabic", "translation": "نهج عصبي"}
+{"English": "attribute", "tgt_lang": "Arabic", "translation": "سمة"}
+{"English": "attention value", "tgt_lang": "Arabic", "translation": "قيم الانتباه"}
+{"English": "regret minimization", "tgt_lang": "Arabic", "translation": "تقليل الندم"}
+{"English": "conjunctive query", "tgt_lang": "Arabic", "translation": "استعلام تقارني"}
+{"English": "vanishing gradient", "tgt_lang": "Arabic", "translation": "تلاشي التدرج"}
+{"English": "membership inference attack", "tgt_lang": "Arabic", "translation": "هجوم استدلال العضوية"}
+{"English": "distance measure", "tgt_lang": "Arabic", "translation": "قياس المسافة"}
+{"English": "detection window", "tgt_lang": "Arabic", "translation": "نافذة الكشف"}
+{"English": "causal inference", "tgt_lang": "Arabic", "translation": "الاستدلال السببي"}
+{"English": "pre-logit", "tgt_lang": "Arabic", "translation": "ما قبل اللوغيت"}
+{"English": "multi-classification", "tgt_lang": "Arabic", "translation": "تصنيف متعدد"}
+{"English": "meta-algorithm", "tgt_lang": "Arabic", "translation": "ميتا-خوارزمية"}
+{"English": "one-stage detector", "tgt_lang": "Arabic", "translation": "كاشف من مرحلة واحدة"}
+{"English": "source sequence", "tgt_lang": "Arabic", "translation": "تسلسل المصدر"}
+{"English": "beam search decoding algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية فك ترميز البحث الشعاعي"}
+{"English": "constraint generation", "tgt_lang": "Arabic", "translation": "توليد القيود"}
+{"English": "residual block", "tgt_lang": "Arabic", "translation": "كتلة متبقية"}
+{"English": "reprojection error", "tgt_lang": "Arabic", "translation": "خطأ الإسقاط العكسي"}
+{"English": "transition system", "tgt_lang": "Arabic", "translation": "نظام الانتقال"}
+{"English": "causal language model", "tgt_lang": "Arabic", "translation": "نموذج لغة سببي"}
+{"English": "word token", "tgt_lang": "Arabic", "translation": "رمز كلمة"}
+{"English": "syntactic tree", "tgt_lang": "Arabic", "translation": "شجرة التركيب"}
+{"English": "near-optimality", "tgt_lang": "Arabic", "translation": "قرب المثالية"}
+{"English": "feature hashing", "tgt_lang": "Arabic", "translation": "تجزئة الميزات"}
+{"English": "tensor", "tgt_lang": "Arabic", "translation": "الموتر"}
+{"English": "computer vision", "tgt_lang": "Arabic", "translation": "الرؤية الحاسوبية"}
+{"English": "multi-scale architecture", "tgt_lang": "Arabic", "translation": "العمارة متعددة المقاييس"}
+{"English": "linear predictor", "tgt_lang": "Arabic", "translation": "المتنبئ الخطي"}
+{"English": "subsampling factor", "tgt_lang": "Arabic", "translation": "عامل التحت عينات"}
+{"English": "vector representation", "tgt_lang": "Arabic", "translation": "تمثيل متجه"}
+{"English": "prior distribution", "tgt_lang": "Arabic", "translation": "توزيع أولي"}
+{"English": "validation loss", "tgt_lang": "Arabic", "translation": "فقدان التحقق"}
+{"English": "transfer learning", "tgt_lang": "Arabic", "translation": "التعلم بالنقل"}
+{"English": "monolingual dataset", "tgt_lang": "Arabic", "translation": "مجموعة بيانات أحادية اللغة"}
+{"English": "perfect matching", "tgt_lang": "Arabic", "translation": "تطابق مثالي"}
+{"English": "label distribution", "tgt_lang": "Arabic", "translation": "توزيع العلامات"}
+{"English": "point match", "tgt_lang": "Arabic", "translation": "مطابقة النقاط"}
+{"English": "target token", "tgt_lang": "Arabic", "translation": "الرمز المستهدف"}
+{"English": "bootstrap learning", "tgt_lang": "Arabic", "translation": "التعلم التعزيزي"}
+{"English": "scene graph", "tgt_lang": "Arabic", "translation": "مشهد الرسم البياني"}
+{"English": "ranking algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية الترتيب"}
+{"English": "log partition function", "tgt_lang": "Arabic", "translation": "دالة الجداء اللوغاريتمي"}
+{"English": "model initialization", "tgt_lang": "Arabic", "translation": "تهيئة النموذج"}
+{"English": "latent vector", "tgt_lang": "Arabic", "translation": "متجه كامن"}
+{"English": "vector arithmetic", "tgt_lang": "Arabic", "translation": "الحسابات المتجهية"}
+{"English": "empirical risk minimization", "tgt_lang": "Arabic", "translation": "تقليل المخاطرة التجريبية"}
+{"English": "decision policy", "tgt_lang": "Arabic", "translation": "سياسة القرار"}
+{"English": "visual odometry", "tgt_lang": "Arabic", "translation": "المسار البصري"}
+{"English": "multi-label text classification", "tgt_lang": "Arabic", "translation": "تصنيف النصوص متعددة التصنيفات"}
+{"English": "sub-population", "tgt_lang": "Arabic", "translation": "المجموعات الفرعية"}
+{"English": "block-diagonal matrix", "tgt_lang": "Arabic", "translation": "مصفوفة ذات قطر كتلي"}
+{"English": "prior probability distribution", "tgt_lang": "Arabic", "translation": "توزيع الاحتمالية السابقة"}
+{"English": "algorithmic approach", "tgt_lang": "Arabic", "translation": "النهج الخوارزمي"}
+{"English": "pareto optimality", "tgt_lang": "Arabic", "translation": "الكفاءة الباريتوية"}
+{"English": "gating function", "tgt_lang": "Arabic", "translation": "وظيفة البوابة"}
+{"English": "regularization", "tgt_lang": "Arabic", "translation": "التنظيم"}
+{"English": "dependency relation", "tgt_lang": "Arabic", "translation": "علاقة التبعية"}
+{"English": "white-box", "tgt_lang": "Arabic", "translation": "الصندوق الأبيض"}
+{"English": "motion analysis", "tgt_lang": "Arabic", "translation": "تحليل الحركة"}
+{"English": "pre-trained embedding", "tgt_lang": "Arabic", "translation": "التضمين المدرب مسبقًا"}
+{"English": "orthographic projection", "tgt_lang": "Arabic", "translation": "الإسقاط المتعامد"}
+{"English": "bound variable", "tgt_lang": "Arabic", "translation": "المتغير المقيّد"}
+{"English": "controllable text generation", "tgt_lang": "Arabic", "translation": "توليد النص القابل للتحكم"}
+{"English": "topic distribution", "tgt_lang": "Arabic", "translation": "توزيع الموضوعات"}
+{"English": "object bounding box", "tgt_lang": "Arabic", "translation": "مربعات الاحتواء للأجسام"}
+{"English": "proposal probability", "tgt_lang": "Arabic", "translation": "احتمالية الاقتراح"}
+{"English": "self-learning", "tgt_lang": "Arabic", "translation": "التعلم الذاتي"}
+{"English": "top-p sampling", "tgt_lang": "Arabic", "translation": "أخذ العينات حسب النواة"}
+{"English": "generator", "tgt_lang": "Arabic", "translation": "المولّد"}
+{"English": "feature dimension", "tgt_lang": "Arabic", "translation": "بُعد الخاصية"}
+{"English": "data sparseness", "tgt_lang": "Arabic", "translation": "ندرة البيانات"}
+{"English": "convergence analysis", "tgt_lang": "Arabic", "translation": "تحليل التقارب"}
+{"English": "stationary kernel", "tgt_lang": "Arabic", "translation": "نواة مستقرة"}
+{"English": "dictionary matrix", "tgt_lang": "Arabic", "translation": "مصفوفة القاموس"}
+{"English": "sub-networks", "tgt_lang": "Arabic", "translation": "الشبكات الفرعية"}
+{"English": "factorization", "tgt_lang": "Arabic", "translation": "تحليل إلى عوامل"}
+{"English": "context free grammar", "tgt_lang": "Arabic", "translation": "قواعد خالية من السياق"}
+{"English": "graph matching", "tgt_lang": "Arabic", "translation": "مطابقة الرسم البياني"}
+{"English": "autonomous agent", "tgt_lang": "Arabic", "translation": "الوكيل المستقل"}
+{"English": "unary production", "tgt_lang": "Arabic", "translation": "الإنتاج الأحادي"}
+{"English": "online learning theory", "tgt_lang": "Arabic", "translation": "نظرية التعلم عبر الإنترنت"}
+{"English": "2d image", "tgt_lang": "Arabic", "translation": "الصورة ثنائية الأبعاد"}
+{"English": "domain element", "tgt_lang": "Arabic", "translation": "عناصر المجال"}
+{"English": "knowledge transfer", "tgt_lang": "Arabic", "translation": "نقل المعرفة"}
+{"English": "orthonormality", "tgt_lang": "Arabic", "translation": "التعامدية"}
+{"English": "bayesian inference", "tgt_lang": "Arabic", "translation": "الاستدلال البايزي"}
+{"English": "feature point", "tgt_lang": "Arabic", "translation": "نقاط الميزات"}
+{"English": "posterior probability", "tgt_lang": "Arabic", "translation": "احتمال خلفي"}
+{"English": "graph convolutional network", "tgt_lang": "Arabic", "translation": "شبكة الالتفاف البياني"}
+{"English": "foundation model", "tgt_lang": "Arabic", "translation": "نموذج الأساس"}
+{"English": "bandit learning", "tgt_lang": "Arabic", "translation": "تعلم اللصوص"}
+{"English": "computational model", "tgt_lang": "Arabic", "translation": "نموذج حسابي"}
+{"English": "subgame", "tgt_lang": "Arabic", "translation": "لعبة فرعية"}
+{"English": "belief state", "tgt_lang": "Arabic", "translation": "حالة الاعتقاد"}
+{"English": "off-diagonal element", "tgt_lang": "Arabic", "translation": "عنصر خارج القطر"}
+{"English": "matroid", "tgt_lang": "Arabic", "translation": "ماترويد"}
+{"English": "binary atom", "tgt_lang": "Arabic", "translation": "ذرة ثنائية"}
+{"English": "semantic class", "tgt_lang": "Arabic", "translation": "الفئات الدلالية"}
+{"English": "hash", "tgt_lang": "Arabic", "translation": "الهاش"}
+{"English": "observational datum", "tgt_lang": "Arabic", "translation": "معطى رصدي"}
+{"English": "localization", "tgt_lang": "Arabic", "translation": "التحديد"}
+{"English": "dialogue system", "tgt_lang": "Arabic", "translation": "نظام الحوار"}
+{"English": "categorial grammar", "tgt_lang": "Arabic", "translation": "قواعد تصنيفية"}
+{"English": "semantic category", "tgt_lang": "Arabic", "translation": "الفئات الدلالية"}
+{"English": "statistical machine translation system", "tgt_lang": "Arabic", "translation": "نظام الترجمة الآلية الإحصائي"}
+{"English": "data augmentation", "tgt_lang": "Arabic", "translation": "توسيع البيانات"}
+{"English": "float32", "tgt_lang": "Arabic", "translation": "float32"}
+{"English": "weight initialization", "tgt_lang": "Arabic", "translation": "تهيئة الأوزان"}
+{"English": "invertible matrix", "tgt_lang": "Arabic", "translation": "مصفوفة قابلة للعكس"}
+{"English": "behavior policy", "tgt_lang": "Arabic", "translation": "سياسة السلوك"}
+{"English": "linear decoder", "tgt_lang": "Arabic", "translation": "المفكك الخطي"}
+{"English": "automated mechanism design", "tgt_lang": "Arabic", "translation": "تصميم الآليات الآلي"}
+{"English": "probability mass function", "tgt_lang": "Arabic", "translation": "دالة الكتلة الاحتمالية"}
+{"English": "hyper-parameter tuning", "tgt_lang": "Arabic", "translation": "ضبط الهايبر بارامتر"}
+{"English": "inference time", "tgt_lang": "Arabic", "translation": "وقت الاستنتاج"}
+{"English": "gaussian random variable", "tgt_lang": "Arabic", "translation": "متغير عشوائي غاوسي"}
+{"English": "advantage function", "tgt_lang": "Arabic", "translation": "دالة الأفضلية"}
+{"English": "linear regression", "tgt_lang": "Arabic", "translation": "الانحدار الخطي"}
+{"English": "image classification", "tgt_lang": "Arabic", "translation": "تصنيف الصور"}
+{"English": "maximal frequent pattern", "tgt_lang": "Arabic", "translation": "النمط المتكرر الأقصى"}
+{"English": "approximation guarantee", "tgt_lang": "Arabic", "translation": "ضمان التقريب"}
+{"English": "bottom-up learning", "tgt_lang": "Arabic", "translation": "التعلم من الأسفل إلى الأعلى"}
+{"English": "few-shot prompting", "tgt_lang": "Arabic", "translation": "التلقين القليل اللقطات"}
+{"English": "gradient descent", "tgt_lang": "Arabic", "translation": "الانحدار المتدرج"}
+{"English": "t5 model", "tgt_lang": "Arabic", "translation": "نموذج T5"}
+{"English": "baseline model", "tgt_lang": "Arabic", "translation": "نموذج خط الأساس"}
+{"English": "minimax optimization problem", "tgt_lang": "Arabic", "translation": "مشكلة تحسين المينماكس"}
+{"English": "neural network language model", "tgt_lang": "Arabic", "translation": "نماذج اللغة للشبكات العصبية"}
+{"English": "attribution", "tgt_lang": "Arabic", "translation": "الإسناد"}
+{"English": "input filter", "tgt_lang": "Arabic", "translation": "مرشحات المدخلات"}
+{"English": "forward algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية التمرير الأمامي"}
+{"English": "empirical variance", "tgt_lang": "Arabic", "translation": "التباين التجريبي"}
+{"English": "distance function", "tgt_lang": "Arabic", "translation": "دالة المسافة"}
+{"English": "lagrange multiplier", "tgt_lang": "Arabic", "translation": "مضاعف لاغرانج"}
+{"English": "cross-lingual knowledge transfer", "tgt_lang": "Arabic", "translation": "نقل المعرفة عبر اللغات"}
+{"English": "time/space complexity", "tgt_lang": "Arabic", "translation": "تعقيد الزمن/المساحة"}
+{"English": "state transition model", "tgt_lang": "Arabic", "translation": "نموذج انتقال الحالة"}
+{"English": "stochastic search algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية البحث العشوائي"}
+{"English": "semantic space", "tgt_lang": "Arabic", "translation": "الفضاء الدلالي"}
+{"English": "generative adversarial network", "tgt_lang": "Arabic", "translation": "شبكة توليد الخصومة"}
+{"English": "junction tree", "tgt_lang": "Arabic", "translation": "شجرة التفريع"}
+{"English": "bisimulation", "tgt_lang": "Arabic", "translation": "المحاكاة الثنائية"}
+{"English": "residual error", "tgt_lang": "Arabic", "translation": "الخطأ المتبقي"}
+{"English": "hill-climbing", "tgt_lang": "Arabic", "translation": "التسلق التل"}
+{"English": "perception", "tgt_lang": "Arabic", "translation": "الإدراك"}
+{"English": "multi-head self-attention module", "tgt_lang": "Arabic", "translation": "وحدة الانتباه الذاتي متعددة الرؤوس"}
+{"English": "self-attention matrix", "tgt_lang": "Arabic", "translation": "مصفوفة الانتباه الذاتي"}
+{"English": "l 2 -norm", "tgt_lang": "Arabic", "translation": "معيار L 2"}
+{"English": "cost-sensitive learning", "tgt_lang": "Arabic", "translation": "التعلم الحساس للتكلفة"}
+{"English": "vision model", "tgt_lang": "Arabic", "translation": "نموذج الرؤية"}
+{"English": "multi-class classification", "tgt_lang": "Arabic", "translation": "تصنيف متعدد الفئات"}
+{"English": "uniform convergence", "tgt_lang": "Arabic", "translation": "تقارب منتظم"}
+{"English": "target policy", "tgt_lang": "Arabic", "translation": "سياسة الهدف"}
+{"English": "node", "tgt_lang": "Arabic", "translation": "العقدة"}
+{"English": "hierarchical model", "tgt_lang": "Arabic", "translation": "نموذج هرمي"}
+{"English": "pose space", "tgt_lang": "Arabic", "translation": "فضاء الوضعيات"}
+{"English": "cross entropy error", "tgt_lang": "Arabic", "translation": "خطأ الانتروبيا المتصالبة"}
+{"English": "metric learning algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية تعلم القياس"}
+{"English": "l1 regularization", "tgt_lang": "Arabic", "translation": "التنظيم L1"}
+{"English": "occupancy map", "tgt_lang": "Arabic", "translation": "خريطة الشغل"}
+{"English": "query time", "tgt_lang": "Arabic", "translation": "زمن الاستعلام"}
+{"English": "a * algorithm", "tgt_lang": "Arabic", "translation": "A * algorithm"}
+{"English": "sequential decision making", "tgt_lang": "Arabic", "translation": "اتخاذ القرار التسلسلي"}
+{"English": "feature selection", "tgt_lang": "Arabic", "translation": "اختيار الميزات"}
+{"English": "graph isomorphism", "tgt_lang": "Arabic", "translation": "تماثل الرسم البياني"}
+{"English": "l2 weight decay", "tgt_lang": "Arabic", "translation": "تدهور الوزن L2"}
+{"English": "critic loss", "tgt_lang": "Arabic", "translation": "خسارة الناقد"}
+{"English": "coarse-to-fine", "tgt_lang": "Arabic", "translation": "من الخشن إلى الدقيق"}
+{"English": "optimiser", "tgt_lang": "Arabic", "translation": "المحسِّن"}
+{"English": "iterative algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية تكرارية"}
+{"English": "unsupervised classification", "tgt_lang": "Arabic", "translation": "التصنيف غير المراقب"}
+{"English": "semantic alignment", "tgt_lang": "Arabic", "translation": "المواءمة الدلالية"}
+{"English": "hierarchical decoder", "tgt_lang": "Arabic", "translation": "المفكك الهرمي"}
+{"English": "lexical model", "tgt_lang": "Arabic", "translation": "النموذج المعجمي"}
+{"English": "local minima", "tgt_lang": "Arabic", "translation": "القيعان المحلية"}
+{"English": "excess loss", "tgt_lang": "Arabic", "translation": "الخسارة الزائدة"}
+{"English": "second order", "tgt_lang": "Arabic", "translation": "المرتبة الثانية"}
+{"English": "binary label", "tgt_lang": "Arabic", "translation": "التسمية الثنائية"}
+{"English": "minimum description length", "tgt_lang": "Arabic", "translation": "الطول الأدنى للوصف"}
+{"English": "human-in-the-loop", "tgt_lang": "Arabic", "translation": "البشر في الحلقة"}
+{"English": "deterministic baseline", "tgt_lang": "Arabic", "translation": "المرجعية الحتمية"}
+{"English": "greedy approach", "tgt_lang": "Arabic", "translation": "النهج الجشع"}
+{"English": "temporal logic", "tgt_lang": "Arabic", "translation": "المنطق الزمني"}
+{"English": "multi-head attention layer", "tgt_lang": "Arabic", "translation": "طبقة الانتباه متعددة الرؤوس"}
+{"English": "intractability", "tgt_lang": "Arabic", "translation": "غير القابلية للحل"}
+{"English": "unlexicalized grammar", "tgt_lang": "Arabic", "translation": "نحو غير معجّم"}
+{"English": "image synthesis", "tgt_lang": "Arabic", "translation": "توليد الصور"}
+{"English": "loss term", "tgt_lang": "Arabic", "translation": "عبارة الفقدان"}
+{"English": "datum parallelism", "tgt_lang": "Arabic", "translation": "التوازي البياني"}
+{"English": "generalization ability", "tgt_lang": "Arabic", "translation": "قدرة التعميم"}
+{"English": "energy minimization", "tgt_lang": "Arabic", "translation": "تقليل الطاقة"}
+{"English": "free variable", "tgt_lang": "Arabic", "translation": "المتغير الحر"}
+{"English": "rollout", "tgt_lang": "Arabic", "translation": "التنفيذ"}
+{"English": "weight decay", "tgt_lang": "Arabic", "translation": "اضمحلال الوزن"}
+{"English": "document clustering", "tgt_lang": "Arabic", "translation": "تجميع المستندات"}
+{"English": "bilateral filtering", "tgt_lang": "Arabic", "translation": "التصفية الثنائية"}
+{"English": "predictor", "tgt_lang": "Arabic", "translation": "المتنبئ"}
+{"English": "sequence labeling", "tgt_lang": "Arabic", "translation": "تسمية التسلسل"}
+{"English": "coarse correlated equilibrium", "tgt_lang": "Arabic", "translation": "توازن مترابط خشن"}
+{"English": "deep q-learning", "tgt_lang": "Arabic", "translation": "deep Q-learning"}
+{"English": "communication graph", "tgt_lang": "Arabic", "translation": "رسم اتصال"}
+{"English": "reservoir sampling", "tgt_lang": "Arabic", "translation": "أخذ عينات الخزان"}
+{"English": "hybrid model", "tgt_lang": "Arabic", "translation": "النموذج الهجين"}
+{"English": "classification margin", "tgt_lang": "Arabic", "translation": "هامش التصنيف"}
+{"English": "end-of-sequence token", "tgt_lang": "Arabic", "translation": "علامة نهاية التسلسل"}
+{"English": "gradient variance", "tgt_lang": "Arabic", "translation": "تباين التدرج"}
+{"English": "model development", "tgt_lang": "Arabic", "translation": "تطوير النموذج"}
+{"English": "conditional entropy", "tgt_lang": "Arabic", "translation": "الإنتروبي الشرطي"}
+{"English": "transition probability", "tgt_lang": "Arabic", "translation": "احتمال الانتقال"}
+{"English": "uncertainty sampling", "tgt_lang": "Arabic", "translation": "الاعتيان على أساس عدم اليقين"}
+{"English": "probabilistic topic modeling", "tgt_lang": "Arabic", "translation": "نمذجة الموضوع الاحتمالية"}
+{"English": "hyperprior", "tgt_lang": "Arabic", "translation": "الفوقية"}
+{"English": "recurrent architecture", "tgt_lang": "Arabic", "translation": "بنية متكررة"}
+{"English": "neural text generation", "tgt_lang": "Arabic", "translation": "توليد النص العصبي"}
+{"English": "piecewise linear", "tgt_lang": "Arabic", "translation": "قطعي خطي"}
+{"English": "policy gradient theorem", "tgt_lang": "Arabic", "translation": "نظرية تدرج السياسة"}
+{"English": "slot", "tgt_lang": "Arabic", "translation": "فتحة"}
+{"English": "hamming loss", "tgt_lang": "Arabic", "translation": "خسارة هامنج"}
+{"English": "class", "tgt_lang": "Arabic", "translation": "فئة"}
+{"English": "3d localization", "tgt_lang": "Arabic", "translation": "التحديد ثلاثي الأبعاد"}
+{"English": "joint likelihood", "tgt_lang": "Arabic", "translation": "الاحتمالية المشتركة"}
+{"English": "parameter tying", "tgt_lang": "Arabic", "translation": "ربط المعلمات"}
+{"English": "vector space representation", "tgt_lang": "Arabic", "translation": "تمثيل الفضاء المتجهي"}
+{"English": "second-order optimization", "tgt_lang": "Arabic", "translation": "التحسين من الدرجة الثانية"}
+{"English": "ridge regression", "tgt_lang": "Arabic", "translation": "الانحدار الترددي"}
+{"English": "binary classification task", "tgt_lang": "Arabic", "translation": "مهمة التصنيف الثنائي"}
+{"English": "projection operator", "tgt_lang": "Arabic", "translation": "مؤثر الإسقاط"}
+{"English": "text mining", "tgt_lang": "Arabic", "translation": "تنقيب النصوص"}
+{"English": "feature matrix", "tgt_lang": "Arabic", "translation": "مصفوفة المزايا"}
+{"English": "rigid body transformation", "tgt_lang": "Arabic", "translation": "تحول الجسم الصلب"}
+{"English": "probabilistic inference", "tgt_lang": "Arabic", "translation": "الاستدلال الاحتمالي"}
+{"English": "identity transformation", "tgt_lang": "Arabic", "translation": "تحويل الهوية"}
+{"English": "kernel learning problem", "tgt_lang": "Arabic", "translation": "مشكلة تعلم النواة"}
+{"English": "jaccard similarity coefficient", "tgt_lang": "Arabic", "translation": "معامل التشابه جاكارد"}
+{"English": "reward", "tgt_lang": "Arabic", "translation": "المكافأة"}
+{"English": "cosine", "tgt_lang": "Arabic", "translation": "جيب التمام"}
+{"English": "pretrained multilingual model", "tgt_lang": "Arabic", "translation": "نموذج متعدد اللغات مدرب مسبقاً"}
+{"English": "empirical loss", "tgt_lang": "Arabic", "translation": "الخسارة التجريبية"}
+{"English": "inference algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية الاستدلال"}
+{"English": "representation matrix", "tgt_lang": "Arabic", "translation": "مصفوفة التمثيل"}
+{"English": "i.i.d", "tgt_lang": "Arabic", "translation": "i.i.d"}
+{"English": "performance difference lemma", "tgt_lang": "Arabic", "translation": "قيمة الفرق في الأداء"}
+{"English": "spectrogram", "tgt_lang": "Arabic", "translation": "المخطط الطيفي"}
+{"English": "macro-average", "tgt_lang": "Arabic", "translation": "المتوسط الكلي"}
+{"English": "masked token", "tgt_lang": "Arabic", "translation": "الرموز المقنعة"}
+{"English": "weak learning assumption", "tgt_lang": "Arabic", "translation": "افتراض التعلم الضعيف"}
+{"English": "grammar inducer", "tgt_lang": "Arabic", "translation": "محفز القواعد"}
+{"English": "power law distribution", "tgt_lang": "Arabic", "translation": "توزيع قانون القوة"}
+{"English": "convolutional neural network", "tgt_lang": "Arabic", "translation": "شبكة عصبية تلافيفية"}
+{"English": "correlated equilibria", "tgt_lang": "Arabic", "translation": "توازنات مترابطة"}
+{"English": "scale invariance", "tgt_lang": "Arabic", "translation": "ثبات المقياس"}
+{"English": "teacher network", "tgt_lang": "Arabic", "translation": "شبكة المعلم"}
+{"English": "entailment", "tgt_lang": "Arabic", "translation": "التضمين"}
+{"English": "pairwise learning", "tgt_lang": "Arabic", "translation": "التعلم الزوجي"}
+{"English": "distributionally robust optimization", "tgt_lang": "Arabic", "translation": "تحسين التوزيع القوي"}
+{"English": "bibliographic coupling", "tgt_lang": "Arabic", "translation": "الارتباط الببليوغرافي"}
+{"English": "unit sphere", "tgt_lang": "Arabic", "translation": "المجال الكروي الواحد"}
+{"English": "social bias", "tgt_lang": "Arabic", "translation": "التحيز الاجتماعي"}
+{"English": "zero-shot cross-lingual setting", "tgt_lang": "Arabic", "translation": "البيئة عبر اللغات بدون تدريب مسبق"}
+{"English": "submodular influence function", "tgt_lang": "Arabic", "translation": "دالة التأثير شبه المعيارية"}
+{"English": "lexical entry", "tgt_lang": "Arabic", "translation": "مدخل معجمي"}
+{"English": "quadratic loss", "tgt_lang": "Arabic", "translation": "الخسارة التربيعية"}
+{"English": "multi-head attention", "tgt_lang": "Arabic", "translation": "الاهتمام متعدد الرؤوس"}
+{"English": "keypoint detection", "tgt_lang": "Arabic", "translation": "اكتشاف النقاط الرئيسية"}
+{"English": "counterfactual fairness", "tgt_lang": "Arabic", "translation": "العدالة الافتراضية"}
+{"English": "poisson point process", "tgt_lang": "Arabic", "translation": "عملية نقاط بواسون"}
+{"English": "language generation", "tgt_lang": "Arabic", "translation": "توليد اللغة"}
+{"English": "knowledge graph", "tgt_lang": "Arabic", "translation": "الرسم البياني المعرفي"}
+{"English": "regularization term", "tgt_lang": "Arabic", "translation": "مُصطلح التنظيم"}
+{"English": "greedy policy", "tgt_lang": "Arabic", "translation": "سياسة الجشع"}
+{"English": "degree distribution", "tgt_lang": "Arabic", "translation": "توزيع الدرجات"}
+{"English": "gaussian function", "tgt_lang": "Arabic", "translation": "دالة جاوسية"}
+{"English": "decoder state", "tgt_lang": "Arabic", "translation": "حالة المفكك"}
+{"English": "cycle consistency loss", "tgt_lang": "Arabic", "translation": "خسارة التناسق الدوري"}
+{"English": "mean reciprocal rank", "tgt_lang": "Arabic", "translation": "مرتبة التبادلية المتوسطة"}
+{"English": "n-gram", "tgt_lang": "Arabic", "translation": "n-gram"}
+{"English": "hard attention", "tgt_lang": "Arabic", "translation": "الانتباه القاسي"}
+{"English": "convex objective", "tgt_lang": "Arabic", "translation": "هدف محدب"}
+{"English": "geometric distribution", "tgt_lang": "Arabic", "translation": "التوزيع الهندسي"}
+{"English": "fractional program", "tgt_lang": "Arabic", "translation": "البرامج الكسرية"}
+{"English": "data-to-text generation", "tgt_lang": "Arabic", "translation": "توليد النص من البيانات"}
+{"English": "lambda calculus", "tgt_lang": "Arabic", "translation": "حساب لامبدا"}
+{"English": "global coordinate frame", "tgt_lang": "Arabic", "translation": "الإطار الإحداثي العالمي"}
+{"English": "permutation invariance", "tgt_lang": "Arabic", "translation": "عدم تغير الترتيب"}
+{"English": "input feature", "tgt_lang": "Arabic", "translation": "ميزة الإدخال"}
+{"English": "decomposition method", "tgt_lang": "Arabic", "translation": "طرق التحليل"}
+{"English": "global minima", "tgt_lang": "Arabic", "translation": "القيم الدنيا العالمية"}
+{"English": "kernel parameter", "tgt_lang": "Arabic", "translation": "معامل النواة"}
+{"English": "word segmentation", "tgt_lang": "Arabic", "translation": "تجزئة الكلمات"}
+{"English": "graph pattern", "tgt_lang": "Arabic", "translation": "نمط الرسم البياني"}
+{"English": "light field interpolation", "tgt_lang": "Arabic", "translation": "استيفاء حقل الضوء"}
+{"English": "low rank approximation", "tgt_lang": "Arabic", "translation": "تقريب الرتبة المنخفضة"}
+{"English": "representer theorem", "tgt_lang": "Arabic", "translation": "نظرية الممثل"}
+{"English": "local maximum", "tgt_lang": "Arabic", "translation": "الحد الأقصى المحلي"}
+{"English": "auxiliary variable", "tgt_lang": "Arabic", "translation": "متغير مساعد"}
+{"English": "decoder hidden state", "tgt_lang": "Arabic", "translation": "حالة الإخفاء للمفكك"}
+{"English": "graphlet", "tgt_lang": "Arabic", "translation": "الرسم البياني الصغير"}
+{"English": "intersection-over-union", "tgt_lang": "Arabic", "translation": "التقاطع على الاتحاد"}
+{"English": "multilingual training", "tgt_lang": "Arabic", "translation": "التدريب متعدد اللغات"}
+{"English": "scene representation", "tgt_lang": "Arabic", "translation": "تمثيل المشهد"}
+{"English": "linear system", "tgt_lang": "Arabic", "translation": "النظام الخطي"}
+{"English": "bregman divergence", "tgt_lang": "Arabic", "translation": "تباعد بريجمان"}
+{"English": "keypoint detector", "tgt_lang": "Arabic", "translation": "كاشف النقاط الرئيسية"}
+{"English": "measurement noise", "tgt_lang": "Arabic", "translation": "ضجيج القياس"}
+{"English": "information content", "tgt_lang": "Arabic", "translation": "محتوى المعلومات"}
+{"English": "distant supervision", "tgt_lang": "Arabic", "translation": "الإشراف البعيد"}
+{"English": "subgraph isomorphism", "tgt_lang": "Arabic", "translation": "التشابه الجزئي للرسم البياني"}
+{"English": "camera matrix", "tgt_lang": "Arabic", "translation": "مصفوفة الكاميرا"}
+{"English": "annotator bias", "tgt_lang": "Arabic", "translation": "التحيز في التوصيف"}
+{"English": "alignment algorithm", "tgt_lang": "Arabic", "translation": "خوارزمية المحاذاة"}
+{"English": "knapsack problem", "tgt_lang": "Arabic", "translation": "مسألة الحقيبة"}
+{"English": "query phase", "tgt_lang": "Arabic", "translation": "مرحلة الاستعلام"}
+{"English": "linear program", "tgt_lang": "Arabic", "translation": "البرمجة الخطية"}
+{"English": "multi-modal", "tgt_lang": "Arabic", "translation": "متعدد الأنماط"}
+{"English": "nonconvex function", "tgt_lang": "Arabic", "translation": "دالة غير محدبة"}
+{"English": "pooling operation", "tgt_lang": "Arabic", "translation": "عملية التجميع"}
+{"English": "consequent", "tgt_lang": "Arabic", "translation": "التالي"}
+{"English": "transition model", "tgt_lang": "Arabic", "translation": "نموذج الانتقال"}
+{"English": "pre-trained weight", "tgt_lang": "Arabic", "translation": "الأوزان المدربة مسبقاً"}
+{"English": "post-processing", "tgt_lang": "Arabic", "translation": "المعالجة اللاحقة"}
+{"English": "joint inference", "tgt_lang": "Arabic", "translation": "الاستدلال المشترك"}
+{"English": "token-level attention", "tgt_lang": "Arabic", "translation": "الاهتمام على مستوى التوكنات"}

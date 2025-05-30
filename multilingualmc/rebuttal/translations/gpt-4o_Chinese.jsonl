@@ -1,0 +1,500 @@
+{"English": "activity recognition", "tgt_lang": "Chinese", "translation": "活动识别"}
+{"English": "deterministic annealing", "tgt_lang": "Chinese", "translation": "确定性退火"}
+{"English": "data processing inequality", "tgt_lang": "Chinese", "translation": "数据处理不等式"}
+{"English": "conditional density", "tgt_lang": "Chinese", "translation": "条件密度"}
+{"English": "asymmetric transformation", "tgt_lang": "Chinese", "translation": "非对称变换"}
+{"English": "sibling model", "tgt_lang": "Chinese", "translation": "兄弟模型"}
+{"English": "initial state", "tgt_lang": "Chinese", "translation": "初始状态"}
+{"English": "kernel density estimate", "tgt_lang": "Chinese", "translation": "核密度估计"}
+{"English": "local basis function", "tgt_lang": "Chinese", "translation": "局部基函数"}
+{"English": "transliteration", "tgt_lang": "Chinese", "translation": "音译"}
+{"English": "optimization function", "tgt_lang": "Chinese", "translation": "优化函数"}
+{"English": "quality estimation", "tgt_lang": "Chinese", "translation": "质量估计"}
+{"English": "unigram language model", "tgt_lang": "Chinese", "translation": "一元语言模型"}
+{"English": "i.i.d. sample", "tgt_lang": "Chinese", "translation": "独立同分布样本"}
+{"English": "semantic feature", "tgt_lang": "Chinese", "translation": "语义特征"}
+{"English": "recurrent layer", "tgt_lang": "Chinese", "translation": "循环层"}
+{"English": "scene recognition", "tgt_lang": "Chinese", "translation": "场景识别"}
+{"English": "dropout layer", "tgt_lang": "Chinese", "translation": "丢弃层"}
+{"English": "architecture search", "tgt_lang": "Chinese", "translation": "架构搜索"}
+{"English": "detection score", "tgt_lang": "Chinese", "translation": "检测分数"}
+{"English": "tree search", "tgt_lang": "Chinese", "translation": "树搜索"}
+{"English": "learning rate scheduler", "tgt_lang": "Chinese", "translation": "学习率调度器"}
+{"English": "primal optimization", "tgt_lang": "Chinese", "translation": "原始优化"}
+{"English": "dependency representation", "tgt_lang": "Chinese", "translation": "依存表示"}
+{"English": "utility", "tgt_lang": "Chinese", "translation": "效用"}
+{"English": "machine comprehension", "tgt_lang": "Chinese", "translation": "机器阅读理解"}
+{"English": "tensor field", "tgt_lang": "Chinese", "translation": "张量场"}
+{"English": "first-order logic", "tgt_lang": "Chinese", "translation": "一阶逻辑"}
+{"English": "featurized representation", "tgt_lang": "Chinese", "translation": "特征化表示"}
+{"English": "language representation", "tgt_lang": "Chinese", "translation": "语言表示"}
+{"English": "fine-tune", "tgt_lang": "Chinese", "translation": "微调"}
+{"English": "parameterisation", "tgt_lang": "Chinese", "translation": "参数化"}
+{"English": "gaussian likelihood", "tgt_lang": "Chinese", "translation": "高斯似然"}
+{"English": "statistical learning algorithm", "tgt_lang": "Chinese", "translation": "统计学习算法"}
+{"English": "surface normal", "tgt_lang": "Chinese", "translation": "表面法线"}
+{"English": "feed forward", "tgt_lang": "Chinese", "translation": "前馈"}
+{"English": "sentence compression", "tgt_lang": "Chinese", "translation": "句子压缩"}
+{"English": "minimum support", "tgt_lang": "Chinese", "translation": "最小支持度"}
+{"English": "regression task", "tgt_lang": "Chinese", "translation": "回归任务"}
+{"English": "causal graph", "tgt_lang": "Chinese", "translation": "因果图"}
+{"English": "partial derivation", "tgt_lang": "Chinese", "translation": "部分导出"}
+{"English": "multi-modal input", "tgt_lang": "Chinese", "translation": "多模态输入"}
+{"English": "3d pose", "tgt_lang": "Chinese", "translation": "3D姿态"}
+{"English": "conjunctive normal form", "tgt_lang": "Chinese", "translation": "合取范式"}
+{"English": "f-measure", "tgt_lang": "Chinese", "translation": "F值"}
+{"English": "precondition", "tgt_lang": "Chinese", "translation": "前置条件"}
+{"English": "rollout length", "tgt_lang": "Chinese", "translation": "展开长度"}
+{"English": "log p", "tgt_lang": "Chinese", "translation": "对数概率"}
+{"English": "training epoch", "tgt_lang": "Chinese", "translation": "训练轮次"}
+{"English": "hyponym", "tgt_lang": "Chinese", "translation": "下位词"}
+{"English": "reprojection", "tgt_lang": "Chinese", "translation": "重投影"}
+{"English": "primal-dual method", "tgt_lang": "Chinese", "translation": "原始-对偶方法"}
+{"English": "conditional sampling", "tgt_lang": "Chinese", "translation": "条件采样"}
+{"English": "instance space", "tgt_lang": "Chinese", "translation": "样本空间"}
+{"English": "convex objective function", "tgt_lang": "Chinese", "translation": "凸目标函数"}
+{"English": "successor state axiom", "tgt_lang": "Chinese", "translation": "后继状态公理"}
+{"English": "datum bias", "tgt_lang": "Chinese", "translation": "数据偏差"}
+{"English": "unsupervised model", "tgt_lang": "Chinese", "translation": "无监督模型"}
+{"English": "answer set programming", "tgt_lang": "Chinese", "translation": "答案集编程"}
+{"English": "probability flow", "tgt_lang": "Chinese", "translation": "概率流"}
+{"English": "distance metric", "tgt_lang": "Chinese", "translation": "距离度量"}
+{"English": "training task", "tgt_lang": "Chinese", "translation": "训练任务"}
+{"English": "causal rule", "tgt_lang": "Chinese", "translation": "因果规则"}
+{"English": "reward signal", "tgt_lang": "Chinese", "translation": "奖励信号"}
+{"English": "classification problem", "tgt_lang": "Chinese", "translation": "分类问题"}
+{"English": "edge feature", "tgt_lang": "Chinese", "translation": "边缘特征"}
+{"English": "syntactic dependency parsing", "tgt_lang": "Chinese", "translation": "句法依存分析"}
+{"English": "graph attention network", "tgt_lang": "Chinese", "translation": "图注意力网络"}
+{"English": "decision tree", "tgt_lang": "Chinese", "translation": "决策树"}
+{"English": "web graph", "tgt_lang": "Chinese", "translation": "网页图"}
+{"English": "model inference", "tgt_lang": "Chinese", "translation": "模型推理"}
+{"English": "datum fidelity", "tgt_lang": "Chinese", "translation": "数据保真度"}
+{"English": "equivalence query", "tgt_lang": "Chinese", "translation": "等价查询"}
+{"English": "self-attention layer", "tgt_lang": "Chinese", "translation": "自注意力层"}
+{"English": "model fine-tuning", "tgt_lang": "Chinese", "translation": "模型微调"}
+{"English": "utility function", "tgt_lang": "Chinese", "translation": "效用函数"}
+{"English": "approximation ratio", "tgt_lang": "Chinese", "translation": "近似比率"}
+{"English": "bipartite matching", "tgt_lang": "Chinese", "translation": "二分图匹配"}
+{"English": "query embedding", "tgt_lang": "Chinese", "translation": "查询嵌入"}
+{"English": "ensemble method", "tgt_lang": "Chinese", "translation": "集成方法"}
+{"English": "neural machinery", "tgt_lang": "Chinese", "translation": "神经机制"}
+{"English": "bicubic interpolation", "tgt_lang": "Chinese", "translation": "双三次插值"}
+{"English": "dimensionality reduction", "tgt_lang": "Chinese", "translation": "降维"}
+{"English": "bilinear form", "tgt_lang": "Chinese", "translation": "双线性形式"}
+{"English": "semantic priming", "tgt_lang": "Chinese", "translation": "语义启动"}
+{"English": "target network", "tgt_lang": "Chinese", "translation": "目标网络"}
+{"English": "input matrix", "tgt_lang": "Chinese", "translation": "输入矩阵"}
+{"English": "maximum a posteriori estimation", "tgt_lang": "Chinese", "translation": "最大后验估计"}
+{"English": "multidimensional quality metric", "tgt_lang": "Chinese", "translation": "多维质量指标"}
+{"English": "spam detection", "tgt_lang": "Chinese", "translation": "垃圾邮件检测"}
+{"English": "diffeomorphism", "tgt_lang": "Chinese", "translation": "微分同胚"}
+{"English": "model hyperparameter", "tgt_lang": "Chinese", "translation": "模型超参数"}
+{"English": "visual grounding", "tgt_lang": "Chinese", "translation": "视觉落地"}
+{"English": "constrained optimization problem", "tgt_lang": "Chinese", "translation": "约束优化问题"}
+{"English": "input graph", "tgt_lang": "Chinese", "translation": "输入图"}
+{"English": "mean function", "tgt_lang": "Chinese", "translation": "均值函数"}
+{"English": "hyperparameter search", "tgt_lang": "Chinese", "translation": "超参数搜索"}
+{"English": "deformable template", "tgt_lang": "Chinese", "translation": "可变模板"}
+{"English": "mocap", "tgt_lang": "Chinese", "translation": "动捕"}
+{"English": "deep net", "tgt_lang": "Chinese", "translation": "深度网络"}
+{"English": "transformer block", "tgt_lang": "Chinese", "translation": "Transformer块"}
+{"English": "bias-variance tradeoff", "tgt_lang": "Chinese", "translation": "偏差-方差权衡"}
+{"English": "topic classification", "tgt_lang": "Chinese", "translation": "主题分类"}
+{"English": "adversarial loss", "tgt_lang": "Chinese", "translation": "对抗损失"}
+{"English": "local consistency", "tgt_lang": "Chinese", "translation": "局部一致性"}
+{"English": "emotion classification", "tgt_lang": "Chinese", "translation": "情感分类"}
+{"English": "model-free approach", "tgt_lang": "Chinese", "translation": "无模型方法"}
+{"English": "nsubj", "tgt_lang": "Chinese", "translation": "nsubj"}
+{"English": "convex set", "tgt_lang": "Chinese", "translation": "凸集"}
+{"English": "context vector", "tgt_lang": "Chinese", "translation": "上下文向量"}
+{"English": "euclidean norm", "tgt_lang": "Chinese", "translation": "欧几里得范数"}
+{"English": "linear transformation", "tgt_lang": "Chinese", "translation": "线性变换"}
+{"English": "dependency arc", "tgt_lang": "Chinese", "translation": "依存弧"}
+{"English": "clip range", "tgt_lang": "Chinese", "translation": "裁剪范围"}
+{"English": "riemannian gradient", "tgt_lang": "Chinese", "translation": "黎曼梯度"}
+{"English": "projective dependency parsing", "tgt_lang": "Chinese", "translation": "投影依存句法分析"}
+{"English": "generative probabilistic model", "tgt_lang": "Chinese", "translation": "生成概率模型"}
+{"English": "global objective", "tgt_lang": "Chinese", "translation": "全局目标"}
+{"English": "calculus of variation", "tgt_lang": "Chinese", "translation": "变分法"}
+{"English": "semi-definite programming", "tgt_lang": "Chinese", "translation": "半定规划"}
+{"English": "scene flow estimation", "tgt_lang": "Chinese", "translation": "场景流估计"}
+{"English": "prefix tree", "tgt_lang": "Chinese", "translation": "前缀树"}
+{"English": "structural learning", "tgt_lang": "Chinese", "translation": "结构学习"}
+{"English": "neural module", "tgt_lang": "Chinese", "translation": "神经模块"}
+{"English": "iteration", "tgt_lang": "Chinese", "translation": "迭代"}
+{"English": "kernel", "tgt_lang": "Chinese", "translation": "核"}
+{"English": "minimizer", "tgt_lang": "Chinese", "translation": "最小化器"}
+{"English": "solution space", "tgt_lang": "Chinese", "translation": "解空间"}
+{"English": "coarse-to-fine approach", "tgt_lang": "Chinese", "translation": "粗到细的方法"}
+{"English": "query language", "tgt_lang": "Chinese", "translation": "查询语言"}
+{"English": "convolutional kernel", "tgt_lang": "Chinese", "translation": "卷积核"}
+{"English": "spatial pyramid", "tgt_lang": "Chinese", "translation": "空间金字塔"}
+{"English": "joint semantic space", "tgt_lang": "Chinese", "translation": "联合语义空间"}
+{"English": "segmentation algorithm", "tgt_lang": "Chinese", "translation": "分割算法"}
+{"English": "network", "tgt_lang": "Chinese", "translation": "网络"}
+{"English": "linear map", "tgt_lang": "Chinese", "translation": "线性映射"}
+{"English": "nonmonotonic reasoning", "tgt_lang": "Chinese", "translation": "非单调推理"}
+{"English": "token length", "tgt_lang": "Chinese", "translation": "标记长度"}
+{"English": "caltech-101", "tgt_lang": "Chinese", "translation": "Caltech-101"}
+{"English": "convolution operator", "tgt_lang": "Chinese", "translation": "卷积算子"}
+{"English": "agent policy", "tgt_lang": "Chinese", "translation": "智能体策略"}
+{"English": "batch mode", "tgt_lang": "Chinese", "translation": "批处理模式"}
+{"English": "back-off strategy", "tgt_lang": "Chinese", "translation": "回退策略"}
+{"English": "bayesian learning", "tgt_lang": "Chinese", "translation": "贝叶斯学习"}
+{"English": "batch setting", "tgt_lang": "Chinese", "translation": "批处理设置"}
+{"English": "intrinsic parameter", "tgt_lang": "Chinese", "translation": "内参参数"}
+{"English": "root mean square error", "tgt_lang": "Chinese", "translation": "均方根误差"}
+{"English": "convolution kernel", "tgt_lang": "Chinese", "translation": "卷积核"}
+{"English": "3d scene geometry", "tgt_lang": "Chinese", "translation": "3D场景几何"}
+{"English": "training example", "tgt_lang": "Chinese", "translation": "训练样本"}
+{"English": "recommender", "tgt_lang": "Chinese", "translation": "推荐系统"}
+{"English": "regularization penalty", "tgt_lang": "Chinese", "translation": "正则化惩罚"}
+{"English": "default logic", "tgt_lang": "Chinese", "translation": "违默认则逻辑"}
+{"English": "self-supervision", "tgt_lang": "Chinese", "translation": "自监督"}
+{"English": "column vector", "tgt_lang": "Chinese", "translation": "列向量"}
+{"English": "training accuracy", "tgt_lang": "Chinese", "translation": "训练准确率"}
+{"English": "stochastic model", "tgt_lang": "Chinese", "translation": "随机模型"}
+{"English": "cross-attention layer", "tgt_lang": "Chinese", "translation": "交叉注意力层"}
+{"English": "pre-training datum", "tgt_lang": "Chinese", "translation": "预训练数据"}
+{"English": "goal state", "tgt_lang": "Chinese", "translation": "目标状态"}
+{"English": "parameter regularization", "tgt_lang": "Chinese", "translation": "参数正则化"}
+{"English": "test datum", "tgt_lang": "Chinese", "translation": "测试数据"}
+{"English": "image plane", "tgt_lang": "Chinese", "translation": "像平面"}
+{"English": "sequence model", "tgt_lang": "Chinese", "translation": "序列模型"}
+{"English": "dense prediction", "tgt_lang": "Chinese", "translation": "密集预测"}
+{"English": "action classification", "tgt_lang": "Chinese", "translation": "动作分类"}
+{"English": "target variable", "tgt_lang": "Chinese", "translation": "目标变量"}
+{"English": "length penalty", "tgt_lang": "Chinese", "translation": "长度惩罚"}
+{"English": "neural mapping", "tgt_lang": "Chinese", "translation": "神经映射"}
+{"English": "synthetic dataset", "tgt_lang": "Chinese", "translation": "合成数据集"}
+{"English": "conditional computation", "tgt_lang": "Chinese", "translation": "条件计算"}
+{"English": "information bottleneck", "tgt_lang": "Chinese", "translation": "信息瓶颈"}
+{"English": "graph structure", "tgt_lang": "Chinese", "translation": "图结构"}
+{"English": "deep feature", "tgt_lang": "Chinese", "translation": "深层特征"}
+{"English": "conversation history", "tgt_lang": "Chinese", "translation": "对话历史"}
+{"English": "machine-in-the-loop", "tgt_lang": "Chinese", "translation": "人机循环"}
+{"English": "hungarian loss", "tgt_lang": "Chinese", "translation": "Hungarian loss"}
+{"English": "neural approach", "tgt_lang": "Chinese", "translation": "神经方法"}
+{"English": "attribute", "tgt_lang": "Chinese", "translation": "属性"}
+{"English": "attention value", "tgt_lang": "Chinese", "translation": "注意值"}
+{"English": "regret minimization", "tgt_lang": "Chinese", "translation": "遗憾最小化"}
+{"English": "conjunctive query", "tgt_lang": "Chinese", "translation": "合取查询"}
+{"English": "vanishing gradient", "tgt_lang": "Chinese", "translation": "梯度消失"}
+{"English": "membership inference attack", "tgt_lang": "Chinese", "translation": "成员推理攻击"}
+{"English": "distance measure", "tgt_lang": "Chinese", "translation": "距离度量"}
+{"English": "detection window", "tgt_lang": "Chinese", "translation": "检测窗口"}
+{"English": "causal inference", "tgt_lang": "Chinese", "translation": "因果推断"}
+{"English": "pre-logit", "tgt_lang": "Chinese", "translation": "预激活值"}
+{"English": "multi-classification", "tgt_lang": "Chinese", "translation": "多分类"}
+{"English": "meta-algorithm", "tgt_lang": "Chinese", "translation": "元算法"}
+{"English": "one-stage detector", "tgt_lang": "Chinese", "translation": "单阶段检测器"}
+{"English": "source sequence", "tgt_lang": "Chinese", "translation": "源序列"}
+{"English": "beam search decoding algorithm", "tgt_lang": "Chinese", "translation": "束搜索解码算法"}
+{"English": "constraint generation", "tgt_lang": "Chinese", "translation": "约束生成"}
+{"English": "residual block", "tgt_lang": "Chinese", "translation": "残差块"}
+{"English": "reprojection error", "tgt_lang": "Chinese", "translation": "重投影误差"}
+{"English": "transition system", "tgt_lang": "Chinese", "translation": "迁移系统"}
+{"English": "causal language model", "tgt_lang": "Chinese", "translation": "因果语言模型"}
+{"English": "word token", "tgt_lang": "Chinese", "translation": "词标记"}
+{"English": "syntactic tree", "tgt_lang": "Chinese", "translation": "句法树"}
+{"English": "near-optimality", "tgt_lang": "Chinese", "translation": "近似最优性"}
+{"English": "feature hashing", "tgt_lang": "Chinese", "translation": "特征哈希"}
+{"English": "tensor", "tgt_lang": "Chinese", "translation": "张量"}
+{"English": "computer vision", "tgt_lang": "Chinese", "translation": "计算机视觉"}
+{"English": "multi-scale architecture", "tgt_lang": "Chinese", "translation": "多尺度架构"}
+{"English": "linear predictor", "tgt_lang": "Chinese", "translation": "线性预测器"}
+{"English": "subsampling factor", "tgt_lang": "Chinese", "translation": "子采样因子"}
+{"English": "vector representation", "tgt_lang": "Chinese", "translation": "向量表示"}
+{"English": "prior distribution", "tgt_lang": "Chinese", "translation": "先验分布"}
+{"English": "validation loss", "tgt_lang": "Chinese", "translation": "验证损失"}
+{"English": "transfer learning", "tgt_lang": "Chinese", "translation": "迁移学习"}
+{"English": "monolingual dataset", "tgt_lang": "Chinese", "translation": "单语数据集"}
+{"English": "perfect matching", "tgt_lang": "Chinese", "translation": "完美匹配"}
+{"English": "label distribution", "tgt_lang": "Chinese", "translation": "标签分布"}
+{"English": "point match", "tgt_lang": "Chinese", "translation": "点匹配"}
+{"English": "target token", "tgt_lang": "Chinese", "translation": "目标标记"}
+{"English": "bootstrap learning", "tgt_lang": "Chinese", "translation": "自举学习"}
+{"English": "scene graph", "tgt_lang": "Chinese", "translation": "场景图"}
+{"English": "ranking algorithm", "tgt_lang": "Chinese", "translation": "排序算法"}
+{"English": "log partition function", "tgt_lang": "Chinese", "translation": "对数分区函数"}
+{"English": "model initialization", "tgt_lang": "Chinese", "translation": "模型初始化"}
+{"English": "latent vector", "tgt_lang": "Chinese", "translation": "潜向量"}
+{"English": "vector arithmetic", "tgt_lang": "Chinese", "translation": "向量运算"}
+{"English": "empirical risk minimization", "tgt_lang": "Chinese", "translation": "经验风险最小化"}
+{"English": "decision policy", "tgt_lang": "Chinese", "translation": "决策策略"}
+{"English": "visual odometry", "tgt_lang": "Chinese", "translation": "视觉里程计"}
+{"English": "multi-label text classification", "tgt_lang": "Chinese", "translation": "多标签文本分类"}
+{"English": "sub-population", "tgt_lang": "Chinese", "translation": "子群体"}
+{"English": "block-diagonal matrix", "tgt_lang": "Chinese", "translation": "块对角矩阵"}
+{"English": "prior probability distribution", "tgt_lang": "Chinese", "translation": "先验概率分布"}
+{"English": "algorithmic approach", "tgt_lang": "Chinese", "translation": "算法方法"}
+{"English": "pareto optimality", "tgt_lang": "Chinese", "translation": "帕累托最优"}
+{"English": "gating function", "tgt_lang": "Chinese", "translation": "门控函数"}
+{"English": "regularization", "tgt_lang": "Chinese", "translation": "正则化"}
+{"English": "dependency relation", "tgt_lang": "Chinese", "translation": "依存关系"}
+{"English": "white-box", "tgt_lang": "Chinese", "translation": "白盒"}
+{"English": "motion analysis", "tgt_lang": "Chinese", "translation": "运动分析"}
+{"English": "pre-trained embedding", "tgt_lang": "Chinese", "translation": "预训练嵌入"}
+{"English": "orthographic projection", "tgt_lang": "Chinese", "translation": "正交投影"}
+{"English": "bound variable", "tgt_lang": "Chinese", "translation": "约束变量"}
+{"English": "controllable text generation", "tgt_lang": "Chinese", "translation": "可控文本生成"}
+{"English": "topic distribution", "tgt_lang": "Chinese", "translation": "主题分布"}
+{"English": "object bounding box", "tgt_lang": "Chinese", "translation": "目标边界框"}
+{"English": "proposal probability", "tgt_lang": "Chinese", "translation": "提议概率"}
+{"English": "self-learning", "tgt_lang": "Chinese", "translation": "自学习"}
+{"English": "top-p sampling", "tgt_lang": "Chinese", "translation": "top-p采样"}
+{"English": "generator", "tgt_lang": "Chinese", "translation": "生成器"}
+{"English": "feature dimension", "tgt_lang": "Chinese", "translation": "特征维度"}
+{"English": "data sparseness", "tgt_lang": "Chinese", "translation": "数据稀疏"}
+{"English": "convergence analysis", "tgt_lang": "Chinese", "translation": "收敛性分析"}
+{"English": "stationary kernel", "tgt_lang": "Chinese", "translation": "平稳核"}
+{"English": "dictionary matrix", "tgt_lang": "Chinese", "translation": "字典矩阵"}
+{"English": "sub-networks", "tgt_lang": "Chinese", "translation": "子网络"}
+{"English": "factorization", "tgt_lang": "Chinese", "translation": "因子分解"}
+{"English": "context free grammar", "tgt_lang": "Chinese", "translation": "上下文无关文法"}
+{"English": "graph matching", "tgt_lang": "Chinese", "translation": "图匹配"}
+{"English": "autonomous agent", "tgt_lang": "Chinese", "translation": "自主代理"}
+{"English": "unary production", "tgt_lang": "Chinese", "translation": "一元生成"}
+{"English": "online learning theory", "tgt_lang": "Chinese", "translation": "在线学习理论"}
+{"English": "2d image", "tgt_lang": "Chinese", "translation": "2D图像"}
+{"English": "domain element", "tgt_lang": "Chinese", "translation": "域元素"}
+{"English": "knowledge transfer", "tgt_lang": "Chinese", "translation": "知识迁移"}
+{"English": "orthonormality", "tgt_lang": "Chinese", "translation": "正交归一性"}
+{"English": "bayesian inference", "tgt_lang": "Chinese", "translation": "贝叶斯推断"}
+{"English": "feature point", "tgt_lang": "Chinese", "translation": "特征点"}
+{"English": "posterior probability", "tgt_lang": "Chinese", "translation": "后验概率"}
+{"English": "graph convolutional network", "tgt_lang": "Chinese", "translation": "图卷积网络"}
+{"English": "foundation model", "tgt_lang": "Chinese", "translation": "基础模型"}
+{"English": "bandit learning", "tgt_lang": "Chinese", "translation": "赌博学习"}
+{"English": "computational model", "tgt_lang": "Chinese", "translation": "计算模型"}
+{"English": "subgame", "tgt_lang": "Chinese", "translation": "子游戏"}
+{"English": "belief state", "tgt_lang": "Chinese", "translation": "信念状态"}
+{"English": "off-diagonal element", "tgt_lang": "Chinese", "translation": "非对角元"}
+{"English": "matroid", "tgt_lang": "Chinese", "translation": "拟阵"}
+{"English": "binary atom", "tgt_lang": "Chinese", "translation": "二元原子"}
+{"English": "semantic class", "tgt_lang": "Chinese", "translation": "语义类别"}
+{"English": "hash", "tgt_lang": "Chinese", "translation": "哈希"}
+{"English": "observational datum", "tgt_lang": "Chinese", "translation": "观测数据"}
+{"English": "localization", "tgt_lang": "Chinese", "translation": "定位"}
+{"English": "dialogue system", "tgt_lang": "Chinese", "translation": "对话系统"}
+{"English": "categorial grammar", "tgt_lang": "Chinese", "translation": "范畴语法"}
+{"English": "semantic category", "tgt_lang": "Chinese", "translation": "语义类别"}
+{"English": "statistical machine translation system", "tgt_lang": "Chinese", "translation": "统计机器翻译系统"}
+{"English": "data augmentation", "tgt_lang": "Chinese", "translation": "数据增强"}
+{"English": "float32", "tgt_lang": "Chinese", "translation": "float32"}
+{"English": "weight initialization", "tgt_lang": "Chinese", "translation": "权重初始化"}
+{"English": "invertible matrix", "tgt_lang": "Chinese", "translation": "可逆矩阵"}
+{"English": "behavior policy", "tgt_lang": "Chinese", "translation": "行为策略"}
+{"English": "linear decoder", "tgt_lang": "Chinese", "translation": "线性解码器"}
+{"English": "automated mechanism design", "tgt_lang": "Chinese", "translation": "自动化机制设计"}
+{"English": "probability mass function", "tgt_lang": "Chinese", "translation": "概率质量函数"}
+{"English": "hyper-parameter tuning", "tgt_lang": "Chinese", "translation": "超参数调优"}
+{"English": "inference time", "tgt_lang": "Chinese", "translation": "推理时间"}
+{"English": "gaussian random variable", "tgt_lang": "Chinese", "translation": "高斯随机变量"}
+{"English": "advantage function", "tgt_lang": "Chinese", "translation": "优势函数"}
+{"English": "linear regression", "tgt_lang": "Chinese", "translation": "线性回归"}
+{"English": "image classification", "tgt_lang": "Chinese", "translation": "图像分类"}
+{"English": "maximal frequent pattern", "tgt_lang": "Chinese", "translation": "最大频繁模式"}
+{"English": "approximation guarantee", "tgt_lang": "Chinese", "translation": "近似保证"}
+{"English": "bottom-up learning", "tgt_lang": "Chinese", "translation": "自底向上学习"}
+{"English": "few-shot prompting", "tgt_lang": "Chinese", "translation": "少样本提示"}
+{"English": "gradient descent", "tgt_lang": "Chinese", "translation": "梯度下降"}
+{"English": "t5 model", "tgt_lang": "Chinese", "translation": "T5 model"}
+{"English": "baseline model", "tgt_lang": "Chinese", "translation": "基线模型"}
+{"English": "minimax optimization problem", "tgt_lang": "Chinese", "translation": "极小极大优化问题"}
+{"English": "neural network language model", "tgt_lang": "Chinese", "translation": "神经网络语言模型"}
+{"English": "attribution", "tgt_lang": "Chinese", "translation": "归因"}
+{"English": "input filter", "tgt_lang": "Chinese", "translation": "输入过滤器"}
+{"English": "forward algorithm", "tgt_lang": "Chinese", "translation": "前向算法"}
+{"English": "empirical variance", "tgt_lang": "Chinese", "translation": "经验方差"}
+{"English": "distance function", "tgt_lang": "Chinese", "translation": "距离函数"}
+{"English": "lagrange multiplier", "tgt_lang": "Chinese", "translation": "拉格朗日乘数"}
+{"English": "cross-lingual knowledge transfer", "tgt_lang": "Chinese", "translation": "跨语言知识迁移"}
+{"English": "time/space complexity", "tgt_lang": "Chinese", "translation": "时间/空间复杂度"}
+{"English": "state transition model", "tgt_lang": "Chinese", "translation": "状态转换模型"}
+{"English": "stochastic search algorithm", "tgt_lang": "Chinese", "translation": "随机搜索算法"}
+{"English": "semantic space", "tgt_lang": "Chinese", "translation": "语义空间"}
+{"English": "generative adversarial network", "tgt_lang": "Chinese", "translation": "生成对抗网络"}
+{"English": "junction tree", "tgt_lang": "Chinese", "translation": "\"连接树\""}
+{"English": "bisimulation", "tgt_lang": "Chinese", "translation": "互模拟"}
+{"English": "residual error", "tgt_lang": "Chinese", "translation": "残差误差"}
+{"English": "hill-climbing", "tgt_lang": "Chinese", "translation": "爬山法"}
+{"English": "perception", "tgt_lang": "Chinese", "translation": "感知"}
+{"English": "multi-head self-attention module", "tgt_lang": "Chinese", "translation": "多头自注意力模块"}
+{"English": "self-attention matrix", "tgt_lang": "Chinese", "translation": "自注意力矩阵"}
+{"English": "l 2 -norm", "tgt_lang": "Chinese", "translation": "L2范数"}
+{"English": "cost-sensitive learning", "tgt_lang": "Chinese", "translation": "成本敏感学习"}
+{"English": "vision model", "tgt_lang": "Chinese", "translation": "视觉模型"}
+{"English": "multi-class classification", "tgt_lang": "Chinese", "translation": "多类分类"}
+{"English": "uniform convergence", "tgt_lang": "Chinese", "translation": "一致收敛"}
+{"English": "target policy", "tgt_lang": "Chinese", "translation": "目标策略"}
+{"English": "node", "tgt_lang": "Chinese", "translation": "节点"}
+{"English": "hierarchical model", "tgt_lang": "Chinese", "translation": "分层模型"}
+{"English": "pose space", "tgt_lang": "Chinese", "translation": "姿态空间"}
+{"English": "cross entropy error", "tgt_lang": "Chinese", "translation": "交叉熵误差"}
+{"English": "metric learning algorithm", "tgt_lang": "Chinese", "translation": "度量学习算法"}
+{"English": "l1 regularization", "tgt_lang": "Chinese", "translation": "L1正则化"}
+{"English": "occupancy map", "tgt_lang": "Chinese", "translation": "占用图"}
+{"English": "query time", "tgt_lang": "Chinese", "translation": "查询时间"}
+{"English": "a * algorithm", "tgt_lang": "Chinese", "translation": "A * 算法"}
+{"English": "sequential decision making", "tgt_lang": "Chinese", "translation": "序列决策"}
+{"English": "feature selection", "tgt_lang": "Chinese", "translation": "特征选择"}
+{"English": "graph isomorphism", "tgt_lang": "Chinese", "translation": "图同构"}
+{"English": "l2 weight decay", "tgt_lang": "Chinese", "translation": "L2正则化"}
+{"English": "critic loss", "tgt_lang": "Chinese", "translation": "判别器损失"}
+{"English": "coarse-to-fine", "tgt_lang": "Chinese", "translation": "粗到细"}
+{"English": "optimiser", "tgt_lang": "Chinese", "translation": "优化器"}
+{"English": "iterative algorithm", "tgt_lang": "Chinese", "translation": "迭代算法"}
+{"English": "unsupervised classification", "tgt_lang": "Chinese", "translation": "无监督分类"}
+{"English": "semantic alignment", "tgt_lang": "Chinese", "translation": "语义对齐"}
+{"English": "hierarchical decoder", "tgt_lang": "Chinese", "translation": "层次解码器"}
+{"English": "lexical model", "tgt_lang": "Chinese", "translation": "词汇模型"}
+{"English": "local minima", "tgt_lang": "Chinese", "translation": "局部极小值"}
+{"English": "excess loss", "tgt_lang": "Chinese", "translation": "过剩损失"}
+{"English": "second order", "tgt_lang": "Chinese", "translation": "二阶"}
+{"English": "binary label", "tgt_lang": "Chinese", "translation": "二元标签"}
+{"English": "minimum description length", "tgt_lang": "Chinese", "translation": "最小描述长度"}
+{"English": "human-in-the-loop", "tgt_lang": "Chinese", "translation": "人机协作"}
+{"English": "deterministic baseline", "tgt_lang": "Chinese", "translation": "确定性基线"}
+{"English": "greedy approach", "tgt_lang": "Chinese", "translation": "贪心方法"}
+{"English": "temporal logic", "tgt_lang": "Chinese", "translation": "时序逻辑"}
+{"English": "multi-head attention layer", "tgt_lang": "Chinese", "translation": "多头注意力层"}
+{"English": "intractability", "tgt_lang": "Chinese", "translation": "难解性"}
+{"English": "unlexicalized grammar", "tgt_lang": "Chinese", "translation": "非词汇化语法"}
+{"English": "image synthesis", "tgt_lang": "Chinese", "translation": "图像合成"}
+{"English": "loss term", "tgt_lang": "Chinese", "translation": "损失项"}
+{"English": "datum parallelism", "tgt_lang": "Chinese", "translation": "数据并行性"}
+{"English": "generalization ability", "tgt_lang": "Chinese", "translation": "泛化能力"}
+{"English": "energy minimization", "tgt_lang": "Chinese", "translation": "能量最小化"}
+{"English": "free variable", "tgt_lang": "Chinese", "translation": "自由变量"}
+{"English": "rollout", "tgt_lang": "Chinese", "translation": "展开"}
+{"English": "weight decay", "tgt_lang": "Chinese", "translation": "权重衰减"}
+{"English": "document clustering", "tgt_lang": "Chinese", "translation": "文档聚类"}
+{"English": "bilateral filtering", "tgt_lang": "Chinese", "translation": "双边滤波"}
+{"English": "predictor", "tgt_lang": "Chinese", "translation": "预测器"}
+{"English": "sequence labeling", "tgt_lang": "Chinese", "translation": "序列标注"}
+{"English": "coarse correlated equilibrium", "tgt_lang": "Chinese", "translation": "粗相关均衡"}
+{"English": "deep q-learning", "tgt_lang": "Chinese", "translation": "深度Q学习"}
+{"English": "communication graph", "tgt_lang": "Chinese", "translation": "通信图"}
+{"English": "reservoir sampling", "tgt_lang": "Chinese", "translation": "水库抽样"}
+{"English": "hybrid model", "tgt_lang": "Chinese", "translation": "混合模型"}
+{"English": "classification margin", "tgt_lang": "Chinese", "translation": "分类边界"}
+{"English": "end-of-sequence token", "tgt_lang": "Chinese", "translation": "序列结束标记"}
+{"English": "gradient variance", "tgt_lang": "Chinese", "translation": "梯度方差"}
+{"English": "model development", "tgt_lang": "Chinese", "translation": "模型开发"}
+{"English": "conditional entropy", "tgt_lang": "Chinese", "translation": "条件熵"}
+{"English": "transition probability", "tgt_lang": "Chinese", "translation": "转移概率"}
+{"English": "uncertainty sampling", "tgt_lang": "Chinese", "translation": "不确定性采样"}
+{"English": "probabilistic topic modeling", "tgt_lang": "Chinese", "translation": "概率主题建模"}
+{"English": "hyperprior", "tgt_lang": "Chinese", "translation": "超先验"}
+{"English": "recurrent architecture", "tgt_lang": "Chinese", "translation": "循环结构"}
+{"English": "neural text generation", "tgt_lang": "Chinese", "translation": "神经文本生成"}
+{"English": "piecewise linear", "tgt_lang": "Chinese", "translation": "分段线性"}
+{"English": "policy gradient theorem", "tgt_lang": "Chinese", "translation": "策略梯度定理"}
+{"English": "slot", "tgt_lang": "Chinese", "translation": "槽"}
+{"English": "hamming loss", "tgt_lang": "Chinese", "translation": "汉明损失"}
+{"English": "class", "tgt_lang": "Chinese", "translation": "类别"}
+{"English": "3d localization", "tgt_lang": "Chinese", "translation": "3D定位"}
+{"English": "joint likelihood", "tgt_lang": "Chinese", "translation": "联合似然"}
+{"English": "parameter tying", "tgt_lang": "Chinese", "translation": "参数绑定"}
+{"English": "vector space representation", "tgt_lang": "Chinese", "translation": "向量空间表示"}
+{"English": "second-order optimization", "tgt_lang": "Chinese", "translation": "二阶优化"}
+{"English": "ridge regression", "tgt_lang": "Chinese", "translation": "岭回归"}
+{"English": "binary classification task", "tgt_lang": "Chinese", "translation": "二元分类任务"}
+{"English": "projection operator", "tgt_lang": "Chinese", "translation": "投影算子"}
+{"English": "text mining", "tgt_lang": "Chinese", "translation": "文本挖掘"}
+{"English": "feature matrix", "tgt_lang": "Chinese", "translation": "特征矩阵"}
+{"English": "rigid body transformation", "tgt_lang": "Chinese", "translation": "刚体变换"}
+{"English": "probabilistic inference", "tgt_lang": "Chinese", "translation": "概率推理"}
+{"English": "identity transformation", "tgt_lang": "Chinese", "translation": "恒等变换"}
+{"English": "kernel learning problem", "tgt_lang": "Chinese", "translation": "核学习问题"}
+{"English": "jaccard similarity coefficient", "tgt_lang": "Chinese", "translation": "Jaccard相似系数"}
+{"English": "reward", "tgt_lang": "Chinese", "translation": "奖励"}
+{"English": "cosine", "tgt_lang": "Chinese", "translation": "余弦"}
+{"English": "pretrained multilingual model", "tgt_lang": "Chinese", "translation": "预训练多语言模型"}
+{"English": "empirical loss", "tgt_lang": "Chinese", "translation": "经验损失"}
+{"English": "inference algorithm", "tgt_lang": "Chinese", "translation": "推理算法"}
+{"English": "representation matrix", "tgt_lang": "Chinese", "translation": "表示矩阵"}
+{"English": "i.i.d", "tgt_lang": "Chinese", "translation": "i.i.d"}
+{"English": "performance difference lemma", "tgt_lang": "Chinese", "translation": "性能差异引理"}
+{"English": "spectrogram", "tgt_lang": "Chinese", "translation": "频谱图"}
+{"English": "macro-average", "tgt_lang": "Chinese", "translation": "宏平均"}
+{"English": "masked token", "tgt_lang": "Chinese", "translation": "掩码标记"}
+{"English": "weak learning assumption", "tgt_lang": "Chinese", "translation": "弱学习假设"}
+{"English": "grammar inducer", "tgt_lang": "Chinese", "translation": "语法归纳器"}
+{"English": "power law distribution", "tgt_lang": "Chinese", "translation": "幂律分布"}
+{"English": "convolutional neural network", "tgt_lang": "Chinese", "translation": "卷积神经网络"}
+{"English": "correlated equilibria", "tgt_lang": "Chinese", "translation": "相关均衡"}
+{"English": "scale invariance", "tgt_lang": "Chinese", "translation": "尺度不变性"}
+{"English": "teacher network", "tgt_lang": "Chinese", "translation": "教师网络"}
+{"English": "entailment", "tgt_lang": "Chinese", "translation": "蕴涵"}
+{"English": "pairwise learning", "tgt_lang": "Chinese", "translation": "成对学习"}
+{"English": "distributionally robust optimization", "tgt_lang": "Chinese", "translation": "分布鲁棒优化"}
+{"English": "bibliographic coupling", "tgt_lang": "Chinese", "translation": "书目耦合"}
+{"English": "unit sphere", "tgt_lang": "Chinese", "translation": "单位球面"}
+{"English": "social bias", "tgt_lang": "Chinese", "translation": "社会偏见"}
+{"English": "zero-shot cross-lingual setting", "tgt_lang": "Chinese", "translation": "零样本跨语言设置"}
+{"English": "submodular influence function", "tgt_lang": "Chinese", "translation": "子模影响函数"}
+{"English": "lexical entry", "tgt_lang": "Chinese", "translation": "词汇条目"}
+{"English": "quadratic loss", "tgt_lang": "Chinese", "translation": "二次损失"}
+{"English": "multi-head attention", "tgt_lang": "Chinese", "translation": "多头注意力"}
+{"English": "keypoint detection", "tgt_lang": "Chinese", "translation": "关键点检测"}
+{"English": "counterfactual fairness", "tgt_lang": "Chinese", "translation": "反事实公平"}
+{"English": "poisson point process", "tgt_lang": "Chinese", "translation": "泊松点过程"}
+{"English": "language generation", "tgt_lang": "Chinese", "translation": "语言生成"}
+{"English": "knowledge graph", "tgt_lang": "Chinese", "translation": "知识图谱"}
+{"English": "regularization term", "tgt_lang": "Chinese", "translation": "正则化项"}
+{"English": "greedy policy", "tgt_lang": "Chinese", "translation": "贪婪策略"}
+{"English": "degree distribution", "tgt_lang": "Chinese", "translation": "度分布"}
+{"English": "gaussian function", "tgt_lang": "Chinese", "translation": "高斯函数"}
+{"English": "decoder state", "tgt_lang": "Chinese", "translation": "解码器状态"}
+{"English": "cycle consistency loss", "tgt_lang": "Chinese", "translation": "循环一致性损失"}
+{"English": "mean reciprocal rank", "tgt_lang": "Chinese", "translation": "平均倒数排名"}
+{"English": "n-gram", "tgt_lang": "Chinese", "translation": "n-gram"}
+{"English": "hard attention", "tgt_lang": "Chinese", "translation": "硬注意力"}
+{"English": "convex objective", "tgt_lang": "Chinese", "translation": "凸目标"}
+{"English": "geometric distribution", "tgt_lang": "Chinese", "translation": "几何分布"}
+{"English": "fractional program", "tgt_lang": "Chinese", "translation": "分式规划"}
+{"English": "data-to-text generation", "tgt_lang": "Chinese", "translation": "数据到文本生成"}
+{"English": "lambda calculus", "tgt_lang": "Chinese", "translation": "λ演算"}
+{"English": "global coordinate frame", "tgt_lang": "Chinese", "translation": "全局坐标系"}
+{"English": "permutation invariance", "tgt_lang": "Chinese", "translation": "排列不变性"}
+{"English": "input feature", "tgt_lang": "Chinese", "translation": "输入特征"}
+{"English": "decomposition method", "tgt_lang": "Chinese", "translation": "分解方法"}
+{"English": "global minima", "tgt_lang": "Chinese", "translation": "全局极小值"}
+{"English": "kernel parameter", "tgt_lang": "Chinese", "translation": "核参数"}
+{"English": "word segmentation", "tgt_lang": "Chinese", "translation": "分词"}
+{"English": "graph pattern", "tgt_lang": "Chinese", "translation": "图模式"}
+{"English": "light field interpolation", "tgt_lang": "Chinese", "translation": "光场插值"}
+{"English": "low rank approximation", "tgt_lang": "Chinese", "translation": "低秩逼近"}
+{"English": "representer theorem", "tgt_lang": "Chinese", "translation": "表示定理"}
+{"English": "local maximum", "tgt_lang": "Chinese", "translation": "局部最大值"}
+{"English": "auxiliary variable", "tgt_lang": "Chinese", "translation": "辅助变量"}
+{"English": "decoder hidden state", "tgt_lang": "Chinese", "translation": "解码器隐藏状态"}
+{"English": "graphlet", "tgt_lang": "Chinese", "translation": "图小体"}
+{"English": "intersection-over-union", "tgt_lang": "Chinese", "translation": "交并比"}
+{"English": "multilingual training", "tgt_lang": "Chinese", "translation": "多语言训练"}
+{"English": "scene representation", "tgt_lang": "Chinese", "translation": "场景表示"}
+{"English": "linear system", "tgt_lang": "Chinese", "translation": "线性系统"}
+{"English": "bregman divergence", "tgt_lang": "Chinese", "translation": "Bregman散度"}
+{"English": "keypoint detector", "tgt_lang": "Chinese", "translation": "关键点检测器"}
+{"English": "measurement noise", "tgt_lang": "Chinese", "translation": "测量噪声"}
+{"English": "information content", "tgt_lang": "Chinese", "translation": "信息量"}
+{"English": "distant supervision", "tgt_lang": "Chinese", "translation": "远程监督"}
+{"English": "subgraph isomorphism", "tgt_lang": "Chinese", "translation": "子图同构"}
+{"English": "camera matrix", "tgt_lang": "Chinese", "translation": "相机矩阵"}
+{"English": "annotator bias", "tgt_lang": "Chinese", "translation": "标注者偏见"}
+{"English": "alignment algorithm", "tgt_lang": "Chinese", "translation": "对齐算法"}
+{"English": "knapsack problem", "tgt_lang": "Chinese", "translation": "背包问题"}
+{"English": "query phase", "tgt_lang": "Chinese", "translation": "查询阶段"}
+{"English": "linear program", "tgt_lang": "Chinese", "translation": "线性规划"}
+{"English": "multi-modal", "tgt_lang": "Chinese", "translation": "多模态"}
+{"English": "nonconvex function", "tgt_lang": "Chinese", "translation": "非凸函数"}
+{"English": "pooling operation", "tgt_lang": "Chinese", "translation": "池化操作"}
+{"English": "consequent", "tgt_lang": "Chinese", "translation": "后件"}
+{"English": "transition model", "tgt_lang": "Chinese", "translation": "转移模型"}
+{"English": "pre-trained weight", "tgt_lang": "Chinese", "translation": "预训练权重"}
+{"English": "post-processing", "tgt_lang": "Chinese", "translation": "后处理"}
+{"English": "joint inference", "tgt_lang": "Chinese", "translation": "联合推理"}
+{"English": "token-level attention", "tgt_lang": "Chinese", "translation": "词元级注意力"}

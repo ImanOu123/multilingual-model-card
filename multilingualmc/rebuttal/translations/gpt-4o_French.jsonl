@@ -1,0 +1,500 @@
+{"English": "activity recognition", "tgt_lang": "French", "translation": "reconnaissance d'activités"}
+{"English": "deterministic annealing", "tgt_lang": "French", "translation": "recuit déterministe"}
+{"English": "data processing inequality", "tgt_lang": "French", "translation": "inégalité de traitement des données"}
+{"English": "conditional density", "tgt_lang": "French", "translation": "densité conditionnelle"}
+{"English": "asymmetric transformation", "tgt_lang": "French", "translation": "transformation asymétrique"}
+{"English": "sibling model", "tgt_lang": "French", "translation": "modèle frère"}
+{"English": "initial state", "tgt_lang": "French", "translation": "état initial"}
+{"English": "kernel density estimate", "tgt_lang": "French", "translation": "estimation de densité par noyau"}
+{"English": "local basis function", "tgt_lang": "French", "translation": "fonction de base locale"}
+{"English": "transliteration", "tgt_lang": "French", "translation": "translittération"}
+{"English": "optimization function", "tgt_lang": "French", "translation": "fonction d'optimisation"}
+{"English": "quality estimation", "tgt_lang": "French", "translation": "Estimation de la qualité"}
+{"English": "unigram language model", "tgt_lang": "French", "translation": "modèle de langue à unigramme"}
+{"English": "i.i.d. sample", "tgt_lang": "French", "translation": "échantillon i.i.d."}
+{"English": "semantic feature", "tgt_lang": "French", "translation": "caractéristique sémantique"}
+{"English": "recurrent layer", "tgt_lang": "French", "translation": "Couche récurrente"}
+{"English": "scene recognition", "tgt_lang": "French", "translation": "reconnaissance de scène"}
+{"English": "dropout layer", "tgt_lang": "French", "translation": "couche de dropout"}
+{"English": "architecture search", "tgt_lang": "French", "translation": "recherche d'architecture"}
+{"English": "detection score", "tgt_lang": "French", "translation": "score de détection"}
+{"English": "tree search", "tgt_lang": "French", "translation": "recherche arborescente"}
+{"English": "learning rate scheduler", "tgt_lang": "French", "translation": "planificateur de taux d'apprentissage"}
+{"English": "primal optimization", "tgt_lang": "French", "translation": "optimisation primale"}
+{"English": "dependency representation", "tgt_lang": "French", "translation": "représentation de dépendance"}
+{"English": "utility", "tgt_lang": "French", "translation": "utilité"}
+{"English": "machine comprehension", "tgt_lang": "French", "translation": "Compréhension Machine"}
+{"English": "tensor field", "tgt_lang": "French", "translation": "champ de tenseurs"}
+{"English": "first-order logic", "tgt_lang": "French", "translation": "logique du premier ordre"}
+{"English": "featurized representation", "tgt_lang": "French", "translation": "représentation vectorisée"}
+{"English": "language representation", "tgt_lang": "French", "translation": "représentation du langage"}
+{"English": "fine-tune", "tgt_lang": "French", "translation": "affiner"}
+{"English": "parameterisation", "tgt_lang": "French", "translation": "paramétrisation"}
+{"English": "gaussian likelihood", "tgt_lang": "French", "translation": "Vraisemblance gaussienne"}
+{"English": "statistical learning algorithm", "tgt_lang": "French", "translation": "algorithme d'apprentissage statistique"}
+{"English": "surface normal", "tgt_lang": "French", "translation": "normale de surface"}
+{"English": "feed forward", "tgt_lang": "French", "translation": "feed forward"}
+{"English": "sentence compression", "tgt_lang": "French", "translation": "compression de phrase"}
+{"English": "minimum support", "tgt_lang": "French", "translation": "support minimum"}
+{"English": "regression task", "tgt_lang": "French", "translation": "tâche de régression"}
+{"English": "causal graph", "tgt_lang": "French", "translation": "graphe causal"}
+{"English": "partial derivation", "tgt_lang": "French", "translation": "dérivation partielle"}
+{"English": "multi-modal input", "tgt_lang": "French", "translation": "entrées multi-modales"}
+{"English": "3d pose", "tgt_lang": "French", "translation": "Pose 3D"}
+{"English": "conjunctive normal form", "tgt_lang": "French", "translation": "forme normale conjonctive"}
+{"English": "f-measure", "tgt_lang": "French", "translation": "Mesure F"}
+{"English": "precondition", "tgt_lang": "French", "translation": "précondition"}
+{"English": "rollout length", "tgt_lang": "French", "translation": "longueur de déploiement"}
+{"English": "log p", "tgt_lang": "French", "translation": "log p"}
+{"English": "training epoch", "tgt_lang": "French", "translation": "époque d'entraînement"}
+{"English": "hyponym", "tgt_lang": "French", "translation": "hyponyme"}
+{"English": "reprojection", "tgt_lang": "French", "translation": "reprojection"}
+{"English": "primal-dual method", "tgt_lang": "French", "translation": "méthode primal-dual"}
+{"English": "conditional sampling", "tgt_lang": "French", "translation": "échantillonnage conditionnel"}
+{"English": "instance space", "tgt_lang": "French", "translation": "espace des instances"}
+{"English": "convex objective function", "tgt_lang": "French", "translation": "fonction objectif convexe"}
+{"English": "successor state axiom", "tgt_lang": "French", "translation": "axiome d'état successeur"}
+{"English": "datum bias", "tgt_lang": "French", "translation": "biais de données"}
+{"English": "unsupervised model", "tgt_lang": "French", "translation": "modèle non supervisé"}
+{"English": "answer set programming", "tgt_lang": "French", "translation": "Answer Set Programming"}
+{"English": "probability flow", "tgt_lang": "French", "translation": "écoulement de probabilité"}
+{"English": "distance metric", "tgt_lang": "French", "translation": "métrique de distance"}
+{"English": "training task", "tgt_lang": "French", "translation": "tâche d'entraînement"}
+{"English": "causal rule", "tgt_lang": "French", "translation": "règle causale"}
+{"English": "reward signal", "tgt_lang": "French", "translation": "signal de récompense"}
+{"English": "classification problem", "tgt_lang": "French", "translation": "problème de classification"}
+{"English": "edge feature", "tgt_lang": "French", "translation": "caractéristique de bord"}
+{"English": "syntactic dependency parsing", "tgt_lang": "French", "translation": "analyse de dépendance syntaxique"}
+{"English": "graph attention network", "tgt_lang": "French", "translation": "réseau d'attention par graphe"}
+{"English": "decision tree", "tgt_lang": "French", "translation": "arbre de décision"}
+{"English": "web graph", "tgt_lang": "French", "translation": "graphe web"}
+{"English": "model inference", "tgt_lang": "French", "translation": "inférence du modèle"}
+{"English": "datum fidelity", "tgt_lang": "French", "translation": "fidélité des données"}
+{"English": "equivalence query", "tgt_lang": "French", "translation": "requête d'équivalence"}
+{"English": "self-attention layer", "tgt_lang": "French", "translation": "couche d'auto-attention"}
+{"English": "model fine-tuning", "tgt_lang": "French", "translation": "Ajustement fin du modèle"}
+{"English": "utility function", "tgt_lang": "French", "translation": "fonction d'utilité"}
+{"English": "approximation ratio", "tgt_lang": "French", "translation": "rapport d'approximation"}
+{"English": "bipartite matching", "tgt_lang": "French", "translation": "appairage bipartite"}
+{"English": "query embedding", "tgt_lang": "French", "translation": "incorporation de requête"}
+{"English": "ensemble method", "tgt_lang": "French", "translation": "méthode d'ensemble"}
+{"English": "neural machinery", "tgt_lang": "French", "translation": "machinerie neuronale"}
+{"English": "bicubic interpolation", "tgt_lang": "French", "translation": "Interpolation bicubique"}
+{"English": "dimensionality reduction", "tgt_lang": "French", "translation": "réduction de la dimensionnalité"}
+{"English": "bilinear form", "tgt_lang": "French", "translation": "forme bilinéaire"}
+{"English": "semantic priming", "tgt_lang": "French", "translation": "amorçage sémantique"}
+{"English": "target network", "tgt_lang": "French", "translation": "réseau cible"}
+{"English": "input matrix", "tgt_lang": "French", "translation": "matrice d'entrée"}
+{"English": "maximum a posteriori estimation", "tgt_lang": "French", "translation": "estimation du maximum a posteriori"}
+{"English": "multidimensional quality metric", "tgt_lang": "French", "translation": "Multidimensional Quality Metrics"}
+{"English": "spam detection", "tgt_lang": "French", "translation": "détection de spam"}
+{"English": "diffeomorphism", "tgt_lang": "French", "translation": "Difféomorphisme"}
+{"English": "model hyperparameter", "tgt_lang": "French", "translation": "hyperparamètre de modèle"}
+{"English": "visual grounding", "tgt_lang": "French", "translation": "ancrage visuel"}
+{"English": "constrained optimization problem", "tgt_lang": "French", "translation": "problème d'optimisation sous contraintes"}
+{"English": "input graph", "tgt_lang": "French", "translation": "graphe d'entrée"}
+{"English": "mean function", "tgt_lang": "French", "translation": "fonction moyenne"}
+{"English": "hyperparameter search", "tgt_lang": "French", "translation": "Recherche d'hyperparamètres"}
+{"English": "deformable template", "tgt_lang": "French", "translation": "modèle déformable"}
+{"English": "mocap", "tgt_lang": "French", "translation": "mocap"}
+{"English": "deep net", "tgt_lang": "French", "translation": "réseau profond"}
+{"English": "transformer block", "tgt_lang": "French", "translation": "Bloc Transformer"}
+{"English": "bias-variance tradeoff", "tgt_lang": "French", "translation": "compromis biais-variance"}
+{"English": "topic classification", "tgt_lang": "French", "translation": "classification de sujets"}
+{"English": "adversarial loss", "tgt_lang": "French", "translation": "adversarial loss"}
+{"English": "local consistency", "tgt_lang": "French", "translation": "Cohérence locale"}
+{"English": "emotion classification", "tgt_lang": "French", "translation": "classification des émotions"}
+{"English": "model-free approach", "tgt_lang": "French", "translation": "approche sans modèle"}
+{"English": "nsubj", "tgt_lang": "French", "translation": "nsubj"}
+{"English": "convex set", "tgt_lang": "French", "translation": "ensemble convexe"}
+{"English": "context vector", "tgt_lang": "French", "translation": "vecteur de contexte"}
+{"English": "euclidean norm", "tgt_lang": "French", "translation": "Norme euclidienne"}
+{"English": "linear transformation", "tgt_lang": "French", "translation": "transformation linéaire"}
+{"English": "dependency arc", "tgt_lang": "French", "translation": "arc de dépendance"}
+{"English": "clip range", "tgt_lang": "French", "translation": "clip range"}
+{"English": "riemannian gradient", "tgt_lang": "French", "translation": "gradient riemannien"}
+{"English": "projective dependency parsing", "tgt_lang": "French", "translation": "analyse syntaxique en dépendances projectives"}
+{"English": "generative probabilistic model", "tgt_lang": "French", "translation": "modèle probabiliste génératif"}
+{"English": "global objective", "tgt_lang": "French", "translation": "objectif global"}
+{"English": "calculus of variation", "tgt_lang": "French", "translation": "calcul des variations"}
+{"English": "semi-definite programming", "tgt_lang": "French", "translation": "programmation semi-définie"}
+{"English": "scene flow estimation", "tgt_lang": "French", "translation": "estimation du flux de scène"}
+{"English": "prefix tree", "tgt_lang": "French", "translation": "Arbre préfixe"}
+{"English": "structural learning", "tgt_lang": "French", "translation": "apprentissage structurel"}
+{"English": "neural module", "tgt_lang": "French", "translation": "module neuronal"}
+{"English": "iteration", "tgt_lang": "French", "translation": "itération"}
+{"English": "kernel", "tgt_lang": "French", "translation": "Noyau"}
+{"English": "minimizer", "tgt_lang": "French", "translation": "minimisateur"}
+{"English": "solution space", "tgt_lang": "French", "translation": "espace de solutions"}
+{"English": "coarse-to-fine approach", "tgt_lang": "French", "translation": "approche grossière à fine"}
+{"English": "query language", "tgt_lang": "French", "translation": "langage de requête"}
+{"English": "convolutional kernel", "tgt_lang": "French", "translation": "noyau convolutionnel"}
+{"English": "spatial pyramid", "tgt_lang": "French", "translation": "pyramide spatiale"}
+{"English": "joint semantic space", "tgt_lang": "French", "translation": "espace sémantique commun"}
+{"English": "segmentation algorithm", "tgt_lang": "French", "translation": "algorithme de segmentation"}
+{"English": "network", "tgt_lang": "French", "translation": "réseau"}
+{"English": "linear map", "tgt_lang": "French", "translation": "application linéaire"}
+{"English": "nonmonotonic reasoning", "tgt_lang": "French", "translation": "raisonnement non monotone"}
+{"English": "token length", "tgt_lang": "French", "translation": "longueur de jeton"}
+{"English": "caltech-101", "tgt_lang": "French", "translation": "Caltech-101"}
+{"English": "convolution operator", "tgt_lang": "French", "translation": "opérateur de convolution"}
+{"English": "agent policy", "tgt_lang": "French", "translation": "politique de l'agent"}
+{"English": "batch mode", "tgt_lang": "French", "translation": "mode par lot"}
+{"English": "back-off strategy", "tgt_lang": "French", "translation": "stratégie de repli"}
+{"English": "bayesian learning", "tgt_lang": "French", "translation": "apprentissage bayésien"}
+{"English": "batch setting", "tgt_lang": "French", "translation": "cadre par lot"}
+{"English": "intrinsic parameter", "tgt_lang": "French", "translation": "paramètre intrinsèque"}
+{"English": "root mean square error", "tgt_lang": "French", "translation": "erreur quadratique moyenne"}
+{"English": "convolution kernel", "tgt_lang": "French", "translation": "noyau de convolution"}
+{"English": "3d scene geometry", "tgt_lang": "French", "translation": "Géométrie de scène 3D"}
+{"English": "training example", "tgt_lang": "French", "translation": "exemple d'entraînement"}
+{"English": "recommender", "tgt_lang": "French", "translation": "recommander"}
+{"English": "regularization penalty", "tgt_lang": "French", "translation": "pénalité de régularisation"}
+{"English": "default logic", "tgt_lang": "French", "translation": "logique par défaut"}
+{"English": "self-supervision", "tgt_lang": "French", "translation": "auto-surveillance"}
+{"English": "column vector", "tgt_lang": "French", "translation": "vecteur colonne"}
+{"English": "training accuracy", "tgt_lang": "French", "translation": "Précision d'entraînement"}
+{"English": "stochastic model", "tgt_lang": "French", "translation": "modèle stochastique"}
+{"English": "cross-attention layer", "tgt_lang": "French", "translation": "couche de cross-attention"}
+{"English": "pre-training datum", "tgt_lang": "French", "translation": "données de pré-entraînement"}
+{"English": "goal state", "tgt_lang": "French", "translation": "état objectif"}
+{"English": "parameter regularization", "tgt_lang": "French", "translation": "régularisation des paramètres"}
+{"English": "test datum", "tgt_lang": "French", "translation": "donnée de test"}
+{"English": "image plane", "tgt_lang": "French", "translation": "plan image"}
+{"English": "sequence model", "tgt_lang": "French", "translation": "modèle de séquence"}
+{"English": "dense prediction", "tgt_lang": "French", "translation": "prédiction dense"}
+{"English": "action classification", "tgt_lang": "French", "translation": "classification d'actions"}
+{"English": "target variable", "tgt_lang": "French", "translation": "variable cible"}
+{"English": "length penalty", "tgt_lang": "French", "translation": "pénalité de longueur"}
+{"English": "neural mapping", "tgt_lang": "French", "translation": "cartographie neuronale"}
+{"English": "synthetic dataset", "tgt_lang": "French", "translation": "jeu de données synthétique"}
+{"English": "conditional computation", "tgt_lang": "French", "translation": "calcul conditionnel"}
+{"English": "information bottleneck", "tgt_lang": "French", "translation": "goulot d'étranglement d'information"}
+{"English": "graph structure", "tgt_lang": "French", "translation": "structure de graphe"}
+{"English": "deep feature", "tgt_lang": "French", "translation": "caractéristiques profondes"}
+{"English": "conversation history", "tgt_lang": "French", "translation": "historique de conversation"}
+{"English": "machine-in-the-loop", "tgt_lang": "French", "translation": "machine-in-the-loop"}
+{"English": "hungarian loss", "tgt_lang": "French", "translation": "Hungarian loss"}
+{"English": "neural approach", "tgt_lang": "French", "translation": "approches neuronales"}
+{"English": "attribute", "tgt_lang": "French", "translation": "attribut"}
+{"English": "attention value", "tgt_lang": "French", "translation": "valeurs d'attention"}
+{"English": "regret minimization", "tgt_lang": "French", "translation": "minimisation du regret"}
+{"English": "conjunctive query", "tgt_lang": "French", "translation": "requête conjonctive"}
+{"English": "vanishing gradient", "tgt_lang": "French", "translation": "gradient qui disparaît"}
+{"English": "membership inference attack", "tgt_lang": "French", "translation": "attaque par inférence d'appartenance"}
+{"English": "distance measure", "tgt_lang": "French", "translation": "mesure de distance"}
+{"English": "detection window", "tgt_lang": "French", "translation": "fenêtre de détection"}
+{"English": "causal inference", "tgt_lang": "French", "translation": "inférence causale"}
+{"English": "pre-logit", "tgt_lang": "French", "translation": "pré-logits"}
+{"English": "multi-classification", "tgt_lang": "French", "translation": "multi-classification"}
+{"English": "meta-algorithm", "tgt_lang": "French", "translation": "métalgorithme"}
+{"English": "one-stage detector", "tgt_lang": "French", "translation": "détecteur à une étape"}
+{"English": "source sequence", "tgt_lang": "French", "translation": "séquence source"}
+{"English": "beam search decoding algorithm", "tgt_lang": "French", "translation": "algorithme de décodage par recherche en faisceau"}
+{"English": "constraint generation", "tgt_lang": "French", "translation": "génération de contraintes"}
+{"English": "residual block", "tgt_lang": "French", "translation": "bloc résiduel"}
+{"English": "reprojection error", "tgt_lang": "French", "translation": "erreur de reprojection"}
+{"English": "transition system", "tgt_lang": "French", "translation": "système de transition"}
+{"English": "causal language model", "tgt_lang": "French", "translation": "modèle de langage causal"}
+{"English": "word token", "tgt_lang": "French", "translation": "jeton de mot"}
+{"English": "syntactic tree", "tgt_lang": "French", "translation": "arbre syntaxique"}
+{"English": "near-optimality", "tgt_lang": "French", "translation": "quasi-optimalité"}
+{"English": "feature hashing", "tgt_lang": "French", "translation": "feature hashing"}
+{"English": "tensor", "tgt_lang": "French", "translation": "tenseur"}
+{"English": "computer vision", "tgt_lang": "French", "translation": "vision par ordinateur"}
+{"English": "multi-scale architecture", "tgt_lang": "French", "translation": "architecture multi-échelle"}
+{"English": "linear predictor", "tgt_lang": "French", "translation": "prédicteur linéaire"}
+{"English": "subsampling factor", "tgt_lang": "French", "translation": "facteur de sous-échantillonnage"}
+{"English": "vector representation", "tgt_lang": "French", "translation": "représentation vectorielle"}
+{"English": "prior distribution", "tgt_lang": "French", "translation": "distribution a priori"}
+{"English": "validation loss", "tgt_lang": "French", "translation": "perte de validation"}
+{"English": "transfer learning", "tgt_lang": "French", "translation": "apprentissage par transfert"}
+{"English": "monolingual dataset", "tgt_lang": "French", "translation": "ensemble de données monolingues"}
+{"English": "perfect matching", "tgt_lang": "French", "translation": "jumelage parfait"}
+{"English": "label distribution", "tgt_lang": "French", "translation": "distribution des étiquettes"}
+{"English": "point match", "tgt_lang": "French", "translation": "correspondance de points"}
+{"English": "target token", "tgt_lang": "French", "translation": "jeton cible"}
+{"English": "bootstrap learning", "tgt_lang": "French", "translation": "apprentissage bootstrap"}
+{"English": "scene graph", "tgt_lang": "French", "translation": "graphe de scène"}
+{"English": "ranking algorithm", "tgt_lang": "French", "translation": "algorithme de classement"}
+{"English": "log partition function", "tgt_lang": "French", "translation": "fonction de partition logarithmique"}
+{"English": "model initialization", "tgt_lang": "French", "translation": "initialisation du modèle"}
+{"English": "latent vector", "tgt_lang": "French", "translation": "vecteur latent"}
+{"English": "vector arithmetic", "tgt_lang": "French", "translation": "arithmétique vectorielle"}
+{"English": "empirical risk minimization", "tgt_lang": "French", "translation": "minimisation du risque empirique"}
+{"English": "decision policy", "tgt_lang": "French", "translation": "politique de décision"}
+{"English": "visual odometry", "tgt_lang": "French", "translation": "odométrie visuelle"}
+{"English": "multi-label text classification", "tgt_lang": "French", "translation": "classification de texte à étiquettes multiples"}
+{"English": "sub-population", "tgt_lang": "French", "translation": "sous-population"}
+{"English": "block-diagonal matrix", "tgt_lang": "French", "translation": "matrice diagonale par blocs"}
+{"English": "prior probability distribution", "tgt_lang": "French", "translation": "distribution de probabilité a priori"}
+{"English": "algorithmic approach", "tgt_lang": "French", "translation": "approches algorithmiques"}
+{"English": "pareto optimality", "tgt_lang": "French", "translation": "Optimalité de Pareto"}
+{"English": "gating function", "tgt_lang": "French", "translation": "fonction de régulation"}
+{"English": "regularization", "tgt_lang": "French", "translation": "régularisation"}
+{"English": "dependency relation", "tgt_lang": "French", "translation": "relation de dépendance"}
+{"English": "white-box", "tgt_lang": "French", "translation": "boîte blanche"}
+{"English": "motion analysis", "tgt_lang": "French", "translation": "analyse du mouvement"}
+{"English": "pre-trained embedding", "tgt_lang": "French", "translation": "embedding pré-entraîné"}
+{"English": "orthographic projection", "tgt_lang": "French", "translation": "projection orthographique"}
+{"English": "bound variable", "tgt_lang": "French", "translation": "variable liée"}
+{"English": "controllable text generation", "tgt_lang": "French", "translation": "génération de texte contrôlable"}
+{"English": "topic distribution", "tgt_lang": "French", "translation": "distribution de sujets"}
+{"English": "object bounding box", "tgt_lang": "French", "translation": "boîte englobante d'objet"}
+{"English": "proposal probability", "tgt_lang": "French", "translation": "probabilité de proposition"}
+{"English": "self-learning", "tgt_lang": "French", "translation": "self-learning"}
+{"English": "top-p sampling", "tgt_lang": "French", "translation": "top-p sampling"}
+{"English": "generator", "tgt_lang": "French", "translation": "générateur"}
+{"English": "feature dimension", "tgt_lang": "French", "translation": "dimension caractéristique"}
+{"English": "data sparseness", "tgt_lang": "French", "translation": "rareté des données"}
+{"English": "convergence analysis", "tgt_lang": "French", "translation": "analyse de convergence"}
+{"English": "stationary kernel", "tgt_lang": "French", "translation": "noyau stationnaire"}
+{"English": "dictionary matrix", "tgt_lang": "French", "translation": "matrice dictionnaire"}
+{"English": "sub-networks", "tgt_lang": "French", "translation": "sous-réseaux"}
+{"English": "factorization", "tgt_lang": "French", "translation": "factorisation"}
+{"English": "context free grammar", "tgt_lang": "French", "translation": "Grammaire hors-contexte"}
+{"English": "graph matching", "tgt_lang": "French", "translation": "correspondance de graphes"}
+{"English": "autonomous agent", "tgt_lang": "French", "translation": "agent autonome"}
+{"English": "unary production", "tgt_lang": "French", "translation": "production unaire"}
+{"English": "online learning theory", "tgt_lang": "French", "translation": "théorie de l'apprentissage en ligne"}
+{"English": "2d image", "tgt_lang": "French", "translation": "image 2D"}
+{"English": "domain element", "tgt_lang": "French", "translation": "élément de domaine"}
+{"English": "knowledge transfer", "tgt_lang": "French", "translation": "transfert de connaissances"}
+{"English": "orthonormality", "tgt_lang": "French", "translation": "orthonormalité"}
+{"English": "bayesian inference", "tgt_lang": "French", "translation": "Inférence bayésienne"}
+{"English": "feature point", "tgt_lang": "French", "translation": "points caractéristiques"}
+{"English": "posterior probability", "tgt_lang": "French", "translation": "probabilité a posteriori"}
+{"English": "graph convolutional network", "tgt_lang": "French", "translation": "réseau de convolution de graphe"}
+{"English": "foundation model", "tgt_lang": "French", "translation": "modèle fondamental"}
+{"English": "bandit learning", "tgt_lang": "French", "translation": "apprentissage bandit"}
+{"English": "computational model", "tgt_lang": "French", "translation": "modèle computationnel"}
+{"English": "subgame", "tgt_lang": "French", "translation": "sous-jeu"}
+{"English": "belief state", "tgt_lang": "French", "translation": "état de croyance"}
+{"English": "off-diagonal element", "tgt_lang": "French", "translation": "élément hors-diagonale"}
+{"English": "matroid", "tgt_lang": "French", "translation": "matroïde"}
+{"English": "binary atom", "tgt_lang": "French", "translation": "atome binaire"}
+{"English": "semantic class", "tgt_lang": "French", "translation": "classes sémantiques"}
+{"English": "hash", "tgt_lang": "French", "translation": "hachage"}
+{"English": "observational datum", "tgt_lang": "French", "translation": "donnée observationnelle"}
+{"English": "localization", "tgt_lang": "French", "translation": "localisation"}
+{"English": "dialogue system", "tgt_lang": "French", "translation": "système de dialogue"}
+{"English": "categorial grammar", "tgt_lang": "French", "translation": "grammaire catégorielle"}
+{"English": "semantic category", "tgt_lang": "French", "translation": "catégories sémantiques"}
+{"English": "statistical machine translation system", "tgt_lang": "French", "translation": "système de traduction automatique statistique"}
+{"English": "data augmentation", "tgt_lang": "French", "translation": "augmentation de données"}
+{"English": "float32", "tgt_lang": "French", "translation": "float32"}
+{"English": "weight initialization", "tgt_lang": "French", "translation": "initialisation des poids"}
+{"English": "invertible matrix", "tgt_lang": "French", "translation": "matrice inversible"}
+{"English": "behavior policy", "tgt_lang": "French", "translation": "politique de comportement"}
+{"English": "linear decoder", "tgt_lang": "French", "translation": "décodage linéaire"}
+{"English": "automated mechanism design", "tgt_lang": "French", "translation": "conception de mécanisme automatisée"}
+{"English": "probability mass function", "tgt_lang": "French", "translation": "fonction de masse de probabilité"}
+{"English": "hyper-parameter tuning", "tgt_lang": "French", "translation": "réglage des hyperparamètres"}
+{"English": "inference time", "tgt_lang": "French", "translation": "temps d'inférence"}
+{"English": "gaussian random variable", "tgt_lang": "French", "translation": "Variable aléatoire gaussienne"}
+{"English": "advantage function", "tgt_lang": "French", "translation": "fonction d'avantage"}
+{"English": "linear regression", "tgt_lang": "French", "translation": "régression linéaire"}
+{"English": "image classification", "tgt_lang": "French", "translation": "classification d'images"}
+{"English": "maximal frequent pattern", "tgt_lang": "French", "translation": "motif fréquent maximal"}
+{"English": "approximation guarantee", "tgt_lang": "French", "translation": "garantie d'approximation"}
+{"English": "bottom-up learning", "tgt_lang": "French", "translation": "apprentissage ascendant"}
+{"English": "few-shot prompting", "tgt_lang": "French", "translation": "few-shot prompting"}
+{"English": "gradient descent", "tgt_lang": "French", "translation": "Descente de gradient"}
+{"English": "t5 model", "tgt_lang": "French", "translation": "T5 model"}
+{"English": "baseline model", "tgt_lang": "French", "translation": "modèle de base"}
+{"English": "minimax optimization problem", "tgt_lang": "French", "translation": "problème d'optimisation minimax"}
+{"English": "neural network language model", "tgt_lang": "French", "translation": "modèle de langage à réseaux de neurones"}
+{"English": "attribution", "tgt_lang": "French", "translation": "attribution"}
+{"English": "input filter", "tgt_lang": "French", "translation": "filtre d'entrée"}
+{"English": "forward algorithm", "tgt_lang": "French", "translation": "algorithme avant"}
+{"English": "empirical variance", "tgt_lang": "French", "translation": "variance empirique"}
+{"English": "distance function", "tgt_lang": "French", "translation": "fonction de distance"}
+{"English": "lagrange multiplier", "tgt_lang": "French", "translation": "Multiplicateur de Lagrange"}
+{"English": "cross-lingual knowledge transfer", "tgt_lang": "French", "translation": "transfert de connaissances translinguistique"}
+{"English": "time/space complexity", "tgt_lang": "French", "translation": "complexité temporelle/spatiale"}
+{"English": "state transition model", "tgt_lang": "French", "translation": "modèle de transition d'état"}
+{"English": "stochastic search algorithm", "tgt_lang": "French", "translation": "algorithme de recherche stochastique"}
+{"English": "semantic space", "tgt_lang": "French", "translation": "espace sémantique"}
+{"English": "generative adversarial network", "tgt_lang": "French", "translation": "réseau antagoniste génératif"}
+{"English": "junction tree", "tgt_lang": "French", "translation": "arbre de jonction"}
+{"English": "bisimulation", "tgt_lang": "French", "translation": "bisimulation"}
+{"English": "residual error", "tgt_lang": "French", "translation": "erreur résiduelle"}
+{"English": "hill-climbing", "tgt_lang": "French", "translation": "ascension de colline"}
+{"English": "perception", "tgt_lang": "French", "translation": "perception"}
+{"English": "multi-head self-attention module", "tgt_lang": "French", "translation": "module d'attention autonome à têtes multiples"}
+{"English": "self-attention matrix", "tgt_lang": "French", "translation": "matrice de self-attention"}
+{"English": "l 2 -norm", "tgt_lang": "French", "translation": "Norme L2"}
+{"English": "cost-sensitive learning", "tgt_lang": "French", "translation": "apprentissage sensible au coût"}
+{"English": "vision model", "tgt_lang": "French", "translation": "modèle de vision"}
+{"English": "multi-class classification", "tgt_lang": "French", "translation": "classification multiclasses"}
+{"English": "uniform convergence", "tgt_lang": "French", "translation": "convergence uniforme"}
+{"English": "target policy", "tgt_lang": "French", "translation": "politique cible"}
+{"English": "node", "tgt_lang": "French", "translation": "nœud"}
+{"English": "hierarchical model", "tgt_lang": "French", "translation": "modèle hiérarchique"}
+{"English": "pose space", "tgt_lang": "French", "translation": "espace des poses"}
+{"English": "cross entropy error", "tgt_lang": "French", "translation": "erreur d'entropie croisée"}
+{"English": "metric learning algorithm", "tgt_lang": "French", "translation": "algorithme d'apprentissage métrique"}
+{"English": "l1 regularization", "tgt_lang": "French", "translation": "Régularisation L1"}
+{"English": "occupancy map", "tgt_lang": "French", "translation": "carte d'occupation"}
+{"English": "query time", "tgt_lang": "French", "translation": "temps de requête"}
+{"English": "a * algorithm", "tgt_lang": "French", "translation": "A* algorithm"}
+{"English": "sequential decision making", "tgt_lang": "French", "translation": "prise de décision séquentielle"}
+{"English": "feature selection", "tgt_lang": "French", "translation": "sélection de caractéristiques"}
+{"English": "graph isomorphism", "tgt_lang": "French", "translation": "isomorphisme de graphe"}
+{"English": "l2 weight decay", "tgt_lang": "French", "translation": "\"L2 weight decay\""}
+{"English": "critic loss", "tgt_lang": "French", "translation": "perte du critique"}
+{"English": "coarse-to-fine", "tgt_lang": "French", "translation": "coarse-to-fine"}
+{"English": "optimiser", "tgt_lang": "French", "translation": "optimiseur"}
+{"English": "iterative algorithm", "tgt_lang": "French", "translation": "algorithme itératif"}
+{"English": "unsupervised classification", "tgt_lang": "French", "translation": "classification non supervisée"}
+{"English": "semantic alignment", "tgt_lang": "French", "translation": "alignement sémantique"}
+{"English": "hierarchical decoder", "tgt_lang": "French", "translation": "décodeur hiérarchique"}
+{"English": "lexical model", "tgt_lang": "French", "translation": "modèle lexical"}
+{"English": "local minima", "tgt_lang": "French", "translation": "minima locaux"}
+{"English": "excess loss", "tgt_lang": "French", "translation": "perte excédentaire"}
+{"English": "second order", "tgt_lang": "French", "translation": "second ordre"}
+{"English": "binary label", "tgt_lang": "French", "translation": "étiquette binaire"}
+{"English": "minimum description length", "tgt_lang": "French", "translation": "longueur de description minimale"}
+{"English": "human-in-the-loop", "tgt_lang": "French", "translation": "humain dans la boucle"}
+{"English": "deterministic baseline", "tgt_lang": "French", "translation": "baseline déterministe"}
+{"English": "greedy approach", "tgt_lang": "French", "translation": "approche gloutonne"}
+{"English": "temporal logic", "tgt_lang": "French", "translation": "logique temporelle"}
+{"English": "multi-head attention layer", "tgt_lang": "French", "translation": "couche d'attention à têtes multiples"}
+{"English": "intractability", "tgt_lang": "French", "translation": "intractabilité"}
+{"English": "unlexicalized grammar", "tgt_lang": "French", "translation": "grammaire non-lexicalisée"}
+{"English": "image synthesis", "tgt_lang": "French", "translation": "synthèse d'image"}
+{"English": "loss term", "tgt_lang": "French", "translation": "terme de perte"}
+{"English": "datum parallelism", "tgt_lang": "French", "translation": "parallélisme de données"}
+{"English": "generalization ability", "tgt_lang": "French", "translation": "capacité de généralisation"}
+{"English": "energy minimization", "tgt_lang": "French", "translation": "minimisation d'énergie"}
+{"English": "free variable", "tgt_lang": "French", "translation": "variable libre"}
+{"English": "rollout", "tgt_lang": "French", "translation": "déploiement"}
+{"English": "weight decay", "tgt_lang": "French", "translation": "pénalisation de poids"}
+{"English": "document clustering", "tgt_lang": "French", "translation": "regroupement de documents"}
+{"English": "bilateral filtering", "tgt_lang": "French", "translation": "filtrage bilatéral"}
+{"English": "predictor", "tgt_lang": "French", "translation": "prédicteur"}
+{"English": "sequence labeling", "tgt_lang": "French", "translation": "étiquetage de séquence"}
+{"English": "coarse correlated equilibrium", "tgt_lang": "French", "translation": "équilibre corrélé grossier"}
+{"English": "deep q-learning", "tgt_lang": "French", "translation": "deep Q-learning"}
+{"English": "communication graph", "tgt_lang": "French", "translation": "graphe de communication"}
+{"English": "reservoir sampling", "tgt_lang": "French", "translation": "échantillonnage réservoir"}
+{"English": "hybrid model", "tgt_lang": "French", "translation": "modèle hybride"}
+{"English": "classification margin", "tgt_lang": "French", "translation": "marge de classification"}
+{"English": "end-of-sequence token", "tgt_lang": "French", "translation": "jeton de fin de séquence"}
+{"English": "gradient variance", "tgt_lang": "French", "translation": "variance du gradient"}
+{"English": "model development", "tgt_lang": "French", "translation": "développement de modèles"}
+{"English": "conditional entropy", "tgt_lang": "French", "translation": "entropie conditionnelle"}
+{"English": "transition probability", "tgt_lang": "French", "translation": "probabilités de transition"}
+{"English": "uncertainty sampling", "tgt_lang": "French", "translation": "uncertainty sampling"}
+{"English": "probabilistic topic modeling", "tgt_lang": "French", "translation": "modélisation thématique probabiliste"}
+{"English": "hyperprior", "tgt_lang": "French", "translation": "Hyperprior"}
+{"English": "recurrent architecture", "tgt_lang": "French", "translation": "architecture récurrente"}
+{"English": "neural text generation", "tgt_lang": "French", "translation": "génération de texte neuronale"}
+{"English": "piecewise linear", "tgt_lang": "French", "translation": "linéaire par morceaux"}
+{"English": "policy gradient theorem", "tgt_lang": "French", "translation": "théorème du gradient de politique"}
+{"English": "slot", "tgt_lang": "French", "translation": "slot"}
+{"English": "hamming loss", "tgt_lang": "French", "translation": "Hamming loss"}
+{"English": "class", "tgt_lang": "French", "translation": "classe"}
+{"English": "3d localization", "tgt_lang": "French", "translation": "localisation 3D"}
+{"English": "joint likelihood", "tgt_lang": "French", "translation": "vraisemblance conjointe"}
+{"English": "parameter tying", "tgt_lang": "French", "translation": "liaison des paramètres"}
+{"English": "vector space representation", "tgt_lang": "French", "translation": "représentation dans l'espace vectoriel"}
+{"English": "second-order optimization", "tgt_lang": "French", "translation": "optimisation du second ordre"}
+{"English": "ridge regression", "tgt_lang": "French", "translation": "Régression ridge"}
+{"English": "binary classification task", "tgt_lang": "French", "translation": "tâche de classification binaire"}
+{"English": "projection operator", "tgt_lang": "French", "translation": "opérateur de projection"}
+{"English": "text mining", "tgt_lang": "French", "translation": "fouille de texte"}
+{"English": "feature matrix", "tgt_lang": "French", "translation": "matrice de caractéristiques"}
+{"English": "rigid body transformation", "tgt_lang": "French", "translation": "transformation de corps rigide"}
+{"English": "probabilistic inference", "tgt_lang": "French", "translation": "inférence probabiliste"}
+{"English": "identity transformation", "tgt_lang": "French", "translation": "transformation identitaire"}
+{"English": "kernel learning problem", "tgt_lang": "French", "translation": "problème d'apprentissage de noyau"}
+{"English": "jaccard similarity coefficient", "tgt_lang": "French", "translation": "Coefficient de similarité de Jaccard"}
+{"English": "reward", "tgt_lang": "French", "translation": "récompense"}
+{"English": "cosine", "tgt_lang": "French", "translation": "cosinus"}
+{"English": "pretrained multilingual model", "tgt_lang": "French", "translation": "modèle multilingue préentraîné"}
+{"English": "empirical loss", "tgt_lang": "French", "translation": "perte empirique"}
+{"English": "inference algorithm", "tgt_lang": "French", "translation": "algorithme d'inférence"}
+{"English": "representation matrix", "tgt_lang": "French", "translation": "matrices de représentation"}
+{"English": "i.i.d", "tgt_lang": "French", "translation": "i.i.d"}
+{"English": "performance difference lemma", "tgt_lang": "French", "translation": "lemme de différence de performance"}
+{"English": "spectrogram", "tgt_lang": "French", "translation": "spectrogramme"}
+{"English": "macro-average", "tgt_lang": "French", "translation": "macro-moyenne"}
+{"English": "masked token", "tgt_lang": "French", "translation": "jeton masqué"}
+{"English": "weak learning assumption", "tgt_lang": "French", "translation": "hypothèse d'apprentissage faible"}
+{"English": "grammar inducer", "tgt_lang": "French", "translation": "inducteur de grammaire"}
+{"English": "power law distribution", "tgt_lang": "French", "translation": "distribution en loi de puissance"}
+{"English": "convolutional neural network", "tgt_lang": "French", "translation": "réseau neuronal convolutif"}
+{"English": "correlated equilibria", "tgt_lang": "French", "translation": "équilibres corrélés"}
+{"English": "scale invariance", "tgt_lang": "French", "translation": "invariance d'échelle"}
+{"English": "teacher network", "tgt_lang": "French", "translation": "réseau enseignant"}
+{"English": "entailment", "tgt_lang": "French", "translation": "enchaînement"}
+{"English": "pairwise learning", "tgt_lang": "French", "translation": "apprentissage par paires"}
+{"English": "distributionally robust optimization", "tgt_lang": "French", "translation": "optimisation robuste à la distribution"}
+{"English": "bibliographic coupling", "tgt_lang": "French", "translation": "couplage bibliographique"}
+{"English": "unit sphere", "tgt_lang": "French", "translation": "sphère unité"}
+{"English": "social bias", "tgt_lang": "French", "translation": "biais social"}
+{"English": "zero-shot cross-lingual setting", "tgt_lang": "French", "translation": "zero-shot cross-lingual setting"}
+{"English": "submodular influence function", "tgt_lang": "French", "translation": "fonction d'influence sous-modulaire"}
+{"English": "lexical entry", "tgt_lang": "French", "translation": "entrée lexicale"}
+{"English": "quadratic loss", "tgt_lang": "French", "translation": "perte quadratique"}
+{"English": "multi-head attention", "tgt_lang": "French", "translation": "attention multi-tête"}
+{"English": "keypoint detection", "tgt_lang": "French", "translation": "détection de points clés"}
+{"English": "counterfactual fairness", "tgt_lang": "French", "translation": "équité contrefactuelle"}
+{"English": "poisson point process", "tgt_lang": "French", "translation": "Processus ponctuel de Poisson"}
+{"English": "language generation", "tgt_lang": "French", "translation": "génération de langage"}
+{"English": "knowledge graph", "tgt_lang": "French", "translation": "graphe de connaissances"}
+{"English": "regularization term", "tgt_lang": "French", "translation": "terme de régularisation"}
+{"English": "greedy policy", "tgt_lang": "French", "translation": "politique gloutonne"}
+{"English": "degree distribution", "tgt_lang": "French", "translation": "distribution des degrés"}
+{"English": "gaussian function", "tgt_lang": "French", "translation": "fonction gaussienne"}
+{"English": "decoder state", "tgt_lang": "French", "translation": "état du décodeur"}
+{"English": "cycle consistency loss", "tgt_lang": "French", "translation": "cycle consistency loss"}
+{"English": "mean reciprocal rank", "tgt_lang": "French", "translation": "mean reciprocal rank"}
+{"English": "n-gram", "tgt_lang": "French", "translation": "n-gramme"}
+{"English": "hard attention", "tgt_lang": "French", "translation": "attention stricte"}
+{"English": "convex objective", "tgt_lang": "French", "translation": "objectif convexe"}
+{"English": "geometric distribution", "tgt_lang": "French", "translation": "distribution géométrique"}
+{"English": "fractional program", "tgt_lang": "French", "translation": "programme fractionnaire"}
+{"English": "data-to-text generation", "tgt_lang": "French", "translation": "génération de données en texte"}
+{"English": "lambda calculus", "tgt_lang": "French", "translation": "lambda-calcul"}
+{"English": "global coordinate frame", "tgt_lang": "French", "translation": "référentiel de coordonnées global"}
+{"English": "permutation invariance", "tgt_lang": "French", "translation": "invariance par permutation"}
+{"English": "input feature", "tgt_lang": "French", "translation": "caractéristique d'entrée"}
+{"English": "decomposition method", "tgt_lang": "French", "translation": "méthode de décomposition"}
+{"English": "global minima", "tgt_lang": "French", "translation": "Minimum global"}
+{"English": "kernel parameter", "tgt_lang": "French", "translation": "paramètre du noyau"}
+{"English": "word segmentation", "tgt_lang": "French", "translation": "segmentation des mots"}
+{"English": "graph pattern", "tgt_lang": "French", "translation": "motif de graphe"}
+{"English": "light field interpolation", "tgt_lang": "French", "translation": "interpolation de champ lumineux"}
+{"English": "low rank approximation", "tgt_lang": "French", "translation": "approximation de faible rang"}
+{"English": "representer theorem", "tgt_lang": "French", "translation": "théorème du représentant"}
+{"English": "local maximum", "tgt_lang": "French", "translation": "maximum local"}
+{"English": "auxiliary variable", "tgt_lang": "French", "translation": "variable auxiliaire"}
+{"English": "decoder hidden state", "tgt_lang": "French", "translation": "- État caché du décodeur"}
+{"English": "graphlet", "tgt_lang": "French", "translation": "graphlet"}
+{"English": "intersection-over-union", "tgt_lang": "French", "translation": "intersection-sur-union"}
+{"English": "multilingual training", "tgt_lang": "French", "translation": "entraînement multilingue"}
+{"English": "scene representation", "tgt_lang": "French", "translation": "représentation de scène"}
+{"English": "linear system", "tgt_lang": "French", "translation": "système linéaire"}
+{"English": "bregman divergence", "tgt_lang": "French", "translation": "Bregman divergence"}
+{"English": "keypoint detector", "tgt_lang": "French", "translation": "détecteur de points clés"}
+{"English": "measurement noise", "tgt_lang": "French", "translation": "bruit de mesure"}
+{"English": "information content", "tgt_lang": "French", "translation": "contenu informationnel"}
+{"English": "distant supervision", "tgt_lang": "French", "translation": "supervision distante"}
+{"English": "subgraph isomorphism", "tgt_lang": "French", "translation": "isomorphisme de sous-graphe"}
+{"English": "camera matrix", "tgt_lang": "French", "translation": "matrice de caméra"}
+{"English": "annotator bias", "tgt_lang": "French", "translation": "biais de l'annotateur"}
+{"English": "alignment algorithm", "tgt_lang": "French", "translation": "algorithme d'alignement"}
+{"English": "knapsack problem", "tgt_lang": "French", "translation": "problème du sac à dos"}
+{"English": "query phase", "tgt_lang": "French", "translation": "phase de requête"}
+{"English": "linear program", "tgt_lang": "French", "translation": "programme linéaire"}
+{"English": "multi-modal", "tgt_lang": "French", "translation": "multimodal"}
+{"English": "nonconvex function", "tgt_lang": "French", "translation": "fonction non convexe"}
+{"English": "pooling operation", "tgt_lang": "French", "translation": "opération de regroupement"}
+{"English": "consequent", "tgt_lang": "French", "translation": "conséquent"}
+{"English": "transition model", "tgt_lang": "French", "translation": "modèle de transition"}
+{"English": "pre-trained weight", "tgt_lang": "French", "translation": "poids pré-entrainés"}
+{"English": "post-processing", "tgt_lang": "French", "translation": "post-traitement"}
+{"English": "joint inference", "tgt_lang": "French", "translation": "inférence conjointe"}
+{"English": "token-level attention", "tgt_lang": "French", "translation": "attention au niveau du jeton"}
