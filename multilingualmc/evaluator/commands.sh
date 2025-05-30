@@ -117,3 +117,28 @@ CUDA_VISIBLE_DEVICES=0 bash eval_papers.sh gpt4omini_hard_replace
 # explanable comet model: Unbabel/XCOMET-XL
 # python3 eval_on_6060_comet.py --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_googletrans_xcomet_xl.json --model_id Unbabel/XCOMET-XL
 # python3 eval_on_6060_comet.py --in_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/output/predictions_dev_seamless.jsonl --out_file /home/jiaruil5/multilingual/multilingual-model-card/src/data_eval_6060/eval/predictions_dev_seamless_xcomet_xl.json --model_id Unbabel/XCOMET-XL
+
+
+CUDA_VISIBLE_DEVICES=0 bash run_6060.sh nllb
+CUDA_VISIBLE_DEVICES=0 bash run_6060.sh seamless
+CUDA_VISIBLE_DEVICES=0 bash run_6060.sh gpt4omini
+CUDA_VISIBLE_DEVICES=0 bash run_6060.sh aya
+CUDA_VISIBLE_DEVICES=0 bash run_6060.sh aya_old
+
+CUDA_VISIBLE_DEVICES=0 bash run_papers.sh nllb
+CUDA_VISIBLE_DEVICES=0 bash run_papers.sh seamless
+CUDA_VISIBLE_DEVICES=0 bash run_papers.sh gpt4omini
+CUDA_VISIBLE_DEVICES=0 bash run_papers.sh aya
+CUDA_VISIBLE_DEVICES=0 bash run_papers.sh aya_old
+
+
+CUDA_VISIBLE_DEVICES=0,1 bash run_6060.sh llama31_8b
+
+# todo 
+
+CUDA_VISIBLE_DEVICES=0,1 bash run_6060.sh llama3_8b
+
+
+CUDA_VISIBLE_DEVICES=0,1 bash run_papers.sh llama31_8b
+
+CUDA_VISIBLE_DEVICES=0,1 bash run_papers.sh llama3_8b

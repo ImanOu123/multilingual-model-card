@@ -400,49 +400,45 @@ class GoogleTranslator(Translator):
 
 class LLAMATranslator(Translator):
     def prepare_model(self):
-        from translator.llm_prompts import get_prompt
-        self.get_prompt = get_prompt
-        
-        model_id = self.args.model_name
-        self.model_id = model_id
-        
+        # Initialize the pipeline with the correct model and tokenizer
         self.pipeline = transformers.pipeline(
             "text-generation",
-            model=model_id,
+            model=self.args.model_name,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device_map='auto'
         )
         
-    def translate(self, text, src_lang, tgt_lang, prompt_version: str = ""):
-        
-        prompt = self.get_prompt(prompt_version).format(
-            text=text,
-            src_lang=self.args.lang_dict[src_lang],
-            tgt_lang=self.args.lang_dict[tgt_lang]
-        )
+    def translate(self, text, src_lang, tgt_lang):
+        # Construct the prompt as a string (Llama may not expect a structured "messages" input)
+        prompt = f"""Translate the below text from {self.args.lang_dict[src_lang]} to {self.args.lang_dict[tgt_lang]}. Provide the answer only.
+
+```
+{text}
+```
+"""
         
         kwargs = {}
-        if "llama-3-" in self.model_id:
+        if "llama-3-" in self.args.model_name:
             terminators = [
                 self.pipeline.tokenizer.eos_token_id,
                 self.pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
             ]
             kwargs['eos_token_id'] = terminators
         
-        print(prompt)
+        # Perform the inference using the pipeline
         res = self.pipeline(
             [
-                {"role": "system", "content": "You are a helpful assistant"},
+                {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt}
             ],
-            max_new_tokens=4096,
-            temperature=0.6,
-            top_p=0.9,
-            do_sample=True,
+            max_new_tokens=256,
+            do_sample=False,
+            # temperature=0.6,
+            # top_p=0.9,
+            # do_sample=True,
             **kwargs,
         )[0]['generated_text'][-1]['content']
         
-        print(res)
         return res
 
 class QWENTranslator(Translator):

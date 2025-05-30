@@ -65,6 +65,7 @@ def choose_translator(args):
             trans_args.model_name = "/compute/babel-8-7/jiaruil5/.cache/models--meta-llama--Meta-Llama-3.1-70B-Instruct/snapshots/33101ce6ccc08fa6249c10a543ebfcac65173393/"
         else:
             raise NotImplementedError
+        trans_args.method = args.method
         translator = LLAMATranslator(trans_args)
         return translator
     elif "qwen" in args.model:
@@ -119,7 +120,7 @@ if __name__ == "__main__":
         for tgt_lang in tqdm(['Chinese', 'Arabic', 'French', 'Japanese', 'Russian']):
             
             kwargs = {}
-            if 'gpt' in args.model or 'llama' in args.model or 'qwen' in args.model:
+            if 'gpt' in args.model or 'qwen' in args.model:
                 kwargs['prompt_version'] = "simple"
 
 
