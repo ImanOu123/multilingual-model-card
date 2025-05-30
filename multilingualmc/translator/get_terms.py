@@ -127,7 +127,7 @@ class TermCollector:
                 if words[i:i + term_length] == term_words:
                     # Ensure none of the words have been matched before to avoid overlaps
                     if all(idx not in matched_indices for idx in range(i, i + term_length)):
-                        matched_terms.append([term, [i, i+term_length]])
+                        matched_terms_with_indices.append([term, [i, i+term_length]])
                         matched_indices.update(range(i, i + term_length))  # Mark indices as matched
 
         return matched_terms_with_indices
